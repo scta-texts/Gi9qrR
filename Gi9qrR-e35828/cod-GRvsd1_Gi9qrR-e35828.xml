@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,16 +52,16 @@
          </div>
       </front>
       <body>
-         <div xmlns="" xml:id="Gi9qrR-e35828" alias="l1-d6q1">
-            <head>Quaestio 1</head>
-            <p>
+        <div xml:id="Gi9qrR-e35828"><!-- alias="l1-d6q1"-->
+            <head xml:id="Gi9qrR-e35828-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e35828-d1e111">
       <!--171.xml-->
                <pb ed="#C" n="134"/>
                <cb ed="#C" n="a"/>
                <lb ed="#C" n="1"/>QUAESTIIO I. 
       <lb ed="#C" n="2"/>De generatione Filij.
     </p>
-            <p>
+            <p xml:id="Gi9qrR-e35828-d1e124">
                <lb ed="#C" n="3"/>N PRAESENTI DIS. 
       <lb ed="#C" n="4"/>tinctione Mag. dto 
       ve<lb ed="#C" n="5" break="no"/>natur, utrum Pater 
@@ -77,41 +75,41 @@
       quae<lb ed="#C" n="13" break="no"/>remus: utrum Pater genuerit Filium 
       na<lb ed="#C" n="14" break="no"/>tura? 2. utrum necessitate? 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <p>
+            <div xml:id="Gi9qrR-e35828-Dd1e153">
+               <head xml:id="Gi9qrR-e35828-Hd1e155">Articulus 1</head>
+               <p xml:id="Gi9qrR-e35828-d1e158">
                   <lb ed="#C" n="15"/>ARTICVLVS I. 
         <lb ed="#C" n="16"/>Vtrum Pater genuerit Filium natura?
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e165">
                   <lb ed="#C" n="17"/>AD primum sic proceditur: videtur,  
         <lb ed="#C" n="18"/>quod Pater non genuerit Filium 
-        <lb ed="#C" n="19"/>natura: quia secundum <ref>Aug. 7. de 
+        <lb ed="#C" n="19"/>natura: quia secundum <ref xml:id="Gi9qrR-e35828-Rd1e173">Aug. 7. de 
           Tri<lb ed="#C" n="20" break="no"/>nit, cap. 4.</ref> Aliud est Deum esse, aliud 
         Pa<lb ed="#C" n="21" break="no"/>trem esse; non igitur eo est Deus, quo 
         Pa<lb ed="#C" n="22" break="no"/>ter, ergo a simili Filius non erit eo Deus, 
         <lb ed="#C" n="23"/>quo Filius: Sed est Deus natura, ergo 
         <lb ed="#C" n="24"/>non est Filius natura.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e188">
         Praeterea: in Deo 
         <lb ed="#C" n="25"/>tidem est natura, quod voluntas, sed non 
         <lb ed="#C" n="26"/>genuit Pater Filium voluntate, ergo nec 
         <lb ed="#C" n="27"/>natura.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e197">
         Praeterea: cum natura sit deter 
         <lb ed="#C" n="28"/>minata ad unum, effectus naturales per 
         <lb ed="#C" n="29"/>rationem cognosci possunt, ergo posset 
         <lb ed="#C" n="30"/>rationabiliter ostendi Filium esse in 
         Di<lb ed="#C" n="31" break="no"/>vinis. 
       </p>
-               <p>
-                  <lb ed="#C" n="32"/>In contrarium est <name ref="#Augustine">Aug.</name> 15. de Trin. 
+               <p xml:id="Gi9qrR-e35828-d1e209">
+                  <lb ed="#C" n="32"/>In contrarium est <name xml:id="Gi9qrR-e35828-Nd1e213" ref="#Augustine">Aug.</name> 15. de Trin. 
         <lb ed="#C" n="33"/>cap. 20. qui ait: Verbum, per quod omnia 
         <lb ed="#C" n="34"/>lacta sunt, Filium Dei esse natura.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e221">
         Praeterea: 
         <lb ed="#C" n="35"/>secundum Hilarium ut habetur in 
         litte<lb ed="#C" n="36" break="no"/>ra 5. dist. Natura Filius est; quia eandem 
@@ -119,7 +117,7 @@
         <lb ed="#C" n="38"/>habet eandem naturam cum Patre, 
         er<lb ed="#C" n="39" break="no"/>go &amp;c 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e234">
                   <lb ed="#C" n="40"/>Viterius quaeritur cum Pater 
         genue<lb ed="#C" n="41" break="no"/>rit Filium natura: utrum possimus 
         con<lb ed="#C" n="42" break="no"/>cedere quod ipsa natura generet? Et 
@@ -142,12 +140,12 @@
         <lb ed="#C" n="57"/>de hypostasi: &amp; quod hypostalis Bypo 
         <lb ed="#C" n="58"/>stasim generat. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e282">
                   <lb ed="#C" n="59"/>RESOLVTIO. 
         <lb ed="#C" n="60"/>Pater generat Filium prout natura habet  
         <lb ed="#C" n="61"/>rationem principij virtutis. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e291">
                   <lb ed="#C" n="62"/>PREspondeo dicendum, quod Filium 
         <lb ed="#C" n="63"/>RDei esse Filium natura dupliciter  
         <lb ed="#C" n="64"/>potest intelligi. Vno modo formaliter, 
@@ -169,7 +167,7 @@
         <lb ed="#C" n="80"/>concedimus Patrem generare natura, 
         <lb ed="#C" n="81"/>licet non concedamus de alijs attributis, 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e337">
                   <lb ed="#C" n="82"/>Primum sic ostenditur: quia plura 
         <lb ed="#C" n="83"/>attributa in Divinis non sunt synony 
         <lb ed="#C" n="84"/>ma: unde Comm. ait 12. Meta. comnm 
@@ -198,7 +196,7 @@
         <lb ed="#C" n="2"/>luntas comparatur ad velle: ut est 
         essen<lb ed="#C" n="3" break="no"/>tia ad esse: &amp; sic de alijs, 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e399">
                   <lb ed="#C" n="4"/>Declarato primo, quod attributa 
         <lb ed="#C" n="5"/>habent habitudinem distinctam ad suos 
         <lb ed="#C" n="6"/>actus, restat declarare secundum, quod  
@@ -243,7 +241,7 @@
         de<lb ed="#C" n="45" break="no"/>signantis originem, quod declarare 
         vo<lb ed="#C" n="46" break="no"/>lebamus. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e495">
                   <lb ed="#C" n="47"/>Respond. ad arg. Ad primum 
         dicen<lb ed="#C" n="48" break="no"/>dum, non est Filius natura formaliter, 
         <lb ed="#C" n="49"/>se filiatione; est tamen Filius natura eo 
@@ -282,7 +280,7 @@
         <lb ed="#C" n="80"/>tur puram importare abstractionem, ut  
         <lb ed="#C" n="81"/>essentia: &amp; ideo inter cetera ista videtur 
         <lb ed="#C" n="82"/>magis impropria essentia de essentia: 
-        li<lb ed="#C" n="83" break="no"/>cent <name ref="#Augustine">Aug.</name> 7. de Trin. &amp; 15. &amp; 
+        li<lb ed="#C" n="83" break="no"/>cent <name xml:id="Gi9qrR-e35828-Nd1e581" ref="#Augustine">Aug.</name> 7. de Trin. &amp; 15. &amp; 
         inpluri<lb ed="#C" n="84" break="no"/>bus locis utatur ea. Patet igitur quod  
         <lb ed="#C" n="85"/>ista est propria, hypostasis generat, vel  
         <lb ed="#C" n="86"/>Pater generat; sed natura generat, non 
@@ -290,7 +288,7 @@
         <lb ed="#C" n="88"/>quam habet ad generare, ponitur 
         pro<lb ed="#C" n="89" break="no"/>Persona gignente,. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e598">
                   <lb ed="#C" n="90"/>Ad primum dicendum, quod aliqui 
         <lb ed="#C" n="91"/>actus sunt, qui dicunt distinctionem 
         in<lb ed="#C" n="92" break="no"/>ter activum, &amp; passivum, ut per 
@@ -321,13 +319,13 @@
         <lb ed="#C" n="2"/>natio
       </p>  
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <p>
+            <div xml:id="Gi9qrR-e35828-Dd1e662">
+               <head xml:id="Gi9qrR-e35828-Hd1e664">Articulus 2</head>
+               <p xml:id="Gi9qrR-e35828-d1e667">
                   <lb ed="#C" n="3"/>ARTICVLVS II. 
         <lb ed="#C" n="4"/>Vtrum Pater genuerit Filium necessitate?
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e674">
                   <lb ed="#C" n="5"/>Ecundo quaeritur: utrum Pater 
         ge<lb ed="#C" n="6" break="no"/>nuerit Filium necessitate? Videtur  
         <lb ed="#C" n="7"/>quod sic: quia Phil. in 5. Metaph. cum 
@@ -338,7 +336,7 @@
         <lb ed="#C" n="12"/>Aug. 5. de Trin. c. 5. ergo de 
         necessita<lb ed="#C" n="13" break="no"/>te ipsum generat.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e696">
         Praeterea: si 
         genera<lb ed="#C" n="14" break="no"/>tio alicuius non est de necessitate, hoc  
         <lb ed="#C" n="15"/>non est, nisi quia fit ex materia 
@@ -349,35 +347,35 @@
         <lb ed="#C" n="20"/>gignitur ex materia praeiacente, ergo 
         <lb ed="#C" n="21"/>&amp;c.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e716">
         Praeterea: vult Philos. 12. Metaph. 
         <lb ed="#C" n="22"/>cap. ultim. quod Deus necesse habeat  
         <lb ed="#C" n="23"/>regere haec inferiora, sed maior est ne¬ 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e724">
                   <lb ed="#C" n="24"/>cessitas in Deo respectu productionis, 
         <lb ed="#C" n="25"/>Personarum, quam creaturarum, 
         er<lb ed="#C" n="26" break="no"/>go &amp;c. 
       </p>
-               <p>
-                  <lb ed="#C" n="27"/>In contrarium est <name ref="#Augustine">Aug.</name> ad Orosium, 
+               <p xml:id="Gi9qrR-e35828-d1e733">
+                  <lb ed="#C" n="27"/>In contrarium est <name xml:id="Gi9qrR-e35828-Nd1e737" ref="#Augustine">Aug.</name> ad Orosium, 
         <lb ed="#C" n="28"/>qui dicit Patrem Filium non voluntate, 
         <lb ed="#C" n="29"/>nec necessitate genuisse: quia necessitas 
         <lb ed="#C" n="30"/>non est in Deo.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e747">
         Praeterea: scribitur 5. 
         <lb ed="#C" n="31"/>Metaph. Omne necessarium est contristans; sec 
         <lb ed="#C" n="32"/>in Deo nulla tristitia, ergo &amp;c. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e754">
                   <lb ed="#C" n="33"/>RESOLVTIO. 
         <lb ed="#C" n="34"/>Necessitate immutabilitatis, &amp; naturalis 
         exi<lb ed="#C" n="35" break="no"/>gentiae, Pater Filium genuit; non necessitate in¬ 
         <lb ed="#C" n="36"/>digentiae nec coactionis, nec alicuius 
         <lb ed="#C" n="37"/>finalis causalitatis. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e767">
                   <lb ed="#C" n="38"/>REspondeo dicendum, quod cum 
         <lb ed="#C" n="39"/>Rcausa sit, ad cuius esse sequitur aliud 
         <lb ed="#C" n="40"/>de necessitate, si volumus accipere 
@@ -421,14 +419,14 @@
         modi<lb ed="#C" n="76" break="no"/>quia sumuntur per comparationem ad 
         <lb ed="#C" n="77"/>causas, in Deo proprie non reperiuntur? 
         <lb ed="#C" n="78"/>sic sumpti: quia caret omni causa, 
-        pro<lb ed="#C" n="79" break="no"/>prie loquendo: &amp; id eo dicit <name ref="#Augustine">August.</name> ad 
+        pro<lb ed="#C" n="79" break="no"/>prie loquendo: &amp; id eo dicit <name xml:id="Gi9qrR-e35828-Nd1e864" ref="#Augustine">August.</name> ad 
         <lb ed="#C" n="80"/>Drosium, quod in Deo nulla necessitas 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e870">
                   <lb ed="#C" n="81"/>Possumus tamem aliquem istorum 
         mo<lb ed="#C" n="82" break="no"/>dorum transferre ad Divina, ut illum, 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e878">
                   <lb ed="#C" n="83"/>ui sumitur per comparationem ad 
         for<lb ed="#C" n="84" break="no"/>mam. Nam necessa rium per 
         compara<lb ed="#C" n="85" break="no"/>tionem ad materiamin Deo non est, 
@@ -475,7 +473,7 @@
         <lb ed="#C" n="20"/>se habet ad Filij generationem: cum sua 
         <lb ed="#C" n="21"/>natura exigat talem actum. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e978">
                   <lb ed="#C" n="22"/>Respond. ad arg. Ad primum 
         dicen<lb ed="#C" n="23" break="no"/>dum, quod arguit de necessitate 
         immu<lb ed="#C" n="24" break="no"/>tabilitatis, quod concedendum est. Et  
@@ -485,11 +483,11 @@
         neces<lb ed="#C" n="28" break="no"/>sitas non est in Deo coactionis, vel 
         in<lb ed="#C" n="29" break="no"/>digentiae, vel respectu finis 
         consequen<lb ed="#C" n="30" break="no"/>di; sed est in eo necessitas immutabili 
-        <lb ed="#C" n="31"/>tatis, &amp; de tali non loquitur <name ref="#Augustine">August.</name> Et  
+        <lb ed="#C" n="31"/>tatis, &amp; de tali non loquitur <name xml:id="Gi9qrR-e35828-Nd1e1001" ref="#Augustine">August.</name> Et  
         <lb ed="#C" n="32"/>per hoc patet solutio ad 2. quia talis 
         ne<lb ed="#C" n="33" break="no"/>cessitas non est contristans.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e35828-d1e1010">
         Praeterea: 
         <lb ed="#C" n="34"/>illa verba non sunt Philosophi, sed 
         cu<lb ed="#C" n="35" break="no"/>iusdam poetae, ut Phil. introducit.  
