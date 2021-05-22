@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,14 +52,14 @@
          </div>
       </front>
       <body>
-         <div xmlns="" xml:id="Gi9qrR-e22819" alias="l1-d3p2q2">
-            <head>Quaestio 2</head>
-            <p>
+        <div xml:id="Gi9qrR-e22819"><!-- alias="l1-d3p2q2" -->
+            <head xml:id="Gi9qrR-e22819-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e22819-d1e111">
       
                <lb ed="#C" n="80"/>QUAESTIO II.
       <lb ed="#C" n="81"/>De partibus imaginis.
     </p>
-            <p>
+            <p xml:id="Gi9qrR-e22819-d1e118">
                <lb ed="#C" n="82"/>POstea quaeritur de partibus imag. 
       <lb ed="#C" n="83"/> nis. Hae autem dupliciter al 
       <lb ed="#C" n="84"/>signantur memoria, intelligentia, &amp; 
@@ -71,13 +69,13 @@
       <lb ed="#C" n="88"/>de omnibus, secudum quae sumitur 
       ima<lb ed="#C" n="89" break="no"/>go. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <p>
+            <div xml:id="Gi9qrR-e22819-Dd1e138">
+               <head xml:id="Gi9qrR-e22819-Hd1e140">Articulus 1</head>
+               <p xml:id="Gi9qrR-e22819-d1e143">
                   <lb ed="#C" n="90"/>ARTICVLUS I. 
         <lb ed="#C" n="91"/>Vtrum memoria pertineat ad imaginem? 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e150">
                   <lb ed="#C" n="92"/>D primum sic proceditur: videtur,  
         <lb ed="#C" n="93"/>quod memoria non pertineat ad 
         <lb ed="#C" n="94"/>imaginem: nam quod habet organum, 
@@ -87,18 +85,18 @@
         <lb ed="#C" n="98"/>tum: ut ostendit Comm. sup. 3. de 
         A<lb ed="#C" n="99" break="no"/>nim. ergo &amp;c.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e170">
         Praeterea: memoria 
         res<lb ed="#C" n="100" break="no"/>picit transitoria, &amp; praeterita, sed ut 
         di<lb ed="#C" n="101" break="no"/>citur 14. de Trin. cap. 3. Imago in eo, quod  
         <lb ed="#C" n="102"/>semper erit, invenienda est, ergo &amp;c. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e179">
                   <lb ed="#C" n="103"/>Incontrarium est: quia 14. de Trin. 
         <lb ed="#C" n="104"/>ostenditur, quod memoria pertinet ad 
         <lb ed="#C" n="105"/>imaginem. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e189">
                   <lb ed="#C" n="106"/>Vlterius videtur, quod intelligentia 
         <lb ed="#C" n="107"/>non pertineat ad imaginem: quia, ut 
         <!--123.xml-->
@@ -112,15 +110,15 @@
         <lb ed="#C" n="6"/>sed imago debet quaeri in his, quae sunt, 
         <lb ed="#C" n="7"/>demper, ergo &amp;c. 
       </p>
-               <p>
-                  <lb ed="#C" n="8"/>In contrarium est quod dicit <name ref="#Augustine">Aug.</name> 
+               <p xml:id="Gi9qrR-e22819-d1e218">
+                  <lb ed="#C" n="8"/>In contrarium est quod dicit <name xml:id="Gi9qrR-e22819-Nd1e222" ref="#Augustine">Aug.</name> 
                   <lb ed="#C" n="9"/>in sermone de imagine, quod 
         memo<lb ed="#C" n="10" break="no"/>ria, intellectus, &amp; voluntas pertinent ad 
         <lb ed="#C" n="11"/>imaginem. Et 14. de Trin. cap. 7. 
         in<lb ed="#C" n="12" break="no"/>telligentia computatur inter partes 
         <lb ed="#C" n="13"/>imaginis. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e237">
                   <lb ed="#C" n="14"/>Vlterius videtur, quod voluntas non 
         <lb ed="#C" n="15"/>pertineat ad imaginem: nam Spiritus 
         <lb ed="#C" n="16"/>Sanctus non dicitur imago, quia non 
@@ -130,19 +128,19 @@
         <lb ed="#C" n="20"/>modum naturae, ad imaginem non 
         per<lb ed="#C" n="21" break="no"/>tinebit.  
       </p>
-               <p>
-                  <lb ed="#C" n="22"/>In contrarium est <name ref="#Augustine">Aug.</name> de Trin. 
+               <p xml:id="Gi9qrR-e22819-d1e257">
+                  <lb ed="#C" n="22"/>In contrarium est <name xml:id="Gi9qrR-e22819-Nd1e261" ref="#Augustine">Aug.</name> de Trin. 
         mul<lb ed="#C" n="23" break="no"/>tis in locis; qui ponit ipsam partem 
         ima<lb ed="#C" n="24" break="no"/>ginis. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e269">
                   <lb ed="#C" n="25"/>RESOLVTIO. 
         <lb ed="#C" n="26"/>Ad imaginem memoria concurrit cum intelli¬ 
         <lb ed="#C" n="27"/>gentia, &amp; voluntate. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e278">
                   <lb ed="#C" n="28"/>REspondeo dicendum, quod 
-        secun<lb ed="#C" n="29" break="no"/>dum <name ref="#Augustine">August.</name> 14. de Trin. cap. 7. 
+        secun<lb ed="#C" n="29" break="no"/>dum <name xml:id="Gi9qrR-e22819-Nd1e284" ref="#Augustine">August.</name> 14. de Trin. cap. 7. 
         <lb ed="#C" n="30"/>imago potius est in nobis, cum actu intel¬ 
         <lb ed="#C" n="31"/>ligimus, quam cum habitu. Ad actum 
         <lb ed="#C" n="32"/>cautem intelligendi non sufficit essentiam 
@@ -155,7 +153,7 @@
         <lb ed="#C" n="39"/>nima nostra esse habeant, oportet 
         igi<lb ed="#C" n="40" break="no"/>ur dare aliquam virtutem, quae 
         huius<lb ed="#C" n="41" break="no"/>modi species habeat conservare, &amp; illud. 
-        <lb ed="#C" n="42"/>est memoria secundum <name ref="#Augustine">Aug.</name> species 
+        <lb ed="#C" n="42"/>est memoria secundum <name xml:id="Gi9qrR-e22819-Nd1e315" ref="#Augustine">Aug.</name> species 
         au<lb ed="#C" n="43" break="no"/>em, quae sunt in memoria, sunt quasi 
         <lb ed="#C" n="44"/>in abscondito, &amp; fiunt in aperto, cum 
         <lb ed="#C" n="45"/>inde formatur intelligentia: ut dicitur  
@@ -174,7 +172,7 @@
         ima<lb ed="#C" n="56" break="no"/>ginis assignantur, memoria, intellectus, 
         <lb ed="#C" n="57"/>&amp; voluntas. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e357">
                   <lb ed="#C" n="58"/>Resp. ad arg. Ad primum dicendum, 
         <lb ed="#C" n="59"/>quod aequivocatur in memoria: nam 
         <lb ed="#C" n="60"/>memoria, ut hic, sumitur in parte 
@@ -189,7 +187,7 @@
         <lb ed="#C" n="69"/>ossunt habere esse praesens, &amp; praeteritum: 
         <lb ed="#C" n="70"/>icet prout ad istam comparantur, 
         dire<lb ed="#C" n="71" break="no"/>cte nullum tempus circumcernant: 
-        un<lb ed="#C" n="72" break="no"/>de <name ref="#Augustine">Aug.</name> 14. de Trin. cap. 11. loquens 
+        un<lb ed="#C" n="72" break="no"/>de <name xml:id="Gi9qrR-e22819-Nd1e391" ref="#Augustine">Aug.</name> 14. de Trin. cap. 11. loquens 
         <lb ed="#C" n="73"/>de ista memoria ait: quod non solum, 
         <lb ed="#C" n="74"/>est praeteritorum, sed praesentium. 
         <lb ed="#C" n="75"/>Ad illud, quod ulterius quaeritur: utrum 
@@ -200,12 +198,12 @@
         Di<lb ed="#C" n="80" break="no"/>cendum, quod si non est semper in actu 
         <lb ed="#C" n="81"/>suo secundo, est semper in actu primo, 
         <lb ed="#C" n="82"/>&amp; si non cogitat, semper tamen 
-        intelli<lb ed="#C" n="83" break="no"/>git: unde <name ref="#Augustine">Aug.</name> 14. de Trinit, cap. 6. 
+        intelli<lb ed="#C" n="83" break="no"/>git: unde <name xml:id="Gi9qrR-e22819-Nd1e418" ref="#Augustine">Aug.</name> 14. de Trinit, cap. 6. 
         <lb ed="#C" n="84"/>ait: quod mens semper sui meminit  
         <lb ed="#C" n="85"/>somper se intelligit, non tamen semper 
         <lb ed="#C" n="86"/>se cogitat.  
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e429">
                   <lb ed="#C" n="87"/>Ad illud, quod ulterius quaerebatur,  
         <lb ed="#C" n="88"/>utrum voluntas pertineat ad imaginem? 
         <lb ed="#C" n="89"/>Patet quod sic: cum non possit esse ima 
@@ -223,14 +221,14 @@
         <lb ed="#C" n="101"/>ctu unius Persone, sed respectu to¬ 
         <lb ed="#C" n="102"/>tius Trinitatis, secundum quod su¬ 
         <lb ed="#C" n="103"/>mus ad imaginem Dei secundum 
-        <lb ed="#C" n="104"/>animam: ut probat <name ref="#Augustine">August.</name> 
+        <lb ed="#C" n="104"/>animam: ut probat <name xml:id="Gi9qrR-e22819-Nd1e470" ref="#Augustine">August.</name> 
                   <lb ed="#C" n="105"/>14. de Trin. cap. penult. 
         <lb ed="#C" n="106"/>&amp; ultim. 
       </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <p>
+            <div xml:id="Gi9qrR-e22819-Dd1e479">
+               <head xml:id="Gi9qrR-e22819-Hd1e481">Articulus 2</head>
+               <p xml:id="Gi9qrR-e22819-d1e484">
         <!--124.xml-->
                   <pb ed="#C" n="87"/>
                   <cb ed="#C" n="a"/>
@@ -238,39 +236,39 @@
         <lb ed="#C" n="2"/>Quomodo in mente, notitia, &amp; amore repe¬ 
         <lb ed="#C" n="3"/>ritur imago 2 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e500">
                   <lb ed="#C" n="4"/>DOstea quaeritur de secunda assigna¬ 
         <lb ed="#C" n="5"/>tione, quae dicitur mens, notitia, 
         <lb ed="#C" n="6"/>&amp; amor.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e509">
         Et videtur quod ista assignatio 
         <lb ed="#C" n="7"/>non sit bona: quia ista assignatio est res 
         <lb ed="#C" n="8"/>pectu substantiae animae, sed secundum 
         <lb ed="#C" n="9"/>quod anima se cognoscit non dicitur? 
         <lb ed="#C" n="10"/>imago: ut dicitur 14. de Trin. cap. 12. 
         <lb ed="#C" n="11"/>Praeterea: imago non dicitur ad se 
-        ip<lb ed="#C" n="12" break="no"/>sam secundum <name ref="#Augustine">Aug.</name> ergo non debet 
+        ip<lb ed="#C" n="12" break="no"/>sam secundum <name xml:id="Gi9qrR-e22819-Nd1e524" ref="#Augustine">Aug.</name> ergo non debet 
         <lb ed="#C" n="13"/>sumi imago in anima per 
         comparatio<lb ed="#C" n="14" break="no"/>nem ad se ipsam, sed illo modo sumitur 
         <lb ed="#C" n="15"/>hic, ergo &amp;c 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e534">
                   <lb ed="#C" n="16"/>Vlterius quaeritur: quid accipiatur  
         <lb ed="#C" n="17"/>ibi pro mente?
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e542">
         Et videtur quod non 
         <lb ed="#C" n="18"/>substantia: quia substantia animae non 
         <lb ed="#C" n="19"/>habet partem, &amp; partem; sed mens hic 
-        <lb ed="#C" n="20"/>accepta secundum <name ref="#Augustine">Aug.</name> 15. de Trinit.  
+        <lb ed="#C" n="20"/>accepta secundum <name xml:id="Gi9qrR-e22819-Nd1e550" ref="#Augustine">Aug.</name> 15. de Trinit.  
         <lb ed="#C" n="21"/>cap. 7. non est anima, sed id quod 
         ex<lb ed="#C" n="22" break="no"/>cellit in anima. Item non potest sumi 
         <lb ed="#C" n="23"/>pro potentia: quia tunc ista assignatio 
         <lb ed="#C" n="24"/>imaginis non differret a prima 
         assigna<lb ed="#C" n="25" break="no"/>tione. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e565">
                   <lb ed="#C" n="26"/>Vlterius quaeritur: quid accipiatur  
         <lb ed="#C" n="27"/>ibi pro notitia, &amp; amore? Et videtur,  
         <lb ed="#C" n="28"/>quod non accipiantur ista duo pro 
@@ -280,7 +278,7 @@
         <lb ed="#C" n="32"/>nec pro potentia, quia pura potentia non 
         <lb ed="#C" n="33"/>sufficit, ut anima se cognoscat, nisi ab 
         <lb ed="#C" n="34"/>ea egrediatur actus: nec pro actibus, 
-        <lb ed="#C" n="35"/>quia secundum <name ref="#Augustine">Aug.</name> 14. de Trin. cap. 
+        <lb ed="#C" n="35"/>quia secundum <name xml:id="Gi9qrR-e22819-Nd1e588" ref="#Augustine">Aug.</name> 14. de Trin. cap. 
         <lb ed="#C" n="36"/>6. anima semper se intelligit, &amp; semper 
         <lb ed="#C" n="37"/>est ibi notitia, &amp; amor; sed non semper 
         <lb ed="#C" n="38"/>est in actu ipsa anima, cum sit potentia 
@@ -292,7 +290,7 @@
         <lb ed="#C" n="44"/>Ethicorum: postquam non praecesserunt 
         <lb ed="#C" n="45"/>ibi actus, non sunt ibi habitus.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e614">
         <!--124.xml-->
                   <cb ed="#C" n="b"/>
                   <lb ed="#C" n="46"/>RESOLVTIO. 
@@ -303,7 +301,7 @@
         <lb ed="#C" n="51"/>notitia, &amp; amor sive actualis, sive habi¬ 
         <lb ed="#C" n="52"/>tualis sunt imaginis partes.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e636">
                   <lb ed="#C" n="53"/>REspondeo dicendum, quod per ea, 
         <lb ed="#C" n="54"/>quae sunt in sensu, devenimus in 
         <lb ed="#C" n="55"/>cognitionem eorum, quae sunt 
@@ -334,7 +332,7 @@
         <lb ed="#C" n="80"/>patere 11. de Trinit, sed sicut est in 
         <lb ed="#C" n="81"/>lensu, sit suo modo est in intellectu. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e701">
                   <lb ed="#C" n="82"/>Ad cuius evidentiam notandum, quod  
         <lb ed="#C" n="83"/>aima aliter cognoscit se, aliter alia: ut  
         <lb ed="#C" n="84"/>dicitur 14. de Trin. cap. 10. quia 
@@ -348,7 +346,7 @@
         prae<lb ed="#C" n="92" break="no"/>sto sit, habitualiter se per se ipsam 
         in<lb ed="#C" n="93" break="no"/>telligit 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e730">
                   <lb ed="#C" n="94"/>Notandum tamen quod non est 
         hu<lb ed="#C" n="95" break="no"/>iusmodi habitualis cognitio, prout de 
         <lb ed="#C" n="96"/>habitu determinavit Philos. quem 
@@ -390,7 +388,7 @@
         <lb ed="#C" n="29"/>sive substantiam animae, &amp; notitiam, &amp; 
         <lb ed="#C" n="30"/>amorem. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e820">
                   <lb ed="#C" n="31"/>Cum autem assignabimus respectu 
         <lb ed="#C" n="32"/>aliorum, tunc memoria erit ibi pars 
         <lb ed="#C" n="33"/>imaginis: &amp; erit ibi imago memoria, 
@@ -407,7 +405,7 @@
         sub<lb ed="#C" n="44" break="no"/>stantia, notitia &amp; amor accipiuntur 
         pro<lb ed="#C" n="45" break="no"/>actibus, vel pro habitibus, 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e855">
                   <lb ed="#C" n="46"/>Respondeo ad arg. Ad primum 
         dicen<lb ed="#C" n="47" break="no"/>dum: quod licet ibi non sit ita perfecte 
         <lb ed="#C" n="48"/>imago, cum anima se intelligit, sicut  
@@ -419,7 +417,7 @@
         <lb ed="#C" n="54"/>quetrinitas in nobis non est imago 
         ani<lb ed="#C" n="55" break="no"/>mae, sed imago Trinitatis Caelestis. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e879">
                   <lb ed="#C" n="56"/>Ad illud, quod quaeritur ulterius, prout 
         <!--125.xml-->
         <cb ed="#C" n="b"/>
@@ -431,7 +429,7 @@
         su<lb ed="#C" n="62" break="no"/>premum in anima, prout in ea habet esse 
         u<lb ed="#C" n="63" break="no"/>ratio, &amp; huiusmodi. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e903">
                   <lb ed="#C" n="64"/>Ad illud, quod ulterius quaeritur, quid 
         <lb ed="#C" n="65"/>accipiatur ibi pro notitia, &amp; amore? 
         Di<lb ed="#C" n="66" break="no"/>cendum, quod habitus, vel actus: &amp; 
@@ -452,19 +450,19 @@
         praecedenti<lb ed="#C" n="81" break="no"/>bus non generatur,  
       </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <p>
+            <div xml:id="Gi9qrR-e22819-Dd1e947">
+               <head xml:id="Gi9qrR-e22819-Hd1e949">Articulus 3</head>
+               <p xml:id="Gi9qrR-e22819-d1e952">
                   <lb ed="#C" n="82"/>ARTICVLVS III. 
         <lb ed="#C" n="83"/>Respectu quorum obiectorum sit imago trini¬ 
         <lb ed="#C" n="84"/>tatis in anima? 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e961">
                   <lb ed="#C" n="85"/>TErtio quaeritur respectu quorum 
         <lb ed="#C" n="86"/>obiectorum sumatur imago 
         trini<lb ed="#C" n="87" break="no"/>tatis in anima?
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e970">
         Et videtur, quod non 
         <lb ed="#C" n="88"/>sumatur respectu obiectorum 
         aeterno<lb ed="#C" n="89" break="no"/>rum: quia ad talia comparatur anima 
@@ -474,7 +472,7 @@
         <lb ed="#C" n="93"/>nobis penitus ignota, non igitur 
         respe<lb ed="#C" n="94" break="no"/>ctu talium sumetur imago.
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e988">
         Praeterea 
         <lb ed="#C" n="95"/>quando aliquid cognoscit aliud mediam 
         <lb ed="#C" n="96"/>te alio, ita quod medium sit ex parte re 
@@ -489,7 +487,7 @@
         <lb ed="#C" n="105"/>imago trinitatis in nobis, non respectu 
         <lb ed="#C" n="106"/>aeternorum, 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1018">
                   <lb ed="#C" n="107"/>In contrarium est quod dicitur 14. de 
         <lb ed="#C" n="108"/>Trin. cap. 12. quod anima non propterea Dei 
         <lb ed="#C" n="109"/>imago est, quia sui meminit, &amp; intelligit, ad 
@@ -499,20 +497,20 @@
                   <lb ed="#C" n="1"/>diligit se: sed quia potest etiam meminisse, in 
         <lb ed="#C" n="2"/>telligere, &amp; amare a quo facta est. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1038">
                   <lb ed="#C" n="3"/>Vlterius videtur, quod non sit 
         ima<lb ed="#C" n="4" break="no"/>go Trinitatis in nobis: ut anima se cog 
-        <lb ed="#C" n="5"/>noscit, per <name ref="#Augustine">Aug.</name> ibidem qui ait: quod  
+        <lb ed="#C" n="5"/>noscit, per <name xml:id="Gi9qrR-e22819-Nd1e1046" ref="#Augustine">Aug.</name> ibidem qui ait: quod  
         <lb ed="#C" n="6"/>anima Non propterea imago Dei est: quia sui 
         <lb ed="#C" n="7"/>meminit, intelligit, &amp; diligit se. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1055">
                   <lb ed="#C" n="8"/>In contrarium est quod dicitur 14. de 
         <lb ed="#C" n="9"/>Trin. cap. 7. Quia eo quod anima semper se 
         <lb ed="#C" n="10"/>dici,it, semper se meminit, semper se 
         intelli<lb ed="#C" n="11" break="no"/>git, semper est imago Trinitatis. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1066">
                   <lb ed="#C" n="12"/>Item videtur, quod imago possit 
         su<lb ed="#C" n="13" break="no"/>mi respectu omnium obiectorum: quia 
         <lb ed="#C" n="14"/>dicitur 14. de Trinit, cap. 4. quod nulla 
@@ -520,20 +518,20 @@
         <lb ed="#C" n="16"/>non esset, nisi esset imago respectu 
         om<lb ed="#C" n="17" break="no"/>nium obiectorum, ergo &amp;c. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1082">
                   <lb ed="#C" n="18"/>In contrarium est quod dicitur 12. 
         <lb ed="#C" n="19"/>de Trin. quod in inferiori parte rationis 
         <lb ed="#C" n="20"/>invenitur selum Trinitas, sed non 
         ima<lb ed="#C" n="21" break="no"/>go: sed inferior dicitur, ut 
         contempla<lb ed="#C" n="22" break="no"/>tur temporalia, ergo &amp;c. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1095">
                   <lb ed="#C" n="23"/>RESOLVTIO. 
         <lb ed="#C" n="24"/>cum anima se, &amp; alia intelligit, est imago 
         Tri<lb ed="#C" n="25" break="no"/>nitatis diversimode, sed complete cum Deum 
         <lb ed="#C" n="26"/>ut sibi possibile est, cognoscit. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1107">
                   <lb ed="#C" n="27"/>REspondeo dicendum, quod ut 
         vi<lb ed="#C" n="28" break="no"/>deamus quomodo accipitur 
         ima<lb ed="#C" n="29" break="no"/>go Trinitatis in anima, oportet nos 
@@ -544,7 +542,7 @@
         <lb ed="#C" n="34"/>mo est intelligentia praeditus, &amp; exterior 
         <lb ed="#C" n="35"/>sensu: ut dicitur in priuc. 11. de Trin. in 
         <lb ed="#C" n="36"/>quolibet autem tali inveniuntur trinitates, 
-        <lb ed="#C" n="37"/>ut venatur eas <name ref="#Augustine">Aug.</name> in diver. lib. de Trin. 
+        <lb ed="#C" n="37"/>ut venatur eas <name xml:id="Gi9qrR-e22819-Nd1e1133" ref="#Augustine">Aug.</name> in diver. lib. de Trin. 
         <lb ed="#C" n="38"/>Inveniuntur autem in homine exteriori, 
         <lb ed="#C" n="39"/>sive in his, quae pertinent ad sensum, tres 
         <lb ed="#C" n="40"/>trinitates, quatuor species &amp; duae 
@@ -573,7 +571,7 @@
         <lb ed="#C" n="61"/>in memoria est proprie visio; sed visio 
         <lb ed="#C" n="62"/>est in oculo, &amp; in cogitativa. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1195">
                   <lb ed="#C" n="63"/>Postquam vidimus trinitates in 
         ho<lb ed="#C" n="64" break="no"/>mine exteriori, restat videre eas in 
         ho<lb ed="#C" n="65" break="no"/>mine interiori: ille autem homo, ut 
@@ -592,7 +590,7 @@
         <lb ed="#C" n="78"/>lia est tertia trinitas. Item quaelibet 
         ista<lb ed="#C" n="79" break="no"/>rum trinitatum potest diuidi in 
         actua<lb ed="#C" n="80" break="no"/>lem, &amp; habitualem: secundum quod  
-        <lb ed="#C" n="81"/>vult <name ref="#Augustine">August.</name> 14. de Trin. cap. 5. quod 
+        <lb ed="#C" n="81"/>vult <name xml:id="Gi9qrR-e22819-Nd1e1238" ref="#Augustine">August.</name> 14. de Trin. cap. 5. quod 
         <lb ed="#C" n="82"/>trinitates diversificantur in anima per 
         <lb ed="#C" n="83"/>esse actuale, &amp; habituae: &amp; ex eo quod 
         <lb ed="#C" n="84"/>in anima sunt res, &amp; vestigia rerum. 
@@ -605,7 +603,7 @@
         <lb ed="#C" n="91"/>temporalium, &amp; hoc actualiter, &amp; 
         ha<lb ed="#C" n="92" break="no"/>bitualiter. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1266">
                   <lb ed="#C" n="93"/>Hoc viso sciendum, quod aliquid 
         <lb ed="#C" n="94"/>potest dici imago quadrupliciter. Vno 
         <lb ed="#C" n="95"/>modo aliquid imago dicitur: quia est 
@@ -633,7 +631,7 @@
         <lb ed="#C" n="3"/>esse imag. Primo modo totus homo 
         <lb ed="#C" n="4"/>dicitur imago: quia est illud, in quo est, 
         <lb ed="#C" n="5"/>imago, &amp; secundum istum modum 
-        lo<lb ed="#C" n="6" break="no"/>quitur <name ref="#Augustine">August.</name> 15. de Trin. cap. 22. ubi 
+        lo<lb ed="#C" n="6" break="no"/>quitur <name xml:id="Gi9qrR-e22819-Nd1e1328" ref="#Augustine">August.</name> 15. de Trin. cap. 22. ubi 
         <lb ed="#C" n="7"/>ait, quod totus homo dicitur imago, 
         si<lb ed="#C" n="8" break="no"/>cut tota tabula. Secundo modo dicitur  
         <lb ed="#C" n="9"/>imago homo exterior, inquantum 
@@ -654,16 +652,16 @@
         <lb ed="#C" n="24"/>colore apposito, diceretur imago, &amp; 
         <lb ed="#C" n="25"/>secundum istum modum imago nun 
         <lb ed="#C" n="26"/>quam tollitur ab homine: &amp; sic 
-        acci<lb ed="#C" n="27" break="no"/>pit <name ref="#Augustine">Aug.</name> imaginem 14. de Trin. cap. 4. 
+        acci<lb ed="#C" n="27" break="no"/>pit <name xml:id="Gi9qrR-e22819-Nd1e1377" ref="#Augustine">Aug.</name> imaginem 14. de Trin. cap. 4. 
         <lb ed="#C" n="28"/>ubi ait: quod nulla deformitas tollit 
         <lb ed="#C" n="29"/>imaginem. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1385">
                   <lb ed="#C" n="30"/>Et quia istis modis imago sumitur 
         in<lb ed="#C" n="31" break="no"/>complete, aliquando negatur in his esse 
         <lb ed="#C" n="32"/>imaginem: &amp; ideo 14. de Trin. cap. 5. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1394">
                   <lb ed="#C" n="33"/>dicitur quod ibi Quaerenda, &amp; invenienda 
         <lb ed="#C" n="34"/>est in nobis, quo etiam natura nostra nihil habet 
         <lb ed="#C" n="35"/>melius. Et ita negatur totum hominem 
@@ -700,7 +698,7 @@
         <lb ed="#C" n="64"/>intelligimus, &amp; eius similitudine modo 
         <lb ed="#C" n="65"/>nobis in via possibili informamur.  
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1472">
                   <lb ed="#C" n="66"/>Respond. ad arg. Ad primum dicen 
         <lb ed="#C" n="67"/>dum, quod non est omnino simile de 
         <lb ed="#C" n="68"/>oculo noctuae, &amp; de intellectu nostro 
@@ -710,29 +708,29 @@
         <lb ed="#C" n="72"/>quod cognoscimus Deum per effectus: 
         <lb ed="#C" n="73"/>tamen quia ibi non sistimus, sed prin¬ 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1493">
                   <lb ed="#C" n="74"/>cipalis nostra intentio est Deo assimilar 
         <lb ed="#C" n="75"/>secundum modum possibilem Deum 
         <lb ed="#C" n="76"/>repraesentamus, licet non ita complete 
         <lb ed="#C" n="77"/>sicut si immediate Divinam essentiam 
         vi<lb ed="#C" n="78" break="no"/>deremus. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1506">
                   <lb ed="#C" n="79"/>Ad illud, quod ulterius quaeritur,  
         <lb ed="#C" n="80"/>utrum anima prout habet pro obiecto 
         <lb ed="#C" n="81"/>se sit imago? Patet quod sic: sed non 
-        <lb ed="#C" n="82"/>complete. Et quod arguitur de <name ref="#Augustine">August.</name> 
+        <lb ed="#C" n="82"/>complete. Et quod arguitur de <name xml:id="Gi9qrR-e22819-Nd1e1516" ref="#Augustine">August.</name> 
                   <lb ed="#C" n="83"/>dicendum, quod non intendit 
         simplici<lb ed="#C" n="84" break="no"/>ter negare eam esse sic imaginem; sed  
         <lb ed="#C" n="85"/>quia prout comparatur ad se ipsam, non 
         <lb ed="#C" n="86"/>est ita imago, sicut prout comparatur ad 
         <lb ed="#C" n="87"/>Deum. 
       </p>
-               <p>
+               <p xml:id="Gi9qrR-e22819-d1e1531">
                   <lb ed="#C" n="88"/>Ad illud, quod ulterius arguitur, quod 
         <lb ed="#C" n="89"/>respectu omnium obiectorum est 
         ima<lb ed="#C" n="90" break="no"/>go: verum est materialiter, &amp; sic loqui  
-        <lb ed="#C" n="91"/>tur <name ref="#Augustine">Aug.</name> 
+        <lb ed="#C" n="91"/>tur <name xml:id="Gi9qrR-e22819-Nd1e1541" ref="#Augustine">Aug.</name> 
                </p>
             </div>
          </div>
