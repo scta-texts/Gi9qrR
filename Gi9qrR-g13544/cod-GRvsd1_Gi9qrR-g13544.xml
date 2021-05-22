@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="818"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g13544"><!-- l1-d45prooem -->
+            <head xml:id="Gi9qrR-g13544-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g13544-d1e111">
+      <!--843.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="48"/>DISTINCTIO RLV. 
+      <lb ed="#C" n="49"/>DE VOLVNTATE DEI, QUAE ESSENTIA DEIVNAESTET 
+      <lb ed="#C" n="50"/>aeterna, &amp; de signis ejus.
+    </p>
+            <p xml:id="Gi9qrR-g13544-d1e124">
+      <!--843.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="51"/>AM de voluntate Dei. Postqua 
+      <lb ed="#C" n="52"/>Magister determinavit de 
+      <lb ed="#C" n="53"/>Divina scientia &amp; ejus 
+      poten<lb ed="#C" n="54" break="no"/>tia, hic determinat de ipsius 
+      <lb ed="#C" n="55"/>voluntate Et tria facit: quia 
+      <lb ed="#C" n="56"/>1. dicit quid sit Divina 
+      vo<lb ed="#C" n="57" break="no"/>luntas, &amp; quomodo sit causa 
+      <lb ed="#C" n="58"/>rerum, &amp; quot modis 
+      dica<lb ed="#C" n="59" break="no"/>tur. Secundo determinat de efficacia eiis. 
+      Ter<lb ed="#C" n="60" break="no"/>tio specialiter determinat de conformitate 
+      vo<lb ed="#C" n="61" break="no"/>luntatis nostrae ad voluntatem Divinam. 
+      Secun<lb ed="#C" n="62" break="no"/>da pars incipit, ibi: Hic oritur quaestio. In principio 
+      <lb ed="#C" n="63"/>a6. dist. Tertia ibi: Sciendum quoque. In 
+      princi<lb ed="#C" n="64" break="no"/>pio a8. dist. Circa 1. tria facit: quia primo 
+      di<lb ed="#C" n="65" break="no"/>cit, quid sit Divina voluntas. Secundo 
+      quomo<lb ed="#C" n="66" break="no"/>do sit causa rerum. Tertio quot modis dicatur.  
+      <lb ed="#C" n="67"/>Secunda ibi: Hec itaque summe. Tertia ibi: Hic non 
+      <lb ed="#C" n="68"/>ost praetermittendum. Circa primum tria facit: quia 
+      <lb ed="#C" n="69"/>1. dicit, quid sit Divina voluntas, ostendens ip 
+      <lb ed="#C" n="70"/>sam esse idem, quod Divina essentia. Secundo 
+      <lb ed="#C" n="71"/>opponit contra id quod dixerat. Nam si Deo est 
+      <lb ed="#C" n="72"/>idem velle quod esse: tunc est quidquid vult. Sed cum 
+      <lb ed="#C" n="73"/>velit omnia, quae facit, est omnia quae facit, quod 
+      <!--843.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="74"/>est impossibile. 3. solvit. Secunda pars incipit ibi:  
+      <lb ed="#C" n="75"/>Et licet idem. Tertia ibi: Ad quod dicimus. Circa 
+      <lb ed="#C" n="76"/>quod duo facit: quia 1. solvit per simile: nam 
+      <lb ed="#C" n="77"/>sicut idem est Divina scientia quod essentia: &amp; 
+      <lb ed="#C" n="78"/>tamen aliqua Deus scit, quae non est: sic idem est 
+      <lb ed="#C" n="79"/>Divina essentia quod voluntas, &amp; cum aliqua 
+      <lb ed="#C" n="80"/>vult quae non est. Secundo solvit dando 
+      intelli<lb ed="#C" n="81" break="no"/>gventiam dictorum: nam in voluntate &amp; in scien 
+      <lb ed="#C" n="82"/>cia importatur quaedam habitudo &amp; quidam 
+      <lb ed="#C" n="83"/>resvectus, qui non importatur per essentiam: &amp; 
+      <lb ed="#C" n="84"/>ideo cocedimus Deum aliqua velle &amp; scire, 
+      qua<lb ed="#C" n="85" break="no"/>non est. Est tamen sensus, cum dicitur Deus 
+      <lb ed="#C" n="86"/>scit omnia, vel vult illa, hoc est, Divina 
+      scien<lb ed="#C" n="87" break="no"/>tia, vel eius voluntas est ejus essentia, cui 
+      volun<lb ed="#C" n="88" break="no"/>tati vel scientiae talia sunt subjecta. Secunda 
+      <lb ed="#C" n="89"/>ibi: Et ubique Deus. Deinde cum dicit: Hoc itaque 
+      <lb ed="#C" n="90"/>summe. Determinat de causalitate Divinae 
+      volun<lb ed="#C" n="91" break="no"/>tatis. Et tria facit: quia 1. dicit Divinam 
+      volu<lb ed="#C" n="92" break="no"/>tatem non esse causatam ab alia: esse tamen eau 
+      <lb ed="#C" n="93"/>sam aliorum. Secundo declarat hoc quod 
+      dixe<lb ed="#C" n="94" break="no"/>rat, videlicet, Divinam voluntatem causatam 
+      <lb ed="#C" n="95"/>non esse, quia nihil est prius ea. Tertio decia 
+      <lb ed="#C" n="96"/>rat aliud, scilicet, ipsam esse causam aliorum. S. 
+      <!--844.xml-->
+      <pb ed="#C" n="819"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>cunda ibi: Qui enim cius quaerit. Tertia ibi: Volun 
+      <lb ed="#C" n="2"/>tas igitur Dei 
+    </p>
+            <p xml:id="Gi9qrR-g13544-d1e246">
+               <lb ed="#C" n="3"/>Tunc sequitur illa pars: Tunc non est 
+      praeter<lb ed="#C" n="4" break="no"/>mittendum. In qua determinat quot modis 
+      accipi<lb ed="#C" n="5" break="no"/>tur Divina voluntas. Et duo facit: quia primo 
+      <lb ed="#C" n="6"/>ponit principalem significationem ejus, 
+      secun<lb ed="#C" n="7" break="no"/>dum quod voluntas dicitur ejus beneplacitum, 
+      <lb ed="#C" n="8"/>quod semper impletur. Secundo ponit tropolo 
+      <lb ed="#C" n="9"/>gicam ejus acceptionem, inquantum ipsa signa 
+      <lb ed="#C" n="10"/>Divinae voluntatis ejus voluntas dicuntur. 
+      Secun<lb ed="#C" n="11" break="no"/>da ibi: Aliquando vero secundum Circa quod duo 
+      <lb ed="#C" n="12"/>facit: quia 1 ostendit quinque esse signa 
+      Di<lb ed="#C" n="13" break="no"/>vinae voluntatis, quorum quodlibet Divina 
+      vo<lb ed="#C" n="14" break="no"/>luntas dicitur. Nam praeceptio, prohibitio, 
+      con<lb ed="#C" n="15" break="no"/>silium, permissio, &amp; operatio Divina volunta 
+      <lb ed="#C" n="16"/>dicuntur, licet sint Divinae voluntatis signa: &amp; 
+      <lb ed="#C" n="17"/>quia multa sunt talia signa voluntatis Divinae, 
+      <lb ed="#C" n="18"/>voluntates pluraliter nominantur. Secundo de 
+      <lb ed="#C" n="19"/>omnibus istis signis determinat, ibi: Ideo autem 
+      <lb ed="#C" n="20"/>praeteptio. Et duo facit: quia 1. determinat de 
+      tri<lb ed="#C" n="21" break="no"/>bus, ut de praecepto, prohibitione, &amp; consilio. 
+      <lb ed="#C" n="22"/>Secundo de duobus residuis, ut de permissione, 
+      <lb ed="#C" n="23"/>&amp; operatione. Secuda ibi: Permistio quoque Dei 
+      <lb ed="#C" n="24"/>Circa 1. tria facit: quia 1. ostendit 
+      prohibitio<lb ed="#C" n="25" break="no"/>nem, praeceptum, &amp; consilium dici Divinam 
+      <lb ed="#C" n="26"/>voluntatem; quia sunt ejus signum. 2. ostendit 
+      <lb ed="#C" n="27"/>quomodo in scriptura ipsum praeceptum, vel 
+      <!--844.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="28"/>consilium Divina voluntas dicuntur. Tertiae 
+      <lb ed="#C" n="29"/>manifestat, quod non omnem tale voluntatem Deue 
+      <lb ed="#C" n="30"/>vult impleri: quia aliquando Deus praecipit 
+      ali<lb ed="#C" n="31" break="no"/>quid, vel consulit, quod fieri non vult, ut 
+      prae<lb ed="#C" n="32" break="no"/>cepit Abrahae, quod immolaret filium, no quod  
+      <lb ed="#C" n="33"/>immolationem vellet, sed ut fidem eius 
+      proba<lb ed="#C" n="34" break="no"/>ret. Sic etiam &amp; de pohibitione intelligendum 
+      <lb ed="#C" n="35"/>est. Secunda ibi: Pro praecepto Dei. Tertia ibi: Et 
+      si<lb ed="#C" n="36" break="no"/>tut illa tria. Deinde cum dicit: Permistio quoque Dei. 
+      <lb ed="#C" n="37"/>Determinat de permistione, &amp; operatione. Et  
+      <lb ed="#C" n="38"/>duo facit: quia 1. dicit tam permissionem, quam 
+      <lb ed="#C" n="39"/>operationem aliquo modo esse signum Divina 
+      <lb ed="#C" n="40"/>voluntatis, propter quod &amp; mala &amp; bona 
+      ali<lb ed="#C" n="41" break="no"/>quo modo reducuntur ad Divinam voluntatem, 
+      <lb ed="#C" n="42"/>aliter tamen &amp; aliter. Nam bona sunt a Deo vo 
+      <lb ed="#C" n="43"/>lita, inquantum ea operatur; mala vero non sunt ab 
+      <lb ed="#C" n="44"/>eo volit: simpliciter: ut quia ea operetur; sed in 
+      <lb ed="#C" n="45"/>terpretative inquantum ea permittit. Secundo dat 
+      <lb ed="#C" n="46"/>differetiam inter voluntate Divinam proprie 
+      accep<lb ed="#C" n="47" break="no"/>tam, quae dicitur ejus benepl citum; &amp; 
+      volun<lb ed="#C" n="48" break="no"/>tatem Divinam figurative accentam, prout 
+      sig<lb ed="#C" n="49" break="no"/>na talis voluntatis Divina voluntas dicuntur.  
+      <lb ed="#C" n="50"/>Nam Divina voluntas, quae ejus beneplacitum, 
+      <lb ed="#C" n="51"/>est aeterna &amp; semper impletur; signa tamen 
+      Di<lb ed="#C" n="52" break="no"/>vinae voluntatis sunt temporalia, &amp; non semper 
+      <lb ed="#C" n="53"/>implentur. Secunda ibi Quinque igitur. In quo 
+      <lb ed="#C" n="54"/>terminatur sententia lectionis &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

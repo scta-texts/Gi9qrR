@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="641"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f66925"><!-- l1-d35prooem -->
+            <head xml:id="Gi9qrR-f66925-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f66925-d1e111">
+      <!--666.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="38"/>DISTINCTIO XXXJ 
+      <lb ed="#C" n="39"/>DE QVIBVSDAM, QVAESECVNDVM SVESTANTIAM DE Deo Di¬ 
+      <lb ed="#C" n="40"/>cuntur, quae specialem efflagitant tractatum, scilicet, de scientia, &amp; praescientia, 
+      <lb ed="#C" n="41"/>&amp; providentia, &amp; dispositione, praedestinatione, voluntate, &amp; potentia.
+    </p>
+            <p xml:id="Gi9qrR-f66925-d1e127">
+      <!--666.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="42"/>VM SVE supra. Postquamr 
+      <lb ed="#C" n="43"/>Magister determinavit de 
+      <lb ed="#C" n="44"/>unitate essentiae, &amp; distin 
+      <lb ed="#C" n="45"/>tione Personarum, in 
+      qui<lb ed="#C" n="46" break="no"/>bus principaliter consistit 
+      <lb ed="#C" n="47"/>materia primi libri, antequam 
+      <lb ed="#C" n="48"/>accedat ad secudum librum, 
+      <lb ed="#C" n="49"/>in quo de creaturis est deter 
+      <lb ed="#C" n="50"/>minaturus, determinat de quibusdam attributis 
+      <lb ed="#C" n="51"/>Divinis, secundum quae respectu creaturarum 
+      <lb ed="#C" n="52"/>Deus causa &amp; principium nominatur. Deus 
+      au<lb ed="#C" n="53" break="no"/>tem non est agens ex necessitate naturae sed per 
+      <lb ed="#C" n="54"/>intellectum: &amp; quia in agentibus per intellectum 
+      <lb ed="#C" n="55"/>non solum requititur virtus &amp; potentia, ut 
+      pos<lb ed="#C" n="56" break="no"/>sint agere; sed &amp; scientia &amp; voluntas, ut sciant 
+      <lb ed="#C" n="57"/>&amp; velint: &amp; ideo parte ista quae contra totum 
+      <lb ed="#C" n="58"/>superius praecedens cum divisa fuit de tribus 
+      prae<lb ed="#C" n="59" break="no"/>dictis Magister determinat, scilicet, de Dei 
+      <lb ed="#C" n="60"/>scientia, potentia, &amp; voluntate. Vnde duo 
+      fa<lb ed="#C" n="61" break="no"/>ci:: quia 1. dicit talem tractatum esse 
+      necessa<lb ed="#C" n="62" break="no"/>rium. 2. de praedictis exsequitur. Secunda ibi:  
+      <lb ed="#C" n="63"/>statim post: Sciendum est igitur. Circa quod tria 
+      fa<lb ed="#C" n="64" break="no"/>cit, secundum quod de tribus determinat: quia 
+      <lb ed="#C" n="65"/>1. determinat de Dei scientia. 2. de eius 
+      poten<lb ed="#C" n="66" break="no"/>tia. 3. de voluntate ipsius. Secunda ibi: Nunc de 
+      <lb ed="#C" n="67"/>potentia Dei agendum, in principio 42. dist. Tertiae 
+      <lb ed="#C" n="68"/>ibi: Iam de Dei voluntate: in principio a5. dist. 
+      <lb ed="#C" n="69"/>Circa primum duo facit: quia 1. determinat de 
+      <lb ed="#C" n="70"/>Dei scientia. 2. specialiter determinat de Dei 
+      <lb ed="#C" n="71"/>praedestinatione, quae quaedam species Divinae sci¬ 
+      <!--666.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="72"/>entiae videtur esse, ut accipiamus speciem pro¬ 
+      <lb ed="#C" n="73"/>omni eo, q od secundum specialem modum 
+      <lb ed="#C" n="74"/>aliquid nominat. Secunda ibi: Praedestinatio vero. 
+      <lb ed="#C" n="75"/>In principio 40. dist. Circa primum duo facit: 
+      <lb ed="#C" n="76"/>quia 1. determinat de Divina scientia. 2. osten 
+      <lb ed="#C" n="77"/>dit quomodo ipsa se habeat ad res scitas. 
+      Secun<lb ed="#C" n="78" break="no"/>da ibi: Nunc ergo ad propositum. In principio. 38. 
+      <lb ed="#C" n="79"/>dist. Circa 1. duo facit: quia 1. ostendit scientiam 
+      <lb ed="#C" n="80"/>Dei esse respectu omnium. 2. huius occasio: 
+      e<lb ed="#C" n="81" break="no"/>quaerit quomodo omnia in scietia Dei existunt: 
+      <lb ed="#C" n="82"/>Secunda ibi: Solet hic quaeri. In principio 36. dist 
+      <lb ed="#C" n="83"/>Circa primum duo facit: quia 1. separat 
+      scien<lb ed="#C" n="84" break="no"/>tiam Dei a praescientia, praedestinatione, &amp; ab 
+      <lb ed="#C" n="85"/>alijs huiusmodi. 2. propter praetacta quandam 
+      <lb ed="#C" n="86"/>quaestionem movet. Secunda ibi: Hic considerare. 
+      <lb ed="#C" n="87"/>pportet. Circa primum duo facit: quia 1. dat dif 
+      <lb ed="#C" n="88"/>ferentiam inter praescientiam, providentiam, dis 
+      <lb ed="#C" n="89"/>positionem, &amp; praedestinationem, ostendens 
+      ta<lb ed="#C" n="90" break="no"/>men omnia dicta in hoc convenire: quia non 
+      <lb ed="#C" n="91"/>sunt respectu omnium. 2. ostendit Divinam 
+      sa<lb ed="#C" n="92" break="no"/>pientiam sive scientiam ab omnibus praetactis 
+      <lb ed="#C" n="93"/>differre; eo quod a Divina scientia respectu om 
+      <lb ed="#C" n="94"/>nium est. Secunda ibi: Sapientia vero vel scientia. 
+      <lb ed="#C" n="95"/>Deinde ca dicit: Hic considenari. Movet quamdam 
+      <lb ed="#C" n="96"/>quaestionem circa praetacta. Et duo facit: quia 
+      <lb ed="#C" n="97"/>1. quaerit: utrum in Deo esset praescientia vel 
+      <lb ed="#C" n="98"/>praedestinatio, si nihil futurum esset? Et 
+      osten<lb ed="#C" n="99" break="no"/>dit quod non: quia talia solum: respectu 
+      futuro<lb ed="#C" n="100" break="no"/>rum dicuntur. 2. obijcit ad partem contrariam, 
+      <lb ed="#C" n="101"/>ibi: Ad ad hoc autem a quibusdam. Circa quod duo 
+      <!--667.xml-->
+      <pb ed="#C" n="642"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>facit, quia 1obijcit in contrarium. Secundo 
+      ob<lb ed="#C" n="2" break="no"/>iecta solvit. Secunda ibi: Ad hoc iuaeta. Prima 
+      <lb ed="#C" n="3"/>pars dividitur in partes tres, secundum quod  
+      <lb ed="#C" n="4"/>tres rationes adducit ad ostendendum esse 
+      im<lb ed="#C" n="5" break="no"/>possibile praescientiam in Deo non fuisse, dat  
+      <lb ed="#C" n="6"/>etiam quod nihil futurum esset: Prima ratio 
+      ta<lb ed="#C" n="7" break="no"/>lis: praescientia Dei est idem quod scientia, &amp; 
+      <lb ed="#C" n="8"/>scientia idem quod essentia. Si ergo potuit 
+      prae<lb ed="#C" n="9" break="no"/>scientia non esse in Deo, potuit in eo non esse 
+      <lb ed="#C" n="10"/>scientia &amp; essentia, quod est inconveniens. 
+      Se<lb ed="#C" n="11" break="no"/>cunda talis: praescire in Deo est idem quod 
+      sci<lb ed="#C" n="12" break="no"/>re, &amp; scire idem quod esse. Si ergo Deus potur 
+      <lb ed="#C" n="13"/>non praescire, potuit non scire &amp; non esse, quod  
+      <lb ed="#C" n="14"/>est inconveniens. Tertia talis: sidem est Deum 
+      <lb ed="#C" n="15"/>esse praescium, &amp; Deum esse Deum: quia 
+      <lb ed="#C" n="16"/>praescientia Dei ipsam deitatem &amp; Dei natura 
+      di<lb ed="#C" n="17" break="no"/>cit. Si ergo potuit Deus non esse praescius, 
+      po<lb ed="#C" n="18" break="no"/>tuit Deus non esse Deus, quod est inconveniens 
+      <lb ed="#C" n="19"/>Secunda ibi: Addunt quoque. Tertia: ibi: Item cum 
+      <lb ed="#C" n="20"/>idem. Deinde cum dicit: Ad hoc iueta. Solvit. Et duo 
+      <lb ed="#C" n="21"/>facit: quia 1. facitquod dictum est 2. ostendit 
+      sa<lb ed="#C" n="22" break="no"/>pientiam &amp; scientiam in Deo fuisse etiam si ni¬ 
+      <!--667.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="23"/>hil futurum esset. Secunda ibi: Scientia veroi 
+      Cir<lb ed="#C" n="24" break="no"/>ca primum duo facit: quia 1. dicit praescientiam, 
+      <lb ed="#C" n="25"/>dispositionem, praedestinationem quemdam 
+      respe<lb ed="#C" n="26" break="no"/>ctum importare ad praescita, disposita, &amp; 
+      praede<lb ed="#C" n="27" break="no"/>stinata. 2. ostendit propter talem respectum, 
+      <lb ed="#C" n="28"/>Deum potuisse non esse praescium, non 
+      disposu<lb ed="#C" n="29" break="no"/>isse, &amp; non praedestinasse, non quod 
+      variabili<lb ed="#C" n="30" break="no"/>tas intelligatur ex parte Divinae scientiae, 
+      <lb ed="#C" n="31"/>sed ex parte connotati, sive ex parteeffectuum, 
+      <lb ed="#C" n="32"/>Secunda ibi: Cum ergo dicis. 
+    </p>
+            <p xml:id="Gi9qrR-f66925-d1e348">
+               <lb ed="#C" n="33"/>Tunc sequitur illa pars: Scientia vero vel 
+      sapien<lb ed="#C" n="34" break="no"/>tia. In qua ostendit scientiam &amp; sapientiam in 
+      <lb ed="#C" n="35"/>Deo esse ab aeterno, etiam si nihil futurum esset: 
+      <lb ed="#C" n="36"/>quia talia non solum dicuntur respectu 
+      futuro<lb ed="#C" n="37" break="no"/>rum &amp; temporalium; sed etiam respectu 
+      aeter<lb ed="#C" n="38" break="no"/>norum. Et tria facit: quia 1. facit, quod dictum 
+      <lb ed="#C" n="39"/>est. 2. dicit omnia esse in Dei scientia &amp; omnia 
+      <lb ed="#C" n="40"/>in eo esse vitam. 3. ostendit omnia esse Deo 
+      prae<lb ed="#C" n="41" break="no"/>sentia. Et quod ipse notat ea quae non sunt 
+      tan<lb ed="#C" n="42" break="no"/>quam ea quae sunt. Secunda ibi: Praeterea omnia di 
+      <lb ed="#C" n="43"/>ligentes. Tertia ibi: Inde est etiam. In quo 
+      termina<lb ed="#C" n="44" break="no"/>tur sententia lectionis &amp; distinctionis,
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

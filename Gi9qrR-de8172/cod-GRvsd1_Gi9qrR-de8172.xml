@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus Expositio</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus Expositio</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="32"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-de8172"><!-- l1-prolexp -->
+            <head xml:id="Gi9qrR-de8172-Hd1e108">Prologus Expositio</head>
+            <p xml:id="Gi9qrR-de8172-d1e111">
+      <!--69.xml-->
+               <pb ed="#C" n="32"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>PVTTNTES &amp;. Magister huic operi praemit 
+    </p>
+            <p xml:id="Gi9qrR-de8172-d1e122">
+               <lb ed="#C" n="2"/>tit quemdam prologum, in quo volens 
+      <lb ed="#C" n="3"/>inducere auditores, &amp; lectores ad 
+      amo<lb ed="#C" n="4" break="no"/>rem huius operis, illud tripliciter 
+      com<lb ed="#C" n="5" break="no"/>mendat. 1. ex eorum de quibus 
+      deter<lb ed="#C" n="6" break="no"/>minat, dignitate: 2. ex modi 
+      proce<lb ed="#C" n="7" break="no"/>dendi rationalitate: 3. ex fructu, &amp; 
+      <lb ed="#C" n="8"/>vtilitate, quam inde habebimus: istum 
+      <lb ed="#C" n="9"/>triplicem modum commendandi scientiam tangit Phil. in 
+      <lb ed="#C" n="10"/>principio de Anim. 1. quia dicit illam scientiam esse 
+      ho<lb ed="#C" n="11" break="no"/>norabilem ex subiecti dignitate, &amp; hoc quantum ad 1. 
+      <lb ed="#C" n="12"/>modum: secundo commendat scientiam de Anim. ex 
+      cer<lb ed="#C" n="13" break="no"/>titudine, &amp; rationabilitate, &amp; hoc quantum ad 2. 3. 
+      ex<lb ed="#C" n="14" break="no"/>fructu, &amp; vtilitate, &amp; hoc quantum ad 3. Et ideo post 
+    </p>
+            <p xml:id="Gi9qrR-de8172-d1e153">
+               <lb ed="#C" n="15"/>primas duas commendationes, subdit tertiam dicens: 
+      vi<lb ed="#C" n="16" break="no"/>detur autem, &amp; ad veritatem omnem cognitio ipsius 
+      ma<lb ed="#C" n="17" break="no"/>xime proficere: propter quod praesens prologus dividitur 
+      <lb ed="#C" n="18"/>in 3. partes: 1. enim ponitur materiae huius operis 
+      dig<lb ed="#C" n="19" break="no"/>nitas. 2. subiungitur modi procedendi rationabilitas: 3. 
+      <lb ed="#C" n="20"/>annectitur fructus, &amp; vtilitas. 2. pars incipit ibi horum 
+      <lb ed="#C" n="21"/>igitur, &amp; Deo odibilem Ecclesiam &amp;c. 3. ibi Non igitur debet hic 
+      <lb ed="#C" n="22"/>labor &amp;c. Dignitas materiae alicuius operis tripliciter 
+      in<lb ed="#C" n="23" break="no"/>vestigatur: 1. ex nostro defectu ad illam, &amp; tenuitate 
+      <lb ed="#C" n="24"/>quia ad ea, quae sunt manifestissima in natura, se habet 
+      <lb ed="#C" n="25"/>intellectus noster, sicut oculus noctuae ad lucem diei, ut  
+      <lb ed="#C" n="26"/>dicitur 2. Metaph. c. 2. &amp; ideo quanto magis sumus 
+      te<lb ed="#C" n="27" break="no"/>nues ad aliquam materiam pertractandam, tanto illa 
+      ma<lb ed="#C" n="28" break="no"/>teria est magis digna. Secunda via est ex remotione a 
+      sen<lb ed="#C" n="29" break="no"/>sibilibus, sive ex rei arduitate: quia quanto res est magis 
+      <lb ed="#C" n="30"/>ardua, tanto dignior, &amp; nobilior: propter hoc 
+      conclu<lb ed="#C" n="31" break="no"/>ditur 6. Metaph. cap. 1. quod Metaphysica est nobilior 
+      <lb ed="#C" n="32"/>ceteris, &amp; prima dignitate, quia est de maxime 
+      abstra<lb ed="#C" n="33" break="no"/>ctis, &amp; de rebus arduis. Tertia via est ex invidorum 
+      de<lb ed="#C" n="34" break="no"/>tractatione, &amp; mordacitate: quia quanto materia est ma 
+      <lb ed="#C" n="35"/>gis digna, &amp; magis ardua, tanto magis latet; &amp; quanto 
+      <lb ed="#C" n="36"/>magis latet, tanto homines facilius mentiuntur 
+      detrahe<lb ed="#C" n="37" break="no"/>do, &amp; mordendo doctrinam de eo traditam: &amp; ideo 
+      scri<lb ed="#C" n="38" break="no"/>bitur circa finem 4. Ethic. cap. 7. vbi determinatur de 
+      <lb ed="#C" n="39"/>lactantia, &amp; eius remedio, quod homines de facili mentium 
+      <lb ed="#C" n="40"/>tur, vbi in mendacio comprehendi non valent: propter 
+      <lb ed="#C" n="41"/>hoc in ostendendo huius operis dignitatem materiae tria 
+      <lb ed="#C" n="42"/>facit: secundum quod tripliciter hoc ostendit. 1. ex sua 
+      <lb ed="#C" n="43"/>tenuitate: 2. ex operis arduitate: 3. ex contradicentium 
+      <lb ed="#C" n="44"/>mordacitate. Sccunda ibi ardua scandere. 3. ibi non 
+      valen<lb ed="#C" n="45" break="no"/>tes siudioso: um siatrum. Et quia quodlibet istorum, ex qui  
+      <lb ed="#C" n="46"/>bus ostenditur huius operis materiae dignitas, habet 
+      ra<lb ed="#C" n="47" break="no"/>tionem difficilis, &amp; retractivi, cuilibet retractivo 
+      adiun<lb ed="#C" n="48" break="no"/>git suum incitativum. Nam contra retractivum ex sua 
+      te<lb ed="#C" n="49" break="no"/>nuitate adiungit desiderium proficiendi; contra aliud 
+      ex<lb ed="#C" n="50" break="no"/>operis, arduitate adiungit mercedem a Christo promissa. 
+      <lb ed="#C" n="51"/>Contra tertium ex invidorum mordacitate, adiungit 
+      pro<lb ed="#C" n="52" break="no"/>fectum fratrum, &amp; sociorum: dicit ergo 1. cupientes 
+      sup<lb ed="#C" n="53" break="no"/>ple proficere, &amp; addiscere. Aliquid de penuria, ac tenuitate 
+      no<lb ed="#C" n="54" break="no"/>snua. In quo triplicem suum defectum denotat. 1. Quia 
+      <lb ed="#C" n="55"/>dicit eliquid, non multa, &amp; magnalia. 2. quia subdit de 
+      <lb ed="#C" n="56"/>penuria. 3. quia addit tenuitate. 1. potest referri ad defectum 
+      <lb ed="#C" n="57"/>in genij: quia homines alti in genij multa, &amp; magnalis 
+      <!--69.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="58"/>possunt: ipse autem propter humilitatem dicit se solum 
+      <lb ed="#C" n="59"/>posse aliquid. Penuria potest referri ad defectum vsus 
+      scien<lb ed="#C" n="60" break="no"/>tiae, vel eloquentiae: quia penuria videtur rerum exin 
+      <lb ed="#C" n="61"/>riorum, &amp; per dicta in exteriores scientiam 
+      transfundi<lb ed="#C" n="62" break="no"/>mus. Tenuitas referatur ad effectum ipsius doctrinae, vel  
+      <lb ed="#C" n="63"/>cientiae: quia tenuitas rerum interiorum videtur esse, 
+      <lb ed="#C" n="64"/>&amp; scientia inter interiora computatur. De ista tenuitate 
+      <lb ed="#C" n="65"/>ua cum paupercula vult mittere aliquid in gagophilacium 
+      <lb ed="#C" n="66"/>Domini: in quo alludit historiae, quae tangitur Luce 
+      <lb ed="#C" n="67"/>21. Caxophilacium dicitur arca, vbi ponebatur 
+      Thesau<lb ed="#C" n="68" break="no"/>rus, &amp; oblationes, sive locus in quo illa arca erat: &amp; 
+      di<lb ed="#C" n="69" break="no"/>citur a gaxa, quod est divitiae in lingua Persica, &amp; 
+      Phi<lb ed="#C" n="70" break="no"/>ase, quod est servare; quasi reservatorium divitiarum. 
+      <lb ed="#C" n="71"/>Istud autem gaxophilacium Domini ponitur hic pro 
+      Sa<lb ed="#C" n="72" break="no"/>era Scriptura; vbi divitiae spirituales, rationes, scilicet  
+      <lb ed="#C" n="73"/>ter quas Sacra Scriptura defenditur, ponuntur. 
+    </p>
+            <p xml:id="Gi9qrR-de8172-d1e288">
+               <lb ed="#C" n="74"/>Posita dignitate huius operis ex Magistri tenuitate, 
+      <lb ed="#C" n="75"/>&amp; posito Magistri incitativo ex proficiendi cupiditate. 
+      <lb ed="#C" n="76"/>Sequitur secuda ratio dignitatis ex materiae arduitate, cum 
+      <lb ed="#C" n="77"/>subiungitur ardua, &amp;c. quae pars dividi potest in partes tres 
+      <lb ed="#C" n="78"/>quia 1. ponitur ratio dignitatis, per quod habetur 
+      diffi<lb ed="#C" n="79" break="no"/>cultas, &amp; retractivum ad hoc opus faciendum: 2. 
+      subiun<lb ed="#C" n="80" break="no"/>gitur incitativum ad opus perficiendum: ibi consummationis 
+      <lb ed="#C" n="81"/>iduciam: 3. incitativa, &amp; retrahentia comparantur ad 
+      se<lb ed="#C" n="82" break="no"/>invicem: ibi delectant nos &amp;c. Dicit ergo andua scandere, in 
+      <lb ed="#C" n="83"/>Divina ascendere: dicuntur Divina ardua propter eorum 
+      <lb ed="#C" n="84"/>sublimitatem: ad ea scandimus, quia per quosdam 
+      gra<lb ed="#C" n="85" break="no"/>dus ascendendo, ad ipsa pertingimus. Isti gradus 
+      qua<lb ed="#C" n="86" break="no"/>tuor sunt: quia primo debemus relinquere sensibilia, prop 
+      <lb ed="#C" n="87"/>ter quod Divina excedunt scientiam naturalem. 2. 
+      de<lb ed="#C" n="88" break="no"/>bemus praeterire ea, quae sunt in sensibilibus; propter quod  
+      <lb ed="#C" n="89"/>excedit Mathematicam. 3. debemus transcendere ea, 
+      <lb ed="#C" n="90"/>quae habent sensibilia partem sui subiecti: qua propter  
+      <lb ed="#C" n="91"/>supra Metaphysicalia Theologica collocantur: &amp; his 
+      gra<lb ed="#C" n="92" break="no"/>dibus pertransitis in quarto gradum Divina conspicimus. 
+      <lb ed="#C" n="93"/>Assignatur gradus, &amp; aliter: quia primus gradus est sensus: 
+      <lb ed="#C" n="94"/>Secundus est phantasia: Tertius ratio naturalis: quos 
+      <lb ed="#C" n="95"/>gradus scandimus, cum imus ad Diviua. Adua ergo 
+      sean<lb ed="#C" n="96" break="no"/>dere est ad Divina ascendere. Opus ultra vires nostras agere 
+      <lb ed="#C" n="97"/>praesumpsimus, quia nisi inniteremur Divino auxilio, non 
+      <lb ed="#C" n="98"/>sufficeret intellectus. Deinde ponit incitativum contra 
+      <lb ed="#C" n="99"/>illud retractivum, cum dicitur. Consummationis fidaciam, 
+      <lb ed="#C" n="100"/>laboris que mercedem in Samaritano statuentes, qui Samaritanus 
+    </p>
+            <p xml:id="Gi9qrR-de8172-d1e350">
+               <lb ed="#C" n="101"/>prolatis in curatione semivivi duobus denarijs supereroganti, 
+      <lb ed="#C" n="102"/>hoc est supe rexpendenti vitra summam dictam cuncta 
+      <lb ed="#C" n="103"/>eddere professus est. Iste Samaritanus Christus est. 
+      Semi<lb ed="#C" n="104" break="no"/>vivus, ille est homo per peccatum expoliatus gratuitis, 
+      <lb ed="#C" n="105"/>rulneratus in naturalibus: duo denarij sunt duo 
+      testamen<lb ed="#C" n="106" break="no"/>ta: opera supererogationis sunt ea, quae ad 
+      expositio<lb ed="#C" n="107" break="no"/>nem duorum testamentorum componimus: &amp; quia 
+      Ma<lb ed="#C" n="108" break="no"/>gister talem compositionem fecit, sperabat habere 
+      mer<lb ed="#C" n="109" break="no"/>cedem a Christo qui supereroganti cuncta reddere 
+      <lb ed="#C" n="110"/>professus est. Deinde dicit delectat nos &amp;c. Vbi comparat 
+      <lb ed="#C" n="111"/>retrahentia ad incitativa. Et duo facit 1. comparat ea ad 
+      <lb ed="#C" n="112"/>se invicem. Secundo ostendit incitativa vincere zxelum. 
+      <lb ed="#C" n="113"/>Secunda ibi, quam vincit &amp; dicit ergo delectat nos verita e 
+      <lb ed="#C" n="114"/>posicentis, quantum ad secundum incitativum. Sed terres 
+      <!--69.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="115"/>it: 
+    </p>
+            <p xml:id="Gi9qrR-de8172-d1e389">
+               <lb ed="#C" n="116"/>N 
+      <lb ed="#C" n="117"/>IXICTISIRI. 
+      <!--70.xml-->
+      <pb ed="#C" n="33"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>imensitas laboris, quantum ad secundum retractivum: quia  
+      <lb ed="#C" n="2"/>opus vltra vires assumpserat. Desiderium hortatur proficiendi 
+      <lb ed="#C" n="3"/>quantum ad primum incitativum, quod notaverat, cum 
+      <lb ed="#C" n="4"/>dixit tupientes. Sed dehortatur infirmitas deficiendi, quantum 
+      <lb ed="#C" n="5"/>ad primum retractivum: quia sentiebat se tenue, &amp; penuriam 
+      <lb ed="#C" n="6"/>habentem. Deinde ponitur incitativorum victoria, cum 
+      <lb ed="#C" n="7"/>dicitur, quam vincit: quasi diceret retrahentia pugnent,  
+      <lb ed="#C" n="8"/>vtopus non incipiat, incitativa tamen vincunt; unde 
+      <lb ed="#C" n="9"/>dent, quam, scilicet, infirmitatem, sive laboris 
+      immensi<lb ed="#C" n="10" break="no"/>utem, quae retrahentia sunt. Vincunt celus Domus Dei, hoc est 
+      <lb ed="#C" n="11"/>mor intensus, quem habeo ad Ecclesiam, quo, scilicet,  
+      <lb ed="#C" n="12"/>amore intenso in ardescentes, id est, inflammati Fidem nostram 
+      <lb ed="#C" n="13"/>adversus errores carnalium, atque animalium hominum: per car 
+      <lb ed="#C" n="14"/>nales possimus intelligere errantes propter corporales 
+      vo<lb ed="#C" n="15" break="no"/>luptates: per animales errantes propter intellectus 
+      deprae<lb ed="#C" n="16" break="no"/>sionem: quia sensibilibus immersus non sapit, quae Dei sunt, ani 
+      <lb ed="#C" n="17"/>malis homo. Davidicae Turi is, hoc est, Ecclesiae. sive Sacrae 
+      <lb ed="#C" n="18"/>Scripturae, copeis, id est, rationibus munire, vel potius 
+      mu<lb ed="#C" n="19" break="no"/>nitam ostendere, quia rationes, quas adducit, Sanctorum 
+      <lb ed="#C" n="20"/>sunt: unde Fidem nostram non munit clypeis Turris 
+      <lb ed="#C" n="21"/>Davidicae, hoc est, rationibus Sacrae Scripturae, sed 
+      po<lb ed="#C" n="22" break="no"/>tius munitam ostendit a Sanctis. Ac Theologicarum 
+      inquisi<lb ed="#C" n="23" break="no"/>tionum abdita aperire quantum ad tres libros. Nec non, &amp; 
+      <lb ed="#C" n="24"/>Sacrammtorum Ecclesiasticorum pro modulo intelligentiae nostrae 
+      noti<lb ed="#C" n="25" break="no"/>tiam tradere siudaimus, quantum ad materiam quanti libri 
+      <lb ed="#C" n="26"/>Non valentes, positis duabus rationibus, per quas colligi 
+      <lb ed="#C" n="27"/>tur dignitas huius doctrinae, quae retrahentia sunt, ut 
+      pa<lb ed="#C" n="28" break="no"/>tuit, &amp; addiis duobus incitativis: hic ponit tertiam viam 
+      <lb ed="#C" n="29"/>ad investigandam dignitatem huius operis, quae est 
+      ter<lb ed="#C" n="30" break="no"/>tium retractivum: ibi quanvis non ambigamus &amp;c. Dicit 
+      er<lb ed="#C" n="31" break="no"/>go non valentes studiosorum frati um votis, hoc est, desiderijs 
+      <lb ed="#C" n="32"/>ture resistere: eorum in Christe laudabilibus studijs lingua, ac sij 
+      <lb ed="#C" n="33"/>lo, nos servire flagitantium, sive rogantium: quas bigas in 
+      <lb ed="#C" n="34"/>nobis agitat Christi Charitas: biga bigae est currus 
+      ha<lb ed="#C" n="35" break="no"/>bens duas rotas, &amp; sicut per currum vehitur aliquid 
+      me<lb ed="#C" n="36" break="no"/>diantibus rotis, ita per linguam, &amp; seylum, quasi per 
+      <lb ed="#C" n="37"/>duas rotas biga, hoc est, Sacra Scriptura a Magistro in 
+      <lb ed="#C" n="38"/>discipulum trasfunditur, &amp; has bigas Charitas Christi 
+      <lb ed="#C" n="39"/>agitat: ita quod Charitas ibi se habet, quasi bos, vel  
+      <lb ed="#C" n="40"/>equus: Sacra Scriptura se habet, vt biga. Stvlus, &amp; 
+      lin<lb ed="#C" n="41" break="no"/>gua se habent vt rotae, quae verba sumpta sunt ab <name xml:id="Gi9qrR-de8172-Nd1e490" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="42"/>in principio 3. de Trin. Deinde ponitur retractivum, 
+      cir<lb ed="#C" n="43" break="no"/>ca quod duo facit: quia 1. ponitur detrahentium 
+      loqua<lb ed="#C" n="44" break="no"/>citas: 2. ponitur detrahentium causa: ibi quia 
+      dissentienti<lb ed="#C" n="45" break="no"/>bus &amp;c. Dicit ergo, quamvis non ambigamus onnem humani 
+      elo<lb ed="#C" n="46" break="no"/>quij sermonem calumniae, atque contradictioni aemulorum, sive in 
+      <lb ed="#C" n="47"/>dividorum, semper fuisse obnocium, id est, suppositum, sive 
+      <lb ed="#C" n="48"/>substractum. Deinde ponitur contradictionis causa: circa 
+      <lb ed="#C" n="49"/>hoc duo facitqquia primo ponit dictam causam: 2. subdit 
+      ta<lb ed="#C" n="50" break="no"/>les contradictores veritatem non cosequi: ibi qui non rationi erc 
+      <lb ed="#C" n="51"/>Circa primum duo facit: quia primo ponitur causa in 
+      <lb ed="#C" n="52"/>trinseca, 2. extrinseca: ibi, quam Deus &amp;c. Dicit ergo, 
+      <lb ed="#C" n="53"/>quia dissentientibus voluntatum motibus disseitiens quoque terret 
+      ani<lb ed="#C" n="54" break="no"/>mnam sensus, quasi dicere ex malitia in affectu gignitur  
+      <lb ed="#C" n="55"/>caecitas in intellectu: vt cum dictum omne veri ratione 
+      perfe<lb ed="#C" n="56" break="no"/>dum sit, tamem dum aliud alijs, aut videtur: quantum adcaecitatem in 
+      in<lb ed="#C" n="57" break="no"/>tellectu, aut placet, propter malitiam in affectu, veritati non 
+      in<lb ed="#C" n="58" break="no"/>tellect: quantum ad primum, vel offendenti. quantum ad 
+      se<lb ed="#C" n="59" break="no"/>cundum. Nam aliquis ex veritate offenditur: quia mala 
+      <lb ed="#C" n="60"/>coluntas eius reprehenditur. Impietatis error omittatur, quantum 
+      <lb ed="#C" n="61"/>odintellectu, ac voluntatis invidia resultet, quantum ad 
+      affe<lb ed="#C" n="62" break="no"/>stum. Deinde ponitur causa extrinseca, cum dicitur, quam, 
+      <lb ed="#C" n="63"/>scilicet, invidiam, sive detrahendi voluntatem, Deus 
+      <lb ed="#C" n="64"/>ham saeculi, hoc est, Diabolus, qui dicitur Princens 
+      mun<lb ed="#C" n="65" break="no"/>di, hoc est mundanorum hominum, operatur in filijs 
+      dif<lb ed="#C" n="66" break="no"/>fidentiae, vt habetur ad Eph. 2. tunc sequitur illa pars, 
+      <lb ed="#C" n="67"/>qui non rationi in qua ostenditur, tales non assequi verita 
+      <lb ed="#C" n="68"/>tem; circa quod tria facit: 1. ostendit tales veritatem 
+      <lb ed="#C" n="69"/>non consequi:. 2. manifestat eos non concordare cum 
+      <!--70.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="70"/>modis sequentium veritatem: ibi non veri &amp;c. 3. ostendit 
+      <lb ed="#C" n="71"/>eos in suit dictis falsitatem habere: ibi halent rationem &amp;c. 
+    </p>
+            <p xml:id="Gi9qrR-de8172-d1e564">
+               <lb ed="#C" n="72"/>Quod aliquis non consequatur veritatem triplex est 
+      cau<lb ed="#C" n="73" break="no"/>sa. 1. quia non sequitur regulam rationis, &amp; quantum 
+      <lb ed="#C" n="74"/>ad hoc dicit, qui non rationi voluntatem subijciunt. 2. quia 
+      <lb ed="#C" n="75"/>doctrinae studium non impedit, &amp; quantum ad hoc 
+      sub<lb ed="#C" n="76" break="no"/>dit, nec doctrinae siudium impendunt. Propter primum 
+      impe<lb ed="#C" n="77" break="no"/>ditur inveniens: propter secundum addiscens; tertio 
+      im<lb ed="#C" n="78" break="no"/>peditur, si non aequat ea, quae sunt in mente, rebus sed  
+      <lb ed="#C" n="79"/>res vult adaequare his, quae sunt in mente. Et quantum 
+      <lb ed="#C" n="80"/>ad hoc subdit, sed his, quae somniarunt, sapientiae verba coapiare. 
+      <lb ed="#C" n="81"/>nituntur. Deinde sequitur illa pars, non veri, in qua 
+      osten<lb ed="#C" n="82" break="no"/>dit modum istorum discordare a modo sequentium 
+      veri<lb ed="#C" n="83" break="no"/>tatem: &amp; duo facit: 1. facit hoc. 2. epilogat ibi, 
+      quo<lb ed="#C" n="84" break="no"/>rum prefessio. Circa primum tria facit: quia triplex est 
+      mo<lb ed="#C" n="85" break="no"/>dus sequentium veritatem: 1. quia debent ratiocinari 
+      <lb ed="#C" n="86"/>propter veritatem, non propter placita, &amp; quantum ad 
+      <lb ed="#C" n="87"/>hoc dicit, non veri, sed placiti ratiocinationem sectantes. 2. quia 
+      <lb ed="#C" n="88"/>hoc debent facere, vt veritatem intelligant, non vt 
+      po<lb ed="#C" n="89" break="no"/>Dsitionem defendant: &amp; quantum ad hoc subdit, quos ini¬ 
+    </p>
+            <p xml:id="Gi9qrR-de8172-d1e606">
+               <lb ed="#C" n="90"/>qua voluntas non ad intelligentiam veritatis, sed ad defensionem 
+      <lb ed="#C" n="91"/>lacentium incitat. 3. hoc debent facere, vt doceantur iux. 
+      <lb ed="#C" n="92"/>a veritatem, non vt convertantur ad fabulas: &amp; ideo 
+      <lb ed="#C" n="93"/>subiungitur, non de doctrma veritatis, sed ab ea, ad fabulas 
+      con<lb ed="#C" n="94" break="no"/>ver tententes auditum. Deinde epilogat quantum ad haec tria 
+      <lb ed="#C" n="95"/>dicens: quorum professio est magis placita, quam docenda 
+      conqui<lb ed="#C" n="96" break="no"/>rere, &amp; hoc quantum ad primum. Nec docenda desiderate 
+      <lb ed="#C" n="97"/>quantum ad secundum. Sed desideratis doctrinam coaptare, 
+      quan<lb ed="#C" n="98" break="no"/>tum ad tertium. Deinde cum dicit, habent ostendit eos in 
+      <lb ed="#C" n="99"/>suis dictis falsitatem habere, &amp; tria facit. 1. ostendit quod 
+      <lb ed="#C" n="100"/>dictum falsum est in se. 2. quod est falsum in 
+      compara<lb ed="#C" n="101" break="no"/>sione ad alia: ibi salsae doctrinae institutis. 3. ostendit eos 
+      <lb ed="#C" n="102"/>contra veritatem bellare ibi, qui contentioni. Falsitas eorum 
+      <lb ed="#C" n="103"/>deprehenditur tripliciter: nam falsum inaequationem 
+      di<lb ed="#C" n="104" break="no"/>cit. Prima falsitas eorum est, quia superficies non 
+      con<lb ed="#C" n="105" break="no"/>cordat profundo. Et quantum ad hoc dicit, habent rationem 
+      <lb ed="#C" n="106"/>sapientiae in super stitione, id est, in quadam superficie. Et 
+      se<lb ed="#C" n="107" break="no"/>quitur quia Fidei defectionem sequitur hopocrisis mendax, quia 
+      <lb ed="#C" n="108"/>exterius protendunt veritatem in profundo mendacium. 
+      <lb ed="#C" n="109"/>becundo verbis non concordat conscientia, &amp; quantum ad 
+      <lb ed="#C" n="110"/>hoc subdit. Vt sit in verbis pietas, quan amissit conscientia. 
+      Ter<lb ed="#C" n="111" break="no"/>tio quia ipsa verba ad invicem non concordant, &amp; 
+      quan<lb ed="#C" n="112" break="no"/>tum ad hoc subdit, ipsam que simulatam pietatem, omni 
+      verbo<lb ed="#C" n="113" break="no"/>rum mendacio impiam reddunt. Deinde, cum dicit, falsa, 
+      osten<lb ed="#C" n="114" break="no"/>dit falsitatem istorum contra alia. Et primo contra Fidei 
+      <lb ed="#C" n="115"/>Sanctitatem: cum dicit falsae doctrinae institutis Fidei Sanctitatem 
+      <lb ed="#C" n="116"/>corrumpere molientes, id est, desiderantes, vel nitentes. 
+      Se<lb ed="#C" n="117" break="no"/>cundo quantum ad ipsos Fidei susceptores: cum 
+      subiun<lb ed="#C" n="118" break="no"/>igitur aurium que pruut iginem &amp;c. Dicitur enim doctrina 
+      eo<lb ed="#C" n="119" break="no"/>rum prurigo, &amp; modus novellus: quia cum fabulae sint, 
+      <lb ed="#C" n="120"/>&amp; fabula composita sit ex miris, generatur quidam 
+      pru<lb ed="#C" n="121" break="no"/>ritus in auribus, semper audiendi nova. Deinde cum 
+      di<lb ed="#C" n="122" break="no"/>citur qui contentioni &amp;c. Ostendit eos contra veritatem 
+      bel<lb ed="#C" n="123" break="no"/>lare. Et duo facit. 1. facit quod dictum est. 2. causam 
+      <lb ed="#C" n="124"/>assignat ibi inter veri namque &amp;c. Dicit ergo, qui, scilicet,  
+      <lb ed="#C" n="125"/>detractores, contentioni studentes contra veritatem sine foedere, hoc  
+      <lb ed="#C" n="126"/>est sine pacto, sed cum clamoribus solum bellant, huius 
+      <lb ed="#C" n="127"/>causam subdit dicens: inter veri namque assertionem, quantum 
+      <lb ed="#C" n="128"/>ad veraces, &amp; placiti defensionem, quantum ad detractores, 
+      <lb ed="#C" n="129"/>pertinax pugna est, dum se veritas tenet, &amp; se voluntas erroris 
+      tue<lb ed="#C" n="130" break="no"/>tur horum igitur. Assignata huius operis materiae dignitate, 
+      <lb ed="#C" n="131"/>sequitur assignare ipsius quantum ad modum 
+      rationabili<lb ed="#C" n="132" break="no"/>tatem: rationabile opus est ex eo, quod per causam incedit. 
+      <lb ed="#C" n="133"/>Et ideo quatuor facit secundum quadruplicem causam. 
+      <lb ed="#C" n="134"/>1. ponit causam finalem: 2. efficientem, ibi, in labore: 3. 
+      <lb ed="#C" n="135"/>naterialem, ibi ex testimonijs. 4. formalem, ibi, in quatuor.  
+      <lb ed="#C" n="136"/>Circa primum duo facit, secundum quod duplicem finem 
+      <lb ed="#C" n="137"/>assignat. 1. oppilare ora constituentium odibilem 
+      Fecle<lb ed="#C" n="138" break="no"/>siam, sive imitantium diabolum, ne virus nequitiae in 
+      <!--71.xml-->
+      <pb ed="#C" n="34"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>alios effundant, quod habetur; cum dicitur horum &amp;c. A 
+      <lb ed="#C" n="2"/>2. veritatem elucidare, quod notatur cum subiungitur, 
+      <lb ed="#C" n="3"/>&amp; lucernam in candelobro exaltare ec. Postea notatur causa 
+      <lb ed="#C" n="4"/>efficiens: cum dicitur, in labore muito, ac sudore, hoc Deo 
+      prae<lb ed="#C" n="5" break="no"/>stante, quantum ad causam efficientem principalem. 
+      Com<lb ed="#C" n="6" break="no"/>pegimus, quantum ad instrumentalem. Notat causam 
+      mate<lb ed="#C" n="7" break="no"/>rialem, cum subdit: ex testimonijs veritatis in aeternum 
+      fun<lb ed="#C" n="8" break="no"/>datis. Deinde cum dicit: in quatuor libris subdit causam 
+      for<lb ed="#C" n="9" break="no"/>malem. Et duo facit; secundum quod duplex est causa 
+      <lb ed="#C" n="10"/>formalis: distinctio capitulorum, sive forma tractatus, 
+      <lb ed="#C" n="11"/>quod notat, cum dicit in quatuor libris, distinctum. Et 
+      mo<lb ed="#C" n="12" break="no"/>dus tractandi, quod habetur, cum subiungitur, in quod  
+      <lb ed="#C" n="13"/>ere. Circa quod quinque facit, secundum quod circa quinque 
+      <lb ed="#C" n="14"/>eius modus versatur. 1. est exemplorum positivus, quod 
+      <lb ed="#C" n="15"/>habetur, cum dicitur;, in quo maiorum exempla &amp;c. 2. est 
+      <lb ed="#C" n="16"/>fraudulentiae haereticorum improbativus, quod habetur,  
+      <lb ed="#C" n="17"/>cum dicitur: in quo per Dominicae Fidei sanceram profestionem 
+      ui<lb ed="#C" n="18" break="no"/>pereae doctrine; &amp; dicitur doctrina haereticorum doctrina 
+      vi<lb ed="#C" n="19" break="no"/>perea; quia pariendo filios, pereunt, vel viperea, quia 
+      <lb ed="#C" n="20"/>vi pariunt, in eo quod textui violentiam faciunt. 3. est 
+      <lb ed="#C" n="21"/>aditus veritatis manifestativus: ibi aditum demonserandae 
+      ve<lb ed="#C" n="22" break="no"/>ritatis complexi, id est, complectentes. 4. est particula 
+      er<lb ed="#C" n="23" break="no"/>roris vitativus: ibi nec periculo &amp;c. In quo dicit se 
+      tempe<lb ed="#C" n="24" break="no"/>rato inter vtrumque: moderamine vtentem: quia inter 
+      <lb ed="#C" n="25"/>errorem Arrij, qui separavit substantiam, &amp; Sabellij, qui  
+      <lb ed="#C" n="26"/>confusit personas. Quinto est Patrum limitibus 
+      adhae<lb ed="#C" n="27" break="no"/>sivus, ibi: sic vbi vero parum. Tunc sequitur illa pars, non 
+      <lb ed="#C" n="28"/>igitur debet, in qua ostendit huius operis vtilitatem: &amp; 
+      <lb ed="#C" n="29"/>quatuor facit, secundum quod quadrupliciter operis, 
+      <lb ed="#C" n="30"/>huius vtilitas colligitur. 1. ex ipsius brevitate, quod 
+      no<lb ed="#C" n="31" break="no"/>tatur ibi: non igitur debet inc labor. 2. ex ipsius firmitate: quia 
+      <lb ed="#C" n="32"/>hoc opus est per Patrum testimonia confirmatum; ibi 
+      <lb ed="#C" n="33"/>appo sitis eorum testimonijs. 3. ex ipsius profunditate, ibi in 
+      <lb ed="#C" n="34"/>hoc autem tractatu non selum prum lectorem, sed etiam liberum 
+      cor<lb ed="#C" n="35" break="no"/>rectorem desidero, &amp; dicit liberam: quia liber est sui gratia, 
+      <lb ed="#C" n="36"/>vt dicitur 1. Meta. Tunc est libri corrector, quando 
+      gra<lb ed="#C" n="37" break="no"/>tia correctionis, non invidiae, &amp; impugnationum 
+      corri<lb ed="#C" n="38" break="no"/>igit: &amp; sequitur: ubi prosunda veritatis versatur quaestio. 
+      Quar<lb ed="#C" n="39" break="no"/>to, &amp; vltimo vtilitas huius operis colligitur ex ipsius 
+      or<lb ed="#C" n="40" break="no"/>dinabilitate, quod notatur ibi, vt autem quod quaeritur.  
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

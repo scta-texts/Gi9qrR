@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g19782"><!-- l1-d47prooem -->
+            <head xml:id="Gi9qrR-g19782-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g19782-d1e111">
+      <!--867.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="26"/>DISTINCTIO XVIIJ 
+      <lb ed="#C" n="27"/>QVOD VOLVNTAS DEISEMPER IMPLETVR DE HOMINE 
+      <lb ed="#C" n="28"/>quocumque se vertat.
+    </p>
+            <p xml:id="Gi9qrR-g19782-d1e124">
+      <!--867.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="29"/>VOLVNTAS quitpe Dei &amp;c. Po¬ 
+      <lb ed="#C" n="30"/>stquam Magister solvit ad 
+      <lb ed="#C" n="31"/>ea per quae videbatur 
+      Divi<lb ed="#C" n="32" break="no"/>na voluntas impediri. Hic 
+      <lb ed="#C" n="33"/>in parte ista ostendit eam 
+      <lb ed="#C" n="34"/>semper impleri. Et duo 
+      fa<lb ed="#C" n="35" break="no"/>cit: quia 1. facit quod dictum 
+      <lb ed="#C" n="36"/>est. 2. propter ea quae dixe 
+      <lb ed="#C" n="37"/>rat, movet quasdam dubitationes Secunda ibi: Sed 
+      <lb ed="#C" n="38"/>attendendum est diligenter. Circa primum tria facit: 
+      <lb ed="#C" n="39"/>quia 1. dicit voluntatem Dei semper efficacem esse, 
+      <lb ed="#C" n="40"/>ut fiat omne, quod velit de homine, quocumque 
+      <lb ed="#C" n="41"/>se vertat. 2. probat quod dixerat per <name xml:id="Gi9qrR-g19782-Nd1e158" ref="#Augustine">Aug.</name> qui  
+      <lb ed="#C" n="42"/>ait quod semper impletur Divina voluntas ivel 
+      <lb ed="#C" n="43"/>de nobis, vel a nobis De nobis, cum delinquimus, 
+      <lb ed="#C" n="44"/>a nobis cum bene facimus: nam mali homines 
+      <lb ed="#C" n="45"/>licet quantum ad iipsos attinet, faciant quod  
+      <lb ed="#C" n="46"/>Deus noluit; quantum vero ad Dei 
+      omnipoten<lb ed="#C" n="47" break="no"/>tiam, quod non vult Deus, facere non possunt: 
+      <lb ed="#C" n="48"/>etiam quod sit a malis contra Dei voluntatem, 
+      <lb ed="#C" n="49"/>non sit praeter ejus voluntatem. Tertio in 
+      brevi<lb ed="#C" n="50" break="no"/>concludit veritatem ex dictis. Secunda ibi: 
+      Ni<lb ed="#C" n="51" break="no"/>bil enim, ut ait <name xml:id="Gi9qrR-g19782-Nd1e183" ref="#Augustine">Aug.</name> Tertia ibi: His verbis evidenter. 
+      <lb ed="#C" n="52"/>Tunc sequitur illa pars: Sed attendendum. In 
+      <lb ed="#C" n="53"/>qua propter praetacta movet quasdam dubita. 
+      <lb ed="#C" n="54"/>tiones. Dixerat enim <name xml:id="Gi9qrR-g19782-Nd1e193" ref="#Augustine">Aug.</name> aliquid fieri contra D 
+      <lb ed="#C" n="55"/>Dei voluntatem, quod non sit praeter eam: &amp; 
+      <lb ed="#C" n="56"/>quod mali quantum est de se fecerunt quod  
+      <lb ed="#C" n="57"/>Deus noluit; quantum vero ad omnipotentiam 
+      <lb ed="#C" n="58"/>Dei facere non potuerunt: &amp; quia haec videtur  
+      <lb ed="#C" n="59"/>obviare superioribus dictis, ubi tactum est nihil 
+      <lb ed="#C" n="60"/>voluntati Divinae resistere posse: quaerit quomo 
+      <lb ed="#C" n="61"/>do talia intelligenda sint. Et duo facit: quia 1. 
+      <lb ed="#C" n="62"/>quaerit intellectum eorum dictorum. 2. 
+      intelle<lb ed="#C" n="63" break="no"/>ctum eorum aperit, ibi: Vtrum, ut supra diximus. 
+      <lb ed="#C" n="64"/>Circa quod duo facit secundum, quod duo di¬ 
+      <!--867.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="65"/>xerat, quae expositione indig bant: quia 1. aperit  
+      <lb ed="#C" n="66"/>intellectum unius dicti. 2. aliorius. Secunda ibi:  
+      <lb ed="#C" n="67"/>Sed non contra Circa 1. duo facit: quia 1. 
+      osten<lb ed="#C" n="68" break="no"/>dit quod cum dicitur aliquid fieri coniri Tei 
+      <lb ed="#C" n="69"/>volunta: em, quod non fit praeter, intellix endum 
+      <lb ed="#C" n="70"/>est de voluntate signi non beneplaciti, quia 
+      ali<lb ed="#C" n="71" break="no"/>quid fit contra unam voluntatem sig i, quod non 
+      <lb ed="#C" n="72"/>fit praeter aliam. 2. manifestat quod dixerat: 
+      <lb ed="#C" n="73"/>quia multa fiunt contra voluntatem ejus spriout 
+      <lb ed="#C" n="74"/>praeceptum dicitur ejus voluntas) quae non fiunt, 
+      <lb ed="#C" n="75"/>praeter permissionem, quae etiam Divina voluntas 
+      <lb ed="#C" n="76"/>nominatur. Secunda ibi: Muita enim siunt. 
+    </p>
+            <p xml:id="Gi9qrR-g19782-d1e249">
+               <lb ed="#C" n="77"/>Tunc sequitur illa pars: Sed non contra eius 
+      vo<lb ed="#C" n="78" break="no"/>luntatem. In qua postquam exposuit, quomodo 
+      <lb ed="#C" n="79"/>intelligendum sit, aliqua fieri contra Dei 
+      volun<lb ed="#C" n="80" break="no"/>tatem quae non fiunt praeter: exponit, 
+      quomo<lb ed="#C" n="81" break="no"/>do accipiendum sit, quod mali, quantum in se est 
+      <lb ed="#C" n="82"/>fecerunt quod De: s noluit; quantum vero ad 
+      <lb ed="#C" n="83"/>Dei omnipotentiam, nullo moco facere 
+      value<lb ed="#C" n="84" break="no"/>runt. Circa quod duo facit: quia 1. dat 
+      intelli<lb ed="#C" n="85" break="no"/>gentiam dicti dicers: malos quantum in se est 
+      <lb ed="#C" n="86"/>facere quod Deus non vult, quia faciunt contra 
+      <lb ed="#C" n="87"/>ejus praecepta; tamen quantum ad Dei 
+      omni<lb ed="#C" n="88" break="no"/>potentiam, hoc est quantum ad veluntatem 
+      he<lb ed="#C" n="89" break="no"/>neplaciti, quae est idem quod ipse, &amp; quod est s. 
+      <lb ed="#C" n="90"/>omnipotitia, contra eam facere non valent, licet  
+      <lb ed="#C" n="91"/>praeter ipsam faciat: 2. concludit ex dictis, quod  
+      <lb ed="#C" n="92"/>voluntas Dei, quae est ejus beneplacitum, semper 
+      <lb ed="#C" n="93"/>impletur; consilia tamen &amp; praecepta &amp; prohi. 
+      <lb ed="#C" n="94"/>bitiones non semper implentur: quia hujesm 
+      odi<lb ed="#C" n="95" break="no"/>prohibitiones &amp; praecepta data omnibus non 
+      <lb ed="#C" n="96"/>vult Deus voluntate cose queti impleri ab 
+      omni<lb ed="#C" n="97" break="no"/>bus: immo etiam aliqua praecepta dedit aliqui. 
+      <lb ed="#C" n="98"/>bus personis specialibus, quae impleri nolisic: 
+      Se<lb ed="#C" n="99" break="no"/>cunda ibi: Ex praedictio linquet. In quo terminatur 
+      <lb ed="#C" n="100"/>sententia lectionis &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

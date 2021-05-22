@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="720"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f87864"><!-- l1-d37p2expolit -->
+            <head xml:id="Gi9qrR-f87864-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f87864-d1e111">
+               <lb ed="#C" n="88"/>ExPOSITIO LITTERAE. 
+    </p>
+            <p xml:id="Gi9qrR-f87864-d1e116">
+               <lb ed="#C" n="89"/>SVper litteram, super illo: Non quast 
+      spa<lb ed="#C" n="90" break="no"/>nosa magnitudine. Notandum, quod  
+      <lb ed="#C" n="91"/>verba <name xml:id="Gi9qrR-f87864-Nd1e124" ref="#Augustine">Aug.</name> quae inducit Magister, inten 
+      <lb ed="#C" n="92"/>dunt separe a Deo omnem extensionem, 
+      <lb ed="#C" n="93"/>&amp; omnem quantitatem dimensivam: 
+      <lb ed="#C" n="94"/>nam quidquid est extemsum, vel est 
+      exten<lb ed="#C" n="95" break="no"/>sum per se sicut corpus, vel est extensum 
+      <lb ed="#C" n="96"/>per accidens, sicut ea, quae extenduntur  
+      <lb ed="#C" n="97"/>extensione corporis, sicut quantitates 
+      <lb ed="#C" n="98"/>corporales. Ad ostendendum igitur, quod  
+      <lb ed="#C" n="99"/>Deo non competit quantitas 
+      dimensi<lb ed="#C" n="100" break="no"/>va per se, dicit quod non extenditur 
+      si<lb ed="#C" n="101" break="no"/>cut humus. Adinsinuandum vero, quod 
+      <lb ed="#C" n="102"/>ei non competit quantitas dimensiva 
+      <lb ed="#C" n="103"/>per accidens, subdit: quod non 
+      ex<lb ed="#C" n="104" break="no"/>tenditur sicut lux ista corporalis, quae 
+      <lb ed="#C" n="105"/>multiplicatur, &amp; diffunditur per 
+      quan<lb ed="#C" n="106" break="no"/>libet partem medii. 
+    </p>
+            <p xml:id="Gi9qrR-f87864-d1e161">
+               <lb ed="#C" n="107"/>Item super illo: Sed potius sicut in 
+      duo<lb ed="#C" n="108" break="no"/>bus sapientibus. Notandum, quod sicut 
+      sa<lb ed="#C" n="109" break="no"/>pientia est in duobus sapientibus, ita se¬ 
+      <!--746.xml-->
+      <pb ed="#C" n="721"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>cundum aliqeam similitudinem Deus 
+      <lb ed="#C" n="2"/>est in rebus: nam sapientia in maiori 
+      <lb ed="#C" n="3"/>i corpore non est maior, nec in eminori 
+      <lb ed="#C" n="4"/>minor: sic Deus non dividitur 
+      divisio<lb ed="#C" n="5" break="no"/>ne rerum, sed totus in qualibet re existit. 
+      <lb ed="#C" n="6"/>st Advertendum tamen, quod maioritas 
+      <lb ed="#C" n="7"/>&amp; minoritas dupliciter potest attendi. 
+      <lb ed="#C" n="8"/>Primo secundum quantitatem molis, &amp; 
+      <lb ed="#C" n="9"/>tquantum ad hoc in uno non est maior 
+      <lb ed="#C" n="10"/>sapientia, quam in alio, eo quod talis 
+      <lb ed="#C" n="11"/>magnitudo sapientiae non conveniat: &amp; 
+      <!--746.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="12"/>talem magnitudinem negant verba <name xml:id="Gi9qrR-f87864-Nd1e206" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="13"/>convenire sapientiae, cum dicit: quod 
+      <lb ed="#C" n="14"/>non est maior sapientia in maiori 
+      cor<lb ed="#C" n="15" break="no"/>pore, &amp; minor in minori. Alio modon 
+      <lb ed="#C" n="16"/>potest attendi maioritas vel minorita: 
+      <lb ed="#C" n="17"/>secundum quantitatem virtutis, &amp; hoc  
+      <lb ed="#C" n="18"/>potest esse dupliciter, extensive &amp; 
+      inten<lb ed="#C" n="19" break="no"/>sive: utroque tamen modo una 
+      sapien<lb ed="#C" n="20" break="no"/>tia est maior alia. Est enim unus 
+      sapien<lb ed="#C" n="21" break="no"/>tior alio extensive, cum plura sapit; 
+      in<lb ed="#C" n="22" break="no"/>tensive vero, cum ea clarius cognoscit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

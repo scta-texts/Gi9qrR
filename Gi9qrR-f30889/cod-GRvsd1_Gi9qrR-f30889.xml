@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="490"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f30889"><!-- l1-d26prooem -->
+            <head xml:id="Gi9qrR-f30889-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f30889-d1e111">
+      <!--527.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="36"/>DISTIINCTIO XXVI. 
+      <lb ed="#C" n="37"/>DE PROP RIETATIBVS PERSONARVM; SED PRIVS 
+      <lb ed="#C" n="38"/>de hoc nomine hopostasis. 
+    </p>
+            <p xml:id="Gi9qrR-f30889-d1e124">
+      <!--527.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="39"/>QVNC de proprietatibus &amp;c. Posto 
+      <lb ed="#C" n="40"/>quam Magist. 
+      determina<lb ed="#C" n="41" break="no"/>vit de essentia, &amp; Personis: 
+      <lb ed="#C" n="42"/>hic determinat de 
+      proprie<lb ed="#C" n="43" break="no"/>tatibus Personarum. Et duo 
+      <lb ed="#C" n="44"/>facit: quia 1. determinat de 
+      <lb ed="#C" n="45"/>proprietatibus proprijs. 2. 
+      <lb ed="#C" n="46"/>de appropriatis. Secunda 
+      <lb ed="#C" n="47"/>ibi: Praeterea: in princ. 32. distin. Circa 
+      pri<lb ed="#C" n="48" break="no"/>mum duo facit: quia 1. determinat de 
+      pro<lb ed="#C" n="49" break="no"/>prietatibus constituentibus Personas. 2. 
+      de<lb ed="#C" n="50" break="no"/>quibusdam proprietatibus, quae Personas non 
+      <lb ed="#C" n="51"/>constituunt: propter quod magis merentur  
+      <lb ed="#C" n="52"/>dici notiones, quam proprietates. Tertia ibi: 
+      <lb ed="#C" n="53"/>Praeterea: in princ. 28. distin. Circa primum 
+      <lb ed="#C" n="54"/>duo facit: quia 1. determinat de 
+      proprieta<lb ed="#C" n="55" break="no"/>tibus personalibus. 2. specialiter determinat D 
+      <lb ed="#C" n="56"/>de eis in comparatione ad hypostases. 
+      Secun<lb ed="#C" n="57" break="no"/>da ibi: Hic quaeri potest, in princ. 27. dist. Circa 
+      <lb ed="#C" n="58"/>primum duo facit: quia 1. inquirit: utrum 
+      <lb ed="#C" n="59"/>nomen hypostasis debeat recipi in Divinis? 2. 
+      <lb ed="#C" n="60"/>determinat de proprietatibus Personarum, 
+      <lb ed="#C" n="61"/>ibi: Iam de proprietatibus. Circa primum tria 
+      fa<lb ed="#C" n="62" break="no"/>cit: quia 1. ostendit, quod antiquitus 
+      haere<lb ed="#C" n="63" break="no"/>tici decipiebant simplices utendo hoc nomine 
+      <lb ed="#C" n="64"/>hypostasis. 2. ostendit propter hoc Hierony. 
+      <lb ed="#C" n="65"/>negasse usum huius nominis. 3. concluditHie 
+      <lb ed="#C" n="66"/>rony. non simpliciter negasse talem usum, 
+      <lb ed="#C" n="67"/>sed propter haereticos, qui nomine 
+      hyposta<lb ed="#C" n="68" break="no"/>sis prave utebantur. Secunda ibi: Et idem 
+      <!--527.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="69"/>Hieronomns. Tertia ibi: His verbis. Deinde cum 
+      <lb ed="#C" n="70"/>dicit: Iam de proprietatibus, determinat de 
+      pro<lb ed="#C" n="71" break="no"/>prietatibus Personarum. Et duo facit: quia 1. 
+      <lb ed="#C" n="72"/>determinat de eis in quadam communitate. 
+      <lb ed="#C" n="73"/>2. specialiter descendit ad proprium Filij, &amp; 
+      <lb ed="#C" n="74"/>Spiritus Sancti. Secunda ibi: Hic quaeritur. 
+      Cir<lb ed="#C" n="75" break="no"/>ca primum duo facit: quia 1. enumerat 
+      pro<lb ed="#C" n="76" break="no"/>prietates Personarum. 2. quia huiusmodi 
+      pro<lb ed="#C" n="77" break="no"/>prietates relationes quaedam sunt, ostendit 
+      <lb ed="#C" n="78"/>non omne, quod de Deo dicitur, secundum sub 
+      <lb ed="#C" n="79"/>stantiam dici, ibi: Quo circa. Circa quod tria 
+      <lb ed="#C" n="80"/>facit: quia 1. praemittit hanae divisionem, 
+      <lb ed="#C" n="81"/>quod quaedam dicuntur de Deo secundum 
+      <lb ed="#C" n="82"/>substantiam, quaedam secundum relationem, 
+      <lb ed="#C" n="83"/>quae relatio non dicit aliquod accidens in Deo. 
+      <lb ed="#C" n="84"/>2. confirmat dictum suum per <name xml:id="Gi9qrR-f30889-Nd1e234" ref="#Augustine">Aug.</name> 3. 
+      addu<lb ed="#C" n="85" break="no"/>cit auctoritatem Hilarij ad probandum 
+      hu<lb ed="#C" n="86" break="no"/>iusmodi relationes in Deo non dici secundum 
+      <lb ed="#C" n="87"/>accidens: quia nihil mutabilitatis in ipso 
+      po<lb ed="#C" n="88" break="no"/>nunt. Secunda ibi: Vt <name xml:id="Gi9qrR-f30889-Nd1e246" ref="#Augustine">Aug.</name> Tertia ibi: Vnde 
+      <lb ed="#C" n="89"/>Hilarius. 
+    </p>
+            <p xml:id="Gi9qrR-f30889-d1e252">
+               <lb ed="#C" n="90"/>Tunc sequitur illa pars: Hic quaeritur, in 
+      <lb ed="#C" n="91"/>qua specialiter descendit ad proprium Filij, &amp; 
+      <lb ed="#C" n="92"/>Spiritus S. Et duo facit: quia 1. movet 
+      quam<lb ed="#C" n="93" break="no"/>dam quaest. circa proprietatem Filij 2. ex 
+      de<lb ed="#C" n="94" break="no"/>terminatione quaest. motae determinat quaedam 
+      <lb ed="#C" n="95"/>de proprio Spiritus S. ibi: Ita etiam. Circa 
+      pri<lb ed="#C" n="96" break="no"/>mum duo facit: quia 1. quaerit, quomodo 
+      <lb ed="#C" n="97"/>filiatio sit proprium Filij, cum &amp; homines 
+      di<lb ed="#C" n="98" break="no"/>cantur Dei Filij? 2. dictam quaest. solvit, ihi:. 
+      <!--528.xml-->
+      <pb ed="#C" n="491"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>Sed magna. Circa quod duo facit, secundum A 
+      <lb ed="#C" n="2"/>quod dupliciter differentiam assignat inter 
+      fi<lb ed="#C" n="3" break="no"/>hationem Filij &amp; nostram. Secunda ibi: 
+      Ho<lb ed="#C" n="4" break="no"/>mo vero. Circa primum duo facit: quia 1. di 
+      <lb ed="#C" n="5"/>cit Filium Dei esse Filium proprietate originis 
+      <lb ed="#C" n="6"/>&amp; veritate nativitatis: nas vero factura, &amp; 
+      <lb ed="#C" n="7"/>adoptione: unde Dei Filius non prius fuit, &amp; 
+      <lb ed="#C" n="8"/>postea fuit Filius, sicut nos. 2. quod dixerat 
+      <lb ed="#C" n="9"/>manifestat per Hilar. ibi: Vnde Hilarius. Dein 
+      <lb ed="#C" n="10"/>de cum dicit: Himo; ponit aliam differentiam 
+      <lb ed="#C" n="11"/>inter filiationem Filij &amp; nostram: quia Pater 
+      <lb ed="#C" n="12"/>Filij est una in Trinitate Persona; sed Pate 
+      <lb ed="#C" n="13"/>noster potest dici tota Trinitas: unde duo 
+      <lb ed="#C" n="14"/>facit: quia 1. ponit dictam differentiam, &amp; 
+      <lb ed="#C" n="15"/>eam probat per <name xml:id="Gi9qrR-f30889-Nd1e312" ref="#Augustine">Aug.</name> 2. concludit, quod 
+      pro<lb ed="#C" n="16" break="no"/>prium potest esse Filij, quod sit Filius, non ol 
+      <lb ed="#C" n="17"/>stante, quod nos Filij simus: quia ipse est dis 
+      <lb ed="#C" n="18"/>ferenter Filius a nobis. Deinde cum dicit: Ita 
+      <lb ed="#C" n="19"/>etiam, determinat de proprio Spiritus Sanctis 
+      <lb ed="#C" n="20"/>Et duo facit: quia 1. dicit Spiritum S. 
+      pro<lb ed="#C" n="21" break="no"/>prie dici donum Dei, licet plura alia sint  
+      <lb ed="#C" n="22"/>Dei dona, sicut Filius proprie dicitur Dei Fi 
+      <!--528.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="23"/>lius, licet multi alij sint Dei Filij. 2. quia 
+      di<lb ed="#C" n="24" break="no"/>xerat Spiritum S. etiam proorie dici Spiritum 
+      <lb ed="#C" n="25"/>Sanctum, quaerit: utrum tota Trinitas 
+      Spiri<lb ed="#C" n="26" break="no"/>tus S. dici possit? Et duo facit: quia 1. 
+      mo<lb ed="#C" n="27" break="no"/>vet quaest. dictam, &amp; solvit, quod tota 
+      Tri<lb ed="#C" n="28" break="no"/>nitas, licet non possit dici Filius, potest 
+      di<lb ed="#C" n="29" break="no"/>ci Spiritus S. Sed ut Spiritus S. dicitur de 
+      to<lb ed="#C" n="30" break="no"/>ta Trinitate sumitur secundum essentiam; ut 
+      <lb ed="#C" n="31"/>est proprium Spiritus S. sumitur relative. 2. 
+      <lb ed="#C" n="32"/>circa proprium Spiritus S. ponit quamdam 
+      <lb ed="#C" n="33"/>positionem a veritate deviantem, ibi: Quidam 
+      <lb ed="#C" n="34"/>tamen. Et duo facit: quia 1. ponit positione 
+      <lb ed="#C" n="35"/>dictam. Nolebant enim quidam Spiritum S. 
+      <lb ed="#C" n="36"/>&amp; donum non relative dici ad Patrem &amp; 
+      Fi<lb ed="#C" n="37" break="no"/>lium: eo quod in relativis est convertentia. 
+      <lb ed="#C" n="38"/>Sed licet possimus dicere donum Patris; non 
+      <lb ed="#C" n="39"/>tamen possumus dicere, Patrem doni. 2. hac 
+      <lb ed="#C" n="40"/>positio nem removet: quia nn oportet it 
+      <lb ed="#C" n="41"/>omnibus relativis talem convertetiam ad esse. 
+      <lb ed="#C" n="42"/>Secunda ibi: Sed non est ita, in quo 
+      termina<lb ed="#C" n="43" break="no"/>tur sententia lectionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

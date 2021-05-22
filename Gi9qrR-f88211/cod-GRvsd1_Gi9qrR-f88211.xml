@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="722"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f88211"><!-- l1-d38q1 -->
+            <head xml:id="Gi9qrR-f88211-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-f88211-d1e111">
+      
+      <!--747.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="10"/>QVaAESTIO I. 
+      <lb ed="#C" n="11"/>De causalitate Divinae scientiae. 
+    </p>
+            <p xml:id="Gi9qrR-f88211-d1e122">
+               <lb ed="#C" n="12"/>N praesenti distinctio 
+      <lb ed="#C" n="13"/>ne Magister circa tria 
+      <lb ed="#C" n="14"/>videtur intendere. 
+      Pri<lb ed="#C" n="15" break="no"/>mo circa causalitatem 
+      <lb ed="#C" n="16"/>Divinae scientiae. 
+      Secun<lb ed="#C" n="17" break="no"/>do, circa ipsa praescita 
+      <lb ed="#C" n="18"/>a Deo. Tertio, circa 
+      <lb ed="#C" n="19"/>infallibilitatem Divinae scientiae. Ideo 
+      <lb ed="#C" n="20"/>de his tribus quaeremus. Circa primum 
+      <lb ed="#C" n="21"/>quaeremus duo. Primo: utrum Divina 
+      <lb ed="#C" n="22"/>scientia sit causa rerum? Secundo, de 
+      u<lb ed="#C" n="23" break="no"/>niformitate eius. 
+    </p>
+            <div xml:id="Gi9qrR-f88211-Dd1e151">
+               <head xml:id="Gi9qrR-f88211-Hd1e153">Articulus 1</head>
+               <p xml:id="Gi9qrR-f88211-d1e156">
+                  <lb ed="#C" n="24"/>ARTICVLVS I. 
+        <lb ed="#C" n="25"/>Vtrum Divina scientia sit causa rerum? 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e163">
+                  <lb ed="#C" n="26"/>AD 1. sic proceditur: videtur quod  
+        <lb ed="#C" n="27"/>scientia non sit causa rerum: quia 
+        <lb ed="#C" n="28"/>vel est causa mutabilis, vel 
+        immntabi<lb ed="#C" n="29" break="no"/>lis? Mutabilis non: quia in Deo nulla 
+        <lb ed="#C" n="30"/>mutabilitas; ergo immutabilis, sed 
+        ex<lb ed="#C" n="31" break="no"/>immutabili causa sequuntur immutabi 
+        <lb ed="#C" n="32"/>les effectus. Cum igitur videamus 
+        mu<lb ed="#C" n="33" break="no"/>tabilitatem in rebus, arguere possumus 
+        <lb ed="#C" n="34"/>Divinam scientiam non esse causam 
+        ea<lb ed="#C" n="35" break="no"/>rum.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e187">
+        Praeterea: posita causa &amp; non 
+        im<lb ed="#C" n="36" break="no"/>pedita ponitur effectus, sed posita 
+        scien<lb ed="#C" n="37" break="no"/>tia Dei non de necessitate ponuntur res 
+        <lb ed="#C" n="38"/>esse, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e196">
+        Praeterea: si scientia Dei 
+        <lb ed="#C" n="39"/>causat res, cum scientia nostra causetur 
+        <!--747.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="40"/>a rebus, tunc erit par comparatio 
+        scien<lb ed="#C" n="41" break="no"/>tiae nostrae ad res, quae est rerum, ad 
+        sci<lb ed="#C" n="42" break="no"/>entiam Dei; sec res imponunt modum 
+        <lb ed="#C" n="43"/>scientiae nostrae, ut de necessarijs est 
+        sci<lb ed="#C" n="44" break="no"/>entia necessaria, de contingetibus est scien 
+        <lb ed="#C" n="45"/>tia variabilis, vel non est de eis scietia, sod  
+        <lb ed="#C" n="46"/>opinio, ergo &amp; scientia Dei imponet ne 
+        <lb ed="#C" n="47"/>cessitatem, &amp; modum ipsis rebo; sed cum 
+        scien<lb ed="#C" n="48" break="no"/>ia Dei sit necessaria, res necessario 
+        es<lb ed="#C" n="49" break="no"/>Sent; sed cum hoc sit impossibile, ergo &amp; 
+        il<lb ed="#C" n="50" break="no"/>lud, ex quo sequitur, scilicet, quod 
+        Divi<lb ed="#C" n="51" break="no"/>na scientia sit causa rerum.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e232">
+        Praeterea: Deus 
+        <lb ed="#C" n="52"/>scit non solum bona, sed etiam mala. 
+        <lb ed="#C" n="53"/>Si igitur sua scientia est causa rerum, ipse  
+        <lb ed="#C" n="54"/>erit causa malorum, quod est inconveniens. 
+        <lb ed="#C" n="55"/>In contrarium est: quod Deus agit 
+        <lb ed="#C" n="56"/>intelligendo, cum sit intellectualis 
+        na<lb ed="#C" n="57" break="no"/>turae; sed agens per intelle um causat 
+        <lb ed="#C" n="58"/>gres intelligendo, igitur ipsa cognitio 
+        <lb ed="#C" n="59"/>existes in intellectu eius est ratio &amp; 
+        cau<lb ed="#C" n="60" break="no"/>sa eorum, quae producit, ergo erit 
+        Di<lb ed="#C" n="61" break="no"/>vina scientia causa rerum.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e256">
+        Praeterea: 
+        <lb ed="#C" n="62"/>Philosophus in 10. Meta. ostendit Deum esse 
+        <lb ed="#C" n="63"/>mensuram omnium, sed Deus est 
+        men<lb ed="#C" n="64" break="no"/>sura omnium, in quantum per suum 
+        in<lb ed="#C" n="65" break="no"/>tellectum omnia mensurat: sed cum 
+        <lb ed="#C" n="66"/>mensura importet aliam rationem 
+        prin<lb ed="#C" n="67" break="no"/>cipij respectu mensuratorum, erit 
+        Divi<lb ed="#C" n="68" break="no"/>na scientia causa rerum. 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e274">
+                  <lb ed="#C" n="69"/>RESOLVTIO. 
+        <lb ed="#C" n="70"/>Scientia Dei, ut scientia appellari potest, est 
+        <lb ed="#C" n="71"/>causa fine qua non: ut autem includit vo¬ 
+        <lb ed="#C" n="72"/>luntatem &amp; beneplacit um est causa 
+        <lb ed="#C" n="73"/>rerum simpliciter, &amp; per 
+        <lb ed="#C" n="74"/>omnem modum. 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e290">
+                  <lb ed="#C" n="75"/>REspond. dicendum, quod omnis 
+        <lb ed="#C" n="76"/>Dscientia est aliquo modo 
+        adaequa<lb ed="#C" n="77" break="no"/>tio rerum ad intellectum, loquendo de 
+        <lb ed="#C" n="78"/>scientia, qua sciuntur alia entia a 
+        cog<lb ed="#C" n="79" break="no"/>noscente: propterea enim est questio 
+        in<lb ed="#C" n="80" break="no"/>troducta. Illud autem alteri adaequatur,  
+        <lb ed="#C" n="81"/>quod sit ad eius imitationem: hoc autem 
+        <!--748.xml-->
+        <pb ed="#C" n="723"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>esse non pofest, secundum quod spectat 
+        <lb ed="#C" n="2"/>ad propositum, nisi unum praeexistat, &amp; 
+        <lb ed="#C" n="3"/>alterum imitetur illud. Dupliciter ergo 
+        <lb ed="#C" n="4"/>coterit esse adaequatio rerum ad 
+        intel<lb ed="#C" n="5" break="no"/>ectum: vel quod res praeexistant, &amp; 
+        in<lb ed="#C" n="6" break="no"/>tellectus, accipiens similitudinem earum 
+        <lb ed="#C" n="7"/>imiretur eas; vel quod intellectus 
+        prae<lb ed="#C" n="8" break="no"/>existat, &amp; secundum formam in intelle 
+        <lb ed="#C" n="9"/>ctu exiientem res progrediatur in esse. 
+        <lb ed="#C" n="10"/>Primo modo scientia causatur a rebus, 
+        <lb ed="#C" n="11"/>Secundo, causat res. Vtrumque istorum 
+        <lb ed="#C" n="12"/>modorum reperimus in humana 
+        scien<lb ed="#C" n="13" break="no"/>tia. Habet enim homo scientiam 
+        natu<lb ed="#C" n="14" break="no"/>ralium, &amp; artificialium; sed non eodem 
+        <lb ed="#C" n="15"/>modo: quia naturalium habet scientiam, 
+        <lb ed="#C" n="16"/>prout ab eis cognitionem recipit: nam 
+        <lb ed="#C" n="17"/>naturalia mensurant intellectum nostrum; 
+        <lb ed="#C" n="18"/>sed artificialium procedentium ab 
+        ho<lb ed="#C" n="19" break="no"/>mine habet scientiam homo, non ut ab 
+        <lb ed="#C" n="20"/>eis cognitionem accipiens, sed velut  
+        <lb ed="#C" n="21"/>ea per intellectum in esse producens, 
+        <lb ed="#C" n="22"/>ideo artificialia non mensurant 
+        intelle<lb ed="#C" n="23" break="no"/>ctum artificis, sed mensurantur ab eo, 
+        <lb ed="#C" n="24"/>Advertendum tamen, quod licet respectu 
+        <lb ed="#C" n="25"/>aliquorum aliquo modo scientia nostra 
+        <lb ed="#C" n="26"/>se habeat ut causa; tamen quia initium 
+        <lb ed="#C" n="27"/>cognitionis nostrae a sensu incipit, &amp; 
+        <lb ed="#C" n="28"/>nihil scimus, nisi prout res aliquam cog 
+        <lb ed="#C" n="29"/>nitionem in nobis efficiunt: simpliciter  
+        <lb ed="#C" n="30"/>concedere possumus, scientiam nostram 
+        <lb ed="#C" n="31"/>causari a rebus. Sumpsit enim ipsa ars. 
+        <lb ed="#C" n="32"/>secundum quam per intellectum sumus 
+        <lb ed="#C" n="33"/>mensura aliarum rerum, originem 
+        ex<lb ed="#C" n="34" break="no"/>his, quae sunt in natura, quibus 
+        intelle<lb ed="#C" n="35" break="no"/>ctus noster adaequatur 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e390">
+                  <lb ed="#C" n="36"/>Viso quod adaequatio rei ad 
+        intel<lb ed="#C" n="37" break="no"/>lectum potest esse dupliciter, possumus 
+        <lb ed="#C" n="38"/>his duobus modis acdere tertium, ut  
+        <lb ed="#C" n="39"/>sumatur adaequatio rerum ad intellectu 
+        <lb ed="#C" n="40"/>non ex eo, quod intellectus imitetur  
+        <lb ed="#C" n="41"/>res, vel e converso; sed ex eo, quod 
+        <lb ed="#C" n="42"/>ambo imitantur tertium. Secundum 
+        <lb ed="#C" n="43"/>autem hos tres modos adaequationis est 
+        <lb ed="#C" n="44"/>triplex scientia, Divina, humana, &amp; 
+        Ange<lb ed="#C" n="45" break="no"/>lica. Nam intellectum Divinum omnia 
+        <lb ed="#C" n="46"/>imitatur: comparantur enim omnia ad 
+        <lb ed="#C" n="47"/>eum, sicut artificialia ad artificem: quia 
+        <lb ed="#C" n="48"/>omnium est artifex, omnem habens 
+        <lb ed="#C" n="49"/>virtutem: unde &amp; Commen. 12. Meta. 
+        <lb ed="#C" n="50"/>vult, quod omnia, quae sunt in istis 
+        infe<lb ed="#C" n="51" break="no"/>rioribus, proveniunt ab una arte 
+        intel<lb ed="#C" n="52" break="no"/>lectuali ipsius Dei. Intellectus vero hus 
+        <lb ed="#C" n="53"/>manus, qui cognoscit per species a 
+        re<lb ed="#C" n="54" break="no"/>bus acceptas. habet scietiam per 
+        adaequa<lb ed="#C" n="55" break="no"/>tionem: quia ipse adaequatur rebus. In 
+        scien<lb ed="#C" n="56" break="no"/>tia vero ugelorum adaequationem salva, 
+        <lb ed="#C" n="57"/>equo, non quia res imitetur intellectum coru¬ 
+        <!--748.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>quia per talem intellectum non progrediuntur? 
+        <lb ed="#C" n="59"/>in esse: nec quia intellecto eorum imitetur? 
+        <lb ed="#C" n="60"/>res, eo quod non cognoscit per species 
+        a<lb ed="#C" n="61" break="no"/>rebus acceptas; sed quia ambo imitatur 
+        <lb ed="#C" n="62"/>tertium: nam ab ideis in mente Divina 
+        existem<lb ed="#C" n="63" break="no"/>tibus habent esse formae in proprijs 
+        ma<lb ed="#C" n="64" break="no"/>teriis, &amp; species in mentibus Angelorum, 
+        <lb ed="#C" n="65"/>Est ergo aliqualis imitatio leonis in 
+        ma<lb ed="#C" n="66" break="no"/>teria ad speciem leonis in mente 
+        Ange<lb ed="#C" n="67" break="no"/>geli: eo quod haec ambo processerunt. 
+        <lb ed="#C" n="68"/>ab una idea leonis in mente Divina. Cun 
+        <lb ed="#C" n="69"/>igitur omnia comparentur ad Deum, 
+        <lb ed="#C" n="70"/>sicut artificialia ad artificem, &amp; res 
+        sci<lb ed="#C" n="71" break="no"/>antur a Deo, ut patet per habita, 
+        inquan<lb ed="#C" n="72" break="no"/>tum Divinam scientiam imitantur: cum 
+        <lb ed="#C" n="73"/>artifex per intellectum &amp; scientiam 
+        no<lb ed="#C" n="74" break="no"/>stram sit causa eorum, ad quae velut ad 
+        <lb ed="#C" n="75"/>artificialia comparantur, concedere 
+        de<lb ed="#C" n="76" break="no"/>pemus esse Divinam scientiam causam 
+        <lb ed="#C" n="77"/>rerum. In hanc enim sententiam concor 
+        <lb ed="#C" n="78"/>dant Sancti &amp; phi nam <name xml:id="Gi9qrR-f88211-Nd1e489" ref="#Augustine">Aug.</name> 6. de Trin. 
+        <lb ed="#C" n="79"/>cap. ult. ait: Non enim haec, quae creata sunt,  
+        <lb ed="#C" n="80"/>ideo sciuntur a Deo, quia facta sunt: ac non 
+        po<lb ed="#C" n="81" break="no"/>tius ideo facta sunt, vel mutabilia: quia 
+        immu<lb ed="#C" n="82" break="no"/>tabiliter a Deo sciuntur. &amp; 25. de Trin. cap. 
+        <lb ed="#C" n="83"/>t3. dicitur: Vniversas autem creaturas suas 
+        <lb ed="#C" n="84"/>&amp; spirituales &amp; corporales, non quia sunt,  
+        <lb ed="#C" n="85"/>ideo novit, sed ideo sunt, quia novit. Hoc 
+        <lb ed="#C" n="86"/>idem. 12. Meta. Commen. expresse 
+        di<lb ed="#C" n="87" break="no"/>cit, cum ait: quod Hoc nomen scientia 
+        ae<lb ed="#C" n="88" break="no"/>qui voce dicitur de scientia Dei, &amp; nostra: 
+        sci<lb ed="#C" n="89" break="no"/>ntia enim Dei est causa entis: ens autem est 
+        cau<lb ed="#C" n="90" break="no"/>sa scientiae nostrae. 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e519">
+                  <lb ed="#C" n="91"/>Habito quod scientia Dei est 
+        cau<lb ed="#C" n="92" break="no"/>sa rerum: videre restat cuiusmodi sit 
+        <lb ed="#C" n="93"/>causa: ideo sciendum, quod diversa 
+        at<lb ed="#C" n="94" break="no"/>tributa in Deo non sunt synonyma: 
+        im<lb ed="#C" n="95" break="no"/>mo accipiuntur secundum aliam &amp; aliam 
+        <lb ed="#C" n="96"/>rationem: &amp; propter hanc alietatem 
+        <lb ed="#C" n="97"/>aliquid concedimus de uno attributo, 
+        <lb ed="#C" n="98"/>quod negamus de alio: nam licet sit in 
+        <lb ed="#C" n="99"/>Deo idem scientia &amp; essentia; 
+        concedi<lb ed="#C" n="100" break="no"/>mus tamen omnia esse in Divina 
+        scien<lb ed="#C" n="101" break="no"/>tia; non tamen esse in eius essentia: sic 
+        <lb ed="#C" n="102"/>etiam cocedimus Deum multa scire, quae 
+        <lb ed="#C" n="103"/>non concedimus ipsum velle, &amp; propter 
+        <lb ed="#C" n="104"/>stam alietatem habitudinum non eo 
+        <lb ed="#C" n="105"/>dem modo dicimus esse causam reru 
+        <lb ed="#C" n="106"/>Divinam scientiam &amp; voluntatem, eius 
+        <lb ed="#C" n="107"/>Dicitur enim agens causa rerum, eo 
+        <lb ed="#C" n="108"/>quod res progrediuntur abiipso. 
+        Denota<lb ed="#C" n="109" break="no"/>tur enim in huiusmodi causalitate quae 
+        <lb ed="#C" n="110"/>dam progressio, &amp; quasi quidam motus 
+        <lb ed="#C" n="111"/>ab agente ad acta, sive a producente ad 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e568">
+                  <lb ed="#C" n="112"/>producta. Et quia, ut saepius dictum est, 
+        <lb ed="#C" n="113"/>in volendo est quidam motus animae ad 
+        <lb ed="#C" n="114"/>res, in sciendo est motus rerum ad ani¬ 
+        <!--749.xml-->
+        <pb ed="#C" n="724"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>mam, scientia, secundum quod scientia, 
+        <lb ed="#C" n="2"/>non potest esse immediata causa rerum: 
+        <lb ed="#C" n="3"/>eo quod sciens per scientiam suam 
+        res<lb ed="#C" n="4" break="no"/>picit scita, prout sunt in ipso. Vnde 
+        ve<lb ed="#C" n="5" break="no"/>rum &amp; falsum ponuntur in anima, sed  
+        <lb ed="#C" n="6"/>volens per voluntatem suam potest esse 
+        <lb ed="#C" n="7"/>immediata causa rerum: quia per huius 
+        <lb ed="#C" n="8"/>modi voluntatem quodam modo 
+        res<lb ed="#C" n="9" break="no"/>picit res, ut habent esse in se ipsis. Vnde 
+        <lb ed="#C" n="10"/>ponum &amp; malum ponuntur in rebus. Si 
+        <lb ed="#C" n="11"/>igitur scientia &amp; voluntas sunt ea, 
+        secun<lb ed="#C" n="12" break="no"/>dum quae agens per intellectum 
+        produ<lb ed="#C" n="13" break="no"/>cit res, voluntas erit causa immediata 
+        <lb ed="#C" n="14"/>t productionis huius, scientia autem me¬ 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e614">
+                  <lb ed="#C" n="15"/>diante voluntate: &amp; ideo intellectus 
+        pra<lb ed="#C" n="16" break="no"/>ticus, qui ponitur causa rerum, habet  
+        <lb ed="#C" n="17"/>ro fine bonum, quod est obiectum 
+        vo<lb ed="#C" n="18" break="no"/>luntatis, &amp; habet esse in rebus ipsis. In¬ 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e625">
+                  <lb ed="#C" n="19"/>ellectus vero speculativus habet verum 
+        <lb ed="#C" n="20"/>it potest haberi ex 2. Meta. Si ergo per 
+        <lb ed="#C" n="21"/>intellectum speculativum, ut 
+        speculati<lb ed="#C" n="22" break="no"/>vus est, non producuntur res, sive non 
+        <lb ed="#C" n="23"/>efficitur opus, sed per practicum, quod  
+        <lb ed="#C" n="24"/>ipsum nomen demonstrat, cum 
+        nomen<lb ed="#C" n="25" break="no"/>practici a praxi vel ab opere sit acceptum: 
+        <lb ed="#C" n="26"/>cum intellectus fiat practicus 
+        extensio<lb ed="#C" n="27" break="no"/>ne, ut extendendo se ad opus per 
+        appe<lb ed="#C" n="28" break="no"/>titum, &amp; voluntatem, scientia artificis 
+        <lb ed="#C" n="29"/>mediante voluntate causa rerum existet: 
+        <lb ed="#C" n="30"/>igitur scientia Dei, ut scientia 
+        appella<lb ed="#C" n="31" break="no"/>ri potest, est causa sine qua non, 
+        accipie<lb ed="#C" n="32" break="no"/>do tamen scientiam, ut includit 
+        volun<lb ed="#C" n="33" break="no"/>tatem &amp; beneplacitum, est causa rerum 
+        simpli<lb ed="#C" n="34" break="no"/>citer, &amp; per onem modum. Et hoc est quod  
+        <lb ed="#C" n="35"/>Magister dicit in littera, scilicet, scientiam 
+        <lb ed="#C" n="36"/>Dei vel praescientiam esse causam rerum 
+        <lb ed="#C" n="37"/>sine qua non, si scientiam tantum ad 
+        <lb ed="#C" n="38"/>notitiam referamus. Si vero nomine 
+        <lb ed="#C" n="39"/>scientiae includitur etiam beneplacitum 
+        <lb ed="#C" n="40"/>atque dispositio, tunc recte potest dici 
+        <lb ed="#C" n="41"/>causa eorum, quae Deus fecit. 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e677">
+                  <lb ed="#C" n="42"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="43"/>quod scientia Dei immutabilis est: 
+        ta<lb ed="#C" n="44" break="no"/>men quia est causa rerum mediante 
+        vo<lb ed="#C" n="45" break="no"/>luntate, tales res sunt, quales vult Deus 
+        <lb ed="#C" n="46"/>eas esse: &amp; ideo aliquae sunt necessariae, 
+        <lb ed="#C" n="47"/>aliquae contingentes, secundum quod  
+        <lb ed="#C" n="48"/>ei placuit disponere secundum ordinem 
+        <lb ed="#C" n="49"/>sapientiae suae. Et per hoc patet solutio 
+        <lb ed="#C" n="50"/>ad secundum: nam si scientia Dei est 
+        <lb ed="#C" n="51"/>causa rerum, prout includit voluntatem, 
+        <lb ed="#C" n="52"/>non oportet quod posita scientia Dei 
+        <lb ed="#C" n="53"/>ponantur res in esse, nisi simul cum 
+        sci<lb ed="#C" n="54" break="no"/>entia concomitetur voluntas.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e708">
+        Ad 3. 
+        di<lb ed="#C" n="55" break="no"/>cendum, quod res per se ipsas movent 
+        <lb ed="#C" n="56"/>sensum, &amp; imaginationem: quibus mo¬ 
+        <!--749.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>is fiunt species in intellectu: eo quod  
+        <lb ed="#C" n="58"/>ntellecta in nobis fiunt ex imaginatis: 
+        <lb ed="#C" n="59"/>ta quod quodammodo res sunt imme 
+        <lb ed="#C" n="60"/>diata causa scientiae nostrae. Sed 
+        scien<lb ed="#C" n="61" break="no"/>tia Dei est causa rerum mediante 
+        volun<lb ed="#C" n="62" break="no"/>tate: ideo tales res sunt, quales Deus 
+        <lb ed="#C" n="63"/>vult eas esse. Vel dicere possumus, &amp; 
+        <lb ed="#C" n="64"/>forte melius, quod scientia nostra 
+        respi<lb ed="#C" n="65" break="no"/>cit ipsas res, quasi obiectum principale: 
+        <lb ed="#C" n="66"/>quia oportet habitum esse 
+        proportiona<lb ed="#C" n="67" break="no"/>tum principali obiecto: ideo 
+        scien<lb ed="#C" n="68" break="no"/>tiae nostrae imponitur modus ex ipsis 
+        re<lb ed="#C" n="69" break="no"/>pus; scietia vero Dei tanquam obiectum, 
+        <lb ed="#C" n="70"/>principale habet Deum ipsum: ideo non 
+        <lb ed="#C" n="71"/>oportet huiusmodi proportionem esse 
+        <lb ed="#C" n="72"/>inter Divinam scientiam &amp; res, ut sit in 
+        <lb ed="#C" n="73"/>eis necessitas, ut est in Divina scientia. 
+        <lb ed="#C" n="74"/>Ad 4. dicendum, quod, ut habitum est, 
+        <lb ed="#C" n="75"/>scientia Dei est causa rerum, prout 
+        in<lb ed="#C" n="76" break="no"/>cludit beneplacitum. Deus autem 
+        nes<lb ed="#C" n="77" break="no"/>cit mala scietia beneplaciti: ideo non 
+        <lb ed="#C" n="78"/>oportet ipsum malorum esse 
+        cau<lb ed="#C" n="79" break="no"/>sam. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f88211-Dd1e770">
+               <head xml:id="Gi9qrR-f88211-Hd1e772">Articulus 2</head>
+               <p xml:id="Gi9qrR-f88211-d1e775">
+                  <lb ed="#C" n="80"/>ARTICVLVS II. 
+        <lb ed="#C" n="81"/>Vtrum scientia Dei sit uniformis? 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e782">
+                  <lb ed="#C" n="82"/>Ecundo quaeritur de uniformitate 
+        <lb ed="#C" n="83"/>DDivinae scientiae. Et videtur, quod 
+        <lb ed="#C" n="84"/>scientia Dei non sit uniformis, sed 
+        variabi<lb ed="#C" n="85" break="no"/>lis: quia Deus scit res infallibiliter, ergo 
+        <lb ed="#C" n="86"/>scit res praesentes esse praesentes, &amp; futu 
+        <lb ed="#C" n="87"/>ras esse futuras: nam si aliter esset, in 
+        sci<lb ed="#C" n="88" break="no"/>entia eius caderet deceptio, ergo non 
+        <lb ed="#C" n="89"/>omnia scit uno modo.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e802">
+        Praeterea: qui 
+        <lb ed="#C" n="90"/>scit uno modo, quod est pluribus 
+        mo<lb ed="#C" n="91" break="no"/>dis, nescit illud perfecte, &amp; omni modo, 
+        <lb ed="#C" n="92"/>quo scibile est. Cum igitur res habeant  
+        <lb ed="#C" n="93"/>esse pluribus modis, &amp; Deus perfecte 
+        <lb ed="#C" n="94"/>eas cognoscat, non scit omnia uno 
+        mo<lb ed="#C" n="95" break="no"/>do.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e818">
+        Praeterea: scire aliquid per essentiam, 
+        <lb ed="#C" n="96"/>&amp; per similitudinem non est scire uno 
+        <lb ed="#C" n="97"/>modo, sed Deus scit se ipsum per 
+        essen<lb ed="#C" n="98" break="no"/>tiam, omnia alia per similitudinem, 
+        er<lb ed="#C" n="99" break="no"/>o scientia eius non erit uniformis. 
+        Prae<lb ed="#C" n="100" break="no"/>terea: si aliquid scitur ab aliquo, &amp; 
+        po<lb ed="#C" n="101" break="no"/>stea nescitur, est mutatio in scietia eius. 
+        <lb ed="#C" n="102"/>Sed Deus scivit aliquid futurum, &amp; 
+        po<lb ed="#C" n="103" break="no"/>tea nescit ipsum esse futurum, ut cum 
+        <lb ed="#C" n="104"/>am est in esse productum, ergo eius 
+        sci<lb ed="#C" n="105" break="no"/>entia variatur.  
+        <!--750.xml-->
+        <pb ed="#C" n="725"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>In contrarium est: quia, ut dicitur  
+        <lb ed="#C" n="2"/>lacobi 1. Apud ipsum non est transmutatio.  
+        <lb ed="#C" n="3"/>sed scientia sua est idem, quod ipse, 
+        er<lb ed="#C" n="4" break="no"/>go &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e858">
+        Praeterea: qui in uno intuitu om 
+        <lb ed="#C" n="5"/>nia novit, non est variatio in notitia 
+        <lb ed="#C" n="6"/>eius, sed Deus unico intuitu omnia cog 
+        <lb ed="#C" n="7"/>noscit, cum suum intelligere sit suum 
+        <lb ed="#C" n="8"/>esse, quod est unum &amp; simplex, in quo 
+        <lb ed="#C" n="9"/>non est variatio. Est enim sua actio, sua 
+        <lb ed="#C" n="10"/>scientia, &amp; suum esse, ut potest haberi a 
+        <lb ed="#C" n="11"/>Philosopho 12. Meta. ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e876">
+                  <lb ed="#C" n="12"/>RESOLVTIO. 
+        <lb ed="#C" n="13"/>Scientia Dei est uniformis uniformitate ex 
+        <lb ed="#C" n="14"/>parte ipsius inspecta; non vero ex par¬ 
+        <lb ed="#C" n="15"/>te cognitorum: quia sunt muta 
+        <lb ed="#C" n="16"/>tioni subiecta. 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e889">
+                  <lb ed="#C" n="17"/>RDEsponsio: quidam sic dicunt: quod 
+        <lb ed="#C" n="18"/>Rvariatio in scientia potest 
+        tri<lb ed="#C" n="19" break="no"/>pliciter intelligi. Primo, quod varietur  
+        <lb ed="#C" n="20"/>ipsa scientia in se. Secundo, quod 
+        varie<lb ed="#C" n="21" break="no"/>tur secundum actum. Tertio, quod 
+        va<lb ed="#C" n="22" break="no"/>rietur quantum ad medium. Scientiam 
+        <lb ed="#C" n="23"/>autem in se variari dupliciter contin 
+        <lb ed="#C" n="24"/>git. Vel quod fiat ibi augmentum, &amp; 
+        di<lb ed="#C" n="25" break="no"/>ninutio extensive, ut plura vel pauciora 
+        <lb ed="#C" n="26"/>cognoscat, quam prius, vel intensive, ut 
+        <lb ed="#C" n="27"/>clarius, vel minus clare cognoscat: nul 
+        <lb ed="#C" n="28"/>so istorum modorum possumus dicere 
+        <lb ed="#C" n="29"/>Divinam scientiam variari posse: eo 
+        <lb ed="#C" n="30"/>quod infinite cognoscit extensive, &amp; 
+        <lb ed="#C" n="31"/>cognoscit omnia omni modo, quo cor 
+        <lb ed="#C" n="32"/>noscibilia sunt. Vnde simpliciter 
+        loque<lb ed="#C" n="33" break="no"/>io, scientiae eius non potest fieri 
+        addi<lb ed="#C" n="34" break="no"/>sio, ut plura cognoscat, nec ut clarius 
+        <lb ed="#C" n="35"/>videat. Ratione autem actus potest 
+        in<lb ed="#C" n="36" break="no"/>telligi variatio in scientia etiam duplic 
+        <lb ed="#C" n="37"/>ter. Primo cum aliquis considerat de 
+        <lb ed="#C" n="38"/>aliquo, de quo prius non considerabat.  
+        <lb ed="#C" n="39"/>Secundo, cum ex uno actu intelligendi 
+        <lb ed="#C" n="40"/>vadit in alium: secundum quod 
+        contin<lb ed="#C" n="41" break="no"/>git in nobis, qui intelligimus discurren 
+        <lb ed="#C" n="42"/>do: neuter istorum modorum est 
+        possi<lb ed="#C" n="43" break="no"/>bilis in Divina scientia: cum unico 
+        sim<lb ed="#C" n="44" break="no"/>plici intuitu absque discursu Deus om 
+        <lb ed="#C" n="45"/>ma cognoscat. Tertio, hoc potest esse 
+        <lb ed="#C" n="46"/>ex parte medii, quod etiam dupliciter  
+        <lb ed="#C" n="47"/>contiagere potest. Primo respectu eius 
+        <lb ed="#C" n="48"/>dem conclusionis, ut cum aliquis ad 
+        <lb ed="#C" n="49"/>unam conclusionem habet plura 
+        me<lb ed="#C" n="50" break="no"/>dia, utputa si sciat eam medio 
+        probabi<lb ed="#C" n="51" break="no"/>li, &amp; demonstrativo. Secundo, respectu 
+        <lb ed="#C" n="52"/>diversarum conclusionum; ut cum 
+        ali<lb ed="#C" n="53" break="no"/>quis per plura media cognoscit diversat 
+        <!--750.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>conclusiones. Nam quotiescunque in 
+        <lb ed="#C" n="55"/>scientia attenditur pluralitas mediorum, 
+        <lb ed="#C" n="56"/>ibi quaedam varietas habet intelligi. 
+        Cun<lb ed="#C" n="57" break="no"/>igitur Deus per unicum medium, quia 
+        <lb ed="#C" n="58"/>per essentiam suam, omnia cognoscat, 
+        <lb ed="#C" n="59"/>nullo modo in scientia sua variatio 
+        po<lb ed="#C" n="60" break="no"/>ni potest. Haec autem, &amp; si benedicta 
+        <lb ed="#C" n="61"/>sint, non tamen satis faciunt quaestioni: 
+        <lb ed="#C" n="62"/>nam tota ratio dubitationis, quare 
+        du<lb ed="#C" n="63" break="no"/>bitamus Divinam scientiam variabilem 
+        <lb ed="#C" n="64"/>esse, consurgit ex varietate rerum. No 
+        <lb ed="#C" n="65"/>ergo manifestatur veritas quaestionis, 
+        <lb ed="#C" n="66"/>nisi detur causa, quare Divina scientia 
+        <lb ed="#C" n="67"/>invariabilis manet: cum res a Deo scitae 
+        <lb ed="#C" n="68"/>in continuo fluxu permaneant. 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e1009">
+                  <lb ed="#C" n="69"/>Ideo notandum, quod Deus habet  
+        <lb ed="#C" n="70"/>naturam indistantem ab esse, omnis 
+        au<lb ed="#C" n="71" break="no"/>tem creatura habet esse in natura 
+        recer<lb ed="#C" n="72" break="no"/>tum, &amp; non est suum esse: &amp; propter 
+        <lb ed="#C" n="73"/>hanc differentiam, quam habet Deus ad 
+        <lb ed="#C" n="74"/>omnem creaturam, duo accipere 
+        pos<lb ed="#C" n="75" break="no"/>sumus, propter quae sequitur omnem 
+        <lb ed="#C" n="76"/>creatam scientiam, naturaliter 
+        loquen<lb ed="#C" n="77" break="no"/>do, aliquo modo variari ex variatione 
+        <lb ed="#C" n="78"/>rerum. Solam autem Divinam scientiam 
+        <lb ed="#C" n="79"/>invariabilem esse ex eo, quod res 
+        varian<lb ed="#C" n="80" break="no"/>tur. Nam si Divina natura non distat 
+        <lb ed="#C" n="81"/>a suo esse, sequitur quod non 
+        determi<lb ed="#C" n="82" break="no"/>netur per esse, sed sit suum esse: &amp; quia 
+        <lb ed="#C" n="83"/>actio intelligibilis sequitur modum 
+        na<lb ed="#C" n="84" break="no"/>turae, in qua existit, cum non transeat in 
+        <lb ed="#C" n="85"/>exteriorem materiam, non oportet res 
+        <lb ed="#C" n="86"/>determinari per actuale esse ad hoc,  
+        <lb ed="#C" n="87"/>quod Deus cognoscat ea perfecte &amp; con 
+        <lb ed="#C" n="88"/>plete, ut superius ostensum fuit: &amp; ideod 
+        <lb ed="#C" n="89"/>progredientibus rebus in esse non aliter, 
+        <lb ed="#C" n="90"/>a Deo notae sunt, quam prius, quantum 
+        <lb ed="#C" n="91"/>est ex parte ipsius scientis. Et quia tota 
+        <lb ed="#C" n="92"/>variatio rerum est ex eo, quod esse 
+        inci<lb ed="#C" n="93" break="no"/>piunt &amp; desinunt: non enim per se 
+        lo<lb ed="#C" n="94" break="no"/>quendo est variatio in rebus secundum 
+        <lb ed="#C" n="95"/>rationem quidditatis, sed secundum 
+        es<lb ed="#C" n="96" break="no"/>se: nam quantum ad rationem 
+        quiddi<lb ed="#C" n="97" break="no"/>tatis res habent esse universale, 
+        secun<lb ed="#C" n="98" break="no"/>D dum quem modum variationi subiectae 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e1077">
+                  <lb ed="#C" n="99"/>non sunt. Igitur talis variatio nullam 
+        <lb ed="#C" n="100"/>variationem facit in Divina scientia: cum 
+        <lb ed="#C" n="101"/>non requirat res determinari per 
+        actua<lb ed="#C" n="102" break="no"/>le esse, ex variabilitate rerum 
+        variatio<lb ed="#C" n="103" break="no"/>nem Divine scientiae arguere non 
+        possu<lb ed="#C" n="104" break="no"/>mus. Sed cum omnis creatura habeat  
+        <lb ed="#C" n="105"/>naturam distantem ab esse, naturaliter  
+        <lb ed="#C" n="106"/>loquendo, oportet res determinatas 
+        <lb ed="#C" n="107"/>esse, ad hoc quod a creatura 
+        cognoscan<lb ed="#C" n="108" break="no"/>tur. Ideo quae sunt determinata in suis 
+        <lb ed="#C" n="109"/>causis, ut eclipses &amp; coniunctiones side¬ 
+        <!--751.xml-->
+        <pb ed="#C" n="726"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>rum, &amp; etiam quae determinantur 
+        <lb ed="#C" n="2"/>per actuale esse, ut contingentia 
+        praesen<lb ed="#C" n="3" break="no"/>tia, naturaliter a creatura sciri possunt. 
+        <lb ed="#C" n="4"/>Quae vero se habent ad utrumlibet, &amp; 
+        <lb ed="#C" n="5"/>possunt esse &amp; non esse, certitudinaliter 
+        <lb ed="#C" n="6"/>ab intellectuscreato cognosci non 
+        pos<lb ed="#C" n="7" break="no"/>sunt. Ideo cum talia progrediuntur in 
+        <lb ed="#C" n="8"/>esse, aliquid accrescit scientiae creatae, 
+        <lb ed="#C" n="9"/>Oportet ergo ex variatione rerum 
+        ali<lb ed="#C" n="10" break="no"/>quam variationem esse in scientia 
+        crea<lb ed="#C" n="11" break="no"/>turarum: cum nulla creatura sic cog 
+        <lb ed="#C" n="12"/>noscat facta, ut sienda. Hanc autem 
+        ra<lb ed="#C" n="13" break="no"/>tionem aliquo modo innuit <name xml:id="Gi9qrR-f88211-Nd1e1137" ref="#Augustine">Aug.</name> IS. 
+        <lb ed="#C" n="14"/>de Trin. cap. 13. cum ait: quod Deus nec 
+        <lb ed="#C" n="15"/>aliter scivit ea creata, quam creanda. Non enim 
+        <lb ed="#C" n="16"/>eius sapientiae aliquid accessit ex eis, sed illis ex  
+        <lb ed="#C" n="17"/>istentibus, sicut oportebat, &amp; quando oportebat, illa 
+        <lb ed="#C" n="18"/>mansit uterat, ergo Divina scientia 
+        man<lb ed="#C" n="19" break="no"/>sit ut erat, sive mansit invariabilis: quia 
+        <lb ed="#C" n="20"/>Deus non aliter cognoscit, creata, quam 
+        <lb ed="#C" n="21"/>creanda, sive quod idem est: quia non 
+        <lb ed="#C" n="22"/>oportet, res determinari per actuale esse 
+        <lb ed="#C" n="23"/>ad noc, quod ea Deus perfecte cogno 
+        <lb ed="#C" n="24"/>cat. Secundo ex eo quod Deus habet 
+        <lb ed="#C" n="25"/>naturam indistantem abesse, &amp; est suum 
+        <lb ed="#C" n="26"/>esse, sequitur quod omnia cognoscat 
+        u<lb ed="#C" n="27" break="no"/>no modo. Nam si esse cuiuslibet 
+        crea<lb ed="#C" n="28" break="no"/>turae est esse receptum, &amp; determina 
+        <lb ed="#C" n="29"/>tum ad hoc aliquid, in nullo esse 
+        crea<lb ed="#C" n="30" break="no"/>to reservatur omnis ratio essendi, nec 
+        <lb ed="#C" n="31"/>aliquod tale esse potest esse 
+        repraesenta<lb ed="#C" n="32" break="no"/>tivum omnium. Deus autem, qui est 
+        <lb ed="#C" n="33"/>ipsum esse, per suum esse omnia 
+        cog<lb ed="#C" n="34" break="no"/>noscit. Ideo se ipsum cognoscet tanquam 
+        <lb ed="#C" n="35"/>principale obiectum: &amp; quia scientia su 
+        <lb ed="#C" n="36"/>mit modum ex obiecto principali, 
+        si<lb ed="#C" n="37" break="no"/>sive ex eo, quod per eam scitur per se &amp; 
+        <lb ed="#C" n="38"/>primo: cum Deus solum per essentiam 
+        <lb ed="#C" n="39"/>suam tanquam per medium omnia cog 
+        <lb ed="#C" n="40"/>noscat, obiectum principale Divinae se 
+        <lb ed="#C" n="41"/>entiae est solum ipse Deus, ut alibi 
+        ple<lb ed="#C" n="42" break="no"/>nius ostensum fuit. Non igitur sequitur 
+        <lb ed="#C" n="43"/>variatio in Divina scientia ex variatio 
+        <lb ed="#C" n="44"/>ne creaturarum, quas Deus non intelli¬ 
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e1208">
+                  <lb ed="#C" n="45"/>igit perse &amp; primo. Sed cu omnis crea 
+        <lb ed="#C" n="46"/>tura habeat aliquas species superadditas 
+        <lb ed="#C" n="47"/>naturae suae, per quas intelligit 
+        formali<lb ed="#C" n="48" break="no"/>ter, oportet ipsas res, quarum huiusmodi 
+        <lb ed="#C" n="49"/>species similitudines existunt, esse 
+        ob<lb ed="#C" n="50" break="no"/>decta principalia intellectus creati. Et  
+        <lb ed="#C" n="51"/>quia multa sunt, quae intellectus crea 
+        <lb ed="#C" n="52"/>tus primo &amp; per se intelligit, quae sunt 
+        <lb ed="#C" n="53"/>subiecta variationi, &amp; motui, oportet 
+        <lb ed="#C" n="54"/>omnem scientiam creatam aliquo modo 
+        <lb ed="#C" n="55"/>ex rebus dependere, &amp; variari aliquo 
+        <lb ed="#C" n="56"/>modo per variationem rerum. Igitur  
+        <!--751.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>Divina scientia invariabilis existit: quia 
+        <lb ed="#C" n="58"/>omnes rationes rerum in unico esse 
+        Di<lb ed="#C" n="59" break="no"/>vino, &amp; in unica sua arte uniuntur, &amp; 
+        <lb ed="#C" n="60"/>congregantur. Istam autem viam aliquo 
+        <lb ed="#C" n="61"/>mono innuit <name xml:id="Gi9qrR-f88211-Nd1e1251" ref="#Augustine">Aug.</name> 6. de Trin. cap. ultimo 
+        <lb ed="#C" n="62"/>ubi ait: quod Quia in Divina arte 
+        ratio<lb ed="#C" n="63" break="no"/>nes omnium sunt, &amp; ibi omnia unum sunt, ibi 
+        <lb ed="#C" n="64"/>novit omnia Deus, quae fecit per ipsam: &amp; 
+        <lb ed="#C" n="65"/>ideo cum decedant vel succedant tempora, non 
+        <lb ed="#C" n="66"/>decedit aliquid vel succedit scientiae Dei: 
+        <lb ed="#C" n="67"/>cum ergo quaeritur, utrum Deus 
+        cog<lb ed="#C" n="68" break="no"/>noscat omnia uniformiter, si hoc quod 
+        <lb ed="#C" n="69"/>dico uniformiter, determinat Divinam 
+        <lb ed="#C" n="70"/>scientiam, patetquod sic. Si vero 
+        deter<lb ed="#C" n="71" break="no"/>minat ipsa seita, non: eo quod talia mo 
+        <lb ed="#C" n="72"/>tui &amp; transmutationi subiecta sunt,  
+      </p>
+               <p xml:id="Gi9qrR-f88211-d1e1280">
+                  <lb ed="#C" n="73"/>Respod. ad arg. Ad primum 
+        di<lb ed="#C" n="74" break="no"/>cendum, quod scientia Dei est 
+        infalli<lb ed="#C" n="75" break="no"/>bilis, nam scit futurum esse futurum, sed  
+        <lb ed="#C" n="76"/>hoc absque futuritione scientiae suae: &amp; 
+        <lb ed="#C" n="77"/>scit praeteritum esse praeteritum absque 
+        <lb ed="#C" n="78"/>praeteritione sapientiae eius. Est ergo 
+        mu<lb ed="#C" n="79" break="no"/>abilitas ex parte rerum, non ex parte 
+        sci<lb ed="#C" n="80" break="no"/>entiae Dei. Ad secundum dicendum 
+        <lb ed="#C" n="81"/>quod id, quod existit pluribus modis, 
+        <lb ed="#C" n="82"/>cit Deus modis pluribus: ita quod hoc  
+        <lb ed="#C" n="83"/>quod dico, pluribus modis, 
+        determi<lb ed="#C" n="84" break="no"/>net scitum, non scientiam: nam sicut 
+        <lb ed="#C" n="85"/>Deus materialia scit esse materialia, 
+        nes<lb ed="#C" n="86" break="no"/>cit tamen ea materialiter: sic 
+        multipli<lb ed="#C" n="87" break="no"/>cia scit esse multiplicia; nescit tamen ea 
+        <lb ed="#C" n="88"/>esse multipliciter: propter quod 
+        Diony<lb ed="#C" n="89" break="no"/>sius 7. de Div. nom. dicit: quod Deus 
+        <lb ed="#C" n="90"/>scit materialia immaterialiter, &amp; multa 
+        <lb ed="#C" n="91"/>unitive. Ad tertium dicendum, quod  
+        <lb ed="#C" n="92"/>cum unum &amp; idem medium sit, per quod  
+        <lb ed="#C" n="93"/>Deus scit omnia (quia essentia sua) non 
+        <lb ed="#C" n="94"/>est variatio in scientia eius, si se ipsum 
+        <lb ed="#C" n="95"/>scit per essentiam &amp; alia per 
+        similitudi<lb ed="#C" n="96" break="no"/>nem, solum igitur arguitur, quod 
+        en<lb ed="#C" n="97" break="no"/>tia creata cum ente increato non sunt; 
+        <lb ed="#C" n="98"/>eiusdem naturae: propter quod Deus est 
+        <lb ed="#C" n="99"/>idem sibi per essentiam, alia vero non 
+        <lb ed="#C" n="100"/>sunt idem ei per essentiam, sed sunt 
+        <lb ed="#C" n="101"/>quaedam vestigia eius: unde Divina 
+        es<lb ed="#C" n="102" break="no"/>sentia est similitudo omnium, &amp; in ea 
+        <lb ed="#C" n="103"/>relucent omnia. Ad quartum dicendum, 
+        <lb ed="#C" n="104"/>quod nasciturum &amp; natum, sive praesens, 
+        <lb ed="#C" n="105"/>praeteritum, &amp; futurum ex parte 
+        scien<lb ed="#C" n="106" break="no"/>tiae Divine nullam variabilitatem dicunt.  
+        <lb ed="#C" n="107"/>Nam praesens, praeteritum, &amp; futurum 
+        <lb ed="#C" n="108"/>non differunt, nisi secundum 
+        diversita<lb ed="#C" n="109" break="no"/>tem temporum. Diversitas autem 
+        tem<lb ed="#C" n="110" break="no"/>porum sumitur ex determinatione, vel  
+        <lb ed="#C" n="111"/>indeterminatione actualis esse. Talis 
+        <lb ed="#C" n="112"/>autem variatio in Divina scientia varia¬ 
+        <!--752.xml-->
+        <pb ed="#C" n="727"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tiorem non facit. Res igitur ipsae 
+        va<lb ed="#C" n="2" break="no"/>riantur: Divina vero scietia invariabilis 
+        <lb ed="#C" n="3"/>manet.  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

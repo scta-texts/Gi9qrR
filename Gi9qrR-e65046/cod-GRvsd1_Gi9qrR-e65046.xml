@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="242"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e65046"><!-- l1-d12q2 -->
+            <head xml:id="Gi9qrR-e65046-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e65046-d1e111">
+               <lb ed="#C" n="44"/>QVAESTIO II. 
+      <lb ed="#C" n="45"/>De processione Spiritus Sancti a Patre, &amp; 
+      <lb ed="#C" n="46"/>Filio. 
+    </p>
+            <p xml:id="Gi9qrR-e65046-d1e120">
+               <lb ed="#C" n="47"/>DEINDE quaeritur de processione 
+      <lb ed="#C" n="48"/>Spiritus Sancti a Patre, &amp; Filio, 
+      <lb ed="#C" n="49"/>ut procedit ab eis secundum 
+      plenitudi<lb ed="#C" n="50" break="no"/>nem. Et circa hoc quaeruntur duo. 1. 
+      <lb ed="#C" n="51"/>utrum Spiritus Sanctus procedat magis 
+      <lb ed="#C" n="52"/>a Patre, quam a Filio?:, utrum procedat 
+      <lb ed="#C" n="53"/>a Patre mediante Filio?
+    </p>
+            <div xml:id="Gi9qrR-e65046-Dd1e138">
+               <head xml:id="Gi9qrR-e65046-Hd1e140">Articulus 1</head>
+               <p xml:id="Gi9qrR-e65046-d1e143">
+        <!--279.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>ARTICVLUS I. 
+        <lb ed="#C" n="55"/>Vtrum Spiritus Sanctus procedat magis, a Pa¬ 
+        <lb ed="#C" n="56"/>tre, quam a Filio? 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e156">
+                  <lb ed="#C" n="57"/>AD primum sic proceditur: 
+        vide<lb ed="#C" n="58" break="no"/>tur quod magis procedat a 
+        Pa<lb ed="#C" n="59" break="no"/>tre, quam a Filio: quia quod agit per 
+        <lb ed="#C" n="60"/>virtutem acceptam ab alio, non 
+        vide<lb ed="#C" n="61" break="no"/>tur ita plene agere, sicut quod agit per 
+        <lb ed="#C" n="62"/>pirtutem, quam habet a se, sed Filius 
+        <lb ed="#C" n="63"/>habet virtutem spirativam a Patre, 
+        Pa<lb ed="#C" n="64" break="no"/>ter igitur magis spirat.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e176">
+        Praeterea: arguit  
+        <lb ed="#C" n="65"/>Philos. in 1. Post. si credimus 
+        conclu<lb ed="#C" n="66" break="no"/>sioni propter principia, principijs ma 
+        <lb ed="#C" n="67"/>igis credimus, ergo si Filius spirat per 
+        <lb ed="#C" n="68"/>virtutem, quam habet a Patre, Pater 
+        <lb ed="#C" n="69"/>magis spirat.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e189">
+        Praeterea: arguit 
+        Philos<lb ed="#C" n="70" break="no"/>2. Metaph. quod Semper primum est illud, 
+        <lb ed="#C" n="71"/>uod est causa totius, Sed Pater est primum 
+        <lb ed="#C" n="72"/>omnis processionis in Divinis; Filius 
+        au<lb ed="#C" n="73" break="no"/>tem non, ergo Pater est primum 
+        prin<lb ed="#C" n="74" break="no"/>cipium processionum: sed ut vult Phil. 
+        <lb ed="#C" n="75"/>in eodem 2. Metaph. Primum in omni 
+        ge<lb ed="#C" n="76" break="no"/>nere est illud, quod est maxime tale, igitur  
+        <lb ed="#C" n="77"/>Pater maxime erit principium 
+        proces<lb ed="#C" n="78" break="no"/>sionis, ergo in spirando magis habebit 
+        <lb ed="#C" n="79"/>rationem principij Pater, quam Filius.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e214">
+                  <lb ed="#C" n="80"/>Praeterea: 2. de Divinis nom. dicitur:  
+        <lb ed="#C" n="81"/>Pater est fontana Deitas; Filius autem 
+        <lb ed="#C" n="82"/>&amp; Spiritus Sanctus Deigenae Deitatis: sed  
+        <lb ed="#C" n="83"/>ta oportet dicere, pullulationes Divinae 
+        <lb ed="#C" n="84"/>naturae, &amp; sicut flores; sed fons, &amp; 
+        sti<lb ed="#C" n="85" break="no"/>pes magis videntur influere, quam alia, 
+        <lb ed="#C" n="86"/>ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e232">
+                  <lb ed="#C" n="87"/>In contrarium est quod in 
+        Symbo<lb ed="#C" n="88" break="no"/>lo legitur, quod In Divinis nec est maius, 
+        <lb ed="#C" n="89"/>nec minus.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e241">
+        Praeterea: si aliquid 
+        conse<lb ed="#C" n="90" break="no"/>queretur illam eandem virtutem, quam 
+        <lb ed="#C" n="91"/>aliud habet, non diceretur minus plene 
+        <lb ed="#C" n="92"/>agere, quam illud: quia ab eadem 
+        vir<lb ed="#C" n="93" break="no"/>tute immutabiliter se habente non egre 
+        <lb ed="#C" n="94"/>ditur actus magis, &amp; minus plene: sed  
+        <lb ed="#C" n="95"/>illam eandem virtutem, quam habet  
+        <lb ed="#C" n="96"/>Pater in spirando, habet &amp; Fitius, erga 
+        <lb ed="#C" n="97"/>&amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e261">
+        Praeterea: Filius est Patri per omnia 
+        <lb ed="#C" n="98"/>similis &amp; aequalis, ut dicitur 15. de 9. 
+        <lb ed="#C" n="99"/>Trinit, cap. 14. sed hoc non esset, si 
+        spi<lb ed="#C" n="100" break="no"/>raret minus plene, quam Pater, 
+        cr<lb ed="#C" n="101" break="no"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e272">
+        <!--280.xml-->
+                  <pb ed="#C" n="243"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>RESOLVTIO. 
+        <lb ed="#C" n="2"/>Spiritus Sanctus non magis a Patre, quam a 
+        <lb ed="#C" n="3"/>Filio procedit.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e288">
+                  <lb ed="#C" n="4"/>REspondeo dicendum, quod tota 
+        <lb ed="#C" n="5"/>causa quare dubitatur Spiritum 
+        <lb ed="#C" n="6"/>Sanctum magis procedere a Patre, qua 
+        <lb ed="#C" n="7"/>a Filio, est: quia virtutem spirativam 
+        <lb ed="#C" n="8"/>habet Filius a Patre, Pater a nullo; &amp; 
+        <lb ed="#C" n="9"/>quia propter quod unumquodque, &amp; 
+        <lb ed="#C" n="10"/>illud magis, crediderunt aliqui rationis 
+        <lb ed="#C" n="11"/>ignari Spiritum magis procedere a 
+        Pa<lb ed="#C" n="12" break="no"/>tre, quam a Filio: ideo si bene 
+        decla<lb ed="#C" n="13" break="no"/>rabimus propositionem praefatam, 
+        appa<lb ed="#C" n="14" break="no"/>rebit veritas quaestionis, 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e315">
+                  <lb ed="#C" n="15"/>Notandum ergo propositionem 
+        il<lb ed="#C" n="16" break="no"/>lam veritatem non habere nisi in his, 
+        <lb ed="#C" n="17"/>quae habent ordinem per se ad invicem: 
+        <lb ed="#C" n="18"/>quia non est unum propter aliud nis 
+        <lb ed="#C" n="19"/>ordinetur ad illud. Rursum quia 
+        pro<lb ed="#C" n="20" break="no"/> positio illa proponitur tanquam per se 
+        <lb ed="#C" n="21"/>avera &amp; universalis, cum ea, quae sunt per 
+        <lb ed="#C" n="22"/>accidens, contingat non esse, &amp; 
+        <lb ed="#C" n="23"/>separabilia sint, non sufficit esse ordinem 
+        <lb ed="#C" n="24"/>tinter talia, nisi sit ibi per se, &amp; 
+        essentia<lb ed="#C" n="25" break="no"/>plis ordo. Per se autem ordinem in in 
+        <lb ed="#C" n="26"/>ndividuis eiusdem speciei secudum quod 
+        <lb ed="#C" n="27"/>st huiusmodi reperire non possumus: nam 
+        <lb ed="#C" n="28"/>; cum per se eadem sit natura omnium 
+        <lb ed="#C" n="29"/>eorum, quae sunt unum in specie, 
+        se<lb ed="#C" n="30" break="no"/>tcundum illam naturam per se ordinem 
+        <lb ed="#C" n="31"/>habere non possunt: quia secundum 
+        <lb ed="#C" n="32"/>tquod talia non differunt. Sed 
+        differen<lb ed="#C" n="33" break="no"/>:tia eorum per se est secundum esse; ex 
+        <lb ed="#C" n="34"/>consequenti autem differunt in natura: 
+        <lb ed="#C" n="35"/>non igitur propositio illa intelligi 
+        ha<lb ed="#C" n="36" break="no"/>bet de eis, in quibus natura specifica 
+        <lb ed="#C" n="37"/>reperitur univoce. Nec etiam intelligi 
+        <lb ed="#C" n="38"/>potest de his, quae penitus sunt diversa: 
+        <lb ed="#C" n="39"/>nam sicut de his, quae conveniunt in 
+        u<lb ed="#C" n="40" break="no"/>na natura specifiea, propositionem illam 
+        <lb ed="#C" n="41"/>verificari non dicimus: quia inter ea 
+        <lb ed="#C" n="42"/>per se, &amp; essentialis ordo inveniri non 
+        <lb ed="#C" n="43"/>valet: ita de eis, quae nullo modo in 
+        <lb ed="#C" n="44"/>natura aliqua uniuntur, verificari non 
+        <lb ed="#C" n="45"/>potest: quia secundum quod 
+        huiusmo<lb ed="#C" n="46" break="no"/>di in eis ordo, ut de eo loquimur, esse 
+        <lb ed="#C" n="47"/>non potest. Propter primum non valet,  
+        <lb ed="#C" n="48"/>ignis genitus est calidus propter ignem 
+        <lb ed="#C" n="49"/>generantem, ergo ignis generans est 
+        <lb ed="#C" n="50"/>magis calidus: nam cum gignens &amp; 
+        <lb ed="#C" n="51"/>genitum sint eiusdem speciei, &amp; talia 
+        <lb ed="#C" n="52"/>per se ordinem ad se invicem non 
+        ha<lb ed="#C" n="53" break="no"/>beant, non oportet propositionem illam 
+        <lb ed="#C" n="54"/>ordinem per se requitentem in talibus 
+        <!--280.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>verificari. Propter secundum non 
+        va<lb ed="#C" n="56" break="no"/>let, iste est calidus propter motum, 
+        er<lb ed="#C" n="57" break="no"/>go motus est magis calidus: quia 
+        se<lb ed="#C" n="58" break="no"/>cundum formam caliditatis motus &amp; 
+        <lb ed="#C" n="59"/>calefactum nullatenus uniuntur: 
+        pro<lb ed="#C" n="60" break="no"/>positio ergo dicta, non valet in 
+        peni<lb ed="#C" n="61" break="no"/>tus univocis, nec in penitus 
+        aequivo<lb ed="#C" n="62" break="no"/>cis 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e426">
+                  <lb ed="#C" n="63"/>Restat videre quomodo valeat in 
+        <lb ed="#C" n="64"/>analogicis; cum sint diversi modi 
+        ana<lb ed="#C" n="65" break="no"/>logiae solum in his per se valet, in 
+        qui<lb ed="#C" n="66" break="no"/>bus aliqua una natura reperitur, aliter 
+        <lb ed="#C" n="67"/>tamen, &amp; aliter: quia in uno per se &amp; 
+        <lb ed="#C" n="68"/>quasi essentialiter: in alio per 
+        partici<lb ed="#C" n="69" break="no"/>ationem, &amp; secundum ordinem ad 
+        il<lb ed="#C" n="70" break="no"/>ud, quia solum in his reperitur ordo 
+        <lb ed="#C" n="71"/>per se secundum naturam unam. Nam 
+        <lb ed="#C" n="72"/>si aliqua uniuntur in una natura 
+        analo<lb ed="#C" n="73" break="no"/>gice, &amp; secundum quosdam gradus, 
+        <lb ed="#C" n="74"/>oportet unam naturam aliquo modo 
+        <lb ed="#C" n="75"/>reperiti in omnibus illis; sed hoc non 
+        <lb ed="#C" n="76"/>esse essentialiter solum: quia tunc in 
+        <lb ed="#C" n="77"/>eis non esset ordo, nec haberent illam 
+        <lb ed="#C" n="78"/>naturam secundum certos gtadus, sed  
+        <lb ed="#C" n="79"/>aequaliter. Nec per participationem 
+        so<lb ed="#C" n="80" break="no"/>lum: quia tunc inter ea non esset per se, 
+        <lb ed="#C" n="81"/>&amp; directus ordo. Quia quod est per 
+        <lb ed="#C" n="82"/>participationem, per se &amp; principaliter  
+        <lb ed="#C" n="83"/>ordinatur ad illud, quod est per 
+        essen<lb ed="#C" n="84" break="no"/>tiam, non ad illud, quod est per 
+        parti<lb ed="#C" n="85" break="no"/>cipationem. Ergo talis propositio solum 
+        <lb ed="#C" n="86"/>verificabitur in habentibus unam 
+        natu<lb ed="#C" n="87" break="no"/>ram, quorum unum habet eam per se, 
+        <lb ed="#C" n="88"/>&amp; quasi essentialiter; aliud vero per 
+        <lb ed="#C" n="89"/>quamdam participationem: &amp; sic 
+        veri<lb ed="#C" n="90" break="no"/>ficando propositionem dictam, non 
+        so<lb ed="#C" n="91" break="no"/>lum habet veritatem in omnibus, sed  
+        <lb ed="#C" n="92"/>est per se nota: cum praedicatum sit 
+        <lb ed="#C" n="93"/>quodam modo de tatione subiecti. Nam 
+        <lb ed="#C" n="94"/>si una natura reperitur in pluribus 
+        se<lb ed="#C" n="95" break="no"/>cundum analogian: quia in uno per 
+        <lb ed="#C" n="96"/>essentiam, in alio per participationem, 
+        <lb ed="#C" n="97"/>cum in eis non reperiatur aequaliter,  
+        <lb ed="#C" n="98"/>quod ex ipso nomine haberi potest. 
+        <lb ed="#C" n="99"/>quia participare idem est quod partem 
+        <lb ed="#C" n="100"/>alicuius sumere, secundum quod hic 
+        <lb ed="#C" n="101"/>participare accipimus, sequitur quod  
+        <lb ed="#C" n="102"/>existens per se tale, est magis tale, quam 
+        <lb ed="#C" n="103"/>quod est per participationem. Cum 
+        er<lb ed="#C" n="104" break="no"/>go dicitur Propter quod vnumquodque, &amp; 
+        <lb ed="#C" n="105"/>illud magis: si intelligimus terminos in 
+        <lb ed="#C" n="106"/>propositione positos, statim eam 
+        pro<lb ed="#C" n="107" break="no"/>bamus auditam: quia illud propter  
+        <lb ed="#C" n="108"/>quod alia sunt talia, est per se tale. Ea, 
+        <lb ed="#C" n="109"/>quae sunt talia per ipsum, sunt 
+        huiusmo<lb ed="#C" n="110" break="no"/>di per participationem, ut ostensum esta 
+        <!--281.xml-->
+        <pb ed="#C" n="244"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>&amp; idem est esse secundum partem, vel 
+        <lb ed="#C" n="2"/>secundum participationem tale, quod 
+        <lb ed="#C" n="3"/>esse minus tale: &amp; esse totaliter, &amp; per 
+        <lb ed="#C" n="4"/>se tale, quod esse magis tale. Igitur  
+        <lb ed="#C" n="5"/>sicut statim huic assentimus: Omne totum 
+        <lb ed="#C" n="6"/>est maius sua parte, si terminos in ea 
+        posi<lb ed="#C" n="7" break="no"/>tos cognoscimus: ita statim 
+        approba<lb ed="#C" n="8" break="no"/>mus hanc: Propter quod unumquodque est 
+        ta<lb ed="#C" n="9" break="no"/>le, &amp; illud magis, si rationes terminorum 
+        <lb ed="#C" n="10"/>ibi positorum cognoscimus. Est ergo 
+        <lb ed="#C" n="11"/>dicta propositio non solum vera, sed  
+        <lb ed="#C" n="12"/>etiam per se nota, &amp; si non cuilibet: 
+        <lb ed="#C" n="13"/>quia non quilibet rationem illorum 
+        <lb ed="#C" n="14"/>termihorum agnoscit; est tamen per 
+        <lb ed="#C" n="15"/>se nota sapientibus, quibus rationes ter 
+        <lb ed="#C" n="16"/>minorum sunt cognitae. Patet igitur  
+        <lb ed="#C" n="17"/>propositionem illam veram esse in his, 
+        <lb ed="#C" n="18"/>quorum unum est per se, aliud per 
+        par<lb ed="#C" n="19" break="no"/>ticipationem, quod exemplariter 
+        pate<lb ed="#C" n="20" break="no"/>re potest: ut quia ignis est per se 
+        cali<lb ed="#C" n="21" break="no"/>dus, &amp; maxime calidus in genere 
+        cali<lb ed="#C" n="22" break="no"/>dorum, quidquid est calidum, est 
+        ca<lb ed="#C" n="23" break="no"/>lidum: quia participat naturam ignis, 
+        <lb ed="#C" n="24"/>sequitur ignem esse magis calidum, per 
+        <lb ed="#C" n="25"/>se loquendo, quam aliquod ignitorum. 
+        <lb ed="#C" n="26"/>Rursum quia veritas per se reperitur in 
+        <lb ed="#C" n="27"/>principijs; in conclusionibus autem 
+        se<lb ed="#C" n="28" break="no"/>cundum quod participant veritatem. 
+        <lb ed="#C" n="29"/>principiorum, sequitur principia esse 
+        <lb ed="#C" n="30"/>magis vera conclusionibus: semper 
+        er<lb ed="#C" n="31" break="no"/>go quod comparetur quod est per se ad 
+        <lb ed="#C" n="32"/>id, quod est per participationem, ut  
+        <lb ed="#C" n="33"/>ignis ad ignitum, non ignem ad ignem, 
+        <lb ed="#C" n="34"/>vel ignitum ad ignitum: semper per se 
+        pro<lb ed="#C" n="35" break="no"/>positio vera esset, licet per accidens 
+        ve<lb ed="#C" n="36" break="no"/>rificetur in alijs. Ex hoc etiam 
+        appa<lb ed="#C" n="37" break="no"/>ret, quare non valet hoc est calidum 
+        <lb ed="#C" n="38"/>propter motum, ergo motus est magit 
+        <lb ed="#C" n="39"/>calidus: quia calefactum non 
+        partici<lb ed="#C" n="40" break="no"/>pat naturam motus ex eo, quod cale 
+        <lb ed="#C" n="41"/>facit; sed naturam ignis: &amp; ideo ignis 
+        <lb ed="#C" n="42"/>est magis calidus, &amp; non motus. Ex hoc  
+        <lb ed="#C" n="43"/>forte habuit ortum illa distinctio: quia 
+        <lb ed="#C" n="44"/>illa propositio valet in univocis, non 
+        <lb ed="#C" n="45"/>in aequivocis: quia in habendo aliquid D 
+        <lb ed="#C" n="46"/>per essentiam, &amp; per participationem 
+        <lb ed="#C" n="47"/>est ibi aliquis modus univocationis; 
+        ta<lb ed="#C" n="48" break="no"/>men simpliciter distinctio non est vera: 
+        <lb ed="#C" n="49"/>nam maxima univocatio est in specie 
+        <lb ed="#C" n="50"/>specialissima; propter quod si verum esser 
+        <lb ed="#C" n="51"/>quod dictum est, maxime ibi locum haberet  
+        <lb ed="#C" n="52"/>propositio illa, cuius contrarium videmus 
+        <lb ed="#C" n="53"/>ad sensum: quia ignis genitus, qui est cali 
+        <lb ed="#C" n="54"/>dus propter ignem gignentem, non est 
+        <lb ed="#C" n="55"/>minus calidus igne gignente. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e658">
+                  <lb ed="#C" n="56"/>Habito, quod propositio illa veri¬ 
+        <!--281.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>tatem non habet in his, quae sunt eiusdem 
+        <lb ed="#C" n="58"/>speciei, sed in alijs. Notandum quod  
+        <lb ed="#C" n="59"/>licet in Divinis vere non sit species, est 
+        <lb ed="#C" n="60"/>tamem ibi aliquid ad similitudinem 
+        spe<lb ed="#C" n="61" break="no"/>ciei. Nam si consideramus relationes 
+        <lb ed="#C" n="62"/>Personarum, invenimus ibi aliquo 
+        mo<lb ed="#C" n="63" break="no"/>do diversitatem secundum speciem: cum 
+        <lb ed="#C" n="64"/>in pluribus Personis non plurificentur 
+        <lb ed="#C" n="65"/>relationes similes; sed disparatae, &amp; 
+        op<lb ed="#C" n="66" break="no"/>posite, quae differunt specie. Sed si 
+        con<lb ed="#C" n="67" break="no"/>sideramus naturam, non solum 
+        repe<lb ed="#C" n="68" break="no"/>ritur una natura specie in omnibus 
+        Per<lb ed="#C" n="69" break="no"/>sonis Divinis, sed etiam una numero: 
+        <lb ed="#C" n="70"/>propter quod si Pater, &amp; Filius spiraret 
+        <lb ed="#C" n="71"/>Spiritum S. secundum quod sunt distincti 
+        <lb ed="#C" n="72"/>relationibus, forte haberet aliquam ap¬ 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e702">
+                  <lb ed="#C" n="73"/>parentiam quod unus spiraret magis 
+        <lb ed="#C" n="74"/>alio: cum huiusmodi relationes specie 
+        <lb ed="#C" n="75"/>differre videantur, non tamen verum 
+        <lb ed="#C" n="76"/>esset: quia &amp; si sic esset, cum non sit una 
+        <lb ed="#C" n="77"/>relatio, quae reperiatur in Patre, &amp; 
+        Fi<lb ed="#C" n="78" break="no"/>sio, in Patre per essentiam, in Filio per 
+        <lb ed="#C" n="79"/>participationem, dato quod secundum 
+        <lb ed="#C" n="80"/>relationes repertas in ipsis Pater, &amp; 
+        Fi<lb ed="#C" n="81" break="no"/>lius spirarent, unus non spiraret magis: 
+        <lb ed="#C" n="82"/>verum quia non spirant Pater, &amp; Filius, 
+        <lb ed="#C" n="83"/>ut relationibus sunt distincti; sed ut  
+        <lb ed="#C" n="84"/>Deitate sunt uniti, secundum quod ostem 
+        <lb ed="#C" n="85"/>dit Anselmus in de Proces. Spiritus 
+        Sa<lb ed="#C" n="86" break="no"/>cti dicens: Si eadem est Deitas Patris, &amp; 
+        <lb ed="#C" n="87"/>Filij, nequit intelligi quomodo procedat de 
+        Dei<lb ed="#C" n="88" break="no"/>tate Patris per Deitatem Filij, &amp; non de 
+        eius<lb ed="#C" n="89" break="no"/>dem Filij Deitate, nisi forte quis dicat Spiritum 
+        <lb ed="#C" n="90"/>Sanctum non procedere de Deitate Patris, sed  
+        <lb ed="#C" n="91"/>de Paternitate, nec per Deitatem Filij; sed per 
+        <lb ed="#C" n="92"/>filiationem, quae opinio sua se patenti fatuitate 
+        <lb ed="#C" n="93"/>suffocat. Cum igitur una sit Deitas 
+        Pa<lb ed="#C" n="94" break="no"/>tris &amp; Filij, de qua procedit Spiritus 
+        <lb ed="#C" n="95"/>Sanctus, non solum est falsum unum 
+        spi<lb ed="#C" n="96" break="no"/>rare magis alio, sed &amp; non habet 
+        appa<lb ed="#C" n="97" break="no"/>rentiam. Nam si propositio dicta, 
+        veri<lb ed="#C" n="98" break="no"/>tatem non habet in his, quae sunt 
+        eius<lb ed="#C" n="99" break="no"/>dem speciei; quia eandem naturam 
+        <lb ed="#C" n="100"/>participant aequaliter, multo minus est 
+        <lb ed="#C" n="101"/>vera in Patre, &amp; Filio, qui secundum 
+        <lb ed="#C" n="102"/>quod spirant Spiritum Sanctum habent  
+        <lb ed="#C" n="103"/>unam eandem virtutem spirativam, sive 
+        <lb ed="#C" n="104"/>unam eandem Deitatem, non solum 
+        <lb ed="#C" n="105"/>pecie, sed numero. Et quia non 
+        com<lb ed="#C" n="106" break="no"/>petit Patri Deitas per essentiam, Filio 
+        <lb ed="#C" n="107"/>per participationem, nec magis est 
+        <lb ed="#C" n="108"/>Deitas unius, quam alius: cum de 
+        Dei<lb ed="#C" n="109" break="no"/>tate eorum emanet Spiritus; non 
+        magi<lb ed="#C" n="110" break="no"/>spirat unus, quam alius, &amp; ista est via 
+        <lb ed="#C" n="111"/>Anselmi in de P. roces. Spir. S. qui ait 
+        <lb ed="#C" n="112"/>Si ergo non magis est Pater Deitas, unde Spi¬ 
+        <!--282.xml-->
+        <pb ed="#C" n="245"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ritus Sanctus est, quam Filius, intelligi nequit  
+        <lb ed="#C" n="2"/>cur magis sit de Patre, quam de Filio. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e802">
+                  <lb ed="#C" n="3"/>Resp. ad arg. Ad primum 
+        dicen<lb ed="#C" n="4" break="no"/>dum, quod si agens accipit virtutem 
+        <lb ed="#C" n="5"/>ab alio aliam, &amp; per participationem, 
+        <lb ed="#C" n="6"/>tunc verum est, quod dictum est, ut  
+        <lb ed="#C" n="7"/>patet per habita; Filius tamen habet  
+        <lb ed="#C" n="8"/>eandem virtutem, &amp; eandem Deitatem 
+        <lb ed="#C" n="9"/>cum Patre, &amp; per essentiam, sicut 
+        Pa<lb ed="#C" n="10" break="no"/>ter, non per participationem.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e822">
+        Ad 2. 
+        di<lb ed="#C" n="11" break="no"/>cendum, quod hoc est: quia non est tanta 
+        <lb ed="#C" n="12"/>veritas in conclusionibus, sicut in 
+        prin<lb ed="#C" n="13" break="no"/>cipijs. In Filio autem est tanta virtus 
+        <lb ed="#C" n="14"/>quanta in Patre, &amp; eadem, ideo non 
+        <lb ed="#C" n="15"/>valet.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e836">
+        Ad 3. dicendum, quod in 
+        <lb ed="#C" n="16"/>Divinis proprie non sumitur causa, sed  
+        <lb ed="#C" n="17"/>principium, &amp; hoc sine prioritate, ut 
+        <lb ed="#C" n="18"/>dictum est. Ita etiam sine magis, &amp; 
+        mi<lb ed="#C" n="19" break="no"/>nus: quia quod dictum est veritatem 
+        <lb ed="#C" n="20"/>non habet, nisi in causis, &amp; agentibus, 
+        <lb ed="#C" n="21"/>quae habent virtutes separatas, 
+        cuius<lb ed="#C" n="22" break="no"/>modi non sunt Pater, &amp; Filius.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e854">
+        Ad 4. 
+        <lb ed="#C" n="23"/>dicendum, quod Pater dicitur fontana 
+        <lb ed="#C" n="24"/>Deitas ratione auctoritatis, quae est in 
+        <lb ed="#C" n="25"/>ipso: quia ipse non accipit Deitatem 
+        <lb ed="#C" n="26"/>ab aliis, sed alij ab eo, non propter 
+        <lb ed="#C" n="27"/>maiorem plenitudinem. Et quod 
+        dici<lb ed="#C" n="28" break="no"/>tur de fonte &amp; stipite, dicendum, quod 
+        <lb ed="#C" n="29"/>non est per omnia simile. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e872">
+                  <lb ed="#C" n="30"/>Nota, quod ista propositio Propter  
+        <lb ed="#C" n="31"/>quod &amp;c. Vera est; non tamen in 
+        peni<lb ed="#C" n="32" break="no"/>tus univocis, id est, in individuis 
+        eius<lb ed="#C" n="33" break="no"/>dem speciei. Ideo non sequitur ignis 
+        <lb ed="#C" n="34"/>genitus est calidus propter ignem 
+        gene<lb ed="#C" n="35" break="no"/>rantem, ergo ignis generans est magis 
+        <lb ed="#C" n="36"/>calidus: quia differunt praecise 
+        secun<lb ed="#C" n="37" break="no"/>dum esse; non in natura, nisi ex 
+        con<lb ed="#C" n="38" break="no"/>sequenti, ideo non habent ordinem es 
+        <lb ed="#C" n="39"/>sentialem ad invicem, quod etiam 
+        re<lb ed="#C" n="40" break="no"/>quititur ad veritatem illius 
+        propositio<lb ed="#C" n="41" break="no"/>nis, scilicet, quod inter ea, inter quae 
+        <lb ed="#C" n="42"/>fit talis comparatio, sit ordo essentialis, 
+        <lb ed="#C" n="43"/>Nec est vera in penitus aequivocis: quia 
+        <lb ed="#C" n="44"/>etiam in talibus ordo essentialis non 
+        re<lb ed="#C" n="45" break="no"/>peritur, nec in una natura conveniunt. 
+        <lb ed="#C" n="46"/>Ideo non sequitur iste est calidus 
+        prop<lb ed="#C" n="47" break="no"/>ter motum, ergo motus est magis 
+        cali<lb ed="#C" n="48" break="no"/>dus: quia motus, &amp; iste non participat 
+        <lb ed="#C" n="49"/>eandem naturam caliditatis. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e918">
+                  <lb ed="#C" n="50"/>Valet ergo ista propositio, &amp; 
+        conse<lb ed="#C" n="51" break="no"/>quetia in analogicis participantibus 
+        ean<lb ed="#C" n="52" break="no"/>dem naturam, quorum unum quidem 
+        <lb ed="#C" n="53"/>habet essentialiter, aliud per 
+        participa<lb ed="#C" n="54" break="no"/>tionem, &amp; in ordine ad aliud: &amp; idequd 
+        <!--282.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>illa propositio est per se notan¬ 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e65046-Dd1e939">
+               <head xml:id="Gi9qrR-e65046-Hd1e941">Articulus 2</head>
+               <p xml:id="Gi9qrR-e65046-d1e944">
+                  <lb ed="#C" n="56"/>ARTICVLVS II. 
+        <lb ed="#C" n="57"/>Vtrum Spiritus Sanctus procedat a Patre me¬ 
+        <lb ed="#C" n="58"/>diante Filio? 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e953">
+                  <lb ed="#C" n="59"/>SEcundo quaeritur: utrum Spiritus 
+        <lb ed="#C" n="60"/>DSSanctus procedat a Patre mediante 
+        <lb ed="#C" n="61"/>Filio?
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e962">
+        Et videtur quod non: quia 
+        quan<lb ed="#C" n="62" break="no"/>to agens est principalius, tanto 
+        imme<lb ed="#C" n="63" break="no"/>diatius agit. Sed Pater spirat 
+        principali<lb ed="#C" n="64" break="no"/>ter, ut dictum est, ergo non spirat 
+        me<lb ed="#C" n="65" break="no"/>diate, sed immediate.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e973">
+        Praeterea: aut  
+        <lb ed="#C" n="66"/>spirat mediate solum, aut mediate &amp; 
+        <lb ed="#C" n="67"/>immediate, aut immediate solum? 
+        Me<lb ed="#C" n="68" break="no"/>diate solum, non: quia cum Pater, &amp; 
+        <lb ed="#C" n="69"/>Filius sunt unum principium Spiritus S. 
+        <lb ed="#C" n="70"/>ut patuit per <name xml:id="Gi9qrR-e65046-Nd1e986" ref="#Augustine">Aug.</name> non est intelligibile 
+        <lb ed="#C" n="71"/>ex quo Spiritus Sanctus procedit a Filio 
+        <lb ed="#C" n="72"/>immediate, quin etiam sic procedat a 
+        <lb ed="#C" n="73"/>Patre. Mediate &amp; immediate simul 
+        <lb ed="#C" n="74"/>non: quia cum ista sint opposita, non 
+        <lb ed="#C" n="75"/>conveniunt eidem respectu eiusdem 
+        ac<lb ed="#C" n="76" break="no"/>tus, ergo spirat immediate solum, ergo 
+        <lb ed="#C" n="77"/>non mediante Filio.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1006">
+        Praeterea: si duo 
+        <lb ed="#C" n="78"/>agentia agunt, ita quod unum agit 
+        me<lb ed="#C" n="79" break="no"/>diante alio, quodlibet illorum videtur  
+        <lb ed="#C" n="80"/>imperfectum: sicut videmus ignem 
+        <lb ed="#C" n="81"/>agere mediante corpore coelesti: quia 
+        <lb ed="#C" n="82"/>imperfectus est, cum non possit agere 
+        <lb ed="#C" n="83"/>non adiutus virtute alterius. Rursum 
+        <lb ed="#C" n="84"/>quia Sol generat hominem mediante 
+        <lb ed="#C" n="85"/>homine, etiam imperfectus est: quia 
+        <lb ed="#C" n="86"/>non potest omnem effectum 
+        produce<lb ed="#C" n="87" break="no"/>re, nisi determinetur per particulare 
+        <lb ed="#C" n="88"/>agens. Sed Pater, &amp; Filius sunt agens 
+        <lb ed="#C" n="89"/>perfectissimum, ergo non agit unum 
+        <lb ed="#C" n="90"/>mediante alio.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1037">
+        Praeterea: quae agunt,  
+        <lb ed="#C" n="91"/>in eo quod unum, agunt eodem 
+        mo<lb ed="#C" n="92" break="no"/>do, sed Pater, &amp; Filius spirant in eo, 
+        <lb ed="#C" n="93"/>quod unum, ut patuit per Anselm. 
+        er<lb ed="#C" n="94" break="no"/>go spirant eodem modo, sed Filius non 
+        <lb ed="#C" n="95"/>spirat mediante Patre, ergo nec Pater  
+        <lb ed="#C" n="96"/>mediante Filio. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1053">
+                  <lb ed="#C" n="97"/>In contrarium est: quia quod 
+        pro<lb ed="#C" n="98" break="no"/>cedit ab aliquo per aliquid, procedit ab 
+        <lb ed="#C" n="99"/>eo mediante illo, sed Spiritus Sanctus 
+        <lb ed="#C" n="100"/>traditur, vel procedit a Patre per 
+        Fi<lb ed="#C" n="101" break="no"/>lium, ut innuit Damasc. 1. lib. cap. 11. 
+        <lb ed="#C" n="102"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1069">
+        Praeterea: in Trinitate 
+        crea<lb ed="#C" n="103" break="no"/>ta amor procedit a mente mediante 
+        <lb ed="#C" n="104"/>verbo, vel mediante intelligentia, sed  
+        <lb ed="#C" n="105"/>mens, vel memoria repraesentat 
+        Pa<lb ed="#C" n="106" break="no"/>trem, intelligentia Filium, amor Spi¬ 
+        <!--283.xml-->
+        <pb ed="#C" n="246"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ritum Sanctum, ut dicitur 15. de 
+        Tri<lb ed="#C" n="2" break="no"/>nit, cap. 23. ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1091">
+                  <lb ed="#C" n="3"/>RESOLVTIO. 
+        <lb ed="#C" n="4"/>Spiritus Sanctus immediate a Patre &amp; Filio 
+        <lb ed="#C" n="5"/>procedit; a Patre vero etiam mediate in quan¬ 
+        <lb ed="#C" n="6"/>tum Pater communicat Filio virtutem 
+        <lb ed="#C" n="7"/>spirativam, per quam immedia¬ 
+        <lb ed="#C" n="8"/>te spirat Spiritum S. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1107">
+                  <lb ed="#C" n="9"/>REspond. dicendum, quod si Pater, 
+        <lb ed="#C" n="10"/>&amp; Filius non essent plures spiram 
+        <lb ed="#C" n="11"/>tes: sicut non spirant in eo quod 
+        plu<lb ed="#C" n="12" break="no"/>ra: quaerere utrum procedat a Patre 
+        <lb ed="#C" n="13"/>mediante Filio, non haberet locum 
+        <lb ed="#C" n="14"/>cum talis processio distinctionem 
+        re<lb ed="#C" n="15" break="no"/>quirat inter gentia. Ideo ex 
+        pluralita<lb ed="#C" n="16" break="no"/>te agentium poterimus investigare 
+        ve<lb ed="#C" n="17" break="no"/>ritatem quaestionis. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1130">
+                  <lb ed="#C" n="18"/>Notandum igitur, quod plura 
+        age<lb ed="#C" n="19" break="no"/>rtia concurrunt ad unum effectum qua¬ 
+        <lb ed="#C" n="20"/>drupliciter. Nam aliquando plura 
+        age<lb ed="#C" n="21" break="no"/>tia concurrunt ad unum effectum, 
+        quo<lb ed="#C" n="22" break="no"/>rum unum efficit, aliud non efficit 
+        <lb ed="#C" n="23"/>sed disponit, &amp; sic procedunt a Deo, 
+        <lb ed="#C" n="24"/>&amp; a causis secundis omnia, quae sunt in 
+        <lb ed="#C" n="25"/>aliqua materia, vel in aliquo subiecto 
+        <lb ed="#C" n="26"/>non tamen de potentia eius, in quo 
+        <lb ed="#C" n="27"/>sunt, educuntur. Et isto modo procedit 
+        <lb ed="#C" n="28"/>anima rationalis a Deo, &amp; a corpore 
+        <lb ed="#C" n="29"/>supercaeleti, sive a virtute in semine 
+        <lb ed="#C" n="30"/>decisa ex lumbis patris: nam Deus eam 
+        <lb ed="#C" n="31"/>creat, vel efficit, causae secundae ad 
+        <lb ed="#C" n="32"/>eius introductionem disponunt. 
+        Secun<lb ed="#C" n="33" break="no"/>do modo uniuntur plura agentia, ita 
+        <lb ed="#C" n="34"/>quod utrumque efficit; non tamen 
+        <lb ed="#C" n="35"/>hoc facit proprie unum, quod aliud. 
+        <lb ed="#C" n="36"/>&amp; sic idem filius procedit a patre, &amp; 
+        <lb ed="#C" n="37"/>avo, sed ab avo procedit per accidens, 
+        <lb ed="#C" n="38"/>cum accidat filio procedere ex multis 
+        <lb ed="#C" n="39"/>patribus, ut Comm. ait: perse autem 
+        <lb ed="#C" n="40"/>pater producit filium, &amp; avus patrem 
+        <lb ed="#C" n="41"/>Tertio modo causae uniuntur ad 
+        pro<lb ed="#C" n="42" break="no"/>ductionem alicuius, ita quod utraque 
+        <lb ed="#C" n="43"/>facit, &amp; hoc una, quod aliqua; non 
+        <lb ed="#C" n="44"/>tamen similiter agunt: &amp; sic 
+        produci<lb ed="#C" n="45" break="no"/>tur forma materialis a Deo, &amp; ab 
+        agen<lb ed="#C" n="46" break="no"/>te in materia: nam illam eandem 
+        for<lb ed="#C" n="47" break="no"/>mam ignis, quam inducit particularis 
+        <lb ed="#C" n="48"/>agens, producit &amp; Deus; sed non 
+        si<lb ed="#C" n="49" break="no"/>militer: quia Deus principaliter, ignis 
+        <lb ed="#C" n="50"/>instrumentaliter. Quarto modo 
+        agen<lb ed="#C" n="51" break="no"/>tia uniuntur, ita quod utrumque efficit,  
+        <lb ed="#C" n="52"/>&amp; hoc unum quod aliud, &amp; similiter; 
+        <lb ed="#C" n="53"/>tamen ab uno per aliud, &amp; sic proce¬ 
+        <!--283.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>dit creatura a Deo Patre, &amp; Filio: quia 
+        <lb ed="#C" n="55"/>uterque efficit: quia non solum Pater 
+        <lb ed="#C" n="56"/>operatur, sed Filius, &amp; haec operatur  
+        <lb ed="#C" n="57"/>Filius, quae Pater, &amp; similiter: unde 
+        <lb ed="#C" n="58"/>in loanne legitur: Quaecumque enim Pater 
+        <lb ed="#C" n="59"/>fecerit, haec &amp; Filius similiter facit, tamen 
+        <lb ed="#C" n="60"/>operatur Pater per Filium: quia ipse 
+        <lb ed="#C" n="61"/>est quem constituit heredem universorum, per quem 
+        <lb ed="#C" n="62"/>fecit &amp; saecula. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1234">
+                  <lb ed="#C" n="63"/>Quomodo autem hoc sit, sic est 
+        <lb ed="#C" n="64"/>videre: quia illam eandem virtutem, 
+        <lb ed="#C" n="65"/>quam habet Pater, habet &amp; Filius; sed  
+        <lb ed="#C" n="66"/>Filius habet eam a Patre. Ideo 
+        quid<lb ed="#C" n="67" break="no"/>quid procedit a Filio inquantum 
+        pro<lb ed="#C" n="68" break="no"/>cedit ab ipso, etiam procedit a Patres 
+        <lb ed="#C" n="69"/>sed inquantum procedit a Patre non 
+        <lb ed="#C" n="70"/>procedit a Filio. Ideo Pater operatur  
+        <lb ed="#C" n="71"/>immediate inquantum per illam 
+        ean<lb ed="#C" n="72" break="no"/>dem virtutem, per quam agit Filius, 
+        <lb ed="#C" n="73"/>agit &amp; Pater &amp; operatur per Filium: 
+        <lb ed="#C" n="74"/>quia secundum quod Filius agit, &amp; 
+        Pa<lb ed="#C" n="75" break="no"/>ter agit: ideo dicitur Filius operativa 
+        po<lb ed="#C" n="76" break="no"/>tentia Patris secundum Ang. S83. quaest, q. 
+        <lb ed="#C" n="77"/>a6. Cum igitur Spiritus Sanctus 
+        proce<lb ed="#C" n="78" break="no"/>dat a Patre, &amp; Filio, qui sunt plures 
+        <lb ed="#C" n="79"/>spirantes, si volumus videre 
+        quaestio<lb ed="#C" n="80" break="no"/>nem praetactam, videamus quomodo 
+        <lb ed="#C" n="81"/>se habeant praedicti spirantes in 
+        produ<lb ed="#C" n="82" break="no"/>ctione Spiritus Sancti: non enim 
+        ha<lb ed="#C" n="83" break="no"/>bent se, ut causa efficiens, &amp; disponens: 
+        <lb ed="#C" n="84"/>quia tunc Filio non competeret spirare, 
+        <lb ed="#C" n="85"/>sicut non competit caelo creare 
+        ani<lb ed="#C" n="86" break="no"/>mam; nec ut avus, &amp; pater in 
+        produ<lb ed="#C" n="87" break="no"/>ctione filij: quia tunc alterum illorum 
+        <lb ed="#C" n="88"/>per accidens faceret ad productionem 
+        <lb ed="#C" n="89"/>ipsius, nec ut Creator &amp; creatura in 
+        <lb ed="#C" n="90"/>productione rerum materialium: quia 
+        <lb ed="#C" n="91"/>non esset eadem virtus ipsorum; sed si 
+        <lb ed="#C" n="92"/>se habet Pater, &amp; Filius in productione 
+        <lb ed="#C" n="93"/>Spiritus Sancti, sicut se habet Pater 
+        <lb ed="#C" n="94"/>&amp; Filius, vel tota Trinitas in 
+        produ<lb ed="#C" n="95" break="no"/>ctione creaturae, secundum quod 
+        spe<lb ed="#C" n="96" break="no"/>ctat ad praesentem quaestionem. Nam 
+        <lb ed="#C" n="97"/>sicut in tali productione Pater efficit &amp; 
+        <lb ed="#C" n="98"/>Filius, &amp; hoc facit Pater quod Filius, &amp; 
+        <lb ed="#C" n="99"/>similiter ut Pater &amp; Filius, tamen 
+        ope<lb ed="#C" n="100" break="no"/>ratur Pater per Filium: ita in 
+        produ<lb ed="#C" n="101" break="no"/>ctione Spiritus Sancti non solum spirat 
+        <lb ed="#C" n="102"/>Pater, sed Filius, &amp; cundem Spiritum 
+        <lb ed="#C" n="103"/>producit Pater, quem Filius, &amp; 
+        simili<lb ed="#C" n="104" break="no"/>ter, ut Pater spirat, &amp; Filius, tamen 
+        Pa<lb ed="#C" n="105" break="no"/>ter spirat per Filium. Et istam viam 
+        ve<lb ed="#C" n="106" break="no"/>natur Anselmus in de Proc. Spirit. 
+        di<lb ed="#C" n="107" break="no"/>cens: Quaecuque enim Pater fecerit, haec &amp; 
+        Fi<lb ed="#C" n="108" break="no"/>lius similiter facit. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1336">
+                  <lb ed="#C" n="109"/>Dicamus igitur: quia cum Spiritus 
+        <!--284.xml-->
+        <pb ed="#C" n="247"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Sanctus procedit a Patre per Filium, 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1349">
+                  <lb ed="#C" n="2"/>procedit &amp; a Filio similiter: sicut quae 
+        <lb ed="#C" n="3"/>facta sunt a Patre per Verbum, facta 
+        <lb ed="#C" n="4"/>sunt ab ipso Verbo. Et propter hoc 
+        be<lb ed="#C" n="5" break="no"/>ne distinguit Ric. 5. de Trinit. dicens: 
+        <lb ed="#C" n="6"/>esse triplicem processionem, aliquam 
+        <lb ed="#C" n="7"/>esse mediatam solum, aliquam 
+        imme<lb ed="#C" n="8" break="no"/>diatam tantum, aliquam mediatam &amp; 
+        <lb ed="#C" n="9"/>immediatam simul, quod in creaturis 
+        <lb ed="#C" n="10"/>videre possumus. Nam cum Eva facta 
+        <lb ed="#C" n="11"/>fuerit ex costa Adae, quidquid processit 
+        <lb ed="#C" n="12"/>ab Eva, mediate processit ab Adam: 
+        <lb ed="#C" n="13"/>ideo Filius Adae, &amp; Evae ab Eva proces  
+        <lb ed="#C" n="14"/>sit immediate solum, ab Adam mediatem 
+        <lb ed="#C" n="15"/>&amp; immediate: immediate inquantum 
+        <lb ed="#C" n="16"/>ipse operatus fuit ad productionem 
+        il<lb ed="#C" n="17" break="no"/>lius filij: mediate inquantum ille 
+        fi<lb ed="#C" n="18" break="no"/>ius processit ab Eva, &amp; Eva ab Adam 
+        <lb ed="#C" n="19"/>sequitur quod processit ab Adam 
+        me<lb ed="#C" n="20" break="no"/>diante Eva: mediata solum processio 
+        <lb ed="#C" n="21"/>esset, si ab illo filio alius filius generare 
+        <lb ed="#C" n="22"/>tur, ad cuius productionem non 
+        opera<lb ed="#C" n="23" break="no"/>rentur Adam &amp; Eva, propter quod 
+        <lb ed="#C" n="24"/>sequeretur, quod solum ab eis 
+        media<lb ed="#C" n="25" break="no"/>te procederet: quia procedit a filio 
+        <lb ed="#C" n="26"/>eorum, qui processit ab eis. Ex quo 
+        pa<lb ed="#C" n="27" break="no"/>tere potest quomodo procedit Spiritus 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1408">
+                  <lb ed="#C" n="28"/>S. a Patre, &amp; Filio: quia a Filio procedit 
+        <lb ed="#C" n="29"/>solum immediate; a Patre mediate 
+        <lb ed="#C" n="30"/>&amp; immediate: immediate inquantum 
+        <lb ed="#C" n="31"/>spirat ipsum Spiritum; mediate, quia 
+        <lb ed="#C" n="32"/>eo quod procedit a Filio, procedit a 
+        <lb ed="#C" n="33"/>Patre: cum Filius hoc habeat a Patre 
+        <lb ed="#C" n="34"/>quod ab ipso procedat Spiritus 
+        San<lb ed="#C" n="35" break="no"/>ctus: &amp; hoc innuit <name xml:id="Gi9qrR-e65046-Nd1e1427" ref="#Augustine">Aug.</name> 5. de Trin. 
+        <lb ed="#C" n="36"/>cap. penult. ostendens Spiritum 
+        San<lb ed="#C" n="37" break="no"/>ctum procedere a Patre prout 
+        proce<lb ed="#C" n="38" break="no"/>dit a Filio; non tamen e converso. Huico 
+        <lb ed="#C" n="39"/>sententiae concordant verbaHilarij, quo 
+        <lb ed="#C" n="40"/>habentur in littera, quod Spiritus Sanctus 
+        <lb ed="#C" n="41"/>est, &amp; mittitur a Patre per Filium. 
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1444">
+                  <lb ed="#C" n="42"/>Resp. ad arg. Ad primum dicendum, 
+        <lb ed="#C" n="43"/>quod mediate, &amp; immediate potest 
+        <lb ed="#C" n="44"/>umi dupliciter, vel quantum ad virtu 
+        <lb ed="#C" n="45"/>tem, vel quantum ad agentia. Primo 
+        <lb ed="#C" n="46"/>modo: quanto agens est superius, 
+        tan<lb ed="#C" n="47" break="no"/>to magis immediate agit: quia pancio 
+        <lb ed="#C" n="48"/>ribus virtutibus innititur vel nullis, s 
+        <lb ed="#C" n="49"/>est supremum. Secundo modo: quantem 
+        <lb ed="#C" n="50"/>agens est inferius, tanto magis proximo 
+        <lb ed="#C" n="51"/>agit, &amp; immediatius. Sed hoc non 
+        ple<lb ed="#C" n="52" break="no"/>ne transferre possumus ad Divina: nam 
+        <lb ed="#C" n="53"/>mediatum, &amp; immediatum quantum 
+        <lb ed="#C" n="54"/>ad virtutem ibi nullo modo esse potest. 
+        <lb ed="#C" n="55"/>cum eadem sit virtus Patris, &amp; Filij, per 
+        <lb ed="#C" n="56"/>quam spirant: quantum ad agentia est 
+        <!--284.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ibi eo modo, quo diximus, non sicut  
+        <lb ed="#C" n="58"/>in creaturis. Et quando dicitur: quanto 
+        <lb ed="#C" n="59"/>agens est principalius, tanto magis 
+        im<lb ed="#C" n="60" break="no"/>mediate agit, intelligendum est de 
+        im<lb ed="#C" n="61" break="no"/>mediatione quantum ad virtutem, quae 
+        <lb ed="#C" n="62"/>ibi esse non potest.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1497">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="63"/>quod Pater spirat mediate, &amp; 
+        imme<lb ed="#C" n="64" break="no"/>diate: sed ista non opponuntur, quia 
+        <lb ed="#C" n="65"/>non accipiuntur eodem modo, ut 
+        pa<lb ed="#C" n="66" break="no"/>tuit.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1508">
+        Ad 3. dicendum, quod mediatum, 
+        <lb ed="#C" n="67"/>&amp; immediatum dicunt imperfectionem 
+        <lb ed="#C" n="68"/>in creaturis: quia in nulla reservatur 
+        <lb ed="#C" n="69"/>tota virtus, per quam producitur 
+        effe<lb ed="#C" n="70" break="no"/>ctus, ut in Sole non reservatur per 
+        om<lb ed="#C" n="71" break="no"/>nem modum virtus patris, nec in patre 
+        <lb ed="#C" n="72"/>virtus Solis; sed in Deo Patre, &amp; Filio 
+        <lb ed="#C" n="73"/>reservatur tota virtus &amp; eadem, per 
+        <lb ed="#C" n="74"/>quam producitur Spiritus.
+      </p>
+               <p xml:id="Gi9qrR-e65046-d1e1528">
+        Ad 4. 
+        dicen<lb ed="#C" n="75" break="no"/>dum, quod propter mediationem, &amp; 
+        <lb ed="#C" n="76"/>immediationem ibi non ponitur 
+        dis<lb ed="#C" n="77" break="no"/>umilitudo actionis; sed solum ordo 
+        <lb ed="#C" n="78"/>originis.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

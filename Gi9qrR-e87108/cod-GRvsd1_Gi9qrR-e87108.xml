@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="325"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e87108"><!-- l1-d17p1q2 -->
+            <head xml:id="Gi9qrR-e87108-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e87108-d1e111">
+      <!--362.xml-->
+               <pb ed="#C" n="325"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>QVAESTIO II. 
+      <lb ed="#C" n="2"/>De charitate &amp; eius mensura. 
+      <lb ed="#C" n="3"/>POSTEA quaeritur: uttrum 
+      chari<lb ed="#C" n="4" break="no"/>tas habeat rationem substantiae, &amp; 
+      <lb ed="#C" n="5"/>quia si non est substantia, hoc est: quia 
+      <lb ed="#C" n="6"/>est aliquid inhaerens nobis, cum omne 
+      <lb ed="#C" n="7"/>inhaerens recipiat mensuram suam ex 
+      <lb ed="#C" n="8"/>proprio subiecto: ideo duo quaeremus. 
+      <lb ed="#C" n="9"/>1. utrum charitas sit substantia? 2. de 
+      <lb ed="#C" n="10"/>mensura eius? 
+    </p>
+            <div xml:id="Gi9qrR-e87108-Dd1e142">
+               <head xml:id="Gi9qrR-e87108-Hd1e144">Articulus 1</head>
+               <p xml:id="Gi9qrR-e87108-d1e147">
+                  <lb ed="#C" n="11"/>ARTICVLUS I. 
+        <lb ed="#C" n="12"/>Vtrum charitas sit substantia vel accidens? 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e154">
+                  <lb ed="#C" n="13"/>AD 1. sic proceditur: videtur, quod  
+        <lb ed="#C" n="14"/>charitas sit substantia: quia 
+        spe<lb ed="#C" n="15" break="no"/>cies condivisae adinvicem sunt in eodem 
+        <lb ed="#C" n="16"/> genere; sed cum charitas 
+        condivida<lb ed="#C" n="17" break="no"/>tur Fidei: cum Fides sit substantia 
+        iux<lb ed="#C" n="18" break="no"/>ta illud ad Haebreos 11. Fides est 
+        substan<lb ed="#C" n="19" break="no"/>tia rerum sperandarum, ergo &amp; chatitas 
+        <lb ed="#C" n="20"/>substantia erit.
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e174">
+        Praeterea: omne 
+        acci<lb ed="#C" n="21" break="no"/>dens videtur oriri ex principijs subiecti 
+        <lb ed="#C" n="22"/>iuxta illud Phil. in. 1. Phys. Materia sub 
+        <lb ed="#C" n="23"/>iecta cum forma est causa omnium accidentium, 
+        <lb ed="#C" n="24"/>quae fiunt in ea; sed charitas non oritur  
+        <lb ed="#C" n="25"/>ex principijs animae: ergo &amp;c. 
+        Praete<lb ed="#C" n="26" break="no"/>rea: mullum accidens extendit se 
+        ex<lb ed="#C" n="27" break="no"/>tra suum subiectum; sed charitas 
+        sem<lb ed="#C" n="28" break="no"/>per tendit in aliud secundum Creg. 
+        er<lb ed="#C" n="29" break="no"/>go non est accidens. 
+        <lb ed="#C" n="30"/>In contrarium est: quia quod 
+        sus<lb ed="#C" n="31" break="no"/>cipit magis &amp; minus, habet rationem 
+        <lb ed="#C" n="32"/>accidentis, sed charitas suscipit magis 
+        <lb ed="#C" n="33"/>&amp; minus, ut patebit, ergo &amp;c. 
+        Praete<lb ed="#C" n="34" break="no"/>rea: quod potest esse &amp; abesse est 
+        ac<lb ed="#C" n="35" break="no"/>cidens: sed charitas est huiusmodi, 
+        <lb ed="#C" n="36"/>iuxta illud Apocalyp. 2. Chaeritatem tuam 
+        <lb ed="#C" n="37"/>reliquisti; memor esto itaque unde 
+        excide<lb ed="#C" n="38" break="no"/>ris. 
+        <lb ed="#C" n="39"/>Vlterius: dato quod sit accidens 
+        <lb ed="#C" n="40"/>quaeritur, in quo praedicamento sit? Et  
+        <lb ed="#C" n="41"/>videtur quod sit in praedicamento 
+        quan<lb ed="#C" n="42" break="no"/>titatis: quia proprium est quantitati 
+        <lb ed="#C" n="43"/>secundum eam aequale &amp; inaequale 
+        di<lb ed="#C" n="44" break="no"/>ci, ergo maius &amp; minus, quae 
+        inaequa<lb ed="#C" n="45" break="no"/>litatem important, non dicuntur nisi 
+        <lb ed="#C" n="46"/>de rebus quantis. Sed dicitur prima ad 
+        <lb ed="#C" n="47"/>Corinth. 13. Nunc autem manent tria haec, 
+        <lb ed="#C" n="48"/>Fides, spes, charitas: maior autem horum est 
+        <lb ed="#C" n="49"/>charitas; sed si maioritas dicitur de 
+        quan<lb ed="#C" n="50" break="no"/>titate, ergo est quid quantum. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e242">
+                  <lb ed="#C" n="51"/>In contrarium est: quia cum sit vir¬ 
+        <!--362.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="52"/>tus, &amp; virtus sit bona qualitas mentis; 
+        <lb ed="#C" n="53"/>erit in praedicamento qualitatis. 
+        Praete<lb ed="#C" n="54" break="no"/>rea: omnis quantitas vel est continua 
+        <lb ed="#C" n="55"/>vel discreta; cnaritas neque est quid 
+        co<lb ed="#C" n="56" break="no"/>tinuum, nec quid discretum, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e263">
+                  <lb ed="#C" n="57"/>RESOLVTIO. 
+        <lb ed="#C" n="58"/>Charitas accidens est, nec substantia dici valet 
+        <lb ed="#C" n="59"/>nisi per metaphoram, &amp; quia non 
+        <lb ed="#C" n="60"/>est privatio. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e274">
+                  <lb ed="#C" n="61"/>REspond. dicendum, quod si 
+        velle<lb ed="#C" n="62" break="no"/>mus sustinere positionem Mag. 
+        <lb ed="#C" n="63"/>cum secundum eum charitas sit ipse  
+        <lb ed="#C" n="64"/>Deus, nec aliam charitatem posuerit 
+        <lb ed="#C" n="65"/>nisi morum mentis vel dilectionis actum: 
+        <lb ed="#C" n="66"/>chatitas nec est substantia, nec est 
+        acci<lb ed="#C" n="67" break="no"/>dens: quia neutrum istorum proprie  
+        <lb ed="#C" n="68"/>de Deo dicitur. Non est enim Deus 
+        <lb ed="#C" n="69"/>accidens: quia nulli inest, nec ab 
+        ali<lb ed="#C" n="70" break="no"/>quo dependet: propter quod non 
+        so<lb ed="#C" n="71" break="no"/>lum non est accidens, sed etiam nec 
+        <lb ed="#C" n="72"/>aliquid per accidens secum 
+        compati<lb ed="#C" n="73" break="no"/>tur, iuxta illud <name xml:id="Gi9qrR-e87108-Nd1e304" ref="#Augustine">Aug.</name> 5. dem Trin. capis, 
+        <lb ed="#C" n="74"/>6. In Deo autem nihil quidem secundum, accict 
+        <lb ed="#C" n="75"/>dens dic itur. Non est substantia: duif 
+        <lb ed="#C" n="76"/>nulli substat: unde 3. de Trin. cap. 2. n. 
+        <lb ed="#C" n="77"/>scribitur: Qua propter substantia, vel si 
+        ng<lb ed="#C" n="78" break="no"/>lius dicitur, essentia Dei. Et 7. cap. 5. 
+        <lb ed="#C" n="79"/>citur: quod Deus non dicitur substantiam, 
+        <lb ed="#C" n="80"/>sed essentia: quia non subsistit 
+        bonita<lb ed="#C" n="81" break="no"/>usuam, veleiam alsisafigipimamipj? 
+        <lb ed="#C" n="82"/>tunc charitas accidens quoddam est, 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e327">
+                  <lb ed="#C" n="83"/>Quod quidam sic deciarant: quia 
+        <lb ed="#C" n="84"/>quidquid advenit alicui post esse 
+        com<lb ed="#C" n="85" break="no"/>pletum, ut forma infiaerens; &amp; nog 
+        <lb ed="#C" n="86"/>recipitur in unitatem hypostasis eius 
+        <lb ed="#C" n="87"/>est accidens: &amp; quia huiusmodi est 
+        cha<lb ed="#C" n="88" break="no"/>ritas, ipsa est accidens. Propter primum; 
+        <lb ed="#C" n="89"/>removetur a natura accidentis. forniso 
+        <lb ed="#C" n="90"/>substantialis, quae non advenit rei pest a 
+        <lb ed="#C" n="91"/>esse completum. Propter 2. removetur 
+        <lb ed="#C" n="92"/>a natura ipsius vestimentum &amp; taliam, 
+        <lb ed="#C" n="93"/>quae licet adveniant rei post esse 
+        com<lb ed="#C" n="94" break="no"/>pletum; non tamen adveniunt, ut for 
+        <lb ed="#C" n="95"/>ma inhaerens; sed ut aliquid 
+        corpuri<lb ed="#C" n="96" break="no"/>applicatum. Propter 3. removetur  
+        <lb ed="#C" n="97"/>humana natura in Verbo quae 
+        <lb ed="#C" n="98"/>fuit recepta in unitatem hypostauis 
+        Vver<lb ed="#C" n="99" break="no"/>bi. Illud &amp; si est verum; est tamen 
+        di<lb ed="#C" n="100" break="no"/>ctum non ratione firmatum, 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e369">
+                  <lb ed="#C" n="101"/>Et ideo dicendum, quod ut 
+        habi<lb ed="#C" n="102" break="no"/>tum est, nulla creatura est sua virtus, 
+        <lb ed="#C" n="103"/>cum quodlibet creatum agat in vittur, 
+        <!--363.xml-->
+        <pb ed="#C" n="326"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>te alterius, &amp; sit magnum vel virtuosum, 
+        <lb ed="#C" n="2"/>eo quod magnitudine vel virtute 
+        par<lb ed="#C" n="3" break="no"/>ticipat: unde de solo Deo concludit 
+        <lb ed="#C" n="4"/>August. 5. de Trin. cap. 10. quod est 
+        <lb ed="#C" n="5"/>magnus &amp; virtnosus se ipso. In 
+        quali<lb ed="#C" n="6" break="no"/>bet ergo creatura virtus vel illud, quod 
+        <lb ed="#C" n="7"/>est immediatum principium actionis, 
+        <lb ed="#C" n="8"/>non est ipsa substantia creaturae; sed 
+        <lb ed="#C" n="9"/>aliquid substantiae superadditum: nam 
+        <lb ed="#C" n="10"/>agere praesupponit esse, &amp; modus 
+        agem<lb ed="#C" n="11" break="no"/>di modum essendi: omne ergo, quod 
+        <lb ed="#C" n="12"/>habet esse per aliquid substantiae super 
+        <lb ed="#C" n="13"/>additum, &amp; non est suum esse, agit 
+        <lb ed="#C" n="14"/>per aliquid substantiae adiunctum, &amp; 
+        <lb ed="#C" n="15"/>non est sua virtus: &amp; quia charitas, 
+        si<lb ed="#C" n="16" break="no"/>ve charitatis habitus virtus quaedam est 
+        <lb ed="#C" n="17"/>&amp; est immediatum principium 
+        actio<lb ed="#C" n="18" break="no"/>nis: quia immediate dilectio gratuita 
+        <lb ed="#C" n="19"/>ab ipso progreditur, accidens quoddam 
+        <lb ed="#C" n="20"/>erit; immo tanto magis arguere 
+        possu<lb ed="#C" n="21" break="no"/>mus charitatem esse accidens, quam 
+        <lb ed="#C" n="22"/>potentiam animae, utputa quam 
+        volun<lb ed="#C" n="23" break="no"/>tatem, quanto magis est immediata 
+        <lb ed="#C" n="24"/>ratio bonae actionis habitus virtuosus, 
+        <lb ed="#C" n="25"/>quam potentia: cum talis actus egre 
+        <lb ed="#C" n="26"/>diatur a potentia per habitum 
+        infor<lb ed="#C" n="27" break="no"/>mata. Tamen propter argumenta, qua 
+        <lb ed="#C" n="28"/>fieri possent, notandum quod secundum 
+        <lb ed="#C" n="29"/>Philosophum 5. Metaph. substantia dicitur  
+        <lb ed="#C" n="30"/>quinque modis. Vno modo sumitur 
+        <lb ed="#C" n="31"/>pro elementis, &amp; pro iis, quae ex 
+        ele<lb ed="#C" n="32" break="no"/>mentis sunt, &amp; sic accipitur pro substa 
+        <lb ed="#C" n="33"/>tia composita. Alio modo accipitur 
+        <lb ed="#C" n="34"/>pro illo, quod dat esse: &amp; sic accipitur 
+        <lb ed="#C" n="35"/>pro forma. Tertio modo accipitur 
+        pro<lb ed="#C" n="36" break="no"/>materia: &amp; isto triplici modo 
+        accipi<lb ed="#C" n="37" break="no"/>tur substantia secundum usitatum 
+        mo<lb ed="#C" n="38" break="no"/>dum. Vnde &amp; Philosophus in 2. de Anim. in 
+        <lb ed="#C" n="39"/>12. Metaph. &amp; in multis locis dividit 
+        <lb ed="#C" n="40"/>substantiam tripliciter in materiam, for 
+        <lb ed="#C" n="41"/>mam, &amp; compositum. Huic enim ser 
+        <lb ed="#C" n="42"/>tentiae aliudunt verba Boctij, qui distin 
+        <lb ed="#C" n="43"/>guit substantiam in usvam, usvosin, &amp; 
+        <lb ed="#C" n="44"/>hypostasin: ut usva referatur ad 
+        sub<lb ed="#C" n="45" break="no"/>stantiam compositam: usvosis ad 
+        for<lb ed="#C" n="46" break="no"/>mam: hypostasis ad materiam, &amp; sic 
+        <lb ed="#C" n="47"/>accipiendo substantiam charitas non 
+        <lb ed="#C" n="48"/>est substantia. Sed quarto modo dicitur 
+        <lb ed="#C" n="49"/>substantia alicuius omne illud, quo 
+        de<lb ed="#C" n="50" break="no"/>structo, destruitur aliud: &amp; sic dicimus 
+        <lb ed="#C" n="51"/>quod superficies est substantia corporis, 
+        <lb ed="#C" n="52"/>quia destructa superficie non remane 
+        <lb ed="#C" n="53"/>corpus: &amp; secundum istam viam, per 
+        <lb ed="#C" n="54"/>quamdam metaphoram dicere 
+        possu<lb ed="#C" n="55" break="no"/>mus, quod charitas sit substantia nostra: 
+        <lb ed="#C" n="56"/>quia destructa charitate, nos non re 
+        <!--363.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>manemus iuxta illud Apost. 1. ad 
+        Co<lb ed="#C" n="58" break="no"/>rinthios. 13. Si habuero omnem Fidem, ita 
+        <lb ed="#C" n="59"/>ut montes transferam; charitatem autem non 
+        <lb ed="#C" n="60"/>habeam, nihil sum. Quinto modo 
+        accipi<lb ed="#C" n="61" break="no"/>tur substantia pro omni eo, quod habet  
+        <lb ed="#C" n="62"/>essentiam: &amp; sic solum privationes non 
+        <lb ed="#C" n="63"/>sunt substantiae: quia non habent 
+        quid<lb ed="#C" n="64" break="no"/>ditatem; sed annitatem: quia non 
+        pos<lb ed="#C" n="65" break="no"/>sunt responderi ad quid sint; sed ad an 
+        <lb ed="#C" n="66"/>sint. &amp; secundum istum modum 
+        cha<lb ed="#C" n="67" break="no"/>ritas est suostantia: quia non est 
+        priva<lb ed="#C" n="68" break="no"/>tio. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e536">
+                  <lb ed="#C" n="69"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="70" break="no"/>cendum, quod Fides dicitur substantia 
+        <lb ed="#C" n="71"/>dupliciter. Vno modo: quia est 
+        fun<lb ed="#C" n="72" break="no"/>damentum aliorum; &amp; alijs substat: quia 
+        <lb ed="#C" n="73"/>accedentem ad Deum oportet credere: 
+        <lb ed="#C" n="74"/>quia est. Alio modo potest exponi sub 
+        <lb ed="#C" n="75"/>stantia pro essentia, &amp; quocumque 
+        mo<lb ed="#C" n="76" break="no"/>do accipiatur, Fides non est in 
+        praedica<lb ed="#C" n="77" break="no"/>mento substantiae, ut substantia dicit 
+        <lb ed="#C" n="78"/>praedicamentum distinctum ab alijs, &amp; 
+        <lb ed="#C" n="79"/>ita non habetur sintentum.
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e562">
+        Ad 2. 
+        di<lb ed="#C" n="80" break="no"/>cendum secundum quosdam, quod  
+        <lb ed="#C" n="81"/>non omne accidens oritur ex principijs 
+        <lb ed="#C" n="82"/>subiecti, immo quaedam sunt 
+        acciden<lb ed="#C" n="83" break="no"/>tia violenter inducta, ut calor in 
+        aqua<lb ed="#C" n="84" break="no"/>Rursum aliqua accidentia sunt, quae 
+        <lb ed="#C" n="85"/>solum sunt ab agente extra, ut 
+        illumi<lb ed="#C" n="86" break="no"/>natio in aere. Sed illud non est bene 
+        <lb ed="#C" n="87"/>dictum: quia nullum accidens realiter 
+        <lb ed="#C" n="88"/>existit in corpore, quod non educatur 
+        <lb ed="#C" n="89"/>de potentia materiae: quia secundum 
+        <lb ed="#C" n="90"/>Comment. 12. Metaph. corpus calidum 
+        <lb ed="#C" n="91"/>agens in aliud corpus non immittit 
+        ca<lb ed="#C" n="92" break="no"/>lorem ab extra; sed facit calidum in 
+        po<lb ed="#C" n="93" break="no"/>tentia calidum in actu, illuminatio autem 
+        <lb ed="#C" n="94"/>aeris habet esse intentionale in ipso.
+        E<lb ed="#C" n="95" break="no"/>ideo dicendum, quod aliqua accidem 
+        <lb ed="#C" n="96"/>tia dicuntur acquisita, aliqua inffusa, 
+        <lb ed="#C" n="97"/>aliqua de potentia materiae educta. Non 
+        <lb ed="#C" n="98"/>enim dicitur quod omnia accidentia 
+        <lb ed="#C" n="99"/>quae sunt in aliquo oriantur ex 
+        princi<lb ed="#C" n="100" break="no"/>pijs eius; sed materia subiecta cum 
+        for<lb ed="#C" n="101" break="no"/>ma est causa omnium accidentium, que 
+        <lb ed="#C" n="102"/>fiunt in ea, propter quod ex ipso modo 
+        <lb ed="#C" n="103"/>loquendi habetur quod loquitur de 
+        ac<lb ed="#C" n="104" break="no"/>cidentibus de potentia materiae 
+        edu<lb ed="#C" n="105" break="no"/>ctis: sed de charitate, cum sit accidens 
+        <lb ed="#C" n="106"/>a Deo inffusum, non habet locum quod 
+        <lb ed="#C" n="107"/>dicitur. Vel dicendum, quod eo ipso, 
+        <lb ed="#C" n="108"/>quod subiectum subsistit accidenti est 
+        <lb ed="#C" n="109"/>aliquo modo causa eius, propter quod 
+        <lb ed="#C" n="110"/>anima est in aliquo genere causae causa 
+        <lb ed="#C" n="111"/>charitatis: quia in genere causae 
+        mate<lb ed="#C" n="112" break="no"/>rialis, licet ex principijs eius non oriatur.  
+        <!--364.xml-->
+        <pb ed="#C" n="327"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Ad 3. dicendum, quod accidens non 
+        <lb ed="#C" n="2"/>extendit se extra subiectum suum in 
+        <lb ed="#C" n="3"/>aliud ut in subiectum; tamen, 
+        exten<lb ed="#C" n="4" break="no"/>dit se in aliud ut in obiectum, sicut 
+        vi<lb ed="#C" n="5" break="no"/>demus calidum per calorem aliud 
+        ca<lb ed="#C" n="6" break="no"/>lefacere, isto modo se extendit charitas: 
+        <lb ed="#C" n="7"/>quia habens charitatem per eam alium 
+        <lb ed="#C" n="8"/>diligit.  
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e661">
+                  <lb ed="#C" n="9"/>Ad illud autem quod ulterius 
+        quae<lb ed="#C" n="10" break="no"/>ritur: in quo praedicamento sit 
+        chari<lb ed="#C" n="11" break="no"/>tas? Dicendum, quod charitas, sicut  
+        <lb ed="#C" n="12"/>quaelibet virtus, habet duplicem 
+        com<lb ed="#C" n="13" break="no"/>parationem, unam respectu subiecti, in 
+        <lb ed="#C" n="14"/>quo est, aliam respectu obiecti, in quod 
+        <lb ed="#C" n="15"/>tendit: respectu subiecti habet rationem 
+        <lb ed="#C" n="16"/>qualis: respectu obiecti induit ratione 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e681">
+                  <lb ed="#C" n="17"/>quanti. Vnde dicimus, quod tanta vir 
+        <lb ed="#C" n="18"/>tus in tantum obiectum, &amp; ex eo quod 
+        <lb ed="#C" n="19"/>sic habet aliquo modo rationem 
+        quan<lb ed="#C" n="20" break="no"/>ti, competit ei magis &amp; minus; tamen 
+        <lb ed="#C" n="21"/>quia quantitas de huiusmodi &amp; de alijs 
+        <lb ed="#C" n="22"/>non dicitur eodem modo, non est 
+        con<lb ed="#C" n="23" break="no"/>cedendum talia esse in praedicamento 
+        <lb ed="#C" n="24"/>quantitatis, sed simpliciter sunt in 
+        prae<lb ed="#C" n="25" break="no"/>dicamento qualitatis. Hoc autem sic 
+        <lb ed="#C" n="26"/>declaratur: quia in praedicamento non 
+        <lb ed="#C" n="27"/>sunt nisi talia, quae sunt secundum esse 
+        <lb ed="#C" n="28"/>ideo non sunt in predicamento relatio 
+        <lb ed="#C" n="29"/>nis, nisi quae sunt relativa secundum 
+        <lb ed="#C" n="30"/>esse. Quibus autem competit aliqui 
+        <lb ed="#C" n="31"/>modus respectivus secundum verita 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e716">
+                  <lb ed="#C" n="32"/>tem esse possunt in alijs praedicamentis: 
+        <lb ed="#C" n="33"/>unde scientia secundum rei veritatem 
+        <lb ed="#C" n="34"/>est qualitas non obstante, quod 
+        refera<lb ed="#C" n="35" break="no"/>tur ad scibile, &amp; sicut quae non sunt in 
+        <lb ed="#C" n="36"/>praedicamento relationis induunt 
+        quen<lb ed="#C" n="37" break="no"/>dam modum respectivum, ita quae non 
+        <lb ed="#C" n="38"/>sunt in praedicamento qualitatis induunt 
+        <lb ed="#C" n="39"/>quemdam modum qualem: unde for 
+        <lb ed="#C" n="40"/>ma substantialis, quae secundum rei 
+        <lb ed="#C" n="41"/>veritatem est in praedicamento substan 
+        <lb ed="#C" n="42"/>tiae, induit tamen quemdam modum 
+        <lb ed="#C" n="43"/>qualem: propter quod differentia 
+        <lb ed="#C" n="44"/>substantiae quale quid dicitur, ut aitO 
+        <lb ed="#C" n="45"/>Philosophus 5. Metaph. cap. de qualitate. Et 
+        si<lb ed="#C" n="46" break="no"/>cut est in relatione &amp; qualitate, sic est, 
+        <lb ed="#C" n="47"/>in quantitate. Nam ea, quae sunt, in 
+        <lb ed="#C" n="48"/>alijs praedicamentis, a predicamente 
+        <lb ed="#C" n="49"/>quanti possunt induere quemdam 
+        <lb ed="#C" n="50"/>quantitatis modum: propter quod de 
+        <lb ed="#C" n="51"/>eis aequale &amp; inaequale dici potest. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e762">
+                  <lb ed="#C" n="52"/>Propter hoc ddm, quod charitas, 
+        <lb ed="#C" n="53"/>cum sit virtus;, vere, &amp; proprie est in 
+        <lb ed="#C" n="54"/>praedicamento qualitatis; induit tamem 
+        <lb ed="#C" n="55"/>quemdam modum quanti, sicut 
+        <lb ed="#C" n="56"/>scientia induit modum respectivum, 
+        <!--364.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>&amp; differentia substantiae modum 
+        qua<lb ed="#C" n="58" break="no"/>lem. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e784">
+                  <lb ed="#C" n="59"/>Ad id autem, quod obiicitur, quod  
+        <lb ed="#C" n="60"/>proprium est quantitati secundum eam 
+        <lb ed="#C" n="61"/>aequale &amp; inaequale dici. Dicendum, 
+        <lb ed="#C" n="62"/>quod sicut 1. &amp; per se competit 
+        calidi<lb ed="#C" n="63" break="no"/>tas igni; non tamen quidquid est 
+        cali<lb ed="#C" n="64" break="no"/>dum est ignis, sed vel est ignis, vel 
+        ig<lb ed="#C" n="65" break="no"/>nis naturam participat: ita, aequale &amp; 
+        <lb ed="#C" n="66"/>inaequale per se &amp; 1. reperitur in 
+        qua<lb ed="#C" n="67" break="no"/>titate; non tamen quidqe ud est 
+        aequa<lb ed="#C" n="68" break="no"/>le vel inaequale est directe in 
+        praedica<lb ed="#C" n="69" break="no"/>mento quantitatis, sed vel eit in 
+        prae<lb ed="#C" n="70" break="no"/>dicamento quantitatis, vel induit 
+        ali<lb ed="#C" n="71" break="no"/>quem modum quanti: propter  
+        <lb ed="#C" n="72"/>quod charitas potest dici maior aibijs; 
+        <lb ed="#C" n="73"/>non quia sit in praedicamento 
+        quan<lb ed="#C" n="74" break="no"/>titatis, sed quia competit ei aliquis 
+        <lb ed="#C" n="75"/>modus quanti, ut patuit.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e87108-Dd1e824">
+               <head xml:id="Gi9qrR-e87108-Hd1e826">Articulus 2</head>
+               <p xml:id="Gi9qrR-e87108-d1e829">
+                  <lb ed="#C" n="76"/>ARTICVLVS II. 
+        <lb ed="#C" n="77"/>Vtrum mensura charitatis attendatur secun¬ 
+        <lb ed="#C" n="78"/>dum meliora, vel perora na¬ 
+        <lb ed="#C" n="79"/>turalia? 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e840">
+                  <lb ed="#C" n="80"/>SEcundo quaeritur de mensura 
+        cha<lb ed="#C" n="81" break="no"/>ritatis, utrum infundatur, vel men 
+        <lb ed="#C" n="82"/>suram recipiat secundum maiora, vel  
+        <lb ed="#C" n="83"/>meliora naturalia?
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e851">
+        Et videtur quod 
+        <lb ed="#C" n="84"/>sic: quia quaelibet forma de se est indi¬ 
+        <lb ed="#C" n="85"/>visa, &amp; de se non suscipit magis &amp; 
+        mi<lb ed="#C" n="86" break="no"/>nus nisi ratione sublecti, in quo est: 
+        <lb ed="#C" n="87"/>unde non dicitur una albedo magis 
+        al<lb ed="#C" n="88" break="no"/>bedo, quam alia, sed unum album 
+        <lb ed="#C" n="89"/>dicitur alio magis album:: cum ergo 
+        <lb ed="#C" n="90"/>gratia, &amp; charitas sint in naturalibus 
+        <lb ed="#C" n="91"/>tanquam in subiecto, secundum me 
+        <lb ed="#C" n="92"/>liora naturalia amplior infundetur 
+        cha<lb ed="#C" n="93" break="no"/>ritas.
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e875">
+        Praeterea: Deus sic agit 
+        secun<lb ed="#C" n="94" break="no"/>dum quod res sunt aptae natae agi; sed  
+        <lb ed="#C" n="95"/>secundum meliora naturalia habet 
+        ali<lb ed="#C" n="96" break="no"/>quis aptitudinem ad maiorem 
+        charita<lb ed="#C" n="97" break="no"/>Angeli, qui sunt superioris ordinis, 
+        ha<lb ed="#C" n="98" break="no"/>bent ampliorem gratiam, quam alij: 
+        <lb ed="#C" n="99"/>eo quod habent ampliorem gloriam; 
+        <lb ed="#C" n="100"/>sed eo ipso quod sunt superiores sunt, 
+        <lb ed="#C" n="101"/>subtiliores in natura: ergo Angelis 
+        se<lb ed="#C" n="102" break="no"/>cundum melioria naturalia fuit tributa 
+        <lb ed="#C" n="103"/>gratia amplior, &amp; amplior charitas; sed  
+        <lb ed="#C" n="104"/>secundum eandem rationem videtur 
+        <lb ed="#C" n="105"/>inveniri charitas in hominibus &amp; 
+        An<lb ed="#C" n="106" break="no"/>tem, vel gratiam, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e907">
+        Praeterea: 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e910">
+                  <lb ed="#C" n="107"/>gelis, cum in eundem finem 
+        ordinen<lb ed="#C" n="108" break="no"/>tur, ergo hominibus secundum 
+        melio<lb ed="#C" n="109" break="no"/>ta naturalia datur amplior charitas vel 
+        <!--365.xml-->
+        <pb ed="#C" n="328"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>gratia.
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e928">
+        Praeterea: sicut gloria praesup 
+        <lb ed="#C" n="2"/>ponit gratiam, sic gratia praesupponit 
+        <lb ed="#C" n="3"/>naturam; sed secundum ampliorem 
+        <lb ed="#C" n="4"/>gratiam datur amplior gloria, ergo 
+        <lb ed="#C" n="5"/>secundum meliona naturalia datur 
+        <lb ed="#C" n="6"/>amplior gratia, sed cui datur amplios 
+        <lb ed="#C" n="7"/>gratia, datur amplior charitas, ergo 
+        <lb ed="#C" n="8"/>modus charitatis infusae sequitur 
+        mo<lb ed="#C" n="9" break="no"/>dum &amp; mensuram naturalium. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e948">
+                  <lb ed="#C" n="10"/>In contrarium est: quia videmus 
+        <lb ed="#C" n="11"/>quosdam melioris in genij alijs &amp; 
+        me<lb ed="#C" n="12" break="no"/>lioris complexionis deteriores esse illis, 
+        <lb ed="#C" n="13"/>Praeterea: homines assumentur ad 
+        glo<lb ed="#C" n="14" break="no"/>riam Angelorum, sed secundum 
+        na<lb ed="#C" n="15" break="no"/>turam quilibet Angelus praecellit 
+        ho<lb ed="#C" n="16" break="no"/>minem: eo quod anima humana 
+        te<lb ed="#C" n="17" break="no"/>net infimum gradum in genere 
+        intelli<lb ed="#C" n="18" break="no"/>gentiarum; sed hoc non esset, si 
+        men<lb ed="#C" n="19" break="no"/>suraretur gratia, vel charitas secundum 
+        <lb ed="#C" n="20"/>mensuram naturalium. ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e974">
+                  <lb ed="#C" n="21"/>RESOLVTIO 
+        <lb ed="#C" n="22"/>Mensura charitatis non attenditur secundum 
+        <lb ed="#C" n="23"/>oneliora naturalia, sed secundum proportionem co 
+        <lb ed="#C" n="24"/>enatus ad bonitatem naturalium maior gratia datus 
+        <lb ed="#C" n="25"/>hominibus. in quibus ad gratiae susceptionem re¬ 
+        <lb ed="#C" n="26"/>quiritur motus liberi arbitrij. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e990">
+                  <lb ed="#C" n="27"/>REspond. dicendum, quod 
+        secun<lb ed="#C" n="28" break="no"/>dum Philosophum in principio Ethic 
+        <lb ed="#C" n="29"/>bene enuntiaverunt phi dicentes: 
+        bo<lb ed="#C" n="30" break="no"/>num est, quod omnia appetunt. Et 
+        <lb ed="#C" n="31"/>4. de Divin. nom. scribitur: Nullus 
+        as<lb ed="#C" n="32" break="no"/>piciens ad malum agit: &amp; quia tendere in 
+        <lb ed="#C" n="33"/>bonum est commune omni 
+        appetitui<lb ed="#C" n="34" break="no"/>cum illud sit naturale, quod est idem 
+        <lb ed="#C" n="35"/>apud omnes, per se loquendo, quantem 
+        <lb ed="#C" n="36"/>aliquid habet meliorem naturam, 
+        ma<lb ed="#C" n="37" break="no"/>gis tendit in bonum, &amp; est capacius in 
+        <lb ed="#C" n="38"/>suscipiendo bonitatem: quod si sic 
+        di<lb ed="#C" n="39" break="no"/>cimus, secundum meliora naturalia se 
+        <lb ed="#C" n="40"/>qui videtur, quod homo suscipiat ma 
+        <lb ed="#C" n="41"/>iorem gratiam: sed quod non ita se 
+        <lb ed="#C" n="42"/>habeat dupliciter impeditur. Nam cum 
+        <lb ed="#C" n="43"/>ex naturali appetitu arguamus habens 
+        <lb ed="#C" n="44"/>meliora naturalia tendere in maius bo 
+        <lb ed="#C" n="45"/>num, si propositio veritatem habere 
+        <lb ed="#C" n="46"/>debet, oportet illud bonum non 
+        ex<lb ed="#C" n="47" break="no"/>cedere facultatem naturae, &amp; quod 
+        <lb ed="#C" n="48"/>tendens in ipsum naturaliter tendat, &amp; 
+        <lb ed="#C" n="49"/>quia gratia est bonum excedens naturae 
+        <lb ed="#C" n="50"/>facultatem, non semper secundum 
+        <lb ed="#C" n="51"/>meliora naturalia datur amplior gratia 
+        <lb ed="#C" n="52"/>sed aliquando secundum voluntatem. 
+        <lb ed="#C" n="53"/>&amp; praeordinationem infundentis 
+        gra<lb ed="#C" n="54" break="no"/>tiam efficitur in aliquo maior, &amp; mi¬ 
+        <!--365.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>nor capacitas ad capiendum gratiam. 
+        <lb ed="#C" n="56"/>Rursum: quia non omnes, qui 
+        ten<lb ed="#C" n="57" break="no"/>dunt in bonum, tendunt in ipsum 
+        na<lb ed="#C" n="58" break="no"/>turaliter: cum aliqui vitiose vivant, &amp; 
+        <lb ed="#C" n="59"/>vitium sit contra naturam iuxta illud 
+        <lb ed="#C" n="60"/>Aug. 3. de Libero arbitrio: Ideo vitium 
+        <lb ed="#C" n="61"/>est quia contra naturam est, secundum 
+        me<lb ed="#C" n="62" break="no"/>liora naturalia non oportet aliquos 
+        ada<lb ed="#C" n="63" break="no"/>pisci maiorem gratiam. Propter 
+        pri<lb ed="#C" n="64" break="no"/>mum non oportet quemlibet Angelum, 
+        <lb ed="#C" n="65"/>omnem hominem secundum gratiam 
+        <lb ed="#C" n="66"/>superare, licet quaelibet natura Angeli 
+        <lb ed="#C" n="67"/>natura cuiuslibet hominis, per se 
+        lo<lb ed="#C" n="68" break="no"/>quendo, sit potior. Propter 2. non est 
+        <lb ed="#C" n="69"/>necessarium homines melioris comple 
+        <lb ed="#C" n="70"/>xionis, &amp; excellentioris in genij habere 
+        <lb ed="#C" n="71"/>ampliorem gratiam alijs: eo quod 
+        vi<lb ed="#C" n="72" break="no"/>tam pecudum eligentes non sequuntur 
+        <lb ed="#C" n="73"/>bonum secundum rationem. Vt tame 
+        <lb ed="#C" n="74"/>appareat secudum quid hominibus 
+        in<lb ed="#C" n="75" break="no"/>funditur amplior gratia, notandum 
+        <lb ed="#C" n="76"/>quod licet per se semper aliquis tendat 
+        <lb ed="#C" n="77"/>in bonum; tamen quia secundum 
+        Philosophu<lb ed="#C" n="78" break="no"/>non refert quod appetitur esse bonum 
+        <lb ed="#C" n="79"/>vel apparens bonum, per accidens 
+        im<lb ed="#C" n="80" break="no"/>peditur, ne aliquis in id, quod est 
+        ve<lb ed="#C" n="81" break="no"/>re bonum, feratur. Illud autem per 
+        ac<lb ed="#C" n="82" break="no"/>cidens ex hoc contingit: quia habens 
+        <lb ed="#C" n="83"/>cognitionem sensitivam non semper 
+        <lb ed="#C" n="84"/>fertur in bonum secundum rationem, 
+        <lb ed="#C" n="85"/>sed aliquando fertur in bonam 
+        secun<lb ed="#C" n="86" break="no"/>dum sensum: sed secundum Philosophum 12. 
+        <lb ed="#C" n="87"/>Metaph. bonum secundum intellectum 
+        <lb ed="#C" n="88"/>est vere bonum, secundum sensum est 
+        <lb ed="#C" n="89"/>bonum ut videtur: &amp; ideo propter  
+        <lb ed="#C" n="90"/>cognitionem sensitivam non semper 
+        <lb ed="#C" n="91"/>fertur homo in bonum simpliciter, sed  
+        <lb ed="#C" n="92"/>aliquando in bonum apparens. Sensus 
+        <lb ed="#C" n="93"/>autem dupliciter est causa huius: uno 
+        <lb ed="#C" n="94"/>modo quia movet in contrarium: alio 
+        <lb ed="#C" n="95"/>modo: quia impedit, &amp; retardat. 
+        Prop<lb ed="#C" n="96" break="no"/>ter 1. legitur ad Rom. 7. Video aliam 
+        le<lb ed="#C" n="97" break="no"/>gem in membris meis repugnantem legi 
+        menti<lb ed="#C" n="98" break="no"/>meae, &amp; captivum me ducentem inlegem 
+        pec<lb ed="#C" n="99" break="no"/>cati. Et in 3. de Anima dicitur: quod 
+        <lb ed="#C" n="100"/>in nobis sunt appetitus contrarij, hoc  
+        <lb ed="#C" n="101"/>autem est: quia habemus motores 
+        con<lb ed="#C" n="102" break="no"/>trarios, rationem, &amp; sensum. 2. impe 
+        <lb ed="#C" n="103"/>pedit sensus: quia retardat, &amp; retrahit: 
+        <lb ed="#C" n="104"/>&amp; ideo videmus homines intime 
+        specu<lb ed="#C" n="105" break="no"/>lantes a sensibus esse aversos, &amp; 
+        sensi<lb ed="#C" n="106" break="no"/>bus deditos non intime speculari: &amp; 
+        <lb ed="#C" n="107"/>quia in Angelis non est cognitio 
+        secun<lb ed="#C" n="108" break="no"/>dum sensum, sed in eis est iidem 
+        intel<lb ed="#C" n="109" break="no"/>lectum, &amp; desideratum, ut dicitur 12 
+        <lb ed="#C" n="110"/>Metaph. ex eo quod carent cognitione 
+        <!--366.xml-->
+        <pb ed="#C" n="329"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>sensitiva, non potuerunt decipi in cog 
+        <lb ed="#C" n="2"/>nitionem, quin appeterent bonum 
+        sim<lb ed="#C" n="3" break="no"/>pliciter propter sensum moventem 
+        <lb ed="#C" n="4"/>in contrarium, &amp; quin toto conatu 
+        <lb ed="#C" n="5"/>ferrentur in bonum propter sensum 
+        re<lb ed="#C" n="6" break="no"/>tardantem: &amp; ideo secundum quod 
+        <lb ed="#C" n="7"/>habuerunt meliora naturalia susceperunt 
+        <lb ed="#C" n="8"/>maiorem gratiam, vel maiorem 
+        dam<lb ed="#C" n="9" break="no"/>nationem, quantum ad eos qui 
+        pecca<lb ed="#C" n="10" break="no"/>verunt; in hominibus autem hoc non 
+        <lb ed="#C" n="11"/>oportet: quia aliquando illi, qui habent  
+        <lb ed="#C" n="12"/>naturalia meliora, propter 
+        insecutio<lb ed="#C" n="13" break="no"/>nem passionum minus conatur ad gra¬ 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e1215">
+                  <lb ed="#C" n="14"/>tiam capiendam. Ideo cum quaeritur 
+        <lb ed="#C" n="15"/>secundum quid datur maior gratia 
+        ho<lb ed="#C" n="16" break="no"/>minibus, non debemus dicere, quod 
+        <lb ed="#C" n="17"/>secundum meliora naturalia: quia 
+        ali<lb ed="#C" n="18" break="no"/>quando tales minus conantur: nec 
+        de<lb ed="#C" n="19" break="no"/>bemus dicere quod secundum 
+        maio<lb ed="#C" n="20" break="no"/>rem conatum: quia cum minori 
+        cona<lb ed="#C" n="21" break="no"/>tu plus se disponit ad susceptionem 
+        <lb ed="#C" n="22"/>gratiae, qui habet meliora naturalia 
+        <lb ed="#C" n="23"/>quam habens peiora cum maiori: sicut  
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e1239">
+                  <lb ed="#C" n="24"/>quaereretur secundum quid aliquid 
+        <lb ed="#C" n="25"/>portat maius pondus, non esset bene 
+        di<lb ed="#C" n="26" break="no"/>ctum quod secundum maiores vires: 
+        <lb ed="#C" n="27"/>quia aliquando magis virosus minus 
+        <lb ed="#C" n="28"/>portat, quia minus conatur: nec secudum 
+        <lb ed="#C" n="29"/>maiorem conatum hoc existit: quia 
+        <lb ed="#C" n="30"/>cum minori conatu magis virosus 
+        ma<lb ed="#C" n="31" break="no"/>gis portat, quam debilior cum 
+        maio<lb ed="#C" n="32" break="no"/>ri. Sed si sunt pares in viribus, qui plus 
+        <lb ed="#C" n="33"/>conatur, plus portat: si sunt pares in 
+        <lb ed="#C" n="34"/>conatu, virosior magis portat. Sic si 
+        <lb ed="#C" n="35"/>sunt pares aliqui in naturalibus, qui  
+        <lb ed="#C" n="36"/>plus conatur, plus de gratia suscipit: si 
+        <lb ed="#C" n="37"/>sunt pares in conatu, qui meliora 
+        na<lb ed="#C" n="38" break="no"/>turalia habet, magis recipit. Igitur 
+        se<lb ed="#C" n="39" break="no"/>cundum proportionem conatus ad 
+        bo<lb ed="#C" n="40" break="no"/>nitatem naturalium est maior &amp; 
+        mi<lb ed="#C" n="41" break="no"/>nor susceptio gratiae: &amp; hoc potissime 
+        <lb ed="#C" n="42"/>prout ad susceptionem gratiae 
+        requiti<lb ed="#C" n="43" break="no"/>tur motus liberi arbitrij, 
+        <lb ed="#C" n="44"/>Nam in infusione gratiae parvulo¬D 
+        <lb ed="#C" n="45"/>rum maioritas &amp; minoritas attenditur,  
+        <lb ed="#C" n="46"/>si est ibi maius &amp; minus, solum 
+        secun<lb ed="#C" n="47" break="no"/>dum beneplacitum infundentis, licet  
+        <lb ed="#C" n="48"/>ad huiusmodi maioritatem aliquo 
+        mo<lb ed="#C" n="49" break="no"/>do valeant orationes parentum, &amp; 
+        alio<lb ed="#C" n="50" break="no"/>rum, qui ad Dominum pro pueris 
+        in<lb ed="#C" n="51" break="no"/>tercedunt. 
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e1302">
+                  <lb ed="#C" n="52"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="53" break="no"/>cendum, quod nisi cum bonis 
+        natura<lb ed="#C" n="54" break="no"/>libus adsit conatus, homo non suscipit 
+        <lb ed="#C" n="55"/>gratiam: &amp; quia naturalia non sunt,  
+        <lb ed="#C" n="56"/>simpliciter ea, in quibus fundantur gra¬ 
+        <!--366.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>tuita, nisi ut conatui sunt coniuncta, 
+        <lb ed="#C" n="58"/>habens meliora naturalia suscipit mino 
+        <lb ed="#C" n="59"/>rem gratiam: quia minus conatur, 
+        <lb ed="#C" n="60"/>Ad 2. dicendum, quod secundum 
+        me<lb ed="#C" n="61" break="no"/>liora naturalia habet homo maiorem 
+        <lb ed="#C" n="62"/>aptitudinem remotam: &amp; quia non 
+        <lb ed="#C" n="63"/>sufficit talis aptitudo sine conatu: ideo 
+        <lb ed="#C" n="64"/>non semper est maior susceptio gratiae, 
+        <lb ed="#C" n="65"/>secundum meliora naturalia.
+      </p>
+               <p xml:id="Gi9qrR-e87108-d1e1339">
+        Ad 3. 
+        di<lb ed="#C" n="66" break="no"/>cendum, quod, ut patuit, non est 
+        simi<lb ed="#C" n="67" break="no"/>le de Angelis, &amp; de hominibus: quia 
+        <lb ed="#C" n="68"/>Angeli secundum meliora naturalia 
+        <lb ed="#C" n="69"/>maiori conatu feruntur in bonum: quia 
+        <lb ed="#C" n="70"/>non habent sensum moventem in 
+        con<lb ed="#C" n="71" break="no"/>trarium, nec retardantem, ut patuit,  
+        <lb ed="#C" n="72"/>Ad 4. dicendum, quod gratia est 
+        im<lb ed="#C" n="73" break="no"/>mediata dispositio ad susceptionem 
+        <lb ed="#C" n="74"/>gloriae; sed non est sic natura ad 
+        suscep<lb ed="#C" n="75" break="no"/>tionem gratiae, nisi cum natura adsit 
+        <lb ed="#C" n="76"/>conatus: ideo non est simile hic, &amp; 
+        <lb ed="#C" n="77"/>ibi: &amp; secundum istum modum est 
+        in<lb ed="#C" n="78" break="no"/>telligendum, quod dicitur Matth. 15. 
+        <lb ed="#C" n="79"/>Vnicuique d. dit secundum propriam virtutem. 
+        <lb ed="#C" n="80"/>quod virtus ibi accipiatur non solum, 
+        <lb ed="#C" n="81"/>natura, sed prout naturae additur 
+        co<lb ed="#C" n="82" break="no"/>natus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

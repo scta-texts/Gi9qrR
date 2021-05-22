@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="770"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g01004"><!-- l1-d40expolit -->
+            <head xml:id="Gi9qrR-g01004-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-g01004-d1e111">
+               <lb ed="#C" n="68"/>ExPOSITIO LITTERAE. 
+    </p>
+            <p xml:id="Gi9qrR-g01004-d1e116">
+               <lb ed="#C" n="69"/>Vper litteram, super illo: In 
+      elligen<lb ed="#C" n="70" break="no"/>Stia enim conditionis implicitae veritatem 
+      <lb ed="#C" n="71"/>facit in dicto, &amp; impossibilitatem facit in vero. 
+      <lb ed="#C" n="72"/>Notandum, hoc pro tanto dictum esse: 
+      <lb ed="#C" n="73"/>quia quilibet homo in se consideratus 
+      <lb ed="#C" n="74"/>potest damnari: si tamen referatur in 
+      <lb ed="#C" n="75"/>Divinam praedestinationem, ratione hu 
+      <lb ed="#C" n="76"/>iusmodi conditionis adiectae, ut Sortes 
+      <lb ed="#C" n="77"/>in eo quod praedestinatus, est veritas in 
+      <lb ed="#C" n="78"/>dicto, ut verum sit ipsum sic acceptum 
+      <lb ed="#C" n="79"/>non posse damnari: unde sit etiam ibi 
+      <lb ed="#C" n="80"/>impossibilitas in vero: quia cum ipse in 
+      <lb ed="#C" n="81"/>se consideratus verum sit, quod possit 
+      <lb ed="#C" n="82"/>damnari: in hoc vero ratione 
+      condi<lb ed="#C" n="83" break="no"/>tionis additae fit quaedam impossibilitas 
+      <lb ed="#C" n="84"/>quia impossibile est eum in eo quod 
+      <lb ed="#C" n="85"/>praedestinatum posse damnari. 
+    </p>
+            <p xml:id="Gi9qrR-g01004-d1e155">
+               <lb ed="#C" n="86"/>Item super illo: Sed alterum horum non 
+      <lb ed="#C" n="87"/>potest non esse, scilicet quin ille sit 
+      praedesti<lb ed="#C" n="88" break="no"/>natus ab aeterno. Notandum, quod licet  
+      <lb ed="#C" n="89"/>ille sit praedestinatus ab aeterno: non 
+      ta<lb ed="#C" n="90" break="no"/>men supervacua est distinctio Magistri: 
+      <lb ed="#C" n="91"/>quia opera, quae facit, secundum quae 
+      <lb ed="#C" n="92"/>salutem consequitur, possunt referri in 
+      <lb ed="#C" n="93"/>voluntatem liberam, vel in 
+      praedestina<lb ed="#C" n="94" break="no"/>tionem Divinam: &amp; si referantur in 
+      vo<lb ed="#C" n="95" break="no"/>luntatem, salvatur contingenter: si vero 
+      <lb ed="#C" n="96"/>in Divinam praedestinationem, salvatur  
+      <lb ed="#C" n="97"/>necessario, modo quo dictum est: &amp; 
+      <lb ed="#C" n="98"/>ideo in sensu composito est falsa, quod  
+      <lb ed="#C" n="99"/>ille praedestinatus possit damnari: in sen 
+      <lb ed="#C" n="100"/>su diviso, ut cum non referuntur operam, 
+      <lb ed="#C" n="101"/>quae facit, in Divinam praedestinationens 
+      <lb ed="#C" n="102"/>sed in voluntatem, a qua egrediuntur,  
+      <lb ed="#C" n="103"/>damnari potest. 
+    </p>
+            <p xml:id="Gi9qrR-g01004-d1e197">
+               <lb ed="#C" n="104"/>Item super illo: Quod in actionibus 
+      <lb ed="#C" n="105"/>vel in operationibus Dei &amp; hominum 
+      nulla<lb ed="#C" n="106" break="no"/>tenus concedunt. Notandum, quod 
+      dici<lb ed="#C" n="107" break="no"/>tur Deus nunc posse praedestinare; &amp; 
+      <lb ed="#C" n="108"/>non praedestinare: sicut placuit ab 
+      aeter<lb ed="#C" n="109" break="no"/>no praedestinasse; &amp; non praedestinasse: 
+      <!--796.xml-->
+      <pb ed="#C" n="771"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>quia praedestinatio Divina mensuratur,  
+      <lb ed="#C" n="2"/>aeternitate: in aeternitate vero omnia 
+      <lb ed="#C" n="3"/>sunt praesentia, nihil transit in 
+      praeteri<lb ed="#C" n="4" break="no"/>tum: &amp; ideo sicut ab aeterno potuit 
+      <lb ed="#C" n="5"/>praedestinasse; &amp; non praedestinasse: sic 
+      <lb ed="#C" n="6"/>praeteritio non impedit, quin modo 
+      <lb ed="#C" n="7"/>possit praedestinare; &amp; non 
+      praedestina<lb ed="#C" n="8" break="no"/>re: &amp; quod dictum est de 
+      praedestina<lb ed="#C" n="9" break="no"/>tione, intelligendum est de 
+      praescien<lb ed="#C" n="10" break="no"/>tia, &amp; de omnibus operibus, quae sunt,  
+      <lb ed="#C" n="11"/>opera Divina tantum, non transcuntia 
+      <lb ed="#C" n="12"/>in exteriorem materiam: sed talia in 
+      <lb ed="#C" n="13"/>his, quae Deus operatur per hominem, 
+      <lb ed="#C" n="14"/>vel per creaturam, quae opera Magi¬ 
+      <!--796.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="15"/>ster appellat opera Dei &amp; hominis, non 
+      <lb ed="#C" n="16"/>conceduntur: quia in eis praeteritio 
+      im<lb ed="#C" n="17" break="no"/>pedit, ut quod factum est, non potest 
+      <lb ed="#C" n="18"/>fieri; &amp; non fieri: vel esse factum; &amp; non 
+      <lb ed="#C" n="19"/>factum: cum talia possint tempore 
+      <lb ed="#C" n="20"/>mensurari. 
+    </p>
+            <p xml:id="Gi9qrR-g01004-d1e268">
+               <lb ed="#C" n="21"/>Item super illo: Ita reprobationis 
+      aeter<lb ed="#C" n="22" break="no"/>nae quod ammodo effectus esse videtur 
+      obdura<lb ed="#C" n="23" break="no"/>tio. Notandum, quod Deus simpliciter  
+      <lb ed="#C" n="24"/>non obdurat; sed quodammodo 
+      dici<lb ed="#C" n="25" break="no"/>tur enim obdurare vel indurare non 
+      <lb ed="#C" n="26"/>infundendo culpam, sed non 
+      infun<lb ed="#C" n="27" break="no"/>dendo gratiam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

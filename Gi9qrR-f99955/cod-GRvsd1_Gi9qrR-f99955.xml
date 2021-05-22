@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="766"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f99955"><!-- l1-d40q3 -->
+            <head xml:id="Gi9qrR-f99955-Hd1e108">Quaestio 3</head>
+            <p xml:id="Gi9qrR-f99955-d1e111">
+      <!--791.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="51"/>SET QVAESTIO II. SBS: 
+      <lb ed="#C" n="52"/>De reprobatione. 
+    </p>
+            <p xml:id="Gi9qrR-f99955-d1e122">
+               <lb ed="#C" n="53"/>Einde quaeritur de reprobatio¬ 
+      <lb ed="#C" n="54"/>ne. Et circa hoc quaeruntur  
+      <lb ed="#C" n="55"/>R duo. Primo: quid sit? Secundo: 
+      <lb ed="#C" n="56"/>utrum Deo coveniat aliquos 
+      <lb ed="#C" n="57"/>reprobare: 
+    </p>
+            <div xml:id="Gi9qrR-f99955-Dd1e135">
+               <head xml:id="Gi9qrR-f99955-Hd1e137">Articulus 1</head>
+               <p xml:id="Gi9qrR-f99955-d1e140">
+                  <lb ed="#C" n="58"/>ARTICVLVS I. 
+        <lb ed="#C" n="59"/>Vtrum reprobatio addat aliquid supra Di¬ 
+        <lb ed="#C" n="60"/>vinam praescientiam?
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e149">
+                  <lb ed="#C" n="61"/>AD 1. sic proceditur: videtur, quod  
+        <lb ed="#C" n="62"/>reprobatio nihil addat supra 
+        prae<lb ed="#C" n="63" break="no"/>scientiam: quia secundum <name xml:id="Gi9qrR-f99955-Nd1e157" ref="#Augustine">Aug.</name> in de 
+        <lb ed="#C" n="64"/>Praedestinatione sanctorum: Deus 
+        bona<lb ed="#C" n="65" break="no"/>praescit, &amp; praedestinat, sed mala tantum 
+        <lb ed="#C" n="66"/>praescit, &amp; non predestinat, ergo 
+        repro<lb ed="#C" n="67" break="no"/>batio, quae attenditur respectu malorum, 
+        <lb ed="#C" n="68"/>nihil supra praescientiam addit: quia 
+        <lb ed="#C" n="69"/>Deus mala solum praescit.
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e174">
+        Praeterea: Deus 
+        <lb ed="#C" n="70"/>mala cognoscit simplici notitia, sed  
+        <lb ed="#C" n="71"/>quae simplici notitia cognoscuntur, sunt, 
+        <lb ed="#C" n="72"/>solum praescita, ergo reprobatio 
+        ni<lb ed="#C" n="73" break="no"/>hil supra scientiam addit.
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e185">
+        Praeterea: quando 
+        <lb ed="#C" n="74"/>aliquid retinet sibi nomem conmune, 
+        supra<lb ed="#C" n="75" break="no"/>illud nihil videtur addere: quia si 
+        adde<lb ed="#C" n="76" break="no"/>ret, ratione additionis nomen speciale 
+        <lb ed="#C" n="77"/>retineret; sed communi nomine 
+        dam<lb ed="#C" n="78" break="no"/>nati, vel reprobati dicuntur praesciti, 
+        <lb ed="#C" n="79"/>ergo reprobatio supra praescientiam 
+        ni<lb ed="#C" n="80" break="no"/>hil addit.
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e204">
+        Praeterea: si reprobatio 
+        supra<lb ed="#C" n="81" break="no"/>praescientiam aliquid addit, huiusmodi 
+        <lb ed="#C" n="82"/>additio aliquis ordo erit; sed secundum 
+        <lb ed="#C" n="83"/>Aug. in de Predestinatione sanctorum, 
+        <lb ed="#C" n="84"/>opera impietatis, &amp; mortis Deus 
+        praesci<lb ed="#C" n="85" break="no"/>vit, non praeordinavit, nec impulit: 
+        ni<lb ed="#C" n="86" break="no"/>hil ergo reprobatio, quae respicit 
+        ope<lb ed="#C" n="87" break="no"/>ra impietatis, videtur addere supra 
+        pre<lb ed="#C" n="88" break="no"/>scientiam. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e224">
+                  <lb ed="#C" n="89"/>In contrarium est: quia semper 
+        spe<lb ed="#C" n="90" break="no"/>ciale se videtur habere per additionem 
+        <lb ed="#C" n="91"/>ad id, quod est commune; sed 
+        praesci<lb ed="#C" n="92" break="no"/>entia est respectu omnium tam 
+        bono<lb ed="#C" n="93" break="no"/>rum, quam malroum: reprobatio vero est 
+        <lb ed="#C" n="94"/>solum respectu malorum, ergo aliquid 
+        <lb ed="#C" n="95"/>addit reprobatio supra praescientiam. 
+        Prae<lb ed="#C" n="96" break="no"/>terea: reprobatio secundum Magistrum 
+        <lb ed="#C" n="97"/>opponitur praedestinationi; sed 
+        praede<lb ed="#C" n="98" break="no"/>stinatio aliquid addit supra praescientiam, 
+        <lb ed="#C" n="99"/>ergo &amp; reprobatio, quae est eius 
+        op<lb ed="#C" n="100" break="no"/>positum. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e253">
+        <!--792.xml-->
+                  <pb ed="#C" n="767"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>RESOLVTIO. 
+        <lb ed="#C" n="2"/>Reprobatio supra Divinam praescientiam addit. 
+        <lb ed="#C" n="3"/>erdinationem malorum ad poenam, &amp; propo¬ 
+        <lb ed="#C" n="4"/>situm punitionis eorum; &amp; hoc 
+        secun<lb ed="#C" n="5" break="no"/>dum magis explicat iuxta vocabuli 
+        <lb ed="#C" n="6"/>proprietatem, 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e275">
+                  <lb ed="#C" n="7"/>REspond. dicendum, quod, sicut 
+        <lb ed="#C" n="8"/>Rtactum est, Magister in littera vult 
+        <lb ed="#C" n="9"/>reprobationem dici per oppositum ad 
+        <lb ed="#C" n="10"/>praedestinationem: propter quod repro 
+        <lb ed="#C" n="11"/>patio ex praedestinatione nobis 
+        innotes<lb ed="#C" n="12" break="no"/>cere potest. Ideo notandum, quod, 
+        si<lb ed="#C" n="13" break="no"/>cut superius tactum fuit, destinare, vel  
+        <lb ed="#C" n="14"/>praedestinare dupliciter potest 
+        accipi<lb ed="#C" n="15" break="no"/>Vno modo, ut dicat ipsam 
+        ordinatio<lb ed="#C" n="16" break="no"/>nem in finem: &amp; quia ordinare est actus 
+        <lb ed="#C" n="17"/>rationis, sic destinare est actus intellecto 
+        <lb ed="#C" n="18"/>includens, vel praesupponens voluntatem 
+        fi<lb ed="#C" n="19" break="no"/>nis. Nam ex hoc idicitur Deus aliquos 
+        <lb ed="#C" n="20"/>destinare, inquantum ordinat eos, &amp; 
+        diri<lb ed="#C" n="21" break="no"/>igit ipsos in aliquem finem, vel in 
+        ali<lb ed="#C" n="22" break="no"/>quod bonum, quod vult eos consequis 
+        <lb ed="#C" n="23"/>&amp; inquantum vult eis illud bonum, 
+        di<lb ed="#C" n="24" break="no"/>citur eos amare: quia Amare est alicur 
+        <lb ed="#C" n="25"/>velle bona gratia, ipsius, ut dicitur 2. 
+        Rhe<lb ed="#C" n="26" break="no"/>toricae: &amp; quia talis ordo graesupponit 
+        <lb ed="#C" n="27"/>voluntatem, &amp; notionem finis: sic 
+        ac<lb ed="#C" n="28" break="no"/>cipiendo destinare, est ratio in 
+        intelle<lb ed="#C" n="29" break="no"/>ctu existens praesupponens voluntatem, 
+        <lb ed="#C" n="30"/>conferendi dictum bonum, in quod 
+        de<lb ed="#C" n="31" break="no"/>stinati diriguntur. Alio modo 
+        desti<lb ed="#C" n="32" break="no"/>nare idem est, quod proponere. Nam 
+        <lb ed="#C" n="33"/>quia quod proponimus, in 
+        executio<lb ed="#C" n="34" break="no"/>nem dirigimus, ipsum proppnere desti 
+        <lb ed="#C" n="35"/>nare dici potest, &amp; sic accipiendo desti 
+        <lb ed="#C" n="36"/>nare quasi modo opposito, &amp; converso 
+        <lb ed="#C" n="37"/>se habet ad acceptionem primam. Nam 
+        <lb ed="#C" n="38"/>sicut ordinare dicit quid pertinens ad 
+        <lb ed="#C" n="39"/>intellectum: sic proponere vel 
+        propo<lb ed="#C" n="40" break="no"/>situm dicit quid pertinens ad 
+        volunta<lb ed="#C" n="41" break="no"/>tem. Advertendum tamen, quod 
+        acci<lb ed="#C" n="42" break="no"/>piendo destinare, vel praedestinare pro 
+        <lb ed="#C" n="43"/>actu voluntatis, &amp; prout est idem, quod 
+        <lb ed="#C" n="44"/>proponere, &amp; si non recedimus a re sig 
+        <lb ed="#C" n="45"/>nificata: quia sancti praedestinationem 
+        <lb ed="#C" n="46"/>Divinum propositum nominant; 
+        ali<lb ed="#C" n="47" break="no"/>quo tamen modo recedimus a 
+        pro<lb ed="#C" n="48" break="no"/>prietate vocabuli: quia destinare 
+        ratio<lb ed="#C" n="49" break="no"/>ne nominis, vel vocabuli ordinationem 
+        <lb ed="#C" n="50"/>importat, quae ad rationem pertinet, 
+        si<lb ed="#C" n="51" break="no"/>ve ad intellectum. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e375">
+                  <lb ed="#C" n="52"/>Hoc viso sciendum, quod sicut 
+        de<lb ed="#C" n="53" break="no"/>stinare vel praedestinare dupliciter 
+        acci<lb ed="#C" n="54" break="no"/>pi potest, sic &amp; reprobare dupliciter ac 
+        <!--792.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>pitur. Vno modo reprobarem idem est, 
+        <lb ed="#C" n="56"/>quod ordinare ad gloriam, sive 
+        ordina<lb ed="#C" n="57" break="no"/>re ad poenam: sicut destinare modo 
+        <lb ed="#C" n="58"/>opposito erat non ordinare ad 
+        poc<lb ed="#C" n="59" break="no"/>nam; sed ordinare ad gloriam: &amp; sic 
+        <lb ed="#C" n="60"/>reprobare dicit actum intellectus 
+        prae<lb ed="#C" n="61" break="no"/>supponentem voluntatem conferend 
+        <lb ed="#C" n="62"/>poenam, sicut destinare dicebat actum 
+        <lb ed="#C" n="63"/>cognitionis praesupponentem 
+        volunta<lb ed="#C" n="64" break="no"/>tem conferendi gloriam. Alio modo 
+        <lb ed="#C" n="65"/>reprobare idem est, quod velle vel 
+        pro<lb ed="#C" n="66" break="no"/>ponere conferre poenam, sive non 
+        con<lb ed="#C" n="67" break="no"/>ferre gratiam: sicut modo opposito 
+        <lb ed="#C" n="68"/>praedestinatio est propositum 
+        conferen<lb ed="#C" n="69" break="no"/>di gratiam &amp; gloriam: &amp; sic accipiendo 
+        <lb ed="#C" n="70"/>reprobare dicit actum voluntatis 
+        prae<lb ed="#C" n="71" break="no"/>supponentem cognitionem finis, ut 
+        ac<lb ed="#C" n="72" break="no"/>cipiamus finem omne illud, ad quod ali 
+        <lb ed="#C" n="73"/>quid ordinatur. Notandum tamen, 
+        <lb ed="#C" n="74"/>quod licet reprobatio duobus modis 
+        <lb ed="#C" n="75"/>possit accipi, sicut &amp; destinatio; tamen 
+        <lb ed="#C" n="76"/>si consideramus proprietatem vocabuli, 
+        <lb ed="#C" n="77"/>econtrario dicendum est de 
+        reproba<lb ed="#C" n="78" break="no"/>tione, &amp; destinatione. nam destinatio 
+        <lb ed="#C" n="79"/>secundum proprietatem vocabuli, eo 
+        <lb ed="#C" n="80"/>quod ordinationem importet, sempe 
+        <lb ed="#C" n="81"/>dicit rationem in intellectu existentem: 
+        <lb ed="#C" n="82"/>trahitur tamem, ut stet pro proposito, sive 
+        <lb ed="#C" n="83"/>actu voluntatis, ratione significatae rei. 
+        <lb ed="#C" n="84"/>Reprobatio autem econtrario, cum 
+        dis<lb ed="#C" n="85" break="no"/>plicentiam quamdam vel refutationem 
+        <lb ed="#C" n="86"/>mportet, si attendimus proprietatem, 
+        <lb ed="#C" n="87"/>vocabuli, semper fiat pro actu 
+        volunta<lb ed="#C" n="88" break="no"/>tis: ratione tamen rei significatae, quia 
+        <lb ed="#C" n="89"/>ipsum ordinare ad pernam, vel non 
+        or<lb ed="#C" n="90" break="no"/>dinare ad gloriam, est reprobare, 
+        trahi<lb ed="#C" n="91" break="no"/>tur ut stet pro actu rationis, ad quem 
+        <lb ed="#C" n="92"/>ordinatem spectat. Qualitercunque tamem 
+        <lb ed="#C" n="93"/>accipiatur reprobatio, non solum prae 
+        <lb ed="#C" n="94"/>scientiam nominat, sed supra 
+        praescien<lb ed="#C" n="95" break="no"/>tiam addit ordinem ad aliquid 
+        specia<lb ed="#C" n="96" break="no"/>le, ut ad poenam, vel addit proposi 
+        <lb ed="#C" n="97"/>tum, &amp; voluntatem conferendi 
+        po<lb ed="#C" n="98" break="no"/>nam. Verum quia in damnatis est duo 
+        <lb ed="#C" n="99"/>considerare, culpam &amp; poenam: com 
+        <lb ed="#C" n="100"/>muni nomine reprobati dicuntur 
+        prae<lb ed="#C" n="101" break="no"/>sciti: quia licet reprobatio supra prae 
+        <lb ed="#C" n="102"/>scientiam aliquid addat, si considera 
+        <lb ed="#C" n="103"/>mus poenam: nihil tamen videtur adde 
+        <lb ed="#C" n="104"/>re, si consideramus culpam: quia malo 
+        <lb ed="#C" n="105"/>rum, ut habent rationem culpae, Deus 
+        <lb ed="#C" n="106"/>habet simplicem notitiam, prout 
+        tamem<lb ed="#C" n="107" break="no"/>ea ordinat in poenam, quodammodo 
+        <lb ed="#C" n="108"/>eorum habet cognitionem 
+        approbatio<lb ed="#C" n="109" break="no"/>nis: approbat enim mala punire, &amp; ea, 
+        <lb ed="#C" n="110"/>ad poenam ordinare. 
+        <!--793.xml-->
+        <pb ed="#C" n="768"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Respond. ad argumenta. Ad 
+        <lb ed="#C" n="2"/>primum dicendum, quod Deus 
+        dici<lb ed="#C" n="3" break="no"/>tur tantum malum praescire ratione 
+        <lb ed="#C" n="4"/>culpae; non ratione poenae. Nam licet  
+        <lb ed="#C" n="5"/>non ordinet malos ad culpam; ordinat 
+        <lb ed="#C" n="6"/>tamen eos ad poenam: &amp; quia 
+        re<lb ed="#C" n="7" break="no"/>probatio huiusmodi ordinem dicit,  
+        <lb ed="#C" n="8"/>vel importat: ideo aliquid supra prae 
+        <lb ed="#C" n="9"/>scientiam addit. Ad secundum dicen 
+        <lb ed="#C" n="10"/>dum, quod mala cognoscit Deus 
+        sim<lb ed="#C" n="11" break="no"/>plici notitia, ut habent rationem 
+        cul<lb ed="#C" n="12" break="no"/>pae: ut tamen ea ordinat ad poenam 
+        <lb ed="#C" n="13"/>quia approbat mala punire, quodam 
+        <lb ed="#C" n="14"/>modo cognoscit ea notitia 
+        approba<lb ed="#C" n="15" break="no"/>tionis. Ad tertium dicendum, quod  
+        <lb ed="#C" n="16"/>ut patet per habita, reprobati 
+        reti<lb ed="#C" n="17" break="no"/>nent sibi commune nomen, &amp; 
+        di<lb ed="#C" n="18" break="no"/>cuntur praesciti: non quia 
+        reproba<lb ed="#C" n="19" break="no"/>tio nihil addat supra praescientiam; 
+        <lb ed="#C" n="20"/>sed quia mali, ut habent rationem 
+        <lb ed="#C" n="21"/>culpae, propter quam aliquis ad 
+        poe<lb ed="#C" n="22" break="no"/>nam ordinatur, cognoscuntur a Deo 
+        <lb ed="#C" n="23"/>simplici notitia. Ad quartum 
+        dicen<lb ed="#C" n="24" break="no"/>dum, quod reprobatio supra 
+        praesci<lb ed="#C" n="25" break="no"/>entiam addit quemdam ordinem, non 
+        <lb ed="#C" n="26"/>ad culpam, sed ad poenam. Et <name xml:id="Gi9qrR-f99955-Nd1e572" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="27"/>in reprobatione non negat ordinem 
+        <lb ed="#C" n="28"/>ad poenam, sed ad culpam. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f99955-Dd1e581">
+               <head xml:id="Gi9qrR-f99955-Hd1e583">Articulus 2</head>
+               <p xml:id="Gi9qrR-f99955-d1e586">
+                  <lb ed="#C" n="29"/>ARTICVLVS II 
+        <lb ed="#C" n="30"/>Vtrum Deo conveniat aliquos reprobare?
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e593">
+                  <lb ed="#C" n="31"/>QEcundo quaeritur: utrum 
+        conve<lb ed="#C" n="32" break="no"/>niat aliquos reprobare? Et 
+        vide<lb ed="#C" n="33" break="no"/>tur, quod non: quia quod aliquis 
+        ar<lb ed="#C" n="34" break="no"/>tifex reprobet effectum suum, hoc 
+        <lb ed="#C" n="35"/>non est, nisi quod ille effectus non 
+        <lb ed="#C" n="36"/>consequitur perfectionem secundum 
+        <lb ed="#C" n="37"/>modum voluntatis artificis; sed impe 
+        <lb ed="#C" n="38"/>dimentum ad consecutionem perfec 
+        <lb ed="#C" n="39"/>tionis non potest esse nisi dupliciter  
+        <lb ed="#C" n="40"/>Primo ex parte artificis, ut cum ar 
+        <lb ed="#C" n="41"/>tifex est inscius, vel impotens, vel 
+        <lb ed="#C" n="42"/>etiam iniquus. Secundo ex parte 
+        ef<lb ed="#C" n="43" break="no"/>fectus, ut cum artifex agit ex 
+        suppo<lb ed="#C" n="44" break="no"/>sitione materie: tunc si materia sit 
+        in<lb ed="#C" n="45" break="no"/>disposita ad illum effectum, 
+        contin<lb ed="#C" n="46" break="no"/>igit cum reprobare effectum illum, ut 
+        <lb ed="#C" n="47"/>n in ligno tortuoso deberet induci 
+        <lb ed="#C" n="48"/>forma sagittae, sagittam ex tali ligno 
+        <!--793.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="49"/>factam reprobaret artifex; sed cum 
+        <lb ed="#C" n="50"/>omnia ista removeantur a Deo; quia 
+        <lb ed="#C" n="51"/>est omnipotens, summe sapiens, &amp; 
+        <lb ed="#C" n="52"/>optimus, non agens ex suppositione 
+        <lb ed="#C" n="53"/>materiae, nullum effectum reprobabit.
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e650">
+                  <lb ed="#C" n="54"/>Praeterea: legitur 11. Sap. Parcis autem 
+        <lb ed="#C" n="55"/>omnibus: quoiam tua sunt, ergo causa, 
+        <lb ed="#C" n="56"/>quare Deus omnibus miseretur, est 
+        <lb ed="#C" n="57"/>quia omnia sua sunt; sed in hoc non 
+        <lb ed="#C" n="58"/>videtur esse distinctio: quia omnes 
+        <lb ed="#C" n="59"/>animae suae sunt: sicut anima patris, 
+        <lb ed="#C" n="60"/>sic &amp; anima filij: non igitur uni 
+        par<lb ed="#C" n="61" break="no"/>cit; &amp; non alij, sed omnibus parcit: 
+        <lb ed="#C" n="62"/>sed praedestinatio est propositum 
+        par<lb ed="#C" n="63" break="no"/>cendi vel miserendi: igitur omnes 
+        <lb ed="#C" n="64"/>praedestinat, &amp; ita nullum reprobat.  
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e676">
+                  <lb ed="#C" n="65"/>Praeterea: ad Romanos 9. scribitur:  
+        <lb ed="#C" n="66"/>Nunquid iniquitas est apud Deum? Absit: sed  
+        <lb ed="#C" n="67"/>si Deus aequalia inaequaliter 
+        pertracta<lb ed="#C" n="68" break="no"/>ret videretur esse iniquus: ciam igitur  
+        <lb ed="#C" n="69"/>apud eum non sit iniquitas, semper 
+        <lb ed="#C" n="70"/>aequalia aequaliter pertract abit. Sed 
+        <lb ed="#C" n="71"/>cum eramus nihil, omnes eramus 
+        ae<lb ed="#C" n="72" break="no"/>quales. Si igitur unum rep robavit, 
+        a<lb ed="#C" n="73" break="no"/>lium elegit, iniquitas fuit apud eum; 
+        <lb ed="#C" n="74"/>sed cum hoc sit impossibile, non 
+        <lb ed="#C" n="75"/>competit Deo aliquemi reprobare. 
+        <lb ed="#C" n="76"/>Praeterea: dicitur ad Romanos secut 
+        <lb ed="#C" n="77"/>do: Non enim est acceptio personarum apud  
+        <lb ed="#C" n="78"/>Deum: sed si Deum unum reprobat,  
+        <lb ed="#C" n="79"/>calium eligit, videtur acceptare 
+        perso<lb ed="#C" n="80" break="no"/>nam, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e714">
+                  <lb ed="#C" n="81"/>In contrarium est <name xml:id="Gi9qrR-f99955-Nd1e718" ref="#Augustine">Aug.</name> in de 
+        Prae<lb ed="#C" n="82" break="no"/>destinatione sanctorum, qui ait: quod  
+        <lb ed="#C" n="83"/>tenenda est inconcussa haec 
+        disputa<lb ed="#C" n="84" break="no"/>tionis ratio, quod peccatores in 
+        ma<lb ed="#C" n="85" break="no"/>lis proprijs antequam essent in mundo 
+        <lb ed="#C" n="86"/>prescitos esse tantum, non 
+        praedesti<lb ed="#C" n="87" break="no"/>natos. Poenam autem eis esse 
+        praede<lb ed="#C" n="88" break="no"/>stinatam, secundum quod praesciti sunt; 
+        <lb ed="#C" n="89"/>sed hoc est reprobare, igitur Deus 
+        <lb ed="#C" n="90"/>aliquos reprobat: sed nihil facit, quod  
+        <lb ed="#C" n="91"/>non competat eum facere, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e744">
+        <!--794.xml-->
+                  <pb ed="#C" n="769"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>RESOLVTIO. 
+        <lb ed="#C" n="2"/>Deo convenit ad eius misericordiae ostentionem 
+        <lb ed="#C" n="3"/>aliquos salvare; &amp; alios non in 
+        manifesta<lb ed="#C" n="4" break="no"/>tionem Divinae iustitiae: quod ad universi 
+        <lb ed="#C" n="5"/>spectat ordinem, &amp; decorem. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e764">
+                  <lb ed="#C" n="6"/>REspond. dicendum, quod quia 
+        optimi<lb ed="#C" n="7" break="no"/>Rest optima adducere, ad hoc quod 
+        <lb ed="#C" n="8"/>aliqua Deo competant, non solum 
+        o<lb ed="#C" n="9" break="no"/>portet ea non esse mala: sed etiam 
+        ne<lb ed="#C" n="10" break="no"/>cesse est ea habere rationem boni. 
+        <lb ed="#C" n="11"/>Cum igitur Deus aliquos reprobet (ut 
+        <lb ed="#C" n="12"/>patet per auctoritatem inductam) 
+        re<lb ed="#C" n="13" break="no"/>probatio, prout es competit, non solum 
+        <lb ed="#C" n="14"/>non erit iniqua, sed etiam habebit 
+        ra<lb ed="#C" n="15" break="no"/>tionem boni. Ad cuius evidentiam 
+        no<lb ed="#C" n="16" break="no"/>tandum, quod si volumus intelligere 
+        <lb ed="#C" n="17"/>reprobationem Divinam, debemus 
+        <lb ed="#C" n="18"/>imaginari omnes homines prostratos 
+        <lb ed="#C" n="19"/>esse, &amp; Deum nullo hominum manu 
+        <lb ed="#C" n="20"/>extensam retrahere; sed cuilibet manum 
+        <lb ed="#C" n="21"/>extendere: attamen ultra hoc, quod  
+        <lb ed="#C" n="22"/>omnibus manum extendit, aliquos ad se 
+        <lb ed="#C" n="23"/>trahit: &amp; qui simpliciter trahuntur, 
+        prae<lb ed="#C" n="24" break="no"/>destinati sunt: qui vero non trahuntur,  
+        <lb ed="#C" n="25"/>reprobati dicuntur. Sic enim 
+        imagina<lb ed="#C" n="26" break="no"/>tur <name xml:id="Gi9qrR-f99955-Nd1e811" ref="#Augustine">Aug.</name> in de Praedestinatione 
+        sancto<lb ed="#C" n="27" break="no"/>rum, quod totum humanum genus sit, quasi 
+        <lb ed="#C" n="28"/>quaedam massa damnabilis, &amp; Deus 
+        ali<lb ed="#C" n="29" break="no"/>quos misericordia, non meritis, ad se 
+        tra<lb ed="#C" n="30" break="no"/>hit, vel ad vitam predestinat: aliquos vero 
+        <lb ed="#C" n="31"/>iudicio iustitiae ab hac gratia, sive ab 
+        <lb ed="#C" n="32"/>hoc tractu &amp; praedestinatione efficiun 
+        <lb ed="#C" n="33"/>tur expertes: &amp; quia aliqui a Deo non tra 
+        <lb ed="#C" n="34"/>huntur, relicti suae libertatis arbitrio 
+        defi<lb ed="#C" n="35" break="no"/>ciunt, &amp; in peccatum corruunt. Ex quo 
+        appa<lb ed="#C" n="36" break="no"/>ret Deum aliter esse causam 
+        praedestina<lb ed="#C" n="37" break="no"/>tionis, aliter causam reprobationis. Nam 
+        <lb ed="#C" n="38"/>praedestinationis est causa per omnem 
+        mo<lb ed="#C" n="39" break="no"/>dum: nam non solum praedestinatos ordinat 
+        <lb ed="#C" n="40"/>ad gloriam, sed etiam infundit eis &amp; 
+        <lb ed="#C" n="41"/>gratiam, per quam gloriam 
+        conse<lb ed="#C" n="42" break="no"/>quuntur; sed reprobatos licet ad 
+        poe<lb ed="#C" n="43" break="no"/>nam ordinet; non tamen infundit eis 
+        <lb ed="#C" n="44"/>culpam, per quam damnationem 
+        me<lb ed="#C" n="45" break="no"/>reantur: ideo ita est apud Deum 
+        boni<lb ed="#C" n="46" break="no"/>tas: eo quod bonis bona tribuit,  
+        <lb ed="#C" n="47"/>quod non est apud eum iniquitas: 
+        <lb ed="#C" n="48"/>quia malis culpam non infundit, 
+        <lb ed="#C" n="49"/>sed solum gratiam non praebet. Vnde 
+        <lb ed="#C" n="50"/>Aug in ide Praedestinatione sanctorum 
+        <lb ed="#C" n="51"/>dicit: Deum opera impietatis &amp; 
+        mor<lb ed="#C" n="52" break="no"/>tis prescire, non praeordinare nec 
+        im<lb ed="#C" n="53" break="no"/>pellere. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e874">
+                  <lb ed="#C" n="54"/>Quod vero huiusmodi gratiam non 
+        <!--794.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>praebere non habeat rationem mali, sic  
+        <lb ed="#C" n="56"/>declarari potest: quia si aliqua causa est, 
+        <lb ed="#C" n="57"/>propter quam videatur habere 
+        ratio<lb ed="#C" n="58" break="no"/>nem mali, est: quia Deus ex hoc 
+        videre<lb ed="#C" n="59" break="no"/>tur personarum acceptor ex eo, quod 
+        <lb ed="#C" n="60"/>uni gratiam tribuit, &amp; non alij. Sed quod  
+        <lb ed="#C" n="61"/>hoc non sit accipere personam, nec 
+        ha<lb ed="#C" n="62" break="no"/>beat rationem iniquitatis, sic ostenditur: 
+        <lb ed="#C" n="63"/>quia accipere personam nihil est aliud;, 
+        <lb ed="#C" n="64"/>quam considerare in persona, quod non 
+        <lb ed="#C" n="65"/>est considerandum. Sed si aliquid 
+        ex<lb ed="#C" n="66" break="no"/>mera liberalitate tribuitur, nihil ibi 
+        con<lb ed="#C" n="67" break="no"/>siderari potest, quod considerandum 
+        <lb ed="#C" n="68"/>non sit, &amp; quod personarum acceptionem 
+        <lb ed="#C" n="69"/>causet: quia sufficit sola voluntas ad 
+        <lb ed="#C" n="70"/>hoc agendum: &amp; quia quidquid Deus, 
+        <lb ed="#C" n="71"/>dat, ex liberalitate dat, cum hunc 
+        <lb ed="#C" n="72"/>reprobet, &amp; non illum, non est personae 
+        <lb ed="#C" n="73"/>acceptor. Hanc autem rationem 
+        assig<lb ed="#C" n="74" break="no"/>nat Apostolus ad Rom. 9. dicens: quod 
+        li<lb ed="#C" n="75" break="no"/>cet figulo ex eadem massa facere aliud 
+        <lb ed="#C" n="76"/>vas in honorem, aliud vero in 
+        contu<lb ed="#C" n="77" break="no"/>meliam: licet autem, quia 
+        huiusmodi<lb ed="#C" n="78" break="no"/>factio ex sola artificis voluntate 
+        depen<lb ed="#C" n="79" break="no"/>det. Vnde &amp; Paterfamilias 
+        murmuran<lb ed="#C" n="80" break="no"/>tibus respondit, quod licebat sibi quod  
+        <lb ed="#C" n="81"/>volebat facere: verum est, si illud ex 
+        li<lb ed="#C" n="82" break="no"/>beralitate faciebat, sed non si ex debito, 
+        <lb ed="#C" n="83"/>vel ex conventione: ideo dixit 
+        murmu<lb ed="#C" n="84" break="no"/>ranti: Tolle quod tuum est &amp; vade. Non 
+        <lb ed="#C" n="85"/>ergo est iniquitas apud Deum, cum 
+        ip<lb ed="#C" n="86" break="no"/>se ex libera voluntate praedestinet. Est 
+        <lb ed="#C" n="87"/>igitur declaratum primum, quod decla 
+        <lb ed="#C" n="88"/>randum dicebatur, videlicet, quod 
+        re<lb ed="#C" n="89" break="no"/>probare Divinum non habet rationem 
+        <lb ed="#C" n="90"/>mali. Quod autem habeat rationem 
+        bo<lb ed="#C" n="91" break="no"/>ni, sic declarari potest: quia ex hoc 
+        ali<lb ed="#C" n="92" break="no"/>qua reprobatur, inquantum ab ali quo 
+        <lb ed="#C" n="93"/>fine, vel ab aliquo bono deficiunt: 
+        spe<lb ed="#C" n="94" break="no"/>ctat enim ad Deum permittere aliquos 
+        <lb ed="#C" n="95"/>ab aliqua perfectione deficere: quia si 
+        <lb ed="#C" n="96"/>omnis imperfectio tolleretur ab 
+        enti<lb ed="#C" n="97" break="no"/>bus, tolleretur ordo, &amp; decor universi 
+        <lb ed="#C" n="98"/>Nam ex eo, quod totum universum 
+        de<lb ed="#C" n="99" break="no"/>ficit a bonitate Primi, totum universum 
+        <lb ed="#C" n="100"/>ordinatur ad ipsum: &amp; ex eo, quod una 
+        <lb ed="#C" n="101"/>pars universi deficit a perfectione 
+        alte<lb ed="#C" n="102" break="no"/>rius, una pars ordinatur ad aliam: non 
+        <lb ed="#C" n="103"/>ergo potest salvari ordo &amp; decor 
+        uni<lb ed="#C" n="104" break="no"/>versi, non existente aliqua imperfectione 
+        <lb ed="#C" n="105"/>in entibus: &amp; quia bonum ordinis est 
+        sum<lb ed="#C" n="106" break="no"/>mum bonum post bonum Primum, pertinet ad 
+        <lb ed="#C" n="107"/>optimum, cuipest optima adducere, aliqua 
+        <lb ed="#C" n="108"/>reprobare sive permittere ab aliqua per 
+        <lb ed="#C" n="109"/>fectione deficere, ut salvetur talis ordo 
+        <lb ed="#C" n="110"/>&amp; decor universi. Nam &amp; ipsa mala ad de¬ 
+        <!--795.xml-->
+        <pb ed="#C" n="770"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>corem universi faciunt, cum bene 
+        ordi<lb ed="#C" n="2" break="no"/>nata &amp; suo loco posita eminetius 
+        com<lb ed="#C" n="3" break="no"/>mendant bona. Advertedum tamen 
+        <lb ed="#C" n="4"/>quod Deus simpliciter nullum 
+        repro<lb ed="#C" n="5" break="no"/>bat. Nam nulla creatura invenitur 
+        pri<lb ed="#C" n="6" break="no"/>vata omni bono. Nihilergo est 
+        simpli<lb ed="#C" n="7" break="no"/>citer malum: tamen est malum 
+        secun<lb ed="#C" n="8" break="no"/>dum quid, inquatum deficit ab aliqua per 
+        <lb ed="#C" n="9"/>fectionem: &amp; sicut nulla creatura 
+        inveni<lb ed="#C" n="10" break="no"/>tur privata omni bono, sive mala 
+        sim<lb ed="#C" n="11" break="no"/>pliciter, sed secundum quid, inquanti 
+        <lb ed="#C" n="12"/>deficit ab aliqua perfectione: sic nihil 
+        <lb ed="#C" n="13"/>Deus simpliciter reprobat: quia nihil est, 
+        <lb ed="#C" n="14"/>quod non ordinet ad aliquem finem, &amp; 
+        <lb ed="#C" n="15"/>ad aliquod bonum. Reprobat tamen 
+        <lb ed="#C" n="16"/>aliqua secundum quid, inquantum per 
+        <lb ed="#C" n="17"/>mittit ea deficere ab aliquo bono, &amp; 
+        <lb ed="#C" n="18"/>ab aliqua perfectione. Nam licet 
+        dam<lb ed="#C" n="19" break="no"/>nati reprobentur a bono gloriae; 
+        conse<lb ed="#C" n="20" break="no"/>quuntur tamem bonum naturae. Rursum 
+        <lb ed="#C" n="21"/>licet non ordinentur ad illud bonum, 
+        <lb ed="#C" n="22"/>ut in eis reluceant bona misericordiae; 
+        <lb ed="#C" n="23"/>ordinantur tamen ad illud bonum, ut 
+        <lb ed="#C" n="24"/>in eis reluceant bona iustitiae. 
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e1063">
+                  <lb ed="#C" n="25"/>Respond. ad arg. Ad 1. 
+        dicen<lb ed="#C" n="26" break="no"/>dum, quod Deus simpliciter nullum 
+        <lb ed="#C" n="27"/>reprobat: nam sicut figulus, quia 
+        ordi<lb ed="#C" n="28" break="no"/>nat aliquam partem massae in contumeliam, 
+        <lb ed="#C" n="29"/>&amp; quodammodo eam reprobat, 
+        inquan<lb ed="#C" n="30" break="no"/>tum non ordinat eam in honorem, &amp; 
+        <lb ed="#C" n="31"/>huiusmodi reprobatio non est ex 
+        insi<lb ed="#C" n="32" break="no"/>pientia, vel impotentia figuli, nec 
+        ex<lb ed="#C" n="33" break="no"/>indispositione materiae; sed ex 
+        imper<lb ed="#C" n="34" break="no"/>fectione domus: quia domus, in quam 
+        <lb ed="#C" n="35"/>vasa esse debent; requirit non solum 
+        va<lb ed="#C" n="36" break="no"/>sa in honorem, sed etiam in 
+        contume<lb ed="#C" n="37" break="no"/>liam: sic Deus maliae humanae 
+        damnabi<lb ed="#C" n="38" break="no"/>lis aliquos reprobat, non propter 
+        impo<lb ed="#C" n="39" break="no"/>tentiam; vel insipientiam: posset enim 
+        <lb ed="#C" n="40"/>&amp; sciret ones salvare: nec hoc est prop 
+        <lb ed="#C" n="41"/>ter indispositionem materiae: quia quam 
+        <lb ed="#C" n="42"/>tumcuque sit voluntas indisposita, eam 
+        im<lb ed="#C" n="43" break="no"/>mutare posset, &amp; convertere, si vellet,  
+        <lb ed="#C" n="44"/>licet non cogere: sed hoc est, quia ordo 
+        <lb ed="#C" n="45"/>&amp; decor universi sic requirit, ut sint ibi 
+        <lb ed="#C" n="46"/>aliqua vasa in honorem, in quibus Divina 
+        <lb ed="#C" n="47"/>milericordia refulgeat, &amp; aliqua incontu 
+        <lb ed="#C" n="48"/>meliam, in quibus Divina iustitia appareat 
+        <lb ed="#C" n="49"/>Ad 2. dicendum, quod Deus nihil odit 
+        sim<lb ed="#C" n="50" break="no"/>pliciter, sed onibus parcit, &amp; onia amat: 
+        <lb ed="#C" n="51"/>inquantum omnibus vult aliquod 
+        bo<lb ed="#C" n="52" break="no"/>num: sed non omnia amat ad unum 
+        fi<lb ed="#C" n="53" break="no"/>nem, &amp; ad unum bonum: &amp; ideo 
+        ali<lb ed="#C" n="54" break="no"/>qua reprobat, inquantum ea non amat 
+        <lb ed="#C" n="55"/>ad aliquod bonum, ut ad bonum 
+        glo<lb ed="#C" n="56" break="no"/>tiae: non tamen ea odit, vel simpliciter  
+        <!--795.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>reprobat: sed etiam amat inquantum vult. 
+        <lb ed="#C" n="58"/>eis aliqua bona, ut bona naturae: Ad 
+        <lb ed="#C" n="59"/>3. dicendum, quod in bonis collatis 
+        ex<lb ed="#C" n="60" break="no"/>debito est iniquum aequalia 
+        inaequali<lb ed="#C" n="61" break="no"/>ter pertractare: sed in his, quae 
+        confe<lb ed="#C" n="62" break="no"/>runtur ex gratia vel ex mera 
+        volunta<lb ed="#C" n="63" break="no"/>te, non est iniquum, ut potest patere per 
+        <lb ed="#C" n="64"/>habita.
+      </p>
+               <p xml:id="Gi9qrR-f99955-d1e1157">
+        Ad 4. patet solutio per iam 
+        di<lb ed="#C" n="65" break="no"/>cta: quia ostensum est non esse Deum 
+        <lb ed="#C" n="66"/>acceptorem personarum: quia aliquos 
+        <lb ed="#C" n="67"/>reprobat.  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

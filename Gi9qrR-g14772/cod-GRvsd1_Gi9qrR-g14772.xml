@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="823"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g14772"><!-- l1-d45q2 -->
+            <head xml:id="Gi9qrR-g14772-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-g14772-d1e111">
+               <lb ed="#C" n="19"/>QVAESTIO II. 
+      <lb ed="#C" n="20"/>De causalitate Divinae voluntatis 
+    </p>
+            <div xml:id="Gi9qrR-g14772-Dd1e118">
+               <head xml:id="Gi9qrR-g14772-Hd1e120">Articulus 1</head>
+               <p xml:id="Gi9qrR-g14772-d1e123">
+                  <lb ed="#C" n="21"/>ARTICVLVS VNICVS. 
+        <lb ed="#C" n="22"/>Vtrum Divina voluntas sit rerum causa. 
+        <lb ed="#C" n="23"/>
+                  <!-- line coord error D. Thom. 1. p. 4. 19. art. 3. Eran a Ch. dist. 45. qu. 5. --> 
+               </p>
+               <p xml:id="Gi9qrR-g14772-d1e134">
+                  <lb ed="#C" n="24"/>Einde quaeritur de causalitate 
+        Di<lb ed="#C" n="25" break="no"/>Dvinae voluntatis: utrum Divina 
+        <lb ed="#C" n="26"/>voluntas sit causa rerum?
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e143">
+        Et videtur 
+        <lb ed="#C" n="27"/>quod non: quia quod per voluntatem, 
+        <lb ed="#C" n="28"/>est causa rerum, movet ipsas volens &amp; 
+        <lb ed="#C" n="29"/>desiderans: sed ut scribitur. 12. Meta. 
+        <lb ed="#C" n="30"/>Primum movet, ut desideratum, &amp; amatum. 
+        <lb ed="#C" n="31"/>Cum ergo sic movere possint quae 
+        vo<lb ed="#C" n="32" break="no"/>luntate caret, sicut videmus pomum, vel  
+        <lb ed="#C" n="33"/>aliquod aliud bonum tanquam volitum 
+        <lb ed="#C" n="34"/>&amp; desideratum movere volentem, &amp; appete 
+        <lb ed="#C" n="35"/>tem, non oportet Deu per voluntate esse 
+        <lb ed="#C" n="36"/>causam rerum.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e167">
+        Praeterea: necessariorum 
+        <lb ed="#C" n="37"/>non est causa contingens: sed nos videmus 
+        <lb ed="#C" n="38"/>aliquos effectus necessatios: cum 
+        volun<lb ed="#C" n="39" break="no"/>tas sit causa contingens, eo quod agat 
+        <lb ed="#C" n="40"/>libere, dicere aliquam voluntatem sim 
+        <lb ed="#C" n="41"/>pliciter esse causam omnium effectuum 
+        <lb ed="#C" n="42"/>non est possibile.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e184">
+        Praeterea: si Divina 
+        <lb ed="#C" n="43"/>voluntas est causa rerum, vel est 
+        suffi<lb ed="#C" n="44" break="no"/>ciens, vel insufficiens? Non insufficiens 
+        <lb ed="#C" n="45"/>quia in Deo nulla insufficientia esse po 
+        <lb ed="#C" n="46"/>test. Nec sufficiens: quia posita sufficien 
+        <lb ed="#C" n="47"/>ti causa, de necessitate sequitur effectu 
+        <lb ed="#C" n="48"/>absque positione aliarum causarum, 
+        ig<lb ed="#C" n="49" break="no"/>tur aliae causae superfluerent: nullo er¬ 
+        <!--848.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="50"/>go modo Divina voluntas est causa 
+        ra<lb ed="#C" n="51" break="no"/>rerum.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e210">
+        Praeterea: Deus est causa rerum 
+        <lb ed="#C" n="52"/>operando &amp; producendo res, sed 
+        prin<lb ed="#C" n="53" break="no"/>cipium operationis videtur esse 
+        poten<lb ed="#C" n="54" break="no"/>tia: non ergo voluntas Divina est causa 
+        <lb ed="#C" n="55"/>rerum, sed ejus virtus sive potetia. 
+        Prae<lb ed="#C" n="56" break="no"/>terea: semper per sufficientem causam 
+        <lb ed="#C" n="57"/>potest haberi demonstratio de effectu, 
+        <lb ed="#C" n="58"/>ergo ad demonstrandum singula 
+        suffi<lb ed="#C" n="59" break="no"/>cit dicere, quia Deus ita vult, ergo ita 
+        <lb ed="#C" n="60"/>est: quod est incoveniens: quia tunc 
+        to<lb ed="#C" n="61" break="no"/>ta scientia inventa deperitet. 
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e234">
+                  <lb ed="#C" n="62"/>In contrarium est <name xml:id="Gi9qrR-g14772-Nd1e238" ref="#Augustine">Aug.</name> 83. qq. qui  
+        <lb ed="#C" n="63"/>dicit Divinam voluntatem sufficientem 
+        <lb ed="#C" n="64"/>causam esse caeli &amp; terrae.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e246">
+        Praeterea: om 
+        <lb ed="#C" n="65"/>ne agens agit secundum modum 
+        natu<lb ed="#C" n="66" break="no"/>tae suae: cum igitur Deus sit 
+        intellectua<lb ed="#C" n="67" break="no"/>lis naturae, agit intelligendo: sed 
+        pro<lb ed="#C" n="68" break="no"/>prium est omnis intellectualis naturae 
+        <lb ed="#C" n="69"/>quod agat per liberum arbitrium 
+        sive<lb ed="#C" n="70" break="no"/>per voluntatem, ut potest haberi a Da 
+        <lb ed="#C" n="71"/>masc. lib. 3. cap. 14. ergo Deus 
+        pe<lb ed="#C" n="72" break="no"/>voluntatem suam est causa rerum. 
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e266">
+                  <lb ed="#C" n="73"/>RESOLVTIO 
+        <lb ed="#C" n="74"/>Voluntas Divina, non solum rerum causa. 
+        <lb ed="#C" n="75"/>sed suprema causa est rerum.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e275">
+                  <lb ed="#C" n="76"/>REspond. dicendum, quod 
+        invisibi<lb ed="#C" n="77" break="no"/>DDia Dei per ea, quae videmus, nobit 
+        <lb ed="#C" n="78"/>manifestantur: videmus enim in rebus 
+        <lb ed="#C" n="79"/>creatis duos modos actionum, videlicet,  
+        <lb ed="#C" n="80"/>actiones per modum nature, &amp; per modum 
+        <lb ed="#C" n="81"/>artis: secudum utrumq;, modum manifestatur  
+        <lb ed="#C" n="82"/>nobis Divina actio, si bene videre 
+        possu<lb ed="#C" n="83" break="no"/>mus differentiam actionis Divinae ad 
+        <lb ed="#C" n="84"/>actionem naturae &amp; artis. Differentia 
+        <lb ed="#C" n="85"/>autem, quam habet Divina actio ad actio 
+        <lb ed="#C" n="86"/>nem naturae, per quam nobis potissime 
+        <lb ed="#C" n="87"/>innotescit Deum agere per 
+        volunta<lb ed="#C" n="88" break="no"/>tem, sumitur ex ordine: nam natura 
+        a<lb ed="#C" n="89" break="no"/>git, inquantum sibi ordo ab alio 
+        praesti<lb ed="#C" n="90" break="no"/>tuitur: sed modus actionis Divinae est ex, 
+        <lb ed="#C" n="91"/>peo quod ipse alijs ordinem praestituit, 
+        <lb ed="#C" n="92"/>quod declarari potest per superius 
+        habi<lb ed="#C" n="93" break="no"/>ta, ubi declaratum fuit naturam non 
+        a<lb ed="#C" n="94" break="no"/>gere nisi rememoratam ex superloribus 
+        <lb ed="#C" n="95"/>causis, &amp; quod omnis talis ordo 
+        prove<lb ed="#C" n="96" break="no"/>niebat ex arte Divina intellectuali. Cum 
+        <lb ed="#C" n="97"/>igitur ordinare non sit nisi habentis 
+        cog<lb ed="#C" n="98" break="no"/>nitionem &amp; agentis per modum artis 
+        <lb ed="#C" n="99"/>cum omne tale sit liberi arbitrij, &amp; agat  
+        <lb ed="#C" n="100"/>per voluntatem, necesse est voluntaten 
+        <lb ed="#C" n="101"/>Divinam causam terum existere. 
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e335">
+                  <lb ed="#C" n="102"/>Vt tamen mellus apparcat veritas 
+        <!--849.xml-->
+        <pb ed="#C" n="824"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>dquaestionis notandum, quod ex hac 
+        dif<lb ed="#C" n="2" break="no"/>ferentia, quam habet actio Divina ad 
+        <lb ed="#C" n="3"/>i actionem naturae, duae differentiae oriu 
+        <lb ed="#C" n="4"/>tur, quibo habetur, quod Divina voluntas 
+        <lb ed="#C" n="5"/>est causa rerum. Prima est, quia actio 
+        na<lb ed="#C" n="6" break="no"/>siture est limitata, &amp; non se extemdit ad om 
+        <lb ed="#C" n="7"/>e nia. Nam eo ipso quod natura agit, ut ab 
+        <lb ed="#C" n="8"/>e alio mota &amp; ab alio ordina ta, 
+        praetaxa<lb ed="#C" n="9" break="no"/>tur ei actio secudum mensuram ordinan¬ 
+        <lb ed="#C" n="10"/>tis &amp; moventis: unde &amp; non agere 
+        li<lb ed="#C" n="11" break="no"/>bere, sed ex necessitate Nam sicut 
+        sa<lb ed="#C" n="12" break="no"/>gitta determinate varsit in terminum, 
+        <lb ed="#C" n="13"/>a eo quod ab alio ei o rdo praefigitur, &amp; 
+        <lb ed="#C" n="14"/>asibi ipsi ordinem praestituere non 
+        po<lb ed="#C" n="15" break="no"/>test: sic omne ageins per naturam habet  
+        <lb ed="#C" n="16"/>determinatam actionem, quia tali agen 
+        <lb ed="#C" n="17"/>ti ab alio ordo, praefigitur. Quod autem 
+        <lb ed="#C" n="18"/>habet actionem determinatam, nisi 
+        im<lb ed="#C" n="19" break="no"/>pediatur, semper agit: ideo non 
+        opor<lb ed="#C" n="20" break="no"/>tet in taliious ponere voluntatem, per 
+        <lb ed="#C" n="21"/>cujus im, perium determinetur ejus actio 
+        <lb ed="#C" n="22"/>ad istum modum agendi. Cum igitur 
+        <lb ed="#C" n="23"/>Deus, non habeat limitatam actionem 
+        <lb ed="#C" n="24"/>sed quodam ordine ejus actio ad 
+        om<lb ed="#C" n="25" break="no"/>nia se extendat, oportet, in eo ponere 
+        <lb ed="#C" n="26"/>voluntatem vel liberum arbitrium, per 
+        <lb ed="#C" n="27"/>cujus imperium progrediatur opus 
+        <lb ed="#C" n="28"/>Hanc autem viam innuit <name xml:id="Gi9qrR-g14772-Nd1e406" ref="#Augustine">Aug.</name> 3. de 
+        <lb ed="#C" n="29"/>Trin. cap. 4. qui ex eo quod Divina 
+        <lb ed="#C" n="30"/>actio se extendit ordinate ad omnia, di 
+        <lb ed="#C" n="31"/>cit Deum uti omnibus secundum suu 
+        <lb ed="#C" n="32"/>libertatis arbitrium, quod non esset, nisi 
+        <lb ed="#C" n="33"/>sua voluntas rebus causa existeret. Vnde 
+        <lb ed="#C" n="34"/>ait: Deus fuam influentiam 
+        ordinatissi<lb ed="#C" n="35" break="no"/>mis creaturae motibus ordine omnium 
+        creatura<lb ed="#C" n="36" break="no"/>rum sub ipso creatore mirabiliter 
+        disposita<lb ed="#C" n="37" break="no"/>rum, primo spiritualibus, deinde corporalibus 
+        <lb ed="#C" n="38"/>per cuncta diffundit, &amp; utitur omnibus ad incon¬ 
+        <lb ed="#C" n="39"/>mutabile arbitrium sententiae suae. Rursum 
+        ex<lb ed="#C" n="40" break="no"/>eo quod Deus ordinem rebus instituit 
+        <lb ed="#C" n="41"/>natura autem agit ab alio ordinata, 
+        se<lb ed="#C" n="42" break="no"/>initur quod agens naturale non potes 
+        <lb ed="#C" n="43"/>agens supremum esse, cum agat motum; 
+        <lb ed="#C" n="44"/>sed Deus ipse est supremus agens, cum 
+        <lb ed="#C" n="45"/>omnibus ordinem instituat; sed supremum 
+        <lb ed="#C" n="46"/>agens oporret agere libere, nam quod 
+        <lb ed="#C" n="47"/>non agit libere, agit ab alio motum, 
+        <lb ed="#C" n="48"/>quod agit ab alio motum, non est agens 
+        <lb ed="#C" n="49"/>supremum: si igitur Deus est agens 
+        su<lb ed="#C" n="50" break="no"/>premum, oportet eum agere libere, &amp; 
+        <lb ed="#C" n="51"/>ita voluntatie: sed quod sic agit per 
+        vo<lb ed="#C" n="52" break="no"/>luntatem est causa rerum, ipsa ergo 
+        Di<lb ed="#C" n="53" break="no"/>vina voluntas causa rerum existit. Hac 
+        <lb ed="#C" n="54"/>petem rationem innuit etiam <name xml:id="Gi9qrR-g14772-Nd1e466" ref="#Augustine">Aug.</name> de 
+        <lb ed="#C" n="55"/>Trin. eodem lib. &amp; cap. qui primo 
+        <lb ed="#C" n="56"/>pstendit ordinem in rebus esse ex Deo. 
+        <!--849.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>Nam corpora inferiora per subciliora &amp; 
+        po<lb ed="#C" n="58" break="no"/>tentiora quodam ordine reguntur, &amp; 
+        to<lb ed="#C" n="59" break="no"/>ta corporalis natura per spiritualem, &amp; 
+        <lb ed="#C" n="60"/>piritualis per spiritum Domini, Acsi 
+        <lb ed="#C" n="61"/>umuersa creatura per suum Creatorem quodam 
+        <lb ed="#C" n="62"/>ordine regitur. Secundo ex hoc ordinon 
+        <lb ed="#C" n="63"/>concludit Divinam voluntatem, 
+        supre<lb ed="#C" n="64" break="no"/>mam causam omnium. Dicens: Ac per 
+        <lb ed="#C" n="65"/>hoc, videlicet quod omnia Divino 
+        regun<lb ed="#C" n="66" break="no"/>tur ordine. Dei voluntas est prima &amp; 
+        sum<lb ed="#C" n="67" break="no"/>ma causa omnium corporalium specierum 
+        at<lb ed="#C" n="68" break="no"/>que motionum, nihil enim sit visibiliter &amp; 
+        sen<lb ed="#C" n="69" break="no"/>sibiliter, quod non de interiore invisibili 
+        at<lb ed="#C" n="70" break="no"/>que intelligibili aula summi imperatoris, 
+        <lb ed="#C" n="71"/>aut iubeatur, aut permittatur.  
+        <lb ed="#C" n="72"/>Viso quomodo Divina voluntas est caus 
+        <lb ed="#C" n="73"/>sa rerum, ex differentia, quam habet  
+        <lb ed="#C" n="74"/>actio Divina ad actionem naturae: hoc  
+        <lb ed="#C" n="75"/>idem videre possumus ex differentia, 
+        <lb ed="#C" n="76"/>quam habet ad actionem artis. Differt. 
+        <lb ed="#C" n="77"/>enim ars Divina ab alijs artibus: quia 
+        <lb ed="#C" n="78"/>sub illa arte artes, singulae collocantur.  
+        <lb ed="#C" n="79"/>Nam per artem creaturae inducuntur?  
+        <lb ed="#C" n="80"/>solum accidentales formae: unde de hac 
+        <lb ed="#C" n="81"/>arte loquens Commen. 1. Physicorum, 
+        <lb ed="#C" n="82"/>ait: quod omnes formae artificiales sunt,  
+        <lb ed="#C" n="83"/>accidentia; sed per artem Divinam in 
+        <lb ed="#C" n="84"/>ducuntur formae substantiales: quia ab 
+        <lb ed="#C" n="85"/>hoc principio, quod Deus est, 
+        depen<lb ed="#C" n="86" break="no"/>dent caelum &amp; natura, ut dicitur. 12. 
+        Me<lb ed="#C" n="87" break="no"/>ta. Deus enim per intellectum suum, 
+        u<lb ed="#C" n="88" break="no"/>niversam naturam mensurat, &amp; totam 
+        <lb ed="#C" n="89"/>naturam instituit. Est enim haec 
+        differen<lb ed="#C" n="90" break="no"/>tia inter formam naturalem, &amp; formant 
+        <lb ed="#C" n="91"/>artis: quia secundum formamartis, 
+        lo<lb ed="#C" n="92" break="no"/>quendo de arte creata, non convenit 
+        re<lb ed="#C" n="93" break="no"/>aliquis motus, nec est in ea aliquod 
+        in<lb ed="#C" n="94" break="no"/>clinativum, vel aliquis appetitus ad 
+        ali<lb ed="#C" n="95" break="no"/>quem terminum: seamnum enim per 
+        <lb ed="#C" n="96"/>formam artis nullum habet motum, 
+        <lb ed="#C" n="97"/>nec inest ei aliquis appetitus ad alique 
+        <lb ed="#C" n="98"/>terminum. Sed formam naturalem 
+        se<lb ed="#C" n="99" break="no"/>quitur propria inclinatio, ut levia 
+        appe<lb ed="#C" n="100" break="no"/>tunt locum sursum, &amp; gravia deorsum: 
+        <lb ed="#C" n="101"/>&amp; quia per Divinam artem tota natura 
+        <lb ed="#C" n="102"/>est instituta, cum appetitus &amp; inclinatio 
+        <lb ed="#C" n="103"/>sequatur modum naturae omnis 
+        appe<lb ed="#C" n="104" break="no"/>titus naturalis &amp; omne inclinativum, 
+        <lb ed="#C" n="105"/>virtute Diviha rebus est inditum. Est 
+        igi<lb ed="#C" n="106" break="no"/>tur Deus primum inclinans sio 
+        inclina<lb ed="#C" n="107" break="no"/>tum. Inquantum autem non inest ei 
+        in<lb ed="#C" n="108" break="no"/>clinatio ab alio, sequitur quod libere 
+        a<lb ed="#C" n="109" break="no"/>igit, &amp; volendo efficiat quod efficit; 
+        pro<lb ed="#C" n="110" break="no"/>ut vero omnia inclinat &amp; omnibus 
+        in<lb ed="#C" n="111" break="no"/>stituit proprios appetitus, sequitur ut 
+        <lb ed="#C" n="112"/>secundum voluntatem suam omnia 
+        <!--850.xml-->
+        <pb ed="#C" n="825"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>regantur, &amp; ei cuncta obediant. Ex hoc  
+        <lb ed="#C" n="2"/>autem apparet quomodo Deus omnia 
+        <lb ed="#C" n="3"/>constituit in numero, pondere, &amp; 
+        men<lb ed="#C" n="4" break="no"/>sura: quia inquantum omnibus dedit 
+        <lb ed="#C" n="5"/>proprias naturas, &amp; secundum eorum 
+        <lb ed="#C" n="6"/>numerum eis indidit proprios 
+        appeti<lb ed="#C" n="7" break="no"/>tus, quasi quaedam pondera &amp; quasdam 
+        <lb ed="#C" n="8"/>inclinationes, non solum in numero &amp; 
+        <lb ed="#C" n="9"/>mensura res constituit, sed etiam in 
+        <lb ed="#C" n="10"/>pondere: &amp; quia idem est auctor 
+        natu<lb ed="#C" n="11" break="no"/>rarum, &amp; institutor appetituum, sicut  
+        <lb ed="#C" n="12"/>omnia a Deo producta sunt, sic omnia 
+        <lb ed="#C" n="13"/>ejus voluntati obediunt. Ex quo 
+        ap<lb ed="#C" n="14" break="no"/>paret non solum Divinam voluntatem. 
+        <lb ed="#C" n="15"/>esse causam rerum; sed etiam esse 
+        supre<lb ed="#C" n="16" break="no"/>mam causam. Ila etiam est via <name xml:id="Gi9qrR-g14772-Nd1e640" ref="#Augustine">Aug.</name> 3. 
+        <lb ed="#C" n="17"/>Trin. cap. 9. qui ex eo quod Deus 
+        om<lb ed="#C" n="18" break="no"/>nibus indidit proprias inclinationes &amp; 
+        <lb ed="#C" n="19"/>proprios appetitus, &amp; omnia constituit 
+        <lb ed="#C" n="20"/>in numero, pondere, &amp; mensura, 
+        conclu<lb ed="#C" n="21" break="no"/>dit Divinam voluntatem supremam 
+        <lb ed="#C" n="22"/>causam omnium: &amp; ostendit ea, quae 
+        <lb ed="#C" n="23"/>videmus in rebus, non esse attribuenda 
+        <lb ed="#C" n="24"/>fortunae, vel tantum modo alijs 
+        agenti<lb ed="#C" n="25" break="no"/>bus causis; sed Divinae voluntati 
+        princi<lb ed="#C" n="26" break="no"/>paliter. Dicamus ergo rationalem 
+        crea<lb ed="#C" n="27" break="no"/>turam operari per artem, &amp; Deum etiam 
+        <lb ed="#C" n="28"/>per suam artem agere, aliter tamen, &amp; 
+        <lb ed="#C" n="29"/>aliter: quia Deus per suam artem intrin 
+        <lb ed="#C" n="30"/>secus operatur, eo quod primordialiter 
+        <lb ed="#C" n="31"/>indidit omnibus rebus proprios 
+        appeti<lb ed="#C" n="32" break="no"/>tus: creaturam vero rationalem per suam 
+        <lb ed="#C" n="33"/>artem operari, inquantum proprias incli¬ 
+        <lb ed="#C" n="34"/>nationes &amp; rationes seminales, quae 
+        la<lb ed="#C" n="35" break="no"/>tent intrinsecus, ad habenda 
+        extrinse<lb ed="#C" n="36" break="no"/>cus semina, &amp; alia quae requiruntur, ad 
+        <lb ed="#C" n="37"/>manifesta producit. Vnde <name xml:id="Gi9qrR-g14772-Nd1e689" ref="#Augustine">Aug.</name> 3. de 
+        <lb ed="#C" n="38"/>Trin. cap. 9. Aliud est ex intimo ac 
+        summo<lb ed="#C" n="39" break="no"/>p. causarum cardine condere atque ministrare 
+        <lb ed="#C" n="40"/>creaturam, quod qui facit solus Creator est 
+        <lb ed="#C" n="41"/>Deus. Aliud autem pro distributis ab illo 
+        <lb ed="#C" n="42"/>viribus &amp; facultatibus aliquam operationem 
+        <lb ed="#C" n="43"/>forinsecus admovere. Qua ergo Deus 
+        ope<lb ed="#C" n="44" break="no"/>atur per artem, voluntarie operatur: 
+        <lb ed="#C" n="45"/>quia ut scribitur in principio 6. Meta. 
+        <lb ed="#C" n="46"/>Principium rerum artificialium est voluntas: 
+        <lb ed="#C" n="47"/>irtificiatum enim &amp; volutarium idem sunt.  
+        <lb ed="#C" n="48"/>Quia autem sic Deus per artem 
+        opera<lb ed="#C" n="49" break="no"/>tur, ut primordinaliter naturam 
+        in<lb ed="#C" n="50" break="no"/>stituat, non solum voluntas sua est 
+        <lb ed="#C" n="51"/>rerum causa, sed causa suprema 
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e723">
+                  <lb ed="#C" n="52"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="53"/>quod modus phorum. fuit, quod 
+        cor<lb ed="#C" n="54" break="no"/>poribus supercaelestibus dabant quosdam 
+        <lb ed="#C" n="55"/>motores appropriatos, quos 
+        appella<lb ed="#C" n="56" break="no"/>bant caelorum, animas, &amp; hujusmodi 
+        <!--850.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>caelorum animae: quia volebant 
+        assimi<lb ed="#C" n="58" break="no"/>lari causae primae, movebant corpora 
+        <lb ed="#C" n="59"/>caelestia: ut sic movedo essent causae 
+        re<lb ed="#C" n="60" break="no"/>rum. Ideo Deus dicitur movere sicut 
+        <lb ed="#C" n="61"/>lesideratum &amp; amatum: quia animae 
+        <lb ed="#C" n="62"/>caelorum, sive motores appropriati 
+        cae<lb ed="#C" n="63" break="no"/>lestibus corporibus, desiderantes assimi 
+        <lb ed="#C" n="64"/>lari bono Primo, movent caelos: propter 
+        <lb ed="#C" n="65"/>quod &amp; ipse Deus movet caelestia 
+        cor<lb ed="#C" n="66" break="no"/>pora, inquantum movet appetitum mo 
+        <lb ed="#C" n="67"/>torum, ut moveant: quod autem sic 
+        <lb ed="#C" n="68"/>movet, voluntarie movet. Nam bonum 
+        <lb ed="#C" n="69"/>Primum non movet in virture alterius 
+        <lb ed="#C" n="70"/>poni: ideo libere &amp; voluntarie movet. Si 
+        <lb ed="#C" n="71"/>quod autem bonum voluntate carens 
+        <lb ed="#C" n="72"/>&amp; intellectu, movet ut desideratum &amp; 
+        <lb ed="#C" n="73"/>amatum, non movet ut bonum 
+        Pri<lb ed="#C" n="74" break="no"/>mum, sed ut quaedam similitudo boni 
+        <lb ed="#C" n="75"/>primi. Ideo non est simile de 
+        pomo<lb ed="#C" n="76" break="no"/>quod simile dicebatur. Possumus tamen, 
+        <lb ed="#C" n="77"/>si volumus, hanc propositionem 
+        exten<lb ed="#C" n="78" break="no"/>dere ad totam naturam: movet enim 
+        <lb ed="#C" n="79"/>Deus qualibet rem naturalem, ut deside 
+        <lb ed="#C" n="80"/>ratum &amp; amatum. Nam eo ipso quod 
+        <lb ed="#C" n="81"/>omnibus rebus indidit proprium 
+        appe<lb ed="#C" n="82" break="no"/>titum, propter quem omnia suum esse 
+        <lb ed="#C" n="83"/>appetunt, quod est quaedam participa 
+        <lb ed="#C" n="84"/>tio summi boni: Primum bonum alb 
+        <lb ed="#C" n="85"/>omnibus desideratur &amp; amatur: &amp; quia 
+        <lb ed="#C" n="86"/>instituendo rebus proprium apperitum, 
+        <lb ed="#C" n="87"/>per quem aliquo modo esse Divinum 
+        <lb ed="#C" n="88"/>&amp; quod est optimum appetunt, secun 
+        <lb ed="#C" n="89"/>dum talem appetitum inclinantur res &amp; 
+        <lb ed="#C" n="90"/>moventur secundum Divinae 
+        volunta<lb ed="#C" n="91" break="no"/>tis arbitrium, dicere possumus Deum 
+        <lb ed="#C" n="92"/>omnia movere, ut desideratum &amp; 
+        ama<lb ed="#C" n="93" break="no"/>tum. Sed ex hoc non habetur, quod non 
+        vo<lb ed="#C" n="94" break="no"/>luntarie agat, immo habetur oppositum: 
+        <lb ed="#C" n="95"/>nam ut superius est ostensum, quia 
+        <lb ed="#C" n="96"/>Deus indidit rebus proprium appetitum, 
+        <lb ed="#C" n="97"/>sua voluntas suprema causa rerum 
+        ex<lb ed="#C" n="98" break="no"/>istit.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e832">
+        Ad 2. dicendum, quod Deus cum 
+        <lb ed="#C" n="99"/>hoc, quod vult libere, vult 
+        immutabili<lb ed="#C" n="100" break="no"/>ter: nam voluntas sua simul cum liber 
+        <lb ed="#C" n="101"/>tate habet immutabilitatem: &amp; quia co 
+        <lb ed="#C" n="102"/>tingentes causae sunt causae mutabiles, 
+        <lb ed="#C" n="103"/>Divina voluntas non est causa 
+        contin<lb ed="#C" n="104" break="no"/>gens, ut ratio supponebat.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e848">
+        Ad 3. 
+        dicen<lb ed="#C" n="105" break="no"/>dum, quod Divina voluntas est suflicies 
+        <lb ed="#C" n="106"/>causa rerum, nec tamen propter hoc  
+        <lb ed="#C" n="107"/>tollitur causalitas aliquorum entium. 
+        <lb ed="#C" n="108"/>Non enim est ex Divina insufficientia, 
+        <lb ed="#C" n="109"/>quod producit effectus aliquos 
+        median<lb ed="#C" n="110" break="no"/>tibus causis secundis: posset enim sine 
+        <lb ed="#C" n="111"/>illis producere: sed hoc est ex Divina 
+        <lb ed="#C" n="112"/>benignitate, quae voluit dignitatem suam 
+        <!--851.xml-->
+        <pb ed="#C" n="826"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>communicare creaturis suis.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e877">
+        Ad 4. 
+        di<lb ed="#C" n="2" break="no"/>sscendum, quod potentia in his, quae a 
+        <lb ed="#C" n="3"/>gunt per voluntatem, est principium 
+        <lb ed="#C" n="4"/>operis in exequedo. In hoc enim 
+        vide<lb ed="#C" n="5" break="no"/>tur consistere ratio potentiae, ut sit 
+        pro<lb ed="#C" n="6" break="no"/>. ximum principium operationis: volun¬ 
+        <lb ed="#C" n="7"/>tas enim videtur esse quasi principium 
+        <lb ed="#C" n="8"/>primum: &amp; ideo ratio causalitatis 
+        ma<lb ed="#C" n="9" break="no"/>gis attribuitur voluntati, cujus est 
+        im<lb ed="#C" n="10" break="no"/>perare, quam potentiae cujus est 
+        exe<lb ed="#C" n="11" break="no"/>qui.
+      </p>
+               <p xml:id="Gi9qrR-g14772-d1e901">
+        Ad 5. dicendum, quod 
+        demonstra<lb ed="#C" n="12" break="no"/>tio habet fieri per causas proximas, 
+        qua<lb ed="#C" n="13" break="no"/>quodammodo sunt ejusdem generis cum 
+        <lb ed="#C" n="14"/>passione, vel saltem nunquam fit nisi 
+        <lb ed="#C" n="15"/>per causas determinatas ad aliquod 
+        ge<lb ed="#C" n="16" break="no"/>nus entium. Voluntas autem Divina est  
+        <lb ed="#C" n="17"/>causa communis omnibus: ideo per 
+        ta<lb ed="#C" n="18" break="no"/>lem causam demonstrare non 
+        possu<lb ed="#C" n="19" break="no"/>mus, potissime cum eam non 
+        cognos<lb ed="#C" n="20" break="no"/>camus perfecte, ut in ipsa rationem 
+        cun<lb ed="#C" n="21" break="no"/>juslibet propriam possimus 
+        cognos<lb ed="#C" n="22" break="no"/>cere. 
+        <lb ed="#C" n="23"/>Dees Meet ve xer. 3Set. Dept¬ 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e73328"><!-- l1-d15p1prooem -->
+            <head xml:id="Gi9qrR-e73328-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e73328-d1e111">
+      <!--310.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="19"/>DISTINCTIO XV 
+      <lb ed="#C" n="20"/>VTRVM SPIRITVS SANCTVS A SE IPSO DETVR. 
+      <lb ed="#C" n="21"/>PARS PRIMA.
+    </p>
+            <p xml:id="Gi9qrR-e73328-d1e124">
+      <!--310.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="22"/>R CONSIDERANDVM In I 
+      <lb ed="#C" n="23"/>praesenti dist. inquirit Mag. 
+      <lb ed="#C" n="24"/>utrum Spiritus Sanctus ad se 
+    </p>
+            <p xml:id="Gi9qrR-e73328-d1e137">
+               <lb ed="#C" n="25"/>mittatur, &amp; tria facit: quia 
+      <lb ed="#C" n="26"/>1. ostendit Spiritum Sanctum 
+      <lb ed="#C" n="27"/>se mittere. 2. comparat 
+      mis<lb ed="#C" n="28" break="no"/>sionem Spiritus Sancti ad 
+      mis<lb ed="#C" n="29" break="no"/>sionem Filij. 3. specialiter 
+      quae<lb ed="#C" n="30" break="no"/>rit de missione Filij, utrum semel vel pluries 
+      mi<lb ed="#C" n="31" break="no"/>sius sit? Secunda ibi: Ne autem minet is. Tertia ibi: 
+      <lb ed="#C" n="32"/>Hic autem quaeritur. Vbi praesens lectio 
+      terminabi<lb ed="#C" n="33" break="no"/>tur. Circa primum tria facit: quia 1. ostendit 
+      <lb ed="#C" n="34"/>Spiritum Sanctum a se ipso procedere, &amp; se 
+      ip<lb ed="#C" n="35" break="no"/>sum dare. 2. manifestat haec per auctoritatem 
+      <lb ed="#C" n="36"/>Aug. 3. adducit ad hoc rationes: quia si 
+      Spiri<lb ed="#C" n="37" break="no"/>tus Sanctus non dat se ipsum, aliquid potest 
+      Pa<lb ed="#C" n="38" break="no"/>ter, &amp; Filius, &amp; operatur, quod non potest, 
+      <lb ed="#C" n="39"/>nec operatur Spiritus Sanctus, quod est 
+      incon<lb ed="#C" n="40" break="no"/>veniens, propter quod cocludit Spiritum 
+      San<lb ed="#C" n="41" break="no"/>ctum se ipsum mittere, &amp; a se procedere, ex quo 
+      <lb ed="#C" n="42"/>se dat. Secunda ibi: Vnde <name xml:id="Gi9qrR-e73328-Nd1e178" ref="#Augustine">Aug.</name> Tertia ibi: Si 
+      <lb ed="#C" n="43"/>enim Spiritus. 
+    </p>
+            <p xml:id="Gi9qrR-e73328-d1e184">
+               <lb ed="#C" n="44"/>Tunc sequitur illa pars: Ne autem; in 
+      <lb ed="#C" n="45"/>qua comparat missionem Filij ad 
+      mis<lb ed="#C" n="46" break="no"/>sionem Spiritus S. &amp; duo facit: quia 1. 
+      pro<lb ed="#C" n="47" break="no"/>mitrit intentum. 2. manifestat propositum, ibi:  
+      <lb ed="#C" n="48"/>Quo circa. Convenit enim missio Filij cum mis 
+      <lb ed="#C" n="49"/>sione Spiritus in tribus. 2. quia sicut Spiritus a 
+      <lb ed="#C" n="50"/>se mittitur, sic Filius. 2. quia de Spiritu 
+      con<lb ed="#C" n="51" break="no"/>ceditur, quod mittatur a Filio: ita de Filio, 
+      <lb ed="#C" n="52"/>quod mittatur a Spiritu licet non aeque proprie 
+      <lb ed="#C" n="53"/>3. quia sicut missio Filij non est per 
+      mutatio<lb ed="#C" n="54" break="no"/>nem loci, ita nec Spiritus Sancti. Ideo duo 
+      fa<lb ed="#C" n="55" break="no"/>cit: quia 1. conbinat illas duas similitudines 
+      <lb ed="#C" n="56"/>dicendo Filium mitti a se, &amp; a Spiritu Sancto. 
+      <lb ed="#C" n="57"/>Nam Spiritus Sanctus etiam a se, &amp; a Filio 
+      <lb ed="#C" n="58"/>mittitur. 2. addit tertiam convenientiam 
+      osten<lb ed="#C" n="59" break="no"/>dendo neutram missionem esse per mutationem 
+      <lb ed="#C" n="60"/>loci. Ibi: Quae quaerens. 
+    </p>
+            <p xml:id="Gi9qrR-e73328-d1e224">
+               <lb ed="#C" n="61"/>Tunc sequitur illa pars: Quocirca. Et tria 
+      <lb ed="#C" n="62"/>facit secundum quod triplicem convenientiam 
+      <lb ed="#C" n="63"/>praeassignatam manifestat. Nam 1. ostendit 
+      Fi<lb ed="#C" n="64" break="no"/>cium mitti a Spiritu Sancto. 2. ostendit eum 
+      <!--310.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="65"/>mitti a se ipso. 3. manifestat ipsum per, talem 
+    </p>
+            <p xml:id="Gi9qrR-e73328-d1e242">
+               <lb ed="#C" n="66"/>missionem non mutare locum. Haec enim tria 
+      <lb ed="#C" n="67"/>eriam de Spiritu concedimus: quia a Filio mit 
+      <lb ed="#C" n="68"/>titur, &amp; a se, &amp; non mutat locum. Secunda 
+      <lb ed="#C" n="69"/>ibi: Deinde ostendit. Tertia ibi: Non enim missus 
+      <lb ed="#C" n="70"/>est. Circa primum duo facit: quia 1. 
+      manife<lb ed="#C" n="71" break="no"/>stat per <name xml:id="Gi9qrR-e73328-Nd1e257" ref="#Augustine">Aug.</name> Filium non mitti sine Spiritu 
+      Sa<lb ed="#C" n="72" break="no"/>cto. 2. ostendit per Ambros. ipsum mitti a 
+      Spi<lb ed="#C" n="73" break="no"/>ritu Sancto, ibi: Et quod a Spinitu. Tunc 
+      sequi<lb ed="#C" n="74" break="no"/>tur illa pars: Deinde, in qua ostendit eum mitti 
+      <lb ed="#C" n="75"/>a se, &amp; tria facit: quia 1. ostendit Filium a se 
+      <lb ed="#C" n="76"/>ipso dari. 2. manifestat ipsum se ipsum mittere. 
+      <lb ed="#C" n="77"/>3. removet cabilationem, ostendens quod 
+      li<lb ed="#C" n="78" break="no"/>cet Pater eum mittat, potest tamen se ipsum 
+      <lb ed="#C" n="79"/>mittere, sicut Pater eum sanctificans ipse se 
+      <lb ed="#C" n="80"/>ipsum sanctificavit, &amp; eum tradens, se ipsam 
+      <lb ed="#C" n="81"/>tradidit: quia sunt indivisa opera Trinitatis. 
+      <lb ed="#C" n="82"/>Secunda ibi: Quod autem. Tertia ibi; Sed inquit 
+      <lb ed="#C" n="83"/>aliquis. Deinde cum dicit: Non enim. Manifestat 
+      <lb ed="#C" n="84"/>tertium, scilicet, quod per talem missionem 
+      <lb ed="#C" n="85"/>non mutavit locum, &amp; tria facit: quia 1. 
+      <lb ed="#C" n="86"/>facit quod dictum est. 2. ex habitis concludit 
+      <lb ed="#C" n="87"/>Filium mitti a Patre, a se ipso, &amp; a Spiritu 
+      San<lb ed="#C" n="88" break="no"/>cto. Tertio circa praetacta movet quamdam 
+      <lb ed="#C" n="89"/>brevem quaestionem. Nam Filius dicit se non 
+      <lb ed="#C" n="90"/>venisse a se, ergo non se missit; &amp; solvit, 
+      <lb ed="#C" n="91"/>quod hoc dixit se cundum formam servi, se¬ 
+      <lb ed="#C" n="92"/>cundum quam non est operatus ad mis¬ 
+      <lb ed="#C" n="93"/>sionem. Secunda ibi: Ex supra dictis. 
+      <lb ed="#C" n="94"/>Tertia ibi; Sed ad hoc. In quo 
+      <lb ed="#C" n="95"/>terminatur sententia 
+      <lb ed="#C" n="96"/>lectionis, &amp; di¬ 
+      <lb ed="#C" n="97"/>stinctio¬ 
+      <lb ed="#C" n="98"/>nia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="247"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e66475"><!-- l1-d12dublit -->
+            <head xml:id="Gi9qrR-e66475-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-e66475-d1e111">
+               <lb ed="#C" n="79"/>DVBITATIONES LITTERALES.
+    </p>
+            <p xml:id="Gi9qrR-e66475-d1e116">
+               <lb ed="#C" n="80"/>SVPER litteram super illud: Aut nato 
+      <lb ed="#C" n="81"/>Filio &amp;c. Quaeritur: quare Mag. 
+      <lb ed="#C" n="82"/>nullam partem concedit; sed videtur,  
+      <lb ed="#C" n="83"/>quod debeat eam concedere, cum 
+      na<lb ed="#C" n="84" break="no"/>tum, &amp; non natum opponantur 
+      con<lb ed="#C" n="85" break="no"/>tradictorie. Et dicendum, quod 
+      neu<lb ed="#C" n="86" break="no"/>tram concedit: quia quaelibet est mul 
+      <lb ed="#C" n="87"/>tiplex, nam si nato dicit temporis 
+      prae<lb ed="#C" n="88" break="no"/>teritionem, tunc est falsa, cum ibi non 
+      <lb ed="#C" n="89"/>sint intervalla temporum, &amp; negativa 
+      <lb ed="#C" n="90"/>vera. Sed si nato dicit persectionem, est 
+      <lb ed="#C" n="91"/>affirmativa vera: quia nato Filio, sive 
+      <lb ed="#C" n="92"/>perfecto secundum nativitatem 
+      proce<lb ed="#C" n="93" break="no"/>dit Spiritus, &amp; negativa tunc est falsa, 
+      <lb ed="#C" n="94"/>scilicet, non nato Filio procedit 
+      Spi<lb ed="#C" n="95" break="no"/>ritus. 
+    </p>
+            <p xml:id="Gi9qrR-e66475-d1e153">
+               <lb ed="#C" n="96"/>Item non videtur arguere ad 
+      pro<lb ed="#C" n="97" break="no"/>positum: nam quaestio est, utrum 
+      Spi<lb ed="#C" n="98" break="no"/>ritus procedat prius a Patre, quam a 
+      <lb ed="#C" n="99"/>Filio, &amp; ipse arguit, quod Filius prius 
+      <lb ed="#C" n="100"/>procedit a Patre, quam Spiritus. Et 
+      di<lb ed="#C" n="101" break="no"/>cendum, quod eadem veritate negatur  
+      <lb ed="#C" n="102"/>utrumque: quia utrumque repugnat 
+      <lb ed="#C" n="103"/>aeternitati, ideo si unum conceditur,  
+      <lb ed="#C" n="104"/>conceditur aliud, &amp; si negatur, negatur 
+      <lb ed="#C" n="105"/>aliud. Item notandum est, quod aliud  
+      <lb ed="#C" n="106"/>est procedere plenius, aliud magis: quia 
+      <lb ed="#C" n="107"/>plenius procedit, quod plura accipit a 
+      <lb ed="#C" n="108"/>principio. Magis, quod a maiori 
+      vir<lb ed="#C" n="109" break="no"/>tute procedit. Spiritus Sanctus non 
+      plu<lb ed="#C" n="110" break="no"/>ra accipit a Patre, quam a Filio, nec a 
+      <!--285.xml-->
+      <pb ed="#C" n="248"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>matiori virture procedtit, cum 
+      proce<lb ed="#C" n="2" break="no"/>dit a Patre, quam a Filio, cum eademi 
+      <lb ed="#C" n="3"/>sit cirtus utriusque: ideo neque 
+      ple<lb ed="#C" n="4" break="no"/>rtius, neque magis procedit ab uno, quam 
+      <lb ed="#C" n="5"/>ab. alio. 
+    </p>
+            <p xml:id="Gi9qrR-e66475-d1e205">
+               <lb ed="#C" n="6"/>aitem dicitur Spiritum Sanctum 
+      pro<lb ed="#C" n="7" break="no"/>cedtere a Patre, principaliter. Contra: 
+      <!--285.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="8"/>quia procederet a Filio secundario. 
+      Di<lb ed="#C" n="9" break="no"/>cendum, quod ibi principaliter nom 
+      <lb ed="#C" n="10"/>dicit gradum virtutis; sed ordinem 
+      oni<lb ed="#C" n="11" break="no"/>ginis; prooedene autem secundaumo 
+      <lb ed="#C" n="12"/>est procedere secundum minntem: 
+      vir<lb ed="#C" n="13" break="no"/>tutem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

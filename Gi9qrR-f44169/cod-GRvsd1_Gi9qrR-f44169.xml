@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f44169"><!-- l1-d28expolit -->
+            <head xml:id="Gi9qrR-f44169-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f44169-d1e111">
+      <!--577.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="57"/>ExPOSITIO LETTERAE. 
+    </p>
+            <p xml:id="Gi9qrR-f44169-d1e120">
+               <lb ed="#C" n="58"/>SVPER litteram: super illo: Quibus¬ 
+      <lb ed="#C" n="59"/>dam videtur. Notandum, quod 
+      quae<lb ed="#C" n="60" break="no"/>libet positio aliquomodo verum dicit:  
+      <lb ed="#C" n="61"/>nam si non genitum solam negationem 
+      <lb ed="#C" n="62"/>dicit, tunc Spiritus Sanctus, &amp; essentia 
+      <lb ed="#C" n="63"/>possent dici non genita: nam de 
+      quo<lb ed="#C" n="64" break="no"/>cumque falsificatur affirmatio, de eo 
+      <lb ed="#C" n="65"/>negatio verificatur: &amp; ideo si falsum 
+      <lb ed="#C" n="66"/>est, quod essentia sit genita, verum est 
+      <lb ed="#C" n="67"/>quod non sit genita: sed si non genitum 
+      <lb ed="#C" n="68"/>non dicat negationem solam, sed 
+      di<lb ed="#C" n="69" break="no"/>cat negationem praesupponentem 
+      ra<lb ed="#C" n="70" break="no"/>tionem principij respectu Divinae 
+      Per<lb ed="#C" n="71" break="no"/>sonae, sic competit soli Patri. Vel dicen 
+      <lb ed="#C" n="72"/>dum, quod non genitum potest 
+      nega<lb ed="#C" n="73" break="no"/>re solum generari, &amp; tunc essentia 
+      Di<lb ed="#C" n="74" break="no"/>vina, &amp; Spiritus Sanctus sunt non 
+      geni<lb ed="#C" n="75" break="no"/>ta: quia non generantur. Vel potest ne 
+      <lb ed="#C" n="76"/>gare non solum non generari, sed nec 
+      <lb ed="#C" n="77"/>per generationem communicari, nec 
+      <lb ed="#C" n="78"/>a genito procedere, &amp; sic nec essentia 
+      <lb ed="#C" n="79"/>nec Spiritus S. non genita sunt,  
+    </p>
+            <p xml:id="Gi9qrR-f44169-d1e170">
+               <lb ed="#C" n="80"/>tem super illo: Aliud est esse Patrem. 
+      <lb ed="#C" n="81"/>aliud esse Filium. Notandum, quod esse 
+      <lb ed="#C" n="82"/>dupliciter accipi potest. 1. prout es 
+      <lb ed="#C" n="83"/>actus essentiae: &amp; quia in Deo non dis 
+      <lb ed="#C" n="84"/>fert essentia, &amp; tale esse: sicut eaden 
+      <lb ed="#C" n="85"/>est essentia Patris &amp; Filij, ita est idem 
+      <lb ed="#C" n="86"/>esse. 2. esse potest dicere veritatem 
+      con<lb ed="#C" n="87" break="no"/>positionis, &amp; sic esse Patrem non est est 
+      <lb ed="#C" n="88"/>Filium: quia non eodem modo 
+      verifi<lb ed="#C" n="89" break="no"/>catur ista: Pater est Pater, &amp; Filius est 
+      <lb ed="#C" n="90"/>Filius. Nam Pater est Pater 
+      paternita<lb ed="#C" n="91" break="no"/>te, Filius est Filius filiatione: paternitas 
+      <lb ed="#C" n="92"/>autem &amp; filiatio sunt duae res: ex vi 
+      ta<lb ed="#C" n="93" break="no"/>men locutionis magis videtur, esse, 
+      im<lb ed="#C" n="94" break="no"/>portare veritatem compositionis, qua 
+      <lb ed="#C" n="95"/>do post ipsum sequitur aliquod 
+      praedi<lb ed="#C" n="96" break="no"/>catum; &amp; quando non, magis 
+      impor<lb ed="#C" n="97" break="no"/>tat actum essentiae: &amp; ideo concedit 
+      <lb ed="#C" n="98"/>Mag. quod aliud est esse Patrem, aliud 
+      <lb ed="#C" n="99"/>esse Filium; non est tamen aliud Patrem 
+      <lb ed="#C" n="100"/>esse, &amp; Filium esse: quia in primis 
+      pro<lb ed="#C" n="101" break="no"/>positionibus, esse, magis denotat 
+      ve<lb ed="#C" n="102" break="no"/>ritatem compositionis: ut patet per 
+      <lb ed="#C" n="103"/>habita; in alijs autem magis dicit actum 
+      <lb ed="#C" n="104"/>essentiae. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

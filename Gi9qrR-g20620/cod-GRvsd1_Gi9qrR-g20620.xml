@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="845"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g20620"><!-- l1-d47q2 -->
+            <head xml:id="Gi9qrR-g20620-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-g20620-d1e111">
+               <lb ed="#C" n="50"/>QVAESTIO II. 
+      <lb ed="#C" n="51"/>De his quae fieri videnter praeter vel contra 
+      <lb ed="#C" n="52"/>Dei voluntatem. 
+    </p>
+            <p xml:id="Gi9qrR-g20620-d1e120">
+               <lb ed="#C" n="53"/>Einde quaeritur de his, quae videtur  
+      <lb ed="#C" n="54"/>Dfieri praeter Divinam voluntatem, 
+      <!--870.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="55"/>vel contra. Et circa hoc quaeruntur tria, 
+      <lb ed="#C" n="56"/>Primo: utrum aliquid fiat praeter Divia¬ 
+      <lb ed="#C" n="57"/>nam voluntatem? Secundo:, utrum id, 
+      <lb ed="#C" n="58"/>quod est contra voluntatem ejus, 
+      obfe<lb ed="#C" n="59" break="no"/>quatur voluntati ipsius: Tertio: utrum 
+      <lb ed="#C" n="60"/>id, quod est praeter ejus voluntatem, 
+      pos<lb ed="#C" n="61" break="no"/>sit subfacere praecepto ejus; 
+    </p>
+            <div xml:id="Gi9qrR-g20620-Dd1e146">
+               <head xml:id="Gi9qrR-g20620-Hd1e148">Articulus 1</head>
+               <p xml:id="Gi9qrR-g20620-d1e151">
+                  <lb ed="#C" n="62"/>ARTICVLVS I. 
+        <lb ed="#C" n="63"/>Vtrum aliquid fiat praeter Divinam 
+        <lb ed="#C" n="64"/>voluntatem? 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e160">
+                  <lb ed="#C" n="65"/>AD primum sic proceditur: videtur  
+        <lb ed="#C" n="66"/>quod nihil fiat praeter Divinam 
+        <lb ed="#C" n="67"/>voluntatem: quia, ut, habitum est, ea 
+        <lb ed="#C" n="68"/>fiunt eo volente, quae fiunt a Deo provi 
+        <lb ed="#C" n="69"/>dente: sed ea fiunt ipso providente, que 
+        <lb ed="#C" n="70"/>ab aeterno providit, &amp; praescivit, vel 
+        <lb ed="#C" n="71"/>prospexit. Cum ergo cuncta 
+        pros<lb ed="#C" n="72" break="no"/>pexerit, tam bona, quam mala, &amp; 
+        ni<lb ed="#C" n="73" break="no"/>hil praeter ejus scientiam fiat, nihil 
+        prae<lb ed="#C" n="74" break="no"/>ter ejus voluntatem efficitur.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e184">
+        Praeterea: i 
+        <lb ed="#C" n="75"/>dicitur in 5. de Consol. Deus ab aeterno 
+        <lb ed="#C" n="76"/>cuncta prospiciens providentiae cernitur 
+        in<lb ed="#C" n="77" break="no"/>tuitu suisque meritis praedestinata disponit. Sed  
+        <lb ed="#C" n="78"/>tam bona quam mala disponit, &amp; 
+        om<lb ed="#C" n="79" break="no"/>nibus secundum sua merita tribuit: 
+        ni<lb ed="#C" n="80" break="no"/>hil ergo praeter providentiam fit, &amp; per 
+        <lb ed="#C" n="81"/>consequens nec praeter Divinam 
+        volun<lb ed="#C" n="82" break="no"/>tate efficitur.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e204">
+        Praeterea: potentior vide¬ 
+        <lb ed="#C" n="83"/>tur voluntas praeter quam, &amp; contra quam 
+        <lb ed="#C" n="84"/>nihil efficitur, quam solum contra quam 
+        <lb ed="#C" n="85"/>nihil fit, praeter tamem ipsam multa fiut: 
+        <lb ed="#C" n="86"/>cum ergo Divina voluntas sit 
+        potentis<lb ed="#C" n="87" break="no"/>sima, non solum oportet nos dicere, 
+        <lb ed="#C" n="88"/>quod nihil siat contra eam, sed etiam quod  
+        <lb ed="#C" n="89"/>nihil efficiatur praeter illam.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e223">
+        Praeterea: 
+        <lb ed="#C" n="90"/>permissio minus videtur habere de 
+        vo<lb ed="#C" n="91" break="no"/>untario, quam aliquid aliud signum 
+        Di<lb ed="#C" n="92" break="no"/>vinae voluntatis. Nam cum alia, signa 
+        <lb ed="#C" n="93"/>Divinae voluntatis implentur, hoc est, 
+        <lb ed="#C" n="94"/>secundum quod Deus in nobis 
+        opera<lb ed="#C" n="95" break="no"/>tur. Nam nec consilia nec praecepta 
+        im<lb ed="#C" n="96" break="no"/>plere possumus absque Divina 
+        volunta<lb ed="#C" n="97" break="no"/>te &amp; ejus auxilio: sed permissio ex hoc  
+        <lb ed="#C" n="98"/>existit: quia Deus nostra mala impedire 
+        <lb ed="#C" n="99"/>non nititur: cum ergo nihil fiat praeter 
+        <lb ed="#C" n="100"/>permissionem secundum Magistrum, 
+        <lb ed="#C" n="101"/>multo minus sit aliquid praeter eius 
+        <lb ed="#C" n="102"/>voluntatem, qualitercumque sump¬¬ 
+        <lb ed="#C" n="103"/>tam. 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e256">
+                  <lb ed="#C" n="104"/>Incontrarium est Magister in littera, 
+        <lb ed="#C" n="105"/>qui dicit multa fieri praeter Divinam 
+        <lb ed="#C" n="106"/>voluntatem.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e265">
+        Praeterea: qui non facit 
+        <lb ed="#C" n="107"/>nec praeter voluntatem Dei nec contra, 
+        <!--871.xml-->
+        <pb ed="#C" n="846"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>conformat voluntatem suam volunta 
+        <lb ed="#C" n="2"/>ti Divinae, &amp; non peccat: cum ergo mul 
+        <lb ed="#C" n="3"/>ti male agant, oportet eos facere contra 
+        <lb ed="#C" n="4"/>Divinam voluntatem, vel praeter: sed  
+        <lb ed="#C" n="5"/>nihil sit contrasloquendo de voluntate 
+        <lb ed="#C" n="6"/>consequente) quia illa semper impletur,  
+        <lb ed="#C" n="7"/>ergo multa fiunt praeter. 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e291">
+                  <lb ed="#C" n="8"/>RESOLVTIO. 
+        <lb ed="#C" n="9"/>Et si aliqua contra voluntatem Dei 
+        antece<lb ed="#C" n="10" break="no"/>dentem fiant; nihil tamen fit contra 
+        consequen<lb ed="#C" n="11" break="no"/>tem: praeter vero eius operationem privatio¬  
+        <lb ed="#C" n="12"/>nes bonorum &amp; mala fiunt, non prae¬ 
+        <lb ed="#C" n="13"/>ter ejus permissionem, nec contra. 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e307">
+                  <lb ed="#C" n="14"/>REspond dicendum, quod quidquid  
+        <lb ed="#C" n="15"/>Rvoluntatem movet semper est bo 
+        <lb ed="#C" n="16"/>num, vel simpliciter vel secundum 
+        ap<lb ed="#C" n="17" break="no"/>parentiam: quia secundum Philosophum 4. de 
+        <lb ed="#C" n="18"/>nima: Apperibile semper movet appetitum 
+        <lb ed="#C" n="19"/>sub ratione boni, sive sit existens bonum, 
+        si<lb ed="#C" n="20" break="no"/>ve apparens. Et quia si non 
+        apprehendi<lb ed="#C" n="21" break="no"/>tur aliquid sub ratione boni, non potest 
+        <lb ed="#C" n="22"/>movere voluntatem, nunquam est 
+        ma<lb ed="#C" n="23" break="no"/>litia in voluntate, nisi sit error vel 
+        sal<lb ed="#C" n="24" break="no"/>tem aliqua nescientia in ratione. Vnde 3. 
+        <lb ed="#C" n="25"/>Ethic. scribitur: Omnis malus ignorans. 
+        <lb ed="#C" n="26"/>Nam secundum Diony. 4. de Div. nom. 
+        <lb ed="#C" n="27"/>Nemo proposito sibi malo facit, quae facit. 
+        <lb ed="#C" n="28"/>Quia secundum eum semper malum 
+        <lb ed="#C" n="29"/>est praeter voluntatem &amp; praeter 
+        intentio<lb ed="#C" n="30" break="no"/>nem, unde nec habet fine neque 
+        principi<lb ed="#C" n="31" break="no"/>um. Si ergo est aliquis intellectus, in 
+        <lb ed="#C" n="32"/>quo nulla inordinatio neque error 
+        ca<lb ed="#C" n="33" break="no"/>dere potest, ab habente huiusmodi 
+        in<lb ed="#C" n="34" break="no"/>tellectum non poterit malum esse 
+        voli<lb ed="#C" n="35" break="no"/>tum: &amp; quia Divinus intellectus errare 
+        <lb ed="#C" n="36"/>non potest, &amp; in eo nescientia aliqua 
+        <lb ed="#C" n="37"/>esse non valet, nullum malum a Deo 
+        <lb ed="#C" n="38"/>est volitum, sed quod non est volitum 
+        <lb ed="#C" n="39"/>ab aliquo, vel est contra voluntatem ejus 
+        <lb ed="#C" n="40"/>vel praeter: cum habitum sit contra 
+        vo<lb ed="#C" n="41" break="no"/>luntatem Divinam consequentem nihil 
+        <lb ed="#C" n="42"/>fieri posse, cum secundum eam nullum 
+        <lb ed="#C" n="43"/>malum sit volitum, oportet, quod 
+        prae<lb ed="#C" n="44" break="no"/>ter eam mala fiant. Vnde Magister in 
+        lit<lb ed="#C" n="45" break="no"/>tera ait: quod nihil contra voluntatem 
+        <lb ed="#C" n="46"/>Divinam, quae ipse est, fit; nisi dicatur  
+        <lb ed="#C" n="47"/>contra eam fieri, quod praeter eam fit. Tamem 
+        <lb ed="#C" n="48"/>quia aliquo modo potest accipi 
+        volun<lb ed="#C" n="49" break="no"/>tas Divina, quod contra eam fit: aliquo 
+        <lb ed="#C" n="50"/>quod praeter eam: aliquo quod nec 
+        con<lb ed="#C" n="51" break="no"/>tra eam, nec etiam praeter. 
+        Distinguen<lb ed="#C" n="52" break="no"/>dum est de Divina voluntate, ut com¬ 
+        <!--871.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="53"/>muniter distinguitur. Nam voluntas 
+        Di<lb ed="#C" n="54" break="no"/>vina dividitur in voluntatem 
+        beneplaci<lb ed="#C" n="55" break="no"/>ti &amp; signi. Voluntas beneplaciti dividitur 
+        <lb ed="#C" n="56"/>in antecedentem &amp; consequentem. Quod 
+        <lb ed="#C" n="57"/>autem Deus vult antecedenter, ut 
+        os<lb ed="#C" n="58" break="no"/>tensum est, non vult simpliciter; sed  
+        <lb ed="#C" n="59"/>quod vult consequenter. Fieri autem 
+        <lb ed="#C" n="60"/>aliquid contra id, quod Deus non vult 
+        <lb ed="#C" n="61"/>simpliciter, non est inconvemens, ut 
+        di<lb ed="#C" n="62" break="no"/>ctum est, ergo multa fiunt contra 
+        volun<lb ed="#C" n="63" break="no"/>tatem antecedentem, vt Deus vult omnes 
+        <lb ed="#C" n="64"/>homines salvos fieri antecedenter, &amp; 
+        ta<lb ed="#C" n="65" break="no"/>mem non omnes salvantur. Contra autem 
+        vo<lb ed="#C" n="66" break="no"/>untatem consequentem nihil fieri 
+        po<lb ed="#C" n="67" break="no"/>test, sed cum mala non velit Deus 
+        vo<lb ed="#C" n="68" break="no"/>luntate consequente, nec sunt contra 
+        <lb ed="#C" n="69"/>eam, eo quod ea permittit: oportet ea 
+        <lb ed="#C" n="70"/>esse praeter illam. Voluntas autem signi 
+        <lb ed="#C" n="71"/>distinguitur: quia quaedam signa 
+        respon<lb ed="#C" n="72" break="no"/>dent voluntati antecedenti, ut consilium, 
+        <lb ed="#C" n="73"/>praeceptum, &amp; prohibitio: &amp; quaedam 
+        <lb ed="#C" n="74"/>consequenti, ut operatio, &amp; permissio 
+        <lb ed="#C" n="75"/>Fieri aliquid contra signa voluntatis 
+        <lb ed="#C" n="76"/>antecedentis non est inconveniens, cum  
+        <lb ed="#C" n="77"/>contra ipsam voluntatem antecedentem 
+        <lb ed="#C" n="78"/>multa fiant: ideo non oportet, 
+        quae<lb ed="#C" n="79" break="no"/>cumque praecipit Deus, fieri; &amp; quae 
+        cu<lb ed="#C" n="80" break="no"/>que prohibet, vitari: vel quae consulit, im 
+        <lb ed="#C" n="81"/>pleri. Contra signa voluntatis 
+        conse<lb ed="#C" n="82" break="no"/>quentis nihil fieri potest: non enim sit 
+        <lb ed="#C" n="83"/>aliquid contra operationem ejus: quia 
+        <lb ed="#C" n="84"/>tunc unum &amp; idem simul esset &amp; non 
+        <lb ed="#C" n="85"/>esset: fieret &amp; non fieret. Praeter autem 
+        <lb ed="#C" n="86"/>operationem ejus multa fiunt: nam 
+        pri<lb ed="#C" n="87" break="no"/>vationes bonorum &amp; mala non 
+        opera<lb ed="#C" n="88" break="no"/>tur in nobis Deus. De permissione 
+        ve<lb ed="#C" n="89" break="no"/>ro est alius modus: quia non solum 
+        con<lb ed="#C" n="90" break="no"/>tra permissionem Divinam nihil fit, sed  
+        <lb ed="#C" n="91"/>etiam praeter ipsam nihil fieri potest: 
+        <lb ed="#C" n="92"/>respicit enim permissio causam 
+        poten<lb ed="#C" n="93" break="no"/>tem deficere, &amp; non deficere: unde 
+        si<lb ed="#C" n="94" break="no"/>ve deficiat sive non, non fit praeter 
+        per<lb ed="#C" n="95" break="no"/>missionem ipsius. Apparet ergo quom 
+        o<lb ed="#C" n="96" break="no"/>do fit aliquid contra voluntatem Dei 
+        <lb ed="#C" n="97"/>&amp; quomodo non: &amp; quomodo praeter 
+        <lb ed="#C" n="98"/>eam, &amp; quomodo non 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e498">
+                  <lb ed="#C" n="99"/>Respond. ad arg. Ad 1. dicendum. 
+        <lb ed="#C" n="100"/>quod, ut habitum est per Diony. mala 
+        <lb ed="#C" n="101"/>quantum ad sui causalitatem non 
+        ca<lb ed="#C" n="102" break="no"/>dunt sub Divina providentia; sed 
+        quan<lb ed="#C" n="103" break="no"/>tum ad eorum ordinem &amp; non 
+        impe<lb ed="#C" n="104" break="no"/>ditionem: unde dicit ipsum malum 
+        es<lb ed="#C" n="105" break="no"/>se improvisum. Non ergo oportet, quod 
+        <lb ed="#C" n="106"/>psa mala sint volita, licet ordinem, &amp; 
+        <lb ed="#C" n="107"/>permissionem malorum Deus velit. Et  
+        <lb ed="#C" n="108"/>ad formam arguendi, cum dicitur  
+        <!--872.xml-->
+        <pb ed="#C" n="847"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Deus praescivit omnia, tam mala quam 
+        <lb ed="#C" n="2"/>bona, ut superius ostensum est, 
+        provi<lb ed="#C" n="3" break="no"/>dentia addit supra praescientiam 
+        quem<lb ed="#C" n="4" break="no"/>dam ordinem in finem: &amp; cum mala, 
+        secun<lb ed="#C" n="5" break="no"/>dum quod hujusmodi, ab ordine deviet 
+        <lb ed="#C" n="6"/>secundum se non cadunt sub Divina 
+        <lb ed="#C" n="7"/>providentia, licet sint praescita.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e545">
+        Ad 2. 
+        <lb ed="#C" n="8"/>dicendum, quod per auctoritatem 
+        Boe<lb ed="#C" n="9" break="no"/>tij non habetur, quod ipsa mala sint a 
+        <lb ed="#C" n="10"/>Deo volita, nec quod cadunt secundum 
+        <lb ed="#C" n="11"/>se sub Divina providentia; sed quod 
+        or<lb ed="#C" n="12" break="no"/>do eorum: vel dispositio est a Deo 
+        voli<lb ed="#C" n="13" break="no"/>tus &amp; provisus; ipsa tamen mala sunt, 
+        <lb ed="#C" n="14"/>praeter Dei voluntatem consequentem, 
+        <lb ed="#C" n="15"/>licet non sint contra.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e565">
+        Ad 3. dicendum, 
+        <lb ed="#C" n="16"/>quod non est ex impotentia Divinae 
+        vo<lb ed="#C" n="17" break="no"/>luntatis, quod mala fiunt: posset enim 
+        <lb ed="#C" n="18"/>omnia talia impedire, si vellet, ut 
+        mani<lb ed="#C" n="19" break="no"/>feste probat <name xml:id="Gi9qrR-g20620-Nd1e575" ref="#Augustine">Aug.</name> in Enchiridion: sed  
+        <lb ed="#C" n="20"/>hoc est ex ordine suae sapientiae 
+        secun<lb ed="#C" n="21" break="no"/>dum quem contulit rebus potentiam 
+        <lb ed="#C" n="22"/>ad utrumlibet, ut possent deficere, &amp; 
+        <lb ed="#C" n="23"/>non deficere.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e588">
+        Ad 4. dicendum, iquod  
+        <lb ed="#C" n="24"/>nihil fieri praeter permissionem Divinam 
+        <lb ed="#C" n="25"/>non contingit: ex eo quod permissio 
+        <lb ed="#C" n="26"/>sit proximior voluntatibeneplaciti, quam 
+        <lb ed="#C" n="27"/>alia signa; sed quia hujusmodi signum 
+        <lb ed="#C" n="28"/>respicit causam potentem deficere &amp; 
+        <lb ed="#C" n="29"/>non deficere: &amp; quia ex hoc aliqua fiunt, 
+        <lb ed="#C" n="30"/>praeter Divinam voluntatem: quia 
+        ali<lb ed="#C" n="31" break="no"/>qua causarum deficiunt in actionibus 
+        <lb ed="#C" n="32"/>suis, contra Divinam permissionem 
+        ni<lb ed="#C" n="33" break="no"/>hil sit: cum utrumque, tam deficeret 
+        <lb ed="#C" n="34"/>quam non deficere permissum sit 
+        tali<lb ed="#C" n="35" break="no"/>bus causis. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g20620-Dd1e618">
+               <head xml:id="Gi9qrR-g20620-Hd1e620">Articulus 2</head>
+               <p xml:id="Gi9qrR-g20620-d1e623">
+                  <lb ed="#C" n="36"/>ARTICVLVS II. 
+        <lb ed="#C" n="37"/>Vtrum quod est contra Divinam volunta 
+        <lb ed="#C" n="38"/>tem obsequatur voluntati 
+        <lb ed="#C" n="39"/>eius? 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e634">
+                  <lb ed="#C" n="40"/>Ecundo quaeritur: utrum quod est, 
+        <lb ed="#C" n="41"/>Dcontra Divinam voluntatem obse: 
+        <lb ed="#C" n="42"/>quatur voluntati ejus?
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e643">
+        Et videtur quod  
+        <lb ed="#C" n="43"/>non: quia quod ponitur esse contra 
+        Di<lb ed="#C" n="44" break="no"/>vinam voluntatem, vel intelligitur de 
+        <lb ed="#C" n="45"/>Divina voluntate antecedente, vel 
+        con<lb ed="#C" n="46" break="no"/>sequente: non consequente: quia 
+        con<lb ed="#C" n="47" break="no"/>tra illam mihil fit: ergo antecedente: 
+        <lb ed="#C" n="48"/>sed quod est contra voluntatem 
+        ante<lb ed="#C" n="49" break="no"/>cedentem, cum sit malum, non est 
+        vo<lb ed="#C" n="50" break="no"/>litum a voluntate consequente, licet  
+        <lb ed="#C" n="51"/>possit esse praeter eam: sed non 
+        obsequi<lb ed="#C" n="52" break="no"/>tur voluntati nisi quod est ab ea volitum, 
+        <lb ed="#C" n="53"/>ergo quod est contra voluntatem ante¬ 
+        <!--872.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>cedentem voluntati consequenti non 
+        <lb ed="#C" n="55"/>obsequitur.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e678">
+        Praeterea: si aliquid uni 
+        vo<lb ed="#C" n="56" break="no"/>luntati obedit, &amp; alij contradicit, illae 
+        <lb ed="#C" n="57"/>voluntates sibi contrariatur: sed 
+        volun<lb ed="#C" n="58" break="no"/>tas Divina antecedens non contrariatur 
+        <lb ed="#C" n="59"/>consequenti, nec e converso, ergo quod 
+        <lb ed="#C" n="60"/>est contra voluntatem antecedentem, 
+        <lb ed="#C" n="61"/>non obsequitur consequenti.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e695">
+        Praeteream: 
+        <lb ed="#C" n="62"/>ex eo, quod homo agit secudum Divinam 
+        <lb ed="#C" n="63"/>poluntatem consequentem, meretur: cum 
+        <lb ed="#C" n="64"/>ergo non possit quis mereri agendo 
+        <lb ed="#C" n="65"/>contra voluntatem antecedentem: ut non 
+        <lb ed="#C" n="66"/>observando praecepta &amp; prohibitiones, 
+        <lb ed="#C" n="67"/>contradicendo voluntati antecedenti, 
+        <lb ed="#C" n="68"/>non obedimus consequenti: quia tunc 
+        <lb ed="#C" n="69"/>peccado mereremur.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e715">
+        Praeterea: malum 
+        <lb ed="#C" n="70"/>est praeter intentionem secundum 
+        Dio<lb ed="#C" n="71" break="no"/>nysium 4. de Div. nom. sed quod est  
+        <lb ed="#C" n="72"/>praeter intentionem voluntatis non 
+        obe<lb ed="#C" n="73" break="no"/>dit voluntati, ergo quae sunt contra 
+        vo<lb ed="#C" n="74" break="no"/>luntatem, antecedentem, ut mala, non 
+        <lb ed="#C" n="75"/>obsequuntur consequenti 
+        <lb ed="#C" n="76"/>In contrarium est quod Oreg. ait  
+        <lb ed="#C" n="77"/>&amp; habetur in littera: Musti voluntatem 
+        <lb ed="#C" n="78"/>Dei peragunt, unde mutare contendunt, &amp; 
+        <lb ed="#C" n="79"/>consilio eius resistentes suae voluntati 
+        obsequun<lb ed="#C" n="80" break="no"/>tur. Igitur mali, volendo inimicare 
+        Divi<lb ed="#C" n="81" break="no"/>nam voluntatem, ipsam implent, &amp; 
+        re<lb ed="#C" n="82" break="no"/>sistendo Divinis consilijs, ejus voluntati 
+        <lb ed="#C" n="83"/>obediunt.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e748">
+        Praeterea: ad voluntatem 
+        po<lb ed="#C" n="84" break="no"/>tentissimam pertinet, ut quod aliquis 
+        <lb ed="#C" n="85"/>vult facere contra eam, in ejus 
+        obse<lb ed="#C" n="86" break="no"/>quium cedat: licet ergo mali contra 
+        <lb ed="#C" n="87"/>Divinam voluntatem facere velint, &amp; 
+        <lb ed="#C" n="88"/>faciant contra antecedentem: quia 
+        Di<lb ed="#C" n="89" break="no"/>vina voluntas potentissima est, 
+        faciendo<lb ed="#C" n="90" break="no"/>contra voluntatem antecedentem, 
+        obse<lb ed="#C" n="91" break="no"/>quuntur consequenti. 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e768">
+                  <lb ed="#C" n="92"/>RESOLVTIO 
+        <lb ed="#C" n="93"/>Mala contra voluntatem Dei antecedentem a peca 
+        <lb ed="#C" n="94"/>catoribus fiunt, verum ista &amp; ipsi, in quantum 
+        <lb ed="#C" n="95"/>ordinantur ad punitionem, volunta 
+        <lb ed="#C" n="96"/>ti consequenti obsequuntur.  
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e781">
+                  <lb ed="#C" n="97"/>REspond. dicendum, quod cum 
+        <lb ed="#C" n="98"/>quaeritur: utrum aliquid fiat 
+        con<lb ed="#C" n="99" break="no"/>tra Divinam voluntatem, quod 
+        obse<lb ed="#C" n="100" break="no"/>quetur voluntati ejus; Voluntas 
+        huius<lb ed="#C" n="101" break="no"/>modi, contra quam aliquid fieri 
+        dici<lb ed="#C" n="102" break="no"/>tur, non potest esse consequens: quia 
+        <lb ed="#C" n="103"/>contra illam nihil fit. Oportet ergo 
+        <lb ed="#C" n="104"/>quod sit antecedens. Contra autem talem 
+        <lb ed="#C" n="105"/>voluntatem fit, cum prohibitiones &amp; 
+        <!--873.xml-->
+        <pb ed="#C" n="848"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>praecepta non observantur: sed cum hoc  
+        <lb ed="#C" n="2"/>non sit tendere in finem, sed deviare, perae 
+        <lb ed="#C" n="3"/>se loquendo, quae voluntatiantecedenti 
+        <lb ed="#C" n="4"/>contradicunt, secudum quod 
+        hujusmo<lb ed="#C" n="5" break="no"/>di, consequenti non obediunt: aliter  
+        <lb ed="#C" n="6"/>enim idem secundum idem esset 
+        ordi<lb ed="#C" n="7" break="no"/>natum &amp; non ordinatum, &amp; bonum &amp; 
+        <lb ed="#C" n="8"/>malum: sed quae antecedenti 
+        volunta<lb ed="#C" n="9" break="no"/>ti contradicunt secundum se, 
+        conse<lb ed="#C" n="10" break="no"/>quenti obediunt inquantum ordinata 
+        <lb ed="#C" n="11"/>sunt: &amp; quae antecedenti repugnant 
+        se<lb ed="#C" n="12" break="no"/>cundum unum modum, consequenti 
+        <lb ed="#C" n="13"/>obediunt secudum alium: quod sic 
+        de<lb ed="#C" n="14" break="no"/>claratur. Nam repugnantia ad 
+        volunta<lb ed="#C" n="15" break="no"/>tem antecedentem dupliciter accipi po 
+        <lb ed="#C" n="16"/>test. Primo quantum ad causam 
+        malo<lb ed="#C" n="17" break="no"/>rum. Secundo quantum ad ipsa mala. 
+        <lb ed="#C" n="18"/>Repugnat enim homo sive voluntas, a 
+        <lb ed="#C" n="19"/>:qua malum progreditur, Divinae 
+        volun<lb ed="#C" n="20" break="no"/>tati antecedenti, inquantum non agit, 
+        <lb ed="#C" n="21"/>quae Deus praecepit, &amp; non vitat qua 
+        <lb ed="#C" n="22"/>n prohibet, &amp; etiam ipsa mala tali 
+        volun<lb ed="#C" n="23" break="no"/>tati repugnant: &amp; tam de homine male 
+        <lb ed="#C" n="24"/>quam de ipsis malis Divinae voluntatis 
+        <lb ed="#C" n="25"/>contradicentibus fit quod Deus vult 
+        <lb ed="#C" n="26"/>unde ejus voluntati obsequuntur: sed  
+        <lb ed="#C" n="27"/>aliter contradicunt, aliter obsequuntur. Nam 
+        <lb ed="#C" n="28"/>dmala contradicunt secundum se, 
+        obedi<lb ed="#C" n="29" break="no"/>cunt autem inquantum ordinata. Causae 
+        <lb ed="#C" n="30"/>autem malorum, ut homines, &amp; corum 
+        <lb ed="#C" n="31"/>voluntates antecedenti voluntati repus 
+        <lb ed="#C" n="32"/>nant quantum ad id, quod agunt; 
+        conse<lb ed="#C" n="33" break="no"/>quenti obediunt quantum ad id, quod 
+        <lb ed="#C" n="34"/>de eis efficitur, ut quia puniuntur, &amp; 
+        re<lb ed="#C" n="35" break="no"/>sultat inde quidam decor justitiae: 
+        quo<lb ed="#C" n="36" break="no"/>cumque ergo se vertat homo, semper fit 
+        <lb ed="#C" n="37"/>quod Deus vult, vel ab ipso, ut cum 
+        be<lb ed="#C" n="38" break="no"/>ne agit, vel de ipso, cum punitur 
+        prop<lb ed="#C" n="39" break="no"/>ter mala quae gessit. Quod per simile 
+        de<lb ed="#C" n="40" break="no"/>clarare possumus. Nam sicut diversitas 
+        <lb ed="#C" n="41"/>colorum decorat imaginem, sic 
+        inequa<lb ed="#C" n="42" break="no"/>litas &amp; diversitas eorum, quae sunt in 
+        <lb ed="#C" n="43"/>universo ornat ipsum. Et sicut male 
+        ar<lb ed="#C" n="44" break="no"/>gueret dicens colorem album esse 
+        pul<lb ed="#C" n="45" break="no"/>cherrimum &amp; magis participantem de 
+        <lb ed="#C" n="46"/>luce, si ex hoc cocludere vellet pictore 
+        <lb ed="#C" n="47"/>in imagine solum colorem album debet 
+        <lb ed="#C" n="48"/>re apponere: sic non bene, arguit, qui  
+        <lb ed="#C" n="49"/>ex eo quod substantiae separatae &amp; beat 
+        <lb ed="#C" n="50"/>sunt dignissima pars universi, vult 
+        ar<lb ed="#C" n="51" break="no"/>guere in universo solum talia existere 
+        <lb ed="#C" n="52"/>nam ipsi damnati &amp; aiterum universitat 
+        <lb ed="#C" n="53"/>universum decorat: sicut multitudo 
+        co<lb ed="#C" n="54" break="no"/>lorum ornat imaginem. Sicut ergo nun 
+        <lb ed="#C" n="55"/>lus color est, qui in aliquo non 
+        obsequa<lb ed="#C" n="56" break="no"/>tur voluntati pictoris: sic nihili in uni¬ 
+        <!--873.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>verso existit, quod aliquo modo Diving 
+        <lb ed="#C" n="58"/>voluntati non obediat, sed licet 
+        quisi<lb ed="#C" n="59" break="no"/>bet color secundum aliquem modum 
+        <lb ed="#C" n="60"/>pictori obediat: non tamen secundum 
+        <lb ed="#C" n="61"/>omnem ordinem ei obsequitur. Ideo 
+        <lb ed="#C" n="62"/>quod est contra voluntatem pictoris 
+        <lb ed="#C" n="63"/>per unum modum, ei obsequitur 
+        secun<lb ed="#C" n="64" break="no"/>dum alium modum: ut niger color, si 
+        <lb ed="#C" n="65"/>referatur ad vultum imaginis, 
+        volunta<lb ed="#C" n="66" break="no"/>ti pictoris contradicit, eo quod propter 
+        <lb ed="#C" n="67"/>aigredinem in vultu appositam 
+        decor<lb ed="#C" n="68" break="no"/>imaginis offuscatur; quod si ad pedem 
+        <lb ed="#C" n="69"/>ejtis comparetur, ejus voluntati obedit: 
+        <lb ed="#C" n="70"/>quiia talis color optime in pedibus 
+        appo<lb ed="#C" n="71" break="no"/>nituir: videtur enim calceamentorum 
+        <lb ed="#C" n="72"/>nigiredo pedibus picturae praestare 
+        deco<lb ed="#C" n="73" break="no"/>rem. Sic si mali ad Divinam 
+        misericor<lb ed="#C" n="74" break="no"/>diam referantur vel ad ordinem Divinae 
+        <lb ed="#C" n="75"/>gloriae, cum a tali ordine deviaverint, 
+        an<lb ed="#C" n="76" break="no"/>tecedenti voluntati contradicunt. Si 
+        ve<lb ed="#C" n="77" break="no"/>ro ad poenam comparentur: quia dignum 
+        <lb ed="#C" n="78"/>&amp; iustum est mala puniri, consequenti 
+        <lb ed="#C" n="79"/>voluntati obediunt, inquantum fit de 
+        <lb ed="#C" n="80"/>eis quod Deus vult per decarem iustitiae 
+        <lb ed="#C" n="81"/>Optime enim siti sunt mali in inferno: 
+        <lb ed="#C" n="82"/>ut qui Divinae voluntati berne faciendo 
+        <lb ed="#C" n="83"/>obedire noluerint: propter quod in 
+        su<lb ed="#C" n="84" break="no"/>prema parte universi noluerunt existere: 
+        <lb ed="#C" n="85"/>propter eorum mala meritae in alium or 
+        <lb ed="#C" n="86"/>dinem relabantur, &amp; in infimo 
+        collocen<lb ed="#C" n="87" break="no"/>tur. Quod ergo voluntati antecedenti 
+        <lb ed="#C" n="88"/>contradicit secundum unum modum 
+        <lb ed="#C" n="89"/>ordinis; secundum alium obsequitur  
+        <lb ed="#C" n="90"/>consequenti: ita quod in Regno 
+        provi<lb ed="#C" n="91" break="no"/>dentiae nihil est inordinatum: &amp; si 
+        ali<lb ed="#C" n="92" break="no"/>quid ab uno modo ordinis recesserit, in 
+        <lb ed="#C" n="93"/>alium relabitur: unde <name xml:id="Gi9qrR-g20620-Nd1e1015" ref="#Boethius">Boetius</name> 4. de 
+        <lb ed="#C" n="94"/>Consolatione ait: ordo quidem Divinae 
+        <lb ed="#C" n="95"/>providentia cuncta complectitur: ut si quod  
+        <lb ed="#C" n="96"/>ab assignata ordinis ratione discesserit, hoc  
+        <lb ed="#C" n="97"/>in alium ordinem relabatur: nec quid in 
+        Reg<lb ed="#C" n="98" break="no"/>no providentiae temeritati possit ascribi. 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1029">
+                  <lb ed="#C" n="99"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="100"/>quod licet malum secundum se non possit 
+        <lb ed="#C" n="101"/>esse volitum; ordinatio tamem malorum 
+        <lb ed="#C" n="102"/>volita esse potest: &amp; ideo non eodem 
+        <lb ed="#C" n="103"/>modo malum voluntati, antecedenti 
+        <lb ed="#C" n="104"/>contradicit, &amp; consequenti obsequitur:  
+        <lb ed="#C" n="105"/>quia contradicit secundum se, 
+        obsequi<lb ed="#C" n="106" break="no"/>tur, ut ordinatum. Et per hoc patet 
+        <lb ed="#C" n="107"/>solutio ad secundum: quia cum aliquiu 
+        <lb ed="#C" n="108"/>uni voluntati contradicat, &amp; alij 
+        obse<lb ed="#C" n="109" break="no"/>quitur, illae duae voluntates sibi 
+        contra<lb ed="#C" n="110" break="no"/>riantur, si eodem modo illud 
+        contra<lb ed="#C" n="111" break="no"/>dicit uni, &amp; obsequitur alij; sed, ut 
+        ha<lb ed="#C" n="112" break="no"/>bitum est, non eodem modo conteadi¬ 
+        <!--874.xml-->
+        <pb ed="#C" n="849"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>eit, malum; voluntati antecedenti, &amp; 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1072">
+                  <lb ed="#C" n="2"/>obsequitur consequenti: quia 
+        antece<lb ed="#C" n="3" break="no"/>denti cotradicit secundum se, 
+        consequen<lb ed="#C" n="4" break="no"/>ti obsequitur secundum quod 
+        ordina<lb ed="#C" n="5" break="no"/>tum.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1083">
+        Ad 3. dicendum, quod in 
+        actio<lb ed="#C" n="6" break="no"/>sne duo est considerare, unum ut ab 
+        agen<lb ed="#C" n="7" break="no"/>te egreditur, aliud ut in finem aliquem 
+        <lb ed="#C" n="8"/>Pordinatur. Actus autem bonus Divinae 
+        <lb ed="#C" n="9"/>tvoluntati utroque modo obsequitur  
+        <lb ed="#C" n="10"/>nam &amp; ab agente progreditur, ut Deus 
+        <lb ed="#C" n="11"/>uvult, &amp; in finem debitum secundum Di¬ 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1099">
+                  <lb ed="#C" n="12"/>vinam voluntatem ordinatur: ideo 
+        res<lb ed="#C" n="13" break="no"/>pectu talis actus, &amp; ut etiam ordinatus 
+        <lb ed="#C" n="14"/>est, homo se habet ut agens, cum con 
+        <lb ed="#C" n="15"/>veniat tali actioni ordo etiam ut ab 
+        <lb ed="#C" n="16"/>agente egreditur: &amp; ideo cum talia 
+        fa<lb ed="#C" n="17" break="no"/>cimus meremur: &amp; finis, ad quem 
+        or<lb ed="#C" n="18" break="no"/>dinat Deus tales actus, est vita aeterna. 
+        <lb ed="#C" n="19"/>Sed in actu malo non est ordo, ut ab 
+        a<lb ed="#C" n="20" break="no"/>gente progreditur: quia malus homo 
+        <lb ed="#C" n="21"/>in actibus suis non tendit in finem, sed  
+        <lb ed="#C" n="22"/>egreditur ab ipso. Si ergo talibus 
+        actio<lb ed="#C" n="23" break="no"/>nibus competit ordo, hoc non est, 
+        pro<lb ed="#C" n="24" break="no"/>ut progrediuntur ab agente; sed prout 
+        <lb ed="#C" n="25"/>per Deum in finem aliquem 
+        ordinan<lb ed="#C" n="26" break="no"/>tur: unde in talibus non sit ab homine 
+        <lb ed="#C" n="27"/>quod Deus vult: sed sit de homine 
+        <lb ed="#C" n="28"/>quod Deo placet: &amp; quia hujusmodi 
+        <lb ed="#C" n="29"/>actiones non sunt ordinatae, ut ab hom 
+        <lb ed="#C" n="30"/>ne progrediuntur, cum respectu 
+        ordi<lb ed="#C" n="31" break="no"/>nis eorum homo non se habeat ut, a 
+        <lb ed="#C" n="32"/>gens; sed magis ut patiens, inquantum 
+        <lb ed="#C" n="33"/>Deus eas ordinat, &amp; de eis elicit aliqua 
+        <lb ed="#C" n="34"/>bona: propter talia homo non meretur,  
+        <lb ed="#C" n="35"/>sed demeretur, non tendit in gloriam, sed 
+        <lb ed="#C" n="36"/>in poenam.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1156">
+        Ad 4. dicendum, quod malum 
+        <lb ed="#C" n="37"/>secundum se est praeter intentionem. 
+        <lb ed="#C" n="38"/>ordo tamen malorum potest esse 
+        inten<lb ed="#C" n="39" break="no"/>tus: quia malum non obsequitur 
+        Divi<lb ed="#C" n="40" break="no"/>nae voluntati nisi ut ordinatum, ideo 
+        <lb ed="#C" n="41"/>ratio non concludit. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g20620-Dd1e1171">
+               <head xml:id="Gi9qrR-g20620-Hd1e1173">Articulus 3</head>
+               <p xml:id="Gi9qrR-g20620-d1e1176">
+                  <lb ed="#C" n="42"/>ARTICVLVS III. 
+        <lb ed="#C" n="43"/>Vtrum quod est praeter Divinam voluntatem 
+        <lb ed="#C" n="44"/>possit cadere sub praecepto eius? 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1185">
+                  <lb ed="#C" n="45"/>TErtio quaeritur: utrum aliquid 
+        <lb ed="#C" n="46"/>quod est praeter Divinam 
+        volunta<lb ed="#C" n="47" break="no"/>tem, vel etiam contra ipsam, possit 
+        ca<lb ed="#C" n="48" break="no"/>dere sub praecepto ejus?
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1196">
+        Et videtur 
+        <lb ed="#C" n="49"/>quod non: quia nullum: bonum nec 
+        ali<lb ed="#C" n="50" break="no"/>quod ordinatum est praeter Divinam 
+        vo<lb ed="#C" n="51" break="no"/>luntatem, cum omne bonum &amp; omnis 
+        <lb ed="#C" n="52"/>ordo sit in rebus Deo auctore &amp; ipso 
+        <lb ed="#C" n="53"/>volente: solum, praeteri Dei voluntatem 
+        <!--874.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>est quod inordinatum est: sod cum 
+        ni<lb ed="#C" n="55" break="no"/>hil inordinatum possit a Deo praecipi, 
+        <lb ed="#C" n="56"/>nihil quod est praeter voluntatem 
+        Divi<lb ed="#C" n="57" break="no"/>nam, potest cadere sub praecepto. 
+        Praete<lb ed="#C" n="58" break="no"/>rea: videtur quod saltem quod est 
+        con<lb ed="#C" n="59" break="no"/>tra Divinam voluntatem, sub 
+        praecep<lb ed="#C" n="60" break="no"/>to cadere non possit: quia si contra 
+        Di<lb ed="#C" n="61" break="no"/>vinam voluntatem existens 
+        praecipere<lb ed="#C" n="62" break="no"/>tur, vel contradiceret voluntati 
+        ante<lb ed="#C" n="63" break="no"/>cedenti, vel consequeti? Voluntati 
+        anta<lb ed="#C" n="64" break="no"/>cendenti praeceptum contradicere non 
+        <lb ed="#C" n="65"/>potest, cum sit ejus signum. Nec 
+        conse<lb ed="#C" n="66" break="no"/>quenti: quia contra eam nihil sit.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1242">
+        Praeterea: 
+        <lb ed="#C" n="67"/>qui praecipit quod non vult, fictus est: 
+        <lb ed="#C" n="68"/>sed cum Deus sit summe bonus &amp; 
+        sum<lb ed="#C" n="69" break="no"/>me verus, &amp; non deceat eum aliqua fal 
+        <lb ed="#C" n="70"/>sitas, nec aliqua fictio, nihil praecipit 
+        <lb ed="#C" n="71"/>quod fieri nolit.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1256">
+        Praeterea: secundum 
+        <lb ed="#C" n="72"/>Phm. 2. Ethi. Non autem omnis actus 
+        ne<lb ed="#C" n="73" break="no"/>que omnis affectus suscipit medietatem. Sunt 
+        <lb ed="#C" n="74"/>enim affectus non nulli, qui continuo nomine 
+        <lb ed="#C" n="75"/>luo sunt cum pravitate connexi, ut 
+        male<lb ed="#C" n="76" break="no"/>volentia, impudentia, invidentia, &amp; ac. 
+        <lb ed="#C" n="77"/>tus identidem, ut, adulterium, furtum, 
+        homi<lb ed="#C" n="78" break="no"/>cidium. Haec enim universa &amp; talia ita 
+        di<lb ed="#C" n="79" break="no"/>cuntur, quia ipsa sunt prava. Sed quidquid  
+        <lb ed="#C" n="80"/>a Deo praecipitur, bonum est, cum 
+        prae<lb ed="#C" n="81" break="no"/>ceptum sit signum voluntatis 
+        anteceden<lb ed="#C" n="82" break="no"/>tis, cujus est ordinare naturam in bonus 
+        <lb ed="#C" n="83"/>ergo saltem talia, quae sunt praeter 
+        Divi<lb ed="#C" n="84" break="no"/>nam voluntatem, non possunt cadere 
+        <lb ed="#C" n="85"/>sub Divino praecepto.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1289">
+        Praeterea: 
+        scribi<lb ed="#C" n="86" break="no"/>tur 2. ad Timoth. 2. Deus fidelis per 
+        <lb ed="#C" n="87"/>manet &amp; negare se ipsum non potest. Sec 
+        <lb ed="#C" n="88"/>se ipsum negaret, si injusta praeciperet: 
+        <lb ed="#C" n="89"/>cum ergo solum injusta sint praeter ejus 
+        <lb ed="#C" n="90"/>voluntatem, nihil sub praecepto Divino 
+        <lb ed="#C" n="91"/>cadere potest, quod contra voluntatem 
+        <lb ed="#C" n="92"/>eius, vel praeter eam existat. 
+        <lb ed="#C" n="93"/>In contrarium est Mag. in littera, qui dicit 
+        <lb ed="#C" n="94"/>Deum praecipere aliqua, quae non vult 
+        ob<lb ed="#C" n="95" break="no"/>servari. 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1313">
+                  <lb ed="#C" n="96"/>RESOLVTIO. 
+        <lb ed="#C" n="97"/>Quod Deus vult voluntate antecedente, &amp; 
+        <lb ed="#C" n="98"/>si non consequenti, potest cadere, sub 
+        praecep<lb ed="#C" n="99" break="no"/>to generali: &amp; cum singulare praeceptum est 
+        <lb ed="#C" n="100"/>voluntatis signum, potest Deus non velle nec 
+        <lb ed="#C" n="101"/>antecedenti nec consequenti voluntate quod 
+        <lb ed="#C" n="102"/>praecipitur; sed propter quod praecipitur. Et  
+        <lb ed="#C" n="103"/>aliquid potest esse volitum a Deo, &amp; sub 
+        <lb ed="#C" n="104"/>praecepto cadere in uno ordine rerum: 
+        <lb ed="#C" n="105"/>quod in alio ordine nec est volitum, 
+        <lb ed="#C" n="106"/>nec praecepto indicitur J 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1339">
+                  <lb ed="#C" n="107"/>REspond. dicendum, quod quidam 
+        <lb ed="#C" n="108"/>sic dicunt, quod praeceptum est 
+        <!--875.xml-->
+        <pb ed="#C" n="850"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>signum voluntatis Divinae respondens 
+        <lb ed="#C" n="2"/>voluntati antecedenti non 
+        consequen<lb ed="#C" n="3" break="no"/>ti: unde quod est praeter voluntatem, 
+        <lb ed="#C" n="4"/>consequentem cadit sub praecepto, non 
+        <lb ed="#C" n="5"/>autem quod est praeter antecedentem: 
+        <lb ed="#C" n="6"/>propter quod occisio innocentis, ut quod 
+        <lb ed="#C" n="7"/>Abraham immolaret filium suum, fuit  
+        <lb ed="#C" n="8"/>volita a Deo voluntate antecedente, 
+        <lb ed="#C" n="9"/>non consequente. Verum quia prima 
+        <lb ed="#C" n="10"/>facie videtur repugnare veritati, quod  
+        <lb ed="#C" n="11"/>occisio innocentis sit a Deo volita 
+        vo<lb ed="#C" n="12" break="no"/>luntate antecedente, cum secundum il 
+        <lb ed="#C" n="13"/>lam voluntatem (ut ait Damasc.) Deus 
+        <lb ed="#C" n="14"/>velit omnes homines fortunari: &amp; ideo 
+        <lb ed="#C" n="15"/>sic dicentes, ut suam positionem 
+        mu<lb ed="#C" n="16" break="no"/>niant, addunt, quod aliquid secundum 
+        <lb ed="#C" n="17"/>se acceptum potest esse praeter 
+        volunta<lb ed="#C" n="18" break="no"/>tem antecedentem, quod aliqua 
+        con<lb ed="#C" n="19" break="no"/>ditione addita, vel subtracta de 
+        volun<lb ed="#C" n="20" break="no"/>tate antecedente existit: nam quae secundum 
+        <lb ed="#C" n="21"/>se mala sunt, licet in quantum talia sint 
+        <lb ed="#C" n="22"/>praeter voluntatem antecedentem: 
+        pro<lb ed="#C" n="23" break="no"/>ut vero stant sub Divino praecepto 
+        con<lb ed="#C" n="24" break="no"/>trahunt quamdam rationem bonitatis, 
+        <lb ed="#C" n="25"/>t &amp; voluntate antecedente volita esse 
+        <lb ed="#C" n="26"/>apossunt. Quae autem mala sub Divino 
+        <lb ed="#C" n="27"/>praecepto cadere possunt, &amp; quae non: sic 
+        <lb ed="#C" n="28"/>declaratur: quia malorum quaedam 
+        de<lb ed="#C" n="29" break="no"/>ordinant hominem a proximo, ut quae 
+        <lb ed="#C" n="30"/>prohibentur per secundam tabulam, ut  
+        <lb ed="#C" n="31"/>non occidere &amp; non moechari. Quaedam 
+        <lb ed="#C" n="32"/>immediate deordinant a Deo, ut quae per 
+        <lb ed="#C" n="33"/>primam tabulam prohibetur: ut non 
+        <lb ed="#C" n="34"/>assumere nomen Dei in vanum, &amp; non 
+        <lb ed="#C" n="35"/>dorare Deos alienos: &amp; quia bonitas in 
+        <lb ed="#C" n="36"/>rebus est principaliter ex ordine, quem 
+        <lb ed="#C" n="37"/>habent ad Deum, ex consequenti autem 
+        <lb ed="#C" n="38"/>ex ordine quem habent inter se: cum 
+        <lb ed="#C" n="39"/>possit remanere primus ordo subtra 
+        <lb ed="#C" n="40"/>cto secundo, potest homo habere 
+        or<lb ed="#C" n="41" break="no"/>dinem ad Deum absque eo, quod 
+        ha<lb ed="#C" n="42" break="no"/>beat ordinem ad proximum. Sed qua 
+        <lb ed="#C" n="43"/>diu manet ordo respectu Dei est bonitas 
+        <lb ed="#C" n="44"/>in rebus: ideo Deus in omnibus praecep 
+        <lb ed="#C" n="45"/>tis secundae tabulae, secundum quae or 
+        <lb ed="#C" n="46"/>dinamur ad proximum, dispensare 
+        po<lb ed="#C" n="47" break="no"/>test, &amp; talia possunt cadere sub 
+        praecep<lb ed="#C" n="48" break="no"/>to, &amp; esse volita voluntate antecedente, 
+        <lb ed="#C" n="49"/>Ideo immolatio innocentis, licet sit 
+        <lb ed="#C" n="50"/>contra ordinem ad proximum, potest 
+        <lb ed="#C" n="51"/>esse a Deo praecepta &amp; volita voluntate 
+        <lb ed="#C" n="52"/>antecedente. Veruntamen solus Deus in 
+        <lb ed="#C" n="53"/>talibus dispensare potest: quia sicut solus; 
+        <lb ed="#C" n="54"/>ipse potest producere effectum absque 
+        <lb ed="#C" n="55"/>ordine secundarum causarum: sic solus 
+        <lb ed="#C" n="56"/>ipse potest facere, quod ordo rerum ad 
+        <!--875.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ipsum reservetur absque ordine inter se. 
+        <lb ed="#C" n="58"/>Sicautem dicentes, licet incidant 
+        in<lb ed="#C" n="59" break="no"/>quamdam veritatem: quia sufficienter 
+        <lb ed="#C" n="60"/>declarat in quibus praeceptis dispensare 
+        <lb ed="#C" n="61"/>potest Deus, &amp; in quibus non: ut quia 
+        <lb ed="#C" n="62"/>potest dispensare in praeceptis secundae 
+        <lb ed="#C" n="63"/>tabulae, quae ordinant hominem ad 
+        pro<lb ed="#C" n="64" break="no"/>ximum; non autem in praeceptis primae, 
+        <lb ed="#C" n="65"/>quae immediate ordinant hominem in 
+        <lb ed="#C" n="66"/>Deum: veritatem tamen quaestionis non 
+        <lb ed="#C" n="67"/>elucidant, &amp; etiam falsa assumunt. Nam 
+        <lb ed="#C" n="68"/>quod dicunt, Deum voluntate 
+        antece<lb ed="#C" n="69" break="no"/>dente voluisse Abraham immolare 
+        fi<lb ed="#C" n="70" break="no"/>ium suum, non est verum: quia nec 
+        vo<lb ed="#C" n="71" break="no"/>luntate antecedente nec consequente 
+        <lb ed="#C" n="72"/>id voluit: quia cum Deus praecipit ali¬ 
+        <lb ed="#C" n="73"/>quid, quod vult fieri voluntate 
+        antece<lb ed="#C" n="74" break="no"/>dente, si fiat contra id, non erit a Deo 
+        <lb ed="#C" n="75"/>volitum, sed praeter ejus voluntatem: 
+        <lb ed="#C" n="76"/>quia tunc executio ordinis, quae 
+        perti<lb ed="#C" n="77" break="no"/>net ad voluntatem consequentem, per 
+        <lb ed="#C" n="78"/>se &amp; directe contrariaretur impositioni, 
+        <lb ed="#C" n="79"/>quae pertinet ad voluntatem 
+        anteceden<lb ed="#C" n="80" break="no"/>tem, quod esse non potest: &amp; peccata, 
+        <lb ed="#C" n="81"/>quae sunt contra Divinam voluntatem 
+        <lb ed="#C" n="82"/>antecedentem, essent volita voluntate 
+        <lb ed="#C" n="83"/>consequente. Cum ergo non 
+        immola<lb ed="#C" n="84" break="no"/>tio innocentis esset a Deo volita, 
+        im<lb ed="#C" n="85" break="no"/>molatio non cadebat sub praecepto: ita 
+        <lb ed="#C" n="86"/>quod Deus vellet antecedenter quod 
+        <lb ed="#C" n="87"/>praecipiebat.  
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1545">
+                  <lb ed="#C" n="88"/>Notandum ergo, quod praeceptum, 
+        <lb ed="#C" n="89"/>est signum voluntatis Divinae: voluntas 
+        <lb ed="#C" n="90"/>autem Divina inordinata esse non 
+        po<lb ed="#C" n="91" break="no"/>test: quia naturale est ei agere secundum 
+        <lb ed="#C" n="92"/>ordinem sapientiae. Si bene volumus videre 
+        <lb ed="#C" n="93"/>veritatem quaestionis propositae, tria 
+        opor<lb ed="#C" n="94" break="no"/>tet nos distinguere, voluntatem, signum &amp; 
+        or<lb ed="#C" n="95" break="no"/>dinem: quae tria ad rationem ipraecepti 
+        ali<lb ed="#C" n="96" break="no"/>quomodo videtur concurre. Voluntas au 
+        <lb ed="#C" n="97"/>tem distingueda est per antecedens &amp; 
+        con<lb ed="#C" n="98" break="no"/>sequens. Et sic quod Deus non vult, 
+        ca<lb ed="#C" n="99" break="no"/>dit sub praecepto, ut quod non vult 
+        con<lb ed="#C" n="100" break="no"/>sequenter, cadit sub praecepto, &amp; vult  
+        <lb ed="#C" n="101"/>antecedenter: ut cum non velit cense 
+        <lb ed="#C" n="102"/>quenter omnes homines bene operari, 
+        <lb ed="#C" n="103"/>&amp; praecipit tamen omnibus, ut beni 
+        <lb ed="#C" n="104"/>operetur: &amp; sic praecepta non respiciut 
+        <lb ed="#C" n="105"/>singularem personam, sed sunt data om 
+        <lb ed="#C" n="106"/>nibus. Signum autem distinguendum 
+        <lb ed="#C" n="107"/>est: quia sicut ex parte intellectus (ut 
+        <lb ed="#C" n="108"/>superius tactum suit) ad hoc quod sit 
+        ve<lb ed="#C" n="109" break="no"/>rum signum, non semper oportet esse 
+        ve<lb ed="#C" n="110" break="no"/>rum quod dicitur, sed propter quod 
+        di<lb ed="#C" n="111" break="no"/>citur: sic ex parte voluntatis praeceptum 
+        <lb ed="#C" n="112"/>potest esse non fictum, sed verum signum 
+        <!--876.xml-->
+        <pb ed="#C" n="851"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>voluntatis; &amp; tamen non erit volitum 
+        <lb ed="#C" n="2"/>quod praecipitur, sed propter quod 
+        prae<lb ed="#C" n="3" break="no"/>cipitur: &amp; tale fuit praeceptum datum 
+        <lb ed="#C" n="4"/>Abrahae de immolatione filij. Non 
+        e<lb ed="#C" n="5" break="no"/>nim volebat Deus quod praecipiebat 
+        <lb ed="#C" n="6"/>nec voluntate antecedente nec 
+        conse<lb ed="#C" n="7" break="no"/>quente, sed probationem fidei Abrahae, 
+        <lb ed="#C" n="8"/>propter quam praeceptum datum erat: 
+        <lb ed="#C" n="9"/>&amp; ita quod Deus non vult cadit sub 
+        prae<lb ed="#C" n="10" break="no"/>cepto, tamen non est volitum quod 
+        prae<lb ed="#C" n="11" break="no"/>cipitur, sed propter quod: &amp; sic 
+        distin<lb ed="#C" n="12" break="no"/>guendo ex parte voluntatis, &amp; ex parte 
+        <lb ed="#C" n="13"/>signi utroque modo ut dictum est, sub 
+        <lb ed="#C" n="14"/>praecepto cadit quod non vult Deus. 
+        <lb ed="#C" n="15"/>Differt tamen primus modus a 
+        secun<lb ed="#C" n="16" break="no"/>do in duobus: quia primus respicit 
+        prae<lb ed="#C" n="17" break="no"/>cepta generalia &amp; communia omnibus. 
+        <lb ed="#C" n="18"/>Secundus respicit praecepta specialia 
+        <lb ed="#C" n="19"/>data singularibus personis. Rursum 
+        se<lb ed="#C" n="20" break="no"/>cundum primum modum Deus non 
+        <lb ed="#C" n="21"/>vult contraria eorum, quae praecipit. Nam 
+        <lb ed="#C" n="22"/>si voluntate antecedente praecipit 
+        om<lb ed="#C" n="23" break="no"/>nem hominem benefacere, voluntate 
+        <lb ed="#C" n="24"/>consequente non vult quod aliquis 
+        ho<lb ed="#C" n="25" break="no"/>mo male agat. Sed quantum ad 
+        secun<lb ed="#C" n="26" break="no"/>dum modum vult contrarium ejus quod 
+        <lb ed="#C" n="27"/>mandat. Nam cum praecepisset 
+        Abra<lb ed="#C" n="28" break="no"/>hae quod filium immolaret, volebat  
+        <lb ed="#C" n="29"/>tamen contrarium, ut quod non immo 
+        <lb ed="#C" n="30"/>laret. Et ex hoc apparet clarius Deum 
+        <lb ed="#C" n="31"/>nec voluntate antecedente nec 
+        conse<lb ed="#C" n="32" break="no"/>quente voluisse immolationem illam: 
+        <lb ed="#C" n="33"/>quia non volebat quod praecipiebat, sec 
+        <lb ed="#C" n="34"/>propter quod: ut ait Magister 45. dist 
+        <lb ed="#C" n="35"/>Ex parte autem ordinis etiam distinguere 
+        <lb ed="#C" n="36"/>possumus: nam quod in agendo deter 
+        <lb ed="#C" n="37"/>minatur ad aliquem modum ordinis, 
+        con<lb ed="#C" n="38" break="no"/>etit ei determinatus modus essendi: 
+        <lb ed="#C" n="39"/>ideo Sol &amp; quodlibet ages creatum non 
+        <lb ed="#C" n="40"/>potest agere subtracto ordine aliarum 
+        <lb ed="#C" n="41"/>causarum. Nunquam enim Sol 
+        homi<lb ed="#C" n="42" break="no"/>nem generaret, nisi determinaretur per 
+        <lb ed="#C" n="43"/>hominem ad agendum; Deus autem, 
+        <lb ed="#C" n="44"/>cui competit omne esse, non determina 
+        <lb ed="#C" n="45"/>tur ad agendum secundum hunc vel 
+        il<lb ed="#C" n="46" break="no"/>lum ordinem, &amp; ideo quod non est 
+        se<lb ed="#C" n="47" break="no"/>cundum voluntatem Dei quantum ad 
+        <lb ed="#C" n="48"/>unum modum, quia non est iustum: si 
+        <lb ed="#C" n="49"/>attendimus alium modum, potest 
+        ca<lb ed="#C" n="50" break="no"/>dere sub praecepto &amp; esse volitum a 
+        <lb ed="#C" n="51"/>Deo secudum alium modum ordinis, 
+        <lb ed="#C" n="52"/>&amp; tale fuit praeceptum datum Osee 1. 
+        <lb ed="#C" n="53"/>cum dixit Dominus: Vade accipe uxorem 
+        <lb ed="#C" n="54"/>fornicationum &amp; fac tibi filios fornicationum. 
+        <lb ed="#C" n="55"/>Potissime sustinendo positionem illam 
+        <lb ed="#C" n="56"/>quae dicit eum non in uxorem illam 
+        <!--876.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>accepisse, sed fornicariam: &amp; quantum 
+        <lb ed="#C" n="58"/>ad istum modum, ut quod cadit sub 
+        <lb ed="#C" n="59"/>praecepto secundum unum modum, &amp; 
+        <lb ed="#C" n="60"/>est praeter Divinam voluntatem quantum 
+        <lb ed="#C" n="61"/>ad alium, valet declaratio illa 
+        supe<lb ed="#C" n="62" break="no"/>rius habita in quibus praeceptis Deus. 
+        <lb ed="#C" n="63"/>dispesare potest, &amp; in quibus non. 
+        Adap<lb ed="#C" n="64" break="no"/>tare autem modum illum ad praeceptum 
+        <lb ed="#C" n="65"/>datum Abrahae (ut faciebant illi 
+        quo<lb ed="#C" n="66" break="no"/>rum positionem recitamus) stare non potest: 
+        <lb ed="#C" n="67"/>ut est per habita manifestum. Dicamus 
+        <lb ed="#C" n="68"/>ergo quod cum quaeritur: utrum possit ea 
+        <lb ed="#C" n="69"/>dere sub praecepto quod Deus non vult 
+        <lb ed="#C" n="70"/>Si loquimur de praeceptis generali 
+        <lb ed="#C" n="71"/>bus, distinguedum est de voluntate; si vero 
+        <lb ed="#C" n="72"/>loquimur specialibus, &amp; potissime 
+        <lb ed="#C" n="73"/>de illis in quibus non reservatur or 
+        <lb ed="#C" n="74"/>do ad proximum, si quod Deus 
+        praeci<lb ed="#C" n="75" break="no"/>pit non est ab eo volitum, sed proptert 
+        <lb ed="#C" n="76"/>quod (ut fuit in praecepto dato Abrahae) 
+        <lb ed="#C" n="77"/>tunc distinguendum est de signo. Si 
+        ve<lb ed="#C" n="78" break="no"/>ro hujusmodi praecepta specialia sunt, 
+        <lb ed="#C" n="79"/>talia, quod etiam illud quod praecipitur  
+        <lb ed="#C" n="80"/>est a Deo volitum solum propter quod 
+        <lb ed="#C" n="81"/>ut fuit praeceptum datum Osee de 
+        uxo<lb ed="#C" n="82" break="no"/>re fornicaria, quod ipse adimplevit acci 
+        <lb ed="#C" n="83"/>piendo eam, tunc distinguendum est de 
+        <lb ed="#C" n="84"/>ordine. Et quia praedicta positio loquens 
+        <lb ed="#C" n="85"/>de praecepto dato Abrahe 
+        distingue<lb ed="#C" n="86" break="no"/>bat de ordine, &amp; voluntate Divina, &amp; non 
+        <lb ed="#C" n="87"/>de signo: ideo incompetenter arguebat, 
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1801">
+                  <lb ed="#C" n="88"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="89"/>quod multa Deus vult voluntate 
+        ante<lb ed="#C" n="90" break="no"/>cedente, quae non vult ea impleri 
+        con<lb ed="#C" n="91" break="no"/>sequete: &amp; quia praeceptum respondet vo 
+        <lb ed="#C" n="92"/>luntati antecedenti, cum aliqua 
+        praeci<lb ed="#C" n="93" break="no"/>piat quae sunt bona &amp; ordinata, &amp; vult 
+        <lb ed="#C" n="94"/>ea voluntate antecedente, non autem 
+        <lb ed="#C" n="95"/>consequente, potest cadere sub 
+        praecep<lb ed="#C" n="96" break="no"/>to quod non est a Deo volitum 
+        volun<lb ed="#C" n="97" break="no"/>tate consequete absque eo, quod sit 
+        inor<lb ed="#C" n="98" break="no"/>dinatum secudum unum modum ordinis: ut  
+        <lb ed="#C" n="99"/>possump dicere, quod non ordinatum 
+        secun<lb ed="#C" n="100" break="no"/>dum unum modum ordinis potest cadere sub 
+        <lb ed="#C" n="101"/>praecepto, quia est ordinatum secudum alium, 
+        <lb ed="#C" n="102"/>Ad 2. dicendum, quod cum Deus 
+        pre<lb ed="#C" n="103" break="no"/>cipit, quod non vult fieri (modo quo 
+        <lb ed="#C" n="104"/>dictum est) non est inconveniens 
+        ali<lb ed="#C" n="105" break="no"/>quid cadere sub praecepto, cujus 
+        contra<lb ed="#C" n="106" break="no"/>rium vult consequenter: quia non 
+        prae<lb ed="#C" n="107" break="no"/>cepit, quod illudvelit: sed aliquid est 
+        <lb ed="#C" n="108"/>ab eo volitum, ratione cujus tale 
+        prae<lb ed="#C" n="109" break="no"/>ceptum dat.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1852">
+        Ad 3. dicendum, quod 
+        si<lb ed="#C" n="110" break="no"/>cut signa ex parte intellectus absque 
+        fal<lb ed="#C" n="111" break="no"/>sitate non semper sunt vera quantum 
+        <lb ed="#C" n="112"/>ad id, quod dicitur: sed quantum ad id 
+        <!--877.xml-->
+        <pb ed="#C" n="852"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>propter quod dicitur: ex parte 
+        vo<lb ed="#C" n="2" break="no"/>luntatis non semper est volitum 
+        <lb ed="#C" n="3"/>quod praecipitur: sed sufficit aliquid 
+        <lb ed="#C" n="4"/>esse volitum ratione cujus tale 
+        praecep<lb ed="#C" n="5" break="no"/>tum datur: Ad 4. dicendum, quod ea, quo 
+        <lb ed="#C" n="6"/>Sunt mala eo quod deordinant a proximo, 
+        <lb ed="#C" n="7"/>possunt cadere sub Divino praecepto, non 
+        <lb ed="#C" n="8"/>tamen manente in eis malitia. Potest 
+        <lb ed="#C" n="9"/>enim Deus dispensare in praeceptis 
+        se<lb ed="#C" n="10" break="no"/>cundae tabulae, &amp; ea quae sunt nunc 
+        in<lb ed="#C" n="11" break="no"/>justa secundum unum modum ordinis, 
+        <lb ed="#C" n="12"/>potest ea facere iusta secundum alium 
+        <lb ed="#C" n="13"/>modum. Dicuntur tamen a Phsho 
+        homi<lb ed="#C" n="14" break="no"/>cidium, furtum, &amp; talia secudum se mala 
+        <lb ed="#C" n="15"/>&amp; intalibus actibus non esse medietatem: 
+        <lb ed="#C" n="16"/>quia recta ratio &amp; humana, secundum 
+        <lb ed="#C" n="17"/>quam constituitur medium in 
+        operi<lb ed="#C" n="18" break="no"/>bus, non potest constituere medium, 
+        <lb ed="#C" n="19"/>sed solum dispensatio Divina.
+      </p>
+               <p xml:id="Gi9qrR-g20620-d1e1909">
+        Ad 5. 
+        di<lb ed="#C" n="20" break="no"/>cendum, quod si Deus dispensaret in 
+        <lb ed="#C" n="21"/>his, quae deordinant hominem a 
+        proxi<lb ed="#C" n="22" break="no"/>mo, non negaret seipsum: quia potest 
+        re<lb ed="#C" n="23" break="no"/>manere ordo rerum ad Deum absque 
+        <lb ed="#C" n="24"/>ordine causarum secundarum ad se 
+        ip<lb ed="#C" n="25" break="no"/>sas.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="221"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e59540"><!-- l1-d11proem -->
+            <head xml:id="Gi9qrR-e59540-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e59540-d1e111">
+      <!-- line breaks and text regions got deleted here -->
+      <!--<cb ed="#C" n="c"/>-->
+      <!-- lb -->Distinctio XI.
+      <!-- lb -->QVOD SPIRITVS SANCTVS PROCEDIT A PATRE ET FILIO
+    </p>
+            <p xml:id="Gi9qrR-e59540-d1e122">
+      <!--258.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="83"/>IC dicendum, postquam 
+      de<lb ed="#C" n="84" break="no"/>terminavit Mag. de 
+      Spiri<lb ed="#C" n="85" break="no"/>tuSancto quantum ad 
+      pro<lb ed="#C" n="86" break="no"/>cessionis modum, hic deter 
+      <lb ed="#C" n="87"/>minat de eo quantum ad 
+      <lb ed="#C" n="88"/>processionis principium, &amp; 
+      <lb ed="#C" n="89"/>duo facit, quia 1. 
+      determi<lb ed="#C" n="90" break="no"/>nat de eo prout prooedit a 
+      <!--258.xml-->
+      <cb ed="#C" n="d"/>
+               <lb ed="#C" n="91"/>Patre &amp; Filio aeteraaliter. 2. prout procedit 
+      <lb ed="#C" n="92"/>temporaliter. Secunda ibi: Praeterea diligente, in 
+      <lb ed="#C" n="93"/>principio 14. dist. Circa 1. tria facit secundum 
+      <lb ed="#C" n="94"/>quod tripliciter quaest. movet circa processionem 
+      <lb ed="#C" n="95"/>Spiritus Sancti ex Patre, &amp; Filio: quia 1. quaerit 
+      <lb ed="#C" n="96"/>utrum procedat ex utroque. 2. utrum procedat 
+      <lb ed="#C" n="97"/>equaliter. 3. utrum procedat ut genitus, vel ut 
+      <lb ed="#C" n="98"/>natus. Secunda ibi: Item quaeritur, in principio 12. 
+      <!--259.xml-->
+      <pb ed="#C" n="222"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>dist, ubi praesens lectio terminabitur. Tertia ibi:  
+      <lb ed="#C" n="2"/>Post hoc: in princip. 13. dist. Prima pars dividi. A 
+      <lb ed="#C" n="3"/>tur in partes duas: quia 1. adducit multas 
+      aucto<lb ed="#C" n="4" break="no"/>ritates estedentes Spiritum S. procedere ex Patre &amp; 
+      <lb ed="#C" n="5"/>Filio. 2. ostendit Crraecorum sententiam esse 
+      con<lb ed="#C" n="6" break="no"/>trariam dictis auctoritatibus. Secunda ibi: Sraec. 
+      <lb ed="#C" n="7"/>tamen &amp;c. Circa quod duo facit: quia 1. 
+      osten<lb ed="#C" n="8" break="no"/>dit quid Graeci negant. 2. quid concedunt. Secunda 
+      <lb ed="#C" n="9"/>ibi: Sciendum est tamen. Circa primum duo facit: 
+      <lb ed="#C" n="10"/>quia 1. adducit rationes Craecorum, propter 
+      <lb ed="#C" n="11"/>quas negant Spititum Sanctum procedere a 
+      Fi<lb ed="#C" n="12" break="no"/>lio. 2. rationes solvit eorum. Secunda ibi: Nos 
+      <lb ed="#C" n="13"/>autem illa verta. Circa primum tria facit, 
+      secun<lb ed="#C" n="14" break="no"/>dum quod tres rationes adducit proGraecis. 
+      Pri<lb ed="#C" n="15" break="no"/>ma est, quod in Evangelio non continetur, quod 
+      <lb ed="#C" n="16"/>procedat a Filio, sed a Patre. Secunda: quia in 
+      <lb ed="#C" n="17"/>concilijs principalibus apud eos celebratis non 
+      <lb ed="#C" n="18"/>fuit expressus iste articulus, immo 
+      anathemati<lb ed="#C" n="19" break="no"/>gatus fuit quicuque aliquid diceret. Tertio con 
+      <lb ed="#C" n="20"/>firmat hoc per Teonem III. Secunda ratio in 
+      <lb ed="#C" n="21"/>cipit ibit Et etiam ratio. Tertia ibi: Adducit etiam. 
+      <lb ed="#C" n="22"/>Tunc sequitur illa pars: Nos autem, in qua solvit 
+      <lb ed="#C" n="23"/>rationes eorum, &amp; duo facit: quia 1. respondet 
+      <!--259.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="24"/>ad auctoritatem concilij, ubi dicitur quod 
+      qui<lb ed="#C" n="25" break="no"/>cumque addiderit anathema sit: verum est ad 
+      <lb ed="#C" n="26"/>contrarium, non expositorium. 2. respondet ad 
+      <lb ed="#C" n="27"/>verba Evangelij. Nam quando dixit Spiritum 
+      <lb ed="#C" n="28"/>Sanctum procedere a Patre, non addidit solo: 
+      <lb ed="#C" n="29"/>unde se non exclusit. Secunda ibi: Ad illud. 
+      De<lb ed="#C" n="30" break="no"/>inde cum dicit: Sciendum est, ostendit quid 
+      Crae<lb ed="#C" n="31" break="no"/>ci concedunt. Et duo facit: quia primo ostendit 
+      <lb ed="#C" n="32"/>Graecos concedere Spiritum Sanctum esse Filij, 
+      <lb ed="#C" n="33"/>non tamen procedere a Filio. 2. ostendit 
+      Crae<lb ed="#C" n="34" break="no"/>cos Doctores antiquos hoc non negasse. 
+      Secun<lb ed="#C" n="35" break="no"/>da ibi: Ende etiam. Circa quod tria facit: quia 1. 
+      <lb ed="#C" n="36"/>dicit aliquos Graecos Doctores posuisse Spiritum 
+      <lb ed="#C" n="37"/>Sanctum procedere a Filio. 2. nominat illos 
+      <lb ed="#C" n="38"/>Doctores dicens: Athanasium, Dydymum, 
+      Ci<lb ed="#C" n="39" break="no"/>rillum, Chrysostomum hoc posuisse. 3. 
+      conclu<lb ed="#C" n="40" break="no"/>dit, quod ex quo Graeci Doctores, &amp; Latini hoc  
+      <lb ed="#C" n="41"/>concedunt, coneludit, quod omnis lingua 
+      con<lb ed="#C" n="42" break="no"/>fiteatur Spiritum Sanctum procedere a Patre, 
+      <lb ed="#C" n="43"/>&amp; Filio. Secunda ibi: Vnde Athanasius: Tertia ibi:  
+      <lb ed="#C" n="44"/>Ecce a Doctoribus. In quo aerminatur sententia 
+      le<lb ed="#C" n="45" break="no"/>ctionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

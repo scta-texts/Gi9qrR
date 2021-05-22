@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litteralis</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litteralis</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f49194"><!-- l1-d30dublit -->
+            <head xml:id="Gi9qrR-f49194-Hd1e108">Dubitationes litteralis</head>
+            <p xml:id="Gi9qrR-f49194-d1e111">
+               <lb ed="#C" n="5"/>DVBITATIO LITTERALIS. 
+    </p>
+            <p xml:id="Gi9qrR-f49194-d1e116">
+               <lb ed="#C" n="6"/>SVper litteram, super illo. (Ideo non 
+      <lb ed="#C" n="7"/>coepit esse Dominus ex tempore) No 
+      <lb ed="#C" n="8"/>tandum quod Deus non coepit esse 
+      Do<lb ed="#C" n="9" break="no"/>minus temporis ex tempore: quia 
+      tem<lb ed="#C" n="10" break="no"/>pus non mensuratur tempore. Nam 
+      se<lb ed="#C" n="11" break="no"/>cundum Philosophum 4. Phy. sicut se habet 
+      lo<lb ed="#C" n="12" break="no"/>cus ad ea quae sunt in loco, sic se habet 
+      <lb ed="#C" n="13"/>tempus ad ea quae sunt in tempore: &amp; si¬ 
+      <!--600.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="14"/>cut omnia quae sunt in loco, loco 
+      con<lb ed="#C" n="15" break="no"/>tinentur, sic omnia quae sunt in tempore 
+      <lb ed="#C" n="16"/>continentur a tempore. Vnde ea, quae 
+      <lb ed="#C" n="17"/>semper sunt, non sunt in tempore: nam 
+      tem<lb ed="#C" n="18" break="no"/>pus, quia continet omne quod est in 
+      <lb ed="#C" n="19"/>tempore, excedit omne quod est in eos; 
+      <lb ed="#C" n="20"/>unde tempus fuit ante omne quod est 
+      <lb ed="#C" n="21"/>in tempore. Sed cum tempus non 
+      fue<lb ed="#C" n="22" break="no"/>erit ante seipsum, tempus non est in 
+      tem<lb ed="#C" n="23" break="no"/>pore: &amp; quia Deus non coepit esse 
+      Do<lb ed="#C" n="24" break="no"/>minus in tempore nisi eorum, quae sunt,  
+      <lb ed="#C" n="25"/>in tempore, non coepit esse Dominus 
+      <lb ed="#C" n="26"/>temporis in tempore, quia non erat 
+      tem<lb ed="#C" n="27" break="no"/>pus antequam inciperet tempus: ut 
+      Ma<lb ed="#C" n="28" break="no"/>gister ait.  
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="804"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g09790"><!-- l1-d43q2 -->
+            <head xml:id="Gi9qrR-g09790-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-g09790-d1e111">
+               <lb ed="#C" n="24"/>QVAESTIO II. 
+      <lb ed="#C" n="25"/>De necessitate Divinae actionis.
+    </p>
+            <p xml:id="Gi9qrR-g09790-d1e118">
+               <lb ed="#C" n="26"/>DEinde quaeritur de necessitate 
+      Di<lb ed="#C" n="27" break="no"/>Dvinae actionis. Et circa hoc 
+      quae<lb ed="#C" n="28" break="no"/>runtur duo. Primo: utrum agat ex 
+      ne<lb ed="#C" n="29" break="no"/>cessitate naturae? Secundo: utrum 
+      ex<lb ed="#C" n="30" break="no"/>necessitate iustitiae? 
+    </p>
+            <div xml:id="Gi9qrR-g09790-Dd1e131">
+               <head xml:id="Gi9qrR-g09790-Hd1e133">Articulus 1</head>
+               <p xml:id="Gi9qrR-g09790-d1e136">
+                  <lb ed="#C" n="31"/>ARTICVLVS I. 
+        <lb ed="#C" n="32"/>Vtrum Deus agat ex necessitate 
+        <lb ed="#C" n="33"/>naturae? 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e145">
+                  <lb ed="#C" n="34"/>Ad primum sic proceditur: videtur,  
+        <lb ed="#C" n="35"/>quod Deus agat ex necessitate 
+        na<lb ed="#C" n="36" break="no"/>turae: quia illa sic agunt, quae quantum 
+        <lb ed="#C" n="37"/>est de se determinate &amp; immobiliter se 
+        <lb ed="#C" n="38"/>habent ad productionem effectus, sed  
+        <lb ed="#C" n="39"/>Deus magis immobiliter agit, quam 
+        <lb ed="#C" n="40"/>aliquod ageus naturale, ergo potissime 
+        <lb ed="#C" n="41"/>Deo competit agere ex necessitate 
+        na<lb ed="#C" n="42" break="no"/>turae.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e167">
+        Praeterea: eodem Verbo, quo Pa 
+        <lb ed="#C" n="43"/>ter dicit se, dicit &amp; creaturam, iuxtaillud 
+        <lb ed="#C" n="44"/>Ansel. Monol. 33. Sic Deus quidquid dicit  
+        <lb ed="#C" n="45"/>Verbo suo dicit: uno igitur eodemque 
+        <lb ed="#C" n="46"/>Verbo dicit se ipsum, &amp; quaecumque se¬ 
+        <!--829.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="47"/>gcit: sed illud Verbum naturaliter a 
+        di<lb ed="#C" n="48" break="no"/>cente emanat, ergo &amp; creaturae, quae 
+        per<lb ed="#C" n="49" break="no"/>dictum Verbum procedunt, naturaliter 
+        <lb ed="#C" n="50"/>ex necessitate naturae producuntur. 
+        Prae<lb ed="#C" n="51" break="no"/>terea: in Deo nihil est differens: a 
+        natu<lb ed="#C" n="52" break="no"/>ra sua, ergo &amp; virtus sua, &amp; ivoluntas 
+        <lb ed="#C" n="53"/>sua, &amp; omnia sua sunt idem, quod 
+        na<lb ed="#C" n="54" break="no"/>tura: quidquid ergo ab eo: procedet, 
+        si<lb ed="#C" n="55" break="no"/>ve procedat per voluntatem, sive per 
+        <lb ed="#C" n="56"/>aliquod aliud attributum, naturaliter  
+        <lb ed="#C" n="57"/>procedet ab ipso, ergo quae producit, 
+        <lb ed="#C" n="58"/>naturaliter, vel ex necessitate natura: 
+        <lb ed="#C" n="59"/>producit.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e211">
+        Praeterea: Diony. 4. de Div 
+        <lb ed="#C" n="60"/>nom. assimilat solare lumen Divina 
+        <lb ed="#C" n="61"/>bonitati: quia sicut Sol omnia 
+        illumi<lb ed="#C" n="62" break="no"/>nat, quae illuminari possunt, &amp; aosque 
+        <lb ed="#C" n="63"/>electione, &amp; ratiocinatione omnibus 
+        lu<lb ed="#C" n="64" break="no"/>men suum fundit, sic &amp; Deus suam 
+        bo<lb ed="#C" n="65" break="no"/>nitatem omnibus tradit; talis actio est 
+        <lb ed="#C" n="66"/>ex necessitate naturae, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e230">
+                  <lb ed="#C" n="67"/>In contrarium est Damasc. lib. 1. 
+        <lb ed="#C" n="68"/>cap. 8. qui dicit: quod creatio est opus 
+        <lb ed="#C" n="69"/>existens voluntate: sed cum creare 
+        di<lb ed="#C" n="70" break="no"/>cat Divinam actionem, Deus agit 
+        volun<lb ed="#C" n="71" break="no"/>tate, non necessitate naturae.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e243">
+        Praeterea: 
+        <lb ed="#C" n="72"/>quod agit ex necessitate naturae statim 
+        <lb ed="#C" n="73"/>producit effectum, nisi impediatur, sed  
+        <lb ed="#C" n="74"/>cum Divina virtus impediri nom possit, 
+        <lb ed="#C" n="75"/>&amp; Deus sit aeternus; creaturae 
+        tempo<lb ed="#C" n="76" break="no"/>rales, non agit Deus ex mecessitate 
+        <lb ed="#C" n="77"/>naturae. 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e259">
+                  <lb ed="#C" n="78"/>RESOLVTIO 
+        <lb ed="#C" n="79"/>Deus non agit ex necessitate naturae.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e266">
+                  <lb ed="#C" n="80"/>REspond. dicendum, quod quae 
+        na<lb ed="#C" n="81" break="no"/>turaliter de Prima causa 
+        cognos<lb ed="#C" n="82" break="no"/>cere possumus; per effectus nobis 
+        inno<lb ed="#C" n="83" break="no"/>tescunt: &amp; quia virtus Divina est virtus 
+        <lb ed="#C" n="84"/>infinita, &amp; sua potentia omnipotentia 
+        <lb ed="#C" n="85"/>dici debet, potissime per ea, secundum 
+        <lb ed="#C" n="86"/>quae omnipotentia sua declaratur, 
+        mo<lb ed="#C" n="87" break="no"/>dus actionis eius innotescit: habitum est 
+        <lb ed="#C" n="88"/>enim per Diony. ro.de Div. nom. qua 
+        <lb ed="#C" n="89"/>tuor esse secundum quae Divina 
+        om<lb ed="#C" n="90" break="no"/>nipotentia manifestatur. Primo, quia 
+        <lb ed="#C" n="91"/>omnia ordinat. Secundo, quia omnia 
+        <lb ed="#C" n="92"/>conservat. Tertio, quia omnia 
+        produ<lb ed="#C" n="93" break="no"/>cit. Quarto, quia omnia ad se convertit:, 
+        <lb ed="#C" n="94"/>secundum quodlibet illorum quatuor 
+        <lb ed="#C" n="95"/>manifestare possumus modum actionis 
+        <lb ed="#C" n="96"/>Divinae, &amp; ostendere, quod Deus non 
+        <lb ed="#C" n="97"/>agit ex necessitate naturae; sed ex 
+        liber<lb ed="#C" n="98" break="no"/>tatis arbitrio. De agente enim naturali 
+        <lb ed="#C" n="99"/>duo dicere possumus, ut patet per Philosophu, 
+        <!--830.xml-->
+        <pb ed="#C" n="805"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>qui se intromisit de actione rerum na 
+        <lb ed="#C" n="2"/>turalium. Primo, quia agens ex 
+        neces<lb ed="#C" n="3" break="no"/>sitate naturae movet motum: propter 
+        <lb ed="#C" n="4"/>quod dicitur 2. Physi. quod Omne 
+        mo<lb ed="#C" n="5" break="no"/>vens phasice movetur: &amp; quaecumque non 
+        <lb ed="#C" n="6"/>amplius mota movent, non amplius sunt 
+        phy<lb ed="#C" n="7" break="no"/>sicae considerationis. Secundo, quia actiones 
+        <lb ed="#C" n="8"/>naturales sunt determinatae ad unum. 
+        <lb ed="#C" n="9"/>Vnde 9. Meta. datur differentia inter 
+        <lb ed="#C" n="10"/>potentias naturales, &amp; rationales: quia 
+        <lb ed="#C" n="11"/>t potentiae rationales sunt ad 
+        opposita<lb ed="#C" n="12" break="no"/>naturales sunt determinatae ad unum, 
+        <lb ed="#C" n="13"/>Si igitur ostendere possumus, quod om 
+        <lb ed="#C" n="14"/>nia ordinans, omnia conservans, 
+        om<lb ed="#C" n="15" break="no"/>nia producens, &amp; omnia ad se 
+        conver<lb ed="#C" n="16" break="no"/>itens non agit motum, &amp; sua actio ad 
+        <lb ed="#C" n="17"/>unum determinari non valet, 
+        suffi<lb ed="#C" n="18" break="no"/>cienter ostensum erit Deum non 
+        age<lb ed="#C" n="19" break="no"/>re ex necessitate naturae. Quod enim 
+        <lb ed="#C" n="20"/>n movet motum, ab alio ei finis 
+        praesti<lb ed="#C" n="21" break="no"/>tuitur: ex hoc enim sagitta destinatur 
+        <lb ed="#C" n="22"/>da sagittante: quia sibi ipsi ordinem &amp; 
+        ter<lb ed="#C" n="23" break="no"/>minum praestituere non valet, &amp; 
+        <lb ed="#C" n="24"/>nihil cognitione carens sibi ipsi 
+        termi<lb ed="#C" n="25" break="no"/>enum, &amp; ordinem praestituere 
+        potestini<lb ed="#C" n="26" break="no"/>thil ergo agens motum, &amp; non per 
+        cog<lb ed="#C" n="27" break="no"/>nitionem, sed ex necessitate naturae, 
+        po<lb ed="#C" n="28" break="no"/>ctest esse totius ordinis institutor, cum 
+        <lb ed="#C" n="29"/>omni tali agenti ab alio praestituatur 
+        <lb ed="#C" n="30"/>ordo: eo ipso igitur quod Deus 
+        omni<lb ed="#C" n="31" break="no"/>bus ordinem praestituit, non movet mo 
+        <lb ed="#C" n="32"/>tum, nec ex necessitate naturae; sed per 
+        <lb ed="#C" n="33"/>intellectum &amp; cognitionem, sive ex 
+        liber<lb ed="#C" n="34" break="no"/>tatis arbitrio. Sic enim imaginari 
+        de<lb ed="#C" n="35" break="no"/>bemus, quod dispositiones &amp; ordinet 
+        <lb ed="#C" n="36"/>in istis corporalibus aliquo modo deri 
+        <lb ed="#C" n="37"/>vantur a dispositionibus &amp; ordinibus 
+        <lb ed="#C" n="38"/>siderum; dispositiones autem &amp; 
+        ordi<lb ed="#C" n="39" break="no"/>nes siderum reducuntur non in ageni 
+        <lb ed="#C" n="40"/>ex necessitate naturae, sed in agens per 
+        <lb ed="#C" n="41"/>intellectum &amp; voluntatem. Vnde Com 
+        <lb ed="#C" n="42"/>men. 12. Meta dicit: Quae sunt in istis 
+        <lb ed="#C" n="43"/>inferioribus habent mensuram propriam 
+        ex<lb ed="#C" n="44" break="no"/>quantitatibus motuum stellarum, &amp; dispositio 
+        <lb ed="#C" n="45"/>nibus earum ad invicem: &amp; ista mensura 
+        <lb ed="#C" n="46"/>provenit ab arte Divina iniellectuali: non 
+        <lb ed="#C" n="47"/>ergo ordo &amp; mensura in rebus 
+        prove<lb ed="#C" n="48" break="no"/>nit secundum Commen. a necessitate 
+        <lb ed="#C" n="49"/>naturali; sed ab arte Divina 
+        intellectua<lb ed="#C" n="50" break="no"/>pli: &amp; idem ibidem ait: Natura non agit 
+        <lb ed="#C" n="51"/>nisi rememorata ex virtutibus agentibus no 
+        <lb ed="#C" n="52"/>bilioribus, quae dicuntur intelligentiae. Semper 
+        <lb ed="#C" n="53"/>iergo opus naturae est opus intelligen¬ 
+        <lb ed="#C" n="54"/>tiae: quidquid ergo agit motum reducitur 
+        <lb ed="#C" n="55"/>in agens per intellectum &amp; immobili 
+        <lb ed="#C" n="56"/>ter. Deus igitur, qui omnia ordinat, &amp; 
+        <!--830.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>est id, in quod omuia reducuntur, non 
+        <lb ed="#C" n="58"/>agit ut ab alio motus, ergo non agit 
+        <lb ed="#C" n="59"/>ex necessitate naturae. Rursum etiam 
+        <lb ed="#C" n="60"/>quia agens naturale est determinatum 
+        <lb ed="#C" n="61"/>ad unum, quod omnia ordinat, non 
+        a<lb ed="#C" n="62" break="no"/>igit ex necessitate naturae. Nam omnia 
+        <lb ed="#C" n="63"/>ordinare non requirit determinatam 
+        <lb ed="#C" n="64"/>actionem: cum omnes causae, quae in 
+        <lb ed="#C" n="65"/>tali ordine continentur, diversificentur 
+        <lb ed="#C" n="66"/>in actionibus suis. Secundo hoc idem 
+        <lb ed="#C" n="67"/>declarare possumus: quia omnia 
+        cofer<lb ed="#C" n="68" break="no"/>vat. Nam illud omnia conservat, quod 
+        <lb ed="#C" n="69"/>est omnibus causa essendi, illud est om 
+        <lb ed="#C" n="70"/>nibus causa essendi, quod estipsum esse, 
+        <lb ed="#C" n="71"/>quia quod non est ipsum esse, non est 
+        <lb ed="#C" n="72"/>omnibus causa essendi; sed aliud est ex 
+        <lb ed="#C" n="73"/>causa, ut sit. Si igitur Deus (quia quod 
+        <lb ed="#C" n="74"/>non est ipsum esse, non agit morum: 
+        <lb ed="#C" n="75"/>quia quod agit motum habet potetiali 
+        <lb ed="#C" n="76"/>tatem admixtam, cum motus sit actu 
+        <lb ed="#C" n="77"/>entis inpotentia) qui est ipsum esse 
+        <lb ed="#C" n="78"/>cum sit actus purus potentialitatem ad 
+        <lb ed="#C" n="79"/>mintam habere non potest: ex hoc etiam 
+        <lb ed="#C" n="80"/>apparet, quod determinatam actionem 
+        <lb ed="#C" n="81"/>habere non potest. Nam quod est 
+        ip<lb ed="#C" n="82" break="no"/>sum esse, in eo reservatur omnis 
+        iratio<lb ed="#C" n="83" break="no"/>essendi: cum ergo modus agendi 
+        sequa<lb ed="#C" n="84" break="no"/>tur modum essendi, quod habet 
+        deter<lb ed="#C" n="85" break="no"/>minatum modum agendi, habet deter 
+        <lb ed="#C" n="86"/>minatum modum essendi, quod ergo 
+        <lb ed="#C" n="87"/>habet esse, in quo omne esse 
+        contine<lb ed="#C" n="88" break="no"/>tur, habet actionem, in qua 
+        octio<lb ed="#C" n="89" break="no"/>nes singulae continentur: ergo Deus 
+        <lb ed="#C" n="90"/>omnia conservat, &amp; est ipsum esse, non 
+        <lb ed="#C" n="91"/>agit ab alio motus, nec habet 
+        determi<lb ed="#C" n="92" break="no"/>natam actionem: propter quod 
+        sequi<lb ed="#C" n="93" break="no"/>tur ipsum non agere ex necessitate 
+        ra<lb ed="#C" n="94" break="no"/>turae. Tertio: ista eadem veritas decia 
+        <lb ed="#C" n="95"/>ratur ex eo, quod producit omnia: nam 
+        <lb ed="#C" n="96"/>omnia producere est non habere 
+        actio<lb ed="#C" n="97" break="no"/>nem determinatam ad unum, quia cum 
+        <lb ed="#C" n="98"/>ius actio ad unum determinatur, non 
+        <lb ed="#C" n="99"/>proprie producit omnia; sed quaedamm. 
+        <lb ed="#C" n="100"/>Rursum quod omnia producit, non 
+        <lb ed="#C" n="101"/>agit motum: quia quod agit morum 
+        <lb ed="#C" n="102"/>non est Primum ageris: &amp; quia solum 
+        <lb ed="#C" n="103"/>Primum agens agit nullo 
+        praesuppo<lb ed="#C" n="104" break="no"/>sito, &amp; non supponendo materiam &amp; 
+        <lb ed="#C" n="105"/>subiectum, cum producens omnia nihi 
+        <lb ed="#C" n="106"/>praesupponat, nec alicui alteri virturi in 
+        <lb ed="#C" n="107"/>nitatur, de necessitate tale agens est 
+        a<lb ed="#C" n="108" break="no"/>gens Primum, &amp; non agens motum 
+        <lb ed="#C" n="109"/>igitur quia Deus omnia producit, non 
+        <lb ed="#C" n="110"/>habet actionem limitatam, nec agit 
+        mo<lb ed="#C" n="111" break="no"/>tus: propter quod non agit ex necessit: 
+        <lb ed="#C" n="112"/>te naturae. Quarto, hoc idem ostendi¬ 
+        <!--831.xml-->
+        <pb ed="#C" n="806"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tur: quia Deus omnia ad se 
+        conver<lb ed="#C" n="2" break="no"/>tit: nam quod est tale, est summum 
+        bo<lb ed="#C" n="3" break="no"/>num: nam id, in quod omnia ordinantur, 
+        <lb ed="#C" n="4"/>est finis ultimus, &amp; quid optimum. In 
+        <lb ed="#C" n="5"/>optimo autem reservatur omnis 
+        ratio<lb ed="#C" n="6" break="no"/>bonitatis: &amp; quod est tale, non agit 
+        <lb ed="#C" n="7"/>propter finem alium: inquantum Deus 
+        <lb ed="#C" n="8"/>non agit propter finem alium, non agit 
+        <lb ed="#C" n="9"/>motus: prout vero in ipso reservatur 
+        <lb ed="#C" n="10"/>omnis ratio bonitatis, non habet 
+        actio<lb ed="#C" n="11" break="no"/>nem limitatam, nec agit motus, 
+        prop<lb ed="#C" n="12" break="no"/>ter quod sequitur ipsum non agere 
+        ex<lb ed="#C" n="13" break="no"/>necessitate naturae, ut est per habita 
+        ma<lb ed="#C" n="14" break="no"/>nifestum.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e602">
+                  <lb ed="#C" n="15"/>Respond. ad arg. Ad 1. dicendum 
+        <lb ed="#C" n="16"/>quod licet Deus agat immobiliter; agit  
+        <lb ed="#C" n="17"/>tamen ex libertate arbitrij: agere autem 
+        <lb ed="#C" n="18"/>ex necessitate naturae est habere 
+        deter<lb ed="#C" n="19" break="no"/>minatam actionem, &amp; non agere, 
+        libe<lb ed="#C" n="20" break="no"/>re: unde si bene advertimus, ratio 
+        pe<lb ed="#C" n="21" break="no"/>tit quodam modo quod est in 
+        contra<lb ed="#C" n="22" break="no"/>rio. Nam quod agit simpliciter 
+        immo<lb ed="#C" n="23" break="no"/>biliter, agit non ab alio motum: sed cum 
+        <lb ed="#C" n="24"/>agens ex necessitate naturae agat 
+        mo<lb ed="#C" n="25" break="no"/>tus; Deus, qui agit immobiliter, non 
+        <lb ed="#C" n="26"/>agit ex necessitate naturae. 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e631">
+        Ad 2. 
+        dicen<lb ed="#C" n="27" break="no"/>dum, quod licet verbum naturaliter 
+        e<lb ed="#C" n="28" break="no"/>manet a dicente: non tamen oportet 
+        <lb ed="#C" n="29"/>quae emanant per Verbum, emanare na 
+        <lb ed="#C" n="30"/>turaliter: nam cum Verbum sit 
+        opera<lb ed="#C" n="31" break="no"/>etiva potentia Patris, sic res 
+        producun<lb ed="#C" n="32" break="no"/>istur per Verbum, ut sunt in operativa, 
+        <lb ed="#C" n="33"/>potentia Dei: sic cum non sint ibi, ut in 
+        <lb ed="#C" n="34"/>producente ex necessitate, sed 
+        exvolun<lb ed="#C" n="35" break="no"/>tate, res non procedunt a Deo ex 
+        neces<lb ed="#C" n="36" break="no"/>sitate naturae, sed ex libertate 
+        volunta<lb ed="#C" n="37" break="no"/>tis. 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e658">
+        Ad 3. dicendum, quod licet natur  
+        <lb ed="#C" n="38"/>ra Divina sit idem realiter, quod volu 
+        <lb ed="#C" n="39"/>tas; differunt tamen ratione, &amp; compe¬ 
+        <lb ed="#C" n="40"/>tit eis alia habitudo: &amp; propter aliam, &amp; 
+        <lb ed="#C" n="41"/>aliam habitudinem importatam per 
+        vo<lb ed="#C" n="42" break="no"/>lluntatem &amp; naturam, dicimus, quod  
+        <lb ed="#C" n="43"/>creatio est opus voluntatis, non 
+        natu<lb ed="#C" n="44" break="no"/>rae: &amp; dicimus Deum non producert 
+        <lb ed="#C" n="45"/>tres ex necessitate naturae, sed ex, liberta 
+        <lb ed="#C" n="46"/>te voluntatis. 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e680">
+        Ad 4. dicendum, quod  
+        <lb ed="#C" n="47"/>non est intentio Diony. assimilare 
+        <lb ed="#C" n="48"/>actionem Divinam actioni Solis 
+        quan<lb ed="#C" n="49" break="no"/>tum ad necessitatem, sed quantum ad 
+        <lb ed="#C" n="50"/>universalitatem: nam non agit: Deus 
+        <lb ed="#C" n="51"/>ex necessitate naturae, ut Sol 3 
+        <lb ed="#C" n="52"/>sed cum universalitate actio¬ 
+        <lb ed="#C" n="53"/>nis Solis vniversalitas ac¬ 
+        <lb ed="#C" n="54"/>tionis Divinae quandam 
+        <lb ed="#C" n="55"/>convenientiam 
+        <lb ed="#C" n="56"/>Ihabet.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g09790-Dd1e705">
+               <head xml:id="Gi9qrR-g09790-Hd1e707">Articulus 2</head>
+               <p xml:id="Gi9qrR-g09790-d1e710">
+        <!--831.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ARTICVLVS II II. 
+        <lb ed="#C" n="58"/>Utrum Deus agat, rex necessitate  
+        <lb ed="#C" n="59"/>iustitiae? 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e723">
+                  <lb ed="#C" n="60"/>Ecundo quaeritur: utrum Deus agat 
+        <lb ed="#C" n="61"/>&amp; ex necessitate iustitiae? Et videtur, 
+        <lb ed="#C" n="62"/>quod sic: quia secundum <name xml:id="Gi9qrR-g09790-Nd1e731" ref="#Augustine">Aug.</name> in lib. 
+        <lb ed="#C" n="63"/>de symbolo, &amp; habetur in littera: Hoc 
+        <lb ed="#C" n="64"/>olum non potest Deus, quod non vult: sed cum velit 
+        <lb ed="#C" n="65"/>quod est iustum, ergo solum potest, 
+        <lb ed="#C" n="66"/>quod iustum est: agit igitur ex 
+        necessi<lb ed="#C" n="67" break="no"/>tate iustitiae.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e746">
+        Praeterea: secundum 
+        eun<lb ed="#C" n="68" break="no"/>dem <name xml:id="Gi9qrR-g09790-Nd1e750" ref="#Augustine">Aug.</name> 7. Cofes. &amp; habetur in litte 
+        <lb ed="#C" n="69"/>ta: Deus non cogitur invitus ad aliquid, vel en 
+        <lb ed="#C" n="70"/>potest agere nisi volens: quia voluntas non 
+        <lb ed="#C" n="71"/>excedit potentiam; nec e converso. Cun 
+        <lb ed="#C" n="72"/>igitur Divina potentia non excedat 
+        ali<lb ed="#C" n="73" break="no"/>quod attributum Divinum (quia omnia 
+        <lb ed="#C" n="74"/>quae in Deo sunt, aequalia sunt, quia sunt,  
+        <lb ed="#C" n="75"/>ipse Deus) sicut Deus non potest. 
+        face<lb ed="#C" n="76" break="no"/>re aliquid nisi volens, eo quod sua 
+        vo<lb ed="#C" n="77" break="no"/>luntas, aequatur suae potentiae, sic non 
+        <lb ed="#C" n="78"/>potest facere nisi iustum, eo quod sua 
+        <lb ed="#C" n="79"/>potentia &amp; sua iustitia aequales sunt: 
+        a<lb ed="#C" n="80" break="no"/>git ergo ex necessitate iustitiae. 
+        Praete<lb ed="#C" n="81" break="no"/>rea: quia agetia naturalia determinantur 
+        <lb ed="#C" n="82"/>ad unum secundum naturam suam, 
+        di<lb ed="#C" n="83" break="no"/>cuntur agere ex necessitate naturae: cum 
+        <lb ed="#C" n="84"/>igitur Deus determinetur ad agendum 
+        <lb ed="#C" n="85"/>solum quod iustum est: quia ininsta. 
+        fa<lb ed="#C" n="86" break="no"/>cere non potest, dicetur agere ex 
+        neces<lb ed="#C" n="87" break="no"/>sitate iustitiae.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e795">
+        Praeterea: secunda, ad 
+        <lb ed="#C" n="88"/>Timoth. 2. scribitur, quod seipsum ne 
+        <lb ed="#C" n="89"/>gare non potest; sed se ipsum negaret, 
+        <lb ed="#C" n="90"/>u non secundum iustitiam ageret, cum 
+        <lb ed="#C" n="91"/>ipse sit sua iustitia, igitur solum: agit,  
+        <lb ed="#C" n="92"/>quod sux iustitia exigit, agit ergo ex 
+        ne<lb ed="#C" n="93" break="no"/>cessitate iustitiae.. 
+        <lb ed="#C" n="94"/>In contrarium est: quia secundum 
+        <lb ed="#C" n="95"/>Aug. in de Praedestinatione sanctorum, 
+        <lb ed="#C" n="96"/>No tantum iustus potest dici: Deus, aut 
+        <lb ed="#C" n="97"/>misericors, sed iustus &amp; misericors, sed  
+        <lb ed="#C" n="98"/>iustitia potissime apparet: in damna, 
+        <lb ed="#C" n="99"/>tis, mi sericordia in salvatis: cum ergo 
+        <lb ed="#C" n="100"/>Deus aliquos damnet, aliquos salvet, 
+        <lb ed="#C" n="101"/>non solum agit ex iustitia, sed ex 
+        mise<lb ed="#C" n="102" break="no"/>ricordia.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e831">
+        Praeterea: dicitur quod ad 
+        <lb ed="#C" n="103"/>preces. Cregorij Deus salvavit Traia 
+        <lb ed="#C" n="104"/>num: in inferno existentem, sed hoc  
+        <lb ed="#C" n="105"/>non poterat esse ex institia, ergo non 
+        <lb ed="#C" n="106"/>quidquid agit Deus, agit secundum 
+        <lb ed="#C" n="107"/>iustitia. 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e844">
+        
+        <!--832.xml-->
+                  <pb ed="#C" n="807"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>RESOLVTIO 
+        <lb ed="#C" n="2"/>Simpliciter loquendo, Deus non axit ex 
+        ne<lb ed="#C" n="3" break="no"/>cessitate iustitiae; sed ex suppositione potest 
+        <lb ed="#C" n="4"/>Deus avere ex iustitiae necessitate, 
+        exten<lb ed="#C" n="5" break="no"/>dendo nomen necessitatis ad omne de¬ 
+        <lb ed="#C" n="6"/>bitum &amp; nomen justitiae ad 
+        <lb ed="#C" n="7"/>condecentiam omnem. 
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e868">
+                  <lb ed="#C" n="8"/>SREspond. dicendum, quod Deus ni¬ 
+        <lb ed="#C" n="9"/>Rhil aliud a se de necessitate vult. 
+        <lb ed="#C" n="10"/>Nam cum omnia alia a Deo 
+        coparen<lb ed="#C" n="11" break="no"/>tur ad ipsum, tanquam ea quae sunt, ad 
+        <lb ed="#C" n="12"/>finem, solum bomtatem suam de neces 
+        <lb ed="#C" n="13"/>sitate vult, quam aspicit ut finem: 
+        om<lb ed="#C" n="14" break="no"/>nia vero alia potest velle, &amp; non velle 
+        se<lb ed="#C" n="15" break="no"/>cundum suae voluntatis arbitrium: &amp; 
+        <lb ed="#C" n="16"/>quia voluntas sua est immediata causa 
+        <lb ed="#C" n="17"/>rerum, &amp; creatio &amp; productio rerum 
+        <lb ed="#C" n="18"/>dicitur opus voluntatis: &amp; cum libere 
+        <lb ed="#C" n="19"/>velit alia, &amp; possit ea velle, &amp; non 
+        vel<lb ed="#C" n="20" break="no"/>le; simpliciter loquendo, nihil de neces 
+        <lb ed="#C" n="21"/>pitate agit, nec aliquid de necessitate 
+        <lb ed="#C" n="22"/>producit. Immo quolibet demostrato. 
+        <lb ed="#C" n="23"/>potest illud agere, &amp; non agere, vel 
+        <lb ed="#C" n="24"/>producere, &amp; non producere: &amp; sicut  
+        <lb ed="#C" n="25"/>res ipsae vel naturae dependent a 
+        volun<lb ed="#C" n="26" break="no"/>tate Divina tanquam a sua causa, &amp; in tat 
+        <lb ed="#C" n="27"/>tum sunt, inquantum a Deo volitae sunt: sic ea 
+        <lb ed="#C" n="28"/>quae sunt in rebus, ex Divina voluntate 
+        <lb ed="#C" n="29"/>dependent. Non igitur solum res, sed 
+        or<lb ed="#C" n="30" break="no"/>do iustitiae &amp; rationabilitas, quae in 
+        re<lb ed="#C" n="31" break="no"/>bus aspicimus, ex Divina voluntate 
+        de<lb ed="#C" n="32" break="no"/>pendent: &amp; sicut res ipsae in tantum sunt,  
+        <lb ed="#C" n="33"/>In quantum volitae sunt, sic quiquid est 
+        <lb ed="#C" n="34"/>iustum, rationale, &amp; ordinatum, in tan 
+        <lb ed="#C" n="35"/>tum tale est, inquantum a Deo volitum 
+        <lb ed="#C" n="36"/>est: eo enim ipso quod a Deo aliquid 
+        vo<lb ed="#C" n="37" break="no"/>litum est, justum, ordinatum, &amp; rationa 
+        <lb ed="#C" n="38"/>le est. Nam &amp; si prima regula est 
+        intelle<lb ed="#C" n="39" break="no"/>ctus, vel ratio, tamen quia naturale est 
+        <lb ed="#C" n="40"/>Divine voluntati, ut agat secundum 
+        ra<lb ed="#C" n="41" break="no"/>tionem, vel secundum ordinem sapien 
+        <lb ed="#C" n="42"/>tiae: quidquid est a Deo volitum, inquam 
+        <lb ed="#C" n="43"/>tum est volitum, iustum, &amp; rationabile 
+        <lb ed="#C" n="44"/>dici potest. Cum ergo quaeritur: utrum 
+        <lb ed="#C" n="45"/>Deus possit facere nisi quod iustum est, 
+        <lb ed="#C" n="46"/>vel quod rationale, &amp; ordiatum? Tales 
+        <lb ed="#C" n="47"/>propositiones sic distinguendae sunt, 
+        si<lb ed="#C" n="48" break="no"/>cut &amp; ista distingui posset: utrum Deus 
+        <lb ed="#C" n="49"/>possit facere nisi quod vult? Duplicem 
+        <lb ed="#C" n="50"/>potest habere intelligentiam: nam 
+        si<lb ed="#C" n="51" break="no"/>hoc, quod dico, nisi, ponit rem suam, &amp; 
+        <lb ed="#C" n="52"/>exceptionem, quam importat circa rem 
+        <!--832.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="53"/>volitam, sic falsum est, quod dicitur: quia 
+        <lb ed="#C" n="54"/>Deus potest facere aliud. ab eo, quod 
+        <lb ed="#C" n="55"/>facit: nam cum agat per intellectum, &amp; 
+        <lb ed="#C" n="56"/>potentiae huiusmodi, sint ad opposita, 
+        <lb ed="#C" n="57"/>potest facere; &amp; non facere, ut sibi 
+        pla<lb ed="#C" n="58" break="no"/>cet. Sed si hoc quod dico, nisi, ponit ro 
+        <lb ed="#C" n="59"/>suam circa actum voluntatis absolutem, 
+        <lb ed="#C" n="60"/>sumptum, non prout determinatur ad 
+        <lb ed="#C" n="61"/>aliquam rem volitam: sic non potest 
+        fa<lb ed="#C" n="62" break="no"/>cere nisi:quod vult: quia non potest 
+        fa<lb ed="#C" n="63" break="no"/>cere, nisi velit. Nam licet possit facere 
+        <lb ed="#C" n="64"/>hoc, &amp; contrarium huius: attamen si 
+        <lb ed="#C" n="65"/>hoc facit, hoc vult: &amp; si contrarium 
+        fa<lb ed="#C" n="66" break="no"/>ceret, contrarium vellet: &amp; ideo 
+        aliquan<lb ed="#C" n="67" break="no"/>do invenimus Deum non posse facere, 
+        <lb ed="#C" n="68"/>nisi quod vult; secundum quem modum 
+        <lb ed="#C" n="69"/>Aug. loquitur in lib de Symboio: hoc  
+        <lb ed="#C" n="70"/>solum non potest Deus, quod non vulta 
+        <lb ed="#C" n="71"/>aliquando invenimus Deum posse, quod  
+        <lb ed="#C" n="72"/>non vult: iuxta illud <name xml:id="Gi9qrR-g09790-Nd1e1015" ref="#Augustine">Aug.</name> in Enchiri 
+        <lb ed="#C" n="73"/>Omnipotentis voluntas, multa potest 
+        fa<lb ed="#C" n="74" break="no"/>cere, quae nec vuli, nec facit. Verum 
+        <lb ed="#C" n="75"/>quia ex vilocutionis, cum dicitur Deus 
+        <lb ed="#C" n="76"/>non potest facere, nisi quod vult, hoc  
+        <lb ed="#C" n="77"/>quod dico, nisi, semper ponit rem suam 
+        <lb ed="#C" n="78"/>circa rem volitam, Magister absolunte 
+        <lb ed="#C" n="79"/>negat eam: quia non cogitur, potestas 
+        <lb ed="#C" n="80"/>sua ad aliquos determinatos effectus; 
+        pon<lb ed="#C" n="81" break="no"/>test ergo facere quod non vult: quia 
+        <lb ed="#C" n="82"/>botest facere contrarium eius, quod 
+        fa<lb ed="#C" n="83" break="no"/>cit: attamen non potest facere quod 
+        <lb ed="#C" n="84"/>non vult: quia non potest facere 
+        ali<lb ed="#C" n="85" break="no"/>quid, quod si faceret, nollet illuda 
+        <lb ed="#C" n="86"/>&amp; sicut potest facere quod non vult, 
+        <lb ed="#C" n="87"/>sic potest facere, quod non est iustum? 
+        <lb ed="#C" n="88"/>attamen non potest aliquid faceret 
+        <lb ed="#C" n="89"/>quod si faceret, non esset iustum, sicut non 
+        po<lb ed="#C" n="90" break="no"/>test aliquid facere, quod si faceret, illud 
+        <lb ed="#C" n="91"/>nollet: non ergo simpliciter loquendo, 
+        <lb ed="#C" n="92"/>Deus agit ex necessitate iustitiae, sicut non 
+        <lb ed="#C" n="93"/>necessitatur ad volendum determinatos 
+        <lb ed="#C" n="94"/>effectus. Attamen si nomen necessitatis 
+        <lb ed="#C" n="95"/>vellemus extendere ad omne debitum, 
+        <lb ed="#C" n="96"/>&amp; nomen justitiae ad omnem 
+        condecen<lb ed="#C" n="97" break="no"/>tiam, possemus dicere Deum agere 
+        ali<lb ed="#C" n="98" break="no"/>qua ex necessitate iustitiae non simplici 
+        <lb ed="#C" n="99"/>ter, sed ex suppsitione. Nam licet per 
+        <lb ed="#C" n="100"/>modum debiti nihil sit inclinativum 
+        Di<lb ed="#C" n="101" break="no"/>vinae voluntatis simpliciter; est tamen 
+        <lb ed="#C" n="102"/>ex suppositione: nam si supponimus 
+        <lb ed="#C" n="103"/>Deum velle aliqua, consequens est, ut  
+        <lb ed="#C" n="104"/>velit onia ea, sine quibus illa esse non 
+        pos<lb ed="#C" n="105" break="no"/>sunt, ut si vult producere hominem, 
+        opor<lb ed="#C" n="106" break="no"/>tet quod velit ipsum esse animal, &amp; 
+        con<lb ed="#C" n="107" break="no"/>stare ex aima &amp; corpore: &amp; si vult 
+        uni<lb ed="#C" n="108" break="no"/>versum constare ex partibus inae qualibus 
+        <!--833.xml-->
+        <pb ed="#C" n="808"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>oportet, quod non ae qualiter omnibus 
+        su<lb ed="#C" n="2" break="no"/>am bonitate comunicet: &amp; in tali convenit 
+        <lb ed="#C" n="3"/>municationem attenditur quaedum iustitia, 
+        <lb ed="#C" n="4"/>inquantum dat omnibus, prout decet 
+        <lb ed="#C" n="5"/>suam bonitatem: agit ergo Deus aliqua 
+        <lb ed="#C" n="6"/>ex necessitate iustitiae, accipiendo 
+        ne<lb ed="#C" n="7" break="no"/>cessitatem communiter pro omni 
+        de<lb ed="#C" n="8" break="no"/>bito, &amp; iustitiam pro omni condecentia, 
+        <lb ed="#C" n="9"/>non tamen simpliciter: ut ostensum 
+        <lb ed="#C" n="10"/>est; sed ex suppositione: sed si 
+        necessita<lb ed="#C" n="11" break="no"/>tem vellemus accipere stricte prout 
+        li<lb ed="#C" n="12" break="no"/>bertati repugnat, Deus nihil ex 
+        necessi<lb ed="#C" n="13" break="no"/>tate agit, cum libere faciat quidquid 
+        fa<lb ed="#C" n="14" break="no"/>cit. Rursum si per iustitiam aequam 
+        retri<lb ed="#C" n="15" break="no"/>butionem pro meritis vellemus 
+        accipe<lb ed="#C" n="16" break="no"/>re, non quidquid agit, ex justitia agit: 
+        <lb ed="#C" n="17"/>quia aliquibus tribuit sua dona gratiarum, 
+        <lb ed="#C" n="18"/>nullis praecedentibus meritis, &amp; 
+        huiusmo<lb ed="#C" n="19" break="no"/>di tributio non est iusta, si justitia 
+        respi<lb ed="#C" n="20" break="no"/>cit retributionem inxta quantitatem 
+        me<lb ed="#C" n="21" break="no"/>ritorum: est tamem iusta, si justitia Divinam 
+        <lb ed="#C" n="22"/>condecentiam dicit, quia nihil Deus 
+        <lb ed="#C" n="23"/>facit, quod eum facere non deceat.  
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e1153">
+                  <lb ed="#C" n="24"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="25"/>quod cum dicitur: Deus solum non 
+        po<lb ed="#C" n="26" break="no"/>test quod non vult, si hoc quod dico, 
+        <lb ed="#C" n="27"/>solum, ponit rem suam circa actum 
+        vo<lb ed="#C" n="28" break="no"/>luntatis simpliciter sumptum, sic verum 
+        <lb ed="#C" n="29"/>est quod dicitur: quia non potest 
+        ali<lb ed="#C" n="30" break="no"/>quid facere, nisi velit. Nam cum ex hoc 
+        <lb ed="#C" n="31"/>faciat, quia vult, &amp; ad suum velle necesc 
+        <lb ed="#C" n="32"/>sario sequitur facere: sicut non potest 
+        <lb ed="#C" n="33"/>velle nisi velit, sic non potest facere, 
+        ni<lb ed="#C" n="34" break="no"/> 
+                  <lb ed="#C" n="35"/>determinetur sua voluntas ad 
+        determi<lb ed="#C" n="36" break="no"/>natos effectus, &amp; non potest facere, nisi 
+        <lb ed="#C" n="37"/>quod vult &amp; facit. Sed si hoc quod dico 
+        <lb ed="#C" n="38"/>solum ponit rem suam circa rem volitam, 
+        <!--833.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="39"/>sic est propositio falsam &amp; nion procedit 
+        <lb ed="#C" n="40"/>secundum intentionem <name xml:id="Gi9qrR-g09790-Nd1e1196" ref="#Augustine">Aug.</name>       
+               </p>
+               <p xml:id="Gi9qrR-g09790-d1e1200">
+        Ad 2. dis 
+        <lb ed="#C" n="41"/>cendum, quod licet sit in Deo idem 
+        po<lb ed="#C" n="42" break="no"/>tentia, &amp; voluntas, tamen propter, aliam &amp; 
+        <lb ed="#C" n="43"/>aliam habitudinem, importatam per, 
+        volunta<lb ed="#C" n="44" break="no"/>tem &amp; potentiam, dicitur Deus, aliqua 
+        <lb ed="#C" n="45"/>posse, quae non gult: &amp; sicut, potest 
+        fa<lb ed="#C" n="46" break="no"/>cere Deus quae non vult, sic potest 
+        fa<lb ed="#C" n="47" break="no"/>cere alia iusta, quam faciat.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e1218">
+        Ad 3. 
+        dicen<lb ed="#C" n="48" break="no"/>dum, quod licet voluntas Divina iit deter 
+        <lb ed="#C" n="49"/>minata ad iustitiam, si iustitia proconda 
+        <lb ed="#C" n="50"/>centia sumatur, quia non potest velle 
+        <lb ed="#C" n="51"/>nisi quod decet eum velle; attamen 
+        huo<lb ed="#C" n="52" break="no"/>iusmodi ordo iustitiae non 
+        determina<lb ed="#C" n="53" break="no"/>tur ad hanc rem vel ad illam: quia 
+        ea<lb ed="#C" n="54" break="no"/>dem rationali voluntate, qua hoc facit 
+        <lb ed="#C" n="55"/>&amp; illud dimittit, posset hoc dimittere 
+        <lb ed="#C" n="56"/>&amp; illud facere.
+      </p>
+               <p xml:id="Gi9qrR-g09790-d1e1241">
+        Ad 4. dicendum, quod  
+        <lb ed="#C" n="57"/>Deus non potest facere, nisi quod deceto 
+        <lb ed="#C" n="58"/>cum facere: attamen huiusmodi 
+        conde<lb ed="#C" n="59" break="no"/>centia non determinatur ad hoc opus, de 
+        <lb ed="#C" n="60"/>vel ad illud. Vnde potest facere quae non 
+        <lb ed="#C" n="61"/>facit, absque eo quod neget se ipsum, &amp; 
+        <lb ed="#C" n="62"/>quod faciat praeter suam condecentiam:
+        n<lb ed="#C" n="63" break="no"/>&amp; si alia faceret, alia vellet, &amp; alia ipsumo 
+        <lb ed="#C" n="64"/>facere deceret, non ergo agit ex 
+        neces<lb ed="#C" n="65" break="no"/>sitate iustitiae, quod propter huiusmod  
+        <lb ed="#C" n="66"/>iustitiam &amp; condecentiam determine 
+        <lb ed="#C" n="67"/>tur ad hoc opus vel ad illud. Argumeta 
+        <lb ed="#C" n="68"/>autem in contrarium arguunt non 
+        om<lb ed="#C" n="69" break="no"/>nia opera Divina iusta esse, prout iustum 
+        <lb ed="#C" n="70"/>dicit aequalitatem retributionis iuxta 
+        <lb ed="#C" n="71"/>quantitatem meritorum; non tamen 
+        <lb ed="#C" n="72"/>arguunt aliqua Divina opera non esse 
+        <lb ed="#C" n="73"/>iusta, prout iustitia condecentiam 
+        im<lb ed="#C" n="74" break="no"/>portat: nam quidquid Deus facit, dec 
+        <lb ed="#C" n="75"/>cet eum facere.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

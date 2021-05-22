@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="435"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f16409"><!-- l1-d22dublit -->
+            <head xml:id="Gi9qrR-f16409-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-f16409-d1e111">
+               <lb ed="#C" n="46"/>DVBITATIONES LITTERALES.
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e116">
+               <lb ed="#C" n="47"/>VVPER litteram, super illo: 
+      Simili<lb ed="#C" n="48" break="no"/>tudinis vero splendor. Contra: <name xml:id="Gi9qrR-f16409-Nd1e122" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="49"/>vult, quod lux proprie sumatur in 
+      <lb ed="#C" n="50"/>spiritualibus; sed lux est idem, quod  
+      <lb ed="#C" n="51"/>splendor, ergo splendor non est nomen 
+      <lb ed="#C" n="52"/>similitudinis, sive per translationem 
+      <lb ed="#C" n="53"/>dictum. Dicendum, quod lux dicitur 
+      <lb ed="#C" n="54"/>perfectio, prout est in proprio fonter 
+      <!--472.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="55"/>sed splendor secundum Avic. dicitur 
+      <lb ed="#C" n="56"/>prout est reverberatio a corpore 
+      ter<lb ed="#C" n="57" break="no"/>so, &amp; polito: propter quod licet lux 
+      <lb ed="#C" n="58"/>possit dicere perfectionem simpliciter,  
+      <lb ed="#C" n="59"/>unde &amp; proprie in spiritualibus 
+      reperi<lb ed="#C" n="60" break="no"/>ri potest: splendor autem ratione 
+      re<lb ed="#C" n="61" break="no"/>verberationis, quam includit, non ita 
+      <lb ed="#C" n="62"/>proprie potest sumi. Vel dicendum 
+      <lb ed="#C" n="63"/>quod lux &amp; splendor dupliciter consi 
+      <lb ed="#C" n="64"/>derari possunt; vel quantum ad id, cui  
+      <lb ed="#C" n="65"/>nomen imponitur, &amp; sic dicuntur de 
+      <lb ed="#C" n="66"/>spiritualibus translative: quia rebus 
+      <lb ed="#C" n="67"/>corporalibus imponuntur: vel 
+      quan<lb ed="#C" n="68" break="no"/>tum ad id; a quo nomen imponitura 
+      <lb ed="#C" n="69"/>&amp; tunc cum nomen lucis a 
+      manife<lb ed="#C" n="70" break="no"/>statione imponatur, tanto magis 
+      com<lb ed="#C" n="71" break="no"/>petit spiritualibus, quam corporalibus, 
+      <lb ed="#C" n="72"/>quanto manifestatio spiritualis est 
+      po<lb ed="#C" n="73" break="no"/>tior corporali, 
+      <lb ed="#C" n="74"/>Item super illo: Nec dicuntur 
+      rela<lb ed="#C" n="75" break="no"/>tive incarnatus, &amp; humanatus. Contra: 
+      <lb ed="#C" n="76"/>nihil competit Deo ex tempore, quod 
+      <lb ed="#C" n="77"/>non importet relationem: quia si 
+      ab<lb ed="#C" n="78" break="no"/>soluta competerent ei ex tempore, in 
+      <lb ed="#C" n="79"/>eo esset facta mutatio; sed 
+      incar<lb ed="#C" n="80" break="no"/>natus, humanatus dicitur Deus ex 
+      tem<lb ed="#C" n="81" break="no"/>pore, ergo &amp;c. Dicendum, quod 
+      in<lb ed="#C" n="82" break="no"/>carnatus, humanatus ratione nominis 
+      <lb ed="#C" n="83"/>relationem non important explicite; 
+      <lb ed="#C" n="84"/>tamen aliquomodo relationem 
+      impli<lb ed="#C" n="85" break="no"/>cant: eo quod dant intelligere unionem, 
+      <lb ed="#C" n="86"/>quae relationem importat, 
+      <lb ed="#C" n="87"/>Item super illo: Ea, quae unitatem 
+      es<lb ed="#C" n="88" break="no"/>sentiae. Notandum, quod quinque 
+      di<lb ed="#C" n="89" break="no"/>cuntur, quae dicunt essentiae unitatem. 
+      <lb ed="#C" n="90"/>Primo: quia dicunt quid absolutum. 2. 
+      <lb ed="#C" n="91"/>quia substantiam significant: 3. qui  
+      <lb ed="#C" n="92"/>de omnibus, comuniter praedicantur  
+      <lb ed="#C" n="93"/>4. quia de singulis sigillatim. 5. quia 
+      <lb ed="#C" n="94"/>de omnibus non pluraliter accipiuntur.  
+      <lb ed="#C" n="95"/>Nam tres Personae non dicuntur tres 
+      <lb ed="#C" n="96"/>magni, sed unus magnus. Contra 
+      pri<lb ed="#C" n="97" break="no"/>mam conditionem obiicitur: quia 
+      <lb ed="#C" n="98"/>Dominus ad essentiae unitatem 
+      perti<lb ed="#C" n="99" break="no"/>net, &amp; tamen relative dicitur. 
+      Dicen<lb ed="#C" n="100" break="no"/>dum, quod intelligendum est de his, 
+      <lb ed="#C" n="101"/>quae dicunt relationem realem; 
+      Domi<lb ed="#C" n="102" break="no"/>nus autem dicit relationem secundum 
+      <lb ed="#C" n="103"/>rationem: ideo tale relativum potest 
+      <lb ed="#C" n="104"/>esse quid essentiale, vel dicere essentiaem 
+      <lb ed="#C" n="105"/>unitatem: Aliae autem conditiones non 
+      <lb ed="#C" n="106"/>habent calumniam. 
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e256">
+               <lb ed="#C" n="107"/>Item super illo: Quae autem relative: 
+      <lb ed="#C" n="108"/>Notandum, quod ea, quae distinctionem 
+      <lb ed="#C" n="109"/>Personarum important, tria dicunt. 1. quia 
+      <lb ed="#C" n="110"/>telative accipiutur. 2. quia non substatiam 
+      <!--473.xml-->
+      <pb ed="#C" n="436"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>dicunt. 3. quia de omnibus non 
+      dicun<lb ed="#C" n="2" break="no"/>tur, vel si dicuntur, non dicuntur sin 
+      <lb ed="#C" n="3"/>guiariter. Contra illam conditionem, 
+      <lb ed="#C" n="4"/>quod non dicunt substantiam. Contra: 
+      <lb ed="#C" n="5"/>relatio in Divinis est idem, quod 
+      Di<lb ed="#C" n="6" break="no"/>vina substantia, ergo &amp;c. Dicendum, 
+      <lb ed="#C" n="7"/>quod relationes in Divinis realiter sunt,  
+      <lb ed="#C" n="8"/>idem, quod Divina substantia, sed 
+      ta<lb ed="#C" n="9" break="no"/>men secundum rationem differunt. Et  
+      <lb ed="#C" n="10"/>i dicatur, quod etiam sapientia, 
+      boni<lb ed="#C" n="11" break="no"/>tas secundum rationem differunt a 
+      Di<lb ed="#C" n="12" break="no"/>vina substantia. Dicendum, quod prop 
+      <lb ed="#C" n="13"/>ter talem differentiam rationum 
+      attri<lb ed="#C" n="14" break="no"/>buta in Divinis non manent ibi secun 
+      <lb ed="#C" n="15"/>dum suum genus: relationes tamen 
+      <lb ed="#C" n="16"/>manent, &amp; ex hoc quia manent ibi 
+      se<lb ed="#C" n="17" break="no"/>cundum suum genus, dicuntur non 
+      <lb ed="#C" n="18"/>significare substantiam. 
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e313">
+               <lb ed="#C" n="19"/>Item super illo: Non tres magni, sed  
+      <lb ed="#C" n="20"/>unus magnus. Notandum, quod magnus 
+      <lb ed="#C" n="21"/>potest sumi adiective, vel substative. Si 
+      <lb ed="#C" n="22"/>sumatur adiective, est locutio falsa. Si 
+      <lb ed="#C" n="23"/>substantive, est locutio veta. 
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e327">
+               <lb ed="#C" n="24"/>Item super illo: Deus non est magnus 
+      <lb ed="#C" n="25"/>&amp;c. Notandum, quod <name xml:id="Gi9qrR-f16409-Nd1e333" ref="#Augustine">August.</name> 
+      proba<lb ed="#C" n="26" break="no"/>re intendit Deum non esse magnum, 
+      <lb ed="#C" n="27"/>per participationem, sed substantiali 
+      <lb ed="#C" n="28"/>ter. Cuius ratio talis est: si Deus est 
+      <lb ed="#C" n="29"/>magnus per participationem, tunc noc 
+      <lb ed="#C" n="30"/>est ipsa magnitudo, qua magnus 
+      dici<lb ed="#C" n="31" break="no"/>tur. Sed propter quod unumquodque tale, &amp; 
+      <lb ed="#C" n="32"/>illud magis. Si est magnus non per se 
+      ip<lb ed="#C" n="33" break="no"/>sum, sed per magnitudinem, quae non 
+      <lb ed="#C" n="34"/>est ipse, tunc ipsa magnitudo est magis 
+      <lb ed="#C" n="35"/>magna, sive maior, quam ipse Deus. 
+      <lb ed="#C" n="36"/>est igitur aliquid, quod non est Deus 
+      <lb ed="#C" n="37"/>maius Deo, quod est inconveniens 
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e363">
+               <lb ed="#C" n="38"/>Sed ista ratio non videtur valere: 
+      <lb ed="#C" n="39"/>nam homo estialbus per albedinem, 
+      <lb ed="#C" n="40"/>quae non est ipse, &amp; tamen albedo non 
+      <lb ed="#C" n="41"/>est magis alba.
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e374">
+      Praeterea: formae 
+      spe<lb ed="#C" n="42" break="no"/>ciales se ipsas non denominant: 
+      namp<lb ed="#C" n="43" break="no"/>licet veritas sit vera, &amp; bonitas sit 
+      bo<lb ed="#C" n="44" break="no"/>na, calor non est calidus. Cum ergo. 
+      <lb ed="#C" n="45"/>magnitudo dicat quamdam specialem 
+      <lb ed="#C" n="46"/>perfectionem, ergo se non 
+      denomi<lb ed="#C" n="47" break="no"/>nat, ergo non est magna, &amp; si non est 
+      <lb ed="#C" n="48"/>magna, non potest esse magis magna: 
+      <lb ed="#C" n="49"/>quia comparativum positivum 
+      relin<lb ed="#C" n="50" break="no"/>quit.
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e396">
+      Praeterea: aliquid dicitur 
+      mag<lb ed="#C" n="51" break="no"/>num secundum totam magnitudinem. 
+      <lb ed="#C" n="52"/>quae in ipso est. Si igitur ipsa 
+      magnitu<lb ed="#C" n="53" break="no"/>do diceretur maior, quam ipsum 
+      mag<lb ed="#C" n="54" break="no"/>num, tunc se ipsa maior esset. 
+      Dicen<lb ed="#C" n="55" break="no"/>dum, quod ratio <name xml:id="Gi9qrR-f16409-Nd1e409" ref="#Augustine">August,</name> bona est. Ad 
+      <lb ed="#C" n="56"/>cuius evidentiam notandum, quod in 
+      <!--473.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="57"/>his, quae non mole magna sunt, idem 
+      <lb ed="#C" n="58"/>est esse maius, quod esse melius, &amp; quod  
+      <lb ed="#C" n="59"/>habet esse melius, habet esse verius: 
+      <lb ed="#C" n="60"/>quia verum &amp; bonum ex esse 
+      sumun<lb ed="#C" n="61" break="no"/>ut. Dicamus ergo, quod omnis 
+      for<lb ed="#C" n="62" break="no"/>ma, quae subiectum denominat, nec 
+      <lb ed="#C" n="63"/>est ipsum subiectum, verius convenit 
+      <lb ed="#C" n="64"/>sibi; vel est eadem sibi, quam ipsi 
+      sub<lb ed="#C" n="65" break="no"/>lecto. Vnde albedo est verius eadem 
+      <lb ed="#C" n="66"/>albedini, &amp; est magis essentialiter talis 
+      <lb ed="#C" n="67"/>qualitas, quam sit ipsum album. Est 
+      er<lb ed="#C" n="68" break="no"/>go subiectum album, &amp; albedo alba; 
+      <lb ed="#C" n="69"/>sed subiectum est album secundum 
+      de<lb ed="#C" n="70" break="no"/>nominationem; albedo tamen est 
+      al<lb ed="#C" n="71" break="no"/>pa secundum aliam rationem: est 
+      <lb ed="#C" n="72"/>enim alba, eo quod essentialiter est 
+      ip<lb ed="#C" n="73" break="no"/>sa albedo, &amp; illud esse tale est esse 
+      ve<lb ed="#C" n="74" break="no"/>rius, quam sit primum. Et ista est via 
+      <lb ed="#C" n="75"/>Diony. 2. de Div. nom. qui dicit: At 
+      <lb ed="#C" n="76"/>ut exemplis nostris utar, voluptates, ac 
+      dolo<lb ed="#C" n="77" break="no"/>res. facere dicuntur, ut homines taetentur &amp; 
+      <lb ed="#C" n="78"/>doleant, sed nec laetantur, nec dolent. Neo 
+      <lb ed="#C" n="79"/>recte dicet, mea quidem sententia, si quis 
+      ip<lb ed="#C" n="80" break="no"/>am vitam vivere confirmet, aut ipsam lucem 
+      <lb ed="#C" n="81"/>illustrari, nisi forte haec alio modo dicati, id est,  
+      <lb ed="#C" n="82"/>abundantius, &amp; essentiae ratione ea, quae sunt 
+      effe<lb ed="#C" n="83" break="no"/>ctorum; in causis ante inesse. Si ergo Deus esset 
+      <lb ed="#C" n="84"/>magnus magnitudine, quae ipse non esset, 
+      <lb ed="#C" n="85"/>licet non secundum eandem rationem 
+      <lb ed="#C" n="86"/>diceretur magnitudo magna &amp; Deus. 
+      <lb ed="#C" n="87"/>magnus: iverius tamen esset 
+      magnitu<lb ed="#C" n="88" break="no"/>do magna, quam Deus: eo quod 
+      es<lb ed="#C" n="89" break="no"/>sentialius: &amp; quia in Deo non 
+      poni<lb ed="#C" n="90" break="no"/>mus magnitudinem molis, &amp; ibi idem 
+      <lb ed="#C" n="91"/>est esse maius, quod esse melius, vel 
+      es<lb ed="#C" n="92" break="no"/>se verius: simpliciter &amp; absolute 
+      lo<lb ed="#C" n="93" break="no"/>quendo, magnitudo existens in Deo; 
+      <lb ed="#C" n="94"/>quae ponitur non esse Deus, esset Deo 
+      <lb ed="#C" n="95"/>maior, &amp; ita vera est conclusio <name xml:id="Gi9qrR-f16409-Nd1e503" ref="#Augustine">Auga.</name> 
+               <lb ed="#C" n="96"/>quod aliquid, quod non est Deus, est 
+      <lb ed="#C" n="97"/>maius Deo, quod est inconveniens 
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e511">
+               <lb ed="#C" n="98"/>Ad primum in contrarium 
+      dicen<lb ed="#C" n="99" break="no"/>dum, quod albedo non est magis alba 
+      <lb ed="#C" n="100"/>ea ratione, secundum quam homo 
+      di<lb ed="#C" n="101" break="no"/>citur albus; sed eo modo, quo 
+      dixi<lb ed="#C" n="102" break="no"/>mus: quia ea, quae sunt causatorum, 
+      <lb ed="#C" n="103"/>amplius praeinsunt causis.
+    </p>
+            <p xml:id="Gi9qrR-f16409-d1e527">
+      Ad 2. 
+      dicen<lb ed="#C" n="104" break="no"/>dum, quod formae speciales se ipsas no 
+      <lb ed="#C" n="105"/>denominant eo modo, ut 
+      denomina<lb ed="#C" n="106" break="no"/>tur subiectum, secundum alium modum 
+      <lb ed="#C" n="107"/>denominare possunt, ut patuit: Ad 3. 
+      <lb ed="#C" n="108"/>dicendum, quod non concluditur 
+      mag<lb ed="#C" n="109" break="no"/>nitudinem; se ipsa maiorem esse, sed  
+      <lb ed="#C" n="110"/>quod magis proprie est eadem sibi, quam 
+      <lb ed="#C" n="111"/>subiecto: quia sibi est eadem 
+      essentiali<lb ed="#C" n="112" break="no"/>ter; subiecto autem accidentaliter
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

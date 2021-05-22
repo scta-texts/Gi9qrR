@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g16466"><!-- l1-d45expolit -->
+            <head xml:id="Gi9qrR-g16466-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-g16466-d1e111">
+               <lb ed="#C" n="65"/>ExPOSITIO LITTERAE
+    </p>
+            <p xml:id="Gi9qrR-g16466-d1e116">
+               <lb ed="#C" n="66"/>Vper litteram, super illo: Ideoque 
+      pla<lb ed="#C" n="67" break="no"/>Ocuit vanitati phorum etiam causis abiis 
+      <lb ed="#C" n="68"/>ea tribuere. Notadum quosdam philosophos 
+      <lb ed="#C" n="69"/>dixisse mundum generari a casu, ut  
+      <lb ed="#C" n="70"/>Emped. Quidam vero posuerunt ea, quae 
+      <lb ed="#C" n="71"/>sunt in istis inferioribus, dependere 
+      im<lb ed="#C" n="72" break="no"/>mediate solum ex causis proximis: ita 
+      <lb ed="#C" n="73"/>quod Deus immediate solum produxit,  
+      <lb ed="#C" n="74"/>unum, ut primam intelligetiam, &amp; me 
+      <lb ed="#C" n="75"/>diante illa, produxit alia: ita quod i 
+      <lb ed="#C" n="76"/>mediatam causalitatem in istis 
+      inferio<lb ed="#C" n="77" break="no"/>ribus penitus subtrahebant a Deo, quod 
+      <lb ed="#C" n="78"/>Avic. sensisse videtur. Haec autem sunt; 
+      <lb ed="#C" n="79"/>erronea. Nam operatio naturae, &amp; ea, 
+      <lb ed="#C" n="80"/>quae videmus in istis inferioribus, non 
+      <lb ed="#C" n="81"/>sunt attribuenda casui vel fortunae, sed 
+      <lb ed="#C" n="82"/>sunt opus Dei, &amp; fiunt propter deter 
+      <lb ed="#C" n="83"/>minatum finem. Rursum Deus sic agi 
+      <lb ed="#C" n="84"/>mediate communicando suam digni 
+      <lb ed="#C" n="85"/>tatem secundis agentibus, quod etiam 
+      <lb ed="#C" n="86"/>agit immediate, ut in secundo patebit. 
+      <lb ed="#C" n="87"/>Propter hoc dictum est talia non esse 
+      <lb ed="#C" n="88"/>attribuenda alijs causis principaliter; 
+      <lb ed="#C" n="89"/>sed voluntati Divinae. 
+    </p>
+            <p xml:id="Gi9qrR-g16466-d1e171">
+               <lb ed="#C" n="90"/>Item super illo: Itaque non nisi Dei 
+      <lb ed="#C" n="91"/>voluntas prima est causa. Notandum, quod  
+      <lb ed="#C" n="92"/>per haec non excluduntur causae 
+      secun<lb ed="#C" n="93" break="no"/>dae. Nam licet Divina voluntas sit prima 
+      <lb ed="#C" n="94"/>&amp; principalis causa; exequitur tamen 
+      <lb ed="#C" n="95"/>Deus gubernationem rerum 
+      median<lb ed="#C" n="96" break="no"/>tibus causis secundis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

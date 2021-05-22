@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="187"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e50282"><!-- l1-d8p2q2 -->
+            <head xml:id="Gi9qrR-e50282-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e50282-d1e111">
+               <lb ed="#C" n="43"/>QVAESTIO II. 
+      <lb ed="#C" n="44"/>De simplicitate creaturae.
+    </p>
+            <p xml:id="Gi9qrR-e50282-d1e118">
+               <lb ed="#C" n="45"/>DEinde quaeritur de simplicitate 
+      <lb ed="#C" n="46"/>creaturae. Et circa hoc quaeruntur  
+      <lb ed="#C" n="47"/>tria. 1. utrum omnis creatura sit com¬ 
+      <lb ed="#C" n="48"/>osita? 2. specialiter de compositione 
+      <lb ed="#C" n="49"/>animae? 3. utrum anima sit in qualibet  
+      <lb ed="#C" n="50"/>parte corporis tota? 
+    </p>
+            <div xml:id="Gi9qrR-e50282-Dd1e134">
+               <head xml:id="Gi9qrR-e50282-Hd1e136">Articulus 1</head>
+               <p xml:id="Gi9qrR-e50282-d1e139">
+        <!--224.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>ARTICVLVS I
+        <lb ed="#C" n="52"/>Vtrum omnis creatura sit composita?
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e150">
+                  <lb ed="#C" n="53"/>AD 1. sic proceditur. Videtur quod  
+        <lb ed="#C" n="54"/>sit dare aliquam creaturam 
+        sim<lb ed="#C" n="55" break="no"/>plicem: volebat enim Avempace, ut 
+        re<lb ed="#C" n="56" break="no"/>citat Comm. in 3. de Anima comm.5. 
+        <lb ed="#C" n="57"/>quod Intellectus noster est aptus natus 
+        abstra<lb ed="#C" n="58" break="no"/>here quidditatem ab habente quidditatem, doneo 
+        <lb ed="#C" n="59"/>deveniat adquidditatem, cuius non sit quidditas. 
+        <lb ed="#C" n="60"/>Sed tunc quaero de illa quidditate, utrum 
+        <lb ed="#C" n="61"/>sit composita vel non? Quod si est 
+        com<lb ed="#C" n="62" break="no"/>posita, iterum habebit quidditatem: 
+        <lb ed="#C" n="63"/>oportet igitur dare ipsam esse simplicem. 
+        <lb ed="#C" n="64"/>Praeterea: omne compositum resolvitur  
+        <lb ed="#C" n="65"/>in sua componentia, ut vult Damasc. 2. 
+        <lb ed="#C" n="66"/>lib. cap. 12. Si igitur creatura est 
+        com<lb ed="#C" n="67" break="no"/>posita resolvetur in sua componentia, 
+        <lb ed="#C" n="68"/>tunc quaero de illis componentibus, 
+        <lb ed="#C" n="69"/>utrum sint composita vel non? No est ab 
+        <lb ed="#C" n="70"/>ire in infinitum: ergo oportet dare 
+        ali<lb ed="#C" n="71" break="no"/>quod componens creaturam esse simplex,  
+        <lb ed="#C" n="72"/>sed quod componit creaturam est 
+        crea<lb ed="#C" n="73" break="no"/>tura: ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e198">
+        Praeterea: secudum Avic. 
+        <lb ed="#C" n="74"/>in principio Meta. suae, Primum quod 
+        con<lb ed="#C" n="75" break="no"/>cipitur ab intellectu est ens, &amp; esse, sed 
+        pri<lb ed="#C" n="76" break="no"/>mum ab intellectu apprehesum est sim 
+        <lb ed="#C" n="77"/>plex, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e209">
+        Praeterea: omne 
+        compo<lb ed="#C" n="78" break="no"/>situm est divisibile, quod ergo non 
+        dividi<lb ed="#C" n="79" break="no"/>tur est simplex: ergo&amp;c. Sed ut scribitur 
+        <lb ed="#C" n="80"/>7. propositione de causis: Intelligenti 
+        <lb ed="#C" n="81"/>est substantia quae non dividitur, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e221">
+                  <lb ed="#C" n="82"/>In contrarium est: quia omne crea 
+        <lb ed="#C" n="83"/>tum terminatur, vel trahitur ad aliquod  
+        <lb ed="#C" n="84"/>genus, cuius limites non excedit: sed  
+        <lb ed="#C" n="85"/>omne tale est compositum, cum Qenus 
+        <lb ed="#C" n="86"/>non dicat actum purum, nec potentiam puram 
+        <lb ed="#C" n="87"/>ed formam mediam inter potentiam &amp; actum. 
+        <lb ed="#C" n="88"/>ut dicit Comm. in 2. Metaph. ergo &amp;c. 
+        <lb ed="#C" n="89"/>Praeterea: omne creatum habet esse 
+        fi<lb ed="#C" n="90" break="no"/>nitum, sed esse finitum est esse receptum in 
+        <lb ed="#C" n="91"/>alio, ergo inomni creato est compositio 
+        <lb ed="#C" n="92"/>ex recepto &amp; recipiente. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e247">
+                  <lb ed="#C" n="93"/>RESOLVTIO 
+        <lb ed="#C" n="94"/>Omnis creatura composita est: nam quaelibet  
+        <lb ed="#C" n="95"/>saltem ab unitate declinat, &amp; muta¬ 
+        <lb ed="#C" n="96"/>tioni subiicitur.  
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e258">
+                  <lb ed="#C" n="97"/>REspond. dicendum, quod in omni 
+        <lb ed="#C" n="98"/>creato, quod habet per se esse, 
+        <lb ed="#C" n="99"/>oportet nos concedere esse 
+        compositio<lb ed="#C" n="100" break="no"/>nem ex quod est &amp; esse. Et est ratio: quia 
+        <lb ed="#C" n="101"/>si creatum est, ab alio habet esse, omne 
+        <!--225.xml-->
+        <pb ed="#C" n="188"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>quod ab alio habet esse, est in poten 
+        <lb ed="#C" n="2"/>tia ad esse, &amp; non est ipsum esse: quia 
+        <lb ed="#C" n="3"/>si ipsum esse esset, tunc esset actus purus 
+        si<lb ed="#C" n="4" break="no"/>ne aliqua potentialitate: non igitur 
+        in<lb ed="#C" n="5" break="no"/>digeret aliquo essentialiter differente 
+        al<lb ed="#C" n="6" break="no"/>eo, qui ipsum esse produceret. Ponere 
+        <lb ed="#C" n="7"/>igitur creatum sic esse, est ponere 
+        crea<lb ed="#C" n="8" break="no"/>tum non esse creatum. Item sicut 
+        supe<lb ed="#C" n="9" break="no"/>rius dicebatur, quando aliquid in 
+        abstra<lb ed="#C" n="10" break="no"/>cto de aliquo praedicatur, nihil est in 
+        <lb ed="#C" n="11"/>eo, quod sit aliud a tali praedicato, ut  
+        <lb ed="#C" n="12"/>si natura hominis de homine 
+        praedicare<lb ed="#C" n="13" break="no"/>tur in abstracto, nihil esset in homine, 
+        <lb ed="#C" n="14"/>quod non pertineret ad humanitatem, 
+        <lb ed="#C" n="15"/>&amp; econtrario: &amp; quia si nihil esset in 
+        <lb ed="#C" n="16"/>homine aliud a natura sua, homo esset 
+        <lb ed="#C" n="17"/>sua humanitas: si igitur esset aliquod  
+        <lb ed="#C" n="18"/>ens creatum, in quo non esset nisi esse 
+        <lb ed="#C" n="19"/>tunc illud ens creatum esset suum esse, 
+        <lb ed="#C" n="20"/>&amp; maxime haberet esse: ut potest 
+        pate<lb ed="#C" n="21" break="no"/>re per <name xml:id="Gi9qrR-e50282-Nd1e322" ref="#Augustine">Aug.</name> qui dicit, Deum esse summum 
+        <lb ed="#C" n="22"/>bonum, quia in eo non est aliud nisi 
+        bo<lb ed="#C" n="23" break="no"/>num: sic illud creatum summe esset: 
+        <lb ed="#C" n="24"/>quia in eo non esset, nisi esse. Sed Quod  
+        <lb ed="#C" n="25"/>est maxime tale in omni genere est 1. tale, &amp; 
+        <lb ed="#C" n="26"/>causa omnium aliorum, ut potest patere per 
+        <lb ed="#C" n="27"/>Philos. 2. Metaph. Creatum igitur, quod 
+        <lb ed="#C" n="28"/>sic ponitur, maxime habebit esse, &amp; 
+        <lb ed="#C" n="29"/>bmnia alia perducet ad esse, &amp; nihil erit 
+        <lb ed="#C" n="30"/>causa ipsius esse; ac per hoc creatum 
+        <lb ed="#C" n="31"/>non erit; sed Creator omnium. Non 
+        <lb ed="#C" n="32"/>est igitur aliquidcitra Primum, in quo 
+        <lb ed="#C" n="33"/>sit tantum esse, &amp; in quo non sit 
+        ali<lb ed="#C" n="34" break="no"/>quid, quod participet esse: bene igitur  
+        <lb ed="#C" n="35"/>dictum est per <name xml:id="Gi9qrR-e50282-Nd1e356" ref="#Boethius">Boetium,</name> quod Omnes 
+        <lb ed="#C" n="36"/>quod est citra Primum, est compositum ex quod  
+        <lb ed="#C" n="37"/>est, &amp; esse: omnia igitur, quae per se 
+        ha<lb ed="#C" n="38" break="no"/>bent esse, composita sunt. Sed propter  
+        <lb ed="#C" n="39"/>hoc non habemus omnem creaturam 
+        <lb ed="#C" n="40"/>esse compositam: quia etiam ipsum 
+        es<lb ed="#C" n="41" break="no"/>se, quod existit in eo, quod est velut in 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e373">
+                  <lb ed="#C" n="42"/>participante esse, creatura est; nec 
+        tamen<lb ed="#C" n="43" break="no"/>est compositum ex quod est, &amp; esse 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e380">
+                  <lb ed="#C" n="44"/>Et ideo notandum, quod ista tria, 
+        <lb ed="#C" n="45"/>unitas, simplicitas, &amp; immutabilitas seD 
+        <lb ed="#C" n="46"/>consequuntur Nam ex eo quod aliquid 
+        <lb ed="#C" n="47"/>est magis simplex, est magis unum: quia 
+        <lb ed="#C" n="48"/>magis indivisibile, &amp; minus indigens: 
+        <lb ed="#C" n="49"/>quia compositum indiget 
+        componen<lb ed="#C" n="50" break="no"/>tibus, est numerus unius; unum autem &amp; 
+        <lb ed="#C" n="51"/>simplex non indigent alijs, ut tradit 
+        <lb ed="#C" n="52"/>Procius 26. prop. Item quanto aliquid 
+        <lb ed="#C" n="53"/>est magis immutabile, tanto magis 
+        sim<lb ed="#C" n="54" break="no"/>plex, unde <name xml:id="Gi9qrR-e50282-Nd1e406" ref="#Augustine">Aug.</name> 6. de Trin. cap. 6. 
+        N<lb ed="#C" n="55" break="no"/>hil enim simplex mutabile est: quia igitur ad 
+        <lb ed="#C" n="56"/>rationem simplicis requititur immuta¬ 
+        <!--225.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>bilitas, &amp; unitas, cum omnis pars im 
+        <lb ed="#C" n="58"/>portet aliquam potentialitatem, &amp; per 
+        <lb ed="#C" n="59"/>consequens mutabilitatem: quia nihis 
+        <lb ed="#C" n="60"/>immixtum potentiae est omnino 
+        immu<lb ed="#C" n="61" break="no"/>tabile, nulla pars erit absoluta ab 
+        omni<lb ed="#C" n="62" break="no"/>modo compositionis, 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e431">
+                  <lb ed="#C" n="63"/>Vt ergo possimus scire, quae sunt 
+        con<lb ed="#C" n="64" break="no"/>posita, &amp; quae non, sciendum est, quod 
+        <lb ed="#C" n="65"/>est triplex totalitas, ut narrat Proclus 
+        <lb ed="#C" n="66"/>66. prop. scilicet, Ex partibus, in parte, &amp; 
+        <lb ed="#C" n="67"/>ante partes. Haec autem sic distinguuntur  
+        <lb ed="#C" n="68"/>nam quaedam res participat esse, quedam 
+        <lb ed="#C" n="69"/>sunt ipsum esse participatum, quedam est esse 
+        <lb ed="#C" n="70"/>imparticipabile, res, quae participatesse, est 
+        <lb ed="#C" n="71"/>totum ex partibus: quia constat ex quod 
+        <lb ed="#C" n="72"/>est, &amp; esse: esse participatum est totum 
+        <lb ed="#C" n="73"/>in parte: quia omne, quod recipitur in 
+        <lb ed="#C" n="74"/>aliquo, recipitur secundum modum rei 
+        <lb ed="#C" n="75"/>recipientis. Cum igitur tale esse sit 
+        re<lb ed="#C" n="76" break="no"/>ceptum in alio, non recipietur 
+        secun<lb ed="#C" n="77" break="no"/>dum sui totalitatem, nec secundum 
+        to<lb ed="#C" n="78" break="no"/>tum suum esse, sed recipietur secundum 
+        <lb ed="#C" n="79"/>partem: unde si totum dicetur, non 
+        <lb ed="#C" n="80"/>erit totum ut totum, sed totum ut pars. 
+        <lb ed="#C" n="81"/>Totum ante partes est esse Divinum: nam 
+        <lb ed="#C" n="82"/>Deus in se totum comprehendit esse, 
+        <lb ed="#C" n="83"/>quod esse a partibus non dependet: 
+        prop<lb ed="#C" n="84" break="no"/>ter quod totum ante partes dicitur: 
+        un<lb ed="#C" n="85" break="no"/>de Diony. 5. de Div.nom. dicit: Deum 
+        <lb ed="#C" n="86"/>in se totum accepisse esse. Iltae tres 
+        to<lb ed="#C" n="87" break="no"/>talitates ad simplicitatem sic 
+        comparan<lb ed="#C" n="88" break="no"/>tur: quia esse Divinum, quod est 
+        totu<lb ed="#C" n="89" break="no"/>ante partes, omninio immutabile est: 
+        <lb ed="#C" n="90"/>quia si aliquid mutatur, mutatur ut 
+        ac<lb ed="#C" n="91" break="no"/>quirat aliquod esse, quod non habet ibi:  
+        <lb ed="#C" n="92"/>ibi autem hoc esse non potest: quia est 
+        <lb ed="#C" n="93"/>omnis modus essendi, est etiam hoc 
+        es<lb ed="#C" n="94" break="no"/>se maxime unum: quia omne esse ibi 
+        <lb ed="#C" n="95"/>modo unico existit, ac per hoc est 
+        sum<lb ed="#C" n="96" break="no"/>me simplex: quia maxime 
+        immutabi<lb ed="#C" n="97" break="no"/>le, &amp; unum, quae de ratione simplicitatis 
+        <lb ed="#C" n="98"/>sunt. Totum autem in parte non 
+        effu<lb ed="#C" n="99" break="no"/>git esse compositum. Nam hoc totum 
+        <lb ed="#C" n="100"/>divisibile est, ex eo quod secundum unum 
+        <lb ed="#C" n="101"/>modum, sive secundum aliquam 
+        par<lb ed="#C" n="102" break="no"/>em recipitur in uno alio modo, &amp; 
+        se<lb ed="#C" n="103" break="no"/>cundum aliam partem in alio, ac per 
+        <lb ed="#C" n="104"/>hoc ab unitate declinat. Rursum: quia 
+        <lb ed="#C" n="105"/>tale totum dependet ab eo, in quo est, 
+        <lb ed="#C" n="106"/>aliqua potentialitas in ipso existit: unde 
+        <lb ed="#C" n="107"/>aliquo modo mutationi subijcitur. Non 
+        <lb ed="#C" n="108"/>igitur debet dici simplex, cum in eo non 
+        <lb ed="#C" n="109"/>ut omnimoda unitas, &amp; immutabilitas, 
+        <lb ed="#C" n="110"/>quae rationem simplicitatis perficiunt,  
+        <lb ed="#C" n="111"/>Tertium vero totum, ut totum ex par 
+        <lb ed="#C" n="112"/>tibus simplex dici non debet ratione par 
+        <!--226.xml-->
+        <pb ed="#C" n="189"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tium, ex quibus constat: &amp; quia omnis 
+        <lb ed="#C" n="2"/>creatura vel est ex aliquibus, vel 
+        depen<lb ed="#C" n="3" break="no"/>det ab eo, quod est ab aliquibus, &amp; ei 
+        <lb ed="#C" n="4"/>inest, vel est totum ex partibus, vel in 
+        <lb ed="#C" n="5"/>parte, &amp; nulla est totum ante partes, 
+        <lb ed="#C" n="6"/>omnis ergo creatura composita, solus 
+        <lb ed="#C" n="7"/>Deus est simplex: quia est ante partes 
+        to<lb ed="#C" n="8" break="no"/>tum: unde <name xml:id="Gi9qrR-e50282-Nd1e565" ref="#Augustine">August.</name> 6. de Trin. cap. 7. 
+        <lb ed="#C" n="9"/>vult, quod solus Deus sit simplex, &amp; nul 
+        <lb ed="#C" n="10"/>la creatura simplex: quia Nhil mutabile 
+        <lb ed="#C" n="11"/>simplex, omnis creatura mutabilis. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e576">
+                  <lb ed="#C" n="12"/>Respon. ad arg. Ad 1. dicendum 
+        <lb ed="#C" n="13"/>quod non oportet illam quidditatem esse 
+        <lb ed="#C" n="14"/>simplicem: quia licet non resolvatur in 
+        <lb ed="#C" n="15"/>alias quidditates, resolvitur tamen in 
+        <lb ed="#C" n="16"/>partes quidditatis. Vel possumus diceret 
+        <lb ed="#C" n="17"/>quod dato, quod huiusmodi quidditas 
+        <lb ed="#C" n="18"/>sit simplex: quia non est totum ex 
+        parti<lb ed="#C" n="19" break="no"/>bus, non est tamen simplex per omnem 
+        <lb ed="#C" n="20"/>modum: quia est totum in parte.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e598">
+        Ad 2. 
+        <lb ed="#C" n="21"/>dicendum, quod non arguit creaturam 
+        <lb ed="#C" n="22"/>esse omnino simplicem, sed quod 
+        opor<lb ed="#C" n="23" break="no"/>tet esse creaturam, quae non constet 
+        ex<lb ed="#C" n="24" break="no"/>partibus,
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e609">
+        &amp; per hoc patet solutio ad 3. 
+        <lb ed="#C" n="25"/>quia sic esse dicitur simplex: quia non est 
+        <lb ed="#C" n="26"/>: ex aliquibus compositum.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e616">
+        Ad 4. 
+        dicen<lb ed="#C" n="27" break="no"/>dum, quod intelligentia non dividitur 
+        <lb ed="#C" n="28"/>quantum ad partes naturae, vel quantum 
+        <lb ed="#C" n="29"/>ad durationem: quia habet naturam 
+        sim<lb ed="#C" n="30" break="no"/>plicem, in qua forma est tantum, non 
+        <lb ed="#C" n="31"/>materia, &amp; forma, &amp; habet totum esse 
+        <lb ed="#C" n="32"/>simul. 3. etiam non dividitur quantum 
+        <lb ed="#C" n="33"/>ad numerum: quia non sunt plures in 
+        <lb ed="#C" n="34"/>eadem specie, non tamen est per 
+        om<lb ed="#C" n="35" break="no"/>nem modum indivisibilis, cum sit 
+        com<lb ed="#C" n="36" break="no"/>posita ex finito, &amp; infinito, sive ex 
+        for<lb ed="#C" n="37" break="no"/>ma, &amp; esse. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e50282-Dd1e643">
+               <head xml:id="Gi9qrR-e50282-Hd1e645">Articulus 2</head>
+               <p xml:id="Gi9qrR-e50282-d1e648">
+                  <lb ed="#C" n="38"/>ARTICVLVS II 
+        <lb ed="#C" n="39"/>Vtrum anima sit composita? 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e655">
+                  <lb ed="#C" n="40"/>SEcundo quaeritur: utrum anima sit 
+        <lb ed="#C" n="41"/>Dconposita? Et videtur, quod non: quia 
+        <lb ed="#C" n="42"/>sit esset composita, tunc in ea essent aliqui 
+        <lb ed="#C" n="43"/>gradus; isti gradus, vel essent in essentia, 
+        <lb ed="#C" n="44"/>vel essent in esse? In essentia non; quia 
+        <lb ed="#C" n="45"/>etiam formae accidentales sunt 
+        simpli<lb ed="#C" n="46" break="no"/>ces sic: unde dicitur in principio 6. prin 
+        <lb ed="#C" n="47"/>cipiorum, quod forma est compositioni 
+        con<lb ed="#C" n="48" break="no"/>tingens, simplici &amp; invariabili essentia 
+        consi<lb ed="#C" n="49" break="no"/>stens. Secundum esse non: quia quae sic 
+        <lb ed="#C" n="50"/>habent gradus intenduntur, &amp; remittu¬ 
+        <!--226.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>tur, quod formae substantiali non potest 
+        <lb ed="#C" n="52"/>competere.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e690">
+        Praeterea: in 2. de Ani. ex 
+        <lb ed="#C" n="53"/>comm. 6. dicitur: Quod anima est actus cor 
+        <lb ed="#C" n="54"/>poris primus, sed actus primus est esse, 
+        se<lb ed="#C" n="55" break="no"/>cundus est operari: igitur anima est 
+        ip<lb ed="#C" n="56" break="no"/>sum esse, sed substantia, quae est ipsum 
+        <lb ed="#C" n="57"/>esse, est omino simplex, ergo &amp;c. 
+        Prae<lb ed="#C" n="58" break="no"/>terea: divisio sit per opposita, unum 
+        oppo<lb ed="#C" n="59" break="no"/>sitorum non praedicatur de alio: cum 
+        <lb ed="#C" n="60"/>igitur substantia dividatur in materiam, 
+        <lb ed="#C" n="61"/>&amp; formam, &amp; compositum, ut patet per 
+        <lb ed="#C" n="62"/>Phylossin multis locis, compositum non 
+        <lb ed="#C" n="63"/>praedicabitur de forma.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e716">
+        Praeterea: legitur 
+        <lb ed="#C" n="64"/>in 3. de Anima, quod intellectus est sim 
+        <lb ed="#C" n="65"/>plex, immistus, immaterialis. Sed hoc vel 
+        <lb ed="#C" n="66"/>Sintelligitur de essentia animae, vel de po¬ 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e726">
+                  <lb ed="#C" n="67"/>tentia? Si de essentia, habetur 
+        inten<lb ed="#C" n="68" break="no"/>tum. Si de potentia, cum potentia 
+        se<lb ed="#C" n="69" break="no"/>quatur modum naturae, adhuc habetur  
+        <lb ed="#C" n="70"/>intentum. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e737">
+                  <lb ed="#C" n="71"/>In contrarium est <name xml:id="Gi9qrR-e50282-Nd1e741" ref="#Augustine">Aug.</name> de Trin. cap. 7. 
+        <lb ed="#C" n="72"/>qui dicit, quod anima, licet sit simples 
+        <lb ed="#C" n="73"/>respectu corporis, est tamen multiplex 
+        <lb ed="#C" n="74"/>respectu Dei.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e751">
+        Praeterea: nulla forma sim 
+        <lb ed="#C" n="75"/>plex potest esse subiectum accidentium, 
+        <lb ed="#C" n="76"/>ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e758">
+                  <lb ed="#C" n="77"/>RESOLVTIO. 
+        <lb ed="#C" n="78"/>Anima simpliciter est compositior Angelo, &amp; 
+        <lb ed="#C" n="79"/>simplicior materialibus formis; verumta¬ 
+        <lb ed="#C" n="80"/>men secundum aliquem modum magis 
+        <lb ed="#C" n="81"/>quam aliqua forma est conposita.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e771">
+                  <lb ed="#C" n="82"/>REspondeo dicendum, quod non est 
+        <lb ed="#C" n="83"/>nostra intentio quaenere: utrum 
+        ani<lb ed="#C" n="84" break="no"/>ma sit composita ex materia, &amp; forma: 
+        <lb ed="#C" n="85"/>quia hoc quaeremus in 2. Sed de alijs 
+        <lb ed="#C" n="86"/>modis compositionis animae 
+        intendi<lb ed="#C" n="87" break="no"/>mus dubitare. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e787">
+                  <lb ed="#C" n="88"/>Ideo notandum, quod, sicut habitum 
+        <lb ed="#C" n="89"/>est, triplex est totalitas, quarum una est 
+        <lb ed="#C" n="90"/>immunis ab omni compositione, ut 
+        to<lb ed="#C" n="91" break="no"/>talitas ante partes, quae creaturis non 
+        <lb ed="#C" n="92"/>convenit. Aliae duae ut totalitas in 
+        par<lb ed="#C" n="93" break="no"/>te, &amp; ex partibus, quae creaturis 
+        conve<lb ed="#C" n="94" break="no"/>niunt, compositionem important. 
+        Di<lb ed="#C" n="95" break="no"/>missa prima totalitate: quia non est 
+        ad<lb ed="#C" n="96" break="no"/>propositum; de alijs duabus notandum 
+        <lb ed="#C" n="97"/>quod quodammodo maior compositio 
+        <lb ed="#C" n="98"/>importatur per totalitatem in parte, quam 
+        <lb ed="#C" n="99"/>ex partibus: nam de ratione simplicita 
+        <lb ed="#C" n="100"/>tis sunt indivisibilitas &amp; immutabilitas 
+        <lb ed="#C" n="101"/>sive actualitas: quia mutabilitas poten 
+        <lb ed="#C" n="102"/>tialitatem sequitur: tanto ergo aliquid 
+        <lb ed="#C" n="103"/>est compositius, quanto magis divisum, 
+        <!--227.xml-->
+        <pb ed="#C" n="190"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>&amp; minus est in actu; ex quo apparet quod 
+        <lb ed="#C" n="2"/>recedere a Divina simplicitate, &amp; eius 
+        <lb ed="#C" n="3"/>actualitate est accedere ad 
+        compositio<lb ed="#C" n="4" break="no"/>nem: quamvis contrarium quidam 
+        di<lb ed="#C" n="5" break="no"/>canti &amp; recedere a Bonitate Divina est 
+        <lb ed="#C" n="6"/>accedere ad aliquam malitiam?: quia 
+        <lb ed="#C" n="7"/>Accidit omnia participare malum praeter unum, 
+        <lb ed="#C" n="8"/>ut dicitur 14. Metaph. &amp; quia totalitas 
+        <lb ed="#C" n="9"/>in parte est magis quid divisum, &amp; 
+        mi<lb ed="#C" n="10" break="no"/>nus ens actu, quam ex partibus, ideo 
+        <lb ed="#C" n="11"/>talis totalitas potest aliquo modo 
+        con<lb ed="#C" n="12" break="no"/>cedi magis composita, quod sic est 
+        vi<lb ed="#C" n="13" break="no"/>dere: quia totum ex partibus habet 
+        ali<lb ed="#C" n="14" break="no"/>quo modo suas partes coniunctas &amp; 
+        uni<lb ed="#C" n="15" break="no"/>tas, sicut totum, quod constat ex mate 
+        <lb ed="#C" n="16"/>ria &amp; forma, habet formam unitam ma 
+        <lb ed="#C" n="17"/>teriae; &amp; quod constat ex quidditate &amp; 
+        <lb ed="#C" n="18"/>esse, habet esse quidditati coniunctum; 
+        <lb ed="#C" n="19"/>sed totalitas in parte non sic: nam 
+        ex<lb ed="#C" n="20" break="no"/>hoc esse participatum dicitur totalitas 
+        <lb ed="#C" n="21"/>in parte: quia secundum omnem 
+        mo<lb ed="#C" n="22" break="no"/>dum non recipitur in participante, sed  
+        <lb ed="#C" n="23"/>secundum unam partem est in isto 
+        exi<lb ed="#C" n="24" break="no"/>stente, &amp; secundum aliam in alio, quae 
+        <lb ed="#C" n="25"/>partes propter diversitatem existentium 
+        <lb ed="#C" n="26"/>non habent unionem ad se invicem, vel  
+        <lb ed="#C" n="27"/>non tantam sicut partes totius ex 
+        parti<lb ed="#C" n="28" break="no"/>bus. Rursum licet totum in parte posset 
+        <lb ed="#C" n="29"/>dici ipsum esse vel ipsa actualitas; tamen 
+        <lb ed="#C" n="30"/>tale totum non adeo est, sicut aliuda 
+        <lb ed="#C" n="31"/>quia totum ex partibus, sive ipsum 
+        sup<lb ed="#C" n="32" break="no"/>positum est illud, cui per se competit 
+        es<lb ed="#C" n="33" break="no"/>se; ipsum tamen esse participatum non 
+        <lb ed="#C" n="34"/>est, sed suppositum per ipsum est. Vnde 
+        <lb ed="#C" n="35"/>Boetius in lib. de Hebdo. Diversum est 
+        <lb ed="#C" n="36"/>esse, &amp; id quod est; ipsum vero esse non 
+        <lb ed="#C" n="37"/>dum est: nam sicut homo currit 
+        cur<lb ed="#C" n="38" break="no"/>su; ipse tamen cursus non currit: sic 
+        ali<lb ed="#C" n="39" break="no"/>quid est per esse, ipsum tamen esse 
+        pro<lb ed="#C" n="40" break="no"/>prie non est. Cum igitur minus sit totum 
+        <lb ed="#C" n="41"/>an parte &amp; magis divisum, quam totum 
+        <lb ed="#C" n="42"/>ex partibus, concedi quodammodo 
+        po<lb ed="#C" n="43" break="no"/>test tale totum compositius esse alio. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e925">
+                  <lb ed="#C" n="44"/>Hoc viso notandum, quod anima 
+        <lb ed="#C" n="45"/>est pluribus modis composita, quam 
+        <lb ed="#C" n="46"/>ceterae formae; simpliciter tamen est 
+        con<lb ed="#C" n="47" break="no"/>positior forma, que non est unita 
+        ma<lb ed="#C" n="48" break="no"/>teriae, &amp; simplicior alijs formis, quod sic 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e938">
+                  <lb ed="#C" n="49"/>patet: quia duae totalitates praehabitae 
+        <lb ed="#C" n="50"/>quae compositionem important, habent  
+        <lb ed="#C" n="51"/>omodum oppositum: nam ex hoc 
+        ali<lb ed="#C" n="52" break="no"/>quid est totum ex partibus: quia per se 
+        <lb ed="#C" n="53"/>habet esse. Ex hoc est totum in parte: 
+        <lb ed="#C" n="54"/>quia est pars eius, quod per se habet esse 
+        u<lb ed="#C" n="55" break="no"/>unde 63. prop. Procli. dicitur: Omne 
+        <lb ed="#C" n="56"/>quod in parte totum, pars est eius, quod est ex¬ 
+        <!--227.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>partibus totius, &amp; 6g. scribitur: Omne quod  
+        <lb ed="#C" n="58"/>ex partibus totum participat ea, quae in parte 
+        <lb ed="#C" n="59"/>totalitate, &amp; quia quanto aliquid est 
+        ma<lb ed="#C" n="60" break="no"/>gis pars, tanto minus ei competit per se: 
+        <lb ed="#C" n="61"/>existere; quanto aliquid est magis totum 
+        <lb ed="#C" n="62"/>in parte, tanto est minus totum ex 
+        par<lb ed="#C" n="63" break="no"/>tibus, &amp; e converso: &amp; quia, ut 
+        habi<lb ed="#C" n="64" break="no"/>tum est, magis attenditur compositio 
+        <lb ed="#C" n="65"/>quodammodo ex totalitate in parte, 
+        <lb ed="#C" n="66"/>quam ex partibus; quod si simpliciter 
+        <lb ed="#C" n="67"/>non est vera, loquendo tamen de 
+        com<lb ed="#C" n="68" break="no"/>positione formarum absolute verum 
+        <lb ed="#C" n="69"/>est, quia quanto forma est magis 
+        im<lb ed="#C" n="70" break="no"/>mersa materiae, tanto magis 
+        composi<lb ed="#C" n="71" break="no"/>ta, &amp; minus competit ei per se esse, 
+        <lb ed="#C" n="72"/>propter quod magis est totum in parte, 
+        <lb ed="#C" n="73"/>&amp; minus est totum ex partibus. Ex his 
+        <lb ed="#C" n="74"/>manifeste apparent quae de anima 
+        dice<lb ed="#C" n="75" break="no"/>bantur: anima enim pluribus modis 
+        <lb ed="#C" n="76"/>composita est, quam ceterae formae. Nam 
+        <lb ed="#C" n="77"/>anima intellectualis dat esse homini, &amp; 
+        <lb ed="#C" n="78"/>aliquo modo est hoc aliquid: quia non 
+        <lb ed="#C" n="79"/>accipit esse per materiam, licet accipiat 
+        <lb ed="#C" n="80"/>esse in materia, propter quod ipsum esse 
+        <lb ed="#C" n="81"/>competit ei, &amp; ideo est totum ex 
+        parti<lb ed="#C" n="82" break="no"/>bus inquantum est composita ex quod 
+        <lb ed="#C" n="83"/>est &amp; esse: est etiam totum in parte, 
+        in<lb ed="#C" n="84" break="no"/>quantum informat corpus, &amp; ex eius par 
+        <lb ed="#C" n="85"/>ticipatione corpus accipit esse. Angelus 
+        <lb ed="#C" n="86"/>autem, vel intelligentia, quae dicitur 
+        for<lb ed="#C" n="87" break="no"/>ma, vel substantia abstracta, &amp; non 
+        uni<lb ed="#C" n="88" break="no"/>ta materiae est totum ex partibus, 
+        inquan<lb ed="#C" n="89" break="no"/>tum compositum est ex quod est &amp; esse. 
+        <lb ed="#C" n="90"/>Sed non est totum in parte: quia nulli 
+        <lb ed="#C" n="91"/>materie unitur ut forma, ex qua unione 
+        <lb ed="#C" n="92"/>secundum esse ex ipsa, &amp; Angelo fiat 
+        <lb ed="#C" n="93"/>unum. Formae autem corporales sunt,  
+        <lb ed="#C" n="94"/>totum in parte: quia informant 
+        corpo<lb ed="#C" n="95" break="no"/>rales materias; sed non ex partibus: quia 
+        <lb ed="#C" n="96"/>eis proprie non competit esse, vel non 
+        <lb ed="#C" n="97"/>adeo, ut animae. Cum igitur importetur 
+        <lb ed="#C" n="98"/>compositio per utrumque totum, 
+        ani<lb ed="#C" n="99" break="no"/>ma est pluribus modis composita, quae 
+        <lb ed="#C" n="100"/>habet rationem utriusque totius, quam 
+        <lb ed="#C" n="101"/>Angelus, qui solum habet rationem 
+        to<lb ed="#C" n="102" break="no"/>tius ex partibus, &amp; quam forma 
+        corpo<lb ed="#C" n="103" break="no"/>ralis, quae solum fortitur totalitatem 
+        <lb ed="#C" n="104"/>in parte, quod erat primum 
+        declaran<lb ed="#C" n="105" break="no"/>dum. 
+        <lb ed="#C" n="106"/>Simpliciter tamen loquendo, anima 
+        <lb ed="#C" n="107"/>est simplicior corporali forma, &amp; com 
+        <lb ed="#C" n="108"/>positior Angelo: quia, ut dicebatur, in 
+        <lb ed="#C" n="109"/>formis simpliciter veritatem habet 
+        <lb ed="#C" n="110"/>quod quanto forma minus habet esse, &amp; 
+        <lb ed="#C" n="111"/>magis est immersa materiae, &amp; minus 
+        <lb ed="#C" n="112"/>habet rationem totius ex partibus, ma¬ 
+        <!--228.xml-->
+        <pb ed="#C" n="191"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>gis est composita: &amp; quia esse minime 
+        <lb ed="#C" n="2"/>competit formis materialibus, quae 
+        ac<lb ed="#C" n="3" break="no"/>quirunt esse in corpore, &amp; per corpus: 
+        <lb ed="#C" n="4"/>magis tamen animae, quae acquirit esse 
+        <lb ed="#C" n="5"/>in corpore, &amp; non per corpus: adhuco 
+        <lb ed="#C" n="6"/>autem magis Angelo, qui nec in 
+        corpo<lb ed="#C" n="7" break="no"/>re, nec per corpus; inter formas 
+        forma<lb ed="#C" n="8" break="no"/>materialis magis erit composita, &amp; 
+        for<lb ed="#C" n="9" break="no"/>ma Angelica minus, &amp; anima 
+        tene<lb ed="#C" n="10" break="no"/>bit medium inter illa, quod secudo 
+        pro<lb ed="#C" n="11" break="no"/>ponebatur declarandum. Patet igitur  
+        <lb ed="#C" n="12"/>animam non esse simplicem per omnem 
+        <lb ed="#C" n="13"/>modum, immo est pluribus modis 
+        con<lb ed="#C" n="14" break="no"/>posita, quam aliqua forma, simpliciter  
+        <lb ed="#C" n="15"/>autem est compositior Angelo, &amp; 
+        sim<lb ed="#C" n="16" break="no"/>plicior materialibus formis. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1125">
+                  <lb ed="#C" n="17"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="18" break="no"/>cendum, quod non est composita 
+        ani<lb ed="#C" n="19" break="no"/>ma ratione gradus in esse, vel in 
+        essen<lb ed="#C" n="20" break="no"/>tia; sed est composita ex quod est &amp; esse. 
+        <lb ed="#C" n="21"/>Vel dicendum, quod dato, quod non 
+        <lb ed="#C" n="22"/>esset sic composita, adhuc non esset sim 
+        <lb ed="#C" n="23"/>plicissima: quia posset ei competere 
+        con<lb ed="#C" n="24" break="no"/>positio, quae debetur toti in parte, si non 
+        <lb ed="#C" n="25"/>competeret ei illa, quae debetur toti 
+        ex<lb ed="#C" n="26" break="no"/>partibus.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1149">
+        Ad 2. dicendum, quod licet  
+        <lb ed="#C" n="27"/>esse sit actus primus respectu operari; 
+        <lb ed="#C" n="28"/>forma tamen est actus primus respectu 
+        <lb ed="#C" n="29"/>esse: &amp; ideo anima est actus primus, non 
+        <lb ed="#C" n="30"/>quod sit esse, sed quia est forma. Vel 
+        di<lb ed="#C" n="31" break="no"/>cendum, quod dato, quod esset ipsum 
+        <lb ed="#C" n="32"/>esse, non esset omnino 
+        simpliciisima<lb ed="#C" n="33" break="no"/>quia esset esse participatum, propte 
+        <lb ed="#C" n="34"/>quod esset totum in parte, &amp; quid 
+        com<lb ed="#C" n="35" break="no"/>positum.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1171">
+        Ad 3. dicendum, quod 
+        sub<lb ed="#C" n="36" break="no"/>stantia, quae ibi appellatur compositum, 
+        <lb ed="#C" n="37"/>non praedicatur de forma: quia tale 
+        con<lb ed="#C" n="38" break="no"/>positum est quod constat ex materia &amp; 
+        <lb ed="#C" n="39"/>forma, cuiusmodi non est anima, ut 
+        pa<lb ed="#C" n="40" break="no"/>tebit in 2.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1184">
+        Ad 4. dicendum, quod ibi 
+        <lb ed="#C" n="41"/>dicitur intellectus simplex, &amp; immixtus, 
+        <lb ed="#C" n="42"/>non quod nulla compositio ei 
+        compe<lb ed="#C" n="43" break="no"/>tat: cum omnis creatura sit aliquo 
+        mo<lb ed="#C" n="44" break="no"/>do composita, sed quia non est 
+        vir<lb ed="#C" n="45" break="no"/>tus organica, hoc autem in 2. melius 
+        <lb ed="#C" n="46"/>patefiet. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e50282-Dd1e1202">
+               <head xml:id="Gi9qrR-e50282-Hd1e1204">Articulus 3</head>
+               <p xml:id="Gi9qrR-e50282-d1e1207">
+                  <lb ed="#C" n="47"/>ARTICVLVS III. 
+        <lb ed="#C" n="48"/>Vtrum anima sit tota in qualibet parte corporis:
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1214">
+                  <lb ed="#C" n="49"/>TErtio quaeritur: utrum anima sit 
+        <lb ed="#C" n="50"/>tota in qualibet parte corporis? Et  
+        <!--228.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>videtur quod non: quia quod non est in 
+        <lb ed="#C" n="52"/>qualibet parte corporis, non est totum: in 
+        <lb ed="#C" n="53"/>qualibet parte, cum esse totum 
+        praesup<lb ed="#C" n="54" break="no"/>ponat esse; sed anima non est in qualibet  
+        <lb ed="#C" n="55"/>parte corporis: quia tunc quelibet pars 
+        <lb ed="#C" n="56"/>haberet esse, quod est contra Phil. cum 
+        <lb ed="#C" n="57"/>partes sint potentia in toto, ergo &amp;c. 
+        <lb ed="#C" n="58"/>Praeterea: spiritualis substantia ibi est 
+        <lb ed="#C" n="59"/>ubi operatur; sed anima secundum su 
+        <lb ed="#C" n="60"/>totalitatem non operatur in qualibet  
+        <lb ed="#C" n="61"/>parte corporis, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1249">
+        Praeterea: 
+        con<lb ed="#C" n="62" break="no"/>tingit unam partem corporis moveri 
+        <lb ed="#C" n="63"/>alia quiescente, si igitur anima esset in 
+        <lb ed="#C" n="64"/>qualibet parte corporis, tunc unum &amp; 
+        <lb ed="#C" n="65"/>idem simul moveretur, &amp; quiesceret, 
+        <lb ed="#C" n="66"/>quod est impossibile.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1262">
+        Praeterea: anima 
+        <lb ed="#C" n="67"/>si est totum, est totum potentiale: quia 
+        <lb ed="#C" n="68"/>sic habet partem, &amp; partem, cum 
+        ha<lb ed="#C" n="69" break="no"/>beat plures potentias; non est autem te 
+        <lb ed="#C" n="70"/>tum essentiale, cum in essentia non 
+        ha<lb ed="#C" n="71" break="no"/>beat partem, &amp; partem. Si ergo est to 
+        <lb ed="#C" n="72"/>ta in qualibet parte, in omni parte cor 
+        <lb ed="#C" n="73"/>poris operabitur secundum omnem 
+        po<lb ed="#C" n="74" break="no"/>tentiam, quod falsum est.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1283">
+        Praeterea: ani 
+        <lb ed="#C" n="75"/>ma est actus corporis organici; sed quae 
+        <lb ed="#C" n="76"/>libet pars corporis non est organica, er  
+        <lb ed="#C" n="77"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1292">
+                  <lb ed="#C" n="78"/>In contrarium est <name xml:id="Gi9qrR-e50282-Nd1e1296" ref="#Augustine">Aug.</name> 6. de Trin 
+        <lb ed="#C" n="79"/>cap. 6. qui dicit: quod anima Simplicio 
+        <lb ed="#C" n="80"/>est corpore: quia non molle diffunditur per 
+        spa<lb ed="#C" n="81" break="no"/>tium loci; sed in unoquoque corpore, &amp; in 
+        to<lb ed="#C" n="82" break="no"/>to tota est, &amp; in qualibet eius parte tota est. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1309">
+                  <lb ed="#C" n="83"/>RESOLVTIO. 
+        <lb ed="#C" n="84"/>Anima est in qualibet corporis parte.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1316">
+                  <lb ed="#C" n="85"/>REspond. dicendum, quod, animam 
+        <lb ed="#C" n="86"/>esse in qualibet parte corporis, 
+        vi<lb ed="#C" n="87" break="no"/>dere non est difficile. Nam cum 
+        quae<lb ed="#C" n="88" break="no"/>libet pars vivat, &amp; sit per animam, &amp; 
+        <lb ed="#C" n="89"/>forma non det esse nisi materiae, quam 
+        <lb ed="#C" n="90"/>informat; si omnes partes corporis 
+        ha<lb ed="#C" n="91" break="no"/>bent esse per animam, anima est in 
+        qua<lb ed="#C" n="92" break="no"/>libet parte corporis. 
+        <lb ed="#C" n="93"/>quod autem quaelibet pars habeat  
+        <lb ed="#C" n="94"/>esse per animam, apparet ex eo quod 
+        <lb ed="#C" n="95"/>opera vitae manifestantur in qualibet par 
+        <lb ed="#C" n="96"/>te: &amp; quia agere praesupponit esse, cum 
+        <lb ed="#C" n="97"/>talia opera sint per animam dantem 
+        vi<lb ed="#C" n="98" break="no"/>tam, oportet eam esse in qualibet parte 
+        <lb ed="#C" n="99"/>sed utrum tota sit in toto, pars in parte, 
+        <lb ed="#C" n="100"/>vel tota in parte qualibet? Dubium est, 
+        <lb ed="#C" n="101"/>ex eo quod videmus alias formas 
+        cor<lb ed="#C" n="102" break="no"/>porales extendi extensione corporum, 
+        <lb ed="#C" n="103"/>Iterum si consideretur, quod esset tota 
+        <!--229.xml-->
+        <pb ed="#C" n="192"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>in quam ibet parte, cum sint diversae par 
+        <lb ed="#C" n="2"/>tes, quare non sunt diversae animae? No 
+        <lb ed="#C" n="3"/>est manifestum: quia non videtur intel 
+        <lb ed="#C" n="4"/>ligibile quod unum &amp; idem creatum 
+        <lb ed="#C" n="5"/>certis circunscriptum limitibus in 
+        pluri<lb ed="#C" n="6" break="no"/>bus secundum sui totalitatem existat,  
+        <lb ed="#C" n="7"/>nisi plurificetur in illis. Propter quod 
+        no<lb ed="#C" n="8" break="no"/>tandum, quod forma specifica realiter 
+        <lb ed="#C" n="9"/>tripliciter potest dividi, quae triplex 
+        di<lb ed="#C" n="10" break="no"/>visio tangitur in princ. comm. 7. prop. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1388">
+                  <lb ed="#C" n="11"/>de causis, ubi dicitur: Omne divisibile, aut  
+        <lb ed="#C" n="12"/>lividitur multitudine, aut magnitudine, aut  
+        <lb ed="#C" n="13"/>motu. Dico autem has divisiones solum 
+        <lb ed="#C" n="14"/>esse formae specificae realiter: quia cum 
+        <lb ed="#C" n="15"/>t sint aliae divisiones quam plurimae, non 
+        <lb ed="#C" n="16"/>tamen competunt ei secundum quod  
+        <lb ed="#C" n="17"/>forma, &amp; si competunt ei secundum 
+        <lb ed="#C" n="18"/>quod forma, non competunt ei 
+        secun<lb ed="#C" n="19" break="no"/>dum quod specifica. Rursum, si 
+        com<lb ed="#C" n="20" break="no"/>petunt forme etiam specificae non com 
+        <lb ed="#C" n="21"/>petunt ei realiter. Possunt enim 
+        assigna<lb ed="#C" n="22" break="no"/>ri praeter dictas divisiones quatuor alia 
+        <lb ed="#C" n="23"/>divisionum genera. Vna est totius 
+        po<lb ed="#C" n="24" break="no"/>testativi in suas virtutes, quae si 
+        compe<lb ed="#C" n="25" break="no"/>tit animae, non competit ei, ut est 
+        for<lb ed="#C" n="26" break="no"/>ma corporis, sed ut motor: quia per 
+        <lb ed="#C" n="27"/>suam essentiam corpus informat, sed  
+        <lb ed="#C" n="28"/>per potentiam movet: &amp; quia nos non 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1430">
+                  <lb ed="#C" n="29"/>quaerimus utrum anima sit in qualibet 
+        <lb ed="#C" n="30"/>parte ut motor, sed ut forma, ideo 
+        ta<lb ed="#C" n="31" break="no"/>lis totalitas non est ad propositum. 2. 
+        di<lb ed="#C" n="32" break="no"/>viditur aliquid secundum rationem 
+        quid<lb ed="#C" n="33" break="no"/>ditatis, sicut forma generis dividitur in 
+        <lb ed="#C" n="34"/>plures species. Tertio dividitur aliquid 
+        <lb ed="#C" n="35"/>secundum attributionem, &amp; sic eadem 
+        <lb ed="#C" n="36"/>forma analogice est illud, cui 
+        attribuun<lb ed="#C" n="37" break="no"/>tur plura, &amp; quodammodo dividitur  
+        <lb ed="#C" n="38"/>attributione multorum. Rursum istae 
+        <lb ed="#C" n="39"/>totalitates non sunt ad propositum: nam 
+        <lb ed="#C" n="40"/>prima totalitas est generis. 2. 
+        analogi<lb ed="#C" n="41" break="no"/>Nos autem quaerimus de totalitate 
+        <lb ed="#C" n="42"/>animae, quae est forma specifica. 4. 
+        po<lb ed="#C" n="43" break="no"/>i test esse divisio secundum partes quid 
+        <lb ed="#C" n="44"/>ditatis. Differt enim fieri divisionem se 
+        <lb ed="#C" n="45"/>cundum rationem quidditatis, &amp; 
+        secun<lb ed="#C" n="46" break="no"/>lum partes: quia secundum rationem 
+        <lb ed="#C" n="47"/>uidditatis sit, cum alia ratio 
+        quiddita<lb ed="#C" n="48" break="no"/>tis, vel alia diffinitio competit uni, quam 
+        <lb ed="#C" n="49"/>alij, quod non potest esse, nisi in his, quae 
+        <lb ed="#C" n="50"/>sunt diversarum specierum; sed dividi 
+        <lb ed="#C" n="51"/>secundum partes quidditatis competit 
+        <lb ed="#C" n="52"/>eidem speciei, cum in diffinitione unius 
+        <lb ed="#C" n="53"/>rei specificae ponantur plures partes, ut  
+        <lb ed="#C" n="54"/>genus, &amp; differentia. Ista divisio, licet  
+        <lb ed="#C" n="55"/>sit formae etiam specificae, non tamen 
+        <lb ed="#C" n="56"/>est ad propositum, cum sit secundum 
+        <!--229.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>modum intelligendi. Nos autem 
+        loqui<lb ed="#C" n="58" break="no"/>mur de reali existentia, &amp; totalitate. 
+        In<lb ed="#C" n="59" break="no"/>tendimus enim ostendere, quod anima 
+        <lb ed="#C" n="60"/>una numero plurificata est tota in 
+        qua<lb ed="#C" n="61" break="no"/>libet parte, non secundum modum 
+        in<lb ed="#C" n="62" break="no"/>telligendi, sed secundum realem 
+        exi<lb ed="#C" n="63" break="no"/>stentiam. Resumentes igitur primos 
+        di<lb ed="#C" n="64" break="no"/>visionis modos dicamus rem dividi 
+        <lb ed="#C" n="65"/>secundum multitudinem, quando 
+        divi<lb ed="#C" n="66" break="no"/>ditur secundum numerum. Dividi se 
+        <lb ed="#C" n="67"/>cundum magnitudinem quando habet 
+        <lb ed="#C" n="68"/>esse extensum. Dividi secundum 
+        mo<lb ed="#C" n="69" break="no"/>tum, quando subiacet tempori, nam 
+        <lb ed="#C" n="70"/>temporalia non habent totum esse eo 
+        <lb ed="#C" n="71"/>rum simul: ideo quia subduntur 
+        va<lb ed="#C" n="72" break="no"/>rietati temporum, sive motui, compe¬ 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1533">
+                  <lb ed="#C" n="73"/>tit eis aliquis modus divisionis, cum 
+        ta<lb ed="#C" n="74" break="no"/>lia non sint tota simul, quantum ad 
+        es<lb ed="#C" n="75" break="no"/>se. Iste tamen tertius modus non est 
+        <lb ed="#C" n="76"/>praesentis speculationis: quia quaelibet  
+        <lb ed="#C" n="77"/>anima, quae cum corpore non oritur,  
+        <lb ed="#C" n="78"/>creatur in horiconte aeternitatis, &amp; est 
+        <lb ed="#C" n="79"/>supra tempus. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1551">
+                  <lb ed="#C" n="80"/>Prosequentes autem duos primos, 
+        <lb ed="#C" n="81"/>dicamus animam non numerari in uno 
+        <lb ed="#C" n="82"/>corpore, nec extendi extensione 
+        cor<lb ed="#C" n="83" break="no"/>poris. Nam numerus aliquorum per se 
+        <lb ed="#C" n="84"/>sumitur ex diversificatione esse: quia 
+        <lb ed="#C" n="85"/>sicut plurificatio secundum speciem per 
+        <lb ed="#C" n="86"/>se respicit diversam rationem quiddita 
+        <lb ed="#C" n="87"/>tis, sic plurificatio secundum numerum 
+        <lb ed="#C" n="88"/>habetur ex diverso esse: divisio autem 
+        se<lb ed="#C" n="89" break="no"/>cundum quantitatem contingit ex 
+        eo<lb ed="#C" n="90" break="no"/>quia forma habet esse extensum in ma 
+        <lb ed="#C" n="91"/>teria. Si igitur ostendere poterimus 
+        <lb ed="#C" n="92"/>quod in uno corpore animae non 
+        com<lb ed="#C" n="93" break="no"/>petit, nisi unum esse, cum ostensum sit 
+        <lb ed="#C" n="94"/>animam esse in qualibet parte, &amp; pluri 
+        <lb ed="#C" n="95"/>ficatio secundum numerum non sit, 
+        ni<lb ed="#C" n="96" break="no"/>si ex diverso esse, ostensum erit, quod 
+        <lb ed="#C" n="97"/>eadem anima secundum numerum est, 
+        <lb ed="#C" n="98"/>in qualibet parte. Rursum si 
+        manifesta<lb ed="#C" n="99" break="no"/>re poterimus, quod anima rationalis 
+        <lb ed="#C" n="100"/>non extenditur extensione corporis, 
+        <lb ed="#C" n="101"/>tota veritas quaestionis erit declarata. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1601">
+                  <lb ed="#C" n="102"/>Propter primum notandum, quod  
+        <lb ed="#C" n="103"/>diversitas in esse dupliciter potest 
+        con<lb ed="#C" n="104" break="no"/>tingere. Primo ex eo, in quo est. Nam 
+        <lb ed="#C" n="105"/>forma, quae est perfectio materiae, 
+        reci<lb ed="#C" n="106" break="no"/>pit esse ex eo quod est in materia: ideo 
+        <lb ed="#C" n="107"/>cum est alia &amp; alia materia, sive aliud, &amp; 
+        <lb ed="#C" n="108"/>aliud suppositum, in quo est forma, 
+        opor<lb ed="#C" n="109" break="no"/>tet talem formam diversificari secundum esse. 
+        <lb ed="#C" n="110"/>2. hoc contingit ex modo 
+        introductio<lb ed="#C" n="111" break="no"/>nis formae: nam si talis forma 
+        introdu<lb ed="#C" n="112" break="no"/>catur per motum cedens in potentiam 
+        <!--230.xml-->
+        <pb ed="#C" n="193"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>materiae, si rursum de eadem educi 
+        de<lb ed="#C" n="2" break="no"/>beat, non redibit eadem numero: quia 
+        <lb ed="#C" n="3"/>ut scribitur in fine 2. de Cenerat. Quorum 
+        <lb ed="#C" n="4"/>substantia deperit, non redeunt eadem numero. 
+        <lb ed="#C" n="5"/>Causa quare tales formae in esse, vel in 
+        <lb ed="#C" n="6"/>numero diversificantur est: quia 
+        intro<lb ed="#C" n="7" break="no"/>ducuntur per motum: &amp; quia cum 
+        <lb ed="#C" n="8"/>motus discontinuatur, non est unus 
+        <lb ed="#C" n="9"/>numero: ita cum forma cedit, &amp; 
+        rur<lb ed="#C" n="10" break="no"/>sum introducitur, non est una numero, 
+        <lb ed="#C" n="11"/>ex quo apparet, quod esse formae 
+        quan<lb ed="#C" n="12" break="no"/>tum ad diversitatem, &amp; unitatem 
+        tra<lb ed="#C" n="13" break="no"/>hit necessitatem ex subiecto, in quo est, 
+        <lb ed="#C" n="14"/>&amp; ex modo per quem inducitur.  
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1664">
+                  <lb ed="#C" n="15"/>Et sicut forma, quae non est suum 
+        <lb ed="#C" n="16"/>esse, nec per se ei competit esse; sed 
+        es<lb ed="#C" n="17" break="no"/>se, quod habet, est esse in supposito, 
+        di<lb ed="#C" n="18" break="no"/>versificatur in esse ratione subiecti, &amp; 
+        ra<lb ed="#C" n="19" break="no"/>tione modiintroducendi; sic forma, quae 
+        <lb ed="#C" n="20"/>de se non est quanta, &amp; cui per se non 
+        <lb ed="#C" n="21"/>competit extensio; sed extensionem, 
+        <lb ed="#C" n="22"/>quam habet, acquirit in subiecto, 
+        dupli<lb ed="#C" n="23" break="no"/>citer secundum extensionem dividitur,  
+        <lb ed="#C" n="24"/>vel ratione subiecti, in quo existit, vel 
+        ra<lb ed="#C" n="25" break="no"/>tione modi introducendi. Ratione 
+        <lb ed="#C" n="26"/>subiecti, in quo existit, extenditur 
+        for<lb ed="#C" n="27" break="no"/>ma, si subiectum formae sit quantum 
+        <lb ed="#C" n="28"/>vel habens quantitatem. Nam sicut 
+        <lb ed="#C" n="29"/>forma, cui per se non competit esse, 
+        nun<lb ed="#C" n="30" break="no"/>quam acquireret esse in supposito, nisi 
+        <lb ed="#C" n="31"/>illud, in quo existit, per se esset: sic 
+        for<lb ed="#C" n="32" break="no"/>ma, quae de se non est extensa, nunquam 
+        <lb ed="#C" n="33"/>extensionem, ex eo quod est in 
+        subie<lb ed="#C" n="34" break="no"/>cto, acquirit; nisi illud in quo existit, per 
+        <lb ed="#C" n="35"/>se sit extensum: ex quo apparet, quod 
+        <lb ed="#C" n="36"/>nulla forma substantialis ex eo quod in 
+        <lb ed="#C" n="37"/>subiecto est, subiecti extensioni 
+        proten<lb ed="#C" n="38" break="no"/>ditur: nam formae substantiali per se non 
+        <lb ed="#C" n="39"/>competit extensio. Iterum per se 
+        subie<lb ed="#C" n="40" break="no"/>ctum formae suestantialis non est ens 
+        <lb ed="#C" n="41"/>quantum, sed ens in potentia. Nam &amp; 
+        <lb ed="#C" n="42"/>si dimensiones indeterminatae 
+        praece<lb ed="#C" n="43" break="no"/>dunt formam substantialem in materia, 
+        <lb ed="#C" n="44"/>hoc non est per se: quia per se loquen 
+        <lb ed="#C" n="45"/>do nullum accidens immediatius 
+        adhae<lb ed="#C" n="46" break="no"/>ret materiae, quam forma substantialis 
+        <lb ed="#C" n="47"/>propter quod scribitur 1. de Cener, quod 
+        <lb ed="#C" n="48"/>Hole est proprium generationis subiectum. Sed  
+        <lb ed="#C" n="49"/>sic extenditur qualitas, quae licet de se 
+        <lb ed="#C" n="50"/>non sit extensa; tamen quid extensum 
+        <lb ed="#C" n="51"/>est proprium subiectum eius: propter  
+        <lb ed="#C" n="52"/>quod dicit Phil. in lib. Topico, quod  
+        <lb ed="#C" n="53"/>Proprium est superficiei primo loco colorari. 
+        <lb ed="#C" n="54"/>Ratione tamen modi introducendi 
+        ex<lb ed="#C" n="55" break="no"/>tenditur forma substantialis. Nam sicut 
+        <lb ed="#C" n="56"/>taex diversitate motus diversificatur for¬ 
+        <!--230.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ma, quae per motum inducitur, sic 
+        ex<lb ed="#C" n="58" break="no"/>tensione materiae extenditur forma, quae 
+        <lb ed="#C" n="59"/>de potentia materiae extensae educitr:  
+        <lb ed="#C" n="60"/>non est enim intelligibile, quod id, quod  
+        <lb ed="#C" n="61"/>educitur de extensa materia, in qua es 
+        <lb ed="#C" n="62"/>diversitas partium, non educatur to 
+        <lb ed="#C" n="63"/>tum de toto, &amp; pars de parte. His visis 
+        <lb ed="#C" n="64"/>apparet, quae proponebantur 
+        declaran<lb ed="#C" n="65" break="no"/>da: nam ex quo secundum diversitatem 
+        <lb ed="#C" n="66"/>in esse numeratur forma, cum sit unum esse 
+        <lb ed="#C" n="67"/>in uno corpore, in quo estanima ratione 
+        <lb ed="#C" n="68"/>unitatis suppositi, cui perse competit esse, 
+        <lb ed="#C" n="69"/>erit una anima numero in uno corpore. 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1790">
+                  <lb ed="#C" n="70"/>Item cum sit forma substantialis, non 
+        <lb ed="#C" n="71"/>extenditur ex eo quod est in subiecto: 
+        <lb ed="#C" n="72"/>cum non educatur de potentia materie, 
+        <lb ed="#C" n="73"/>non extenditur ex modo inductionis; 
+        <lb ed="#C" n="74"/>in qualibet parte corporis secundum sui 
+        <lb ed="#C" n="75"/>&amp; quia non est dare aliam causam 
+        ex<lb ed="#C" n="76" break="no"/>tensionis, non extenditur extensione 
+        <lb ed="#C" n="77"/>corporis: &amp; quia est in qualibet parte 
+        <lb ed="#C" n="78"/>corporis una numero, non extensa, 
+        <lb ed="#C" n="79"/>concedere debemus cum <name xml:id="Gi9qrR-e50282-Nd1e1813" ref="#Augustine">Aug.</name> 6. de 
+        <lb ed="#C" n="80"/>Trin. cap. 7. quod Est in qualibet parte cors 
+        <lb ed="#C" n="81"/>poris tota. Ex hoc apparet, quod solum 
+        <lb ed="#C" n="82"/>anima rationalis est huiusmodi: quia 
+        <lb ed="#C" n="83"/>sola illa non educitur de potentia 
+        ma<lb ed="#C" n="84" break="no"/>teriae. Anima autem aliorum animalium 
+        <lb ed="#C" n="85"/>quantumcumque perfectorum, cum 
+        <lb ed="#C" n="86"/>educatur de potentia materiae, 
+        extendi<lb ed="#C" n="87" break="no"/>tur extensione corporis: unde <name xml:id="Gi9qrR-e50282-Nd1e1834" ref="#Augustine">Aug.</name> in 
+        <lb ed="#C" n="88"/>sermone de lmagine dicit hominem 
+        <lb ed="#C" n="89"/>esse ad imaginem Dei: quia anima 
+        ho<lb ed="#C" n="90" break="no"/>minis est tota in toto corpore, &amp; tota 
+        <lb ed="#C" n="91"/>in qualibet parte: sic Deus est in toto 
+        <lb ed="#C" n="92"/>mundo: &amp; quia non fuit de intentione 
+        <lb ed="#C" n="93"/>Aug. quod animalirrationale quantum 
+        <lb ed="#C" n="94"/>cunque perfectum esset ad imaginem Dei, non 
+        <lb ed="#C" n="95"/>est credibile fuisse de intetione eius 
+        ani<lb ed="#C" n="96" break="no"/>mas brutorum assimilari Deoin hoc quo 
+        <lb ed="#C" n="97"/>non extenduntur extensione corporis, ut  
+        <lb ed="#C" n="98"/>Deus non extenditur extensione mundi 
+        <lb ed="#C" n="99"/>Respond. ad arg. Ad 1. dicendum 
+        <lb ed="#C" n="100"/>quod anima est in toto corpore per se, 
+        <lb ed="#C" n="101"/>ad totum, &amp; sic esse in pluribus, non ut 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1868">
+                  <lb ed="#C" n="102"/>&amp; primo: in partibus est ut habet ordinem 
+        <lb ed="#C" n="103"/>plura, non est contra rationem 
+        spiritu<lb ed="#C" n="104" break="no"/>etiam creati: &amp; quia anima non est in 
+        <lb ed="#C" n="105"/>partibus per se: ideo partes non sunt per se: 
+        <lb ed="#C" n="106"/>ex eo quod anima est in eis. Ex hoc etia 
+        <lb ed="#C" n="107"/>apparet: quare quaelibet pars non est ani 
+        <lb ed="#C" n="108"/>mal, licet quaelibet pars informetur 
+        an<lb ed="#C" n="109" break="no"/>ma: quia haec informatio non est per 
+        <lb ed="#C" n="110"/>se, ut est in animali.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1891">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="111"/>quod bene arguit ratio: quod anima, ut  
+        <lb ed="#C" n="112"/>est totum virtuale &amp; ut motor, non est 
+        <!--231.xml-->
+        <pb ed="#C" n="194"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>totalitatem: quia secundum omnes 
+        po<lb ed="#C" n="2" break="no"/>tentias suas non est in qualibet parte: ex 
+        <lb ed="#C" n="3"/>quo apparet non bonam esseimaginatio 
+        <lb ed="#C" n="4"/>nem illorum, qui probant animam 
+        se<lb ed="#C" n="5" break="no"/>cundum sui totalitatem esse in qualibet 
+        <lb ed="#C" n="6"/>parte, ex eo quod non uniformiter 
+        com<lb ed="#C" n="7" break="no"/>paratur ad omnes partes, vel ad totum, 
+        <lb ed="#C" n="8"/>&amp; partes, cum requirat diversitatem 
+        <lb ed="#C" n="9"/>partium: nam diversitatem proprie 
+        <lb ed="#C" n="10"/>requirit ex eo quod motor. Nam 
+        <lb ed="#C" n="11"/>cum per oculum non possit audire, 
+        re<lb ed="#C" n="12" break="no"/>quirit non solum oculum, sed etiam 
+        <lb ed="#C" n="13"/>aurem: &amp; ideo si bene vellent arguere 
+        <lb ed="#C" n="14"/>animam secundum se totam esse in 
+        qua<lb ed="#C" n="15" break="no"/>libet parte, deberent arguere de 
+        totali<lb ed="#C" n="16" break="no"/>tate virtutis, secundum quam requirit n 
+        <lb ed="#C" n="17"/>diversas partes. Via ergo istorum fuit 
+        <lb ed="#C" n="18"/>per accidens: quia non per se arguebant  
+        <lb ed="#C" n="19"/>de totalitate naturae, &amp; falsa, quia ex 
+        ra<lb ed="#C" n="20" break="no"/>etione ipsorum non concluditur animam 
+        <lb ed="#C" n="21"/>secundum totalitem esse in qualibet 
+        par<lb ed="#C" n="22" break="no"/>ete.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1952">
+        Ad 3. dicendum quod non est in 
+        <lb ed="#C" n="23"/>d conveniens unum, &amp; idem moveri, &amp; 
+        <lb ed="#C" n="24"/>quiescere per accidens, sic est in 
+        propo<lb ed="#C" n="25" break="no"/>sito: quia animae per se non competit 
+        <lb ed="#C" n="26"/>motus, &amp; quies. Vel dicendum, quod ad 
+        <lb ed="#C" n="27"/>motionem partis non proprie movetur 
+        <lb ed="#C" n="28"/>anima etiam per accidens, cum per se 
+        <lb ed="#C" n="29"/>non respiciat partem nisi in ordine ad 
+        <lb ed="#C" n="30"/>totum: &amp; ideo solum ad motionem 
+        to<lb ed="#C" n="31" break="no"/>tius sequitur motio animae per accidens 
+        <lb ed="#C" n="32"/>Ad 4. dicendum quod anima dicitur  
+        <lb ed="#C" n="33"/>esse tota secundum essentiam in qualibet 
+        <lb ed="#C" n="34"/>parte; non quod essentia partem, &amp; 
+        par<lb ed="#C" n="35" break="no"/>tem habeat; sed quia extensione 
+        corpo<lb ed="#C" n="36" break="no"/>ris non extenditur.
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e1985">
+        Ad 5. dicendum, 
+        <lb ed="#C" n="37"/>quod corpus organicum per se, &amp; primo 
+        <lb ed="#C" n="38"/>perficitur ab anima; partes autem per 
+        <lb ed="#C" n="39"/>ficiuntur ut ordinantur ad totum: 
+        ex<lb ed="#C" n="40" break="no"/>quo apparet, quod non oportet quod 
+        <lb ed="#C" n="41"/>abscisa qualibet parte abscindatur 
+        ani<lb ed="#C" n="42" break="no"/>ma, cum partes primo, &amp; per se non 
+        <lb ed="#C" n="43"/>informen 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e2003">
+                  <lb ed="#C" n="44"/>In uno corpore animato ratione unitatis sup¬D 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e2008">
+                  <lb ed="#C" n="45"/>positi, cui per se competit esse, in toto 
+        cor<lb ed="#C" n="46" break="no"/>pore est una anima numero: cum secundum 
+        <lb ed="#C" n="47"/>diversitatem in esse numeretur 
+        forma<lb ed="#C" n="48" break="no"/>Item forma substantialis perse non extenditur, 
+      </p>
+               <p xml:id="Gi9qrR-e50282-d1e2019">
+                  <lb ed="#C" n="49"/>nec ratione subiecti, quod est hyle 1. de 
+        <lb ed="#C" n="50"/>Qen. sed bene ratione modi introducendis 
+        <lb ed="#C" n="51"/>quia de potentia materiae, ergo pars de 
+        par<lb ed="#C" n="52" break="no"/>re, &amp; totum de toto. Erit igitur una nume 
+        <lb ed="#C" n="53"/>o anima in toto corpore, ut dicit primum 
+        <lb ed="#C" n="54"/>notabile. Et tota in qualibet parte corporis; 
+        <lb ed="#C" n="55"/>cum non extendatur ratione sui, nec 
+        ratio<lb ed="#C" n="56" break="no"/>ne subiecti, nec ratione modi introducendi, 
+        <lb ed="#C" n="57"/>ut dicit secundum notabile.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

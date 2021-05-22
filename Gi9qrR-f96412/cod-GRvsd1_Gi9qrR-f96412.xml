@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="753"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f96412"><!-- l1-d40prooem -->
+            <head xml:id="Gi9qrR-f96412-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f96412-d1e111">
+      <!--778.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="22"/>DITINCTIO XXXXJ. 
+      <lb ed="#C" n="23"/>QVID SIT PRAEDES TINATIO ET IN QVO DIETERAT 
+      <lb ed="#C" n="24"/>a praescientia? 
+    </p>
+            <p xml:id="Gi9qrR-f96412-d1e124">
+      <!--778.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="25"/>RAEDESTInatio vero de bonis, 
+      <lb ed="#C" n="26"/>salutaribus. Postquam 
+      Ma<lb ed="#C" n="27" break="no"/>gister determinavit de 
+      sci<lb ed="#C" n="28" break="no"/>entia Divina in communis 
+      <lb ed="#C" n="29"/>hic in parte ista 
+      determi<lb ed="#C" n="30" break="no"/>nat specialiter de praedesti 
+      <lb ed="#C" n="31"/>natione. Et duo facit: quia 
+      <lb ed="#C" n="32"/>1. dicit, quid sit praedestina 
+      <lb ed="#C" n="33"/>tio? 2. specialiter determinat de causalitate eius: 
+      <lb ed="#C" n="34"/>utrum sit causa Prima, vel habeat causam alis? 
+      <lb ed="#C" n="35"/>Secunda ibi: Si autem quaerimus. In principio 4 1. 
+    </p>
+            <p xml:id="Gi9qrR-f96412-d1e155">
+               <lb ed="#C" n="36"/>dist. Circa primum duo facit: quia 1. dicit 
+      <lb ed="#C" n="37"/>quid sit praedestinatio, dicens: eam esse 
+      praepa<lb ed="#C" n="38" break="no"/>rationem gratiae. Et separat ipsam a praescientia, 
+      <lb ed="#C" n="39"/>Nam praescientiae non solum subsunt bona, sed  
+      <lb ed="#C" n="40"/>etiam mala: sed Deus solum bona praedestinat.  
+      <lb ed="#C" n="41"/>2. determinat de certitudine eius, ibi: 
+      Praedasti<lb ed="#C" n="42" break="no"/>natorum nullus videtur. Circa quod duo facit: quit  
+      <lb ed="#C" n="43"/>1. determinat de certitudine praedestinationis, 
+      <lb ed="#C" n="44"/>2. determinat de ipsa reprobatione, ibi: Cumque 
+      <lb ed="#C" n="45"/>praedestmatio. Circa primum duo facit: quia 1. 
+      di<lb ed="#C" n="46" break="no"/>cit numerum praedestinatorum, &amp; etiam repro 
+      <lb ed="#C" n="47"/>borum esse certum: quia nullus praedestinatorum 
+      <lb ed="#C" n="48"/>damnabitur, nec reproborum salvabitur. 2. 
+      <lb ed="#C" n="49"/>Circa hanc veritatem obiicit, ibi: Ad hoc autem 
+      <lb ed="#C" n="50"/>obiiciunt. Circa quod duo facit: quia 1. obiicit,  
+      <lb ed="#C" n="51"/>&amp; solvit. 2. contra solutionem instat. Secunda, 
+      <lb ed="#C" n="52"/>ibi: Verumtamen adhuc instant. Circa primum duo 
+      <lb ed="#C" n="53"/>facit: quia 1. arguit numerum praedestinatorum, 
+      <lb ed="#C" n="54"/>non esse cartum: quia Deus potest apponere 
+      <lb ed="#C" n="55"/>gratiam, quibus non apponit, &amp; subtrahere, 
+      <lb ed="#C" n="56"/>quibus non subtrahit: &amp; ita aliqui damnari 
+      pos<lb ed="#C" n="57" break="no"/>sunt, qui salvandi sunt: &amp; aliqui salvari, qui 
+      <lb ed="#C" n="58"/>sunt damnandi. Non ergo praedestinatorum 
+      <lb ed="#C" n="59"/>numerus est certus. 2. solvit dicens, pro tante 
+      <lb ed="#C" n="60"/>dictum esse numerum electorum nec augeri pos  
+      <lb ed="#C" n="61"/>se, nec minui: quia ista duo simul stare non 
+      <lb ed="#C" n="62"/>possunt, quod aliquis sit praedestinatus, &amp; dam 
+      <lb ed="#C" n="63"/>netur; &amp; reprobatus, &amp; salvetur: unde cum dici¬ 
+      <!--778.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="64"/>tur: praedestinatus potest damrari, in sensu 
+      con<lb ed="#C" n="65" break="no"/>posito falsa est, in sensu diviso vera Secunda 
+      <lb ed="#C" n="66"/>ibi: Quibus respondemus. Deindecum dicit: 
+      Verum<lb ed="#C" n="67" break="no"/>tamen ad hoc. Instat contra solutionem: nam si 
+      <lb ed="#C" n="68"/>non potest esse, quod sit prae lestinatus, &amp; 
+      dam<lb ed="#C" n="69" break="no"/>netur, vel reprobatus &amp; salvetur: quia simul 
+      <lb ed="#C" n="70"/>&amp; in sensu conposito praedicta stare no possunt: 
+      <lb ed="#C" n="71"/>tunc cum alterum sit necessariumi quia Deus 
+      <lb ed="#C" n="72"/>ab aeterno praedestinavit, quos praedestinavit: &amp; 
+      <lb ed="#C" n="73"/>reprobavit, quos reprobavit: ergo alterum erit 
+      <lb ed="#C" n="74"/>impossibile, ergo demonstrato aliquo, cum 
+      de<lb ed="#C" n="75" break="no"/>terminatus sit ad alteram partem: quia vel est 
+      <lb ed="#C" n="76"/>praedestinatus, vel reprobatus, ergo non potest 
+      <lb ed="#C" n="77"/>salvari, vel damnari indeterminate: sed alterum 
+      <lb ed="#C" n="78"/>determinate necesse est ei inesse. Secundo sol. 
+      <lb ed="#C" n="79"/>vit, quod huiusmodi propositio; iste non potest. 
+      <lb ed="#C" n="80"/>modo esse praedestinatus; vel non esse 
+      praedesti<lb ed="#C" n="81" break="no"/>natus, si intelligatur coniunctim, ut quod ab 
+      <lb ed="#C" n="82"/>eterno fuerit praedestinatus, &amp; modo 
+      <lb ed="#C" n="83"/>non sit praedestinatus, vel quod simul 
+      pos<lb ed="#C" n="84" break="no"/>sit esse praedestinatus; &amp; non praedestinatus: sic 
+      <lb ed="#C" n="85"/>sunt locutiones falsae: Deus tamen ab aeterno 
+      <lb ed="#C" n="86"/>potuit hunc praedestinare; &amp; non praedestinare: 
+      <lb ed="#C" n="87"/>unde &amp; aliqui addunt, quod modo potest esse 
+      <lb ed="#C" n="88"/>praedestinatus; &amp; non praedestinatus, quae 
+      om<lb ed="#C" n="89" break="no"/>nia inquirendo magis declarabuntur. Secunda 
+      <lb ed="#C" n="90"/>ibi: In huiusmodi solutione. Deinde cum dicit: Cum. 
+      <lb ed="#C" n="91"/>quae praedestinatio, determinat de reprobatione. Et  
+      <lb ed="#C" n="92"/>tria facit: quia primo notificat reprobationem, 
+      <lb ed="#C" n="93"/>&amp; oppositum ad praedestinationem: quia sicut 
+      <lb ed="#C" n="94"/>prae destinatio est Divina electio, &amp; propositum 
+      <lb ed="#C" n="95"/>miserendi: sic reprobatio est oraescientia 
+      iniqui<lb ed="#C" n="96" break="no"/>tatis, &amp; propositum non miserendi: differenter 
+      <lb ed="#C" n="97"/>tamen, quia praedestinatio praeparat gratiam in 
+      <lb ed="#C" n="98"/>praesenti, &amp; gloriam infuturo; sed reprobatio 
+      <lb ed="#C" n="99"/>non praeparat iniquitatem in praesenti; sed 
+      so<lb ed="#C" n="100" break="no"/>lum praescit: praeparat tamen peenam in futuro 
+      <lb ed="#C" n="101"/>2. quod dixerat, manifestat per <name xml:id="Gi9qrR-f96412-Nd1e304" ref="#Augustine">Aug.</name> &amp; 
+      Fulge<lb ed="#C" n="102" break="no"/>ium. 3. recolligit in summa dicta, &amp; addit om¬ 
+      <!--779.xml-->
+      <pb ed="#C" n="754"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>nia haec procedere secundum Divinae 
+      volunta<lb ed="#C" n="2" break="no"/>tis imperium: &amp; quia Apostolus rationem ho 
+      <lb ed="#C" n="3"/>rum non aperit, sed miratur: exclamat cum eo 
+      <!--779.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="4"/>dicens: O altitudo &amp;c. Secunda ibi: Inde 
+      <name xml:id="Gi9qrR-f96412-Nd1e329" ref="#Augustine">Augusti<lb ed="#C" n="5" break="no"/>nus</name>. Tertia ibi: Sicut ergo praedestinatio. In quo ter¬ 
+      <lb ed="#C" n="6"/>minatur sententia lectionis &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

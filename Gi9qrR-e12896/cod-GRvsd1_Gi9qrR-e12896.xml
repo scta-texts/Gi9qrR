@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litteralis</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litteralis</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="49"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e12896"><!-- l1-d1dublit -->
+            <head xml:id="Gi9qrR-e12896-Hd1e108">Dubitationes litteralis</head>
+            <p xml:id="Gi9qrR-e12896-d1e111">
+      <!--86.xml-->
+               <pb ed="#C" n="49"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DVBITTTIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e122">
+               <lb ed="#C" n="2"/>VPER litteram primo quaeritur: quia 
+      <lb ed="#C" n="3"/>dividit rem contra signum, sed 
+      ip<lb ed="#C" n="4" break="no"/>sum signum est res, ut dicitur in littera. 
+      <lb ed="#C" n="5"/>Item res est communius quam signum, 
+      <lb ed="#C" n="6"/>sed speciale non dividitur contra 
+      commu<lb ed="#C" n="7" break="no"/>ne, nec idem contra se ipsum, ergo &amp;c. 
+      <lb ed="#C" n="8"/>Respondeo dicendum, quod licet res 
+      ac<lb ed="#C" n="9" break="no"/>cepta large sit idem, quod signum; tamen 
+      <lb ed="#C" n="10"/>si contrahatur ad significadum solum ea, 
+      <lb ed="#C" n="11"/>quorum usus non est in significando, tunc 
+      <lb ed="#C" n="12"/>nec est commune ad signum, nec idem 
+      <lb ed="#C" n="13"/>quod signum. Vel possumus dicere, quod 
+      <lb ed="#C" n="14"/>non est divisio realis, sed est divisio 
+      ratio<lb ed="#C" n="15" break="no"/>nis: &amp; tunc non est inconveniens idem 
+      <lb ed="#C" n="16"/>esse rem, &amp; signum diversis rationibus. 
+      <lb ed="#C" n="17"/>Prima tamen magis est secundum 
+      inten<lb ed="#C" n="18" break="no"/>tionem Magistri: quia aliter determinat 
+      <lb ed="#C" n="19"/>de rebus, aliter de signis, 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e164">
+               <lb ed="#C" n="20"/>Item dicit se prius velle determinare 
+      <lb ed="#C" n="21"/>do rebus, quam de signis. Sed contra: per 
+      <lb ed="#C" n="22"/>signum devenimus in cognitionem rerum, 
+      <lb ed="#C" n="23"/>ergo tenet ordinem contrarium. 
+      Dicen<lb ed="#C" n="24" break="no"/>dum, quod verum esset, si essent signa 
+      illa<lb ed="#C" n="25" break="no"/>rum rerum, de quibus determinat. Vel 
+      <lb ed="#C" n="26"/>possumus dicere, quod non est idem 
+      mo<lb ed="#C" n="27" break="no"/>dus addiscendi rem, &amp; tradendi doctrinam 
+      <lb ed="#C" n="28"/>rerum. 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e186">
+               <lb ed="#C" n="29"/>Item dicit nos esse in medio inter 
+      uti<lb ed="#C" n="30" break="no"/>bilia &amp; fruibilia, ergo utibilia tenent 
+      lo<lb ed="#C" n="31" break="no"/>cum infimum; sed cum virtutes inter 
+      uti<lb ed="#C" n="32" break="no"/>bilia computentur, ergo virtutes sunt 
+      bo<lb ed="#C" n="33" break="no"/>na infima, &amp; minima: cuius contrarium 
+      <lb ed="#C" n="34"/>dicit <name xml:id="Gi9qrR-e12896-Nd1e201" ref="#Augustine">Aug.</name> quia dicit ea bona maxima. 
+      <lb ed="#C" n="35"/>Dicendum, quod comparatio <name xml:id="Gi9qrR-e12896-Nd1e206" ref="#Augustine">Aug.</name> cum 
+      <lb ed="#C" n="36"/>dlicit: quod virtutes sunt bona maxima 
+      <lb ed="#C" n="37"/>etiam respectu eorum, quae sunt in nobis, 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e215">
+               <lb ed="#C" n="38"/>&amp; respectu bonorum proficientium nos, 
+      <lb ed="#C" n="39"/>vel adminiculantium nobis, virtutes sunt,  
+      <lb ed="#C" n="40"/>potissime perfectiones. Vel possumus 
+      di<lb ed="#C" n="41" break="no"/>cere, quod licet in genere perfectionum, 
+      <lb ed="#C" n="42"/>perfectio sit nobilior perfectibili, ut 
+      acci<lb ed="#C" n="43" break="no"/>dens subiecto: in genere entium est 
+      mo<lb ed="#C" n="44" break="no"/>dus conversus: quia in genere entium 
+      sub<lb ed="#C" n="45" break="no"/>lectum est magis ens, quam accidens; 
+      li<lb ed="#C" n="46" break="no"/>cet magis ei non competat nomen 
+      perfe<lb ed="#C" n="47" break="no"/>ctionis: &amp; ideo uno modo nos sumus 
+      su<lb ed="#C" n="48" break="no"/>pra virtutes, &amp; alio modo virtutes sunt 
+      su<lb ed="#C" n="49" break="no"/>pra nos. Solvitur &amp; aliter: quia respectu 
+      <lb ed="#C" n="50"/>rectitudinis vitae est virtus maximum 
+      bo<lb ed="#C" n="51" break="no"/>num, potentia naturalis est medium, 
+      re<lb ed="#C" n="52" break="no"/>alie sunt minima: respectu Beatitudinis 
+      <lb ed="#C" n="53"/>Beatificans est summum, participans 
+      Bea<lb ed="#C" n="54" break="no"/>titudinem est medium, virtus, per quam 
+      <lb ed="#C" n="55"/>pervenitur, est minimum. 
+      <!--86.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="56"/>Item distinguit fruens &amp; utens a 
+      fruibi<lb ed="#C" n="57" break="no"/>li, &amp; utibili, sed ipsum fruens, &amp; utens, 
+      <lb ed="#C" n="58"/>(ut homo) est utibile, ergo male. 
+      Dicen<lb ed="#C" n="59" break="no"/>dum, quod non est distinctio secundum 
+      <lb ed="#C" n="60"/>rem, sed secundum rationem. 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e272">
+               <lb ed="#C" n="61"/>Item diffinit uti per usum dicens: Vti est 
+      <lb ed="#C" n="62"/>quod in usum venerit. Sed cum utrumques 
+      <lb ed="#C" n="63"/>dicat actum, &amp; actus non notificetur per 
+      <lb ed="#C" n="64"/>actum, ergo &amp;c. Dicendum, quod totum 
+      <lb ed="#C" n="65"/>llud, quod in usum venerit, ponitur 
+      pro<lb ed="#C" n="66" break="no"/>obiecto, sive pro utibili; &amp; ita notificatur  
+      <lb ed="#C" n="67"/>actus per obiectum, non per actum. 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e290">
+               <lb ed="#C" n="68"/>Item dat diversas diffinitiones de frui, o 
+      <lb ed="#C" n="69"/>&amp; uti: sed unius rei unicum est esse, ergo 
+      <lb ed="#C" n="70"/>&amp; una diffinitio. Dicendum, quod 
+      secu<lb ed="#C" n="71" break="no"/>dum unum modum una est notificatio 
+      <lb ed="#C" n="72"/>rei, sed secundum diversos diversa, si una 
+      <lb ed="#C" n="73"/>non contineat omnes modos: &amp; ideo in 
+      <lb ed="#C" n="74"/>8. Metaph. commendantur diffinitiones, 
+      <lb ed="#C" n="75"/>quas recipiebat Aristomenes, quae 
+      daban<lb ed="#C" n="76" break="no"/>tur secundum omnes causas: unde dicta 
+      <lb ed="#C" n="77"/>diffinitiones dantur diversimode. 
+      Diffini<lb ed="#C" n="78" break="no"/>tiones de frui sic differunt: nam in frui 
+      <lb ed="#C" n="79"/>tione est quinque considerare, actum, ob 
+      <lb ed="#C" n="80"/>iectum, finem, potentiam, &amp; 
+      delectatio<lb ed="#C" n="81" break="no"/>nem. Quantum ad prima tria, datur 
+      pri<lb ed="#C" n="82" break="no"/>ma: Frui est amore inhaerere, quantum ad 
+      ac<lb ed="#C" n="83" break="no"/>um, alicui rei, quantum ad obiectum: 
+      <lb ed="#C" n="84"/>propter se ipsam, quantum ad finem. 
+      Secun<lb ed="#C" n="85" break="no"/>da datur per potentiam, cum dicitur: 
+      Hui<lb ed="#C" n="86" break="no"/>mur cognitis, in quibus voluntas &amp;c. Tertia 
+      <lb ed="#C" n="87"/>datur quantum ad delectationem, scilicet  
+      <lb ed="#C" n="88"/>crui est uti cum gaudio. Similiter 
+      distinguun<lb ed="#C" n="89" break="no"/>tur diffinitiones de uti: nam prima 
+      diffi<lb ed="#C" n="90" break="no"/>nitio diffinit uti Viatorum: quia ipsi 
+      utun<lb ed="#C" n="91" break="no"/>ur, ut obtineant illud, quo fruendum est: 
+      <lb ed="#C" n="92"/>secunda se extendit ad comprehensores, 
+      <lb ed="#C" n="93"/>cum dicitur: Vtimur eis, quae ad illud 
+      referi<lb ed="#C" n="94" break="no"/>mus &amp;c. Tertia se extendit ad uti Divinum, 
+      <lb ed="#C" n="95"/>&amp; etiam ad fruitionem, cum dicitur: Vti 
+      <lb ed="#C" n="96"/>est assumere &amp;c. 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e355">
+               <lb ed="#C" n="97"/>Item dicit: Tollerabilius sustinemus 
+      peregri<lb ed="#C" n="98" break="no"/>nationem nostram: quia in hac vita fruimur per 
+      <lb ed="#C" n="99"/>peculum. Contra: Spes, quae differtur affligit 
+      <lb ed="#C" n="100"/>ammam. Dicendum, quod ratione, qua 
+      <lb ed="#C" n="101"/>non habemus complete Beatitudinem, 
+      <lb ed="#C" n="102"/>affligimur; ratione, qua aliquid de ea 
+      gu<lb ed="#C" n="103" break="no"/>stamus, tollerabilius sustinemus. 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e373">
+               <lb ed="#C" n="104"/>Item quia dicit: Deus bonus est, sumus &amp;c. 
+      <lb ed="#C" n="105"/>ontra: <name xml:id="Gi9qrR-e12896-Nd1e379" ref="#Boethius">Boet,</name> in lib. de Hebdomadibus 
+      <lb ed="#C" n="106"/>vult, quod si intelligeretur Deus, &amp; non 
+      <lb ed="#C" n="107"/>intelligeretur bonus, entia essent, sed non 
+      <lb ed="#C" n="108"/>essent bona, ergo a Bonitate Divina est 
+      <lb ed="#C" n="109"/>bonitas in creaturis, &amp; ab entitate 
+      <lb ed="#C" n="110"/>entitas. Dicendum, quod Deus est in 
+      <lb ed="#C" n="111"/>genere causae formalis respectu entium, 
+      <!--87.xml-->
+      <pb ed="#C" n="50"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>&amp; in genere causae finalis: &amp; in quantum 
+      <lb ed="#C" n="2"/>est causa formalis omnium exemplaris per 
+      <lb ed="#C" n="3"/>bonitatem est causa bonorum, &amp; per 
+      pal<lb ed="#C" n="4" break="no"/>chritudinem pulebrorum: &amp; secundum 
+      <lb ed="#C" n="5"/>istum modum loquitur <name xml:id="Gi9qrR-e12896-Nd1e413" ref="#Boethius">Boet.</name> inquantum 
+      <lb ed="#C" n="6"/>est causa salalis propter bonitatem suam, 
+      <lb ed="#C" n="7"/>sunt omnia, &amp; quantum ad hoc dictum 
+      <lb ed="#C" n="8"/>est. Quia bonis est, sumus, 
+    </p>
+            <p xml:id="Gi9qrR-e12896-d1e423">
+               <lb ed="#C" n="9"/>item dicit: quia inquantum sumus, bo 
+      <lb ed="#C" n="10"/>ni sumus, ergo bonum, &amp; ens sunt synony¬ 
+      <!--87.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="11"/>ma, quod non est verum. Dicendum, 
+      <lb ed="#C" n="12"/>quod hoc quo dico inquantum, dicitur  
+      <lb ed="#C" n="13"/>propter unitatem rei, non propter 
+      unita<lb ed="#C" n="14" break="no"/>tem rationis: quia per eamdem rem 
+      ha<lb ed="#C" n="15" break="no"/>bemus esse, &amp; bonum esse, alio, &amp; alio 
+      mo<lb ed="#C" n="16" break="no"/>do: vel secundum quod aliqui dicunt,  
+      <lb ed="#C" n="17"/>hoc dictum est propter convertibilitatem 
+      <lb ed="#C" n="18"/>suppositorum: quia bonum, &amp; ens 
+      conver<lb ed="#C" n="19" break="no"/>tuntur in suppositis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

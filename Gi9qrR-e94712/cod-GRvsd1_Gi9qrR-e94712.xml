@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e94712"><!-- l1-d17p2dublit -->
+            <head xml:id="Gi9qrR-e94712-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-e94712-d1e111">
+               <lb ed="#C" n="53"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-e94712-d1e116">
+               <lb ed="#C" n="54"/>VPER litterram. Super illo: Sine 1. 
+      <lb ed="#C" n="55"/>Spiritu Sancto non possumus Christum 
+      <lb ed="#C" n="56"/>diligere nec mandata eius servare. 
+      Con<lb ed="#C" n="57" break="no"/>tra: quia tunc sciremus nos habere 
+      <lb ed="#C" n="58"/>charitatem, quando possemus 
+      im<lb ed="#C" n="59" break="no"/>plere mandata. Dicendum, quod 
+      li<lb ed="#C" n="60" break="no"/>cet quantum ad genus operis 
+      possi<lb ed="#C" n="61" break="no"/>mus hoc mandatum, vel illud 
+      imple<lb ed="#C" n="62" break="no"/>re; vel etiam dato quod omnia, non 
+      <lb ed="#C" n="63"/>propter hoc sciremus nos habere 
+      cha<lb ed="#C" n="64" break="no"/>ritatem; vel non habere: quia 
+      nes<lb ed="#C" n="65" break="no"/>cimus, utrum ea impleamus 
+      meri<lb ed="#C" n="66" break="no"/>torie, vel non, quod est effectus 
+      gra<lb ed="#C" n="67" break="no"/>tiae. 
+    </p>
+            <p xml:id="Gi9qrR-e94712-d1e149">
+               <lb ed="#C" n="68"/>Item super illud: Spiritus, qui in 
+      tem<lb ed="#C" n="69" break="no"/>&amp;c. Vtrum quod Eliseus peccasset: 
+      <lb ed="#C" n="70"/>quia petiit plus de Spiritu, quam esset 
+      <lb ed="#C" n="71"/>in Magistro suo Elia. Sufficit enim 
+      dis<lb ed="#C" n="72" break="no"/>cipulo, si sit sicut Magister eius. 
+      Dicen<lb ed="#C" n="73" break="no"/>dum, quod illa auctoritas potest 
+      ex<lb ed="#C" n="74" break="no"/>poni, quod non plus de Spiritu 
+      pe<lb ed="#C" n="75" break="no"/>tiit; sed petiit, quod Spiritus ille, 
+      <lb ed="#C" n="76"/>qui erat duplus in Flia ad faciendum 
+      <lb ed="#C" n="77"/>miracula, &amp; ad operationem 
+      pro<lb ed="#C" n="78" break="no"/>phetalem, fieret in ipso Eliseo, &amp; per 
+      <lb ed="#C" n="79"/>hoc habet intentum suum Magister: 
+      <lb ed="#C" n="80"/>quia Spiritus Sanctus ab uno plus 
+      ha<lb ed="#C" n="81" break="no"/>betur, quam ab alio, &amp; in uno plus est, 
+      <lb ed="#C" n="82"/>quam in alio: quia in Elia erat duplus; 
+      <lb ed="#C" n="83"/>non in Eliseo. 
+    </p>
+            <p xml:id="Gi9qrR-e94712-d1e186">
+               <lb ed="#C" n="84"/>Item super illud: Vnicuique pro 
+      mo<lb ed="#C" n="85" break="no"/>do suae perfectionis secundum propriam 
+      men<lb ed="#C" n="86" break="no"/>uram datur gratia &amp;c. Contra: 
+      Spiritu<lb ed="#C" n="87" break="no"/>Sanctus dividit sua dona singulariter,  
+      <lb ed="#C" n="88"/>prout vult. Dicendum, quod 
+      secun<lb ed="#C" n="89" break="no"/>dum ipsum velle Spiritus Sancti 
+      acci<lb ed="#C" n="90" break="no"/>pitur propria mensura: nam propria 
+      <lb ed="#C" n="91"/>mensura ex parte dantis est, prout ipse  
+      <lb ed="#C" n="92"/>praedestinavit, ex parte eius qui  
+      <lb ed="#C" n="93"/>datur: sunt naturalia ipsa 
+      <lb ed="#C" n="94"/>cum conatu exigen¬ 
+      <lb ed="#C" n="95"/>tia voluntatem, 
+      <lb ed="#C" n="96"/>Spiritus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

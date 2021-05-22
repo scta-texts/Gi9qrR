@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collatio</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Collatio</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="1"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-d1e6xx"><!-- l1-collatio -->
+            <head xml:id="Gi9qrR-d1e6xx-Hd1e108">Collatio</head>
+            <p xml:id="Gi9qrR-d1e6xx-d1e111">
+      <!--38.xml-->
+               <pb ed="#C" n="1"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>
+               <quote xml:id="Gi9qrR-d1e6xx-Qd1e121">CAndor est enim lucis 
+        aeter<lb ed="#C" n="2" break="no"/>nae, &amp; speculum sine macula  
+        <lb ed="#C" n="3"/>Dei maiestatis, &amp; imago 
+        <lb ed="#C" n="4"/>bonitatis illius: &amp; cum sit 
+        <lb ed="#C" n="5"/>una omnia potest: &amp; 
+        per<lb ed="#C" n="6" break="no"/>manens in se omnia 
+        inno<lb ed="#C" n="7" break="no"/>gvat: &amp; per nationes in 
+        <lb ed="#C" n="8"/>animas sanctas se 
+        trans<lb ed="#C" n="9" break="no"/>fert, amicos Dei, &amp; Prophetas constituit</quote>. <ref xml:id="Gi9qrR-d1e6xx-Rd1e142">Sap. 7.</ref> Se 
+      <lb ed="#C" n="10"/>cundum quod dicit <ref xml:id="Gi9qrR-d1e6xx-Rd1e147">D. <name xml:id="Gi9qrR-d1e6xx-Nd1e149" ref="#Augustine">Aug.</name> 10. de Trin. cap. 
+        <lb ed="#C" n="11"/>1.</ref> 
+               <quote xml:id="Gi9qrR-d1e6xx-Qd1e155" source="http://scta.info/resource/adt-l10-d1e1115" synch="14-28">nisi impressam cuiusque doctrinae haberemus in 
+        <lb ed="#C" n="12"/>animo notionem, nullo ad eam discendam studio 
+        fla<lb ed="#C" n="13" break="no"/>graremus</quote>. Ex quibus verbis habere possumus, 
+      <lb ed="#C" n="14"/>quod nisi aliqua praecognitio rei in animo 
+      <lb ed="#C" n="15"/>nostro existeret, ad eam discendam 
+      nulla<lb ed="#C" n="16" break="no"/>tenus moveremur: quod satis concordat 
+      <lb ed="#C" n="17"/>cum verbis <ref xml:id="Gi9qrR-d1e6xx-Rd1e171">Philosophi 1. Posteriorum</ref>, qui 
+      <lb ed="#C" n="18"/>ait: <quote xml:id="Gi9qrR-d1e6xx-Qd1e176">Omnis doctrina, &amp; omnis disciplina, quae 
+        ra<lb ed="#C" n="19" break="no"/>tione, &amp; intelligentia constat, ex antecedenti fit 
+        <lb ed="#C" n="20"/>cognitione</quote>: nam licet cognitionem sensitivam 
+      <lb ed="#C" n="21"/>non alia de necessitate praecedat cognitio 
+      <lb ed="#C" n="22"/>cognitionem tamen intellectivam semper 
+      <lb ed="#C" n="23"/>habemus ex praeexistenti cognitione: quia 
+      <lb ed="#C" n="24"/>conclusiones praesciuntur in principijs: 
+      <lb ed="#C" n="25"/>principia vero praecognoscuntur via sesus, 
+      <lb ed="#C" n="26"/>memoriae, &amp; experientiae. Quidquid er¬ 
+      <!--38.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="27"/>go scimus, prius sciebamus illud; sed quia 
+      <lb ed="#C" n="28"/>nostrum difcere non est reminisci (vt 
+      Pla<lb ed="#C" n="29" break="no"/>toni imponitur) non sicut sciebamus, 
+      ad<lb ed="#C" n="30" break="no"/>discimus: iquia sciebamus, in quadam 
+      <lb ed="#C" n="31"/>universalitate, &amp; sub modo confuso, quod  
+      <lb ed="#C" n="32"/>postea addiscimus in propria forma, &amp; sub 
+      <lb ed="#C" n="33"/>modo distincto: ut patet per Philosophum 
+      <lb ed="#C" n="34"/>1. posteriorum, ubi ambiguitatem 
+      <name xml:id="Gi9qrR-d1e6xx-Nd1e218">Meno<lb ed="#C" n="35"/>nis</name> manifestat. Et quia iste est rectus orde 
+      <lb ed="#C" n="36"/>cognitionis nostrae, ut prius sciamus 
+      ali<lb ed="#C" n="37" break="no"/>quid in universali, &amp; post modum in 
+      pro<lb ed="#C" n="38" break="no"/>pria forma; bene se habet, ut ea, quae dicun: 
+      <lb ed="#C" n="39"/>tur in libro Sententiarum, cuius 
+      expositio<lb ed="#C" n="40" break="no"/>nem intedimus, in universalitate 
+      tangan<lb ed="#C" n="41" break="no"/>tur, priusquam ipsa per singula indicentur 
+      <lb ed="#C" n="42"/>Et ideo in verbis propositis in quadam 
+      sum<lb ed="#C" n="43" break="no"/>ma, &amp; universalitate quatuor librorum 
+      Se<lb ed="#C" n="44" break="no"/>tentiarum materia per ordinem 
+      designa<lb ed="#C" n="45" break="no"/>ur. Ad quod intelligendum notare 
+      debe<lb ed="#C" n="46" break="no"/>mus, quod Deus, cuius cognitio 
+      principa<lb ed="#C" n="47" break="no"/>liter in Sacra Scriptura intenditur, a nobis 
+      <lb ed="#C" n="48"/>in via duplici modo cognoscitur: hunc 
+      <lb ed="#C" n="49"/>autem modum duplicem aliter videtur 
+      in<lb ed="#C" n="50" break="no"/>nuere Apostolus, aliter <name xml:id="Gi9qrR-d1e6xx-Nd1e256" ref="#Augustine">Aug.</name> &amp; aliter Hugo 
+      <lb ed="#C" n="51"/>Nam Apost. videtur dicere, quod ille 
+      du<lb ed="#C" n="52" break="no"/>plex modus sit speculum, &amp; aenigma, di¬ 
+      <!--39.xml-->
+      <pb ed="#C" n="2"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>cens; <quote xml:id="Gi9qrR-d1e6xx-Qd1e272">cognoscimus nunc per speculum in 
+        aenigma<lb ed="#C" n="2" break="no"/>re, tunc autem facie ad faciem.</quote> 
+               <name xml:id="Gi9qrR-d1e6xx-Nd1e277" ref="#Augustine">Aug.</name> autem in 
+      <lb ed="#C" n="3"/>principio 2. de Trin. istum duplicem 
+      mo<lb ed="#C" n="4" break="no"/>dum assignat Scripturam, &amp; creaturam, 
+      <lb ed="#C" n="5"/>dicens: <quote xml:id="Gi9qrR-d1e6xx-Qd1e287" source="http://scta.info/resource/adt-l2-d1e188" synch="98-148">Si me, ut praecor, &amp; spero, Deus 
+        defende<lb ed="#C" n="6" break="no"/>rit, atque minierit scuto bonae voluntatis suae, &amp; 
+        <lb ed="#C" n="7"/>gratia misericordiae suae, non ero segnis ad 
+        inqui<lb ed="#C" n="8" break="no"/>rendam substantiam Dei sive per Scripturam eius, 
+        <lb ed="#C" n="9"/>sive per creaturam, quae utraque nobis ad hoc 
+        pro<lb ed="#C" n="10" break="no"/>ponitur intuenda; ut ipse quaeratur, ipse diligatur,  
+        <lb ed="#C" n="11"/>qui &amp; illam inspiravit, &amp; istam creavit</quote>. Hugo 
+      <lb ed="#C" n="12"/>dicit esse mundum, &amp; Christum dicens; 
+      <lb ed="#C" n="13"/>in principio commenti sui super Angelica 
+      <lb ed="#C" n="14"/>Hierarchia, duo enim simulacra erant proposita 
+      <lb ed="#C" n="15"/>homini, in quibus invisibilia videre potuisset: unum 
+      <lb ed="#C" n="16"/>naturae, &amp; unum gratiae. Simulacrum naturae erat 
+      <lb ed="#C" n="17"/>species mundi huius; simulacrum autem gratiae 
+      <lb ed="#C" n="18"/>erat humanitas Verbi; &amp; sequitur, quod in 
+      utro<lb ed="#C" n="19" break="no"/>que Deus demostrabatur, scilicet, in mundo 
+      is<lb ed="#C" n="20" break="no"/>to, &amp; homine Christo. 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e323">
+               <lb ed="#C" n="21"/>Et licet sententia istorum trium videatur 
+      <lb ed="#C" n="22"/>esse diversa; possumus tamen eos ad invicem 
+      <lb ed="#C" n="23"/>reducere: nam Scriptura, &amp; creatura, quae 
+      <lb ed="#C" n="24"/>proposuit <name xml:id="Gi9qrR-d1e6xx-Nd1e333" ref="#Augustine">Aug.</name> sunt idem, quod speculum, 
+      <lb ed="#C" n="25"/>&amp; aenigma; quae Apost. innuebat. Nam 
+      <lb ed="#C" n="26"/>differentia secundum <name xml:id="Gi9qrR-d1e6xx-Nd1e341" ref="#Augustine">Aug.</name> 15. de Trin. cap. 9. 
+      <lb ed="#C" n="27"/>inter speculum, &amp; aenigma est, quod aenigma 
+      <lb ed="#C" n="28"/>rem obscurius indicat, quam speculum: &amp; quia 
+      <lb ed="#C" n="29"/>per ea, quae a creaturis accipimus, non ita 
+      <lb ed="#C" n="30"/>clare, &amp; manifeste Deum cognoscere 
+      pos<lb ed="#C" n="31" break="no"/>sumus: sicut per ea, quae in Scripturis 
+      legi<lb ed="#C" n="32" break="no"/>mus; cognoscere Deum per Scripturam, 
+      <lb ed="#C" n="33"/>&amp; in creatura est cognoscere per speculum, 
+      <lb ed="#C" n="34"/>&amp; inaenigmate. Item sententia <name xml:id="Gi9qrR-d1e6xx-Nd1e361" ref="#Augustine">Aug.</name> non 
+      <lb ed="#C" n="35"/>discordat a sententia Hug. quia mundus 
+      is<lb ed="#C" n="36" break="no"/>te sensibilis creatura Dei est: &amp; ipse 
+      Chris<lb ed="#C" n="37" break="no"/>tus scientia nostra, &amp; Scriptura Divina 
+      di<lb ed="#C" n="38" break="no"/>ci potest. Nam ipse est ille, qui nobis 
+      <lb ed="#C" n="39"/>aperit sensum, vt Scripturam intelligamus; 
+      <lb ed="#C" n="40"/>ipse est ille, cui omnes Prophetae, nec non 
+      <lb ed="#C" n="41"/>tota Sacra Scriptura testimonium perhibet: 
+      <lb ed="#C" n="42"/>unde <name xml:id="Gi9qrR-d1e6xx-Nd1e382" ref="#Augustine">Aug.</name> ipsum scientiam nostram 
+      nomi<lb ed="#C" n="43" break="no"/>nat 13. de Trin. cap. 19. dicens: Scientia 
+      <lb ed="#C" n="44"/>ergo nostra Christus est, sapientia quoque nostra idem 
+      <lb ed="#C" n="45"/>Christus est, ipse nobis fidem de rebus temporalibus 
+      <lb ed="#C" n="46"/>inserit, ipse de sempiternis exhibet, veritatem. 
+      Igi<lb ed="#C" n="47" break="no"/>tur cognoscere Deum per mundum, &amp; 
+      <lb ed="#C" n="48"/>Christum, ut dicit Hugo, est ipsum 
+      cog<lb ed="#C" n="49" break="no"/>noscere per Scripturam, &amp; creaturam, ut  
+      <lb ed="#C" n="50"/>asserit <name xml:id="Gi9qrR-d1e6xx-Nd1e402" ref="#Augustine">Aug.</name> Iste autem duplex modus 
+      cog<lb ed="#C" n="51" break="no"/>noscendi Deum non est aequalis 
+      perfectio<lb ed="#C" n="52" break="no"/>nis: quia perfectius cognoscitur Deus per 
+      <lb ed="#C" n="53"/>Christum, quam per mundum, &amp; per 
+      spe<lb ed="#C" n="54" break="no"/>culum, quam per aenigma; &amp; per 
+      Scriptu<lb ed="#C" n="55" break="no"/>ram, quam per creaturam: &amp; ideo 
+      cogni<lb ed="#C" n="56" break="no"/>tio, quam nunc de Deo habemus, supperat 
+      <!--39.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="57"/>philosophorum cognitionem, qui solum 
+      <lb ed="#C" n="58"/>per creaturam Deum cognoscere 
+      volue<lb ed="#C" n="59" break="no"/>runt: contra quos ait Hug. in principio sui 
+      <lb ed="#C" n="60"/>commenti super Angelica Hierarchia: Mun 
+      <lb ed="#C" n="61"/>dana Thelogia parum evidenti demonstratione utens 
+      <lb ed="#C" n="62"/>non valuit incomprehensibilem veritatem sine 
+      con<lb ed="#C" n="63" break="no"/>tagione erroris educere, quam divina noscit 
+      Theo<lb ed="#C" n="64" break="no"/>logia simplici, ac pura assertione praedicare. 
+      Cau<lb ed="#C" n="65" break="no"/>sa autem huius ibidem tangitur: quia 
+      mun<lb ed="#C" n="66" break="no"/>dus sua specie artificem demonstravit, sed 
+      contem<lb ed="#C" n="67" break="no"/>plantis oculos illuminare non potuit: humanitas 
+      ve<lb ed="#C" n="68" break="no"/>ro Salvatoris, &amp; medicina fuit, ut, caeci lumen 
+      <lb ed="#C" n="69"/>reciperent, &amp; doctrina pariter, ut videntes 
+      agnos<lb ed="#C" n="70" break="no"/>derent veritatem. 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e454">
+               <lb ed="#C" n="71"/>Est etiam cognitio nostra perfectior, quam 
+      <lb ed="#C" n="72"/>fuit cognitio iudaeorum: quia multifarie, 
+      <lb ed="#C" n="73"/>multisque modis loquebatur Deus olim in 
+      <lb ed="#C" n="74"/>Prophetis, unde ipsi cognoscebant per 
+      <lb ed="#C" n="75"/>aenigmata: nos autem, quia novissime 
+      die<lb ed="#C" n="76" break="no"/>bus istis locutus est nobis per filium, magis 
+      <lb ed="#C" n="77"/>cognoscimus per speculum. 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e472">
+               <lb ed="#C" n="78"/>Patet igitur, per ea quae dicta sunt, quod  
+      <lb ed="#C" n="79"/>omnes illi modi, per quos Deum 
+      cognos<lb ed="#C" n="80" break="no"/>cimus, ad duos modos reducuntur, scilicet,  
+      <lb ed="#C" n="81"/>ad modum, secundum quem cognoscimus 
+      <lb ed="#C" n="82"/>Deum per creaturam, &amp; secundum quem 
+      <lb ed="#C" n="83"/>cognoscimus per Christum; &amp; isti duo 
+      mo<lb ed="#C" n="84" break="no"/>di reducuntur ad unum modum: quia cog¬ 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e491">
+               <lb ed="#C" n="85"/>nitio per creaturam, reducitur ad 
+      cognitio<lb ed="#C" n="86" break="no"/>nem per Christum, sicut imperfectum ad 
+      <lb ed="#C" n="87"/>perfectum: quia igitur perfectior cognitio,  
+      <lb ed="#C" n="88"/>quam de Deo habere possumus, habita est 
+      <lb ed="#C" n="89"/>per Filium; congrue libri Sententiarum 
+      <lb ed="#C" n="90"/>materia, in quo cognitio Dei intenditur 
+      <lb ed="#C" n="91"/>nobis per Dei filium, qui est Candor lucis 
+      <lb ed="#C" n="92"/>aeternae, potens omnia, &amp; absque sui 
+      immu<lb ed="#C" n="93" break="no"/>tatione omnia innovans sanctificando 
+      ani<lb ed="#C" n="94" break="no"/>mas, &amp; amicos Dei constituendo, 
+      descri<lb ed="#C" n="95" break="no"/>bitur. Nam materia primi habetur, cum 
+      <lb ed="#C" n="96"/>dicitur Candor est; secundi cum subiungitur, &amp; 
+      <lb ed="#C" n="97"/>cum fit una omnia potest: tertij cum annectitur,  
+      <lb ed="#C" n="98"/>&amp; permanens in se onmia innovat: quarti: cum 
+      <lb ed="#C" n="99"/>sequitur, &amp; pernationes &amp;c. 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e526">
+               <lb ed="#C" n="100"/>In primo enim libro circa quatuor 
+      Ma<lb ed="#C" n="101" break="no"/>gistri principaliter intentio versatur: primo 
+      <lb ed="#C" n="102"/>circa personarum in essentia vnitatem: 
+      se<lb ed="#C" n="103" break="no"/>cundo circa earum in duratione 
+      aeternita<lb ed="#C" n="104" break="no"/>tem: tertio circa earum in personis 
+      alieta<lb ed="#C" n="105" break="no"/>tem: quarto circa earum in Maiestate 
+      aequa<lb ed="#C" n="106" break="no"/>litatem: haec enim quatuor in primo aucto 
+      <lb ed="#C" n="107"/>ritatis membro describuntur. Nam quantum 
+      <lb ed="#C" n="108"/>ad Filium respectu personae Patris illa 
+      qua<lb ed="#C" n="109" break="no"/>tuor habentur cum dicitur: Cander est enim 
+      <lb ed="#C" n="110"/>lucis aeternae, &amp; speculum sine macula Dei 
+      maies<lb ed="#C" n="111" break="no"/>tatis. Quantum autem ad Spiritum Sanctum 
+      <lb ed="#C" n="112"/>respectu utriusque habetur, cum sub iungi¬ 
+      <!--40.xml-->
+      <pb ed="#C" n="3"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>tur, &amp; imago bonitatis illius. Nam notatur in 
+      <lb ed="#C" n="2"/>essentia vnitas Patris, &amp; Filij, cum dicitur  
+      <lb ed="#C" n="3"/>Candor incis, ita enim emanat Filius a Patre 
+      <lb ed="#C" n="4"/>sicut candor a luce, hoc est, sicut lux a 
+      lu<lb ed="#C" n="5" break="no"/>ce, in quo vnitas in natura describitur: nam 
+      <lb ed="#C" n="6"/>lux cum luce eiusdem naturae existit. 
+      Vn<lb ed="#C" n="7" break="no"/>de <ref xml:id="Gi9qrR-d1e6xx-Rd1e578">Aug. 4. de Trin. cap. penultimo</ref> istam 
+      <lb ed="#C" n="8"/>auctoritatem pertractas, ait ibi. Quod manat,  
+      <lb ed="#C" n="9"/>&amp; de quo manat vnius, eiusdemque substantiae est. 
+      <lb ed="#C" n="10"/>Neque enim sicut aqua deforamine terrae, aut 
+      lapi<lb ed="#C" n="11" break="no"/>dis manat sed sicut lux de luce. Nam quod dictum 
+      <lb ed="#C" n="12"/>est. Candor est enim lucis aeternae: quid aliuo 
+      <lb ed="#C" n="13"/>dictum est, quam lux est lucis aeternae. Item 
+      de<lb ed="#C" n="14" break="no"/>signatur induratione aeternitas: nam candor, 
+      <lb ed="#C" n="15"/>sive splendor est coaeternus luci, a qua 
+      gig<lb ed="#C" n="16" break="no"/>nitur. Vnde et ibidem <name xml:id="Gi9qrR-d1e6xx-Nd1e600" ref="#Augustine">Aug.</name> ait: Candor 
+      <lb ed="#C" n="17"/>quippe lucis aeternae, quid nisi lux est? Et coaeter 
+      <lb ed="#C" n="18"/>na luci. Item designatur in personis alietas 
+      <lb ed="#C" n="19"/>ex ipso modo loquendi: quia non est 
+      can<lb ed="#C" n="20" break="no"/>dor lucis nisi quod emanat a luce: unde 
+      <lb ed="#C" n="21"/>et ibidem <name xml:id="Gi9qrR-d1e6xx-Nd1e614" ref="#Augustine">Aug.</name> ait: emanatio quaedam est 
+      cla<lb ed="#C" n="22" break="no"/>ritatis omnipotentis Dei: in ipsa autem 
+      ema<lb ed="#C" n="23" break="no"/>natione intelligitur distinctio personarum: 
+      <lb ed="#C" n="24"/>quia nulla omnino res est, quae se ipsam gignat, vit 
+      <lb ed="#C" n="25"/>sit: vt scribitur 1. de Trin. cap. 1. &amp; ina. 
+      <lb ed="#C" n="26"/>de anima dicitur: nihil seipsum generat, 
+      <lb ed="#C" n="27"/>sed salvat. Designatur autem in maiestate 
+      <lb ed="#C" n="28"/>aequalitas, si bene advertamus, quid 
+      nomi<lb ed="#C" n="29" break="no"/>ne candoris importatur: vnde &amp; <name xml:id="Gi9qrR-d1e6xx-Nd1e635" ref="#Augustine">Aug.</name> 4. 
+      <lb ed="#C" n="30"/>de Trin. vbi hoc pertractat, ait: maluit 
+      au<lb ed="#C" n="31" break="no"/>tem dicere, candor lucis, quamlux lucis, ne 
+      obs<lb ed="#C" n="32" break="no"/>curior putaretur ista, quae manat, quam illa de 
+      qua<lb ed="#C" n="33" break="no"/>manat. Vnde ibidem subditur, quod ex hoc 
+      <lb ed="#C" n="34"/>ipsam lucem, scilicet emanantem, aequalem 
+      <lb ed="#C" n="35"/>ostendit luci, de qua emanat: si enim haec 
+      nti<lb ed="#C" n="36" break="no"/>nor est, obscuritas illius est, non candor illius: 
+      <lb ed="#C" n="37"/>autem maior est, non ex ea manat: non enim vin 
+      <lb ed="#C" n="38"/>ceret, de qua genita est. Istam eamdem 
+      aequali<lb ed="#C" n="39" break="no"/>tate indicat, cum ibi dicitur speculum sine 
+      ma<lb ed="#C" n="40" break="no"/>cula: nam sicut obscuritas impedit lucem 
+      <lb ed="#C" n="41"/>ita macula impedit speculum, &amp; ideo sicut 
+      <lb ed="#C" n="42"/>designata est aequalitas per candorem, 
+      <lb ed="#C" n="43"/>sic &amp; designatur per maculae caren 
+      <lb ed="#C" n="44"/>tiam.. 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e671">
+               <lb ed="#C" n="45"/>Habitis illis quatuor respectu Filij ad 
+      Pa<lb ed="#C" n="46" break="no"/>trem cum dicitur candor &amp;c. designantur  
+      <lb ed="#C" n="47"/>post modum illa quatuor in Spiritu Sancto 
+      <lb ed="#C" n="48"/>cespectu Patris, &amp; Filij, cum subiungitur,  
+      <lb ed="#C" n="49"/>&amp; imago bonitatis illius: nam vnomodo 
+      po<lb ed="#C" n="50" break="no"/>test dici Filius imago bonitatis Patris: 
+      <lb ed="#C" n="51"/>prout producit Spiritum Sanctum, cui  
+      <lb ed="#C" n="52"/>appropriatur obonitas, eumdem in 
+      es<lb ed="#C" n="53" break="no"/>sentia, aeternum induratione, 
+      distinc<lb ed="#C" n="54" break="no"/>tum in persona, aequalem in maiestate, vt 
+      <lb ed="#C" n="55"/>ipse est respectu Patris: &amp; in hoc habetur  
+      <lb ed="#C" n="56"/>materia primi libri. Secundi autem mate¬ 
+      <!--40.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="57"/>ria habetur cum subiungitur, &amp; cum sit vna 
+      <lb ed="#C" n="58"/>omnia potest: nam ipse Dei Filius Verbum 
+      <lb ed="#C" n="59"/>Patris habet similitudinem cum Verbo 
+      nos<lb ed="#C" n="60" break="no"/>tro: secundum quod dicitur 15. de Trin. 
+      <lb ed="#C" n="61"/>cap. 11. Animaavertenda est in hoc aenigmate 
+      <lb ed="#C" n="62"/>etiam sta Verbi Dei similitudo, quod sicut de illa 
+      <lb ed="#C" n="63"/>Verbo dictumest omnia per ipsum facta sunt: vbt 
+      <lb ed="#C" n="64"/>Deus per vnigenitum Verbum suum 
+      praedi<lb ed="#C" n="65" break="no"/>catur vniversa fecisse, ita hominis opera nulla sunt,  
+      <lb ed="#C" n="66"/>quae non prius in corde dicantur: vode scriptum est, 
+      <lb ed="#C" n="67"/>initium omnis operis Verbum: igitur sicut 
+      Ver<lb ed="#C" n="68" break="no"/>bum nostrum est initium operis, ita &amp; 
+      Ver<lb ed="#C" n="69" break="no"/>bum Dei: differeter tamen, quia vnicum 
+      <lb ed="#C" n="70"/>Verbum nostrum non est initium omni 
+      <lb ed="#C" n="71"/>operis nostri, quia non gignitur ex tota 
+      <lb ed="#C" n="72"/>scientia nostra: sed vnicum Verbum 
+      Di<lb ed="#C" n="73" break="no"/>vinum est initium omnis divini operis 
+      prop<lb ed="#C" n="74" break="no"/>ter sui perfectionem. Vnde dicitur 6. de 
+      <lb ed="#C" n="75"/>Trin. cap. vIt. de isto Verbo, quod est 
+      Ver<lb ed="#C" n="76" break="no"/>bum perfectum, cui non deest aliquid, &amp; ars quaedam 
+      <lb ed="#C" n="77"/>omnipotentis, atque sapientis Dei, plena omnium 
+      <lb ed="#C" n="78"/>rationum viuentium incommutabilium, &amp; omnes 
+      <lb ed="#C" n="79"/>vnum in ea, sicut ipsa vnum de vno: quia igitur  
+      <lb ed="#C" n="80"/>vnum est Verbum Divinum, causa est 
+      om<lb ed="#C" n="81" break="no"/>nium, quae fiunt: est enim operativa 
+      po<lb ed="#C" n="82" break="no"/>tentia omnium creaturarum. Et quia in 
+      se<lb ed="#C" n="83" break="no"/>cundo libro tractatur de creatione rerum 
+      <lb ed="#C" n="84"/>a Deo per suum vnigenitum Verbum per 
+      <lb ed="#C" n="85"/>hoc quod dicitur, cum sit vna omnia potest, in 
+      <lb ed="#C" n="86"/>quadam summa secundi libri materia 
+      de<lb ed="#C" n="87" break="no"/>claratur. Tertij autem materia habetur cum 
+      <lb ed="#C" n="88"/>subiungitur: permanens in se omnia innovat. 
+      <lb ed="#C" n="89"/>Natura autem aliqua in se non manere 
+      du<lb ed="#C" n="90" break="no"/>pliciter dicitur: vel quia per peccatum 
+      de<lb ed="#C" n="91" break="no"/>pravatur, &amp; tunc non manet, sed ruit: 
+      <lb ed="#C" n="92"/>propter quod dicitur de diabolo, loan. 6. 
+      <lb ed="#C" n="93"/>quod in veritate non sterit: &amp; si non stetit in  
+      ivin<lb ed="#C" n="94" break="no"/>ritate, possumus quodam modo diceret 
+      <lb ed="#C" n="95"/>quod non stetit in sui natura; nec in sui 
+      en<lb ed="#C" n="96" break="no"/>titate: quia dispositio cuiuslibet rei in 
+      veri<lb ed="#C" n="97" break="no"/>tate est sua dispositio in entitate, vt dicitur  
+      <lb ed="#C" n="98"/>7. Meta. non quod dicatur in sui natura 
+      <lb ed="#C" n="99"/>non mansisse, quia sibi naturalia non remam 
+      <lb ed="#C" n="100"/>serunt: cum contrarium dicat Dionisius 
+      <lb ed="#C" n="101"/>4. de Div. nominibus; sed quia per 
+      pecca<lb ed="#C" n="102" break="no"/>tum ipsa naturalia inhabilitata ad bonum 
+      <lb ed="#C" n="103"/>gratiae fuerunt. Secundo modo dicitur 
+      ali<lb ed="#C" n="104" break="no"/>quid non manere in sui natura: quia 
+      natu<lb ed="#C" n="105" break="no"/>ra sua alteri commiscetur: &amp; efficitur 
+      ter<lb ed="#C" n="106" break="no"/>tia natura: sicut ex anima, &amp; corpore 
+      resul<lb ed="#C" n="107" break="no"/>tat humanitas. Verbum autem Dei 
+      assu<lb ed="#C" n="108" break="no"/>mens carnem vtroque modo permansit: 
+      <lb ed="#C" n="109"/>primo enim permansit: quia per peccatum 
+      <lb ed="#C" n="110"/>non corruit: quia de ipso scribitur: 1. Pet. 2. 
+      <lb ed="#C" n="111"/>quod peccatum non fecit: nec inventus est dolus in 
+      <lb ed="#C" n="112"/>ore eius. Item secundo permansit, quia ex¬ 
+      <!--41.xml-->
+      <pb ed="#C" n="4"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>natura divina, &amp; humana non fuit aliqua  
+      <lb ed="#C" n="2"/>natura tertia conflata. Vnde &amp; Dam. ait: 
+      <lb ed="#C" n="3"/>quod in Christo lesu non est communem. 
+      <lb ed="#C" n="4"/>speciem accipere. Istud enim Verbum in se 
+      <lb ed="#C" n="5"/>permanens carnem assumendo omnia 
+      in<lb ed="#C" n="6" break="no"/>novavit: quia cum inveteratus esset homo 
+      <lb ed="#C" n="7"/>per peccatum, novus factus est per gratiam, 
+      <lb ed="#C" n="8"/>Vnde &amp; Dam. 3. lib. cap. 1. ait: quod  
+      <lb ed="#C" n="9"/>oportebat naturam nostram innovari, quod 
+      <lb ed="#C" n="10"/>factum fuit per Christum incarnatum. Ipse  
+      <lb ed="#C" n="11"/>enim innovando hominem, innovavit om 
+      <lb ed="#C" n="12"/>nia: quia secundum philosophum homo 
+      <lb ed="#C" n="13"/>est, quodam modo omnia: vt potest habet 
+      <lb ed="#C" n="14"/>ri ex; de anima, &amp; ex 10. Metaph. &amp; sic 
+      <lb ed="#C" n="15"/>per verba pertacta habetur incarnatio 
+      Ver<lb ed="#C" n="16" break="no"/>bi: de quain 3. lib. specialiter intenditur.  
+      <lb ed="#C" n="17"/>Quarti autem materia habetur cum 
+      an<lb ed="#C" n="18" break="no"/>nectitur, &amp; per nationes &amp;c. nam in quarto lib 
+      <lb ed="#C" n="19"/>de Sanctificatione nostra, quae est per 
+      Sa<lb ed="#C" n="20" break="no"/>cramenta; &amp; de Visione Divina, quae erit 
+      <lb ed="#C" n="21"/>spost. resurrectionem: sive defruitione, quae 
+      <lb ed="#C" n="22"/>aest per charitatem determinatur: &amp; ista 
+      sa<lb ed="#C" n="23" break="no"/>spientia increata per nationes, quia sine 
+      <lb ed="#C" n="24"/>acceptatione personarum: quia non per 
+      na<lb ed="#C" n="25" break="no"/>tionem gentilium; ita quod non per 
+      natio<lb ed="#C" n="26" break="no"/>mem iudaeorum: sed per nationes in animas 
+      <lb ed="#C" n="27"/>sanctas se transfert animas sanctificando; 
+      <lb ed="#C" n="28"/>quantum ad primum. Amicos Dei, &amp; Pro¬ 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e892">
+               <lb ed="#C" n="29"/>phetas, hoc est videntes Deum, constituens 
+      <lb ed="#C" n="30"/>quantum ad secundum; nam Propheta 
+      vi<lb ed="#C" n="31" break="no"/>lens dicitur iuxta illud 1. Reg. 9. qui enim 
+      <lb ed="#C" n="32"/>Propheta dicitur hodie, vocabatur olim 
+      vi<lb ed="#C" n="33" break="no"/>dens. Et sic inhis verbis, vt concordemus 
+      <lb ed="#C" n="34"/>vltima primis, in quadam vniversalitate 
+      <lb ed="#C" n="35"/>materia quatuor librorum: sententiarum 
+      <lb ed="#C" n="36"/>per ordinem designatur.  
+      <lb ed="#C" n="37"/>Rursum per haec verba possumus 
+      habe<lb ed="#C" n="38" break="no"/>re causam efficientem formalem, &amp; 
+      finalem<lb ed="#C" n="39" break="no"/>nam causam efficientem habemus; cum 
+      di<lb ed="#C" n="40" break="no"/>citur Candor &amp;c. ipsa enim sapientia increa 
+      <lb ed="#C" n="41"/>a, quae per candorem intelligitur, fuit 
+      cau<lb ed="#C" n="42" break="no"/>sa efficiens principalis huius operis: 
+      instru<lb ed="#C" n="43" break="no"/>mentalis autem fuit Petrus Lombardus 
+      Pa<lb ed="#C" n="44" break="no"/>risiensis Episcopus: Formalis autem est 
+      du<lb ed="#C" n="45" break="no"/>lex, modus agendi, &amp; forma tractatus 
+      <lb ed="#C" n="46"/>Modus agendi designatur cum dicitur cum 
+      <lb ed="#C" n="47"/>sit vna omnia potest: nam cum ista scientia sit 
+      ma<lb ed="#C" n="48" break="no"/>gis vna, &amp; magis simplex, quam aliqua alia 
+      <lb ed="#C" n="49"/>cientia, cum immediatius efluxerit ab ipsa 
+      <lb ed="#C" n="50"/>apientia increata, quae est essentia bonitatis, 
+      <lb ed="#C" n="51"/>&amp; vnitatis: in omnes modos agendi, in 
+      <lb ed="#C" n="52"/>quos possunt aliae scientiae, ista potest: 
+      Vn<lb ed="#C" n="53" break="no"/>dedicitur 2. ad Thim. 3. Omnis enim 
+      Scrip<lb ed="#C" n="54" break="no"/>tura divinitus inspirata utilis est ad docendum, ad 
+      <lb ed="#C" n="55"/>arguendum, ad corripiendum, ad erudiendum: &amp; 
+      <lb ed="#C" n="56"/>etiam, vtilis est ad alios modos, qui hic non 
+      <!--41.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="57"/>tanguntur: licet forte sub aliqua in 
+      distinc<lb ed="#C" n="58" break="no"/>tione innuantur.  
+      <lb ed="#C" n="59"/>Forma tractatus, sive ordinatio 
+      capitu<lb ed="#C" n="60" break="no"/>lorum, sive librorum ad invicem habetur: 
+      <lb ed="#C" n="61"/>cum dicitur permanens in se omnia innovat. Nam 
+      <lb ed="#C" n="62"/>sic ordinatur iste liber, quod primo 
+      deter<lb ed="#C" n="63" break="no"/>minatur de ente permanente, cui non 
+      ac<lb ed="#C" n="64" break="no"/>cidit innovatio, vt de ente divino per 
+      esse<lb ed="#C" n="65" break="no"/>tiam: &amp; postea de ente, cui accidit 
+      innova<lb ed="#C" n="66" break="no"/>tio, vt de ente divino per participationem. 
+      <lb ed="#C" n="67"/>Finalis causa habetur: cum subinfertur &amp; 
+      <lb ed="#C" n="68"/>per nationes &amp;c. nam finis noster est, vt 
+      sanc<lb ed="#C" n="69" break="no"/>tificemur, &amp; sanctificati amici Dei simus, 
+      <lb ed="#C" n="70"/>&amp; amici eius existentes ipsum facie ad 
+      fa<lb ed="#C" n="71" break="no"/>ciem videamus. 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e992">
+               <lb ed="#C" n="72"/>Et quia ista est adeo alta materia, quod 
+      <lb ed="#C" n="73"/>per me sufficere non possum, innitens Dei 
+      <lb ed="#C" n="74"/>auxilio dicam, vt <name xml:id="Gi9qrR-d1e6xx-Nd1e1000" ref="#Augustine">Aug.</name> dicit in fine libri de 
+      <lb ed="#C" n="75"/>Trin. Domine Deus meus vna spes mea 
+      <lb ed="#C" n="76"/>exaudi me ne fatigatus nollim te quaerere, 
+      <lb ed="#C" n="77"/>sed quaeram faciem tuam semper ardenter. 
+      <lb ed="#C" n="78"/>Tu da quaerendi vires, qui inveniri te 
+      fecis<lb ed="#C" n="79" break="no"/>ti, &amp; magis, magisque inveniendi spem 
+      <lb ed="#C" n="80"/>dedisti. Coram: te est firmitas, &amp; 
+      <lb ed="#C" n="81"/>ufirmitas mea, illam serua, istam sana: 
+      <lb ed="#C" n="82"/>coram te est scientia, &amp; ignorantia mea: 
+      <lb ed="#C" n="83"/>vbi mihi aperuisti suscipe intrantem: vbi 
+      <lb ed="#C" n="84"/>clausisti aperi pulsanti: meminerim tui 
+      <lb ed="#C" n="85"/>intelligam te, diligam te, auge in me ista, 
+    </p>
+            <p xml:id="Gi9qrR-d1e6xx-d1e1028">
+               <lb ed="#C" n="86"/>donec me reformes ad integrum, quam 
+      re<lb ed="#C" n="87" break="no"/>formationem operetur in nobis Deus, qui 
+      <lb ed="#C" n="88"/>est benedictus in saecula saeculorum Amen. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

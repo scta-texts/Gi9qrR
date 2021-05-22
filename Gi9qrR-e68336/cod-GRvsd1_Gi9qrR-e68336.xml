@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="254"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e68336"><!-- l1-d13q2 -->
+            <head xml:id="Gi9qrR-e68336-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e68336-d1e111">
+               <lb ed="#C" n="76"/>Quaestio II 
+      <lb ed="#C" n="77"/>De nominatione processionis Spiritus Sancti. 
+    </p>
+            <p xml:id="Gi9qrR-e68336-d1e118">
+               <lb ed="#C" n="78"/>DEINDE quaeritur de processione 
+      <lb ed="#C" n="79"/>Spiritus Sancti: utrum possit di 
+      <lb ed="#C" n="80"/>ci generatio, sive utrum Spiritus 
+      San<lb ed="#C" n="81" break="no"/>ctus debeat dici genitus? Et circa hoc 
+      <lb ed="#C" n="82"/>quaeruntur duo. 1. utrum debeat dici 
+      <lb ed="#C" n="83"/>genitus? 2. dato quod non, utrum 
+      de<lb ed="#C" n="84" break="no"/>beat dici in genitus? 
+    </p>
+            <div xml:id="Gi9qrR-e68336-Dd1e136">
+               <head xml:id="Gi9qrR-e68336-Hd1e138">Articulus 1</head>
+               <p xml:id="Gi9qrR-e68336-d1e141">
+                  <lb ed="#C" n="85"/>ARTICVLVS I. 
+        <lb ed="#C" n="86"/>Vtrum Spiritus Sanctus possit dici genitus?
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e148">
+                  <lb ed="#C" n="87"/>AD primum sic proceditur: 
+        vide<lb ed="#C" n="88" break="no"/>tur, quod Spiritus Sanctus 
+        pos<lb ed="#C" n="89" break="no"/>sit dici genitus: quia secundum <name xml:id="Gi9qrR-e68336-Nd1e156" ref="#Augustine">Aug</name> 
+                  <lb ed="#C" n="90"/>6. de Trinit, cap. 2. Filias est eo ima 
+        <lb ed="#C" n="91"/>go, quo Filius, ergo secundum quod 
+        <lb ed="#C" n="92"/>alicui competit nomen imaginis, 
+        com<lb ed="#C" n="93" break="no"/>petit ei nomen Filij; sed secundum 
+        Da<lb ed="#C" n="94" break="no"/>masc. 1. lib. cap. penult. imago Patris 
+        <lb ed="#C" n="95"/>est Filius, &amp; imago Filij Spiritus 
+        San<lb ed="#C" n="96" break="no"/>ctus, ergo Spiritui Sancto competit 
+        <lb ed="#C" n="97"/>nome: Filij, cum competat ei ratios 
+        <lb ed="#C" n="98"/>imaginis, sed quod dicitur Filius, debet 
+        <lb ed="#C" n="99"/>dici genitum, erno &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e182">
+        Praeterea: 
+        Ce<lb ed="#C" n="100" break="no"/>neratio est motus ad substantiam secundum 
+        <lb ed="#C" n="101"/>Philos. 3. Phys. sed per processionem 
+        <lb ed="#C" n="102"/>suam Spiritus Sanctus accepit substantiam 
+        <lb ed="#C" n="103"/>a Patre, ergo eius processio dici debete 
+        <lb ed="#C" n="104"/>generatio.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e195">
+        Praeterea: non communi¬ 
+        <!--292.xml-->
+        <pb ed="#C" n="255"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>catur natura, nisi per opus naturae; sed  
+        <lb ed="#C" n="2"/>Qeneratio est opus naturae, ut dicit Damasc. 
+        <lb ed="#C" n="3"/>1. lib. cap. 5. ergo Spiritus Sanctus 
+        ge<lb ed="#C" n="4" break="no"/>nerabitur, cui communicatur natura 
+        <lb ed="#C" n="5"/>Divina.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e216">
+        Praeterea: spirans est generas 
+        <lb ed="#C" n="6"/>er go per locum a coniugatis spiratio 
+        <lb ed="#C" n="7"/>est generatio, &amp; spiratus est genitus 
+        <lb ed="#C" n="8"/>cum igitur processio Spiritus Sancti sit 
+        <lb ed="#C" n="9"/>spiratio, &amp; ipse sit spiratus, eius 
+        proces<lb ed="#C" n="10" break="no"/>sio dicetur generatio, &amp; ipse dicetur  
+        <lb ed="#C" n="11"/>genitus. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e232">
+                  <lb ed="#C" n="12"/>In contrarium est <name xml:id="Gi9qrR-e68336-Nd1e236" ref="#Augustine">Aug.</name> ad Orosium, 
+        <lb ed="#C" n="13"/>&amp; 15. de Trin. cap. 26. &amp; 25. qui ait: 
+        <lb ed="#C" n="14"/>piritum Sanctum non debere dici genitum. 
+        <lb ed="#C" n="15"/>Praeterea: secundum unum modum 
+        <lb ed="#C" n="16"/>rocedendi in Divinis non est nisi una  
+        <lb ed="#C" n="17"/>ersona procedens, ut superius est ostemn 
+        <lb ed="#C" n="18"/>sum; sed Filius procedit per viam 
+        ge<lb ed="#C" n="19" break="no"/>nerationis, &amp; dicitur genitus, ergo 
+        Spi<lb ed="#C" n="20" break="no"/>ritus Sanctus non dicetur genitus. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e257">
+                  <lb ed="#C" n="21"/>RESOLVTIO. 
+        <lb ed="#C" n="22"/>Spiritus Sanctus dici genitus non debet. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e264">
+                  <lb ed="#C" n="23"/>REspond. dicendum, quod in 
+        Di<lb ed="#C" n="24" break="no"/>vinis, ut tactum est, non est 
+        di<lb ed="#C" n="25" break="no"/>stinctio nisi per relata, igitur sicut 
+        spe<lb ed="#C" n="26" break="no"/>cies in genere, quae per differentias 
+        <lb ed="#C" n="27"/>distinguuntur, sibi proprias differentias 
+        <lb ed="#C" n="28"/>non communicant: sic Personae 
+        Divi<lb ed="#C" n="29" break="no"/>nae, quae per relationes sunt distinctae, 
+        <lb ed="#C" n="30"/>proprietates relativas sibi retinent, &amp; 
+        <lb ed="#C" n="31"/>secundum tales non est communicatio 
+        <lb ed="#C" n="32"/>ad invicem: cum igitur generatio sit 
+        <lb ed="#C" n="33"/>proprietas relativa Filij: quia eo est 
+        Fi<lb ed="#C" n="34" break="no"/>lius, quo genitus, generatio non 
+        con<lb ed="#C" n="35" break="no"/>veniet Spiritui Sancto: propter quod 
+        <lb ed="#C" n="36"/>Damasc. 1. lib. cap. 2. &amp; 10. dicit: 
+        Per<lb ed="#C" n="37" break="no"/>sonas Divinas distingui per in 
+        genera<lb ed="#C" n="38" break="no"/>tionem, &amp; generationem, &amp; 
+        proces<lb ed="#C" n="39" break="no"/>sionem: non igitur Spiritus Sanctus 
+        di<lb ed="#C" n="40" break="no"/>cetur genitus, sed procedens. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e306">
+                  <lb ed="#C" n="41"/>Causa autem, quare Personae 
+        proce<lb ed="#C" n="42" break="no"/>denti per modum amoris non 
+        compe<lb ed="#C" n="43" break="no"/>tit generatio, sed procedenti per 
+        mo<lb ed="#C" n="44" break="no"/>lum intellectus, quadrupliciter 
+        investi<lb ed="#C" n="45" break="no"/>gari potest. Nam in generatione est 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e319">
+                  <lb ed="#C" n="46"/>quatuor considerare, ut ad praesens 
+        spe<lb ed="#C" n="47" break="no"/>ctat. 1. esse, quod per generationem 
+        <lb ed="#C" n="48"/>acquiritur: nam generatio tanquam  
+        <lb ed="#C" n="49"/>pro termino respicit esse. Secundo: 
+        ge<lb ed="#C" n="50" break="no"/>nerationis modum. 3. generationis 
+        <lb ed="#C" n="51"/>principium. 4. respectum, quem 
+        impor<lb ed="#C" n="52" break="no"/>tat generatio. Secundum quod 
+        genera<lb ed="#C" n="53" break="no"/>tio respicit esse, distinguitur a Phho tri¬ 
+        <!--292.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>plex genitum in lib. Coeli, &amp; Mundi, ut 
+        <lb ed="#C" n="55"/>superius tactum fuit. 1. ut dicatur 
+        ge<lb ed="#C" n="56" break="no"/>nitum, quod per generationem accipit 
+        <lb ed="#C" n="57"/>esse. 2. quod de faciligignitur. 3. 
+        quid<lb ed="#C" n="58" break="no"/>quid habet esse post non esse. Quod 
+        si<lb ed="#C" n="59" break="no"/>nos modos ad ea, quae procedunt a 
+        <lb ed="#C" n="60"/>Deo, transferre volumus, primus &amp; 
+        <lb ed="#C" n="61"/>tertius possunt transferri; secundus 
+        au<lb ed="#C" n="62" break="no"/>tem ibi proprie non habebit locum. 
+        <lb ed="#C" n="63"/>Procedit enim a Deo aliquid per gene 
+        <lb ed="#C" n="64"/>rationem: quia ab eo accipit esse 
+        quan<lb ed="#C" n="65" break="no"/>tum ad primum modum. Et aliquid,  
+        <lb ed="#C" n="66"/>quod habet esse post non esse quantum 
+        <lb ed="#C" n="67"/>ad tertium; sed nihil procedit a Deo 
+        <lb ed="#C" n="68"/>faciliter proprie, secundum quod  
+        <lb ed="#C" n="69"/>faciliter dividitur contra difficultatem. 
+        <lb ed="#C" n="70"/>Non enim est conveniens distinctio, 
+        <lb ed="#C" n="71"/>quod aliqua procedunt a Deo faciliter, 
+        <lb ed="#C" n="72"/>aliqua difficulter, secundum quod vi¬ 
+        <lb ed="#C" n="73"/>demus in his, quae procedunt a 
+        crea<lb ed="#C" n="74" break="no"/>turis, ergo solum a Deo dicetur 
+        geni<lb ed="#C" n="75" break="no"/>tum, vel quod per generationem 
+        acci<lb ed="#C" n="76" break="no"/>pit esse, ut Verbum vel quod habet  
+        <lb ed="#C" n="77"/>esse post non esse ut creatura: velut nos, 
+        <lb ed="#C" n="78"/>qui sumus filij adoptionis: quia est dare 
+        <lb ed="#C" n="79"/>tempus, in quio non eramus filij. 
+        Spi<lb ed="#C" n="80" break="no"/>ritus autem Sanctus, cum nec Verbum 
+        <lb ed="#C" n="81"/>sit nec creatura, non potest dici 
+        geni<lb ed="#C" n="82" break="no"/>tus a Deo, ergo nec ab alio: cum non 
+        <lb ed="#C" n="83"/>respiciat aliud, ut principium, &amp; ideo 
+        <lb ed="#C" n="84"/>nullo modo exit quomodo natus, sed  
+        <lb ed="#C" n="85"/>uomodo datus. Istam rationem 
+        tan<lb ed="#C" n="86" break="no"/>git <name xml:id="Gi9qrR-e68336-Nd1e414" ref="#Augustine">Aug.</name> 5. de Trin. cap. 14. dicens: 
+        <lb ed="#C" n="87"/>Cur non sit Filius etiam Spiritus Sanctus cum 
+        <lb ed="#C" n="88"/>&amp; ipse a Patre exeat sicut in Evangelio 
+        legi<lb ed="#C" n="89" break="no"/>tur? Et respondet quod exit non quomodo 
+        <lb ed="#C" n="90"/>natus; sed quomodo datus, &amp; subdit: Ideo non 
+        <lb ed="#C" n="91"/>dicitur filius: quia neque est natus, sicut 
+        Vnige<lb ed="#C" n="92" break="no"/>ditus, nec factus ut per Dei gratiam in 
+        adop<lb ed="#C" n="93" break="no"/>tionem nasceretur, sicut nos. Perquae duos 
+        <lb ed="#C" n="94"/>modos dictos geniti exclusit a Spiritu 
+        <lb ed="#C" n="95"/>Sancto: &amp; quia non dicitur aliter 
+        ge<lb ed="#C" n="96" break="no"/>nitum aliquid ut a Deo procedit, 
+        Spi<lb ed="#C" n="97" break="no"/>ritus Sanctus sua processione genitus 
+        <lb ed="#C" n="98"/>dici non debet. Secunda via ad 
+        inve<lb ed="#C" n="99" break="no"/>stigandum hoc idem est per 
+        genera<lb ed="#C" n="100" break="no"/>tionis modum. Nam generatio est per 
+        <lb ed="#C" n="101"/>modum naturae; Spiritus Sanctus 
+        pro<lb ed="#C" n="102" break="no"/>cedit per modum voluntatis: &amp; ideo 
+        <lb ed="#C" n="103"/>non debet dici genitus. Et hoc tangit 
+        <lb ed="#C" n="104"/>Aug. 15. de Trin. cap. 20. qui 
+        distin<lb ed="#C" n="105" break="no"/>guens Spiritum Sanctum a Filio, innuit 
+        <lb ed="#C" n="106"/>respectu Filij voluntatem non habere 
+        <lb ed="#C" n="107"/>rationem principij: sed si alicui debet  
+        <lb ed="#C" n="108"/>appropriari voluntas, Spiritui Sancto 
+        <lb ed="#C" n="109"/>appropriatur, ut ait. Ex quo patet Spi¬ 
+        <!--293.xml-->
+        <pb ed="#C" n="256"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ritum Sanctum non esse genitum: quia 
+        <lb ed="#C" n="2"/>procedit per modum voluntatis, 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e480">
+                  <lb ed="#C" n="3"/>Tertia via ad hoc idem sumitur 
+        <lb ed="#C" n="4"/>ex generationis principio: nam, cum 
+        <lb ed="#C" n="5"/>natura sit determinata ad unum, 
+        sem<lb ed="#C" n="6" break="no"/>per id, a quo procedit aliquid per 
+        mo<lb ed="#C" n="7" break="no"/>dum naturae, est unum. Sed unum 
+        du<lb ed="#C" n="8" break="no"/>pliciter dici potest, vel quod 
+        supposi<lb ed="#C" n="9" break="no"/>tum est unum, &amp; sic ignis genitus 
+        pro<lb ed="#C" n="10" break="no"/>cedit ab uno igne generante, vel quod 
+        <lb ed="#C" n="11"/>est unum secundum quemdam ordinem, 
+        <lb ed="#C" n="12"/>&amp; cum non fiat unum secundum 
+        ordi<lb ed="#C" n="13" break="no"/>nem nisi ex potentia &amp; actu, ut tradit 
+        <lb ed="#C" n="14"/>Philos. 8. Metaph. oportet unum 
+        illo<lb ed="#C" n="15" break="no"/>rum habere rationem actus, &amp; aliuo 
+        <lb ed="#C" n="16"/>rationem potentiae &amp; materiae: &amp; sic 
+        <lb ed="#C" n="17"/>procedit filius carnalis a patre &amp; 
+        ma<lb ed="#C" n="18" break="no"/>tre, in cuius productione semen viri 
+        <lb ed="#C" n="19"/>est quasi formale, &amp; mulieris menstruum 
+        <lb ed="#C" n="20"/>ut materia: &amp; ita nunquam aliquid 
+        se<lb ed="#C" n="21" break="no"/>cundum viam generationis procedit a 
+        <lb ed="#C" n="22"/>duobus, nisi unum se habeat ut 
+        passi<lb ed="#C" n="23" break="no"/>vum, &amp; aliud, ut activum. Videmus 
+        <lb ed="#C" n="24"/>enim in Divinis duas processiones, una 
+        <lb ed="#C" n="25"/>ab uno supposito, ut processionem 
+        <lb ed="#C" n="26"/>Filij a Patre, &amp; aliam a duobus, ut 
+        pro<lb ed="#C" n="27" break="no"/>cessionem Spiritus S. ab utroque. Et licet  
+        <lb ed="#C" n="28"/>processio Filij debeat dici generatio,  
+        <lb ed="#C" n="29"/>quia unus ab uno: processio Spiritus 
+        <lb ed="#C" n="30"/>Sancti a Patre &amp; Filio non meretur? 
+        <lb ed="#C" n="31"/>tale nomen, cum unus ipsorum non 
+        se<lb ed="#C" n="32" break="no"/>habeat ut quid activum &amp; formale, &amp; 
+        <lb ed="#C" n="33"/>aliud ut passivum &amp; materiale. Et istam 
+        <lb ed="#C" n="34"/>rationem tangit <name xml:id="Gi9qrR-e68336-Nd1e551" ref="#Augustine">Aug.</name> 15. de Trin. cap. 
+        <lb ed="#C" n="35"/>26. &amp; 27. dicens: Cur non dicatur natus 
+        <lb ed="#C" n="36"/>esse, sed potius procedere Spiritus Sanctus; 
+        <lb ed="#C" n="37"/>quoniam si &amp; ipse Filius diceretur, amborum 
+        <lb ed="#C" n="38"/>utique filius diceretur, quod absurdissimum est 
+        <lb ed="#C" n="39"/>Filius quippe nullus est duorum, nisi patris, &amp; 
+        <lb ed="#C" n="40"/>matris. Absit autem ut inter Deum Patrem, &amp; 
+        <lb ed="#C" n="41"/>Deum Filium tale aliquid suscipemur. Quod, 
+        <lb ed="#C" n="42"/>scilicet, unum se habeat ut materiale 
+        <lb ed="#C" n="43"/>&amp; passivum, &amp; aliud ut formale &amp; 
+        ac<lb ed="#C" n="44" break="no"/>tivum. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e577">
+                  <lb ed="#C" n="45"/>quarta via haberi potest ex 
+        respe<lb ed="#C" n="46" break="no"/>ctu, que genitum ex generatione 
+        con<lb ed="#C" n="47" break="no"/>i sequitur: nam cum Filius de se proce¬ 
+        <lb ed="#C" n="48"/>dat ut quid subsistens, de se non habet  
+        <lb ed="#C" n="49"/>quod referatur nisi ad unum, ut ad 
+        <lb ed="#C" n="50"/>genitorem. Sed amor, &amp; donum cum 
+        <lb ed="#C" n="51"/>de se tendant in aliud, competit eis 
+        du<lb ed="#C" n="52" break="no"/>plex respectus, &amp; ad illum, a quo 
+        pro<lb ed="#C" n="53" break="no"/>cedit, &amp; ad illud in quod: &amp; quia 
+        Spi<lb ed="#C" n="54" break="no"/>ritui Sancto competit duplex respectus, 
+        <lb ed="#C" n="55"/>cum procedat ut donum, &amp; respectus 
+        <lb ed="#C" n="56"/>dantis, &amp; respectus eius, cui sit datio:  
+        <!--293.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ex ipso respectu arguere possumus, quod  
+        <lb ed="#C" n="58"/>non procedat ut genitus. Et istam via 
+        <lb ed="#C" n="59"/>tangit <name xml:id="Gi9qrR-e68336-Nd1e616" ref="#Augustine">Aug.</name> 5. de Trinit, cap. 14. qui  
+        <lb ed="#C" n="60"/>ostendens Spiritum Sanctum non esse 
+        <lb ed="#C" n="61"/>natum sive genitum ait: Quod enim de 
+        <lb ed="#C" n="62"/>Patre natum est ad Patrem solum refertur, cum  
+        <lb ed="#C" n="63"/>dicitur Filius, &amp; ideo Patris Filius, &amp; non 
+        <lb ed="#C" n="64"/>noster: quod autem datum est, &amp; ad cum qui  
+        <lb ed="#C" n="65"/>dedit refertur, &amp; ad eos, quibus dedit; itaque 
+        <lb ed="#C" n="66"/>Spiritus Sanctus non tantum dicitur Patris &amp; 
+        <lb ed="#C" n="67"/>Filij, qui dederunt, sed etiam noster dicitur,  
+        <lb ed="#C" n="68"/>qui accepimus. Patet igitur quod ex ipso 
+        <lb ed="#C" n="69"/>respectu, qui geminatur in Spiritu 
+        Sa<lb ed="#C" n="70" break="no"/>cto, &amp; non geminatur in genito,  
+        <lb ed="#C" n="71"/>Spiritus Sanctus nomen geniti non 
+        <lb ed="#C" n="72"/>meretur, quod ostendere volebamus; 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e648">
+                  <lb ed="#C" n="73"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="74" break="no"/>cendum, quod imago potest sumi 
+        du<lb ed="#C" n="75" break="no"/>pliciter, large, &amp; stricte; proprie 
+        sumen<lb ed="#C" n="76" break="no"/>do imaginem, imago competit soli 
+        Fi<lb ed="#C" n="77" break="no"/>lio, &amp; sic accipit <name xml:id="Gi9qrR-e68336-Nd1e661" ref="#Augustine">Aug.</name> cum dicit, quod 
+        <lb ed="#C" n="78"/>Filius est eo filius, quo imago: large 
+        <lb ed="#C" n="79"/>autem sumendo nomen imaginis 
+        com<lb ed="#C" n="80" break="no"/>petit Spiritui Sancto, &amp; sic accipit 
+        Da<lb ed="#C" n="81" break="no"/>masc. cum dicit, quod Spiritus Sanctus 
+        <lb ed="#C" n="82"/>est imago Filij, haec tamen infra 
+        pate<lb ed="#C" n="83" break="no"/>bunt magis.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e678">
+        Ad 2. dicendum, quod 
+        Fi<lb ed="#C" n="84" break="no"/>lius ex suo modo procedendi habet,  
+        <lb ed="#C" n="85"/>quod communicetur sibi natura Patris: 
+        <lb ed="#C" n="86"/>amor autem, sive Spiritus Sanctus ex 
+        <lb ed="#C" n="87"/>suo modo procedendi non habet, quod 
+        <lb ed="#C" n="88"/>ei communicetur natura volentis; sed 
+        <lb ed="#C" n="89"/>ratione, qua est amor Divinus: quia in 
+        <lb ed="#C" n="90"/>Deo est idem velle quod esse, &amp; natura 
+        <lb ed="#C" n="91"/>quod voluntas: non igitur sufficit ad 
+        <lb ed="#C" n="92"/>hoc, quod aliquid dicatur genitum 
+        <lb ed="#C" n="93"/>quod ei communicetur natura, vel 
+        sub<lb ed="#C" n="94" break="no"/>stantia; sed quod hoc sit ex suo modo 
+        <lb ed="#C" n="95"/>procedendi, quod Spiritui Sancto non 
+        <lb ed="#C" n="96"/>competit.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e709">
+        Ad 3. dicendum, quod ubi 
+        <lb ed="#C" n="97"/>differt natura a voluntate &amp; ab alij 
+        <lb ed="#C" n="98"/>absolutis, haberet forte veritatem, 
+        <lb ed="#C" n="99"/>quod non communicatur natura, nis 
+        <lb ed="#C" n="100"/>per modum naturae, vel per opus 
+        natu<lb ed="#C" n="101" break="no"/>rae, &amp; dico forte: quia nec hoc est 
+        ple<lb ed="#C" n="102" break="no"/>ne verum. In Deo autem ubi est idem 
+        <lb ed="#C" n="103"/>natura quod voluntas: quod procedit 
+        <lb ed="#C" n="104"/>per modum voluntatis, ei 
+        communi<lb ed="#C" n="105" break="no"/>cabitur natura, ut ei communicatur 
+        vo<lb ed="#C" n="106" break="no"/>luntas.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e733">
+        Ad 4. dicendum: quod ille 
+        mo<lb ed="#C" n="107" break="no"/>dus arguendi non valet, nisi in his, quae 
+        <lb ed="#C" n="108"/>sunt per se: quia non valet, album 
+        <lb ed="#C" n="109"/>est musicum, ergo albedo est musica: 
+        <lb ed="#C" n="110"/>quia est aliquod album, quod non est 
+        <lb ed="#C" n="111"/>musicum; ita spiratio est generatio,  
+        <lb ed="#C" n="112"/>non valet si spirans est generans, quia 
+        <!--294.xml-->
+        <pb ed="#C" n="257"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>est aliquod spirans, quod non est 
+        gene<lb ed="#C" n="2" break="no"/>rans, ut Filius. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e68336-Dd1e760">
+               <head xml:id="Gi9qrR-e68336-Hd1e762">Articulus 2</head>
+               <p xml:id="Gi9qrR-e68336-d1e765">
+                  <lb ed="#C" n="3"/>ARTICVLUS II. 
+        <lb ed="#C" n="4"/>Vtrum Spiritus Sanctus possit dici in genitus? 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e772">
+                  <lb ed="#C" n="5"/>SEcundo quaeritur: utrum Spiritus 
+        <lb ed="#C" n="6"/>SSanctus possit dici ingenitus? Et  
+        <lb ed="#C" n="7"/>videtur quod sic: perHierony. in littera, 
+        <lb ed="#C" n="8"/>qui concedit Spiritum Sanctum esse 
+        <lb ed="#C" n="9"/>ingenitum.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e785">
+        Praeterea:: genitum &amp; 
+        in<lb ed="#C" n="10" break="no"/>genitum sunt immediate opposita, sed 
+        <lb ed="#C" n="11"/>si unum immediatorum removetur, 
+        <lb ed="#C" n="12"/>aliud ponitur, ergo si Spiritus Sanctus 
+        <lb ed="#C" n="13"/>non est genitus, est in genitus.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e796">
+        Praeterea: 
+        <lb ed="#C" n="14"/>secundum Philosophum 2. Priorum, &amp; 1. 
+        Cae<lb ed="#C" n="15" break="no"/>li, &amp; Mundi: Cenitum: &amp; ingenitum 
+        di<lb ed="#C" n="16" break="no"/>cuntur de quolibet, ergo Spiritus Sanctus 
+        <lb ed="#C" n="17"/>vel est genitus, vel in genitus, sed nor 
+        <lb ed="#C" n="18"/>est genitus, ergo est in genitus. 
+        Praete<lb ed="#C" n="19" break="no"/>rea: rcum constantia subiecti ad 
+        inega<lb ed="#C" n="20" break="no"/>tivam de praedicato, sequitur 
+        affirmati<lb ed="#C" n="21" break="no"/>va de praedicato infinito, vel finito de 
+        <lb ed="#C" n="22"/>praedicato privato, ergo ad istam, non 
+        <lb ed="#C" n="23"/>est genitum, sequitur ista, est in genitum, 
+        <lb ed="#C" n="24"/>cum constantia subiecti. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e823">
+                  <lb ed="#C" n="25"/>In contrarium est: quia secundum 
+        <lb ed="#C" n="26"/>Damasc. Pater differt ab alijs per 
+        inge<lb ed="#C" n="27" break="no"/>nerationem, non ergo Spiritui Sancto 
+        <lb ed="#C" n="28"/>competit esse ingenitum.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e834">
+        Praeterea: 
+        Au<lb ed="#C" n="29" break="no"/>gust, ad Orosium &amp; 15. de Trin. cap. 26. 
+        <lb ed="#C" n="30"/>&amp; 27. dicit Spiritum Sanctum non esse 
+        inge<lb ed="#C" n="31" break="no"/>nitum. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e843">
+                  <lb ed="#C" n="32"/>RESOLVTIO. 
+        <lb ed="#C" n="33"/>Spiritus Sanctus non debet dici ingenitus 
+        pro<lb ed="#C" n="34" break="no"/>prie loquendo, nisi lato modo prout non habet 
+        <lb ed="#C" n="35"/>in se generationem passivam, vel  
+        <lb ed="#C" n="36"/>prout non est a non haben¬ 
+        <lb ed="#C" n="37"/>te, talem proprie¬ 
+        <lb ed="#C" n="38"/>tatem. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e861">
+                  <lb ed="#C" n="39"/>REspond. dicendum, quod secundum 
+        <lb ed="#C" n="40"/>dicta Sanctorum oportet nos 
+        te<lb ed="#C" n="41" break="no"/>nere Spiritum Sanctum non esse in 
+        geni<lb ed="#C" n="42" break="no"/>tum, sed solum Patrem. Vnde Damasc. 
+        <lb ed="#C" n="43"/>1. lib. cap. 9. ait  Solus Pater est 
+        <lb ed="#C" n="44"/>ingenitus, solus Filius genitus, solus Spiritus 
+        <lb ed="#C" n="45"/>Sanctus procedens. Hoc etiam vult <name xml:id="Gi9qrR-e68336-Nd1e878" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="46"/>in quaestionibus ad Orosium, &amp; 15. de 
+        <lb ed="#C" n="47"/>Trinit, ut in arguendo dicebatur. Sed 
+        <lb ed="#C" n="48"/>quomodo hoc habeat veritatem, quod 
+        <lb ed="#C" n="49"/>Spiritus Sanctus non dicatur in genitus, 
+        <!--294.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="50"/>cum non possit dici genitus, triplici via 
+        <lb ed="#C" n="51"/>investigari potest. 1. propter 
+        proprieta<lb ed="#C" n="52" break="no"/>tem relativam. 2. propter remotionem 
+        <lb ed="#C" n="53"/>erroris. 3. propter efficaciam 
+        negatio<lb ed="#C" n="54" break="no"/>nis. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e906">
+                  <lb ed="#C" n="55"/>Propter primum notandum 
+        secun<lb ed="#C" n="56" break="no"/>dum <name xml:id="Gi9qrR-e68336-Nd1e912" ref="#Augustine">Aug.</name> 5. de Trin. capit. 7. in geni 
+        <lb ed="#C" n="57"/>tum esse in eodem genere, in quo est 
+        ge<lb ed="#C" n="58" break="no"/>nitum: quia negatio &amp; affirmatio, 
+        se<lb ed="#C" n="59" break="no"/>cundum quod ipse ostedit ibidem, sunt, 
+        <lb ed="#C" n="60"/>in eodem genere, quod satis est 
+        ra<lb ed="#C" n="61" break="no"/>tionale: quia quidquid collocatur in 
+        <lb ed="#C" n="62"/>genere est ibi secudum rationem 
+        quid<lb ed="#C" n="63" break="no"/>nitatis, ratio quidditatis negationis, ut  
+        <lb ed="#C" n="64"/>negationi competiti quidditas, ex 
+        affir<lb ed="#C" n="65" break="no"/>matione sumitur: unde circa finem 2. 
+        <lb ed="#C" n="66"/>Eleneh.scribitur: Semper in non 
+        <lb ed="#C" n="67"/>facere intelligitur facere &amp; omnino in 
+        nega<lb ed="#C" n="68" break="no"/>tione dictio: &amp; quia semper secundum 
+        <lb ed="#C" n="69"/>apprehensionem animae affirmatio est 
+        <lb ed="#C" n="70"/>in negatione, semper negatio infert 
+        <lb ed="#C" n="71"/>aliquam affirmationem: potissime an 
+        <lb ed="#C" n="72"/>tem si sit negatio in subiecto, 
+        cuiusmo<lb ed="#C" n="73" break="no"/>di est negatio significata per modum 
+        <lb ed="#C" n="74"/>privationis, quae non solum secundum 
+        <lb ed="#C" n="75"/>modum intelligendi, sed etiam secun 
+        <lb ed="#C" n="76"/>dum rei veritatem infert oppositam 
+        for<lb ed="#C" n="77" break="no"/>mam, ut iniustum non dicitur proprie, 
+        <lb ed="#C" n="78"/>nisi quod habet formam oppositam 
+        iu<lb ed="#C" n="79" break="no"/>stitiae: propter quod in genitum non 
+        di<lb ed="#C" n="80" break="no"/>citur proprie nisi quod habet 
+        relatio<lb ed="#C" n="81" break="no"/>nem oppositam generationi, vel 
+        filia<lb ed="#C" n="82" break="no"/>tioni. 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e972">
+                  <lb ed="#C" n="83"/>Hoc viso satis apparet, quod 
+        Spi<lb ed="#C" n="84" break="no"/>ritus Sanctus non debet dici genitus: nam 
+        <lb ed="#C" n="85"/>ut ostensum est supra, soli Personae 
+        <lb ed="#C" n="86"/>procedenti communicatur respectus 
+        <lb ed="#C" n="87"/>oppositus secundum illum modum 
+        <lb ed="#C" n="88"/>procedendi: igitur cum Filius 
+        proce<lb ed="#C" n="89" break="no"/>dat per viam generationis, in solo Filio 
+        <lb ed="#C" n="90"/>secundum istum modum procedendi 
+        <lb ed="#C" n="91"/>habebit esse natura secundum respectum 
+        <lb ed="#C" n="92"/>oppositum respectui, secundum quem 
+        <lb ed="#C" n="93"/>habet esse in Patre. Propter quod solus 
+        <lb ed="#C" n="94"/>Filius dicitur genitus, &amp; qua ratione 
+        <lb ed="#C" n="95"/>secundum viam generationis in 
+        sole<lb ed="#C" n="96" break="no"/>Filio habet esse natura secundum 
+        respe<lb ed="#C" n="97" break="no"/>ctum oppositum ei, qui est in Patre: 
+        <lb ed="#C" n="98"/>quia solus dicitur genitus, in solo 
+        Pa<lb ed="#C" n="99" break="no"/>tre habebit esse secundum respectum 
+        <lb ed="#C" n="100"/>oppositum ei, qui est in Filio, ut solus 
+        <lb ed="#C" n="101"/>Pater dicatur in genitus. Secunda via est 
+        <lb ed="#C" n="102"/>ad removendum errorem. Nam: quia 
+        <lb ed="#C" n="103"/>antiquitus Sancti Patres disputantes cum 
+        <lb ed="#C" n="104"/>haereticis nomine in geniti intelligebant 
+        <lb ed="#C" n="105"/>Patrem; non tantum ratione scriptu¬ 
+        <!--295.xml-->
+        <pb ed="#C" n="258"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>rarum, quantum consuetudine 
+        dispu<lb ed="#C" n="2" break="no"/>tandi, solus Pater est in genitus. Tertia 
+        <lb ed="#C" n="3"/>via ad hoc idem est ex efficacia 
+        nega<lb ed="#C" n="4" break="no"/>tionis: nam secundum regulam 
+        logi<lb ed="#C" n="5" break="no"/>corum Plus negat negatio, quam ponat 
+        affur<lb ed="#C" n="6" break="no"/>matio: ideo licet Spiritus Sanctus non 
+        <lb ed="#C" n="7"/>dicatur genitus: quia per generationem 
+        <lb ed="#C" n="8"/>non habet esse ut Filius, nec habet esse 
+        u<lb ed="#C" n="9" break="no"/>post non esse, ut nos; non tamen 
+        con<lb ed="#C" n="10" break="no"/>ceditur, quod sit ingenitus: ne non 
+        <lb ed="#C" n="11"/>solum negetur ab eo esse post non esse, 
+        <lb ed="#C" n="12"/>vel esse per generationem 
+        communica<lb ed="#C" n="13" break="no"/>tum, sed etiam esse qualitercumque 
+        <lb ed="#C" n="14"/>ab alio acceptum. istas tres causas 
+        tan<lb ed="#C" n="15" break="no"/>igit <name xml:id="Gi9qrR-e68336-Nd1e1062" ref="#Augustine">Aug.</name> 15. de Trinit, cap. 26. cuius 
+        <lb ed="#C" n="16"/>auctoritas habetur in littera dicens: Ideo  
+        <lb ed="#C" n="17"/>enim cum Spiritum Sanctum genitum non 
+        dica<lb ed="#C" n="18" break="no"/>mus, dicere tamen non audemus ingenitum, 
+        <lb ed="#C" n="19"/>ne in hoc vocabulo duos Patres in illa 
+        Trinita<lb ed="#C" n="20" break="no"/>te intelligamus. Et hoc quantum ad 
+        pri<lb ed="#C" n="21" break="no"/>mam causam sumptam de proprietate 
+        <lb ed="#C" n="22"/>prelativa: nam cum paternitas sit ille 
+        <lb ed="#C" n="23"/>respectus oppositus generationi, vel  
+        <lb ed="#C" n="24"/>filiationi, non conceditur Spiritus 
+        inge<lb ed="#C" n="25" break="no"/>nitus, ne credatur esse Pater. Et subdit: 
+        <lb ed="#C" n="26"/>Vel duos, qui non sint de aliquo, quispiam 
+        suspi<lb ed="#C" n="27" break="no"/>cetur. Et hoc propter efficaciam 
+        nega<lb ed="#C" n="28" break="no"/>tionis: quia per in genitum forte aliquis 
+        <lb ed="#C" n="29"/>intelligeret, quod ab alio non 
+        accepis<lb ed="#C" n="30" break="no"/>set aliquomodo esse. Et addit: Pater 
+        <lb ed="#C" n="31"/>enim solus non est de alio, ideo solus appellatur 
+        <lb ed="#C" n="32"/>ingenitus, non quidem in scripturis, sed in con¬ 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1104">
+                  <lb ed="#C" n="33"/>suatudine disputantium. Et hoc quantum 
+        <lb ed="#C" n="34"/>ad erroris remotionem 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1111">
+                  <lb ed="#C" n="35"/>Dicamus ergo Spiritum Sanctum 
+        <lb ed="#C" n="36"/>sproprie loquendo) non dici ingenitum 
+        <lb ed="#C" n="37"/>Vt tamem appareat, utrum aliquo modo 
+        <lb ed="#C" n="38"/>possit dici in genitus? Notandum, quod  
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1122">
+                  <lb ed="#C" n="39"/>uantum ad praesens, in genitum 
+        dici<lb ed="#C" n="40" break="no"/>tur tripliciter, sicut imustum. 1. quod  
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1129">
+                  <lb ed="#C" n="41"/>non habet in se virtutem iustitiae, &amp; sic 
+        <lb ed="#C" n="42"/>accipitur iniustum valde communiter; 
+        <lb ed="#C" n="43"/>nam secundum istum modum lapis 
+        pos<lb ed="#C" n="44" break="no"/>set dici iniustus. 2. quod nec est 
+        subie<lb ed="#C" n="45" break="no"/>ctum virtutis iustitiae, nec est ab 
+        haben<lb ed="#C" n="46" break="no"/>te huiusmodi virtutem, &amp; sic opus 
+        ini<lb ed="#C" n="47" break="no"/>quum dicitur iniustum: quia non est 
+        <lb ed="#C" n="48"/>subiectum virtutis, cum non habeat  
+        <lb ed="#C" n="49"/>animam, nec est ab habente iustitiam; 
+        <lb ed="#C" n="50"/>sed magis a habente oppositum: &amp; iste 
+        <lb ed="#C" n="51"/>modus si non est omnino proprius, est 
+        <lb ed="#C" n="52"/>tamen usitatus in tali materia. Tertio 
+        <lb ed="#C" n="53"/>quod habet in se qualitatem oppositam 
+        <lb ed="#C" n="54"/>iustitiae, &amp; sic iniustum sumitur 
+        simpli<lb ed="#C" n="55" break="no"/>citer proprie. Ita ingenitum tripliciter  
+        <lb ed="#C" n="56"/>dici posset. 1. quod non habet in se ge¬ 
+        <!--295.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>nerationem passive sumptam sive filia 
+        <lb ed="#C" n="58"/>tionem, per quam quis dicitur geni 
+        <lb ed="#C" n="59"/>tus sive filius, &amp; sic in genitum est va 
+        <lb ed="#C" n="60"/>de communiter sumptum. 2. quod nec 
+        <lb ed="#C" n="61"/>habet in se huiusmodi proprietatem 
+        <lb ed="#C" n="62"/>relativam, ut generationem passivam, 
+        <lb ed="#C" n="63"/>vel filiationem; sed etiam non est a 
+        ha<lb ed="#C" n="64" break="no"/>bente talem proprietatem, &amp; sic in 
+        ge<lb ed="#C" n="65" break="no"/>nitum, &amp; si non sumitur omnino 
+        pro<lb ed="#C" n="66" break="no"/>prie; tamen concedi potest magis 
+        pro<lb ed="#C" n="67" break="no"/>prie esse in genitum, quod sic habet  
+        <lb ed="#C" n="68"/>esse, quam quod est in genitum 1. 
+        mo<lb ed="#C" n="69" break="no"/>do. Tertio modo dicitur in genitum 
+        <lb ed="#C" n="70"/>per omnem modum proprie, ut quod 
+        <lb ed="#C" n="71"/>non solum non habet in se 
+        generatio<lb ed="#C" n="72" break="no"/>nem passive, vel filiationem, &amp; non 
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1205">
+                  <lb ed="#C" n="73"/>est a habente talem proprietatem; sed  
+        <lb ed="#C" n="74"/>etiam in se habet proprietatem 
+        opposi<lb ed="#C" n="75" break="no"/>tam, ut paternitatem, vel 
+        generatio<lb ed="#C" n="76" break="no"/>nem: active sumptam. Primo modo 
+        di<lb ed="#C" n="77" break="no"/>citur in genitus Spiritus Sanctus: quia 
+        <lb ed="#C" n="78"/>solum non habet in se filiationem, vel  
+        <lb ed="#C" n="79"/>generationem passive, est tamen a 
+        ha<lb ed="#C" n="80" break="no"/>bente huiusmodi proprietatem, ut a 
+        Fi<lb ed="#C" n="81" break="no"/>sio, &amp; non habet in se paternitatem ei 
+        <lb ed="#C" n="82"/>oppositam, vel generationem: active. 
+        <lb ed="#C" n="83"/>Secundo modo dicitur quid in genitum 
+        <lb ed="#C" n="84"/>Divina essentia: quia necfiliatione 
+        re<lb ed="#C" n="85" break="no"/>ertur, nec a filio est; tamen non est ibi 
+        <lb ed="#C" n="86"/>ertium: quia non est pater adiective, 
+        <lb ed="#C" n="87"/>nec generat. Tertio modo 
+        Pateringe<lb ed="#C" n="88" break="no"/>nitus dicitur: quia nec in se filiationem 
+        <lb ed="#C" n="89"/>habet, nec a Filio producitur, &amp; habet  
+        <lb ed="#C" n="90"/>in se paternitatem filiationi oppositam. 
+        <lb ed="#C" n="91"/>Ex quo apparet, quod cum in genitum 
+        <lb ed="#C" n="92"/>per omnem modum proprie sumptum, 
+        <lb ed="#C" n="93"/>tria includat; Spiritus Sanctus habet unum 
+        <lb ed="#C" n="94"/>llorum trium: Divina essentia duo: 
+        <lb ed="#C" n="95"/>Pater omnia tria: &amp; ideo Spiritus 
+        San<lb ed="#C" n="96" break="no"/>ctus valde large dicitur in genitus, 
+        Divi<lb ed="#C" n="97" break="no"/>na essentia magis proprie dici potest 
+        in<lb ed="#C" n="98" break="no"/>genita, Pater per omnem modum 
+        pro<lb ed="#C" n="99" break="no"/>prie in genitus dici debet.  
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1266">
+                  <lb ed="#C" n="100"/>R esp. ad arg. Ad primum dicendum, 
+        <lb ed="#C" n="101"/>quod ingenitum ibi, ut Mag. exponit, 
+        <lb ed="#C" n="102"/>idem sonat, quod non genitum, &amp; hoc  
+        <lb ed="#C" n="103"/>modo in genitus dici potest; ut patuit.  
+        <lb ed="#C" n="104"/>Ad 2. dicendum, quod genitum, &amp; 
+        in<lb ed="#C" n="105" break="no"/>genitum sunt immediate opposita, 
+        pro<lb ed="#C" n="106" break="no"/>it in genitum idem sonat quod non 
+        ge<lb ed="#C" n="107" break="no"/>nitum. Vel dicere possumus, quod si 
+        <lb ed="#C" n="108"/>non habent medium praedicabile, 
+        ha<lb ed="#C" n="109" break="no"/>bent medium subijcibile, sicut lapis, nec 
+        <lb ed="#C" n="110"/>dicitur iustus, nec iniustus, ita Spiritus 
+        <lb ed="#C" n="111"/>Sanctus, nec dicitur genitus, nec 
+        inge<lb ed="#C" n="112" break="no"/>nitus.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1298">
+        Ad 3. dicendum, quod Philosophus cre¬ 
+        <!--296.xml-->
+        <pb ed="#C" n="259"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>didit, quod quidquid acciperet ab alio 
+        <lb ed="#C" n="2"/>esse, haberet esse post non esse, &amp; 
+        ex<lb ed="#C" n="3" break="no"/>lioc posset dici genitum: &amp; ideo sicut 
+        <lb ed="#C" n="4"/>quidquid est, vel habet esse ab alio, vel  
+        <lb ed="#C" n="5"/>non habet esse ab alio; ita omne quod 
+        <lb ed="#C" n="6"/>est, vel est genitum, vel in genitum, 
+        <lb ed="#C" n="7"/>sed hoc non est verum, ut potest pate 
+        <lb ed="#C" n="8"/>re per dicta: quia Spiritus Sanctus 
+        ha<lb ed="#C" n="9" break="no"/>bet ab alio esse, &amp; ideo non potest dici 
+        <lb ed="#C" n="10"/>ingenitus, &amp; tamen non habet esse post 
+        <lb ed="#C" n="11"/>non esse, vel esse per generationem, ut  
+        <lb ed="#C" n="12"/>possit dici genitus. Vel dicendum, quod  
+        <lb ed="#C" n="13"/>genitum, &amp; in genitum dicuntur de 
+        <lb ed="#C" n="14"/>quolibet, si in genitum accipitur pro non 
+        <lb ed="#C" n="15"/>genito.
+      </p>
+               <p xml:id="Gi9qrR-e68336-d1e1340">
+        Ad 4. dicendum, quod 
+        affir<lb ed="#C" n="16" break="no"/>mativa de praedicato privato, &amp; 
+        affir<lb ed="#C" n="17" break="no"/>mativa de praedicato infinito, &amp; 
+        nega<lb ed="#C" n="18" break="no"/>tiva de praedicato finito se consequuntur 
+        <lb ed="#C" n="19"/>inconvertibiliter: nam si est inaequale, 
+        <lb ed="#C" n="20"/>est non aequale, sed non convertitur: 
+        <lb ed="#C" n="21"/>&amp; si est non aequale, non est aequale, sed  
+        <lb ed="#C" n="22"/>non convertitur; sed si converti debet,  
+        <lb ed="#C" n="23"/>hoc erit aliqua hypothesi facta, unde si 
+        po<lb ed="#C" n="24" break="no"/>nitur ibi constantia subiecti, negativa de 
+        <lb ed="#C" n="25"/>praedicato finito, &amp; affirmativa de 
+        infi<lb ed="#C" n="26" break="no"/>nito convertuntur. Nam quidquid non 
+        <lb ed="#C" n="27"/>est aequale, &amp; est aliquid, est non 
+        aequa<lb ed="#C" n="28" break="no"/>le; sed cum praedicato privato haec non 
+        <lb ed="#C" n="29"/>convertuntur, supposita sola constantia 
+        <lb ed="#C" n="30"/>subiecti, unde non valet: hoc est 
+        ali<lb ed="#C" n="31" break="no"/>quid, &amp; non est iustum, vel est non 
+        iu<lb ed="#C" n="32" break="no"/>stum, ergo est iniustum: quia de lapide 
+        <lb ed="#C" n="33"/>verum est dicere quod non sit iustus, &amp; 
+        <lb ed="#C" n="34"/>quod sit non iustus; sed non quod sit 
+        <lb ed="#C" n="35"/>iniustus: tamen si simul cum 
+        constan<lb ed="#C" n="36" break="no"/>tia subiecti supponatur aptitudo ad 
+        for<lb ed="#C" n="37" break="no"/>mam secundum conditiones debitas, 
+        <lb ed="#C" n="38"/>sic affirmativa de praedicato privato cum 
+        <lb ed="#C" n="39"/>alijs convertitur. Et dico secundum con¬ 
+        <!--296.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="40"/>ditiones debitas: quia vir cremita 
+        si<lb ed="#C" n="41" break="no"/>cet largo modo possit habere civilem 
+        <lb ed="#C" n="42"/>iustitiam, tamen quia non proprie est. 
+        <lb ed="#C" n="43"/>aptus ad illam, licet sit aliquid, &amp; non 
+        <lb ed="#C" n="44"/>sit iustus, &amp; sit non iustus; non tamen 
+        <lb ed="#C" n="45"/>est iniustus: quia Neque bonus, neque malus 
+        <lb ed="#C" n="46"/>secundum Comm. 10. Metaph. sed de 
+        <lb ed="#C" n="47"/>eo quod est aliquid, &amp; aptum natum 
+        <lb ed="#C" n="48"/>est esse iustum, &amp; quando &amp; 
+        quomo<lb ed="#C" n="49" break="no"/>do, si non est iustum vel est non iustum, 
+        <lb ed="#C" n="50"/>est iniustum: &amp; quia Spiritui Sancto non 
+        <lb ed="#C" n="51"/>competit generatio, non valet si non est 
+        <lb ed="#C" n="52"/>genitus, vel est non genitus, quod sit 
+        in<lb ed="#C" n="53" break="no"/>genitus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

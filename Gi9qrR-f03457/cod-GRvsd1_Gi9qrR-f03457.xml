@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="386"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f03457"><!-- l1-d19expolit -->
+            <head xml:id="Gi9qrR-f03457-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f03457-d1e111">
+               <lb ed="#C" n="27"/>ExPOSITIO LITTERAE. 
+    </p>
+            <p xml:id="Gi9qrR-f03457-d1e116">
+               <lb ed="#C" n="28"/>SVPER litteram, super illo: confi¬ 
+      <lb ed="#C" n="29"/>temur &amp;c. Quia dicit omnem 
+      na<lb ed="#C" n="30" break="no"/>turam Deitatis esse in singula suarum, 
+      <lb ed="#C" n="31"/>nypostaseon. Contra: secundum Philosophu 
+      <lb ed="#C" n="32"/>in 1. Caeli &amp; Mundi: Iste terminus, omne, 
+      <lb ed="#C" n="33"/>dicitur de tribus, &amp; non paucioribus, &amp; inde 
+      <lb ed="#C" n="34"/>sumptum est, quod omne requirit tria 
+      <lb ed="#C" n="35"/>appellata. Si ergo naturae Divinae 
+      ad<lb ed="#C" n="36" break="no"/>ditur omnis, oportet eam plurificari 
+      <lb ed="#C" n="37"/>secundum numerum ternarium, quod  
+      <lb ed="#C" n="38"/>est inconveniens. Dicendum, quod  
+      <lb ed="#C" n="39"/>ibi, omne, idem sonat, quod perfectum¬ 
+    </p>
+            <p xml:id="Gi9qrR-f03457-d1e145">
+               <lb ed="#C" n="40"/>item super illud: Vnde etiam 
+      Hila<lb ed="#C" n="41" break="no"/>rius. Notandum, quod hic 
+      introducun<lb ed="#C" n="42" break="no"/>tur duae auctoritates Hilarij, in quarum 
+      <lb ed="#C" n="43"/>prima quinque designantur. Primo, 
+      <lb ed="#C" n="44"/>quod inhaesio Personarum excedit 
+      om<lb ed="#C" n="45" break="no"/>ne illud, quod in natura videmus, &amp; 
+      <lb ed="#C" n="46"/>quantum ad hoc dicit: Nec exemplum 
+      <lb ed="#C" n="47"/>aliquod rebus Divinis comparatio humana 
+      pra<lb ed="#C" n="48" break="no"/>tabit. Secundo quod huiusmodi 
+      inhae<lb ed="#C" n="49" break="no"/>sio excellit omnem rationem, &amp; 
+      quan<lb ed="#C" n="50" break="no"/>tum ad hoc subdit: Sedquod non intelligibile est, 
+      <lb ed="#C" n="51"/>homini, Deo possibile est esse. Tertio addit: 
+      <lb ed="#C" n="52"/>Ipsum non habere rationem, nobis pro ratione 
+      <lb ed="#C" n="53"/>debet esse. Nam eo ipso, quod Divina 
+      <lb ed="#C" n="54"/>xirtus sic rationem nostram excellit,  
+      <!--423.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="55"/>quod ad eam non attingit ratio, credi¬ 
+      <lb ed="#C" n="56"/>re debemus Personas sibi inesse, licet  
+      <lb ed="#C" n="57"/>illam inhaesionem plene non possimus 
+      <lb ed="#C" n="58"/>aspicere, &amp; quantum ad hoc subdit: id 
+      <lb ed="#C" n="59"/>Divinae veritatis ratio consequitur, quod 
+      natu<lb ed="#C" n="60" break="no"/>ra rerum pati non posse existimatur. Nam 
+      li<lb ed="#C" n="61" break="no"/>cet in alijs talem inhaesionem vide 
+      <lb ed="#C" n="62"/>non possimus; dubitare non debem 
+      <lb ed="#C" n="63"/>eam in Divinis esse. Quarto addit 
+      quan<lb ed="#C" n="64" break="no"/>dam manuductionem, quod Personae 
+      <lb ed="#C" n="65"/>sibi insunt: quia quaelibet est perfect 
+      <lb ed="#C" n="66"/>Deus, quod non esset, nisi una &amp; eadem 
+      <lb ed="#C" n="67"/>natura esset in omnibus. Dicitur enim 
+      <lb ed="#C" n="68"/>hoc manuductio: quia esse plures 
+      Per<lb ed="#C" n="69" break="no"/>lonas, quarum quaelibet sit perfect 
+      <lb ed="#C" n="70"/>Deus, Fide tenemus; sed id ratio non 
+      <lb ed="#C" n="71"/>concludit, &amp; quantum ad hoc 
+      subiun<lb ed="#C" n="72" break="no"/>igit: Quia perfecta plenitudo Deitatis est in 
+      Fi<lb ed="#C" n="73" break="no"/>uo, quae est in Patre, Patrem dicimus esse 
+      inFi<lb ed="#C" n="74" break="no"/>lio, &amp; Filiam in Patre. 5. subiungit 
+      ex<lb ed="#C" n="75" break="no"/>tali inhaesione inter Personas unitatem 
+      <lb ed="#C" n="76"/>&amp; distinctionem denotari, quod 
+      habe<lb ed="#C" n="77" break="no"/>tur, cum infertur: Nec eundem 
+      utrum<lb ed="#C" n="78" break="no"/>que, nec aliud confitemur. Ad intellectum 
+      <lb ed="#C" n="79"/>secundae auctoritatis notandum, quod  
+      <lb ed="#C" n="80"/>aliqua sunt in aliquo propter 
+      participa<lb ed="#C" n="81" break="no"/>tionem naturae, sicut album &amp; nigrum. 
+      <lb ed="#C" n="82"/>sunt aliquomodo in pallido, &amp; natura 
+      <lb ed="#C" n="83"/>asini &amp; equi in mulo. Rursum aliquid  
+      <lb ed="#C" n="84"/>est in aliquo per insitionem, sicut  
+      <lb ed="#C" n="85"/>ramus in stipite: nullo istorum 
+      modo<lb ed="#C" n="86" break="no"/>rum est una Persona in alia; sed per 
+      <lb ed="#C" n="87"/>unitatem naturae, quod est ex eo quod  
+      <lb ed="#C" n="88"/>una Persona ex alia oritur, &amp; hoc est, 
+      <lb ed="#C" n="89"/>quod dicit: Non per duplicem 
+      convemen<lb ed="#C" n="90" break="no"/>tium generum coniunctionem, quasi dicens: 
+      <lb ed="#C" n="91"/>Personas sibi non inesse, nec unam ab 
+      <lb ed="#C" n="92"/>alia oriri, sicut duo genera conveniunt. 
+      <lb ed="#C" n="93"/>ad productionem alicuius, ut asinus &amp; 
+      <lb ed="#C" n="94"/>equa ad productionem muli. Nec per 
+      <lb ed="#C" n="95"/>insitivam capacioris substantiae naturam. Ex 
+      <lb ed="#C" n="96"/>quo excluditur motus insertionis. Sed 
+      <lb ed="#C" n="97"/>per naturae unitam similitudinem, quasi dicens: 
+      <lb ed="#C" n="98"/>quod talis inhesio est propter unitatem 
+      <lb ed="#C" n="99"/>naturalem, addit: Et per nativitatem 
+      vi<lb ed="#C" n="100" break="no"/>ventis naturae. Hoc est per nativitatem 
+      <lb ed="#C" n="101"/>Filij, qui naturaliter vivit. Ex vivente, 
+      <lb ed="#C" n="102"/>hoc est, ex Patre. Dum res non differt, hoc  
+      <lb ed="#C" n="103"/>est, dum in essentia non est distinctio. 
+      <lb ed="#C" n="104"/>Dum naturam Dei non degenerat nativitas. 
+      <lb ed="#C" n="105"/>non aliud aliquid ex Deo, quam Deus 
+      nasci<lb ed="#C" n="106" break="no"/>tur, quasi dicens, quod per nativitatem 
+      <lb ed="#C" n="107"/>&amp; originem communicatur natura 
+      Di<lb ed="#C" n="108" break="no"/>vina Personis: eo quod nativitas, vel  
+      <lb ed="#C" n="109"/>processio in eis non degenerat: quia 
+      <lb ed="#C" n="110"/>Persona, quae nascitur, habet naturam 
+      <!--424.xml-->
+      <pb ed="#C" n="387"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>eiusdem generis cum eo, a quo 
+      proce<lb ed="#C" n="2" break="no"/>dit: non enim sic una Persona ex alia 
+      <lb ed="#C" n="3"/>oritur, sicut vermis ex carne humana, 
+      <lb ed="#C" n="4"/>cui non competit natura hum ana. Rur 
+      <lb ed="#C" n="5"/>sus res non differt: quia illa eadem 
+      na<lb ed="#C" n="6" break="no"/>tura, quae est in una Persona, 
+      commu<lb ed="#C" n="7" break="no"/>nicatur alteri: &amp; ideo oportet, quod 
+      <lb ed="#C" n="8"/>Deus ex Deo nascatur, &amp; etiam idem 
+      <!--424.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="9"/>Deus quantum ad naturam, si non 
+      <lb ed="#C" n="10"/>quantum ad Personam: ideo subdit: 
+      <lb ed="#C" n="11"/>Dum nihil in his novum est: quia Personae 
+      <lb ed="#C" n="12"/>duratione se non excedunt: Nhil 
+      alie<lb ed="#C" n="13" break="no"/>num: quia natura non distinguuntur: 
+      <lb ed="#C" n="14"/>Nhil separabile: quia earum est idem 
+      <lb ed="#C" n="15"/>esse. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="195"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e52384"><!-- l1-d9proem -->
+            <head xml:id="Gi9qrR-e52384-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e52384-d1e111">
+      <!--232.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="15"/>DISTINCTIO IX. 
+      <lb ed="#C" n="16"/>DE DISTINCTIONE TRIVM PERSONARVM.
+    </p>
+            <p xml:id="Gi9qrR-e52384-d1e122">
+      <!--232.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="17"/>NVNC ad distinctonem &amp;c. De 
+      <lb ed="#C" n="18"/>terminato de Deo quantum ad 
+      <lb ed="#C" n="19"/>essentiae unitatem. Hic deter 
+      <lb ed="#C" n="20"/>minat Mag. de eo quantum 
+      <lb ed="#C" n="21"/>ad Personarum distinctio 
+      <lb ed="#C" n="22"/>nem. Et duo facit: quia 1. 
+      <lb ed="#C" n="23"/>determinat de distinctione 
+      <lb ed="#C" n="24"/>Filij ad Patrem, quae est per 
+      <lb ed="#C" n="25"/>eius generationem. 2. ostendit distinctionem 
+      Spi<lb ed="#C" n="26" break="no"/>ritus ad utrumque, quae est per ipsius emana 
+      <lb ed="#C" n="27"/>tionem. Secunda ibi: Nunc post Filij, in principio 
+      <lb ed="#C" n="28"/>10. dist. Circa 1. duo facit: quia 1. determinat 
+      <lb ed="#C" n="29"/>de unitate. 2. veritatem determinatam manife 
+      <lb ed="#C" n="30"/>stat. Secunda ibi: Genitus est enim, dicit ergo 1 
+      <lb ed="#C" n="31"/>quod Filius, &amp; Spiritus S. sunt personaliter 
+      di<lb ed="#C" n="32" break="no"/>stincti a Patre: quia uterque alius, sed non essetia 
+      <lb ed="#C" n="33"/>liter: quia nullus est aliud ab eo. Cosequenter 
+      <lb ed="#C" n="34"/>istam veritatem manifestat. Ad cuius evidentiam 
+      <lb ed="#C" n="35"/>notandum, quod semper genitum a gignen 
+      <lb ed="#C" n="36"/>te distinguitur in persona, &amp; emanans ab eo, a 
+      <lb ed="#C" n="37"/>quo emanat, sed non semper distinguitur in na 
+      <lb ed="#C" n="38"/>tura. Est enim haec differentia, quod ea, 
+      qua<lb ed="#C" n="39" break="no"/>processerunt a Deo Patre aecernaliter, sunt 
+      distin<lb ed="#C" n="40" break="no"/>cta in Persona, non in natura; ea, quae 
+      tempora<lb ed="#C" n="41" break="no"/>liter, sunt distincta etiam in natura. Ostendere 
+      <lb ed="#C" n="42"/>ergo veram distinctionem inter Patrem, &amp; 
+      Fi<lb ed="#C" n="43" break="no"/>lium, est ostendere ipsum a Deo Patre aeterna 
+      <lb ed="#C" n="44"/>liter genitum natura. Nam ex eo quod genitur 
+      <lb ed="#C" n="45"/>est, est distinctus personaliter, ex eo quod na 
+      <lb ed="#C" n="46"/>turaliter est ab aeterno genitus, est unum in na 
+      <lb ed="#C" n="47"/>tura. Ostendit ergo Mag. Filium esse ab aeterno 
+      <lb ed="#C" n="48"/>genitum, &amp; duo facit: quia 1. facit, quod 
+      di<lb ed="#C" n="49" break="no"/>ctum est. 2. movet quaestiones circa generatio: D 
+      <lb ed="#C" n="50"/>nem Filij ex diversitate temporum. Secunda 
+      <lb ed="#C" n="51"/>ibi: Hic quaeri. Circa 1. tria facit: quia 1. 
+      propo<lb ed="#C" n="52" break="no"/>nit veritatem, quod Filius est aeternaliter 
+      geni<lb ed="#C" n="53" break="no"/>tus. 2. obiicit secundum Arrianos: quia ex quo 
+      <lb ed="#C" n="54"/>Filius est natus a Patre non est coaeternus sibi. 
+      <lb ed="#C" n="55"/>3. solvit. Secuda ibi: Sed contra. Tertia ibi:. Qui hoc  
+      <lb ed="#C" n="56"/>Circa quod duo facit, secundum quod duolici 
+      <lb ed="#C" n="57"/>ter respondet. 1. per <name xml:id="Gi9qrR-e52384-Nd1e217" ref="#Augustine">Aug.</name> 2. per Ambrosium 
+      <lb ed="#C" n="58"/>Secunda ibi: Eidem quoqui. Circa primum dua 
+      <lb ed="#C" n="59"/>facit: quia 1. secundum <name xml:id="Gi9qrR-e52384-Nd1e224" ref="#Augustine">Aug.</name> respondet ad o 
+      <lb ed="#C" n="60"/>quod Filius est coaeternus Patri: cum sit naturaliter  
+      <lb ed="#C" n="61"/>genitus ab eo, sicut splendor igni. 2. adducit 
+      <lb ed="#C" n="62"/>rationem ad probandum: quia, cum Filius sit 
+      <lb ed="#C" n="63"/>virtus Patris, &amp; Pater nunquam fuerit sine vir 
+      <lb ed="#C" n="64"/>ture, Filius est coaeternus ei¬ 
+    </p>
+            <p xml:id="Gi9qrR-e52384-d1e239">
+               <lb ed="#C" n="65"/>Tunc sequitur illa pars: Fidem, in qua ostem 
+      <!--232.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="66"/>dit per Ambrosium Filium coaeternum Patrum 
+      <lb ed="#C" n="67"/>&amp; duo facit: quia 1. facit quod dictum est. 2. 
+      <lb ed="#C" n="68"/>ostendit errorem Arrianorum accidere ex falsae 
+      <lb ed="#C" n="69"/>imaginatione. Secunda ibi: Sed queris. Circa 
+      pri<lb ed="#C" n="70" break="no"/>mum tria facit: quia 1. adducit 
+      auctori<lb ed="#C" n="71" break="no"/>tatem ad probandum Filium esse coaeternum 
+      Pa<lb ed="#C" n="72" break="no"/>tri: quia in Deo non est prius, &amp; posterius. 2. 
+      <lb ed="#C" n="73"/>adducit rationem: quia relativa posita se ponunt: 
+      <lb ed="#C" n="74"/>ergo si aeternaliter est Patri, aeternaliter habuit  
+      <lb ed="#C" n="75"/>Filium. 3. removet instantiam, quae posset fieri 
+      <lb ed="#C" n="76"/>contra rationem praedictam. Diceret enim 
+      ali<lb ed="#C" n="77" break="no"/>quis, quod ab aeterno fuit Deus, sed non ab 
+      <lb ed="#C" n="78"/>aeterno fuit Pater: quam cavillationem removet, 
+      <lb ed="#C" n="79"/>quia poneretur in Deo mutatio. Secunda ibi: 
+      In<lb ed="#C" n="80" break="no"/>vicem enim. Tertia ibi: Item dic. 
+      <lb ed="#C" n="81"/>SIIl 
+    </p>
+            <p xml:id="Gi9qrR-e52384-d1e283">
+               <lb ed="#C" n="82"/>Tunc sequitur illa pars, Sed quaeris, in quo 
+      <lb ed="#C" n="83"/>ostendit talem errorem accidere ex falsa 
+      imagi<lb ed="#C" n="84" break="no"/>natione. Circa quod duo facit: quia 1. ostendit 
+      <lb ed="#C" n="85"/>talem errorem esse: quia illa generatio non 
+      po<lb ed="#C" n="86" break="no"/>test ad plenum intelligi: ideo loquuntur de ea 
+      <lb ed="#C" n="87"/>homines secundum imaginationem, quam 
+      acqui<lb ed="#C" n="88" break="no"/>siverunt ex alijs generationibus. 2. arguit 
+      prae<lb ed="#C" n="89" break="no"/>sumentes de in genio suo, &amp; credentes illam 
+      <lb ed="#C" n="90"/>generationem posse intelligere. Secunda ibi:  
+      <lb ed="#C" n="91"/>Quidam cum. Tunc sequitur illa: Hic quaeri. In 
+      <lb ed="#C" n="92"/>qua movet quaestionem circa generationem 
+      Fi<lb ed="#C" n="93" break="no"/>lij; utrum debeat dici semper gignitur, vel 
+      sem<lb ed="#C" n="94" break="no"/>per genitus, &amp; duo facit: quia 1. praemittit 
+      quae<lb ed="#C" n="95" break="no"/>stionem. 2. exequitur de ea. Secunda ib: Di 
+      <lb ed="#C" n="96"/>hoc Srego. Circa quam duo facit: quia 1. 
+      osten<lb ed="#C" n="97" break="no"/>dit de hoc esse diversas sententias Sanctorum, 
+      <lb ed="#C" n="98"/>&amp; adducit eos ad concordiam. 2. ostendit quid 
+      <lb ed="#C" n="99"/>tenendum sit de hoc ibi: Dicimus ergo. Circa 
+      pri<lb ed="#C" n="100" break="no"/>mum duo facit: quia 1. ostendit Origenem 
+      secun<lb ed="#C" n="101" break="no"/>dum quamdam apparentiam dicere contrarium 
+      <lb ed="#C" n="102"/>alijs. 2. adducit eos ad concordiam. Ibi: Sed non 
+      <lb ed="#C" n="103"/>tanti. Circa primum duo facit: quia 1. ostendit 
+      <lb ed="#C" n="104"/>per <name xml:id="Gi9qrR-e52384-Nd1e335" ref="#Augustine">Aug.</name> Crego. &amp; Chrysost. quod 
+      me<lb ed="#C" n="105" break="no"/>lius dicitur, semper genitus est: quia illa 
+      gene<lb ed="#C" n="106" break="no"/>ratio semper est perfecta. 2. ostendit per 
+      Orige<lb ed="#C" n="107" break="no"/>nem, quod debet dici semper gignitur: quia sicut 
+      <lb ed="#C" n="108"/>solendor semper gignitur a Sole, sic Filius a 
+      <lb ed="#C" n="109"/>Patre. 2. ibi origenes vero. 
+    </p>
+            <p xml:id="Gi9qrR-e52384-d1e350">
+               <lb ed="#C" n="110"/>Tunc sequitur illa pars: Sed ne tanti, in qua 
+      <lb ed="#C" n="111"/>adducit dictos Doctores ad concordiam. Et duo 
+      <lb ed="#C" n="112"/>facit: quia 1. ostendit, Creg. &amp; alios dixisse 
+      Fi<lb ed="#C" n="113" break="no"/>lium semper genitum, non semper gigni; non 
+      <lb ed="#C" n="114"/>quia hoc incongrue dicatur, sed quia ita non 
+      <lb ed="#C" n="115"/>exprimit veritatem. Origenes autem concessit: 
+      <!--233.xml-->
+      <pb ed="#C" n="196"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>Semper gignitur propter invariabilem aeternitatem, 
+      <lb ed="#C" n="2"/>non propter iterationem. Confirmat per 
+      Hifa<lb ed="#C" n="3" break="no"/>ri. quod generatio Filij potest designari per 
+      <lb ed="#C" n="4"/>praesens tempus. Secunda ibi, Hila. quem. 
+      <lb ed="#C" n="5"/>Tuc sequitur illa pars, Dicamus ergo, in qua ostu 
+      <lb ed="#C" n="6"/>dit quid tenedum sit de hoc. Et duo facit; quia 1. 
+      <lb ed="#C" n="7"/>ostedit, quod utruque vere dicitur, semper gig 
+      <lb ed="#C" n="8"/>nitur, &amp; semper genitus est, cum semper gen 
+      <lb ed="#C" n="9"/>tus est, magis exprimit veritatem. 2. reddit ad im 
+      <!--233.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="10"/>pugnandum Haereticos, qui dicebunt Filium non 
+      <lb ed="#C" n="11"/>coaeterum Patri dicens: quod licet hoc possit esse 
+      <lb ed="#C" n="12"/>in rebus humanis; non tamen potest esse sin 
+      re<lb ed="#C" n="13" break="no"/>bus Divinis: nam cum proprietas Patris sit 
+      Pa<lb ed="#C" n="14" break="no"/>ternitas, &amp; nunquam sit aliquid sine sua 
+      pro<lb ed="#C" n="15" break="no"/>prietate: Deus Pater semper fuit Pater, &amp; 
+      aeter<lb ed="#C" n="16" break="no"/>naliter habuit Filium. Secunda ibi: Sed inquit. Et  
+      <lb ed="#C" n="17"/>in hoc terminatur sententia lectionis, &amp; 
+      distin<lb ed="#C" n="18" break="no"/>ctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

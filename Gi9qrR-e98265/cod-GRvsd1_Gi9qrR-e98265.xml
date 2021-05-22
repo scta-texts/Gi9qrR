@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="366"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e98265"><!-- l1-d19p1prooem -->
+            <head xml:id="Gi9qrR-e98265-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e98265-d1e111">
+      <!--403.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="77"/>DISTIICTIO XIX 
+      <lb ed="#C" n="78"/>PARS PRIMA. 
+      <lb ed="#C" n="79"/>DE AEQVALITATE TRIVM PERSONARVM.
+    </p>
+            <p xml:id="Gi9qrR-e98265-d1e124">
+      <!--403.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="80"/>NNC postquam &amp;c. Sicut dictum fuit  
+      <lb ed="#C" n="81"/>superius, in Personis Divinis 
+      qua<lb ed="#C" n="82" break="no"/>tuor est considerare, de quibus 
+      <lb ed="#C" n="83"/>specialiter Magist. intendit 
+      deter<lb ed="#C" n="84" break="no"/>minare in hoc primo, videlicet, de essentiae 
+      <lb ed="#C" n="85"/>unitate, Personarum alietate, durationis aeter¬ 
+      <!--403.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="86"/>nitate, &amp; Maiestatis aequalitate. Expeditis 
+      pri<lb ed="#C" n="87" break="no"/>mis, hic de aequalitate Personarum 
+      determi<lb ed="#C" n="88" break="no"/>nat, quae pars contra totum praecedens divisa 
+      <lb ed="#C" n="89"/>fuit. Dividitur autem haec pars in partes duas: 
+      <lb ed="#C" n="90"/>quia 1. Magist. facit, quod dictum est. 
+      Secun<lb ed="#C" n="91" break="no"/>do quasdam quaestiones propter praetactam in¬ 
+      <!--404.xml-->
+      <pb ed="#C" n="367"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>cidentes determinat. Secunda ibi:: Hic oritur 
+      <lb ed="#C" n="2"/>quaestio, in principio 21. distin. Circa primum 
+      <lb ed="#C" n="3"/>duo facit: quia 1. dicit aequalitatem esse in 
+      <lb ed="#C" n="4"/>Divinis, &amp; secundum quae attenditur 
+      aequa<lb ed="#C" n="5" break="no"/>litas. 2. probat, quod dixerat, ibi: Quod autem 
+      <lb ed="#C" n="6"/>aeternitate. Circa primum duo facit: quia 1. 
+      di<lb ed="#C" n="7" break="no"/>cit aequalitatem esse in Divinis quantum ad haeo 
+      <lb ed="#C" n="8"/>tria, videlicet, quantum ad aeternitatem, 
+      mag<lb ed="#C" n="9" break="no"/>nitudinem, &amp; potestatem, quod probat per 
+      <lb ed="#C" n="10"/>August. 2. ostendit haec tria idem esse propter 
+      <lb ed="#C" n="11"/>eius simplicitatem, quod etiam per <name xml:id="Gi9qrR-e98265-Nd1e191" ref="#Augustine">Aug.</name> osten 
+      <lb ed="#C" n="12"/>dit. Secunda, ibi: Cumque enumerentur. Deinde 
+      <lb ed="#C" n="13"/>cum dicit: Quod autem, probat quod dixerat, 
+      <lb ed="#C" n="14"/>&amp; duo facit: quia 1. continuat se ad dicenda. 
+      <lb ed="#C" n="15"/>2. exequitur de proposito; ibi: Sciendum igitur: 
+      <lb ed="#C" n="16"/>Circa primum duo facit: quia 1. dicit 
+      osten<lb ed="#C" n="17" break="no"/>sum esse superius inter Personas Divinas 
+      aequa<lb ed="#C" n="18" break="no"/>litatem esse quantum ad aeternitatem. 2. 
+      ad<lb ed="#C" n="19" break="no"/>dit ostendendum esse aequalitatem existere, 
+      <lb ed="#C" n="20"/>quantum ad magnitudinem, &amp; potestatem. 
+      Se<lb ed="#C" n="21" break="no"/>cunda ibi: Nunc igitur. Deinde cum dicit: 
+      Scien<lb ed="#C" n="22" break="no"/>dum, probat quod dixerat, &amp; duo facit: quia 
+      <lb ed="#C" n="23"/>1. ostendit inter Patrem, &amp; Filium 
+      aequalita<lb ed="#C" n="24" break="no"/>tem esse quantum ad magnitudinem. 2. 
+      quan<lb ed="#C" n="25" break="no"/>tum ad potestatem, ibi: Nunc ostendere, in prin¬ 
+      <!--404.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="26"/>cipio 20. dist. girda primum tria facit, secu a 
+      <lb ed="#C" n="27"/>dum quod tripliciter probat Divinas 
+      Perso<lb ed="#C" n="28" break="no"/>nas in magnitudine coaequari: quia 1. hoc  
+      <lb ed="#C" n="29"/>ostendit ex Divina perfectione. 2, ex eo quod 
+      <lb ed="#C" n="30"/>in Divinis non est totalitas, parcialitas, &amp;c. 
+      <lb ed="#C" n="31"/>huiusmodi, quae aequalitatem impediunt. 3. 
+      <lb ed="#C" n="32"/>manifestat hoc idem ex ipsa Divina 
+      simplici<lb ed="#C" n="33" break="no"/>tate. Secunda ibi: Sed iam nunc, ubi praesens 
+      <lb ed="#C" n="34"/>lectio terminabitur. Tertia ibi: Sciendum est 
+      <lb ed="#C" n="35"/>gitur. Circa primum duo facit: quia 1. dicit  
+      <lb ed="#C" n="36"/>nter Divinas Personas aequalitatem esse: quia 
+      <lb ed="#C" n="37"/>quaelibet est perfectus Deus. 2. ex hoc 
+      con<lb ed="#C" n="38" break="no"/>cludit, quod propter talem perfectionem, &amp; 
+      <lb ed="#C" n="39"/>essentiae unitatem Personae sibi insunt; ibi: Et  
+      <lb ed="#C" n="40"/>inde est. Circa quod itria facit: quia 1. probat 
+      <lb ed="#C" n="41"/>Personas sic sibi inesse per auctoritatem <name xml:id="Gi9qrR-e98265-Nd1e263" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="42"/>2. per Hilarium. 3. per Ambrosium. Secunda 
+      <lb ed="#C" n="43"/>ibi: Vnde etiam Hilarius. Tertia ibi: Vndem etiam 
+      <lb ed="#C" n="44"/>Ambrosius. Circa quod duo facit: quia 1. 
+      ad<lb ed="#C" n="45" break="no"/>ducit auctoritatem eorum. 2. ostendit 
+      Perso<lb ed="#C" n="46" break="no"/>nas sic sibi inesse esse tenendum, eo quod tam 
+      <lb ed="#C" n="47"/>tres illustres viri ad hoc concordant. 
+      Secun<lb ed="#C" n="48" break="no"/>da ibi: Ecce tribus, in quo terminatur 
+      senten<lb ed="#C" n="49" break="no"/>tia lectionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f07495"><!-- l1-d19p2dublit -->
+            <head xml:id="Gi9qrR-f07495-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-f07495-d1e111">
+               <lb ed="#C" n="47"/>DVBITATIONES LITTERALES.
+    </p>
+            <p xml:id="Gi9qrR-f07495-d1e116">
+               <lb ed="#C" n="48"/>SVPER litteram: Super illo: Si ergo 
+      <lb ed="#C" n="49"/>Qin una &amp;c. Vult enim <name xml:id="Gi9qrR-f07495-Nd1e122" ref="#Augustine">Aug.</name> quod 
+      <lb ed="#C" n="50"/>si sapientia, bonitas, &amp; huiusmodi in 
+      <!--438.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="51"/>una Persona non faciunt 
+      compositio<lb ed="#C" n="52" break="no"/>nem: quod in duabus simul non sit 
+      <lb ed="#C" n="53"/>compositio, igitur arguit, a mi 
+      <lb ed="#C" n="54"/>nori negando quia minus vide 
+      <lb ed="#C" n="55"/>tur, quod sit compositio in una, quam 
+      <lb ed="#C" n="56"/>in pluribus. Dicendum, quod non ar 
+      <lb ed="#C" n="57"/>guit a minori, sed a maiori: quia 
+      plu<lb ed="#C" n="58" break="no"/>ra attributa in una Persona differunt. 
+      <lb ed="#C" n="59"/>secundum rationem; sed prout 
+      Divi<lb ed="#C" n="60" break="no"/>na natura est in pluribus, differt secun 
+      <lb ed="#C" n="61"/>dum modum se habendi: quae et si 
+      <lb ed="#C" n="62"/>differentia secundum rationem dici 
+      <lb ed="#C" n="63"/>potest, non est tanta sicut prima. Si 
+      <lb ed="#C" n="64"/>igitur plura attributa in una Persona 
+      <lb ed="#C" n="65"/>non faciunt compositionem ut 
+      pos<lb ed="#C" n="66" break="no"/>sint dici totum integrale plura 
+      attri<lb ed="#C" n="67" break="no"/>buta ad unum, multo minus faciet 
+      <lb ed="#C" n="68"/>compositionem una natura in pluribus 
+      <lb ed="#C" n="69"/>Personis, ut habeat rationem totius 
+      <lb ed="#C" n="70"/>una natura, prout est in pluribus, ad se 
+      <lb ed="#C" n="71"/>ipsam, prout est in una. 
+      <lb ed="#C" n="72"/>Item super illo: Dicamus tres statuas 
+      <lb ed="#C" n="73"/>unum aurum. Contra; materia non prae 
+      <lb ed="#C" n="74"/>dicatur de his, quorum est materia: 
+      er<lb ed="#C" n="75" break="no"/>go statua non est aurum. Dicendum 
+      <lb ed="#C" n="76"/>quod licet materia proprie non 
+      praedi<lb ed="#C" n="77" break="no"/>cetur in artificialibus, tamen potest 
+      ali<lb ed="#C" n="78" break="no"/>quomodo concedi materiam 
+      praedica<lb ed="#C" n="79" break="no"/>ri: eo quod materia eorum dicit totam 
+      <lb ed="#C" n="80"/>ipsarum substantiam. 
+    </p>
+            <p xml:id="Gi9qrR-f07495-d1e198">
+               <lb ed="#C" n="81"/>Item super illo: Commune est 
+      sub<lb ed="#C" n="82" break="no"/>stantia, parti ulare hopostasis. Notandum 
+      <lb ed="#C" n="83"/>quod commune ibi idem sonat, quod 
+      <lb ed="#C" n="84"/>communicabile, &amp; particulare, quod 
+      <lb ed="#C" n="85"/>incommunicabile. 
+    </p>
+            <p xml:id="Gi9qrR-f07495-d1e211">
+               <lb ed="#C" n="86"/>Item super illo: Numero enim &amp;c 
+      <lb ed="#C" n="87"/>Notandum, quod hypostases differunt. 
+      <lb ed="#C" n="88"/>numero: quia una connumeratur al 
+      <lb ed="#C" n="89"/>teri, non quod aliquid non sit in una 
+      <lb ed="#C" n="90"/>quod sit in altera 
+    </p>
+            <p xml:id="Gi9qrR-f07495-d1e225">
+               <lb ed="#C" n="91"/>Item super illo: Deus non debet 
+      <lb ed="#C" n="92"/>dici triplex. Notandum, quod triplici 
+      <lb ed="#C" n="93"/>tas est species multiplicitatis, &amp; 
+      multi<lb ed="#C" n="94" break="no"/>plicitas est species inaequalitatis, ideo 
+      <lb ed="#C" n="95"/>in Deo non est triplicitas: quia ibi 
+      <lb ed="#C" n="96"/>nulla inaequalitas. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

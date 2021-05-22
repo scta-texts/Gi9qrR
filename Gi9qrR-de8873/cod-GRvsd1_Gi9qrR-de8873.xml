@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litteralis</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litteralis</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-de8873"><!-- l1-proldublit -->
+            <head xml:id="Gi9qrR-de8873-Hd1e108">Dubitationes litteralis</head>
+            <p xml:id="Gi9qrR-de8873-d1e111">
+               <lb ed="#C" n="41"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-de8873-d1e116">
+               <lb ed="#C" n="42"/>RVPER litteram primo dubitatur de eo, quod dicit: ar¬ 
+      <lb ed="#C" n="43"/>dua scandere contra Eccl. 3. altiora te ne quaesteris. Resp. 
+      <lb ed="#C" n="44"/>quod verum est innixus proprio auxilio, sed non innixus 
+      <lb ed="#C" n="45"/>Dei auxilio: ut Magister. Item dicit, se praesumpsisse in agedo 
+      <lb ed="#C" n="46"/>hoc opus, sed praesumptio est peccatum: ergo &amp;c. 
+      Respon<lb ed="#C" n="47" break="no"/>deo, quod praesumptio erat respectu propriarum virium, 
+      <lb ed="#C" n="48"/>sed non respectu Divini auxilij, vel praesumptio erat, quia 
+      <lb ed="#C" n="49"/>prae alijs sumptio, quia plus dixerat, quam alij. 
+    </p>
+            <p xml:id="Gi9qrR-de8873-d1e136">
+               <lb ed="#C" n="50"/>Item dicit se supererogasse, &amp; addidisse contra 
+      Da<lb ed="#C" n="51" break="no"/>mascen. 1. lib. cap. 1. omnia quae nobis tam per legem, &amp; 
+      <lb ed="#C" n="52"/>Prophetas, quam per Apostolos. &amp; Evangelistas tradita sunt 
+      am<lb ed="#C" n="53" break="no"/>plectimur, agnoscimus, ac veneramur, nec vltra ea quidquam 
+      re<lb ed="#C" n="54" break="no"/>quirimus. Respondeo: nihil vltra contrarium, sed non 
+      ni<lb ed="#C" n="55" break="no"/>hil vltra expositivum, &amp; declarativum, sicut fecit 
+      Ma<lb ed="#C" n="56" break="no"/>gister. Item dicit Charitatem Dei ipsum agitasse. Contra: 
+      <lb ed="#C" n="57"/>nemo scit vtrum odio, vel amone dignus sit. Respondeo dicendum: 
+      <lb ed="#C" n="58"/>quod ibi Charitatem appellat intensum amorem, non 
+      <lb ed="#C" n="59"/>gratuitum. 
+    </p>
+            <p xml:id="Gi9qrR-de8873-d1e160">
+               <lb ed="#C" n="60"/>Irem in assignando tria retractiva, &amp; incitativa non 
+      <lb ed="#C" n="61"/>tennit ordinem rectum:: quia in 1. &amp; 3. incitativa 
+      prae<lb ed="#C" n="62" break="no"/>missit retractivis. In 2. retractivum incitativo. 
+      Respon<lb ed="#C" n="63" break="no"/>deo: quia 1. &amp; 3. retractivum non habent rationem 
+      bo<lb ed="#C" n="64" break="no"/>ni, &amp; desiderabilis, &amp; ideo ea praemissit: cum nullo 
+      mo<lb ed="#C" n="65" break="no"/>do moveant appetitum; sed secundum retractivum 
+      ha<lb ed="#C" n="66" break="no"/>bet rationem boni, &amp; desiderabilis. Item dicit, 
+      verita<lb ed="#C" n="67" break="no"/>tem aliquos offendere, &amp; eam aliquos odire: contra quod, 
+      <!--71.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="68"/>Anullo modo habet rationem mali; nullo modo habet un¬ 
+      <lb ed="#C" n="69"/>de habeatur odio. Respondeo, quod venitas in se non 
+      <lb ed="#C" n="70"/>oditur, sed in suis effectibus, in quantum malitiam 
+      ali<lb ed="#C" n="71" break="no"/>quorum prodit. 
+    </p>
+            <p xml:id="Gi9qrR-de8873-d1e194">
+               <lb ed="#C" n="72"/>Item dicit haereticos omni mendacio verborum 
+      im<lb ed="#C" n="73" break="no"/>piam reddere simulatam pietatem: ergo in dictis eorum 
+      <lb ed="#C" n="74"/>non est aliqua veritas, quod non est possibile: cum 
+      nu<lb ed="#C" n="75" break="no"/>lla doctrina sit, quae non praetendat aliqua vera. 
+      Respon<lb ed="#C" n="76" break="no"/>deo; quod si verba in se vera erant; comparata tamen 
+      <lb ed="#C" n="77"/>ad intentionem erant falsa, in quo imitantur patrem 
+      eo<lb ed="#C" n="78" break="no"/>rum Diabolum: quia &amp; si aliqua vera dicit, tamen 
+      sem<lb ed="#C" n="79" break="no"/>per ea dicit intentione fallendi secundum <name xml:id="Gi9qrR-de8873-Nd1e213" ref="#Augustine">August.</name> 4. 
+      de<lb ed="#C" n="80" break="no"/>Trin. cap. 17. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

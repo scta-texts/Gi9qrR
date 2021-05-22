@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="562"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f45676"><!-- l1-d29dublit -->
+            <head xml:id="Gi9qrR-f45676-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-f45676-d1e111">
+      <!--587.xml-->
+               <pb ed="#C" n="562"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-f45676-d1e122">
+               <lb ed="#C" n="2"/>Vper litteram, super illo: Pater est 
+      <lb ed="#C" n="3"/>Sprincipium totius Divinitatis. Contra: 
+      <lb ed="#C" n="4"/>Divinitas aut sumitur pro essentia aut  
+      <lb ed="#C" n="5"/>pro Personis? Si pro essentia? Falsum 
+      <lb ed="#C" n="6"/>est quod dicitur: quia respectu essentiae 
+      <lb ed="#C" n="7"/>Pater non habet rationem principij: cum  
+      <lb ed="#C" n="8"/>essentia non procedat ab ipso. Si 
+      respe<lb ed="#C" n="9" break="no"/>ctu Personarum? Adhuc est falsum: quia 
+      <lb ed="#C" n="10"/>non omnes Personae procedunt a Patres 
+      <lb ed="#C" n="11"/>cum Pater non procedat a se ipso. 
+      Dicen<lb ed="#C" n="12" break="no"/>dum, quod utroque modo potest 
+      habe<lb ed="#C" n="13" break="no"/>re veritatem si sane intelligatur: nam si¬ 
+    </p>
+            <p xml:id="Gi9qrR-f45676-d1e151">
+               <lb ed="#C" n="14"/>Divinitas sumatur pro essentia, sic habet  
+      <lb ed="#C" n="15"/>veritatem quod dicitur: non quod 
+      Pa<lb ed="#C" n="16" break="no"/>ter essentiam producat; sed dicitur 
+      prin<lb ed="#C" n="17" break="no"/>cipium totius Divinitatis eo quod 
+      Di<lb ed="#C" n="18" break="no"/>vinitatem &amp; essentiam communicat 
+      om<lb ed="#C" n="19" break="no"/>ni modo quo communicabilis est, 
+      vide<lb ed="#C" n="20" break="no"/>icet, per modum generationis &amp; 
+      spira<lb ed="#C" n="21" break="no"/>tionis: nam Filius licet essentiam 
+      Divi<lb ed="#C" n="22" break="no"/>nam communicet alicui Personae 
+      Divi<lb ed="#C" n="23" break="no"/>nae; non tamen dicitur totius 
+      Divinita<lb ed="#C" n="24" break="no"/>tis principium: quia non communicat 
+      <lb ed="#C" n="25"/>eam omni modo quo communicabilis 
+      <lb ed="#C" n="26"/>est: cum solum spiret &amp; non generet. 
+      <lb ed="#C" n="27"/>Si autem Divinitas summatur pro 
+      Per<lb ed="#C" n="28" break="no"/>sonis: sic quod dicitur verum est: sicut 
+      <lb ed="#C" n="29"/>verum est quod fundamentum 
+      susti<lb ed="#C" n="30" break="no"/>net totam domum; non quod seipsum 
+      <lb ed="#C" n="31"/>sustineat: sed quia omnes aliae partes 
+      <lb ed="#C" n="32"/>domus sustinetur ab ipso: sic Pater non 
+      <lb ed="#C" n="33"/>se ipsum producit; sed omnes aliae 
+      Per<lb ed="#C" n="34" break="no"/>sonae emanant ab eo. 
+      <!--587.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="35"/>Item super illo, Vel melius Divinitatis. 
+      <lb ed="#C" n="36"/>NNotandum quod natura Divina meli¬ 
+      <lb ed="#C" n="37"/>us dicitur Deitas quam Divinitas: quia 
+      <lb ed="#C" n="38"/>Divinum non solum dicitur de eo quod 
+      <lb ed="#C" n="39"/>est per essentiam tale; sed de eo quod  
+      <lb ed="#C" n="40"/>est per participacionem, secundum que 
+      <lb ed="#C" n="41"/>modum loquitur Philosophus in 2. de Anima.  
+      <lb ed="#C" n="42"/>quae cum perfecta sunt, &amp; non orbata 
+      genera<lb ed="#C" n="43" break="no"/>re sibi simile: ut esse Divinum participent; sed 2 
+      <lb ed="#C" n="44"/>Deitas proprie dicitur de eo, quod est, 
+      <lb ed="#C" n="45"/>tale per essentiam. 
+    </p>
+            <p xml:id="Gi9qrR-f45676-d1e227">
+               <lb ed="#C" n="46"/>Item super illo: Omnes vtique naturas 
+      <lb ed="#C" n="47"/>&amp; omnia quae naturaliter sunt. Notandum, 
+      <lb ed="#C" n="48"/>quod per naturas intelligit substantias; 
+      <lb ed="#C" n="49"/>per ea quae naturaliter sunt intelligit  
+      <lb ed="#C" n="50"/>proprietates &amp; operationes naturales. 
+    </p>
+            <p xml:id="Gi9qrR-f45676-d1e241">
+               <lb ed="#C" n="51"/>Item super illo: originem Filij ab initio. 
+      <lb ed="#C" n="52"/>Notandum, quod Filius est ab initio, &amp; 
+      <lb ed="#C" n="53"/>origo eius ab initio eius: quia habet 
+      es<lb ed="#C" n="54" break="no"/>se a Patre, qui est initium: verum quia 
+      <lb ed="#C" n="55"/>initium potest intelligi dupliciter, 
+      vide<lb ed="#C" n="56" break="no"/>licet, pro initio durationis, &amp; pro 
+      prin<lb ed="#C" n="57" break="no"/>cipio originis: ne intelligatur Filium 
+      <lb ed="#C" n="58"/>habuisse principium durationis addit 
+      <lb ed="#C" n="59"/>Hilarius. Non ipsum ab initio. Supple 
+      du<lb ed="#C" n="60" break="no"/>rationis. Sed ab initiabili. Idest a 
+      <lb ed="#C" n="61"/>principio initiativo, sive a principio 
+      ori<lb ed="#C" n="62" break="no"/>ginis, idest a Patre. Et subdit: Quod Filius 
+      <lb ed="#C" n="63"/>non est per se ipsum. Quod glossandum est 
+      <lb ed="#C" n="64"/>non esse per se ipsum: quia non est a se 
+      <lb ed="#C" n="65"/>ipso: nam quaelibet Persona est per se 
+      ip<lb ed="#C" n="66" break="no"/>sam: cum sit quid subsistens; non 
+      ta<lb ed="#C" n="67" break="no"/>men quaelibet est a seipsa, cum una 
+      <lb ed="#C" n="68"/>procedit ab alia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

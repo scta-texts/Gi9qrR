@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="787"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g05222"><!-- l1-d41expolit -->
+            <head xml:id="Gi9qrR-g05222-Hd1e108">Expositio Litterae</head>
+            <p xml:id="Gi9qrR-g05222-d1e111">
+      <!--812.xml-->
+               <pb ed="#C" n="787"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>ExPOSITIO LITTERAE.
+    </p>
+            <p xml:id="Gi9qrR-g05222-d1e122">
+               <lb ed="#C" n="2"/>SVper litteram, super illo: Sed hoc 
+      fri<lb ed="#C" n="3" break="no"/>Svolum est. Notandum, quod 
+      exposi<lb ed="#C" n="4" break="no"/>tio eorum, qui exponebant verba <name xml:id="Gi9qrR-g05222-Nd1e130" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="5"/>dicitur frivola: quia nimis extorte 
+      expo<lb ed="#C" n="6" break="no"/>nebant ipsa: dicebant enim esse dignos 
+      <lb ed="#C" n="7"/>gratia, qui non sunt ita digni, sicut  
+      <lb ed="#C" n="8"/>alij. 
+    </p>
+            <p xml:id="Gi9qrR-g05222-d1e143">
+               <lb ed="#C" n="9"/>Item super illo: Sicut antiqui patres. No 
+      <!--812.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="10"/>tandum, quod diversitas enuntiabilium 
+      <lb ed="#C" n="11"/>non impedit unitatem fidei: vel quia 
+      fi<lb ed="#C" n="12" break="no"/>dei non est enuntiabile, sed res credita, 
+      <lb ed="#C" n="13"/>vel quia enuntiabile prout est obiectum 
+      <lb ed="#C" n="14"/>fidei, non circucernit aliquam 
+      differen<lb ed="#C" n="15" break="no"/>tiam temporis, &amp; tempus determinatum 
+      <lb ed="#C" n="16"/>non est de substantia fidei; sed accidit 
+      <lb ed="#C" n="17"/>fidei, prout fides per doctrinam 
+      deter<lb ed="#C" n="18" break="no"/>minatur, &amp; habetur ex auditu: 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

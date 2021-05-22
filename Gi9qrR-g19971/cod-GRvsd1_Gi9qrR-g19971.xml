@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="843"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g19971"><!-- l1-d47q1 -->
+            <head xml:id="Gi9qrR-g19971-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-g19971-d1e111">
+      <!--868.xml-->
+               <pb ed="#C" n="843"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>Quaestio 
+      <lb ed="#C" n="2"/>De adimpletione Divinae voluntatis. 
+    </p>
+            <p xml:id="Gi9qrR-g19971-d1e124">
+               <lb ed="#C" n="3"/>AAgistri intentio in praesenti di¬ 
+      <lb ed="#C" n="4"/>stinctione circa duo versatur,  
+      <lb ed="#C" n="5"/>AVAPrimo circa impletionem 
+      Di<lb ed="#C" n="6" break="no"/>vinae voluntatis. Secundo circa ea quae 
+      <lb ed="#C" n="7"/>praeter eam, vel contra, fieri videtur:  
+      <lb ed="#C" n="8"/>ideo de his duobus quaeremus. 
+    </p>
+            <div xml:id="Gi9qrR-g19971-Dd1e140">
+               <head xml:id="Gi9qrR-g19971-Hd1e142">Articulus 1</head>
+               <p xml:id="Gi9qrR-g19971-d1e145">
+                  <lb ed="#C" n="9"/>ARTICVLVS VNICVS. 
+        <lb ed="#C" n="10"/>Vtrum Divina voluntas semper
+        <lb ed="#C" n="11"/>impleatur?  
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e154">
+                  <lb ed="#C" n="12"/>AD primum sic proceditur: videtur 
+        <lb ed="#C" n="13"/>Iquod voluntas Divina non semper 
+        <lb ed="#C" n="14"/>impleatur: quia voluntas illa, contra 
+        <lb ed="#C" n="15"/>quam multa efficiuntur, non semper 
+        <lb ed="#C" n="16"/>impletur, sed contra Divinam 
+        volun<lb ed="#C" n="17" break="no"/>catem multa fiunt: quia secundum Ang. 
+        <lb ed="#C" n="18"/>12. de Civit. Dei circa principium: Natura 
+        <lb ed="#C" n="19"/>non est contraria Deo, sed vitium. Sed 
+        <lb ed="#C" n="20"/>quod est contrarium Deo contrariatur 
+        <lb ed="#C" n="21"/>voluntati ejus: cum ipse sit sua 
+        volun<lb ed="#C" n="22" break="no"/>tas, ergo vitia fiunt contra Divinam 
+        vo<lb ed="#C" n="23" break="no"/>duntatem: non semper ergo Dei 
+        volun<lb ed="#C" n="24" break="no"/>tas impletur, cum multa, ut peccata &amp; 
+        <lb ed="#C" n="25"/>vitia, contra ipsam fiant.
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e187">
+        Praeterea: quod 
+        <lb ed="#C" n="26"/>producit effectum mediantibus 
+        secun<lb ed="#C" n="27" break="no"/>dis casis impediri potentibus, impeditur 
+        <lb ed="#C" n="28"/>in actione sua: sicut videmus Solem 
+        pro<lb ed="#C" n="29" break="no"/>ducere flores mediante virtute 
+        pullulati<lb ed="#C" n="30" break="no"/>va: eo quod virtus pullulativa impediri 
+        <lb ed="#C" n="31"/>potest, actio Solis respectu talis effectus 
+        <lb ed="#C" n="32"/>aliquando impeditur: cum ergo Divina 
+        <lb ed="#C" n="33"/>voluntas agat mediantibus secundis 
+        cau<lb ed="#C" n="34" break="no"/>sis, quae impediri possunt, timpeditur  
+        <lb ed="#C" n="35"/>aliquando in actione sua, &amp; non 
+        <lb ed="#C" n="36"/>semper impletur quod Deus vult.  
+        <lb ed="#C" n="37"/>Praeterea: causa, quae schabet ad 
+        utrum<lb ed="#C" n="38" break="no"/>libet, non semper consequitur 
+        effe<lb ed="#C" n="39" break="no"/>ctum suum, sed, ut ostensum est supra, 
+        <lb ed="#C" n="40"/>Deus non agit ex necessitate 
+        natu<lb ed="#C" n="41" break="no"/>rae, sed ex libertatis arbitrio, &amp; potest. 
+        <lb ed="#C" n="42"/>agere &amp; non agere: non ergo semper 
+        <lb ed="#C" n="43"/>voluntas Dei impletur, cum se habeat  
+        <lb ed="#C" n="44"/>ad utrumlibet. Peaeterea: causa, quae in 
+        <lb ed="#C" n="45"/>effectu suo impediri non potest, 
+        produ<lb ed="#C" n="46" break="no"/>cit effectum necessarium. Si ergo 
+        volun<lb ed="#C" n="47" break="no"/>tas Divina impediri non posset, &amp; 
+        sem<lb ed="#C" n="48" break="no"/>per impletur, omnia, quae Deus per suam 
+        <lb ed="#C" n="49"/>voluntatem produceret, necessaria 
+        <!--868.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="50"/>essent; sed hoc est falsum, ergo &amp; 
+        <lb ed="#C" n="51"/>primum. 
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e250">
+                  <lb ed="#C" n="52"/>In contrarium est Magister in 
+        litte<lb ed="#C" n="53" break="no"/>ra, qui per multas auctoritates ostendit 
+        <lb ed="#C" n="54"/>voluntatem Dei semper impleri. 
+        Prae<lb ed="#C" n="55" break="no"/>erea: cujus voluntas non impletur, 
+        tri<lb ed="#C" n="56" break="no"/>statur, &amp; diminuitur ejus delectatio: 
+        <lb ed="#C" n="57"/>sed secundum Philosom 7. Ethic. Deus, cuius 
+        <lb ed="#C" n="58"/>natura simplex est, semper habet delectabilissic 
+        <lb ed="#C" n="59"/>tnam actionem, &amp; semper una simplici 
+        dele<lb ed="#C" n="60" break="no"/>ctatione gaudet. Si ergo sua delectatio sim 
+        <lb ed="#C" n="61"/>plex est &amp; impediri non potest, 
+        volun<lb ed="#C" n="62" break="no"/>tas ejus semper impletur.
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e277">
+        Praeterea: 
+        ni<lb ed="#C" n="63" break="no"/>hil impeditur nisi sa fortiori: sed cum 
+        <lb ed="#C" n="64"/>nihil sit efficacius volunt ate Divina, 
+        ni<lb ed="#C" n="65" break="no"/>hil eam impedire poterit, sed semper 
+        <lb ed="#C" n="66"/>implebitur.  
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e288">
+                  <lb ed="#C" n="67"/>RESOLVTIO. 
+        <lb ed="#C" n="68"/>Quidquid Deus vult simpliciter &amp; 
+        se<lb ed="#C" n="69" break="no"/>cundum omnes suas circunstantias, subiacet  
+        <lb ed="#C" n="70"/>Divinae voluntati &amp; est volitum vo¬ 
+        <lb ed="#C" n="71"/>luntate consequenti, &amp; ita 
+        <lb ed="#C" n="72"/>semper impletur.  
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e304">
+                  <lb ed="#C" n="73"/>REspond. dicendum, quod voluntaa 
+        <lb ed="#C" n="74"/>Rtem Divinam simpliciter semper 
+        im<lb ed="#C" n="75" break="no"/>pleri duplici via venari possumus. 
+        Pri<lb ed="#C" n="76" break="no"/>mo ex ejus omnipotentia. Secundo 
+        ex<lb ed="#C" n="77" break="no"/>ipsius immaterialitate. Primum sic 
+        osten<lb ed="#C" n="78" break="no"/>ditur: nam (ut habitum est) Deus est 
+        <lb ed="#C" n="79"/>omnipotens, non quia possit quidquid 
+        <lb ed="#C" n="80"/>enuntiari potest: sed quia potentiam 
+        <lb ed="#C" n="81"/>activa &amp; modus agendi sequitur modum 
+        <lb ed="#C" n="82"/>essendi: &amp; cum esse Dei sit esse, in quo 
+        <lb ed="#C" n="83"/>omne esse reservatur, posse suum est 
+        <lb ed="#C" n="84"/>illud posse, in quo omne posse 
+        contine<lb ed="#C" n="85" break="no"/>tur. Vnde potest quidquid habet 
+        ratio<lb ed="#C" n="86" break="no"/>nem entis: sed quod potest quidquid  
+        <lb ed="#C" n="87"/>habet rationem entis, omnibus esse 
+        tra<lb ed="#C" n="88" break="no"/>dit, &amp; omnia in esse conservat. Nam si 
+        <lb ed="#C" n="89"/>aliquid haberet esse, vel coservaretur in 
+        <lb ed="#C" n="90"/>pesse absque influentia Primi, esset ali¬ 
+        <lb ed="#C" n="91"/>quod esse non exemplatum ab esse 
+        Di<lb ed="#C" n="92" break="no"/>vino: propter quod sequeretur, quod in 
+        <lb ed="#C" n="93"/>esse ejus non contineretur omnis 
+        ratio<lb ed="#C" n="94" break="no"/>essendi. Si ergo Deus omnibus tradidit 
+        <lb ed="#C" n="95"/>naturam &amp; esse, &amp; omnia in suo esse 
+        <lb ed="#C" n="96"/>conservat, omnibus indidit proprium 
+        ap<lb ed="#C" n="97" break="no"/>petitum, eo quod appetitus &amp; 
+        inclinati<lb ed="#C" n="98" break="no"/>vum rei sequitur naturam ejus &amp; 
+        mo<lb ed="#C" n="99" break="no"/>dum essendi: &amp; quia similis ratio est de 
+        <lb ed="#C" n="100"/>appetitu indito rebus, &amp; de earum esse 
+        <lb ed="#C" n="101"/>vel natura: sicut nulla natura est, nec 
+        <!--869.xml-->
+        <pb ed="#C" n="844"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>nullum esse quod non congineatur sub 
+        <lb ed="#C" n="2"/>esse Divino, &amp; quod non sit tale quale 
+        <lb ed="#C" n="3"/>Divina voluntas vult: eo quod esse om 
+        <lb ed="#C" n="4"/>nibus creaturis (secundum Hilarium 
+        <lb ed="#C" n="5"/>Divina voluntas attulerit, nullus est ap 
+        <lb ed="#C" n="6"/>petitus qui non inclinetur, secundum 
+        <lb ed="#C" n="7"/>quod Divina voluntas eum inclinare 
+        <lb ed="#C" n="8"/>voluerit: &amp; quia ea, quae videmus in 
+        re<lb ed="#C" n="9" break="no"/>bus, ex aliquo appetitu naturali vel 
+        vo<lb ed="#C" n="10" break="no"/>luntatio progrediuntur in esse, dicere 
+        <lb ed="#C" n="11"/>Deum velle aliquid &amp; illud non fieri, est 
+        <lb ed="#C" n="12"/>dicere aliquem appetitum esse, quem 
+        <lb ed="#C" n="13"/>Divina voluntas inclinare non possit 
+        <lb ed="#C" n="14"/>vel aliquam creaturam existere, quae suo 
+        <lb ed="#C" n="15"/>creatori non obediat: sed cum 
+        appeti<lb ed="#C" n="16" break="no"/>tus &amp; inclinatio sequitur modum 
+        essen<lb ed="#C" n="17" break="no"/>di, si esset aliquis appetitus, quem Deu 
+        <lb ed="#C" n="18"/>secundum suam voluntatem inclinare 
+        <lb ed="#C" n="19"/>non pesset, esset aliquod esse, quod a 
+        <lb ed="#C" n="20"/>Divino esse non esset productum, &amp; ita 
+        <lb ed="#C" n="21"/>in Divino esse non contineretur omne 
+        <lb ed="#C" n="22"/>esse. Si ergo Deo non deficit aliquod 
+        es<lb ed="#C" n="23" break="no"/>se nec aliquod posse, contra voluntate 
+        <lb ed="#C" n="24"/>suam nihil inclinatur, &amp; quidquid fieri 
+        <lb ed="#C" n="25"/>vult, totum impletur. Ex quo apparet 
+        <lb ed="#C" n="26"/>quod dicere non fieri quidquid Deus 
+        <lb ed="#C" n="27"/>vult, vel aliqua secundum suum 
+        appeti<lb ed="#C" n="28" break="no"/>tum inclinari contra Divinam volunta 
+        <lb ed="#C" n="29"/>tem, est dicere Deum non esse omnipo 
+        <lb ed="#C" n="30"/>tentem. Et ista est via <name xml:id="Gi9qrR-g19971-Nd1e440" ref="#Augustine">Aug.</name> in Enchiri 
+        <lb ed="#C" n="31"/>qui ait: Cui proculdubio quam facile est 
+        <lb ed="#C" n="32"/>quod vult, facere, tam facile est quod vult 
+        <lb ed="#C" n="33"/>non esse non sinere. Hoc nisi credamus, 
+        pe<lb ed="#C" n="34" break="no"/>riclitatur ipsum nostraeconfessionis initium 
+        <lb ed="#C" n="35"/>qua nos in Deum Patrem omnipotentem 
+        cre<lb ed="#C" n="36" break="no"/>dere confitemur: quia, ut ait: Nec voluntate 
+        <lb ed="#C" n="37"/>cujuspiam creaturae voluntatis omnipotentis im 
+        <lb ed="#C" n="38"/>peditur effectus. Secunda via sumitur ex 
+        <lb ed="#C" n="39"/>Divina immaterialitate. Nam sicut vir 
+        <lb ed="#C" n="40"/>tutes corporales regulantur per 
+        pri<lb ed="#C" n="41" break="no"/>mam virtutem in corpore. Propter 
+        <lb ed="#C" n="42"/>quod secundum Philosophum in 2. de Anima 
+        <lb ed="#C" n="43"/>vel in 3, secundum aliam intitulationem: 
+        <lb ed="#C" n="44"/>Dicere hominem talem voluntatem habet 
+        <lb ed="#C" n="45"/>re qualem Pater Deorum virorumque sib 
+        <lb ed="#C" n="46"/>adducit, hoc est qualem corpora supercaele 
+        <lb ed="#C" n="47"/>stia in eo causant, est dicere intellectum ess 
+        <lb ed="#C" n="48"/>sensum; vel voluntatem, quae sequitur ad 
+        in<lb ed="#C" n="49" break="no"/>tellectum, esse virtutem in corpore. Ex quo 
+        <lb ed="#C" n="50"/>habere possumus, quod virtutes 
+        corpo<lb ed="#C" n="51" break="no"/>rales regulantur secundum virtutem 
+        <lb ed="#C" n="52"/>primi corporis. Vnde bruta, quae non 
+        <lb ed="#C" n="53"/>habent appetitum qui non sit virtus in 
+        <lb ed="#C" n="54"/>materia, utpluri mum sequuntur impre 
+        <lb ed="#C" n="55"/>siones caelestes, &amp; agunt magis quam 
+        a<lb ed="#C" n="56" break="no"/>gant, &amp; ducuntur magis quam ducant,  
+        <!--869.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>Sed sicut virtutes organicae &amp; 
+        materia<lb ed="#C" n="58" break="no"/>les appetitus reducuntur in primam 
+        vir<lb ed="#C" n="59" break="no"/>tutem corporalem: sic virtutes 
+        incor<lb ed="#C" n="60" break="no"/>poreae &amp; immateriales appetitus 
+        redu<lb ed="#C" n="61" break="no"/>cuntur in primam immaterialem 
+        vir<lb ed="#C" n="62" break="no"/>tutem, ut in voluntatem Divinam. 
+        <lb ed="#C" n="63"/>immo multo magis immaterialia 
+        redu<lb ed="#C" n="64" break="no"/>cuntur in voluntatem Divinam, quam 
+        <lb ed="#C" n="65"/>materialia in primum corpus: quia 
+        ni<lb ed="#C" n="66" break="no"/>hil est in rebus immaterialibus, quod ab 
+        <lb ed="#C" n="67"/>illa voluntate non emanaverit; est tamen 
+        <lb ed="#C" n="68"/>aliquid in rebus corporalibus, quod a 
+        <lb ed="#C" n="69"/>primo corpore non sumpsit originem. 
+        <lb ed="#C" n="70"/>Si ergo habet calumniam, quod 
+        virtu<lb ed="#C" n="71" break="no"/>tes corporales semper inclinetur 
+        secun<lb ed="#C" n="72" break="no"/>dum motum caeli, &amp; nihil sit in eis, quod  
+        <lb ed="#C" n="73"/>contrarietur caelesti, influentiae: diceret 
+        <lb ed="#C" n="74"/>tamen nihil esse in virtutibus immate 
+        <lb ed="#C" n="75"/>rialibus quod contrarietur Divinae 
+        vo<lb ed="#C" n="76" break="no"/>luntati, nullam habet calummam: quia, 
+        <lb ed="#C" n="77"/>ut tactum est, omnia spiritualia magis 
+        <lb ed="#C" n="78"/>dependent a Primo Spiritu, quam 
+        om<lb ed="#C" n="79" break="no"/>nia corporalia a primo corpore: erge 
+        <lb ed="#C" n="80"/>Divina voluntas secundum suum 
+        bene<lb ed="#C" n="81" break="no"/>placitum inclinat virtutes spirituales, &amp; 
+        <lb ed="#C" n="82"/>nihil est volitum ab aliqua spirituali sub 
+        <lb ed="#C" n="83"/>stantia, quod Divinae voluntati sit 
+        con<lb ed="#C" n="84" break="no"/>trarium. Et si hoc potest in rebus 
+        spiri<lb ed="#C" n="85" break="no"/>tualibus, multo magis in 
+        corpora<lb ed="#C" n="86" break="no"/>libus potest, cum spiritualia super 
+        <lb ed="#C" n="87"/>corporalia collocentur. Istam auten 
+        <lb ed="#C" n="88"/>viam innuit <name xml:id="Gi9qrR-g19971-Nd1e573" ref="#Augustine">Aug.</name> 3. de Trin. cap. 4. qui 
+        <lb ed="#C" n="89"/>ex eo, quod Deus in rebus spiritualibu 
+        <lb ed="#C" n="90"/>suam voluntatem exercet, ostendit eum 
+        <lb ed="#C" n="91"/>facere quae vult in corporalibus rebus 
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e584">
+                  <lb ed="#C" n="92"/>Vnde ait: Deus movet primitus invisibilia 
+        <lb ed="#C" n="93"/>ministrorum, sive animas hominum, sive 
+        oc<lb ed="#C" n="94" break="no"/>cultorum spirituum sibi subditas servitutres 
+        <lb ed="#C" n="95"/>quid mirum, si etiam in creatura caeli &amp; 
+        <lb ed="#C" n="96"/>terrae, maris &amp; aeris facit Deus, quae vult,  
+        <lb ed="#C" n="97"/>Patet ergo quidquid Deus vult 
+        simplici<lb ed="#C" n="98" break="no"/>ter impleri totum 
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e602">
+                  <lb ed="#C" n="99"/>Advertendum tamen, quod 
+        volun<lb ed="#C" n="100" break="no"/>tas comparatur ad res secundum quod 
+        <lb ed="#C" n="101"/>habent esse in se ipsis. Illud ergo est 
+        sum<lb ed="#C" n="102" break="no"/>pliciter volitum, quod sucundum 
+        om<lb ed="#C" n="103" break="no"/>nes suas circunstantias subjacet 
+        volunta<lb ed="#C" n="104" break="no"/>ti: ideo quod Deus vult voluntate 
+        ante<lb ed="#C" n="105" break="no"/>cedente, cum illud non velit secundum 
+        <lb ed="#C" n="106"/>omnes circustantias: ut quia vult ipsum 
+        <lb ed="#C" n="107"/>secundum impositionem ordinis non 
+        <lb ed="#C" n="108"/>secundum executionem, vel secundum 
+        <lb ed="#C" n="109"/>quod ejus voluntas respicit naturam 
+        <lb ed="#C" n="110"/>non personam, non vult simpliciter: cum 
+        <lb ed="#C" n="111"/>non velit illud secundum omnes 
+        parti<lb ed="#C" n="112" break="no"/>culares circunstantias. Solum ergo illud 
+        <!--870.xml-->
+        <pb ed="#C" n="845"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>a Deo est simpliciter volitum, quod  
+        <lb ed="#C" n="2"/>Deus vult voluntate consequente: &amp; 
+        <lb ed="#C" n="3"/>quia dictum est totum fieri, quod Deus 
+        <lb ed="#C" n="4"/>vult simpliciter, nihil fit contra ejus vo 
+        <lb ed="#C" n="5"/>luntatem consequentem: non est tamen 
+        <lb ed="#C" n="6"/>inconveniens aliquid neri contra ejus 
+        <lb ed="#C" n="7"/>voluntatem antecedentem. 
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e657">
+                  <lb ed="#C" n="8"/>Respod. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="9"/>quod vitia non contrariantur voluntati, 
+        <lb ed="#C" n="10"/>prout Divina voluntas est ejus 
+        benepla<lb ed="#C" n="11" break="no"/>citum, sive est voluntas consequens: 
+        co<lb ed="#C" n="12" break="no"/>trariantur tamen ei, prout ejus voluntas 
+        <lb ed="#C" n="13"/>est voluntas signi, &amp; potissime cum est 
+        <lb ed="#C" n="14"/>signum respondens voluntati 
+        anteceden<lb ed="#C" n="15" break="no"/>ti non consequenti: faciunt enim mali 
+        <lb ed="#C" n="16"/>contra Divina consilia vel praecepta. Et  
+        <lb ed="#C" n="17"/>ista est intentio <name xml:id="Gi9qrR-g19971-Nd1e680" ref="#Augustine">Aug.</name> nam in illo 
+        capi<lb ed="#C" n="18" break="no"/>tulo ubi ait: Natura non est contraria Deo 
+        <lb ed="#C" n="19"/>sed vitium. Et dicit: malos inimicari Deo, 
+        <lb ed="#C" n="20"/>quia adversantur eius imperio.
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e692">
+        Ad 2. 
+        dicen<lb ed="#C" n="21" break="no"/>dum, quod non est simile de Sole &amp; 
+        de<lb ed="#C" n="22" break="no"/>voluntate Divina. quia in voluntate 
+        <lb ed="#C" n="23"/>Divina reservatur totus ordo 
+        causa<lb ed="#C" n="24" break="no"/>rum, &amp; voluntati Divinae 
+        conse<lb ed="#C" n="25" break="no"/>quenti subficiuntur effectus cum 
+        omni<lb ed="#C" n="26" break="no"/>bus causis non impeditis: ideo semper 
+        <lb ed="#C" n="27"/>talis voluntas impletur; sed in Sore 
+        no<lb ed="#C" n="28" break="no"/>reservatur totus ordo secudarum causarum, 
+        <lb ed="#C" n="29"/>&amp; potissime prout impeditae non sunt:  
+        <lb ed="#C" n="30"/>ideo non est simile quod simile 
+        diceba<lb ed="#C" n="31" break="no"/>tur.
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e718">
+        Ad 3. dicendum, quod Divina 
+        vo<lb ed="#C" n="32" break="no"/>luntas non se habet ad utrumlibet quod 
+        <lb ed="#C" n="33"/>sit causa mutabilis. Nam cum hoc quod  
+        <lb ed="#C" n="34"/>Deus agit per libertatis arbitrium, agit 
+        <lb ed="#C" n="35"/>immutabiliter, &amp; ejus voluntas 
+        immu<lb ed="#C" n="36" break="no"/>tari non potest: ideo semper impletur  
+        <lb ed="#C" n="37"/>quod vult: quia quod semel vult semper 
+        <lb ed="#C" n="38"/>vult, &amp; ejus voluntati resistere nihil 
+        po<lb ed="#C" n="39" break="no"/>test: propter quod non fieri quod vult, 
+        <lb ed="#C" n="40"/>non est possibile.
+      </p>
+               <p xml:id="Gi9qrR-g19971-d1e740">
+        Ad 4. dicendum, 
+        <lb ed="#C" n="41"/>quod sicut res relatae in Divinam 
+        praesci<lb ed="#C" n="42" break="no"/>entiam contrahunt quamdam necessita 
+        <lb ed="#C" n="43"/>tem; non tamen propter necessitatem 
+        <lb ed="#C" n="44"/>huiusmodi removetur contingentia a 
+        <lb ed="#C" n="45"/>rebus, ut supra ostensum est, sic, prout 
+        <lb ed="#C" n="46"/>referuntur in Divinam voluntatem, quam 
+        <lb ed="#C" n="47"/>dam necessitatem contrahunt: nec 
+        ta<lb ed="#C" n="48" break="no"/>men propter hoc contingentia 
+        remo<lb ed="#C" n="49" break="no"/>vetur ab eis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

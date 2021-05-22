@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="735"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f91702"><!-- l1-d39prooem -->
+            <head xml:id="Gi9qrR-f91702-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f91702-d1e111">
+      <!--760.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="42"/>DISTTINCTIO XXIX. 
+      <lb ed="#C" n="43"/>VTRVMSCIENTIADEI POSSIT AVOERI, VEE MINVI, VEI. 
+      <lb ed="#C" n="44"/>aliquomodo mutari: utrumque enim videtur posse probari.
+    </p>
+            <p xml:id="Gi9qrR-f91702-d1e124">
+      <!--760.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="45"/>RAEterea quaeri solet. Postquam 
+      <lb ed="#C" n="46"/>quaesivit Magister de 
+      scien<lb ed="#C" n="47" break="no"/>tia Dei, utrum sit causa 
+      re<lb ed="#C" n="48" break="no"/>rum. Hic specialiter 
+      quae<lb ed="#C" n="49" break="no"/>rit, cuius modi causa 
+      exi<lb ed="#C" n="50" break="no"/>stat: utrum, scilicet, sit 
+      va<lb ed="#C" n="51" break="no"/>riabilis per augmentum, &amp; 
+      <lb ed="#C" n="52"/>diminutionem. Et duo 
+      fa<lb ed="#C" n="53" break="no"/>oit: quia 1. quaerit de huius varietate cir 
+      <lb ed="#C" n="54"/>ea Divinam scientiam. 2. movet quaestionem 
+      <lb ed="#C" n="55"/>circa universalitatem eius. Secunda ibi: Ei vero 
+      <lb ed="#C" n="56"/>quod supradictum. Circa 1. duo facit: quia 1. 
+      ar<lb ed="#C" n="57" break="no"/>guit Divinam scientiam augeri &amp; minui posse. 
+      <lb ed="#C" n="58"/>Nam cum possit aliqeis non legere, qui est 
+      le<lb ed="#C" n="59" break="no"/>cturus, &amp; legere, qui non est lecturus: potest 
+      <lb ed="#C" n="60"/>scire Deus, hunc esse lecturum quem non scit: 
+      <lb ed="#C" n="61"/>&amp; non scire esse lecturum, quem scit, &amp; ita 
+      au<lb ed="#C" n="62" break="no"/>geri &amp; minui potest Divina scientia: quia 
+      po<lb ed="#C" n="63" break="no"/>test Deus non scire, quod scit, &amp; scire quod non 
+      <lb ed="#C" n="64"/>scit. 2. quaestionem dissolvit, ibi: Ad quod dicimus. 
+      <lb ed="#C" n="65"/>Et duo facit: quia 1. solvit. 2. instat. Secunda 
+      <lb ed="#C" n="66"/>ibi: Hic opponitur. Circa 1. duo facit: quia 1. 
+      osten<lb ed="#C" n="67" break="no"/>dit per auctoritatem <name xml:id="Gi9qrR-f91702-Nd1e180" ref="#Augustine">Aug.</name> Divinam scientiam 
+      <lb ed="#C" n="68"/>in se invariabilem esse. 2. concedit ea, quae 
+      po<lb ed="#C" n="69" break="no"/>nunt variationem ex parte scitorum affirmans, 
+      <lb ed="#C" n="70"/>quod <name xml:id="Gi9qrR-f91702-Nd1e190" ref="#Augustine">Aug.</name> dixerat, videlicet, quod Divina sci¬ 
+      <!--760.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="71"/>entia in se accepta variari non potest. Secunda 
+      <lb ed="#C" n="72"/>ibi: Ex hac auctoritase. Deinde cum dicit: Hic ops 
+      <lb ed="#C" n="73"/>ponitur. Instat contra determinata. Et tria facit: 
+      <lb ed="#C" n="74"/>nam 1. instat: quia si Deus potest aliquid 
+      sei<lb ed="#C" n="75" break="no"/>re, quod nescit, videtur quod possit aliquid 
+      ex<lb ed="#C" n="76" break="no"/>tempore scire, quod est inconveniers 2. 
+      instan<lb ed="#C" n="77" break="no"/>iam solvit, dicens: Deum non posse scire, quod 
+      <lb ed="#C" n="78"/>nescit: ita quod incipiat de novo aliquid scires 
+      <lb ed="#C" n="79"/>sed quia ipsa scita mutabilia sunt, &amp; habet 
+      po<lb ed="#C" n="80" break="no"/>tentiam producendi, quae non producit, habet  
+      <lb ed="#C" n="81"/>potentiam sciendi, quod nescit: attamen 
+      quid<lb ed="#C" n="82" break="no"/>quid scit, ab aeterno scit: quia nihil producit in 
+      <lb ed="#C" n="83"/>tempore, quod non disposuerit producere ab 
+      <lb ed="#C" n="84"/>aeterno. 3. ostendit quosdam concedere ea, quae 
+      <lb ed="#C" n="85"/>videntur importare variat onem in Divina 
+      scien<lb ed="#C" n="86" break="no"/>tia: ut quod Deus possit scire plura, quam sciat, 
+      <lb ed="#C" n="87"/>referendo huiusmodi variaFilitatem, non ad 
+      <lb ed="#C" n="88"/>ipsam scientiam, sed ad ipsa scita. Secunda ibi:  
+      <lb ed="#C" n="89"/>Ad quod dicimus Tertia ibi: Item a quibusdam. 
+      De<lb ed="#C" n="90" break="no"/>inde cum dicit: Ei vero quod supradictum. Movet 
+      <lb ed="#C" n="91"/>quaestionem de universalitate Divinae scientiae, 
+      <lb ed="#C" n="92"/>seu providentiae. Et tria facit: quia 1. arguit  
+      <lb ed="#C" n="93"/>per Hieronymum, quod omnia non subiacent 
+      <lb ed="#C" n="94"/>Divinae scientiae, vel providentiae: quia 
+      abfur<lb ed="#C" n="95" break="no"/>dum est dicere Deum per singula momenta 
+      cog<lb ed="#C" n="96" break="no"/>noscere quot culices nascantur, quot ve morii¬ 
+      <!--761.xml-->
+      <pb ed="#C" n="736"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>tur. 2. solvit asserens, omnia esse subdita 
+      Divi<lb ed="#C" n="2" break="no"/>nae providentiae, sive scientiae, &amp; quod Deus 
+      <lb ed="#C" n="3"/>scit, quanta sit multitudo pulicum, vel eulicu: 
+      <lb ed="#C" n="4"/>attamen hoc non scit per momenta temporum, 
+      <lb ed="#C" n="5"/>sed uno intuitu omnia videt. Rursum 
+      specia<lb ed="#C" n="6" break="no"/>lem curam, &amp; specialem providentiam ipse no 
+      <lb ed="#C" n="7"/>habet de omnibus; sed solum de rationalibus, 
+      <lb ed="#C" n="8"/>per qu d patet solutio ad dictum Hieronymi, 
+      <!--761.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="9"/>&amp; patet quomodo omnia sunt subiecta Divinae 
+      <lb ed="#C" n="10"/>providentiae; &amp; quomodo non. Nam 
+      providen<lb ed="#C" n="11" break="no"/>tiae universaliter sumptae sunt omnia subditas 
+      <lb ed="#C" n="12"/>pecialiter autem non. Tertio breviter 
+      conclu<lb ed="#C" n="13" break="no"/>dit Deum omnia simul &amp; immutabiliter 
+      cog<lb ed="#C" n="14" break="no"/>noscere. Secunda ibi: Ex tali itaque sensu. Tertia 
+      <lb ed="#C" n="15"/>ibi: Simul itaqu. In quo terminatur sententia 
+      <lb ed="#C" n="16"/>lectionis &amp; distinctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

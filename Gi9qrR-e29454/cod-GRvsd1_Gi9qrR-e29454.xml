@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="110"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e29454"><!-- l1-d4q2 -->
+            <head xml:id="Gi9qrR-e29454-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e29454-d1e111">
+               <lb ed="#C" n="28"/>QUAESTIO II. 
+      <lb ed="#C" n="29"/>De propositionibus indicantibus identitatem, 
+      <lb ed="#C" n="30"/>vel alietatem circa generationem.
+    </p>
+            <p xml:id="Gi9qrR-e29454-d1e120">
+               <lb ed="#C" n="31"/>POSTEA quaeritur de propositioni¬ 
+      <lb ed="#C" n="32"/>bus, quas ponit Magister in littera 
+      <lb ed="#C" n="33"/>inquirendo an sit concedendum, quod  
+      <lb ed="#C" n="34"/>Deus genuerit Deum, &amp; in quo sensu? 
+      <lb ed="#C" n="35"/>Et propter hoc erit.  
+    </p>
+            <div xml:id="Gi9qrR-e29454-Dd1e133">
+               <head xml:id="Gi9qrR-e29454-Hd1e135">Articulus 1</head>
+               <p xml:id="Gi9qrR-e29454-d1e138">
+                  <lb ed="#C" n="36"/>ARTICVLVS VNICVS. 
+        <lb ed="#C" n="37"/>Vtrum ista sit vera: Deus genuit alium 
+        <lb ed="#C" n="38"/>Deum?
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e147">
+                  <lb ed="#C" n="39"/>NSTIrca hoc videtur, quod ista sit vera, 
+        <lb ed="#C" n="40"/>QDeus genuit alium Deum: quia 
+        <lb ed="#C" n="41"/>quando aliquid competit alicui, 
+        com<lb ed="#C" n="42" break="no"/>petit ei omne illud, quod est de ratione 
+        <lb ed="#C" n="43"/>illius: si igitur generatio est in Divinis, 
+        <lb ed="#C" n="44"/>quia ibi Deus Deum genuit, oportet, 
+        <lb ed="#C" n="45"/>quod ibi ponamus omnia ea, quae sunt, 
+        <lb ed="#C" n="46"/>de ratione generationis; sed alietas &amp; 
+        <lb ed="#C" n="47"/>distinctio sunt de ratione generationis: 
+        <lb ed="#C" n="48"/>ergo si Deus Deum genuit, Deus alium 
+        <lb ed="#C" n="49"/>Deum produxit.
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e173">
+        Praeterea cum dico: 
+        <lb ed="#C" n="50"/>Deus Deum generat, hoc, quod dico 
+        <!--147.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>Deus, aut stat ibi pro natura, vel 
+        pro<lb ed="#C" n="52" break="no"/>Persona? Si stat ibi pro natura? Ergo 
+        <lb ed="#C" n="53"/>essentia essentiam generat, quod non est 
+        <lb ed="#C" n="54"/>verum. Si stat pro Persona? Cum 
+        Per<lb ed="#C" n="55" break="no"/>sona generet aliam Personam, Deus 
+        ge<lb ed="#C" n="56" break="no"/>nerat alium Deum.
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e195">
+        Praeterea: de 
+        quo<lb ed="#C" n="57" break="no"/>libet potest dici hoc: vel est idem, vel 
+        <lb ed="#C" n="58"/>est aliud, &amp; quod est idem est ipsum: 
+        <lb ed="#C" n="59"/>cum igitur Deus non genuerit se Deum, 
+        <lb ed="#C" n="60"/>nec per consequens cundem Deum, 
+        er<lb ed="#C" n="61" break="no"/>go genuit alium Deum. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e209">
+                  <lb ed="#C" n="62"/>In contrarium est Magister, qui eam 
+        <lb ed="#C" n="63"/>negat.
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e216">
+        Praeterea: quia Persona generat 
+        <lb ed="#C" n="64"/>aliam Personam, non est ibi una 
+        Per<lb ed="#C" n="65" break="no"/>sona: si ergo Deus generaret alium 
+        <lb ed="#C" n="66"/>Deum, Deus generans, &amp; Deus genitus 
+        <lb ed="#C" n="67"/>non essent unus Deus; cuius contrari 
+        un<lb ed="#C" n="68" break="no"/>habetur 5. de Trinit, cap. 14. quod 
+        Pa<lb ed="#C" n="69" break="no"/>ter, &amp; Filius sunt unus Deus, unus Crea 
+        o<lb ed="#C" n="70" break="no"/>&amp; unus Dominus. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e234">
+                  <lb ed="#C" n="71"/>VIterius quaeritur utrum genuerit 
+        se<lb ed="#C" n="72" break="no"/>Deum?
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e241">
+        Et videtur quod sic per <name xml:id="Gi9qrR-e29454-Nd1e243" ref="#Augustine">Aug.</name> in 
+        <lb ed="#C" n="73"/>Epist. ad Maximum, &amp; habetur in 
+        litte<lb ed="#C" n="74" break="no"/>ta: Pater, ut haberet Filium de se ipso, non 
+        <lb ed="#C" n="75"/>minuit se ipsum, sed ita genuit de se alterum 
+        <lb ed="#C" n="76"/>e, ut totus maneret in se.
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e255">
+        Praeterea: si non 
+        <lb ed="#C" n="77"/>genuit alium Deum, ergo genuit se 
+        <lb ed="#C" n="78"/>Deum. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e262">
+                  <lb ed="#C" n="79"/>In contrarium est Mag. in littera, qui 
+        <lb ed="#C" n="80"/>negat hanc: Deus genuit se Deum. Prae 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e270">
+                  <lb ed="#C" n="81"/>terea: <name xml:id="Gi9qrR-e29454-Nd1e274" ref="#Augustine">Aug.</name> de Trinit, lib. 1. &amp; cap. 1. 
+        <lb ed="#C" n="82"/>Nulla enim omnino res est, quae se ipsam 
+        gig<lb ed="#C" n="83" break="no"/>nat, ut sit. Et ideo secundum cundem 
+        <lb ed="#C" n="84"/>ibidem: Qui putat eius esse potentiae, ut  
+        <lb ed="#C" n="85"/>ipse se ipsum genuerit eo plus errat. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e287">
+                  <lb ed="#C" n="86"/>Vlterius videtur, quod ista proposi 
+        <lb ed="#C" n="87"/>tio sit falsa: Deus genuit Deum, qui est Deu 
+        <lb ed="#C" n="88"/>Pater; quia quando aliqua plura 
+        praedi<lb ed="#C" n="89" break="no"/>cantur de aliquo simul, possunt praedi 
+        <lb ed="#C" n="90"/>dicari divisim; nisi unum illorum se 
+        ha<lb ed="#C" n="91" break="no"/>beat, ut diminuens, vel contrahens, vel 
+        <lb ed="#C" n="92"/>distrahens, vel secundum aliam ineptam 
+        <lb ed="#C" n="93"/>addictionem, ut si homo est albus, 
+        be<lb ed="#C" n="94" break="no"/>ne sequitur est homo, &amp; est albus: sed  
+        <lb ed="#C" n="95"/>si Deus genuit Deum, qui est Deus 
+        Pa<lb ed="#C" n="96" break="no"/>ter: ergo genitus a Deo est Deus Pater: 
+        <lb ed="#C" n="97"/>sed Pater non inepte coniungitur ei, 
+        <lb ed="#C" n="98"/>quod est Deus, ergo potest inferri 
+        geni<lb ed="#C" n="99" break="no"/>tus a Deo est Deus, &amp; genitus a, Deo est 
+        <lb ed="#C" n="100"/>Pater, quod est falsum. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e322">
+                  <lb ed="#C" n="101"/>In contrarium est: quia si non esset 
+        <lb ed="#C" n="102"/>nisi unus homo, &amp; ille esset Sortes, de 
+        <lb ed="#C" n="103"/>quocumque verum esset dicere, quod 
+        <lb ed="#C" n="104"/>esset homo, dici posset hic est homo, 
+        <lb ed="#C" n="105"/>qui est homo Sortes: cum igitur non sit: 
+        <lb ed="#C" n="106"/>nisi unus Deus, &amp; ille sit Pater, si geni¬ 
+        <!--148.xml-->
+        <pb ed="#C" n="111"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tus a Deo est Deus; verum erit dicere, 
+        <lb ed="#C" n="2"/>genitus a Deo est Deus, qui est Deus 
+        Pa<lb ed="#C" n="3" break="no"/>ter. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e351">
+                  <lb ed="#C" n="4"/>Vlterius videtur, quod ista sit falsa: 
+        <lb ed="#C" n="5"/>Qenitus a Deo non est Deus Pater: quia non 
+        <lb ed="#C" n="6"/>totum negat, quod post se ponitur, sed  
+        <lb ed="#C" n="7"/>post se ponitur Deus Pater, ergo Deitas, 
+        <lb ed="#C" n="8"/>&amp; Paternitas negabitur a genito: &amp; si sic? 
+        <lb ed="#C" n="9"/>venitus neque est Deus, nec est Pater, 
+        <lb ed="#C" n="10"/>quod fallum est. 
+        <lb ed="#C" n="11"/>Non est vera propositio: Deus genuit alium  
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e371">
+                  <lb ed="#C" n="12"/>In contrarium est Magister, qui dicit  
+        <lb ed="#C" n="13"/>eam non esse falsam, sed multiplicem. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e378">
+                  <lb ed="#C" n="14"/>RESOLVTIO. 
+        <lb ed="#C" n="15"/>Deum. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e386">
+                  <lb ed="#C" n="16"/>REspondeo dicendum, quod Vnum 
+        <lb ed="#C" n="17"/>Rin substantia facit idem: ut dicitur 5. 
+        <lb ed="#C" n="18"/>Metaph. &amp; sicut identitas est unitas in 
+        <lb ed="#C" n="19"/>substantia, ita alietas est distinctio in 
+        <lb ed="#C" n="20"/>substantia: &amp; ideo si videre volumus 
+        <lb ed="#C" n="21"/>utrum Deus genuerit alium Deum, vel  
+        <lb ed="#C" n="22"/>non: oportet nos videre, quomodo 
+        <lb ed="#C" n="23"/>aliqua dicuntur alia substantia, &amp; 
+        quo<lb ed="#C" n="24" break="no"/>modo non. Et ideo notandum, quod 
+        <lb ed="#C" n="25"/>in istis inferioribus, quantum adi 
+        prae<lb ed="#C" n="26" break="no"/>sens, substantia dicitur dupliciter, 
+        pri<lb ed="#C" n="27" break="no"/>ma &amp; secunda, ut dicitur in praedica 
+        <lb ed="#C" n="28"/>mentis. Substatia prima est aggregatum, 
+        <lb ed="#C" n="29"/>vel individuum in genere substantiae, in 
+        <lb ed="#C" n="30"/>quo omnia alia reservantur: &amp; ideo 
+        de<lb ed="#C" n="31" break="no"/>structis primis impossibile est aliquid 
+        <lb ed="#C" n="32"/>aliorum remanere. Substantia secunda 
+        <lb ed="#C" n="33"/>est genus &amp; species, quae in huiusmodi 
+        <lb ed="#C" n="34"/>individuis esse habent. Et sicut in istit 
+        <lb ed="#C" n="35"/>inferioribus invenitur substantia prima 
+        <lb ed="#C" n="36"/>&amp; secunda, ita in Divinis reperitur 
+        ali<lb ed="#C" n="37" break="no"/>quid correspondens substantiae primae, 
+        <lb ed="#C" n="38"/>&amp; aliquid secundae, differunt tamen. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e438">
+                  <lb ed="#C" n="39"/>Ista differentia quintuplex est. Primo: 
+        <lb ed="#C" n="40"/>quia substantia prima in istis inferioribus 
+        <lb ed="#C" n="41"/>est individuum aggregatum; in superio 
+        <lb ed="#C" n="42"/>ribus autem, cum sit ita simplex 
+        Perso<lb ed="#C" n="43" break="no"/>na ut essentia, non est ibi aliquid, quod  
+        <lb ed="#C" n="44"/>sit aggregatum, &amp; individuum: est 
+        ta<lb ed="#C" n="45" break="no"/>men aliquid ibi habens similitudinem. 
+        <lb ed="#C" n="46"/>cum huiusmodi aggregato, &amp; 
+        indivi<lb ed="#C" n="47" break="no"/>duo: quia est ibi aliquid incommunica 
+        <lb ed="#C" n="48"/>bile, ut Persona, &amp; hypostasis: nec etiam 
+        <lb ed="#C" n="49"/>est ibi genus, vel species: quia Deus nec 
+        <lb ed="#C" n="50"/>ad genus trahitur, nec ad speciem, ut  
+        <lb ed="#C" n="51"/>dicituri5. de Div. nom. &amp; 7. de Trin. 
+        <lb ed="#C" n="52"/>cap. 6. tamen est ibi aliquid 
+        correspon<lb ed="#C" n="53" break="no"/>dens generi vel speciei, ut natura Divi¬ 
+        <!--148.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>na, quae est quid communicabile: unde 
+        <lb ed="#C" n="55"/>correspondet substantiae secundae, sicut  
+        <lb ed="#C" n="56"/>nypostasis correspondebat primae. Ex 
+        <lb ed="#C" n="57"/>ista prima differentia: quia in Divinis 
+        <lb ed="#C" n="58"/>non est proprie prima substantia nec 
+        se<lb ed="#C" n="59" break="no"/>cuda, oritur differetia secunda: quia 
+        sub<lb ed="#C" n="60" break="no"/>stantia prima in istis inferioribus dicitur,  
+        <lb ed="#C" n="61"/>ex eo quod habet esse &amp; subsistere. Nam 
+        <lb ed="#C" n="62"/>cum in istis inferioribus habeat res 
+        esse<lb ed="#C" n="63" break="no"/>aggregatum, nec sint ipsae naturae, quae 
+        <lb ed="#C" n="64"/>in eis existunt, non solum dicuntur esse, 
+        <lb ed="#C" n="65"/>sed etiam subsistere. In Deo autem non 
+        <lb ed="#C" n="66"/>proprie sumitur subsistere, &amp; si ibi 
+        dici<lb ed="#C" n="67" break="no"/>mus subsistere, nihil aliud sonat quam 
+        <lb ed="#C" n="68"/>esse, ut dicitur 7. de Trinit, cap. 4. &amp; 
+        <lb ed="#C" n="69"/> ideo in eodem libro cap. 5. 
+        concludi<lb ed="#C" n="70" break="no"/>tur, quod Deus non est substantia, quia 
+        <lb ed="#C" n="71"/>non substat, sed est essentia, quia est. Ex 
+        <lb ed="#C" n="72"/>ista secunda sequitur tertia: quia hic non 
+        <lb ed="#C" n="73"/>est idem subsistere, &amp; esse, sequitur quod  
+        <lb ed="#C" n="74"/>naturae in eis non sint ipsum esse, sed esse 
+        <lb ed="#C" n="75"/>accipiant ex eo quod sunt in suppositis, 
+        <lb ed="#C" n="76"/>&amp; ex eo quod supposita eis subsistunt,  
+        <lb ed="#C" n="77"/>sed in Deo ubi subsistere est esse, ibi 
+        nul<lb ed="#C" n="78" break="no"/>la compositio, natura ipsum esse est. 
+        Ex<lb ed="#C" n="79" break="no"/>ista tertia sequitur quarta: quia in rebus 
+        <lb ed="#C" n="80"/>creatis natura non est ipsum esse, sed esse 
+        <lb ed="#C" n="81"/>eius est esse, quod acquirit in supposito 
+        <lb ed="#C" n="82"/>esse sive per se esse magis competit 
+        sup<lb ed="#C" n="83" break="no"/>posito, quam naturae: &amp; ideo quia 
+        sub<lb ed="#C" n="84" break="no"/>stantia dicitur a per se esse, aggregatum 
+        <lb ed="#C" n="85"/>vel individuum dicitur magis substantia, 
+        <lb ed="#C" n="86"/>quam genus, &amp; species: propter quod 
+        <lb ed="#C" n="87"/>in 7. Metaph. negatur universalia esse 
+        <lb ed="#C" n="88"/>substantias. In Divinis autem, quia 
+        na<lb ed="#C" n="89" break="no"/>tura est ipsum esse, non magis competit 
+        <lb ed="#C" n="90"/>esse hypostasi quam naturae, &amp; ideo non 
+        <lb ed="#C" n="91"/>magis est substantia hypostasis, quam 
+        <lb ed="#C" n="92"/>natura. Ex isto quarto sequitur quintum: 
+        <lb ed="#C" n="93"/>quia non magis competit esse hypostasi 
+        <lb ed="#C" n="94"/>quam naturae, quia ibi natura est suum 
+        <lb ed="#C" n="95"/>esse, sequitur quod ad multiplicationem 
+        <lb ed="#C" n="96"/>suppositi non multiplicatur esse naturae: 
+        <lb ed="#C" n="97"/>cum natura non habeat esse ex eo quod  
+        <lb ed="#C" n="98"/>est in supposito, &amp; ita potest esse 
+        distin<lb ed="#C" n="99" break="no"/>ctio in substantia, quae est suppositum, 
+        <lb ed="#C" n="100"/>sive in substantia, quae respondet 
+        substan<lb ed="#C" n="101" break="no"/>tiae primae, quod non est distinctio in sub 
+        <lb ed="#C" n="102"/>stantia, quae est natura, sive in substantia 
+        <lb ed="#C" n="103"/>quae respondet substantiae secundae. Et  
+        <lb ed="#C" n="104"/>ex isto quinto sequitur solutio 
+        quaestio<lb ed="#C" n="105" break="no"/>nis: quia cum in rebus creatis non sit 
+        <lb ed="#C" n="106"/>aliud suppositum, nisi sit alia natura, sem 
+        <lb ed="#C" n="107"/>per quando est distinctio suppositorum, 
+        <lb ed="#C" n="108"/>est distinctio naturarum: &amp; ideo sive 
+        <lb ed="#C" n="109"/>accipiatur alietas pro substantia, quae est 
+        <!--149.xml-->
+        <pb ed="#C" n="112"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>suppositum; sive pro substantia, quae est, 
+        <lb ed="#C" n="2"/>natura, simpliciter &amp; absque 
+        distinctio<lb ed="#C" n="3" break="no"/>ne concedi debet, quando est ibi alieras 
+        <lb ed="#C" n="4"/>suppositi, quod est ibi alietas 
+        simplici<lb ed="#C" n="5" break="no"/>ter: cum ad talem alietatem sequitur  
+        <lb ed="#C" n="6"/>alietas naturae. In Deo autem non est 
+        <lb ed="#C" n="7"/>sic: quia est ibi distinctio substantiae, quae 
+        <lb ed="#C" n="8"/>stat pro supposito, absque eo quod sit 
+        <lb ed="#C" n="9"/>ibi distinctio substantiae prout stat 
+        pro<lb ed="#C" n="10" break="no"/>natura; &amp; ideo Deus Pater non genuit. 
+        <lb ed="#C" n="11"/>se Deum ratione distinctionis 
+        Persona<lb ed="#C" n="12" break="no"/>rum inter gignentem, &amp; genitum, nec 
+        <lb ed="#C" n="13"/>alium Deum ratione unitatis naturae; 
+        utra<lb ed="#C" n="14" break="no"/>que ergo negari debet, ut Magister negat.  
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e636">
+                  <lb ed="#C" n="15"/>Distinguunt: tamen aliqui hoc  
+        <lb ed="#C" n="16"/>quod dico alium; quia si tenetur 
+        substan<lb ed="#C" n="17" break="no"/>tive, tunc est locutio vera, &amp; est sensus: 
+        <lb ed="#C" n="18"/>genuit alium, qui est Deus. Si tenetur ad 
+        <lb ed="#C" n="19"/>iective sic est falsa: quia tunc est sensus: 
+        <lb ed="#C" n="20"/>genuit alium Deum, id est, genuit diver 
+        <lb ed="#C" n="21"/>sum Deum. Tamen quia loquendum 
+        <lb ed="#C" n="22"/>est ut plures, &amp; ista distinctio non sapit, 
+        <lb ed="#C" n="23"/>usitatum modum loquendi, cum 
+        Ma<lb ed="#C" n="24" break="no"/>gistro utraque neganda est. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e660">
+                  <lb ed="#C" n="25"/>Ad primum dicendum, quod alietas 
+        <lb ed="#C" n="26"/>est de ratione generationis; non alietas 
+        <lb ed="#C" n="27"/>in natura, sed alietas in Persona. Sed 
+        <lb ed="#C" n="28"/>quia cum dicitur alium Deum: ponitur 
+        <lb ed="#C" n="29"/>alietas in natura, ideo non conceditur,  
+        <lb ed="#C" n="30"/>nisi forte cum additione dicendo Deum; 
+        <lb ed="#C" n="31"/>alium in Persona. Ad secundum 
+        dicen<lb ed="#C" n="32" break="no"/>dum, quod Deus supponit ibi pro: Perso 
+        <lb ed="#C" n="33"/>na: tamen quia generare non convenit 
+        <lb ed="#C" n="34"/>naturae, sed supposito, ut dicit Damase. 
+        <lb ed="#C" n="35"/>lib. 3. cap. 4. ideo cum dico Deus 
+        gene<lb ed="#C" n="36" break="no"/>rat, ita Deus supponit pro supposito, 
+        <lb ed="#C" n="37"/>quod non supponit pro natura, propter 
+        <lb ed="#C" n="38"/>quod simpliciter conceditur. Sed 
+        iden<lb ed="#C" n="39" break="no"/>titas, &amp; alietas potest attendi ex parte 
+        <lb ed="#C" n="40"/>suppositi, &amp; ex parte naturae, &amp; quia 
+        da<lb ed="#C" n="41" break="no"/>tur intelligi alietas in natura dicendo 
+        <lb ed="#C" n="42"/>alium Deum; ideo non conceditur. Ad 
+        <lb ed="#C" n="43"/>tertium dicendum, quod licet hoc sit 
+        <lb ed="#C" n="44"/>verum in rebus, ubi distat esse &amp; natura, 
+        <lb ed="#C" n="45"/>ubi ad plurificationem suppositi sequitur 
+        <lb ed="#C" n="46"/>ubi ad plurificationem suppositi sequitur 
+        <lb ed="#C" n="47"/>plurificatio naturae: non est :tamen verum 
+        <lb ed="#C" n="48"/>in Personis Divinis. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e715">
+                  <lb ed="#C" n="49"/>Ad illud, quod ulterius quaeritur: utrum 
+        <lb ed="#C" n="50"/>genuerit se Deum? Dicendum, quod  
+        <lb ed="#C" n="51"/>non, ut patet per dicta. Propter rationes. 
+        <lb ed="#C" n="52"/>tamen notandum, quod Deus genuit. 
+        <lb ed="#C" n="53"/>se Deum tripliciter potest intelligi. Vno 
+        <lb ed="#C" n="54"/>modo ut se sit ablativi casus, &amp; tunc est 
+        <lb ed="#C" n="55"/>sensus: genuit se Deum, id est, genuit 
+        <lb ed="#C" n="56"/>Deum de se, id est, de sui substantia, Alio 
+        <lb ed="#C" n="57"/>modo se potest esse casus accusativi, &amp; 
+        <!--149.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>hoc dupliciter, uno modo, (ut sit 
+        locu<lb ed="#C" n="59" break="no"/>tio expressiva, ut dicatur Deus genuisse 
+        <lb ed="#C" n="60"/>se Deum: quia genuit Deum per 
+        om<lb ed="#C" n="61" break="no"/>nia sibi aequalem &amp; conformem, sicut  
+        <lb ed="#C" n="62"/>dicitur amicus alteri ipse, ut patet per 
+        <lb ed="#C" n="63"/>Phil. 8: Ethicor. Et in istis duobus 
+        sen<lb ed="#C" n="64" break="no"/>sibus est locutio vera: quia Pater genuit 
+        <lb ed="#C" n="65"/>Filium de substantia sua, ut patet per <name xml:id="Gi9qrR-e29454-Nd1e758" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="66"/>6. de Trin. cap. 13. Et genuit filium per 
+        <lb ed="#C" n="67"/>omnia sibi aequalem, ut patet per cundem. 
+        <lb ed="#C" n="68"/>6. de Trinit. cap. 4. &amp; 3. Propter quod  
+        <lb ed="#C" n="69"/>Filius potest dici alter ipse. Tertio 
+        mo<lb ed="#C" n="70" break="no"/>do potest intelligi genuit se Deum: quia 
+        <lb ed="#C" n="71"/>genuit eundem Persona, &amp; sic est 
+        locu<lb ed="#C" n="72" break="no"/>tio falsa: quia Nihil se ipsum generat sed 
+        sal<lb ed="#C" n="73" break="no"/>vat. Et per hoc patet solutio ad obiecta. 
+      </p>
+               <p xml:id="Gi9qrR-e29454-d1e779">
+                  <lb ed="#C" n="74"/>Ad illud quod ulterius quaerebatur  
+        <lb ed="#C" n="75"/>utrum genuit Deum, qui est Deus 
+        Pa<lb ed="#C" n="76" break="no"/>ter? Dicendum, quod, qui, aliquando 
+        <lb ed="#C" n="77"/>facit relationem simplicem, ut dicendo 
+        <lb ed="#C" n="78"/>mulier, quae damnavit, salvavit non tamen 
+        <lb ed="#C" n="79"/>fuit eadem. Persona mulieris, quae fecit 
+        <lb ed="#C" n="80"/>utrumque, sed tamen utraque mulier 
+        <lb ed="#C" n="81"/>fuit. Aliquando facit relationem 
+        perso<lb ed="#C" n="82" break="no"/>nalem; ut qui scripsit: Bucolicam, qui 
+        <lb ed="#C" n="83"/>etiam Georgicam, si accipiatur qui 
+        pri<lb ed="#C" n="84" break="no"/>mo modo sic est vera: genuit Deum, 
+        <lb ed="#C" n="85"/>qui est Deus Pater, quia gignens &amp; 
+        ge<lb ed="#C" n="86" break="no"/>nitus est Deus: &amp; verior est ista 
+        proposi<lb ed="#C" n="87" break="no"/>tio quam praemissa: quia mulier 
+        dam<lb ed="#C" n="88" break="no"/>nans, &amp; salvans non fuit una mulier, sed  
+        <lb ed="#C" n="89"/>gignens, &amp; genitus: sunt unus Deus. Si 
+        <lb ed="#C" n="90"/>autem faciat relationem, personalem, est 
+        <lb ed="#C" n="91"/>locutio falsa: quia non est eadem Perso 
+        <lb ed="#C" n="92"/>na genitoris &amp; geniti: &amp; ideo dicendum 
+        <lb ed="#C" n="93"/>est cum Magistro; quod sane &amp; prave 
+        in<lb ed="#C" n="94" break="no"/>telligi potest. Ad rationem dicendum 
+        <lb ed="#C" n="95"/>quod non semper quando negatio 
+        ne<lb ed="#C" n="96" break="no"/>gat totum, negat utrumque divisim: 
+        <lb ed="#C" n="97"/>quia non valet, non est animal album, 
+        <lb ed="#C" n="98"/>ergo non est animal. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Distinctio 20</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Distinctio 20</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="402"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f07627"><!-- l1-d20prooem -->
+            <head xml:id="Gi9qrR-f07627-Hd1e108">Distinctio 20</head>
+            <p xml:id="Gi9qrR-f07627-d1e111">
+      <!--439.xml-->
+               <pb ed="#C" n="402"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DISTTINCTIO XX 
+      <lb ed="#C" n="2"/>OSTENSO QVOD ALIQVA PERSONARVM ALIAM 
+      <lb ed="#C" n="3"/>non superat magnitudine nunc ostendit, quod alia 
+      <lb ed="#C" n="4"/>non excedit aliam potentia. 
+    </p>
+            <p xml:id="Gi9qrR-f07627-d1e129">
+      <!--439.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="5"/>NVNC ostendere &amp;c. Hic Magister A 
+      <lb ed="#C" n="6"/>ostendit esse aequalitatem in 
+      <lb ed="#C" n="7"/>Divinis quantum ad 
+      poten<lb ed="#C" n="8" break="no"/>tiam. Et duo facit: quia 1. 
+      <lb ed="#C" n="9"/>dicit esse unam potentiam 
+      <lb ed="#C" n="10"/>trium Personarum, sicut 
+      <lb ed="#C" n="11"/>unam magnitudinem: 
+      prop<lb ed="#C" n="12" break="no"/>ter quod non plus est de 
+      po<lb ed="#C" n="13" break="no"/>tentia in tribus Personis, quam in una, quod  
+      <lb ed="#C" n="14"/>ut ait <name xml:id="Gi9qrR-f07627-Nd1e157" ref="#Augustine">August,</name> auctoritatibus, &amp; rationibus 
+      <lb ed="#C" n="15"/>probat. 2. adducit rationes ad hoc 
+      ostenden<lb ed="#C" n="16" break="no"/>dum, ibi: Nhil inquantum. Ad cuius 
+      eviden<lb ed="#C" n="17" break="no"/>tiam notandum, quod tota causa, quare 
+      ali<lb ed="#C" n="18" break="no"/>qui dixerunt, in una Persona maiorem esse po 
+      <lb ed="#C" n="19"/>tentiam, quam in alia, utputa in Patre, quam 
+      <lb ed="#C" n="20"/>in Filio, est: quia Filius est a Patre: unde 
+      <lb ed="#C" n="21"/>duo facit: quia 1. adducit rationem ad osten 
+      <lb ed="#C" n="22"/>dendum Filium esse aequalem Patri: quia om 
+      <lb ed="#C" n="23"/>nia, quae habet Pater, accepit Filius: habet 
+      <lb ed="#C" n="24"/>ergo Filius omnipotentiam, ut Pater. 2. 
+      ad<lb ed="#C" n="25" break="no"/>ducit dictum eorum, qui negant, Filium 
+      aeque<lb ed="#C" n="26" break="no"/>potentem Patri, ibi: Sed inquis. Circa quod 
+      <lb ed="#C" n="27"/>duo facit: quia 1. facit, quod dictum est. 2. 
+      <lb ed="#C" n="28"/>solvit ad obiectionem eorum, ibi: Sed sorre. 
+      Cir<lb ed="#C" n="29" break="no"/>ca primum duo facit: quia 1. adducit dictum 
+      <lb ed="#C" n="30"/>eorum, qui dicebant Filium esse minorem 
+      <lb ed="#C" n="31"/>Patre: quia a Patre procedit, dicens: Genitum 
+      <lb ed="#C" n="32"/>non esse minorem gignente: eo quod omnia accepit 
+      <lb ed="#C" n="33"/>genitus, quae habet gignens. 2. adducit 
+      ratio<lb ed="#C" n="34" break="no"/>nes alias ad probandum Filium non esse mino 
+      <!--439.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="35"/>rem Patre, ibi: Item alio. Circa quod duo 
+      fa<lb ed="#C" n="36" break="no"/>cit, secundum quod duas rationes adducit. 
+      Pri<lb ed="#C" n="37" break="no"/>ma talis: aut Pater noluit gignere Filium sibi 
+      <lb ed="#C" n="38"/>aequalem, aut voluit? Si noluit, invidus fuit.  
+      <lb ed="#C" n="39"/>Si voluit, &amp; non potuit, infirmus fuit; sed cum 
+      <lb ed="#C" n="40"/>Pater nec sit invidus, nec infirmus, vel im 
+      <lb ed="#C" n="41"/>potens, erpo voluit, &amp; potuit, igitur genuit.  
+      <lb ed="#C" n="42"/>Secunda est per similitudinem: nam pater car 
+      <lb ed="#C" n="43"/>nalis generat filium, quam meliorem potest, 
+      <lb ed="#C" n="44"/>ergo Pater Celestis multo fortius: quia magis 
+      <lb ed="#C" n="45"/>diligit Filium suum, quam aliquis pater 
+      car<lb ed="#C" n="46" break="no"/>nalis, genuit Filium, quam meliorem potuit, 
+      <lb ed="#C" n="47"/>sed non potuit eum gignere meliorem se, cum 
+      <lb ed="#C" n="48"/>ipse sit Deus: ergo genuit aequalem sibi. 
+      Se<lb ed="#C" n="49" break="no"/>cunda ibi: Hoc autem Deinde cum dicit: Sed 
+      <lb ed="#C" n="50"/>forte. Solvit ad dictum eorum, qui dicebant  
+      <lb ed="#C" n="51"/>Filium esse minorem Patre: quia est a Patre, 
+      <lb ed="#C" n="52"/>Et duo facit: quia 1. solvit per <name xml:id="Gi9qrR-f07627-Nd1e247" ref="#Augustine">Aug.</name> dicens: 
+      <lb ed="#C" n="53"/>quod ex eo, quod una Persona est ab alia, non 
+      <lb ed="#C" n="54"/>ostenditur inaequalitas, sed ordo raturae, non 
+      <lb ed="#C" n="55"/>quo unus est prius altero, sed quo alter est 
+      <lb ed="#C" n="56"/>ex altero: nam ad aequalitatem pertinet 
+      quae<lb ed="#C" n="57" break="no"/>stio qualis, aut quantus sit aliquis: ad 
+      origi<lb ed="#C" n="58" break="no"/>nem autem, non ad aequalitatem, quis ex quo 
+      <lb ed="#C" n="59"/>sit. 2. recolligitex omnibus dictis in 
+      praesen<lb ed="#C" n="60" break="no"/>ti distinctione, &amp; in praecedenti, quod est, 
+      <lb ed="#C" n="61"/>aequalitas in Divinis quantum ad aeternitatem, 
+      <lb ed="#C" n="62"/>magnitudinem, &amp; potestatem, in quo 
+      termi<lb ed="#C" n="63" break="no"/>natur sententia lectionis &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

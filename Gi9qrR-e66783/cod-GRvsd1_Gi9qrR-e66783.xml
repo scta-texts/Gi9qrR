@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="248"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e66783"><!-- l1-d13q1 -->
+            <head xml:id="Gi9qrR-e66783-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e66783-d1e111">
+      <!--285.xml-->
+               <cb ed="#C" n="f"/>
+               <lb ed="#C" n="88"/>QVAESTIO I. 
+      <lb ed="#C" n="89"/>De Procossionibus Divinis.
+    </p>
+            <p xml:id="Gi9qrR-e66783-d1e122">
+               <lb ed="#C" n="90"/>QUIA intentio Magistri in praesenti 
+      <lb ed="#C" n="91"/>ctistinctione versatur citca 
+      pro<lb ed="#C" n="92" break="no"/>cessionem Personarum, &amp; cir 
+      <!--285.xml-->
+      <cb ed="#C" n="g"/>
+               <lb ed="#C" n="93"/>ca nominationem processionis Spi¬itea 
+      <lb ed="#C" n="94"/>Sancti: utrum generatio dici debeas? 
+      <lb ed="#C" n="95"/>Ideo de his duobus quaeremus. Circa 
+      <lb ed="#C" n="96"/>primum quaoruntur tria. Primo: utrum 
+      <lb ed="#C" n="97"/>sit, processio? Secundo: de differentia 
+      <lb ed="#C" n="98"/>processionum Divinarum. Tertio: de 
+      <lb ed="#C" n="99"/>numero eartim. 
+    </p>
+            <div xml:id="Gi9qrR-e66783-Dd1e151">
+               <head xml:id="Gi9qrR-e66783-Hd1e153">Articulus 1</head>
+               <p xml:id="Gi9qrR-e66783-d1e156">
+        <!--286.xml-->
+                  <pb ed="#C" n="249"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ARTICVLUS I. 
+        <lb ed="#C" n="2"/>Vtrum in Divinis sit processio?
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e169">
+                  <lb ed="#C" n="3"/>AD 1. sic proceditur. Videtur quod  
+        <lb ed="#C" n="4"/>in Divinis non sit processio: quia 
+        <lb ed="#C" n="5"/>procedere idem est, quod procul 
+        ce<lb ed="#C" n="6" break="no"/>dere, ut ipsum nomen insinuat: sed 
+        ni<lb ed="#C" n="7" break="no"/>hil tale est in Divinis, cum Personae 
+        si<lb ed="#C" n="8" break="no"/>bi insint propter unitatem essentiae, 
+        er<lb ed="#C" n="9" break="no"/>go &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e187">
+        Praeterea: procedere proprie 
+        <lb ed="#C" n="10"/>reperitur in motu locali, ergo vel in 
+        <lb ed="#C" n="11"/>Divinis non est processio, vel est ibi, 
+        <lb ed="#C" n="12"/>secundum metaphoram, &amp; translati 
+        <lb ed="#C" n="13"/>tive. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e198">
+        Praeterea: quod procedit ab 
+        ali<lb ed="#C" n="14" break="no"/>quo causatur ab illo, sed causa est 
+        <lb ed="#C" n="15"/>ad cuius esse sequitur aliud, cum una 
+        <lb ed="#C" n="16"/>Persona non sit aliud ab alia: quia 
+        Om<lb ed="#C" n="17" break="no"/>nes sunt unum secundum naturam, &amp; essentiam 
+        <lb ed="#C" n="18"/>ut habitum est per <name xml:id="Gi9qrR-e66783-Nd1e211" ref="#Augustine">Aug.</name> de Fide ad 
+        Pe<lb ed="#C" n="19" break="no"/>trum, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e218">
+        Praeterea: processio 
+        <lb ed="#C" n="20"/>semper est ab aliquo principio, sed etiam 
+        <lb ed="#C" n="21"/>principium in Divinis non ponimus 
+        secun<lb ed="#C" n="22" break="no"/>dum Anselmum in de Proces. Spiritus 
+        Sa<lb ed="#C" n="23" break="no"/>cti, qui vult in Divinis non esse princi¬ 
+        <lb ed="#C" n="24"/>lium, nec causam, 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e231">
+                  <lb ed="#C" n="25"/>In contrarium est Mag. in littera: 
+        <lb ed="#C" n="26"/>qui dicit processionem esse in Divinis. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e238">
+                  <lb ed="#C" n="27"/>Praeterea: secundum <name xml:id="Gi9qrR-e66783-Nd1e242" ref="#Augustine">Aug.</name> Trinitatem 
+        <lb ed="#C" n="28"/>increatam non possumus ita bene 
+        in<lb ed="#C" n="29" break="no"/>telligere, sicut per imaginem 
+        Trinita<lb ed="#C" n="30" break="no"/>tis in nobis. Sed in nobis est Processio 
+        <lb ed="#C" n="31"/>verbi &amp; amoris, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e255">
+                  <lb ed="#C" n="32"/>RESOLVTIO. 
+        <lb ed="#C" n="33"/>In Divinis sunt Processiones perfectae, &amp; 
+        <lb ed="#C" n="34"/>sine motu.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e264">
+                  <lb ed="#C" n="35"/>REspondeo: quidam sic dicunt, quod  
+        <lb ed="#C" n="36"/>procedere per se, &amp; 1. reperitur  
+        <lb ed="#C" n="37"/>in motu locali; postmodum ex motul 
+        <lb ed="#C" n="38"/>locali transumptum est ad alia, sicut 
+        <lb ed="#C" n="39"/>hoc nomen distantia, prius reperitur in 
+        <lb ed="#C" n="40"/>motu locali; postea transumitur ad 
+        <lb ed="#C" n="41"/>alia, ut ad contraria: dicuntur enim 
+        <lb ed="#C" n="42"/>contraria, quae maxime a se distant, ita 
+        <lb ed="#C" n="43"/>processio transumpta est a motu locali 
+        <lb ed="#C" n="44"/>ad alios motus, ut dicatur aliquid 
+        pro<lb ed="#C" n="45" break="no"/>cedere ab albedine in nigredinem. 
+        Vl<lb ed="#C" n="46" break="no"/>terius transumpta est ad omnem 
+        oppo<lb ed="#C" n="47" break="no"/>sitionem, sive sit operatio transiens in 
+        <lb ed="#C" n="48"/>materiam extrinsecam, sive non; sicut  
+        <!--286.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="49"/>dicimus, quod splendor procedit a 
+        So<lb ed="#C" n="50" break="no"/>le, &amp; calor ab igne quantum ad ea, 
+        <lb ed="#C" n="51"/>quae transeunt in extrinsecam 
+        mate<lb ed="#C" n="52" break="no"/>riam. Et quod intelligere procedit ab 
+        <lb ed="#C" n="53"/>intelligente, amor ab amante quantum 
+        <lb ed="#C" n="54"/>ad ea, quae non transeunt: &amp; secundum 
+        <lb ed="#C" n="55"/>istam viam ulterius transumptum est ad 
+        <lb ed="#C" n="56"/>omne illud, quod respicit aliud 
+        tan<lb ed="#C" n="57" break="no"/>quam principium, &amp; secundum hoc  
+        <lb ed="#C" n="58"/>dicimus Filium procedere a Patre: quia 
+        <lb ed="#C" n="59"/>Pater est principium Filij, &amp; Spiritum 
+        <lb ed="#C" n="60"/>Sanctum ab utroque: quia Pater, &amp; 
+        Fi<lb ed="#C" n="61" break="no"/>lius sunt principium eius. Sed ista 
+        solun<lb ed="#C" n="62" break="no"/>tio non recte vadit ad quaestionem: 
+        <lb ed="#C" n="63"/>quia nos non quaerimus de translatione 
+        <lb ed="#C" n="64"/>nominum, sed dubitamus utrum ibi  
+        <lb ed="#C" n="65"/>sit processio Personarum 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e338">
+                  <lb ed="#C" n="66"/>Propter quod notandum, quod, &amp; 
+        <lb ed="#C" n="67"/>sicut supra tactum est, in Divinis est plu 
+        <lb ed="#C" n="68"/>ralitas Personarum aeque simplicium 
+        <lb ed="#C" n="69"/>Rursum habitum est duo supposita 
+        <lb ed="#C" n="70"/>aeque simplicia distinctionem inter se 
+        <lb ed="#C" n="71"/>habere non posse sine processione unius 
+        <lb ed="#C" n="72"/>ab altero, igitur necesse est ibi esse 
+        ori<lb ed="#C" n="73" break="no"/>ginem, &amp; processionem; quomodo 
+        <lb ed="#C" n="74"/>autem talem processionem intelligere 
+        <lb ed="#C" n="75"/>possimus. Notandum, quod 
+        proces<lb ed="#C" n="76" break="no"/>io in Divinis naturalis est secundum 
+        <lb ed="#C" n="77"/>Boetium, vel substantialis: quia per 
+        <lb ed="#C" n="78"/>quamlibet processionem ibi 
+        commu<lb ed="#C" n="79" break="no"/>nicatur natura, sive substantia, si 
+        igi<lb ed="#C" n="80" break="no"/>tur illa processio est naturalis, cum 
+        na<lb ed="#C" n="81" break="no"/>ura illa sit intellectualis, nunquam  
+        <lb ed="#C" n="82"/>adeo bene illam processionem 
+        intelli<lb ed="#C" n="83" break="no"/>gere poterimus, sicut per ea, quae 
+        vi<lb ed="#C" n="84" break="no"/>demus procedere in intellectuali natum 
+        <lb ed="#C" n="85"/>ra: unde <name xml:id="Gi9qrR-e66783-Nd1e383" ref="#Augustine">Aug.</name> 15. de Trin. cap. ulti 
+        <lb ed="#C" n="86"/>mo ait: quod Ad illam summam, &amp; inest 
+        <lb ed="#C" n="87"/>abilem, incorpoream, immutahilem que 
+        natu<lb ed="#C" n="88" break="no"/>ram per intelligentiam ut cumque cernendam 
+        <lb ed="#C" n="89"/>nusquam se melius, regente dumtaxat Fidei re, 
+        <lb ed="#C" n="90"/>gula acies humanae mentis exercet, quam in 
+        <lb ed="#C" n="91"/>eo quod ipse homo in sua natura melius ceteris, 
+        <lb ed="#C" n="92"/>animalibus habet. Ex quibus verbis collis 
+        <lb ed="#C" n="93"/>igitur, quod per ea, quae sunt in 
+        men<lb ed="#C" n="94" break="no"/>te nostra, qua cetera animalia 
+        excelli<lb ed="#C" n="95" break="no"/>mus, intelligere possumus, quae in 
+        Di<lb ed="#C" n="96" break="no"/>vinis existunt. Ideo si volumus 
+        intelli<lb ed="#C" n="97" break="no"/>gere generationem Filij, nunquam eam 
+        <lb ed="#C" n="98"/>adeo bene intelligemus, sicut per ema 
+        <lb ed="#C" n="99"/>nationem verbi ab intelligente: &amp; 
+        pro<lb ed="#C" n="100" break="no"/>cessionem Spiritus Sancti intelligere 
+        <lb ed="#C" n="101"/>poterimus per emanationem amoris 
+        <lb ed="#C" n="102"/>ab amante. Advertendum tamen, quod 
+        <lb ed="#C" n="103"/>in his emanationibus quantum ad 
+        di<lb ed="#C" n="104" break="no"/>stinctionem est modus contrarius. Nam 
+        <!--287.xml-->
+        <pb ed="#C" n="250"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>verbum creatum ab intelligente est 
+        di<lb ed="#C" n="2" break="no"/>stinctum secundum naturam, non se 
+        <lb ed="#C" n="3"/>cundum hypostasim: nam alia est 
+        na<lb ed="#C" n="4" break="no"/>tura ver bi, alia natura intelligentis, cum 
+        <lb ed="#C" n="5"/>alia sit natura accidentis, &amp; natura 
+        <lb ed="#C" n="6"/>substantiae; non est tamen alia 
+        hyposta<lb ed="#C" n="7" break="no"/>sis verbi, &amp; intelligentis: quia verbo 
+        <lb ed="#C" n="8"/>nostro non respondet hypostasis, cum 
+        <lb ed="#C" n="9"/>non sit quid per se subsistens. In Verbo 
+        <lb ed="#C" n="10"/>Divino est modus conversus: quia illud 
+        <lb ed="#C" n="11"/>Verbum a Persona, a qua emanat, non 
+        <lb ed="#C" n="12"/>est distinctum in natura, sed in 
+        supposi<lb ed="#C" n="13" break="no"/>to: quia eadem est natura omnium 
+        <lb ed="#C" n="14"/>trium Personarum, non eadem 
+        hypo<lb ed="#C" n="15" break="no"/>stasis, &amp; istam differentiam dat Damas 
+        <lb ed="#C" n="16"/>1. lib. cap. 6. dicens: Verbum Divinum 
+        <lb ed="#C" n="17"/>esse quid subsistens, &amp; hybostaticum; verbum 
+        <lb ed="#C" n="18"/>nostrum non esse quid subsistens, nec habere 
+        <lb ed="#C" n="19"/>ppostasim. Et sicut diximus de Verbo 
+        <lb ed="#C" n="20"/>Divino ad verbum nostrum, sic 
+        intelli<lb ed="#C" n="21" break="no"/>gendum est de Spiritu Sancto per 
+        com<lb ed="#C" n="22" break="no"/>arationem ad amorem nostrum. Ex 
+        <lb ed="#C" n="23"/>quo apparet, quod procedere magis 
+        <lb ed="#C" n="24"/>proprie dicitur in Divinis respectu 
+        Per<lb ed="#C" n="25" break="no"/>sonarum procedentium, quam in 
+        no<lb ed="#C" n="26" break="no"/>bis respectu amoris &amp; verbi: quia 
+        se<lb ed="#C" n="27" break="no"/>cundum Damasc. 3. lib. cap. 4. 
+        gene<lb ed="#C" n="28" break="no"/>rari non est naturae, sed hypostasis. 
+        Cun<lb ed="#C" n="29" break="no"/>ergo procedens sit quid distinctum ab 
+        <lb ed="#C" n="30"/>eo, de quo procedit, tanto verius 
+        pro<lb ed="#C" n="31" break="no"/>essio erit in Deo quam in nobis, 
+        quan<lb ed="#C" n="32" break="no"/>to procedere magis competit 
+        hyposta<lb ed="#C" n="33" break="no"/>n quam naturae, cum ibi Persona 
+        pro<lb ed="#C" n="34" break="no"/>edens a suo principio sit distincta se 
+        <lb ed="#C" n="35"/>cundum hypostasim. In nobis autem 
+        <lb ed="#C" n="36"/>verbum, &amp; amor non sunt per se 
+        sub<lb ed="#C" n="37" break="no"/>istentes, &amp; habentes hypostasim. Patet 
+        <lb ed="#C" n="38"/>igitur, quod necesse est ponere 
+        proces<lb ed="#C" n="39" break="no"/>sionem in Divinis: quia illa processio 
+        <lb ed="#C" n="40"/>intelligenda est secundum modum in 
+        <lb ed="#C" n="41"/>tellectualis naturae, &amp; quod ibi 
+        proces<lb ed="#C" n="42" break="no"/>sio magis proprie reperitur, quam in 
+        <lb ed="#C" n="43"/>natura intellectuali creata. Sed prop 
+        <lb ed="#C" n="44"/>ter argumenta notandum, quod quia 
+        <lb ed="#C" n="45"/>Deus est actus purus, sumitur in eo ratiol  
+        <lb ed="#C" n="46"/>speciei sine ratione generis, propter 
+        <lb ed="#C" n="47"/>quod est in ipso sapientia sine 
+        qualita<lb ed="#C" n="48" break="no"/>te, &amp; magnitudo sine quantitate, ita est 
+        <lb ed="#C" n="49"/>ibi processio sine motu. Ideo quidquid 
+        <lb ed="#C" n="50"/>consequitur processio ex motu, ibi non 
+        <lb ed="#C" n="51"/>ponimus: idcirco distantiam, &amp; 
+        se<lb ed="#C" n="52" break="no"/>parationem, &amp; talia ibi non 
+        pone<lb ed="#C" n="53" break="no"/>mus. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e551">
+                  <lb ed="#C" n="54"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="55" break="no"/>cendum, quod procul cedere, &amp; separari 
+        <lb ed="#C" n="56"/>non competit processioni, nisi ratione 
+        <!--287.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>qua motus, &amp; ideo talia ponere in 
+        Di<lb ed="#C" n="58" break="no"/>vinis non oportet.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e569">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="59"/>quod sicut ponimus ibi speciem sine 
+        <lb ed="#C" n="60"/>genere, etiam proprie, ut sapientiam sine 
+        <lb ed="#C" n="61"/>qualitate, ita ibi ponere possumus 
+        pro<lb ed="#C" n="62" break="no"/>cessionem sine motu. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e580">
+        Ad 3. dicendum, 
+        <lb ed="#C" n="63"/>quod ad ponendum processionem in 
+        <lb ed="#C" n="64"/>Divinis non oportet ibi ponere causam, 
+        <lb ed="#C" n="65"/>sed sufficit ibi ponere rationem 
+        princi<lb ed="#C" n="66" break="no"/>pij.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e591">
+        Ad 4. dicendum, quod Anselmus 
+        <lb ed="#C" n="67"/>intelligit de principio durationis, non 
+        <lb ed="#C" n="68"/>de principio originis, quod apparet 
+        ex<lb ed="#C" n="69" break="no"/>verbis suis, ait enim: Non debet dici Deum 
+        <lb ed="#C" n="70"/>habere principium: quia principium non est 
+        ni<lb ed="#C" n="71" break="no"/>si rei incipientis. Sed quia sufficit ibi 
+        po<lb ed="#C" n="72" break="no"/>nere principium originis, ut salvemus 
+        <lb ed="#C" n="73"/>ibi processionem, auctoritas 
+        Anselmi<lb ed="#C" n="74" break="no"/>non est contra nos. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e66783-Dd1e612">
+               <head xml:id="Gi9qrR-e66783-Hd1e614">Articulus 2</head>
+               <p xml:id="Gi9qrR-e66783-d1e617">
+                  <lb ed="#C" n="75"/>ARTICVLUS II. 
+        <lb ed="#C" n="76"/>Vtrum in Divinis sint plures processiones rea¬ 
+        <lb ed="#C" n="77"/>liter differentes?
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e626">
+                  <lb ed="#C" n="78"/>Ecundo quaeritur: utrum in 
+        Divi<lb ed="#C" n="79" break="no"/>nis sint plures processiones realiter 
+        <lb ed="#C" n="80"/>differentes? Et videtur, quod non 
+        <lb ed="#C" n="81"/>quia, ut habitum est, relationes similes 
+        <lb ed="#C" n="82"/>in Divinis non plurificantur. Sed aeque 
+        <lb ed="#C" n="83"/>videtur processio processioni similis, ut  
+        <lb ed="#C" n="84"/>filiatio filiationi. Sed ibi non possunt; 
+        <lb ed="#C" n="85"/>esse plures filiationes, ergo nec plures 
+        <lb ed="#C" n="86"/>processiones.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e648">
+        Praeterea: si ibi sunt 
+        pro<lb ed="#C" n="87" break="no"/>cessiones plures, hoc non est, nisi quia 
+        <lb ed="#C" n="88"/>una accipitur per modum voluntatis, 
+        <lb ed="#C" n="89"/>alia per modum naturae. Sed cum 
+        vo<lb ed="#C" n="90" break="no"/>untas sit respectu eorum, quae possunt; 
+        <lb ed="#C" n="91"/>esse, &amp; non esse, nulla processio erit 
+        <lb ed="#C" n="92"/>ibi per modum voluntatis, igitur solum 
+        <lb ed="#C" n="93"/>erit ibi processio per modum naturae. 
+        <lb ed="#C" n="94"/>Praeterea: Vnus est modus communicandi 
+        na<lb ed="#C" n="95" break="no"/>turam in natura, ut vult Comm. super 
+        <lb ed="#C" n="96"/>8. Phys. Cum igitur per omnem 
+        pro<lb ed="#C" n="97" break="no"/>cessionem in Divinis communicatur 
+        <lb ed="#C" n="98"/>natura, non erit ibi nisi una processio. 
+        <lb ed="#C" n="99"/>Praeterea: in Divinis non sunt nisi 
+        sub<lb ed="#C" n="100" break="no"/>stantia, &amp; relatio, si ergo processiones 
+        <lb ed="#C" n="101"/>differunt, vel differunt ratione 
+        substan<lb ed="#C" n="102" break="no"/>iae, vel ratione relationum? Ratione 
+        <lb ed="#C" n="103"/>substantiae non: quia secundum 
+        abso<lb ed="#C" n="104" break="no"/>luta non est distinctio. Propter relatio¬ 
+        <!--288.xml-->
+        <pb ed="#C" n="251"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>nes non: quia secundum modum 
+        in<lb ed="#C" n="2" break="no"/>telligendi relationes sequuntur ad 
+        pro<lb ed="#C" n="3" break="no"/>cessiones; non ergo facient 
+        distinctio<lb ed="#C" n="4" break="no"/>nem in eis, cum posteriora prioribus 
+        <lb ed="#C" n="5"/>necessitatem non imponant.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e707">
+        Praeterea: 
+        <lb ed="#C" n="6"/>distinctio in Divinis est per opposita; 
+        <lb ed="#C" n="7"/>sed processiones ad se invicem opposi 
+        <lb ed="#C" n="8"/>tionem non habent, ergo realiter non 
+        <lb ed="#C" n="9"/>differunt 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e719">
+                  <lb ed="#C" n="10"/>In contrarium est: quia si 
+        proces<lb ed="#C" n="11" break="no"/>sio Spiritus Sancti esset processio Filij 
+        <lb ed="#C" n="12"/>Spiritus Sanctus esset Filius; cum erga 
+        <lb ed="#C" n="13"/>realiter distinguatur Spiritus a Filio 
+        <lb ed="#C" n="14"/>realiter differunt processiones eorum
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e732">
+                  <lb ed="#C" n="15"/>Praeterea: Mag. in littera concedit 
+        ge<lb ed="#C" n="16" break="no"/>nerationem Filij esse processionem, &amp; i 
+        <lb ed="#C" n="17"/>tamen ostendit generationem Filij esse ¬ 
+        <lb ed="#C" n="18"/>aliam a processione Spiritus S. sed hoc  
+        <lb ed="#C" n="19"/>non esset, nisi essent ibi plures 
+        processio<lb ed="#C" n="20" break="no"/>nes, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e748">
+                  <lb ed="#C" n="21"/>RESOLVTIO. 
+        <lb ed="#C" n="22"/>Processiones Divinae, secundum quod relatio¬  
+        <lb ed="#C" n="23"/>nes differunt, sunt realiter diversae. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e757">
+                  <lb ed="#C" n="24"/>REspondeo: quidam sic dicunt, quod 
+        <lb ed="#C" n="25"/>Din Divinis sunt plures processio 
+        <lb ed="#C" n="26"/>nes propter pluralitatem modorum 
+        <lb ed="#C" n="27"/>procedendi: quia est ibi reperire 
+        pro<lb ed="#C" n="28" break="no"/>cessionem per modum naturae, &amp; 
+        pe<lb ed="#C" n="29" break="no"/>modum voluntatis. Sed illud stare 
+        <lb ed="#C" n="30"/>non potest: quia natura, &amp; voluntas 
+        <lb ed="#C" n="31"/>sola ratione differunt in Divinis, ideo 
+        <lb ed="#C" n="32"/>propter hoc processiones ibi realiter 
+        <lb ed="#C" n="33"/>differre non poterunt. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e781">
+                  <lb ed="#C" n="34"/>Praeterea: ostensum fuit, quod 
+        Spi<lb ed="#C" n="35" break="no"/>ritus Sanctus non distingueretur a Filio 
+        <lb ed="#C" n="36"/>si ab eo non emanaret, licet 
+        competa<lb ed="#C" n="37" break="no"/>ei procedere per modum voluntatis; 
+        Fi<lb ed="#C" n="38" break="no"/>lio autem per modum naturae: propter hoc 
+        <lb ed="#C" n="39"/>isti iidem aliter dixerunt, quod 
+        proces<lb ed="#C" n="40" break="no"/>siones in Divinis distinguuntur, eo quod 
+        <lb ed="#C" n="41"/>una est ab uno, alia est a pluribus: quia 
+        <lb ed="#C" n="42"/>gneratio Filij est a solo Patre, 
+        proces<lb ed="#C" n="43" break="no"/>sio Spiritus Sancti est a Patre &amp; Filio 
+        <lb ed="#C" n="44"/>&amp; ex hoc sequitur unam ab alia 
+        reali<lb ed="#C" n="45" break="no"/>ter esse distinctam. Sed sic iuvant se cum 
+        <lb ed="#C" n="46"/>eo, quod non est per se: quia Spiritus 
+        <lb ed="#C" n="47"/>Sanctus procedit a Patre &amp; Filio non 
+        <lb ed="#C" n="48"/>in eo quod plures, sed in eo quod unum, ut  
+        <lb ed="#C" n="49"/>ostendit Anselmus in de Processione 
+        <lb ed="#C" n="50"/>Spiritus Sancti: &amp; procedere ab uno 
+        <lb ed="#C" n="51"/>&amp; a pluribus in eo quod unum, per se 
+        <lb ed="#C" n="52"/>non habent differentiam. Propter hod 
+        <lb ed="#C" n="53"/>ijdem ad hoc dixerunt aliter, quod hu¬ 
+        <!--288.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>iusmodi processiones distinguuntur  
+        <lb ed="#C" n="55"/>propter ordinem, ex eo quod velle 
+        ha<lb ed="#C" n="56" break="no"/>bet ordinem ad intelligere: quia non 
+        <lb ed="#C" n="57"/>potest intelligi, quod in aliquo sit 
+        vel<lb ed="#C" n="58" break="no"/>le, nisi ei insit intelligere, sequitur 
+        pro<lb ed="#C" n="59" break="no"/>cessionem Spiritus Sancti, quae est per 
+        <lb ed="#C" n="60"/>modum voluntatis, esse distinctam a 
+        <lb ed="#C" n="61"/>processione Filij, quae est per modum 
+        <lb ed="#C" n="62"/>intellectus. Sed nec istud sufficit: quia 
+        <lb ed="#C" n="63"/>talis ordo realis esse non potest, cum 
+        <lb ed="#C" n="64"/>intelligere a velle realiter non differat. 
+        <lb ed="#C" n="65"/>Quod si dicatur inter intelligere, &amp; velle 
+        <lb ed="#C" n="66"/>realem distinctionem, vel ordinem non 
+        <lb ed="#C" n="67"/>esse; sed inter processionem per modum 
+        <lb ed="#C" n="68"/>intellectus, &amp; per modum voluntatis, 
+        <lb ed="#C" n="69"/>petitur quod est in principio de hoc  
+        <lb ed="#C" n="70"/>enim quaerimus, utrum processiones 
+        <lb ed="#C" n="71"/>huiusmodi sint distinctae. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e870">
+                  <lb ed="#C" n="72"/>Ideo ijdem quartam causam 
+        conati<lb ed="#C" n="73" break="no"/>sunt assignare: quia huiusmodi 
+        proces<lb ed="#C" n="74" break="no"/>siones, cum videantur importare 
+        que<lb ed="#C" n="75" break="no"/>dam motum, &amp; motus recipiant speciem 
+        <lb ed="#C" n="76"/>a terminis, distinguuntur, ut earum 
+        <lb ed="#C" n="77"/>termini sunt distincti. Sed nec illud 
+        suf<lb ed="#C" n="78" break="no"/>ficit: nam terminus in processionibus 
+        <lb ed="#C" n="79"/>dupliciter potest sumi, uno modo ip 
+        <lb ed="#C" n="80"/>sa Persona procedens, alio ipsa natura 
+        <lb ed="#C" n="81"/>per processionem communicata tenet 
+        <lb ed="#C" n="82"/>rationem termini, secundum quod su 
+        <lb ed="#C" n="83"/>perius ostensum fuit. Cum dicitur, quod 
+        <lb ed="#C" n="84"/>motus distinguitur penes terminos, ad 
+        <lb ed="#C" n="85"/>quos est motus, non est intelligendum 
+        <lb ed="#C" n="86"/>de termino secundum quod supposit: 
+        <lb ed="#C" n="87"/>habet rationem termini; sed secundum 
+        <lb ed="#C" n="88"/>quod forma, vel natura: nam dealbari 
+        <lb ed="#C" n="89"/>a denigrari specie differt, sed non 
+        ra<lb ed="#C" n="90" break="no"/>tione terminorum, ut suppositum 
+        ha<lb ed="#C" n="91" break="no"/>bet rationem termini, sed ut forma:nam 
+        <lb ed="#C" n="92"/>duo supposita eiusdem speciei his 
+        moti<lb ed="#C" n="93" break="no"/>bus mutari possunt, ut Sortes &amp; 
+        Cal<lb ed="#C" n="94" break="no"/>lias, &amp; duo supposita diversorum 
+        gene<lb ed="#C" n="95" break="no"/>rum, ut homo, &amp; lapis: quod si 
+        Sor<lb ed="#C" n="96" break="no"/>tes albatur, &amp; Callias denigratur, non 
+        <lb ed="#C" n="97"/>erunt huiusmodi motus eiusdem 
+        spe<lb ed="#C" n="98" break="no"/>ciei: quia supposita mobilia in specie 
+        <lb ed="#C" n="99"/>conveniunt, nec diversorum generum, 
+        <lb ed="#C" n="100"/>si supposita, quibus competunt tales 
+        <lb ed="#C" n="101"/>motus, genere differrent. Tota igitur 
+        <lb ed="#C" n="102"/>causa, quare sic distinguuntur dicti 
+        mo<lb ed="#C" n="103" break="no"/>tus, est: quia albedo &amp; nigredo, per quae 
+        <lb ed="#C" n="104"/>huiusmodi motus acquiruntur, specie 
+        <lb ed="#C" n="105"/>differunt: cum igitur per omnem 
+        pro<lb ed="#C" n="106" break="no"/>cessionem in Divinis communicetur 
+        <lb ed="#C" n="107"/>natura, secundum isum modum 
+        di<lb ed="#C" n="108" break="no"/>cendi non erit nisi una processio in 
+        Di<lb ed="#C" n="109" break="no"/>vinis. 
+        <!--289.xml-->
+        <pb ed="#C" n="252"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Propter hoc notandum, quod tota 
+        <lb ed="#C" n="2"/>distinctio in Divinis per relationes 
+        su<lb ed="#C" n="3" break="no"/>mitur, ut patet per <name xml:id="Gi9qrR-e66783-Nd1e967" ref="#Augustine">Aug.</name> in multis 
+        lo<lb ed="#C" n="4" break="no"/>cis: ideo si processiones in Divinis 
+        reali<lb ed="#C" n="5" break="no"/>ter distinctae sunt, hoc esse non 
+        pote<lb ed="#C" n="6" break="no"/>rit, nisi vel ratione, qua relationes sunt,  
+        <lb ed="#C" n="7"/>vel secundum quod ad relationes 
+        secun<lb ed="#C" n="8" break="no"/>dum modum nostrum intelligendi 
+        ordi<lb ed="#C" n="9" break="no"/>nantur: in quibus utroque modo 
+        di<lb ed="#C" n="10" break="no"/>stinctionem ponere possumus. Ad cuius 
+        <lb ed="#C" n="11"/>evidentiam advertendum, quod in 
+        Di<lb ed="#C" n="12" break="no"/>vinis supposita per se &amp; realiter 
+        distin<lb ed="#C" n="13" break="no"/>guuntur per relationes oppositas, 
+        oppo<lb ed="#C" n="14" break="no"/>sitae autem relationes inquantum sunt,  
+        <lb ed="#C" n="15"/>ea, per quae alia differunt, se ipsis 
+        di<lb ed="#C" n="16" break="no"/>stinctae sunt. Sed quomodo ibi origines  
+        <lb ed="#C" n="17"/>etiam, ut relationes sunt, habent esse 
+        <lb ed="#C" n="18"/>distinctum, dubium est, cum 
+        relatio<lb ed="#C" n="19" break="no"/>nes disparatas importare videatur. Ideo 
+        <lb ed="#C" n="20"/>notandum, quod nisi ea, in quibus 
+        ta<lb ed="#C" n="21" break="no"/>les relationes sunt, realiter differrent, 
+        <lb ed="#C" n="22"/>ipsae realiter distincte non essent. 
+        Rela<lb ed="#C" n="23" break="no"/>tionem autem esse in aliquo dupliciter 
+        <lb ed="#C" n="24"/>dintelligi potest, vel sicut in radice &amp; 
+        <lb ed="#C" n="25"/>fundamento, vel tanquam in supposi¬ 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1020">
+                  <lb ed="#C" n="26"/>to. Primo modo dicimus similitudinem 
+        <lb ed="#C" n="27"/>esse in albedine. Secundo modo in 
+        si<lb ed="#C" n="28" break="no"/>mili. Si ergo relationes disparatae 
+        reali<lb ed="#C" n="29" break="no"/>ter differre debent, vel oportet 
+        suppo<lb ed="#C" n="30" break="no"/>sita, in quibus sunt, realiter esse 
+        distin<lb ed="#C" n="31" break="no"/>cta; vel radices, in quibus radicantur  
+        <lb ed="#C" n="32"/>realiter differre. Hoc viso sciendum. 
+        <lb ed="#C" n="33"/>quod, sicut superius tactum est, in 
+        Di<lb ed="#C" n="34" break="no"/>vinis suppositis non accipimus 
+        distin<lb ed="#C" n="35" break="no"/>ctionem secundum modum diversorum 
+        <lb ed="#C" n="36"/>suppositorum in creaturis, in quibus 
+        <lb ed="#C" n="37"/>est diversum esse; sed magis secundum 
+        <lb ed="#C" n="38"/>modum unius suppositi, cui competi 
+        <lb ed="#C" n="39"/>unum esse: quia omnes Divinae 
+        Perso<lb ed="#C" n="40" break="no"/>nae sunt idem secundum esse: cum ibi 
+        <lb ed="#C" n="41"/>sint idem natura &amp; esse. Ista tamen 
+        di<lb ed="#C" n="42" break="no"/>stinctio est modo contrario: quia in 
+        <lb ed="#C" n="43"/>eodem creato supposito est unitas 
+        secun<lb ed="#C" n="44" break="no"/>dum hypostasim, &amp; pluralitas 
+        secun<lb ed="#C" n="45" break="no"/>dum naturam: &amp; ratione pluralitatis natul 
+        <lb ed="#C" n="46"/>rarum, ut quia in creato supposito est alia 
+        <lb ed="#C" n="47"/>natura substantiae, alia quantitatis, alia 
+        qua<lb ed="#C" n="48" break="no"/>litatis, possut ibi esse plures relationes, non 
+        <lb ed="#C" n="49"/>similes, sed disparatae; ut ratione 
+        mag<lb ed="#C" n="50" break="no"/>nitudinis dicatur aequale; ratione 
+        qua<lb ed="#C" n="51" break="no"/>litatis simile. In Deo autem est 
+        plurali<lb ed="#C" n="52" break="no"/>tas suppositorum, &amp; unitas naturae; 
+        <lb ed="#C" n="53"/>ideo in pluribus suppositis Divinis 
+        pos<lb ed="#C" n="54" break="no"/>sunt esse plures relationes dissimiles 
+        <lb ed="#C" n="55"/>propter pluralitatem suppositorum, 
+        si<lb ed="#C" n="56" break="no"/>cut in uno supposito humano possunt; 
+        <!--289.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>esse plures disparatae propter 
+        pluralita<lb ed="#C" n="58" break="no"/>tem naturarum, extendendo nomen 
+        <lb ed="#C" n="59"/>naturae ad omnem essentiam, vel 
+        for<lb ed="#C" n="60" break="no"/>mam. Similes autem nec in pluribus 
+        <lb ed="#C" n="61"/>suppositis Divinis, nec in uno 
+        supposi<lb ed="#C" n="62" break="no"/>to creato possunt esse plures propter 
+        <lb ed="#C" n="63"/>unitatem in esse: &amp; quia supposita 
+        Di<lb ed="#C" n="64" break="no"/>vina realiter distincta sunt, licet sit In 
+        <lb ed="#C" n="65"/>eis natura una, plures processiones ibi 
+        <lb ed="#C" n="66"/>esse poterunt, non similes, sed 
+        dispara<lb ed="#C" n="67" break="no"/>tae propter realem differentiam 
+        suppo<lb ed="#C" n="68" break="no"/>utorum. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1120">
+                  <lb ed="#C" n="69"/>Advertendum tamen propter 
+        argu<lb ed="#C" n="70" break="no"/>menta, quod licet processiones 
+        Divi<lb ed="#C" n="71" break="no"/>nae inter se oppositionem non habeant  
+        <lb ed="#C" n="72"/>directe; quia tamen habent esse in sup 
+        <lb ed="#C" n="73"/>positis realiter distinctis, propter 
+        rela<lb ed="#C" n="74" break="no"/>tiones oppositas ipsae realiter differret 
+        <lb ed="#C" n="75"/>poterunt: patetigitur quomodo 
+        pro<lb ed="#C" n="76" break="no"/>cessiones in Divinis realiter 
+        plurifican<lb ed="#C" n="77" break="no"/>tur, secundum quod relationem 
+        impor<lb ed="#C" n="78" break="no"/>tant: prout, autem ad relationes 
+        ordi<lb ed="#C" n="79" break="no"/>nantur secundum modum intelligendi, 
+        <lb ed="#C" n="80"/>sic distinguuntur secundum quod ipsae 
+        <lb ed="#C" n="81"/>relationes differunt: nam secundum 
+        <lb ed="#C" n="82"/>quod differt filiatio, quae est proprietas 
+        <lb ed="#C" n="83"/>relativa, quam habet filius ex eo quod 
+        <lb ed="#C" n="84"/>procedit per modum generationis, a 
+        <lb ed="#C" n="85"/>proprietate relativa Spiritus Sancti, quam 
+        <lb ed="#C" n="86"/>ipse habet ex eo quod procedit per 
+        mo<lb ed="#C" n="87" break="no"/>dum spirationis, sic processio Filij 
+        dif<lb ed="#C" n="88" break="no"/>fert a processione Spiritus. Qualiter au 
+        <lb ed="#C" n="89"/>tem hoc sic, &amp; quomodo ipsae 
+        relatio<lb ed="#C" n="90" break="no"/>nes in Divinis realiter distinguantur, 
+        in<lb ed="#C" n="91" break="no"/>fra plenius patefiet. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1172">
+                  <lb ed="#C" n="92"/>Resp. ad arg. Ad primum 
+        dicen<lb ed="#C" n="93" break="no"/>dum, quod processiones in Divinis 
+        li<lb ed="#C" n="94" break="no"/>cet sint similes quantum ad nomen 
+        con<lb ed="#C" n="95" break="no"/>mune: quia utraque processio; sunt, 
+        <lb ed="#C" n="96"/>tamen dissimiles quantum ad nomen 
+        <lb ed="#C" n="97"/>speciale: quia una generatio, alia 
+        spira<lb ed="#C" n="98" break="no"/>tio, &amp; hoc sufficit, ut ibi 
+        plurificen<lb ed="#C" n="99" break="no"/>tur.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1192">
+        Ad 2. dicendum, quod licet 
+        vo<lb ed="#C" n="100" break="no"/>luntas Divina respectu creaturarum se 
+        <lb ed="#C" n="101"/>habeat ad opposita: quia alias bonitates 
+        <lb ed="#C" n="102"/>Deus potest velle, &amp; nolle; respectu 
+        <lb ed="#C" n="103"/>Spiritus Sancti immutabiliter se habet:  
+        <lb ed="#C" n="104"/>quia Deus necesse habet diligere suam, 
+        <lb ed="#C" n="105"/>bonitatem.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1208">
+        Ad 3. dicendum, quod in 
+        <lb ed="#C" n="106"/>creaturis: quia omnia absoluta non 
+        <lb ed="#C" n="107"/>transeunt in substantiam, ut velle, &amp; 
+        in<lb ed="#C" n="108" break="no"/>telligere, ibi sunt aliud quam esse: ideo 
+        <lb ed="#C" n="109"/>eis, quae ibi procedunt per modum 
+        in<lb ed="#C" n="110" break="no"/>tellectus, &amp; per modum voluntatis, non 
+        <lb ed="#C" n="111"/>communicatur natura, &amp; ibi est unus 
+        <lb ed="#C" n="112"/>modus communicandi naturam; quia 
+        <!--290.xml-->
+        <pb ed="#C" n="253"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>natura ad unum determinata est. In Deo 
+        <lb ed="#C" n="2"/>autem, ubi velle est idem quod esse, &amp; 
+        <lb ed="#C" n="3"/>voluntas idem quod natura; Persona 
+        <lb ed="#C" n="4"/>procedenti per modum voluntatis 
+        con<lb ed="#C" n="5" break="no"/>municari poterit natura.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1243">
+        Ad 4. 
+        dicen<lb ed="#C" n="6" break="no"/>dum, quod processiones differunt 
+        ra<lb ed="#C" n="7" break="no"/>tione relationum: quia sunt ipsae 
+        rela<lb ed="#C" n="8" break="no"/>tiones. Vel possumus dicere, ut quidam 
+        <lb ed="#C" n="9"/>dicunt, quod relatio Divina, licet 
+        ra<lb ed="#C" n="10" break="no"/>tione qua relatio, secundum modum 
+        <lb ed="#C" n="11"/>intelligendi sequatur originem, ratione 
+        <lb ed="#C" n="12"/>qua constitutiva Personae praecedit. Ad 
+        <lb ed="#C" n="13"/>5. dicendum, quod licet ipsae 
+        proces<lb ed="#C" n="14" break="no"/>siones directe non opponantur, 
+        Perso<lb ed="#C" n="15" break="no"/>nae, in quibus tales processiones sunt,  
+        <lb ed="#C" n="16"/>oppositionem habent: unde si Spiritus 
+        <lb ed="#C" n="17"/>Sanctus non procederet a Filio: quia 
+        <lb ed="#C" n="18"/>non refferretur ad ipsum secundum 
+        re<lb ed="#C" n="19" break="no"/>lationem oppositam, processio Filij non 
+        <lb ed="#C" n="20"/>distingueretur a processione Spiritus 
+        <lb ed="#C" n="21"/>Sancti. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e66783-Dd1e1282">
+               <head xml:id="Gi9qrR-e66783-Hd1e1284">Articulus 3</head>
+               <p xml:id="Gi9qrR-e66783-d1e1287">
+                  <lb ed="#C" n="22"/>ARTICVLVS III. 
+        <lb ed="#C" n="23"/>Vtrum in Divinis sint plures processiones  
+        <lb ed="#C" n="24"/>quam duae
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1296">
+                  <lb ed="#C" n="25" break="no"/>TErtio quaeritur: utrum in Divinis 
+        <lb ed="#C" n="26"/> sint plures processiones quam 
+        <lb ed="#C" n="27"/>duae?
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1305">
+        Et videtur quod sic: quia 
+        ema<lb ed="#C" n="28" break="no"/>nationes in creaturis exemplariter sunt, 
+        <lb ed="#C" n="29"/>derivatae ab emanationibus Personarum 
+        <lb ed="#C" n="30"/>sed in creaturis reperiuntur plures 
+        pro<lb ed="#C" n="31" break="no"/>cessiones quam duae, ergo &amp; in 
+        Divi<lb ed="#C" n="32" break="no"/>nis.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1318">
+        Praeterea: quanto aliquid est 
+        sim<lb ed="#C" n="33" break="no"/>plicius, tanto in pluribus reperitur: quia 
+        <lb ed="#C" n="34"/>magis infinitum &amp; minus determina 
+        <lb ed="#C" n="35"/>tum ad unum: tanto ergo plura erunt 
+        <lb ed="#C" n="36"/>supposita Divina, quam omnia 
+        supposi<lb ed="#C" n="37" break="no"/>ta creata in quacumque specie, quan 
+        <lb ed="#C" n="38"/>to natura Divina est simplicior natura 
+        <lb ed="#C" n="39"/>creata; sed hoc esse non posset, nisi ibi 
+        <lb ed="#C" n="40"/>essent plures processiones quam duae, 
+        <lb ed="#C" n="41"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1341">
+        Praeterea: sicut natura 
+        huma<lb ed="#C" n="42" break="no"/>na in pluribus suppositis invenitur prop 
+        <lb ed="#C" n="43"/>ter pluralitatem in esse, ita natura 
+        Di<lb ed="#C" n="44" break="no"/>vina in pluribus sappositis esse habet 
+        <lb ed="#C" n="45"/>propter pluralitatem respectuum. Sed 
+        <lb ed="#C" n="46"/>cum respectus sit quid rationis, &amp; in ac 
+        <lb ed="#C" n="47"/>tibus rationis sit processus in infinitum, 
+        <lb ed="#C" n="48"/>ut videtur velle Avicena, ergo infini 
+        <lb ed="#C" n="49"/>tae poterunt esse Divinae Personae, sed 
+        <lb ed="#C" n="50"/>hoc non esset, nisi essent ibi plures 
+        pro<lb ed="#C" n="51" break="no"/>cessiones quam duae, ergo &amp;c. 
+        <!--290.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="52"/>In contrarium est: quia secundum 
+        <lb ed="#C" n="53"/>Fidem nostram non est ibi, nisi 
+        Trini<lb ed="#C" n="54" break="no"/>tas Personarum, una non procedens, &amp; 
+        <lb ed="#C" n="55"/>duae procedentes, sed cum sint duae 
+        <lb ed="#C" n="56"/>solum Personae procedentes, duae erum 
+        <lb ed="#C" n="57"/>processiones, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1383">
+        Praeterea: 
+        quid<lb ed="#C" n="58" break="no"/>quid ibi emanat, vel emanat per 
+        mo<lb ed="#C" n="59" break="no"/>dum voluntatis, vel per modum 
+        intel<lb ed="#C" n="60" break="no"/>lectus, sed istae non sunt nisi duae 
+        ema<lb ed="#C" n="61" break="no"/>nationes, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1394">
+                  <lb ed="#C" n="62"/>RESOLVTIO. 
+        <lb ed="#C" n="63"/>In Divinis sunt tantum duae processiones se¬ 
+        <lb ed="#C" n="64"/>cundum duos actus intellectus, 
+        <lb ed="#C" n="65"/>&amp; voluntatis. 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1405">
+                  <lb ed="#C" n="66"/>REspond. dicendum, quod 
+        proces<lb ed="#C" n="67" break="no"/>siones Personarum plurificari 
+        du<lb ed="#C" n="68" break="no"/>pliciter intelligi potest, vel secundum 
+        <lb ed="#C" n="69"/>numerum, vel secundum speciem (ur 
+        <lb ed="#C" n="70"/>ibi speciem, &amp; numerum ponere 
+        possu<lb ed="#C" n="71" break="no"/>mus) secundum numerum ibi 
+        plurifi<lb ed="#C" n="72" break="no"/>catio esse non potest, nam ad 
+        proces<lb ed="#C" n="73" break="no"/>sionem tria requiruntur: Persona, qua 
+        <lb ed="#C" n="74"/>procedit, a qua procedit, &amp; actus 
+        pro<lb ed="#C" n="75" break="no"/>cedendi; ex quolibet istorum arguere 
+        <lb ed="#C" n="76"/>possumus ibi secundum numerum 
+        pro<lb ed="#C" n="77" break="no"/>cessiones plurificari non posse; 
+        repug<lb ed="#C" n="78" break="no"/>nat enim hoc principijs productivis, nam 
+        <lb ed="#C" n="79"/>plurificari productiones numer aliter 
+        <lb ed="#C" n="80"/>propter productiva principia 
+        duplici<lb ed="#C" n="81" break="no"/>ter intelligi potest. Primo quod ab 
+        eo<lb ed="#C" n="82" break="no"/>dem principio emanent plura secundum 
+        <lb ed="#C" n="83"/>numerum differentia, ut ab uno patre 
+        <lb ed="#C" n="84"/>plures filij. Secundo, quod ipsa 
+        Per<lb ed="#C" n="85" break="no"/>sona producta secundum eundem 
+        mo<lb ed="#C" n="86" break="no"/>dum producendi sit alterius principium 
+        <lb ed="#C" n="87"/>productivum, ut si a filio alius filiu 
+        <lb ed="#C" n="88"/>emanaret, neutrum istorum est 
+        possi<lb ed="#C" n="89" break="no"/>bile: nam si ab uno Patre Coelesti 
+        pro<lb ed="#C" n="90" break="no"/>grederetur plures Filij, sive plures Perso 
+        <lb ed="#C" n="91"/>nae secundum cundem modum 
+        produ<lb ed="#C" n="92" break="no"/>cendi, productae illae ad se invicem non 
+        <lb ed="#C" n="93"/>distinguerentur, cum una non sumere 
+        <lb ed="#C" n="94"/>originem ab alia. Arguit enim Anse 
+        <lb ed="#C" n="95"/>mus in de Processione Spirit. S. quod 
+        <lb ed="#C" n="96"/>propter unitatem naturae Divinae, aliquid 
+        hu<lb ed="#C" n="97" break="no"/>oportet Spiritum Sanctum procedere a 
+        <lb ed="#C" n="98"/>Filio, vel e converso. Non igitur esse 
+        <lb ed="#C" n="99"/>potest, quod plures Personae Divina 
+        <lb ed="#C" n="100"/>procedant ab uno principio producti 
+        <lb ed="#C" n="101"/>vo, nisi una ab alia trahat originem. 
+        <lb ed="#C" n="102"/>Quod si daretur secundus modus, quod 
+        <lb ed="#C" n="103"/>Persona producta secundum cunden 
+        <lb ed="#C" n="104"/>modum producendi fieret alterius prin¬ 
+        <!--291.xml-->
+        <pb ed="#C" n="254"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>cipium productivum, etiam stare non posset 
+        <lb ed="#C" n="2"/>quia virtus productiva, cum sit quid 
+        abso<lb ed="#C" n="3" break="no"/>hitum, in omnibus Divinis suppositis esse 
+        <lb ed="#C" n="4"/>habet; non tamen omnia Divina 
+        sup<lb ed="#C" n="5" break="no"/>posita secundum illam virtutem 
+        pro<lb ed="#C" n="6" break="no"/>dacunt: quia in cis debito respectui non 
+        <lb ed="#C" n="7"/>unitur; &amp; quia semper Persona 
+        produ<lb ed="#C" n="8" break="no"/>cta accipit naturam a producente, &amp; 
+        <lb ed="#C" n="9"/>habet oppositionem: ad illam, natura 
+        <lb ed="#C" n="10"/>non cum eodem respectu, cum quo est, 
+        <lb ed="#C" n="11"/>in producente, est in producta, sed cum 
+        <lb ed="#C" n="12"/>opposito: igitur secundum illum mo 
+        <lb ed="#C" n="13"/>dum productionis Personae sic 
+        proce<lb ed="#C" n="14" break="no"/>denti conveniet productio solum 
+        secun<lb ed="#C" n="15" break="no"/>dum denominationem oppositam; quia 
+        <lb ed="#C" n="16"/>solum respectum oppositum consequi 
+        <lb ed="#C" n="17"/>tur: &amp; ideo Persona, quae procedit per 
+        <lb ed="#C" n="18"/>modum generationis solum gignitur, &amp; 
+        <lb ed="#C" n="19"/>nunquam gignit, quae per modum 
+        spi<lb ed="#C" n="20" break="no"/>rationis solum spiratur, &amp; nunquam  
+        <lb ed="#C" n="21"/>spirat. Non ergo ratione productivi 
+        <lb ed="#C" n="22"/>principij poterunt esse in Divinis plures 
+        <lb ed="#C" n="23"/>processiones numero differentes. Nec 
+        <lb ed="#C" n="24"/>etiam ratione actus producendi: nam 
+        <lb ed="#C" n="25"/>cum huius modi actus relationes signifi 
+        <lb ed="#C" n="26"/>cent: quia aliter in Divinis plurificat: 
+        <lb ed="#C" n="27"/>non possent, &amp; relationes similes 
+        secun<lb ed="#C" n="28" break="no"/>dum numerum differentes plures ibi: 
+        <lb ed="#C" n="29"/>esse non possint, nec processiones 
+        se<lb ed="#C" n="30" break="no"/>cundum eundem modum procedendi 
+        <lb ed="#C" n="31"/>ibi plurificari poterunt. Hoc etiam 
+        re<lb ed="#C" n="32" break="no"/>pugnat Personis productis: nam, ut fuit 
+        <lb ed="#C" n="33"/>superius declaratum, secundum unum 
+        <lb ed="#C" n="34"/>modum producendi non est nisi una 
+        <lb ed="#C" n="35"/>Persona in Divinis. Patet igitur, quod 
+        <lb ed="#C" n="36"/>processiones in Divinis secundum 
+        nu<lb ed="#C" n="37" break="no"/>is merum plurificari non possunt. 
+        Secun<lb ed="#C" n="38" break="no"/>dum speciem autem ibi plurificari 
+        po<lb ed="#C" n="39" break="no"/>terunt, sed illa plurificatio numerum 
+        <lb ed="#C" n="40"/>binarium non excedit: nam secundum 
+        <lb ed="#C" n="41"/>Aug. 15. de Trin. cap. 23. 
+        Inseparabi<lb ed="#C" n="42" break="no"/>lior est Trinitas Personarum, quam sit trinitas 
+        <lb ed="#C" n="43"/>in mente nostra. Sed trinitas in mente 
+        <lb ed="#C" n="44"/>nostra propter inseparabilitatem 
+        amo<lb ed="#C" n="45" break="no"/>ris, &amp; verbi ad mentem non habet esseD 
+        <lb ed="#C" n="46"/>per actus, qui non transeunt in 
+        exte<lb ed="#C" n="47" break="no"/>riorem materiam, ut per intelligere, 
+        <lb ed="#C" n="48"/>&amp; velle: secundum hos igitur duos ac 
+        <lb ed="#C" n="49"/>tus plurificabuntur processiones in 
+        Di<lb ed="#C" n="50" break="no"/>vinis, secundum quod aliqui tradunt,  
+        <lb ed="#C" n="51"/>&amp; bene. Erunt igitur in Divinis duae 
+        <lb ed="#C" n="52"/>processiones tantum secundum duos 
+        <lb ed="#C" n="53"/>nominatos: actus 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1613">
+                  <lb ed="#C" n="54"/>Resp. ad arg. Ad primum dicendum 
+        <lb ed="#C" n="55"/>quod non oportet tantam diversitatem 
+        <lb ed="#C" n="56"/>dare in causa sicut in causatis: ideo non 
+        <!--291.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>oportet tot esse emanationes 
+        Persona<lb ed="#C" n="58" break="no"/>rum, quot sunt emanationes 
+        creatura<lb ed="#C" n="59" break="no"/>rum, dato quod una emanatio sit ab 
+        <lb ed="#C" n="60"/>alia exemplata.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1635">
+        Ad 2. dicendum, quod  
+        <lb ed="#C" n="61"/>quanto aliquid est simplicius, tanto 
+        <lb ed="#C" n="62"/>in pluribus reperitur secundum 
+        cau<lb ed="#C" n="63" break="no"/>salitatem, non secundum 
+        praedica<lb ed="#C" n="64" break="no"/>tionem, igitur non oportet, quod 
+        plu<lb ed="#C" n="65" break="no"/>ra sint supposita Divina quam aliqua 
+        <lb ed="#C" n="66"/>alia supposita, sed quod Deus plura 
+        <lb ed="#C" n="67"/>causet, vel plura causare possit, quam 
+        <lb ed="#C" n="68"/>aliquid aliud.
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1656">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="69"/>respectus secundum rationem solum 
+        <lb ed="#C" n="70"/>non multiplicat Personas Divinas, vel  
+        <lb ed="#C" n="71"/>processiones, sed respectus secundum 
+        <lb ed="#C" n="72"/>rem, &amp; talis non multiplicatur in infi¬ 
+      </p>
+               <p xml:id="Gi9qrR-e66783-d1e1667">
+                  <lb ed="#C" n="73"/>nitum, sed secundum quod exigit 
+        Tri<lb ed="#C" n="74" break="no"/>nitas Personarum, &amp; dualitas 
+        proces<lb ed="#C" n="75" break="no"/>sionum. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

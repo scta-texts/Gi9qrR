@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="157"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e42215"><!-- l1-d8p1proem -->
+            <head xml:id="Gi9qrR-e42215-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e42215-d1e111">
+      <!--194.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="80"/>DISTINCTIONIS VIII. 
+      <lb ed="#C" n="81"/>DE VERTATE, ETPROPRETATE ET INCOMMVTABILITATE, 
+      <lb ed="#C" n="82"/>&amp; simplicitate essentiae Dei. 
+      <lb ed="#C" n="83"/>PARS PRIMA.
+    </p>
+            <p xml:id="Gi9qrR-e42215-d1e127">
+      <!--194.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="84"/>VNC de veritate &amp;c. Quia 
+      di<lb ed="#C" n="85" break="no"/>xerat Mag. superius 
+      gene<lb ed="#C" n="86" break="no"/>rationem esse in Divinis, &amp; 
+      ge<lb ed="#C" n="87" break="no"/>neratio, ut in creaturis habet  
+      <lb ed="#C" n="88"/>esse, tria videtur importare. 
+      <lb ed="#C" n="89"/>Primo non entitatem: quia 
+      <lb ed="#C" n="90"/>ut scribitur 5. Phy. Generatio 
+      <lb ed="#C" n="91"/>est mutatio a non esse in esse. 
+      Se<lb ed="#C" n="92" break="no"/>cundo mutabilitatem, quia generatio est 
+      spe<lb ed="#C" n="93" break="no"/>cies motus. 3. compositionem: quia ut scribi¬ 
+      <!--194.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="94"/>bitur 7. Meta Non generatur nisi compositum, igitur 
+      <lb ed="#C" n="95"/>ne credantur talia esse in Deo, ostendit Deum 
+      <lb ed="#C" n="96"/>verissime habere esse, esse incommutabilem, &amp;c 
+      <lb ed="#C" n="97"/>simplicem, &amp; ideo duo facit: quia 1. continuat 
+      <lb ed="#C" n="98"/>se ad dicenda dicens, quod ipse vult dicere de 
+      <lb ed="#C" n="99"/>veritate Dei, hoc est, de vera &amp; propria entitate, 
+      <lb ed="#C" n="100"/>&amp; incomutabilitate, &amp; simplicitate eius. 2. ibit:  
+      <lb ed="#C" n="101"/>Est itaque, exequitur de his, &amp; tria facit secundum 
+      <lb ed="#C" n="102"/>quod de tribus exequitur. Primo de entitate 
+      <lb ed="#C" n="103"/>Dei. Secundo de incommutabilitate. Tertio de¬ 
+      <!--195.xml-->
+      <pb ed="#C" n="158"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>Himplicitate. Secunda ibi: Dei etiam. Tertia ibi:  
+      <lb ed="#C" n="2"/>Eadem que, ubi praesens lectio terminabitur. 
+      Cir<lb ed="#C" n="3" break="no"/>ca primum duo facit: quia 1. ostendit, quod 
+      <lb ed="#C" n="4"/>Deo verissime competit entitas. Secundo ex an 
+      <lb ed="#C" n="5"/>ctoritate Hiero. ostendit verba futuri, &amp; 
+      praete<lb ed="#C" n="6" break="no"/>riti temporis vere non dici de Deo ratione 
+      mu<lb ed="#C" n="7" break="no"/>tationis, quam important: Secunda ibi:. Inde 
+      <lb ed="#C" n="8"/>Idibid. &amp; duo facit, quia 1. facit, quod dictum 
+      <lb ed="#C" n="9"/>est. 2. quia verba Hieron. videntur habere 
+      ca<lb ed="#C" n="10" break="no"/>lumniam, dat fntelligentiam dictorum. Ibi: Hit  
+      <lb ed="#C" n="11"/>diligenter, Circa quod quatuor facit: quia 1. 
+      <lb ed="#C" n="12"/>ostendit per rationem verba praeteriti, &amp; futuri  
+      <lb ed="#C" n="13"/>temporis dici de Deo. 2. ostendit hoc idem per 
+      <lb ed="#C" n="14"/>auctoritatem <name xml:id="Gi9qrR-e42215-Nd1e218" ref="#Augustine">Aug.</name> 3. exponit Hiero. dicens, 
+      <lb ed="#C" n="15"/>quod non negavit Hieronymus praeteritum, &amp; 
+      <lb ed="#C" n="16"/>futurum a Deo, nisi ratione mutabilitatis, non 
+      <lb ed="#C" n="17"/>quod esse Divinum non comitetur omne 
+      tem<lb ed="#C" n="18" break="no"/>pus. Quarto concludit Deum verissime esse, 
+      sen<lb ed="#C" n="19" break="no"/>tentia partium patet. Secunda pars incipit ibi:  
+      <lb ed="#C" n="20"/>Di quo <name xml:id="Gi9qrR-e42215-Nd1e234" ref="#Augustine">Aug.</name> Tertia ibi: Illud ergo. Quarta ibi:  
+      <lb ed="#C" n="21"/>Deus ergo. 
+      <!--195.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="22"/>Tiunc sequitur illa pars: Dei etiam. In qua 
+      <lb ed="#C" n="23"/>determinat de Dei incommutabilitate, &amp; duo 
+      <lb ed="#C" n="24"/>facit, quia 1. facit quod dictum est. 2. ostendit 
+      <lb ed="#C" n="25"/>omnem creaturam muetabilem. Secunda ibi LIdeo 
+      <lb ed="#C" n="26"/>Aug. Circa primum duo facit, quia 1. dicit Deum 
+      <lb ed="#C" n="27"/>esse immutabilem. 2. ac lducit rationem ad hoc,  
+      <lb ed="#C" n="28"/>ex eo quod vere habet esse, &amp; solus habet 
+      im<lb ed="#C" n="29" break="no"/>mortalitatem, adducen do etiam auctoritates ad 
+      <lb ed="#C" n="30"/>dem. Secunda pars incsipit ibi: onde <name xml:id="Gi9qrR-e42215-Nd1e263" ref="#Augustine">Aug.</name> partes 
+      <lb ed="#C" n="31"/>patent. Tunc sequitur: illa pars, Ideo <name xml:id="Gi9qrR-e42215-Nd1e268" ref="#Augustine">Aug.</name> in 
+      qua<lb ed="#C" n="32" break="no"/>ostendit omnem creatu ram mutari per 
+      tempo<lb ed="#C" n="33" break="no"/>ra: hoc est, per affecticines, ut spiritualis, vel 
+      <lb ed="#C" n="34"/>per tempora, &amp; loca utt corporalis; Deus tamen 
+      <lb ed="#C" n="35"/>immutabilis existit. 2. ostendit talem 
+      mutatio<lb ed="#C" n="36" break="no"/>nem aliquomodo mor tem esse: propter quod 
+      <lb ed="#C" n="37"/>solus Deus habet imm ortalitatem, quia solus 
+      <lb ed="#C" n="38"/>immutabilis. Tertio sconcludit ipsum sine sus 
+      <lb ed="#C" n="39"/>mutatione mutabilia facere. Secunda ibi: In 
+      <lb ed="#C" n="40"/>meni enim mulabili. Tertia ibi: proinde ut ait. Et in 
+      <lb ed="#C" n="41"/>hoc terminatur sententia lectionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

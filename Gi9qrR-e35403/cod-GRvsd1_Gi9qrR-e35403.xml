@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="132"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e35403"><!-- l1-d5exposlit -->
+            <head xml:id="Gi9qrR-e35403-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-e35403-d1e111">
+               <lb ed="#C" n="34"/>EXPOSITIO LITTERAE
+    </p>
+            <p xml:id="Gi9qrR-e35403-d1e116">
+               <lb ed="#C" n="35" break="no"/>NIhil habet Filius, nisi natum, idest, 
+      ni<lb ed="#C" n="36" break="no"/>D si quod nascendo accepit. 
+      Admi<lb ed="#C" n="37" break="no"/>ratio honoris geniti, idest, mirabilis honor,  
+      <lb ed="#C" n="38"/>quem conspicimus in Filio. In honore 
+      gene<lb ed="#C" n="39" break="no"/>rantis, idest, ad honorem Patris refertur. 
+      <lb ed="#C" n="40"/>Nativitas Dei, idest, Filius Dei per 
+      nati<lb ed="#C" n="41" break="no"/>vitatem habens esse. Non potest eam, ex 
+      qua<lb ed="#C" n="42" break="no"/>provecta est, non tenere naturam, idest, 
+      ne<lb ed="#C" n="43" break="no"/>cessario est eiusdem naturae cum Patre, 
+      <lb ed="#C" n="44"/>a quo processit. Nos inquit vnigenitum, hic 
+      <lb ed="#C" n="45"/>specialiter Hilarius tradit unitatem 
+      Filij<lb ed="#C" n="46" break="no"/>cum Patre, &amp; invariabilitatem naturae 
+      <lb ed="#C" n="47"/>in assumptione carnis dicens, vnigenitum 
+      <lb ed="#C" n="48"/>Deum in forma Dei manentem, &amp; in 
+      natu<lb ed="#C" n="49" break="no"/>ra Dei mansisse prositemur: quia est eiusdem 
+      <lb ed="#C" n="50"/>naturae cum Patre: Nec unitatem formae 
+      ser<lb ed="#C" n="51" break="no"/>nulis, in naturam Divinae vnitatis refundimus, 
+      <lb ed="#C" n="52"/>id est, Incarnatio non fuit per 
+      conversio<lb ed="#C" n="53" break="no"/>nem naturarum. Nec rursum corporali 
+      in<lb ed="#C" n="54" break="no"/>sinuatione Patrem in Filio praedicamus, idest,  
+      <!--169.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="55"/>Pater non est in Filio localiter. Sed 
+      ex<lb ed="#C" n="56" break="no"/>eo eiusdem generis genitam naturam 
+      natiura<lb ed="#C" n="57" break="no"/>liter in se gignentem habuisse naturam, hoc  
+      <lb ed="#C" n="58"/>est, Pater est in Filio consubstantialiter, 
+      <lb ed="#C" n="59"/>&amp; si non corporaliter: construatur sic 
+      <lb ed="#C" n="60"/>littera, nos dicimus: naturam genitam esse 
+      <lb ed="#C" n="61"/>ex eo eiusdem generis, idest, esse ex Patre, qui  
+      <lb ed="#C" n="62"/>est eiusdem generis, idest eiusdem 
+      natu<lb ed="#C" n="63" break="no"/>rae cum ipso: &amp; dicemus, hanc naturam 
+      <lb ed="#C" n="64"/>enitam naturaliter in se gignentem 
+      ha<lb ed="#C" n="65" break="no"/>buisse naturam, idest, habuisse in se 
+      Pa<lb ed="#C" n="66" break="no"/>trem, a quo naturaliter gignitur. Quae 
+      <lb ed="#C" n="67"/>scilicet, natura genita sive Filius, in 
+      forma<lb ed="#C" n="68" break="no"/>naturae se gignentis manens, idest, retinens 
+      <lb ed="#C" n="69"/>eandem naturam cum Patre, formam 
+      na<lb ed="#C" n="70" break="no"/>turae, &amp; infirmitatis corporalis accepit, idest, 
+      <lb ed="#C" n="71"/>incarnatus est. Non enim defecerat Dei 
+      na<lb ed="#C" n="72" break="no"/>tura, idest, Filius non amittendo 
+      natu<lb ed="#C" n="73" break="no"/>ram, quam habebat. Sed in se 
+      humilita<lb ed="#C" n="74" break="no"/>tem terrenae nativitatis manens sibi Dei 
+      ina<lb ed="#C" n="75" break="no"/>tura susceperat, idest, natura Divina 
+      <lb ed="#C" n="76"/>manens in se propter temporalem 
+      nati<lb ed="#C" n="77" break="no"/>vitatem Filij Dei unita est humilitati 
+      <lb ed="#C" n="78"/>terrenae sive natutae nostrae. Ceneris sut 
+      <lb ed="#C" n="79"/>potestatem in habitu assumptae humanitetis 
+      <lb ed="#C" n="80"/>exercens. Quasi dicens quod exercebat 
+      <lb ed="#C" n="81"/>opera Deitatis in natura humanitatis, cum 
+      <lb ed="#C" n="82"/>ex innascibili Deo nativitas vnigenita, idest 
+      <lb ed="#C" n="83"/>unigenitus Dei Filius per nativitatem 
+      <lb ed="#C" n="84"/>suam ex Deo innascibili, sive ex 
+      Pa<lb ed="#C" n="85" break="no"/>tre, In naturam unigenitam subsistat, id est, 
+      <lb ed="#C" n="86"/>per generationem subsistens, subsistit in 
+      <lb ed="#C" n="87"/>naturam Dei Patris, quae dicitur 
+      unige<lb ed="#C" n="88" break="no"/>nita: quia est per unicam generationem 
+      <lb ed="#C" n="89"/>communicata. Eandem naturam: hic 
+      Hila<lb ed="#C" n="90" break="no"/>rius tria intendit, distinctionem Patris, 
+      <lb ed="#C" n="91"/>&amp; Filij in Persona, unitatem in natura, 
+      <lb ed="#C" n="92"/>&amp; inseparabilitatem inquantum per se 
+      <lb ed="#C" n="93"/>sibi insunt: dicit ergo eandem nuturam 
+      ha<lb ed="#C" n="94" break="no"/>bet genitus, quam ille qui genuit, quantum 
+      <lb ed="#C" n="95"/>ad unitatem in natura. Ita tamen ut natus 
+      <lb ed="#C" n="96"/>non sit ille, qui genuit, idest, ita quod 
+      Pa<lb ed="#C" n="97" break="no"/>ter non dicatur natus. Nam quomodo, 
+      sup<lb ed="#C" n="98" break="no"/>ple Pater, erit ipse, idest, erit Filius: cum 
+      <lb ed="#C" n="99"/>genitus sit, scilicet, Filius, sed in his ipsis, 
+      <lb ed="#C" n="100"/>idest, in omnibus essentialibus, ut in 
+      sa<lb ed="#C" n="101" break="no"/>pientia, bonitate, &amp; huiusmodi, subistit 
+      <lb ed="#C" n="102"/>ille qui, genitus est, idest, subsistit Filius in 
+      <lb ed="#C" n="103"/>quibus totus est ipse qui genuit, id est, in 
+      qui<lb ed="#C" n="104" break="no"/>bus subsistit Pater, quasi dicens, quod in 
+      <lb ed="#C" n="105"/>essentialibus non distinguitur Pater a 
+      Fi<lb ed="#C" n="106" break="no"/>io. Quia non est aliunde, qui genitus est: &amp; 
+      <lb ed="#C" n="107"/>ideo non refertur ad aliud, hoc est, quia 
+      Fi<lb ed="#C" n="108" break="no"/>lius non est nisi ex Patre secundum quod 
+      <lb ed="#C" n="109"/>esse accipit, ad solum Patrem: refertur,  
+      <lb ed="#C" n="110"/>quia si refertur ad Spiritum Sanctum, 
+      <!--170.xml-->
+      <pb ed="#C" n="133"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>hoc non est inquantum accipit esse; 
+      <lb ed="#C" n="2"/>sed inquantum dat. Cenitum 
+      sup<lb ed="#C" n="3" break="no"/>ple subsistere Ex indemutabili gignente 
+      sup<lb ed="#C" n="4" break="no"/>ple, quod scilidet, gignens in uno est 
+      sup<lb ed="#C" n="5" break="no"/>pie Filio Ac si in generatione Filij, &amp; naturam 
+      <lb ed="#C" n="6"/>suamur ita dicam) sequitur indemutabilis Deus 
+      <lb ed="#C" n="7"/>indemutabilem Deum gignens: quasi dicens: 
+      <lb ed="#C" n="8"/>Deus Pater immutabilis gignens Deum 
+      <lb ed="#C" n="9"/>Filium immutabilem sequitur naturam 
+      <lb ed="#C" n="10"/>suam: quia sicut communicat naturam 
+      <lb ed="#C" n="11"/>suam Filio, propter quod natura eius est, 
+      <lb ed="#C" n="12"/>in Filio, sic ipse sequitur naturam suam, 
+      <lb ed="#C" n="13"/>existens in Filio: quia natura eius est in 
+      <lb ed="#C" n="14"/>Filio: nam Personae sibi insunt propter  
+      <lb ed="#C" n="15"/>unitatem essentiae, &amp; hoc est quod 
+      sub<lb ed="#C" n="16" break="no"/>ditur: Ner naturam suam deserit ex 
+      indemu<lb ed="#C" n="17" break="no"/>tabili Deo indemutabilis Dei perfecta 
+      nativi<lb ed="#C" n="18" break="no"/>tas. Quasi dicens: quod perfecta 
+      nati<lb ed="#C" n="19" break="no"/>vitas Fiij Dei non deserit naturam, quam 
+      <lb ed="#C" n="20"/>habet ab indemutabili Deo, id est, 
+      eius<lb ed="#C" n="21" break="no"/>dem naturae cum Patre: vel aliter, 
+      Pa<lb ed="#C" n="22" break="no"/>ter non deserit naturam suam, quia ex¬ 
+      <!--170.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="23"/>quo natura Patris est in Filio, Pater est 
+      <lb ed="#C" n="24"/>in Filio: cum suam naturam non 
+      dese<lb ed="#C" n="25" break="no"/>rat. Subsistentem igitur in eo Dei naturam 
+      in<lb ed="#C" n="26" break="no"/>telligamus, id est, intelligamus, quod 
+      na<lb ed="#C" n="27" break="no"/>tura Dei Patris existat in Filio. cum Deus 
+      <lb ed="#C" n="28"/>in Deo sit, id est, cum Pater sit in Filio, 
+      <lb ed="#C" n="29"/>vel econverso. Nec Praeter eum, qui est 
+      <lb ed="#C" n="30"/>Deus quisquam Deus alius sit, id est, gignens 
+      <lb ed="#C" n="31"/>&amp; genitus sunt unus Deus, &amp; subdit 
+      cau<lb ed="#C" n="32" break="no"/>sam: Quia ipse Deus &amp; in eo Deus: quasi 
+      <lb ed="#C" n="33"/>dicens, Pater, &amp; Filius sunt unus Deus 
+      <lb ed="#C" n="34"/>propter unitatem naturae. Naturae ergo Dei 
+      <lb ed="#C" n="35"/>Patris veritas in Deo Filio esse docetur: cum 
+      <lb ed="#C" n="36"/>in eo Deus intelligitur esse, qui Deus est. Vult 
+      <lb ed="#C" n="37"/>ostendere conversam propositionis 
+      ha<lb ed="#C" n="38" break="no"/>bitae: quia sicut dicebatur Patrem esse 
+      <lb ed="#C" n="39"/>in Filio, quia natura Patris est in Filio: 
+      <lb ed="#C" n="40"/>ita quia Deus Pater intelligitur esse in 
+      Fi<lb ed="#C" n="41" break="no"/>lio, qui est Deus, veritas naturae Patris 
+      <lb ed="#C" n="42"/>docetur esse in Deo Filio. Est enim unus, 
+      <lb ed="#C" n="43"/>supple Pater, in uno, scilicet Filio: &amp; unus, 
+      <lb ed="#C" n="44"/>scilicet Filius, ab uno, scilicet Patre.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

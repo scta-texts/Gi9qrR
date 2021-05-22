@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="423"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f13395"><!-- l1-d21dublit -->
+            <head xml:id="Gi9qrR-f13395-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-f13395-d1e111">
+               <lb ed="#C" n="98"/>DVBITATIO LITTERALIS. 
+    </p>
+            <p xml:id="Gi9qrR-f13395-d1e116">
+               <lb ed="#C" n="99"/>VPER litteram, super illo: iemo 
+      <lb ed="#C" n="100"/>novit, nisi ipse Filius, vult Magist. 
+      <lb ed="#C" n="101"/>quod non separatur inde Pater. 
+      Con<lb ed="#C" n="102" break="no"/>tra: nemo idem est, quod nullus 
+      ho<lb ed="#C" n="103" break="no"/>mo, sed Pater non est homo, ergo 
+      <lb ed="#C" n="104"/>talis locutio non attingit Personam 
+      Pa<lb ed="#C" n="105" break="no"/>tris, ergo etiam ex vi locutionis Pater 
+      <lb ed="#C" n="106"/>inde non separatur, non solum 
+      ratio<lb ed="#C" n="107" break="no"/>ne inseparabilitatis, quam habet Pater 
+      <lb ed="#C" n="108"/>ad Filium, cuius contrarium videtur  
+      <lb ed="#C" n="109"/>sentire Magist. Dicendum, quod ne¬ 
+      <!--461.xml-->
+      <pb ed="#C" n="424"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>mo quantum de vilocutionis non 
+      ex<lb ed="#C" n="2" break="no"/>cludit nisi hominem: tamen quiaA 
+      <lb ed="#C" n="3"/>homo est habens intellectum, ex usu 
+      <lb ed="#C" n="4"/>loquentium accomodatum est, quod  
+      <!--461.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="5"/>omne habens vim cognoscitivam 
+      ex<lb ed="#C" n="6" break="no"/>cludatur per hoc, quod dico nemo, &amp; 
+      <lb ed="#C" n="7"/>per hunc modum loquitur Mag.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

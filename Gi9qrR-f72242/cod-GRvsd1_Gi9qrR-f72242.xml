@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="661"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f72242"><!-- l1-d36prooem -->
+            <head xml:id="Gi9qrR-f72242-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f72242-d1e111">
+      <!--686.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="43"/>DISTINCTIO SRTVI 
+      <lb ed="#C" n="44"/>VTRVM CONCEDEN DVMSIT OMNIA ESSE IN DEI ESSSEN: 
+      <lb ed="#C" n="45"/>tia, vel in Deo per essentiam; ut omnia dicuntur esse in Dei cogni¬ 
+      <lb ed="#C" n="46"/>tione, vel praescientia, 
+    </p>
+            <p xml:id="Gi9qrR-f72242-d1e127">
+      <!--686.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="47"/>OLET autem quaeri. Postquam e 
+      <lb ed="#C" n="48"/>Magister ostendit scientiam 
+      <lb ed="#C" n="49"/>Dei esse respectu omnium? 
+      <lb ed="#C" n="50"/>quia omnia scita ab alique 
+      <lb ed="#C" n="51"/>sunt in ipso prout ab ipse  
+      <lb ed="#C" n="52"/>sciuntur: ideo hic 
+      determi<lb ed="#C" n="53" break="no"/>nat de existentia rerum in 
+      <lb ed="#C" n="54"/>Deo. Et duo facit: quia 1. 
+      <lb ed="#C" n="55"/>determinat quomodo sunt res in Deo. 2. quod 
+      <lb ed="#C" n="56"/>modo Deus est in rebus. Secunda ibi: Et 
+      quan<lb ed="#C" n="57" break="no"/>tum demonstratur. In principio 37. dist. Circa 1. 
+      <lb ed="#C" n="58"/>duo facit: quia 1. quaerit utrum omnia debeant 
+      <lb ed="#C" n="59"/>dici in Deo, eo quod sint in eius essentia? 2. 
+      spe<lb ed="#C" n="60" break="no"/>cialiter movet quaestionem de malis: utrum ma, 
+      <lb ed="#C" n="61"/>la sint in Deo? Secunda ibi: Post praedicta. Circa 
+      <lb ed="#C" n="62"/>primum tria facit: quia 1. quaerit: utrum 
+      om<lb ed="#C" n="63" break="no"/>nia debeant dici esse in Divina essentia, cum sint  
+      <lb ed="#C" n="64"/>in eius scientia vel praescientia? 2. solvit dicens, 
+      <lb ed="#C" n="65"/>quod propter aliam &amp; aliam habitudinem 
+      im<lb ed="#C" n="66" break="no"/>portatam per scientiam &amp; essentiam concedere 
+      <lb ed="#C" n="67"/>possumus omnia esse in Divina scientia: non in 
+      <lb ed="#C" n="68"/>eius essentia. 3. confirmat quod dixerat per 
+      <lb ed="#C" n="69"/>Aug. Secunda ibi: Ad quod dicimus. Tertia ibi:  
+      <lb ed="#C" n="70"/>Vnde <name xml:id="Gi9qrR-f72242-Nd1e185" ref="#Augustine">Aug.</name> Tunc sequitur illa pars: Post praedicta. 
+      <lb ed="#C" n="71"/>In qua specialiter movet quaestionem: utrum 
+      <lb ed="#C" n="72"/>mala sint in Deo? Et duo facit: quia 1. facit 
+      <lb ed="#C" n="73"/>quod dictum est. 2. ex solutione quaestionis prae¬ 
+      <!--686.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="74"/>tactae dat intelligentiam illius verbi: Quod eax ip. 
+      <lb ed="#C" n="75"/>so&amp; per ipsum &amp; in ipso sunt omnia. Secunda, ibi: 
+      <lb ed="#C" n="76"/>Proinde si diligenter. Circa primum tria facit: quia 
+      <lb ed="#C" n="77"/>1. quaerit utrum mala sint in Deo? Innuens 
+      ra<lb ed="#C" n="78" break="no"/>tionem quod sic: cum sint a Deo cognita. 2. ad 
+      <lb ed="#C" n="79"/>ducit: rationem in contrarium: quia non sunt in 
+      <lb ed="#C" n="80"/>Deo, nisi quorum actor; non igitur mala sunt,  
+      <lb ed="#C" n="81"/>in Deo: quia non est actor eorum. 3. solvit 
+      <lb ed="#C" n="82"/>quaestionem factam. Secunda ibi: Si quis enima 
+      <lb ed="#C" n="83"/>Tertia ibi: Quia licet ea noscat. Circa quod duo 
+      <lb ed="#C" n="84"/>facit: quia 1. solvit dicens, quod licet bona sint  
+      <lb ed="#C" n="85"/>in Deo, quia sunt scita ab eo; mala tamen non 
+      <lb ed="#C" n="86"/>sunt in ipso, licet sciantur ab ipso; quia non 
+      eo<lb ed="#C" n="87" break="no"/>dem modo sciuntur ab eo bona &amp; mala, 
+      prop<lb ed="#C" n="88" break="no"/>ter quod aliquando contingit, quod reperitur  
+      <lb ed="#C" n="89"/>mala esse abscondita a Deo. 2. contra 
+      solutio<lb ed="#C" n="90" break="no"/>nem suam instat, ibi: Sed quomodo praedicta. Et tria 
+      fa<lb ed="#C" n="91" break="no"/>cit: quia 1. ostendit mala non esse abscondita 
+      <lb ed="#C" n="92"/>ab eo; cum ea puniat. 2. dat intelligentiam 
+      di<lb ed="#C" n="93" break="no"/>cti dicens: mala non esse abscondita a Deo; quia 
+      <lb ed="#C" n="94"/>ea ignoret, sed quia ea nescit per approbationens 
+      <lb ed="#C" n="95"/>ut bona. 3. recolligit in brevi omnia dicta 
+      di<lb ed="#C" n="96" break="no"/>cens tantum bona esse in Deo, non mala, &amp; 
+      om<lb ed="#C" n="97" break="no"/>nia esse scita a Deo bona &amp; mala; non tamen 
+      <lb ed="#C" n="98"/>eodem modo utraque, quia bona approbat, non 
+      <lb ed="#C" n="99"/>mala. Secuda ibi: Cognoscit ergo Deus. Tertia ibi:  
+      <lb ed="#C" n="100"/>Et inde est. Tunc sequitur illa pars: Proinde si 
+      <!--687.xml-->
+      <pb ed="#C" n="662"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>diligenter. In qua dat intelligentiam huius Ex 
+      ip<lb ed="#C" n="2" break="no"/>ostendit pro quo distribuattibi omnia dicens: per 
+      <lb ed="#C" n="3"/>omnia ibi in telligi non indifferenter bona &amp; 
+      <lb ed="#C" n="4"/>mala, sed bona solum, quod co firmat per <name xml:id="Gi9qrR-f72242-Nd1e273" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="5"/>qui exponit omnia, idest, naturas omnes. Malum 
+      <lb ed="#C" n="6"/>autem non est natura aliqua. 2. postquam 
+      ex<lb ed="#C" n="7" break="no"/>posuit auctoritatem praetactam, quomodo 
+      su<lb ed="#C" n="8" break="no"/>mendum sit, omnia, ibi, exponit quom odo 
+      acci<lb ed="#C" n="9" break="no"/>piendum sit: Ex ipso, &amp; per ipsum, &amp; in ipso. Ibi: 
+      Prae<lb ed="#C" n="10" break="no"/>terea sciendum. Et tria facit: quia primo ostendit 
+      <lb ed="#C" n="11"/>intelligi Trinitatem Personarum dicens: ex ipso 
+      <lb ed="#C" n="12"/>dictum esse propter Patrem: per ipsum propter Filium: 
+      <!--687.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="13"/>in ipso propter Spiritum S. &amp; quia hic 
+      secun<lb ed="#C" n="14" break="no"/>si, &amp; per ipsum isunt emnia. Et duo ffacit: quia 1.  
+    </p>
+            <p xml:id="Gi9qrR-f72242-d1e303">
+               <lb ed="#C" n="15"/>dum munum modum exponendi sper 
+      appropria<lb ed="#C" n="16" break="no"/>tionem dicta sunt, de qualibet Persona 
+      verifica<lb ed="#C" n="17" break="no"/>tur, quod ex ipsa, &amp; per ipsam, &amp; in ipsa, sunt om 
+      <lb ed="#C" n="18"/>nia. Secundo: quia dixerat omnia ex Deo esse, 
+      <lb ed="#C" n="19"/>ne aliquis crederet verificari posse omnia de 
+      <lb ed="#C" n="20"/>ipso esse, dat differentiam inter esse ex ipso &amp; 
+      <lb ed="#C" n="21"/>de ipso dicens: ex ipso esse omnia quorum actor 
+      <lb ed="#C" n="22"/>est, de ipso tamen esse ea solum, quae de 
+      substan<lb ed="#C" n="23" break="no"/>tia eius sunt. 3. epilogat recolligens in summa 
+      <lb ed="#C" n="24"/>quae dixerat. Secunda ibi: Illud etiam hic. Tertia 
+      <lb ed="#C" n="25"/>ibi: In praemissis apertum. In quo terminatur 
+      sen<lb ed="#C" n="26" break="no"/>tentia lectionis &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

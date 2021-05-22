@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="354"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e94825"><!-- l1-d18prooem -->
+            <head xml:id="Gi9qrR-e94825-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e94825-d1e111">
+      <!--391.xml-->
+               <pb ed="#C" n="354"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DISTINCTIO SVIII 
+      <lb ed="#C" n="2"/>VTRVM EADEM RATIONE SPIRITVS SANCTVS DICA¬ 
+      <lb ed="#C" n="3"/>tur donum &amp; datum sive donatum: 
+    </p>
+            <p xml:id="Gi9qrR-e94825-d1e127">
+      <!--391.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="4"/>R quaeritur &amp;c. Postquam 
+      <lb ed="#C" n="5"/>Mag. determinavit de 
+      mis<lb ed="#C" n="6" break="no"/>sione Spiritus Sancti, 
+      scili<lb ed="#C" n="7" break="no"/>cet, visibili, &amp; invisibili, 
+      <lb ed="#C" n="8"/>hic circa donum, quod est, 
+      <lb ed="#C" n="9"/>proprium nomen Spiritus 
+      <lb ed="#C" n="10"/>Sancti, quasdam quaestiones 
+      <lb ed="#C" n="11"/>movet. Et tria facit: quia 
+      <lb ed="#C" n="12"/>1. movet dictas quaestiones. 2. contra 
+      deter<lb ed="#C" n="13" break="no"/>minata instat. 3. in brevi dicta recolligit. 
+      Se<lb ed="#C" n="14" break="no"/>cunda ibi: Hic oritur quaestio. Tertia ibi: Ex 
+      <lb ed="#C" n="15"/>praedictis. Circa primum tria facit, secundum 
+      <lb ed="#C" n="16"/>quod tres quaestiones movet: quia 1, 
+      quae<lb ed="#C" n="17" break="no"/>rit utrum per Spiritum Sanctum, quod est de 
+      <lb ed="#C" n="18"/>num, dentur alia dona. 2. utrum sit eo 
+      do<lb ed="#C" n="19" break="no"/>num, quo datum. 3. investigat quibus datur.  
+      <lb ed="#C" n="20"/>Secunda ibi: Pa aeterea diligenter. Tertia ibi: Sed 
+      <lb ed="#C" n="21"/>quaeritur, cui donabilis. Circa primum duo facit 
+      <lb ed="#C" n="22"/>quia 1. quaerit: utrum per Spiritum Sanctum 
+      <lb ed="#C" n="23"/>alia dona dentur. 2. respondet singulis propria 
+      <lb ed="#C" n="24"/>dona dari per donum, quod est Spiritus. 
+      Se<lb ed="#C" n="25" break="no"/>cunda ibi: Ad quod dicimus. Deinde cum dicit: 
+      <lb ed="#C" n="26"/>Praete rea, exequitur de 2. quaestione. Et duo 
+      <lb ed="#C" n="27"/>fecit: quia 1. exequitur dubitando. 2. solvet 
+      <lb ed="#C" n="28"/>do, ibi: Ad quod dicimus. Circa primum tria 
+      fa<lb ed="#C" n="29" break="no"/>cit: quia 1. adducit unam rationem; quod 
+      <lb ed="#C" n="30"/>Spiritus Sanctus eadem ratione dicatur 
+      do<lb ed="#C" n="31" break="no"/>num, &amp; datum: quia idem est ipsum dari, &amp; 
+      <lb ed="#C" n="32"/>donari; sed a dari dicitur datum, a 
+      donati<lb ed="#C" n="33" break="no"/>donum, ergo est eo donum, quo datum. 
+      Se<lb ed="#C" n="34" break="no"/>cundo probat hoc idem per auctoritatem 
+      Au<lb ed="#C" n="35" break="no"/>gust. 3. adducit rationem in contrarium: quia 
+      <lb ed="#C" n="36"/>donum fuit ab aeterno, datum ex, tempore; 
+      <lb ed="#C" n="37"/>non ergo eo donum, quo datum. Secunda 
+      <lb ed="#C" n="38"/>ibi: Hoc etiam videtur. Tertia ibi; Si autem 
+      ex<lb ed="#C" n="39" break="no"/>eo. Deinde cum dicit: Ad quodi dieimus; solvit. 
+      <lb ed="#C" n="40"/>Ad cuius evidentiam notandum, quod 
+      Spiri<lb ed="#C" n="41" break="no"/>tum Sanctum esse eadem ratione donum, quo 
+      <lb ed="#C" n="42"/>datum, si eadem ratione accipitur, quantum 
+      <lb ed="#C" n="43"/>ad durationem dationis est loquutio falsa: quia 
+      <lb ed="#C" n="44"/>ab aeterno donum, sed ex tempore datum; 
+      <lb ed="#C" n="45"/>sed si non dicit ordinem durationis, sed 
+      ma<lb ed="#C" n="46" break="no"/>gis rationem &amp; causam, tunc est loquutio 
+      ve<lb ed="#C" n="47" break="no"/>ra: quia ratio, quare datur in tempore, est 
+      <lb ed="#C" n="48"/>quia processit ab aeterno, ut, donum. Vnde tria 
+      <lb ed="#C" n="49"/>facit: quia 1. dicit darum esse ex tempore. 2. 
+      <lb ed="#C" n="50"/>ostendit eum donum fuisse ab aeterno, &amp; ex 
+      <lb ed="#C" n="51"/>proprietate. Tertio manifestat, quod dixerat 
+      <lb ed="#C" n="52"/>per <name xml:id="Gi9qrR-e94825-Nd1e239" ref="#Augustine">August.</name> Secunda ibi: Donum vero. Tertia 
+      <lb ed="#C" n="53"/>ibi: Vna <name xml:id="Gi9qrR-e94825-Nd1e245" ref="#Augustine">Aug.</name> 
+            </p>
+            <p xml:id="Gi9qrR-e94825-d1e249">
+               <lb ed="#C" n="54"/>Tunc sequitur illa pars: Sed quaeritur, in 
+      <lb ed="#C" n="55"/>qua exequitur de tertia quaestione, &amp; de 
+      se<lb ed="#C" n="56" break="no"/>cunda: quia 1. facit, quod dictum est. 2. 
+      as<lb ed="#C" n="57" break="no"/>signat quamdam convenientiam inter Filium, 
+      <!--391.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="58"/>&amp; Spiritum Sanctum, ibi: Et notandum. Circi 
+      <lb ed="#C" n="59"/>primum duo facit: quia 1. quaerit, cui datur 
+      <lb ed="#C" n="60"/>Spiritus Sanctus? 2. solvit, quod donabilis est 
+      <lb ed="#C" n="61"/>nobis, non Patri &amp; Filio, ibi: Ad quod dicimus. 
+      <lb ed="#C" n="62"/>Deinde cum dicit: Et notandum; assignat 
+      con<lb ed="#C" n="63" break="no"/>venientiam quamdam inter Filium &amp; Spiri¬um 
+      <lb ed="#C" n="64"/>Sanctum: quia ostendit Spiritum Sanctum 
+      <lb ed="#C" n="65"/>procedendo esse, &amp; donum esse, sicut Filius 
+      <lb ed="#C" n="66"/>nascendo est, &amp; est Filius, in quo 
+      convenien<lb ed="#C" n="67" break="no"/>tia quaedam ipsius ad Filium denotatur. 
+      Dein<lb ed="#C" n="68" break="no"/>de cum dicit: Hic oritur, instat contra deter 
+      <lb ed="#C" n="69"/>minata. Et tria facit: quia 1. instat: nam 
+      si<lb ed="#C" n="70" break="no"/>Filius processione est Filius &amp; essentia, 
+      simi<lb ed="#C" n="71" break="no"/>liter &amp; Spiritus Sanctus, ergo Filius eodem est 
+      <lb ed="#C" n="72"/>Filius, quo Deus, quod <name xml:id="Gi9qrR-e94825-Nd1e296" ref="#Augustine">Aug.</name> negat, qui 
+      di<lb ed="#C" n="73" break="no"/>cit: quod Pater non est eo Pater, quo Deus. 
+      <lb ed="#C" n="74"/>2. solvit, quod formaliter loquendo, &amp; ut 
+      na<lb ed="#C" n="75" break="no"/>tivitas dicit proprie talem, Filius nativitate 
+      <lb ed="#C" n="76"/>est Filius, non essentia, neque Deus. Nec 
+      <lb ed="#C" n="77"/>Spiritus Sanctus processione essentia est, sed  
+      <lb ed="#C" n="78"/>dorum; sed ut processio, &amp; nativitas dicunt 
+      <lb ed="#C" n="79"/>originem, Filius nativitate est Deus, &amp; 
+      Spi<lb ed="#C" n="80" break="no"/>ritus Sanctus processione. Tertio confirmat 
+      <lb ed="#C" n="81"/>hoc per Hilarium. Secunda ibi: Ad quod 
+      bre<lb ed="#C" n="82" break="no"/>viter. Tertia ibi: Non enim. Circa quod tria 
+      <lb ed="#C" n="83"/>facit: quia 1. adducit verba Hilarij. 2. ea 
+      <lb ed="#C" n="84"/>exponit. 3. ex illis concludit intentum. 
+      Se<lb ed="#C" n="85" break="no"/>cunda ibi: Quod ita. Tertia ibi: Ex his verbis. 
+      <lb ed="#C" n="86"/>Tunc sequitur illa pars: Ex praedictis, in qua in 
+      <lb ed="#C" n="87"/>brevi recolligit, quae sequuntur ex dictis. Et  
+      <lb ed="#C" n="88"/>duo facit: quia 1. facit, quod dictum est. 2. 
+      <lb ed="#C" n="89"/>ex habitis movet quasdam quaestiones, ibi: Hic 
+      <lb ed="#C" n="90"/>quaeretur. Circa primum duo facit secundum 
+      <lb ed="#C" n="91"/>quod duo concludit ex habitis: quia1 osten 
+      <lb ed="#C" n="92"/>dit Spiritum Sanctum esse ab aeterno donum, 
+      <lb ed="#C" n="93"/>sed ex tempore datum, quo designatur, ratio 
+      <lb ed="#C" n="94"/>geminae processionis. 2. ostendit, Spiritum 
+      Sa<lb ed="#C" n="95" break="no"/>ctum ad Patrem &amp; Filium referri, ex eo, quod 
+      <lb ed="#C" n="96"/>dicitur donum; sed ad nos r.ferri ex eo, quod 
+      <lb ed="#C" n="97"/>dicitur datum, propter quod &amp; Spiritus 
+      no<lb ed="#C" n="98" break="no"/>ster dicitur. Secunda ibi: Et secundum. 
+    </p>
+            <p xml:id="Gi9qrR-e94825-d1e357">
+               <lb ed="#C" n="99"/>Tunc sequitur illa pars: Hic quaeritur, in 
+      <lb ed="#C" n="100"/>qua movet quasdam quae stiones ex dictis. Et  
+      <lb ed="#C" n="101"/>duo facit, secundum quod duo quaerit: quia 
+      <lb ed="#C" n="102"/>cum Spiritus dicatur noster quaerit utrum 
+      <lb ed="#C" n="103"/>Filius noster dicit possite Rursum, cum 
+      Spi<lb ed="#C" n="104" break="no"/>citus Sanctus referatur ad eum, qui dat, &amp; 
+      <lb ed="#C" n="105"/>id eum, cui datur, quaerit utrum ad se ipsum 
+      <lb ed="#C" n="106"/>referri possit. Secunda ibi: Posi hoc. Circa 
+      pri<lb ed="#C" n="107" break="no"/>mum duo facit: quia 1. quaerit, utrum Filius 
+      <lb ed="#C" n="108"/>possit dici noster. 2. solvit, quod sub illo 
+      no<lb ed="#C" n="109" break="no"/>mine Filius non dicitur noster, sed sub alio: 
+      <lb ed="#C" n="110"/>quia dicitur Redemptor nosters panis noster: 
+      <!--392.xml-->
+      <pb ed="#C" n="355"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>num &amp; Spiritus Sanctus non sub quolibet 
+      nomi<lb ed="#C" n="2" break="no"/>ne dicitur noster: nam licet dicatur Spiritus A 
+      <lb ed="#C" n="3"/>noster, nunquam tamen in scripturis legitur,  
+      <lb ed="#C" n="4"/>Spiritus Sanctus noster. Secunda ibi: Ad quod 
+      <lb ed="#C" n="5"/>dicimus. Deinde cum dicit: Post hoc, quaerit utrum 
+      <!--392.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="6"/>Spiritus Sanctus referatur ad se? Et duo 
+      fa<lb ed="#C" n="7" break="no"/>cit: quia 1. facit, quod dictum est. 2. differt 
+      <lb ed="#C" n="8"/>olutionem usque ad 30. dist. Secunda ibi: Huide 
+      <lb ed="#C" n="9"/>quaess. in quo terminatur sententia lectionis, 
+      <lb ed="#C" n="10"/>&amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="452"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f21019"><!-- l1-d23expolit -->
+            <head xml:id="Gi9qrR-f21019-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f21019-d1e111">
+               <lb ed="#C" n="98"/>ExPOSITIOLITTERAEIIIII
+    </p>
+            <p xml:id="Gi9qrR-f21019-d1e116">
+               <lb ed="#C" n="99"/>VPER litteram, super illo: Non est 
+      <lb ed="#C" n="100"/>aliud Deo esse, aliud Personam esse? No 
+      <lb ed="#C" n="101"/>tandum, hoc esse dictum, vel quia 
+      Per<lb ed="#C" n="102" break="no"/>sona de suo signisicato primo non 
+      di<lb ed="#C" n="103" break="no"/>cit relationem, vel quia eo ipso iquod 
+      <lb ed="#C" n="104"/>Persona de suo significato primo dicit 
+      <lb ed="#C" n="105"/>quid subsistens in intellectuali : natura, 
+      <lb ed="#C" n="106"/>non est intelligibile aliquem esse Deum, 
+      <lb ed="#C" n="107"/>&amp; non esse Personam.. 
+      <lb ed="#C" n="108"/>Item super illo: cum dicimus 
+      Perso<lb ed="#C" n="109" break="no"/>nam Patris, non aliud dicimus, quam Ratris 
+      <!--490.xml-->
+      <pb ed="#C" n="453"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>substantiam. Secundum quod modo 
+      uti<lb ed="#C" n="2" break="no"/>mur hoc nomine Persona. Notandum 
+      <lb ed="#C" n="3"/>quod ibi accipitur substantia pro 
+      sup<lb ed="#C" n="4" break="no"/>posito, non pro natura, secundum que 
+      <lb ed="#C" n="5"/>modum Craeci loquuntur, cum dicunt  
+      <lb ed="#C" n="6"/>in Divinis esse unam naturam, &amp; tres 
+      <lb ed="#C" n="7"/>substantias; tamen quia lingua nostra 
+      <lb ed="#C" n="8"/>ut plurimum utitur substantia pro 
+      essen<lb ed="#C" n="9" break="no"/>tia, aptius dicuntur tres Personae, &amp; 
+      <lb ed="#C" n="10"/>una natura, quam tres substantiae, &amp; 
+      <lb ed="#C" n="11"/>una natura: unde &amp; <name xml:id="Gi9qrR-f21019-Nd1e172" ref="#Augustine">Aug.</name> 7. de Trin. 
+      <lb ed="#C" n="12"/>cap. 6. dicit: fortassis igitur 
+      commo<lb ed="#C" n="13" break="no"/>dius dicuntur tres Personae, quam tres 
+      <lb ed="#C" n="14"/>substantiae. 
+      <lb ed="#C" n="15"/>Item super illo: Non ut diceretur, sed  
+      <lb ed="#C" n="16"/>ne taceretur. Contra: quia in 
+      Divini<lb ed="#C" n="17" break="no"/>absque pluralitate dicere possumus tres 
+      <lb ed="#C" n="18"/>Personas. Dicendum, quod 
+      necessita<lb ed="#C" n="19" break="no"/>te coacti Latini dixerunt tres Personas, 
+      <lb ed="#C" n="20"/>ut <name xml:id="Gi9qrR-f21019-Nd1e194" ref="#Augustine">August.</name> ait. Haec autem necessit: S 
+      <lb ed="#C" n="21"/>ex hoc colligitur: quia nihil de Deo 
+      <lb ed="#C" n="22"/>affirmative proprie dici potest 
+      quan<lb ed="#C" n="23" break="no"/>tum ad modum significandi. 
+      Secun<lb ed="#C" n="24" break="no"/>doni: quia in scripturis Divinis hoc non 
+      <lb ed="#C" n="25"/>videtur expressum: &amp; quia 
+      quodam<lb ed="#C" n="26" break="no"/>modo videtur praesumptio de tanta re, 
+      <lb ed="#C" n="27"/>quae nostrum intellectum excedit, de 
+      <lb ed="#C" n="28"/>qua secundum nostrum modum 
+      intel<lb ed="#C" n="29" break="no"/>ligendi nihil proprie affirmatur aliquid 
+      <lb ed="#C" n="30"/>dicere in Sacro Canone non repertum: 
+      <lb ed="#C" n="31"/>dicitur quod quadam necessitate duct: 
+      <lb ed="#C" n="32"/>dicimus tres Personas, non ratione 
+      vi<lb ed="#C" n="33" break="no"/>tandae falsitatis, sed vitandaem 
+      praesump<lb ed="#C" n="34" break="no"/>tionis, 
+    </p>
+            <p xml:id="Gi9qrR-f21019-d1e229">
+               <lb ed="#C" n="35"/>Item super illo: Verius enim 
+      cogita<lb ed="#C" n="36" break="no"/>nu. 
+      <lb ed="#C" n="37"/>tur Deus, quam dicitur. Contra: aliqua 
+      <lb ed="#C" n="38"/>dicimus de eo, quae non intelligimus: 
+      <lb ed="#C" n="39"/>nam dicimus Filium generarua Patre, 
+      <lb ed="#C" n="40"/>iquam generationem inte lectu non 
+      ca<lb ed="#C" n="41" break="no"/>pimus. Dicendum, quod licet aliqua 
+      <lb ed="#C" n="42"/>dicamus, quae non intelligimus: verius 
+      <lb ed="#C" n="43"/>tamen illa intellectu, iuvante habitu 
+      Fi<lb ed="#C" n="44" break="no"/>dei, intuemur, quam vocesrsignificent: 
+      <lb ed="#C" n="45"/>&amp; hoc quantum ad modum 
+      sivnifican<lb ed="#C" n="46" break="no"/>idi, qui sequitur modum intelligendi: 
+      <!--490.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="47"/>nam quantum ad talem, modum, &amp; 
+      <lb ed="#C" n="48"/>voces deficiunt, &amp; intellectus; magis 
+      <lb ed="#C" n="49"/>tamen voces, quam intellectus, &amp; prot 
+      <lb ed="#C" n="50"/>ter hoc dictum est, verius cogitatur  
+      <lb ed="#C" n="51"/>Deus, quam dicitur.  
+    </p>
+            <p xml:id="Gi9qrR-f21019-d1e273">
+               <lb ed="#C" n="52"/>Item super illo: cum quaeritur quid tres 
+      <lb ed="#C" n="53"/>possunt dici tres Personae. Contram: Persona. 
+      <lb ed="#C" n="54"/>relationem importat, sed ad quid non 
+      <lb ed="#C" n="55"/>debet responderi relatum, cum quid  
+      <lb ed="#C" n="56"/>quaerat de substantia. Dicendum, quod 
+      <lb ed="#C" n="57"/>Persona etiam substantiam significat 
+      <lb ed="#C" n="58"/>modo, quo dictum est: quia significat 
+      <lb ed="#C" n="59"/>suppositum; &amp; ideo potest responderi 
+      <lb ed="#C" n="60"/>dicendo tres Personas. 
+      <lb ed="#C" n="61"/>Item super illo: Quia scriptura non 
+      <lb ed="#C" n="62"/>contradicit: quia videtur velle quod 
+      di<lb ed="#C" n="63" break="no"/>camus tres Personas: quia scriptura non 
+      <lb ed="#C" n="64"/>contradicit. Sed contra: quia nec etiam 
+      <lb ed="#C" n="65"/>contradicit, si diceremus unam 
+      Perso<lb ed="#C" n="66" break="no"/>nam, ergo possumus dicere, quod 
+      Pa<lb ed="#C" n="67" break="no"/>ter, &amp; Filius sunt una Persona, quod  
+      <lb ed="#C" n="68"/>falsum est. Dicendum, quod icausa 
+      as<lb ed="#C" n="69" break="no"/>signata non est tota causa, int ipsemet 
+      <lb ed="#C" n="70"/>August. insinuat. Sed causa est: quia 
+      <lb ed="#C" n="71"/>dicere tres. Personas, non repugnat 
+      <lb ed="#C" n="72"/>pietati fidei, observata significatione 
+      <lb ed="#C" n="73"/>vocabuli. 
+    </p>
+            <p xml:id="Gi9qrR-f21019-d1e324">
+               <lb ed="#C" n="74"/>Item super illom: Fimuit dicerentres 
+      e<lb ed="#C" n="75" break="no"/>sentias. Notandum, quod intessentia 
+      <lb ed="#C" n="76"/>non datur intelligi relatio7 ut ratione 
+      <lb ed="#C" n="77"/>relationis intellectae postimus. dicere 
+      <lb ed="#C" n="78"/>tres essentias, sicut dicimus tres 
+      Per<lb ed="#C" n="79" break="no"/>ponasnimannisui:ib: ituiut?. Etiqui 
+      <lb ed="#C" n="80"/>Item super illo: cum Dominus dicit,  
+      <lb ed="#C" n="81"/>qui videt me ividet &amp; Patrem, ivult 
+      Hila<lb ed="#C" n="82" break="no"/>rius, quod in hoc distinguatur, 
+      distin<lb ed="#C" n="83" break="no"/>ctio, &amp; unitas, sive per hoc 
+      removea<lb ed="#C" n="84" break="no"/>tur singularitas, &amp; confusio. Ad cuius 
+      <lb ed="#C" n="85"/>evidentiam notandum, quod eo ipso 
+      <lb ed="#C" n="86"/>quod Dominus nominat se distinctum 
+      <lb ed="#C" n="87"/>a Patre, vel ponit copulam inter se, &amp; 
+      <lb ed="#C" n="88"/>Patrem, datur intelligi distinctio: ex eo 
+      <lb ed="#C" n="89"/>durem quod ad visionem unius 
+      sequi<lb ed="#C" n="90" break="no"/>tur visio alterius, designatur unitas in 
+      <lb ed="#C" n="91"/>natura.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

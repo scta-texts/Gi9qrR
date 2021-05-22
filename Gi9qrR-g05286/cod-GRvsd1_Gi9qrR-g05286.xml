@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="787"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g05286"><!-- l1-d42prooem -->
+            <head xml:id="Gi9qrR-g05286-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g05286-d1e111"><!--812.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="19"/>DISTINCTIO UUUBII. 
+      <lb ed="#C" n="20"/>DE OMNIPOTENTIA DEI, VBIPRIVS CONSIDERATVR, 
+      <lb ed="#C" n="21"/>quare dicatur omnipotens?
+    </p> 
+            <p xml:id="Gi9qrR-g05286-d1e123">
+      <!--812.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="22"/>VNC de omnipotentia Dei &amp;c. 
+      <lb ed="#C" n="23"/>Postquam Magister 
+      ideter<lb ed="#C" n="24" break="no"/>minavit de Divina scientia, 
+      <lb ed="#C" n="25"/>hic in parte ista determinat 
+      <lb ed="#C" n="26"/>de Divina potentia. Et duo 
+      <lb ed="#C" n="27"/>facit: quia 1. determinat de 
+      <lb ed="#C" n="28"/>universalitate huius 
+      poten<lb ed="#C" n="29" break="no"/>tiae. 2. removet errorem 
+      <lb ed="#C" n="30"/>quorumdam. Secunda ibi: Quidam tamen. In 
+      <lb ed="#C" n="31"/>principio 43. dist. Circa pimum duo facit: quia 
+      <lb ed="#C" n="32"/>1. ostendit Deum esse omnipotentem; eo quod 
+      <lb ed="#C" n="33"/>potest omnia. 2. exponit quasdam 
+      auctori<lb ed="#C" n="34" break="no"/>tates, quae videntur dicere non esse omnipoten 
+      <lb ed="#C" n="35"/>tem: quia possit omnia; sed quia potest quid 
+      <lb ed="#C" n="36"/>quid vult. Secunda ibi: Et quibusdam tamen. Circa 
+      <lb ed="#C" n="37"/>primum duo facit: quia 1. dicit Deum non 
+      so<lb ed="#C" n="38" break="no"/>lum esse omnipotentem; quia potest quid vult, 
+      <lb ed="#C" n="39"/>sed quia potest omnia, quod auctoritate 
+      confir<lb ed="#C" n="40" break="no"/>mat. 2. contra hanc veritatem opponit, ibi: Sed  
+      <lb ed="#C" n="41"/>quaeritur. Circa quod tria facit, secundum quod 
+      <lb ed="#C" n="42"/>tria videtur Deus non posse: nam quaedam sunt,  
+      <lb ed="#C" n="43"/>quae dicunt actum; sed dicunt ipsum 
+      imperfe<lb ed="#C" n="44" break="no"/>ctum: ut ambulare, loqui &amp; talia, quae Deus 
+      <lb ed="#C" n="45"/>non videtur posse: quaedam vero sunt, quae per 
+      <lb ed="#C" n="46"/>se loquendo, &amp; formaliter dicunt privationem 
+      <lb ed="#C" n="47"/>actus, ut mentiri, peceare, quae etiam Deus non  
+      <lb ed="#C" n="48"/>potest. 3. sunt quaedam, quae non sonant in actum 
+      <lb ed="#C" n="49"/>sed in passionem: ut mori, falli, vinci, &amp; talia, 
+      <lb ed="#C" n="50"/>quae etiam a Deo removetur. Primo ergo arguit 
+      <lb ed="#C" n="51"/>Deum non esse omnipotetem: quia non potest ambula 
+      <lb ed="#C" n="52"/>re, non potest loqui, &amp; solvit: quia licet hoc non 
+      <lb ed="#C" n="53"/>possit in se, potest tamen ed in subiectam 
+      creatu<lb ed="#C" n="54" break="no"/>ra. Secundo obiicit ipsum non esse 
+      omnipoten<lb ed="#C" n="55" break="no"/>tem: quia non potest mentiri, non potest peccam 
+      <lb ed="#C" n="56"/>re: &amp; solvit, quod haec non sunt potentiae, sed  
+      <lb ed="#C" n="57"/>infirmitatis. Tertio opponit ipsum non esse 
+      om<lb ed="#C" n="58" break="no"/>nipotentem: quia non potest falli, nec 
+      mo<lb ed="#C" n="59" break="no"/>ri. Et solvit quod talia non dicunt perfectiones, 
+      <lb ed="#C" n="60"/>sed defectus. Vnde si talia posset, omnipotens 
+      <lb ed="#C" n="61"/>non esset. Secunda ibi:. Sed sune alia. Tertia ibi:  
+      <!--812.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="62"/>Sunt etiam, &amp; alia. Circa quod duo facit: quia 1. 
+      <lb ed="#C" n="63"/>opponit Deum non esse omnipotentem: quia non 
+      <lb ed="#C" n="64"/>potest mori, nec falli, &amp; solvit. 2. concludit, 
+      <lb ed="#C" n="65"/>Deum dupliciter omnipotentem dici. Primo: 
+      <lb ed="#C" n="66"/>quia oniapotest facere. Secudo: quia nihil potest 
+      <lb ed="#C" n="67"/>pati. Secunda ibi: Sic igitur diligenter. Deinde cum 
+      <lb ed="#C" n="68"/>dicit: Ex quibusdam. exponit qua sdam 
+      auctotita<lb ed="#C" n="69" break="no"/>ter, quae videntur dicere Deum esse omnipoten 
+      <lb ed="#C" n="70"/>tem; quia potest quidquid vult. Et duo facit: 
+      <lb ed="#C" n="71"/>quia 1. adducit auctoritates illas, &amp; specialiter 
+      <lb ed="#C" n="72"/>auctoritatem <name xml:id="Gi9qrR-g05286-Nd1e244" ref="#Augustine">Aug.</name> quae dicit Deum non posse 
+      <lb ed="#C" n="73"/>omnia: posse tamen quidquid vult. 2. 
+      huiusmo<lb ed="#C" n="74" break="no"/>di auctoritates ex ponit, ibi: Sed ad hoc. Circa 
+      <lb ed="#C" n="75"/>quod duo facit: quia 1. ex ponit auctoritates 
+      <lb ed="#C" n="76"/>tactas. 2. oblicit contra ea, quae dixerat, ibi: 
+      <lb ed="#C" n="77"/>Sed forte dites. Circa primum duo facit: quia 1. 
+      <lb ed="#C" n="78"/>ex ponit quomodo intelligendum sit, quod ait  
+      <lb ed="#C" n="79"/>Aug. Deum non posse omnia, dicens, <name xml:id="Gi9qrR-g05286-Nd1e262" ref="#Augustine">Aug.</name> Iat 
+      <lb ed="#C" n="80"/>ge accipere omnia, ita quod sub omnibus mala 
+      <lb ed="#C" n="81"/>comprehendantur, quae non potest Deus. 2. 
+      ex<lb ed="#C" n="82" break="no"/>conit quomodo intelligendum sit Deum posse 
+      <lb ed="#C" n="83"/>quidquid vult. Nam quidquid vult tripliciter  
+      <lb ed="#C" n="84"/>potest intelligi, videlicet, quidquid vult facere, 
+      <lb ed="#C" n="85"/>quidquid vult se posse, &amp; quidquid vult fieri. 
+      <lb ed="#C" n="86"/>Cum ergo dicitur Deus quidquid vult potest, 
+      <lb ed="#C" n="87"/>non est intelligendum solum quidquid vult 
+      face<lb ed="#C" n="88" break="no"/>e, vel quidquid vult se posse. Nam quilibet beatus 
+      <lb ed="#C" n="89"/>hocpotest, sed potest quidquid vult fieri, quod 
+      <lb ed="#C" n="90"/>non potest aliquis bonus. Rursum differt potentia 
+      <lb ed="#C" n="91"/>Divina a potentiam creata: quia Deus est potens 
+      <lb ed="#C" n="92"/>per se &amp; a se: nulla tamem creatura sic potens est. 
+      <lb ed="#C" n="93"/>pecuda ibi: Sed cave quomodo Deinde cum dicit: Sed  
+      <lb ed="#C" n="94"/>forte. Opponit contra determinata. Dixerat enim 
+      <lb ed="#C" n="95"/>Deum omne per se posse, ex quo videtur concludi 
+      <lb ed="#C" n="96"/>Filium &amp; Spiritum Sanctum non esse Deum, 
+      <lb ed="#C" n="97"/>cum potentiam, quam habent, non habent a se, 
+      <lb ed="#C" n="98"/>sed ab alio. Et duo facit: quia 1. opponit. 2. 
+      fol<lb ed="#C" n="99" break="no"/>vit dicens, Filium, &amp; Spiritum Sanctum per se: 
+      <lb ed="#C" n="100"/>posse, licet a se non possint. Nam illa eadem po¬ 
+      <!--813.xml-->
+      <pb ed="#C" n="788"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>tentia, quam habet Pater, communicatur Filio, 
+      <lb ed="#C" n="2"/>&amp; Spiritui Sancto; ideo persse possunt: quia na  
+      <lb ed="#C" n="3"/>turali potentia possunt. Creatura, autem non 
+      <!--813.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="4"/>per se potest: quia non naturali potentia, sed  
+      <lb ed="#C" n="5"/>gratuita. Secunda ibi: Ad quod dicimus. In quo 
+      <lb ed="#C" n="6"/>terminatur sententia lectionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

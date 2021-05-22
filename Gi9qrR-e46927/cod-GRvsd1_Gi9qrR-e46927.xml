@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="175"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e46927"><!-- l1-d8p1q4 -->
+            <head xml:id="Gi9qrR-e46927-Hd1e108">Quaestio 4</head>
+            <p xml:id="Gi9qrR-e46927-d1e111">
+      <!--212.xml-->
+               <pb ed="#C" n="175"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>QVAESTIO IV. 
+      <lb ed="#C" n="2"/>De immutabilitate Dei.
+    </p>
+            <p xml:id="Gi9qrR-e46927-d1e124">
+               <lb ed="#C" n="3"/>DOStea quaeritur de immutabilitate 
+      <lb ed="#C" n="4"/>Dei, &amp; circa hoc quaeruntur duo. 1. 
+      <lb ed="#C" n="5"/>utrum Deus sit immutabilis? 2. utrum 
+      <lb ed="#C" n="6"/>solus? 
+    </p>
+            <div xml:id="Gi9qrR-e46927-Dd1e135">
+               <head xml:id="Gi9qrR-e46927-Hd1e137">Articulus 1</head>
+               <p xml:id="Gi9qrR-e46927-d1e140">
+                  <lb ed="#C" n="7"/>ARTICVLVS I. 
+        <lb ed="#C" n="8"/>Vtrum Deus sit immutabilis.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e147">
+                  <lb ed="#C" n="9"/>AD 1. sic proceditur. Videtur quod  
+        <lb ed="#C" n="10"/>Deus mutetur: quia omne agens plysi 
+        <lb ed="#C" n="11"/>ce mitatur, ut vult Philosophus. 2. Phy. sed Deus 
+        <lb ed="#C" n="12"/>maxime videtur agere naturaliter, &amp; 
+        <lb ed="#C" n="13"/>physice: cum agat secundum quod res 
+        <lb ed="#C" n="14"/>sunt aptae natae agi: quia sic administrat 
+        <lb ed="#C" n="15"/>res, ut eas eorum cursus agere sinat, 
+        <lb ed="#C" n="16"/>praeterea: omne quod est, ubi prius 
+        <lb ed="#C" n="17"/>non erat, est mutatum, sed antequam  
+        <lb ed="#C" n="18"/>fieret Mundus, non erat Deus in Mun 
+        <lb ed="#C" n="19"/>do, ergo in eo fuit facta mutatio. Prae 
+        <lb ed="#C" n="20"/>terea: quae denominant aliquid, vide 
+        <lb ed="#C" n="21"/>tur esse in eo, quod denominant: quia 
+        <lb ed="#C" n="22"/>forma, a qua est denominatio, est in 
+        eo<lb ed="#C" n="23" break="no"/>cuius est forma, sed Deus denominatur 
+        <lb ed="#C" n="24"/>a motu: dicitur enim primus motor, 
+        er<lb ed="#C" n="25" break="no"/>go &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e186">
+        Praeterea: secundum Philos. 2. 
+        <lb ed="#C" n="26"/>de generatione: Idem manens idem semper 
+        <lb ed="#C" n="27"/>ffacit idem. Cum igitur Deus faciat tos 
+        <lb ed="#C" n="28"/>diversa, mutabitur.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e195">
+        Praeterea: 
+        mo<lb ed="#C" n="29" break="no"/>tis nobis, moventur omnia, quae sunt in 
+        <lb ed="#C" n="30"/>nobis, sed Deus est in omni creatura, er 
+        <lb ed="#C" n="31"/>go videtur moveri ad motum cuiuslibet 
+        <lb ed="#C" n="32"/>creature. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e207">
+                  <lb ed="#C" n="33"/>In contrarium est quod dicitur 
+        la<lb ed="#C" n="34" break="no"/>cobi 1. quod Apud ipsum non est 
+        transmu<lb ed="#C" n="35" break="no"/>ratio, nec vicissitudinis obumbratio. Et 1. de 
+        <lb ed="#C" n="36"/>Trin. cap. 1. vult <name xml:id="Gi9qrR-e46927-Nd1e217" ref="#Augustine">Aug.</name> quod Deus 
+        ha<lb ed="#C" n="37" break="no"/>bet veram immortalitatem, &amp; 
+        incom<lb ed="#C" n="38" break="no"/>mutabilitatem. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e226">
+                  <lb ed="#C" n="39"/>ESOLVTIO. 
+        <lb ed="#C" n="40"/>Deus immutabilis est; nec movetur per se, nec 
+        <lb ed="#C" n="41"/>per accidens, nec abintram, nullo que modo mo¬ 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e235">
+                  <lb ed="#C" n="42"/>vetur ratione sui. Sed moveri dicitur 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e240">
+                  <lb ed="#C" n="43"/>ratione effectuum: quia 
+        om<lb ed="#C" n="44" break="no"/>nium causa est. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e247">
+                  <lb ed="#C" n="45"/>REspondeo dicendum, quod 
+        tripli<lb ed="#C" n="46" break="no"/>citer dicitur aliquid moveri, per 
+        <!--212.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="47"/>se, &amp; per accidens, &amp; abintra: per se 
+        <lb ed="#C" n="48"/>moventur corpora, in quibus tanquam  
+        <lb ed="#C" n="49"/>in subiecto potest esse motus: per 
+        ac<lb ed="#C" n="50" break="no"/>cidens moventur formae inhaeretes 
+        cor<lb ed="#C" n="51" break="no"/>poribus, &amp; corporum partes, &amp; alia, 
+        <lb ed="#C" n="52"/>que non moventur per se, sed 
+        moven<lb ed="#C" n="53" break="no"/>tur ex eo quod sunt in alio: ab 
+        intrin<lb ed="#C" n="54" break="no"/>seco moventur ea, quae tendunt in 
+        fi<lb ed="#C" n="55" break="no"/>nem exteriorem, &amp; sic moventur intel 
+        <lb ed="#C" n="56"/>ligentiae moventes Orbem, quae 
+        mo<lb ed="#C" n="57" break="no"/>vent propter bonitatem Primi tanquam  
+        <lb ed="#C" n="58"/>propter nnem. Deus autem nullo 
+        mo<lb ed="#C" n="59" break="no"/>do movetur.  
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e286">
+                  <lb ed="#C" n="60"/>Ad cuius evidentiam notandum 
+        <lb ed="#C" n="61"/>quod secundum Comm. 10. Metaph. 
+        <lb ed="#C" n="62"/>Deus est in triplici genere causae respe 
+        <lb ed="#C" n="63"/>ctu rerum, in genere causae efficient: 
+        <lb ed="#C" n="64"/>formalis, &amp; finalis: prout est causa 
+        ef<lb ed="#C" n="65" break="no"/>ficiens omnium, non movetur per se: 
+        <lb ed="#C" n="66"/>prout est causa formalis exemplaris non 
+        <lb ed="#C" n="67"/>movetur per accidens: prout est finalis 
+        <lb ed="#C" n="68"/>non movetur abintra. Primum sic 
+        pa<lb ed="#C" n="69" break="no"/>ter: quia causa efficiens omnium, cum 
+        <lb ed="#C" n="70"/>sit infinite potentiae, ut probatur 8. 
+        Phy<lb ed="#C" n="71" break="no"/>&amp; 12. Meta. est praeter omnem 
+        magni<lb ed="#C" n="72" break="no"/>tudinem, sed moveri per se non est nisi 
+        <lb ed="#C" n="73"/>corporum, loquendo de motu proprie 
+        <lb ed="#C" n="74"/>Si igitur Deus, quia causa efficiens om 
+        <lb ed="#C" n="75"/>nium est praeter omnem magnitudinem 
+        <lb ed="#C" n="76"/>quia causa huiusmodi, non competit 
+        <lb ed="#C" n="77"/>ei per se moveri. 2. quia est causa exem 
+        <lb ed="#C" n="78"/>plaris non movetur per accidens: nam 
+        <lb ed="#C" n="79"/>illae formae moventur per accidens, 
+        qouoe<lb ed="#C" n="80" break="no"/>sunt inhaerentes subiectis; forma 
+        exem<lb ed="#C" n="81" break="no"/>plaris rerum non dependet a rebus: &amp; 
+        <lb ed="#C" n="82"/>ideo quia Deus est forma exemplaris 
+        om<lb ed="#C" n="83" break="no"/>nium rerum, non movetur per 
+        acci<lb ed="#C" n="84" break="no"/>dens, ut moveatur per motum rerum 
+        <lb ed="#C" n="85"/>3. finis omnium non movetur abintra 
+        <lb ed="#C" n="86"/>quia moveri est tendere in aliquid aliud 
+        <lb ed="#C" n="87"/>Quandiu enim res manet in dispositio 
+        <lb ed="#C" n="88"/>nibus, quas habet, non dicitur 
+        move<lb ed="#C" n="89" break="no"/>ri; sed quando tendit in alia, tunc 
+        mo<lb ed="#C" n="90" break="no"/>vetur. Si igitur Deus moveretur 
+        abin<lb ed="#C" n="91" break="no"/>tra, per intentionem finis tenderet in 
+        fi<lb ed="#C" n="92" break="no"/>nem alium, quo posito non esset finis 
+        <lb ed="#C" n="93"/>omnium. Si igitur est finis omnium non 
+        <lb ed="#C" n="94"/>movetur abintra, nec operatur propter 
+        <lb ed="#C" n="95"/>aliud, sed propter bonitatem suam. Propi 
+        <lb ed="#C" n="96"/>ter quod Prov. 16. dicitur: Vniversa 
+        <lb ed="#C" n="97"/>propter se metipsum operatus est Dominus. Cun 
+        <lb ed="#C" n="98"/>igitur Deus non moveatur nec per se, 
+        <lb ed="#C" n="99"/>nec per accidens, nec abintra: cum non 
+        <lb ed="#C" n="100"/>sit dari motum alium, nullo modo 
+        con<lb ed="#C" n="101" break="no"/>siderando ipsum ratione sui; competit 
+        <lb ed="#C" n="102"/>ei motus, sed solum movere alia. Bene¬ 
+        <!--213.xml-->
+        <pb ed="#C" n="176"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>gitur concluditur 8. Phys. quod Necesse 
+        <lb ed="#C" n="2"/>est esse aliquid immobile quidem ipsum ab 
+        omni<lb ed="#C" n="3" break="no"/>interius mutatione, &amp; simpliciter, sive per se, 
+        <lb ed="#C" n="4"/>&amp; secundum accidens, motivum autem 
+        alte<lb ed="#C" n="5" break="no"/>vius. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e400">
+                  <lb ed="#C" n="6"/>Advertendum tamenm, quod licet prima 
+        <lb ed="#C" n="7"/>causa non moveatur ratione sui; ratione 
+        <lb ed="#C" n="8"/>tamen efsectuum moveri dicitur, imme 
+        <lb ed="#C" n="9"/>secundum istum modum omnibus 
+        mo<lb ed="#C" n="10" break="no"/>bilibus mobilior est sapientia, secundum 
+        <lb ed="#C" n="11"/>quem modum Dion. 9. de Divin. nom 
+        <lb ed="#C" n="12"/>dicit: Deum moveri recte, oblique, &amp; 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e418">
+                  <lb ed="#C" n="13"/>circulariter. Vt accipiamus motum 
+        re<lb ed="#C" n="14" break="no"/>ctum inquantum indeclinabiliter, &amp; 
+        <lb ed="#C" n="15"/>inflexibiliter, &amp; continue operatur in 
+        <lb ed="#C" n="16"/>rebus. Obliquum autem ex eo quod res 
+        <lb ed="#C" n="17"/>difformiter eius influentiam capiunt. 
+        <lb ed="#C" n="18"/>Secundum circulum quidem: quia 
+        se<lb ed="#C" n="19" break="no"/>cundum quod influentia descendit a 
+        <lb ed="#C" n="20"/>Primo Principio per media in infima, 
+        <lb ed="#C" n="21"/>sic infima reducuntur in suprema per 
+        <lb ed="#C" n="22"/>media, ita quod ad illud principium, a 
+        <lb ed="#C" n="23"/>quo processerunt per eadem media 
+        re<lb ed="#C" n="24" break="no"/>qucuntur: sicut motus circularis est ab 
+        <lb ed="#C" n="25"/>eodem in idem per idem; iste tamen 
+        <lb ed="#C" n="26"/>motus non est Dei ratione sui, sed 
+        ratio<lb ed="#C" n="27" break="no"/>ne effectuum. Vnde super illo verbo 1. 
+        <lb ed="#C" n="28"/>cap. Ang. Hierar. Sed &amp; omnis Patre moto, 
+        <lb ed="#C" n="29"/>sive Deo moto; manifestationis luminum 
+        <lb ed="#C" n="30"/>processio in nos optime, &amp; large proveniens. 
+        <lb ed="#C" n="31"/>Dicit Hugo: Motus Patris affectus est 
+        pa<lb ed="#C" n="32" break="no"/>ternae benignitatis, sola enim benignitate, &amp; 
+        <lb ed="#C" n="33"/>pietate sola Pater movetur: ut lumina sua 
+        es<lb ed="#C" n="34" break="no"/>undat super nos. Movetur non turbatione suis 
+        <lb ed="#C" n="35"/>sed miseratione nostri: movetur non se 
+        concu<lb ed="#C" n="36" break="no"/>tiens, sed nos colligens, non se evacuans, sed  
+        <lb ed="#C" n="37"/>nos replens; movetur ergo ut ad nos veniat; &amp; 
+        <lb ed="#C" n="38"/>non movetur ut a se recedat. Movetur, ut 
+        no<lb ed="#C" n="39" break="no"/>bis esse incipiat, quod non erat: &amp; non 
+        move<lb ed="#C" n="40" break="no"/>tur, ut sibi desinat esse, quod erat. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e481">
+                  <lb ed="#C" n="41"/>Resp. ad arg. Ad 1. dicendum, quod 
+        <lb ed="#C" n="42"/>ibi agens physice appellatur, quod 
+        se<lb ed="#C" n="43" break="no"/>cundum substantiam est physicae 
+        consi<lb ed="#C" n="44" break="no"/>derationis, cuiusmodi non est Deus: quia 
+        <lb ed="#C" n="45"/>ut ibi subditur, quae non amplius mota 
+        moven<lb ed="#C" n="46" break="no"/>tur, non amplius physicae considerationis sunt.  
+        <lb ed="#C" n="47"/>Ad 2. dicendum, quod aliquid esse ubi 
+        <lb ed="#C" n="48"/>prius non erat, potest intelligi, vel per 
+        <lb ed="#C" n="49"/>mutationem sui, vel per mutationem 
+        <lb ed="#C" n="50"/>alterius. Vnde Deus fuit in mundo, 
+        ub<lb ed="#C" n="51" break="no"/>untequam esset mundus non erat, non 
+        <lb ed="#C" n="52"/>per mutationem sui, sed per 
+        mutatio<lb ed="#C" n="53" break="no"/>nem mundi, accipiendo mutationem 
+        <lb ed="#C" n="54"/>large ad omnem novam acceptionem 
+        ali<lb ed="#C" n="55" break="no"/>cuius esse, sicut modo est aliquando in 
+        <lb ed="#C" n="56"/>nobis, non ubi prius non erat, sed qua¬ 
+        <!--213.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>liter non erat, non per mutationem sui, 
+        <lb ed="#C" n="58"/>sed nostram.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e527">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="59"/>no semper forma, quae denominat rem, 
+        <lb ed="#C" n="60"/>est in re, ut probat Avicena in 
+        suficien<lb ed="#C" n="61" break="no"/>tia sua: unde dicitur, Opus humanum non 
+        <lb ed="#C" n="62"/>propter humanitatem, quae sit in opere, sed in 
+        ope<lb ed="#C" n="63" break="no"/>nante. Sic motus denominat motorem, 
+        <lb ed="#C" n="64"/>non quia sit in motore, sed quia est in 
+        <lb ed="#C" n="65"/>moto.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e545">
+        Ad 4. dicendum, quod 
+        nun<lb ed="#C" n="66" break="no"/>quam idem, nisi in eo esset aliqua 
+        plura<lb ed="#C" n="67" break="no"/>litas, produceret plura, sedsi in eo est 
+        plu<lb ed="#C" n="68" break="no"/>ralitas, potest: sicut idem artifex ratione 
+        <lb ed="#C" n="69"/>plurium idearum plura producit: &amp; quia 
+        <lb ed="#C" n="70"/>Deus producit res per ideas, &amp; per 
+        intel<lb ed="#C" n="71" break="no"/>lectum, quia in eo est pluralitas 
+        idea<lb ed="#C" n="72" break="no"/>rum, potest plura &amp; diversa 
+        produce<lb ed="#C" n="73" break="no"/>re; nec tamen propter hoc Deus est 
+        con<lb ed="#C" n="74" break="no"/>positus, nisi secundum modum 
+        intelli<lb ed="#C" n="75" break="no"/>gendi.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e569">
+        Ad 5. dicendum, quod cum 
+        di<lb ed="#C" n="76" break="no"/>citur motis nobis moventur omnia, quo 
+        <lb ed="#C" n="77"/>in nobis sunt, intelligendum est de his 
+        <lb ed="#C" n="78"/>quae sunt in nobis inhaerenter, &amp; a 
+        no<lb ed="#C" n="79" break="no"/>bis dependent, cuiusmodi non est Deus. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e46927-Dd1e581">
+               <head xml:id="Gi9qrR-e46927-Hd1e583">Articulus 2</head>
+               <p xml:id="Gi9qrR-e46927-d1e586">
+                  <lb ed="#C" n="80"/>ARTICVLVS II. 
+        <lb ed="#C" n="81"/>Vtrum omnis creatura sit mutabilis? 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e593">
+                  <lb ed="#C" n="82"/>SEcundo quaeritur: utrum omnis 
+        <lb ed="#C" n="83"/>creatura sit mutabilis?
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e600">
+        Et videtur  
+        <lb ed="#C" n="84"/>quod non: quia ut scribitur 2. Metaph. 
+        <lb ed="#C" n="85"/>oportet imaginari materiam in re mita, Non 
+        <lb ed="#C" n="86"/>igitur movetur, nisi quod habet 
+        mate<lb ed="#C" n="87" break="no"/>riam, sed ut scribitur 8. Metaph. 
+        Intelli<lb ed="#C" n="88" break="no"/>gentiae sunt entes praeter omnem materiam 
+        intel<lb ed="#C" n="89" break="no"/>igibilem &amp; sensibilem, ergo non 
+        moven<lb ed="#C" n="90" break="no"/>tur.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e618">
+        Praeterea: probatur 8. Phys. Quod  
+        <lb ed="#C" n="91"/>motus localis est primus motus, quod ergo 
+        <lb ed="#C" n="92"/>non movetur localiter, non movetur: 
+        <lb ed="#C" n="93"/>quia, cui non inest primum, nec 
+        poste<lb ed="#C" n="94" break="no"/>rius, sed intelligentiae non moventur 
+        <lb ed="#C" n="95"/>localiter: quia ut probatur 6. Phys. Om 
+        <lb ed="#C" n="96"/>ne, quod movetur partim est in termino a quo, &amp; 
+        <lb ed="#C" n="97"/>partim est in termino ad quem: unde ut 
+        ibi<lb ed="#C" n="98" break="no"/>dem concluditur, Onine, quod mutatur, 
+        divi<lb ed="#C" n="99" break="no"/>ibile est, sed ut scribitur 7. propositione 
+        <lb ed="#C" n="100"/>de causis: Intelligentia est substantia, quae unit 
+        <lb ed="#C" n="101"/>dividitur, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e645">
+        Praeterea: probatur 
+        <lb ed="#C" n="102"/>3. Phys. quod Motus est actus enxtis in 
+        poten<lb ed="#C" n="103" break="no"/>tia, secundum quod in potentia, sed in substam 
+        <lb ed="#C" n="104"/>tijs separatis non est malum, sive privatio, nec 
+        <lb ed="#C" n="105"/>error, ut scribitur 9. Metaph. ergo nec 
+        <lb ed="#C" n="106"/>potentialitas: quia ipsa potentialitas 
+        in<lb ed="#C" n="107" break="no"/>ciudit in se privationem &amp; malum. 
+        Prae<lb ed="#C" n="108" break="no"/>erea: <name xml:id="Gi9qrR-e46927-Nd1e662" ref="#Augustine">Aug.</name> super Cenes. &amp; habetur, 
+        <lb ed="#C" n="109"/>in littera, distinguit duos modos motus o 
+        <!--214.xml-->
+        <pb ed="#C" n="177"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>per tempora, &amp; per loca, sed univer 
+        <lb ed="#C" n="2"/>sale est abstractum ab hic &amp; nunc: nor 
+        <lb ed="#C" n="3"/>igitur movetur nec per tempora, nec 
+        <lb ed="#C" n="4"/>per loca, sed ipsum universale est 
+        crea<lb ed="#C" n="5" break="no"/>tura: quia secundum Diony. 6. de Div. 
+        <lb ed="#C" n="6"/>nom. ipsius esse communis Deus est cat 
+        <lb ed="#C" n="7"/>sa, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e690">
+                  <lb ed="#C" n="8"/>In contrarium est: quia secundum 
+        <lb ed="#C" n="9"/>Damasc. Quod a versione incipit, versioni 
+        <lb ed="#C" n="10"/>oportet esse subiectum: sed omnis creatura 
+        <lb ed="#C" n="11"/>incipit a versione, cum ex nihilo facta 
+        <lb ed="#C" n="12"/>sit, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e703">
+        Praeterea: secundum <name xml:id="Gi9qrR-e46927-Nd1e705" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="13"/>1. de Trin. cap. 1. solus Deus est proprie 
+        <lb ed="#C" n="14"/>immutabilis, &amp; immortalis, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e713">
+                  <lb ed="#C" n="15"/>RESOLVTIO. 
+        <lb ed="#C" n="16"/>Deus solus inmmutabilis est, omnis creatura 
+        <lb ed="#C" n="17"/>mutabilis, &amp; quae corporalis tripliciter move¬ 
+        <lb ed="#C" n="18"/>tur, rationalis dupliciter, &amp; uno mo¬ 
+        <lb ed="#C" n="19"/>do Angelus; Deus vero 
+        <lb ed="#C" n="20"/>nullo modo. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e729">
+                  <lb ed="#C" n="21"/>REspond. dicendum, quod ad evi¬ 
+        <lb ed="#C" n="22"/>dentiam huius quaestioni; tria sunt,  
+        <lb ed="#C" n="23"/>consideranda. 1. quomodo 
+        diversimo<lb ed="#C" n="24" break="no"/>de dividit motum Philos. &amp; <name xml:id="Gi9qrR-e46927-Nd1e739" ref="#Augustine">August.</name> 2. 
+        <lb ed="#C" n="25"/>quomodo una divisio reducitur ad aliam 
+        <lb ed="#C" n="26"/>3. utrum aliqua creatura sit immunis ab 
+        <lb ed="#C" n="27"/>omni motu? Propter 1. notandum. 
+        <lb ed="#C" n="28"/>quod dupliciter est movens secundum 
+        <lb ed="#C" n="29"/>Philos. netaphorice, &amp; proprie, 
+        Me<lb ed="#C" n="30" break="no"/>taphorice autem movet finis. Proprie autem 
+        <lb ed="#C" n="31"/>efficiens. Finis autem dicitur movere 
+        <lb ed="#C" n="32"/>abintra. Efficiens autem movet vel per 
+        <lb ed="#C" n="33"/>se, vel per accidens: unde 
+        distinguun<lb ed="#C" n="34" break="no"/>tur tria genera motus, per se, &amp; per 
+        ac<lb ed="#C" n="35" break="no"/>cidens, &amp; abintra. <name xml:id="Gi9qrR-e46927-Nd1e766" ref="#Augustine">Aug.</name> tamen aliter  
+        <lb ed="#C" n="36"/>assignat species motus, ut habetur in 
+        lit<lb ed="#C" n="37" break="no"/>tera: quia est quidam motus per 
+        tem<lb ed="#C" n="38" break="no"/>pora, &amp; quidam per loca, &amp; 
+        tempo<lb ed="#C" n="39" break="no"/>ra. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e779">
+                  <lb ed="#C" n="40"/>Ad huius autem evidentiam 
+        notan<lb ed="#C" n="41" break="no"/>dum, quod motus dupliciter dividitur,  
+        <lb ed="#C" n="42"/>ut vult Philosophus. 6. Phys. ratione 
+        tempo<lb ed="#C" n="43" break="no"/>ris, &amp; ratione magnitudinis; sed non 
+        <lb ed="#C" n="44"/>eodem modo ad ista comparatur: quia 
+        <lb ed="#C" n="45"/>ex eo quod mensuratur a tempore, 
+        ha<lb ed="#C" n="46" break="no"/>bet successionem; sed a magnitudine 
+        <lb ed="#C" n="47"/>habet continuitatem; succestio tamen 
+        <lb ed="#C" n="48"/>magis per se inest motui, quam 
+        conti<lb ed="#C" n="49" break="no"/>nuitas: quia non est motus, nisi sit ibi 
+        <lb ed="#C" n="50"/>successio: sed est motus, &amp; si ibi 
+        <lb ed="#C" n="51"/>non est vera continuitas. Nam ut 
+        di<lb ed="#C" n="52" break="no"/>citur 8. Phy. Non est vera continuitas, nisi 
+        <lb ed="#C" n="53"/>in motu locali, igitur quidquid movetur 
+        <!--214.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>per loca, movetur per tempora: quia 
+        <lb ed="#C" n="55"/>cum a loco, sive a magnitudine sit 
+        con<lb ed="#C" n="56" break="no"/>tinuitas in motu, &amp; a tempore sit 
+        suc<lb ed="#C" n="57" break="no"/>cessio; &amp; non sit dare continuitatem 
+        <lb ed="#C" n="58"/>in motu sine successione; est tamen 
+        da<lb ed="#C" n="59" break="no"/>re successionem sine continuitate, 
+        quid<lb ed="#C" n="60" break="no"/>quid movetur per loca, movetur per 
+        <lb ed="#C" n="61"/>tempora; sed non e converso. Bona 
+        <lb ed="#C" n="62"/>est igitur distinctio <name xml:id="Gi9qrR-e46927-Nd1e835" ref="#Augustine">Aug.</name> quod motus 
+        <lb ed="#C" n="63"/>vel est per tempora, &amp; loca; vel per 
+        tem<lb ed="#C" n="64" break="no"/>pora solum. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e844">
+                  <lb ed="#C" n="65"/>Viso quomodo diversimode 
+        distin<lb ed="#C" n="66" break="no"/>guit motum <name xml:id="Gi9qrR-e46927-Nd1e850" ref="#Augustine">Aug.</name> &amp; Philos. possumus 
+        <lb ed="#C" n="67"/>unam distinctionem ad aliam reduceret 
+        <lb ed="#C" n="68"/>Nam ad motum per tempora reduciter 
+        <lb ed="#C" n="69"/>motus abintra; quia moveri per 
+        tem<lb ed="#C" n="70" break="no"/>pora est moveri successive sine 
+        conti<lb ed="#C" n="71" break="no"/>nuitate: talis autem est motus 
+        affectio<lb ed="#C" n="72" break="no"/>num spirituum; ubi est successio sine 
+        <lb ed="#C" n="73"/>continuitate, cum non sit ibi 
+        magnitu<lb ed="#C" n="74" break="no"/>do, a qua motus continuitatem 
+        contra<lb ed="#C" n="75" break="no"/>hit. Ad motum per tempora, &amp; loca 
+        <lb ed="#C" n="76"/>reducitur motus per se. Motus autem 
+        <lb ed="#C" n="77"/>per accidens; vel in istis duobus 
+        conti<lb ed="#C" n="78" break="no"/>netur, vel de eo non curavit <name xml:id="Gi9qrR-e46927-Nd1e879" ref="#Augustine">Aug.</name> quia 
+        <lb ed="#C" n="79"/>de his, quae sunt per accidens nihil est 
+        <lb ed="#C" n="80"/>curae arti. Possumus tamen aliter 
+        expo<lb ed="#C" n="81" break="no"/>nere per se, &amp; abintra: ut motus abina 
+        <lb ed="#C" n="82"/>tra dicatur ad formam: nam per talem 
+        <lb ed="#C" n="83"/>motum mutatur res ad ea, quae in ipsa 
+        <lb ed="#C" n="84"/>existunt. Motus vero per se dicatur ad 
+        <lb ed="#C" n="85"/>ubi; non enim talis motus debet dici 
+        <lb ed="#C" n="86"/>abintra: cum per ipsum secundum quod  
+        <lb ed="#C" n="87"/>huiusmodi quae sunt in rei substantia, 
+        <lb ed="#C" n="88"/>esse non desinant; sed solum: 
+        acquira<lb ed="#C" n="89" break="no"/>tur novum ubi: est tamen per se, quia 
+        <lb ed="#C" n="90"/>inter motus corporales ipse est prior. Et  
+        <lb ed="#C" n="91"/>sic accipiendo per se, &amp; abintra 
+        distin<lb ed="#C" n="92" break="no"/>ctio data de motu a Philosopho est 
+        qua<lb ed="#C" n="93" break="no"/>si eadem cum data ab <name xml:id="Gi9qrR-e46927-Nd1e915" ref="#Augustine">Aug.</name> cum motus per 
+        <lb ed="#C" n="94"/>tempora, &amp; loca sit ad ubi, vel per se: 
+        <lb ed="#C" n="95"/>motus vero per tempora solum sit 
+        abin<lb ed="#C" n="96" break="no"/>tra, &amp; secundum formam, sive secun 
+        <lb ed="#C" n="97"/>dum actiones, vel operationes aliquas: 
+        <lb ed="#C" n="98"/>nam tales motus, potissime prout in na 
+        <lb ed="#C" n="99"/>tura intellectuali habent esse, inter 
+        mo<lb ed="#C" n="100" break="no"/>tus ad formam computari possunt.  
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e934">
+                  <lb ed="#C" n="101"/>Quocumque autem modo 
+        accipia<lb ed="#C" n="102" break="no"/>mus species motus, omnis creatura 
+        mo<lb ed="#C" n="103" break="no"/>vetur. Nam secundum distinctionem 
+        <lb ed="#C" n="104"/>de motu datam a Philosopho 
+        exponen<lb ed="#C" n="105" break="no"/>do eam primo modo, non 2. prout est 
+        <lb ed="#C" n="106"/>quasi eadem cum distinctione <name xml:id="Gi9qrR-e46927-Nd1e949" ref="#Augustine">Aug.</name> quia 
+        <lb ed="#C" n="107"/>tunc de eis idem esset indicium, veritatem 
+        <lb ed="#C" n="108"/>habet quod dicitur: quia omnis 
+        crea<lb ed="#C" n="109" break="no"/>tura vel est corporalis, vel spiritualis non 
+        <!--215.xml-->
+        <pb ed="#C" n="178"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>unita corpori; vel spiritualis corpori 
+        con<lb ed="#C" n="2" break="no"/>iuncta. Corporalis potest moveri per se: 
+        <lb ed="#C" n="3"/>quia potest esse subiectum motus: potest 
+        <lb ed="#C" n="4"/>moveri per accidens, quia potest esse in 
+        <lb ed="#C" n="5"/>corpore, quod movetur per se: potest 
+        <lb ed="#C" n="6"/>moveri abintra, accipiendo large talem 
+        <lb ed="#C" n="7"/>motum, inquantum corporalibus 
+        con<lb ed="#C" n="8" break="no"/>venit agere propter finem. Spiritualis 
+        <lb ed="#C" n="9"/>unita per se non movetur, quia non est 
+        <lb ed="#C" n="10"/>quanta; sed movetur per accidens, ut  
+        <lb ed="#C" n="11"/>per motum corporis, &amp; per istum 
+        mo<lb ed="#C" n="12" break="no"/>dum moventur omnia, quae sunt in 
+        cor<lb ed="#C" n="13" break="no"/>pore: movetur etiam abintra, quia agit 
+        <lb ed="#C" n="14"/>propter finem alium. Angelus autem 
+        <lb ed="#C" n="15"/>non movetur per se faccipiendo per se, 
+        <lb ed="#C" n="16"/>ut hic loquimur) quia non est quantus:  
+        <lb ed="#C" n="17"/>nec per accidens, quia non est 
+        forma<lb ed="#C" n="18" break="no"/>corporis; sed movetur abintra, quia agit 
+        <lb ed="#C" n="19"/>propter finem alium. Patet igitur quod  
+        <lb ed="#C" n="20"/>secundum primam distinctionem datam 
+        <lb ed="#C" n="21"/>de motu creatura corporalis movetur 
+        <lb ed="#C" n="22"/>tripliciter: anima dupliciter: Angelus 
+        <lb ed="#C" n="23"/>uno modo: Deus autem nullomodo. 
+        <lb ed="#C" n="24"/>a Secundum vero distinctionem secundam 
+        <lb ed="#C" n="25"/>cetiam veritatem habet: nam cum in 
+        <lb ed="#C" n="26"/>motu naturae corporalis sit successio, &amp; 
+        <lb ed="#C" n="27"/>continuitas; in motu naturae spiritualis, 
+        <lb ed="#C" n="28"/>prout motus principaliter ei convenit 
+        <lb ed="#C" n="29"/>sit successio sine continuitate, creatura 
+        <lb ed="#C" n="30"/>spiritualis movetur per tempora, non per 
+        <lb ed="#C" n="31"/>loca: corporalis per tempora &amp; loca: &amp; 
+        <lb ed="#C" n="32"/>ita omnis creatura movetur, cum 
+        spiri<lb ed="#C" n="33" break="no"/>tuale &amp; corporale totum genus 
+        crea<lb ed="#C" n="34" break="no"/>turae evacuent. Infra tamen melius 
+        pa<lb ed="#C" n="35" break="no"/>tebit, quomodo motus Angeli est per 
+        <lb ed="#C" n="36"/>loca, &amp; quomodo non 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e1044">
+                  <lb ed="#C" n="37"/>Hic autem tantum dictum est, quod  
+        <lb ed="#C" n="38"/>omnis creatura mutabilis est: cum nulla 
+        <lb ed="#C" n="39"/>sit actus purus. Bene ergo dicit <name xml:id="Gi9qrR-e46927-Nd1e1052" ref="#Augustine">Aug.</name> 1. 
+        de<lb ed="#C" n="40" break="no"/>Trin. cap. 1. Vera immortalitas 
+        incommuta<lb ed="#C" n="41" break="no"/>bilitas est, quam nulla potest habere creatura, 
+        <lb ed="#C" n="42"/>quoniam solius est Creatoris. 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e1063">
+                  <lb ed="#C" n="43"/>Resp. ad arg. Ad 1. dicendum, quod  
+        <lb ed="#C" n="44"/>oportet imaginari materiam in re mota 
+        <lb ed="#C" n="45"/>non quolibet motu, sed motu locali, &amp; 
+        <lb ed="#C" n="46"/>proprie.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e1074">
+        Ad 2. dicendum, quod motus 
+        <lb ed="#C" n="47"/>localis est primus motus per 
+        compara<lb ed="#C" n="48" break="no"/>tionem ad alterationem, &amp; augmetum, 
+        <lb ed="#C" n="49"/>&amp; alios motus corporales; sed non per 
+        <lb ed="#C" n="50"/>comparationem ad variationem 
+        affe<lb ed="#C" n="51" break="no"/>ctuum. Advertendum tamen quod 
+        An<lb ed="#C" n="52" break="no"/>gelus aliquo modo movetur localiter: 
+        <lb ed="#C" n="53"/>sed quomodo hoc non repugnat verbis 
+        <lb ed="#C" n="54"/>Aug. infra patebit.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e1094">
+        Ad 3. dicendum 
+        <lb ed="#C" n="55"/>quod in substantijs separatis non est 
+        po<lb ed="#C" n="56" break="no"/>tentialitas, quae non sit completa aliquo¬ 
+        <!--215.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>modo per actum, loquendo de 
+        perfe<lb ed="#C" n="58" break="no"/>ctione naturali, &amp; quantum ad actum 
+        <lb ed="#C" n="59"/>purum: quia quidquid potuerunt scire 
+        <lb ed="#C" n="60"/>naturaliter, totum aliquo modo 
+        scive<lb ed="#C" n="61" break="no"/>runt, inquantum omnium habuerunt,  
+        <lb ed="#C" n="62"/>species concreatas; non tamen de 
+        quo<lb ed="#C" n="63" break="no"/>cumque possunt considerare, 
+        conside<lb ed="#C" n="64" break="no"/>rant etiam naturaliter: propter quod est, 
+        <lb ed="#C" n="65"/>ibi successio cogitationum, &amp; 
+        affectio<lb ed="#C" n="66" break="no"/>num.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e1128">
+        Ad 4. dicendum, quod illa 
+        distin<lb ed="#C" n="67" break="no"/>ctio non comprehendit, quae moventur  
+        <lb ed="#C" n="68"/>per accidens, cuiusmodi sunt 
+        univer<lb ed="#C" n="69" break="no"/>salia. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e46927-Dd1e1139"><!-- l1-d8p1dublit -->
+               <head xml:id="Gi9qrR-e46927-Hd1e1142">Dubitationes litterales</head>
+               <p xml:id="Gi9qrR-e46927-d1e1145">
+                  <lb ed="#C" n="70"/>DVBITATIONES LITTERALES.
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e1150">
+                  <lb ed="#C" n="71"/>SVper litteram, super illo: Divinae 
+        natu<lb ed="#C" n="72" break="no"/>Srae, vel substantiae siveessentiae. Contra: <name xml:id="Gi9qrR-e46927-Nd1e1156" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="73"/>7. de Trin. cap. 5. Deus non proprie 
+        dici<lb ed="#C" n="74" break="no"/>tur substantia. Dicendum, quod in Deo 
+        <lb ed="#C" n="75"/>non est substantia alia ab essentia: unde 
+        <lb ed="#C" n="76"/>idem dicunt natura, substantia, &amp; essentia 
+        <lb ed="#C" n="77"/>ibi. Et hoc non intendit negare <name xml:id="Gi9qrR-e46927-Nd1e1170" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="78"/>Item super illud: Qus magis est quam 
+        <lb ed="#C" n="79"/>ille &amp;c. Contra: esse (maxime 
+        substan<lb ed="#C" n="80" break="no"/>tiarum)non suscipit magis, &amp; minus. 
+        Di<lb ed="#C" n="81" break="no"/>cendum: quod esse substantiarum 
+        dupli<lb ed="#C" n="82" break="no"/>citer potest considerari, vel in se, vel per 
+        <lb ed="#C" n="83"/>coparationem ad annexa. In se non suscipit 
+        <lb ed="#C" n="84"/>magis, &amp; minus in eadem specie; sed in 
+        eo<lb ed="#C" n="85" break="no"/>dem genere sic: cum ipsa essentia forme 
+        <lb ed="#C" n="86"/>suscipiat magis, &amp; minus in diversis 
+        spe<lb ed="#C" n="87" break="no"/>ciebus; quia formae sunt sicut 
+        numeri<lb ed="#C" n="88" break="no"/>Per comparationem ad annexa potes 
+        <lb ed="#C" n="89"/>suscipere magis, &amp; minus etiam in 
+        ea<lb ed="#C" n="90" break="no"/>dem specie: ut dicantur magis esse, quae 
+        <lb ed="#C" n="91"/>minus mutantur; &amp; minus, quae 
+        ma<lb ed="#C" n="92" break="no"/>gis 
+      </p>
+               <p xml:id="Gi9qrR-e46927-d1e1207">
+                  <lb ed="#C" n="93"/>Item super illud: Ab eo, quod est sapere,. 
+        <lb ed="#C" n="94"/>dicta est sapientia. Contra: sapere procedit 
+        <lb ed="#C" n="95"/>a sapientia; non sapientia a sapere, ergo 
+        <lb ed="#C" n="96"/>ab eo, quod est sapientia, dicitur sapere, 
+        <lb ed="#C" n="97"/>non econtrario. Dicendum, quod licet  
+        <lb ed="#C" n="98"/>simpliciter sapientia praecedat sapere; 
+        se<lb ed="#C" n="99" break="no"/>cundum cognitionem nostram sapere 
+        <lb ed="#C" n="100"/>praecedit sapientiam; quia per actum 
+        de<lb ed="#C" n="101" break="no"/>venimus in cognitionem formae, &amp; 
+        ha<lb ed="#C" n="102" break="no"/>bitus, &amp; nos imponimus nomina, 
+        secun<lb ed="#C" n="103" break="no"/>dum quod cognoscimus. 
+        <lb ed="#C" n="104"/>Item super illud: Deus non novit fuisse, 
+        <lb ed="#C" n="105"/>vel futurum esse. Quaeritur de qua notitia 
+        <lb ed="#C" n="106"/>intelligatur? Dicendum, quod de 
+        noti<lb ed="#C" n="107" break="no"/>tia experientiae, non approbationis, vel 
+        <lb ed="#C" n="108"/>visionis, vel simplicis notitiae: nam licet  
+        <lb ed="#C" n="109"/>variationem cognoscat; non tamen 
+        <lb ed="#C" n="110"/>variationem experitur.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

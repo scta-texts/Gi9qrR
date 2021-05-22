@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="336"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e90094"><!-- l1-d17p2prooem -->
+            <head xml:id="Gi9qrR-e90094-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e90094-d1e111">
+      <!--373.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="11"/>CAITIINCTICI(I XVIJ. 
+    </p>
+            <p xml:id="Gi9qrR-e90094-d1e120">
+               <lb ed="#C" n="12"/>PARS SECDNDA. 
+      <lb ed="#C" n="13"/>VTRVM CONCEDENDVMSIT,. 
+    </p>
+            <p xml:id="Gi9qrR-e90094-d1e127">
+               <lb ed="#C" n="14"/>QVOD SPIRITVS SANCTVS 
+      <lb ed="#C" n="15"/>augeatur in homine, vel magis, vel minus habeatur, vel detur ? 
+      <!--373.xml-->
+      <cb ed="#C" n="d"/>
+               <lb ed="#C" n="16"/> quaeritur. Postquam 
+      Magi<lb ed="#C" n="17" break="no"/>ster narravit positionem 
+      <lb ed="#C" n="18"/>suam de charitate, hic obijcit  
+      <lb ed="#C" n="19"/>contra determinata. Et duo 
+      <lb ed="#C" n="20"/>facit: quia 1. obijcit per 
+      ra<lb ed="#C" n="21" break="no"/>tiones. 2. per auctoritates. 
+      <lb ed="#C" n="22"/>Secunda ibi: Supra dictum est. 
+      <lb ed="#C" n="23"/>Circa primum duo facit: 
+      <lb ed="#C" n="24"/>quia 1. adducit rationes. 2. solvit inductas, ibi: 
+      <lb ed="#C" n="25"/>His itaque. Circa primum duo facit secundum 
+      <lb ed="#C" n="26"/>duas rationes, quas adducit. Quarum prima 
+      ta<lb ed="#C" n="27" break="no"/>lis est: si Spiritus Sanctus est charitas, cum 
+      cha<lb ed="#C" n="28" break="no"/>ritas augeatur, &amp; minuatur in homine, 
+      Spiri<lb ed="#C" n="29" break="no"/>tus Sanctus mutabitur. Secunda talis: cum 
+      cha<lb ed="#C" n="30" break="no"/>ritas detur non habenti, charitas est ubi prius 
+      <lb ed="#C" n="31"/>non erat; non igitur Spiritus Sanctus est chari. 
+      <lb ed="#C" n="32"/>tas: cum sit ubique. Secunda ratio incipit ibi:  
+      <lb ed="#C" n="33"/>Item charitas. Deinde cum dicit: His itaque. 
+      Sol<lb ed="#C" n="34" break="no"/>vit. Circa quod tria facit: quia 1. solvit 
+      pri<lb ed="#C" n="35" break="no"/>mam rationem dicens: Spiritum Sanctum sive 
+      <lb ed="#C" n="36"/>charitatem in se nec augeri, nec minui; sed 
+      au<lb ed="#C" n="37" break="no"/>getur &amp; minuitur in nobis, vel potius 
+      homi<lb ed="#C" n="38" break="no"/>ni augetur, vel minuitur, secundum quod 
+      ho<lb ed="#C" n="39" break="no"/>mo in ea magis &amp; minus proficit, quod 
+      confir<lb ed="#C" n="40" break="no"/>mat per Prophetam. 2. solvit rationem 
+      secun<lb ed="#C" n="41" break="no"/>dam dicens: Spiritum Sanctum aliquibus 
+      da<lb ed="#C" n="42" break="no"/>ri absque sui mutatione, ergo absque 
+      muta<lb ed="#C" n="43" break="no"/>tione charitatis increatae datur charitas non 
+      ha<lb ed="#C" n="44" break="no"/>benti. 3. confirmat quod dixerat per <name xml:id="Gi9qrR-e90094-Nd1e200" ref="#Augustine">August.</name> 
+               <lb ed="#C" n="45"/>Secunda ibi: Cumque. Tertia ibi: Vt autem. Cin 
+      <lb ed="#C" n="46"/>aa quod duo facit: quia 1. adducit 
+      authori<lb ed="#C" n="47" break="no"/>tates <name xml:id="Gi9qrR-e90094-Nd1e210" ref="#Augustine">Aug.</name> 2. ex ipsis auctoritatibus elicit 
+      in<lb ed="#C" n="48" break="no"/>tentum. Secunda ibi: Ecce expressum. Deinde 
+      <lb ed="#C" n="49"/>cum dicit: Supra dictum. Obijcit contra se per 
+      <lb ed="#C" n="50"/>auctoritates. Et duo facit: quia 1. adducit 
+      <lb ed="#C" n="51"/>quasdam auctoritates contra se. 2. addit alias, 
+      <lb ed="#C" n="52"/>quae videntur magis cogere, ibi: Sed aliud est. Cin 
+      <lb ed="#C" n="53"/>eprimum duo facit: quia 1. adducit 
+      aucto<lb ed="#C" n="54" break="no"/>ritates. 2. respondet ad illas, ibi: His 
+      responde<lb ed="#C" n="55" break="no"/>mus. Circa primum duo facit, secundum quod  
+      <lb ed="#C" n="56"/>duas auctoritates contra se adducit, quarum 
+      <lb ed="#C" n="57"/>quaelibet sonare videtur, quod non est eadem 
+      <lb ed="#C" n="58"/>charitas, qua Deus nos diligit, &amp; nos eum 
+      di<lb ed="#C" n="59" break="no"/>ligimus: quod si sic, cum Pater, &amp; Filius 
+      di<lb ed="#C" n="60" break="no"/>igant nos Spiritu Sancto, charitas, qua nos di¬ 
+      <!--373.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="61"/>ligimus Deum, non est Spiritus Sanctus, quod  
+      <lb ed="#C" n="62"/>est contra determinata. Secunda sibi: De hoc  
+      <lb ed="#C" n="63"/>etiam idem. Deinde cum dicit:: His respendemus, 
+      <lb ed="#C" n="64"/>solvit. Circa quod duo facit: quia 1. solvit 
+      <lb ed="#C" n="65"/>primam auctoritatem dicens: pro tanto dictum 
+      <lb ed="#C" n="66"/>esse non esse eandem charitatem, qua non 
+      <lb ed="#C" n="67"/>Deum diligimus, &amp; ipse nos: quia non secun 
+      <lb ed="#C" n="68"/>dum eandem rationem comparatur Spiritus 
+      San<lb ed="#C" n="69" break="no"/>ctus ad Patrem &amp; Filium, ut nos ipso diligunt,  
+      <lb ed="#C" n="70"/>&amp; ad nos, ut nos facit oilectores Dei, &amp; 
+      pro<lb ed="#C" n="71" break="no"/>ximi. 2. per eandem viam solvit ad secundam, 
+      <lb ed="#C" n="72"/>Secunda ibi: Similiter &amp; aliam. Deinde cum 
+      di<lb ed="#C" n="73" break="no"/>cit: Sed aliud est inquiunt, adducit contra se alias 
+      <lb ed="#C" n="74"/>auctoritates. Et duo facit, secundum quod 
+      <lb ed="#C" n="75"/>dupliciter contra se arguit. Secunda ibi: Alias 
+      <lb ed="#C" n="76"/>quoque. Circa primum duo facit: quia 1. 
+      ad<lb ed="#C" n="77" break="no"/>ducit auctoritatem <name xml:id="Gi9qrR-e90094-Nd1e282" ref="#Augustine">Aug.</name> dicentis charitatem 
+      <lb ed="#C" n="78"/>esse a Spiritu Sancto, sicut Fides; sed 
+      Spiri<lb ed="#C" n="79" break="no"/>tus Sanctus est non Fides, ergo non est 
+      cha<lb ed="#C" n="80" break="no"/>ritas. Secundo solvit, quod charitas dicitur  
+      <lb ed="#C" n="81"/>esse a Spiritu Sancto: quia Spiritus Sanctus 
+      <lb ed="#C" n="82"/>est a se ipso temporaliter: quia se ipsum dat. 
+      <lb ed="#C" n="83"/>Nec est per omnem modum simile de Fide, 
+      <lb ed="#C" n="84"/>&amp; charitate. Secunda ibi: Ad quod dicimus. Dein 
+      <lb ed="#C" n="85"/>de cum dicit: Alias queque inducunt, arguit 
+      ali<lb ed="#C" n="86" break="no"/>ter contra se. Et tria facit: quia 1. dicit 
+      cha<lb ed="#C" n="87" break="no"/>ritatem esse motum mentis, vel affectionem, 
+      <lb ed="#C" n="88"/>quod non competit Spiritui Sancto. Secundo 
+      <lb ed="#C" n="89"/>probat quod dixerat per <name xml:id="Gi9qrR-e90094-Nd1e312" ref="#Augustine">August.</name> 3. 
+      respon<lb ed="#C" n="90" break="no"/>det ad obiectionem. Secunda ibi:: Quod 
+      au<lb ed="#C" n="91" break="no"/>tem charitas. Tertia ibi: Ad quod dicimus. Circa 
+      <lb ed="#C" n="92"/>quod tria facit: quia 1. solvit dicens Spiritum 
+      <lb ed="#C" n="93"/>esse affectionem animi: quia per eum animus 
+      <lb ed="#C" n="94"/>afficitur. Secundo ad huiusmodi intellectum 
+      <lb ed="#C" n="95"/>confirmandum adducit quamdam auctoritatem, 
+      <lb ed="#C" n="96"/>lib. Sapientiae. Tertio movet quamdam cavil 
+      <lb ed="#C" n="97"/>lationem, &amp; solvit. Secunda ibi: Non autem 
+      <lb ed="#C" n="98"/>mireris. Tertia ibi: cum per eum. Circa quod 
+      <lb ed="#C" n="99"/>tria facit: quia 1. movet cavillationem 
+      con<lb ed="#C" n="100" break="no"/>tra determinata dicens: cum Spiritus Sanctus 
+      <lb ed="#C" n="101"/>moveat nos ad credendum, &amp; sperandum, 
+      <lb ed="#C" n="102"/>quare non dicitur motus, vel affectio ad 
+      ta<lb ed="#C" n="103" break="no"/>lia, sicut dicitur ad diligendum. Secundo 
+      sol<lb ed="#C" n="104" break="no"/>vit dicens: motum dilectionis operari sine 
+      <lb ed="#C" n="105"/>virtute media; sed alios motus non: ideo na 
+      <!--374.xml-->
+      <pb ed="#C" n="337"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>gis dicitur affectio mentis ad diligendum, quam 
+      <lb ed="#C" n="2"/>alia affectio. Tertio concludit opinionem sus,  
+      <lb ed="#C" n="3"/>quasi declaratam, scilicet, Spiritum Sanctum 
+      <lb ed="#C" n="4"/>esse charitatem, vel dilectionem fraternam. 
+      <!--374.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="5"/>Secunda ibi: Ad quos sanc. Tertia ibi: Est erga 
+      <lb ed="#C" n="6"/>chanitas. In quo terminatur sententia lectionis, 
+      <lb ed="#C" n="7"/>&amp; distinctionis, 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

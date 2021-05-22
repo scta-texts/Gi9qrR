@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="207"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e55723"><!-- l1-d10proem -->
+            <head xml:id="Gi9qrR-e55723-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e55723-d1e111">
+      <!--244.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="56"/>DISTINCTIO XJ. 
+      <lb ed="#C" n="57"/>IN QVA DESPIRITV SANCTO AGITVR.
+    </p>
+            <p xml:id="Gi9qrR-e55723-d1e122">
+      <!--244.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="58"/>NVNC post <sic>Filj</sic> &amp;c. Sicut prius 
+      <lb ed="#C" n="59"/>dictum est, Mag. hic intendit 
+      <lb ed="#C" n="60"/>ostedere distinctionem 
+      Perfo<lb ed="#C" n="61" break="no"/>narum; distinctio autem 
+      potis<lb ed="#C" n="62" break="no"/>sime est per originem: ideo 
+      <lb ed="#C" n="63"/>postquam determinavit de 
+      <lb ed="#C" n="64"/>distinctione Filij a Patre, 
+      <lb ed="#C" n="65"/>quae est per generationem: hic 
+      <lb ed="#C" n="66"/>determinat de distinctione Spiritus Sancti ab 
+      <lb ed="#C" n="67"/>utroque, quae est per processionem: &amp; duo 
+      fa<lb ed="#C" n="68" break="no"/>cit. Quia 1. determinat de processionis modo. 
+      <lb ed="#C" n="69"/>2. de processionis principio. Secunda ibi: Hoc 
+      di<lb ed="#C" n="70" break="no"/>cendum, in principio 11. dist. ubi praesens 
+      lectio<lb ed="#C" n="71" break="no"/>terminabitur. Circa primum duo facit: quia 
+      <lb ed="#C" n="72"/>1. ostendit Spiritum S. procedere per modum 
+      <lb ed="#C" n="73"/>amoris. 2. ostendit ipsum esse illum amorem, 
+      <lb ed="#C" n="74"/>quo Pater diligit Filium, &amp; econtrario. 
+      Secun<lb ed="#C" n="75" break="no"/>da ibi: Nunc vero. Circa 1. duo facit: quia 1. 
+      <lb ed="#C" n="76"/>ostendit Spiritum Sanctum dici amorem. 2. 
+      <lb ed="#C" n="77"/>quia amor in Divinis est quid commune, 
+      osten<lb ed="#C" n="78" break="no"/>dit non esse inconveniens unum nomen esse con¬ 
+      <!--244.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="79"/>mune, &amp; proprium diversis respectibus. Secuda 
+      <lb ed="#C" n="80"/>ibi: Pluribus enim. Circa primum tria facit, quia 
+      <lb ed="#C" n="81"/>1. praemittit, quod intendit, quod Spiritus 
+      San<lb ed="#C" n="82" break="no"/>ctus est amor, vel charitas Patris, &amp; Filij. 2. 
+      con<lb ed="#C" n="83" break="no"/>firmat hoc per <name xml:id="Gi9qrR-e55723-Nd1e192" ref="#Augustine">Augustinum.</name> 3. concludit, quod cum 
+      <lb ed="#C" n="84"/>amor, &amp; charitas sit comune tribus; specialiter  
+      <lb ed="#C" n="85"/>tamen competit Personae Spiritus Sancti: partes 
+      <lb ed="#C" n="86"/>patent. Secunda ibi: Inde <name xml:id="Gi9qrR-e55723-Nd1e202" ref="#Augustine">Aug.</name> Tertia ibi: Ecce 
+      <lb ed="#C" n="87"/>his verbis. Deinde cum dicit: Pluribus. Ostendit 
+      <lb ed="#C" n="88"/>nomen commune posse esse proprium, &amp; 
+      qua<lb ed="#C" n="89" break="no"/>tuor facit, quia 1. facit, quod dictum est. 2. 
+      <lb ed="#C" n="90"/>ostendit aliquam dilectionem, quae est Deus, 
+      <lb ed="#C" n="91"/>esse ex Deo, licet dilectio sit quid commune. 3. 
+      <lb ed="#C" n="92"/>ostendit illam dilectionem esse Spiritum 
+      San<lb ed="#C" n="93" break="no"/>ctum. 4. ex verbis <name xml:id="Gi9qrR-e55723-Nd1e220" ref="#Augustine">Aug.</name> concludit intentum, &amp; 
+      <lb ed="#C" n="94"/>patet. Secunda ibi: Ecce his verbis. Deinde cum 
+      <lb ed="#C" n="95"/>dicit: Nunc vero, ostendit Spiritum Sanctum esse 
+      <lb ed="#C" n="96"/>amorem, quo Pater Filium diligit; &amp; 
+      econtra<lb ed="#C" n="97" break="no"/>rio, &amp; duo facit, quia 1. ostendit per multas 
+      <lb ed="#C" n="98"/>auctoritates Spiritum Sanctum esse talem amorem. 
+      <lb ed="#C" n="99"/>Secundo dat causam: quare Spiritus Sanctus di¬ 
+      <!--245.xml-->
+      <pb ed="#C" n="208"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>citur charitas, &amp; amor, cum haec sunt 
+      commu<lb ed="#C" n="2" break="no"/>nia tribus; dicens, quod Spiritus Sanctus, qui est  
+      <lb ed="#C" n="3"/>communis Patri &amp; Filio, retinuit sibi istud 
+      no<lb ed="#C" n="4" break="no"/>men charitas &amp; amor, quod est consmune 
+      utri<lb ed="#C" n="5" break="no"/>que. Similiter etiam Spiritus eanctus quod est 
+      <!--245.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="6"/>commne Patri, &amp; Filio: quia uterque Spirivus, 
+      <lb ed="#C" n="7"/>uterque Sanctus, dicitur proprie de Sniritu 
+      Sa<lb ed="#C" n="8" break="no"/>cto, qui est communis utrique. Secunda ibi: His 
+      <lb ed="#C" n="9"/>norundum. In quo sententia lectionis, &amp; 
+      distin<lb ed="#C" n="10" break="no"/>ctionis terminatur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

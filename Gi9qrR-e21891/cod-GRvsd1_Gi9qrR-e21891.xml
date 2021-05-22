@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litteralis</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litteralis</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="82"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e21891"><!-- l1-d3dublit -->
+            <head xml:id="Gi9qrR-e21891-Hd1e108">Dubitationes litteralis</head>
+            <p xml:id="Gi9qrR-e21891-d1e111">
+               <lb ed="#C" n="47"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-e21891-d1e116">
+               <lb ed="#C" n="48"/>Vper litteram quaeritur de eo, quod 
+      <lb ed="#C" n="49"/>dicit: hominem propter sui 
+      excel<lb ed="#C" n="50" break="no"/>lentiam, quam habet ad alias creaturas, 
+      <lb ed="#C" n="51"/>dici creaturam mundi. Contra: 
+      Ange<lb ed="#C" n="52" break="no"/>lus est nobilior homine, sicut 
+      intelle<lb ed="#C" n="53" break="no"/>ctualis rationali, ergo &amp;c. Dicendum, 
+      <lb ed="#C" n="54"/>quod Angelus homini potest compara¬ 
+      <!--119.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="55"/>ri tripliciter, vel ratione finis, &amp; 
+      beati<lb ed="#C" n="56" break="no"/>tudinis, &amp; sic sunt aequales: quia 
+      ho<lb ed="#C" n="57" break="no"/>mines assumentur ad gloriam 
+      Angelo<lb ed="#C" n="58" break="no"/>rum. Vel secundum naturam, &amp; sic 
+      An<lb ed="#C" n="59" break="no"/>gelus est nobilior: quia intellectus 
+      no<lb ed="#C" n="60" break="no"/>ster tenet infimum gradum in genere 
+      <lb ed="#C" n="61"/>intelligibilium. Tertio potest 
+      compa<lb ed="#C" n="62" break="no"/>rari secundum aliquas praerogativas, &amp; 
+      <lb ed="#C" n="63"/>sic homo est nobilior Angelo, 
+      inquan<lb ed="#C" n="64" break="no"/>tum Deus nequaquam Angelos 
+      appre<lb ed="#C" n="65" break="no"/>hendit, sed semen Abrahae; voluit enim 
+      <lb ed="#C" n="66"/>Deus fieri homo, non Angelus. 
+    </p>
+            <p xml:id="Gi9qrR-e21891-d1e164">
+               <lb ed="#C" n="67"/>Item dicit in sua probatione prima, 
+      <lb ed="#C" n="68"/>quod ex magnitudine factorum de 
+      ne<lb ed="#C" n="69" break="no"/>cessitate probatur, quod Deus est. 
+      Con<lb ed="#C" n="70" break="no"/>tra: Caelum, &amp; terra distant in infinitum 
+      <lb ed="#C" n="71"/>a Deo, sed actum, vel factum debet 
+      es<lb ed="#C" n="72" break="no"/>se proportionatum agenti, igitur virtus 
+      <lb ed="#C" n="73"/>in infinitum distans a Deo potest 
+      produ<lb ed="#C" n="74" break="no"/>cere Caelum, &amp; terram, sed 
+      huiusmo<lb ed="#C" n="75" break="no"/>di virtus non est nisi creata, ergo 
+      <lb ed="#C" n="76"/>&amp;c. Dicendum in productione Caeli, 
+      <lb ed="#C" n="77"/>&amp; terrae duo est considerare. Primo 
+      or<lb ed="#C" n="78" break="no"/>dinem productionis, quia ex nihilo, &amp; 
+      <lb ed="#C" n="79"/>sic solius Dei est hoc facere: quia 
+      prae<lb ed="#C" n="80" break="no"/>supponit infinitam virtutem infinita 
+      di<lb ed="#C" n="81" break="no"/>stantia. Secundo est ibi considerare 
+      ip<lb ed="#C" n="82" break="no"/>sum productum, quod in infinitum 
+      di<lb ed="#C" n="83" break="no"/>stat a Deo, &amp; licet ratione producti in 
+      <lb ed="#C" n="84"/>se accepti non videatur repugnare 
+      pro<lb ed="#C" n="85" break="no"/>ductio creaturae: ratione tamen modi, 
+      <lb ed="#C" n="86"/>quia ex nihilo, repugnat.  
+    </p>
+            <p xml:id="Gi9qrR-e21891-d1e210">
+               <lb ed="#C" n="87"/>Item probat, secundo Deum esse: quia 
+      <lb ed="#C" n="88"/>immutabilis. Contra: &amp; motrices orbium 
+      <lb ed="#C" n="89"/>sunt immutabiles, cum moveantur non 
+      <lb ed="#C" n="90"/>motae secundum Phil. Dicendum quod  
+      <lb ed="#C" n="91"/>licet motrices orbium sint immutabiles 
+      <lb ed="#C" n="92"/>per se, &amp; per accidens; moventur tamen 
+      <lb ed="#C" n="93"/>abintra, inquantum moventur propter  
+      <lb ed="#C" n="94"/>finem alium, ut propter bonitatem 
+      <lb ed="#C" n="95"/>Primi 
+    </p>
+            <p xml:id="Gi9qrR-e21891-d1e233">
+               <lb ed="#C" n="96"/>Item dicit, quod si est dare pulchrum, 
+      <lb ed="#C" n="97"/>pulchrius, est dare pulcherimum: &amp; si est 
+      <lb ed="#C" n="98"/>dare bonum, melius, est dare optimum. 
+      <lb ed="#C" n="99"/>Contra: quia a simili, cum sit dare 
+      ma<lb ed="#C" n="100" break="no"/>lum, &amp; peius, esset dare, &amp; pessimum, 
+      <lb ed="#C" n="101"/>esset ergo dare summe malum. 
+      Dicen<lb ed="#C" n="102" break="no"/>dum, quod hoc tenet in positivis, non 
+      <lb ed="#C" n="103"/>in privativis. 
+    </p>
+            <p xml:id="Gi9qrR-e21891-d1e253">
+               <lb ed="#C" n="104"/>Item dicit perpetuitatem effectuum ar 
+      <lb ed="#C" n="105"/>guere aeternitatem Dei. Contra: vide 
+      <lb ed="#C" n="106"/>mus effectum esse aeternum, cuius causa 
+      <lb ed="#C" n="107"/>est transitoria: nam mors alicuius 
+      ani<lb ed="#C" n="108" break="no"/>malis posset esse in aeternum per 
+      actio<lb ed="#C" n="109" break="no"/>nem transitoriam inducta. Dicendum, 
+      <lb ed="#C" n="110"/>quod intelligendum est de causa efficien¬ 
+      <!--120.xml-->
+      <pb ed="#C" n="83"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>te, &amp; conservante, cuius modi est Deus; 
+      <lb ed="#C" n="2"/>non deficiente solum: &amp; ita patet, quod  
+      <lb ed="#C" n="3"/>per perpetuitatem effectus arguitur 
+      aeterni<lb ed="#C" n="4" break="no"/>tas Dei: per magnitudinem 
+      omnipoten<lb ed="#C" n="5" break="no"/>tia, quia ex nihilo tam magna produ¬ 
+      <!--120.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="6"/>xit: per ordinem sapientia: quia 
+      sa<lb ed="#C" n="7" break="no"/>pientis est ordinare, non ordinari, ut  
+      <lb ed="#C" n="8"/>dicitur 1. Metaph. per gubernationem 
+      <lb ed="#C" n="9"/>bonitas: quia bonum est sui 
+      diffusi<lb ed="#C" n="10" break="no"/>vum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="437"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f16841"><!-- l1-d23prooem -->
+            <head xml:id="Gi9qrR-f16841-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f16841-d1e111">
+      <!--474.xml-->
+               <pb ed="#C" n="437"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DISTINCTIO SSI 
+      <lb ed="#C" n="2"/>DE HOC NOMINE, QVOD EST PERSONA, QVOD CVM 
+      <lb ed="#C" n="3"/>secundum substantiam dicatur, tamen pluraliter, non singulariter,  
+      <lb ed="#C" n="4"/>in summa accipitur.  
+    </p>
+            <p xml:id="Gi9qrR-f16841-d1e129">
+      <!--474.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="5"/>RAEDICTIS &amp;e. Pestquam A 
+      <lb ed="#C" n="6"/>Magist. distinxit Divina 
+      <lb ed="#C" n="7"/>nomina significantia 
+      essen<lb ed="#C" n="8" break="no"/>tiae unitatem, &amp; 
+      Perso<lb ed="#C" n="9" break="no"/>narum distinctionem, hic 
+      <lb ed="#C" n="10"/>specialiter determinat 
+      de<lb ed="#C" n="11" break="no"/>hoc nomine Persona. Et  
+      <lb ed="#C" n="12"/>duo facit:, quia 1. 
+      osten<lb ed="#C" n="13" break="no"/>dit, regulam assignatam superius non esse 
+      ve<lb ed="#C" n="14" break="no"/>ram pro hoc nomine. 2. circa ipsum nomen 
+      <lb ed="#C" n="15"/>movet quasdam quaestiones, ibi: Ideo oritura 
+      <lb ed="#C" n="16"/>Fuit enim dictum superius, quod omne 
+      no<lb ed="#C" n="17" break="no"/>men significans substantiam dicitur de 
+      quali<lb ed="#C" n="18" break="no"/>bet Persona singulariter, &amp; de omnibus non 
+      <lb ed="#C" n="19"/>pluraliteri: ab ista tamen regula excipitur hoc 
+      <lb ed="#C" n="20"/>nomen Persona: nam Persona secundum 
+      sub<lb ed="#C" n="21" break="no"/>stantiam dicitur, &amp; tamen dicitur de 
+      omni<lb ed="#C" n="22" break="no"/>bus pluraliter: quia Pater &amp; Filius &amp; 
+      Spiri<lb ed="#C" n="23" break="no"/>tus Sanctus sunt tres Personae, non una. Ideo 
+      <lb ed="#C" n="24"/>duo facit: quia 1. dicit; hoc nomen Persona 
+      <lb ed="#C" n="25"/>excipi a praedicta regula propter rationem 
+      <lb ed="#C" n="26"/>tactam. 2. ostendit per <name xml:id="Gi9qrR-f16841-Nd1e183" ref="#Augustine">August.</name> quod 
+      Perso<lb ed="#C" n="27" break="no"/>na dicitur, secundum substantiam, ibi: Quod 
+      <lb ed="#C" n="28"/>autem. Deinde cum dicit: Ideo. Circa hoc 
+      no<lb ed="#C" n="29" break="no"/>men movet quasdam quaestiones. Et duo 
+      fa<lb ed="#C" n="30" break="no"/>cit: quia 1. movet quaestiones duas, quarum 
+      <lb ed="#C" n="31"/>prima est: si Persona dicitur secundum 
+      substan<lb ed="#C" n="32" break="no"/>tiam, quare non dicimus unam Personam, si  
+      <lb ed="#C" n="33"/>cut, unam essentiam, sive sicut unum Deum? 
+      <lb ed="#C" n="34"/>Secunda est: quare non dicimus tres Deos, vel  
+      <lb ed="#C" n="35"/>tres essentias, sicut tres Personas, ex quo ista 
+      <lb ed="#C" n="36"/>secundum substantiam dicuntur?? 2. has quae: 
+      <lb ed="#C" n="37"/>stiones solnit, ibi: Quia volumus. Circa quod 
+      <lb ed="#C" n="38"/>duo facit: : quia 1. solvit dictas quaestiones. 
+      <lb ed="#C" n="39"/>2. solutiones in brevi recolligit; ibi: Iam sus 
+      <lb ed="#C" n="40"/>ficienter. Circa primum duo facit: quia 1. 
+      sol<lb ed="#C" n="41" break="no"/>vit unam quaestionem. 2. aliam, ibi: 
+      Sediquae<lb ed="#C" n="42" break="no"/>ritur. Cirda primum duo facit: i qutia 1. solvit 
+      <lb ed="#C" n="43"/>hanc quaestionem, quare nion dicimus, unam 
+      <lb ed="#C" n="44"/>Personam, cum Persona dicatur secundum 
+      <lb ed="#C" n="45"/>substantiam? Dicens: hoc esse propter 
+      vo<lb ed="#C" n="46" break="no"/>cabulorum: penuriam, ut quia nesciebamus; 
+      <lb ed="#C" n="47"/>quid responderemus haereticis, cum quaerebant  
+      <lb ed="#C" n="48"/>anobis,, quid tres, diximus tres Personas: 
+      <lb ed="#C" n="49"/>unde duo facit: quia 1. facit quod dictum 
+      <lb ed="#C" n="50"/>est. 2. ostendit Sraecos in eadem penuria 
+      la<lb ed="#C" n="51" break="no"/>borare nobiscum, sibi: Qua necessitate. Circa 
+      <lb ed="#C" n="52"/>quod tria facit: nam 1. dicit Soraecos in eadem 
+      <lb ed="#C" n="53"/>penuria laborare nobiscum. 2. dicit quod apud 
+      <lb ed="#C" n="54"/>eos aliter accipitur substantia, quam apud  
+      <lb ed="#C" n="55"/>nos: quia ipsi concedu ibi esse tres substan¬ 
+      <!--474.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="56"/>tias; non autem nos. 3. concludit talia 
+      voca<lb ed="#C" n="57" break="no"/>bula esse inventa ad respondendum haereticis, 
+      <lb ed="#C" n="58"/>ibi: Aliter enim Tertia ibi:. Et at intelligatur,  
+      <lb ed="#C" n="59"/>Deinde cum dicit: Sed quaeritur. Solvit aliam 
+      <lb ed="#C" n="60"/>quaestionem. Et duo facit: quia 1. movet 
+      quae<lb ed="#C" n="61" break="no"/>stionem, &amp; solvit. 2. instat; ibi: Verum &amp; hic. 
+      <lb ed="#C" n="62"/>Circa primum duo facit: quia 1. quaerit, 
+      qua<lb ed="#C" n="63" break="no"/>re non dicamus tres Deos, cum dicamus tres 
+      <lb ed="#C" n="64"/>Personas, cum Persona dicatur secundum sub 
+      <lb ed="#C" n="65"/>stantiam, sicut, Deus? 2. solvit. Quia scriptura, 
+      <lb ed="#C" n="66"/>nec dicit tles Deos, nec tres Personas, 
+      con<lb ed="#C" n="67" break="no"/>tradicit tamen esse tres Deos, non 
+      contradi<lb ed="#C" n="68" break="no"/>cit esse tres Personas: ne ergo 
+      contradicere<lb ed="#C" n="69" break="no"/>mus Sacro Canoni, voluimus potius diceret 
+      <lb ed="#C" n="70"/>tres Personas, quam tres Deos. Secunda ibi:  
+      <lb ed="#C" n="71"/>Quia secundum illud. Deinde cum dicit: Verum. 
+      <lb ed="#C" n="72"/>Instati contradeterminata: nam videtur, quod  
+      <lb ed="#C" n="73"/>debeamus dicere: tres, essentias: quia hoc nec 
+      <lb ed="#C" n="74"/>icriptura dicit, nec contradicit. Et tria facit: 
+      <lb ed="#C" n="75"/>quia 1. movet quaestionem tactam. 2. solvies 
+      <lb ed="#C" n="76"/>dicens, quod loquendi necessitate inventum 
+      <lb ed="#C" n="77"/>est, ut dicamus tres Personas, aptius tamen 
+      <lb ed="#C" n="78"/>dicimus tres Personas, quam tres essentias: 
+      <lb ed="#C" n="79"/>quia magis datur intelligi diversitas ex 
+      distin<lb ed="#C" n="80" break="no"/>ctione essentiarum, quam Personarum. Ideo 
+      <lb ed="#C" n="81"/>ne faveremus Artio, non diximus tres 
+      essen<lb ed="#C" n="82" break="no"/>tias: &amp; ne faveremus Sabellio, diximus tres 
+      <lb ed="#C" n="83"/>Personas. Tertio dat differentiam inter nos &amp; 
+      <lb ed="#C" n="84"/>Qraecos: quia sicut nos dicimus tres 
+      Perso<lb ed="#C" n="85" break="no"/>nas, ita ipsi dicunt tres substantias: si 
+      voluis<lb ed="#C" n="86" break="no"/>sent tamen patuissent dicere tria prosapa, quod  
+      <lb ed="#C" n="87"/>idem est, quod tres Personas, maluerunt 
+      <lb ed="#C" n="88"/>tamen dicere tres substantias: quia forte aptius in 
+      <lb ed="#C" n="89"/>lingua eorum hoc dicitur. Secunda ibi: Quid 
+      <lb ed="#C" n="90"/>icitur restat. Tertia ibi: Quod enim de Personis. 
+      <lb ed="#C" n="91"/>Deinde cum dicit: Iam sufficienter. Recolligit  
+      <lb ed="#C" n="92"/>in brevi solutiones tactas. Et tria facit: quia 
+      <lb ed="#C" n="93"/>1. didit nos non dicere tres Deos: eo quod 
+      <lb ed="#C" n="94"/>scriptura cantradicit, nec dicere tres 
+      essen<lb ed="#C" n="95" break="no"/>tias, ne ibi intelligatur diversitas, dicere tres 
+      <lb ed="#C" n="96"/>Personas, ne ibi ponatur singularitas. 2. 
+      pro<lb ed="#C" n="97" break="no"/>bat per dicta Sanctorum hoc, quod 
+      assump<lb ed="#C" n="98" break="no"/>serat, scilicet, Deum non esse singularem, 
+      <lb ed="#C" n="99"/>neque esse diversum. 3. recolligit intellectum 
+      <lb ed="#C" n="100"/>auctoritatum, in brevi. Secunda ibi: Vnde 
+      <lb ed="#C" n="101"/>August. Tertiam ibi: Ecce ex praedictis. Circa quod 
+      <lb ed="#C" n="102"/>duo facit: quia 1. facit, quod dictum est. 2. 
+      con<lb ed="#C" n="103" break="no"/>cludit, quod sicut Deus non est diversus, ita non 
+      <lb ed="#C" n="104"/>est multiplex, sed trinus, &amp; simplex. 
+      Secun<lb ed="#C" n="105" break="no"/>da ibi: Et sicut. In quo terminatur sententiam 
+      <lb ed="#C" n="106"/>lectionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

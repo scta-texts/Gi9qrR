@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="300"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e80454"><!-- l1-d16prooem -->
+            <head xml:id="Gi9qrR-e80454-Hd1e108">Prooemium</head>
+    
+            <p xml:id="Gi9qrR-e80454-d1e111">
+      <!--337.xml-->
+               <pb ed="#C" n="300"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DISTINCTIO XVJ 
+      <lb ed="#C" n="2"/>DE MISSIONE SPIRITVS SANCTI, QVAE FITDVO 
+    </p>
+            <p xml:id="Gi9qrR-e80454-d1e124">
+               <lb ed="#C" n="3"/>bus modis, visibiliter, &amp; invisibiliter.  
+      <!--337.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="4"/>RNNC de Spiritu Sancto erc. Deter: A 
+    </p>
+            <p xml:id="Gi9qrR-e80454-d1e135">
+               <lb ed="#C" n="5"/>minato de missione Spiritus 
+      <lb ed="#C" n="6"/>Sancti in communi, hic 
+      de<lb ed="#C" n="7" break="no"/>terminat de ea Mag. in 
+      spe<lb ed="#C" n="8" break="no"/>ciali, &amp; duo facit: quia 1 
+      <lb ed="#C" n="9"/>distinguit esse duplicem mil 
+      <lb ed="#C" n="10"/>sionem Spiritus Sancti: quia 
+      <lb ed="#C" n="11"/>visibilem, &amp; invisibilem, 
+      si<lb ed="#C" n="12" break="no"/>cut Filij. 2. de eis determinat. Secunda ibi:  
+      <lb ed="#C" n="13"/>Et primo. Circa quod duo facit: quia 1. deter 
+      <lb ed="#C" n="14"/>minat de missione Spiritus Sancti visibili. 2. 
+      <lb ed="#C" n="15"/>de invisibili. Secunda ibi: Iam nune, in 
+      princi<lb ed="#C" n="16" break="no"/>pio UVII. dist. Circa primum duo facit: quia 
+      <lb ed="#C" n="17"/>1. determinat de dicta missione. 2. quaerit utrum 
+      <lb ed="#C" n="18"/>per talem missiorem Spiritus Sanctus possit 
+      <lb ed="#C" n="19"/>dici minor Patre, ibi: Sed prius. Circa primum 
+      <lb ed="#C" n="20"/>tria facit: quia 1. dicit quomodo fit tali 
+      <lb ed="#C" n="21"/>missio dices hoc esse propter quadam speciem 
+      <lb ed="#C" n="22"/>creaturae factam ex tempore, in qua visibiliter 
+      <lb ed="#C" n="23"/>ostenditur Spiritus Sanctus. 2. dat causam 
+      qua<lb ed="#C" n="24" break="no"/>re fit talis missio: quia ut revocentur cordi 
+      <lb ed="#C" n="25"/>hominum ab exterioribus ad interiora. 3. quia 
+      <lb ed="#C" n="26"/>dictum suum confirmaverativerAug. recolligit  
+      <lb ed="#C" n="27"/>verba <name xml:id="Gi9qrR-e80454-Nd1e187" ref="#Augustine">Aug.</name> in brevi, &amp; applicat ad propositum: 
+      Se<lb ed="#C" n="28" break="no"/>cunda ibi: Non ut appeteret. 3. ibi: Ecce iis. Deinde 
+      <lb ed="#C" n="29"/>cundicit: Sed prius, quaerit utrum Spiritus S nossit di 
+      <lb ed="#C" n="30"/>ci minor Patre; &amp; duo facit: quia 1. ostendit, quod 
+      <lb ed="#C" n="31"/>Spiritus S. non est minor Patre: quia visibiliter ap 
+      <lb ed="#C" n="32"/>paruit, Filius tamem propter hoc minor Patre non 
+      <lb ed="#C" n="33"/>solum dicitur; sed etiase ipso. Secunda ibi: 
+      Notan<lb ed="#C" n="34" break="no"/>dum. Circa primum duo facit: quia 1. movet 
+      <!--337.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="35"/>quaestionem, cur non dicatur Spiritus Sanctus 
+      <lb ed="#C" n="36"/>minor Patre, sicut Filius: cum visibiliter 
+      appa<lb ed="#C" n="37" break="no"/>ruerit, ut apparuit Filius. 2. solvit ostendens 
+      <lb ed="#C" n="38"/>apparitionem Filij visibilem esse dissimilem 
+      <lb ed="#C" n="39"/>ab abparitione Spiritus Sancti: quia 
+      creatu<lb ed="#C" n="40" break="no"/>ra visibilis, in qua apparuit Filius, fuit 
+      assump<lb ed="#C" n="41" break="no"/>ta in unitatem Personae ab eo, propter quod 
+      <lb ed="#C" n="42"/>Patre minor dicitur; creatura tamen, in 
+      qua<lb ed="#C" n="43" break="no"/>apparuit Spiritus Sanctus, non fuit assumpta 
+      <lb ed="#C" n="44"/>in unitatem hypostasis eius. 3. confirmat, quod 
+      <lb ed="#C" n="45"/>dixerat per <name xml:id="Gi9qrR-e80454-Nd1e233" ref="#Augustine">Aug.</name> Secunda ibi: Quia aliter. Ter 
+      <lb ed="#C" n="46"/>tia ibi: De hoc <name xml:id="Gi9qrR-e80454-Nd1e238" ref="#Augustine">Aug.</name> Deinde cum dicit: 
+      Notan<lb ed="#C" n="47" break="no"/>dum, ostendit Filium ex eo quod assumpsit hu 
+      <lb ed="#C" n="48"/>manam naturam dici minorem Patre, &amp; 
+      Spi<lb ed="#C" n="49" break="no"/>ritu Sancto, &amp; etiam se ipso. Circa quod 
+      <lb ed="#C" n="50"/>tria facit: quia 1. praemittit quod dictum est. 
+      <lb ed="#C" n="51"/>2. confirmat illud per multas auctoritates 
+    </p>
+            <p xml:id="Gi9qrR-e80454-d1e253">
+               <lb ed="#C" n="52"/>Aug. 3. ostendit per auctoritatem Hilarij 
+      Pa<lb ed="#C" n="53" break="no"/>trem esse maiorem Filio etiam secundum quod  
+      <lb ed="#C" n="54"/>ei competit Divina natura. Secunda ibi: Et  
+      <lb ed="#C" n="55"/>quod etiam se ipso. Tertia ibi: Hilarius. Circa 
+      <lb ed="#C" n="56"/>quod duo facit: quia 1. adducit 
+      sen<lb ed="#C" n="57" break="no"/>tentiam Hilarij, quod Pater est maior Filio 
+      <lb ed="#C" n="58"/>etiam secundum quod est Deus; non tamen 
+      <lb ed="#C" n="59"/>propter hoc Filius est minor Patre, quia 
+      Pa<lb ed="#C" n="60" break="no"/>ter est maior ratione auctoritatis, tamen 
+      Fi<lb ed="#C" n="61" break="no"/>lius non est minor: quia accepit idem esse. 2. 
+      <lb ed="#C" n="62"/>reddit lectorem attentum ut verba Hilarij 
+      <lb ed="#C" n="63"/>pie intelligat, &amp; attente vocet. Secunda ibi:  
+      <lb ed="#C" n="64"/>Audisui lector; in quo terminatur sententia 
+      le<lb ed="#C" n="65" break="no"/>ctionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litteralis</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litteralis</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="735"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f91591"><!-- l1-d38expolit -->
+            <head xml:id="Gi9qrR-f91591-Hd1e108">Expositio litteralis</head>
+            <p xml:id="Gi9qrR-f91591-d1e111">
+      <!--760.xml-->
+               <pb ed="#C" n="735"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>ExPOSITIONIS DVBITALIS 
+    </p>
+            <p xml:id="Gi9qrR-f91591-d1e122">
+               <lb ed="#C" n="2"/>SVper litteram, super illo: Ita 
+      exponen<lb ed="#C" n="3" break="no"/>Qtes, quod ait Origenes. Videtur,  
+      <lb ed="#C" n="4"/>quod Magister no sufficienter exponat. 
+      <lb ed="#C" n="5"/>Vult enim quod futurum respectu 
+      Divi<lb ed="#C" n="6" break="no"/>nae praescientiae sit causa sine qua non; 
+      <lb ed="#C" n="7"/>sed ex hoc, ut videtur, non habetur 
+      in<lb ed="#C" n="8" break="no"/>tentio Origenis. Nam sicut futurum est 
+      <lb ed="#C" n="9"/>causa praescientiae Divinae, loquendo de 
+      <lb ed="#C" n="10"/>causa sine qua non: quia non potest esse, 
+      <lb ed="#C" n="11"/>quod aliquid sit futurum, &amp; id non sit a 
+      <lb ed="#C" n="12"/>Deo praescitum: ita praescientia est 
+      cau<lb ed="#C" n="13" break="no"/>sa futuri: quia non potest esse, quod 
+      ali<lb ed="#C" n="14" break="no"/>quid sit a Deo praescitum, &amp; id non sit 
+      <lb ed="#C" n="15"/>futurum. Origenes autem ait: quod non 
+      <lb ed="#C" n="16"/>propterea aliquid erit: quia id scit Deus 
+      <lb ed="#C" n="17"/>esse futurum; sed quia futurum est: ideo 
+      <lb ed="#C" n="18"/>scitur a Deo, antequam fiat. Oportet 
+      er<lb ed="#C" n="19" break="no"/>go sic assignare causalitatem, quod futu 
+      <lb ed="#C" n="20"/>rum dicatur causa praescientiae, non prae¬ 
+      <!--760.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="21"/>scientia futuri. Ideo notandum, quod  
+      <lb ed="#C" n="22"/>duplex est causa, in inferendo, &amp; in 
+      es<lb ed="#C" n="23" break="no"/>sendo: loquedo de causa secundum 
+      es<lb ed="#C" n="24" break="no"/>se, futurum non est causa praescientiae 
+      <lb ed="#C" n="25"/>Divinae: sed est causa secundum 
+      illatio<lb ed="#C" n="26" break="no"/>nem: nam si est futurum, aliquid 
+      infer<lb ed="#C" n="27" break="no"/>re possumus, quod sit a Deo praescitum: 
+      <lb ed="#C" n="28"/>&amp; licet praescientia sit etiam causa futu 
+      <lb ed="#C" n="29"/>ri secundum illationem: quia si est 
+      ali<lb ed="#C" n="30" break="no"/>quid a Deo praescitum, illud est futurum. 
+      <lb ed="#C" n="31"/>Nos autem, qui per ea, quae facta sunt,  
+      <lb ed="#C" n="32"/>invisibilia Dei iudicamus, videntes res 
+      <lb ed="#C" n="33"/>evenire, &amp; suos cursus peragere 
+      iudica<lb ed="#C" n="34" break="no"/>mus eas a Deo esse praescitas, non autem 
+      <lb ed="#C" n="35"/>per Divinam praescientiam iudicamus 
+      <lb ed="#C" n="36"/>res esse futuras, eo quod ipsa secundum 
+      <lb ed="#C" n="37"/>se nobis non sit nota. Accipiendo igitur  
+      <lb ed="#C" n="38"/>causam sine qua non pro causa secundum 
+      <lb ed="#C" n="39"/>illationem nostram, futurum est causa 
+      <lb ed="#C" n="40"/>praescientiae, non praescientia causa 
+      <lb ed="#C" n="41"/>futuri.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

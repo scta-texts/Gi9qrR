@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio Litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio Litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g08262"><!-- l1-d42expolit -->
+            <head xml:id="Gi9qrR-g08262-Hd1e108">Expositio Litterae</head>
+            <p xml:id="Gi9qrR-g08262-d1e111">
+               <lb ed="#C" n="42"/>ExPOSITIO LITTERAE 
+    </p>
+            <p xml:id="Gi9qrR-g08262-d1e116">
+               <lb ed="#C" n="43"/>SVper litteram, super illo: Potuit Deus 
+      <lb ed="#C" n="44"/>&amp; simul cuncta facere. Notandum, hoc 
+      <lb ed="#C" n="45"/>non solum intelligendum esse quantum 
+      <lb ed="#C" n="46"/>ad ipsas species; sed etiam quantum ad 
+      <lb ed="#C" n="47"/>ipsa individua. Nam omnia individea, 
+      <lb ed="#C" n="48"/>quae producenda erant in toto 
+      tempo<lb ed="#C" n="49" break="no"/>re, potuit Deus simul producere. 
+    </p>
+            <p xml:id="Gi9qrR-g08262-d1e134">
+               <lb ed="#C" n="50"/>Item super illo: Sed ratio prohibuit. 
+      <lb ed="#C" n="51"/>Notandum, quod ratio non 
+      contraria<lb ed="#C" n="52" break="no"/>tur Divinae potentiae: unde talis 
+      prohi<lb ed="#C" n="53" break="no"/>bitio non est propter contrarietatem; sed  
+      <lb ed="#C" n="54"/>propter incoposibilitatem: quia ista duo 
+      <lb ed="#C" n="55"/>simul stare non possunt: quod Deus 
+      ali<lb ed="#C" n="56" break="no"/>quid producat; &amp; tamen 
+      irrationabili<lb ed="#C" n="57" break="no"/>ter sit productum. 
+    </p>
+            <p xml:id="Gi9qrR-g08262-d1e154">
+               <lb ed="#C" n="58"/>Item super illo: Si peccare non posse 
+      dici<lb ed="#C" n="59" break="no"/>tur. Notandum, quod sicut esse non ens 
+      <lb ed="#C" n="60"/>non est esse, sed non esse: sic posse 
+      pec<lb ed="#C" n="61" break="no"/>care, vel posse deficere non est posse, sed  
+      <lb ed="#C" n="62"/>non posse. 
+    </p>
+            <p xml:id="Gi9qrR-g08262-d1e168">
+               <lb ed="#C" n="63"/>Item super illo: Licet Filius non possit a 
+      <lb ed="#C" n="64"/>se. Notandum, quod agere respicit esse, 
+      <lb ed="#C" n="65"/>&amp; per se agere per se esse: &amp; quia esse 
+      Fi<lb ed="#C" n="66" break="no"/>lij est illud idem esse, quod Pater habet, &amp; 
+      <lb ed="#C" n="67"/>est esse purum &amp; per se, non in natura 
+      <lb ed="#C" n="68"/>receptum, dicitur Filius per se agere, 
+      si<lb ed="#C" n="69" break="no"/>cut &amp; Pater; non tamen dicitur 
+      age<lb ed="#C" n="70" break="no"/>re a se: quia quod sit, &amp; quod agat a 
+      <lb ed="#C" n="71"/>Patre: licet Angelus autem &amp; homo, 
+      <lb ed="#C" n="72"/>&amp; quaelibet creatura, quia non solum 
+      <lb ed="#C" n="73"/>esse habent ab alio, sed etiam habent  
+      <lb ed="#C" n="74"/>esse in natura receptum, non solum non 
+      <lb ed="#C" n="75"/>agunt a se, sed etiam possunt dici 
+      age<lb ed="#C" n="76" break="no"/>re non per se.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="260"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e69903"><!-- l1-d14q1 -->
+            <head xml:id="Gi9qrR-e69903-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e69903-d1e111">
+      <!--297.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="58"/>QVAESTIO I. 
+      <lb ed="#C" n="59"/>De processione Spiritus Sancti temporali.
+    </p>
+            <p xml:id="Gi9qrR-e69903-d1e122">
+               <lb ed="#C" n="60"/>QVIA Mag. intentio 
+      cir<lb ed="#C" n="61" break="no"/>a tria versatur. Circa 
+      <lb ed="#C" n="62"/>piritus Sancti 
+      pro<lb ed="#C" n="63" break="no"/>cessionem 
+      tempora<lb ed="#C" n="64" break="no"/>lem, &amp; circa eius 
+      da<lb ed="#C" n="65" break="no"/>tionem, utrum detur  
+      <lb ed="#C" n="66"/>in se, vel in suis donis 
+      <lb ed="#C" n="67"/>solum, &amp; circa eos, a quibus datur,  
+      <lb ed="#C" n="68"/>ideo de his tribus quaeremus. Circa 
+      pri<lb ed="#C" n="69" break="no"/>mum quaeremus duo. Primo: utrum 
+      <lb ed="#C" n="70"/>sit aliqua processio temporalis Spiritus 
+      <lb ed="#C" n="71"/>Sancti? 2. iutrum ponat in numerum 
+      <lb ed="#C" n="72"/>cum aeternam: 
+    </p>
+            <div xml:id="Gi9qrR-e69903-Dd1e153">
+               <head xml:id="Gi9qrR-e69903-Hd1e155">Articulus 1</head>
+               <p xml:id="Gi9qrR-e69903-d1e158">
+                  <lb ed="#C" n="73"/>ARTICVLVS I. 
+        <lb ed="#C" n="74"/>Vtrum Spiritus Sanctus temporaliter procedat:
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e165">
+                  <lb ed="#C" n="75"/>AD primum: sic proceditur: 
+        vide<lb ed="#C" n="76" break="no"/>tur quod Spiritus Sanctus tem¬ 
+        <!--297.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="77"/>poralier non procedat: quia eiu; 
+        pro<lb ed="#C" n="78" break="no"/>cessio est idem, quod spiratio; sed non 
+        <lb ed="#C" n="79"/>spiratur temporaliter, ergo nec proce¬ 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e183">
+                  <lb ed="#C" n="80"/>dit.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e188">
+        Praeterea: processiones in Divinis 
+        <lb ed="#C" n="81"/>ut habitum est, accipiuntur penes 
+        ac<lb ed="#C" n="82" break="no"/>tus non transcuntes in exteriorem: 
+        ma<lb ed="#C" n="83" break="no"/>eriam; sed omnis actus Divinus non 
+        <lb ed="#C" n="84"/>transiens in exteriorem materiam est 
+        <lb ed="#C" n="85"/>aeternus, ergo nulla Persona Divina 
+        po<lb ed="#C" n="86" break="no"/>test temporaliter procedere.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e205">
+        Praeterea: 
+        <lb ed="#C" n="87"/>omnia, quae sunt in Divinis, sunt idem, 
+        <lb ed="#C" n="88"/>uod Divina essentia; sed Divina 
+        essen<lb ed="#C" n="89" break="no"/>tia non dicitur temporalis, sed aeterna: 
+        <lb ed="#C" n="90"/>ergo nec processio.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e216">
+        Praeterea: 
+        proces<lb ed="#C" n="91" break="no"/>sio temporalis sincludit processionem 
+        <lb ed="#C" n="92"/>aeternam, sicut effectus presupponit 
+        <lb ed="#C" n="93"/>causam; sed denominatio semper 
+        de<lb ed="#C" n="94" break="no"/>bet fieri a digniori: ergo totum debet 
+        <lb ed="#C" n="95"/>dici aeternum, non temporale. 
+        Praete<lb ed="#C" n="96" break="no"/>rea: id, quod elevat hominem 
+        supra<lb ed="#C" n="97" break="no"/>tempus, non meretur nomen 
+        tempo<lb ed="#C" n="98" break="no"/>rale; sed per processionem Spiritus S. 
+        <lb ed="#C" n="99"/>in homine, efficitur homo supra 
+        tem<lb ed="#C" n="100" break="no"/>poralia: quia secundum <name xml:id="Gi9qrR-e69903-Nd1e239" ref="#Augustine">Aug.</name> 
+        Iiquan<lb ed="#C" n="101" break="no"/>tum aliquid aeternum mente capimus, non in hoc 
+        <lb ed="#C" n="102"/>mundo sumus, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e248">
+                  <lb ed="#C" n="103"/>In contrarium est: quia Spiritus 
+        <!--298.xml-->
+        <pb ed="#C" n="261"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Sanctus dicitur processisse in discipu 
+        <lb ed="#C" n="2"/>los; sed hoc non potest intelligi 
+        aeter<lb ed="#C" n="3" break="no"/>naliter, cum non ab aeterno fuerint: 
+        <lb ed="#C" n="4"/>ergo competit Spiritui Sancto 
+        proce<lb ed="#C" n="5" break="no"/>dere temporaliter.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e270">
+        Praeterea: dicit Mag. 
+        <lb ed="#C" n="6"/>in littera, quod gemina est processio 
+        <lb ed="#C" n="7"/>Spiritus Sancti temporalis &amp; aeterna, &amp; 
+        <lb ed="#C" n="8"/>hoc probat per plures auctoritates, 
+        <lb ed="#C" n="9"/>quas adducit: ergo &amp;c.  
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e281">
+                  <lb ed="#C" n="10"/>RESOLVTIO. 
+        <lb ed="#C" n="11"/>Datur Spiritus Sancti processio temporalis per 
+        <lb ed="#C" n="12"/>esse de novo in creaturis, in se 
+        <lb ed="#C" n="13"/>minime mutato. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e292">
+                  <lb ed="#C" n="14"/>REspond. quidam sic dicunt, quod  
+        <lb ed="#C" n="15"/>Dlicet processio de sua ratione non 
+        <lb ed="#C" n="16"/>tendat in aliud, tamen processio ex eo 
+        <lb ed="#C" n="17"/>quod est talis, sicut est processio 
+        amo<lb ed="#C" n="18" break="no"/>ris, semper habet in aliud tendere: &amp; 
+        <lb ed="#C" n="19"/>ideo cum emanatio Personarum sit 
+        <lb ed="#C" n="20"/>causa emanationis creaturarum, Pater 
+        <lb ed="#C" n="21"/>generando Filium est causa omnium per 
+        <lb ed="#C" n="22"/>Filium, &amp; sicut generando Filiumcausat 
+        <lb ed="#C" n="23"/>omnia; ita diligedo Filium diligit omnia 
+        <lb ed="#C" n="24"/>&amp; quia Spiritus Sanctus est amor, quo 
+        <lb ed="#C" n="25"/>Pater diligit Filium, Spiritus Sanctus 
+        <lb ed="#C" n="26"/>erit amor, quo Pater diligit omnia: 
+        <lb ed="#C" n="27"/>propter quod Spiritus Sanctus duplicem 
+        <lb ed="#C" n="28"/>habet comparationem, unam ad Filium, 
+        <lb ed="#C" n="29"/>aliam ad creaturam, ex qua 
+        compara<lb ed="#C" n="30" break="no"/>tione est ibi sumere duplex obiectum 
+        <lb ed="#C" n="31"/>aeternum, &amp; temporale. Inquantum 
+        <lb ed="#C" n="32"/>talis amor tendit in obiectum aeternum, 
+        <lb ed="#C" n="33"/>est aeterna. In quantum in temporale, est 
+        <lb ed="#C" n="34"/>temporalis: &amp; ita ex amore prout 
+        ten<lb ed="#C" n="35" break="no"/>dit in obiectum temporale &amp; aeternum, 
+        <lb ed="#C" n="36"/>volunt distinguere geminam 
+        processio<lb ed="#C" n="37" break="no"/>nem, addentes quod ex tali 
+        processio<lb ed="#C" n="38" break="no"/>ne confertur aliquid novi creaturae 
+        <lb ed="#C" n="39"/>propter quod habetur quidam novus 
+        <lb ed="#C" n="40"/>respectus ad Spiritum Sanctum, unde 
+        <lb ed="#C" n="41"/>competit ei de novo procedere. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e356">
+                  <lb ed="#C" n="42"/>Illud &amp; si bene dictum est, non 
+        ple<lb ed="#C" n="43" break="no"/>ne datur causa, quare talis processio 
+        <lb ed="#C" n="44"/>temporalis dicatur: quia per habita non 
+        <lb ed="#C" n="45"/>habetur, nisi quod ibi est aliquid 
+        aeter<lb ed="#C" n="46" break="no"/>num &amp; temporale. Sed quare totum 
+        <lb ed="#C" n="47"/>dicitur temporale &amp; non aeternum, non 
+        <lb ed="#C" n="48"/>ostenditur.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e374">
+        Praeterea: ex amore 
+        prin<lb ed="#C" n="49" break="no"/>cipaliter assignare novitatem 
+        proces<lb ed="#C" n="50" break="no"/>sionis non est congruum: quia Deus 
+        <lb ed="#C" n="51"/>non diligit nos propter bonitatem 
+        no<lb ed="#C" n="52" break="no"/>stram, sed propter bonitatem suam: &amp; 
+        <!--298.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="53"/>ideo in tali amore semper est obiectum 
+        <lb ed="#C" n="54"/>aeternum, prout diligit se, &amp; prout 
+        di<lb ed="#C" n="55" break="no"/>ligit creaturam, loquendo de obiecto 
+        <lb ed="#C" n="56"/>principali, ex quo actus fortitur species; 
+        <lb ed="#C" n="57"/>non ergo ex diversitate obiectorum 
+        <lb ed="#C" n="58"/>debet processio gemina alsignari. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e403">
+                  <lb ed="#C" n="59"/>Propter quod notandum, quod 
+        se<lb ed="#C" n="60" break="no"/>cundum Philos. 7. Metaph. &amp; 12. non 
+        <lb ed="#C" n="61"/>est generatio nisi compositi: ideo quo 
+        <lb ed="#C" n="62"/>tiescunque aliquid novi advenit alicui  
+        <lb ed="#C" n="63"/>totum dicitur factum: unde non fit he 
+        <lb ed="#C" n="64"/>mo neque musica, sed sit homo 
+        musi<lb ed="#C" n="65" break="no"/>cus, &amp; si homo non esset aeternus, &amp; 
+        <lb ed="#C" n="66"/>adveniret ei musica, ex tempore 
+        inci<lb ed="#C" n="67" break="no"/>peret homo esse musicus, &amp; si quid 
+        inci<lb ed="#C" n="68" break="no"/>pit esse est temporale, homo musicus tempo 
+        <lb ed="#C" n="69"/>ralis esset. Si autem quaeratur ratio, quare 
+        <lb ed="#C" n="70"/>toti composito generatio attribuitur  
+        <lb ed="#C" n="71"/>ut homo albus dicatur generari, &amp; in 
+        <lb ed="#C" n="72"/>cipere esse, quando ei albedo advenit.  
+        <lb ed="#C" n="73"/>Dicendum, quod Terminus generationis 
+        <lb ed="#C" n="74"/>per se est esse, ut vult Philos. 5. Phys. esse 
+        <lb ed="#C" n="75"/>autem non est formarum, sed 
+        supposi<lb ed="#C" n="76" break="no"/>torum per formas: ideo totum 
+        compo<lb ed="#C" n="77" break="no"/>situm esse dicitur per se, &amp; non forma; 
+        <lb ed="#C" n="78"/>sed secundum quod alicui competit 
+        es<lb ed="#C" n="79" break="no"/>se sic competit generari: totum ergo 
+        <lb ed="#C" n="80"/>compositum generatur, non materia 
+        <lb ed="#C" n="81"/>neque forma. Si igitur ratione esse 
+        di<lb ed="#C" n="82" break="no"/>citur totum compositum generari: cum 
+        <lb ed="#C" n="83"/>tamen totum secundum se totum non 
+        <lb ed="#C" n="84"/>accipiat esse, cuicumque competit 
+        se<lb ed="#C" n="85" break="no"/>cundum aliquid novum esse, totum 
+        <lb ed="#C" n="86"/>potest dici novum ratione eius, quod 
+        <lb ed="#C" n="87"/>ei de novo advenit. Ex quo apparet, 
+        <lb ed="#C" n="88"/>quod Spiritus Sanctus potest dici de 
+        no<lb ed="#C" n="89" break="no"/>vo procedere, &amp; de novo habere esse 
+        <lb ed="#C" n="90"/>in aliquo: non quod ipse Spiritus 
+        San<lb ed="#C" n="91" break="no"/>ctus incipiat esse simpliciter; sed quia 
+        <lb ed="#C" n="92"/>incipit esse in isto novo modo, non ubi 
+        <lb ed="#C" n="93"/>non erat; sed qualiter non erat. Ex quo 
+        <lb ed="#C" n="94"/>apparere potest quomodo ratione 
+        novi<lb ed="#C" n="95" break="no"/>effectus dicitur Spiritus Sanctus 
+        proce<lb ed="#C" n="96" break="no"/>dere temporaliter; licet ipse sit 
+        aeter<lb ed="#C" n="97" break="no"/>nus, sicut homo diceretur generari 
+        tem<lb ed="#C" n="98" break="no"/>poraliter albus, si ei ex tempore 
+        adve<lb ed="#C" n="99" break="no"/>niret albedo; etiam si aeternaliter fuisset 
+        <lb ed="#C" n="100"/>homo. Propter argumenta tamen 
+        no<lb ed="#C" n="101" break="no"/>tandum, quod Spiritui Sancto advenit  
+        <lb ed="#C" n="102"/>aliqua novitas, non realiter: quia in 
+        <lb ed="#C" n="103"/>eo non cadit mutatio; sed secundum 
+        <lb ed="#C" n="104"/>modum intelligendi. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e505">
+                  <lb ed="#C" n="105"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="106" break="no"/>cendum, quod licet sit idem spiratio 
+        <lb ed="#C" n="107"/>quod processio, habeti tamen aliam 
+        <!--299.xml-->
+        <pb ed="#C" n="262"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>&amp; aliam habitudinem: nam spiratio 
+        di<lb ed="#C" n="2" break="no"/>cit solum respectum ad principium a 
+        <lb ed="#C" n="3"/>quo; sed ratione principij semper est 
+        <lb ed="#C" n="4"/>aeterna; processio autem dicit respectum 
+        <lb ed="#C" n="5"/>ad terminum ad quem, &amp; ratione huius 
+        <lb ed="#C" n="6"/>termini potest esse temporalis ratione 
+        <lb ed="#C" n="7"/>novitatis effectus, ut patuit.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e536">
+        Ad 2. 
+        di<lb ed="#C" n="8" break="no"/>cendum, quod operationem transire in 
+        <lb ed="#C" n="9"/>exteriorem materiam potest intelligi 
+        <lb ed="#C" n="10"/>dupliciter: vel quia ipsa operatio 
+        depen<lb ed="#C" n="11" break="no"/>deat a materia extrinseca; &amp; sic proces 
+        <lb ed="#C" n="12"/>sio Divinae Personae non transit in 
+        ma<lb ed="#C" n="13" break="no"/>teriam extrinsecam: vel e converso, 
+        <lb ed="#C" n="14"/>quod materia extrinseca dependeat ex 
+        <lb ed="#C" n="15"/>tali actione, &amp; sic processio Personae 
+        <lb ed="#C" n="16"/>Divinae potest esse in materiam 
+        extrin<lb ed="#C" n="17" break="no"/>secam: quia emanatio Personarum 
+        ha<lb ed="#C" n="18" break="no"/>bet rationem causalitatis respectu 
+        no<lb ed="#C" n="19" break="no"/>vitatis effectus, propter quem dicitur  
+        <lb ed="#C" n="20"/>Persona procedere temporaliter. Vel 
+        <lb ed="#C" n="21"/>possumus dicere, quod cum dicitur,  
+        <lb ed="#C" n="22"/>quod processiones accipiuntur per 
+        ac<lb ed="#C" n="23" break="no"/>tiones non transeuntes in exteriorem 
+        <lb ed="#C" n="24"/>materiam, intelligendum est de 
+        pro<lb ed="#C" n="25" break="no"/>cessione, prout Persona accipit esse sim 
+        <lb ed="#C" n="26"/>pliciter, cuiusmodi non est processio, 
+        <lb ed="#C" n="27"/>aut dicitur temporalis.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e582">
+        Ad 3. dicendum 
+        <lb ed="#C" n="28"/>quod licet sint idem, quod Divina 
+        es<lb ed="#C" n="29" break="no"/>sentia, omnia, quae sunt in Divinis; 
+        ta<lb ed="#C" n="30" break="no"/>men propter aliam, &amp; aliam 
+        habitudi<lb ed="#C" n="31" break="no"/>nem aliquid non conceditur de 
+        Divi<lb ed="#C" n="32" break="no"/>na essentia, quod conceditur de alijs. 
+        <lb ed="#C" n="33"/>Ad 4. aliqui sic respondent: quod com 
+        <lb ed="#C" n="34"/>positum potest negari, una parte 
+        nega<lb ed="#C" n="35" break="no"/>ta: quia copulativa falsificatur, una 
+        <lb ed="#C" n="36"/>parte falsificata, &amp; quia est ibi aliquid 
+        <lb ed="#C" n="37"/>aeternum &amp; temporale, totum potest. 
+        <lb ed="#C" n="38"/>dici non aeternum, ergo &amp; temporale: 
+        <lb ed="#C" n="39"/>cum non aeternum temporale sit. Sed 
+        <lb ed="#C" n="40"/>istum modum improbat Pilosophus 2. Elench. 
+        <lb ed="#C" n="41"/>ubi dicit: Non esse concedendum aliquid 
+        sim<lb ed="#C" n="42" break="no"/>pliciter diffiniri in singulari, &amp; in plurali; nam 
+        <lb ed="#C" n="43"/>licet valeat iste est aptus natus videre, 
+        <lb ed="#C" n="44"/>&amp; non videt, ergo est caecus. 
+        Demon<lb ed="#C" n="45" break="no"/>strato tamen uno vidente &amp; uno caeco, 
+        <lb ed="#C" n="46"/>licet vere dici possit, quod sunt 
+        apta<lb ed="#C" n="47" break="no"/>nata videre, &amp; non vident; non tamen 
+        <lb ed="#C" n="48"/>dici potest, quod sint caeci. Ita de quo- 
+        <lb ed="#C" n="49"/>libet in singulari si non est aeternum, est 
+        <lb ed="#C" n="50"/>temporale. Sed demonstrato uno 
+        tem<lb ed="#C" n="51" break="no"/>porali &amp; alio aeterno, licet sit verum 
+        <lb ed="#C" n="52"/>dicere, quod non sunt aeterna, sive 
+        <lb ed="#C" n="53"/>quod totum sit non aeternum: non 
+        ta<lb ed="#C" n="54" break="no"/>men potest concludi, quod sit 
+        tempo<lb ed="#C" n="55" break="no"/>rale gratia formae arguendi, nisi forte 
+        <lb ed="#C" n="56"/>gratia materiae. Et ideo dicendum est, 
+        <!--299.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>sicut dictum fuit in corpore 
+        quaestio<lb ed="#C" n="58" break="no"/>nis, quare dicenda sit talis processio 
+        <lb ed="#C" n="59"/>temporalis.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e659">
+        Ad 5. dicendum, quod 
+        <lb ed="#C" n="60"/>temporale potest dici dupliciter: vel quia 
+        <lb ed="#C" n="61"/>subiacet temporali variationi, &amp; sic potest. 
+        <lb ed="#C" n="62"/>dici non temporalis; vel quia incepit  
+        <lb ed="#C" n="63"/>esse, &amp; sic processio temporalis est: 
+        <lb ed="#C" n="64"/>quia effectus gratiae, ratione cuius 
+        dici<lb ed="#C" n="65" break="no"/>tur Persona temporaliter mitti, esse 
+        in<lb ed="#C" n="66" break="no"/>cipit, &amp; si superexcellat varietates 
+        tem<lb ed="#C" n="67" break="no"/>porum aliquomodo. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e69903-Dd1e680">
+               <head xml:id="Gi9qrR-e69903-Hd1e682">Articulus 2</head>
+               <p xml:id="Gi9qrR-e69903-d1e685">
+                  <lb ed="#C" n="68"/>ARTICVLVS II. 
+        <lb ed="#C" n="69"/>Vtrum processio temporalis ponat in numerunt 
+        <lb ed="#C" n="70"/>cum aeterna? 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e694">
+                  <lb ed="#C" n="71"/>SEcundo quaeritur: utrum processio 
+        tem<lb ed="#C" n="72" break="no"/>poralis ponat in numerum cum 
+        aeter<lb ed="#C" n="73" break="no"/>na? Et videtur, quod sic: quia quae 
+        dif<lb ed="#C" n="74" break="no"/>ferunt plus quam genus, differunt 
+        nu<lb ed="#C" n="75" break="no"/>mero; sed AEternum, &amp; temporale differunt 
+        <lb ed="#C" n="76"/>plus quam genus, ut potest patere per Phil. 
+        <lb ed="#C" n="77"/>10. Metaph. ergo differunt numero, 
+        <lb ed="#C" n="78"/>vel numerantur ad invicem.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e714">
+        Praeterea: 
+        <lb ed="#C" n="79"/>processiones recipiunt numerationem 
+        <lb ed="#C" n="80"/>a terminis, cum processio videatur 
+        im<lb ed="#C" n="81" break="no"/>portare quemdam motum, qui 
+        nume<lb ed="#C" n="82" break="no"/>ratur secundum terminos, ad quos est; 
+        <lb ed="#C" n="83"/>sed Filius, in quem procedit aeternaliter,  
+        <lb ed="#C" n="84"/>&amp; creatura, in quam procedit 
+        tempo<lb ed="#C" n="85" break="no"/>raliter, connumerantur ad invicem, 
+        er<lb ed="#C" n="86" break="no"/>go &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e734">
+        Praeterea: conceditur, quod  
+        <lb ed="#C" n="87"/>sit duplex nativitas Filij; sed Filius 
+        nas<lb ed="#C" n="88" break="no"/>cendo procedit, ergo est duplex eius 
+        <lb ed="#C" n="89"/>processio: pari ratione Spiritus Sancti 
+        <lb ed="#C" n="90"/>duplex processio esse poterit.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e746">
+        Praeterea: 
+        <lb ed="#C" n="91"/>Mag. concedit in littera: Spiritus 
+        San<lb ed="#C" n="92" break="no"/>cti esse geminam processionem; sed  
+        <lb ed="#C" n="93"/>hoc non esset, nisi una poneret in 
+        nu<lb ed="#C" n="94" break="no"/>merum cum alia, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e757">
+                  <lb ed="#C" n="95"/>In contrarium est: quia per 
+        proces<lb ed="#C" n="96" break="no"/>sionem Persona procedens accipit esse, 
+        <lb ed="#C" n="97"/>ergo non sunt duae processiones, nisi 
+        <lb ed="#C" n="98"/>sint duo procedentes; sed idem 
+        Spiri<lb ed="#C" n="99" break="no"/>tus Sanctus, qui procedit 
+        temporali<lb ed="#C" n="100" break="no"/>ter, procedit aeternaliter, ergo &amp;c. 
+        <lb ed="#C" n="101"/>Praeterea: secundum Comment,. in de 
+        <lb ed="#C" n="102"/>fubstantia orbis, Que sunt in istis 
+        inferio<lb ed="#C" n="103" break="no"/>ribus, &amp; in corpore supercaelesti dicuntur 
+        aequi<lb ed="#C" n="104" break="no"/>voce; sed plus distat temporale &amp; 
+        aeter<lb ed="#C" n="105" break="no"/>num, quam distent illa, ergo processio 
+        <lb ed="#C" n="106"/>de temporali &amp; aeterna dicetur aequi¬  
+        <!--300.xml-->
+        <pb ed="#C" n="263"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>voce; sed quae sunt aequivoca non con 
+        <lb ed="#C" n="2"/>numerantur ad invicem, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e796">
+                  <lb ed="#C" n="3"/>RESOLVTIO. 
+        <lb ed="#C" n="4"/>A processione aeterna temporalis non est alia 
+        <lb ed="#C" n="5"/>numero, sed solum addit quemdam res¬ 
+        <lb ed="#C" n="6"/>pectum secundum modum 
+        <lb ed="#C" n="7"/>intelligendi 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e809">
+                  <lb ed="#C" n="8"/>REspond. Quidam sic dicunt, quod  
+        <lb ed="#C" n="9"/>Raliqua dicuntur aequivoce, aliqua 
+        <lb ed="#C" n="10"/>univoce, aliqua analogice. In aequivo¬ 
+        <lb ed="#C" n="11"/>cis solus modus plurificatur, non res 
+        <lb ed="#C" n="12"/>quia aequivoca non conveniunt in 
+        re<lb ed="#C" n="13" break="no"/>sed in voce: ideo debet dici tale duo 
+        <lb ed="#C" n="14"/>plex, non duo: unde eanis coelestis &amp; 
+        <lb ed="#C" n="15"/>latrabilis non sunt duo canes; sed canis 
+        <lb ed="#C" n="16"/>dupliciter dictus. Quae dicuntur 
+        univo<lb ed="#C" n="17" break="no"/>ce conveniunt in nomine, &amp; re, &amp; 
+        ra<lb ed="#C" n="18" break="no"/>tione: ideo quamvis plurificetur res, non 
+        <lb ed="#C" n="19"/>plur ficatur modus, propter quod non 
+        <lb ed="#C" n="20"/>debemus dicere, quod homo, qui est 
+        <lb ed="#C" n="21"/>Sortes, &amp; qui est Plato, sit homo 
+        du<lb ed="#C" n="22" break="no"/>pliciter dictus; sed quod sint duo 
+        ho<lb ed="#C" n="23" break="no"/>mines. Analogica autem conveniunt 
+        <lb ed="#C" n="24"/>in nomine &amp; re; differunt tamen in 
+        ra<lb ed="#C" n="25" break="no"/>tione, eo quod conveniunt in re, 
+        mul<lb ed="#C" n="26" break="no"/>tiplicatur res una in eis. Sed quia illam 
+        <lb ed="#C" n="27"/>rem non aequaliter participant, plurisi 
+        <lb ed="#C" n="28"/>catur ratio: ideo talia possunt dici duo 
+        <lb ed="#C" n="29"/>propter unam rem plurificatam in eis, 
+        <lb ed="#C" n="30"/>&amp; duplex propter diversitatem 
+        modi<lb ed="#C" n="31" break="no"/>Inde est quod substantia, &amp; accidens 
+        <lb ed="#C" n="32"/>possunt dici duo entia, &amp; ens duplici 
+        <lb ed="#C" n="33"/>ter dictum. Advertendum tamen, quod 
+        <lb ed="#C" n="34"/>analogia triplici de causa esse habet, nam 
+        <lb ed="#C" n="35"/>aliquando est analogia: quia una: &amp; ea, 
+        <lb ed="#C" n="36"/>dem res reservatur in omnibus analo 
+        <lb ed="#C" n="37"/>gis; sed in uno per prius, in alio per 
+        <lb ed="#C" n="38"/>posterius, sicut entitas reservatur in 
+        sub<lb ed="#C" n="39" break="no"/>stantia, &amp; accidente; sed in substantia 
+        <lb ed="#C" n="40"/>per prius, in accidente per posterius 
+        <lb ed="#C" n="41"/>Aliquando in uno analogorum 
+        reser<lb ed="#C" n="42" break="no"/>vatur res, in alio similitudo rei, &amp; sic 
+        <lb ed="#C" n="43"/>dicitur animal de animali vero, &amp; 
+        pi<lb ed="#C" n="44" break="no"/>cto. Aliquando una, &amp; eadem res 
+        for<lb ed="#C" n="45" break="no"/>titur diversa vocabula, unum per prius, 
+        <lb ed="#C" n="46"/>aliud per posterius secundum diversas 
+        <lb ed="#C" n="47"/>rationes, sicut una &amp; eadem res 
+        dicere<lb ed="#C" n="48" break="no"/>tur forma &amp; imago secundum alium, 
+        <lb ed="#C" n="49"/>&amp; alium modum: nam illa figura, quae 
+        <lb ed="#C" n="50"/>est in aere introducta ab artifice, 
+        secun<lb ed="#C" n="51" break="no"/>dum quod est qualitas quedam, &amp; 
+        pro<lb ed="#C" n="52" break="no"/>ut esse artificiatum dat ipsi aeri, dicitur 
+        <lb ed="#C" n="53"/>forma, vel circa eam constans figura 
+        <!--300.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>ut est repraesentativa alicuius dicitur 
+        <lb ed="#C" n="55"/>imago, &amp; sic imago &amp; forma non sum 
+        <lb ed="#C" n="56"/>duae res; sed una dupliciter dicta. 
+        Secun<lb ed="#C" n="57" break="no"/>dum istam viam possumus loqui de 
+        pro<lb ed="#C" n="58" break="no"/>cessione aeterna &amp; temporali secundum 
+        <lb ed="#C" n="59"/>modum istorum: nam una non ponit 
+        <lb ed="#C" n="60"/>in numerum cum alia: quia inter eas 
+        <lb ed="#C" n="61"/>non reservatur aequivocatio, sed 
+        ana<lb ed="#C" n="62" break="no"/>logia: &amp; non reservatur in eis primus 
+        <lb ed="#C" n="63"/>modus analogiae, nec secundus; sed  
+        <lb ed="#C" n="64"/>tertius: ideo non sunt duae 
+        processio<lb ed="#C" n="65" break="no"/>nes; sed processio dupliciter dicta: nam 
+        <lb ed="#C" n="66"/>secundum alium, &amp; alium respectum 
+        <lb ed="#C" n="67"/>una &amp; eadem processio dicitur aeterna 
+        <lb ed="#C" n="68"/>&amp; temporalis: aeterna, ut respicit 
+        ob<lb ed="#C" n="69" break="no"/>iectum aeternum: temporalis, ut 
+        res<lb ed="#C" n="70" break="no"/>picit creaturam. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e952">
+                  <lb ed="#C" n="71"/>Sed illud dupliciter peccat. 1. in  
+        <lb ed="#C" n="72"/>modo loquendi. 2. in assignando 
+        cau<lb ed="#C" n="73" break="no"/>sam, quare huiusmodi processiones non 
+        <lb ed="#C" n="74"/>numerentur ad invicem. Propter 
+        pri<lb ed="#C" n="75" break="no"/>mum notandum, quod licet 
+        reperian<lb ed="#C" n="76" break="no"/>tur aliqua analogica, in quibus 
+        reperi<lb ed="#C" n="77" break="no"/>tur natura una per prius, &amp; posterias 
+        <lb ed="#C" n="78"/>participata, ut in substantia &amp; 
+        acciden<lb ed="#C" n="79" break="no"/>te natura entis; non tamen propter hoc  
+        <lb ed="#C" n="80"/>analogia sumitur: quia unitas analogiae 
+        <lb ed="#C" n="81"/>non est unitas praedicationis, sed 
+        attri<lb ed="#C" n="82" break="no"/>butionis: non enim ex eo quod reper 
+        <lb ed="#C" n="83"/>ritur entitas in substantia &amp; accidente 
+        <lb ed="#C" n="84"/>dicitur ens analogice de utroque; sed  
+        <lb ed="#C" n="85"/>ex eo quod reperitur in substantia solum, 
+        <lb ed="#C" n="86"/>ratione cuius accidentia sunt entia: ideo 
+        <lb ed="#C" n="87"/>accidentia non sunt entia, nisi quia 
+        <lb ed="#C" n="88"/>sunt entis. 2. non assignat causam non 
+        <lb ed="#C" n="89"/>numerationis: nam processio in 
+        Divi<lb ed="#C" n="90" break="no"/>nis relationem dicit, &amp; ad hoc, quod 
+        nu<lb ed="#C" n="91" break="no"/>merentur relationes sufficit, quod nume 
+        <lb ed="#C" n="92"/>retur rationes secundum quas accipium 
+        <lb ed="#C" n="93"/>tur; non oportet, quod res ipsa, in qua 
+        <lb ed="#C" n="94"/>fundantur, numeretur: nam natura 
+        <lb ed="#C" n="95"/>Divina potest esse fundamentum plurium 
+        <lb ed="#C" n="96"/>relationum etiam non numerata, 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e1011">
+                  <lb ed="#C" n="97"/>Propter hoc notandum, quod 
+        pro<lb ed="#C" n="98" break="no"/>cessio in creaturis accipitur ex eo quod 
+        <lb ed="#C" n="99"/>creatura accipit naturam aliquam vel 
+        <lb ed="#C" n="100"/>esse, &amp; diversae processiones in eis 
+        ac<lb ed="#C" n="101" break="no"/>cipiuntur propter diversas acceptiones 
+        <lb ed="#C" n="102"/>naturarum, vel propter diversa esse. 
+        <lb ed="#C" n="103"/>Nam procedere in albedinem est aliud 
+        <lb ed="#C" n="104"/>a procedere in sanitatem: quia natura 
+        <lb ed="#C" n="105"/>sanitatis est alia a natura albedinis, &amp; 
+        <lb ed="#C" n="106"/>esse sanum non est esse album. Quae si ad 
+        <lb ed="#C" n="107"/>Divina transferre volumus, licet ibi 
+        <lb ed="#C" n="108"/>processionem salvare possimus ex 
+        ac<lb ed="#C" n="109" break="no"/>ceptione naturae &amp; esse: quia una Per¬ 
+        <!--301.xml-->
+        <pb ed="#C" n="264"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>sona procedendo ab alia accipit ab ea 
+        <lb ed="#C" n="2"/>esse &amp; naturam; tamen distinctionem 
+        <lb ed="#C" n="3"/>processionum ibi ponere non possumu. 
+        <lb ed="#C" n="4"/>secundum distinctionem: in esse, vel in 
+        <lb ed="#C" n="5"/>natura: quia eadem est natura omnium 
+        <lb ed="#C" n="6"/>trium, &amp; idem esse. Sed si ibi 
+        distin<lb ed="#C" n="7" break="no"/>ctionem ponimus, hoc est, propter 
+        <lb ed="#C" n="8"/>distinctas relationes, &amp; propter aliud 
+        <lb ed="#C" n="9"/>&amp; aliud esse relatum, ex qua sententia 
+        <lb ed="#C" n="10"/>videtur sequi, quod processio aeteruma 
+        <lb ed="#C" n="11"/>&amp; temporalis sint duae processiones: cum 
+        <lb ed="#C" n="12"/>relatio aeterna &amp; temporalis non 
+        vi<lb ed="#C" n="13" break="no"/>deatur eadem, relatio. Propter quod 
+        <lb ed="#C" n="14"/>advertendum, quod secundum Philosophum 
+        <lb ed="#C" n="15"/>5. Metaph. quaedam est relatio secun 
+        <lb ed="#C" n="16"/>dum rem, quaedam secundum 
+        ratio<lb ed="#C" n="17" break="no"/>nem: relatio secundum rem ponit ali¬ 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e1086">
+                  <lb ed="#C" n="18"/>quid in utroque extremorum; relatio 
+        <lb ed="#C" n="19"/>a secundum rationem ponit aliquid in 
+        <lb ed="#C" n="20"/>s uno extremo solum secundum rem 
+        <lb ed="#C" n="21"/>in alio autem secundum modum 
+        intel<lb ed="#C" n="22" break="no"/>ligendi. 1. modo Pater refertur ad 
+        Fi<lb ed="#C" n="23" break="no"/>alium, quia per relationem, quae est in 
+        <lb ed="#C" n="24"/>s ipso, refertur ad illum, &amp; Filius ad 
+        Pa<lb ed="#C" n="25" break="no"/>trem eodem modo. 2. modo scibile 
+        <lb ed="#C" n="26"/>Presertur ad scientiam: quia non per 
+        re<lb ed="#C" n="27" break="no"/>plationem, quae sit in ipso realiter; sed  
+        <lb ed="#C" n="28"/>per eam, quae est in scientia, habet 
+        re<lb ed="#C" n="29" break="no"/>ferri. 
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e1115">
+                  <lb ed="#C" n="30"/>Hoc viso sciendum, quod Spiritu 
+        <lb ed="#C" n="31"/>panctus ad obiectum aeternum, refertur 
+        <lb ed="#C" n="32"/>secundum rem; sed ad creaturam re 
+        <lb ed="#C" n="33"/>fertur secundum rationem, ut potest 
+        <lb ed="#C" n="34"/>haberi ex verbis <name xml:id="Gi9qrR-e69903-Nd1e1128" ref="#Augustine">Aug.</name> 5. de Trin. cap. 
+        <lb ed="#C" n="35"/>ult. &amp; quia quod est secundum 
+        ratio<lb ed="#C" n="36" break="no"/>nem non ponit in numerum: cum 
+        eo<lb ed="#C" n="37" break="no"/>quod est secundum rem, processio 
+        <lb ed="#C" n="38"/>aeterna, &amp; processio temporalis non 
+        <lb ed="#C" n="39"/>erunt duae processiones; sed eadem 
+        <lb ed="#C" n="40"/>processio dupliciter dicta. Nam ut 
+        tem<lb ed="#C" n="41" break="no"/>poralis dicitur, solum ei additur 
+        qui<lb ed="#C" n="42" break="no"/>dam respectus secundum modum in 
+        <lb ed="#C" n="43"/>telligendi, qui non ponit in numerum 
+        <lb ed="#C" n="44"/>ut possint dici duae processiones. 
+        <lb ed="#C" n="45"/>Respond. ad arg. Ad primum dict 
+        <lb ed="#C" n="46"/>cendum, quod quae differunt plusquam 
+        <lb ed="#C" n="47"/>genus, numerantur ad invicem, si 
+        <lb ed="#C" n="48"/>utrumq; sit quid reale; sed, ut habitum est 
+        <lb ed="#C" n="49"/>processio ut dicitur temporalis 
+        supra<lb ed="#C" n="50" break="no"/>processionem aeternam solum addit 
+        <lb ed="#C" n="51"/>quid rationis. Vel possumus dicere,  
+        <lb ed="#C" n="52"/>quod huiusmodi res rationis, nec faciunt 
+        <lb ed="#C" n="53"/>genus, nec speciem, nec numerum 
+        <lb ed="#C" n="54"/>per se, sed reducuntur ad genera &amp; 
+        spe<lb ed="#C" n="55" break="no"/>cies ipsarum rerum: ideo processii 
+        <lb ed="#C" n="56"/>temporalis non facit numerum cum 
+        <!--301.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>aeterna, nec est in specie, nec in 
+        gene<lb ed="#C" n="58" break="no"/>re alio ab ipso, secundum quod in 
+        ta<lb ed="#C" n="59" break="no"/>libus genus &amp; speciem ponere 
+        possu<lb ed="#C" n="60" break="no"/>mus.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e1192">
+        Ad 2. dicendum, quod 
+        proces<lb ed="#C" n="61" break="no"/>siones numerantur secundum 
+        termi<lb ed="#C" n="62" break="no"/>nos, si utrumque dicit quid reale in 
+        <lb ed="#C" n="63"/>procedente, quod non est in 
+        proposi<lb ed="#C" n="64" break="no"/>to.
+      </p>
+               <p xml:id="Gi9qrR-e69903-d1e1203">
+        Ad 3. dicendum, quod non est 
+        si<lb ed="#C" n="65" break="no"/>mile de nativitate Filij &amp; processione 
+        <lb ed="#C" n="66"/>Spiritus Sancti: quia nativitas Filij 
+        res<lb ed="#C" n="67" break="no"/>picit duo principia: quia Patrem &amp; 
+        <lb ed="#C" n="68"/>Matrem, ut aeterna &amp; temporalis; sed  
+        <lb ed="#C" n="69"/>processio Spiritus Sancti tam aeterna, 
+        <lb ed="#C" n="70"/>quam temporalis respicit unum 
+        prin<lb ed="#C" n="71" break="no"/>cipium: ideo non valet, quod si illa 
+        <lb ed="#C" n="72"/>conceditur, quod ista concedatur. Ad 
+        <lb ed="#C" n="73"/>4. dicendum, quod ad esse geminam 
+        <lb ed="#C" n="74"/>processionem non oportet 
+        processio<lb ed="#C" n="75" break="no"/>nes esse duas secundum numerum; sed  
+        <lb ed="#C" n="76"/>solum secundum modum. 
+        <lb ed="#C" n="77"/>SoPt vegs zex es. Sespe eee¬ 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

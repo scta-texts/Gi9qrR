@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="841"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g19475"><!-- l1-d46expolit -->
+            <head xml:id="Gi9qrR-g19475-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-g19475-d1e111">
+               <lb ed="#C" n="12"/>ExPOSITIO LITTERAE
+    </p>
+            <p xml:id="Gi9qrR-g19475-d1e116">
+               <lb ed="#C" n="13" break="no"/>Vper litteram super illo: Qui illuminat 
+      <lb ed="#C" n="14"/>Qomnem hominem. Notandum non 
+      so<lb ed="#C" n="15" break="no"/>lum intelligendum esse, quantum ad 
+      <lb ed="#C" n="16"/>lumen gratiae, sed etiam de lumine 
+      na<lb ed="#C" n="17" break="no"/>turali intellectus: propter quod 
+      bene<lb ed="#C" n="18" break="no"/>dictum est, quod verum, a quocumque 
+      <lb ed="#C" n="19"/>dicatur, a Spiritu Sancto est. Indidit 
+      <lb ed="#C" n="20"/>enim Deus animae nostrae suas 
+      poten<lb ed="#C" n="21" break="no"/>tias: unde ipsum lumen rationis, per 
+      <lb ed="#C" n="22"/>quod omne verum iudicamus, nobis, 
+      a<lb ed="#C" n="23" break="no"/>Deo est inditum; &amp; cum vera 
+      judica<lb ed="#C" n="24" break="no"/>mus, a Deo est: cum deficimus, est nobis 
+      <lb ed="#C" n="25"/>ab ipsis. 
+    </p>
+            <p xml:id="Gi9qrR-g19475-d1e147">
+               <lb ed="#C" n="26"/>Item super illo: Est enim aliquid quod  
+      <lb ed="#C" n="27"/>in se bonum est. Notandum, quod haec 
+      di<lb ed="#C" n="28" break="no"/>stinctio boni ex hoc provenit: quia ad 
+      <lb ed="#C" n="29"/>rationem boni simpliciter debent 
+      om<lb ed="#C" n="30" break="no"/>nes conditiones concurrere: quia bonum 
+      <lb ed="#C" n="31"/>constat ex tota causa, malum autem 
+      ex<lb ed="#C" n="32" break="no"/>particularibus defectibus. Ideo ad hoc,  
+      <lb ed="#C" n="33"/>quod opus sit bonum, debet esse de 
+      ge<lb ed="#C" n="34" break="no"/>nere bonorum, &amp; bona intentione 
+      fa<lb ed="#C" n="35" break="no"/>ctum: &amp; si hujusmodi bonum sumitur 
+      <lb ed="#C" n="36"/>ex actibus ad alios ordinatis, ad hoc  
+      <lb ed="#C" n="37"/>squod habeat completam rationem 
+      bo<lb ed="#C" n="38" break="no"/>ni, debet esse bonu in comparatione ad 
+      <lb ed="#C" n="39"/>aliud, &amp; ex hoc sumitur 
+      quadrimenbri<lb ed="#C" n="40" break="no"/>t distinctio boni. Nam est aliquod bonum 
+      <lb ed="#C" n="41"/>st quod habet omnia illa tria: ut quia est 
+    </p>
+            <p xml:id="Gi9qrR-g19475-d1e184">
+               <lb ed="#C" n="42"/>bona intentione factum, &amp; est de 
+      gene<lb ed="#C" n="43" break="no"/>re bonorum, &amp; valet in comparatione 
+      <lb ed="#C" n="44"/>n ad aliud: ut cum datur eleemosyna prop 
+      <lb ed="#C" n="45"/>ter Deum pauperi, ibi concurrit bona 
+      <lb ed="#C" n="46"/>dintentio, quia fit propter Deum: 
+      bo<lb ed="#C" n="47" break="no"/>num opus, quia eleemosyna: &amp; valet  
+      <lb ed="#C" n="48"/>u alteri, quia pauperi. Aliquando 
+      con<lb ed="#C" n="49" break="no"/>st currunt ibi non omnes conditiones, 
+      <lb ed="#C" n="50"/>quod potest esse dupliciter: quia vel 
+      con<lb ed="#C" n="51" break="no"/>currit ibi una solum, ut quod valeat in 
+      <lb ed="#C" n="52"/>s. comparatione ad aliud, &amp; sic mala sunt,  
+      <!--866.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="53"/>bona, non per se, sed per accidens 
+      ra<lb ed="#C" n="54" break="no"/>tione boni ad quod ordinantur. Aliquam 
+      <lb ed="#C" n="55"/>do concurrunt ibi duae solum, quod 
+      du<lb ed="#C" n="56" break="no"/>pliciter esse potest: quia vel est ibi bonum 
+      <lb ed="#C" n="57"/>opus cum bonitate intentionis absque 
+      <lb ed="#C" n="58"/>bonitate in comparatione ad aliud, &amp; 
+      <lb ed="#C" n="59"/>sic est praedicatio facta propter Deum 
+      <lb ed="#C" n="60"/>non credenti: auticum bono opere non 
+      <lb ed="#C" n="61"/>concurrit ibi bonitas intentionis: &amp; sic 
+      <lb ed="#C" n="62"/>est eleemosyna data pauperi propter 
+      in<lb ed="#C" n="63" break="no"/>anem gloriam. Et ita illa quadrimenbria 
+      <lb ed="#C" n="64"/>distinctio, quam ponit Magister, 
+      ra<lb ed="#C" n="65" break="no"/>tionalis est, si considerantur jam 
+      di<lb ed="#C" n="66" break="no"/>cta. 
+    </p>
+            <p xml:id="Gi9qrR-g19475-d1e246">
+               <lb ed="#C" n="67"/>Item super illo: Nullo sapiente homine 
+      <lb ed="#C" n="68"/>actore fit homo deterior. Contra: non 
+      om<lb ed="#C" n="69" break="no"/>ne peccatum est ex ignorantia, sed 
+      ali<lb ed="#C" n="70" break="no"/>quod committitur ex certa malitia, 
+      er<lb ed="#C" n="71" break="no"/>go potest esse, quod aliquis sit sciens &amp; 
+      <lb ed="#C" n="72"/>sapiens, &amp; tamen exemplo suo alij 
+      de<lb ed="#C" n="73" break="no"/>teriores fiant, &amp; ipsemet per mala 
+      ope<lb ed="#C" n="74" break="no"/>ra sua in malitia augmentetur. 
+      Dicen<lb ed="#C" n="75" break="no"/>dum quod ibi sapiens accipitur pro 
+      pru<lb ed="#C" n="76" break="no"/>dente secundum quod prudens 
+      praesup<lb ed="#C" n="77" break="no"/>ponit virtutes morales: secundum quem 
+      <lb ed="#C" n="78"/>modum loquitur Philosophus circa finem 6. 
+      <lb ed="#C" n="79"/>Ethic. quod manifestum, quoniam 
+      im<lb ed="#C" n="80" break="no"/>possibile est prudentem esse non 
+      existen<lb ed="#C" n="81" break="no"/>tem bonum. 
+    </p>
+            <p xml:id="Gi9qrR-g19475-d1e281">
+               <lb ed="#C" n="82"/>Item super illo: Non ergo Deo 
+      acto<lb ed="#C" n="83" break="no"/>re malum fit. Videtur Magister arguere 
+      <lb ed="#C" n="84"/>quod si homine sapiente non fiunt ma 
+      <lb ed="#C" n="85"/>la, quod multo magis Deo sapiente non 
+      <lb ed="#C" n="86"/>nunt. Sed contra: locus ille est a 
+      mino<lb ed="#C" n="87" break="no"/>ri: quia argumentum trahitur a minori 
+      <lb ed="#C" n="88"/>ad majus, a sapientia hominis ad 
+      sapien<lb ed="#C" n="89" break="no"/>tiam Dei; sed a minori arguimus 
+      sem<lb ed="#C" n="90" break="no"/>per affirmando, ipse arguit negando, 
+      <lb ed="#C" n="91"/>ergo non bene arguit. Dicendum, quod  
+      <lb ed="#C" n="92"/>icet sapientia Dei sit maior sapientia, 
+      <lb ed="#C" n="93"/>nominis, modus tamen arguendi 
+      ma<lb ed="#C" n="94" break="no"/>gis est a maiori, quam a minori: quia 
+      <lb ed="#C" n="95"/>magis videtur, quod homo debeat 
+      defi<lb ed="#C" n="96" break="no"/>cere per sapientiam suam, quam Deus. 
+      <lb ed="#C" n="97"/>Potest tamen ibi esse a minori: quia 
+      mi<lb ed="#C" n="98" break="no"/>nus debemus negare defectum ab 
+      homi<lb ed="#C" n="99" break="no"/>ne quam a Deo. Et sic non arguemus 
+      <lb ed="#C" n="100"/>negando; sed affirmando: ut si negamus 
+      <lb ed="#C" n="101"/>lefectum ab homine sapiente, debemus 
+      <lb ed="#C" n="102"/>negare a Deo. 
+      <lb ed="#C" n="103"/>Item super illo: Deinde idem <name xml:id="Gi9qrR-g19475-Nd1e330" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="104"/>Notandum, quod haec ratio differt a 
+      <lb ed="#C" n="105"/>riori: quia ista fundat se super bonitate 
+      <lb ed="#C" n="106"/>Dei, prima vero super ejus sapientia. 
+    </p>
+            <p xml:id="Gi9qrR-g19475-d1e341">
+               <lb ed="#C" n="107"/>Item super illo: Quia ipse non est 
+      cau<lb ed="#C" n="108" break="no"/>sa tendendi ad non esse. Contra: ipse non 
+      <!--867.xml-->
+      <pb ed="#C" n="842"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>solum vivere facit, sed etiam occidit, 
+      <lb ed="#C" n="2"/>. iuxta illud Deuteron. 32. Eco occidam 
+      <lb ed="#C" n="3"/>&amp; vivere faciam. Dicendum, quod non 
+      <lb ed="#C" n="4"/>esse nunquam est intentum ab aliquo 
+      a<lb ed="#C" n="5" break="no"/>gente, sed semper est intentum esse, ad 
+      <lb ed="#C" n="6"/>quod sequitur aliquod non esse, ut ignis 
+      <lb ed="#C" n="7"/>intendit inducere formam suam in 
+      pas<lb ed="#C" n="8" break="no"/>sum, ad cujus introductionem sequitur 
+      <lb ed="#C" n="9"/>passi corruptio. Sic Deus intendit 
+      con<lb ed="#C" n="10" break="no"/>servare ordinem naturae &amp; justitiae, ad 
+      <lb ed="#C" n="11"/>quem sequitur quod aliqui 
+      corrumpan<lb ed="#C" n="12" break="no"/>tur, aliqui puniantur.  
+    </p>
+            <p xml:id="Gi9qrR-g19475-d1e380">
+               <lb ed="#C" n="13"/>Item super illo: Tendit vero ad non 
+      <!--867.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="14"/>esse qui operatur malum. Contra 
+      secun<lb ed="#C" n="15" break="no"/>dum Diony. 4. de Div. nom. Per 
+      ma<lb ed="#C" n="16" break="no"/>lum non corrumpitur aliquid 
+      existen<lb ed="#C" n="17" break="no"/>tium, sed quod est substantia &amp; natura, 
+      <lb ed="#C" n="18"/>ergo facientes malum non tendunt ad 
+      <lb ed="#C" n="19"/>non esse. Dicendum, quod per malum 
+      <lb ed="#C" n="20"/>culpae, de quo ibi videtur loqui 
+      secun<lb ed="#C" n="21" break="no"/>cundum quod hujusmodi, non tolsitur  
+      <lb ed="#C" n="22"/>natura, sed inhabilitatur &amp; tollitur 
+      <lb ed="#C" n="23"/>gratia: &amp; ideo qui sic nale agit, tendit 
+      <lb ed="#C" n="24"/>ad non esse: &amp; si non ad non esse 
+      natu<lb ed="#C" n="25" break="no"/>rae; tamen ad non esse gratiae. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

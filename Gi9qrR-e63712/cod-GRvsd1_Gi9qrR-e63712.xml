@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e63712"><!-- l1-d11dublit -->
+            <head xml:id="Gi9qrR-e63712-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-e63712-d1e111">
+               <lb ed="#C" n="57"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-e63712-d1e116">
+               <lb ed="#C" n="58"/>SVPER litteram: per illud missit Deus 
+      <lb ed="#C" n="59"/>DSpiritum Fili sui, vult habere Magist. 
+      <lb ed="#C" n="60"/>quod Spiritus Sanctus procedat a 
+      Fi<lb ed="#C" n="61" break="no"/>lio: quia dicitur Spiritus Filij. Contra: 
+      <lb ed="#C" n="62"/>Damasc. 1. lib. cap. 11. concedit 
+      Spiri<lb ed="#C" n="63" break="no"/>tum Sanctum esse Spiritum Filij; non 
+      <lb ed="#C" n="64"/>tamen concedit ipsum esse ex Filio. 
+      Di<lb ed="#C" n="65" break="no"/>cendum, quod ibi Filij cum sit casus 
+      genitivi<lb ed="#C" n="66" break="no"/>construitur in aliqua habitudine, sed illa 
+      <lb ed="#C" n="67"/>habitudo non potest esse nisi originis, &amp; 
+      <lb ed="#C" n="68"/>ideo Mag. bene concludit. Quod 
+      dici<lb ed="#C" n="69" break="no"/>tur de Damasc. dicendum, quod vel 
+      <lb ed="#C" n="70"/>non bene vidit consequentiam illam, 
+      <lb ed="#C" n="71"/>vel non intendit negare Spiritum non 
+      <lb ed="#C" n="72"/>procedere a Filio, sed quod non 
+      pro<lb ed="#C" n="73" break="no"/>cedit ab eo principaliter.  
+    </p>
+            <p xml:id="Gi9qrR-e63712-d1e153">
+               <lb ed="#C" n="74"/>Item super illud: Quem ego mitto 
+      vo<lb ed="#C" n="75" break="no"/>bis, vult habere Mag. quod Spiritus 6. 
+      <lb ed="#C" n="76"/>procedat a Filio: quia mittitur a Filio. 
+      <lb ed="#C" n="77"/>ontra: illa missio est temporalis: hic 
+      <lb ed="#C" n="78"/>nos, loquimur de aeterna. 
+      Dicen<lb ed="#C" n="79" break="no"/>dum, quod missio 
+      tempo<lb ed="#C" n="80" break="no"/>ioitalis proprie sump 
+      <lb ed="#C" n="81"/>tataeternam 
+      <lb ed="#C" n="82"/>inclu¬ 
+      <lb ed="#C" n="83"/>dit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

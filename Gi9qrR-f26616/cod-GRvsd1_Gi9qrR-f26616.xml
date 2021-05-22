@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="474"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f26616"><!-- l1-d25prooem -->
+            <head xml:id="Gi9qrR-f26616-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f26616-d1e111">
+      <!--511.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="24"/>DISTNNCTIO SXxV 
+      <lb ed="#C" n="25"/>QVID SIGNIFICATVR CVMIDICITVR, PLVRALITER 
+      <lb ed="#C" n="26"/>tres Personae, vel due Personae. 
+    </p>
+            <p xml:id="Gi9qrR-f26616-d1e124">
+      <!--511.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="27"/>Raeretp. 4 &amp;e. PPostquam 
+      <lb ed="#C" n="28"/>Magist. determihavit de 
+      <lb ed="#C" n="29"/>terminis numeralibus, hic 
+      <lb ed="#C" n="30"/>in parte ista determinat de 
+      <lb ed="#C" n="31"/>hoc nomine, Persona, pro 
+      <lb ed="#C" n="32"/>ut ei tales termini addu 
+      <lb ed="#C" n="33"/>tur. Et duo facit: quia 1. 
+      <lb ed="#C" n="34"/> movet quamdam 
+      quaestio<lb ed="#C" n="35" break="no"/>nem: circa hoc, &amp; obiicit breviter ad utram 
+      <lb ed="#C" n="36"/>que partem. 2. diffusius exequitur de dicta 
+      <lb ed="#C" n="37"/>quaest. ibi: Persona enim. Circa: primum tria 
+      <lb ed="#C" n="38"/>facit: quia 1. quaerit, quid significet Persona, 
+      <lb ed="#C" n="39"/>cum. dicitur tres Personae: vel cum dicitur alia 
+      <lb ed="#C" n="40"/>est. Persona Patris, alia Filij. 2. ostendit, quod 
+      <lb ed="#C" n="41"/>non potest significare essentiam: quia non sunt,  
+      <lb ed="#C" n="42"/>plures essentiae. 3. ostendit, quod non potest 
+      <lb ed="#C" n="43"/>significare relationem; vel suppositum: quia 
+      <lb ed="#C" n="44"/>rufre hoc nomen. Persona, variaret significa 
+      <lb ed="#C" n="45"/>tum suum, quod videtur inconveniens: quia, 
+      <lb ed="#C" n="46"/>termini caderent, a sui significatione. Secunda 
+      <lb ed="#C" n="47"/>ibi:: Si enim. Tertia ibi: Si vero estentiae. Dein 
+      <lb ed="#C" n="48"/>de cum dicit: Persoia, diffusius de ista quaest 
+      <lb ed="#C" n="49"/>exequitur. Et duo facit: quia 1. exequitur 
+      se<lb ed="#C" n="50" break="no"/>i. 
+    </p>
+            <p xml:id="Gi9qrR-f26616-d1e183">
+               <lb ed="#C" n="51"/>cundum sententiam aliorum. 2. secundum 
+      sen<lb ed="#C" n="52" break="no"/>tentiam propriam, ibi: Sciendum est Cirea 
+      pri<lb ed="#C" n="53" break="no"/>mum duo facit: quia 1. adducit plures 
+      ratio<lb ed="#C" n="54" break="no"/>nes, quae ostendunt Personam semper stare 
+      <lb ed="#C" n="55"/>pro essentia. 2. ponit circa hoc quorumdam 
+      <lb ed="#C" n="56"/>opinionem, ibi: Quibusdam. Circa primum 
+      <lb ed="#C" n="57"/>tria facit, secundum quod tres rationes 
+      addu<lb ed="#C" n="58" break="no"/>cit ad ostendendum Personam semper stare 
+      <lb ed="#C" n="59"/>pro essentia. Prima est per auctoritatem: quia 
+      <lb ed="#C" n="60"/>August. vuli, quod Persona ad se dicitur: &amp; 
+      <lb ed="#C" n="61"/>quod idem sit Deo esse, quod Personam esse: 
+      <lb ed="#C" n="62"/>quae concludunt Personam secundum substan 
+      <lb ed="#C" n="63"/>tiam dici. Secunda ratio etiam ex 
+      auctorita<lb ed="#C" n="64" break="no"/>Ae sumit originem. Vult enim <name xml:id="Gi9qrR-f26616-Nd1e215" ref="#Augustine">August,</name> quod  
+      <!--511.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="65"/>dieamus tres Personas: quia commune est 
+      tri<lb ed="#C" n="66" break="no"/>busid, quod est Persona: sed non est 
+      commu<lb ed="#C" n="67" break="no"/>ne eis nisi essentia. 2. igitur cum dicimus tres 
+      <lb ed="#C" n="68"/>Personas, Persona ibi essentiam significat: Ter 
+      <lb ed="#C" n="69"/>tia ratio est: quia quod respondetur ad quid,  
+      <lb ed="#C" n="70"/>habet rationem substantiae, vel essentiae; sed  
+      <lb ed="#C" n="71"/>cam quaeritur: quid tres? Respondetur, tres 
+      <lb ed="#C" n="72"/>Personae: ergo idem quod prius. Secunda 
+      ra<lb ed="#C" n="73" break="no"/>tio incipit, ibi;. Cum vero dicitur Pater Tertiae 
+      <lb ed="#C" n="74"/>ibi: Aliter etiam. Deinde cum dictr: 
+      Quibus<lb ed="#C" n="75" break="no"/>dam, ponit positionem quorumdam circa hoc.  
+      <lb ed="#C" n="76"/>Etduo facit: : quia 1. ponit positionem 
+      illo<lb ed="#C" n="77" break="no"/>rum, &amp; etiam obiectiones, ad quas, 
+      respon<lb ed="#C" n="78" break="no"/>dent. 2. adducit quamdam obiectionem, ad 
+      <lb ed="#C" n="79"/>quam respondere non possunt, ibi: Sed quid 
+      es<lb ed="#C" n="80" break="no"/>pondebunt. Circa primum tria facit: quia 1. 
+      <lb ed="#C" n="81"/>ponit positiones illorum, qui dicunt, quod  
+      <lb ed="#C" n="82"/>Persona semper significat: idem, quod 
+      essen<lb ed="#C" n="83" break="no"/>tia, &amp; cum dicitur tres Personae, est sensus, id  
+      <lb ed="#C" n="84"/>est, tres sunt, quibus commune est Personam, 
+      <lb ed="#C" n="85"/>id est, essentiam. 2. ostendit quomodo soivunt, 
+      <lb ed="#C" n="86"/>cum dicitur alia est Persona Patris, alia Filij; 
+      <lb ed="#C" n="87"/>eum non sit alia essentia, quod sic exponunt: 
+      <lb ed="#C" n="88"/>quia Pater est alius, &amp; Filius est alius commu 
+      <lb ed="#C" n="89"/>ne habentes, quod est Persona. 3. confirmat 
+      <lb ed="#C" n="90"/>positionem suam per <name xml:id="Gi9qrR-f26616-Nd1e279" ref="#Augustine">August:</name> qui vult, quod  
+      <lb ed="#C" n="91"/>non dicimus tres Personas ex endem essentia: 
+      <lb ed="#C" n="92"/>quia non est ibi aliud Persona, aliud essentia. 
+      <lb ed="#C" n="93"/>Secunda ibi::. Sed quomodo. Tertia ibi: Et boc 
+      <lb ed="#C" n="94"/>confirmant. Deinde cum dicit: Sed quid, 
+      impro<lb ed="#C" n="95" break="no"/>bat per <name xml:id="Gi9qrR-f26616-Nd1e293" ref="#Augustine">Augost.</name> positionem illorum: quia 
+      <lb ed="#C" n="96"/>vult <name xml:id="Gi9qrR-f26616-Nd1e298" ref="#Augustine">August.</name> de Fide ad Petrum, quod Filius 
+      <lb ed="#C" n="97"/>a Patre est alius in Persona, vel personaliters 
+      <lb ed="#C" n="98"/>non est tamen alius in essentia, nec 
+      essentiali<lb ed="#C" n="99" break="no"/>ter: non igitur Persona semper dicit idem, 
+      <lb ed="#C" n="100"/>quod essentia. Et ad hac obiectionem resnon 
+      <lb ed="#C" n="101"/>dere non possunt, nec etiam primas obies 
+      <!--512.xml-->
+      <pb ed="#C" n="475"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>ctiones solvunt, sed fugiunt.  
+    </p>
+            <p xml:id="Gi9qrR-f26616-d1e322">
+               <lb ed="#C" n="2"/>Tunc sequitur illa pars: Sciendum, in 
+      qua<lb ed="#C" n="3" break="no"/>exequitur de praedictis secundum positionem 
+      <lb ed="#C" n="4"/>propriam. Et duo facit: quia 1. facit quod 
+      <lb ed="#C" n="5"/>dictum est. 2. ostendit quid significet 
+      Perso<lb ed="#C" n="6" break="no"/>na, cum profertur cum alietate. Secunda ibi: 
+      <lb ed="#C" n="7"/>Nunc autem. Circa primum duo facit: quia 1 
+      <lb ed="#C" n="8"/>determinat veritatem circa praetacta dicens 
+      <lb ed="#C" n="9"/>hoc nomen, Persona, significare substantiam, 
+      <lb ed="#C" n="10"/>ut dicit <name xml:id="Gi9qrR-f26616-Nd1e343" ref="#Augustine">August,</name> sed necessitate translatum esse 
+      <lb ed="#C" n="11"/>ad significandum hypostasim, quod 
+      manife<lb ed="#C" n="12" break="no"/>stat per differentiam inter nos &amp; Graecos. Ex 
+      <lb ed="#C" n="13"/>quo dicto solvitur, auctoritas <name xml:id="Gi9qrR-f26616-Nd1e353" ref="#Augustine">August.</name> quo 
+      <lb ed="#C" n="14"/>vult, quod Persona significet substantiam, &amp; 
+      <lb ed="#C" n="15"/>solvitur illa ratio, quod termini cadunt a 
+      sig<lb ed="#C" n="16" break="no"/>nificatione sua, si non semper, Persona, sub 
+      <lb ed="#C" n="17"/>stantiam significet: quia non propter hoc 
+      ca<lb ed="#C" n="18" break="no"/>dit Persona a sua significatione, sed 
+      transu<lb ed="#C" n="19" break="no"/>mitur ad significandum aliud. Secundo ibi: 
+      <lb ed="#C" n="20"/>Hic sensus, solvit ad rationes alias. Circa quod 
+      <lb ed="#C" n="21"/>tria facit, secundum quod tres rationes 
+      solvi<lb ed="#C" n="22" break="no"/>contra se adductas. Nam 1. solvit illam, quod 
+      <lb ed="#C" n="23"/>Persona significat essentiam: quia commune 
+      <lb ed="#C" n="24"/>est eis, quod est Persona cum non sit 
+      com<lb ed="#C" n="25" break="no"/>mune eis, nisi quod est essentia, quod non est 
+      <lb ed="#C" n="26"/>intelligendum hoc esse propter hoc, quod 
+      <lb ed="#C" n="27"/>Persona significet idem, quod essentia; sed 
+      <lb ed="#C" n="28"/>quia non possent esse plures Personae Divinae, 
+      <lb ed="#C" n="29"/>nisi una natura Divina communis esset in 
+      plu<lb ed="#C" n="30" break="no"/>ribus. 2. solvit ad auctoritatem <name xml:id="Gi9qrR-f26616-Nd1e393" ref="#Augustine">August.</name> quo 
+      <lb ed="#C" n="31"/>dicit non dici tres Personas ex eadem 
+      essen<lb ed="#C" n="32" break="no"/>tia: quia non est ibi aliud Persona, aliud 
+      es<lb ed="#C" n="33" break="no"/>sentia, quod sic intelligendum est: quia 
+      Per<lb ed="#C" n="34" break="no"/>sona ad essentiam comparata non habet distin 
+      <lb ed="#C" n="35"/>ctionem realem ad ipsam; non tamen pronte 
+      <lb ed="#C" n="36"/>hoc idem significat Persona, quod essentia. 3. 
+      <lb ed="#C" n="37"/>solvit ad id, quod dicebatur, Personam sig. 
+      <!--512.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="38"/>nificare essentiam: quia respondetur ad quid 
+      <lb ed="#C" n="39"/>Nam quid licet quaerat de substantia, non 
+      sen<lb ed="#C" n="40" break="no"/>per quaerit de substantia, quae est essentia; sed  
+      <lb ed="#C" n="41"/>aliquando quaerit de substantia, quae est hypo 
+      <lb ed="#C" n="42"/>stalis, &amp; sic quaerit in proposito; cum dicitur  
+      <lb ed="#C" n="43"/>quid tres. Secunda ibi: Ideoque: Tertia ibi:  
+      <lb ed="#C" n="44"/>Ad hoc. Circa quod duo facit: quia 1. facit 
+      <lb ed="#C" n="45"/>quod dictum est. 2. quia dixerat in Divinis 
+      <lb ed="#C" n="46"/>esse tres res, ostendit non esse ibi tres res, 
+      ab<lb ed="#C" n="47" break="no"/>solute loquendo, ut tres essentias, sed telati 
+      <lb ed="#C" n="48"/>ve: quia tres hypostases. Secunda ibi: Non 
+      te<lb ed="#C" n="49" break="no"/>autem. Deinde cum dicit: Nunc autem, ostendit, 
+      <lb ed="#C" n="50"/>quomodo potest addi alietas ad Personam? Et  
+      <lb ed="#C" n="51"/>duo facit, secundum quod dupliciter ei 
+      alie<lb ed="#C" n="52" break="no"/>tatem addit: quia 1. quaerit quid significat: 
+      <lb ed="#C" n="53"/>cum dicitur: Alia est Persona Patris, alia Filij 
+      <lb ed="#C" n="54"/>ostendens, quod Persona ibi stat pro hyposta 
+      <lb ed="#C" n="55"/>si. 2. cum dicit: Deinde quaeritur, ostendit 
+      pro<lb ed="#C" n="56" break="no"/>quo stat Persona, cum dicitur alius est Pater 
+      <lb ed="#C" n="57"/>in Persona a Filio, vel alius personaliter. Et 
+      <lb ed="#C" n="58"/>tria facit: quia 1. dicit Personam ibi stare 
+      <lb ed="#C" n="59"/>pro proprietate congruentius, licet posset 
+      sta<lb ed="#C" n="60" break="no"/>re pro hypostasi. 2. ostendit, quod sicut in 
+      <lb ed="#C" n="61"/>hac locutione Persona potest stare pro 
+      hypo<lb ed="#C" n="62" break="no"/>stasi, congruentius tamen stat pro 
+      proprieta<lb ed="#C" n="63" break="no"/>te, sic in praemissis dicendo; tres Personae, vel 
+      <lb ed="#C" n="64"/>dicendo; Alia est Persona Patris, alia Fij; pote 
+      <lb ed="#C" n="65"/>rit stare Persona pro proprietate; 
+      congruen<lb ed="#C" n="66" break="no"/>tius tamen stat pro hypostasi. 3. concludit, 
+      <lb ed="#C" n="67"/>quod Persona potest accipi tripliciter, pro 
+      es<lb ed="#C" n="68" break="no"/>sentia, pro hypostasi, &amp; pro proprietate. 
+      Se<lb ed="#C" n="69" break="no"/>cunda ibi: Hoc etiam modo. Tertia ibi: Ex 
+      praedi<lb ed="#C" n="70" break="no"/>ctis. Circa quod duo facit: quia 1. ostendit 
+      <lb ed="#C" n="71"/>Personam tripliciter sumi. 2. confirmat hoc 
+      <lb ed="#C" n="72"/>per auctoritates Sanctorum. Secunda ibi: Quod 
+      <lb ed="#C" n="73"/>autem. In quo terminatur sententia lectionis, 
+      <lb ed="#C" n="74"/>&amp; distinctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

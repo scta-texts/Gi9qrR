@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="816"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g12930"><!-- l1-d44q2 -->
+            <head xml:id="Gi9qrR-g12930-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-g12930-d1e111">
+               <lb ed="#C" n="17"/>QVAESTIO II. 
+      <lb ed="#C" n="18"/>De potentia Dei circa praeterita. 
+    </p>
+            <div xml:id="Gi9qrR-g12930-Dd1e118">
+               <head xml:id="Gi9qrR-g12930-Hd1e120">Articulus 1</head>
+               <p xml:id="Gi9qrR-g12930-d1e123">
+                  <lb ed="#C" n="19"/>ARTICVLVS VNICVS 
+        <lb ed="#C" n="20"/>Vtrum Deus possit quidquid potuit. 
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e130">
+                  <lb ed="#C" n="21"/>DEinde quaeritur: utrum Deus 
+        pos<lb ed="#C" n="22" break="no"/>Sit quidquid potuit? Et videtur,  
+        <lb ed="#C" n="23"/>quod non: quia quod nullomodo est 
+        pos<lb ed="#C" n="24" break="no"/>sibile, no subfacet alicui potentiae: sed 
+        a<lb ed="#C" n="25" break="no"/>liqua aliquando fuerunt possibilia, quae 
+        <lb ed="#C" n="26"/>modo non sunt, sicut omnia praeterita: 
+        <lb ed="#C" n="27"/>ergo aliqua aliquando Deus 
+        po<lb ed="#C" n="28" break="no"/>tuit: eo quod possibilia erant, quae 
+        <lb ed="#C" n="29"/>nunc non potest, quia possibilia non 
+        <lb ed="#C" n="30"/>sunt.
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e154">
+        Praeterea: secundum Magistrum 
+        <lb ed="#C" n="31"/>in littera, Deus potuit incarnari, &amp; nunc 
+        <lb ed="#C" n="32"/>non potest, sed posse incarnari est 
+        ali<lb ed="#C" n="33" break="no"/>quod posse: non ergo quidquid Deus 
+        <lb ed="#C" n="34"/>potuit modo potest.
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e165">
+        Praeterea: si 
+        dica<lb ed="#C" n="35" break="no"/>tur, sicut dicit Magister in littera, videli 
+        <lb ed="#C" n="36"/>cet, quod licet Deus non possit incarna 
+        <lb ed="#C" n="37"/>ri, vel resurgere, sicut olim potuit: 
+        po<lb ed="#C" n="38" break="no"/>test tamen modo incarnatus esse &amp; 
+        re<lb ed="#C" n="39" break="no"/>surrexisse, in quo eiusdem rei potentia 
+        <lb ed="#C" n="40"/>monstratur. Contra: caecus, iqui prius 
+        <lb ed="#C" n="41"/>vidit, nunc videre non potest: potest 
+        <lb ed="#C" n="42"/>tamen vidisse: si ergo hoc sufficit ad 
+        <lb ed="#C" n="43"/>hoc, quod aliquid quidquid potuit, pos 
+        <lb ed="#C" n="44"/>ut, dicere possumus, quod caecus 
+        quid<lb ed="#C" n="45" break="no"/>quid potuit, potest, quod nullus 
+        con<lb ed="#C" n="46" break="no"/>cederet.
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e195">
+        Praeterea: si Deus aliquem prae¬ 
+        <!--841.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="47"/>destinavit, non potest ipsum non 
+        prae<lb ed="#C" n="48" break="no"/>destinare, non ergo potest quidquid 
+        <lb ed="#C" n="49"/>potuit. 
+        <lb ed="#C" n="50"/>In contrarium est Magister in 
+        litte<lb ed="#C" n="51" break="no"/>ra qui ait: quod Deus semper potest 
+        <lb ed="#C" n="52"/>quae aliquando potuit.
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e215">
+        Praeterea:: qui  
+        <lb ed="#C" n="53"/>non potest quod aliquando potuit, ejus 
+        <lb ed="#C" n="54"/>potentia diminuta est: sed Divinam 
+        po<lb ed="#C" n="55" break="no"/>tentiam diminutam esse impossibile est, 
+        <lb ed="#C" n="56"/>ergo quidquid Deus aliquando potuit, 
+        <lb ed="#C" n="57"/>modo potest. 
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e228">
+                  <lb ed="#C" n="58"/>RESOLVTIO 
+        <lb ed="#C" n="59"/>Deus potest 
+        <lb ed="#C" n="60"/>quidquid potuit, si referatur ad 
+        <lb ed="#C" n="61"/>Divinum posse: non vero fi, quidquid,  
+        <lb ed="#C" n="62"/>referatur ad res possibiles: quia ali¬ 
+        <lb ed="#C" n="63"/>quid potuit antea esse possibi. 
+        <lb ed="#C" n="64"/>le, quod nunc possibile 
+        <lb ed="#C" n="65"/>non est. 
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e248">
+                  <lb ed="#C" n="66"/>REspond. dicendum, quod in Deo 
+        <lb ed="#C" n="67"/>non est potentia nisi activa: 
+        poten<lb ed="#C" n="68" break="no"/>tia autem activa &amp; modus agendi se: 
+        <lb ed="#C" n="69"/>quuntur modum essedi: quia quidquid agit,  
+        <lb ed="#C" n="70"/>agit prout est in actu, &amp; ut habet esse ¬ 
+        <lb ed="#C" n="71"/>um igitur Divinum esse contineat 
+        <lb ed="#C" n="72"/>omne esse, ut potest haberi a Dionysio 
+        <lb ed="#C" n="73"/>5. de Div. nom. in sua potentia 
+        reser<lb ed="#C" n="74" break="no"/>vatur omne posse. Quia igitur 
+        respon<lb ed="#C" n="75" break="no"/>det potentia, activa ipsi esse, &amp; alicui 
+        <lb ed="#C" n="76"/>competit tale posse, ut ei competit 
+        <lb ed="#C" n="77"/>esse: quaerere utrum Deus possit 
+        quid<lb ed="#C" n="78" break="no"/>quid potuit? Est quaerere: utrum Deus 
+        <lb ed="#C" n="79"/>scit quidquid scivit? Et quia Deus 
+        sem<lb ed="#C" n="80" break="no"/>per stat in se ipso, &amp; a suo esse variari 
+        <lb ed="#C" n="81"/>non potest, ut dicitur 9. de Div. nom. 
+        <lb ed="#C" n="82"/>omne posse, quod prius habuit, nunc 
+        <lb ed="#C" n="83"/>habet: sicut omne esse nunc ei 
+        conve<lb ed="#C" n="84" break="no"/>nit, quod prius congruebat. Proprie 
+        <lb ed="#C" n="85"/>ergo &amp; per se loquendo potest 
+        quid<lb ed="#C" n="86" break="no"/>quid potuit, sicut est quidquid  
+        <lb ed="#C" n="87"/>fuit,  
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e298">
+                  <lb ed="#C" n="88"/>Tamen, ut magis appareat veritas 
+        <lb ed="#C" n="89"/>quaestionis, notandum, quod, ut poteste 
+        <lb ed="#C" n="90"/>patere ex dictis, Deus non dicitur 
+        om<lb ed="#C" n="91" break="no"/>nipotens: quia possit quidquid 
+        enuntia<lb ed="#C" n="92" break="no"/>ri potest, sed quia potest quidquid habet 
+        <lb ed="#C" n="93"/>rationem entis. Nam, ut habitum est, 
+        ex<lb ed="#C" n="94" break="no"/>hoc dicitur habere omne posse: quia 
+        <lb ed="#C" n="95"/>suum esse continet omne esse. Sic enim 
+        <lb ed="#C" n="96"/>videmus in rebus creatis, ut quia 
+        quaeli<lb ed="#C" n="97" break="no"/>bet creatura est contracta ad genus vel 
+        <lb ed="#C" n="98"/>ad speciem, &amp; est hoc vel illud, 
+        quod<lb ed="#C" n="99" break="no"/>libet creatum habet limitatam 
+        poten<lb ed="#C" n="100" break="no"/>tiam, &amp; potest hoc vel illud: ut quia ca¬ 
+        <!--842.xml-->
+        <pb ed="#C" n="817"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>sidum est determinatum tale esse, potest 
+        <lb ed="#C" n="2"/>in effectum tali esse correspondentem, 
+        <lb ed="#C" n="3"/>quia potest calefacere: &amp; frigidum potest 
+        <lb ed="#C" n="4"/>infrigidare. Si ergo est aliquod esse non 
+        <lb ed="#C" n="5"/>contractum: ad genus &amp; ad speciem, 
+        <lb ed="#C" n="6"/>quod proprie non sit hoc vel illud, sed  
+        <lb ed="#C" n="7"/>sit omne esse, tunc in illo esse, quod est 
+        <lb ed="#C" n="8"/>omne esse, reservabitur potentia, in 
+        qua<lb ed="#C" n="9" break="no"/>sit omne posse. Sed cum tale omne posse 
+        <lb ed="#C" n="10"/>sumatur per respectum ad omne esse, 
+        <lb ed="#C" n="11"/>quod effugit omnem: rationem entis, &amp; 
+        <lb ed="#C" n="12"/>nullo modo esse potest, nullo modo 
+        ta<lb ed="#C" n="13" break="no"/>li potentiae potest esse subjectum: &amp; quia 
+        <lb ed="#C" n="14"/>verificatio contradictoriarum non 
+        po<lb ed="#C" n="15" break="no"/>test habere rationem entis, quaecumque 
+        <lb ed="#C" n="16"/>contradictionem implicant, &amp; si 
+        enun<lb ed="#C" n="17" break="no"/>tiari possunt, Divinae tamen potentiae 
+        <lb ed="#C" n="18"/>non subiacent: nec tamen propter hoc 
+        <lb ed="#C" n="19"/>Deus debet dicinon omnipotens: na 
+        <lb ed="#C" n="20"/>omnipotens dicit omne posse. Si ergo 
+        <lb ed="#C" n="21"/>sit aliquod, quod sub posse non 
+        conti<lb ed="#C" n="22" break="no"/>neatur, hanc propositionem universalem 
+        <lb ed="#C" n="23"/>quae est omne posse, non falsificat. Nam 
+        <lb ed="#C" n="24"/>sicut omnis homo falsificari non potest. 
+        <lb ed="#C" n="25"/>nisi pro his de quibus homo praediea: 
+        <lb ed="#C" n="26"/>tur: unde deridendus esset ille, qui 
+        vo<lb ed="#C" n="27" break="no"/>lens falsificare, hanc, Omuis, homo currit 
+        <lb ed="#C" n="28"/>1. instaret in alino. Sic omne posse falsifi¬ 
+        <lb ed="#C" n="29"/>eari non potest, nisi per ea quae 
+        poten<lb ed="#C" n="30" break="no"/>tiae subiacent: propter quod deridendi 
+        <lb ed="#C" n="31"/>sunt illi, qui arguere volunt Deum non 
+        <lb ed="#C" n="32"/>esse omnipotentem, dando instantiam 
+        <lb ed="#C" n="33"/>in his, quae potentiae subjacere non pos 
+        <lb ed="#C" n="34"/>sunt. Est ergo Deus omnipotens, licet  
+        <lb ed="#C" n="35"/>contradictoria, verificari, non possint: 
+        <lb ed="#C" n="36"/>unde non potest facere, quod aliquid 
+        si<lb ed="#C" n="37" break="no"/>mul sit album &amp; non album, vel quod  
+        <lb ed="#C" n="38"/>praeteritum non sit praeteritum. Nam 
+        <lb ed="#C" n="39"/>praeteritum non esse praeteritum 
+        contra<lb ed="#C" n="40" break="no"/>dictionem implicat, unde &amp; Philosophus 6. 
+        <lb ed="#C" n="41"/>Ethi. commendat Agathen. dicentem 
+        <lb ed="#C" n="42"/>Deus hoc solo privatur, infecta facere, quae 
+        <lb ed="#C" n="43"/>facta sunt, non enim potest Deus faceret 
+        <lb ed="#C" n="44"/>quod facta sint infecta, sive sint non 
+        fa<lb ed="#C" n="45" break="no"/>cta: non quod impotentia sit ex parte) 
+        <lb ed="#C" n="46"/>Dei, sed quia talia potentiae non 
+        subla<lb ed="#C" n="47" break="no"/>cent: propter quod, si proprie loqui vo 
+        <lb ed="#C" n="48"/>lumus, non debemus dicere, quod Deus 
+        <lb ed="#C" n="49"/>ista non possit facere, sed quod talia non 
+        <lb ed="#C" n="50"/>possint fieri. Cum igitur sut impossibile 
+        <lb ed="#C" n="51"/>praeteritum non esse praeteritum, &amp; om 
+        <lb ed="#C" n="52"/>ne quod fieri potest sit futurum: eo 
+        <lb ed="#C" n="53"/>quod quod fit, nondum est, nihil 
+        prae<lb ed="#C" n="54" break="no"/>teritum, secundum quod hujusmodi, fic 
+        <lb ed="#C" n="55"/>ri potest. Dicere ergo praeterita. fieri 
+        pos<lb ed="#C" n="56" break="no"/>sibilia, secundum quod huiusmodi, est 
+        <!--842.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>dicere praeterita non esse praeterita. Ideo 
+        <lb ed="#C" n="58"/>dicimus Deum non posse incarnari, cum  
+        <lb ed="#C" n="59"/>incarnatus fuerit, &amp; non posse 
+        resurge<lb ed="#C" n="60" break="no"/>re cum resurrexerit. Cum igitur, 
+        quaeri<lb ed="#C" n="61" break="no"/>tur: utrum Deus possit quidquid 
+        po<lb ed="#C" n="62" break="no"/>tuit? Si hoc quod dico, quidquid, 
+        refera<lb ed="#C" n="63" break="no"/>tur, ad Divinum posse, potest quidquid  
+        <lb ed="#C" n="64"/>potuit: sicut est quidquid fuit, &amp; 
+        conve<lb ed="#C" n="65" break="no"/>nit ei omne posse quod prius 
+        compete<lb ed="#C" n="66" break="no"/>bat: sicut &amp; omne esse quod antea 
+        con<lb ed="#C" n="67" break="no"/>gruebat. Si vero hoc quod dico, 
+        quid<lb ed="#C" n="68" break="no"/>quid, referatur ad res possibiles, sic Deus 
+        <lb ed="#C" n="69"/>non potest quidquid potuit: quia aliquid 
+        <lb ed="#C" n="70"/>fuit antea possibile, quod nunc non est 
+        <lb ed="#C" n="71"/>possibile. Verum quia in hac 
+        locutio<lb ed="#C" n="72" break="no"/>ne, utrum Deus possit quidquid potuit: 
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e496">
+                  <lb ed="#C" n="73"/>Ex vi sermonis y quidquid magis 
+        respi<lb ed="#C" n="74" break="no"/>cit ipsum posse, quam ea quae sunt 
+        subje<lb ed="#C" n="75" break="no"/>cta potentiae, cum Divinum posse in 
+        <lb ed="#C" n="76"/>nullo diminutum sit, dicere debemus, 
+        <lb ed="#C" n="77"/>quod Deus potest quidquid potuit. 
+        Ali<lb ed="#C" n="78" break="no"/>qua tamen antea fuerunt subjecta 
+        Divi<lb ed="#C" n="79" break="no"/>nae potentiae, sive fieri potuerunt, cum 
+        <lb ed="#C" n="80"/>fuerunt futura, quae tamen nunc subfecta 
+        <lb ed="#C" n="81"/>non sunt, &amp; fieri non possunt: quia sunt,  
+        <lb ed="#C" n="82"/>praeterita. Et hoc est, quod Magister ait: 
+        <lb ed="#C" n="83"/>Fateamur igitur Deum semper posse quidquid  
+        <lb ed="#C" n="84"/>semel potuit. Idest, habere illam potetiam, 
+        <lb ed="#C" n="85"/>quam semel habuit. Sed no semper 
+        <lb ed="#C" n="86"/>posse omne illud, quod aliquade potuit,  
+        <lb ed="#C" n="87"/>sive non omne id, quod aliquando fuit  
+        <lb ed="#C" n="88"/>subjectum Divinae potentiae, nunc ficri 
+        <lb ed="#C" n="89"/>potest. 
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e536">
+                  <lb ed="#C" n="90"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="91"/>quod non rarguitur Deum non posse 
+        <lb ed="#C" n="92"/>quidquid potuit, vel quod in aliquo 
+        Di<lb ed="#C" n="93" break="no"/>vinum posse sit diminutum: sed solum 
+        <lb ed="#C" n="94"/>quod aliqua fuerunt possibilia, quae nunc 
+        <lb ed="#C" n="95"/>non sunt possibilia, quod concedimus 
+        <lb ed="#C" n="96"/>Et per hoc patet solutio ad secundum: 
+        <lb ed="#C" n="97"/>quia non arguitur Divinum posse esse 
+        <lb ed="#C" n="98"/>in aliquo diminutum, sed quod aliquid 
+        <lb ed="#C" n="99"/>fuit antea possibile, quod nunc, quia est 
+        <lb ed="#C" n="100"/>praeteritum, possibile non existit.
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e562">
+        Ad 3. 
+        <lb ed="#C" n="101"/>dicendum, quod Deus quidquid potuit 
+        <lb ed="#C" n="102"/>potest, &amp; potest nunc resurrexisse; licet  
+        <lb ed="#C" n="103"/>non possit resurgere: quia illa eadem 
+        <lb ed="#C" n="104"/>potentia, per quam resurrexit, est in 
+        <lb ed="#C" n="105"/>ipso non diminuta. Sed caecus non 
+        po<lb ed="#C" n="106" break="no"/>test vidisse, quod sit in eo illa potentia, 
+        <lb ed="#C" n="107"/>ut virtus visiva, per quam videbat: &amp; ideo 
+        <lb ed="#C" n="108"/>non potest caecus quidquid potuit: quia 
+        <lb ed="#C" n="109"/>eius potentia est diminuta: potest tamen 
+        <lb ed="#C" n="110"/>Deus quidquid potuit: quia ejus 
+        poten<lb ed="#C" n="111" break="no"/>tia non est immutata: unde non est simi 
+        <lb ed="#C" n="112"/>le quod dicebatur simile. Sed si volumus 
+        <!--843.xml-->
+        <pb ed="#C" n="818"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>reducere exemplum tactum ad simile 
+        <lb ed="#C" n="2"/>dicamus: quod sicut aliquis per virtute 
+        <lb ed="#C" n="3"/>visivam determinatur ad aliqua objecta, 
+        <lb ed="#C" n="4"/>ut ad visibilia: sic Deus per suam 
+        poten<lb ed="#C" n="5" break="no"/>tiam se extendit ad omnia possibilia. Si 
+        <lb ed="#C" n="6"/>esset possibile quod obiectum visus 
+        fie<lb ed="#C" n="7" break="no"/>ret obiectum auditus: ut quod aliquis 
+        <lb ed="#C" n="8"/>color desinens esse visibile, fieret sonus, 
+        <lb ed="#C" n="9"/>&amp; esset audibile: dicere possemus, quod  
+        <lb ed="#C" n="10"/>habens virtutem visivam, potest 
+        quid<lb ed="#C" n="11" break="no"/>quid potuit, &amp; tamen prius potuit 
+        vide<lb ed="#C" n="12" break="no"/>re colorem illum, quem iam factum 
+        so<lb ed="#C" n="13" break="no"/>num videre non potest. Sed hoc non 
+        <lb ed="#C" n="14"/>arguit diminutionem potentiae visive, 
+        <lb ed="#C" n="15"/>sed variationem visibilis: sic Deus potest 
+        <lb ed="#C" n="16"/>quidquid potuit: sed si aliquid fuit prius 
+        <lb ed="#C" n="17"/>possibile, &amp; propter ejus praeteritionem 
+        <lb ed="#C" n="18"/>desinit esse possibile, non arguitur quod  
+        <lb ed="#C" n="19"/>sit diminuta Divina potentia, sed quod  
+        <lb ed="#C" n="20"/>ipsa res sit immutata.
+      </p>
+               <p xml:id="Gi9qrR-g12930-d1e640">
+        Ad 4. dicendum, 
+        <lb ed="#C" n="21"/>quod praedestinare dicit actum Divinum, 
+        <lb ed="#C" n="22"/>qui non transit in praeteritum: tamen si 
+        <lb ed="#C" n="23"/>Deus aliquem praedestinavit, nec potest 
+        <lb ed="#C" n="24"/>ipsum non praedestinare, non propter  
+        <lb ed="#C" n="25"/>praeteritionem actus, sed propter Divi¬ 
+        <!--843.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="26"/>nam immutabilitatem: sed in hoc non 
+        <lb ed="#C" n="27"/>arguitur impotentia Divina vel 
+        diminu<lb ed="#C" n="28" break="no"/>tio potentiae ejus; sed magis 
+        comproba<lb ed="#C" n="29" break="no"/>tur ejus summa potentia: quia mutari 
+        <lb ed="#C" n="30"/>non potest. Argumenta autem in 
+        con<lb ed="#C" n="31" break="no"/>trarium arguunt Deum posse quidquid 
+        <lb ed="#C" n="32"/>potuit, quia ejus potentia non est 
+        dimi<lb ed="#C" n="33" break="no"/>nuta, &amp; hoc concedimus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

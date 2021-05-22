@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="575"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f49262"><!-- l1-d31prooem -->
+            <head xml:id="Gi9qrR-f49262-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f49262-d1e111">
+      <!--600.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="29"/>DISTINCTIO XXXJ. 
+      <lb ed="#C" n="30"/>QVOMODO DICATVR FILIVS AEQUALIS PATRI, AN SE
+      <lb ed="#C" n="31" break="no"/>cundum substantiam, an secundum relationem? Ita &amp; similis?
+    </p>
+            <p xml:id="Gi9qrR-f49262-d1e124">
+      <!--600.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="32"/>RAETErea considerari. 
+      Post<lb ed="#C" n="33" break="no"/>quam determinavit Mag. 
+      <lb ed="#C" n="34"/>de proprijs Personarum, hic 
+      <lb ed="#C" n="35"/>determinat de appropria 
+      <lb ed="#C" n="36"/>tis. Et duo facit: quia 1 
+      <lb ed="#C" n="37"/>facit quod dictum est. 2. 
+      <lb ed="#C" n="38"/>ostendit quomodo 
+      secun<lb ed="#C" n="39" break="no"/>dum talia appropriata 
+      Per<lb ed="#C" n="40" break="no"/>sonae ad invicem comparantur. Secunda ibi: Hic 
+      <lb ed="#C" n="41"/>oritur quaestio. In principio 32. dist. Circa 1. duo 
+      <lb ed="#C" n="42"/>facit: quia 1. movet quasdam quaestiones circa 
+      <lb ed="#C" n="43"/>quaedam, secundum quae assumitur appropriatio 
+      <lb ed="#C" n="44"/>Personarum. 2. exequitur diversas appropriatio 
+      <lb ed="#C" n="45"/>nes Sanctorum Secunda ibi: Non est hoc 
+      praetermitten<lb ed="#C" n="46" break="no"/>dum. Appropriat autem <name xml:id="Gi9qrR-f49262-Nd1e163" ref="#Augustine">Aug.</name> aequalitatem Filio, 
+      <lb ed="#C" n="47"/>ad aequalitatem autem requititur similitudo. 
+      <lb ed="#C" n="48"/>Ideo antequam de appropriatis Personarum 
+      de<lb ed="#C" n="49" break="no"/>terminet, quaerit quaedam circa aequalitatem &amp; 
+      <lb ed="#C" n="50"/>similitudinem. Et duo facit: quia 1. movet 
+      quas<lb ed="#C" n="51" break="no"/>dam quaestiones circa aequalitatem. 2. dicit 
+      eo<lb ed="#C" n="52" break="no"/>dem modo sentiendum esse circa similitudinem. 
+      <lb ed="#C" n="53"/>Secunda ibi: Hoc idem. Circa 1. duo facit: quia 
+      <lb ed="#C" n="54"/>1. quaerit tria circa aequalitatem. 1. utrum 
+      aequa<lb ed="#C" n="55" break="no"/>litas in Divinis relative sumatur? 2. utrum talis 
+      <lb ed="#C" n="56"/>relatio accipiatur secundum substantiam, vel se 
+      <lb ed="#C" n="57"/>cundum relationem, hoc est quaerere quid 
+      respon<lb ed="#C" n="58" break="no"/>deat ei pro fundamento. 3. quaerit quid sit 
+      aequa<lb ed="#C" n="59" break="no"/>litas. 2. has quaestiones solvit ibi: Ad quod dicimus. 
+      <lb ed="#C" n="60"/>Et tria facit: quia 1. solvit primam ostendens, 
+      <lb ed="#C" n="61"/>quod aequale relationem importat. 2. solvit 
+      se<lb ed="#C" n="62" break="no"/>cundam dicens Filium aequalem Patri non ex eo, 
+      <lb ed="#C" n="63"/>quod ad Patrem refertur, sed quia habet unam 
+      <lb ed="#C" n="64"/>substantiam &amp; unam magnitudinem cum ipso. 
+      <lb ed="#C" n="65"/>3. tertiam dicit huiusmodi relationem non esse 
+      <lb ed="#C" n="66"/>secundum nomen tantum, sive secundum 
+      ratio<lb ed="#C" n="67" break="no"/>nem: unde concludit aequalitatem non esse 
+      rela<lb ed="#C" n="68" break="no"/>tionem, scilicet, realem; sed consistere in uni¬ 
+      <!--600.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="69"/>tate naturae. Secunda ibi, Est enim. Tertia ibi: Et  
+      <lb ed="#C" n="70"/>appellatio. Deinde cum dicit: Hic idem ostendit etiam 
+      <lb ed="#C" n="71"/>sic sentiendum esse de similitudine. Et duo 
+      <lb ed="#C" n="72"/>facit: quia 1. facit, quod dictum est. 2. 
+      commen<lb ed="#C" n="73" break="no"/>dat quosdam bene dicere ex eo quod secundum 
+      <lb ed="#C" n="74"/>eos aequalitas &amp; simisitudo in Divinis nihil 
+      po<lb ed="#C" n="75" break="no"/>nunt: sed solum removent. Secunda ibi: Vnde 
+      qui<lb ed="#C" n="76" break="no"/>busdam. Deinde cum dicit: Non est hic. Exequitur  
+      <lb ed="#C" n="77"/>diversas appropriationes Sanctorum. Et duo 
+      fa<lb ed="#C" n="78" break="no"/>cit: quia 1. exequitur appropriationem Hilarij. 
+      <lb ed="#C" n="79"/>2. <name xml:id="Gi9qrR-f49262-Nd1e242" ref="#Augustine">Aug.</name> ibi: Illud etiam. Circa 1, duo facit: quia 
+      <lb ed="#C" n="80"/>1. facit quod dictum est. 2. circa praetacta 
+      quas<lb ed="#C" n="81" break="no"/>dam distinctiones removet ibi: Non enim. Circa 
+      <lb ed="#C" n="82"/>1. tria facit: quia 1. ponit appropriationem 
+      Hi<lb ed="#C" n="83" break="no"/>larij, videlicet, quod aeternitas est in Patre, 
+      spe<lb ed="#C" n="84" break="no"/>cies in imagine, usus in munere. 2. quia 
+      obscu<lb ed="#C" n="85" break="no"/>re locutus est, adducit ad hoc expositionem 
+      <lb ed="#C" n="86"/>Aug. 3. concludit verba Hilarij esse tantae 
+      pro<lb ed="#C" n="87" break="no"/>funditatis, quod habi ta expositione <name xml:id="Gi9qrR-f49262-Nd1e262" ref="#Augustine">Aug.</name> 
+      ad<lb ed="#C" n="88" break="no"/>huc ad ea vix intelligere sensus attingit. 
+      Secun<lb ed="#C" n="89" break="no"/>da ibi: Quae tantae difficultatis. Tertia ibi: Ecce 
+      ha<lb ed="#C" n="90" break="no"/>bes. Deinde cum dicit: Non enim. Removet 
+      quae<lb ed="#C" n="91" break="no"/>dam dubia circa praedicta, &amp; tria facit: quia ne 
+      <lb ed="#C" n="92"/>aliquis crederet Hilarium assignavisse propria 
+      <lb ed="#C" n="93"/>Personarum, cum dixit aeternitatem esse in Patre, 
+      <lb ed="#C" n="94"/>speciem in imagine, usum in munere: dicit quod 
+      <lb ed="#C" n="95"/>per haec verba non designantur propria 
+      Perso<lb ed="#C" n="96" break="no"/>narum sed appropriata, nisi quia nomine 
+      aeter<lb ed="#C" n="97" break="no"/>nitatis innascibilitas denotatur. 2. quia dictum 
+      <lb ed="#C" n="98"/>fuerat, quod imago coaequatur ei, cuius est 
+      ima<lb ed="#C" n="99" break="no"/>go, non e converso, ostedit quomodo hoc 
+      intel<lb ed="#C" n="100" break="no"/>ligendum est: nam in causis, &amp; causatis non 
+      re<lb ed="#C" n="101" break="no"/>cipitur conversio. Si igitur Filius est a Patre non 
+      <lb ed="#C" n="102"/>e converso, Filius aequatur Patri non e 
+      conver<lb ed="#C" n="103" break="no"/>so. 3. quia dixerat per praedicta verba non 
+      de<lb ed="#C" n="104" break="no"/>signari propria Personarum, ostendit quomodo 
+      <lb ed="#C" n="105"/>hoc intelligendum est. Nam nomine Patris, lima¬ 
+      <!--601.xml-->
+      <pb ed="#C" n="576"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>ginis, &amp; muneris propria designantur; non 
+      ta<lb ed="#C" n="2" break="no"/>men nomine aeternitatis, species, &amp; usus. 
+      Secun<lb ed="#C" n="3" break="no"/>dam ibi: Imago si perfecte. Tertia ibi: Propria igitur  
+      <lb ed="#C" n="4"/>Tunc sequitur illa pars: Illud etiam. In qua ponit 
+      <lb ed="#C" n="5"/>appropriationem <name xml:id="Gi9qrR-f49262-Nd1e322" ref="#Augustine">Aug.</name> Et duo facit: quia 1. 
+      nar<lb ed="#C" n="6" break="no"/>rat appropriationem eius, videlicet, quod in 
+      Pa<lb ed="#C" n="7" break="no"/>tre est unitas, in Filio aequalitas, in Spiritu 
+      San<lb ed="#C" n="8" break="no"/>cto unitatis aequalitatisque concordia: &amp; quod 
+      <lb ed="#C" n="9"/>omnia sunt unum propter Patre, aequalia 
+      prop<lb ed="#C" n="10" break="no"/>ter Filium, connexa propter Spiritum Sanctum 
+      <lb ed="#C" n="11"/>2. haec verba exponit ibi: Sed plurimos. Et tria 
+      ta<lb ed="#C" n="12" break="no"/>cit: quia 1. exponit quomodo unitas approprietur 
+      <lb ed="#C" n="13"/>Patri. 2. quomodo aequalitas Filio. 3. quomodo 
+      <!--601.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="14"/>concordia Spiritui Sancto. Secunda ibi: Nunc 
+      vi<lb ed="#C" n="15" break="no"/>deamus. Tertia ibi: Quod autem. Circa primum 
+      <lb ed="#C" n="16"/>tria facit: quia 1. ostendit quomodo unitas 
+      ap<lb ed="#C" n="17" break="no"/>proprietur Patri. 2. ostendit quomodo Pater 
+      <lb ed="#C" n="18"/>&amp; Filius sunt unum, &amp; quomodo non: dicens 
+      <lb ed="#C" n="19"/>eos esse unum in essentia, distinctos in Personis. 
+      <lb ed="#C" n="20"/>3. ex hoc allidit errorem Arrij, qui separavit 
+      <lb ed="#C" n="21"/>substantias, &amp; Sabellij, qui confudit Personas. 
+      <lb ed="#C" n="22"/>Secunda ibi: Hic dici. Tertia ibi: In quo Arriana. 
+      <lb ed="#C" n="23"/>Aliae partes patent, &amp; si qua declaranda sunt 
+      in<lb ed="#C" n="24" break="no"/>quirendo patebunt. Vnde in hoc terminetur 
+      sen<lb ed="#C" n="25" break="no"/>tentia lectionis, &amp; distinctionis,
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

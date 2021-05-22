@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e35692"><!-- l1-d6q1 -->
+            <head xml:id="Gi9qrR-e35692-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e35692-d1e111">
+      <!--170.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="45"/>DISTIINCTIO VJ. 
+      <lb ed="#C" n="46"/>VTRVMPATERVOLVNTATE GENVIT FILIVM, AN 
+      <lb ed="#C" n="47"/>necessitate: &amp; an volens vel nolens sit Deus? 
+    </p>
+            <p xml:id="Gi9qrR-e35692-d1e124">
+      <!--170.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="48"/>PRAEterea, &amp;c. Hic Mag. 
+      <lb ed="#C" n="49"/>movet quaestiones de gene 
+      <lb ed="#C" n="50"/>rationis modo &amp; tria facit. 
+      <lb ed="#C" n="51"/>1. movet quaestionem, &amp; 
+      de<lb ed="#C" n="52" break="no"/>terminat eam ad alteram 
+      <lb ed="#C" n="53"/>partem. 2. obijcit contra 
+      <lb ed="#C" n="54"/>determinata. 3. dat 
+      intel<lb ed="#C" n="55" break="no"/>ligentiam dictorum. 
+      Se<lb ed="#C" n="56" break="no"/>cunda ibi, Sed contra. Tertia ibi, Praedicta. Circa 
+      pri<lb ed="#C" n="57" break="no"/>ma: quatuor facit, quia 1. movet quaestionem utrum 
+      <lb ed="#C" n="58"/>Pater genueritFilium voluntate, vel necessitat: 
+      <lb ed="#C" n="59"/>2. salvit negando utramque partem per <name xml:id="Gi9qrR-e35692-Nd1e156" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="60"/>quia non voluntate; cum voluntas sapientiam, 
+      <lb ed="#C" n="61"/>non praecedat, quae appropriatur Filio, nec 
+      nece<lb ed="#C" n="62" break="no"/>ssitate, quia in Deo non est necessitas. 3. 
+      confir<lb ed="#C" n="63" break="no"/>mat dictum suum per responsionem cuiusdam 
+      <lb ed="#C" n="64"/>Catholici factam cuidam haeretico, qui cum 
+      <lb ed="#C" n="65"/>quaesivisset: utrum? Pater genuisset Filium 
+      vo<lb ed="#C" n="66" break="no"/>luntate, vel necessitate? Respondit quaerendo: 
+      <lb ed="#C" n="67"/>utrum Pater sit Deus voluntate, vel 
+      necessita<lb ed="#C" n="68" break="no"/>tes Vt si diceretvoluntate, concluderet Patrem 
+      <lb ed="#C" n="69"/>non esse Deum natura: si necessitate, tunc 
+      Pa<lb ed="#C" n="70" break="no"/>ter miser esset. 4. concludit intentum, quod 
+      si<lb ed="#C" n="71" break="no"/>cut Deus non est Deus, nec voluntate, nec ne¬ 
+      <!--170.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="72"/>cessitate: ita nec genuit Filium voluntate, nec 
+      <lb ed="#C" n="73"/>necessitate. Secunda ibi: De hoc Orosius. Tertia ibi:  
+      <lb ed="#C" n="74"/>Dicamus ergo. Quarta ibi: Ex praedictis. 
+    </p>
+            <p xml:id="Gi9qrR-e35692-d1e197">
+               <lb ed="#C" n="75"/>Tunc sequitur illa pars. Sed contra. In qua 
+      <lb ed="#C" n="76"/>obiicit contra determinata: &amp; duo facit, quia 
+      <lb ed="#C" n="77"/>1. obiicit dicens: quod natura &amp; voluntas 
+      di<lb ed="#C" n="78" break="no"/>cunt in Deo eandem rem, igitur si concedimus 
+      <lb ed="#C" n="79"/>Deum genuisse Filium natura, debemus 
+      con<lb ed="#C" n="80" break="no"/>cedere, quod genuit eum voluntate. 2. ibi: Hoc  
+      <lb ed="#C" n="81"/>autem. Solvit instantiam dicens, quod si natura, 
+      <lb ed="#C" n="82"/>&amp; voluntas sunt idem in Deo; dicunt tamen 
+      di<lb ed="#C" n="83" break="no"/>versas habitudines: propter quod aliqua 
+      conce<lb ed="#C" n="84" break="no"/>dimus de natura, quae non concedimus de 
+      vo<lb ed="#C" n="85" break="no"/>luntate. Tunc sequitur illa pars, Praedicta. In 
+      <lb ed="#C" n="86"/>qua dat intelligentiam dictorum. Et tria facit, 
+      <lb ed="#C" n="87"/>quia 1. reperit verba praetacta: utrum Deus 
+      vo<lb ed="#C" n="88" break="no"/>luntate, aut necessitate genuerit Filium? 2. ibi:  
+      <lb ed="#C" n="89"/>Ex tali. Dat intelligentiam quaestionis per 
+      distin<lb ed="#C" n="90" break="no"/>ctionem dicendo, quod voluntate accedente, 
+      <lb ed="#C" n="91"/>vel praecedente non genuit; concomitante 
+      ge<lb ed="#C" n="92" break="no"/>nuit. Tertia ibi: Dicamus. Concludit veritatem 
+      <lb ed="#C" n="93"/>quaestionis manifestam: in quo terminatur, 
+      sen<lb ed="#C" n="94" break="no"/>tentia distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

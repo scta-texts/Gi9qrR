@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e22089"><!-- l1-d3p2prooem -->
+            <head xml:id="Gi9qrR-e22089-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e22089-d1e111">
+      <!--120.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="11"/>DISTTINCTICITIO MJ. 
+      <lb ed="#C" n="12"/>PARS SECVNDAn 
+      <lb ed="#C" n="13"/>DE IMAGINE TRIN ITATIS.
+    </p>
+            <p xml:id="Gi9qrR-e22089-d1e124">
+      <!--120.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="14"/>NVNC vero, &amp;c. Postquam osten¬ 
+      <lb ed="#C" n="15"/>sa est Trinitas Personarum  
+      <lb ed="#C" n="16"/>sub modo confuso, &amp; per 
+      <lb ed="#C" n="17"/>vestigium hic in parte ista 
+      <lb ed="#C" n="18"/>declaratur Trinitas sub 
+      mo<lb ed="#C" n="19" break="no"/>do magis aperto, &amp; per 
+      ima<lb ed="#C" n="20" break="no"/>ginem. Et dividitur praesens 
+      <lb ed="#C" n="21"/>pars in partes duas, 
+      secun<lb ed="#C" n="22" break="no"/>dum quod dupliciter ponitur imago Trinitatis. 
+      <lb ed="#C" n="23"/>Secunda pars ibi, Potest, &amp; alio. Circa primum 
+      <lb ed="#C" n="24"/>duo facit: quia primo promittic intentionem 
+      <lb ed="#C" n="25"/>suam ostendens, quod imago Dei quaerenda est 
+      <lb ed="#C" n="26"/>in eo, quod melius est in homine. 2. talem 
+      ima<lb ed="#C" n="27" break="no"/>ginem investigat ibi, Ecce ergo. Circa quod duo 
+      <lb ed="#C" n="28"/>facit: quia 1. innuit partes imaginis, ut 
+      memo<lb ed="#C" n="29" break="no"/>riam, intelligentiam, &amp; amorem, sive volum 
+      <lb ed="#C" n="30"/>tatem. 2. ostendit, quomodo in talibus est ima 
+      <lb ed="#C" n="31"/>go Dei, ibi: Hec ergo tria. Circa quod duo facit: 
+      <lb ed="#C" n="32"/>quia 1. innuit similitudinem inter imaginem 
+      <lb ed="#C" n="33"/>creata, &amp; Trinitatem. 2. ponit dissimilitudinem: 
+      <lb ed="#C" n="34"/>ibi: Verumtamen. Circa primum duo facit: quia 1. 
+      <lb ed="#C" n="35"/>innuit similitudinem. 2. probat quod dixerat: 
+      <lb ed="#C" n="36"/>ibi: Totam quae. Circa primum duo facit, secundum 
+      <lb ed="#C" n="37"/>quod dupliciter repraesentatur Trinitas in 
+      no<lb ed="#C" n="38" break="no"/>bis. 1. ex unitate absoluti, &amp; pluralitate 
+      relativo<lb ed="#C" n="39" break="no"/>rum: nam sicut est ibi una Essentia, &amp; tres 
+      Per<lb ed="#C" n="40" break="no"/>sonae relative dicte, ita in nobis est una anima 
+      <lb ed="#C" n="41"/>&amp; tres potentiae relative dictae. 2. quia illae 
+      Per<lb ed="#C" n="42" break="no"/>sonae sunt aequales, ostendit quod in illis 
+      Perso<lb ed="#C" n="43" break="no"/>nis quaedam habet esse aequalitas. 2. Ibi: AEqualia, 
+      <lb ed="#C" n="44"/>partes patent. Tunc sequitur illa pars: Tota, in 
+      <lb ed="#C" n="45"/>qua declarat, quod promisserat. Et duo facit, 
+      <lb ed="#C" n="46"/>secundum quod duo declarat: quia 1. declarat 
+      <lb ed="#C" n="47"/>aequalitatem. 2. distinctionem, &amp; unitatem ibi:  
+      <lb ed="#C" n="48"/>Hic attendendum. Circa primum tria facit: quia 1. 
+      <lb ed="#C" n="49"/>ostendit, quod memoria capiat omnia tria, 
+      scili<lb ed="#C" n="50" break="no"/>cet, intelligentiam, voluntatem, &amp; se ipsam. 2. 
+      <lb ed="#C" n="51"/>ostendit hoc de intelligentia. 3. de voluntate. 
+      <lb ed="#C" n="52"/>2. ibi: Similiter. 3. ibi: Toluntas. Illa pars: voluntas 
+      <lb ed="#C" n="53"/>dividitur in parte, quatuor: quia 1. facit, quod  
+      <lb ed="#C" n="54"/>dictum est. 2. concludit imaginem Trinitatis 
+      <lb ed="#C" n="55"/>esse in mente. 3. exponit quid pro mente 
+      accipi<lb ed="#C" n="56" break="no"/>tur. 4. ostendit qualiter memoria sit 
+      accipien<lb ed="#C" n="57" break="no"/>da. 2. ibi: Ecce illius. 3. ibi: Mens autem. 4. ibi: Illud 
+      <lb ed="#C" n="58"/>etiam, &amp; patent. Deinde cum dicit Hoc 
+      attenden<lb ed="#C" n="59" break="no"/>dum. Declarat imginem Trinitatis esse in 
+      ani<lb ed="#C" n="60" break="no"/>ma secundum unitatem, &amp; distinctionem. Et 
+      <lb ed="#C" n="61"/>tria facit: quia 1. ostendit ista tria, memoriam, 
+      <lb ed="#C" n="62"/>intelligentiam, &amp; voluntatem esse unam 
+      Essen<lb ed="#C" n="63" break="no"/>tiam, unam mentem, sicut tres Personae una Es¬ 
+      <!--120.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="64"/>sentia sunt. 2. ostendit ea refferri ad se invicem? 
+      <lb ed="#C" n="65"/>&amp; distingui, sicut tres Personae se habent. 3. 
+      <lb ed="#C" n="66"/>mani festat, cuiusmodi unitas est istarum 
+      poten<lb ed="#C" n="67" break="no"/>tiarum dicens: quod sunt unum: quia 
+      substan<lb ed="#C" n="68" break="no"/>tialiter, non accidentaliter existunt in uno. 2. 
+      <lb ed="#C" n="69"/>ibi: Et haec tria. 3. ibi: Sed iam. Deinde cum dicit  
+      <lb ed="#C" n="70"/>Verumtamen. Ponit dissimilitudines inter 
+      imagi<lb ed="#C" n="71" break="no"/>nem in nobis, &amp; Trinitatem. Et tria facit: quia 
+      <lb ed="#C" n="72"/>1. dicit esse dissimilitudinem inter ea. 2. assignat 
+      <lb ed="#C" n="73"/>primam dissimilitudinem: quia ista tria sunt in 
+      <lb ed="#C" n="74"/>homine, non sunt ipse homo; sed Trinitas in 
+      <lb ed="#C" n="75"/>Deo est ipse Deus. 3. assignat secundam 
+      dissimi<lb ed="#C" n="76" break="no"/>litudinem: quia Trinitas in homine est in unae 
+      <lb ed="#C" n="77"/>persona: Trinitas in Deo est in tribus Personis. 
+      <lb ed="#C" n="78"/>2. ibi: Quod breviter. 3. ibi: Rus sus. Et illa pars, 
+      rur<lb ed="#C" n="79" break="no"/>sus: dividitur in tres partes: quia 1. ponitur ista 
+      <lb ed="#C" n="80"/>2. dissimilitudo. 2. concluditur exiguam 
+      conve<lb ed="#C" n="81" break="no"/>nientiam esse inter imaginem in nobis, &amp; ipsam 
+      <lb ed="#C" n="82"/>Trinitatem. 3. ostendit respectu quorum 
+      obie<lb ed="#C" n="83" break="no"/>ctorum accipitur huiusmodi Trinitas: quia 
+      res<lb ed="#C" n="84" break="no"/>pectu Divinorum. 2. ibi: Dicimus. 3. ibi: Sciendum. 
+    </p>
+            <p xml:id="Gi9qrR-e22089-d1e289">
+               <lb ed="#C" n="85"/>Tunc sequitur illa pars: Potest etiam, in qua 
+      <lb ed="#C" n="86"/>postquam determinavit de illa imagine, 
+      quae<lb ed="#C" n="87" break="no"/>ponitur in memoria, intelligentia, &amp; 
+      volunta<lb ed="#C" n="88" break="no"/>te, determinat de imagine, quae dessignatur  
+      <lb ed="#C" n="89"/>per mentem, notitiam, &amp; amorem. Et duo 
+      fa<lb ed="#C" n="90" break="no"/>cit: quia 1. declarat istam imaginem in nobis. 2. 
+      <lb ed="#C" n="91"/>ostendit quomodo per huiusmodi 
+      agnitio<lb ed="#C" n="92" break="no"/>nem surgit anima ad cognitionem 
+      Trinita<lb ed="#C" n="93" break="no"/>tis. 2. ibi: Mens itaque. Circa 1. duo facit: quiae 
+      <lb ed="#C" n="94"/>primo ostendit huiusmodi imaginem esse in 
+      <lb ed="#C" n="95"/>nobis, &amp; declarat quod ibi sumitur pro mente: 
+      <lb ed="#C" n="96"/>quia illud quod excellentius est in anima. 2. 
+      os<lb ed="#C" n="97" break="no"/>tendit quomodo per dicta repraesentatur 
+      Trini<lb ed="#C" n="98" break="no"/>tas. 2. ibi: Hoc autem. Et illa pars dividitur in 
+      par<lb ed="#C" n="99" break="no"/>tes quatuor: quia 1. ostendit illa tria 
+      repraesen<lb ed="#C" n="100" break="no"/>tare Trinitatem: quia sunt distincta, &amp; unum. 
+      <lb ed="#C" n="101"/>2. ostendit hoc idem ratione originis. 3. 
+      ratio<lb ed="#C" n="102" break="no"/>ne aequalitatis. 4. ex eo, quod ista tria sibi insunte 
+      <lb ed="#C" n="103"/>sicut tres Personae. Secunda ibi: Et est. 3. ibi: Nec 
+      <lb ed="#C" n="104"/>minor. 4. ibi: Sunt etiam. 
+    </p>
+            <p xml:id="Gi9qrR-e22089-d1e335">
+               <lb ed="#C" n="105"/>Tunc sequitur illa pars: Mens itaque. In qua 
+      <lb ed="#C" n="106"/>oscendit quomodo anima per praedicta surgit in 
+      <lb ed="#C" n="107"/>cognitionem Trinitatis: quia ibi simul cum 
+      Tri<lb ed="#C" n="108" break="no"/>nitate est unitas, &amp; cum unitate Trinitas: &amp; 
+      <lb ed="#C" n="109"/>quod non possunt esse plures dij. Et duo facit: 
+      <lb ed="#C" n="110"/>quia 1. facit, quod dictum est 2. ostendit 
+      per<lb ed="#C" n="111" break="no"/>auctoritates <name xml:id="Gi9qrR-e22089-Nd1e352" ref="#Augustine">Aug.</name> ea, quae dicta sunt de 
+      Trinita<lb ed="#C" n="112" break="no"/>te, vera esse. 2. ibi Qua propter. In qua 
+      termina<lb ed="#C" n="113" break="no"/>tur sententia lectionis, &amp; distinctionis
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="46"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e12140"><!-- l1-d1q3 -->
+            <head xml:id="Gi9qrR-e12140-Hd1e108">Quaestio 3</head>
+            <p xml:id="Gi9qrR-e12140-d1e111">
+               <lb ed="#C" n="39"/>QVaAESTIO II. 
+      <lb ed="#C" n="40"/>De fruentibus, &amp; utentibus.
+    </p>
+            <p xml:id="Gi9qrR-e12140-d1e118">
+               <lb ed="#C" n="41"/>POSTQUAM de utibilibus, &amp; fruibili 
+      <lb ed="#C" n="42"/>fruentibus, &amp; utentibus. Et primo de 
+      frue<lb ed="#C" n="43" break="no"/>tibus, post modum de utentibus 
+      inquire<lb ed="#C" n="44" break="no"/>mus. 
+    </p>
+            <div xml:id="Gi9qrR-e12140-Dd1e129">
+               <head xml:id="Gi9qrR-e12140-Hd1e131">Articulus 1</head>
+               <p xml:id="Gi9qrR-e12140-d1e134">
+                  <lb ed="#C" n="45"/>ARTICVLUS I. 
+        <lb ed="#C" n="46"/>Vtrum Deus fruatur ? 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e141">
+                  <lb ed="#C" n="47"/>Tvidetur, quod Deus non fruatur:  
+        <lb ed="#C" n="48"/>quia frui dicit delectationem; sed  
+        <lb ed="#C" n="49"/>lelectatio dicit motum, &amp; generationem: 
+        <lb ed="#C" n="50"/>ut probatur in 7. Ethic. in Deo autem non 
+        <lb ed="#C" n="51"/>bus quaesivimus, restat quaerere deD 
+        <!--83.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="52"/>ponimus motum: eago &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e161">
+        Praeterea: 
+        se<lb ed="#C" n="53" break="no"/>cundum Magistrum, si Deus frueretur 
+        no<lb ed="#C" n="54" break="no"/>bis, egeret nobis, sed non eget aliquo, 
+        er<lb ed="#C" n="55" break="no"/>go Deus non fruitur.  
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e170">
+                  <lb ed="#C" n="56"/>In contrarium est: quia dicitur 12. 
+        Me<lb ed="#C" n="57" break="no"/>taphys. quod intelligere est voluptuosum, 
+        <lb ed="#C" n="58"/>propter comprehesionem intelligibilis ab 
+        <lb ed="#C" n="59"/>intellectu, &amp; unionem ad ipsum: unde &amp; ibi  
+        <lb ed="#C" n="60"/>dem concluditur, quod intelligere Primi est 
+        <lb ed="#C" n="61"/>summe voluptuosum: quia intelligibili 
+        <lb ed="#C" n="62"/>maximo, ut sibi ipsi maxime unitur: sed  
+        <lb ed="#C" n="63"/>in maxima voluptuositate consistit fruitio,  
+        <lb ed="#C" n="64"/>ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e193">
+                  <lb ed="#C" n="65"/>VIterius videtur, quod inanimata fruam 
+        <lb ed="#C" n="66"/>tur: nam fruitio est quietatio appetitus: 
+        <lb ed="#C" n="67"/>cum igitur naturalia adepto fine sit eo¬ 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e202">
+                  <lb ed="#C" n="68"/>rum appetitus quietatus, ergo fruuntur 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e207">
+                  <lb ed="#C" n="69"/>In contrarium est: quia frui est rerum 
+        <lb ed="#C" n="70"/>ordinabilium ad beatitudinem, iuxta illudi 
+        <lb ed="#C" n="71"/>Aug. de Doctr. Christ. Truimur rebus, quae 
+        <lb ed="#C" n="72"/>nos Beatos faciunt, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e218">
+                  <lb ed="#C" n="73"/>Vlterius videtur, quod fruantur bruta 
+        <lb ed="#C" n="74"/>secundum <name xml:id="Gi9qrR-e12140-Nd1e224" ref="#Augustine">August.</name> S3. quaest. 0. praedicta 
+        <lb ed="#C" n="75"/>Frui quidem cibo, &amp; qualibet corporali voluptate 
+        <lb ed="#C" n="76"/>non adeo absurde estimantur &amp; bestiae. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e232">
+                  <lb ed="#C" n="77"/>In contrarium est: quia secundum 
+        eun<lb ed="#C" n="78" break="no"/>dem 10. de Trin. Omnis qui fruitur, 
+        uti<lb ed="#C" n="79" break="no"/>tur, sed irrationabilia non utuntur; ut 
+        di<lb ed="#C" n="80" break="no"/>citur 83. quaest. q. dicta, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e243">
+                  <lb ed="#C" n="81"/>VIterius videtur quod fruantur 
+        pecca<lb ed="#C" n="82" break="no"/>tores: quia secundum <name xml:id="Gi9qrR-e12140-Nd1e249" ref="#Augustine">Aug.</name> frui utendis 
+        <lb ed="#C" n="83"/>est peccatum, &amp; uti fruendis, cum ergo 
+        <lb ed="#C" n="84"/>contingat peccatores peccare secundum 
+        <lb ed="#C" n="85"/>dicta genera peccatorum, ergo peccatores 
+        <lb ed="#C" n="86"/>fruentur.  
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e263">
+                  <lb ed="#C" n="87"/>In contrarium est: quia frui dicit 
+        foeli<lb ed="#C" n="88" break="no"/>citatem, vel ordinationem ad ipsam, sed  
+        <lb ed="#C" n="89"/>peccatores non sunt foelices, nec ad 
+        foeli<lb ed="#C" n="90" break="no"/>citatem se ordinant, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e274">
+                  <lb ed="#C" n="91"/>Vlterius videtur, quod iusti in via non 
+        <lb ed="#C" n="92"/>ffuantur: nam secundum <name xml:id="Gi9qrR-e12140-Nd1e280" ref="#Augustine">Aug.</name> 10. de Trin. 
+        <lb ed="#C" n="93"/>Erui est uti cum gaudio, non adhuc spei, sed iam 
+        <lb ed="#C" n="94"/>rei. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e288">
+                  <lb ed="#C" n="95"/>In contrarium est: quia frui est amore 
+        <lb ed="#C" n="96"/>inhaerere alicui propter se, sed hoc faciunt 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e295">
+                  <lb ed="#C" n="97"/>boni viatores: quia inhaerent Deo 
+        prop<lb ed="#C" n="98" break="no"/>ter se, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e302">
+                  <lb ed="#C" n="99"/>RESOLVTIO. 
+        <lb ed="#C" n="100"/>Deus fruitur plene, perfecte, &amp; per se primo: 
+        <lb ed="#C" n="101"/>Beati proprie perfecte, &amp; per se: Sancti Viatores 
+        <lb ed="#C" n="102"/>&amp; proprie, non perfecte: peccatores &amp; 
+        <lb ed="#C" n="103"/>per se: 
+        <lb ed="#C" n="104"/>bruta neque proprie, neque perfecte.
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e318">
+                  <lb ed="#C" n="105"/>REspondeo dicendum, quod secundum 
+        <lb ed="#C" n="106"/>Aug. in lib. Confes. sicut pondus in 
+        <!--84.xml-->
+        <pb ed="#C" n="47"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>corporibus, sic est amor in spiritibus: un 
+        <lb ed="#C" n="2"/>de ipse dicebat: Amor meus pondus meum: eo 
+        <lb ed="#C" n="3"/>feror, quocumque feror. Nam sicut videmus 
+        <lb ed="#C" n="4"/>corpora per sua pondera ad locum suum, 
+        <lb ed="#C" n="5"/>tendere, &amp; ibi quiescere; sic &amp; Spiritus 
+        <lb ed="#C" n="6"/>per amorem in finem suum tendunt, &amp; 
+        <lb ed="#C" n="7"/>ibi quiescunt: &amp; ideo possumus loqui de 
+        <lb ed="#C" n="8"/>quiete Spirituum per amorem, sicut 
+        lo<lb ed="#C" n="9" break="no"/>quimur de quiete corporum per pondera. 
+        <lb ed="#C" n="10"/>Videmus autem aliquod corpus 
+        ponde<lb ed="#C" n="11" break="no"/>rosum quiescere proprie, perfecte, &amp; 
+        pri<lb ed="#C" n="12" break="no"/>mo, sicut ipsa terra, quae immobiliter 
+        <lb ed="#C" n="13"/>collocata est in loco suo. Aliqua autem 
+        <lb ed="#C" n="14"/>quiescunt: quia in terra sunt, sicut 
+        cor<lb ed="#C" n="15" break="no"/>pora mixta, ubi dominatur terra: &amp; 
+        ta<lb ed="#C" n="16" break="no"/>lia non quiescunt primo: quia quies 
+        eo<lb ed="#C" n="17" break="no"/>rum est in eo quod innituntur 
+        corpori<lb ed="#C" n="18" break="no"/>actualiter immobili, ut terrae: igitur terra 
+        <lb ed="#C" n="19"/>quiescit primo: mixta vero quia sunt in 
+        <lb ed="#C" n="20"/>terra, non quiescunt primo: quiescunt 
+        ta<lb ed="#C" n="21" break="no"/>men perfecte, si perfecte adhaerent 
+        im<lb ed="#C" n="22" break="no"/>t mobili actualiter: quiescunt proprie, quia 
+        <lb ed="#C" n="23"/>non moventur, sicut adhaerentia. 
+        Aliquan<lb ed="#C" n="24" break="no"/>do corpus grave non quiescit perfecte, ut  
+        <lb ed="#C" n="25"/>si non perfecte adhaereat immobili: 
+        ali<lb ed="#C" n="26" break="no"/>quando non quiescit proprie, ut quia 
+        mo<lb ed="#C" n="27" break="no"/>vetur per accidens, ut cum adhaeret 
+        mo<lb ed="#C" n="28" break="no"/>bili, ut homo in navi existens, cum per se 
+        <lb ed="#C" n="29"/>non moveatur, sequitur quod per se quies  
+        <lb ed="#C" n="30"/>cat: &amp; quia movetur per accidens, per 
+        ac<lb ed="#C" n="31" break="no"/>cidens non quiescit. Oravia ergo 
+        adhaere<lb ed="#C" n="32" break="no"/>tia mobilibus non quiescunt proprie: 
+        ad<lb ed="#C" n="33" break="no"/>haerentia immobilibus imperfecte, &amp; 
+        si<lb ed="#C" n="34" break="no"/>quiescant proprie, non quiescunt plene, 
+        <lb ed="#C" n="35"/>Adhaerentia perfecte, &amp; si quiescunt 
+        pro<lb ed="#C" n="36" break="no"/>prie, &amp; plene, &amp; per se, non quiescunt 
+        pri<lb ed="#C" n="37" break="no"/>mo: quia non quiescunt propter se, sed  
+        <lb ed="#C" n="38"/>quia adhaerent alij. Immobile autem, cui  
+        <lb ed="#C" n="39"/>inhaerentia alia quiescunt, quiescit primo 
+        <lb ed="#C" n="40"/>per se, proprie, &amp; perfecte. Et ad simili 
+        <lb ed="#C" n="41"/>tudinem corporum gravium quadruplici 
+        <lb ed="#C" n="42"/>ter sic acceptorum sunt quatuor modi 
+        spi<lb ed="#C" n="43" break="no"/>rituum: quia quidam Spiritus est 
+        Divi<lb ed="#C" n="44" break="no"/>nus, quidam sunt Spiritus Beatorum, 
+        qui<lb ed="#C" n="45" break="no"/>dam sunt Spiritus Viatorum vere, quidam 
+        <lb ed="#C" n="46"/>sunt spiritus peccatorum, &amp; pecorum 
+        <lb ed="#C" n="47"/>Spiritus Divinus est illud bonum 
+        immo<lb ed="#C" n="48" break="no"/>bile, cui Spiritus innitentes quiescunt, &amp; 
+        <lb ed="#C" n="49"/>ipse quiescit primo: quia non per aliud, 
+        <lb ed="#C" n="50"/>sed propter se ipsum: quiescit per se: quia 
+        <lb ed="#C" n="51"/>in se habet unde quiescat, ut bonitatem 
+        <lb ed="#C" n="52"/>propriam: quiescit perfecte: quia 
+        perfe<lb ed="#C" n="53" break="no"/>cte continetur sub Primo: nam 
+        secun<lb ed="#C" n="54" break="no"/>dum Phil. 2. Metaph. quod est primo tale 
+        <lb ed="#C" n="55"/>est maxime tale: quiescit proprie: quia 
+        <lb ed="#C" n="56"/>non movetur per accidens: quia ut pro¬ 
+        <!--84.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>batur 8. Phys. nec movetur per se, nec 
+        <lb ed="#C" n="58"/>per accidens, nec ab intra: propter quod  
+        <lb ed="#C" n="59"/>bene dictum est de Deo. 7. Ethic. Quod  
+        <lb ed="#C" n="60"/>alicuius natura simplex sit, semper eius actio ea 
+        <lb ed="#C" n="61"/>dem delectabilissima erit: unde ibi 
+        conclu<lb ed="#C" n="62" break="no"/>ditur, Propter quod Deus semper una, &amp; sim. 
+        <lb ed="#C" n="63"/>lici gaudet delectatione. Beati enim sibi 
+        in<lb ed="#C" n="64" break="no"/>nitentes quiescunt per se: quia non 
+        mo<lb ed="#C" n="65" break="no"/>ventur per amorem in bonitatem 
+        excel<lb ed="#C" n="66" break="no"/>lentiorem: &amp; quiescunt perfecte: quia 
+        <lb ed="#C" n="67"/>secundum eorum proportionem perfecte 
+        <lb ed="#C" n="68"/>ei adhaerent: quiescunt proprie; quia non 
+        <lb ed="#C" n="69"/>adhaerent bono mobili. Sancti in via 
+        mi<lb ed="#C" n="70" break="no"/>nus de quiete participant; quia licet  
+        <lb ed="#C" n="71"/>quiescant per se: quia non tendunt in aliud 
+        <lb ed="#C" n="72"/>ponum finaliter, &amp; proprie: quia bonum, 
+        <lb ed="#C" n="73"/>in quod tendunt, est immobile: tamen 
+        <lb ed="#C" n="74"/>non quiescunt perfecte; quia perfecte 
+        ip<lb ed="#C" n="75" break="no"/>sum non possident. Peccatores autem, 
+        <lb ed="#C" n="76"/>&amp; bruta, quae eodem modo fruuntur, 
+        po<lb ed="#C" n="77" break="no"/>nentes finem suum in bono mobiii, nec 
+        <lb ed="#C" n="78"/>quiescunt perfecte: quia in mobili non 
+        <lb ed="#C" n="79"/>est perfecta quies: nec quiescunt proprie: 
+        <lb ed="#C" n="80"/>quia non adhaerent incommutabili 
+        bo<lb ed="#C" n="81" break="no"/>no. Et ideo improprie eis conceditur frui, 
+        <lb ed="#C" n="82"/>inquantum adhaerent bono, quod non 
+        <lb ed="#C" n="83"/>referunt in aliud bonum: &amp; quia fruitio 
+        <lb ed="#C" n="84"/>importat quietationem, ut patuit, post 
+        <lb ed="#C" n="85"/>fruitionem Divinam fruuntur Beati 
+        ple<lb ed="#C" n="86" break="no"/>ne &amp; proprie: boni Viatores proprie, 
+        <lb ed="#C" n="87"/>sed non plene: bruta, &amp; peccatores nec 
+        <lb ed="#C" n="88"/>proprie, nec plene. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e527">
+                  <lb ed="#C" n="89"/>Resp. ad arg. ad primum dicendum, 
+        <lb ed="#C" n="90"/>quod delectatio non est generatio, neque 
+        <lb ed="#C" n="91"/>motus: &amp; probatio ad hoc habita in 7. 
+        <lb ed="#C" n="92"/>Ethic. non est probatio Philosophi, sed a 
+        <lb ed="#C" n="93"/>Philos. improbata. Ad secundum 
+        dicen<lb ed="#C" n="94" break="no"/>dum, quod auctoritas Magistri non tenet, 
+        <lb ed="#C" n="95"/>nisi quando fruens, &amp; fruibile differunt. 
+        <lb ed="#C" n="96"/>per essentiam, quod non est reperire in 
+        <lb ed="#C" n="97"/>Deo respectu bonitatis suae, qua fruitur.  
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e549">
+                  <lb ed="#C" n="98"/>Ad illud de innanimatis dicendum, 
+        <lb ed="#C" n="99"/>quod ad fruitionem non requititur solum 
+        <lb ed="#C" n="100"/>quietatio, sed cognitio &amp; delectatio, ut  
+        <lb ed="#C" n="101"/>patuit, quae inanimatis non conveniunt: 
+        <lb ed="#C" n="102"/>omnes aliae rationes procedunt vijs suis, 
+        <lb ed="#C" n="103"/>&amp; solvuntur per dicta in principali 
+        solu<lb ed="#C" n="104" break="no"/>tione. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e12140-Dd1e568">
+               <head xml:id="Gi9qrR-e12140-Hd1e570">Articulus 2</head>
+               <p xml:id="Gi9qrR-e12140-d1e573">
+                  <lb ed="#C" n="105"/>ARTICVLVS II. 
+        <lb ed="#C" n="106"/>Vtrum Deus utatur aliquo 2.
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e580">
+                  <lb ed="#C" n="107"/>Idest utrum Deus referat aliquid in finem, vel ali¬ 
+        <lb ed="#C" n="108"/>cui inhaereat amore non propter se, 
+        <lb ed="#C" n="109"/>sed propter aliud. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e589">
+                  <lb ed="#C" n="110"/>Ltimo quaeritur de utentibus: &amp; 
+        vi<lb ed="#C" n="111" break="no"/>4. detur quod Deus non utatur aliquos 
+        <!--85.xml-->
+        <pb ed="#C" n="48"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Quia utimur his, per, quae ad Beatitudinem 
+        iuva<lb ed="#C" n="2" break="no"/>mur: ut dicitur in 1. de Dectr. Christ 
+        <lb ed="#C" n="3"/>sed Deus per nulla iuvatur, ergo &amp;c. 
+        Prae<lb ed="#C" n="4" break="no"/>terea: Vti est referre aliquid in finem: ut 
+        di<lb ed="#C" n="5" break="no"/>citur 10. de Trinit, sed referre videtur 
+        <lb ed="#C" n="6"/>importare discursum; Deus non discurrit 
+        <lb ed="#C" n="7"/>in intelligendo, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e618">
+                  <lb ed="#C" n="8"/>In contrarium est Magister in littera, 
+        <lb ed="#C" n="9"/>qui dicit, quod si Deus non uteretur, nec 
+        <lb ed="#C" n="10"/>frueretur nobis, non diligeret nos; sed nos 
+        <lb ed="#C" n="11"/>diligit, &amp; non fruitur, ergo utitur.  
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e630">
+                  <lb ed="#C" n="12"/>VIterius videtur quod Beati non 
+        utan<lb ed="#C" n="13" break="no"/>tur: quia per utibilia consequimur fine, 
+        <lb ed="#C" n="14"/>igitur se habent quasi via; &amp; finis se 
+        ha<lb ed="#C" n="15" break="no"/>bet quasi terminus; sed adepto termino 
+        <lb ed="#C" n="16"/>cessat via, ergo cum fruantur, non utun¬ E 
+        <lb ed="#C" n="17"/>tur.  
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e646">
+                  <lb ed="#C" n="18"/>In contrarium est: quia uti est 
+        assume<lb ed="#C" n="19" break="no"/>re aliquid in facultatem voluntatis, sed  
+        <lb ed="#C" n="20"/>maxime Beati hoc habebunt: quia 
+        secun<lb ed="#C" n="21" break="no"/>dum beneplacitum voluntatis membra, 
+        <lb ed="#C" n="22"/>&amp; potentiae animae eis obedient, ergo 
+        <lb ed="#C" n="23"/>utentur.  
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e662">
+                  <lb ed="#C" n="24"/>RESOLVTIO ARTICVLI. 
+        <lb ed="#C" n="25"/>Deus utitur omnibus propter bonitatem suam 
+        con<lb ed="#C" n="26" break="no"/>municandam; &amp; Viatores rebus utuntur propter 
+        <lb ed="#C" n="27"/>eam consequ ndam.
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e673">
+                  <lb ed="#C" n="28"/>REspondeo dicendum, quod uti est 
+        <lb ed="#C" n="29"/>Rassumere aliquid in facultatem 
+        vo<lb ed="#C" n="30" break="no"/>luntatis, &amp; hoc per relationem ad 
+        Boni<lb ed="#C" n="31" break="no"/>tatem Divinam, &amp; debite: quia si aliter 
+        <lb ed="#C" n="32"/>fieret non esset usus, sed abusus: ut vult 
+        <lb ed="#C" n="33"/>Aug. 83. quaest. q. 30. Assumere autem 
+        ali<lb ed="#C" n="34" break="no"/>quid propter bonitatem potest esse 
+        tripli<lb ed="#C" n="35" break="no"/>citer: vel propter Bonitatem Divinam 
+        <lb ed="#C" n="36"/>communicandam, vel propter eam 
+        con<lb ed="#C" n="37" break="no"/>sequendam, vel propter ipsam 
+        consecu<lb ed="#C" n="38" break="no"/>tam habendam, &amp; possidendam. Primo 
+        <lb ed="#C" n="39"/>modo utitur ipse Deus omnibus, quae 
+        <lb ed="#C" n="40"/>sunt propter Bonitatem suam, non 
+        con<lb ed="#C" n="41" break="no"/>sequendam: quia eam habet, sed 
+        tribue<lb ed="#C" n="42" break="no"/>dam; quia eam omnibus largitur. 
+        Secun<lb ed="#C" n="43" break="no"/>do modo utuntur Viatores: nam 
+        utun<lb ed="#C" n="44" break="no"/>tur rebus, ut Divinam Bonitatem 
+        con<lb ed="#C" n="45" break="no"/>sequantur. Et istam differentiam inter 
+        <lb ed="#C" n="46"/>usum Viatorum, &amp; usum Divinum 
+        tan<lb ed="#C" n="47" break="no"/>git Magister in littera dicens, Ille nostri 
+        <lb ed="#C" n="48"/>miseretur, ut se perfruamur, igitur utitur 
+        no<lb ed="#C" n="49" break="no"/>bis, nostri miserendo, ut nobis suam 
+        Bo<lb ed="#C" n="50" break="no"/>nitatem in fruitionem tribuat: &amp; postea 
+        <lb ed="#C" n="51"/>subdit, Nos vero invicem nostri miseremur, ut 
+        <lb ed="#C" n="52"/>illo fiuamur: &amp; ideo Viatores utuntur 
+        re<lb ed="#C" n="53" break="no"/>bus propter utilitatem propriam,, &amp; 
+        Bo<lb ed="#C" n="54" break="no"/>nitatem Divinam; Deus autem modo 
+        <!--85.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>contrario utitur nobis propter Fonitatem 
+        <lb ed="#C" n="56"/>propriam, &amp; utilitatem nostram. Vtendo 
+        <lb ed="#C" n="57"/>nobis Deus propter Bonitatem suam, 
+        tri<lb ed="#C" n="58" break="no"/>plex nobis confertur utilitas, sive 
+        boni<lb ed="#C" n="59" break="no"/>tas, ut Magister tangit. Primo quantum 
+        <lb ed="#C" n="60"/>ad bona naturae, &amp; quantum ad hoc 
+        di<lb ed="#C" n="61" break="no"/>cit: Quia bonus est, sumus. Secundo 
+        quan<lb ed="#C" n="62" break="no"/>tum ad opera misericordiae, &amp; quantum 
+        <lb ed="#C" n="63"/>ad hoc dicit: Nostri miseretur ut se 
+        perfrua<lb ed="#C" n="64" break="no"/>mur. Tertio quantum ad opera lustitiae, 
+        <lb ed="#C" n="65"/>&amp; quantum ad hoc subdit: Porro etiam 
+        <lb ed="#C" n="66"/>quia lustus est, non impune mali sumus, &amp; in 
+        <lb ed="#C" n="67"/>quantum non impune mali sumus, &amp; per 
+        <lb ed="#C" n="68"/>poenam retrahimur, bonitatem vitae 
+        con<lb ed="#C" n="69" break="no"/>sequimur. Propter bonitatem Dei 
+        possi<lb ed="#C" n="70" break="no"/>dendam, quod fuit tertio dictum, utuntur 
+        <lb ed="#C" n="71"/>Beati: nam licet ipsam Bonitatem 
+        Di<lb ed="#C" n="72" break="no"/>vinam habeant, vtuntur tamen rebus 
+        re<lb ed="#C" n="73" break="no"/>erendo eas in Divinam Bonitatem: nam 
+        <lb ed="#C" n="74"/>si res assumptas in facultatem voluntatis 
+        <lb ed="#C" n="75"/>ad Divinam Bonitatem non referrent, a 
+        <lb ed="#C" n="76"/>fruitione cessarent: &amp; ideo hoc quod 
+        di<lb ed="#C" n="77" break="no"/>co propter, saltem dicit causam sine qua 
+        <lb ed="#C" n="78"/>non: nam sine tali relatione rerum 
+        as<lb ed="#C" n="79" break="no"/>sumptarum in facultatem voluntatis in 
+        <lb ed="#C" n="80"/>fruitione durare non possent: quia non 
+        <lb ed="#C" n="81"/>vterentur rebus, sed abuterentur; &amp; 
+        frui<lb ed="#C" n="82" break="no"/>tio secum abusum non compatitur, 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e799">
+                  <lb ed="#C" n="83"/>Respond. ad arg. ad primum dicendum, 
+        <lb ed="#C" n="84"/>quod illud vti est Viatorum: unde bene 
+        <lb ed="#C" n="85"/>arguitur, quod non vtitur Deus, vt 
+        Via<lb ed="#C" n="86" break="no"/>tores; sed non quod nullo modo vtatur.  
+        <lb ed="#C" n="87"/>Ad secundum dicendum, quod sicut Deus 
+        <lb ed="#C" n="88"/>cognoscendo se, cognoscit omnia, &amp; sine 
+        <lb ed="#C" n="89"/>discursu:ita voledo bonitatem suam vult alia, 
+        <lb ed="#C" n="90"/>&amp; sine discursu: &amp; quod dicitur, referret 
+        <lb ed="#C" n="91"/>dicit discursum, non est verum de 
+        neces<lb ed="#C" n="92" break="no"/>sitate: quia simul aliquid potest ferri in 
+        <lb ed="#C" n="93"/>relatum, &amp; in finem. 
+      </p>
+               <p xml:id="Gi9qrR-e12140-d1e825">
+                  <lb ed="#C" n="94"/>Ad illud de Beatis dicendum, quod  
+        <lb ed="#C" n="95"/>adepto termino cessat via: quia esse in 
+        <lb ed="#C" n="96"/>termino non compatitur secum esse in 
+        <lb ed="#C" n="97"/>via; sed si compateretur, non esset 
+        ne<lb ed="#C" n="98" break="no"/>cesse cessare: &amp; ideo vsus istorum, quae 
+        <lb ed="#C" n="99"/>non compatiuntur secum fruitionem: &amp; 
+        <lb ed="#C" n="100"/>vsus malorum poenae, &amp; talium 
+        cessa<lb ed="#C" n="101" break="no"/>bit in Patria: non tamen vsus 
+        simplici<lb ed="#C" n="102" break="no"/>ter; sicut ponitur exemplum: quia 
+        li<lb ed="#C" n="103" break="no"/>cet accidentia sint via ad 
+        cognoscen<lb ed="#C" n="104" break="no"/>dam substantiam, quia conferunt mag¬ 
+        <lb ed="#C" n="105"/>nam partem ad cognoscendum quod 
+        <lb ed="#C" n="106"/>quid est: vt dicitur in 1. de Anim. 
+        <lb ed="#C" n="107"/>non tamen habita cognitione 
+        <lb ed="#C" n="108"/>substantiae cessat cognitio 
+        <lb ed="#C" n="109"/>accidentium, sed aug¬ 
+        <lb ed="#C" n="110"/>mentatur.
+      </p>  
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

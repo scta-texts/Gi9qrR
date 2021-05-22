@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="412"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f10410"><!-- l1-d21prooem -->
+            <head xml:id="Gi9qrR-f10410-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f10410-d1e111">
+      <!--449.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="63"/>DISTINCTIO XXI 
+      <lb ed="#C" n="64"/>QUAERITVR QVOMODO POSSET DICISOLVS PATERVE I. 
+      <lb ed="#C" n="65"/>solus Filius, vel solus Spiritus Sanctus, cum sint inseparabiles:
+    </p>
+            <p xml:id="Gi9qrR-f10410-d1e124">
+      <!--449.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="66"/>IC quaeritur &amp;c. Postquam de¬ 
+      <lb ed="#C" n="67"/>terminavit Mag. de 
+      aequa<lb ed="#C" n="68" break="no"/>litate Personarum, hic mo 
+      <lb ed="#C" n="69"/>vet quasdam quaestiones 
+      tra<lb ed="#C" n="70" break="no"/>hentes originem ex 
+      praedi<lb ed="#C" n="71" break="no"/>ctis. Dierat enim, quod  
+      <lb ed="#C" n="72"/>non est maior potentiae in 
+      <lb ed="#C" n="73"/>omnibus tribus Personis, 
+      <lb ed="#C" n="74"/>quam in una tantum: vel in una sola, &amp; quia 
+      <lb ed="#C" n="75"/>tantum &amp; solum exclusionem important, 
+      quae<lb ed="#C" n="76" break="no"/>rit quomodo dictiones exclusivae addantur 
+      Di<lb ed="#C" n="77" break="no"/>vinis nominibus. Et duo facit: quia 1. 
+      quae<lb ed="#C" n="78" break="no"/>rit: utrum possit addi termino personali in 
+      <lb ed="#C" n="79"/>se sumpto, ut dicatur solus Pater? 2. utrum 
+      <lb ed="#C" n="80"/>possit addi prout de eo praedicatur essentialis, 
+      <!--449.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="81"/>terminus? Secunda ibi: Poss hce quaeritur. Cir¬ 
+    </p>
+            <p xml:id="Gi9qrR-f10410-d1e170">
+               <lb ed="#C" n="82"/>ca primum duo facit: quia 1. ostendit, quod  
+      <lb ed="#C" n="83"/>non sit bene dictum, solus Pater: nam Pater 
+      <lb ed="#C" n="84"/>nunquam est solus: cum inseparabiliter 
+      ha<lb ed="#C" n="85" break="no"/>beat illud ameenum confortium Filij, &amp; 
+      Spi<lb ed="#C" n="86" break="no"/>ritus Sancti. 2. solvit, quod potest dici solus 
+      <lb ed="#C" n="87"/>Pater non ratione solitudinis; sed quia non est 
+      <lb ed="#C" n="88"/>ibi Pater nisi ipse. Sic etiam potest dici solus 
+      <lb ed="#C" n="89"/>Filius, &amp; solus Spiritus Sanctus. Secunda ibi:  
+      <lb ed="#C" n="90"/>Ad quod ita. Deinde cum dicit: Post hoc, 
+      quae<lb ed="#C" n="91" break="no"/>rit utrum, Solus, possit addi termino 
+      persona<lb ed="#C" n="92" break="no"/>li, ut de eo praedieatur terminus essentialis, 
+      <lb ed="#C" n="93"/>Et duo facit: quia 1. movet quaestionem: utrum 
+      <lb ed="#C" n="94"/>possit fieri talis additio ex parte sub ecti, ut  
+      <lb ed="#C" n="95"/>dicatur solus Pater est Deus: vel ex parte prae¬ 
+      <!--450.xml-->
+      <pb ed="#C" n="413"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>dicati, ut dic. tut Pater est Deus. 2. solvit ibi: Ad 
+      <lb ed="#C" n="2"/>quod dicimus. Circa quod duo facit: quia 1. sol  
+      <lb ed="#C" n="3"/>vit. 2. instat, ibi: Sed iterum quaeritur. Circa 
+      <lb ed="#C" n="4"/>primum tria facit: quia 1. solvit dicens: quod 
+      <lb ed="#C" n="5"/>respectu totius Trinitatis potest fieri talis ad 
+      <lb ed="#C" n="6"/>ditio, ut dicitur Pater, &amp; Filius, &amp; Spiritur 
+      <lb ed="#C" n="7"/>Sanctus sunt solus Deus, non autem respectu 
+      <lb ed="#C" n="8"/>unius Personae. 2. ostendit per <name xml:id="Gi9qrR-f10410-Nd1e226" ref="#Augustine">August,</name> quod 
+      <lb ed="#C" n="9"/>non potest fieri additio talis uni Personae; 
+      qua<lb ed="#C" n="10" break="no"/>tum ad partem subiecti, ut dicatur, solus 
+      Pa<lb ed="#C" n="11" break="no"/>ter est Deus. 3. per eundem <name xml:id="Gi9qrR-f10410-Nd1e236" ref="#Augustine">August.</name> declarat,  
+      <lb ed="#C" n="12"/>quod non potest hoc fieri ex parte praedicati, 
+      <lb ed="#C" n="13"/>ut dicatur Pater est solus Deus. Secunda ibi:  
+      <lb ed="#C" n="14"/>Sed videtur non debere. Tertia ibi: Ad quod hic in 
+      <lb ed="#C" n="15"/>parte. Deinde cum dicit: Sed iterum, instat 
+      con<lb ed="#C" n="16" break="no"/>tra determinata. Et tria facit: quia 1. instat 
+      <!--450.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="17"/>Dixerat enim, quod dicere possumus, 
+      Trini<lb ed="#C" n="18" break="no"/>tas est solus Deus. Contra: nunquam est solus 
+      <lb ed="#C" n="19"/>Deus, cum semper sit eum caterva beatorum 
+      spiri<lb ed="#C" n="20" break="no"/>tuu, &amp; sanctaru ammaru. 2. solvit, quod dicitur 
+      <lb ed="#C" n="21"/>solus Deus, non ratione solitudinis; sed quia ita 
+      <lb ed="#C" n="22"/>ipsa Trinitas est Deus, quod nulli alij a tribus 
+      <lb ed="#C" n="23"/>Personis competit esse Deum. Tertio ad 
+      de<lb ed="#C" n="24" break="no"/>clarationem dictorum addit, quod ante id, 
+      <lb ed="#C" n="25"/>quod convenit tribus Personis, inveniatur  
+      <lb ed="#C" n="26"/>deinde de una sola non excluduntur aliae: 
+      <lb ed="#C" n="27"/>unde cum dicitur de Filio, quod habet 
+      nomen<lb ed="#C" n="28" break="no"/>scriptum, quod nemo novit nisi ipse, non 
+      ex<lb ed="#C" n="29" break="no"/>cluditur inde Pater, &amp; Spiritus Sanctus. 
+      Se<lb ed="#C" n="30" break="no"/>cunda ibi: Ad quod <name xml:id="Gi9qrR-f10410-Nd1e284" ref="#Augustine">August.</name> Tertia ibi: 
+      Verum<lb ed="#C" n="31" break="no"/>tamen ut ait, in quo terminatur sententia 
+      le<lb ed="#C" n="32" break="no"/>ctionis, &amp; distinctionis, 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

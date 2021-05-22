@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="535"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f42722"><!-- l1-d28q2 -->
+            <head xml:id="Gi9qrR-f42722-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-f42722-d1e111">
+      <!--572.xml-->
+               <pb ed="#C" n="535"/>
+               <!-- should become 535 -->
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>QUAESTIO II. 
+      <lb ed="#C" n="2"/>De imagine. 
+    </p>
+            <p xml:id="Gi9qrR-f42722-d1e127">
+               <lb ed="#C" n="3"/>EIN DE quaeritur de imagine: &amp; 
+      <lb ed="#C" n="4"/>circa hoc quaeruntur tria. 1. quid  
+      <lb ed="#C" n="5"/>sit imago? 2. utrum imago in Divinis 
+      <lb ed="#C" n="6"/>dicatur essentialiter vel personaliter 
+      so<lb ed="#C" n="7" break="no"/>lum? 3. utrum imago dicta 
+      personali<lb ed="#C" n="8" break="no"/>ter conveniat soli Filio? 
+    </p>
+            <div xml:id="Gi9qrR-f42722-Dd1e143">
+               <head xml:id="Gi9qrR-f42722-Hd1e145">Articulus 1</head>
+               <p xml:id="Gi9qrR-f42722-d1e148">
+                  <lb ed="#C" n="9"/>ARTICVLUS I. 
+        <lb ed="#C" n="10"/>Vtrum diffinitio data ab Hilario de imagine 
+        <lb ed="#C" n="11"/>sit bona? 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e157">
+                  <lb ed="#C" n="12"/>AD primum sic proceditur: videtur,  
+        <lb ed="#C" n="13"/>quod diffinitio de imagine data 
+        <lb ed="#C" n="14"/>ab Hilario, videlicet, quod imago est 
+        <lb ed="#C" n="15"/>eius rei, ad quam imaginatur species 
+        <lb ed="#C" n="16"/>indifferens, sit incompetens: nam ib 
+        <lb ed="#C" n="17"/>male ponitur species: quia species 
+        <lb ed="#C" n="18"/>naturam rei dicit; imago autem non 
+        <lb ed="#C" n="19"/>solum attenditur secundum naturam, 
+        <lb ed="#C" n="20"/>sed etiam secundum exteriora: nam 
+        <lb ed="#C" n="21"/>quod repraesentat aliquid quantum ad 
+        <lb ed="#C" n="22"/>exteriora lineamenta, dicitur imago 
+        <lb ed="#C" n="23"/>eius: sicut idolum lapideum imago 
+        <lb ed="#C" n="24"/>Herculis.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e188">
+        Praeterea: species rei dicit 
+        <lb ed="#C" n="25"/>naturam, vel formam rei: sed ipsa for 
+        <lb ed="#C" n="26"/>ma non est imago; sed secundum eam 
+        <lb ed="#C" n="27"/>imago attenditur, ergo in diffinitione 
+        <lb ed="#C" n="28"/>imaginis non debuit poni in recto: quia 
+        <lb ed="#C" n="29"/>imago non est huiusmodi species; sed  
+        <lb ed="#C" n="30"/>attenditur secundum eam.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e204">
+        Praeterea: 
+        <lb ed="#C" n="31"/>videtur, quod male ponatur ibi 
+        indif<lb ed="#C" n="32" break="no"/>ferens: nam de ratione imaginis est 
+        <lb ed="#C" n="33"/>similitudo, sed de ratione 
+        similitudi<lb ed="#C" n="34" break="no"/>nis est differentia: cum similitudo sit 
+        <lb ed="#C" n="35"/>rerum differentium, ergo in 
+        diffinitio<lb ed="#C" n="36" break="no"/>ne imaginis debet poni differentia, non 
+        <lb ed="#C" n="37"/>indifferentia.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e223">
+        Praeterea: imago Dei 
+        in<lb ed="#C" n="38" break="no"/>venitur in creatura, sed creaturae ad 
+        <lb ed="#C" n="39"/>Deum non potest esse indifferentia: cum 
+        <lb ed="#C" n="40"/>inter ea sit infinita distantia, ergo 
+        ma<lb ed="#C" n="41" break="no"/>la est diffinitio data: cum nulla pars 
+        <lb ed="#C" n="42"/>diffinitionis debeat esse in minus 
+        <lb ed="#C" n="43"/>quam diffinitum, &amp; alicubi reperia¬ 
+        <!--572.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="44"/>tur imago, ubi non seperitur 
+        indif<lb ed="#C" n="45" break="no"/>ferentia. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e247">
+                  <lb ed="#C" n="46"/>In contrarium est auctoritasHilarij. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e252">
+                  <lb ed="#C" n="47"/>RESOLVTIO. 
+        <lb ed="#C" n="48"/>Hilarij diffinitio data de imagine, &amp; si quana 
+        <lb ed="#C" n="49"/>tum ad formam verborum aliquam habeat in¬ 
+        <lb ed="#C" n="50"/>compactionem, quantum ad veritatis 
+        <lb ed="#C" n="51"/>expressionem est bona descrip¬ 
+        <lb ed="#C" n="52"/>tio. Et etiam approba¬ 
+        <lb ed="#C" n="53"/>tur alia. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e270">
+                  <lb ed="#C" n="54"/>RREspond. dicendum, quod secun¬ 
+        <lb ed="#C" n="55"/>dum Phil. 6. Topic. imago est 
+        <lb ed="#C" n="56"/>cuius generatio est per imitationem 
+        <lb ed="#C" n="57"/>Vnde, &amp; nomen accepit: nam imago 
+        <lb ed="#C" n="58"/>quasi imitago dicitur. In omni autem 
+        <lb ed="#C" n="59"/>imitatione duo sunt considerandam, illud. 
+        <lb ed="#C" n="60"/>quod imitatur, &amp; id in quo est 
+        imita<lb ed="#C" n="61" break="no"/>tio: ideo si bene volumus videre quid 
+        <lb ed="#C" n="62"/>sit imago, oportet nos investigare quae 
+        <lb ed="#C" n="63"/>requiruntur ad esse imaginis quantum 
+        <lb ed="#C" n="64"/>ad id, quod imitatur, cui proprie 
+        no<lb ed="#C" n="65" break="no"/>men imaginis competit: &amp; quantum 
+        <lb ed="#C" n="66"/>ad id, in quo est imitatio, quod non 
+        <lb ed="#C" n="67"/>proprie imago dicitur: quia ei non 
+        <lb ed="#C" n="68"/>competit imitari, sed esse imitationis 
+        <lb ed="#C" n="69"/>rationem. Sunt autem haec duo 
+        distin<lb ed="#C" n="70" break="no"/>cta: nam id, quod imitatur aliquod,  
+        <lb ed="#C" n="71"/>est suppositum vel res naturae: id autem 
+        <lb ed="#C" n="72"/>in quo est imitatio, est forma aliqua 
+        <lb ed="#C" n="73"/>vel natura: unde possumus dicere qua 
+        <lb ed="#C" n="74"/>tuor esse requirenda ad imaginem, se  
+        <lb ed="#C" n="75"/>cundum quod de imagine videtur 
+        lo<lb ed="#C" n="76" break="no"/>qui Hilarius, quorum duo se tenent 
+        ex<lb ed="#C" n="77" break="no"/>parte formae vel naturae, secundum qua 
+        <lb ed="#C" n="78"/>attenditur imitatio. Alia duo se tenent 
+        <lb ed="#C" n="79"/>ex parte suppositi, cui competit 
+        imita<lb ed="#C" n="80" break="no"/>ri. Ex parte naturae requiruntur similis 
+        <lb ed="#C" n="81"/>tudo, &amp; aequalitas, quae duo sic se 
+        ha<lb ed="#C" n="82" break="no"/>bent, quod aequalitas includit 
+        similitu<lb ed="#C" n="83" break="no"/>dinem: nam quod est aequale alicui 
+        se<lb ed="#C" n="84" break="no"/>cundum aliquam formam, ut 
+        secun<lb ed="#C" n="85" break="no"/>dum albedinem, est ei simile secundum 
+        <lb ed="#C" n="86"/>formam illam; sed non convertitur. Et  
+        <lb ed="#C" n="87"/>quia aequalitas est de ratione imaginis, 
+        <lb ed="#C" n="88"/>quae includit similitudinem, dicit <name xml:id="Gi9qrR-f42722-Nd1e348" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="89"/>t3. qq. 0. 52. Omnis imago est similis, non 
+        <lb ed="#C" n="90"/>autem omne quod simile est, etiam imago 
+        pro<lb ed="#C" n="91" break="no"/>prie. Ex parte autem suppositi, sive 
+        ex<lb ed="#C" n="92" break="no"/>parte eius, quod imitatur, quod 
+        pro<lb ed="#C" n="93" break="no"/>prie imago dicitur, etiam duo sunt con 
+        <lb ed="#C" n="94"/>uderanda, relatio, &amp; imitatio: nam 
+        <!--573.xml-->
+        <pb ed="#C" n="548"/>
+                  <!--should be 548-->
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>imago refertur ad id, cuius est imago: 
+        <lb ed="#C" n="2"/>quia unhil absurdius quam imaginem 
+        <lb ed="#C" n="3"/>ad se dici, ut dicitur 7. de Trin. cap. 
+        <lb ed="#C" n="4"/>1. Et imitatur ipsum; aliter enim non 
+        <lb ed="#C" n="5"/>esset imago: haec enim duo se habent 
+        <lb ed="#C" n="6"/>secundum quemdam ordinem: nam 
+        <lb ed="#C" n="7"/>relatio in imitatione includitur: nam 
+        <lb ed="#C" n="8"/>quidquid imitatur aliquid, refertur ad 
+        <lb ed="#C" n="9"/>illud; sed non convertitur. Nam licet 
+        <lb ed="#C" n="10"/>Pater referatur ad Filium, &amp; e 
+        conver<lb ed="#C" n="11" break="no"/>so; imitatur tamen Patrem Filius, non 
+        <lb ed="#C" n="12"/>e converso. Vnde 7. de Trin. cap. ult  
+        <lb ed="#C" n="13"/>scribitur: Si imago perfecte implet illud 
+        <lb ed="#C" n="14"/>cuius est imago, ipsa coaequatur ei, non illud 
+        <lb ed="#C" n="15"/>imagini. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e406">
+                  <lb ed="#C" n="16"/>Haec enim quatuor in praedicta 
+        dif<lb ed="#C" n="17" break="no"/>finitione tanguntur. Nam ex parte 
+        for<lb ed="#C" n="18" break="no"/>mae, sive ex parte eius, in quo est imi 
+        <lb ed="#C" n="19"/>tatio, ponitur species indifferens: nam 
+        <lb ed="#C" n="20"/>in indifferentia similitudo, &amp; 
+        aequali<lb ed="#C" n="21" break="no"/>tas continentur: quia tunc est aliquid 
+        <lb ed="#C" n="22"/>indifferens ab alio secundum aliquam 
+        <lb ed="#C" n="23"/>formam, utputa, secundum calorem, 
+        <lb ed="#C" n="24"/>quando non solum est calidum, per 
+        <lb ed="#C" n="25"/>quod habetur similitudo; sed etiam 
+        <lb ed="#C" n="26"/>quando est adeo calidum, per quod 
+        <lb ed="#C" n="27"/>habetur aequalitas: quia non solum dif 
+        <lb ed="#C" n="28"/>fert frigidum a calido, sed etiam 
+        mi<lb ed="#C" n="29" break="no"/>nus calidum a magis calido: igitur per in 
+        <lb ed="#C" n="30"/>differentem speciem similitudo &amp; 
+        equa<lb ed="#C" n="31" break="no"/>litas, quae respiciunt formam, 
+        designan<lb ed="#C" n="32" break="no"/>tur. Per hoc autem, quod ibi dicitur  
+        <lb ed="#C" n="33"/>rei ad rem, relatio designatur: quia 
+        <lb ed="#C" n="34"/>esse relativorum est ad aliud se habere. 
+        <lb ed="#C" n="35"/>Per hoc autem, quod ibi additur, quod 
+        <lb ed="#C" n="36"/>ima ginatur, imitatio describitur. Cun 
+        <lb ed="#C" n="37"/>igitur praedicta descriptio contineat 
+        <lb ed="#C" n="38"/>omnia, quae ad imaginem reoniruntur,  
+        <lb ed="#C" n="39"/>licet quantum ad formam verborum 
+        <lb ed="#C" n="40"/>aliquam incompactionem habeat; 
+        quan<lb ed="#C" n="41" break="no"/>tum tamen ad veritatis expressionem 
+        <lb ed="#C" n="42"/>est bona descriptio. Datur tamen alia 
+        <lb ed="#C" n="43"/>descriptio de imagine, in qua 
+        praedi<lb ed="#C" n="44" break="no"/>cta quatuor apertius designantur, 
+        vide<lb ed="#C" n="45" break="no"/>licet, quod imago est rei ad rem 
+        coae<lb ed="#C" n="46" break="no"/>quandam indiscreta &amp; unita 
+        similitu<lb ed="#C" n="47" break="no"/>do. Per hoc quod dicitur, rei ad rem, 
+        <lb ed="#C" n="48"/>datur intelligi relatio: per hoc quod 
+        <lb ed="#C" n="49"/>subditur, coaequandam, designatur  
+        <lb ed="#C" n="50"/>imiratio: quia sabinfertur indiscreta 
+        <lb ed="#C" n="51"/>&amp; unita similitudo: similitudo cum 
+        <lb ed="#C" n="52"/>aequalitate designatur: quia non est 
+        in<lb ed="#C" n="53" break="no"/>differens similitudo, quando est cum 
+        <lb ed="#C" n="54"/>inaequalitate admixta. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e493">
+                  <lb ed="#C" n="55"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="56" break="no"/>cendum, quod imago vel attenditur 
+        <!--573.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>secundum naturam, vel secundum id 
+        <lb ed="#C" n="58"/>quod est naturae proximum, vel 
+        natu<lb ed="#C" n="59" break="no"/>rae signum: &amp; quia membrum 
+        disposi<lb ed="#C" n="60" break="no"/>tio est naturae proximum, ratione qua 
+        <lb ed="#C" n="61"/>est aequalitas in quantitate, vel qua 
+        <lb ed="#C" n="62"/>titas in qualitate: cum quantitas 
+        im<lb ed="#C" n="63" break="no"/>mediare respiciat substantiam vel 
+        natu<lb ed="#C" n="64" break="no"/>ram. Et est naturae signum: quia mem 
+        <lb ed="#C" n="65"/>bra leonis &amp; membra cervi non 
+        diffo<lb ed="#C" n="66" break="no"/>runt, nisi quia animae differunt. Idet 
+        <lb ed="#C" n="67"/>secundum membrorum dispositioner 
+        <lb ed="#C" n="68"/>at tenditur imago: &amp; quia hoc non es 
+        <lb ed="#C" n="69"/>nisi ratione naturae, ideo convenienter 
+        <lb ed="#C" n="70"/>describitur imago per speciem vel 
+        natu<lb ed="#C" n="71" break="no"/>ram.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e538">
+        Ad 2. dicendum, quod imagi 
+        <lb ed="#C" n="72"/>proprie sumpta dicitur de eo, quod 
+        <lb ed="#C" n="73"/>imitatur aliud; non de eo quod est im,¬ 
+        <lb ed="#C" n="74"/>tationis ratio: tamen si extendatur no 
+        <lb ed="#C" n="75"/>men imaginis, etiam illud, secundum 
+        <lb ed="#C" n="76"/>quod attenditur imago, imago dici 
+        <lb ed="#C" n="77"/>potest. Ideo praedicta descriptio, quia 
+        <lb ed="#C" n="78"/>dicit esse imaginem indifferentem 
+        spe<lb ed="#C" n="79" break="no"/>ciem, secundum quam imago 
+        atten<lb ed="#C" n="80" break="no"/>ditur, vel diffinit imaginem per 
+        cau<lb ed="#C" n="81" break="no"/>sam: quia huiusmodi indifferentia 
+        spe<lb ed="#C" n="82" break="no"/>ciei non est imago, sed est causa quare 
+        <lb ed="#C" n="83"/>aliquid sit imago: vel diffinit imaginem 
+        <lb ed="#C" n="84"/>extenso nomine. Et ideo, ut dicebatur:  
+        <lb ed="#C" n="85"/>quantum ad formam verborum: quia 
+        <lb ed="#C" n="86"/>ibi sic ordinantur verba, quod id, in 
+        <lb ed="#C" n="87"/>quo attenditur imitatio, ponitur in 
+        re<lb ed="#C" n="88" break="no"/>cto; &amp; id, cui competit imitari, 
+        po<lb ed="#C" n="89" break="no"/>nitur in obliquo, in praedicta 
+        descrip<lb ed="#C" n="90" break="no"/>tione est aliqua incompactio.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e582">
+        Ad 3. 
+        di<lb ed="#C" n="91" break="no"/>cendum, quod licet similia sint distin 
+        <lb ed="#C" n="92"/>cta secundum supposita; aliquomode 
+        <lb ed="#C" n="93"/>conveniunt tamen in aliqua una 
+        for<lb ed="#C" n="94" break="no"/>ma: &amp; ratione huius convenientiae in 
+        <lb ed="#C" n="95"/>diffinitione imaginis (de cuius ratione 
+        <lb ed="#C" n="96"/>est non solum similitudo, sed aequalitas 
+        <lb ed="#C" n="97"/>ponitur indifferens species.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e600">
+        Ad 4. 
+        di<lb ed="#C" n="98" break="no"/>cendum, quod diffinitio illa describit 
+        <lb ed="#C" n="99"/>imaginem in potissimo suo esse: nulla 
+        <lb ed="#C" n="100"/>autem creatura est perfecta imago sui 
+        <lb ed="#C" n="101"/>Creatoris. Vel possumus dicere, quo d 
+        <lb ed="#C" n="102"/>secundum quod in aliquo attenditur 
+        <lb ed="#C" n="103"/>talis indifferentia, sic in eo attenditur 
+        <lb ed="#C" n="104"/>imago: &amp; quia creaturae ad Crea tor 
+        <lb ed="#C" n="105"/>licet sit quaedam imitatio; non tamer 
+        <lb ed="#C" n="106"/>est ibi proprie indifferentia, ideo 
+        <lb ed="#C" n="107"/>nec perfecte in creatura respe¬ 
+        <lb ed="#C" n="108"/>ctu sui Creatoris reserva¬ 
+        <lb ed="#C" n="109"/>tur imago. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f42722-Dd1e630">
+               <head xml:id="Gi9qrR-f42722-Hd1e632">Articulus 2</head>
+               <p xml:id="Gi9qrR-f42722-d1e635">
+        <!--574.xml-->
+                  <pb ed="#C" n="549"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ARTICVLVS II. 
+        <lb ed="#C" n="2"/>Vtrum imago in Divinis dicatur essentialiter, 
+        <lb ed="#C" n="3"/>vel personaliter solum.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e651">
+                  <lb ed="#C" n="4"/>SEcundo quaeritur: utrum imago in 
+        <lb ed="#C" n="5"/>Divinis dicatur essentialiter, vel  
+        <lb ed="#C" n="6"/>personaliter solum? Et videtur, quod  
+        <lb ed="#C" n="7"/>dicatur solum personaliter: quia quae 
+        <lb ed="#C" n="8"/>dicuntur essentialiter in Divinis, 
+        dicun<lb ed="#C" n="9" break="no"/>tur secundum substantiam; sed imago 
+        <lb ed="#C" n="10"/>semper dicitur secundum relationem: 
+        <lb ed="#C" n="11"/>quia nihil absurdius quam imaginem 
+        <lb ed="#C" n="12"/>ad se dici: ergo semper personaliter  
+        <lb ed="#C" n="13"/>sumitur.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e675">
+        Praeterea: in essentialibus 
+        pos<lb ed="#C" n="14" break="no"/>sumus dicere hoc de hoc, ut Deus de 
+        <lb ed="#C" n="15"/>Deo, lumen de lumine; sed in 
+        imagi<lb ed="#C" n="16" break="no"/>ne non possumus dicere hoc de hoc  
+        <lb ed="#C" n="17"/>quia secundum <name xml:id="Gi9qrR-f42722-Nd1e685" ref="#Augustine">Aug.</name> 6. de Trin. cap. 
+        <lb ed="#C" n="18"/>. 2. non bene dictum est imago de ima¬ 
+        <lb ed="#C" n="19"/>gine, sicut nec Verbum de Verbo. 
+        Er<lb ed="#C" n="20" break="no"/>go imago non essentialiter sumitur.  
+        <lb ed="#C" n="21"/>Praeterea: regula est ab <name xml:id="Gi9qrR-f42722-Nd1e697" ref="#Augustine">August.</name> in 
+        mul<lb ed="#C" n="22" break="no"/>tis locis quod ea, quae dicuntur 
+        essentia<lb ed="#C" n="23" break="no"/>liter in Divinis, praedicantur de 
+        quali<lb ed="#C" n="24" break="no"/>bet persona singulariter, &amp; de 
+        omni<lb ed="#C" n="25" break="no"/>bus non pluraliter, ut Pater est Deus. 
+        <lb ed="#C" n="26"/>Filius est Deus, Pater &amp; Filius ambo 
+        si<lb ed="#C" n="27" break="no"/>mul unus Deus: sed secundum <name xml:id="Gi9qrR-f42722-Nd1e713" ref="#Augustine">August.</name> 
+                  <lb ed="#C" n="28"/>6. de Trin. cap. 2. Non bene dictum est, 
+        <lb ed="#C" n="29"/>quod Pater &amp; Filius ambo simul sint;  
+        <lb ed="#C" n="30"/>imago, ergo imago in Divinis solum 
+        <lb ed="#C" n="31"/>personaliter dicitur.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e726">
+        Praeterea: imago 
+        <lb ed="#C" n="32"/>dicit quemdam ordinem; sed in 
+        Divi<lb ed="#C" n="33" break="no"/>nis non est ordo nisi originis: origo 
+        au<lb ed="#C" n="34" break="no"/>tem semper respicit personas: ergo 
+        <lb ed="#C" n="35"/>imago solum personaliter sumitur.  
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e738">
+                  <lb ed="#C" n="36"/>In contrarium est <name xml:id="Gi9qrR-f42722-Nd1e742" ref="#Augustine">August.</name> 
+                  <ref xml:id="Gi9qrR-f42722-Rd1e745">De Fide 
+          <lb ed="#C" n="37"/>ad Petrum in principio</ref>, qui vult, quod  
+        <lb ed="#C" n="38"/>una est Sanctae Trinitatis essentialite 
+        <lb ed="#C" n="39"/>Divinitas, &amp; imago, ad quam factus est 
+        <lb ed="#C" n="40"/>homo.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e758">
+        Praeterea: Hilarius 5. de Trin. 
+        <lb ed="#C" n="41"/>vult hoc idem, ut Magist. dicit in lit¬ 
+        <lb ed="#C" n="42"/>tera: ergo imago non solum 
+        <lb ed="#C" n="43"/>personaliter sumitur, sed  
+        <lb ed="#C" n="44"/>etiam essentialiter, 
+        <lb ed="#C" n="45"/>quod Mag. 
+        <lb ed="#C" n="46"/>conce¬ 
+        <lb ed="#C" n="47"/>dit. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e776">
+        <!--574.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="48"/>RESOLVTIO. 
+        <lb ed="#C" n="49"/>Imago in Divinis, proprie loquendo, solum per¬ 
+        <lb ed="#C" n="50"/>sonaliter dicitur: potest essentialiter, si 
+        <lb ed="#C" n="51"/>large accipiatur imago.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e792">
+                  <lb ed="#C" n="52"/>REspond. dicendum, quod imagor 
+        <lb ed="#C" n="53"/>Rproprie loquendo, in Divinis sem 
+        <lb ed="#C" n="54"/>per personaliter sumitur: nam, ut 
+        ha<lb ed="#C" n="55" break="no"/>bitum est, imago est cuius generatio est 
+        <lb ed="#C" n="56"/>per imitationem: &amp; ideo oportet ima 
+        <lb ed="#C" n="57"/>iginem referri, &amp; habere quemdam 
+        or<lb ed="#C" n="58" break="no"/>dinem, &amp; quamdam imitationem 
+        res<lb ed="#C" n="59" break="no"/>pectu eius, cuius dicitur imago. Si ergo 
+        <lb ed="#C" n="60"/>Divina essentia diceretur imago, vel  
+        <lb ed="#C" n="61"/>hoc esset respectu sui ipsius, vel respectu 
+        <lb ed="#C" n="62"/>Divinarum Personarum, vel per 
+        com<lb ed="#C" n="63" break="no"/>parationem ad creaturas. Respectu sui 
+        <lb ed="#C" n="64"/>ipsius non. Nam cum nihil proprie 
+        <lb ed="#C" n="65"/>imitetur se ipsum, semper imago est 
+        <lb ed="#C" n="66"/>realiter distincta ab eo, cuius imago 
+        di<lb ed="#C" n="67" break="no"/>citur: unde Hilarius 3. de Trin. &amp; 
+        ha<lb ed="#C" n="68" break="no"/>betur dist. 2. Imago enim sola non est, 
+        <lb ed="#C" n="69"/>&amp; similitudo non est sibi: &amp; quia simi 
+        <lb ed="#C" n="70"/>litudo clauditur in imagine, nihil su 
+        <lb ed="#C" n="71"/>ipsius imago dici potest. Nec etiam res 
+        <lb ed="#C" n="72"/>pectu Personarum dicere possumus 
+        Di<lb ed="#C" n="73" break="no"/>vinam essentiam habere rationem ima 
+        <lb ed="#C" n="74"/>ginis: nam Persona comparata ad essem 
+        <lb ed="#C" n="75"/>tiam realiter non distinguitur, sed 
+        ra<lb ed="#C" n="76" break="no"/>tione: &amp; ideo sicut sui ipsi us non est 
+        ima<lb ed="#C" n="77" break="no"/>go aliquid: quia nihil ad se ipsum 
+        ha<lb ed="#C" n="78" break="no"/>bet realem distinctionem, licet ratione 
+        <lb ed="#C" n="79"/>differre possit aliquid a se ipso: sic 
+        Di<lb ed="#C" n="80" break="no"/>vina essentia respectu Personarum ima 
+        <lb ed="#C" n="81"/>go esse non potest: cum a Personis rea 
+        <lb ed="#C" n="82"/>iter non distinguatur. Rursum 
+        respe<lb ed="#C" n="83" break="no"/>ctu creaturarum Divina essentia imago 
+        <lb ed="#C" n="84"/>dici non potest: quia de ratione 
+        ima<lb ed="#C" n="85" break="no"/>ginis est imitatio: Divina autem 
+        essen<lb ed="#C" n="86" break="no"/>tia non imitatur creaturas; sed e 
+        con<lb ed="#C" n="87" break="no"/>verso. &amp; ideo, proprie loquendo, 
+        ima<lb ed="#C" n="88" break="no"/>go in Divinis solum personaliter 
+        dici<lb ed="#C" n="89" break="no"/>tur: quia solum inter Personas 
+        inveni<lb ed="#C" n="90" break="no"/>tur, quod una sit expressa &amp; producta 
+        <lb ed="#C" n="91"/>ad similitudinem alterius: &amp; una habeat  
+        <lb ed="#C" n="92"/>realem relationem, &amp; distinctionem ad 
+        <lb ed="#C" n="93"/>aliam; essentia autem Divina ad 
+        nihi<lb ed="#C" n="94" break="no"/>realiter refertur, 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e888">
+                  <lb ed="#C" n="95"/>Tamen si volumus loqui large 
+        de<lb ed="#C" n="96" break="no"/>imagine, ut dicatur imago, non solum 
+        <lb ed="#C" n="97"/>id, quod imitatur aliud, sed id ad cum 
+        <lb ed="#C" n="98"/>ius imitationem alterum dicitur. Sic Di 
+        <lb ed="#C" n="99"/>vina essentia imago dici potest. Debet 
+        <lb ed="#C" n="100"/>mus enim imaginari, quod Deus ut est 
+        <lb ed="#C" n="101"/>Trinus &amp; unus, sive unitas essentiae, &amp; 
+        <!--575.xml-->
+        <pb ed="#C" n="550"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Trinitas Personarum est quoddam 
+        <lb ed="#C" n="2"/>exemplar, &amp; paradigma, ad cuius 
+        si<lb ed="#C" n="3" break="no"/>militudinem facta est rationalis &amp; intel 
+        <lb ed="#C" n="4"/>lectualis creatura: propter quod imago 
+        <lb ed="#C" n="5"/>in tali creatura non solum dicitur 
+        respe<lb ed="#C" n="6" break="no"/>ctu Trinitatis Personarum, sed etiam 
+        <lb ed="#C" n="7"/>eper comparationem ad unitatem essen¬ 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e927">
+                  <lb ed="#C" n="8"/>tiae: &amp; quia large loquendo, ipsum 
+        pa<lb ed="#C" n="9" break="no"/>radigna, ad cuius similitudinem aliud 
+        <lb ed="#C" n="10"/>efficitur, imago dici potest: ipsa 
+        Di<lb ed="#C" n="11" break="no"/>vina essentia imago dici potest, &amp; hoc 
+        <lb ed="#C" n="12"/>est, quod Mag. ait: quod imago 
+        sumi<lb ed="#C" n="13" break="no"/>tur essentialiter in Divinis: quia 
+        secun<lb ed="#C" n="14" break="no"/>dum <name xml:id="Gi9qrR-f42722-Nd1e944" ref="#Augustine">August.</name> De Fide ad Petrum: una est, 
+        <lb ed="#C" n="15"/>Santae Trinitatis essentialiter Divina 
+        <lb ed="#C" n="16"/>imago, ad quam factus est homo. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e953">
+                  <lb ed="#C" n="17"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="18" break="no"/>cendum, quod ea, quae dicunt 
+        relatio<lb ed="#C" n="19" break="no"/>nem ad creaturas, in Divinis indicant 
+        <lb ed="#C" n="20"/>essentiam: unde Dominus &amp; Creator 
+        <lb ed="#C" n="21"/>licet relationem importent; tamen 
+        se<lb ed="#C" n="22" break="no"/>cundum substantiam dicuntur: ut 
+        di<lb ed="#C" n="23" break="no"/>catur dici secundum substantiam quida 
+        <lb ed="#C" n="24"/>quid de qualibet Persona dicitur singu 
+        <lb ed="#C" n="25"/>lariter, &amp; de omnibus non pluraliter: 
+        <lb ed="#C" n="26"/>&amp; quia Divina essentia dicitur imago 
+        <lb ed="#C" n="27"/>per comparationem ad creaturam 
+        ra<lb ed="#C" n="28" break="no"/>tionalem: ut quia est illud ad cuius 
+        si<lb ed="#C" n="29" break="no"/>militudinem homo est factus, non 
+        ob<lb ed="#C" n="30" break="no"/>stante, quod imago quamdam 
+        relatio<lb ed="#C" n="31" break="no"/>nem importat: sic imago sumpta in 
+        <lb ed="#C" n="32"/>Divinis essentialiter sumitur.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e990">
+        Ad 2. &amp; 
+        <lb ed="#C" n="33"/>a 3. dicendum, quod <name xml:id="Gi9qrR-f42722-Nd1e994" ref="#Augustine">August,</name> accipit ima 
+        <lb ed="#C" n="34"/>rginem proprie &amp; prout dicit relationem 
+        <lb ed="#C" n="35"/>a realem, &amp; sic accepta solum persona 
+        <lb ed="#C" n="36"/>liter sumitur: quia Divina essentia ad 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1004">
+                  <lb ed="#C" n="37"/>nihil realiter refertur: quia si referret 
+        <lb ed="#C" n="38"/>tur realiter, vel hoc esset respectu 
+        crea<lb ed="#C" n="39" break="no"/>turarum, quod est impossibile. cum 
+        <lb ed="#C" n="40"/>Deus ad creaturam realem relationem 
+        <lb ed="#C" n="41"/>non habeat. Vel respectu sui ipsius, qd 
+        h<lb ed="#C" n="42" break="no"/>personarum, quod etiam stare non 
+        po<lb ed="#C" n="43" break="no"/>test: quia nec a se ipsa, ne a Personis 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1022">
+                  <lb ed="#C" n="44"/>caliter est distincta, &amp; quia in 
+        omni<lb ed="#C" n="45" break="no"/>bus personaliter dictis non concedimus 
+        <lb ed="#C" n="46"/>hoc de hoc, ut Pater de Patre, vel 
+        Fi<lb ed="#C" n="47" break="no"/>lius de Filio, nec talia praedicantur de 
+        <lb ed="#C" n="48"/>pluribus simul: quia Pater &amp; Filius 
+        si<lb ed="#C" n="49" break="no"/>mul non sunt Pater, neque Filius: ideo 
+        <lb ed="#C" n="50"/>August. quia loquitur de imagine per 
+        <lb ed="#C" n="51"/>sonaliter sumpta negat has 
+        propositio<lb ed="#C" n="52" break="no"/>nes, videlicet, imaginem de imagine 
+        <lb ed="#C" n="53"/>&amp; quod simul Pater &amp; Filius sint 
+        ima<lb ed="#C" n="54" break="no"/>go.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1048">
+        Ad 4. dicendum, quod licet 
+        Divi<lb ed="#C" n="55" break="no"/>na essentia ad nihil ordinetur realiter, 
+        <lb ed="#C" n="56"/>aliquid tamen realiter ordinatur ad ip¬ 
+        <!--575.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>sam: &amp; ideo aliquid, ut rationalis crea 
+        <lb ed="#C" n="58"/>tura, potest dici imago respectu eius 
+        <lb ed="#C" n="59"/>&amp; quia large sumendo imaginem non 
+        <lb ed="#C" n="60"/>solum id, quod imitatur aliud, imago 
+        <lb ed="#C" n="61"/>dicitur; sed etiam illud ad cuius 
+        simi<lb ed="#C" n="62" break="no"/>litudinem aliud efficitur, ipsa Divina 
+        <lb ed="#C" n="63"/>essentia imago dicitur: non quia ipsa 
+        <lb ed="#C" n="64"/>ordinetur ad aliud; sed quia aliud 
+        or<lb ed="#C" n="65" break="no"/>dinatur ad eam. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f42722-Dd1e1081">
+               <head xml:id="Gi9qrR-f42722-Hd1e1083">Articulus 3</head>
+               <p xml:id="Gi9qrR-f42722-d1e1086">
+                  <lb ed="#C" n="66"/>ARTICVLVS III. 
+        <lb ed="#C" n="67"/>Vtrum solus Filius dicatur imago Patris, prout 
+        <lb ed="#C" n="68"/>imago sumitur personaliter:
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1095">
+                  <lb ed="#C" n="69"/>TErtio quaeritur: utrum solus Filius 
+        <lb ed="#C" n="70"/>dicatur imago, prout imago 
+        su<lb ed="#C" n="71" break="no"/>mitur personaliter? Et videtur, quod 
+        <lb ed="#C" n="72"/>non: quia Filius pro tanto dicitur 
+        ima<lb ed="#C" n="73" break="no"/>po Patris: quia est eiusdem naturae cum 
+        <lb ed="#C" n="74"/>Patre; sed Spiritus Sanctus est eiusdem 
+        <lb ed="#C" n="75"/>naturae cum ipso, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1113">
+        Praeterea: 
+        <lb ed="#C" n="76"/>quotiescumque aliquid est simile &amp; 
+        ae<lb ed="#C" n="77" break="no"/>quale alicui, &amp; est expressum ab eo, 
+        <lb ed="#C" n="78"/>vel trahit originem ab illo, potest dici 
+        <lb ed="#C" n="79"/>imago illius. Nam si unum ovum 
+        alte<lb ed="#C" n="80" break="no"/>rius ovi imago non dicitur, dato quod  
+        <lb ed="#C" n="81"/>ei sit simile &amp; aequale, hoc non est, nisi 
+        <lb ed="#C" n="82"/>quia ab eo non trahit originem. Sed 
+        <lb ed="#C" n="83"/>cum non solum Filius sit aequalis &amp; similis 
+        <lb ed="#C" n="84"/>Patri, &amp; oriatur ab ipso, sed &amp; 
+        Spiri<lb ed="#C" n="85" break="no"/>tus Sanctus emanet a Patre &amp; Filio, &amp; 
+        <lb ed="#C" n="86"/>utrique sit similis &amp; aequalis, ratio 
+        ima<lb ed="#C" n="87" break="no"/>ginis non solum conveniet Filio, sed &amp; 
+        <lb ed="#C" n="88"/>Spiritui Sancto.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1144">
+        Praeterea: si competit 
+        <lb ed="#C" n="89"/>Filio, quod sit imago Patris; &amp; non 
+        <lb ed="#C" n="90"/>Spiritui Sancto, hoc non est, nisi quia 
+        <lb ed="#C" n="91"/>Filius ex suo modo procedendi habet 
+        <lb ed="#C" n="92"/>quod sit imago; non autem Spiritus S. 
+        <lb ed="#C" n="93"/>nam cum Spiritus Sanctus procedat ust 
+        <lb ed="#C" n="94"/>amor, ex suo modo procedendi non 
+        <lb ed="#C" n="95"/>habet quod sit eiusdem naturae, nec 
+        <lb ed="#C" n="96"/>imago eius a quo procedit. Sed hoc  
+        <lb ed="#C" n="97"/>non videtur causa: quia sicut Spiritus 
+        <lb ed="#C" n="98"/>Sanctus procedit ut amor, sit Filius 
+        <lb ed="#C" n="99"/>procedit ut Verbum: sed Verbum, 
+        ra<lb ed="#C" n="100" break="no"/>tione qua Verbum, non habet quod sit 
+        <lb ed="#C" n="101"/>eiusdem naturae cum dicente; sed 
+        ra<lb ed="#C" n="102" break="no"/>tione qua Verbum Divinum. Nam ver¬ 
+        <!--576.xml-->
+        <pb ed="#C" n="551"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>bum hominis non est eiusdem naturae 
+        <lb ed="#C" n="2"/>cum homine: ita amor, ratione qua 
+        <lb ed="#C" n="3"/>amor, non est eiusdem naturae cum 
+        <lb ed="#C" n="4"/>amante; sed ratione qua amor 
+        Divi<lb ed="#C" n="5" break="no"/>nus: ergo sicut non obstante quod quia 
+        <lb ed="#C" n="6"/>verbum, ratione qua verbum, non est 
+        <lb ed="#C" n="7"/>eiusdem naturae cum dicente, sed ex eo 
+        <lb ed="#C" n="8"/>quod Divinum Verbum, Verbum 
+        ima<lb ed="#C" n="9" break="no"/>go dicitur: ita amor Divinus imago 
+        <lb ed="#C" n="10"/>dici poterit, non obstante quod amor, 
+        <lb ed="#C" n="11"/>quia amor, non est eiusdem naturae cu 
+        <lb ed="#C" n="12"/>amante, sed quia Divinus amor. 
+        Prae<lb ed="#C" n="13" break="no"/>terea: hoc expresse dicit Damasc. lib 
+        <lb ed="#C" n="14"/>1. cap. penult. cum ait: Imago Patris est 
+        <lb ed="#C" n="15"/>Filius, Filij Spiritus. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1217">
+                  <lb ed="#C" n="16"/>In contrarium est <name xml:id="Gi9qrR-f42722-Nd1e1221" ref="#Augustine">August.</name> 6. de Tri 
+        <lb ed="#C" n="17"/>nit, cap. 11. qui ait: Filius est eo imago, quo 
+        <lb ed="#C" n="18"/>Verbum. Sed solus Filius dicitur Verbum, 
+        <lb ed="#C" n="19"/>ergo solus ipse dicetur imago. Praete 
+        <lb ed="#C" n="20"/>rea: <name xml:id="Gi9qrR-f42722-Nd1e1233" ref="#Augustine">Aug.</name> 6. de Trin. in fine exponen 
+        <lb ed="#C" n="21"/>verba Hilarij: quod aeternitas est in 
+        <lb ed="#C" n="22"/>Patre, species in imagine, usus in 
+        mu<lb ed="#C" n="23" break="no"/>nere: exponit per imaginem Filium, 
+        <lb ed="#C" n="24"/>per munus Spiritum Sanctum: sed hoc  
+        <lb ed="#C" n="25"/>non esset, nisi ita diceretur imago de 
+        <lb ed="#C" n="26"/>Filio, sicut donum de Spiritu Sancto 
+        <lb ed="#C" n="27"/>cum donum solum Spiritui Sancto 
+        con<lb ed="#C" n="28" break="no"/>veniat, iuxta illud quod habetur 15. de 
+        <lb ed="#C" n="29"/>Trin. cap. 17. In hac Trinitate non dicitur 
+        <lb ed="#C" n="30"/>Verbum Dei nisi Filius, nec donum Dei nis 
+        <lb ed="#C" n="31"/>Spiritus Sanctus. Ergo nec erit imago ni 
+        <lb ed="#C" n="32"/>si solus Filius. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1263">
+                  <lb ed="#C" n="33"/>RESOLVTIO. 
+        <lb ed="#C" n="34"/>amago personaliter sumpta de solo Filio dicitur.  
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1270">
+                  <lb ed="#C" n="35"/>REspond. dicendum, quod 
+        secun<lb ed="#C" n="36" break="no"/>dum sententiam <name xml:id="Gi9qrR-f42722-Nd1e1276" ref="#Augustine">August.</name> oportet 
+        <lb ed="#C" n="37"/>nos tenere, quod imago personaliter 
+        <lb ed="#C" n="38"/>dicta de solo Filio dicatur. Vnde 6. 
+        de<lb ed="#C" n="39" break="no"/>Trin. cap. 2. scribitur: Non autem Pater 
+        <lb ed="#C" n="40"/>&amp; Filius simul ambo imago, sed Filius imago 
+        <lb ed="#C" n="41"/>Patris, quemadmodum &amp; Filius. Sed 
+        quo<lb ed="#C" n="42" break="no"/>modo hoc sit, tres rationes assignari 
+        <lb ed="#C" n="43"/>consueverunt. Prima est: quia Filius 
+        <lb ed="#C" n="44"/>producit ex se Personam, &amp; convenit 
+        <lb ed="#C" n="45"/>in notione cum Patre; sed Spiritus 
+        San<lb ed="#C" n="46" break="no"/>ctus in hoc non imitatur Patrem, quod 
+        <lb ed="#C" n="47"/>ex se Personam producat, nec quod 
+        <lb ed="#C" n="48"/>cum eo in aliqua notione conveniat. 
+        <lb ed="#C" n="49"/>Secunda est: quia Filius procedit ab 
+        <lb ed="#C" n="50"/>uno; sed Spiritus Sanctus procedit a 
+        <lb ed="#C" n="51"/>duobus: &amp; proprie unum est imago 
+        u<lb ed="#C" n="52" break="no"/>nius, non unum plurium: ideo imago 
+        <lb ed="#C" n="53"/>competit Filio, non Spiritui Sancto. 
+        <!--576.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>Tertia est: quia Filius ex suo modo 
+        pro<lb ed="#C" n="55" break="no"/>cedendi, &amp; eo quod Filius, habet quod 
+        <lb ed="#C" n="56"/>sit imago, &amp; quod sit eiusdem naturae 
+        <lb ed="#C" n="57"/>cum Patre; aliter enim non esset 
+        Fi<lb ed="#C" n="58" break="no"/>lius: sed hoc non habet Spiritus 
+        San<lb ed="#C" n="59" break="no"/>ctus, cum procedat ut amor: ideo 
+        Fi<lb ed="#C" n="60" break="no"/>lius dicitur imago, non Spiritus 
+        San<lb ed="#C" n="61" break="no"/>ctus. Primas duas rationes aliqui 
+        im<lb ed="#C" n="62" break="no"/>probant. Nam secundum notionali 
+        <lb ed="#C" n="63"/>nec attenditur similitudo nec aequali 
+        <lb ed="#C" n="64"/>tas: &amp; cum de ratione imaginis sit 
+        si<lb ed="#C" n="65" break="no"/>militudo &amp; aequalitas, dicere Filium 
+        es<lb ed="#C" n="66" break="no"/>se imaginem, &amp; non Spiritum 
+        San<lb ed="#C" n="67" break="no"/>ctum: quia convenit in notione cum 
+        <lb ed="#C" n="68"/>Patre, &amp; producit ex se Personam; non 
+        <lb ed="#C" n="69"/>Spiritus Sanctus, est assignare rationam 
+        <lb ed="#C" n="70"/>imaginis quantum ad notionalia, secun 
+        <lb ed="#C" n="71"/>dum quae non attenditur imago. 
+        Rur<lb ed="#C" n="72" break="no"/>sum: dicere Spiritum Sanctum non 
+        <lb ed="#C" n="73"/>esse imaginem: quia unum est imago 
+        <lb ed="#C" n="74"/>unius, non unum plurium, non conclu 
+        <lb ed="#C" n="75"/>dit intentum: quia Pater &amp; Filius sunt,  
+        <lb ed="#C" n="76"/>unum principium Spiritus Sancti, non 
+        <lb ed="#C" n="77"/>plura, &amp; non est inconveniens unum 
+        <lb ed="#C" n="78"/>esse imaginem plurium, non ut sunt,  
+        <lb ed="#C" n="79"/>plura, sed ut unum. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1378">
+                  <lb ed="#C" n="80"/>Possumus tamen dicere omnes 
+        prae<lb ed="#C" n="81" break="no"/>dictas rationes bonas esse, &amp; idem 
+        con<lb ed="#C" n="82" break="no"/>cludere. Ad cuius evidentiam 
+        noran<lb ed="#C" n="83" break="no"/>dum, quod <name xml:id="Gi9qrR-f42722-Nd1e1388" ref="#Augustine">August.</name> 15. de Trin. in 
+        fi<lb ed="#C" n="84" break="no"/>ne dicit Spiritum Sanctum non debere 
+        <lb ed="#C" n="85"/>dici genitum, neque imaginem: quia 
+        <lb ed="#C" n="86"/>procedit per modum voluntatis: quia 
+        <lb ed="#C" n="87"/>illud, quod procedit per modum intel 
+        <lb ed="#C" n="88"/>lectus, ut Verbum, habet quod sit quid  
+        <lb ed="#C" n="89"/>simillimum cogitationi, &amp; dicitur eius 
+        <lb ed="#C" n="90"/>imago &amp; proles. Amor autem, qui  
+        <lb ed="#C" n="91"/>procedit per modum voluntatis, non 
+        <lb ed="#C" n="92"/>habet de ratione sua, quod sit quid 
+        si<lb ed="#C" n="93" break="no"/>mile amanti, neque imago eius: &amp; 
+        <lb ed="#C" n="94"/>quia tota ratio <name xml:id="Gi9qrR-f42722-Nd1e1415" ref="#Augustine">Augustini</name> quare solum 
+        <lb ed="#C" n="95"/>Filius dicatur imago, est: quia solus 
+        <lb ed="#C" n="96"/>ipse dicitur Verbum: omnes illae 
+        ra<lb ed="#C" n="97" break="no"/>tiones, quae concludunt Filium esse 
+        <lb ed="#C" n="98"/>Verbum, &amp; non Spiritum Sanctum 
+        <lb ed="#C" n="99"/>ostendunt solum Filium esse imaginem 
+        <lb ed="#C" n="100"/>Filium autem esse Verbum tripliciter 
+        <lb ed="#C" n="101"/>ostendi potest. Primo: quia producit 
+        <lb ed="#C" n="102"/>ex se Personam: Nam cum origines 
+        Di<lb ed="#C" n="103" break="no"/>vinae habeant quemdam ordinem, &amp; 
+        <lb ed="#C" n="104"/>origo per modum intellectus sit prior, 
+        <lb ed="#C" n="105"/>secundum modum intelligendi, quam 
+        <lb ed="#C" n="106"/>origo per modum voluntatis, illa 
+        Per<lb ed="#C" n="107" break="no"/>sona procedens, quae habet rationem 
+        <lb ed="#C" n="108"/>principij super aliqua Persona, procedet 
+        <lb ed="#C" n="109"/>per modum intellectus, &amp; non per mo 
+        <!--577.xml-->
+        <pb ed="#C" n="552"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>dum voluntatis: ideo eo ipso quod 
+        Fi<lb ed="#C" n="2" break="no"/>lius producit ex se Personam, arguitur 
+        <lb ed="#C" n="3"/>quod procedat per modum intellectus, 
+        <lb ed="#C" n="4"/>&amp; quod habeat rationem: imaginis: ut  
+        <lb ed="#C" n="5"/>prima ratio concludebat. Rursum eo 
+        <lb ed="#C" n="6"/>ipso quod procedit ab uno, procedit 
+        <lb ed="#C" n="7"/>per modum intellectus, &amp; ut Verbum: 
+        <lb ed="#C" n="8"/>cum processio per modum intellectus 
+        <lb ed="#C" n="9"/>nullam aliam processionem presupponat. 
+        <lb ed="#C" n="10"/>Sed Spiritus S. eo ipso, quod procedit a 
+        <lb ed="#C" n="11"/>pluribus, quantumcumque procedat ab 
+        <lb ed="#C" n="12"/>illis in eo quod sunt unum, non poterit 
+        <lb ed="#C" n="13"/>habere rationem Verbi, sed solum 
+        ra<lb ed="#C" n="14" break="no"/>tionem amoris. Igitur etiam secunda 
+        <lb ed="#C" n="15"/>ratio concludit solum Filium esse 
+        ima<lb ed="#C" n="16" break="no"/>iginem: cum solus ipse procedat ut 
+        <lb ed="#C" n="17"/>Verbum. Amplius: quia solum Verbum 
+        <lb ed="#C" n="18"/>meretur nomen prolis, &amp; non amors 
+        <lb ed="#C" n="19"/>eo quod eo ipso quod Filius est Filius, 
+        <lb ed="#C" n="20"/>ex suo modo procedendi habet, quod 
+        <lb ed="#C" n="21"/>sit imago: ut tertia ratio ostendebat, 
+        <lb ed="#C" n="22"/>Est enim solus Filius imago: quia solus 
+        <lb ed="#C" n="23"/>ipse est Verbum &amp; Filius: propter quod  
+        <lb ed="#C" n="24"/>bene concludit <name xml:id="Gi9qrR-f42722-Nd1e1510" ref="#Augustine">Aug.</name> 7. de Trin. cap. 11. 
+        <lb ed="#C" n="25"/>quod Filius sit eo imago, quo 
+        Ver<lb ed="#C" n="26" break="no"/>bum &amp; Filius. 
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1518">
+                  <lb ed="#C" n="27"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="28" break="no"/>cendum, quod licet Spiritus Sanctus sit 
+        <lb ed="#C" n="29"/>eiusdem naturae cum Patre; non habet 
+        <lb ed="#C" n="30"/>tamen hoc ex suo modo procedendi: 
+        <lb ed="#C" n="31"/>&amp; ideo non dicitur imago, sicut dicitur  
+        <lb ed="#C" n="32"/>Filius.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1534">
+        Ad 2. dicendum, quod non 
+        suf<lb ed="#C" n="33" break="no"/>ficit ad hoc quod aliquid sit imago 
+        ali<lb ed="#C" n="34" break="no"/>cuius, quod oriatur ab illo, &amp; quod sit 
+        <lb ed="#C" n="35"/>ei simile &amp; aequale: sed requititur  
+        <lb ed="#C" n="36"/>quod huiusmodi similitudinem &amp; 
+        imi<lb ed="#C" n="37" break="no"/>tationem consequatur ex suo modo 
+        <lb ed="#C" n="38"/>procedendi. Amor autem ex suo 
+        mo<lb ed="#C" n="39" break="no"/>do procedendi non habet quod sit 
+        si<lb ed="#C" n="40" break="no"/>mile amanti.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1555">
+        Ad 3. dicendum, quod 
+        <lb ed="#C" n="41"/>licet Verbum, ratione qua Verbum, non 
+        <lb ed="#C" n="42"/>sit eiusdem naturae cum dicente; est 
+        ta<lb ed="#C" n="43" break="no"/>men semper dicenti simile, &amp; 
+        reprae<lb ed="#C" n="44" break="no"/>sentativum eius, &amp; maxime cum dicens se 
+        <lb ed="#C" n="45"/>ipsum dicit: &amp; quia ex hoc aliquid est, 
+        <lb ed="#C" n="46"/>imago, quia est ab alio expressum, &amp; 
+        ex<lb ed="#C" n="47" break="no"/>suo modo procedendi ipsum 
+        repraesen<lb ed="#C" n="48" break="no"/>tat, &amp; est ei simile: ideo Verbum 
+        Di<lb ed="#C" n="49" break="no"/>vinum sive Filius dicitur imago, &amp; non 
+        <lb ed="#C" n="50"/>Spiritus Sanctus.
+      </p>
+               <p xml:id="Gi9qrR-f42722-d1e1579">
+        Ad 4. dicendum, quod  
+        <lb ed="#C" n="51"/>Graeci Spiritum Sanctum communiter 
+        <lb ed="#C" n="52"/>appellant imaginem: sed Doctores 
+        la<lb ed="#C" n="53" break="no"/>tini solum Filium imaginem esse 
+        di<lb ed="#C" n="54" break="no"/>cunt: magis proprie tamen loquuntur  
+        <lb ed="#C" n="55"/>latini, quam Graeci, ut patet per 
+        ha<lb ed="#C" n="56" break="no"/>bita.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

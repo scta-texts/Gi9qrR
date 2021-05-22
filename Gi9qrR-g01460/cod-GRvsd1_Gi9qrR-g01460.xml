@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="772"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g01460"><!-- l1-d41q1 -->
+            <head xml:id="Gi9qrR-g01460-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-g01460-d1e111">
+      <!--797.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="40"/>Quaestio 1. 
+      <lb ed="#C" n="41"/>De Divina electione. 
+    </p>
+            <p xml:id="Gi9qrR-g01460-d1e122">
+               <lb ed="#C" n="42"/>MAGISTER in 
+      praesen<lb ed="#C" n="43" break="no"/>ti distinctione de 
+      duo<lb ed="#C" n="44" break="no"/>bus tractare videtur, 
+      vi<lb ed="#C" n="45" break="no"/>delicet, de Divina 
+      ele<lb ed="#C" n="46" break="no"/>ctione, &amp; de Divina 
+      <lb ed="#C" n="47"/>scientia: ideo de his 
+      <lb ed="#C" n="48"/>duobus quaeremus. 
+      Cir<lb ed="#C" n="49" break="no"/>I. quaeremus duo. Primo de ipsa 
+      <lb ed="#C" n="50"/>Divina electione. Secundo de 
+      causali<lb ed="#C" n="51" break="no"/>tate eius. Item circa 1. quaeremus duo. 
+      <lb ed="#C" n="52"/>Primo, utrum in Deo cadat electio?: 
+      Se<lb ed="#C" n="53" break="no"/>cundo de ordine electionis ad praedesti 
+      <lb ed="#C" n="54"/>nationem. 
+    </p>
+            <div xml:id="Gi9qrR-g01460-Dd1e153">
+               <head xml:id="Gi9qrR-g01460-Hd1e155">Articulus 1</head>
+               <p xml:id="Gi9qrR-g01460-d1e158">
+                  <lb ed="#C" n="55"/>ARTICVLVS I. 
+        <lb ed="#C" n="56"/>Vtrum in Deo cadat electio?
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e165">
+                  <lb ed="#C" n="57"/>AD 1. sic proceditur: videtur quod  
+        <lb ed="#C" n="58"/>in Deo non cadat electio: quia 
+        secun<lb ed="#C" n="59" break="no"/>dum Damasc. lib. 2. cap. 22. eligere est 
+        na<lb ed="#C" n="60" break="no"/>turae ignorantis; sed in Deo non cadit 
+        <lb ed="#C" n="61"/>aliqua ignorantia, ergo in eo non cadit 
+        <lb ed="#C" n="62"/>aliqua electio.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e181">
+        Praeterea: secundum 
+        eun<lb ed="#C" n="63" break="no"/>dem lib. 2. cap. 24. semper electionem 
+        <!--797.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="64"/>antecedit consilium; sed Ignorantis quippe 
+        <lb ed="#C" n="65"/>est consilium inire (ut ipse dicit eodem lib. 
+        <lb ed="#C" n="66"/>cap. 22.) quia nullus consiliatur de his, 
+        <lb ed="#C" n="67"/>quae novit. Cum igitur Deus omnia 
+        <lb ed="#C" n="68"/>cognoscat, in eo non cadit consilium; 
+        <lb ed="#C" n="69"/>sed electio non est sine consilio, 
+        scili<lb ed="#C" n="70" break="no"/>cet praecedente, igitur in Deo nulla 
+        ca<lb ed="#C" n="71" break="no"/>dit electio.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e207">
+        Praeterea: ut potest haberi a 
+        <lb ed="#C" n="72"/>Philosopho 3. Ethic. electio est quasi 
+        conclu<lb ed="#C" n="73" break="no"/>sio consilij, sed hoc non convenit nisi 
+        <lb ed="#C" n="74"/>his, qui intelligunt cum discursu: quia 
+        <lb ed="#C" n="75"/>illi proprie ex premissis concludunt. 
+        <lb ed="#C" n="76"/>qui cum discursu intelligunt. Cum 
+        igi<lb ed="#C" n="77" break="no"/>tur intelligere cum discursu Deo non 
+        <lb ed="#C" n="78"/>conveniat: electio in Deo non cadet, 
+        <lb ed="#C" n="79"/>Praeterea: videtur saltem, quod ab 
+        aeter<lb ed="#C" n="80" break="no"/>no Deus non elegerit aliquos: quia 
+        ele<lb ed="#C" n="81" break="no"/>ctio requirit multitudinem: cum igitur 
+        <lb ed="#C" n="82"/>creatura in Creatore non sit aliud, quam 
+        <lb ed="#C" n="83"/>creatrix essentia, ab aeterno omnia erant 
+        <lb ed="#C" n="84"/>unum: quia erant idem, quod ipse Deus. 
+        <lb ed="#C" n="85"/>Non ergo tunc electio Deo convenire 
+        <lb ed="#C" n="86"/>poterat.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e243">
+        Praeterea: Diony. 3. de Divin. 
+        <lb ed="#C" n="87"/>nom. vult, quod Deus se habeat 
+        aequa<lb ed="#C" n="88" break="no"/>liter ad omnia, ergo si aliqui eliguntur,  
+        <lb ed="#C" n="89"/>&amp; aliqui reprobantur, hoc non est 
+        ex<lb ed="#C" n="90" break="no"/>parte Dei: quia ad omnia aequaliter se 
+        <lb ed="#C" n="91"/>habet: sed ex parte eorum, qui 
+        Divi<lb ed="#C" n="92" break="no"/>nam influentiam recipiunt. Cum igitur  
+        <lb ed="#C" n="93"/>ab aeterno non esset differentia inter 
+        <lb ed="#C" n="94"/>homines: quia non erant ab aeterno, 
+        <lb ed="#C" n="95"/>Deus eos non elegit.  
+        <!--798.xml-->
+        <pb ed="#C" n="773"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>In contrarium est: quia dicitur ad 
+        Ephe<lb ed="#C" n="2" break="no"/>1. quod Elegit nos in ipso ante mundi 
+        consti<lb ed="#C" n="3" break="no"/>tutionem. Non igitur Deo solum 
+        com<lb ed="#C" n="4" break="no"/>petit eligere; sed etiam aeternaliter, &amp; 
+        <lb ed="#C" n="5"/>ante mundi constitutionem dicitur 
+        ali<lb ed="#C" n="6" break="no"/>quos elegisse. 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e285">
+                  <lb ed="#C" n="7"/>RESOLVTIO. 
+        <lb ed="#C" n="8"/>Consilium pro firma cognitione in Deo poni¬ 
+        <lb ed="#C" n="9"/>tur: &amp; ita electio firmam praesupponens 
+        <lb ed="#C" n="10"/>cognitionem; non discursum &amp; 
+        <lb ed="#C" n="11"/>inquisitionem. 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e298">
+                  <lb ed="#C" n="12"/>REspond. dicendum, quod electio  
+        <lb ed="#C" n="13"/>videtur praesupponere consilium: 
+        <lb ed="#C" n="14"/>igitur de electione dupliciter est loque 
+        <lb ed="#C" n="15"/>dum: sicut &amp; de consilio. Sunt autem in 
+        <lb ed="#C" n="16"/>consilio duo consideranda. Primo 
+        in<lb ed="#C" n="17" break="no"/>quisitio &amp; ratiocinatio. Secundo post 
+        <lb ed="#C" n="18"/>ratiocinationem &amp; inquisitionem 
+        quo<lb ed="#C" n="19" break="no"/>dammodo firma cognitio. Si ergo 
+        con<lb ed="#C" n="20" break="no"/>sideramus consilium ratione 
+        inquisitio<lb ed="#C" n="21" break="no"/>nis &amp; ratiocinationis, sic in Deo non 
+        <lb ed="#C" n="22"/>cadit consilium: quia sic accepto 
+        con<lb ed="#C" n="23" break="no"/>siliari, est solum naturae ignorantis: &amp; 
+        <lb ed="#C" n="24"/>sicut non est in Deo consilium sic act 
+        <lb ed="#C" n="25"/>ceptum: sic non est in eo electio, quae 
+        <lb ed="#C" n="26"/>tale consilium praesupponit: &amp; quia 
+        Da<lb ed="#C" n="27" break="no"/>masc. sic diffinit consilium 2. lib. cap. 
+        <lb ed="#C" n="28"/>22. quod est appetitus inquisitivus: ideo 
+        <lb ed="#C" n="29"/>a Deo &amp; consilium &amp; electionem 
+        se<lb ed="#C" n="30" break="no"/>quentem consilium tale negat, dicens 
+        <lb ed="#C" n="31"/>talia attribuenda esse ignoranti naturae, 
+        <lb ed="#C" n="32"/>Si vero consideramus consilium non 
+        <lb ed="#C" n="33"/>ratione inquisitionis, sed ratione firme 
+        <lb ed="#C" n="34"/>cognitionis, sic dicimus Deum 
+        opera<lb ed="#C" n="35" break="no"/>ri omnia secundum consilium 
+        volun<lb ed="#C" n="36" break="no"/>tatis, sive quia omnium firmam 
+        cogni<lb ed="#C" n="37" break="no"/>tionem habet: sicut in eo cadit tale 
+        con<lb ed="#C" n="38" break="no"/>silium: sicut &amp; electio praesupponens 
+        fir<lb ed="#C" n="39" break="no"/>mam cognitionem, non discursum, &amp; 
+        <lb ed="#C" n="40"/>inquisitionem, ei convenire potest. 
+        Nar<lb ed="#C" n="41" break="no"/>rat autem Philosophus multa in lib. Ethi. de 
+        <lb ed="#C" n="42"/>electione, inter quae possumus quinque 
+        <lb ed="#C" n="43"/>accipere, propter quae potest nobis 
+        Di<lb ed="#C" n="44" break="no"/>vina electio aliqualiter innotescere. 
+        Pri<lb ed="#C" n="45" break="no"/>mum est, quod Electio non est de fine, sed  
+        <lb ed="#C" n="46"/>eorum, quae sunt ad finem, ut dicitur 3. Ethi. 
+        <lb ed="#C" n="47"/>Nam nullus eligit sanitatem vel 
+        foelici<lb ed="#C" n="48" break="no"/>atem, eligit tamen ea, per quae possit 
+        <lb ed="#C" n="49"/>fieri sanus sive foelix. Secundo electio 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e383">
+                  <lb ed="#C" n="50"/>est solummodo bonorum. Vnde &amp; in 
+        <lb ed="#C" n="51"/>eodem cap. scribitur, quod eligimus 
+        <lb ed="#C" n="52"/>quidem quae maxime scimus bona ex¬ 
+        <!--798.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="53"/>istentia. Tertio non est aeternorum &amp; 
+        <lb ed="#C" n="54"/>eorum, quae non possunt aliter se 
+        habe<lb ed="#C" n="55" break="no"/>re: quia sicut nullus consiliatur de 
+        ae<lb ed="#C" n="56" break="no"/>ternis, ita nec aeterna sub electione 
+        ca<lb ed="#C" n="57" break="no"/>dunt vel ea, quae non possunt aliter 
+        se<lb ed="#C" n="58" break="no"/>habere. Quarto: non est eorum, quae 
+        <lb ed="#C" n="59"/>sunt a fortuna: quia sicut nullus 
+        consi<lb ed="#C" n="60" break="no"/>liatur de thesauri inventione, ita &amp; nun 
+        <lb ed="#C" n="61"/>lus talia eligit: Nem quod est 
+        consilia<lb ed="#C" n="62" break="no"/>bile, non est eligibile. Quinto facta &amp; 
+        <lb ed="#C" n="63"/>praeterita sub electione non cadunt: un 
+        <lb ed="#C" n="64"/>de dicitur <ref xml:id="Gi9qrR-g01460-Rd1e422">6. Ethic.c. 3.</ref> quod nihil 
+        factu<lb ed="#C" n="65" break="no"/>est eligibile: quia nullus eligit Ilium 
+        <lb ed="#C" n="66"/>captam fuisse: nec consiliatur aliquis de 
+        <lb ed="#C" n="67"/>facto. 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e432">
+                  <lb ed="#C" n="68"/>Possemus autem &amp; si vellemus, ad 
+        <lb ed="#C" n="69"/>dere sextum, videlicet, quod electio 
+        <lb ed="#C" n="70"/>subsignilicationem &amp; separationem impor 
+        <lb ed="#C" n="71"/>tat. Vnde &amp; <ref xml:id="Gi9qrR-g01460-Rd1e442">3. Ethicc. 5.</ref> scribitur: quod 
+        <lb ed="#C" n="72"/>electio est cum ratione &amp; intellectu sub 
+        <lb ed="#C" n="73"/>significare, quod &amp; ipsum nomen 
+        de<lb ed="#C" n="74" break="no"/>signat. Haec autem ad Divina 
+        transfere<lb ed="#C" n="75" break="no"/>tes dicamus, Deum aliquos eligere, in 
+        <lb ed="#C" n="76"/>quantum eos secundum cognitionem 
+        <lb ed="#C" n="77"/>&amp; intellectum ab alijs separat; quia, ut  
+        <lb ed="#C" n="78"/>ultimo assignatum fuit, electio 
+        impor<lb ed="#C" n="79" break="no"/>tat separationem. Huiusmodi autem 
+        se<lb ed="#C" n="80" break="no"/>paratio &amp; electio primo est respectu 
+        <lb ed="#C" n="81"/>eorum, quae sunt eiusdem generis, sive 
+        <lb ed="#C" n="82"/>quae ordinantur ad unum finem. 
+        Secun<lb ed="#C" n="83" break="no"/>do est solum bonorum. Tertio non est 
+        <lb ed="#C" n="84"/>respectu ipsius Dei, sed respectu 
+        creatu<lb ed="#C" n="85" break="no"/>rarum. Quarto electio praesupponit 
+        <lb ed="#C" n="86"/>electorum cognitionem firmam. Quina 
+        <lb ed="#C" n="87"/>to &amp; ultimo huiusmodi electio potest. 
+        <lb ed="#C" n="88"/>esse aeterna &amp; temporalis. Nam, ut 
+        pri<lb ed="#C" n="89" break="no"/>mo dicebatur, electio est eorum, quae 
+        <lb ed="#C" n="90"/>sunt ad finem. Oportet ergo multa 
+        or<lb ed="#C" n="91" break="no"/>dinari secundum aliquem modum ad 
+        <lb ed="#C" n="92"/>aliquem finem, &amp; de illis multis aliqua 
+        <lb ed="#C" n="93"/>eligere ad finem: aliquando igitur Deus 
+        <lb ed="#C" n="94"/>per electionem non separat, vel non 
+        eli<lb ed="#C" n="95" break="no"/>igit rationalia ab irrationa ibus, eo quod 
+        <lb ed="#C" n="96"/>rationalia cum irrationalibus non 
+        or<lb ed="#C" n="97" break="no"/>dinentur ad gloriam, ad quam electi 
+        <lb ed="#C" n="98"/>eliguntur; sed solum eligit rationalia a 
+        <lb ed="#C" n="99"/>rationalibus. Et ex hoc mani festum est 
+        <lb ed="#C" n="100"/>primum, videlicet, electionem tantum 
+        <lb ed="#C" n="101"/>esse respectu eorum, quae sunt eiusdem 
+        <lb ed="#C" n="102"/>generis. Secundo, ut dicebatur, electio 
+        <lb ed="#C" n="103"/>est solum bonorum. Licet ergo mali 
+        se<lb ed="#C" n="104" break="no"/>parentur a bonis; &amp; econverso: soli 
+        ta<lb ed="#C" n="105" break="no"/>tamen boni dicuntur electi: quia 
+        ele<lb ed="#C" n="106" break="no"/>ctio tantum bonorum est. Tertio non 
+        <lb ed="#C" n="107"/>est aeternorum &amp; eorum, quae non 
+        pos<lb ed="#C" n="108" break="no"/>sunt se aliter haberem: &amp; quia Deus 
+        <!--799.xml-->
+        <pb ed="#C" n="774"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tatem suam non potest non velle, om¬ 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e535">
+                  <lb ed="#C" n="2"/>nem aliam bonitatem potest velle; &amp; 
+        <lb ed="#C" n="3"/>non velle, respectu sui electionem non 
+        <lb ed="#C" n="4"/>habebit, sed respectu aliorum, quod 
+        <lb ed="#C" n="5"/>tertio declarandum dicebatur. Haec etiam 
+        <lb ed="#C" n="6"/>veritas ex eo, quod primo de electione 
+        <lb ed="#C" n="7"/>dictum fuit, declarari potest: quia 
+        ele<lb ed="#C" n="8" break="no"/>ctio non est finis, sed eorum, quae sunt,  
+        <lb ed="#C" n="9"/>ad finem. Deus igitur eligit alia, &amp; 
+        <lb ed="#C" n="10"/>non se. Quarto, ut tangebatur, electio 
+        <lb ed="#C" n="11"/>non est eorum, quae sunt per accidens, 
+        <lb ed="#C" n="12"/>&amp; praeter intentionem. Et quia 
+        opor<lb ed="#C" n="13" break="no"/>tet intentionem eligentis versari circa 
+        <lb ed="#C" n="14"/>electa: cum hoc absque cognitione 
+        es<lb ed="#C" n="15" break="no"/>se non possit, Deus electorum 
+        cer<lb ed="#C" n="16" break="no"/>tam cognitionem habet, non casualem 
+        <lb ed="#C" n="17"/>vel fortuitam. Quinto Divina electio 
+        <lb ed="#C" n="18"/>potest esse aeterna &amp; temporalis. Nam, 
+        <lb ed="#C" n="19"/>ut dictum est, electio non est 
+        praeterito<lb ed="#C" n="20" break="no"/>rum vel factorum. Dupliciter ergo 
+        ali<lb ed="#C" n="21" break="no"/>quis potest eligere: ut secundum propo 
+        <lb ed="#C" n="22"/>situm voluntatis suae, ut ex eo quod in 
+        in<lb ed="#C" n="23" break="no"/>tentione sua alia ab alijs separat: vel 
+        se<lb ed="#C" n="24" break="no"/>cundum executionem operis, cum 
+        actua<lb ed="#C" n="25" break="no"/>liter separat electa a non electis. Primo 
+        <lb ed="#C" n="26"/>modo Deus eligit aeternaliter, quia ab 
+        <lb ed="#C" n="27"/>aeterno secundum propositum 
+        volunta<lb ed="#C" n="28" break="no"/>tis suae electos ab alijs separavit. 
+        Secun<lb ed="#C" n="29" break="no"/>do modo eligit temporaliter, 
+        inquan<lb ed="#C" n="30" break="no"/>tum aliquos, vel a peccato originalil 
+        iquidehl<lb ed="#C" n="31" break="no"/>actuali per collationem gratiae separat, 
+        <lb ed="#C" n="32"/>vel etiam aliquem a communi statu 
+        ho<lb ed="#C" n="33" break="no"/>minum separat, ipsum in Praelatum eli, 
+        <lb ed="#C" n="34"/>gendo. Potest igitur electio Divina non 
+        <lb ed="#C" n="35"/>solum esse temporalis, sed aeterna, cum 
+        <lb ed="#C" n="36"/>sit futurorum, &amp; non sit contra 
+        ratio<lb ed="#C" n="37" break="no"/>nem creaturarum ab aeterno fuisse futu 
+        <lb ed="#C" n="38"/>ras. Patet igitur electionem in Deo esse 
+        <lb ed="#C" n="39"/>&amp; qualiter,  
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e621">
+                  <lb ed="#C" n="40"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="41"/>quod in Deo non est electio, quae 
+        conse<lb ed="#C" n="42" break="no"/>quitur consilium, secundum quod 
+        con<lb ed="#C" n="43" break="no"/>ilium ratiocinationem &amp; inquisitionem 
+        <lb ed="#C" n="44"/>importat: quia huiusmodi eligere est na 
+        <lb ed="#C" n="45"/>i turae ignorantis: sed est in eo electio, 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e637">
+                  <lb ed="#C" n="46"/>quae sequitur cognitionem firmam, ut 
+        <lb ed="#C" n="47"/>ostensum est. Et per hoc patet solutio 
+        <lb ed="#C" n="48"/>ad 2. &amp; 3. quia arguunt de electione 
+        pre<lb ed="#C" n="49" break="no"/>supponente consilium, prout consilium 
+        <lb ed="#C" n="50"/>inquisitionem &amp; ratiocinationem 
+        im<lb ed="#C" n="51" break="no"/>portat.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e653">
+        Ad 4. dicendum, quod si ab 
+        ae<lb ed="#C" n="52" break="no"/>terno non fuerunt multa secundum 
+        es<lb ed="#C" n="53" break="no"/>se, quod habent in natura propria, 
+        fue<lb ed="#C" n="54" break="no"/>runt tamen multa secundum esse, quod  
+        <lb ed="#C" n="55"/>habent in cognoscente: quia Deus ab 
+        <lb ed="#C" n="56"/>aeterno vidit quidquid faciendum erat in 
+        <!--799.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>tempore secundum esse propriae 
+        natu<lb ed="#C" n="58" break="no"/>rae, ita quod rebus accipientibus esse. 
+        ni<lb ed="#C" n="59" break="no"/>hil scientiae Divinae accrevit, &amp; sufficit 
+        <lb ed="#C" n="60"/>sic multa ab aeterno ponere ad hoc,  
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e679">
+                  <lb ed="#C" n="61"/>quod Deus ab aeterno elegerit. Ad 
+        <lb ed="#C" n="62"/>5. dicendum, quod Deus se habet 
+        aequa<lb ed="#C" n="63" break="no"/>liter ad omnia, praesupposito ordine &amp; 
+        <lb ed="#C" n="64"/>dispositione rerum. Vnde consuevit distin 
+        <lb ed="#C" n="65"/>gui duplex habitudo ad creaturas, una, 
+        <lb ed="#C" n="66"/>quae respicit primam distinctionem 
+        re<lb ed="#C" n="67" break="no"/>rum, &amp; secundum hanc Deus non se 
+        <lb ed="#C" n="68"/>habet aequaliter ad onia; sed secudum 
+        or<lb ed="#C" n="69" break="no"/>dinem suae sapientiae diversis rebus diversa 
+        <lb ed="#C" n="70"/>naturas instituit. Alia habitudo est, secut 
+        <lb ed="#C" n="71"/>dum quam rebus iam dispositis, &amp; 
+        se<lb ed="#C" n="72" break="no"/>cundum naturam suam ordinatis 
+        pro<lb ed="#C" n="73" break="no"/>videt. Et quantum ad hanc habitudine 
+        <lb ed="#C" n="74"/>dicitur Deus se habere aequaliter ad om 
+        <lb ed="#C" n="75"/>nia, inquantum cuilibet providet secun 
+        <lb ed="#C" n="76"/>dum suam proportionem, sicut Sol, quam 
+        <lb ed="#C" n="77"/>tum est de se, aequaliter calefacit omnia 
+        <lb ed="#C" n="78"/>attamen quia in rebus sunt diversi 
+        gra<lb ed="#C" n="79" break="no"/>dus, aliqua magis calefiunt a Sole, &amp; 
+        <lb ed="#C" n="80"/>aliqua minus, secundum quod sunt 
+        ma<lb ed="#C" n="81" break="no"/>gis &amp; minus disposita ad recipiendum 
+        <lb ed="#C" n="82"/>polis influentiam: sic Deus, quantum 
+        <lb ed="#C" n="83"/>est de se, aequaliter omnibus influit: atta 
+        <lb ed="#C" n="84"/>men res huiusmodi influentiam 
+        inaequa<lb ed="#C" n="85" break="no"/>liter suscipiunt propter diversos 
+        gra<lb ed="#C" n="86" break="no"/>dus existentes in ipsis. Sed si ulterium 
+        <lb ed="#C" n="87"/>quaereretur: unde sumpsit ordinem ista 
+        <lb ed="#C" n="88"/>diversitas graduum? Dicendum esset, 
+        <lb ed="#C" n="89"/>quod ex ordine Divinae sapientiae, 
+        secun<lb ed="#C" n="90" break="no"/>dum quam Deus diversis rebus diverso 
+        <lb ed="#C" n="91"/>gradus indidit. Si igitur reprobatio &amp; 
+        <lb ed="#C" n="92"/>approbatio sumuntur pro prima 
+        re<lb ed="#C" n="93" break="no"/>rum distinctione, tunc argumentum 
+        <lb ed="#C" n="94"/>peccat in materia: quia secundum 
+        <lb ed="#C" n="95"/>hanc habitudinem Deus aequaliter non 
+        <lb ed="#C" n="96"/>se habet ad omnia. Si autem sumuntur 
+        <lb ed="#C" n="97"/>non pro prima distinctione rerum, sed 
+        <lb ed="#C" n="98"/>pro rebus iam dispositis, tunc etiam 
+        assu<lb ed="#C" n="99" break="no"/>mit falsa, &amp; peccat in materia: quia 
+        <lb ed="#C" n="100"/>inter ipsas res iam est aliqua distinctio: 
+        <lb ed="#C" n="101"/>&amp; si non secundum esse naturae proprie; 
+        <lb ed="#C" n="102"/>est tamen secundum Divinum 
+        proposi<lb ed="#C" n="103" break="no"/>tum, &amp; eius praescientiam. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g01460-Dd1e776">
+               <head xml:id="Gi9qrR-g01460-Hd1e778">Articulus 2</head>
+               <p xml:id="Gi9qrR-g01460-d1e781">
+        <!--800.xml-->
+                  <pb ed="#C" n="775"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ARTICVLVS II. 
+        <lb ed="#C" n="2"/>Vtrum electio praedestinationem praecedat? 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e794">
+                  <lb ed="#C" n="3"/>SEcundo quaeritur: utrum electio 
+        <lb ed="#C" n="4"/>praedestinationem praecedat? Et 
+        vi<lb ed="#C" n="5" break="no"/>detur quod non: quia aliquid eligitur 
+        <lb ed="#C" n="6"/>ex eo quod habet rationem boni; sed  
+        <lb ed="#C" n="7"/>non habet rationem boni nisi ex eos 
+        <lb ed="#C" n="8"/>quod consequitur finem &amp; bonum. S. 
+        <lb ed="#C" n="9"/>igitur dirigere aliquid in fine est prius, 
+        <lb ed="#C" n="10"/>quam finem consequi, praedestinatio  
+        <lb ed="#C" n="11"/>quae dicit directionem in inem, est prior 
+        <lb ed="#C" n="12"/>electione, quae videtur importare finis 
+        <lb ed="#C" n="13"/>consecutionem.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e820">
+        Praeterea: electio 
+        <lb ed="#C" n="14"/>vocationem quamdam importat: quia 
+        <lb ed="#C" n="15"/>ex hoc aliqui eliguntur a Deo, quia se 
+        <lb ed="#C" n="16"/>cundum Divinum propositum ad 
+        ali<lb ed="#C" n="17" break="no"/>quid speciale vocantur: sed vocatio 
+        <lb ed="#C" n="18"/>praedestinationem sequitur: quia Apo 
+        <lb ed="#C" n="19"/>stolus ad Rom. 8. praedestinationem 
+        <lb ed="#C" n="20"/>ante vocationem ordinat, dicens 
+        <lb ed="#C" n="21"/>Quos autem praedestinavit, hos &amp; vocavit, 
+        <lb ed="#C" n="22"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e842">
+        Praeterea: electio est actus vo 
+        <lb ed="#C" n="23"/>luntatis: Nam sicut finis &amp; ea, quae sum 
+        <lb ed="#C" n="24"/>ad finem, sunt voluntatis obiectum, &amp; 
+        <lb ed="#C" n="25"/>ea, circa quae versatur voluntas, sic elige 
+        <lb ed="#C" n="26"/>re &amp; velle ad voluntatem pertinent: cum 
+        <lb ed="#C" n="27"/>voluntas sit finis, electio e orum, quae 
+        <lb ed="#C" n="28"/>sunt ad finem: sicut dicitur 3. Ethic: sed pra 
+        <lb ed="#C" n="29"/>destinatio est actus intellectus: eo quod 
+        <lb ed="#C" n="30"/>dirigere, quod per praedestinationem 
+        im<lb ed="#C" n="31" break="no"/>portatur, ad rationem pertineat. Cum 
+        <lb ed="#C" n="32"/>igitur actus intellectus praecedat actum 
+        <lb ed="#C" n="33"/>voluntatis, sicut forma praecedit 
+        incli<lb ed="#C" n="34" break="no"/>nationem ad formam, praedestinatio erit 
+        <lb ed="#C" n="35"/>prior electione.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e874">
+        Praeterea: praedestina 
+        <lb ed="#C" n="36"/>tio supra praescientiam videtur addere 
+        <lb ed="#C" n="37"/>voluntatem salutis; sed electio supri 
+        <lb ed="#C" n="38"/>praescientiam hoc etiam addere vide 
+        <lb ed="#C" n="39"/>tur: quia quos Deus eligit, salvari vult,  
+        <lb ed="#C" n="40"/>ergo praedestinatio est idem, quod 
+        ele<lb ed="#C" n="41" break="no"/>ctio. Non ergo electio praecedit 
+        <lb ed="#C" n="42"/>eam, cum idem se ipsum non 
+        praece<lb ed="#C" n="43" break="no"/>dat. 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e894">
+                  <lb ed="#C" n="44"/>In contrarium est: quia cum 
+        ele<lb ed="#C" n="45" break="no"/>ctio separationem importet, &amp; Deus 
+        <lb ed="#C" n="46"/>non omnes praedestinet, sive non ones 
+        di<lb ed="#C" n="47" break="no"/>rigat, prius oportet eum separare 
+        diri<lb ed="#C" n="48" break="no"/>gendos a non dirigendis, quam dirigat 
+        <lb ed="#C" n="49"/>illos: &amp; quia electio importat 
+        separa<lb ed="#C" n="50" break="no"/>tionem, praedestinatio directionem, 
+        ele<lb ed="#C" n="51" break="no"/>ctio praedestinationem praecedet.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e914">
+        <!--800.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="52"/>RESOLVTIO. 
+        <lb ed="#C" n="53"/>Electio aeterna Praedestinationem praecedi 
+        <lb ed="#C" n="54"/>secundum nostrum intelligendi 
+        <lb ed="#C" n="55"/>modum. 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e930">
+                  <lb ed="#C" n="56"/>REspond. dicendum, quod omnia 
+        <lb ed="#C" n="57"/>quae in Deo sunt, habent esse unum: 
+        <lb ed="#C" n="58"/>cum Deus sit summe simplex: &amp; idee 
+        <lb ed="#C" n="59"/>ones huiusmodi Divini actus, unt in Dee 
+        <lb ed="#C" n="60"/>sunt, realiter differre non possunt: 
+        Se<lb ed="#C" n="61" break="no"/>eorum differentia est solum secundum 
+        <lb ed="#C" n="62"/>intellectum: &amp; quia prius &amp; posteriu 
+        <lb ed="#C" n="63"/>distinctionem praesupponunt solum 
+        secun<lb ed="#C" n="64" break="no"/>dum modum intelligendi, prius &amp; posteriu 
+        <lb ed="#C" n="65"/>Sibi assignare possumus: &amp; quantum ad 
+        <lb ed="#C" n="66"/>talem antecessionem dicere possumus 
+        <lb ed="#C" n="67"/>quod electio praedestinationem 
+        praece<lb ed="#C" n="68" break="no"/>dat: Nam, ut in arguendo tangebatur, s 
+        <lb ed="#C" n="69"/>aliquis aliqua dirigere vellet, &amp; alia non 
+        <lb ed="#C" n="70"/>dirigere, nisi separaret dirigeda a non d 
+        <lb ed="#C" n="71"/>rigedis; casualiter solum dirigenda diri 
+        <lb ed="#C" n="72"/>geret: &amp; quia respectu Dei nihil est per 
+        <lb ed="#C" n="73"/>accidens nec casuale, sed omnia sub 
+        <lb ed="#C" n="74"/>sunt ordini sapientiae suae, sequitu 
+        <lb ed="#C" n="75"/>quod prius eligat aliqua, &amp; postea diri 
+        <lb ed="#C" n="76"/>gat sive praedestinet.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e978">
+                  <lb ed="#C" n="77"/>Et ut melius appareat, quomodo huiu 
+        <lb ed="#C" n="78"/>modi actus Divini ordinationem quam 
+        <lb ed="#C" n="79"/>dam habent, nontandum, quod ista se 
+        <lb ed="#C" n="80"/>habent per ordinem, videlicet, 
+        dispo<lb ed="#C" n="81" break="no"/>sitio, electio; dilectio, liber vitae, prae 
+        <lb ed="#C" n="82"/>destinatio, vocatio, iustificatio, &amp; prae 
+        <lb ed="#C" n="83"/>miatio: Nam dispositio praecedit 
+        dile<lb ed="#C" n="84" break="no"/>ctionem, accipiendo dilectionem, 
+        se<lb ed="#C" n="85" break="no"/>cundum quod Deus dicitur bonos 
+        di<lb ed="#C" n="86" break="no"/>sigere, malos autem odire, iuxta illuo 
+        <lb ed="#C" n="87"/>Malach. 1. Dilexi Iacob: Esau odio habus 
+        <lb ed="#C" n="88"/>Nam talis dilectio non est aliud nisi se 
+        <lb ed="#C" n="89"/>cundum quod Deus suis amicis vult b 
+        <lb ed="#C" n="90"/>num gratie &amp; gioriae. Cum igitur disp 
+        <lb ed="#C" n="91"/>sitio universi attendatur secundum gra 
+        <lb ed="#C" n="92"/>dus naturarum, secundum quod aliqu 
+        <lb ed="#C" n="93"/>creaturae secudum naturam suam sun 
+        <lb ed="#C" n="94"/>superiores, aliquae inferiores, dilectio at 
+        <lb ed="#C" n="95"/>tem, ut hic de ea loquimur, attenda 
+        <lb ed="#C" n="96"/>tur inquantum Deus sion uniformiter 
+        <lb ed="#C" n="97"/>sua donam communicat, sed aliquibu 
+        <lb ed="#C" n="98"/>suam gratiam tribuit, aliquibus autem non 
+        <lb ed="#C" n="99"/>dispositio praecedit dilectionem sic 
+        ac<lb ed="#C" n="100" break="no"/>ceptam, sicut natura praecedit gratiam &amp; 
+        <lb ed="#C" n="101"/>commune speciale. Dilectio autem praecedit 
+        <lb ed="#C" n="102"/>electionem. Nam in Deo &amp; in nobis lest 
+        or<lb ed="#C" n="103" break="no"/>do contrarius: ut quia voluntas nostra 
+        in<lb ed="#C" n="104" break="no"/>clinatur ad volendum ex exteriori bono. 
+        <lb ed="#C" n="105"/>prius eligimus aliquid bonum, quam veli¬ 
+        <!--801.xml-->
+        <pb ed="#C" n="776"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>mus ipsumbonum nobis vel alijs: &amp; 
+        <lb ed="#C" n="2"/>quia diligere idem est, quod velle bo 
+        <lb ed="#C" n="3"/>num, prius eligimus, quam diligamus, 
+        <lb ed="#C" n="4"/>sive accipiamus dilectionem pro 
+        dile<lb ed="#C" n="5" break="no"/>ctione concupiscentiae, sive amicitiae. 
+        <lb ed="#C" n="6"/>Sed Deus prius diligit, quam eligat: 
+        <lb ed="#C" n="7"/>quia cum Divina voluntas non 
+        incline<lb ed="#C" n="8" break="no"/>tur ad volendum ex exteriori bono, &amp; 
+        <lb ed="#C" n="9"/>quia res est bona, Deus eam diligat; sed  
+        <lb ed="#C" n="10"/>magis quia rem diligit, bona existit: cum 
+        <lb ed="#C" n="11"/>eligibile habeat rationem boni, secun 
+        <lb ed="#C" n="12"/>dum modum intelligendi, Deus prius 
+        <lb ed="#C" n="13"/>vult nobis bonum, quam nos eligat: quia 
+        <lb ed="#C" n="14"/>cum non simus boni, nisi quia vult nobis 
+        <lb ed="#C" n="15"/>ponum, nec sumus eligibiles, nisi quia 
+        <lb ed="#C" n="16"/>sumus boni: Deus nos non eligit, nisi 
+        <lb ed="#C" n="17"/>quia vult nobis bonum, ergo ipsum 
+        <lb ed="#C" n="18"/>velle bonum sive ipsum diligere in Deo 
+        <lb ed="#C" n="19"/>secundum modum intelligendi 
+        ele<lb ed="#C" n="20" break="no"/>ctionem praecedit. Electio autem 
+        prae<lb ed="#C" n="21" break="no"/>cedit librum vitae. Nam liber vitae 
+        ni<lb ed="#C" n="22" break="no"/>hil est aliud nisi Divina cognitio firma 
+        <lb ed="#C" n="23"/>&amp; certa respectu eorum, qui debent 
+        di<lb ed="#C" n="24" break="no"/>rigi &amp; destinari ad vitam. Sed cum 
+        ali<lb ed="#C" n="25" break="no"/>qui dirigantur, &amp; aliqui non: secundum 
+        <lb ed="#C" n="26"/>modum intelligendi prius est 
+        separatico<lb ed="#C" n="27" break="no"/>dirigendorum a non dirigendis, quam 
+        <lb ed="#C" n="28"/>sit notitia dirigendorum sive 
+        conscrip<lb ed="#C" n="29" break="no"/>tio ipsorum, quae dicitur libet vitae. Hu 
+        <lb ed="#C" n="30"/>iusmodi autem liber vitae praecedit prae 
+        <lb ed="#C" n="31"/>destinationem. Nam, ut superius 
+        dice<lb ed="#C" n="32" break="no"/>batur, electio &amp; liber vitae &amp; praedesti 
+        <lb ed="#C" n="33"/>natio secundum modum intelligendi 
+        <lb ed="#C" n="34"/>habent ordinem, sicut electio &amp; const 
+        <lb ed="#C" n="35"/>criptio &amp; directio bellatorum ad invicem 
+        <lb ed="#C" n="36"/>ordinantur. Deus enim cum velit 
+        ali<lb ed="#C" n="37" break="no"/>quos destinare ad vitam, prius eos eli 
+        <lb ed="#C" n="38"/>igit. Secundo quodammodo 
+        metapho<lb ed="#C" n="39" break="no"/>rice eos scribit, habendo dirigendorum 
+        <lb ed="#C" n="40"/>firmam notitiam, &amp; huiusmodi firma 
+        <lb ed="#C" n="41"/>notitia dicitur liber vitae: quia ibi 
+        scrip<lb ed="#C" n="42" break="no"/>ti sunt, vel repraesentantur, qui debent 
+        <lb ed="#C" n="43"/>destinari ad vitam. Postea autem eos sic 
+        <lb ed="#C" n="44"/>electos &amp; conscriptos secundum propo 
+        <lb ed="#C" n="45"/>situm voluntatis suae ad vitam destinat 
+        <lb ed="#C" n="46"/>igitur electio praecedit librum vitae, &amp; 
+        <lb ed="#C" n="47"/>liber vitae praedestinationem. 
+        Praedesti<lb ed="#C" n="48" break="no"/>natio autem praecedit vocationem, ac 
+        <lb ed="#C" n="49"/>cipiendo vocati nem pro ipsa 
+        execu<lb ed="#C" n="50" break="no"/>tione praedestina onis, sive pro colla 
+        <lb ed="#C" n="51"/>tione gratiae: nam tunc Deus nos ad se 
+        <lb ed="#C" n="52"/>vocat, cum nobis suam gratiam tribuit, 
+        <lb ed="#C" n="53"/>Nam cum praedestinatio sit aeterna, talis 
+        <lb ed="#C" n="54"/>vocatio temporalis, praedestinatio 
+        vo<lb ed="#C" n="55" break="no"/>cationem sic acceptam praecedit, sicut 
+        ae<lb ed="#C" n="56" break="no"/>ternum temporale. Haec autem voca¬ 
+        <!--801.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>tio, licet sit idem realiter, quod 
+        iustifica<lb ed="#C" n="58" break="no"/>tio, differt tamen ratione, ut dicatur  
+        <lb ed="#C" n="59"/>homo vocarii, inquantum proficit in 
+        <lb ed="#C" n="60"/>gratiam, dicatur iustificari quantum ad 
+        <lb ed="#C" n="61"/>id, quod ex gratia consequitur, eo quod  
+        <lb ed="#C" n="62"/>effectus gratiae sit iustum facere. Vnde 
+        <lb ed="#C" n="63"/>vocatio secundum rationem 
+        iustificatio<lb ed="#C" n="64" break="no"/>nem praecedit, licet ei realiter idem 
+        ex<lb ed="#C" n="65" break="no"/>istat: vocatio autem &amp; etiam 
+        iustifica<lb ed="#C" n="66" break="no"/>tio praemiationem praecedunt: quia prius 
+        <lb ed="#C" n="67"/>est infusio gratiae, quam adeptio gloriae: 
+        <lb ed="#C" n="68"/>&amp; ideo prius est iustificatio vel vocatio 
+        <lb ed="#C" n="69"/>quam praemiatio, sive quam 
+        magnifi<lb ed="#C" n="70" break="no"/>catio ( ut ipsam praemiationem &amp; adep 
+        <lb ed="#C" n="71"/>tionem gloriae magnificationem 
+        voce<lb ed="#C" n="72" break="no"/>mus) unde ad Rom. 8. dicitur: Quos 
+        <lb ed="#C" n="73"/>autem praedestinavit. hos &amp; vocavit: &amp;  
+        <lb ed="#C" n="74"/>quos vocavit, hos &amp; iustificavit: quos autem 
+        <lb ed="#C" n="75"/>tustificavit, illos &amp; glorificavit. Patet ergo. 
+        <lb ed="#C" n="76"/>quomodo praedestinatio &amp; electio se 
+        <lb ed="#C" n="77"/>habeant adinvicem &amp; qualiter ad 
+        <lb ed="#C" n="78"/>alia, 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e1223">
+                  <lb ed="#C" n="79"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="80"/>quod electum ad dirigendum in finem 
+        <lb ed="#C" n="81"/>sive in bonum non oportet esse bonum 
+        <lb ed="#C" n="82"/>ex eo, quod actualiter habeat finem vel 
+        <lb ed="#C" n="83"/>bonum, in quod debet dirigi; sed 
+        suffi<lb ed="#C" n="84" break="no"/>cit quod in eo sit aliqualiter possibilitas 
+        <lb ed="#C" n="85"/>ad consequendum tale bonum: ideo 
+        <lb ed="#C" n="86"/>prius eligitur, quam dirigatur in ipsum 
+        <lb ed="#C" n="87"/>ponum, vel consequatur ipsum. 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e1246">
+        Ad 2. 
+        <lb ed="#C" n="88"/>dicendum, quod vocatio non proprie 
+        <lb ed="#C" n="89"/>est ipsa electio, sed est quasi quaedam 
+        <lb ed="#C" n="90"/>executio electionis: &amp; quia talis 
+        execu<lb ed="#C" n="91" break="no"/>tio quid temporale importat 
+        faccipien<lb ed="#C" n="92" break="no"/>do eam, ut de ea loquitur Apostolus, vel 
+        <lb ed="#C" n="93"/>ut de ea locuti sumus) non est 
+        incon<lb ed="#C" n="94" break="no"/>veniens praedestinationem vocationem 
+        <lb ed="#C" n="95"/>praecedere, licet electio praecedat 
+        prae<lb ed="#C" n="96" break="no"/>destinationem. Vel dicere possumus, 
+        <lb ed="#C" n="97"/>quod electio duplex est, temporalis &amp; 
+        <lb ed="#C" n="98"/>aeterna, &amp; licet electio temporalis 
+        prae<lb ed="#C" n="99" break="no"/>destinationem sequatur: quia prius 
+        ali<lb ed="#C" n="100" break="no"/>quis praedestinatur, quam actualiter &amp; 
+        <lb ed="#C" n="101"/>ecundum executionem operis alijs en atibui sjisa 
+        <lb ed="#C" n="102"/>separetur: electio tamen aeterna 
+        prae<lb ed="#C" n="103" break="no"/>destinationem praecedit, &amp; 
+        huiusmodi<lb ed="#C" n="104" break="no"/>vocatio, quae praedestinationem 
+        sequi<lb ed="#C" n="105" break="no"/>tur, si est idem cum electione, est idem 
+        <lb ed="#C" n="106"/>quod electio temporalis, non quod 
+        ele<lb ed="#C" n="107" break="no"/>ctio aeterna: attamen nec proprie est 
+        <lb ed="#C" n="108"/>idem quod talis electio, licet aliquo 
+        <lb ed="#C" n="109"/>modo sit huius electionis executio.
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e1296">
+        Ad 
+        <lb ed="#C" n="110"/>3. dicendum, quod praedestinare 
+        nun<lb ed="#C" n="111" break="no"/>quam nominat actum intellectus 
+        absolu<lb ed="#C" n="112" break="no"/>te sumptum. Sed vel nominat actum 
+        <!--802.xml-->
+        <pb ed="#C" n="777"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>voluntatis in ordine ad notionem: vel 
+        <lb ed="#C" n="2"/>nominat actum intellectus in ordine ad 
+        <lb ed="#C" n="3"/>voluntatem: &amp; quia non nominat actum 
+        <lb ed="#C" n="4"/>intellectus simpliciter, non est 
+        incon<lb ed="#C" n="5" break="no"/>veniens aliquem actum voluntatis, ut  
+        <lb ed="#C" n="6"/>electionem, praecedere huiusmodi actum 
+        <lb ed="#C" n="7"/>intellectus. 
+      </p>
+               <p xml:id="Gi9qrR-g01460-d1e1327">
+        Ad 4. dicendum, quod 
+        prae<lb ed="#C" n="8" break="no"/>destinatio non est idem, quod electio. 
+        <lb ed="#C" n="9"/>Et ad formam arguendi dicendum, 
+        <lb ed="#C" n="10"/>quod aliter supra praescientiam addit 
+        <lb ed="#C" n="11"/>voluntatem salutis electio, aliter 
+        praede<lb ed="#C" n="12" break="no"/>destinatio: quia electio supra 
+        praescien<lb ed="#C" n="13" break="no"/>tiam addit voluntatem salutis, 
+        inquan<lb ed="#C" n="14" break="no"/>tum salvandi a non salvandis 
+        separan<lb ed="#C" n="15" break="no"/>tur: praedestinatio vero addit 
+        vo<lb ed="#C" n="16" break="no"/>luntatem salutis, inquantum 
+        huiusmo<lb ed="#C" n="17" break="no"/>di salvandi secundum Divinum 
+        propo<lb ed="#C" n="18" break="no"/>situm diriguntur in vitam: &amp; quia non 
+        <lb ed="#C" n="19"/>est idem separare aliquos ab aliis, &amp; 
+        di<lb ed="#C" n="20" break="no"/>rigere eos in finem: immo huiusmodi 
+        se<lb ed="#C" n="21" break="no"/>paratio directionem praecedit, electio 
+        <lb ed="#C" n="22"/>non est idem, quod praedestinatio,  
+        <lb ed="#C" n="23"/>sed praecedit eam. 
+        <lb ed="#C" n="24"/>veet venae veer voet veet 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

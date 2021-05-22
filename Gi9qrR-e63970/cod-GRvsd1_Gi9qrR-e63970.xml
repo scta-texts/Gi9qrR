@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="238"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e63970"><!-- l1-d12q1 -->
+            <head xml:id="Gi9qrR-e63970-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e63970-d1e111">
+      <!--275.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="53"/>QVAESTIO I 
+      <lb ed="#C" n="54"/>De processione Spiritus Sancti. 
+    </p>
+            <p xml:id="Gi9qrR-e63970-d1e122">
+               <lb ed="#C" n="55"/>HIC quaeruntur duo, de 
+      <lb ed="#C" n="56"/>quibus Magister 
+      quae<lb ed="#C" n="57" break="no"/>rit. Primo de 
+      proces<lb ed="#C" n="58" break="no"/>sione Spiritus Sanct 
+      <lb ed="#C" n="59"/>quantum ad 
+      priorita<lb ed="#C" n="60" break="no"/>tem, &amp; posterioritatem 
+      <lb ed="#C" n="61"/>2. quantum ad 
+      maio<lb ed="#C" n="62" break="no"/>rem, &amp; minorem plenitudinem. 
+      Cir<lb ed="#C" n="63" break="no"/>ca primum quaeruntur duo. 1. utrum 
+      <lb ed="#C" n="64"/>generatio Filij sit prior processione 
+      Spi<lb ed="#C" n="65" break="no"/>ritus Sancti? 2. utrum Spiritus 
+      San<lb ed="#C" n="66" break="no"/>ctus prius procedat a Patre, quam a 
+      Fi<lb ed="#C" n="67" break="no"/>lio 
+    </p>
+            <div xml:id="Gi9qrR-e63970-Dd1e153">
+               <head xml:id="Gi9qrR-e63970-Hd1e155">Articulus 1</head>
+               <p xml:id="Gi9qrR-e63970-d1e158">
+                  <lb ed="#C" n="68"/>ARTICVLVS I. 
+        <lb ed="#C" n="69"/>Vtrum generatio Filij sit prior processione 
+        <lb ed="#C" n="70"/>Spiritus Sancti? 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e167">
+                  <lb ed="#C" n="71"/>AD primum sic proceditur. 
+        Vide<lb ed="#C" n="72" break="no"/>tur, quod generatio sit prior 
+        <lb ed="#C" n="73"/>processione: quia Filius procedit per 
+        <lb ed="#C" n="74"/>modum intellectus: Spiritus Sanctus 
+        <lb ed="#C" n="75"/>emanat per modum amoris. Sed 
+        cog<lb ed="#C" n="76" break="no"/>nitio praecedit amorem, ut innuit <name xml:id="Gi9qrR-e63970-Nd1e182" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="77"/>10. de Trin. cap. 1. qui vult, quod rem 
+        <lb ed="#C" n="78"/>ignotam amare non possumus, ergo.
+        <!--275.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="79"/>&amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e197">
+        Praeterea: Filius procedit per 
+        mo<lb ed="#C" n="80" break="no"/>dum naturae, Spiritus Sanctus per 
+        mo<lb ed="#C" n="81" break="no"/>dum voluntatis, sed emanatio per modum na 
+        <lb ed="#C" n="82"/>turae est prior alijs emanationibus, ergo 
+        <lb ed="#C" n="83"/>&amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e208">
+        Praeterea: sicut se habet procedens 
+        <lb ed="#C" n="84"/>ad procedens, sic se habet processio 
+        <lb ed="#C" n="85"/>ad processionem; sed Filius est 
+        princi<lb ed="#C" n="86" break="no"/>pium Spiritus Sancti, ut vult <name xml:id="Gi9qrR-e63970-Nd1e216" ref="#Augustine">August</name> 
+                  <lb ed="#C" n="87"/>5. de Trinit, cap. 14. ergo generatio 
+        <lb ed="#C" n="88"/>quae est processio Filij habet rationem 
+        <lb ed="#C" n="89"/>principij respectu processionis Spiritus 
+        <lb ed="#C" n="90"/>Sancti: sed principium videtur 
+        impor<lb ed="#C" n="91" break="no"/>tare prioritatatem, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e232">
+        Praeterea: 
+        <lb ed="#C" n="92"/>arguit Mag. in littera in persona 
+        hae<lb ed="#C" n="93" break="no"/>reticorum: Spiritus Sanctus, vel 
+        pro<lb ed="#C" n="94" break="no"/>cedit nato Filio, vel non nato? Non est 
+        <lb ed="#C" n="95"/>dicendum quod non nato: quia tunc 
+        <lb ed="#C" n="96"/>Spiritus Sanctus esset prior Filio, &amp; sic 
+        <lb ed="#C" n="97"/>voluntas sapientiam praeiret, quod est 
+        <lb ed="#C" n="98"/>contra <name xml:id="Gi9qrR-e63970-Nd1e249" ref="#Augustine">Aug.</name> in quaestionibus ad Orosium, 
+        <lb ed="#C" n="99"/>ergo procedit nato Filio: prius ergo 
+        <lb ed="#C" n="100"/>Filius natus est, quam Spiritus Sanctus 
+        <lb ed="#C" n="101"/>procedat. Sed si hoc est, generatio est 
+        <lb ed="#C" n="102"/>prior processione, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e262">
+                  <lb ed="#C" n="103"/>In contrarium est: quia secundum 
+        <lb ed="#C" n="104"/>Aug. 9. de Trin. cap. vlt. Partum mentis 
+        <lb ed="#C" n="105"/>antecedit appetitus; sed Filius est partus 
+        <lb ed="#C" n="106"/>mentis: cum procedat ut verbum; 
+        Spi<lb ed="#C" n="107" break="no"/>ritus S. procedit per modum 
+        appe<lb ed="#C" n="108" break="no"/>titus: quia ut amor, ergo processio 
+        <!--276.xml-->
+        <pb ed="#C" n="239"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>amoris spirati antecedit emanationem 
+        <lb ed="#C" n="2"/>Verbi.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e288">
+        Praeterea: in Trinitate non est 
+        <lb ed="#C" n="3"/>prius nec posterius, ut habetur in 
+        sym<lb ed="#C" n="4" break="no"/>bolo, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e295">
+                  <lb ed="#C" n="5"/>RESOLVTIO. 
+        <lb ed="#C" n="6"/>Qeneratio Filij non est prior processione Spiri¬ 
+        <lb ed="#C" n="7"/>tus Sancti, nisi solum secundum 
+        <lb ed="#C" n="8"/>nostrum modum intel¬ 
+        <lb ed="#C" n="9"/>ligendi.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e308">
+                  <lb ed="#C" n="10"/>REspond. dicendum, quod secun¬ 
+        <lb ed="#C" n="11"/>dum <name xml:id="Gi9qrR-e63970-Nd1e314" ref="#Boethius">Boetium</name> in libr. de Trinit.  
+        <lb ed="#C" n="12"/>in Divinis sunt duo praedicamenta, 
+        sub<lb ed="#C" n="13" break="no"/>stantia &amp; relatio. Si ergo volumus 
+        ac<lb ed="#C" n="14" break="no"/>cipere prioritatem, vel posterioritatem, 
+        <lb ed="#C" n="15"/>in eis, vel hoc erit quantum ad substam 
+        <lb ed="#C" n="16"/>tiam, vel quantum ad relationem: 
+        <lb ed="#C" n="17"/>quantum ad substantiam planum est, 
+        <lb ed="#C" n="18"/>quod non est ibi prioritas: quia 
+        quan<lb ed="#C" n="19" break="no"/>tum ad hoc omnia sunt ibi unum, &amp; 
+        <lb ed="#C" n="20"/>non est ibi distinctio. Sed utrum 
+        quan<lb ed="#C" n="21" break="no"/>tum ad relata, secundum quae ibi 
+        di<lb ed="#C" n="22" break="no"/>stinctionem invenimus, sit ibi prioritas 
+        <lb ed="#C" n="23"/>aliqua, est declarandum. Propter quod  
+        <lb ed="#C" n="24"/>advertendum quosdam sic dicere: 
+        <lb ed="#C" n="25"/>quod relativa suntsimul natura, &amp; 
+        inhu<lb ed="#C" n="26" break="no"/>iusmodi non potest inveniri prioritas, 
+        <lb ed="#C" n="27"/>ergo in Divinis etiam secundum 
+        rela<lb ed="#C" n="28" break="no"/>tionem non erit ibi prioritas nisi 
+        secun<lb ed="#C" n="29" break="no"/>dum modum intel igendi, inquantum 
+        <lb ed="#C" n="30"/>volumus loqui de his, quae sunt in 
+        Di<lb ed="#C" n="31" break="no"/>vinis secundum ea, quae increaturis 
+        <lb ed="#C" n="32"/>videmus. Sed ista responsio videtur 
+        si<lb ed="#C" n="33" break="no"/>bi contradicere: quia si de Divinis 
+        <lb ed="#C" n="34"/>quantum ad relationem volumus loqui  
+        <lb ed="#C" n="35"/>secundum ea, quae reperimus in 
+        crea<lb ed="#C" n="36" break="no"/>turis, cum in rebus creatis relativa sint 
+        <lb ed="#C" n="37"/>simul natura, etia quantum ad modum 
+        in<lb ed="#C" n="38" break="no"/>telligendi, ibi prius, &amp; posterius esse non 
+        <lb ed="#C" n="39"/>poterit: ideo ista responsio vel non 
+        <lb ed="#C" n="40"/>est vera, vel est insufficiens. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e381">
+                  <lb ed="#C" n="41"/>Vt ergo pateat veritas. Notandum 
+        <lb ed="#C" n="42"/>quod relatio duplex est, disparata, &amp;  
+        <lb ed="#C" n="43"/>opposita: similis autem, &amp; si est eam 
+        <lb ed="#C" n="44"/>dare, non est ad propositum: quia tales 
+        <lb ed="#C" n="45"/>relationes in Divinis plurificari non 
+        <lb ed="#C" n="46"/>possunt. Cum ergo dicitur quod 
+        rela<lb ed="#C" n="47" break="no"/>tiva sunt simul natura: intelligendum 
+        <lb ed="#C" n="48"/>est de relationibus oppositis non de 
+        dis<lb ed="#C" n="49" break="no"/>paratis. Nam ex hoc aliqua sunt simul 
+        <lb ed="#C" n="50"/>natura vel naturali intelligentia: quia 
+        <lb ed="#C" n="51"/>unum absque alio intelligi non valet: 
+        <lb ed="#C" n="52"/>&amp; quia esse relativorum est ad aliud se 
+        <lb ed="#C" n="53"/>habere, non potest intelligi unum rela¬ 
+        <!--276.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>tivum sineseo ad quod dicitur; &amp; quia 
+        <lb ed="#C" n="55"/>illud non est relativum quodlibet, sed  
+        <lb ed="#C" n="56"/>oppositum solum, opposita relativa, 
+        <lb ed="#C" n="57"/>sunt simul natura. Ideo si generatio 
+        ha<lb ed="#C" n="58" break="no"/>beret oppositionem ad spirationem, 
+        <lb ed="#C" n="59"/>tunc haberet locum ratio tacta, quod  
+        <lb ed="#C" n="60"/>non esset ibi prioritas quantum ad 
+        re<lb ed="#C" n="61" break="no"/>lationem. Sed cum huiusmodi 
+        rela<lb ed="#C" n="62" break="no"/>tiones non sint oppositae; sed 
+        dispara<lb ed="#C" n="63" break="no"/>tae: oportet nos aliter incedere. 
+        Di<lb ed="#C" n="64" break="no"/>camus ergo quod huiusmodi 
+        relatio<lb ed="#C" n="65" break="no"/>nes disparatae prout habent esse in 
+        <lb ed="#C" n="66"/>creaturis, est ibi prioritas &amp; 
+        posteriori<lb ed="#C" n="67" break="no"/>tas; sed prout habent esse in Divinis 
+        <lb ed="#C" n="68"/>non. Et est ratio: quia in relationibus 
+        <lb ed="#C" n="69"/>disparatis si quaerimus prioritatem 
+        <lb ed="#C" n="70"/>&amp; posterioritatem, hoc non est nisi 
+        ra<lb ed="#C" n="71" break="no"/>tione eorum, in quibus sunt, quae 
+        ha<lb ed="#C" n="72" break="no"/>bent esse prius, &amp; posterius. Habitum 
+        <lb ed="#C" n="73"/>est enim quod relativum a relativo 
+        <lb ed="#C" n="74"/>quantum ad relationem secundum 
+        ra<lb ed="#C" n="75" break="no"/>tionem quidditatis non distinguitur  
+        <lb ed="#C" n="76"/>nisi ab opposito, sed si per relationem 
+        <lb ed="#C" n="77"/>disparatam ab alio distinguitur, hoc  
+        <lb ed="#C" n="78"/>est, secundum esse relationis: sed 
+        se<lb ed="#C" n="79" break="no"/>cundum quod inter aliqua distinctionem 
+        <lb ed="#C" n="80"/>ponimus, sic ibi prioritatem &amp; 
+        poste<lb ed="#C" n="81" break="no"/>rioritatem, quaerimus: &amp; quia vere in 
+        <lb ed="#C" n="82"/>Divinis secundum relationes disparatas 
+        <lb ed="#C" n="83"/>distinctionem non ponimus; sed solum 
+        <lb ed="#C" n="84"/>in creaturis: secundum rei veritatem, 
+        <lb ed="#C" n="85"/>&amp; quantum ad huiusmodi relationes 
+        <lb ed="#C" n="86"/>ibi prioritas esse non poterit. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e489">
+                  <lb ed="#C" n="87"/>Dicamus ergo quod quia in 
+        Divi<lb ed="#C" n="88" break="no"/>nis non est prioritas quantum ad 
+        abso<lb ed="#C" n="89" break="no"/>luta: quia secundum talia omnia sunt,  
+        <lb ed="#C" n="90"/>ibi unum: cum omnia huiusmodi 
+        tran<lb ed="#C" n="91" break="no"/>seant in substantiam. Nec quantum ad 
+        <lb ed="#C" n="92"/>relationes similes, quia tales ibi 
+        plurifi<lb ed="#C" n="93" break="no"/>cari non possunt. Nec quantum ad 
+        op<lb ed="#C" n="94" break="no"/>ositas: quia secundum se talia sunt 
+        si<lb ed="#C" n="95" break="no"/>mul natura, vel naturali intelligentia, 
+        <lb ed="#C" n="96"/>Nec quantum ad disparatas: quia in 
+        Di<lb ed="#C" n="97" break="no"/>vinis talia realiter non distinguunt. Non 
+        <lb ed="#C" n="98"/>ergo generatio Filij erit prior 
+        spiratio<lb ed="#C" n="99" break="no"/>ne Spiritus Sancti, ut patet per habita: 
+        <lb ed="#C" n="100"/>unde <name xml:id="Gi9qrR-e63970-Nd1e521" ref="#Augustine">Aug.</name> 15. de Trinitat, cap. 26. 
+        vo<lb ed="#C" n="101" break="no"/>ens ostendere generationem Filij non 
+        <lb ed="#C" n="102"/>praecedere processionem Spiritus 
+        San<lb ed="#C" n="103" break="no"/>cti ait: quod licet in nobis sit prioritas, 
+        <lb ed="#C" n="104"/>&amp; posterioritas quantum ad appetitum, 
+        <lb ed="#C" n="105"/>&amp; cognitionem; ibi tamen ista 
+        priori<lb ed="#C" n="106" break="no"/>as, &amp; posterioritas Quaeri non possunt, ubi 
+        <lb ed="#C" n="107"/>nihil ex tempore inchoatur, ut consequenti 
+        per<lb ed="#C" n="108" break="no"/>ficiatur in tempore. Qua propter qui potest 
+        in<lb ed="#C" n="109" break="no"/>telligere sine tempore generationem Filij de Pa¬ 
+        <!--277.xml-->
+        <pb ed="#C" n="240"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tre, intelligat sine tempore processionem 
+        Spiri<lb ed="#C" n="2" break="no"/>tus Sancti de utroque: &amp; subdit: sed aulla 
+        <lb ed="#C" n="3"/>ibi tempora cogitentur, quae habent prius, &amp; 
+        <lb ed="#C" n="4"/>posterius: quia omnino nulla ibi sunt. Vult 
+        <lb ed="#C" n="5"/>enim omnem prioritatem, &amp; 
+        posterio<lb ed="#C" n="6" break="no"/>ritatem, realiter loquendo, a Divinis 
+        re<lb ed="#C" n="7" break="no"/>movere. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e566">
+                  <lb ed="#C" n="8"/>Tamen propter argumenta 
+        notan<lb ed="#C" n="9" break="no"/>dum, quod licet non sit ibi prioritas, &amp; 
+        <lb ed="#C" n="10"/>posterioritas secundum rei veritatem; 
+        <lb ed="#C" n="11"/>est tamen ibi secundum intelligendi 
+        <lb ed="#C" n="12"/>modum, quod dupliciter esse potet. 
+        <lb ed="#C" n="13"/>Primo quia Divina inteligimus per 
+        <lb ed="#C" n="14"/>creaturas, &amp; quia relationes dispa¬ 
+        <lb ed="#C" n="15"/>ratae in creaturis habent prioritatem, &amp; 
+        <lb ed="#C" n="16"/>posterioritatem, secundum nostrum mo 
+        <lb ed="#C" n="17"/>dum intelligendi ibi prius &amp; posterius 
+        <lb ed="#C" n="18"/>ponimus. 2. quia licet relationes 
+        dis<lb ed="#C" n="19" break="no"/>parate in Divinis non dissinguant 
+        reali<lb ed="#C" n="20" break="no"/>ter; secundum modum intelligendi 
+        di<lb ed="#C" n="21" break="no"/>stinguunt: &amp; ideo quantum ad modum 
+        <lb ed="#C" n="22"/>intelligendi inter tala prioritas &amp; 
+        po<lb ed="#C" n="23" break="no"/>sterioritas reservari potest: nam &amp; 
+        in<lb ed="#C" n="24" break="no"/>ter ipla attributa, quae sola ratione 
+        di<lb ed="#C" n="25" break="no"/>stinguuntur, talis prioritas reservatur. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e608">
+                  <lb ed="#C" n="26"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="27" break="no"/>cendum, quod licet cognitio in 
+        creatu<lb ed="#C" n="28" break="no"/>ris praecedat appetitum; in Divinis 
+        ta<lb ed="#C" n="29" break="no"/>men secundum rei veritatem hoc esse 
+        <lb ed="#C" n="30"/>non potest, cum ibi sapere sit idem quod 
+        <lb ed="#C" n="31"/>velle: &amp; ideo realiter ibi prioritas esse 
+        <lb ed="#C" n="32"/>non poterit; sed solum secundum 
+        mo<lb ed="#C" n="33" break="no"/>dum intelligendi. Et per hoc patet 
+        so<lb ed="#C" n="34" break="no"/>lutio ad secundum: quia natura &amp; 
+        vo<lb ed="#C" n="35" break="no"/>luntas in Divinis non differunt, ut in 
+        <lb ed="#C" n="36"/>rebus creatis.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e634">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="37"/>si concedatur generationem Filij esse 
+        <lb ed="#C" n="38"/>principium processionis Spiritus 
+        San<lb ed="#C" n="39" break="no"/>cti, non habet intentum: quia ibi 
+        sumi<lb ed="#C" n="40" break="no"/>tur ratio principij absque prioritate, ut 
+        <lb ed="#C" n="41"/>supra patuit, &amp; infra patebit.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e647">
+        Ad 4. 
+        di<lb ed="#C" n="42" break="no"/>cendum, quod illa obiectio procedit ex 
+        <lb ed="#C" n="43"/>falsa imaginatione, ut patuit in 
+        senten<lb ed="#C" n="44" break="no"/>tiando. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e656">
+                  <lb ed="#C" n="45"/>Ad illud in contrarium, quod 
+        par<lb ed="#C" n="46" break="no"/>tum mentis antecedit appetitus. 
+        Dicen<lb ed="#C" n="47" break="no"/>dum, quod hic intelligendum est in 
+        <lb ed="#C" n="48"/>his, quae prius incomplete cognoscunt, 
+        <lb ed="#C" n="49"/>&amp; podea complete: quia tunc amor 
+        <lb ed="#C" n="50"/>incompletus cognitionem completam, 
+        <lb ed="#C" n="51"/>praecedit: in Deo autem non est sic, ubi  
+        <lb ed="#C" n="52"/>propter perfectionem cognitionis non 
+        <lb ed="#C" n="53"/>ponitur cogitatio, sed Verbum. 
+        <lb ed="#C" n="54"/>Aliud in contrarium 
+        <lb ed="#C" n="55"/>concedatur.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e63970-Dd1e683">
+               <head xml:id="Gi9qrR-e63970-Hd1e685">Articulus 2</head>
+               <p xml:id="Gi9qrR-e63970-d1e688">
+        <!--277.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="56"/>ARTICVLVS II. 
+        <lb ed="#C" n="57"/>Vtrum Spiritus Sanctus prius procedat a Patre, 
+        <lb ed="#C" n="58"/>quam a Filio?
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e701">
+                  <lb ed="#C" n="59"/>SEcundo quaeritur: utrum Spiritus 
+        <lb ed="#C" n="60"/>&amp; Sanctus prius procedat a Patre, 
+        <lb ed="#C" n="61"/>quam a Filio?
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e710">
+        Et videtur quod sic: quia 
+        <lb ed="#C" n="62"/>semper illud est prius, in quo est status; 
+        <lb ed="#C" n="63"/>sed spiritus Sanctus procedit a Patre &amp; 
+        <lb ed="#C" n="64"/>Filio, Filius a Patre, Pater a nullo: 
+        er<lb ed="#C" n="65" break="no"/>go in Patre est status; sed quando 
+        ali<lb ed="#C" n="66" break="no"/>quid competit duobus, in quorum uno 
+        <lb ed="#C" n="67"/>est status, non in alio, prius competit 
+        <lb ed="#C" n="68"/>ei, in quo status est, igitur spirare prius 
+        <lb ed="#C" n="69"/>competit Patri.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e730">
+        Praeterea: secundum 
+        <lb ed="#C" n="70"/>Philos. in 1. Post. Idem dicitur primum, &amp; 
+        <lb ed="#C" n="71"/>principium: sed cum Pater sit principium 
+        <lb ed="#C" n="72"/>cilij, &amp; quidquid competit Filio, 
+        com<lb ed="#C" n="73" break="no"/>petit ei, ut est a principio, quod est 
+        Pa<lb ed="#C" n="74" break="no"/>ter, sequitur, quod illud prius Patri 
+        <lb ed="#C" n="75"/>competat.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e747">
+        Praeterea: vult Phil. in 1 
+        <lb ed="#C" n="76"/>Phys. quod aedificator aedificat, ista est 
+        <lb ed="#C" n="77"/>propria: quia est in eo quod tale, ergo 
+        <lb ed="#C" n="78"/>illae propositiones dicuntur propriae, in 
+        <lb ed="#C" n="79"/>quibus praedicata subiectis conveniunt 
+        <lb ed="#C" n="80"/>in eo quod talia; sed secundum Hiero. 
+        <lb ed="#C" n="81"/>in expositione Catholicae Fidei Nicent 
+        <lb ed="#C" n="82"/>Symboli, Spiritus Sanctus procedit a 
+        <lb ed="#C" n="83"/>Patre proprie, ut habetur in littera, 
+        er<lb ed="#C" n="84" break="no"/>go procedit a Patre in eo quod tale, cum  
+        <lb ed="#C" n="85"/>rocedat ab eo proprie; sed idem est 
+        <lb ed="#C" n="86"/>esse primo, quod esse tale in eo quod 
+        <lb ed="#C" n="87"/>tale, ergo Pater spirat primo, quod est, 
+        <lb ed="#C" n="88"/>intentum.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e778">
+        Praeterea: vult <name xml:id="Gi9qrR-e63970-Nd1e780" ref="#Augustine">Aug.</name> 15. de 
+        <lb ed="#C" n="89"/>Trin. cap. 26. quod Filius procedat a 
+        <lb ed="#C" n="90"/>Patre principaliter, sed hoc est 
+        proce<lb ed="#C" n="91" break="no"/>dere primo, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e790">
+                  <lb ed="#C" n="92"/>In contrarium est <name xml:id="Gi9qrR-e63970-Nd1e794" ref="#Augustine">August.</name> eodem 
+        <lb ed="#C" n="93"/>lib. &amp; capitulo, qui vult in spiratione 
+        <lb ed="#C" n="94"/>Spiritus Sancti non esse prius, &amp; 
+        po<lb ed="#C" n="95" break="no"/>sterius, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e804">
+        Praeterea: in una eadem 
+        <lb ed="#C" n="96"/>actione &amp; simplici non potest esse 
+        <lb ed="#C" n="97"/>prius &amp; posterius: cum variabilitas 
+        <lb ed="#C" n="98"/>unitati &amp; simplicitati repugnet; sed  
+        <lb ed="#C" n="99"/>una, &amp; eadem simplici spiratione 
+        pro<lb ed="#C" n="100" break="no"/>cedit Spiritus Sanctus a Patre &amp; 
+        Fi<lb ed="#C" n="101" break="no"/>sio, cum ipse sit simplex &amp; unus, 
+        er<lb ed="#C" n="102" break="no"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e822">
+                  <lb ed="#C" n="103"/>RESOLVTIO. 
+        <lb ed="#C" n="104"/>Spiritus Sanctus non prius procedit a Patre, 
+        <lb ed="#C" n="105"/>quam a Filio. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e831">
+                  <lb ed="#C" n="106"/>REspond. dicendum, quod si 
+        pos<lb ed="#C" n="107" break="no"/>Rsumus in aliquibus salvare distin¬ 
+        <!--278.xml-->
+        <pb ed="#C" n="241"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ctionem absque prioritate, &amp; 
+        posterio<lb ed="#C" n="2" break="no"/>ritate; non tamen est possibile alicubi 
+        <lb ed="#C" n="3"/>esse prius, &amp; posterius sine distinctione, 
+        <lb ed="#C" n="4"/>ideo secudum quod distinctionem in 
+        Divi<lb ed="#C" n="5" break="no"/>nis ponimus, sic ibi quaeratur prius, &amp; 
+        po<lb ed="#C" n="6" break="no"/>sterius. Divina autem non distinguuntur  
+        <lb ed="#C" n="7"/>nisi per relata, ut pluries dictum est. 
+        <lb ed="#C" n="8"/>Ideo videndum est quomodo 
+        reperi<lb ed="#C" n="9" break="no"/>tur prioritas in relationibus creaturarum, 
+        <lb ed="#C" n="10"/>&amp; deinde poterimus ibi reperta ad 
+        Di<lb ed="#C" n="11" break="no"/>vina transferre secundum quod 
+        ratici<lb ed="#C" n="12" break="no"/>non repugnat. Relationum autem tria 
+        <lb ed="#C" n="13"/>sunt genera, ut tactum est: quia 
+        quae<lb ed="#C" n="14" break="no"/>dam sunt similes, quaedam disparatae, &amp; 
+        <lb ed="#C" n="15"/>quaedam oppositae. Inter has autem 
+        so<lb ed="#C" n="16" break="no"/>lum oppositae sunt simul natura, vel 
+        na<lb ed="#C" n="17" break="no"/>atur ali intelligentia: quia solum 
+        oppo<lb ed="#C" n="18" break="no"/>sita relativa sunt, quorum unum sine 
+        <lb ed="#C" n="19"/>galio non potest intelligi, cum unum sit 
+        <lb ed="#C" n="20"/>alterius diffinitivum. Inter alia potest 
+        <lb ed="#C" n="21"/>esse prioritas; quia unum non est de 
+        <lb ed="#C" n="22"/>intellectu alterius, &amp; ideo relativa 
+        dis<lb ed="#C" n="23" break="no"/>parata, &amp; similia comparari possunt; 
+        <lb ed="#C" n="24"/>secundum prius, &amp; posterius; aliter 
+        ta<lb ed="#C" n="25" break="no"/>men, &amp; aliter. Quia inter similia non 
+        <lb ed="#C" n="26"/>potest inveniri per se prioritas; cum in¬ 
+        <lb ed="#C" n="27"/>ter ea, quae sunt eiusdem speciei, non 
+        <lb ed="#C" n="28"/>sit essentialis ordo; per accidens tamen 
+        <lb ed="#C" n="29"/>potest: quia videmus unum filium 
+        <lb ed="#C" n="30"/>priorem alio; sed hoc est per accidens 
+        <lb ed="#C" n="31"/>quia accidit isti filio alium praecedere; 
+        <lb ed="#C" n="32"/>quia inter disparata potest esse ordo &amp; 
+        <lb ed="#C" n="33"/>per se, ut relationes, quae sumuntur ex 
+        <lb ed="#C" n="34"/>ordine coniugum ad se invicem, ut 
+        ex<lb ed="#C" n="35" break="no"/>ordine viri ad uxorem, vel e 
+        conver<lb ed="#C" n="36" break="no"/>so; per se videntur praecedere relatio 
+        <lb ed="#C" n="37"/>nes inter parentes, &amp; filios. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e926">
+                  <lb ed="#C" n="38"/>Viso quod relationes oppositae sunt,  
+        <lb ed="#C" n="39"/>simul natura; disparatae inter se habere 
+        <lb ed="#C" n="40"/>possunt prioritatem ad invicem 
+        quodan<lb ed="#C" n="41" break="no"/>modo per se; similes autem se ipsis 
+        prio<lb ed="#C" n="42" break="no"/>res sunt solum per accidens. Si haec ad 
+        <lb ed="#C" n="43"/>ad Divina transferre volumus, 
+        transla<lb ed="#C" n="44" break="no"/>tio secundum relationes similes ibi non 
+        <lb ed="#C" n="45"/>habebit locum, cum huiusmodi in 
+        Di<lb ed="#C" n="46" break="no"/>vinis plurificari non possint. Disparatae 
+        <lb ed="#C" n="47"/>pautem, &amp; oppositae ibi plurificantur; non 
+        <lb ed="#C" n="48"/>tamen secundum eas ibi secundum rem 
+        <lb ed="#C" n="49"/>rioritas, &amp; posterioritas esse potest; 
+        li<lb ed="#C" n="50" break="no"/>cet in creaturis possit modo quo 
+        di<lb ed="#C" n="51" break="no"/>ctum est. Et ratio est: quia relationes 
+        dis<lb ed="#C" n="52" break="no"/>paratae in creaturis distinguunt 
+        reali<lb ed="#C" n="53" break="no"/>ter, non praesupposita distinctione per 
+        <lb ed="#C" n="54"/>relationes oppositas: &amp; quia per se 
+        ta<lb ed="#C" n="55" break="no"/>es relationes in creaturis distinguunt,  
+        <lb ed="#C" n="56"/>secundum eas in. rebus creatis attendi 
+        <!--278.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>poterit prioritas, &amp; posterioritas. In 
+        Di<lb ed="#C" n="58" break="no"/>vinis autem quia disparata relatio non distin 
+        <lb ed="#C" n="59"/>guit realiter nisi simul cum disparata sit 
+        <lb ed="#C" n="60"/>relatio opposita, realiter loquendo in 
+        <lb ed="#C" n="61"/>Divinis, relationes disparatae non facient 
+        <lb ed="#C" n="62"/>ordinem, nisi ut opposite faciunt: &amp; 
+        <lb ed="#C" n="63"/>quia secundum relationes oppositas 
+        in<lb ed="#C" n="64" break="no"/>ter relativa, attenditur ordo absque 
+        <lb ed="#C" n="65"/>prioritate, cum huiusmodi relationes 
+        <lb ed="#C" n="66"/>sint simul natura, secundum disparatas 
+        <lb ed="#C" n="67"/>etiam in Divinis realiter prioritas esse 
+        <lb ed="#C" n="68"/>non poterit; tamen secundum modum 
+        <lb ed="#C" n="69"/>intelligendi quantum ad huiusmodi 
+        re<lb ed="#C" n="70" break="no"/>ationes nihil prohibet ibi prioritatem, 
+        <lb ed="#C" n="71"/>esse: nam cum Divina intelligamus; 
+        <lb ed="#C" n="72"/>ecundum ea, quae in creaturis 
+        aspici<lb ed="#C" n="73" break="no"/>mus; cum in creaturis sit prioritas 
+        quan<lb ed="#C" n="74" break="no"/>tum ad relationes disparatas, quantum 
+        <lb ed="#C" n="75"/>ad huiusmodi relationes in Divinis 
+        se<lb ed="#C" n="76" break="no"/>cundum nostrum modum intelligendi 
+        <lb ed="#C" n="77"/>prioritas esse poterit. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e1020">
+                  <lb ed="#C" n="78"/>Ex hoc autem apparet, quod licet  
+        <lb ed="#C" n="79"/>quando comparamus duas Personas ad 
+        <lb ed="#C" n="80"/>invicem, quae distinguuntur 
+        relationi<lb ed="#C" n="81" break="no"/>bus oppositis &amp; disparatis, possit 
+        secun<lb ed="#C" n="82" break="no"/>dum modum intelligendi aliquid prius 
+        <lb ed="#C" n="83"/>competere uni, quam alij, non rationem 
+        <lb ed="#C" n="84"/>relationum oppositarum, sed 
+        disparata<lb ed="#C" n="85" break="no"/>rum: sicut quia Filius distinguitur a 
+        Spi<lb ed="#C" n="86" break="no"/>ritu Sancto relatione opposita &amp; 
+        dis<lb ed="#C" n="87" break="no"/>parata, dicimus generationem Filij 
+        se<lb ed="#C" n="88" break="no"/>cundum modum intelligendi 
+        praecede<lb ed="#C" n="89" break="no"/>re processionem Spiritus Sancti: quia 
+        <lb ed="#C" n="90"/>ex eo quod Filius gignitur, habet 
+        rela<lb ed="#C" n="91" break="no"/>tionem disparatam ad ipsum, qui 
+        pro<lb ed="#C" n="92" break="no"/>cedit tamen quando duas tales 
+        Per<lb ed="#C" n="93" break="no"/>onas in Divinis ad se invicem 
+        compa<lb ed="#C" n="94" break="no"/>ramus, quae solum relationibus 
+        opposi<lb ed="#C" n="95" break="no"/>tis distinguuntur, cum relatio opposita 
+        <lb ed="#C" n="96"/>nec secundum tem, nec secundum 
+        mo<lb ed="#C" n="97" break="no"/>dum intelligendi compatiatur secum 
+        <lb ed="#C" n="98"/>rioritatem, secundum quod 
+        huiusmo<lb ed="#C" n="99" break="no"/>di: cum non quaeramus prioritatem, 
+        <lb ed="#C" n="100"/>nisi propter distinctionem inter tales 
+        <lb ed="#C" n="101"/>Personas: proprie nec secundum re, 
+        <lb ed="#C" n="102"/>nec secundum intellectum prioritas 
+        es<lb ed="#C" n="103" break="no"/>se poterit. Nihil ergo uni poterit 
+        com<lb ed="#C" n="104" break="no"/>petere prius, quod alteri competat per 
+        <lb ed="#C" n="105"/>posterius, &amp; secundum modum 
+        intelli<lb ed="#C" n="106" break="no"/>gendi, &amp; quia Pater, &amp; Filius solum 
+        <lb ed="#C" n="107"/>ecundum relationes oppositas 
+        distin<lb ed="#C" n="108" break="no"/>guantur, &amp; non secundum disparatas 
+        <lb ed="#C" n="109"/>iuxta illud <name xml:id="Gi9qrR-e63970-Nd1e1091" ref="#Augustine">Aug.</name> 15. de Trin. cap. 14. 
+        <lb ed="#C" n="110"/>Verbum ergo Dei Patris, vnigenitus Filius per 
+        <lb ed="#C" n="111"/>omnia Patri similis &amp; aequalis::: est hoc 
+        om<lb ed="#C" n="112" break="no"/>nino, quod Pater; non tamen Pater: quia iste 
+        <!--279.xml-->
+        <pb ed="#C" n="242"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Filius, ille Pater. Nec spirare nec aliquid 
+        <lb ed="#C" n="2"/>aliud, quod competit Patri &amp; Filio, 
+        <lb ed="#C" n="3"/>competet prius uni, quam alij etiam 
+        se<lb ed="#C" n="4" break="no"/>cundum modum intelligendi: cum 
+        <lb ed="#C" n="5"/>inter eos non cadat relatio disparata. 
+        <lb ed="#C" n="6"/>Patet ergo Patrem non spirare prius 
+        <lb ed="#C" n="7"/>Filio. Ad hanc autem veritatem 
+        conclu<lb ed="#C" n="8" break="no"/>dendam valet Anselmi via: quia cum 
+        <lb ed="#C" n="9"/>Pater, &amp; Filius non spirent in eo quod  
+        <lb ed="#C" n="10"/>plures, sed in eo quod unum, &amp; 
+        aeter<lb ed="#C" n="11" break="no"/>naliter: cum prioritas &amp; posterioritas 
+        <lb ed="#C" n="12"/>temporalitatem &amp; distinctionem 
+        im<lb ed="#C" n="13" break="no"/>portare videantur, Spiritus Sanctus non 
+        <lb ed="#C" n="14"/>prius procedet a Patre quam a Filio: cum 
+        <lb ed="#C" n="15"/>procedat ab eis aeternaliter, &amp; prout 
+        <lb ed="#C" n="16"/>habent esse unum, &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e1143">
+                  <lb ed="#C" n="17"/>Respond. ad arg. Ad 1. ddm, quod 
+        <lb ed="#C" n="18"/>ista propositio veritatem habet, si illud, 
+        <lb ed="#C" n="19"/>in quo est status secundum quod huius, 
+        <lb ed="#C" n="20"/>habet distinctam virtutem ab alijs, &amp; 
+        <lb ed="#C" n="21"/>competit eis agere non in eo: quod 
+        <lb ed="#C" n="22"/>unum: sed Pater, &amp; Filius habent unam 
+        <lb ed="#C" n="23"/>virtutem spirativam, &amp; spirant in eo 
+        <lb ed="#C" n="24"/>quod unum.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e1163">
+        Ad 2. dicendum, quod  
+        <lb ed="#C" n="25"/>licet in creaturis idem sit primum, &amp; 
+        <lb ed="#C" n="26"/>principium; in Divinis tamen est 
+        prin<lb ed="#C" n="27" break="no"/>cipium absque prioritate, ut supra 
+        pa<lb ed="#C" n="28" break="no"/>tuit, &amp; infra patebit.
+      </p>
+               <p xml:id="Gi9qrR-e63970-d1e1174">
+        Ad 3. &amp; 4. 
+        dicen<lb ed="#C" n="29" break="no"/>dum, quod Spiritus Sanctus non 
+        dici<lb ed="#C" n="30" break="no"/>tur procedere a Patre proprie &amp; 
+        prin<lb ed="#C" n="31" break="no"/>cipaliter, eo quod prius procedat a 
+        Pa<lb ed="#C" n="32" break="no"/>tre, quam a Filio; sed quia quod 
+        prou<lb ed="#C" n="33" break="no"/>cedat a Patre, Pater non habet ab. 
+        ali<lb ed="#C" n="34" break="no"/>quo: quod procedat a Filio, Filius 
+        ha<lb ed="#C" n="35" break="no"/>bet a Patre: ideo licet non primo 
+        pro<lb ed="#C" n="36" break="no"/>cedat a Patre, tamen ut procedit a 
+        Pa<lb ed="#C" n="37" break="no"/>tre habet aliquam similitudinem cum 
+        <lb ed="#C" n="38"/>primo secundum diffinitionem datam 
+        <lb ed="#C" n="39"/>a Phil. de primo in Poste. 1. dicente: 
+        <lb ed="#C" n="40"/>Cui primo ei alteri per ipsum, non ipsi per 
+        al<lb ed="#C" n="41" break="no"/>terum. Est ergo ibi principaliter, &amp; 
+        pro<lb ed="#C" n="42" break="no"/>prie absque prioritate, ut Mag. exponit 
+        <lb ed="#C" n="43"/>in littera. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="798"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g08359"><!-- l1-d43prooem -->
+            <head xml:id="Gi9qrR-g08359-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g08359-d1e111">
+      <!--823.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="77"/>DISTINCTIO XTIIJJ 
+      <lb ed="#C" n="78"/>DE INFINITATE POTENTIAE DEI.
+    </p>
+            <p xml:id="Gi9qrR-g08359-d1e122">
+      <!--823.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="79"/>ID A M tamen ere. Postqual 
+      <lb ed="#C" n="80"/>Magister determinavit de 
+      <lb ed="#C" n="81"/>universalitate Divinae 
+      po<lb ed="#C" n="82" break="no"/>tentiae; hic in parte ista 
+      re<lb ed="#C" n="83" break="no"/>movet ertorem illorum, 
+      <lb ed="#C" n="84"/>qui circa universalitatem 
+      <lb ed="#C" n="85"/>eius erraverunt: cirea quam 
+      <lb ed="#C" n="86"/>dupliciter aliqui erraverunt. 1. quia negaverunt 
+      <!--823.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="87"/>universalitatem virtutis Divinae, coart: indo 
+      ip<lb ed="#C" n="88" break="no"/>sam quantum ad res factas dicentes Dieum non 
+      <lb ed="#C" n="89"/>posse facere, nisi quae facit. 2. quia negaverunt,  
+      <lb ed="#C" n="90"/>universalitatem eius quantum ad quralitatem 
+      <lb ed="#C" n="91"/>factorum dicentes, Deum non posse meliora 
+      fa<lb ed="#C" n="92" break="no"/>cere, quam faciat. Secunda ibi: Nunc istud estat. 
+      <lb ed="#C" n="93"/>In principio 44. dist. Circa 1. duo facit: quia 
+      <lb ed="#C" n="94"/>1. dicitur quosdam erralse, qui coartabant Di¬ 
+      <!--824.xml-->
+      <pb ed="#C" n="799"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>nam potentiam, dicentes Deum non posse 
+      fa<lb ed="#C" n="2" break="no"/>cere, nisi quae facit roborantes dictum suum? 
+      <lb ed="#C" n="3"/>rationibus &amp; auctoritatibus. 2. adducit rationes 
+      <lb ed="#C" n="4"/>&amp; auctoritates eorum, per quae dicta sua 
+      robo<lb ed="#C" n="5" break="no"/>tabant. Secunda ibi: Non potest Deus. Circa quod 
+      <lb ed="#C" n="6"/>duo facit: quia 1. adducit rationes. 2. auctor 
+      <lb ed="#C" n="7"/>tates. Secunda ibi: His autem illi. Circa 1. duo 
+      fa<lb ed="#C" n="8" break="no"/>cit: quia 1. ponit duas rationes eorum simul. 2. 
+      <lb ed="#C" n="9"/>addit quasdam rationes divisim, &amp; singulariter  
+      <lb ed="#C" n="10"/>Secunda ibi: Addunt quoque &amp; alia. Circa 1. duo 
+      <lb ed="#C" n="11"/>facit: quia 1. ponit duas rationes eorum simulj 
+      <lb ed="#C" n="12"/>quarum prima talis est: Deus non potest faceret 
+      <lb ed="#C" n="13"/>nisi iustum &amp; bonum; tamen non est iustum 
+      <lb ed="#C" n="14"/>&amp; bonum eum facere nisi quae facit, ergo non 
+      <lb ed="#C" n="15"/>potest facere, nisi quae facit. Secunda talis, Deus 
+      <lb ed="#C" n="16"/>non potest facere, nisi quod sua iustitia exigit, 
+      <lb ed="#C" n="17"/>quod faciat: nec potest no facere, nisi quod exi 
+      <lb ed="#C" n="18"/>igit quod nonfaciat; sed sua iustitia exigit faceret 
+      <lb ed="#C" n="19"/>quae facit, &amp; non facere, quae non facit; ergo non po 
+      <lb ed="#C" n="20"/>test plura facere, quafaciat, plura dimittere, quam 
+      <lb ed="#C" n="21"/>dimittat. 2. solvit, &amp; primo ad primam dicens, 
+      <lb ed="#C" n="22"/>quod Deus non potest facere nisi iustum: quia 
+      <lb ed="#C" n="23"/>non potest aliquid facere, quo facto, iustum non 
+      <lb ed="#C" n="24"/>sit: potest tame Deus facere aliquid, quod est no 
+      <lb ed="#C" n="25"/>iustum: quia quod nec est, nec fuit, nec erit iu 
+      <lb ed="#C" n="26"/>stum, dici non potest; &amp; tamen talia Deus 
+      <lb ed="#C" n="27"/>facere potest. Si ergo iustum supponit 
+      so<lb ed="#C" n="28" break="no"/>lum pro praesentibus, praeteritis, &amp; futuris 
+      <lb ed="#C" n="29"/>potest Deus facere, quod non est iustum: sicut  
+      <lb ed="#C" n="30"/>potest facere id, quod non est facturus. Si vero 
+      <lb ed="#C" n="31"/>supponat etiam pro his, quae possunt esse iustas 
+      <lb ed="#C" n="32"/>sic nihil Deus potest facere, quod non sit iustum. 
+      <lb ed="#C" n="33"/>Nam quidquid potest facere, iustum esse potest; &amp; 
+      <lb ed="#C" n="34"/>quidquid facit iustum est. Postea solvit ad se 
+      <lb ed="#C" n="35"/>cundam: nam cum dicitur Deus non potest 
+      fa<lb ed="#C" n="36" break="no"/>cere, nisi quod iustitia sua exigit: talis 
+      proposi<lb ed="#C" n="37" break="no"/>tio est multiplex: quia si sit intellectus, quod 
+      <lb ed="#C" n="38"/>non possit facere, nisi quod sua rationalis vo 
+      <lb ed="#C" n="39"/>luntas vult, sic est locutio falsa: si vero quod 
+      <lb ed="#C" n="40"/>non possit facere, nisi si quod faceret, sibi facere 
+      <lb ed="#C" n="41"/>conveniret, sic est vera. Similiter distinguenda 
+      <lb ed="#C" n="42"/>est illa, nisi quod sua iustitia exigit. Secuda pars 
+      <lb ed="#C" n="43"/>ibi: His autem respondemus. Deinde cum dicit: 
+      Ad<lb ed="#C" n="44" break="no"/>dunt quoque. Adducit quasdam rationes per se &amp; 
+      <lb ed="#C" n="45"/>singulariter. Et duo facit: quia 1. facit, quod 
+      di<lb ed="#C" n="46" break="no"/>ctum est. 2. specialiter adducit quamdam 
+      ratio<lb ed="#C" n="47" break="no"/>nem sumptam ex praescientia. Secunda ibi: Item 
+      <lb ed="#C" n="48"/>aliud adiungunt. Circa 1. tria facit, secundum quod 
+      <lb ed="#C" n="49"/>tres rationes adducit. Prima talis: Deus non 
+      po<lb ed="#C" n="50" break="no"/>test facere, nisi quod debet, sed non debet, nisi 
+      <lb ed="#C" n="51"/>quod facit, ergo non potest facere nisi quo 
+      fa<lb ed="#C" n="52" break="no"/>cit. Et solvit, quod Deus non iest debitar nobis 
+      <lb ed="#C" n="53"/>nisi secundum voluntatem: igitur propositio 
+      <lb ed="#C" n="54"/>illa multiplex est. Nam si intelligatur Deus non 
+      <lb ed="#C" n="55"/>potest. facere, nisi quae debet, si sit sensus, quod 
+      <lb ed="#C" n="56"/>non potest nisi quod debet, hoc est, nisi quod 
+      <lb ed="#C" n="57"/>sua voluntas vult, per quam nobis bona 
+      promit<lb ed="#C" n="58" break="no"/>tit, &amp; promittendo est debitor: sic est fal sa. Si 
+      <!--824.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="59"/>vero sit sensus, quod non potest, nisi quod 
+      de<lb ed="#C" n="60" break="no"/>bet, idest, ni si quod si faceret, ei conveniret 
+      <lb ed="#C" n="61"/>sic est vera. Secunda ratio talis: quidquid Deus 
+      <lb ed="#C" n="62"/>facit, vel dimittit, totum optima ratione fit: 
+      <lb ed="#C" n="63"/>sed illa optima ratio est aeterna, &amp; immutablis: 
+      <lb ed="#C" n="64"/>non ergo alia potest facere, quam facit: vel 
+      di<lb ed="#C" n="65" break="no"/>mittere, quam dimittat. Et solvit, quod illa 
+      op<lb ed="#C" n="66" break="no"/>tima ratio, per quam facit quae facit, &amp; dimittit 
+      <lb ed="#C" n="67"/>quae dimittit, est sua voluntas, quae est rationalis, 
+      <lb ed="#C" n="68"/>&amp; aequissima. Sed ex hoc non habetur, quod 
+      no<lb ed="#C" n="69" break="no"/>possit facere, nisi quae facit: quia illa eadem 
+      ra<lb ed="#C" n="70" break="no"/>tionali voluntate, qua facit haec, &amp; illa dimittit,  
+      <lb ed="#C" n="71"/>posset illa facere; &amp; dimittere ista. Tertia 
+      ra<lb ed="#C" n="72" break="no"/>tio talis: ratio est eum facere, quae facit, &amp; no ali i s 
+      <lb ed="#C" n="73"/>sic est ratio eum dimittere, quae dimittit, &amp; non 
+      <lb ed="#C" n="74"/>alia, ergo no potest facere, nec dimittere, nisi 
+      <lb ed="#C" n="75"/>quae dimittit, &amp; facit; aliter enim 
+      irrationabili<lb ed="#C" n="76" break="no"/>teriageret. Et solvit, quod voluntas sua est id, per 
+      <lb ed="#C" n="77"/>quod aliquid est iustum &amp; rationale: si ergo sit 
+      <lb ed="#C" n="78"/>sensus, quod non potest facere nisi quod ratio est 
+      <lb ed="#C" n="79"/>eum facere, idest, nisi quod rationa bilis sua 
+      vo<lb ed="#C" n="80" break="no"/>luntas vult, sic est falsa. Si vero intelligatur  
+      <lb ed="#C" n="81"/>quod non possit facere, nisi quod si faceret, 
+      ra<lb ed="#C" n="82" break="no"/>tionabile esset, sic est vera. Secunda ibi: Adiiciunt 
+      <lb ed="#C" n="83"/>quoque. Tertia ibi: Ipsi autem addunt. 
+    </p>
+            <p xml:id="Gi9qrR-g08359-d1e359">
+               <lb ed="#C" n="84"/>Tunc sequitur illa pars:. Item, aliud 
+      adiun<lb ed="#C" n="85" break="no"/>gunt. In qua specialiter adducit rationem sump 
+      <lb ed="#C" n="86"/>tam ex praescietia; &amp; patet per ea, quae in de 
+      prae<lb ed="#C" n="87" break="no"/>scientia dicta sunt. Deinde cum dicit: His autem illi, 
+      <lb ed="#C" n="88"/>adducit auctoritates, per quas dictum suum 
+      ro<lb ed="#C" n="89" break="no"/>porabant. Et duo facit: quia 1. facit, quod 
+      di<lb ed="#C" n="90" break="no"/>ctum est. 2. cum sit rei veritas, quod Deus 
+      pos<lb ed="#C" n="91" break="no"/>sit facere, quae non facit, adducit multas aucto 
+      <lb ed="#C" n="92"/>ritates, quae hoc dicunt. Secunda ibi: Quod ut 
+      <lb ed="#C" n="93"/>certius. Circa primum duo facit, secundum quod 
+      <lb ed="#C" n="94"/>duas, auctoritates praedicti pro se 
+      adduce<lb ed="#C" n="95" break="no"/>bant: prima talis, quia <name xml:id="Gi9qrR-g08359-Nd1e387" ref="#Augustine">Aug.</name> in lib. de Symbo 
+      <lb ed="#C" n="96"/>dicit Deum non posse, quod non vult; quod 
+      <lb ed="#C" n="97"/>exponit Magister sic intelligendum esse; quod  
+      <lb ed="#C" n="98"/>non potest Deus, quod non vult se posse. 
+      Secun<lb ed="#C" n="99" break="no"/>da auctoritas sumitur ex lib. Cofes. cuius robut 
+      <lb ed="#C" n="100"/>in hoc cosistit: quod in Deo voluntas non est ma 
+      <lb ed="#C" n="101"/>ior potentia, nec potentia valuntate, ergo non 
+      <lb ed="#C" n="102"/>potest quae non vult, nec vult quae non potest. 
+      <lb ed="#C" n="103"/>Et solvit: quod in Deo non est potentia maior 
+      <lb ed="#C" n="104"/>voluntate; quia una &amp; eadem res sunt; attamenm 
+      <lb ed="#C" n="105"/>propter aliam, &amp; aliam habitudinem inportata 
+      <lb ed="#C" n="106"/>per utrumque dicitur Deus aliqua posse, quae 
+      <lb ed="#C" n="107"/>non vult. Secunda ibi: Item in lib. 7. Confessio. 
+      <lb ed="#C" n="108"/>Deinde cum dicit: Quod ut certius. Adducit 
+      mul<lb ed="#C" n="109" break="no"/>tas auctoritates, quae dicunt Deum posse, quae 
+      <lb ed="#C" n="110"/>non vult, &amp; quae non facit. Et duo facit; quia 1. 
+      <lb ed="#C" n="111"/>facit, quod dictum est. 2. concludit; quod licet  
+      <lb ed="#C" n="112"/>possit Deus facere quae non facit, &amp; velle quae 
+      <lb ed="#C" n="113"/>non vult, voluntas tamen eius immutabilis est 
+      <lb ed="#C" n="114"/>PSecunda ibi: Potest ergo Deus. In quo termi¬ 
+      <lb ed="#C" n="115"/>natur sententia lectionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="179"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e48041"><!-- l1-d8p2proem -->
+            <head xml:id="Gi9qrR-e48041-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e48041-d1e111">
+      <!--216.xml-->
+               <pb ed="#C" n="179"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DISTINCTIONIS VIII. 
+      <lb ed="#C" n="2"/>PARS SECVNDA¬ 
+      <lb ed="#C" n="3"/>DE SIMPLICITTE DEI. 
+      <!--216.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="4"/>EADEM sola propise. Finitis 
+      <lb ed="#C" n="5"/>duabus partibus huius 
+      di<lb ed="#C" n="6" break="no"/>stinctionis, hic incipit 
+      ter<lb ed="#C" n="7" break="no"/>tia, in qua determinatur de 
+      <lb ed="#C" n="8"/>Dei simplicitare. Circa quam 
+      <lb ed="#C" n="9"/>Mag. duo facit. Primo 
+      <lb ed="#C" n="10"/>ostendit Divinam 
+      simplici<lb ed="#C" n="11" break="no"/>tatem omnia excedere. 
+      Se<lb ed="#C" n="12" break="no"/>cundo ostendit, quod suae., 
+      <lb ed="#C" n="13"/>simplicitati non repugnat pluralitas nominum, 
+      <lb ed="#C" n="14"/>ibi: Hic dilegenter. Circa primum quatuor facit: 
+      <lb ed="#C" n="15"/>quia 1. dicit Deum esse simplicem, &amp; nullam 
+      <lb ed="#C" n="16"/>habere compositionem, nec partium, nec 
+      acci<lb ed="#C" n="17" break="no"/>dentium. 2. ostendit corporalem naturam 
+      defi<lb ed="#C" n="18" break="no"/>cere a tali simplicitate: quia habet 
+      compositio<lb ed="#C" n="19" break="no"/>nem partium, &amp; accidentium. 3. ostendit etiam 
+      <lb ed="#C" n="20"/>spiritum a tali simplicitate deficere, qui si non 
+      <lb ed="#C" n="21"/>habet diversitatem partium, habet diversitatem 
+      <lb ed="#C" n="22"/>accidentium. 4. concludit solum Deum esse 
+      simpli<lb ed="#C" n="23" break="no"/>eem, licet multipliciter dicatur. Secunda ibi:  
+      <lb ed="#C" n="24"/>It autem scias. Tertia ibi: Creatura quoque 
+      soiritua<lb ed="#C" n="25" break="no"/>lis. Quarta ibi: Deus vero etsi multipliciter. Deinde 
+      <lb ed="#C" n="26"/>cum dicit: Hic diligenter. Ostendit huiusmodi 
+      sim<lb ed="#C" n="27" break="no"/>plicitati non repugnare pluritatem nominum, 
+      <lb ed="#C" n="28"/>absolutorum. Et duo facit: quia 1. facit, quod 
+      <lb ed="#C" n="29"/>dictum est. 2. adducit multas auctoritates ad 
+      <lb ed="#C" n="30"/>ostendendum Deum esse vere simplicem, 
+      osten<lb ed="#C" n="31" break="no"/>dens, quod huiusmodi simplicitati non repug¬ 
+      <!--216.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="32"/>nat pluralitas Personarum, vel relativorum, 
+      <lb ed="#C" n="33"/>Secunda ibi: Huius autem. Circa primum tria 
+      fa<lb ed="#C" n="34" break="no"/>cit: quia 1. ostendit pluralitatem nominum non 
+      <lb ed="#C" n="35"/>repugnare simplicitati Divinae: quia omnibus 
+      <lb ed="#C" n="36"/>illis nominibus respondet una natura, una 
+      essen<lb ed="#C" n="37" break="no"/>tia, licet a diversis rationibus imponantur. 
+      Se<lb ed="#C" n="38" break="no"/>cundo ostendit diversa attributa de Deo dicta 
+      <lb ed="#C" n="39"/>significare Divinam naturam, quod ex 
+      praemis<lb ed="#C" n="40" break="no"/>sis sequitur; quia ex quo omnibus nominibus 
+      <lb ed="#C" n="41"/>respondet una essentia, oportet quod omnia 
+      <lb ed="#C" n="42"/>nomina absoluta dicta de Deo significent 
+      Divi<lb ed="#C" n="43" break="no"/>nam substantiam, quod confirmat per <name xml:id="Gi9qrR-e48041-Nd1e221" ref="#Augustine">Aug.</name> qui  
+      <lb ed="#C" n="44"/>dicit Deum esse sine quantitate magnum, sine 
+      <lb ed="#C" n="45"/>qualitate bonum. Tertio ex hoc concludit, quod  
+      <lb ed="#C" n="46"/>non proprie Deus dicitur substantia: quia nulli 
+      <lb ed="#C" n="47"/>substat. Secunda ibi: Quod autem. Tertia ibi:  
+      <lb ed="#C" n="48"/>Vnde nec propie 
+    </p>
+            <p xml:id="Gi9qrR-e48041-d1e236">
+               <lb ed="#C" n="49"/>Tunc sequitur illa pars, Hulus autem. Circa 
+      <lb ed="#C" n="50"/>quam duo facit: quia 1. adducit multas 
+      aucto<lb ed="#C" n="51" break="no"/>ritates ostendentes Deum esse simplicem. 2. 
+      <lb ed="#C" n="52"/>quia ostenderat Divinae simplicitati non 
+      repug<lb ed="#C" n="53" break="no"/>nare pluralitatem nominum absolutorum 
+      diffe<lb ed="#C" n="54" break="no"/>rentium secundum rationem, ostendit tali 
+      sim<lb ed="#C" n="55" break="no"/>plicitati non repugnare pluralitatem 
+      Persona<lb ed="#C" n="56" break="no"/>rum, quae est pluralitas relativorum. Secunda 
+      <lb ed="#C" n="57"/>ibi: Vt tamen tantae partes patent. Et in hoc 
+      termi<lb ed="#C" n="58" break="no"/>netur sententia huius distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

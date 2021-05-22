@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e84486"><!-- l1-d17p1prooem -->
+            <head xml:id="Gi9qrR-e84486-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e84486-d1e111">
+      <!--352.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="8"/>DISTINCTIO SVII. 
+      <lb ed="#C" n="9"/>DE MISSIO NE SPIRITVS SANCTI, QVA INVISIB ILI 
+      <lb ed="#C" n="10"/>ter mittitur.  
+      <lb ed="#C" n="11"/>PARS PRIMA. 
+    </p>
+            <p xml:id="Gi9qrR-e84486-d1e127">
+      <!--352.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="12"/>AM nunc &amp;c. Determinato 
+      <lb ed="#C" n="13"/>de missione visibili Spiritus 
+      <lb ed="#C" n="14"/>Sancti, hic Mag. 
+      determi<lb ed="#C" n="15" break="no"/>nat de invisibili. Circa quod 
+      <lb ed="#C" n="16"/>duo facit: quia 1. continuat 
+      <lb ed="#C" n="17"/>se ad dicenda, dicendo 
+      se<lb ed="#C" n="18" break="no"/>velle ostendere qualiter fiat  
+      <lb ed="#C" n="19"/>huiusmodi missio. 2. 
+      exe<lb ed="#C" n="20" break="no"/>quitur de proposito ibi statim: Post hoc autem 
+      <lb ed="#C" n="21"/>Et ut intelligatur intentio Mag. notandum, 
+      <lb ed="#C" n="22"/>quod ipse non posuit habitum charitatis in 
+      <lb ed="#C" n="23"/>anima; sed credidit quod charitas illa, per quam 
+      <lb ed="#C" n="24"/>diligimus, sit ipse Spiritus Sanctus, &amp; hoc 
+      <lb ed="#C" n="25"/>principaliter intendit probare, &amp; duo facit: 
+      <lb ed="#C" n="26"/>quia 1. praemittit intentionem suam, &amp; eam 
+      <lb ed="#C" n="27"/>Hic quaeritur si charitas, ubi praesens lectio 
+      de<lb ed="#C" n="28" break="no"/>terminabitur. Circa primum duo facit: quia 
+      <lb ed="#C" n="29"/>1. facit quod dictum est. 2. ostendit 
+      quo<lb ed="#C" n="30" break="no"/>modo ex hoc Spiritus Sanctus invisibiliter mit 
+      <lb ed="#C" n="31"/>tatur, ibi: Tunc enim nobis. Circa primum duo 
+      <lb ed="#C" n="32"/>facit: quia 1. praemittit intentum. 2. 
+      positio<lb ed="#C" n="33" break="no"/>nem: suam, auctoritatibus Sanctorum 
+      confir<lb ed="#C" n="34" break="no"/>mat, ibi: Ne autem. Circa primum duo facit: 
+      <lb ed="#C" n="35"/>quia 1. dicit Spiritum Sanctum amorem esse 
+      <lb ed="#C" n="36"/>Patris, &amp; Filij, quo se, &amp; nos diligunt. 2. 
+      <lb ed="#C" n="37"/>dicit nos illo eodem: amore Deum, &amp; 
+      pro<lb ed="#C" n="38" break="no"/>ximum diligere: unde est ipsa charitas, &amp; 
+      <lb ed="#C" n="39"/>dilectio Divina, nec est in nobis alius 
+      habi<lb ed="#C" n="40" break="no"/>tus charitatis. Secunda ibi: His autem. 
+      Dein<lb ed="#C" n="41" break="no"/>de cum dicit: Ne autem. Ostendit ipsum esse 
+      <!--352.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="42"/>ipsam dilectionem, qua diligimus. 2. 
+      mani<lb ed="#C" n="43" break="no"/>festat Spiritum Sanctum esse hi, usimodi 
+      dile<lb ed="#C" n="44" break="no"/>ctionem, ibi: Cam autem. Circa primum tria 
+      <lb ed="#C" n="45"/>facit:: quia 1. adducit multas auctoritates 
+      <lb ed="#C" n="46"/>Aug. quod fraterna dilectio est ipse Deus. 2. 
+      <lb ed="#C" n="47"/>ex illis auctoritatibus concludit veritatem. 
+      <lb ed="#C" n="48"/>Tertio adducit plures alias auctoritates ad 
+      <lb ed="#C" n="49"/>ostendendum hoc idem. Secunda, ibi: His 
+      ven<lb ed="#C" n="50" break="no"/>bis. Tertia ibi: Sed adhuc. Deinde cum dicit: 
+      <lb ed="#C" n="51"/>Cum autem, ostendit per multas auctoritates hu 
+      <lb ed="#C" n="52"/>iusmodi dilectionem, scilicet, fraternam esse 
+      <lb ed="#C" n="53"/>Spiritum Sanctum. 2. removet quamdam 
+      ca<lb ed="#C" n="54" break="no"/>villationem, ibi: Sed ne fortet. Circa quod duo 
+      <lb ed="#C" n="55"/>facit: quia 1. ponit cavillationem, diceret  
+      <lb ed="#C" n="56"/>enim aliquis, quod Spiritus Sanctus est ipsa 
+      <lb ed="#C" n="57"/>roborat. 2. contra determinata opponit ibi:  
+      <lb ed="#C" n="58"/>dilectio nostra causaliter, sicut est patientia 
+      <lb ed="#C" n="59"/>nostra, &amp; spes nostra. 2. hanc cavillationem 
+      <lb ed="#C" n="60"/>removet: quia ipse Spiritus Sanctus 
+      simpli<lb ed="#C" n="61" break="no"/>citer; &amp; absclute est ipsa charitas: nam 
+      im<lb ed="#C" n="62" break="no"/>plex charitas nominatur; non charitas nostram, 
+      <lb ed="#C" n="63"/>vel mea, sicut dicitur Deus patientia mea, soes 
+      <lb ed="#C" n="64"/>mea. Secunda ibi: Oocutrit <name xml:id="Gi9qrR-e84486-Nd1e252" ref="#Augustine">Aug.</name> Deinde cum 
+      <lb ed="#C" n="65"/>dicit: Nunc enim; ostendit quomodo Spiritus 
+      <lb ed="#C" n="66"/>Sanctus mittatur, &amp; duo. facit: quia cum sit 
+      <lb ed="#C" n="67"/>charitas fraterna, per quam diligitur Deus, 
+      <lb ed="#C" n="68"/>&amp; proximus, dicit eum dari homini; &amp; mitti 
+      <lb ed="#C" n="69"/>ad ipsum, ex eo quod accendit eum in 
+      dile<lb ed="#C" n="70" break="no"/>ctionem Dei, &amp; proximi. 2. ex verbis 
+      habi<lb ed="#C" n="71" break="no"/>tis separat illud donum ab alijs donis, ibi: Ecte 
+      <lb ed="#C" n="72"/>hic. In quo terminatur, sententia lectionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

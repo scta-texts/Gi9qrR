@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="693"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f80771"><!-- l1-d37p1expolit -->
+            <head xml:id="Gi9qrR-f80771-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f80771-d1e111">
+               <lb ed="#C" n="75"/>ExPOSITIO LITTERAE.
+    </p>
+            <p xml:id="Gi9qrR-f80771-d1e116">
+               <lb ed="#C" n="76"/>Vper litteram: Ita &amp; Deus cum sit 
+      <lb ed="#C" n="77"/>Qin omnibus. Notandum, quod 
+      Ma<lb ed="#C" n="78" break="no"/>gister vult malos esse, ubi Deus est, non 
+      <lb ed="#C" n="79"/>tamen cum ipso esse: bonos autem 
+      es<lb ed="#C" n="80" break="no"/>se, ubi Deus est, &amp; etiam, cum ipso 
+      exi<lb ed="#C" n="81" break="no"/>stere. Causa autem huius diversitatis 
+      ex<lb ed="#C" n="82" break="no"/>hoc contingit: quod, cum, quamdam: as 
+      <lb ed="#C" n="83"/>sociationem importat. Associatio autem 
+      <lb ed="#C" n="84"/>non est nisi eorum, quae aliquo modo 
+      <lb ed="#C" n="85"/>in vita vel in voluntate concordant: un 
+      <lb ed="#C" n="86"/>de potest esse aliquis, ubi sunt lapides; 
+      <lb ed="#C" n="87"/>non tamen est socius lapidum: quia 
+      la<lb ed="#C" n="88" break="no"/>pides cum eo voluntate &amp; vita concordare 
+      <lb ed="#C" n="89"/>non possunt: &amp; quia mali non 
+      concor<lb ed="#C" n="90" break="no"/>dant cum voluntate Divina, immo 
+      vo<lb ed="#C" n="91" break="no"/>luntate sunt ei inimici, iuxta illud <name xml:id="Gi9qrR-f80771-Nd1e152" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="92"/>12. de Civit. Dei cap. 4. mali inimici 
+      <lb ed="#C" n="93"/>sunt Deo resistendi voluntate, non 
+      po<lb ed="#C" n="94" break="no"/>testate laedendi: ideo Deus non dicitur  
+      <lb ed="#C" n="95"/>esse cum malis: est tamem ubi mali sunt,  
+      <lb ed="#C" n="96"/>quia vbique est. 
+      <lb ed="#C" n="97"/>Item super illo: Sicut multa de Deo 
+      <lb ed="#C" n="98"/>intelligimus. Notandum, quod sicut 
+      Ma<lb ed="#C" n="99" break="no"/>gister ait per auctoritatem Chrysos. aliqua 
+      <lb ed="#C" n="100"/>de Deo dicimus, quae non intelligimus; 
+      <lb ed="#C" n="101"/>aliqua intelligimus, quae per voces 
+      ex<lb ed="#C" n="102" break="no"/>primere non possumus. Haec autem diversi 
+      <lb ed="#C" n="103"/>tas ex hoc contingit, quia aliquado 
+      voces<lb ed="#C" n="104" break="no"/>sumunt originem ex his, quae sunt in 
+      in<lb ed="#C" n="105" break="no"/>tellectu: ut est videre in his, quae 
+      homo<lb ed="#C" n="106" break="no"/>scit per inventionem: &amp; quia non opor 
+      <lb ed="#C" n="107"/>tet effectum per omnem modum 
+      adae<lb ed="#C" n="108" break="no"/>quari causae, in talibus intellectus est 
+      <lb ed="#C" n="109"/>sufficiens, &amp; vox deficit: aliquando ea, 
+      <lb ed="#C" n="110"/>quae sunt in intellectu, causantur ex his, 
+      <!--719.xml-->
+      <pb ed="#C" n="694"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>quae sunt in vocem: ut est videre in his, 
+      <lb ed="#C" n="2"/>quae homo scit per doctrinam &amp; per au 
+      <lb ed="#C" n="3"/>ditum: &amp; quia, ut dicebatur, effectum non 
+      <lb ed="#C" n="4"/>oportet per omnem modum 
+      adaequari<lb ed="#C" n="5" break="no"/>causae, in talibus multa dicimus, quae 
+      <lb ed="#C" n="6"/>non intelligimus. Cum igitur ea, quae sunt 
+      fi<lb ed="#C" n="7" break="no"/>dei, ex auditu sint: quia Fides ex auditu, 
+      <lb ed="#C" n="8"/>multa, quae sunt fidei, dicimus, &amp; 
+      tamem<lb ed="#C" n="9" break="no"/>intellectu non capimus. 
+    </p>
+            <p xml:id="Gi9qrR-f80771-d1e224">
+               <lb ed="#C" n="10"/>Item super illo: Deus esse ubique 
+      <lb ed="#C" n="11"/>per essentiam dicitur. Notandum, quod 
+      o<lb ed="#C" n="12" break="no"/>pinio istorum ex hoc habuit ortum: 
+      <lb ed="#C" n="13"/>quia loquebantur de esse in loco, ut cor 
+      <lb ed="#C" n="14"/>pora sunt in loco: &amp; ideo dicebant  
+      <lb ed="#C" n="15"/>Deum non esse in loco per essentiam, 
+      <!--719.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="16"/>nisi quia omnis natura &amp; omnis 
+      essen<lb ed="#C" n="17" break="no"/>tia in quocumque loco sit per eum 
+      ha<lb ed="#C" n="18" break="no"/>bet esse; sed, ut habitum est, oportet 
+      <lb ed="#C" n="19"/>nos dicere, quod ipsa essentia Dei 
+      ubi<lb ed="#C" n="20" break="no"/>que existit, inquantum eius operatio &amp; 
+      <lb ed="#C" n="21"/>virtus ubique sunt.  
+    </p>
+            <p xml:id="Gi9qrR-f80771-d1e257">
+               <lb ed="#C" n="22"/>Item idem super illo: Solet etiam 
+      <lb ed="#C" n="23"/>ab eisdem quaeri. Notandum, quaestionem 
+      <lb ed="#C" n="24"/>eorum rudem esse: quia, ut probatur a 
+      <lb ed="#C" n="25"/>Philosopho 1. de Cener, cap. De tactu: Non 
+      <lb ed="#C" n="26"/>omne, quod tangit, tangitur; sed ea 
+      tangen<lb ed="#C" n="27" break="no"/>tia tanguntur, quae simul patiuntur, cum 
+      <lb ed="#C" n="28"/>agunt: ideo non oportet Divinam 
+      es<lb ed="#C" n="29" break="no"/>sentiam immundari, cum super 
+      im<lb ed="#C" n="30" break="no"/>munda actiones exercet. 
+    </p>
+    
+         </div>
+      </body>
+   </text>
+</TEI>

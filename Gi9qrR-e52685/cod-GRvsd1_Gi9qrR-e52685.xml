@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="196"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e52685"><!-- l1-d9q1 -->
+            <head xml:id="Gi9qrR-e52685-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e52685-d1e111">
+      <!--233.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="19"/>QUAESTIO I. 
+      <lb ed="#C" n="20"/>De distinctione Patris a Filio. 
+    </p>
+            <p xml:id="Gi9qrR-e52685-d1e122">
+               <lb ed="#C" n="21"/>VIA Magistri intentico 
+      <lb ed="#C" n="22"/>circa duo versatur: cir 
+      <lb ed="#C" n="23"/>ca distinctionem Filij a 
+      <lb ed="#C" n="24"/>Patre per generationem: 
+      <lb ed="#C" n="25"/>&amp; circa Filij 
+      coaeterni<lb ed="#C" n="26" break="no"/>tatem: ideo de his duo 
+      <lb ed="#C" n="27"/>bus quaeremus. Circa 
+      <lb ed="#C" n="28"/>primu quaeremus tria. 
+      <lb ed="#C" n="29"/>1. utrum generatio distinguat in 
+      Divi<lb ed="#C" n="30" break="no"/>nis? 2. utrum propter talem distinctio 
+      <lb ed="#C" n="31"/>nem genitus sit alius a gignente? 3. 
+      posi<lb ed="#C" n="32" break="no"/>to quod Filius sit aeternaliter genitus, dec 
+      <lb ed="#C" n="33"/>quo quaeremus postea, erit quaestio utrum 
+      <lb ed="#C" n="34"/>propter talem distinctionem possimus 
+      <lb ed="#C" n="35"/>concedere Patrem &amp; Filium esse plures 
+      <lb ed="#C" n="36"/>aeternos? 
+    </p>
+            <div xml:id="Gi9qrR-e52685-Dd1e159">
+               <head xml:id="Gi9qrR-e52685-Hd1e161">Articulus 1</head>
+               <p xml:id="Gi9qrR-e52685-d1e164">
+                  <lb ed="#C" n="37"/>ARTICVLVS I. 
+        <lb ed="#C" n="38"/>Vtrum generatio distinguat in Divinis? 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e171">
+                  <lb ed="#C" n="39"/>AD 1. sic proceditur.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e176">
+        Et videtur quod 
+        <lb ed="#C" n="40"/>generatio in Divinis non distinguat 
+        <lb ed="#C" n="41"/>quia ut dicitur 15. de Trin. cap. 14. 
+        Pa<lb ed="#C" n="42" break="no"/>ter genuit Verbum sibi aequale per omnia: non 
+        <lb ed="#C" n="43"/>enim se ipsum integre, perfecteque dixisset, sit 
+        <lb ed="#C" n="44"/>aliquid minus, aut amplius esset in eius Verbo, 
+        <lb ed="#C" n="45"/>quam in ipso. Si igitur per generationem 
+        <lb ed="#C" n="46"/>Filius habet quidquid Pater habet, per 
+        <lb ed="#C" n="47"/>generationem non distinguitur ab eo 
+        <lb ed="#C" n="48"/>sed unitur ei.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e198">
+        Praeterea: generatio est 
+        <lb ed="#C" n="49"/>assimilatio in natura: unde dicit 
+        Damasc<lb ed="#C" n="50" break="no"/>1. lib. cap. 8. quod Est opus naturae. Sed 
+        <lb ed="#C" n="51"/>assimilatio importat unitatem non 
+        di<lb ed="#C" n="52" break="no"/>stinctionem, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e210">
+        Praeterea: gene 
+        <!--233.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="53"/>Bratio vel terminatur ad naturam: secun¬ 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e219">
+                  <lb ed="#C" n="54"/>In contrarium est Damasc. 1. lib. 
+        <lb ed="#C" n="55"/>cap. 2. qui ait: Confitemur quod Pater, &amp; 
+        <lb ed="#C" n="56"/>Filius, &amp; Spiritus Sanctus omnino unum sunt  
+        <lb ed="#C" n="57"/>dum quod scribitur 2. Phys. Ceneratio est 
+        <lb ed="#C" n="58"/>via in naturam: vel terminatur ad esse: 
+        <lb ed="#C" n="59"/>quia ut scribitur 5. Phys. Ceneratio est 
+        <lb ed="#C" n="60"/>mutatio ex non esse in esse, ergo si Filius 
+        distin<lb ed="#C" n="61" break="no"/>guitur a Patre per generationem, vel  
+        <lb ed="#C" n="62"/>erit distinctio in natura, vel in esse; sed  
+        <lb ed="#C" n="63"/>neutro modo est possibile, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e243">
+                  <lb ed="#C" n="64"/>Praeterea: agens, &amp; patiens, &amp; omnino 
+        <lb ed="#C" n="65"/>producens, &amp; productum in principio 
+        <lb ed="#C" n="66"/>sunt dissimilia, in fine similia: cum 
+        igi<lb ed="#C" n="67" break="no"/>tur non sit ibi principium, &amp; finis, nec 
+        <lb ed="#C" n="68"/>fieri; sed totum perfectum, semper 
+        ge<lb ed="#C" n="69" break="no"/>neratio ibi assimilabit, &amp; nunquam 
+        di<lb ed="#C" n="70" break="no"/>stinguet.  
+        <lb ed="#C" n="71"/>excepta ingeniti, &amp; generationis, &amp; 
+        proces<lb ed="#C" n="72" break="no"/>sionis proprietate: &amp; eodem libro cap. 10. 
+        <lb ed="#C" n="73"/>scribitur: Quo fit, ut omnia, quae Pater habet, 
+        Fi<lb ed="#C" n="74" break="no"/>lij sint, hoc uno excepto, quod ingenitus non est 
+        <lb ed="#C" n="75"/>sed hoc non esset nisi generatio 
+        distin<lb ed="#C" n="76" break="no"/>gueret, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e274">
+        Praeterea: scribitur in: 
+        <lb ed="#C" n="77"/>de Anim. quod Nihil se ipsum generat sed 
+        <lb ed="#C" n="78"/>salvat; sed hoc non esset, nisi generatio 
+        <lb ed="#C" n="79"/>distingueret, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e283">
+                  <lb ed="#C" n="80"/>RESOLVTIO. 
+        <lb ed="#C" n="81"/>Qeneratio, utpote relationem dicens, in Divi¬ 
+        <lb ed="#C" n="82"/>nis distinguit.  
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e292">
+                  <lb ed="#C" n="83"/>REspond. dicendum, quod 
+        difficul<lb ed="#C" n="84" break="no"/>tas huius quaestionis est: quia ma 
+        <lb ed="#C" n="85"/>gis videtur quod debeat distinguere 
+        es<lb ed="#C" n="86" break="no"/>sentia, quam relatio; &amp; tamen videmus 
+        <lb ed="#C" n="87"/>in uno, &amp; eodem supposito esse diversas 
+        <lb ed="#C" n="88"/>essentias, ut in Filio carnali. Si igitur ille 
+        <lb ed="#C" n="89"/>diversae essentiae, &amp; oppositae: quia una 
+        <lb ed="#C" n="90"/>est per modum actus, &amp; alia per modum 
+        <lb ed="#C" n="91"/>potentiae, compatiuntur secum 
+        unita<lb ed="#C" n="92" break="no"/>tem suppositi, &amp; videtur quod multo 
+        <!--234.xml-->
+        <pb ed="#C" n="197"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>fortius duae relationes oppositae possint 
+        <lb ed="#C" n="2"/>esse in uno supposito: quia Relatio habet 
+        <lb ed="#C" n="3"/>minimum de esse, ut dicit Comm. in 12. 
+        <lb ed="#C" n="4"/>Metaph. &amp; ita eadem Persona respectu 
+        <lb ed="#C" n="5"/>eiusdem poterit esse Pater &amp; Filius. 
+        <lb ed="#C" n="6"/>Propter hoc notandum, quod tam 
+        re<lb ed="#C" n="7" break="no"/>latio quam essentia semper distinguit: 
+        <lb ed="#C" n="8"/>cum de magis principali significato re 
+        <lb ed="#C" n="9"/>lationis est distinguere, quam essentiae, 
+        <lb ed="#C" n="10"/>Et ratio est: quia essentia per se &amp; 
+        pri<lb ed="#C" n="11" break="no"/>mo dat esse, &amp; ex consequenti 
+        distin<lb ed="#C" n="12" break="no"/>guit: &amp; ideo dicit Avic. in 1. p. 
+        Meta<lb ed="#C" n="13" break="no"/>ph. suae, quod primum, quod ab 
+        in<lb ed="#C" n="14" break="no"/>tellectu concipitur, est ens &amp; esse, &amp; 
+        <lb ed="#C" n="15"/>secundum istum modum dictum est: 
+        <lb ed="#C" n="16"/>quod unum se habet per additionem ad 
+        <lb ed="#C" n="17"/>ens; non quod aliquid sit ens, quod  
+        <lb ed="#C" n="18"/>non sit unum. Sed quia prius intelligi 
+        <lb ed="#C" n="19"/>eturens, quam unum, &amp; posterius se 
+        ha<lb ed="#C" n="20" break="no"/>bet per additionem ad prius; &amp; 
+        no<lb ed="#C" n="21" break="no"/>e converso. Et quia inquantum 
+        essen<lb ed="#C" n="22" break="no"/>tia habet rationem unitatis distinguit: 
+        <lb ed="#C" n="23"/>cum unum sit in se indivilum &amp; ab 
+        ali<lb ed="#C" n="24" break="no"/>divisum. Si prius est ens quam unum 
+        <lb ed="#C" n="25"/>ex principali significatione essentiae non 
+        <lb ed="#C" n="26"/>est distinguere, sed dare esse. In 
+        relatio<lb ed="#C" n="27" break="no"/>ne autem non est ita, immo de suo prin 
+        <lb ed="#C" n="28"/>cipali, &amp; proptio significato est distin 
+        <lb ed="#C" n="29"/>guere: cum tota ratio relationis 
+        suma<lb ed="#C" n="30" break="no"/>tur per comparationem ad opposita 
+        <lb ed="#C" n="31"/>quia relativorum esse est ad aliud se 
+        ha<lb ed="#C" n="32" break="no"/>bere. Et ideo non sumitur ratio 
+        relatio<lb ed="#C" n="33" break="no"/>nis per id, quod inest; sed per id quod 
+        <lb ed="#C" n="34"/>refertur: &amp; ideo dicit Aristot. 5. 
+        Me<lb ed="#C" n="35" break="no"/>taph. quod Scientia non refertur ad scientem, 
+        <lb ed="#C" n="36"/>sed ad scibile. Et si respectu oppositi 
+        rela<lb ed="#C" n="37" break="no"/>tio habet distinguere, de principali suo 
+        <lb ed="#C" n="38"/>lignificato erit distinctio: &amp; ideo licet 
+        <lb ed="#C" n="39"/>utrumque distinguat, tamen relationis 
+        <lb ed="#C" n="40"/>est magis proprium distinguere quam 
+        <lb ed="#C" n="41"/>essentiae. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e413">
+                  <lb ed="#C" n="42"/>Et quod dicitur quod habet minimum 
+        <lb ed="#C" n="43"/>de esse: est ratio in contrarium, quia ex 
+        <lb ed="#C" n="44"/>hoc sequitur, quod proprium eius sit 
+        <lb ed="#C" n="45"/>distinguere: quia eius esse est ad aliud sel 
+        <lb ed="#C" n="46"/>habere: propter quod dicitur habere mi 
+        <lb ed="#C" n="47"/>nimum de esse. Et quamvis tam 
+        essen<lb ed="#C" n="48" break="no"/>tia, quam relatio distinguat realiter; im 
+        <lb ed="#C" n="49"/>peditur aliquando ista distinctio per 
+        <lb ed="#C" n="50"/>accidens, tam ex parte essentiae, quam 
+        <lb ed="#C" n="51"/>relationis. Ex parte essentiae: cum  
+        <lb ed="#C" n="52"/>tales essentiae, quae secundum quod 
+        huius<lb ed="#C" n="53" break="no"/>modi non sunt aptae natae habere esse 
+        <lb ed="#C" n="54"/>diversum, &amp; hoc est, cum una habet 
+        ra<lb ed="#C" n="55" break="no"/>tionem actus, &amp; alia rationem potentiae, 
+        <lb ed="#C" n="56"/>ut dicitur in 5. Meta. &amp; ideo quod dice¬ 
+        <!--234.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>batur de actu, &amp; potentiam, magis est 
+        <lb ed="#C" n="58"/>pro veritate quam contra. Cum autem 
+        <lb ed="#C" n="59"/>sic se habent essentiae, sit ibi distinctio 
+        se<lb ed="#C" n="60" break="no"/>cundum rationem: quia unum &amp; idem 
+        <lb ed="#C" n="61"/>suppositum est aliud a se ipso, prout est 
+        <lb ed="#C" n="62"/>in actu per formam, &amp; in potentia per 
+        <lb ed="#C" n="63"/>materiam. Distinctio autem relationis 
+        <lb ed="#C" n="64"/>impeditur, cum est relatio secundum 
+        <lb ed="#C" n="65"/>rationem, ut dicendo idem eidem idems 
+        <lb ed="#C" n="66"/>&amp; ita proprium relationis est 
+        distingue<lb ed="#C" n="67" break="no"/>re. Ideo quicumque dicit Patrem non 
+        <lb ed="#C" n="68"/>esse alium a Filio propter generationem 
+        <lb ed="#C" n="69"/>peius dicit, quam dicens Patrem esse 
+        <lb ed="#C" n="70"/>rubeum, vel alterius coloris: quia 
+        quan<lb ed="#C" n="71" break="no"/>vis hoc sit falsum, reperitur in aliquo 
+        ta<lb ed="#C" n="72" break="no"/>men; sed quod gignens sit genitum, non 
+        <lb ed="#C" n="73"/>lolum est falsum, sed reperitur in nullo: 
+        <lb ed="#C" n="74"/>&amp; ideo Beatus <name xml:id="Gi9qrR-e52685-Nd1e491" ref="#Augustine">Aug.</name> 1. de Trin. cap. 1. 
+        <lb ed="#C" n="75"/>ait: Qui enim opinatur Deum, verbi gratia, 
+        <lb ed="#C" n="76"/>candi lum vel rutillum, fallitur; sed tamen hae 
+        <lb ed="#C" n="77"/>inveniuntur in corpore. Rursus qui oninatur 
+        <lb ed="#C" n="78"/>Deum nunc obli viscentem, nun: recordantem 
+        <lb ed="#C" n="79"/>vel si quid quiusmodi est, nihiliminus in errore 
+        <lb ed="#C" n="80"/>est; sed tamen naec inveniuntur in animo. Qui 
+        <lb ed="#C" n="81"/>autem putat eius esse potentiae Deum, ut se 
+        ip<lb ed="#C" n="82" break="no"/>sum ipse genuerit, eo plus errat, quod non 
+        so<lb ed="#C" n="83" break="no"/>lum Deus ita non est, sed nec spiritalis nec cor 
+        <lb ed="#C" n="84"/>poralis creatura: nulla enim omnino res est, quae 
+        <lb ed="#C" n="85"/>se ipsam gignat, ut sit 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e518">
+                  <lb ed="#C" n="86"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="87" break="no"/>cendum, quod Pater Filio dat omnia: 
+        <lb ed="#C" n="88"/>quia dat ei quidquid habet; non tamen 
+        <lb ed="#C" n="89"/>dat ei Paternitatem: quia Paternitas non 
+        <lb ed="#C" n="90"/>dicit quid, sed ad aliquid: igitur dando 
+        <lb ed="#C" n="91"/>sibi quidquid habet, adhuc manet 
+        di<lb ed="#C" n="92" break="no"/>stinctio secundum relationem: &amp; quia 
+        <lb ed="#C" n="93"/>generatio in Divinis relationem dicit,  
+        <lb ed="#C" n="94"/>non sequitur quod generatio non distin 
+        <lb ed="#C" n="95"/>guat.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e542">
+        Ad 2. dicendum, quod 
+        similitu<lb ed="#C" n="96" break="no"/>do simul cum unitate importat 
+        distin<lb ed="#C" n="97" break="no"/>ctionem: &amp; ideo generatio in Divinis 
+        <lb ed="#C" n="98"/>licet ponat unitatem in natura, dicit 
+        <lb ed="#C" n="99"/>distinctionem secundum relationem: &amp; 
+        <lb ed="#C" n="100"/>quia generatio relationem importat, 
+        <lb ed="#C" n="101"/>oportet generationem distinguere in 
+        <lb ed="#C" n="102"/>Divinis.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e560">
+        Ad 3. dicendum, quod non 
+        <lb ed="#C" n="103"/>semper generatio terminatur ad 
+        natu<lb ed="#C" n="104" break="no"/>ram, vel ad esse: nam aliquo modo 
+        ip<lb ed="#C" n="105" break="no"/>sum suppositum est generationis 
+        termi<lb ed="#C" n="106" break="no"/>nus, ut supra patuit: &amp; quia suppositi 
+        <lb ed="#C" n="107"/>in Divinis per relationem constituitur 
+        <lb ed="#C" n="108"/>in esse, sequitur quod generatio sit 
+        di<lb ed="#C" n="109" break="no"/>stinctiva in Divinis, quae relationem im 
+        <lb ed="#C" n="110"/>portat.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e580">
+        Ad 4. dicendum, quod 
+        produ<lb ed="#C" n="111" break="no"/>ducens &amp; productum in fine sunt 
+        simi<lb ed="#C" n="112" break="no"/>lia in eo, quod est ratio producendi, 
+        <!--235.xml-->
+        <pb ed="#C" n="198"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>sicut calefactum calefacienti in fine est 
+        <lb ed="#C" n="2"/>simile in calore, qui est ratio 
+        calefacien<lb ed="#C" n="3" break="no"/>di; sed quantum ad relationem non 
+        <lb ed="#C" n="4"/>sunt similia: cum habeant relationes 
+        <lb ed="#C" n="5"/>oppositas: &amp; quia generatio relationem 
+        <lb ed="#C" n="6"/>dicit, in Divinis secundum 
+        generatio<lb ed="#C" n="7" break="no"/>nem distinguetur genitum a gignente, 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e52685-Dd1e610">
+               <head xml:id="Gi9qrR-e52685-Hd1e612">Articulus 2</head>
+               <p xml:id="Gi9qrR-e52685-d1e615">
+                  <lb ed="#C" n="8"/>ARTICVLVS II. 
+        <lb ed="#C" n="9"/>Vtrum Filius sit alius a Patre?
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e622">
+                  <lb ed="#C" n="10"/>QEcundo quaeritur: utrum Filius sit  
+        <lb ed="#C" n="11"/>alius a Patre? Et videtur, quod non: 
+        <lb ed="#C" n="12"/>quia scribitur 5. Metaph. quod Vnum in 
+        <lb ed="#C" n="13"/>ubstantia facit idem, ergo diversum in sub 
+        <lb ed="#C" n="14"/>stantia facit alium; sed Filius non est in 
+        <lb ed="#C" n="15"/>substantia diversus a Patre, iuxta illud 
+        <lb ed="#C" n="16"/>Aug. 7. de Trin. cap. vit. Non 
+        existime<lb ed="#C" n="17" break="no"/>aliud alio, vel maius, vel melius, vel aliqua 
+        ex<lb ed="#C" n="18" break="no"/>parte diversum.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e644">
+        Praeterea: quaecumque 
+        <lb ed="#C" n="19"/>diversitas ponatur in aliquo, nisi in eo 
+        <lb ed="#C" n="20"/>fiat diversitas in natura, non dicitur  
+        <lb ed="#C" n="21"/>alius. Vnde Sortes senex non est alius 
+        <lb ed="#C" n="22"/>a se puero, cum eadem sit humanita 
+        <lb ed="#C" n="23"/>numero in se sene, &amp; se puero: quia 
+        igi<lb ed="#C" n="24" break="no"/>tur eadem est natura in Patre, &amp; Filio, 
+        <lb ed="#C" n="25"/>non est Pater alius a Filio.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e662">
+        Praeterea: 
+        <lb ed="#C" n="26"/>non conceditur, quod Pater sit aliud a 
+        <lb ed="#C" n="27"/>Filio, sed idem significat alius, &amp; aliud 
+        <lb ed="#C" n="28"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e672">
+        Praeterea: si est alius Pater a 
+        <lb ed="#C" n="29"/>Filio, hoc non est, nisi quia suppositum 
+        <lb ed="#C" n="30"/>Patris est distinctum a supposito Filij, secd 
+        <lb ed="#C" n="31"/>distinctio suppositorum est per esse, si 
+        <lb ed="#C" n="32"/>cut distinctio specierum est per quiddi 
+        <lb ed="#C" n="33"/>tatem. Cum igitur non sit distinctum 
+        <lb ed="#C" n="34"/>esse Patris ab esse Filij: quia non est 
+        di<lb ed="#C" n="35" break="no"/>stincta essentia, non erit distinctio in eis 
+        <lb ed="#C" n="36"/>suppositorum, ergo nec aliqua alietas 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e692">
+                  <lb ed="#C" n="37"/>In contrarium est <ref xml:id="Gi9qrR-e52685-Rd1e696">Aug. de Fide ad 
+          <lb ed="#C" n="38"/>Petrum</ref> qui ait: quod Vera Trinitas non esset 
+        <lb ed="#C" n="39"/>una eadeque Persona diceretur Pater, &amp; Filius,  
+        <lb ed="#C" n="40"/>&amp; Spiritus Sanctus. Si ergo ibi est vera 
+        <lb ed="#C" n="41"/>Trinitas, Persona Patris est alia a 
+        Perso<lb ed="#C" n="42" break="no"/>na Filij, ergo alius est Pater a Filio. 
+        Prae<lb ed="#C" n="43" break="no"/>terea: idem in eodem: Quia igitur aliud 
+        <lb ed="#C" n="44"/>est, genuisse, quam natum esse, aliud que 
+        <lb ed="#C" n="45"/>procedere quam genuisse, vel natum esse, 
+        <lb ed="#C" n="46"/>manifestum est, quoniam alius 
+        <lb ed="#C" n="47"/>est Pater, alius est Fi¬ 
+        <lb ed="#C" n="48"/>lius, alius Spiritus 
+        <lb ed="#C" n="49"/>Sanctus. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e726">
+        <!--235.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="50"/>RESOLVTIO 
+        <lb ed="#C" n="51"/>Filius alius a Patre est: D alius faciens suppo¬ 
+        <lb ed="#C" n="52"/>sitionem perionalem.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e739">
+                  <lb ed="#C" n="53"/>REspond. dicendum, quod aliqui sic 
+        <lb ed="#C" n="54"/>distinguunt: quod hoc relativum, 
+        <lb ed="#C" n="55"/>alius, vel potest teneri substative, vel adiei 
+        <lb ed="#C" n="56"/>ctive. Si tenetur adiective: tunc 
+        verifican<lb ed="#C" n="57" break="no"/>tur tales propositiones, vel falsificatur 
+        se<lb ed="#C" n="58" break="no"/>cundum ea, quibus adduntur: ut si adduntur  
+        <lb ed="#C" n="59"/>personalibus nominibus, vera sunt: si 
+        <lb ed="#C" n="60"/>essentialibus, falsa. Sed si tenetur 
+        substan<lb ed="#C" n="61" break="no"/>tive, cum ponatur in neutro, 
+        falsa<lb ed="#C" n="62" break="no"/>sunt: quia dicit diversitatem essentiae: 
+        <lb ed="#C" n="63"/>cum autem in masculino, vera:, quia 
+        <lb ed="#C" n="64"/>solum dicunt distinctionem Personarum. 
+        <lb ed="#C" n="65"/>Istud autem etsi verum est, non est 
+        suf<lb ed="#C" n="66" break="no"/>ficienter dictum: quia non redditur 
+        <lb ed="#C" n="67"/>causa, quare magis dicat diversitatem 
+        <lb ed="#C" n="68"/>essentiae aliud, quam Personae: &amp; 
+        qua<lb ed="#C" n="69" break="no"/>re per aliud non possum intelligere 
+        sup<lb ed="#C" n="70" break="no"/>positum, &amp; per alium intelligere Deum. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e781">
+                  <lb ed="#C" n="71"/>Propter hoc notandum, quod in 
+        <lb ed="#C" n="72"/>creaturis distinguere propositionem esse 
+        <lb ed="#C" n="73"/>veram, ex eo quod relativum 
+        diversita<lb ed="#C" n="74" break="no"/>tis ponitur ibi in masculino, vel falsam 
+        <lb ed="#C" n="75"/>ex eo quod ponitur in neutro, non est 
+        <lb ed="#C" n="76"/>ad propositum: quia ubicumque in 
+        re<lb ed="#C" n="77" break="no"/>bus creatis est diversitas suppositi, est ibi 
+        <lb ed="#C" n="78"/>diversitas naturae: cum natura creata 
+        <lb ed="#C" n="79"/>non sit suum esse. Sed quia natura 
+        Di<lb ed="#C" n="80" break="no"/>vina est ipsum esse, ad pluritatem sup 
+        <lb ed="#C" n="81"/>positorum non sequitur pluralitas 
+        natu<lb ed="#C" n="82" break="no"/>rarum: unde est ibi distinctio in 
+        Perso<lb ed="#C" n="83" break="no"/>nis, reservata unitate essentiae. Propter  
+        <lb ed="#C" n="84"/>quod qualitercumque loquamur, dum 
+        <lb ed="#C" n="85"/>modo intelligamus distinctionem in 
+        <lb ed="#C" n="86"/>Personis, &amp; unitatem in essentia, 
+        sem<lb ed="#C" n="87" break="no"/>per loquutio nostra secundum nostrum 
+        <lb ed="#C" n="88"/>intelligendi modum est vera: unde 
+        pos<lb ed="#C" n="89" break="no"/>sumus dicere tres, &amp; tria, dummodo 
+        <lb ed="#C" n="90"/>intelligatur essentia una, &amp; simplex: 
+        ve<lb ed="#C" n="91" break="no"/>rumtamen quia in loquutionibus nostris 
+        <lb ed="#C" n="92"/>debemus nos conformare dictis 
+        Sancto<lb ed="#C" n="93" break="no"/>rum, inquantum possumus: nam sicut  
+        <lb ed="#C" n="94"/>in Philosophia reprehenderetur aliquis 
+        <lb ed="#C" n="95"/>quantumcumque vera diceret, si non 
+        <lb ed="#C" n="96"/>loqueretur per verba artis, &amp; secundum 
+        <lb ed="#C" n="97"/>modum philosophorum: ita in 
+        Theo<lb ed="#C" n="98" break="no"/>logia reprehensibilis existit etiam, qui  
+        <lb ed="#C" n="99"/>vera dicit, si non loquitur per verba 
+        <lb ed="#C" n="100"/>artis, &amp; secundum modum Sanctorum. 
+        <lb ed="#C" n="101"/>Nam philosophi nostri Sancti sunt: prop 
+        <lb ed="#C" n="102"/>ter quod Diony. 5. de Div. nom. 
+        lo<lb ed="#C" n="103" break="no"/>quentes in Theologia appellat philoso¬ 
+        <!--236.xml-->
+        <pb ed="#C" n="199"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>d phos. Et quia Sancti sic loquuti sunt, ut  
+        <lb ed="#C" n="2"/>per aliud substantive intelligant 
+        diversi<lb ed="#C" n="3" break="no"/>tatem essentiae, &amp; per alium 
+        distinctio<lb ed="#C" n="4" break="no"/>nem in Persona: ideo &amp; nos si loqui 
+        <lb ed="#C" n="5"/>debemus. Vnde <name xml:id="Gi9qrR-e52685-Nd1e872" ref="#Augustine">Aug.</name> in princ. de Fide 
+        <lb ed="#C" n="6"/>ad Petrum ait: Vna est enim Patris, &amp; 
+        Fi<lb ed="#C" n="7" break="no"/>lij &amp; Spiritus Sancti essentia, quam 
+        Craeci<lb ed="#C" n="8" break="no"/>usvam vocant, in qua non est aliud Pater, &amp; 
+        <lb ed="#C" n="9"/>aliud Filius, &amp; aliud Spiritus Sanctus, 
+        quam<lb ed="#C" n="10" break="no"/>vis personaliter sit alius Pater, alius Filius, 
+        <lb ed="#C" n="11"/>alius Spiritus Sanctus. Igitur principalis 
+        <lb ed="#C" n="12"/>causa quare in masculino est vera 
+        dicen<lb ed="#C" n="13" break="no"/>do: alius est Pater a Filio; &amp; in neutro 
+        <lb ed="#C" n="14"/>falsa, est quia sic Sancti sunt locuti, qui  
+        <lb ed="#C" n="15"/>bus nos conformare debemus. Sed si 
+        <lb ed="#C" n="16"/>quaeratur, quid movit Sanctos ad sic lo  
+        <lb ed="#C" n="17"/>quendum? Dicendum, quod traslatio 
+        <lb ed="#C" n="18"/>nominum, &amp; eorum impositio est ad 
+        <lb ed="#C" n="19"/>placitum. Ideo sufficit assignare aliquam 
+        <lb ed="#C" n="20"/>rationem probabilem, &amp; non oportet 
+        <lb ed="#C" n="21"/>ad hoc adducere demonstrationem 
+        <lb ed="#C" n="22"/>Propter hoc notandum, quod aliam 
+        <lb ed="#C" n="23"/>suppositionem habet homo, &amp; Deus: 
+        <lb ed="#C" n="24"/>nam homo quantum est de se semper 
+        <lb ed="#C" n="25"/>habet suppositionem personalem; si 
+        au<lb ed="#C" n="26" break="no"/>tem habet simplicem, hoc est ex adium 
+        <lb ed="#C" n="27"/>cto, ergo per se supponit distincte, &amp; 
+        <lb ed="#C" n="28"/>per accidens indistincte. De Deo autem 
+        <lb ed="#C" n="29"/>est econtrario: quia semper de se 
+        ha<lb ed="#C" n="30" break="no"/>bet suppositionem simplicem, &amp; suppo¬ 
+        <lb ed="#C" n="31"/>nit indistincte; ex adiuncto habet 
+        sup<lb ed="#C" n="32" break="no"/>positionem personalem, &amp; distinctam. 
+        <lb ed="#C" n="33"/>Et quia in Divinis terminus essentialis 
+        <lb ed="#C" n="34"/>de se indistincte supponit, aliud, quidem 
+        <lb ed="#C" n="35"/>indistincte significat: quia neutrum per 
+        <lb ed="#C" n="36"/>quamdam abnegationem suum signifi 
+        <lb ed="#C" n="37"/>catum importat, dat intelligere Divinam 
+        <lb ed="#C" n="38"/>essentiam; &amp; alius Personam: quam 
+        di<lb ed="#C" n="39" break="no"/>stincte significat, ut Persona distincte 
+        <lb ed="#C" n="40"/>supponit, accipiendo distincte 
+        suppone<lb ed="#C" n="41" break="no"/>re, quod personalem habet suppositio 
+        <lb ed="#C" n="42"/>nem. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e956">
+                  <lb ed="#C" n="43"/>Resp. ad arg. Ad primum 
+        dicen<lb ed="#C" n="44" break="no"/>dum, quod in istis inferioribus est duples 
+        <lb ed="#C" n="45"/>substantia, prima, &amp; secunda. In 
+        Divi<lb ed="#C" n="46" break="no"/>nis autem, licet non sit ista distinctio 
+        <lb ed="#C" n="47"/>proprie: est tamen ibi aliquid, quod  
+        <lb ed="#C" n="48"/>habet similitudinem cum secunda 
+        sub<lb ed="#C" n="49" break="no"/>stantia, ut natura: &amp; aliquid, quod 
+        ha<lb ed="#C" n="50" break="no"/>bet similitudinem cum substantia 
+        pri<lb ed="#C" n="51" break="no"/>ma, ut suppositum: &amp; alius ibi, licet  
+        <lb ed="#C" n="52"/>non dicat diversitatem, dicit 
+        distin<lb ed="#C" n="53" break="no"/>ctionem etiam in substantia, non in 
+        sub<lb ed="#C" n="54" break="no"/>stantia prout stat pro natura, sed 
+        pro<lb ed="#C" n="55" break="no"/>supposito.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e988">
+        Ad 2. dicendum, quod in 
+        <lb ed="#C" n="56"/>rebus creatis quandiu manet natura ea¬ 
+        <!--236.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>dem, manet suppositum idem: &amp; ide oqui 
+        <lb ed="#C" n="58"/>nunquam dicitur alius, nisi varietur 
+        na<lb ed="#C" n="59" break="no"/>tura; sed in Divinis, ubi est distinctio 
+        <lb ed="#C" n="60"/>suppositi, reservata unitate naturae, 
+        po<lb ed="#C" n="61" break="no"/>test ibi concedi aliqua alietas, licet sit 
+        <lb ed="#C" n="62"/>una natura in omnibus tribus.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1010">
+        Ad 3. 
+        di<lb ed="#C" n="63" break="no"/>cendum, quod licet idem significet aliud, &amp; 
+        <lb ed="#C" n="64"/>alius, non tamen habet cundem modum 
+        sig<lb ed="#C" n="65" break="no"/>nificandi. In veritate autem 
+        propositio<lb ed="#C" n="66" break="no"/>num non solum attendenda est 
+        signifi<lb ed="#C" n="67" break="no"/>catio, sed significandi modus.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1023">
+        Ad 4. 
+        di<lb ed="#C" n="68" break="no"/>cendum, quod in suppositis, quae 
+        con<lb ed="#C" n="69" break="no"/>stituuntur per absoluta, est distinctio per 
+        <lb ed="#C" n="70"/>esse. In Divinis autem non sic, sed est 
+        <lb ed="#C" n="71"/>ibi distinctio per respectum. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e52685-Dd1e1036">
+               <head xml:id="Gi9qrR-e52685-Hd1e1038">Articulus 3</head>
+               <p xml:id="Gi9qrR-e52685-d1e1041">
+                  <lb ed="#C" n="72"/>ARTICVLVS III. 
+        <lb ed="#C" n="73"/>Vtrum Pater, &amp; Filius possint dici plures 
+        <lb ed="#C" n="74"/>aeterni?
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1050">
+                  <lb ed="#C" n="75"/>TTErtio quaeritur: utrum Pater &amp; 
+        Fi<lb ed="#C" n="76" break="no"/>lius possint dici plures aeterni? Et  
+        <lb ed="#C" n="77"/>videtur quod non: quia non magis est 
+        <lb ed="#C" n="78"/>in Deo vera bonitas, quam vera 
+        aeter<lb ed="#C" n="79" break="no"/>nitas, sed Pater &amp; Filius &amp; Spiritus 
+        San<lb ed="#C" n="80" break="no"/>ctus non dicuntur tres boni, sed unus bonus, ut  
+        <lb ed="#C" n="81"/>vult <name xml:id="Gi9qrR-e52685-Nd1e1067" ref="#Augustine">Aug.</name> 5. de Trin. cap. 8. ergo non 
+        <lb ed="#C" n="82"/>sunt tres aeterni, sed unus aeternus.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1073">
+        Prae<lb ed="#C" n="83" break="no"/>terea: in Symbolo Athanasij dicitur? 
+        <lb ed="#C" n="84"/>Non tres aeterni, sed unus aeternus, ergo &amp;c. 
+        <lb ed="#C" n="85"/>Praeterea: regula est <name xml:id="Gi9qrR-e52685-Nd1e1081" ref="#Augustine">Aug.</name> 5. de Trin. 
+        <lb ed="#C" n="86"/>cap. 8. Quidquid ergo ad se ipsum 
+        di<lb ed="#C" n="87" break="no"/>citur Deus, &amp; de singulis Personis 
+        singulari<lb ed="#C" n="88" break="no"/>ter dicitur, id est, de Patre, &amp; Filio, &amp; 
+        Spi<lb ed="#C" n="89" break="no"/>ritu Sancto, &amp; simul de ipsa Trinitate, non 
+        plu<lb ed="#C" n="90" break="no"/>raliter, sed singulariter dicitur, ergo Pater  
+        <lb ed="#C" n="91"/>est aeternus, &amp; Filius aeternus, &amp; simul 
+        <lb ed="#C" n="92"/>ambo unus aeternus, non plures aeterni
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1100">
+                  <lb ed="#C" n="93"/>Praeterea: si propter aliquid verificatur  
+        <lb ed="#C" n="94"/>quod Pater &amp; Filius sunt plures aeterni, 
+        <lb ed="#C" n="95"/>hoc non est, nisi quia aeternus tenetur  
+        <lb ed="#C" n="96"/>adiectivei: sed In Deo nihil est per 
+        acci<lb ed="#C" n="97" break="no"/>dens, ut dicitur 5. de Trin. cap. 5. Sed 
+        <lb ed="#C" n="98"/>adiectiva videntur significare quid per 
+        <lb ed="#C" n="99"/>accidens, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1119">
+                  <lb ed="#C" n="100"/>In contrarium est: quia coaeternum 
+        <lb ed="#C" n="101"/>praesupponit aeternum: non enim sunt, 
+        <lb ed="#C" n="102"/>sibi coaeterna, quae non sunt aeterna; sed  
+        <lb ed="#C" n="103"/>tres Personae in plurali dicuntur sibi 
+        <lb ed="#C" n="104"/>coaeternae, ergo in plurali possunt dici 
+        <lb ed="#C" n="105"/>aeternae.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1135">
+        <!--237.xml-->
+                  <pb ed="#C" n="200"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>RESOLVTIO. 
+        <lb ed="#C" n="2"/>Et si Pater, &amp; Filius dici possint plures 
+        <lb ed="#C" n="3"/>aeterni adiective propter unam aeternitatem; 
+        <lb ed="#C" n="4"/>tamen melius dicuntur coaeterni. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1153">
+                  <lb ed="#C" n="5"/>REsp. dicendum, quod natura rei 
+        du<lb ed="#C" n="6" break="no"/>Rpliciter comparatur, ad esse, &amp; ad 
+        <lb ed="#C" n="7"/>agere. Secundum quod comparatur ad 
+        <lb ed="#C" n="8"/>esse, sic fortitur durationem: nam 
+        ex<lb ed="#C" n="9" break="no"/>esse sumitur duratio rei, ut quae habent 
+        <lb ed="#C" n="10"/>esse invariabile, mensurantur: 
+        aeternita<lb ed="#C" n="11" break="no"/>te, quae variabile tempore. Secundum 
+        <lb ed="#C" n="12"/>quod comparatur ad agere, sic fsortitur 
+        <lb ed="#C" n="13"/>ea per quae agit, ut secundum quod 
+        sa<lb ed="#C" n="14" break="no"/>pit quis, est in eo sapientia, &amp; sic de alijs: 
+        <lb ed="#C" n="15"/>&amp; quia ex esse &amp; agere hoc sortitur 
+        na<lb ed="#C" n="16" break="no"/>tura secundum quod comparatur ad 
+        <lb ed="#C" n="17"/>nesse &amp; ad agere, sic est idem cum istis, 
+        <lb ed="#C" n="18"/>&amp; non idem: &amp; quia natura creata non 
+        <lb ed="#C" n="19"/>est suum esse, non est sua duratio: &amp; 
+        <lb ed="#C" n="20"/>quia non est suum agere, non est sua 
+        <lb ed="#C" n="21"/>virtus. Deus autem quia est suum esse, 
+        <lb ed="#C" n="22"/>&amp; suum agere, ut ostensum est, &amp; Actio 
+        <lb ed="#C" n="23"/>est ei essentialis, ut probat Phil. 12. Meta¬ 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1197">
+                  <lb ed="#C" n="24"/>h. Deus est sua duratio, &amp; sua virtus: 
+        <lb ed="#C" n="25"/>unde <name xml:id="Gi9qrR-e52685-Nd1e1203" ref="#Augustine">Aug.</name> 15. de Trin. cap. 5. dicit:  
+        <lb ed="#C" n="26"/>quod Deus est vera aeternitas, quod 
+        con<lb ed="#C" n="27" break="no"/>cordat cum verbis Anselm. Monol. 24. 
+        <lb ed="#C" n="28"/>est etiam sua magnitudo vel sua virtus, ut  
+        <lb ed="#C" n="29"/>probat <name xml:id="Gi9qrR-e52685-Nd1e1215" ref="#Augustine">Aug.</name> 5. de Trin. cap. 10. &amp; quia 
+        <lb ed="#C" n="30"/>ista omnia sunt idem quod essentia 
+        Di<lb ed="#C" n="31" break="no"/>vina, sicut est una essentia in tribus 
+        Per<lb ed="#C" n="32" break="no"/>sonis, ita est una aeternitas, una 
+        magni<lb ed="#C" n="33" break="no"/>tudo, &amp; sic de alijs. Vnde 5. de Trinit,  
+        <lb ed="#C" n="34"/>cap. 8. dicitur: quod Sicut non dicimus tres, 
+        <lb ed="#C" n="35"/>essentias, sic non dicimus tres magnitudines. 
+        Si<lb ed="#C" n="36" break="no"/>militer etiam non dicimus tres 
+        aeterni<lb ed="#C" n="37" break="no"/>tates: una est ergo aeternitas in tribus 
+        <lb ed="#C" n="38"/>Personis, sicut &amp; una Deitas; tamen 
+        <lb ed="#C" n="39"/>tres sunt habentes aeternitatem, sicut &amp; 
+        <lb ed="#C" n="40"/>Deitatem: &amp; quia non est distinctio in 
+        <lb ed="#C" n="41"/>aeternitate, sed inter aeternitatem 
+        haben<lb ed="#C" n="42" break="no"/>tes, cum pluralis numerus semper 
+        di<lb ed="#C" n="43" break="no"/>stinctionem importet: si illa distinctiol 
+        <lb ed="#C" n="44"/>ad habentes aeternitatem refertur, sic  
+        <lb ed="#C" n="45"/>locutio est vera; si ad aeternitatem, 
+        fal<lb ed="#C" n="46" break="no"/>sa. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1256">
+                  <lb ed="#C" n="47"/>Propter quod notandum, quod idem 
+        <lb ed="#C" n="48"/>nantum ad principalem 
+        significatio<lb ed="#C" n="49" break="no"/>nem importatur per verbum, per 
+        no<lb ed="#C" n="50" break="no"/>men concretum, &amp; nomen abstractum, 
+        <lb ed="#C" n="51"/>Vnde idem significat sapere, sapientia, 
+        <lb ed="#C" n="52"/>&amp; sapiens principaliter loquendo; tamem 
+        <lb ed="#C" n="53"/>quantum ad modum significandi 
+        diffe<lb ed="#C" n="54" break="no"/>runt: nam prout tale significatum im¬ 
+        <!--237.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>portatur per verbum, semper dicit rem 
+        <lb ed="#C" n="56"/>suam circa suppositum: quia 
+        supposi<lb ed="#C" n="57" break="no"/>torum est agere: &amp; ideo cum nihil sit 
+        <lb ed="#C" n="58"/>essentiale, quod non habeatur a tribus, 
+        <lb ed="#C" n="59"/>quantumcumque verbum essentialiter 
+        <lb ed="#C" n="60"/>significet: quia illud essentiale a tribus 
+        <lb ed="#C" n="61"/>habetur. Circa quae tria ponit rem suam 
+        <lb ed="#C" n="62"/>verbum: ratione actus quem importat, 
+        <lb ed="#C" n="63"/>semper de pluribus Personis verbum 
+        de<lb ed="#C" n="64" break="no"/>pemus pronuntiare pluraliter, &amp; non 
+        <lb ed="#C" n="65"/>singulariter, unde Pater &amp; Filius sapiunt, 
+        <lb ed="#C" n="66"/>non sapit; creant, non creat: nam 
+        in<lb ed="#C" n="67" break="no"/>er cetera verba, quae essentiam indicat,  
+        <lb ed="#C" n="68"/>esse maxime indicat, quod tamen 
+        plu<lb ed="#C" n="69" break="no"/>raliter dicitur de pluribus Personis. 
+        Vn<lb ed="#C" n="70" break="no"/>de <name xml:id="Gi9qrR-e52685-Nd1e1314" ref="#Augustine">Aug.</name> 5. de Trin. cap. 9. Revera enim 
+        <lb ed="#C" n="71"/>cum Pater non sit Filius, &amp; Filius non sit 
+        Pa<lb ed="#C" n="72" break="no"/>ter, &amp; Spiritus Sanctus, ille qui etiam donum 
+        <lb ed="#C" n="73"/>Dei vocatur, nec Pater sit, nec Filius, tres 
+        uti<lb ed="#C" n="74" break="no"/>que sunt: ideo que pluraliter dictum est: ego 
+        <lb ed="#C" n="75"/>&amp; Pater unum sumus. Non enim dixit, unum 
+        <lb ed="#C" n="76"/>est, quod Sabelliani dicunt, sed unum sumus. Si 
+        <lb ed="#C" n="77"/>tale significatum importetur per nomen 
+        <lb ed="#C" n="78"/>abstractum, tunc cum tale nomen 
+        sig<lb ed="#C" n="79" break="no"/>nificet ipsam rem in se, si pluraliter 
+        pro<lb ed="#C" n="80" break="no"/>feratur, semper circa rem, quam 
+        signifi<lb ed="#C" n="81" break="no"/>cat principaliter, designatur distinctio: 
+        <lb ed="#C" n="82"/>&amp; ideo talia semper debent proferri 
+        sin<lb ed="#C" n="83" break="no"/>gulariter, &amp; nunquam pluraliter. Vnde 
+        <lb ed="#C" n="84"/>Damasc. 1. lib. cap. 8. dicit: Patris &amp; 
+        <lb ed="#C" n="85"/>Filij &amp; Spiritus Sancti Vnam esse essentiam, 
+        <lb ed="#C" n="86"/>onam Divinitatem, unam potentiam, unam 
+        vo<lb ed="#C" n="87" break="no"/>luntatem, unam operationem, unam potestatem 
+        <lb ed="#C" n="88"/>&amp; sic de alijs. Sed si nomina proferu 
+        <lb ed="#C" n="89"/>ur in concreto, tunc possunt proferr 
+        <lb ed="#C" n="90"/>singulariter, &amp; pluraliter: quia si tenem 
+        <lb ed="#C" n="91"/>tur substantive, debent proferri 
+        singu<lb ed="#C" n="92" break="no"/>lariter: &amp; secundum istum modum 
+        di<lb ed="#C" n="93" break="no"/>cit <name xml:id="Gi9qrR-e52685-Nd1e1367" ref="#Augustine">Aug.</name> 5. de Trin. cap. 8. quod Pater 
+        <lb ed="#C" n="94"/>&amp; Filius &amp; Spiritus Sanctuonon sunt tres mag. 
+        <lb ed="#C" n="95"/>ni, sed unus magnus; non tres boni, sed unus 
+        bo<lb ed="#C" n="96" break="no"/>ius. Si teneantur adiective, tunc debent 
+        <lb ed="#C" n="97"/>proferri pluraliter: quia sicut 
+        substanti<lb ed="#C" n="98" break="no"/>vum, quia significat per se existens, si 
+        <lb ed="#C" n="99"/>rofertur pluraliter dicit distinctionem 
+        <lb ed="#C" n="100"/>circa rem principaliter significatam, ut  
+        <lb ed="#C" n="101"/>tres boni substantive dant intelligere 
+        <lb ed="#C" n="102"/>tres bonitates: sic adiectivum, quia 
+        sig<lb ed="#C" n="103" break="no"/>nificat rem non per se existentem, sed  
+        <lb ed="#C" n="104"/>in habente, si profertur pluraliter non 
+        <lb ed="#C" n="105"/>importat distinctionem circa rem 
+        signi<lb ed="#C" n="106" break="no"/>ficatam principaliter, sed circa 
+        haben<lb ed="#C" n="107" break="no"/>es illam: unde tres boni adiective non 
+        <lb ed="#C" n="108"/>dicunt tres bonitates, sed tres habentes 
+        <lb ed="#C" n="109"/>bonitatem, propter quod adiective 
+        <lb ed="#C" n="110"/>bene dictum est tres boni; &amp; 
+        <!--238.xml-->
+        <pb ed="#C" n="201"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>secundum istum modum loquitur 
+        Atha<lb ed="#C" n="2" break="no"/>nasius: cum dicit quod tres Personae sib 
+        <lb ed="#C" n="3"/>coaeternae sunt: verum quia magis ostem 
+        <lb ed="#C" n="4"/>ditur nomen adiective dici cum 
+        impor<lb ed="#C" n="5" break="no"/>tat quamdam analogiam ad supposita 
+        <lb ed="#C" n="6"/>si nominibus concretis additur aliquid 
+        <lb ed="#C" n="7"/>propter quod talis analogia designatur  
+        <lb ed="#C" n="8"/>magis proprie pluraliter proferuntur: 
+        <lb ed="#C" n="9"/>unde haec est magis propria, Pater &amp; 
+        Fi<lb ed="#C" n="10" break="no"/>lius sunt plures coaeterm, quam aeterni: quia 
+        <lb ed="#C" n="11"/>coaeternum importat analogiam 
+        praefa<lb ed="#C" n="12" break="no"/>tam, quam non importat aeternum. 
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1440">
+                  <lb ed="#C" n="13"/>Resp. ad arg. Ad primum 
+        dicens<lb ed="#C" n="14" break="no"/>dum, quod Pater, &amp; Filius sunt unus bo 
+        <lb ed="#C" n="15"/>nus, si bonus tenetur substantive; sum 
+        <lb ed="#C" n="16"/>tamen plures boni, si tenetur adiective. 
+        <lb ed="#C" n="17"/>Similiter dicendum est de aeterno. Et  
+        <lb ed="#C" n="18"/>per hoc patet solutio ad 2. &amp; 3. quia 
+        Pa<lb ed="#C" n="19" break="no"/>ter, &amp; Filius sunt unus aeternus, si aeter  
+        <lb ed="#C" n="20"/>nus sumitur substantive, non adiective 
+        <lb ed="#C" n="21"/>Item quidquid ad se dicitur, dicitur de 
+        <lb ed="#C" n="22"/>omnibus tribus non pluraliter, si illud 
+        <lb ed="#C" n="23"/>ad se sumatur substantive, non adiecti 
+        <lb ed="#C" n="24"/>ve.
+      </p>
+               <p xml:id="Gi9qrR-e52685-d1e1470">
+        Ad 4. dicendum, quod licet in Deo 
+        <lb ed="#C" n="25"/>non sit aliquid per accidens, tamen su, 
+        <lb ed="#C" n="26"/>ibi nomina significantia per modum 
+        <lb ed="#C" n="27"/>adiectivi, &amp; substantivi. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

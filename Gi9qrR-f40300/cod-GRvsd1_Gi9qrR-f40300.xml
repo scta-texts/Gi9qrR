@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="525"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f40300"><!-- l1-d28prooem -->
+            <head xml:id="Gi9qrR-f40300-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f40300-d1e111">
+      <!--562.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="65"/>DISTINCTIO XXVIIJ 
+      <lb ed="#C" n="66"/>QVOD NON TANTVM TRES PRAEDICTAE PROPRIETAI¬ 
+      <lb ed="#C" n="67"/>tes sunt in Personis, sed etiam quae alijs significantur no¬ 
+      <lb ed="#C" n="68"/>minibus, ut in genitus. 
+    </p>
+            <p xml:id="Gi9qrR-f40300-d1e127">
+      <!--562.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="69"/>PRRAETEREA considerari re. Po¬ 
+      <lb ed="#C" n="70"/>stquam Magist. 
+      determi<lb ed="#C" n="71" break="no"/>navit de tribus 
+      proprieta<lb ed="#C" n="72" break="no"/>tibus Personas 
+      constituen<lb ed="#C" n="73" break="no"/>tibus: hic in parte ista 
+      de<lb ed="#C" n="74" break="no"/>terminat de 
+      innascibilita<lb ed="#C" n="75" break="no"/>te &amp; de communi 
+      notifi<lb ed="#C" n="76" break="no"/>catione, quae proprie non 
+      <lb ed="#C" n="77"/>sunt proprietates: eo quod Personas non 
+      con<lb ed="#C" n="78" break="no"/>stituunt, sed communi nomine notificationes 
+      <!--562.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="79"/>dicuntur. Et duo facit: quia 1. determinat de 
+      <lb ed="#C" n="80"/>innascibilitate sive de eo, quod est esse in 
+      ge<lb ed="#C" n="81" break="no"/>nitum. 2. de communi notificatione. 
+      Secun<lb ed="#C" n="82" break="no"/>da ibi: Est praeterea. In princip. 25. dist. Circo 
+      <lb ed="#C" n="83"/>primum duo fa¬cit: quia 1. determinat de 
+      <lb ed="#C" n="84"/>dicta notificatione. 2. occasione dictorum mo 
+      <lb ed="#C" n="85"/>dorum movet quasdam quaestiones, ibi: Ided 
+      <lb ed="#C" n="86"/>solet quaeri. Circa primum duo facit: quia 1. 
+      <lb ed="#C" n="87"/>dicit, hoc quod est esse in genitum, esse 
+      no<lb ed="#C" n="88" break="no"/>tificationem Patris, &amp; esse aliam a paternita¬ 
+      <!--563.xml-->
+      <pb ed="#C" n="526"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>te. 2. ad probationem dicti adducit verba n 
+      <lb ed="#C" n="2"/>Aegust. bi: Vnde <name xml:id="Gi9qrR-f40300-Nd1e192" ref="#Augustine">August.</name> Et tria facit: quia 
+      <lb ed="#C" n="3"/>1. probat hoc, quod est esse in genitum, esse 
+      <lb ed="#C" n="4"/>aliud ab hoc, quod est esse Patrem: quia ibi:  
+      <lb ed="#C" n="5"/>esse ingenitum non dicit quid Pater sit, sed  
+      <lb ed="#C" n="6"/>quid non sit. 2. ostendit esse in genitum 
+      sig<lb ed="#C" n="7" break="no"/>nificare notionem &amp; relationem aliquo 
+      mo<lb ed="#C" n="8" break="no"/>do: quia negatio est in eodem genere cum 
+      <lb ed="#C" n="9"/>affirmatione. 3. recolligit in brevi verba 
+      Au<lb ed="#C" n="10" break="no"/>gust. &amp; concludit intentum, videlicet, quod 
+      <lb ed="#C" n="11"/>ingenitum dicit notificationem, &amp; dicit aliam 
+      <lb ed="#C" n="12"/>notificationem a paternitate. Secunda ibi:  
+      <lb ed="#C" n="13"/>Hic exemplis. Tertia ibi: Ecce evidenter. Deindo 
+      <lb ed="#C" n="14"/>cum dicit: Ideo solet. Movet quasdam quaestiones, 
+      <lb ed="#C" n="15"/>&amp; tria facit, secudum quod tres quaestiones 
+      mo<lb ed="#C" n="16" break="no"/>vet. Secuda ibi: Praeterea. Tertia ibi: Sciendum. Cir 
+      <lb ed="#C" n="17"/>ca 1. duo facit: quia 1. circa esse in genitum quandam 
+      <lb ed="#C" n="18"/>quaestionem movet. 2. ostendit tali verbo mal 
+      <lb ed="#C" n="19"/>fuisse usos Artianos, ibi: Illud etum. Circa 1. duo fa 
+      <lb ed="#C" n="20"/>cit: quia 1. movet quaest, quaerentem: utrum solia, 
+      Pa<lb ed="#C" n="21" break="no"/>ter possit dici non genitus, vel no Filius, si cut se 
+      <lb ed="#C" n="22"/>lus dicitur ingenitus? 2. solvit, opiniop es aliorum 
+      <lb ed="#C" n="23"/>recitando, ibi: Quousdam. Circa quod tria 
+      <lb ed="#C" n="24"/>facit: quia 1. ponit opinionem quorumdam 
+      <lb ed="#C" n="25"/>dicentium Spiritum Sanctum non debere 
+      di<lb ed="#C" n="26" break="no"/>ei non genitum, vel non Filium, sicut non 
+      <lb ed="#C" n="27"/>dicitur ingenitus. 2. ponis opinionem alios 
+      <lb ed="#C" n="28"/>rum, qui dicebant Spiritum Sanctum posse 
+      di<lb ed="#C" n="29" break="no"/>ci non genitum, licet non possit dici in geni 
+      <lb ed="#C" n="30"/>tum: &amp; quia <name xml:id="Gi9qrR-f40300-Nd1e255" ref="#Augustine">August.</name> dicit id em est esse 
+      inge<lb ed="#C" n="31" break="no"/>nitum quod non genitum, dicunt hoc esse 
+      <lb ed="#C" n="32"/>dictum quantum ad etymalogiam nominis; 
+      ro<lb ed="#C" n="33" break="no"/>quantum ad veritatem prae dication 5. 3. oster 
+      <lb ed="#C" n="34"/>dit per Hilar. cuiusmodi proprietas sit esse in 
+      <lb ed="#C" n="35"/>genitum: quia est eadem, quod innascibili 
+      <lb ed="#C" n="36"/>tas. Secunda ibi: Alijs autem. Tertia ibi: Si 
+      <lb ed="#C" n="37"/>quod Deiade cum dicit: Illud etiam. Ostendit 
+      <lb ed="#C" n="38"/>abusum Arrianorum concludere Patrem esse 
+      <lb ed="#C" n="39"/>diversum in substantia a Filio: eo quod ipse  
+      <!--563.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="40"/>sit in genitus, &amp; Filius genitus. 2. ostendit hus 
+      <lb ed="#C" n="41"/>ius cccasione Ambros. voluisse hoc nomine 
+      <lb ed="#C" n="42"/>uti. 3. dat quamdam regulam circa Divina 
+      <lb ed="#C" n="43"/>nomina (videlicet) quod quaedam in Divinis 
+      <lb ed="#C" n="44"/>dicuntur, quae non sunt tantae auctoritatis, &amp; 
+      <lb ed="#C" n="45"/>veligionis, ut ea semper oporreat confiteris 
+      <lb ed="#C" n="46"/>sed propter calumniam haereticorum 
+      aliquan<lb ed="#C" n="47" break="no"/>do possunt silentio praeteriti. Secunda ibi: 
+      Vn<lb ed="#C" n="48" break="no"/>de Ambr. Tertia ibbi: Attende lector. Deinde cum 
+      <lb ed="#C" n="49"/>dicit: Praeterea. Movet secundam quaestionem, 
+      <lb ed="#C" n="50"/>&amp; duo facit: quia 1. quaerit: utrum aliud sit 
+      <lb ed="#C" n="51"/>esse Ph.trem, &amp; esse Filium: sicut aliud est esse 
+      <lb ed="#C" n="52"/>ingeinitum, &amp; esse Patrem? 2. solvit, quod  
+      <lb ed="#C" n="53"/>alitad est, si denotetur alietas in 
+      notificatio<lb ed="#C" n="54" break="no"/>tre; sed non est aliud, si denotetur in sub¬ 
+      <lb ed="#C" n="55"/>stantia diversitas. Secunda ibi: Ad quod dicimus. 
+      <lb ed="#C" n="56"/>Deinde cum dicit: Sciendum. Movet tertiam 
+      <lb ed="#C" n="57"/>uaestionem, &amp; duo facit: quia 1. quaerit: 
+      <lb ed="#C" n="58"/>utrum nata sapientia dicatur relative, &amp; 
+      se<lb ed="#C" n="59" break="no"/>undum eandem relationem, secundum quam 
+      <lb ed="#C" n="60"/>licitur Verbum &amp; imago? 2. respondet rer 
+      <lb ed="#C" n="61"/>August. ibi: De hoc <name xml:id="Gi9qrR-f40300-Nd1e330" ref="#Augustine">Aug.</name> Circa quod tria 
+      fa<lb ed="#C" n="62" break="no"/>cit: quia 1. solvit dicens, quod per natum 
+      <lb ed="#C" n="63"/>denotatur notificatio; sed per sapientiam 
+      de<lb ed="#C" n="64" break="no"/>signatur essentia. 2. movet quamdam 
+      cavilla<lb ed="#C" n="65" break="no"/>tionem. Circa hoc, &amp; solvit eam: quia si per 
+      <lb ed="#C" n="66"/>sapientiam denotatur essentia, cum dicatur 
+      na<lb ed="#C" n="67" break="no"/>ta sapientia, essentiae competit nasci &amp; gigni: 
+      <lb ed="#C" n="68"/>ideo dat intellectum dicti, dicens, quod ibi 
+      sa<lb ed="#C" n="69" break="no"/>ientia stat pro hypostasi: unde idem sonas 
+      <lb ed="#C" n="70"/>nata sapientia, quod genita hypostasis: 
+      dici<lb ed="#C" n="71" break="no"/>tur tamen stare pro essentia: quia ipsa hvi 
+      o<lb ed="#C" n="72" break="no"/>stasis essentia est. 3. quia dixerat imaginem 
+      <lb ed="#C" n="73"/>relative dici, ne aliquis crederet quod non 
+      <lb ed="#C" n="74"/>posset dici secundum substantiam, ostendit per 
+      <lb ed="#C" n="75"/>August. imaginem in Divinis aliquando 
+      essen<lb ed="#C" n="76" break="no"/>tialiter sumi. Secunda ibi: Sane lector. Tertia ibi:  
+      <lb ed="#C" n="77"/>Illud etiam sciri. In quo terminatur sententia le 
+      <lb ed="#C" n="78"/>ctionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

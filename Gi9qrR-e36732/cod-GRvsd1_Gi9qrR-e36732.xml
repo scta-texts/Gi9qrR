@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="137"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e36732"><!-- l1-d6q2 -->
+            <head xml:id="Gi9qrR-e36732-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e36732-d1e111">
+               <lb ed="#C" n="36"/>QVAESTIO II. 
+      <lb ed="#C" n="37"/>Vtrum voluntate Pater genuerit Filium? 
+    </p>
+            <p xml:id="Gi9qrR-e36732-d1e118">
+               <lb ed="#C" n="38"/>DEinde quaeritur utrum Pater genue. 
+      <lb ed="#C" n="39"/>rit Filium voluntate? Et quia ea 
+      <lb ed="#C" n="40"/>quae procedunt secundum artem, videno 
+      <lb ed="#C" n="41"/>tur procedere per modum voluntatis, 
+      <lb ed="#C" n="42"/>ideo 1. quaeremus utrum Filius procedat 
+      <lb ed="#C" n="43"/>a Patre per modum artis? 2. utrum 
+      Pa<lb ed="#C" n="44" break="no"/>ter genuerit Filium voluntate? 3. ut 
+      <lb ed="#C" n="45"/>magis pateant dicta, quaeremus, 
+      <lb ed="#C" n="46"/>cum sit vera, Deus generat, 
+      <lb ed="#C" n="47"/>utrum sit vera, Deus 
+      <lb ed="#C" n="48"/>non generat? 
+    </p>
+            <div xml:id="Gi9qrR-e36732-Dd1e144">
+               <head xml:id="Gi9qrR-e36732-Hd1e146">Articulus 1</head>
+               <p xml:id="Gi9qrR-e36732-d1e149">
+        <!--174.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="49"/>ARTICVLVS I. 
+        <lb ed="#C" n="50"/>Vtrum Filius procedat a Patre per mor 
+        <lb ed="#C" n="51"/>dum artis: 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e162">
+                  <lb ed="#C" n="52"/>AD 1. sic proceditur: videtur quod  
+        <lb ed="#C" n="53"/>Filius procedat a Patre per modum 
+        <lb ed="#C" n="54"/>artis: quia ea, quae procedunt per 
+        mo<lb ed="#C" n="55" break="no"/>dum intellectus, videntur procedere ad 
+        <lb ed="#C" n="56"/>modum artis, sed Filius procedit a 
+        Pa<lb ed="#C" n="57" break="no"/>tre per modum intellectus: cum 
+        pro<lb ed="#C" n="58" break="no"/>cedat ut verbum a mente secundum 
+        <lb ed="#C" n="59"/>Aug. ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e182">
+        Praeterea: ea, quae 
+        pro<lb ed="#C" n="60" break="no"/>Scedunt per modum exemplaris, viden¬ 
+        <lb ed="#C" n="61"/>tur procedere per modum artis, sed 
+        Fi<lb ed="#C" n="62" break="no"/>lius procedit per modum 
+        exempla<lb ed="#C" n="63" break="no"/>ris: cum procedat ut imago, iuxta 
+        <lb ed="#C" n="64"/>illud 6. de Trin. cap. 2. Filius solus image 
+        <lb ed="#C" n="65"/>Patris, quemadmodum &amp; Filius, ergo &amp;c
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e198">
+                  <lb ed="#C" n="66"/>Praeterea: quod procedit ut ars, videtu 
+        <lb ed="#C" n="67"/>procedere per modum artis, sed dicitur  
+        <lb ed="#C" n="68"/>6. de Trin. cap. 10. quod Filius est Ars 
+        <lb ed="#C" n="69"/>quaedam sapientis Dei, ergo &amp;c. 
+        <lb ed="#C" n="70"/>In contrarium est: quia quod 
+        pro<lb ed="#C" n="71" break="no"/>cedit per modum artis videtur esse 
+        arti<lb ed="#C" n="72" break="no"/>ficiatum &amp; factum, Filius non est 
+        hu<lb ed="#C" n="73" break="no"/>iusmodi, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e219">
+        Praeterea: quod 
+        <lb ed="#C" n="74"/>procedit ab aliquo per modum artis non 
+        <lb ed="#C" n="75"/>est idem in natura cum ipso; quia 
+        ar<lb ed="#C" n="76" break="no"/>chifer non est eiusdem naturae cum arca, 
+        <lb ed="#C" n="77"/>Pater est eiusdem naturae cum Filio, 
+        er<lb ed="#C" n="78" break="no"/>go &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e232">
+        Praeterea: Philosophus distinguit 
+        <lb ed="#C" n="79"/>naturam, &amp; artem esse duo principia 
+        <lb ed="#C" n="80"/>diversa, ut potest patere ex 12. Meta. cum 
+        <lb ed="#C" n="81"/>igitur Filius procedat per modum 
+        natu<lb ed="#C" n="82" break="no"/>rae, non procedet per modum artis. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e243">
+                  <lb ed="#C" n="83"/>RESOLVTIO. 
+        <lb ed="#C" n="84"/>Filius procedit per modum artis, si hoc denoi 
+        <lb ed="#C" n="85"/>tat procedere ut ars omnium: Si vero proceder¬ 
+        <lb ed="#C" n="86"/>per modum artis denotat procedere tan¬ 
+        <lb ed="#C" n="87"/>quam ab arte, per modum artis 
+        <lb ed="#C" n="88"/>non procedit.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e259">
+                  <lb ed="#C" n="89"/>REspond. dicendum, quod omne 
+        <lb ed="#C" n="90"/>opus naturae potest dici opus 
+        in<lb ed="#C" n="91" break="no"/>telligentiae, &amp; potissime intelligentiae 
+        <lb ed="#C" n="92"/>Primae, scilicet Dei; comparantur  
+        <lb ed="#C" n="93"/>enim omnia naturalia ad intellectum 
+        <lb ed="#C" n="94"/>Primi, sicut artificialia ad intellectum 
+        <lb ed="#C" n="95"/>artificis, &amp; ideo Comm. in 12. Metaph. 
+        <lb ed="#C" n="96"/>ostendit, quod ea, Quae generantur in istis 
+        <lb ed="#C" n="97"/>inferioribus habent mensuras proprias ex moti¬ 
+        <!--175.xml-->
+        <pb ed="#C" n="138"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>bus Stellarum; &amp; ista mensura provenit ab ar 
+        <lb ed="#C" n="2"/>te Divina intellectuali, &amp; inde est, quod  
+        <lb ed="#C" n="3"/>Ars imitatur naturam, ut scribitur 2. Phys. 
+        <lb ed="#C" n="4"/>quia intellectus noster imitatur 
+        intelle<lb ed="#C" n="5" break="no"/>ctum Divinum, cum sit eius imago, 
+        secun<lb ed="#C" n="6" break="no"/>dum quod vult Damasc. &amp; <name xml:id="Gi9qrR-e36732-Nd1e300" ref="#Augustine">Aug.</name> ut 
+        osten<lb ed="#C" n="7" break="no"/>um fuit, cum tractavimus de imagine, 
+        <lb ed="#C" n="8"/>&amp; quia intellectus noster imitatur 
+        intel<lb ed="#C" n="9" break="no"/>lectum Divinum, oportet, quod ars. 
+        <lb ed="#C" n="10"/>secundum quam procedunt artificialia 
+        <lb ed="#C" n="11"/>ab intellectu nostro, imitetur naturam, 
+        <lb ed="#C" n="12"/>per quam quasi per causam secundam 
+        <lb ed="#C" n="13"/>procedunt naturalia ab intellectu 
+        Divi<lb ed="#C" n="14" break="no"/>no, &amp; quia apti nati sumus devenirein 
+        <lb ed="#C" n="15"/>cognitionem Dei per intellectum 
+        no<lb ed="#C" n="16" break="no"/>strum &amp; per effectus, si volumus videre 
+        <lb ed="#C" n="17"/>utrum aliqua Persona in Divinis 
+        proce<lb ed="#C" n="18" break="no"/>dat per modum artis, oportet nos 
+        vide<lb ed="#C" n="19" break="no"/>re quomodo se habet intellectus noster 
+        <lb ed="#C" n="20"/>prout est principium operationum 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e334">
+                  <lb ed="#C" n="21"/>Ad cuius evidentiam notandum, 
+        <lb ed="#C" n="22"/>quod secundum <name xml:id="Gi9qrR-e36732-Nd1e340" ref="#Augustine">Aug.</name> 15. de Trin. cap. 
+        <lb ed="#C" n="23"/>II. Hominis opera nulla sunt, quae non prius 
+        <lb ed="#C" n="24"/>dicantur in corde: unde scriptum est initium 
+        <lb ed="#C" n="25"/>omnis operis verbum. Igitur si aliqua opera 
+        <lb ed="#C" n="26"/>facere volumus, oportet, quod primo 
+        <lb ed="#C" n="27"/>ea mente concipiamus, &amp; verbum 
+        con<lb ed="#C" n="28" break="no"/>ceptum sit quaedam ratio omnium 
+        fie<lb ed="#C" n="29" break="no"/>dorum. Ita se habet suo modo in 
+        intel<lb ed="#C" n="30" break="no"/>lectu Divino, Deus enim genuit Verbum, 
+        <lb ed="#C" n="31"/>in quo omnia fienda disposuit, &amp; ideo 
+        <lb ed="#C" n="32"/>Verbum Divinum est ratio omnium 
+        <lb ed="#C" n="33"/>fiendorum, sicut verbum nostrum erat 
+        <lb ed="#C" n="34"/>ratio omnium fiendorum a nobis, &amp; 
+        <lb ed="#C" n="35"/>hanc similitudinem ponit <name xml:id="Gi9qrR-e36732-Nd1e371" ref="#Augustine">August.</name> 15. de 
+        <lb ed="#C" n="36"/>Trin. cap. praedicto dicens: 
+        Animadver<lb ed="#C" n="37" break="no"/>ctenda est in hoc aenigmate etiam ista Verbi Dei 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e380">
+                  <lb ed="#C" n="38"/>similitudo, quod sicut de illo Verbo dictum est: 
+        <lb ed="#C" n="39"/>omnia per ipsum facta sunt, Vbi Deus per 
+        <lb ed="#C" n="40"/>Vnigenitum Verbum suum praedicatur universa 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e390">
+                  <lb ed="#C" n="41"/>fecisse: ita hominis opera nulla sunt, quae non 
+        <lb ed="#C" n="42"/>prius in corde dicantur: unde scriptum est 
+        ini<lb ed="#C" n="43" break="no"/>tium omnis operis verbum, propter quod, &amp; 
+        <lb ed="#C" n="44"/>Verbum Divinum 83. quaest. q. 63. 
+        Ope<lb ed="#C" n="45" break="no"/>rativa potentia nuncupatur. Patet igitur: D 
+        <lb ed="#C" n="46"/>quia Verbum est operativa potentia 
+        fie<lb ed="#C" n="47" break="no"/>dorum, &amp; ratio quare singula fiant: &amp; 
+        <lb ed="#C" n="48"/>quia omnia facta a Deo, comparantur  
+        <lb ed="#C" n="49"/>ut artificialia ad artificem, ut ostensum 
+        <lb ed="#C" n="50"/>est, cum ats sit ratio artificialium, 
+        Ver<lb ed="#C" n="51" break="no"/>bum Divinum erit ars Patris. Bene 
+        igi<lb ed="#C" n="52" break="no"/>tur dictum est 6. de Trin. cap. 10. quod 
+        <lb ed="#C" n="53"/>Verbum perfectum, cui non deest aliquid, est ars 
+        <lb ed="#C" n="54"/>quaedam omnipotentis, acque sapientis Dei, 
+        ple<lb ed="#C" n="55" break="no"/>na omnium rationum viuentium. Viso quod  
+        <lb ed="#C" n="56"/>Filius Dei est ratio omnium producto¬ 
+        <!--175.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>rum a Deo, non potest diciartificiatu, 
+        <lb ed="#C" n="58"/>quia tunc esset ratio producendi se 
+        ip<lb ed="#C" n="59" break="no"/>lum; sed solum meretur nomen artis. 
+        <lb ed="#C" n="60"/>Et ideo cum quaeritur, utrum procedat 
+        <lb ed="#C" n="61"/>per modum artis? Si hoc, quod dico 
+        ar<lb ed="#C" n="62" break="no"/>tis, construitur in habitudine denotante 
+        <lb ed="#C" n="63"/>principium, sicut dicimus aliqua 
+        proce<lb ed="#C" n="64" break="no"/>dere per modum naturae, quia natura 
+        <lb ed="#C" n="65"/>est ratio, quare illa procedunt, sic est 
+        lo<lb ed="#C" n="66" break="no"/>cutio falsa: quia est sensus, quod ars 
+        <lb ed="#C" n="67"/>ut sic ratio quareFilius procedat, &amp; tunc 
+        <lb ed="#C" n="68"/>esset artificiatum, &amp; esset ratio 
+        produ<lb ed="#C" n="69" break="no"/>cendi se ipsum: cum sit ars, qua 
+        produ<lb ed="#C" n="70" break="no"/>cuntur omnia producta per modum 
+        ar<lb ed="#C" n="71" break="no"/>tis. Si autem hoc, quod dico artis non 
+        <lb ed="#C" n="72"/>denotet ibi habitudinem principij; sed  
+        <lb ed="#C" n="73"/>construitur in vi declarationis essentiae 
+        <lb ed="#C" n="74"/>vel naturae, sive naturalis originis: vel 
+        <lb ed="#C" n="75"/>melius non est ibi constructio transitiva, 
+        <lb ed="#C" n="76"/>sed appositiva; sicut cum dicitur 
+        crea<lb ed="#C" n="77" break="no"/>tura salis, id est, creatura quae est sal, sic 
+        <lb ed="#C" n="78"/>est nota, quia tunc est sensus, procedit 
+        <lb ed="#C" n="79"/>per modum artis, hoc est, procedit ut 
+        <lb ed="#C" n="80"/>urs: sicut si diceretur, iste agit per 
+        mo<lb ed="#C" n="81" break="no"/>dum hominis: quia agit ut homo: ita 
+        <lb ed="#C" n="82"/>Filius procedit per modum artis: quia 
+        <lb ed="#C" n="83"/>ut ars. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e490">
+                  <lb ed="#C" n="84"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="85" break="no"/>dum, quod Filius procedit per modum 
+        <lb ed="#C" n="86"/>intellectus: quia procedit ut ars, non ut 
+        <lb ed="#C" n="87"/>artificiatum. Et per hoc patet solutio ad 
+        <lb ed="#C" n="88"/>2. &amp; 3. quia hoc concludebant. 
+        Argu<lb ed="#C" n="89" break="no"/>menta in contrarium probabant Filium 
+        <lb ed="#C" n="90"/>non procedere per modum artis, prout 
+        <lb ed="#C" n="91"/>artis construitur in habitudine 
+        designan<lb ed="#C" n="92" break="no"/>te rationem principij: &amp; quia sic 
+        pro<lb ed="#C" n="93" break="no"/>cedit artificiatum, Filius non procedit 
+        <lb ed="#C" n="94"/>er modum artis. Et sic omnia 
+        argume<lb ed="#C" n="95" break="no"/>ta patent, quae suis vijs procedebant.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e36732-Dd1e520">
+               <head xml:id="Gi9qrR-e36732-Hd1e522">Articulus 2</head>
+               <p xml:id="Gi9qrR-e36732-d1e525">
+                  <lb ed="#C" n="96"/>ARTICVLVS II. 
+        <lb ed="#C" n="97"/>Vtrum Pater genuerit Filium voluntate?
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e532">
+                  <lb ed="#C" n="98"/>SEcundo quaeritur: utrum Pater 
+        ge<lb ed="#C" n="99" break="no"/>Qnuerit Filium voluntate?
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e539">
+        Et videtur  
+        <lb ed="#C" n="100"/>quod sic: quia illud dicitur aliquis facere 
+        <lb ed="#C" n="101"/>voluntate, quod facit volens, sed Pater 
+        <lb ed="#C" n="102"/>genuit Filium volens: quia si generaret 
+        <lb ed="#C" n="103"/>nolens, miser esset, &amp; invidus, ergo &amp;c. 
+        <lb ed="#C" n="104"/>Praeterea: semper involuntarium est con¬ 
+        <!--176.xml-->
+        <pb ed="#C" n="139"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tristans: quia secundum Anselmum 
+        in<lb ed="#C" n="2" break="no"/>tantum aliquid est contristans, inquan 
+        <lb ed="#C" n="3"/>tum est contra voluntare, sed in Deo ni 
+        <lb ed="#C" n="4"/>hil est contristans, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e567">
+        Praeterea: 
+        <lb ed="#C" n="5"/>quae aliquis facit involuntarie, facit 
+        <lb ed="#C" n="6"/>coactus, in Deo non est coactio, ergo 
+        <lb ed="#C" n="7"/>&amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e577">
+                  <lb ed="#C" n="8"/>In contrarium est <name xml:id="Gi9qrR-e36732-Nd1e581" ref="#Augustine">Aug.</name> ad Orosium 
+        <lb ed="#C" n="9"/>qui dicit Patrem genuisse Filium, nec 
+        <lb ed="#C" n="10"/>voluntate, nec necessitate.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e589">
+        Praeterea: 
+        <lb ed="#C" n="11"/>quod procedit ut natum, non procedit 
+        <lb ed="#C" n="12"/>voluntate sed natura; Filius procedit 
+        <lb ed="#C" n="13"/>at natus, ergo, &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e598">
+                  <lb ed="#C" n="14"/>RESOLVTIO. 
+        <lb ed="#C" n="15"/>Deus non gennit Filium voluntate, prout, 
+        ge<lb ed="#C" n="16" break="no"/>n rare voluntate denotat habitudinem 
+        princi<lb ed="#C" n="17" break="no"/>pi: si vero designat complacentiam quamdam 
+        <lb ed="#C" n="18"/>voluntate generare: in hoc sensu conce¬ 
+        <lb ed="#C" n="19"/>ditur, quod Pater voluntate compla 
+        <lb ed="#C" n="20"/>cet, cum Filium natura gignit. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e616">
+                  <lb ed="#C" n="21"/>REspondeo dicendum, quod, sicut  
+        <lb ed="#C" n="22"/>Rhabitum est, pluralitati attributo 
+        <lb ed="#C" n="23"/>rum competit pluralitas habitudinis, 
+        <lb ed="#C" n="24"/>quae non confunditur unitate rei 
+        cor<lb ed="#C" n="25" break="no"/>respondente omnibus attributis: nam 
+        <lb ed="#C" n="26"/>licet sit una res natura, &amp; voluntas; aliqua 
+        <lb ed="#C" n="27"/>tamen habitudo competit naturae, qua 
+        <lb ed="#C" n="28"/>non competit voluntati: &amp; ideo cum 
+        <lb ed="#C" n="29"/>quaeritur utrum Pater genuerit Filium 
+        <lb ed="#C" n="30"/>voluntate? Nihil est aliud quaerere, quam &amp; 
+        <lb ed="#C" n="31"/>voluntatem habere respectum, sive 
+        ha<lb ed="#C" n="32" break="no"/>bitudinem ad actum generationis. 
+        Com<lb ed="#C" n="33" break="no"/>parari autem voluntatem ad 
+        generatio<lb ed="#C" n="34" break="no"/>nem, sive habere habitudinem ad 
+        ip<lb ed="#C" n="35" break="no"/>sam, potest esse dupliciter. Vel directe, 
+        <lb ed="#C" n="36"/>ita quod ipsa voluntas secundum suam, 
+        <lb ed="#C" n="37"/>rationem sumpta habeat habitudinem 
+        <lb ed="#C" n="38"/>ad eam. Vel indirecte, inquantum 
+        im<lb ed="#C" n="39" break="no"/>plicat aliquid, quod habet habitudinem 
+        <lb ed="#C" n="40"/>ad ipsam generationem. Indirecte 
+        au<lb ed="#C" n="41" break="no"/>tem non potest, nisi sumatur in concre 
+        <lb ed="#C" n="42"/>to: dictum est enim quod quando 
+        ab<lb ed="#C" n="43" break="no"/>stracta praedicantur, est praedicatio per 
+        <lb ed="#C" n="44"/>identitatem, non formaliter, vel per 
+        <lb ed="#C" n="45"/>implicationem. Et ideo licet natura 
+        <lb ed="#C" n="46"/>directe comparetur ad generare, ut 
+        ha<lb ed="#C" n="47" break="no"/>bitum est, &amp; voluntas praedicetur de 
+        na<lb ed="#C" n="48" break="no"/>tura, non communicatur voluntatietiam 
+        <lb ed="#C" n="49"/>indirecte huiusmodi habitudo: sed talis 
+        <lb ed="#C" n="50"/>comunicatio invenitur in concretis. Et  
+        <lb ed="#C" n="51"/>secundum istum modum non 
+        concedi<lb ed="#C" n="52" break="no"/>mus, quod Pater voluntate genuerit, qd ¬ 
+        <lb ed="#C" n="53"/>bonitate; sed quod bonus, sapiens, vo¬ 
+        <!--176.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>lens genuit, accipiendo huiusmodi 
+        attri<lb ed="#C" n="55" break="no"/>puta in concretis, ut Magister tangit in 
+        <lb ed="#C" n="56"/>littera, secundum quam acceptionem 
+        <lb ed="#C" n="57"/>implicant se adinvicem, &amp; comunicant 
+        <lb ed="#C" n="58"/>sibi habitudines. Si autem 
+        considera<lb ed="#C" n="59" break="no"/>mus voluntatem secudum directam 
+        ha<lb ed="#C" n="60" break="no"/>bitudinem ad actum generationis, ita 
+        <lb ed="#C" n="61"/>quod non ex eo quod implicat aliquod 
+        <lb ed="#C" n="62"/>attributum, respiciat talem actum, sed  
+        <lb ed="#C" n="63"/>per se directe comparetur ad ipsam, tunc 
+        <lb ed="#C" n="64"/>distinguendum est: quia huiusmodi 
+        ha<lb ed="#C" n="65" break="no"/>bitudo vel potest dicere rationem 
+        prin<lb ed="#C" n="66" break="no"/>cipij, vel complecentiam quadam. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e723">
+                  <lb ed="#C" n="67"/>Si autem dicat rationem principij 
+        <lb ed="#C" n="68"/>voluntas respectu generationis Filij 
+        <lb ed="#C" n="69"/>Hoc potest intelligi tripliciter. Vnomo 
+        <lb ed="#C" n="70"/>do quod sit accedens. Alio modo quod 
+        <lb ed="#C" n="71"/>sit antecedens. Tertio modo quod sit 
+        <lb ed="#C" n="72"/>coaeva. Nullum istorum modorum 
+        po<lb ed="#C" n="73" break="no"/>nere possumus. Nam secundum 
+        pri<lb ed="#C" n="74" break="no"/>mum modum incidimus in errorem 
+        <lb ed="#C" n="75"/>Eunomij, qui secundum quod narrat 
+        <lb ed="#C" n="76"/>Aug. 15. de Trin. cap. 20. cum non 
+        po<lb ed="#C" n="77" break="no"/>tuisset intelligere, nec credere voluisset, Vnige 
+        <lb ed="#C" n="78"/>nitum Dei Verbim,. Filium Dei esse natura, noc 
+        <lb ed="#C" n="79"/>est, de substantia Patris genitum. . Filium 
+        di<lb ed="#C" n="80" break="no"/>xit voluntatis Dei, accidentem scilicet Deo 
+        <lb ed="#C" n="81"/>volens aesserere voluntatem, sed si hoc esset 
+        <lb ed="#C" n="82"/>quod accideret aliqua nova voluntas 
+        <lb ed="#C" n="83"/>Deo, Deus esset mutabilis, quod idem 
+        <lb ed="#C" n="84"/>Aug. improbat ibidem per hoc quod 
+        <lb ed="#C" n="85"/>consilium Dei mant in aeternum: Et quia vo 
+        <lb ed="#C" n="86"/>luntas eius est immutabilis. Si autem 
+        po<lb ed="#C" n="87" break="no"/>neremus secundum modum, quod voluntas 
+        <lb ed="#C" n="88"/>esset antecedens, incidemus in errorem 
+        Ar<lb ed="#C" n="89" break="no"/>rij: nam quae voluntate antecedente a 
+        <lb ed="#C" n="90"/>Deo procedunt, creata sunt, &amp; eiusdem 
+        <lb ed="#C" n="91"/>naturae cum Deo non sunt: unde Damasc. 
+        <lb ed="#C" n="92"/>lib. 1. cap. 8. ait: Creatio in Deo, cum 
+        <lb ed="#C" n="93"/>voluntate proficiscatur, Deo profecto coaeterna 
+        <lb ed="#C" n="94"/>non est. Hunc errorem allidens <name xml:id="Gi9qrR-e36732-Nd1e785" ref="#Augustine">Aug.</name> 6. 
+        <lb ed="#C" n="95"/>de Trin. in principio, ubi contra 
+        Arria<lb ed="#C" n="96" break="no"/>nos disputat, dicit Filium Dei 
+        procede<lb ed="#C" n="97" break="no"/>re a Patre naturaliter sicut splendor ab igne, 
+        <lb ed="#C" n="98"/>non scilicet voluntate antecedente. Nec 
+        <lb ed="#C" n="99"/>etiam tertium modum ponere 
+        possu<lb ed="#C" n="100" break="no"/>mus: quia tunc aliquo modo 
+        incidere<lb ed="#C" n="101" break="no"/>mus in positionem Sabellij, qui posuit 
+        <lb ed="#C" n="102"/>confusionem Personarum: quia sic 
+        Fi<lb ed="#C" n="103" break="no"/>lius non distingueretur a Spiritu Sanctos 
+        <lb ed="#C" n="104"/>nam voluntate Spiritus Sactus sic 
+        proce<lb ed="#C" n="105" break="no"/>dere dicitur, &amp; hoc respicies <name xml:id="Gi9qrR-e36732-Nd1e812" ref="#Augustine">Aug.</name> 15. 
+        de<lb ed="#C" n="106" break="no"/>Trin. 20. cap. ait: voluntas Dei si proprie. 
+        <lb ed="#C" n="107"/>dicenda est aliqua in Trinitate Persona 
+        ma<lb ed="#C" n="108" break="no"/>gis hoc nomen Spiritui Sancto competit. Cum 
+        <lb ed="#C" n="109"/>igitur secundum unum modum proce¬ 
+        <!--177.xml-->
+        <pb ed="#C" n="140"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>dendi non sit, nisi una Persona in 
+        Divi<lb ed="#C" n="2" break="no"/>nis (ut aliquo modo ostensum est, &amp; 
+        <lb ed="#C" n="3"/>magis in sequentibus ostendetur) si 
+        pro<lb ed="#C" n="4" break="no"/>cederet Filius eo modo, quo procedit 
+        <lb ed="#C" n="5"/>Spiritus Sanctus, non distingueretur 
+        Fi<lb ed="#C" n="6" break="no"/>lius ab eo, &amp; esset confusio Personarum: 
+        <lb ed="#C" n="7"/>&amp; ideo si hoc quod dico, voluntate, 
+        opor<lb ed="#C" n="8" break="no"/>tet denotare habitudinem principij, non 
+        <lb ed="#C" n="9"/>genuit Pater Filium voluntate, sed 
+        na<lb ed="#C" n="10" break="no"/>tura. Si autem hoc designat 
+        complacen<lb ed="#C" n="11" break="no"/>tiam quamdam, sic verum est; quia 
+        Ver<lb ed="#C" n="12" break="no"/>bum Dei est Filius Dei dilectus, in quo 
+        <lb ed="#C" n="13"/>ibi complacuit: qui sensus datur 
+        intel<lb ed="#C" n="14" break="no"/>ligi in responsione facta Haeretico a 
+        Ca<lb ed="#C" n="15" break="no"/>tholico, quam narrat, &amp; commendat 
+        <lb ed="#C" n="16"/>Aug. in quaestionibus ad Orosium, &amp; 15. 
+        <lb ed="#C" n="17"/>de Trin. cap. 20. Cum enim a 
+        Catholi<lb ed="#C" n="18" break="no"/>co quaesitum fuisset utrum voluntate 
+        ge<lb ed="#C" n="19" break="no"/>nuisset Deus Filium, vel non? Vt si 
+        Ca<lb ed="#C" n="20" break="no"/>tholicus diceret, quod non voluntate 
+        <lb ed="#C" n="21"/>concluderet Haereticus, quod Deus 
+        mi<lb ed="#C" n="22" break="no"/>ser esset, qui aliquid nolens fecit: si vo 
+        <lb ed="#C" n="23"/>luntate, non igitur natura Filius est. Et  
+        <lb ed="#C" n="24"/>ipse respondit quaerendo utrum Deus sit 
+        <lb ed="#C" n="25"/>Deus voluntate, vel non? Per quam 
+        <lb ed="#C" n="26"/>questionem quidquid volebat 
+        conclu<lb ed="#C" n="27" break="no"/>dereHaereticus contra Catholicum; 
+        con<lb ed="#C" n="28" break="no"/>tra Haereticum concludebatur. Ex quo 
+        <lb ed="#C" n="29"/>intelligere possumus, quod sicut Deus 
+        <lb ed="#C" n="30"/>natura Deus est, tamen complacet sibi in 
+        <lb ed="#C" n="31"/>eo quod Deus est: sic Deus Filium na 
+        <lb ed="#C" n="32"/>tura genuit, sibi tamen complacet in 
+        <lb ed="#C" n="33"/>gignendo, 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e903">
+                  <lb ed="#C" n="34"/>Resp. ad arg. Ad 1. dicendum, quod  
+        <lb ed="#C" n="35"/>non valet: genuit volens: ergo genuit 
+        <lb ed="#C" n="36"/>voluntate: quia in concretis est 
+        com<lb ed="#C" n="37" break="no"/>municatio habitudinum, quae non est 
+        <lb ed="#C" n="38"/>in abstractis. Vel dicere possumus, quod 
+        <lb ed="#C" n="39"/>genuit voluntate, prout voluntate dicit 
+        <lb ed="#C" n="40"/>complacentiam, non prout dicit habi 
+        <lb ed="#C" n="41"/>tudinem principij.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e924">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="42"/>quod involuntarium est contristans 
+        in<lb ed="#C" n="43" break="no"/>quantum involuntarium contra 
+        placi<lb ed="#C" n="44" break="no"/>tum est, &amp; sic generatio Filij non fuit 
+        in<lb ed="#C" n="45" break="no"/>voluntaria Patri: immo fuit, &amp; est eiD 
+        <lb ed="#C" n="46"/>grata, &amp; placita. Vel possumus diceret 
+        <lb ed="#C" n="47"/>quod non valet: nativitas Filij non 
+        ha<lb ed="#C" n="48" break="no"/>buit esse a Patre voluntate, ergo Deus 
+        <lb ed="#C" n="49"/>involuntarie genuit. Nam Magister 
+        <lb ed="#C" n="50"/>concedit, quod nec volens, nec nolens 
+        <lb ed="#C" n="51"/>genuit. Et per hoc patet solutio ad 
+        <lb ed="#C" n="52"/>3. quia Deus non involuntarie genuit 
+        <lb ed="#C" n="53"/>Argumenta in contrarium non 
+        con<lb ed="#C" n="54" break="no"/>cludunt: quia Pater non genuit Filium 
+        <lb ed="#C" n="55"/>voluntate, prout voluntas dicit 
+        habitu<lb ed="#C" n="56" break="no"/>dinem principij.
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e36732-Dd1e961">
+               <head xml:id="Gi9qrR-e36732-Hd1e963">Articulus 3</head>
+               <p xml:id="Gi9qrR-e36732-d1e966">
+        <!--177.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ARTICVLVS III. 
+        <lb ed="#C" n="58"/>Vtrum fit vera, Deus non generat, cum ista 
+        <lb ed="#C" n="59"/>sit vera, Deus generat? 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e979">
+                  <lb ed="#C" n="60"/>SErtio quaeritur: cum ista sit vera, 
+        <lb ed="#C" n="61"/>Deus generat, utrum ista possit 
+        con<lb ed="#C" n="62" break="no"/>cedi, Deus non generat?
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e988">
+        Et videtur  
+        <lb ed="#C" n="63"/>quod sic: quia Deus non magis supponit 
+        <lb ed="#C" n="64"/>pro Patre, quam pro Filio; sed ista est 
+        <lb ed="#C" n="65"/>vera Deus generat, quia Pater generat, 
+        er<lb ed="#C" n="66" break="no"/>go ista est vera, Deus non generat: quia 
+        Fi<lb ed="#C" n="67" break="no"/>lius non generat.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1001">
+        Praeterea: non 
+        genera<lb ed="#C" n="68" break="no"/>re convenit essentiae: quia secundum 
+        <lb ed="#C" n="69"/>Mag. essentia nec gignit, nec gignitur,  
+        <lb ed="#C" n="70"/>nec procedit. Cum igitur Deus sit 
+        ter<lb ed="#C" n="71" break="no"/>minus essentialis, magis erit vera ista, 
+        <lb ed="#C" n="72"/>Deus non generat, quam Deus generat. 
+        Prae<lb ed="#C" n="73" break="no"/>terea: sicut concedimus, quod Deus 
+        ge<lb ed="#C" n="74" break="no"/>nerat, ita concedimus, quod Deus gig. 
+        <lb ed="#C" n="75"/>nitur: sed sicut proprium est Filij, quod 
+        <lb ed="#C" n="76"/>gignatur, ita videtur per se competere 
+        <lb ed="#C" n="77"/>ei, quod non gignat, ergo qua ratione 
+        <lb ed="#C" n="78"/>verificatur de Deo gignitur, pari 
+        ratio<lb ed="#C" n="79" break="no"/>ne debemus concedere, quod non 
+        gig<lb ed="#C" n="80" break="no"/>nat.  
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1033">
+                  <lb ed="#C" n="81"/>In contrarium est: quia de eodem 
+        <lb ed="#C" n="82"/>non verificatur affirmatio, &amp; negatio: 
+        <lb ed="#C" n="83"/>sed cum unus sit Deus, &amp; de Deo 
+        verifi<lb ed="#C" n="84" break="no"/>cetur quod gignat, de eo non 
+        verifica<lb ed="#C" n="85" break="no"/>bitur, quod non gignat.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1046">
+        Praeterea: si istae 
+        <lb ed="#C" n="86"/>duae verificantur, homo currit, &amp; homo non 
+        <lb ed="#C" n="87"/>currit, hoc non est, nisi quia non est idem 
+        <lb ed="#C" n="88"/>homo currens, &amp; non currens. Cum 
+        <lb ed="#C" n="89"/>ergo non sit dare alium, &amp; alium Deum, 
+        <lb ed="#C" n="90"/>ista erit falsa, Deus non generat. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1059">
+                  <lb ed="#C" n="91"/>RESOLVTIO. 
+        <lb ed="#C" n="92"/>Ista non est propria: Deus non generat etiam 
+        <lb ed="#C" n="93"/>sumpto in concreto, &amp; pro supposito Deus: 
+        <lb ed="#C" n="94"/>cum ab omnibus suppositis non 
+        <lb ed="#C" n="95"/>removeatur generatio.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1072">
+                  <lb ed="#C" n="96"/>REspondeo dicendum, quod 
+        qui<lb ed="#C" n="97" break="no"/>dam istam concedunt simpliciter,  
+        <lb ed="#C" n="98"/>Deus non generat, propter rationem tactam, 
+        <lb ed="#C" n="99"/>Quia ex quo verificatur, Deus genera 
+        <lb ed="#C" n="100"/>pro Patre; verificabitur, Deus non generat 
+        <lb ed="#C" n="101"/>pro Filio. Sed si sic dicimus, videmus 
+        <lb ed="#C" n="102"/>ponere plures Deos: quia Deus semper 
+        <lb ed="#C" n="103"/>stat pro essentia, nisi trahatur per 
+        ali<lb ed="#C" n="104" break="no"/>quam proprietatem ad supponendum 
+        pro<lb ed="#C" n="105" break="no"/>Persona, ut si dicam, Deus generat: nam 
+        ra<lb ed="#C" n="106" break="no"/>tione huius proprietatis generat, Deus 
+        <lb ed="#C" n="107"/>stat pro Persona Patris. Negatio autem 
+        <!--178.xml-->
+        <pb ed="#C" n="141"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>mullam proprietatem distinctam 
+        impor<lb ed="#C" n="2" break="no"/>tat, &amp; ita cum dico, Deus non generat, 
+        <lb ed="#C" n="3"/>non trahitur ad supponendum 
+        pro<lb ed="#C" n="4" break="no"/>aliqua Persona distincia: &amp; est ratio:  
+        <lb ed="#C" n="5"/>quia secundum quod alicui competit 
+        <lb ed="#C" n="6"/>esse, vel agere, sive pati; sic ei competit 
+        <lb ed="#C" n="7"/>supponere: nam in omni verbo 
+        intelli<lb ed="#C" n="8" break="no"/>igitur esse, &amp; omne verbum actionem, 
+        <lb ed="#C" n="9"/>vel passionem dicit: &amp; ideo quia quaelibet  
+        <lb ed="#C" n="10"/>natura creata non est suum esse, nec est 
+        <lb ed="#C" n="11"/>cui attribuitur agere sive pati, in talibus 
+        <lb ed="#C" n="12"/>terminus in concreto sumptus per se &amp; 
+        <lb ed="#C" n="13"/>primo &amp; directe supponit pro 
+        suppo<lb ed="#C" n="14" break="no"/>sito. Si autem stat pro natura, hoc est 
+        ex<lb ed="#C" n="15" break="no"/>adiuncto, ut dicendo animal est, 
+        intelli<lb ed="#C" n="16" break="no"/>igitur de supposito animalis; sed si 
+        dici<lb ed="#C" n="17" break="no"/>tur animal est genus, ratione huius 
+        ad<lb ed="#C" n="18" break="no"/>iuncti stat pro natura. In Divinis est 
+        <lb ed="#C" n="19"/>econtrario: quia cum hoc nomen, Deus, 
+        <lb ed="#C" n="20"/>significet essentiam, &amp; essentia sit suum esse, &amp; 
+        <lb ed="#C" n="21"/>non acquirat esse ex eo quod in supposito 
+        <lb ed="#C" n="22"/>est, per se &amp; primo supponit pro 
+        natu<lb ed="#C" n="23" break="no"/>ra. Si autem stabit pro supposito, hoc 
+        <lb ed="#C" n="24"/>non est nisi ex adiuncto, ut dicendo, 
+        <lb ed="#C" n="25"/>Deus generat, vel spirat Concedere 
+        au<lb ed="#C" n="26" break="no"/>tem quod absque adiuncto stet pro Persona 
+        <lb ed="#C" n="27"/>est concedere, quod natura Divina non sit 
+        <lb ed="#C" n="28"/>suum esse: &amp; si non est suum esse, plurificaturiu 
+        <lb ed="#C" n="29"/>pluribus suppositis; &amp; sic, cum 
+        ponamusplu<lb ed="#C" n="30" break="no"/>ra supposita Divina ponimo plures Deos. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1172">
+                  <lb ed="#C" n="31"/>Et ideo alij aliter dicunt, quod cum dico, 
+        <lb ed="#C" n="32"/>Deus non generatIy Deus stat pro natura, 
+        <lb ed="#C" n="33"/>cum non trahatur per proprietatem ad 
+        <lb ed="#C" n="34"/>standum pro Persona, ideo licet aliqua 
+        <lb ed="#C" n="35"/>Persona in Divinis non generet, tamen 
+        <lb ed="#C" n="36"/>ista negatur, Deus non generat: quia 
+        <lb ed="#C" n="37"/>tunc videretur, quod generare 
+        repug<lb ed="#C" n="38" break="no"/>naret naturae Divinae, pro qua supponit 
+        <lb ed="#C" n="39"/>ibi Deus, sed si adderetur ei aliqua 
+        pro<lb ed="#C" n="40" break="no"/>prietas, ratione cuius Deus supponeret 
+        <lb ed="#C" n="41"/>pro Persona Filij, tunc esset vera, 
+        utpu<lb ed="#C" n="42" break="no"/>ta Deus genitus non generat. Sed isti 
+        <lb ed="#C" n="43"/>peius dicunt, quam primi: quia si 
+        prop<lb ed="#C" n="44" break="no"/>ter hoc negaretur ista, Deus non generat 
+        <lb ed="#C" n="45"/>quia ly Deus stat pro natura, &amp; sic 
+        vide<lb ed="#C" n="46" break="no"/>retur, quod naturae Divinae repugnaret 
+        <lb ed="#C" n="47"/>generatio: multo magis debere 
+        negari<lb ed="#C" n="48" break="no"/>ista, Divinitas non generat, cum per eam 
+        ma<lb ed="#C" n="49" break="no"/>gis expresse Divina natura indicetur; que 
+        <lb ed="#C" n="50"/>tamen non negatur.  
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1218">
+                  <lb ed="#C" n="51"/>Et propter hoc dicendum est aliter, 
+        <lb ed="#C" n="52"/>quod ista non est propria, Deus non 
+        gene<lb ed="#C" n="53" break="no"/>rat, non propter hoc, quia Deus stat ibi 
+        <lb ed="#C" n="54"/>pro natura; sed quia stat ibi pro 
+        suppo<lb ed="#C" n="55" break="no"/>sito indistincte. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1232">
+                  <lb ed="#C" n="56"/>Ad cuius evidentiam sciendum, quod  
+        <!--178.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>negatio est in eodem genere cum 
+        affir<lb ed="#C" n="58" break="no"/>matione: unde non generare est in 
+        ge<lb ed="#C" n="59" break="no"/>nere relationis, sicut generare, ut 
+        osten<lb ed="#C" n="60" break="no"/>dit <name xml:id="Gi9qrR-e36732-Nd1e1249" ref="#Augustine">Aug.</name> 5. de Trin. cap. 7. per totum, 
+        <lb ed="#C" n="61"/>&amp; quia referri proprie est suppositorum 
+        <lb ed="#C" n="62"/>Ad hoc cum dicitur Deus non generat 
+        <lb ed="#C" n="63"/>VDeus, potissime cum sumatur in 
+        con<lb ed="#C" n="64" break="no"/>creto (quia si sumeretur in abstracto 
+        se<lb ed="#C" n="65" break="no"/>cus esset) stabit pro supposito: tamer 
+        <lb ed="#C" n="66"/>quia negatio non dicit distinctam rela 
+        <lb ed="#C" n="67"/>tionem directe, &amp; quia in non 
+        genera<lb ed="#C" n="68" break="no"/>re non assignatur proprietas alicuius 
+        <lb ed="#C" n="69"/>Personae, cum dico, Deus non generat, ib 
+        <lb ed="#C" n="70"/>Deus non stabit pro aliqua Persona 
+        di<lb ed="#C" n="71" break="no"/>stincta: cum igitur unum sit esse, &amp; una 
+        <lb ed="#C" n="72"/>natura omnium Personarum, ratione 
+        <lb ed="#C" n="73"/>unitatis esse &amp; naturae, si Deus stat 
+        pro<lb ed="#C" n="74" break="no"/>supposito, nisi trahatur ut distinctem ster 
+        <lb ed="#C" n="75"/>pro aliquo, stabit pro omnibus: &amp; quia 
+        <lb ed="#C" n="76"/>non generare non removetur a 
+        quoli<lb ed="#C" n="77" break="no"/>bet supposito Divino, non est propria 
+        <lb ed="#C" n="78"/>ista, Deus non generat. Et ideo licet 
+        con<lb ed="#C" n="79" break="no"/>cedatur homo non generat, si aliquod 
+        <lb ed="#C" n="80"/>suppositum humanum non generat, etiam 
+        <lb ed="#C" n="81"/>dato, quod aliquod suppositum gene 
+        <lb ed="#C" n="82"/>ret, propter hoc, quod homo per se, &amp; 
+        <lb ed="#C" n="83"/>directe supponit pro supposito; non 
+        ta<lb ed="#C" n="84" break="no"/>men debet concedi, Deus non generat 
+        <lb ed="#C" n="85"/>nisi generare removeretur a quolibet  
+        <lb ed="#C" n="86"/>Divino supposito. 
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1309">
+                  <lb ed="#C" n="87"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="88" break="no"/>dum, quod non ita trahitur Deus ad sut 
+        <lb ed="#C" n="89"/>ponendum pro Filio per negationem 
+        <lb ed="#C" n="90"/>additam, cum negatio non ponit aliquid 
+        <lb ed="#C" n="91"/>distincte; sicut trahitur per proprietatem 
+        <lb ed="#C" n="92"/>affirmativam, ut per generat, ad 
+        stan<lb ed="#C" n="93" break="no"/>dum pro Patre.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1327">
+        Ad 2. dicendum, quod  
+        <lb ed="#C" n="94"/>licet Deus significet essentiam, ibi tame 
+        <lb ed="#C" n="95"/>supponit pro supposito, ut patuit.
+      </p>
+               <p xml:id="Gi9qrR-e36732-d1e1334">
+        Ad 3. 
+        <lb ed="#C" n="96"/>dicendum, quod non ita importatur 
+        <lb ed="#C" n="97"/>proprietas per non generat, sicut per 
+        <lb ed="#C" n="98"/>gignitur: &amp; ideo licet per istam 
+        pro<lb ed="#C" n="99" break="no"/>prietatem, genitus, stet pro Filio, dicen 
+        <lb ed="#C" n="100"/>do, Deus genitus; non tamen oportet 
+        <lb ed="#C" n="101"/>quod stet pro supposito Filij, cum ad 
+        <lb ed="#C" n="102"/>ditur ei negatio dicendo, Deus non 
+        ge<lb ed="#C" n="103" break="no"/>nerat.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

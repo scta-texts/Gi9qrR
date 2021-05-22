@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="103"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e27689"><!-- l1-d4q1 -->
+            <head xml:id="Gi9qrR-e27689-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e27689-d1e111">
+      <!--140.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="83"/>QUAESTIO I. 
+      <lb ed="#C" n="84"/>De Divina generatione.
+    </p>
+            <p xml:id="Gi9qrR-e27689-d1e122">
+               <lb ed="#C" n="85"/>IN DISTINCTIONE 
+      <lb ed="#C" n="86"/>praesenti tria continetur.  
+      <lb ed="#C" n="87"/>1. quia supponitur 
+      ge<lb ed="#C" n="88" break="no"/>nerationem esse in 
+      Di<lb ed="#C" n="89" break="no"/>vinis. 2. de generatione 
+      <lb ed="#C" n="90"/>movetur questio, 
+      quan<lb ed="#C" n="91" break="no"/>tum ad identitatem, &amp; 
+      <lb ed="#C" n="92"/>alietatem geniti, &amp; gignentis. 3. indu¬ 
+      <!--140.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="93"/>citur error quorumdam de propositio¬ 
+      <lb ed="#C" n="94"/>nibus affirmativis de Deo dictis. 
+      Ideo<lb ed="#C" n="95" break="no"/>tria quaeremus. 1. erit quaestio de 
+      gene<lb ed="#C" n="96" break="no"/>ratione Divina. 2. de propositionibus 
+      <lb ed="#C" n="97"/>indicantibus identitatem, vel alietatem 
+      <lb ed="#C" n="98"/>circa generationem. 3. de 
+      propositio<lb ed="#C" n="99" break="no"/>nibus affirmativis de Deo dictis. Circa 
+      <lb ed="#C" n="100"/>primum quaeremus quatuor. 1. utrum 
+      <lb ed="#C" n="101"/>in Divinis sit generatio? 2. utrum sit in 
+      <lb ed="#C" n="102"/>omnibus Personis Divinis? 3. utrum 
+      <lb ed="#C" n="103"/>sit in Filio? 4. utrum sit 
+      <lb ed="#C" n="104"/>in Patre? 
+    </p>
+            <div xml:id="Gi9qrR-e27689-Dd1e172">
+               <head xml:id="Gi9qrR-e27689-Hd1e174">Articulus 1</head>
+               <p xml:id="Gi9qrR-e27689-d1e177">
+        <!--141.xml-->
+                  <pb ed="#C" n="104"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ARTICVLUS I. 
+        <lb ed="#C" n="2"/>Vtrum in Divinis sit generatio? 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e190">
+                  <lb ed="#C" n="3"/>roD primum sic proceditur. Videtur  
+        <lb ed="#C" n="4"/>quod in Divinis non sit genera 
+        <lb ed="#C" n="5"/>tio: nam sit esset ibi generatio, esset ibi  
+        <lb ed="#C" n="6"/>genitum, sed omne genitum est corrup 
+        <lb ed="#C" n="7"/>tibile, ut probabitur, in Divinis non est 
+        <lb ed="#C" n="8"/>aliquid corruptibile, ergo &amp;c. Probatio 
+        <lb ed="#C" n="9"/>assumptae: regula est Phil. in 2. Prior  
+        <lb ed="#C" n="10"/>quod si Aliqua duo dicuntur de quolibet, &amp;  
+        <lb ed="#C" n="11"/>alia duo similiter dicuntur de quolibet: &amp; si 
+        <lb ed="#C" n="12"/>duo illorum convertuntur, &amp; alia duo conver 
+        <lb ed="#C" n="13"/>tuntur, &amp; ponit exemplum: Quia 
+        geni<lb ed="#C" n="14" break="no"/>ctum, &amp; ingenitum dicuntur de quolibet, 
+        cor<lb ed="#C" n="15" break="no"/>ruptibile, &amp; incorruptibile dicuntur de 
+        quoli<lb ed="#C" n="16" break="no"/>bet: sed omne in genitum est 
+        incorrup<lb ed="#C" n="17" break="no"/>tibile, &amp; omne incorruptibile est in 
+        ge<lb ed="#C" n="18" break="no"/>nitum secundum ipsum, ergo omne 
+        <lb ed="#C" n="19"/>corruptibile est genitum, &amp; omne 
+        ge<lb ed="#C" n="20" break="no"/>nitum corruptibile.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e232">
+        Praeterea: in 1. 
+        Cae<lb ed="#C" n="21" break="no"/>&amp; Mun. habetur, quod ingenitum, &amp; in 
+        <lb ed="#C" n="22"/>corruptibile convertuntur cum aeterno, ergo 
+        <lb ed="#C" n="23"/>nullum genitum est aeternum; sed 
+        nihi<lb ed="#C" n="24" break="no"/>est in Divinis, quod non sit aeternum 
+        <lb ed="#C" n="25"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e245">
+        Praeterea: non est dare gene 
+        <lb ed="#C" n="26"/>rationem sine subiecto generationis, sed  
+        <lb ed="#C" n="27"/>subiectum generationis est ens in 
+        poten<lb ed="#C" n="28" break="no"/>tia: quia Proprium subiectum generationis est 
+        <lb ed="#C" n="29"/>hole: ut dicitur in 1. de Cen. Deus 
+        au<lb ed="#C" n="30" break="no"/>tem est actus purus, ubi nihil admiscetur  
+        <lb ed="#C" n="31"/>de potentia, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e262">
+        Praeterea: 
+        pro<lb ed="#C" n="32" break="no"/>batur in 7. Metaph. quod Non generatur 
+        <lb ed="#C" n="33"/>nisi compositum, quia si generaretur forma, 
+        <lb ed="#C" n="34"/>forma esset ex forma; &amp; si generaretur 
+        <lb ed="#C" n="35"/>materia, esset ex materia: &amp; esset 
+        pro<lb ed="#C" n="36" break="no"/>cessus in infinitum; sed Deus est summe 
+        <lb ed="#C" n="37"/>simplex, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e278">
+        Praeterea: ut 
+        scribi<lb ed="#C" n="38" break="no"/>tur lacobi. 1. Apud Deum non est transmutatio,  
+        <lb ed="#C" n="39"/>nec vicissitudinis obumbratio, sed generatio?  
+        <lb ed="#C" n="40"/>est motus; in Deo non est motus, 
+        er<lb ed="#C" n="41" break="no"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e289">
+                  <lb ed="#C" n="42"/>In contrarium est: quia in natura 
+        <lb ed="#C" n="43"/>intellectuali oportet dare verbum, sed  
+        <lb ed="#C" n="44"/>non est verbum sine generatione: Deus 
+        <lb ed="#C" n="45"/>est summe intellectualis, ergo potissime 
+        <lb ed="#C" n="46"/>est ibi generatio.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e302">
+        Praeterea: scribitur  
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e305">
+                  <lb ed="#C" n="47"/>in Isa. Si ego qui generationem ceteris tri¬ 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e310">
+                  <lb ed="#C" n="48"/>buo, sterilis ero? Et in Psalm. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e316">
+                  <lb ed="#C" n="49"/>Ego hodie genuit te. 
+        <!--141.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="50"/>RESOLVTIO. 
+        <lb ed="#C" n="51"/>Vere, in Divinis reperitur qeneratio, quae pro¬ 
+        <lb ed="#C" n="52"/>prie est origo per modum materiae.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e332">
+                  <lb ed="#C" n="53"/>REspondeo dicendum, quod ut 
+        <lb ed="#C" n="54"/>Rhabitum est superius, Fides nostra 
+        <lb ed="#C" n="55"/>subalternata est Sapientiae Divinae: &amp; 
+        <lb ed="#C" n="56"/>deo non potest probare, qui credit, si ibi 
+        <lb ed="#C" n="57"/>omnia tradita a Divina Sapientiam 
+        nega<lb ed="#C" n="58" break="no"/>rentur: sicut nec perspectivus posset in 
+        <lb ed="#C" n="59"/>suis demonstrationibus procedere, si ei  
+        <lb ed="#C" n="60"/>negarentur propositiones gcometricae, 
+        <lb ed="#C" n="61"/>cui subalternatur. Possumus tamen per 
+        <lb ed="#C" n="62"/>scientiam Theologiae ex uno articulo 
+        <lb ed="#C" n="63"/>probare alium: vel ex articulis 
+        proba<lb ed="#C" n="64" break="no"/>re, quae sequuntur ex articulis: vel 
+        ex<lb ed="#C" n="65" break="no"/>annexis articulorum probare alia. Cum 
+        <lb ed="#C" n="66"/>igitur distinctio in Divinis sit articulus 
+        Fi<lb ed="#C" n="67" break="no"/>dei, vel annexum articulo, ex ipsa distin 
+        <lb ed="#C" n="68"/>ctione possumus probare generationem, 
+        <lb ed="#C" n="69"/>quod sic est videre. Quia si Person, a 
+        Per<lb ed="#C" n="70" break="no"/>ona distinguitur, hoc non erit per absolum 
+        <lb ed="#C" n="71"/>tum: quia secundum <name xml:id="Gi9qrR-e27689-Nd1e375" ref="#Augustine">August.</name> 6. de Trin. cap. 
+        <lb ed="#C" n="72"/>2. Quidquid ad se dicitur non dicitur de 
+        alte<lb ed="#C" n="73" break="no"/>ra Persona sine altera: tota ergo distinctio 
+        <lb ed="#C" n="74"/>est per relationem: quia sic debemus 
+        <lb ed="#C" n="75"/>ponere distinctionem Personae, ut non 
+        <lb ed="#C" n="76"/>derogetur unitati essentiae, relatio autem 
+        <lb ed="#C" n="77"/>ut relatio, sive secundum rationem 
+        <lb ed="#C" n="78"/>quidditatis semper respicit illud, ad 
+        <lb ed="#C" n="79"/>quod refertur secudum oppositionem: 
+        <lb ed="#C" n="80"/>udeo dicitur 5. Metaph. quod Scientia 
+        re<lb ed="#C" n="81" break="no"/>fertur ad scibile, non ad scientem, igitur 
+        se<lb ed="#C" n="82" break="no"/>cundum rationem quidditatis relationis, 
+        <lb ed="#C" n="83"/>accipienda est distinctio in Divinis: talis 
+        <lb ed="#C" n="84"/>autem non est nisi secundum opposita, 
+        <lb ed="#C" n="85"/>quia licet relatio secundum esse 
+        distin<lb ed="#C" n="86" break="no"/>guat disparata; secundum rationem 
+        <lb ed="#C" n="87"/>quidditatis non distinguit nisi opposita: 
+        <lb ed="#C" n="88"/>oppositio autem relationis distinctivae non 
+        <lb ed="#C" n="89"/>potest esse nisi relationis denotantis 
+        ori<lb ed="#C" n="90" break="no"/>ginem. Et est ratio: quia sicut videmus 
+        <lb ed="#C" n="91"/>in his, quae distinguuntur per se per 
+        ab<lb ed="#C" n="92" break="no"/>soluta: quod distinctio naturarum facit 
+        <lb ed="#C" n="93"/>distinctionem principalem inter ea; 
+        di<lb ed="#C" n="94" break="no"/>stinctio autem accidentium, sive 
+        alio<lb ed="#C" n="95" break="no"/>rum a natura, magis est signum 
+        distin<lb ed="#C" n="96" break="no"/>ctionis, quam distinguat: sicut 
+        vide<lb ed="#C" n="97" break="no"/>mus, quod cervus, &amp; seo differunt 
+        se<lb ed="#C" n="98" break="no"/>cundum differentiam, animarum: 
+        habe<lb ed="#C" n="99" break="no"/>re autem cornua, &amp; non habere, magis 
+        <lb ed="#C" n="100"/>est signum distinctionis, quam 
+        distin<lb ed="#C" n="101" break="no"/>guat: propter quod in 1. de Anima. 
+        di<lb ed="#C" n="102" break="no"/>citur a Comm. quod Membra leonis, &amp; 
+        <lb ed="#C" n="103"/>membra cervi non differunt, nisi quia animae 
+        <!--142.xml-->
+        <pb ed="#C" n="105"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>differunt: &amp; sicut est in his, que 
+        distin<lb ed="#C" n="2" break="no"/>guuntur per absoluta, ita suo 
+        modo<lb ed="#C" n="3" break="no"/>est in his, quae distinguuntur per relata: 
+        <lb ed="#C" n="4"/>quia relationes, quae respiciunt naturam 
+        <lb ed="#C" n="5"/>rei, habent distinguere, &amp; hae sunt 
+        rela<lb ed="#C" n="6" break="no"/>tiones originis: quia per originem com 
+        <lb ed="#C" n="7"/>municatur natura. Alie autem 
+        relatio<lb ed="#C" n="8" break="no"/>nes magis ostendunt distinctionem esse quam 
+        <lb ed="#C" n="9"/>distinguant: si igitur in Divinis est distin 
+        <lb ed="#C" n="10"/>ctio Personarum, erit ibi origo: origo 
+        <lb ed="#C" n="11"/>m te n duplex est, una per modum 
+        vo<lb ed="#C" n="12" break="no"/>luntatis, &amp; alia per modum naturae 
+        <lb ed="#C" n="13"/>Origo autem per modum voluntatis 
+        <lb ed="#C" n="14"/>praesupponit originem per modum 
+        na<lb ed="#C" n="15" break="no"/>turae: &amp; ideo sicut videmus in 
+        anima<lb ed="#C" n="16" break="no"/>li: quia omnes sensus praesupponunt  
+        <lb ed="#C" n="17"/>sensum tactus, optime valet, in hoc 
+        ani<lb ed="#C" n="18" break="no"/>mali est sensus, ergo est ibi tactus: ita 
+        <lb ed="#C" n="19"/>quia omnis origo, secundum quod hic 
+        <lb ed="#C" n="20"/>loquimur de origine, vel est per modum 
+        <lb ed="#C" n="21"/>naturae, vel praesupponit, vel praeexigit 
+        <lb ed="#C" n="22"/>originem per modum naturae, si in 
+        Di<lb ed="#C" n="23" break="no"/>vinis est origo, est ibi origo per modum 
+        <lb ed="#C" n="24"/>naturae; hoc autem idem est quod 
+        ge<lb ed="#C" n="25" break="no"/>neratio: quia idem est generari, &amp; 
+        ori<lb ed="#C" n="26" break="no"/>ri naturaliter: propter quod Damasc. 
+        <lb ed="#C" n="27"/>lib. 1. cap. 9. loquens de generatione in 
+        <lb ed="#C" n="28"/>Divinis ait: Ceneratio quidem principij igna 
+        <lb ed="#C" n="29"/>ra, &amp; sempiterna est, ut quae naturae opus sit 
+        <lb ed="#C" n="30"/>aique ex ipsius essentia producat. Ergo in 
+        Di<lb ed="#C" n="31" break="no"/>vinis erit generatio. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e522">
+                  <lb ed="#C" n="32"/>Propter argumenta tamen notandum 
+        <lb ed="#C" n="33"/>quod in Divinis ponimus speciem sine 
+        <lb ed="#C" n="34"/>genere, ut sapientia, quae videtur esse 
+        <lb ed="#C" n="35"/>species qualitatis, in Deo ponitur sine 
+        <lb ed="#C" n="36"/>qualitate, ut potest haberi ex sententia 
+        <lb ed="#C" n="37"/>Aug. 5. de Trin. cap. 1. causa huius est, 
+        <lb ed="#C" n="38"/>ut superius tractatum fuit, simplicitas 
+        <lb ed="#C" n="39"/>Divinae substantie. Nam cum ratio 
+        ge<lb ed="#C" n="40" break="no"/>neris ex potentialitate sumatur, in Deo 
+        <lb ed="#C" n="41"/>autem ubi nulla est potentialitas non su 
+        <lb ed="#C" n="42"/>mitur ratio generis: &amp; ideo sicut est ibi 
+        <lb ed="#C" n="43"/>magnitudo sine quantitate, ita est ibi 
+        <lb ed="#C" n="44"/>generatio, quae est species motus, sine 
+        <lb ed="#C" n="45"/>motu. Vel ut verius dicamus generatio,  
+        <lb ed="#C" n="46"/>quae in Divinis nec est motus, nec 
+        <lb ed="#C" n="47"/>species motus: &amp; sicut a generatione 
+        <lb ed="#C" n="48"/>in Divinis removemus motum, ita 
+        de<lb ed="#C" n="49" break="no"/>bemus inde removere alia 
+        imperfe<lb ed="#C" n="50" break="no"/>ctionem designantia, ut materialitatem, 
+        <lb ed="#C" n="51"/>corruptionem, innovationem, 
+        compo<lb ed="#C" n="52" break="no"/>sitionem &amp;cc. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e570">
+                  <lb ed="#C" n="53"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="54" break="no"/>dum, quod incorruptibile, &amp; in 
+        geni<lb ed="#C" n="55" break="no"/>tum non convertuntur. Et ad 
+        proba<lb ed="#C" n="56" break="no"/>tionem, quae habetur in secundo argu¬ 
+        <!--142.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>mento, quod in genitum, &amp; incorrup 
+        <lb ed="#C" n="58"/>tibile convertuntur cum aeterno. Dicent 
+        <lb ed="#C" n="59"/>dum, quod Phil. credidit solum id esse 
+        <lb ed="#C" n="60"/>genitum, quod accipit esse post non 
+        es<lb ed="#C" n="61" break="no"/>se. Et ulterius credidit, quod quidquid 
+        <lb ed="#C" n="62"/>non habuit virtutem, ut semper esset in 
+        <lb ed="#C" n="63"/>praeterito, non potest habere virtutem, 
+        <lb ed="#C" n="64"/>ut semper sit in futuro. Hoc tamen 
+        in<lb ed="#C" n="65" break="no"/>tellexit de his, quae habent esse 
+        com<lb ed="#C" n="66" break="no"/>pletum &amp; per se, &amp; ex istis duabus 
+        pro<lb ed="#C" n="67" break="no"/>positionibus concludebat, quod omne 
+        <lb ed="#C" n="68"/>genitum sit corruptibile, &amp; quod omne 
+        <lb ed="#C" n="69"/>ngenitum semper fuerit, &amp; sic aeternum, 
+        <lb ed="#C" n="70"/>&amp; omne incorruptibile etiam. Quibus 
+        <lb ed="#C" n="71"/>visis apparet modum Phil. non esse 
+        con<lb ed="#C" n="72" break="no"/>tra nos: quia nos ponimus in Divinis 
+        <lb ed="#C" n="73"/>generationem sine innovatione; non 
+        <lb ed="#C" n="74"/>ponimus genitum habere esse post non 
+        <lb ed="#C" n="75"/>esse, &amp; per hoc patet solutio ad 2.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e627">
+        Ad 3. 
+        <lb ed="#C" n="76"/>dicendum, quod in Divinis est 
+        genera<lb ed="#C" n="77" break="no"/>tio sine materialitate, ut patuit; tamen 
+        <lb ed="#C" n="78"/>licet ibi non sit materia, est ibi aliquid  
+        <lb ed="#C" n="79"/>habens similitudinem cum materia, quia 
+        <lb ed="#C" n="80"/>sicut materia est illud, ex quo est 
+        gene<lb ed="#C" n="81" break="no"/>ratio, ita substantia Patris est illud, 
+        ex<lb ed="#C" n="82" break="no"/>quo Filius generatur.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e645">
+        Ad 4. patet solutio 
+        <lb ed="#C" n="83"/>per iam dicta: quia est ibi generatio 
+        si<lb ed="#C" n="84" break="no"/>ne compositione. Possumus tamen 
+        di<lb ed="#C" n="85" break="no"/>cere, si volumus, quod aliquid est ibi  
+        <lb ed="#C" n="86"/>compositioni respondens: quia 
+        proprie<lb ed="#C" n="87" break="no"/>tas adveniens essentiae constituit 
+        Perso<lb ed="#C" n="88" break="no"/>nam secundum modum intelligendi: 
+        si<lb ed="#C" n="89" break="no"/>cut rotunditas adveniens cupro facit 
+        ro<lb ed="#C" n="90" break="no"/>tundum cuprum, &amp; sicut in istis inferio 
+        <lb ed="#C" n="91"/>ribus non generatur cuprum, neque 
+        ro<lb ed="#C" n="92" break="no"/>tundum; sed cuprum rotundum, ita ibi  
+        <lb ed="#C" n="93"/>non generatur essentia, neque 
+        proprie<lb ed="#C" n="94" break="no"/>tas, sed hypostasis, sive Persona habens 
+        <lb ed="#C" n="95"/>essentiam, &amp; proprietatem.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e677">
+        Ad 5. patet 
+        <lb ed="#C" n="96"/>solutio: quia est ibi generatio sine 
+        mo<lb ed="#C" n="97" break="no"/>tu. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e27689-Dd1e685">
+               <head xml:id="Gi9qrR-e27689-Hd1e687">Articulus 2</head>
+               <p xml:id="Gi9qrR-e27689-d1e690">
+                  <lb ed="#C" n="98"/>ARTICVLVS II 
+        <lb ed="#C" n="99"/>Vtrum generatio sit in omnibus Personis?
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e697">
+                  <lb ed="#C" n="100"/>Ecundo quaeritur: vtrum generatio 
+        <lb ed="#C" n="101"/>sit in omnibu; Personis Divinis? Et  
+        <lb ed="#C" n="102"/>videtur, quod sic: quia generatio, quae 
+        <lb ed="#C" n="103"/>ponitur in Divinis denotat 
+        perfectio<lb ed="#C" n="104" break="no"/>nem, sed perfectio ponenda est in 
+        qua<lb ed="#C" n="105" break="no"/>libet Divina Persona; ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e713">
+                  <lb ed="#C" n="106"/>Praeterea: per onem processionem in 
+        Di<lb ed="#C" n="107" break="no"/>vinis communicatur natura, sed 
+        proces<lb ed="#C" n="108" break="no"/>sio, per quam communicatur natura, 
+        <lb ed="#C" n="109"/>videtur esse generatio; ergo non est ibi:  
+        <!--143.xml-->
+        <pb ed="#C" n="106"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Persona, quae non sit gignens, vel 
+        geni<lb ed="#C" n="2" break="no"/>ta: sed generatio actio eit in Persona 
+        gig<lb ed="#C" n="3" break="no"/>nente: generatio passio in Persona 
+        geni<lb ed="#C" n="4" break="no"/>ta: non igitur erit aliqua Persona, 
+        <lb ed="#C" n="5"/>in qua non sit generatio aliquo 
+        mo<lb ed="#C" n="6" break="no"/>do sumpta. Preterera generatio in 
+        <lb ed="#C" n="7"/>Divinis est ex eo quod a Persona 
+        pro<lb ed="#C" n="8" break="no"/>cedit Verbum; a Persona autem non 
+        <lb ed="#C" n="9"/>procedit Verbum, nisi quia se intelligit:  
+        <lb ed="#C" n="10"/>cum igitur quaelibet Persona se 
+        intelli<lb ed="#C" n="11" break="no"/>gat, a qualibet Persona procedit Ver 
+        <lb ed="#C" n="12"/>bum, &amp; quaelibet generat, sed in 
+        omni<lb ed="#C" n="13" break="no"/>Persona generante est aliquo modo 
+        ge<lb ed="#C" n="14" break="no"/>neratio, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e761">
+                  <lb ed="#C" n="15"/>In contrarium est: quia quae in 
+        Di<lb ed="#C" n="16" break="no"/>vinis distinguunt, non sunt in 
+        omni<lb ed="#C" n="17" break="no"/>nibus, sed generatio distinguit in 
+        Divi<lb ed="#C" n="18" break="no"/>nis iuxta illud Damasc. In Divinis omnia 
+        <lb ed="#C" n="19"/>sunt unum praeter ingenerationem, 
+        generatio<lb ed="#C" n="20" break="no"/>nem, &amp; processionem, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e778">
+        Praeterea: 
+        <lb ed="#C" n="21"/>quod procedit ut datum, nec gignit,  
+        <lb ed="#C" n="22"/>nec gignitur, sed huiusmodi est aliqua 
+        <lb ed="#C" n="23"/>Persona in Divinis; non igitur in 
+        omni<lb ed="#C" n="24" break="no"/>bus erit generatio.  
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e789">
+                  <lb ed="#C" n="25"/>RESOLVTIO. 
+        <lb ed="#C" n="26"/>Qeneratio dari non potest in omnibus tribus 
+        <lb ed="#C" n="27"/>Personis. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e798">
+                  <lb ed="#C" n="28"/>REspondeo dicendum: quod sicut  
+        <lb ed="#C" n="29"/>Rhabitum est, ea, quae sunt Fidei 
+        <lb ed="#C" n="30"/>per rationem probare non possumus, ni 
+        <lb ed="#C" n="31"/>si ex aliqua suppositione; sed aliqua 
+        sup<lb ed="#C" n="32" break="no"/>positione facta possumus, unde <name xml:id="Gi9qrR-e27689-Nd1e811" ref="#Augustine">August.</name> 
+                  <lb ed="#C" n="33"/>in principio 15. de Trin. ad 
+        ostenden<lb ed="#C" n="34" break="no"/>dam Trinitatem, dicit: Aliqua si 
+        possu<lb ed="#C" n="35" break="no"/>mus ratione iam demostrare debemus. Quod 
+        <lb ed="#C" n="36"/>non posset esse si nullo modo ea, quae 
+        <lb ed="#C" n="37"/>sunt Fidei, per rationem probari 
+        pos<lb ed="#C" n="38" break="no"/>sent, &amp; ideo sicut supponendo 
+        distin<lb ed="#C" n="39" break="no"/>ctionem Personarum (quod est annexum 
+        <lb ed="#C" n="40"/>articulo Fidei, vel etiam est articulus 
+        <lb ed="#C" n="41"/>probabamus generationem in Divinis, ita 
+        <lb ed="#C" n="42"/>supponendo tres esse Personas, 
+        possu<lb ed="#C" n="43" break="no"/>mus ostendere generationem non esse 
+        <lb ed="#C" n="44"/>in omnibus Divinis Personis. Hoc autem 
+        <lb ed="#C" n="45"/>sic est videre: quia ubi ponimus gene 
+        <lb ed="#C" n="46"/>rationem, ibi est dare hypostasim per 
+        <lb ed="#C" n="47"/>viam generationis procedentem, quia 
+        <lb ed="#C" n="48"/>sicut non est dare motum, nisi aliquid 
+        <lb ed="#C" n="49"/>moveatur, nec relationem nisi 
+        ali<lb ed="#C" n="50" break="no"/>aliquid referatur: ita non est dare gene 
+        <lb ed="#C" n="51"/>rationem, nisi aliquid generetur. 
+        Pone<lb ed="#C" n="52" break="no"/>re autem ibi hypostasim per viam 
+        ge<lb ed="#C" n="53" break="no"/>nerationis procedentem, quatuor mo¬ 
+        <!--143.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>dis potest intelligi. Primo: quod a 
+        plu<lb ed="#C" n="55" break="no"/>ribus generentur plures. Secundo: quod  
+        <lb ed="#C" n="56"/>ab una generentur plures. Tertio: quod  
+        <lb ed="#C" n="57"/>a pluribus generetur una. Quarto: quod 
+        <lb ed="#C" n="58"/>ab una nna. Omnes tres primi 
+        modi<lb ed="#C" n="59" break="no"/>sunt impossibiles; solus autem, ultimus 
+        <lb ed="#C" n="60"/>est possibilis: &amp; si solum ab una 
+        Perso<lb ed="#C" n="61" break="no"/>na generatur una, &amp; est dare ternarium 
+        <lb ed="#C" n="62"/>Personarum, ut suppositum est, erit 
+        da<lb ed="#C" n="63" break="no"/>re Personam, in qua non erit 
+        genera<lb ed="#C" n="64" break="no"/>tio: cum sit dare Personam, quae nec 
+        <lb ed="#C" n="65"/>igignit, nec gignitur.  
+        <lb ed="#C" n="66"/>set generans &amp; genita: nam cum 
+        sup<lb ed="#C" n="67" break="no"/>Quod autem a pluribus non 
+        generem<lb ed="#C" n="68" break="no"/>tur plures, sic patet: quia si hoc esset 
+        <lb ed="#C" n="69"/>tunc esset dare Personam, quae simul 
+        es<lb ed="#C" n="70" break="no"/>positum sit tres esse Personas tantum, 
+        <lb ed="#C" n="71"/>non est possibile ibi plures esse gignentes 
+        <lb ed="#C" n="72"/>&amp; genitae, nisi eadem sit gignens 
+        <lb ed="#C" n="73"/>&amp; genita; hoc autem stare non potest 
+        <lb ed="#C" n="74"/>quia ea, per quae aliqua distinguuntur  
+        <lb ed="#C" n="75"/>principaliter &amp; primo, non reperiuntur 
+        <lb ed="#C" n="76"/>plurificata in eodem: sicut apparet in 
+        <lb ed="#C" n="77"/>his, quae differunt specie &amp; numero, ut  
+        <lb ed="#C" n="78"/>si species animalis distinguuntur per 
+        bi<lb ed="#C" n="79" break="no"/>pes &amp; quadrupes non est possibile 
+        re<lb ed="#C" n="80" break="no"/>perire idem animai, quod sit bipes &amp; 
+        <lb ed="#C" n="81"/>quadrupes. Item si individua eiusdem 
+        <lb ed="#C" n="82"/>speciei distinguuntur per esse hic &amp; ibi: 
+        <lb ed="#C" n="83"/>non reperitur unum &amp; idem individuum, 
+        <lb ed="#C" n="84"/>quod simul &amp; semel sit hic &amp; ibi: cum 
+        <lb ed="#C" n="85"/>igitur Personae Divinae principaliter 
+        di<lb ed="#C" n="86" break="no"/>stinguantur per generare &amp; generari: 
+        spi<lb ed="#C" n="87" break="no"/>rare &amp; spirari, sive per relationes 
+        conse<lb ed="#C" n="88" break="no"/>quentes ad ista, non est possibile eadem 
+        <lb ed="#C" n="89"/>Personam generare &amp; generari, vel 
+        spi<lb ed="#C" n="90" break="no"/>non distinguerentur secundum rationem 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e945">
+                  <lb ed="#C" n="91"/>rare &amp; spirari. Rursum non est possibile 
+        <lb ed="#C" n="92"/>plures Personas ab eadem procedere per 
+        <lb ed="#C" n="93"/>generationem: quia non est dare pluralitatem 
+        <lb ed="#C" n="94"/>genitorum nisi in rebus habetibus naturam. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e956">
+                  <lb ed="#C" n="95"/>Praeterea: si essent ibi plures Personae 
+        <lb ed="#C" n="96"/>genitae, posset accipi distinctio inter eas 
+        <lb ed="#C" n="97"/>quantum ad esse relationum: quia tunc 
+        <lb ed="#C" n="98"/>llae plures generationes sive filiationes 
+        <lb ed="#C" n="99"/>quidditatis. Tuc igitur, vel illa plura 
+        ge<lb ed="#C" n="100" break="no"/>nita essent unus filius, &amp; tunc ponere 
+        plu<lb ed="#C" n="101" break="no"/>ralitatem genitorum esset ponere non 
+        plurali<lb ed="#C" n="102" break="no"/>tatem, vel si distingueretur esset ibi 
+        distin<lb ed="#C" n="103" break="no"/>ctio secundum esse sed relationes 
+        secun<lb ed="#C" n="104" break="no"/>dum esse transeunt in substantiam &amp; ita 
+        <lb ed="#C" n="105"/>esset ibi distinctio secundum absoluta, 
+        <lb ed="#C" n="106"/>quod est contra <name xml:id="Gi9qrR-e27689-Nd1e984" ref="#Augustine">Aug.</name> ode Trin cap. 2. 
+        <lb ed="#C" n="107"/>Rursum non possumus dicere a pluribu 
+        <lb ed="#C" n="108"/>Personis procedere unam per viam 
+        ge<lb ed="#C" n="109" break="no"/>nerationis: quia quod procedit per  
+        <!--144.xml-->
+        <pb ed="#C" n="107"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>generationis, procedit per modum na 
+        <lb ed="#C" n="2"/>turae; a pluribus autem quando procedi 
+        <lb ed="#C" n="3"/>aliquid, vel utrumque illorum est 
+        insuffi<lb ed="#C" n="4" break="no"/>ciens, sicut videmus in generatione fili 
+        <lb ed="#C" n="5"/>ex carnalibus parentibus; vel illud, quod 
+        <lb ed="#C" n="6"/>procedit, non procedit per modum 
+        na<lb ed="#C" n="7" break="no"/>turae: propter quod, 15. de Trin. cap. 
+        <lb ed="#C" n="8"/>26. vult <name xml:id="Gi9qrR-e27689-Nd1e1017" ref="#Augustine">Aug.</name> quod Spiritus Sanctus non 
+        <lb ed="#C" n="9"/>est genit is: quia procedit a duobus, scit 
+        <lb ed="#C" n="10"/>licet, a Patre, &amp; Filio: nna igitur 
+        Perso<lb ed="#C" n="11" break="no"/>na in Divinis solum ab una procedit per 
+        <lb ed="#C" n="12"/>viam generationis. Supporsendo ergo esse 
+        <lb ed="#C" n="13"/>tres Personas in Divinis est dare 
+        Perso<lb ed="#C" n="14" break="no"/>nam, in qua non est generatio: quia 
+        <lb ed="#C" n="15"/>nec gignit, nec gignitur, quod 
+        pro<lb ed="#C" n="16" break="no"/>bare volebamus; 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1039">
+                  <lb ed="#C" n="17"/>Resp. ad arg. Ad 1. dicendum: quod 
+        <lb ed="#C" n="18"/>aliquid est perfectionis in uno, quod no 
+        <lb ed="#C" n="19"/>est perfectionis in alio: &amp; ideo licet sit 
+        <lb ed="#C" n="20"/>perfectionis in Filio, quod generetur, non 
+        <lb ed="#C" n="21"/>oportet, quod sit perfectionis, in alijs 
+        <lb ed="#C" n="22"/>Personis.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1056">
+        Ad 2. dicendum, quod non 
+        <lb ed="#C" n="23"/>omnis processio in Divinis, propter 
+        <lb ed="#C" n="24"/>quam communicatur natura, est gene 
+        <lb ed="#C" n="25"/>ratio: non enim sufficit communicari 
+        <lb ed="#C" n="26"/>naturam; sed oportet quod communi¬ 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1067">
+                  <lb ed="#C" n="27"/>cetur per modum naturae, ut sit 
+        genera<lb ed="#C" n="28" break="no"/>tio, quod non est in processione 
+        Spiri<lb ed="#C" n="29" break="no"/>tus Sancti, ut infra patebit.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1076">
+        Ad 3. 
+        dicen<lb ed="#C" n="30" break="no"/>dum, quod non sufficit Personam se in 
+        <lb ed="#C" n="31"/>telligere ad hoc, quod ab ea procedam 
+        <lb ed="#C" n="32"/>Verbum: unde se intelligere est causa 
+        <lb ed="#C" n="33"/>sine qua non: quia a nullo procedit Ver 
+        <lb ed="#C" n="34"/>bum, nisi se intelligat; non tamen est 
+        <lb ed="#C" n="35"/>causa de necessitate inferens, quod 
+        quae<lb ed="#C" n="36" break="no"/>cumque Persona se intelligit, ab ea 
+        pro<lb ed="#C" n="37" break="no"/>cedit Verbum. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e27689-Dd1e1098">
+               <head xml:id="Gi9qrR-e27689-Hd1e1100">Articulus 3</head>
+               <p xml:id="Gi9qrR-e27689-d1e1103">
+                  <lb ed="#C" n="38"/>ARTICVLVS III. 
+        <lb ed="#C" n="39"/>Vtrum generatio sit in Filio?
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1110">
+                  <lb ed="#C" n="40"/>TERtio quaeritur: vtrum in Filio sit 
+        <lb ed="#C" n="41"/>generatio? Et videtur, quod non: quia 
+        <lb ed="#C" n="42"/>Filius nihil habet, nisi quod nascendo 
+        ac<lb ed="#C" n="43" break="no"/>cepit; sed quidquid accepit est in Patre: 
+        <lb ed="#C" n="44"/>cum a Patre id accepit, sed in Patre non 
+        <lb ed="#C" n="45"/>est generatio passio, ergo nec in Filio 
+        <lb ed="#C" n="46"/>nec generatio actio, cum non generet 
+        <lb ed="#C" n="47"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1130">
+        Praeterea: filiatio est aliquid 
+        <lb ed="#C" n="48"/>consequens generationem, sed quan 
+        <lb ed="#C" n="49"/>do inest quod consequitur 
+        genera<lb ed="#C" n="50" break="no"/>tionem, cessat generatio: cum 
+        igi<lb ed="#C" n="51" break="no"/>tur filiatio sit in Filio, generatio non 
+        <lb ed="#C" n="52"/>erit in ipso.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1143">
+        Praeterea: quod generatur  
+        <!--144.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="53"/>non dum est, sed Filio Dei, cum sit 
+        <lb ed="#C" n="54"/>Deus, maxime competit esse, ergo &amp;c. 
+        <lb ed="#C" n="55"/>Praeterea: secundum <name xml:id="Gi9qrR-e27689-Nd1e1156" ref="#Boethius">Boet,</name> in lib. de 
+        <lb ed="#C" n="56"/>Trin. tota ratio relationis sumitur, non 
+        <lb ed="#C" n="57"/>in eo, quod est esse, sed in eo quod est, 
+        <lb ed="#C" n="58"/>ad aliud esse: tunc arguo: aut 
+        genera<lb ed="#C" n="59" break="no"/>tio dicit relationem; aut non. Si non? 
+        <lb ed="#C" n="60"/>Tunc qua ratione est in una Persona, est 
+        <lb ed="#C" n="61"/>in omnibus, quod non conceditur. Si 
+        <lb ed="#C" n="62"/>est relatio? Tunc cum ratio relationis 
+        <lb ed="#C" n="63"/>sit non in eo, quod est esse, non erit in 
+        <lb ed="#C" n="64"/>aliqua Persona. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1180">
+                  <lb ed="#C" n="65"/>In contrarium est: quia ex eo quod  
+        <lb ed="#C" n="66"/>Filius generatur, distinguitur ab alijs, 
+        un<lb ed="#C" n="67" break="no"/>de dicitur 6. de Trin. cap. 2. quod 
+        Pa<lb ed="#C" n="68" break="no"/>pter, &amp; Filius, Non ambo simul Filius: &amp; 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1191">
+                  <lb ed="#C" n="69"/>ideo in eo quod Filius generatur &amp; est 
+        <lb ed="#C" n="70"/>Filius, ab alijs distinguitur. Sed 
+        proprie<lb ed="#C" n="71" break="no"/>tates, per quas aliqua distinguuntur, 
+        ha<lb ed="#C" n="72" break="no"/>bent esse in distinctis, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1202">
+                  <lb ed="#C" n="73"/>RESOLVTIO. 
+        <lb ed="#C" n="74"/>Qeneratio absolute, &amp; simpliciter est in Filio
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1209">
+                  <lb ed="#C" n="75"/>Espondeo dicendum, quod 
+        gene<lb ed="#C" n="76" break="no"/>Rratio quatuor importare videtur.  
+        <lb ed="#C" n="77"/>Primo motum sive mutationem: quia 
+        <lb ed="#C" n="78"/>generatio est species motus, ut potest hat 
+        <lb ed="#C" n="79"/>beri ex tertio Phys. cap. 4. Secundo 
+        im<lb ed="#C" n="80" break="no"/>portat unitatem in natura, &amp; 
+        pluralita<lb ed="#C" n="81" break="no"/>tem in suppositis: quia Gignens, &amp; 
+        geni<lb ed="#C" n="82" break="no"/>tum sunt unum in forma, &amp; plura numero, ut  
+        <lb ed="#C" n="83"/>vult Comm. in 7. Metaph. cap. 7. 
+        Ter<lb ed="#C" n="84" break="no"/>tio acceptionem esse ab alio: quia 
+        geni<lb ed="#C" n="85" break="no"/>tum accipit esse a gignente. 4. importate 
+        <lb ed="#C" n="86"/>communicationem per modum 
+        natu<lb ed="#C" n="87" break="no"/>rae: quia generatio est opus naturae. Et  
+        <lb ed="#C" n="88"/>ideo generationem non ponere in 
+        ali<lb ed="#C" n="89" break="no"/>quo quadruplex potest esse ratio ad 
+        prae<lb ed="#C" n="90" break="no"/>sens. Vna si generatio illa est motus vel 
+        <lb ed="#C" n="91"/>transmutatio: quia cum illa generatio 
+        <lb ed="#C" n="92"/>sit via in naturam, introducta natura ge, 
+        <lb ed="#C" n="93"/>neratio cessat: &amp; ideo vult Phil. quod  
+        <lb ed="#C" n="94"/>quandiu aliquid generatur, non est: quia 
+        <lb ed="#C" n="95"/>quandiu generatur, caret forma, quae 
+        <lb ed="#C" n="96"/>est terminus generationis: &amp; quia a 
+        for<lb ed="#C" n="97" break="no"/>ma, &amp; a natura est esse, propter tale non 
+        <lb ed="#C" n="98"/>dicitur esse, &amp; ideo bene arguitur, hoc 
+        <lb ed="#C" n="99"/>est ignis, ergo in eo non est generatio 
+        <lb ed="#C" n="100"/>ignis. Secunda ratio quare in aliquo non  
+        <lb ed="#C" n="101"/>concedimus generationem est: quia nonn 
+        <lb ed="#C" n="102"/>plurificantur ibi supposita in unitate na 
+        <lb ed="#C" n="103"/>turae. In creaturis autem, ex quibus in 
+        <lb ed="#C" n="104"/>Creatoris cognitionem ascendimus, duo 
+        <lb ed="#C" n="105"/>plex est causa huius. Vna sumitur ratio¬  
+        <!--145.xml-->
+        <pb ed="#C" n="108"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ne materiae: quia In eo qued factum est ex. 
+        <lb ed="#C" n="2"/>tota materia, impossibile ost reperire duo 
+        indi<lb ed="#C" n="3" break="no"/>vidua in actu. Vt vult Philos. in lib. 
+        Cae<lb ed="#C" n="4" break="no"/>&amp; Mun. ut apparet de Sole, &amp; alijs 
+        su<lb ed="#C" n="5" break="no"/>percaelestibus corporibus. Ista autem 
+        <lb ed="#C" n="6"/>implurificatio non convenit ratione 
+        for<lb ed="#C" n="7" break="no"/>mae: quia semper forma, quae in mate 
+        <lb ed="#C" n="8"/>ria recipitur, est apta nata de se 
+        plurifi<lb ed="#C" n="9" break="no"/>cari, &amp; sub eadem specie; sed causa est: 
+        <lb ed="#C" n="10"/>quia constat ex tota materia sua. 
+        Secun<lb ed="#C" n="11" break="no"/>da causa potest sumi ex ipsa forma: quia 
+        <lb ed="#C" n="12"/>forma, quae non est apta nata recipi in 
+        <lb ed="#C" n="13"/>materia, secundum eandem speciem 
+        <lb ed="#C" n="14"/>non reperitur in pluribus suppositis; 
+        si<lb ed="#C" n="15" break="no"/>cut sunt formae Angelicae: &amp; ideo talia 
+        <lb ed="#C" n="16"/>non progrediuntur in esse per viam 
+        ge<lb ed="#C" n="17" break="no"/>nerationis: quia in una specie non 
+        re<lb ed="#C" n="18" break="no"/>peritur pluralitas suppositorum ratione 
+        <lb ed="#C" n="19"/>ipsius formae 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1326">
+                  <lb ed="#C" n="20"/>Ista autem causa assignata licet videatur 
+        <lb ed="#C" n="21"/>duplex, secundum radicem est vna: quia 
+        <lb ed="#C" n="22"/>in rebus creatis esse distat a natura, non 
+        <lb ed="#C" n="23"/>potest ibi esse pluralitas suppositorum, no 
+        <lb ed="#C" n="24"/>si sit ibi pluralitas in esse; &amp; quia 
+        plura<lb ed="#C" n="25" break="no"/>litas in esse infert pluralitatem in natura, 
+        <lb ed="#C" n="26"/>non est pluralitas suppositorum, nisi sit 
+        <lb ed="#C" n="27"/>pluralitas naturarum: &amp; quia non est 
+        <lb ed="#C" n="28"/>generatio, nisi sit pluralitas suppositorum, 
+        <lb ed="#C" n="29"/>ea, in quibus non plurificatur natura, esse 
+        <lb ed="#C" n="30"/>per viam generationis non accipiunt: &amp; 
+        <lb ed="#C" n="31"/>sideo illae duae cause assignatae, quare 
+        ali<lb ed="#C" n="32" break="no"/>qua non generantur, in ista causa 
+        con<lb ed="#C" n="33" break="no"/>iunguntur: quia in eis esse distat a 
+        na<lb ed="#C" n="34" break="no"/>tura. Tertia causa, quare aliquid non 
+        <lb ed="#C" n="35"/>generatur, est, quia non habet esse ab 
+        <lb ed="#C" n="36"/>asio acceptum; cum omne genitum a 
+        <lb ed="#C" n="37"/>generante accipiat esse. Quarta causa 
+        <lb ed="#C" n="38"/>huius assignari potest: quia esse, quod  
+        <lb ed="#C" n="39"/>habet, non accepit per modum naturae, 
+        <lb ed="#C" n="40"/>sed magis per modum liberalitatis. Primo 
+        <lb ed="#C" n="41"/>modo non est generatio in aliquo 
+        crea<lb ed="#C" n="42" break="no"/>to, quod habet esse &amp; ut est aliquid in 
+        <lb ed="#C" n="43"/>actu, prout generatio importat fieris 
+        <lb ed="#C" n="44"/>quia quod fit non est: potest tamen in 
+        <lb ed="#C" n="45"/>eis esse progressio in esse per viam 
+        genera<lb ed="#C" n="46" break="no"/>tionis. Propter secundum non est 
+        gene<lb ed="#C" n="47" break="no"/>ratio in rebus creatis, in quibus esse 
+        di<lb ed="#C" n="48" break="no"/>stat a natura, &amp; eorum naturae 
+        repug<lb ed="#C" n="49" break="no"/>nat plurificatio; &amp; non solum in istis non 
+        <lb ed="#C" n="50"/>est generatio, sed nec per generationem 
+        <lb ed="#C" n="51"/>in esse progrediuntur. Propter tertium: 
+        <lb ed="#C" n="52"/>generatio passio non est in Patre 
+        Caele<lb ed="#C" n="53" break="no"/>sti: quia non accipit esse ab alio. Propter 
+        <lb ed="#C" n="54"/>quartum non est generatio in Spiritu 
+        <lb ed="#C" n="55"/>Sancto: quia per modum naturae non 
+        <lb ed="#C" n="56"/>procedit in esse 
+        <!--145.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>In Filio autem simpliciter debemus 
+        <lb ed="#C" n="58"/>concedere generationem esse. Primo: 
+        <lb ed="#C" n="59"/>quia generatio, quam in ipso ponimus,  
+        <lb ed="#C" n="60"/>non dicit motum: &amp; ideo ipso habem 
+        <lb ed="#C" n="61"/>te esse, illa generatio non cessat esse: 
+        sem<lb ed="#C" n="62" break="no"/>per enim gignitur, &amp; semper genitus 
+        <lb ed="#C" n="63"/>est. Vnde Origenes super Hierem. ait: 
+        Sal<lb ed="#C" n="64" break="no"/>vator noster est Sapientia Dei: Sapiatia vero est 
+        <lb ed="#C" n="65"/>splendor aeternae lucis. Salvator ergo noster sple 
+        <lb ed="#C" n="66"/>dor est claritatis. Splendor autem non semel na 
+        <lb ed="#C" n="67"/>citur, &amp; desinit; sed quoties ortum fuerit 
+        lu<lb ed="#C" n="68" break="no"/>men, ex quo splendor oritur, toties oritur etia 
+        <lb ed="#C" n="69"/>&amp; splendor claritatis: sic ergo Salvator 
+        sem<lb ed="#C" n="70" break="no"/>per nascitur, quod Magister 1. Sent. dist. 
+        <lb ed="#C" n="71"/>9p. dictum Origenis exponens, &amp; 
+        appro<lb ed="#C" n="72" break="no"/>bans dicit: Filius semper nascitur, non quod  
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1448">
+                  <lb ed="#C" n="73"/>eius generatio iteretur; sed quia est aeterna, &amp; 
+        <lb ed="#C" n="74"/>emper est. Propter 2. non possumus 
+        ne<lb ed="#C" n="75" break="no"/>gare generationem esse in Filio: quia 
+        <lb ed="#C" n="76"/>licet natura Divina, quam per 
+        genera<lb ed="#C" n="77" break="no"/>tionem accipit Filius, sit 
+        implurificabi<lb ed="#C" n="78" break="no"/>lis; tamen propter hoc generatio non 
+        <lb ed="#C" n="79"/>tollitur: quia esse a natura non differt 
+        <lb ed="#C" n="80"/>in Filio. Nec propter 3. hoc negare 
+        pos<lb ed="#C" n="81" break="no"/>lumus: quia esse, quod habet, a Patre 
+        <lb ed="#C" n="82"/>habet, &amp; acceptum habet: quia 
+        secun<lb ed="#C" n="83" break="no"/>dum Hilarium: Nihil habet Filius, nisi  
+        <lb ed="#C" n="84"/>quod nascendo accepit: &amp; secundum <name xml:id="Gi9qrR-e27689-Nd1e1476" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="85"/>Filio esse, est quod a Patre sit. Nec propter  
+        <lb ed="#C" n="86"/>4. quia esse Filio per modum naturae 
+        con<lb ed="#C" n="87" break="no"/>municatur, cum procedat per modum 
+        <lb ed="#C" n="88"/>intellectus: procedit igitur Filius per 
+        <lb ed="#C" n="89"/>viam generationis in esse, &amp; generatio 
+        <lb ed="#C" n="90"/>temper in ipso existit.  
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1494">
+                  <lb ed="#C" n="91"/>Respon. ad arg. Ad 1. dicendum: 
+        <lb ed="#C" n="92"/>quod nihil habet Filius, nisi quod a Patre 
+        <lb ed="#C" n="93"/>accepit, &amp; quidquid habet Filius, habe 
+        <lb ed="#C" n="94"/>Pater: non tamen oportet, quod 
+        ha<lb ed="#C" n="95" break="no"/>beat ea eo modo, ut Pater: quia si nihila 
+        <lb ed="#C" n="96"/>dat, quod non habet, dat tamen, ut non 
+        <lb ed="#C" n="97"/>habet: ut dat aliquis solum denarium, &amp; 
+        <lb ed="#C" n="98"/>si solum denarium non habet: ita Pater 
+        <lb ed="#C" n="99"/>dat essentiam Filio, quam essentiam 
+        ha<lb ed="#C" n="100" break="no"/>bet, dat tamen eam Filio, ut non habet: 
+        <lb ed="#C" n="101"/>quia non habet eam per generationem 
+        <lb ed="#C" n="102"/>communicatam, ut habet eam filius: &amp; 
+        <lb ed="#C" n="103"/>ideo generatio passio est in Filio, non in 
+        <lb ed="#C" n="104"/>Patre.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1527">
+        Ad 2. dicendum, quod habito 
+        <lb ed="#C" n="105"/>illo, quod aliquis consequitur per 
+        gene<lb ed="#C" n="106" break="no"/>rationem, cessat generatio: verum est 
+        <lb ed="#C" n="107"/>prout generatio est motus: quia habitibus 
+        <lb ed="#C" n="108"/>praesentibus in materia cessat motus, ut dicitur 
+        <lb ed="#C" n="109"/>in 1. de gen. cap. de agere, &amp; pati. 
+        Cene<lb ed="#C" n="110" break="no"/>ratio autem, quam ponimus inFilio, non 
+        <lb ed="#C" n="111"/>est motus, nec mutatio.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1545">
+        Ad 3. 
+        dicen<lb ed="#C" n="112" break="no"/>dum, quod generatur, non dum est pro¬ 
+        <!--146.xml-->
+        <pb ed="#C" n="109"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ut gcheratio dicit fieri; sed generatio,  
+        <lb ed="#C" n="2"/>quam ponimus in Filio, non dicit ficri: 
+        <lb ed="#C" n="3"/>nam secundum illum modum Filius 
+        <lb ed="#C" n="4"/>nunquam geeratur, &amp; secundum istum 
+        <lb ed="#C" n="5"/>modum negat <name xml:id="Gi9qrR-e27689-Nd1e1566" ref="#Augustine">Aug.</name> 87. quaest. q. 37. Filium 
+        <lb ed="#C" n="6"/>semper nasci: quia qui semper nascitur, non 
+        <lb ed="#C" n="7"/>dum est natus: &amp; nunquam natus est, aut natuo 
+        <lb ed="#C" n="8"/>erit, si semper nascitur, ut ibidem dicitur. Ad 
+        <lb ed="#C" n="9"/>4. patebit solutio, cum intra 
+        disputabi<lb ed="#C" n="10" break="no"/>tur: utrum relationes sint 
+        extrinsecun<lb ed="#C" n="11" break="no"/>affixae, ut posuit Porretanus. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e27689-Dd1e1584">
+               <head xml:id="Gi9qrR-e27689-Hd1e1586">Articulus 4</head>
+               <p xml:id="Gi9qrR-e27689-d1e1589">
+                  <lb ed="#C" n="12"/>ARTICVLVS IV. 
+        <lb ed="#C" n="13"/>Vtrum generatio actio sit in Patre? 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1596">
+                  <lb ed="#C" n="14"/>QVARto queritur: utrum 
+        genera<lb ed="#C" n="15" break="no"/>tio actio sit in Patre? Et videtur,  
+        <lb ed="#C" n="16"/>quod nulla generatio sit in Patre: 
+        <lb ed="#C" n="17"/>quia sicut se habet motus ad mobilia, sic 
+        <lb ed="#C" n="18"/>se habet generatio ad generabilia; sed 
+        <lb ed="#C" n="19"/>non est motus, nisi in eo quod movetur: ut ostem 
+        <lb ed="#C" n="20"/>ditur in 3. Phys. ergo non est generatio,  
+        <lb ed="#C" n="21"/>nisi in eo, quod generatur: ergo &amp;c
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1616">
+                  <lb ed="#C" n="22"/>Praeterea: movere, &amp; moveri idem sunt,  
+        <lb ed="#C" n="23"/>&amp; non differunt nisi secundum quoddif 
+        <lb ed="#C" n="24"/>fiert via, qua itur Athenis Thebas, &amp; 
+        <lb ed="#C" n="25"/>Thebis Athenas: &amp; propter istam iden 
+        <lb ed="#C" n="26"/>titatem in eodem subiecto sunt movere 
+        <lb ed="#C" n="27"/>&amp; moveri, quia in moto: cum igitur sic 
+        <lb ed="#C" n="28"/>se habeat generare ad generari, ut mo 
+        <lb ed="#C" n="29"/>vere ad moveri, erunt idem, &amp; erunt in 
+        <lb ed="#C" n="30"/>eodem subiecto, ut in generato, &amp; non in 
+        <lb ed="#C" n="31"/>generante, sive in Patre.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1640">
+        Praeterea: 
+        inge<lb ed="#C" n="32" break="no"/>neratio est opposita generationi; sed 
+        op<lb ed="#C" n="33" break="no"/>posita non sunt in eodem: cum in 
+        gene<lb ed="#C" n="34" break="no"/>ratio sit in Patre secundum Damasc. gene 
+        <lb ed="#C" n="35"/>ratio non erit in ipso. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1652">
+                  <lb ed="#C" n="36"/>In contrarium est: quia generare es 
+        <lb ed="#C" n="37"/>proprietas Tatris, sed proprietas est in 
+        <lb ed="#C" n="38"/>eo, cuius est proprietas, igitur generatio 
+        <lb ed="#C" n="39"/>actio quae est idem, quod generare, erit 
+        <lb ed="#C" n="40"/>in Patre.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1665">
+        Praeterea: generare dicit 
+        rela<lb ed="#C" n="41" break="no"/>tionem, per quam Pater refertur ad 
+        Fi<lb ed="#C" n="42" break="no"/>lium, sed talis relatio est in Patre, erga 
+        <lb ed="#C" n="43"/>&amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1674">
+                  <lb ed="#C" n="44"/>RESOLVTIO. 
+        <lb ed="#C" n="45"/>Qeneratio actio est in Patre. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1681">
+                  <lb ed="#C" n="46"/>REspondeo dicendum, quod per ge¬ 
+        <lb ed="#C" n="47"/>Rnerationem, quam videmus in isti 
+        <lb ed="#C" n="48"/>inferioribus, oportet nos manu duci in 
+        <lb ed="#C" n="49"/>generationem Divinam. In generatione 
+        <!--146.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="50"/>istorum inferiorum duo est considerare. 
+        <lb ed="#C" n="51"/>Primo motum ipsum, vel mutationem: 
+        <lb ed="#C" n="52"/>quia secundum Phil. generatio motus est, e 
+        <lb ed="#C" n="53"/>accipiendo large motum, ut est in 4. 
+        ge<lb ed="#C" n="54" break="no"/>neribus, ut dicitur 3. Phys. cap. 4. Vel e 
+        <lb ed="#C" n="55"/>mutatio accipiendo stricte motum, 
+        pro<lb ed="#C" n="56" break="no"/>ut in substantia non est motus, ut scribitur 5. S. 
+        <lb ed="#C" n="57"/>Phy. cap. 8. Secundo, respectum, sive: 
+        <lb ed="#C" n="58"/>relationem: quia semper inter agens &amp; 
+        <lb ed="#C" n="59"/>paties, inter gignens &amp; genitum est invenire 
+        <lb ed="#C" n="60"/>relationem, ut potest haberi ex 5. Meta 
+        <lb ed="#C" n="61"/>cap. de relativis: &amp; ex 5. de Trin. cap. 7 
+        <lb ed="#C" n="62"/>Si consideremus generationem 
+        inquan<lb ed="#C" n="63" break="no"/>tum est motus, vel mutatio, sic genera 
+        <lb ed="#C" n="64"/>tio solum est in genito, vel in principi 
+        <lb ed="#C" n="65"/>passivo, ex quo est generatio: sicut 
+        mo<lb ed="#C" n="66" break="no"/>tus solum est in moto. Sed si considera 
+        <lb ed="#C" n="67"/>mus eam ratione respectus, sic dicit 
+        ali<lb ed="#C" n="68" break="no"/>quid in utroque extremorum: nam 
+        se<lb ed="#C" n="69" break="no"/>cundum Philosopm. 5. Meta. tria sunt 
+        gene<lb ed="#C" n="70" break="no"/>ra relationum: quia quaedam dicuntur 
+        <lb ed="#C" n="71"/>modo numeri, quaedam modo 
+        poten<lb ed="#C" n="72" break="no"/>tiae, quedam modo mensurae. Relativa 
+        <lb ed="#C" n="73"/>modo numeri, &amp; modo potentiae 
+        po<lb ed="#C" n="74" break="no"/>nunt aliquid in utroque extremorum 
+        <lb ed="#C" n="75"/>inter quae relativa ponuntur Pater &amp; 
+        Et<lb ed="#C" n="76" break="no"/>lius: ratione igitur relationis generati 
+        <lb ed="#C" n="77"/>non solum dicit aliquid in genito, sed  
+        <lb ed="#C" n="78"/>etiam ingignente: &amp; quia generatio in 
+        <lb ed="#C" n="79"/>Divinis dicit relationem sine motu, ideo 
+        <lb ed="#C" n="80"/>ea, quae competunt ei ratione motus 
+        <lb ed="#C" n="81"/>non debemus ponere in Divinis, in 
+        qui<lb ed="#C" n="82" break="no"/>bus non pommus motum; ea autem, quae 
+        <lb ed="#C" n="83"/>competunt ei ratione relationis, debe 
+        <lb ed="#C" n="84"/>mus ibi ponere: &amp; quia secundum hoc 
+        <lb ed="#C" n="85"/>generatio ponit relationem in gignente, 
+        <lb ed="#C" n="86"/>&amp; genito, concedere possumus quod 
+        <lb ed="#C" n="87"/>non solum generatio sit in Filio, sed  
+        <lb ed="#C" n="88"/>etiam quod generatio actio sit in 
+        Pa<lb ed="#C" n="89" break="no"/>tre. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1783">
+                  <lb ed="#C" n="90"/>Ad cuius evidentiam notandum, quod  
+        <lb ed="#C" n="91"/>sicut generari nihil est aliud, quam 
+        prou<lb ed="#C" n="92" break="no"/>prietas Filij significata per modum 
+        pas<lb ed="#C" n="93" break="no"/>sionis; ita generare nihil est aliud, quam 
+        <lb ed="#C" n="94"/>proprietas Patris significata per modum 
+        <lb ed="#C" n="95"/>actus: &amp; ideo sicut generari est in Filio 
+        <lb ed="#C" n="96"/>ita generare est in Patre: &amp; in utroque 
+        <lb ed="#C" n="97"/>est generatio, in Filio generatio 
+        passio<lb ed="#C" n="98" break="no"/>in Patre generatio actio: verum qui  
+        <lb ed="#C" n="99"/>generatio absolute supta manis denotat 
+        <lb ed="#C" n="100"/>passionem, sive originem per modum 
+        <lb ed="#C" n="101"/>passionis dictam, quam actionem: sic 
+        <lb ed="#C" n="102"/>simpliciter, &amp; absolute loquendo 
+        con<lb ed="#C" n="103" break="no"/>cedimus generationem esse inFilio; non 
+        <lb ed="#C" n="104"/>adeo proprie conceditur, quod 
+        genera<lb ed="#C" n="105" break="no"/>tio sit in Patre, nisi cum additione fa¬ 
+        <!--147.xml-->
+        <pb ed="#C" n="110"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>cta dicendo: generatio actio est in 
+        Pa<lb ed="#C" n="2" break="no"/>tre. 
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1831">
+                  <lb ed="#C" n="3"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="4" break="no"/>dum, quod generatio, prout sumitur in 
+        <lb ed="#C" n="5"/>Divinis non dicit motum: &amp; ideo non 
+        <lb ed="#C" n="6"/>est comparatio generationis ad 
+        genera<lb ed="#C" n="7" break="no"/>bilia, sicut motus ad mobilia; sed sicut 
+        <lb ed="#C" n="8"/>relationis ad relata: &amp; ideo sicut in his, 
+        <lb ed="#C" n="9"/>quae referuntur realiter, relatio ponitur 
+        <lb ed="#C" n="10"/>In utroque extremorum, sic generatio 
+        <lb ed="#C" n="11"/>eo modo, quo dictum est, ponitur in 
+        <lb ed="#C" n="12"/>Patre, &amp; Filio.
+      </p>
+               <p xml:id="Gi9qrR-e27689-d1e1856">
+        Ad 2. dicendum, quod  
+        <lb ed="#C" n="13"/>patet solutio per iam dicta: quia 
+        gene<lb ed="#C" n="14" break="no"/>ratio in Divinis non dicit motum, 
+        secu<lb ed="#C" n="15" break="no"/>dum quam viam procedebat ratio. Ad 
+        <lb ed="#C" n="16"/>3. dicendum, quod in generatio &amp; 
+        ge<lb ed="#C" n="17" break="no"/>neratio prout ponuntur in Patre non 
+        <lb ed="#C" n="18"/>dicunt opposita: quia in generatio ibi idem 
+        <lb ed="#C" n="19"/>sonat, quod non esse ab alio: &amp; genera 
+        <lb ed="#C" n="20"/>tio idem, quod aliud esse ab eo. Et non 
+        <lb ed="#C" n="21"/>esse ab alio, &amp; producere alium non 
+        re<lb ed="#C" n="22" break="no"/>pugnant: &amp; ideo cum dicitur, in 
+        gene<lb ed="#C" n="23" break="no"/>ratio est in Patre, illud negat 
+        generatio<lb ed="#C" n="24" break="no"/>nem passivam, quae non est in eo: &amp; 
+        <lb ed="#C" n="25"/>cum dicitur generatio est in Patre, 
+        in<lb ed="#C" n="26" break="no"/>ielligendum est de generatione, quae est 
+        <lb ed="#C" n="27"/>actio, quae est in ipso. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

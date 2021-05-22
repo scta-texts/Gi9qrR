@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="760"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f98202"><!-- l1-d40q2 -->
+            <head xml:id="Gi9qrR-f98202-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-f98202-d1e111">
+               <lb ed="#C" n="4"/> QVAESTIO II. 
+      <lb ed="#C" n="5"/>Quorum sit praedestinatio? 
+    </p>
+            <p xml:id="Gi9qrR-f98202-d1e118">
+               <lb ed="#C" n="6"/>EIN DE quaeritur, quo 
+      <lb ed="#C" n="7"/>rum sit praedestinatio 
+      <lb ed="#C" n="8"/>Et circa hoc querum 
+      <lb ed="#C" n="9"/>tur duo. Primo: quo 
+      <lb ed="#C" n="10"/>rum sit? Secundo: utrum 
+      <lb ed="#C" n="11"/>praedestinatio eorum sit  
+      <lb ed="#C" n="12"/>certa? 
+    </p>
+            <div xml:id="Gi9qrR-f98202-Dd1e136">
+               <head xml:id="Gi9qrR-f98202-Hd1e138">Articulus 1</head>
+               <p xml:id="Gi9qrR-f98202-d1e141">
+                  <lb ed="#C" n="13"/>ARTICVLVS I. 
+        <lb ed="#C" n="14"/>Vtrum praedostinatio sit non enium? 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e148">
+                  <lb ed="#C" n="15"/>D 1. sic proceditur: videtur, quod 
+        <lb ed="#C" n="16"/>praedestinatio non sit nisi entium 
+        <lb ed="#C" n="17"/>quia non diriguntur in finem, nisi quo 
+        <lb ed="#C" n="18"/>habent esse; sed praedestinatio dicit 
+        di<lb ed="#C" n="19" break="no"/>rectionem in finem, ergo solum entia 
+        <lb ed="#C" n="20"/>praedestitantur.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e164">
+        Praeterea: finis iste, ad 
+        <lb ed="#C" n="21"/>quem diriguntur praedestinati, gloria 
+        <lb ed="#C" n="22"/>est: sed gloria praesupponit gratiam, 
+        gra<lb ed="#C" n="23" break="no"/>tia naturam, &amp; natura esse, ergo qui 
+        di<lb ed="#C" n="24" break="no"/>riguntur in talem finem de necessitate 
+        <lb ed="#C" n="25"/>habent esse; sed quae habent esse, sunt 
+        <lb ed="#C" n="26"/>entia, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e180">
+                  <lb ed="#C" n="27"/>In contrarium est: quia praedestina 
+        <lb ed="#C" n="28"/>tio est Divinum propositum miserendi 
+        <lb ed="#C" n="29"/>sed huiusmodi propositum est aeternum 
+        <lb ed="#C" n="30"/>entia vero inceperunt esse: ergo opor 
+        <lb ed="#C" n="31"/>tet praedestinationem non entium esse 
+        <lb ed="#C" n="32"/>posse. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e197">
+                  <lb ed="#C" n="33"/>Vlterius quaeritur: utrum 
+        praedesti<lb ed="#C" n="34" break="no"/>natio sit hominum? Et videtur, quod 
+        <lb ed="#C" n="35"/>non: quia homines habent lumen 
+        ratio<lb ed="#C" n="36" break="no"/>nis: non ergo indigent dirigi; sed ipsi se 
+        <lb ed="#C" n="37"/>ipsos dirigere possunt: cum igitur 
+        prae<lb ed="#C" n="38" break="no"/>destinatio sit directorum, hominum no 
+        <lb ed="#C" n="39"/>erit praedestinatio.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e215">
+        Praeterea: bruta 
+        pos<lb ed="#C" n="40" break="no"/>sunt consequi finem suum absque eo 
+        <lb ed="#C" n="41"/>quod praedestinentur, vel dirigantur, 
+        er<lb ed="#C" n="42" break="no"/>go multo magis homo, qui melioris 
+        <lb ed="#C" n="43"/>conditionis existit, igitur hominum non 
+        <lb ed="#C" n="44"/>erit praedestinatio. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e228">
+                  <lb ed="#C" n="45"/>Ia contrarium est <name xml:id="Gi9qrR-f98202-Nd1e232" ref="#Augustine">Aug.</name> in de Prae 
+        <lb ed="#C" n="46"/>destinatione sanctorum, qui ex eadem mal 
+        <lb ed="#C" n="47"/>sa humani generis aliquos 
+        praedesti<lb ed="#C" n="48" break="no"/>natos, dicit, aliquos reprobatos, 
+        <!--785.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="49"/>Vlterius quaeritur: utrum 
+        Angelo<lb ed="#C" n="50" break="no"/>rum sit predestinatio? Videtur quod non 
+        <lb ed="#C" n="51"/>quia secundum Philosophum 9. Meta. malum 
+        <lb ed="#C" n="52"/>non est in rebus nisi propter 
+        potentiali<lb ed="#C" n="53" break="no"/>tatem; sed potentialitas est in rebus 
+        <lb ed="#C" n="54"/>propter materiam: quia materiae per se 
+        <lb ed="#C" n="55"/>&amp; primo competit potentialitas. 
+        Intel<lb ed="#C" n="56" break="no"/>ligentiae vero sunt entes praeter 
+        om<lb ed="#C" n="57" break="no"/>nem materiam: non ergo in eis potest 
+        es<lb ed="#C" n="58" break="no"/>se malum, neque ertor: sed non 
+        indi<lb ed="#C" n="59" break="no"/>gent dirigi nec destinari, nisi qui a 
+        fi<lb ed="#C" n="60" break="no"/>ne deviare possunt; sed deviatio a fine 
+        <lb ed="#C" n="61"/>est quoddam malum, &amp; quidam errors 
+        <lb ed="#C" n="62"/>substantiae separatae, in quibus secundum 
+        <lb ed="#C" n="63"/>Philosophum non est malum, neque error, non 
+        <lb ed="#C" n="64"/>praedestinantur.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e281">
+        Praeterea: secundum 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e284">
+                  <lb ed="#C" n="65"/>Philosophum in 2. de Anima, Sensus non decipitur 
+        cir<lb ed="#C" n="66" break="no"/>ca proprium sensibile: sicut sensus sine 
+        dif<lb ed="#C" n="67" break="no"/>cursu cognoscit obiectum suum: ita suo 
+        <lb ed="#C" n="68"/>modo intelligentia simplici intuitu 
+        in<lb ed="#C" n="69" break="no"/>tuetur quidditatem, ergo non accidit ei 
+        <lb ed="#C" n="70"/>ertor per se, nec per accidens: quia non 
+        <lb ed="#C" n="71"/>est virtus in materia: igitur nullo modo 
+        <lb ed="#C" n="72"/>indiget dirigi: cum nullo modo 
+        pos<lb ed="#C" n="73" break="no"/>sit, errare: non ergo Angelorum est 
+        prae<lb ed="#C" n="74" break="no"/>destinatio 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e308">
+                  <lb ed="#C" n="75"/>In contrarium est: quia qui habent  
+        <lb ed="#C" n="76"/>finem supra naturam suam, cum de se 
+        <lb ed="#C" n="77"/>non possint tendere in illum, indigent 
+        <lb ed="#C" n="78"/>dirigi, &amp; destinari, ut illum possint 
+        adi<lb ed="#C" n="79" break="no"/>pisci; sed finis Angelorum est visio Dei, 
+        <lb ed="#C" n="80"/>sive fruitio eius: cum huiusmodi finis sit 
+        <lb ed="#C" n="81"/>supra natura eorum, de necessitate 
+        indi<lb ed="#C" n="82" break="no"/>gent dirigi &amp; destinari. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e329">
+                  <lb ed="#C" n="83"/>Vlterius quaeritur: utrum Christo 
+        <lb ed="#C" n="84"/>conveniat praedestinatum esse? Et vide 
+        <lb ed="#C" n="85"/>tur, quod non: quia praedestinatio aeter 
+        <lb ed="#C" n="86"/>nitate praecedit praedestinatum, sed 
+        Per<lb ed="#C" n="87" break="no"/>sona Christi est aeterna, ergo ei non 
+        con<lb ed="#C" n="88" break="no"/>petit praedestinari. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e345">
+                  <lb ed="#C" n="89"/>In contrarium est: quia specialiter 
+        <lb ed="#C" n="90"/>deChristo dicitur ad Romanos 1. quod 
+        <lb ed="#C" n="91"/>Praedestinatus est Filius Dei. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e354">
+                  <lb ed="#C" n="92"/>Viterius quaeritur: utrum beatis 
+        <lb ed="#C" n="93"/>qui sunt in gioria, conveniat praedesti 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e361">
+                  <lb ed="#C" n="94"/>nari? Et videtur, quod non: quia quod 
+        <lb ed="#C" n="95"/>est in fine ultimo, ulterius non 
+        indi<lb ed="#C" n="96" break="no"/>get dirigi; sed beati habent finem 
+        <lb ed="#C" n="97"/>ultimum, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e372">
+                  <lb ed="#C" n="98"/>In contrarium est: quia omnibus 
+        <lb ed="#C" n="99"/>praedestinatis convenit praedestinari; sed  
+        <lb ed="#C" n="100"/>beati sunt praedestinati: cum soli 
+        praede<lb ed="#C" n="101" break="no"/>stinati salventur, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e383">
+                  <lb ed="#C" n="102"/>Vlterius quaeritur: dato quod 
+        homi<lb ed="#C" n="103" break="no"/>nes praedestinentur, &amp; Angeli: utrum 
+        <lb ed="#C" n="104"/>omnes homines, &amp; omnes Ange 
+        <!--786.xml-->
+        <pb ed="#C" n="761"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>debeant dici praedestinati?
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e402">
+        Et videtur  
+        <lb ed="#C" n="2"/>quod sic: quia omne bonum nostrum 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e407">
+                  <lb ed="#C" n="3"/>Deo est: nam sicut bonum gratiae, vel 
+        <lb ed="#C" n="4"/>bonum gloriae, est in nobis a Deo, ita 
+        <lb ed="#C" n="5"/>&amp; bonum naturae; sed ex eo, quod 
+        adi<lb ed="#C" n="6" break="no"/>piscimur bona gloriae, dicimur praede 
+        <lb ed="#C" n="7"/>stinati, ergo pari ratione ex eo, quod 
+        a<lb ed="#C" n="8" break="no"/>dipiscimur bona naturae, praedestinati 
+        <lb ed="#C" n="9"/>dici debemus; sed talia bona conveniunt 
+        <lb ed="#C" n="10"/>omnibus, igitur omnes praedestinantur,  
+        <lb ed="#C" n="11"/>tam boni, quam mali. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e429">
+                  <lb ed="#C" n="12"/>In contrarium est: quia 
+        praedesti<lb ed="#C" n="13" break="no"/>natio est propositum miserendi: sed  
+        <lb ed="#C" n="14"/>Deus non omnibus miscretur, ergo non 
+        <lb ed="#C" n="15"/>omnes praedestinat. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e440">
+                  <lb ed="#C" n="16"/>RESOLVTIO. 
+        <lb ed="#C" n="17"/>Praedestinatio secundum quod prioritatem 
+        im<lb ed="#C" n="18" break="no"/>portat potest esse non entium: secundum quod 
+        <lb ed="#C" n="19"/>distinctionem solum rationalium est: non 
+        <lb ed="#C" n="20"/>tamen omnium secundum quod  
+        <lb ed="#C" n="21"/>dicit electionem &amp; miserendi 
+        <lb ed="#C" n="22"/>propositum. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e458">
+                  <lb ed="#C" n="23"/>REspond. dicendum, quod in prae¬ 
+        <lb ed="#C" n="24"/>destinatione tria est considerare 
+        <lb ed="#C" n="25"/>primo prioritatem, quae ex ipsa 
+        praepo<lb ed="#C" n="26" break="no"/>sitione, prae, habetur. Nam, prae, ibi 
+        prio<lb ed="#C" n="27" break="no"/>ritatem importat. Secundo 
+        directio<lb ed="#C" n="28" break="no"/>nem: quia destinare idem est, quod 
+        <lb ed="#C" n="29"/>mittere, vel dirigere. Tertio Divinam 
+        <lb ed="#C" n="30"/>electionem, vel Divinum propositum: 
+        <lb ed="#C" n="31"/>quia non praedestinantur nisi electi, &amp; 
+        <lb ed="#C" n="32"/>illi, quibus Deus proposuit misereri. Ex 
+        <lb ed="#C" n="33"/>eo quod praedestinatio prioritatem 
+        im<lb ed="#C" n="34" break="no"/>portat, potest esse non entium. Ex e o 
+        <lb ed="#C" n="35"/>autem quod directionem dicit, est 
+        so<lb ed="#C" n="36" break="no"/>lum rationalium. Quia vero non est 
+        <lb ed="#C" n="37"/>sine Divina electione, &amp; est ipsum 
+        Di<lb ed="#C" n="38" break="no"/>vinum propositum miferendi, vel sine 
+        <lb ed="#C" n="39"/>tali proponto esse non potest, non est 
+        <lb ed="#C" n="40"/>omnium rationalium; sed est solum 
+        eo<lb ed="#C" n="41" break="no"/>rum, quibus Deus proposuit misereri: 
+        <lb ed="#C" n="42"/>igitur praedestinatio ratione prioritatis, 
+        <lb ed="#C" n="43"/>non entium esse potest. Sic enim 
+        ima<lb ed="#C" n="44" break="no"/>ginari debemus, quod Deus ab aeterno 
+        <lb ed="#C" n="45"/>in se ipso nos elegit, &amp; direxit in vitam 
+        <lb ed="#C" n="46"/>aeternam secundum propositum 
+        volun<lb ed="#C" n="47" break="no"/>tatis suae. Nam omne agens per 
+        intelle<lb ed="#C" n="48" break="no"/>ctum habet in se rationem ordinis 
+        om<lb ed="#C" n="49" break="no"/>nium eorum, quae debet agere. Non 
+        <lb ed="#C" n="50"/>dum igitur eramus, quando nos Deus 
+        <lb ed="#C" n="51"/>praedestinavit. Vnde <name xml:id="Gi9qrR-f98202-Nd1e523" ref="#Augustine">Aug.</name> in de 
+        Praede<lb ed="#C" n="52" break="no"/>estinatione isanctorum ait: bonum, 
+        <lb ed="#C" n="53"/>quod praescit Deus, praedestinat, &amp; prius 
+        <!--786.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>quam sit in re, praeordinat: semper ergo 
+        <lb ed="#C" n="55"/>in praedestinatione est ibi aliqua 
+        priori<lb ed="#C" n="56" break="no"/>as, ratione cuius potest esse non 
+        <lb ed="#C" n="57"/>entium. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e544">
+                  <lb ed="#C" n="58"/>Habito quod praedestinatio 
+        ratio<lb ed="#C" n="59" break="no"/>ne prioritatis possit esse non entium. Rer 
+        <lb ed="#C" n="60"/>stat videre, quomodo ratione, qua dicit 
+        <lb ed="#C" n="61"/>directionem, sit solum rationalium. Ideo 
+        <lb ed="#C" n="62"/>notandum, quod directio proprie non 
+        <lb ed="#C" n="63"/>est nisi eorum, quae in se considerata 
+        <lb ed="#C" n="64"/>non sufficiunt, ut attingant terminum, 
+        <lb ed="#C" n="65"/>nam si sagitta posset signum attingere absque: 
+        <lb ed="#C" n="66"/>eo, quod dirigeretur per manum 
+        sagittan<lb ed="#C" n="67" break="no"/>tis, ipsa per seipsam ad signum 
+        accede<lb ed="#C" n="68" break="no"/>ret, etiamsi non destinaretur ab 
+        arcu<lb ed="#C" n="69" break="no"/>&amp; si servus modo debito posset 
+        accede<lb ed="#C" n="70" break="no"/>re ad aliquem terminum absque eo, 
+        <lb ed="#C" n="71"/>quod sibi aliqua auctoritas 
+        committe<lb ed="#C" n="72" break="no"/>retur a domino, vel absque eo, quod  
+        <lb ed="#C" n="73"/>dominus suum propositum ei 
+        patefa<lb ed="#C" n="74" break="no"/>ceret, non indigeret destinari ab ipsa, 
+        <lb ed="#C" n="75"/>sed a se ipso &amp; per se ipsum accederet 
+        <lb ed="#C" n="76"/>ad debitum locum, ergo illa proprie dicum 
+        <lb ed="#C" n="77"/>tur in finem dirigi, quae finem supra 
+        na<lb ed="#C" n="78" break="no"/>turam habent, quem ex puris 
+        naturali<lb ed="#C" n="79" break="no"/>pus, non addita gratia, non possunt 
+        at<lb ed="#C" n="80" break="no"/>tingere: &amp; quia huiusmodi finem solum 
+        <lb ed="#C" n="81"/>creaturae rationali tribuimus, 
+        accipien<lb ed="#C" n="82" break="no"/>do rationale pro omni habente 
+        intelle<lb ed="#C" n="83" break="no"/>ctum, secundum quem modum &amp; 
+        An<lb ed="#C" n="84" break="no"/>geli inter rationalia computantur: nam 
+        <lb ed="#C" n="85"/>solum talia sunt illa, quae possunt esse 
+        <lb ed="#C" n="86"/>beata, &amp; quae habent pro fine visionem 
+        <lb ed="#C" n="87"/>Divinam, vel fruitionem aeternam, quam 
+        <lb ed="#C" n="88"/>sine auxilio gratiae non possunt 
+        conse<lb ed="#C" n="89" break="no"/>lul: ideo solum talia proprie destinari 
+        <lb ed="#C" n="90"/>dicuntur. Nam sicut gratia proprie 
+        <lb ed="#C" n="91"/>sumpta dicitur aliquid superadditum 
+        <lb ed="#C" n="92"/>naturae supra se ipsam naturam elevans, 
+        <lb ed="#C" n="93"/>Large tamen sumpta quidquid gratis, 
+        <lb ed="#C" n="94"/>datur, gratia dicitur: unde &amp; ipsa natura 
+        <lb ed="#C" n="95"/>quaedam gratia dici potest: &amp; quidquid  
+        <lb ed="#C" n="96"/>habemus gratia est: quia nihil habemus, 
+        <lb ed="#C" n="97"/>quod a Deo gratis non accepimus: sic 
+        <lb ed="#C" n="98"/>&amp; destinari proprie dicit directionem 
+        <lb ed="#C" n="99"/>alicuius in aliquid, in quod secundum 
+        <lb ed="#C" n="100"/>e ipsum non potest tendere, sed 
+        indi<lb ed="#C" n="101" break="no"/>vet gratia elevante ipsum, ut tendat in 
+        <lb ed="#C" n="102"/>llud. Large tamen sumpta 
+        destinatio<lb ed="#C" n="103" break="no"/>ne, quidquid dirigitur in aliquem fine, 
+        <lb ed="#C" n="104"/>destinari dicitur. Accipiendo ergo 
+        <lb ed="#C" n="105"/>proprie praedestinationem, solum 
+        <lb ed="#C" n="106"/>rationalia, vel habentia intellectum 
+        <lb ed="#C" n="107"/>praedestinantur: cum solum ipsa finem 
+        <lb ed="#C" n="108"/>habeant, quem ex puris naturalibus non 
+        <lb ed="#C" n="109"/>possunt consequi: nam sicut solum talia 
+        <!--787.xml-->
+        <pb ed="#C" n="762"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>proprie gratiam habent, &amp; solum ipsa 
+        <lb ed="#C" n="2"/>possunt gloria adipisci: sic solumeis 
+        pro<lb ed="#C" n="3" break="no"/>prie praedestinari covenit, cum 
+        praedesti<lb ed="#C" n="4" break="no"/>natio sit praeparatio gratiae in praeseti, &amp; 
+        <lb ed="#C" n="5"/>gloriae in futuro. Indigent enim 
+        ratio<lb ed="#C" n="6" break="no"/>naliam, &amp; intellectum habentia, ut finem 
+        <lb ed="#C" n="7"/>suum attingant, praeveniri gratia, &amp; 
+        <lb ed="#C" n="8"/>voluntate Divinae: unde in de 
+        Praedesti<lb ed="#C" n="9" break="no"/>natione sanctorum ait <name xml:id="Gi9qrR-f98202-Nd1e684" ref="#Augustine">Aug.</name> Deus 
+        iusti<lb ed="#C" n="10" break="no"/>icat impium non praeventus humana 
+        <lb ed="#C" n="11"/>coluntate; sed ipse misericordia sua 
+        prae<lb ed="#C" n="12" break="no"/>veniens homintis voluntatem. Quod  
+        <lb ed="#C" n="13"/>autem praedestinatio non sit omnium 
+        <lb ed="#C" n="14"/>rationalium ex eo, quod Divinam 
+        ele<lb ed="#C" n="15" break="no"/>ctionem praesupponit, per se manifestum 
+        <lb ed="#C" n="16"/>est: nam semper per electionem alterum 
+        <lb ed="#C" n="17"/>altero praceoptatur. Vnde Deus aliquos 
+        <lb ed="#C" n="18"/>eligit, &amp; aliquos reprobat: unde <name xml:id="Gi9qrR-f98202-Nd1e707" ref="#Augustine">Aug.</name> in 
+        <lb ed="#C" n="19"/>de Praedestinatione sanctorum: de 
+        damna<lb ed="#C" n="20" break="no"/>bili massa humani generis Deus 
+        praesci<lb ed="#C" n="21" break="no"/>vit misericordia, no meritis, quos 
+        elec<lb ed="#C" n="22" break="no"/>tione gratiae praedestinavit ad vitam, cete 
+        <lb ed="#C" n="23"/>ros vero, qui iudicio iustitiae eius ab hac 
+        <lb ed="#C" n="24"/>gratia efficiuntur expertes, praescivit 
+        vi<lb ed="#C" n="25" break="no"/>tio perituros: &amp; sicut de ipsis hominibus 
+        <lb ed="#C" n="26"/>aliquos elegit, aliquos reprobavit: 
+        <lb ed="#C" n="27"/>sic &amp; de ipsis Angelis dicere 
+        possu<lb ed="#C" n="28" break="no"/>mus, aliquos fuisse electos, aliquos 
+        re<lb ed="#C" n="29" break="no"/>probatos. Patet ergo quorum est 
+        prae<lb ed="#C" n="30" break="no"/>destinatio, &amp; quia non entium esse 
+        <lb ed="#C" n="31"/>potest. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e740">
+                  <lb ed="#C" n="32"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="33"/>quod sicut praedestinati diriguntur, sic 
+        <lb ed="#C" n="34"/>sunt: unde quia non diriguntur in actu 
+        <lb ed="#C" n="35"/>sed secundum Divinum propositum, &amp; 
+        secun<lb ed="#C" n="36" break="no"/>dum Divinam praeordinationem, non 
+        opor<lb ed="#C" n="37" break="no"/>et esse actu, sed sufficit, quod Deus 
+        <lb ed="#C" n="38"/>praeordinaverit eos: &amp; ideo quae non 
+        <lb ed="#C" n="39"/>funt, nec erunt, non praedestinantur:  
+        <lb ed="#C" n="40"/>quae tamen non sunt, se d erunt, 
+        prae<lb ed="#C" n="41" break="no"/>destinari ipossunt, quia non oportet 
+        <lb ed="#C" n="42"/>praedestinatos esse in natura propria; sed  
+        <lb ed="#C" n="43"/>sufficit eos secundum praedestinantis 
+        ordi<lb ed="#C" n="44" break="no"/>nem existere.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e771">
+        Ad 2. dicendum, quod 
+        <lb ed="#C" n="45"/>gloriam, in quam diriguntur praedestinati, 
+        <lb ed="#C" n="46"/>non est necesse eos habere actualiter, sed  
+        <lb ed="#C" n="47"/>secundum Divinum propositum: sic etiam non 
+        <lb ed="#C" n="48"/>oportet, eos esse actualiter, sed sufficit,  
+        <lb ed="#C" n="49"/>quod Deus proposuerit, vel 
+        praeordina<lb ed="#C" n="50" break="no"/>verit ipsos existere. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e787">
+                  <lb ed="#C" n="51"/>Ad id autem, quod ulterius 
+        quaeri<lb ed="#C" n="52" break="no"/>tur: utrum praedestinatio possit esse 
+        ho<lb ed="#C" n="53" break="no"/>minum? Patet quod sic: cum homines 
+        or<lb ed="#C" n="54" break="no"/>dinentur in finem supra naturam suam: 
+        <lb ed="#C" n="55"/>ffecesse ergo habent dirigi, &amp; praede 
+        <lb ed="#C" n="56"/>stinari, cum illum per se ipsos non 
+        pos<lb ed="#C" n="57" break="no"/>sint, consequi¬  
+        <!--787.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>Ad 1. dicendum, quod licet 
+        homo<lb ed="#C" n="59" break="no"/>habeat lumen rationis, per quod potest 
+        <lb ed="#C" n="60"/>dirigi in finem aliquem non excedentem 
+        <lb ed="#C" n="61"/>naturam suam, in beatitudihem aeternam 
+        <lb ed="#C" n="62"/>tamem absque auxilio gratiae, &amp; nisi 
+        prae<lb ed="#C" n="63" break="no"/>destinetur &amp; dirigatur a Domino, non 
+        <lb ed="#C" n="64"/>potest tendere.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e824">
+        Ad 2. dicendum, quod  
+        <lb ed="#C" n="65"/>finis, quem consequitur homo, multo 
+        <lb ed="#C" n="66"/>est excellentior fine, quem 
+        consequun<lb ed="#C" n="67" break="no"/>tur bruta: unde licet talem finem non 
+        <lb ed="#C" n="68"/>possit consequi sine adminiculo gratiae; 
+        <lb ed="#C" n="69"/>non propter hoc est peioris 
+        conditio<lb ed="#C" n="70" break="no"/>nis, quam bruta: immo melioris, cum 
+        <lb ed="#C" n="71"/>prdinetur ad meliorem finem. Nam 
+        <lb ed="#C" n="72"/>Philosophus in libro Caeli &amp; Mundi vult, quod  
+        <lb ed="#C" n="73"/>quanto aliquid pancioribus operatione 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e846">
+                  <lb ed="#C" n="74"/>pus consequitur fine, tanto est nobilius 
+        <lb ed="#C" n="75"/>verum est (ut ait si fines sunt equales; sed si 
+        <lb ed="#C" n="76"/>fines esset inaequales, posset aliquid esse 
+        <lb ed="#C" n="77"/>nobilius; &amp; tame consequi finem suu 
+        pluri<lb ed="#C" n="78" break="no"/>bus adminiculis: &amp; sic est in proposito. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e859">
+                  <lb ed="#C" n="79"/>Ad id autem, quod ulterius quaeri 
+        <lb ed="#C" n="80"/>tur: utrum Angelis competat praedesti 
+        <lb ed="#C" n="81"/>nari? Patet quod sic: nam licet Angeli 
+        <lb ed="#C" n="82"/>praedestinati, nunquam fuerunt mali 
+        <lb ed="#C" n="83"/>nec miseri: eo tamen ipso, quod habent  
+        <lb ed="#C" n="84"/>mnem supra naturam, in quem sine au 
+        <lb ed="#C" n="85"/>cilio gratiae non possunt temdere, 
+        praede<lb ed="#C" n="86" break="no"/>tinari dicuntur.  
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e880">
+                  <lb ed="#C" n="87"/>Ad 1. dicendum, quod licet in An 
+        <lb ed="#C" n="88"/>gelis non sit materia; est tamen ibi 
+        ali<lb ed="#C" n="89" break="no"/>quod materiale, vel aliqua 
+        potentiali<lb ed="#C" n="90" break="no"/>tas, ratione cuius potest in eis esse 
+        ma<lb ed="#C" n="91" break="no"/>lu, &amp; peccare possunt: quia Deus Ii 
+        An<lb ed="#C" n="92" break="no"/>telis suis reperit pravitatem. Vel dicere 
+        pos<lb ed="#C" n="93" break="no"/>lumus, quod dato, quod Angeli 
+        pecca<lb ed="#C" n="94" break="no"/>re non possent, non haberetur intentum: 
+        <lb ed="#C" n="95"/>quia ad consecutionem finis, respectu 
+        <lb ed="#C" n="96"/>cuius praedestinatio accipitur, non 
+        suffi<lb ed="#C" n="97" break="no"/>cit esse sine peccato; sed ulterius 
+        requiri<lb ed="#C" n="98" break="no"/>tur adminiculum gratiae.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e909">
+        Ad 2. 
+        dicen<lb ed="#C" n="99" break="no"/>dum, quod bene argnitur, quod 
+        Ange<lb ed="#C" n="100" break="no"/>us non potest peccare, quod peccatum 
+        <lb ed="#C" n="101"/>suum careat specie, &amp; quod non 
+        appe<lb ed="#C" n="102" break="no"/>tat per se bonum; non tamen probatur,  
+        <lb ed="#C" n="103"/>quin possit peccare propter carentiam, 
+        <lb ed="#C" n="104"/>ordinis. Potest enim, appetendo per se 
+        <lb ed="#C" n="105"/>bonum, peccare: eo quod illud non 
+        or<lb ed="#C" n="106" break="no"/>dinate appetat. Vel dicendum, sicut 
+        <lb ed="#C" n="107"/>prius, quia dato, quod non posset peccare 
+        <lb ed="#C" n="108"/>Angelus, adhuc indigeret dirigi &amp; desti 
+        <lb ed="#C" n="109"/>nari, ut posset consequifinem suum, qui  
+        <lb ed="#C" n="110"/>est supra naturam, ad cuius 
+        conse<lb ed="#C" n="111" break="no"/>cutionem non sufficit esse sine 
+        pec<lb ed="#C" n="112" break="no"/>cato; sed requiritur adminiculum gratiae. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e942">
+                  <lb ed="#C" n="113"/>Ad id vero, quod ulterius quaeritur: 
+        <!--788.xml-->
+        <pb ed="#C" n="763"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>utrum Christo competat praedestinari: 
+        <lb ed="#C" n="2"/>Dicendum, quod tota causa, quare 
+        du<lb ed="#C" n="3" break="no"/>bitamus Christum predestinatum tuisse, est 
+        <lb ed="#C" n="4"/>quia in praedestinatione requititur 
+        prio<lb ed="#C" n="5" break="no"/>ritas. Cum igitur Persona illa sit aeterna 
+        <lb ed="#C" n="6"/>non videtur, quod ibi prioritatem 
+        sal<lb ed="#C" n="7" break="no"/>vare possimus. Ideo notandum, quod 
+        <lb ed="#C" n="8"/>prioritas in praedestinatione 
+        multiplici<lb ed="#C" n="9" break="no"/>ter accipitur. Aliquando autem est 
+        <lb ed="#C" n="10"/>huiusmodi prioritas aeternitatis ad 
+        per<lb ed="#C" n="11" break="no"/>sonam, &amp; naturam; &amp; personae &amp; 
+        natu<lb ed="#C" n="12" break="no"/>rae ad gratiam, &amp; ulterius gratiae ad 
+        glo<lb ed="#C" n="13" break="no"/>riam: &amp; sic competit praedestinari 
+        ho<lb ed="#C" n="14" break="no"/>minibus. Aliquando est prioritas 
+        aeterni<lb ed="#C" n="15" break="no"/>tatis ad personam &amp; naturam; sed non 
+        <lb ed="#C" n="16"/>persone &amp; naturae ad gratiam: sed 
+        ta<lb ed="#C" n="17" break="no"/>men est ibi prioritas gratiae ad gloriam: 
+        <lb ed="#C" n="18"/>&amp; sic competit praedestinari Angelis 
+        <lb ed="#C" n="19"/>secudum eos, qui dicunt eos in gratia fuisse 
+        <lb ed="#C" n="20"/>creatos: sed secudum eos, qui dicunt eos 
+        fu<lb ed="#C" n="21" break="no"/>isse creatos in innocentia, non in gratia: 
+        <lb ed="#C" n="22"/>tunc prioritas in praedestinatione 
+        Ange<lb ed="#C" n="23" break="no"/>lorum accipitur secundum illos 
+        mo<lb ed="#C" n="24" break="no"/>dos, quos enum: ravimus in 
+        praedestina<lb ed="#C" n="25" break="no"/>tione hominum. Differt tamen 
+        secun<lb ed="#C" n="26" break="no"/>dum istam viam predestinatio hominum 
+        <lb ed="#C" n="27"/>a praedestinatione Angelorum: quia 
+        ali<lb ed="#C" n="28" break="no"/>qui homines praedestinati sunt, qui  
+        <lb ed="#C" n="29"/>aliquando fuerunt miseri. Nullus tamen 
+        <lb ed="#C" n="30"/>Angelus praedestinatus aliquando miser 
+        <lb ed="#C" n="31"/>fuit. Si vero in praedestinatione non 
+        <lb ed="#C" n="32"/>sit prioritas aeternitatis, ad personam, 
+        <lb ed="#C" n="33"/>sed aeternitatis ad naturam aliquam 
+        <lb ed="#C" n="34"/>sed non naturae ad gratiam, nec gratiae 
+        <lb ed="#C" n="35"/>ad gloriam: sic competit praedestinari 
+        <lb ed="#C" n="36"/>Christo: nam licet Persona illa fuerit 
+        <lb ed="#C" n="37"/>aeterna, natura tamen humana eius non 
+        <lb ed="#C" n="38"/>fuit aeterna: unde fuit ibi prioritas 
+        aeter<lb ed="#C" n="39" break="no"/>nitatis ad naturam humanam, licet non 
+        <lb ed="#C" n="40"/>fuisset ibi prioritas aeternitatis ad 
+        Per<lb ed="#C" n="41" break="no"/>sonam, vel ad Divinam naturam: nec etiam fui 
+        <lb ed="#C" n="42"/>ibi prioritas aeternitatis ad Personam,l aiquid 
+        hu<lb ed="#C" n="43" break="no"/>ad naturam Divinam: nec etiam ibi fuit 
+        <lb ed="#C" n="44"/>prioritas naturae humanae ad gratiam &amp; 
+        <lb ed="#C" n="45"/>gloriam: quia in instanti suae 
+        concep<lb ed="#C" n="46" break="no"/>tionis fuit plenus gratia &amp; perfecte 
+        <lb ed="#C" n="47"/>fruens: unde natura in eo non 
+        praeces<lb ed="#C" n="48" break="no"/>sit gratiam, nec gratia gloriam, 
+        loque<lb ed="#C" n="49" break="no"/>do de gloria, quae est praemium 
+        essen<lb ed="#C" n="50" break="no"/>tiale &amp; visio Divina. Sed si nos 
+        velle<lb ed="#C" n="51" break="no"/>mus, quod gloria staret pro 
+        impassibili<lb ed="#C" n="52" break="no"/>tate animae, &amp; dotibus corporis, quae 
+        <lb ed="#C" n="53"/>etiam aliquo modo ad gloriam 
+        perti<lb ed="#C" n="54" break="no"/>nent: tunc tam natura, quam gratia 
+        <lb ed="#C" n="55"/>gloriam praecesserunt. Et ex hoc patet 
+        so<lb ed="#C" n="56" break="no"/>lutio ad obiectum. 
+        <!--788.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>Ad illud autem, quod ulterium 
+        <lb ed="#C" n="58"/>quaeritur: utrum beati sint 
+        praedestina<lb ed="#C" n="59" break="no"/>ti? Dicendum, quod praedestinatio dici 
+        <lb ed="#C" n="60"/>quamdam directionem in finem. Illi au 
+        <lb ed="#C" n="61"/>tem, qui in finem diriguntur, duplici 
+        <lb ed="#C" n="62"/>ter considerari possunt: vel secundum 
+        <lb ed="#C" n="63"/>quod finis est in acquiri; &amp; si sunt 
+        praede<lb ed="#C" n="64" break="no"/>stinati viatores: vel prout est in 
+        acquisi<lb ed="#C" n="65" break="no"/>to esse, &amp; sic sunt praedestinati 
+        com<lb ed="#C" n="66" break="no"/>prehensores. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1101">
+                  <lb ed="#C" n="67"/>Argumenta procedebant suis vijs. 
+        <lb ed="#C" n="68"/>Ad id autem, quod ulterius quaeritur  
+        <lb ed="#C" n="69"/>utrum omnes homines, vel omnes 
+        An<lb ed="#C" n="70" break="no"/>geli sint praedestinatis Patet, quod non 
+        <lb ed="#C" n="71"/>nam praedestinari proprie est respectu 
+        <lb ed="#C" n="72"/>finis, quem sine auxilio gratiae non 
+        pos<lb ed="#C" n="73" break="no"/>sumus consequi: &amp; ideo, ut patet per 
+        <lb ed="#C" n="74"/>habita, non est proprie praedestinatio 
+        <lb ed="#C" n="75"/>respectu boni naturae; sed respectu 
+        bo<lb ed="#C" n="76" break="no"/>ni gloriae, quam omnes homines non 
+        <lb ed="#C" n="77"/>consequentur: &amp; ideo non omnes 
+        ho<lb ed="#C" n="78" break="no"/>mines praedestinati sunt,  
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1130">
+                  <lb ed="#C" n="79"/>Ad rationem autem in contrarium 
+        <lb ed="#C" n="80"/>patet solutio per iam dicta. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f98202-Dd1e1138">
+               <head xml:id="Gi9qrR-f98202-Hd1e1140">Articulus 2</head>
+               <p xml:id="Gi9qrR-f98202-d1e1143">
+                  <lb ed="#C" n="81"/>ARTICVLVS II. 
+        <lb ed="#C" n="82"/>Vtrum praedestinatio habeat certitudinem, 
+        <lb ed="#C" n="83"/>idest, utrum certitudinaliter salvetur praedesti¬ 
+        <lb ed="#C" n="84"/>natus: quia palam, quod secundum se 
+        <lb ed="#C" n="85"/>certa est, ut est idem quod  
+        <lb ed="#C" n="86"/>Deus. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1159">
+                  <lb ed="#C" n="87"/>SEcundo quaeritur: utrum praedesti¬ 
+        <lb ed="#C" n="88"/>natio habeat certitudinem? Et 
+        vide<lb ed="#C" n="89" break="no"/>tur, quod non: quia quodlibet co 
+        rrup<lb ed="#C" n="90" break="no"/>tibile saltem violenter in quolibet 
+        tem<lb ed="#C" n="91" break="no"/>pore potest corrumpi; sed multi 
+        praede<lb ed="#C" n="92" break="no"/>stinati stant in peccato mortali per 
+        <lb ed="#C" n="93"/>plures annos, in illo tempore possent 
+        <lb ed="#C" n="94"/>cortumpi, ergo eorum predestinatio 
+        <lb ed="#C" n="95"/>posset impediri.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1181">
+        Praeterea: si non potest 
+        <lb ed="#C" n="96"/>impediri salus praedestinatorum, ergo 
+        <lb ed="#C" n="97"/>est necessaria; sed ad ea, quae de 
+        necessi<lb ed="#C" n="98" break="no"/>tate consequimur, non oportet nos 
+        so<lb ed="#C" n="99" break="no"/>licitos esse, ergo absque operibus nostris, 
+        <lb ed="#C" n="100"/>&amp; absque nostra solicitudine poterimus 
+        <lb ed="#C" n="101"/>salutem consequi, quod falsum est. 
+        <lb ed="#C" n="102"/>Praeterea: aliqui delentur de libro vitaes 
+        <!--789.xml-->
+        <pb ed="#C" n="764"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>sed in libro vite non scribuntur nisi illi, 
+        <lb ed="#C" n="2"/>qui ordinantur: ad gloriam, sed qui  
+        <lb ed="#C" n="3"/>ordinantur ad gloriam sunt 
+        praede<lb ed="#C" n="4" break="no"/>stinati, ergo aliqui praedestinati non 
+        sal<lb ed="#C" n="5" break="no"/>vabuntur.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1216">
+        Praeterea: quae dependent 
+        ex<lb ed="#C" n="6" break="no"/>causa contingente, non sunt certa, nec 
+        <lb ed="#C" n="7"/>ad alteram partem determinata; sed sa 
+        <lb ed="#C" n="8"/>lus nostra est aliquo modo ex operibus 
+        <lb ed="#C" n="9"/>nostris: cum ergo non de necessitate 
+        <lb ed="#C" n="10"/>operemur, quilibet potest salvari; &amp; non 
+        <lb ed="#C" n="11"/>salvari; non ergo praedestinatio 
+        certitu<lb ed="#C" n="12" break="no"/>dinem habet
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1235">
+                  <lb ed="#C" n="13"/>In contrarium est: quia Divinum 
+        <lb ed="#C" n="14"/>propositum impediri non potest; sed prae 
+        <lb ed="#C" n="15"/>destinatio importat Divinum 
+        proposi<lb ed="#C" n="16" break="no"/>tum: non ergo poterit impediri? 
+        Praete<lb ed="#C" n="17" break="no"/>rea: Anselmus in de Concordia 
+        praede<lb ed="#C" n="18" break="no"/>stinationis &amp; gratiae dicit, praescita, &amp; 
+        <lb ed="#C" n="19"/>praedestinata de necessitate futura esse: 
+        <lb ed="#C" n="20"/>sed quae necessario eveniunt, 
+        certitudi<lb ed="#C" n="21" break="no"/>nem habent, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1257">
+                  <lb ed="#C" n="22"/>RESOLVTIO. 
+        <lb ed="#C" n="23"/>Praedestinationis, certitudo, cum qua 
+        huma<lb ed="#C" n="24" break="no"/>ni ar bitrij libertas consiliatur, ex praescientia, 
+        <lb ed="#C" n="25"/>quam supponit, ex ordine causarum, per 
+        <lb ed="#C" n="26"/>quas exequitur, &amp; ex numero prae¬ 
+        <lb ed="#C" n="27"/>destinatorum Divinae maiestati 
+        <lb ed="#C" n="28"/>noto, stabilitur.  
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1275">
+                  <lb ed="#C" n="29"/>REspond. dicendum, quod sic 
+        debe<lb ed="#C" n="30" break="no"/>mus salvare certitudinem praedesti 
+        <lb ed="#C" n="31"/>nati onis Divinae, quod tamen libertati 
+        <lb ed="#C" n="32"/>arb itrij non derogetur: &amp; sic debemus 
+        <lb ed="#C" n="33"/>poere libertatem arbitrij, quod 
+        prae<lb ed="#C" n="34" break="no"/>dertinatio Divina impediri non possit. 
+        <lb ed="#C" n="35"/>Siaul ergo cum necessitate oportet nos 
+        <lb ed="#C" n="36"/>sal vare contingentiam, &amp; cum certitur 
+        <lb ed="#C" n="37"/>ne liberum eventum. 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1297">
+                  <lb ed="#C" n="38"/>Hoc viso, notandum, quod diceret 
+        <lb ed="#C" n="39"/>pessumus Divinam praedestinationem 
+        <lb ed="#C" n="40"/>trim pliciter certam esse. Primo ex praes 
+        <lb ed="#C" n="41"/>ci entia, quam praesupponit. Nam 
+        se<lb ed="#C" n="42" break="no"/>cundum <name xml:id="Gi9qrR-f98202-Nd1e1310" ref="#Augustine">Aug.</name> in de Praedestinatione 
+        <lb ed="#C" n="43"/>sa actorum: praedestinatio sine 
+        praescien<lb ed="#C" n="44" break="no"/>tia esse non potest. Secundo ex ordine 
+        cau<lb ed="#C" n="45" break="no"/>sa rum, secundum quem est executio eius. 
+        Ter<lb ed="#C" n="46" break="no"/>tio ex numero praedestinatorum, qui est 
+        <lb ed="#C" n="47"/>Deo notus. Primum sic ostenditur: quia eo 
+        <lb ed="#C" n="48"/>ipso enim quod Divina praescientia falli 
+        <lb ed="#C" n="49"/>non potest: &amp; quae sunt a Deo 
+        praesci<lb ed="#C" n="50" break="no"/>ta vel praevisa necesse est evenire, 
+        prae<lb ed="#C" n="51" break="no"/>destinatio, quae Divinam praescientiam 
+        <lb ed="#C" n="52"/>praesupponit, certitudinem habet: sed  
+        <lb ed="#C" n="53"/>huic certitudini libertas arbitrij non 
+        re<lb ed="#C" n="54" break="no"/>pugnat: quia Divina praescientia &amp; 
+        Di<lb ed="#C" n="55" break="no"/>vina providentia rerum iudicia non con¬ 
+        <!--789.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="56"/>fundunt. Nam Deus uno simplici 
+        <lb ed="#C" n="57"/>intuitu, tam necessatio, quam non 
+        ne<lb ed="#C" n="58" break="no"/>cessario ventura, dignoscit, ut 5. 
+        de<lb ed="#C" n="59" break="no"/>Consolatione habetur. Vnde licet  
+        <lb ed="#C" n="60"/>Deus non fallatur in praesciendo liberi 
+        <lb ed="#C" n="61"/>arbitrij motus, quae tamen a voluntate 
+        <lb ed="#C" n="62"/>procedunt, non coacte, sed libere 
+        pro<lb ed="#C" n="63" break="no"/>cedunt. Secundo predestinatio 
+        certitu<lb ed="#C" n="64" break="no"/>dinem habet ex ordine causarum. Nam 
+        <lb ed="#C" n="65"/>sicut Deus ab aeterno praevidit hunc 
+        sal<lb ed="#C" n="66" break="no"/>vandum: sic iste salvabitur: unde 
+        om<lb ed="#C" n="67" break="no"/>nes illae causae concurrunt adesalutem 
+        <lb ed="#C" n="68"/>huius, quas Deus ab aeterno concurrere 
+        <lb ed="#C" n="69"/>vidit, &amp; ibi est totus ille ordo causarum, 
+        <lb ed="#C" n="70"/>qui ab aeterno est a Deo praevisus, quae 
+        <lb ed="#C" n="71"/>ones causae simul sumptae quadam necessi 
+        <lb ed="#C" n="72"/>tate effectum inferunt: sed propter talem 
+        <lb ed="#C" n="73"/>necessitatem, vel certitudinem non 
+        tol<lb ed="#C" n="74" break="no"/>litur libertas arbitrij: cum ipsum liberum 
+        <lb ed="#C" n="75"/>arbitrium inter tales causas 
+        compute<lb ed="#C" n="76" break="no"/>tur: unde <ref xml:id="Gi9qrR-f98202-Rd1e1391">Aug. 5. de Civi. Dei cap. 9.</ref> 
+                  <lb ed="#C" n="77"/>arguens contra Ciceronem, qui cum 
+        <lb ed="#C" n="78"/>certitudine ordinis causarum dicebat  
+        <lb ed="#C" n="79"/>non posse stare liberi arbititrij libertatem: 
+        <lb ed="#C" n="80"/>propter quod dicebat, hoc posito, nihil 
+        <lb ed="#C" n="81"/>voluntarium esse, ait: Non est autem 
+        con<lb ed="#C" n="82" break="no"/>sequens, ut si Deo certus est omnium ordo. 
+        <lb ed="#C" n="83"/>causarum, ideo nihil sit in nostrae 
+        volunta<lb ed="#C" n="84" break="no"/>tatis arbitrio. Et ipsae quippe nostrae 
+        volunta<lb ed="#C" n="85" break="no"/>tes in causarum ordine sunt, qui certus 
+        <lb ed="#C" n="86"/>est Deo, eius que praescientia continetur. 
+        Ter<lb ed="#C" n="87" break="no"/>tio: praedestinatio certa existit: quia Deo 
+        <lb ed="#C" n="88"/>est notus predestinatorum numerus: &amp; 
+        <lb ed="#C" n="89"/>ideo quilibet de necessitate salvatur,  
+        <lb ed="#C" n="90"/>prout sua salus Deo existit nota. Ex 
+        <lb ed="#C" n="91"/>quo enim cuiuslibet salvandi Deus 
+        cer<lb ed="#C" n="92" break="no"/>tam cognitionem habet, &amp; numerus 
+        <lb ed="#C" n="93"/>eorum apud Deum certus &amp; notus est: 
+        <lb ed="#C" n="94"/>opportet tot salvari, quot praevidit, &amp; 
+        <lb ed="#C" n="95"/>eos, quos praevidit; sed huic necessitati 
+        <lb ed="#C" n="96"/>etiam libertas arbitrij non repugnat: 
+        <lb ed="#C" n="97"/>quia quilibet in se acceptus potest 
+        sal<lb ed="#C" n="98" break="no"/>vari; &amp; non salvari: licet relatus in 
+        Di<lb ed="#C" n="99" break="no"/>vinam praescietiam vel praedestinationem 
+        <lb ed="#C" n="100"/>de necessitate salvetur.  
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1447">
+                  <lb ed="#C" n="101"/>Quod autem simul cum 
+        certitudi<lb ed="#C" n="102" break="no"/>ne praedestinationis possit stare liberta: 
+        <lb ed="#C" n="103"/>arbitrij, non est in conveniens: quia u 
+        <lb ed="#C" n="104"/>num &amp; idem aliter &amp; aliter acceptum 
+        <lb ed="#C" n="105"/>est contingens, &amp; necessarium. Nam 
+        <lb ed="#C" n="106"/>omnia contingentia relata in causas 
+        pro<lb ed="#C" n="107" break="no"/>ximas contingentia sunt: relata vero in 
+        <lb ed="#C" n="108"/>Divinam praescientiam quamdam ne 
+        <lb ed="#C" n="109"/>cessitatem contrahunt. Sicut igitur 
+        si<lb ed="#C" n="110" break="no"/>mul cum necessitate praescientiae stat 
+        <lb ed="#C" n="111"/>contingentia: sic simul cum certitudi¬ 
+        <!--790.xml-->
+        <pb ed="#C" n="765"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ne praedestirationis stat libertas arbitrij; 
+        <lb ed="#C" n="2"/>unde <name xml:id="Gi9qrR-f98202-Nd1e1483" ref="#Boethius">Boetius</name> in 5. de Consol. ut 
+        supra<lb ed="#C" n="3" break="no"/>habitum est, ostendens Divinam 
+        praesci<lb ed="#C" n="4" break="no"/>entiam voluntati nostrae non repugnare, 
+        <lb ed="#C" n="5"/>ait: non esse inconveniens idem esse ne 
+        <lb ed="#C" n="6"/>cessarium, &amp; contingens, aliter &amp; 
+        ali<lb ed="#C" n="7" break="no"/>ter acceptum: sicut non est 
+        inconveni<lb ed="#C" n="8" break="no"/>ens idem esse particulare, &amp; 
+        universa<lb ed="#C" n="9" break="no"/>le, aliter &amp; aliter consideratum. 
+        Ansel<lb ed="#C" n="10" break="no"/>mus etiam in libro de Concordia 
+        prae<lb ed="#C" n="11" break="no"/>destinationis, &amp; gratiae, hoc idem per 
+        <lb ed="#C" n="12"/>aliud simile declarat, dicens: quod 
+        quan<lb ed="#C" n="13" break="no"/>vis necesse sit evenire quidquid Deus 
+        <lb ed="#C" n="14"/>praescit, multa tamen sunt non ex 
+        neces<lb ed="#C" n="15" break="no"/>sitate, sed ex libera voluntate: nec est 
+        in<lb ed="#C" n="16" break="no"/>conveniens idem esse ex necessitate &amp; 
+        <lb ed="#C" n="17"/>libertate, alia &amp; alia ratione: cum 
+        vi<lb ed="#C" n="18" break="no"/>deamus idem abire; &amp; non abire, aliter 
+        <lb ed="#C" n="19"/>&amp; aliter: nam Sol vadit ab occidente 
+        <lb ed="#C" n="20"/>in oriens per comparationem ad 
+        cae<lb ed="#C" n="21" break="no"/>lum: per comparationem tamen adter 
+        <lb ed="#C" n="22"/>ram econtrario vadit: pergit enim ab 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1531">
+                  <lb ed="#C" n="23"/>oriente in occidens. Praedestinatum ergo 
+        <lb ed="#C" n="24"/>salvari est necessarium; &amp; no necessarium, 
+        <lb ed="#C" n="25"/>est necessarium per coparationem ad Divina 
+        <lb ed="#C" n="26"/>predestinationem: non necessarium, si refera 
+        <lb ed="#C" n="27"/>tur ad arbitrij libertatem: ideo praescitum 
+        <lb ed="#C" n="28"/>a Deo necesse est evenire, vel 
+        praedesti<lb ed="#C" n="29" break="no"/>natum necesse est salvari. Distinguitur 
+        <lb ed="#C" n="30"/>autem necessitas ab Anselmo, <name xml:id="Gi9qrR-f98202-Nd1e1550" ref="#Boethius">Boetio</name> 
+                  <lb ed="#C" n="31"/>&amp; Magistro. Dicit enim Anselmus: in 
+        <lb ed="#C" n="32"/>libro de Concordia praedestinationis &amp; 
+        <lb ed="#C" n="33"/>gratiae: duplicem esse necessitatem, 
+        an<lb ed="#C" n="34" break="no"/>tecedentem, quae ponit rem esse, &amp; 
+        con<lb ed="#C" n="35" break="no"/>sequetem, quae nihil cogit. Omne enim 
+        <lb ed="#C" n="36"/>praescitum a Deo necesse est evenire 
+        <lb ed="#C" n="37"/>necessitate consequente, quae nihil 
+        co<lb ed="#C" n="38" break="no"/>git: ideo cum hac necessitate potest 
+        sta<lb ed="#C" n="39" break="no"/>re contingentia, &amp; libertas arbitrij: non 
+        <lb ed="#C" n="40"/>tamen est necessarium necessitate 
+        ante<lb ed="#C" n="41" break="no"/>cedente, quae de necessitate facit re 
+        esse<lb ed="#C" n="42" break="no"/>Illud enim est necessarium necessitate 
+        an<lb ed="#C" n="43" break="no"/>tecedente, quod cum est futurum, &amp; ut est 
+        fu<lb ed="#C" n="44" break="no"/>turum, necessitatem habet: unde ortus Solis 
+        <lb ed="#C" n="45"/>necessarius est necess tate antecedente, 
+        <lb ed="#C" n="46"/>Sed illud est necessarium necessitate 
+        <lb ed="#C" n="47"/>consequente, quod non est necessarium 
+        <lb ed="#C" n="48"/>nisi ex eo, quod ponitur esse. Nam 
+        om<lb ed="#C" n="49" break="no"/>ne, quod est, quando est, necesse est esse 
+        <lb ed="#C" n="50"/>&amp; ista dicitur necessitas sequens: quia 
+        <lb ed="#C" n="51"/>huiusmodi necessitas sequitur esse rei, 
+        <lb ed="#C" n="52"/>&amp; non antecedit. Ponitur enim necesse 
+        <lb ed="#C" n="53"/>esse rem esse, quia est: &amp; quia omnia 
+        re<lb ed="#C" n="54" break="no"/>lata ad Divinam cognitionem sunt 
+        e<lb ed="#C" n="55" break="no"/>praesentia, &amp; ponuntur quodammodo 
+        <lb ed="#C" n="56"/>esse, dicere si hoc est a Deo scitum, est 
+        <!--790.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>necessarium, est idem, quod si hoc est, 
+        <lb ed="#C" n="58"/>necessarium est. <name xml:id="Gi9qrR-f98202-Nd1e1618" ref="#Boethius">Boetius</name> autem 
+        distin<lb ed="#C" n="59" break="no"/>guit duplicem aliam necessitatem, 
+        scili<lb ed="#C" n="60" break="no"/>cet, necessitatem simpliciter, &amp; 
+        necessi<lb ed="#C" n="61" break="no"/>atem conditionis. Omne enim a Deo 
+        <lb ed="#C" n="62"/>scitum est necessarium non necessitate 
+        <lb ed="#C" n="63"/>simplici, sed necessitate conditionis: 
+        si<lb ed="#C" n="64" break="no"/>cur one, quod est, quando est, necesse est 
+        <lb ed="#C" n="65"/>esse. Magister autem huiusmodi 
+        propo<lb ed="#C" n="66" break="no"/>sitiones distinguit secundum sensum 
+        <lb ed="#C" n="67"/>compositum &amp; divisum. Nam 
+        praede<lb ed="#C" n="68" break="no"/>stinatum necesse est salvari, vel 
+        praesci<lb ed="#C" n="69" break="no"/>tum evenire: si intelligatur in sensu 
+        con<lb ed="#C" n="70" break="no"/>posito, vera est: quia non potest simu 
+        <lb ed="#C" n="71"/>stare quod aliquid sit praescitum, &amp; non 
+        <lb ed="#C" n="72"/>eveniat: vel quod aliquis sit praedesti 
+        <lb ed="#C" n="73"/>natus, &amp; non salvetur: quilibet tamer 
+        <lb ed="#C" n="74"/>in se consideratus potest salvari; &amp; non 
+        <lb ed="#C" n="75"/>salvari: sicut album impossibile est esse 
+        <lb ed="#C" n="76"/>nigrum in sensu composito: quia non 
+        <lb ed="#C" n="77"/>potest esse idem simul album &amp; nigrum, 
+        <lb ed="#C" n="78"/>bortes autem, qui est sub forma albi, 
+        po<lb ed="#C" n="79" break="no"/>test esse sub forma nigri. Aliqui autem 
+        <lb ed="#C" n="80"/>alium modum distinctionis invenerunt, 
+        <lb ed="#C" n="81"/>dicentes: praedestinatum necesse est sal 
+        <lb ed="#C" n="82"/>vari necessitate consequentiae, non ne 
+        <lb ed="#C" n="83"/>cessitate consequentis: nam Sortem 
+        mo<lb ed="#C" n="84" break="no"/>vere pedes non est necessarium 
+        necessi<lb ed="#C" n="85" break="no"/>tate consequentis: eo quod non 
+        sequi<lb ed="#C" n="86" break="no"/>tur motus pedum ad Sortem: potest 
+        ta<lb ed="#C" n="87" break="no"/>men esse necessarium necessitate 
+        conse<lb ed="#C" n="88" break="no"/>quentiae, ut si supponatur currere. Nam 
+        <lb ed="#C" n="89"/>haec est consequentia necessaria, quod 
+        <lb ed="#C" n="90"/>si Sortes currit, quod movet pedes, non 
+        <lb ed="#C" n="91"/>tamen possumus arguere: quod 
+        neces<lb ed="#C" n="92" break="no"/>se sit Sortem movere pedes. Sic 
+        necessi<lb ed="#C" n="93" break="no"/>tate consequentiae sequitur, Sortem 
+        sal<lb ed="#C" n="94" break="no"/>vari, si est praedestihatus: Sortes tamen 
+        <lb ed="#C" n="95"/>in se acceptus non relatus in 
+        praedesti<lb ed="#C" n="96" break="no"/>nationem Divinam, potest salvaris 
+        <lb ed="#C" n="97"/>&amp; non salvari. Cum igitur praede 
+        <lb ed="#C" n="98"/>stinatum sa lvari sit necessarium non 
+        <lb ed="#C" n="99"/>necessitate cogente, nec necessitate 
+        <lb ed="#C" n="100"/>simpliciter, &amp; in sensu composito, sed se 
+        <lb ed="#C" n="101"/>cundum necessitatem consequetiae: cum 
+        <lb ed="#C" n="102"/>tales necessitates non tollant contingen 
+        <lb ed="#C" n="103"/>tiam, &amp; libertatem arbitrij, simul cum 
+        <lb ed="#C" n="104"/>certitudine praedestinationis stat 
+        liber<lb ed="#C" n="105" break="no"/>tas arbitrij, quod declarare volebamus; 
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1725">
+                  <lb ed="#C" n="106"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="107"/>quod ordo causarum relatus in Divinam 
+        <lb ed="#C" n="108"/>praedestinationem vel in Divinam 
+        prae<lb ed="#C" n="109" break="no"/>scientiam contrahit quandam necessita 
+        <lb ed="#C" n="110"/>tem. Vnde si Deus vidit istum 
+        salvan<lb ed="#C" n="111" break="no"/>dum, qui est in peccato mortali, vidit,  
+        <lb ed="#C" n="112"/>quod a peccato debebat resurgere, &amp; 
+        <!--791.xml-->
+        <pb ed="#C" n="766"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>finaliter bene facere, &amp; sic salvari: 
+        un<lb ed="#C" n="2" break="no"/>de licet possit corrumpi, dum est in 
+        pec<lb ed="#C" n="3" break="no"/>cato mortali in se consideratus: tamen 
+        <lb ed="#C" n="4"/>si referatur in Divinam 
+        praedestinatio<lb ed="#C" n="5" break="no"/>nem, necesse est ad salutem eius 
+        praedi<lb ed="#C" n="6" break="no"/>ctas causas concurrere, videlicet, quod  
+        <lb ed="#C" n="7"/>resurgat, &amp; finaliter bene faciat.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1764">
+        Ad 2. 
+        <lb ed="#C" n="8"/>dicendum, quod illa necessitas non tol 
+        <lb ed="#C" n="9"/>lit actiones &amp; motus liberi arbitrij, 
+        im<lb ed="#C" n="10" break="no"/>mo includit eos. Nam sicut si 
+        necessa<lb ed="#C" n="11" break="no"/>rium est Sortem moveri, si currit: opor 
+        <lb ed="#C" n="12"/>tet ipsum movere: pedes, quia motus 
+        pe<lb ed="#C" n="13" break="no"/>dum inciuditur in cursu: ita si necesse 
+        <lb ed="#C" n="14"/>est hunc salvari, quia est 
+        praedesti<lb ed="#C" n="15" break="no"/>natus: oportet ipsum bona operari: quia 
+        <lb ed="#C" n="16"/>predestinatio quodammodo talia inclu 
+        <lb ed="#C" n="17"/>dit: sic enim Deus praedestinavit ipsum 
+        <lb ed="#C" n="18"/>ad vitam, ut finaliter bene utens gratia 
+        <lb ed="#C" n="19"/>sibi collata salvaretur. Nam sicut 
+        prae<lb ed="#C" n="20" break="no"/>scientia non excludit ordinem causarum, 
+        <lb ed="#C" n="21"/>sic praedestinatio non excludit 
+        volunta<lb ed="#C" n="22" break="no"/>tem, &amp; bonas operationes.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1799">
+        Ad 3. dicen 
+        <lb ed="#C" n="23"/>dum, quod in libro vitae aliquis 
+        duplici<lb ed="#C" n="24" break="no"/>ter est scriptus. Primo: quantum ad 
+        <lb ed="#C" n="25"/>praesentem iustitiam, vel quantum ad 
+        <lb ed="#C" n="26"/>participationem gloriae in sua causa. 
+        Se<lb ed="#C" n="27" break="no"/>cundo: quantum ad participationem 
+        <lb ed="#C" n="28"/>igloriae in se. Qui autem ibi scripti sunt,  
+        <lb ed="#C" n="29"/>solum quantum ad praesentem iustitiam, 
+        <lb ed="#C" n="30"/>dicuntur inde deleri, inquantum gratia 
+        <lb ed="#C" n="31"/>vel charitas semel habita potest amitti. 
+        <lb ed="#C" n="32"/>Qui vero ibi scribuntur quantum ad 
+        con<lb ed="#C" n="33" break="no"/>secutionem fruitionis aeternae, vel 
+        res<lb ed="#C" n="34" break="no"/>pectu gloriae in se, nunquam delentur:  
+        <lb ed="#C" n="35"/>&amp; sic ibi scripti sunt predestinati. Si 
+        ve<lb ed="#C" n="36" break="no"/>ro dicatur inde deleri, qui etiam secundum 
+        <lb ed="#C" n="37"/>acceptionem gloriae in se ibi scribuntur, 
+        <lb ed="#C" n="38"/>quia legitur in Apoc. Tene quod habes, ne 
+        <lb ed="#C" n="39"/>alius accipiat coronam tuam, igitur quantum 
+        <lb ed="#C" n="40"/>ad exceptionem, glonie, vel coronae 
+        ali<lb ed="#C" n="41" break="no"/>quis de libro vitae deleri potest. 
+        Dicen<lb ed="#C" n="42" break="no"/>dum, quod gaudium est omnibus bonis 
+        <lb ed="#C" n="43"/>de aliquo in hoc mundo bene agere: &amp; 
+        <lb ed="#C" n="44"/>cum ille desinit bene agere, boni 
+        dicun<lb ed="#C" n="45" break="no"/>tur accipere coronam suam: quia 
+        gau<lb ed="#C" n="46" break="no"/>dent de bonis operibus suis, de quibus 
+        <lb ed="#C" n="47"/>tempus cum eis gaudere debet.
+      </p>
+               <p xml:id="Gi9qrR-f98202-d1e1856">
+        Ad 4. 
+        <lb ed="#C" n="48"/>dicendum, quod simul cum 
+        contingen<lb ed="#C" n="49" break="no"/>tia, vel cum libertate arbitrij stat 
+        certi<lb ed="#C" n="50" break="no"/>tudo praedestinationis, ut patuit.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

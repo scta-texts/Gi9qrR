@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="771"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g01185"><!-- l1-d41prooem -->
+            <head xml:id="Gi9qrR-g01185-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g01185-d1e111">
+      <!--796.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="28"/>QISTINCTIO XXXXJ. 
+      <lb ed="#C" n="29"/>UTRVM ALIQVOD SIT MERITVM OBDVRATIONIS ET 
+    </p>
+            <p xml:id="Gi9qrR-g01185-d1e122">
+               <lb ed="#C" n="30"/>misericordiae? 
+      <!--796.xml-->
+      <cb ed="#C" n="d"/>
+               <lb ed="#C" n="31"/>Tautem quaerimus &amp;c. 
+      Post<lb ed="#C" n="32" break="no"/>quam determinavit 
+      Magi<lb ed="#C" n="33" break="no"/>ster de praedestinatione 
+      <lb ed="#C" n="34"/>quid sit, hic specialiter de 
+      <lb ed="#C" n="35"/>terminat de causalitate eis 
+      <lb ed="#C" n="36"/>Et duo facit:quia 1. facit qu 
+      <lb ed="#C" n="37"/>dictum est. 2. quia praedestina 
+      <lb ed="#C" n="38"/>tio aliquomodo sunta ad praescientiam, vel ad 
+      scien<lb ed="#C" n="39" break="no"/>tiam reducitur, quasdam quaestiones circa 
+      Di<lb ed="#C" n="40" break="no"/>vinam praescientiam &amp; scientiam movet. Secun 
+      <lb ed="#C" n="41"/>da ibi: Praeterea considerari. Circa 1. duo facit: 
+      <lb ed="#C" n="42"/>quia 1. circa causalitatem praedestinationis, &amp; 
+      <lb ed="#C" n="43"/>obdurationis, quae est eius oppositum, determ 
+      <lb ed="#C" n="44"/>nat veritatem. 2. assignat circa eam quasdam 
+      <lb ed="#C" n="45"/>falsas opiniones. Secunda ibi: Opinati sunt tamen 
+      <lb ed="#C" n="46"/>Circa 1. duo facit: quia 1. dicit misericordiam 
+      <lb ed="#C" n="47"/>sive gratiam, quae est effectus praedestinationis, 
+      <lb ed="#C" n="48"/>non cadere sub merito: obdurationem tamens 
+      <lb ed="#C" n="49"/>quae aliquo modo potest dici effectus 
+      reproba<lb ed="#C" n="50" break="no"/>tionis, sub merito cadere. 2. ex hoc concludit 
+      <lb ed="#C" n="51"/>opera nostra non esse causam, praedestinationis: 
+      <lb ed="#C" n="52"/>quia si effectus praedestinationis, ut misericor 
+      <lb ed="#C" n="53"/>dia vel gratia, non potest cadere sub merito, &amp; 
+      <lb ed="#C" n="54"/>non causatur ab operibus nostris: quia tunc 
+      gra<lb ed="#C" n="55" break="no"/>tia non esset gratia, multo minus ipsa praedesti 
+      <lb ed="#C" n="56"/>natio, quae aeterna, sub merito cadere potest: 
+      <lb ed="#C" n="57"/>attamen licet ipsa reprobatio aeterna non cadat 
+      <lb ed="#C" n="58"/>sub merito, obduratio vero sub merito cadere 
+      <lb ed="#C" n="59"/>potest: quia cum homo suo derelictus arbittio 
+      pos<lb ed="#C" n="60" break="no"/>sit male agere, per mala opera sua potest esse 
+      <lb ed="#C" n="61"/>causa, quare induretur. Secunda ibi: Ex his 
+      aptem<lb ed="#C" n="62" break="no"/>Deinde cum dicit: Opinati sunt. Assignat 
+      quas<lb ed="#C" n="63" break="no"/>dam falsas opiniones assignantes causam 
+      ele<lb ed="#C" n="64" break="no"/>ctionis &amp; approbationis Divinae. Et duo facit, 
+      <!--796.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="65"/>secundum quod dupliciter aliqui conati sunt,  
+    </p>
+            <p xml:id="Gi9qrR-g01185-d1e211">
+               <lb ed="#C" n="66"/>assignare causam. Secunda ibi: Multi vero. Circa 
+      <lb ed="#C" n="67"/>1. duo facit: quia 1. ostendit aliquos dixisse, 
+      <lb ed="#C" n="68"/>causam electionis Divinae esse futuram fidem, 
+      <lb ed="#C" n="69"/>non futura opera. 2. adducit verba <name xml:id="Gi9qrR-g01185-Nd1e221" ref="#Augustine">Aug.</name> quae 
+      <lb ed="#C" n="70"/>videntur dicere futura opera electionis Divinae 
+      <lb ed="#C" n="71"/>causam existere. Secuda ibi: His tamen adversaris 
+      <lb ed="#C" n="72"/>Circa 1. duo facit: quia 1. dicit quosdam 
+      opi<lb ed="#C" n="73" break="no"/>natos fuisse Deum Iacob elegisse: quia sciebat 
+      <lb ed="#C" n="74"/>ipsum talem futurum, quod in eum credet, &amp; 
+      <lb ed="#C" n="75"/>huius propositionis dicit aliquando fuisse <name xml:id="Gi9qrR-g01185-Nd1e238" ref="#Augustine">Aug</name>
+               <lb ed="#C" n="76"/>qui dixit, Deum non elegisse propter opera 
+      ali<lb ed="#C" n="77" break="no"/>quem: ut quia praesciret ipsum bene 
+      operatu<lb ed="#C" n="78" break="no"/>rum, sed propter fidem: quia praescivit ipsum 
+      <lb ed="#C" n="79"/>crediturum. 2. dicit <name xml:id="Gi9qrR-g01185-Nd1e249" ref="#Augustine">Aug.</name> hanc opinionem retra: 
+      <lb ed="#C" n="80"/>ctasse: quia cum in fide sit aliquod meritum, 
+      ele<lb ed="#C" n="81" break="no"/>ct oDivina &amp; sua gratia sub merito caderet. Nam 
+      <lb ed="#C" n="82"/>&amp; ipsa fides inter Dei munera computatur. Nam 
+      <lb ed="#C" n="83"/>si credere &amp; velle est nostrum, inquantum non 
+      <lb ed="#C" n="84"/>sit sine voluntate nostra: est etiam &amp; a Deo, 
+      in<lb ed="#C" n="85" break="no"/>quantum Deus in nobis talia operatur. Sola 
+      igi<lb ed="#C" n="86" break="no"/>tur misericordia Divina electi sumus: non prop 
+      <lb ed="#C" n="87"/>ter nostra merita vel opera. Secunda ibi: Sed 
+      <lb ed="#C" n="88"/>quia in fide. Deinde cum dicit: His tamen. 
+      Osten<lb ed="#C" n="89" break="no"/>dit <name xml:id="Gi9qrR-g01185-Nd1e274" ref="#Augustine">Aug.</name> aliquando sensisse electionis Divinae 
+      <lb ed="#C" n="90"/>esse causam occulta merita nostra, quae Deus 
+      <lb ed="#C" n="91"/>ab aeterno praevidit. Et tria facit: quia 1. recitat 
+      <lb ed="#C" n="92"/>hac positionem <name xml:id="Gi9qrR-g01185-Nd1e284" ref="#Augustine">Aug.</name> dicens, eam adversari his, quae 
+      <lb ed="#C" n="93"/>dicta sunt. 2. dicit se ignorare quid <name xml:id="Gi9qrR-g01185-Nd1e289" ref="#Augustine">Aug.</name> intel 
+      <lb ed="#C" n="94"/>ligere voluit: attamen credibile est per praedicta 
+      <lb ed="#C" n="95"/>verba posua in libro retractationum <name xml:id="Gi9qrR-g01185-Nd1e297" ref="#Augustine">Aug.</name> hano 
+      <lb ed="#C" n="96"/>positionem retractasse. 3. adducit positionem 
+      <lb ed="#C" n="97"/>quorumdam volentium exponere dicta verba 
+      <lb ed="#C" n="98"/>Aug. quorum expositionem appellat srivolam 
+      <!--797.xml-->
+      <pb ed="#C" n="772"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>&amp; inanem. Secunda ibi: Sed quid intelligere. Tertia 
+      <lb ed="#C" n="2"/>ibi:. Quidam tamen ex eo. 
+      <lb ed="#C" n="3"/>Tunc sequitur illa pars: Multi vero. In qua 
+      <lb ed="#C" n="4"/>adducit alium modum assignandi causam; 
+      qua<lb ed="#C" n="5" break="no"/>re aliqui eliguntur, &amp; aliqui reprobantur: 
+      di<lb ed="#C" n="6" break="no"/>xerunt enim quidam, ab initio omnes animas 
+      si<lb ed="#C" n="7" break="no"/>mul creatas esse, &amp; in caelo fuisse conversatas, &amp; 
+      <lb ed="#C" n="8"/>secundum bona merita vel mala, quae ibi gesse 
+      <lb ed="#C" n="9"/>runt, ad corpora directas esse. Et tria facit: quia 
+      <lb ed="#C" n="10"/>1. hanc positionem recitat. 2. eam improbat: 
+      <lb ed="#C" n="11"/>quia dictum est Iacob dilexi: Esau autem odio habui, 
+      <lb ed="#C" n="12"/>cum nondum aliquid boni aut mali egissent. 3. quaerit:  
+      <lb ed="#C" n="13"/>utrum reprobatio sit causa, quare mali sint: sicut  
+      <lb ed="#C" n="14"/>electio est causa, quare sint boni: &amp; solvit quod 
+      <lb ed="#C" n="15"/>non eodem modo reprobatio est causa mali: 
+      si<lb ed="#C" n="16" break="no"/>cut praedestinatio est causa boni. Secunda ibi: 
+      <lb ed="#C" n="17"/>Hoc autem respuit. Tertia ibi: Sed quaeritur utrum, De 
+      <lb ed="#C" n="18"/>inde cum dicit: Praeterea considerari. Movet 
+      quas<lb ed="#C" n="19" break="no"/>dam quaestiones de scientia &amp; praescientia 
+      Divi<lb ed="#C" n="20" break="no"/>na. Et duo facit: quia 1. quaerit: utrum quod 
+      <!--797.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="21"/>Deus semel scit, semper sciat, &amp; quod semel 
+      <lb ed="#C" n="22"/>est ab ipso praescitum, semper sit praescitum. 2. 
+      <lb ed="#C" n="23"/>respondet ad quaesita. Secunda ibi: De prescientia 
+      <lb ed="#C" n="24"/>1. Circa quod duo facit: quia 1. respondet ad 
+      <lb ed="#C" n="25"/>quaestionem factam de praescientia dicens: 
+      <lb ed="#C" n="26"/>quod semel est a Deo praescitum non semper 
+      <lb ed="#C" n="27"/>est praescitum: quia quandiu est futurum potest. 
+      <lb ed="#C" n="28"/>dici praescitum; postquam autem praesens vel 
+      <lb ed="#C" n="29"/>praeteritum, non ulterius est praescitum 2. 
+      pro<lb ed="#C" n="30" break="no"/>sequitur quaestionem de scientia, ibi: De scientia 
+      <lb ed="#C" n="31"/>autem. Et duo facit: quia 1. ostendit Deum non 
+      <lb ed="#C" n="32"/>semper scire, quod semel scit: quia scit aliquem 
+      <lb ed="#C" n="33"/>nasciturum: cum autem natus est, nescit ipsum 
+      <lb ed="#C" n="34"/>ulterius nasciturum. 2. solvit dicens: res ipsas 
+      <lb ed="#C" n="35"/>variari; scientiam autem Dei invariabilem esse 
+      <lb ed="#C" n="36"/>propter quod, quod Deus semel scit, semper 
+      <lb ed="#C" n="37"/>scit: licet ipsa tempora varietur. Secunda, ibi: 
+      <lb ed="#C" n="38"/>Ad hoc dicimus. In quo terminatur sententia 
+      le<lb ed="#C" n="39" break="no"/>ctionis &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

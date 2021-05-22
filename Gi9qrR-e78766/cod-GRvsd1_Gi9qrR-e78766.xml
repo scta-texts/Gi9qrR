@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="293"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e78766"><!-- l1-d15p2q2 -->
+            <head xml:id="Gi9qrR-e78766-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e78766-d1e111">
+               <lb ed="#C" n="76"/>Quaestio II. 
+      <lb ed="#C" n="77"/>De missione Filij invisibili.
+    </p>  
+            <p xml:id="Gi9qrR-e78766-d1e118">
+               <lb ed="#C" n="78"/>DEINDE quaeritur de missione 
+      Fi<lb ed="#C" n="79" break="no"/>Dlij invilibili per compurationem 
+      <lb ed="#C" n="80"/>ad eos, ad quos sit missio. Circa quod 
+      <lb ed="#C" n="81"/>quaeremus, tria. 1. utrum ad quos sit 
+      <lb ed="#C" n="82"/>talis missio. 2. dato quod ad omnes 
+      <lb ed="#C" n="83"/>iustos, utrum plenior fuerit post 
+      incar<lb ed="#C" n="84" break="no"/>nationem, quam ante? 3. de effectu 
+      <lb ed="#C" n="85"/>eius, 
+    </p>
+            <div xml:id="Gi9qrR-e78766-Dd1e138">
+               <head xml:id="Gi9qrR-e78766-Hd1e140">Articulus 1</head>
+               <p xml:id="Gi9qrR-e78766-d1e143">
+                  <lb ed="#C" n="86"/>ARTICVLUS I. 
+        <lb ed="#C" n="87"/>Vtrum missio Filij sit ad irrationales creaturas? 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e150">
+                  <lb ed="#C" n="88"/>D primum sic proceditur: vide 
+        <lb ed="#C" n="89"/>tur, quod missio Filij sit ad itra 
+        <lb ed="#C" n="90"/>tionabiles creaturas: quia, ut habitum 
+        <lb ed="#C" n="91"/>est, Pater mittit Filium, eo quod 
+        ope<lb ed="#C" n="92" break="no"/>ratur per ipsum, sed omnia per ipsum 
+        <lb ed="#C" n="93"/>facta sunt; cum igitur in irrationabili¬ 
+        <lb ed="#C" n="94"/>bus Pater per Filium operetur, ad 
+        irra<lb ed="#C" n="95" break="no"/>tionabilia erit missio Filij.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e170">
+        Praeterea: 
+        <lb ed="#C" n="96"/>missio Filij convenit cum missione 
+        Spi<lb ed="#C" n="97" break="no"/>ritus Sanctis eo quod mittitur Filius ad 
+        <lb ed="#C" n="98"/>sanctificandam creaturam. Sed aliqua 
+        <lb ed="#C" n="99"/>dicuntur sanctificari, quae ratione 
+        ca<lb ed="#C" n="100" break="no"/>rent, ut templum, &amp; vasa, ergo &amp;c
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e183">
+                  <lb ed="#C" n="101"/>Praeterea: secundum <name xml:id="Gi9qrR-e78766-Nd1e187" ref="#Augustine">Aug.</name> Sacramenta 
+        <lb ed="#C" n="102"/>sunt vasa gratiae; sed ad ea, in quibus est 
+        <lb ed="#C" n="103"/>gratia, mittitur Filius, ergo &amp;c. 
+        <lb ed="#C" n="104"/>In contrarium est: quia <name xml:id="Gi9qrR-e78766-Nd1e197" ref="#Augustine">August.</name> 4. 
+        <!--331.xml-->
+        <pb ed="#C" n="294"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>le Trin. cap. 20. dicit missionem Filij 
+        <lb ed="#C" n="2"/>invisibilem esse in mente; sed 
+        men<lb ed="#C" n="3" break="no"/>tem non habent nisi rationabilia, 
+        er<lb ed="#C" n="4" break="no"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e217">
+                  <lb ed="#C" n="5"/>Vlterius quaeritur: utrum fiat 
+        mis<lb ed="#C" n="6" break="no"/>sio Filij secundum augmentum gratiae? 
+        <lb ed="#C" n="7"/>Et videtur quod non: quia missio 
+        Fi<lb ed="#C" n="8" break="no"/>lij est ad sanctificandam creaturam, sed  
+        <lb ed="#C" n="9"/>non sanctificatur, quod est sanctum, 
+        si<lb ed="#C" n="10" break="no"/>cut non dealbatur, quod est album; sed  
+        <lb ed="#C" n="11"/>non dicuntur augmentari in gratia, 
+        ni<lb ed="#C" n="12" break="no"/>si qui habent gratiam; cum tales sint  
+        <lb ed="#C" n="13"/>sancti, non mitter ad eos Filius, ut 
+        san<lb ed="#C" n="14" break="no"/>ctificentur.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e241">
+        Praeterea: ex hoc dicitur  
+        <lb ed="#C" n="15"/>mitti Filius: quia novo modo est in 
+        <lb ed="#C" n="16"/>creatura, quam prius esset, ut quia est ¬ 
+        <lb ed="#C" n="17"/>in ea secundum opus gratuitum, sed per 
+        <lb ed="#C" n="18"/>augmentum gratiae non fit talis 
+        inno<lb ed="#C" n="19" break="no"/>vatio, cum ante augmentum gratiae 
+        <lb ed="#C" n="20"/>esset ibi Filius per opus gratuitum, 
+        er<lb ed="#C" n="21" break="no"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e259">
+                  <lb ed="#C" n="22"/>In contrarium est: quia ab eodem 
+        <lb ed="#C" n="23"/>agente, a quo sit aliquid calidum, habet  
+        <lb ed="#C" n="24"/>fieri magis calidum, ergo per eandem 
+        <lb ed="#C" n="25"/>Personam, per quam accipimus donum 
+        <lb ed="#C" n="26"/>gratuitum, augmentamur in illo 
+        do<lb ed="#C" n="27" break="no"/>no; sed ex hoc dicitur Persona 
+        Perso<lb ed="#C" n="28" break="no"/>nam mittere: quia per eam dona huo 
+        <lb ed="#C" n="29"/>iusmodi operatur: cum talis operatio 
+        <lb ed="#C" n="30"/>non solum sit in prima acceptione 
+        gra<lb ed="#C" n="31" break="no"/>tiae, sed etiam in augmento, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e283">
+                  <lb ed="#C" n="32"/>Vlterius quaeritur: utrum ad 
+        An<lb ed="#C" n="33" break="no"/>gelos fiat talis missio?
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e290">
+        Et videtur quod  
+        <lb ed="#C" n="34"/>non: quia si ad eos mitteretur aliqua 
+        <lb ed="#C" n="35"/>Persona Divina, vel hoc esset ut 
+        gra<lb ed="#C" n="36" break="no"/>tiam reciperent, vel ut gratiam 
+        recep<lb ed="#C" n="37" break="no"/>tam haberent pleniorem; sed non ut 
+        <lb ed="#C" n="38"/>gratiam recipiant: cum sint sancti: 
+        <lb ed="#C" n="39"/>nec ut in ea augmententur, cum non 
+        <lb ed="#C" n="40"/>possit in eis augeri essentiale praemium. 
+        <lb ed="#C" n="41"/>ergo nullo modo sit ad eos missio. 
+        Prae<lb ed="#C" n="42" break="no"/>terea: ut habitum est, non est miffic 
+        <lb ed="#C" n="43"/>Filij absque missione Spiritus 
+        San<lb ed="#C" n="44" break="no"/>cti; sed <name xml:id="Gi9qrR-e78766-Nd1e316" ref="#Augustine">Aug.</name> 15. de Trin. cap. 17. 
+        <lb ed="#C" n="45"/>Spiritus Sanctus cum datus fuerit homini, 
+        ac<lb ed="#C" n="46" break="no"/>cendit eum in dilectionem Dei &amp; proximi. 
+        <lb ed="#C" n="47"/>Sed Angeli ulterius non possunt 
+        ascen<lb ed="#C" n="48" break="no"/>di vel crescere in charitate, ergo non 
+        <lb ed="#C" n="49"/>ad eos mittitur Spiritus Sanctus, &amp; per 
+        <lb ed="#C" n="50"/>consequens nec Filius. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e333">
+                  <lb ed="#C" n="51"/>In contrarium est <name xml:id="Gi9qrR-e78766-Nd1e337" ref="#Augustine">Aug.</name> 4. de Trin. 
+        <lb ed="#C" n="52"/>cap. 20. qui dicit: Filium Dei eo 
+        mo<lb ed="#C" n="53" break="no"/>do quo In animas sanctas se transfert, atque 
+        <lb ed="#C" n="54"/>amicos Dei, &amp; Prophetas constituit, sicut  
+        <lb ed="#C" n="55"/>etiam implet Angelos. Sed hoc non esset 
+        <lb ed="#C" n="56"/>nisi ad Angelos mitteretur, sicut &amp; ad 
+        <!--331.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>nomines, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e359">
+        Praeterea: ex hoc  
+        <lb ed="#C" n="58"/>mittitur ad homines: quia sunt 
+        capa<lb ed="#C" n="59" break="no"/>ces dilectionis, &amp; cognitionis; sed 
+        hu<lb ed="#C" n="60" break="no"/>iusmodi sunt Angeli, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e368">
+                  <lb ed="#C" n="61"/>VIterius quaeritur: utrum ad 
+        Chri<lb ed="#C" n="62" break="no"/>stum fuerit facta talis missio?
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e375">
+        Et videtur 
+        <lb ed="#C" n="63"/>quod non: quia non idem dat &amp; 
+        reci<lb ed="#C" n="64" break="no"/>pit aliquid, sed Christus dedit Spiritum 
+        <lb ed="#C" n="65"/>Sanctum secundum <name xml:id="Gi9qrR-e78766-Nd1e383" ref="#Augustine">Aug.</name> 15. de Trin. 
+        <lb ed="#C" n="66"/>cap. 26. ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e389">
+        Praeterea: missio fit 
+        <lb ed="#C" n="67"/>ad revocandum errantes, sed Christus 
+        <lb ed="#C" n="68"/>nunquam fuit errans, cum de se diceret  
+        <lb ed="#C" n="69"/>quod ea, quae sunt Patri placita, 
+        face<lb ed="#C" n="70" break="no"/>ret semper, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e400">
+                  <lb ed="#C" n="71"/>n contrarium est: quia missio est 
+        <lb ed="#C" n="72"/>S idem quod datio: ut dicit Magist. 15. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e407">
+                  <lb ed="#C" n="73"/>dist, sed Christo fuit datus Spiritus, &amp; 
+        <lb ed="#C" n="74"/>non ad mensuram, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e415">
+        Praeterea: 
+        <lb ed="#C" n="75"/>missio visibilis est signum missionis 
+        in<lb ed="#C" n="76" break="no"/>visibilis; ad Christum fuit facta missio 
+        <lb ed="#C" n="77"/>visibilis, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e424">
+                  <lb ed="#C" n="78"/>RESOLVTIO. 
+        <lb ed="#C" n="79"/>Missio Filij Divini ad irratiouales non sit 
+        <lb ed="#C" n="80"/>creaturas. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e433">
+                  <lb ed="#C" n="81"/>REspond. dicendum, ad primum 
+        <lb ed="#C" n="82"/>quaesitum, missionem non posse  
+        <lb ed="#C" n="83"/>fieri ad irrationales creaturas, nam ut  
+        <lb ed="#C" n="84"/>patet per <name xml:id="Gi9qrR-e78766-Nd1e443" ref="#Augustine">Aug.</name> mitti Filium, est cognos 
+        <lb ed="#C" n="85"/>cere quod ab alio sit; sed nihil cognor 
+        <lb ed="#C" n="86"/>cit hoc esse ab hoc, nisi referat 
+        produ<lb ed="#C" n="87" break="no"/>ctum in producentem, &amp; quod est 
+        ex<lb ed="#C" n="88" break="no"/>principio in suum principium; sed ad 
+        <lb ed="#C" n="89"/>eandem potentiam ad quam pertinet 
+        <lb ed="#C" n="90"/>referre res in suum finem, pertinet 
+        re<lb ed="#C" n="91" break="no"/>ferre aliquid in suum principium. Sed 
+        <lb ed="#C" n="92"/>referre aliquid, quod referendum sit, 
+        <lb ed="#C" n="93"/>vel in finem, vel etiam in principium, 
+        <lb ed="#C" n="94"/>non est datum nisi rationabilibus, iuxta 
+        <lb ed="#C" n="95"/>illud <name xml:id="Gi9qrR-e78766-Nd1e470" ref="#Augustine">August.</name> S3., quaest. q. 33. Scire 
+        nan<lb ed="#C" n="96" break="no"/>que quo quidque referendum sit, non datum est 
+        <lb ed="#C" n="97"/>rationis expertibus, cum ergo ratio sit in 
+        <lb ed="#C" n="98"/>fimum in genere intelligibilium, unde 
+        <lb ed="#C" n="99"/>&amp; dicitur oriri in umbra intelligentiae, 
+        <lb ed="#C" n="100"/>nulli infra rationem cognoscere Filium 
+        <lb ed="#C" n="101"/>esse ab alio datum erit, nec 
+        habituali<lb ed="#C" n="102" break="no"/>ter, nec actualiter. Tum quia in 
+        tali<lb ed="#C" n="103" break="no"/>cognitione implicatur referre, quod 
+        <lb ed="#C" n="104"/>non competit rationis expertibus. Tum 
+        <lb ed="#C" n="105"/>quia quod cognosci debet, est summe 
+        <lb ed="#C" n="106"/>intelligibile, ed quod percipiendum 
+        <lb ed="#C" n="107"/>quae infra rationem sunt, non sufficiunt: 
+        <lb ed="#C" n="108"/>cum ratio vel intellectus humanus inte 
+        <lb ed="#C" n="109"/>intelligibilia teneat gradum infimum, 
+        <lb ed="#C" n="110"/>secundum Comm. in 3. de Anim. igi¬ 
+        <!--332.xml-->
+        <pb ed="#C" n="295"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tur sicut infra materiam non est nisi 
+        ni<lb ed="#C" n="2" break="no"/>hil, &amp; quod habet non esse: quia 
+        ma<lb ed="#C" n="3" break="no"/>teria tenet infimum gradum in genere 
+        <lb ed="#C" n="4"/>entium, sic infra rationem non est 
+        ni<lb ed="#C" n="5" break="no"/>si non intelligens, cam: in genere 
+        intel<lb ed="#C" n="6" break="no"/>ligibilium ratio teneat gradum infimum 
+        <lb ed="#C" n="7"/>Non ergo mittitur Filius, nec aliqua 
+        <lb ed="#C" n="8"/>Persona Divina ad irrationalia: cum 
+        <lb ed="#C" n="9"/>careant cognitione intellectuali, quam 
+        <lb ed="#C" n="10"/>missio de necessitate requirit.  
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e535">
+                  <lb ed="#C" n="11"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="12" break="no"/>cendum, quod licet omnia opera 
+        ope<lb ed="#C" n="13" break="no"/>retur Pater per Filium; non tamen in 
+        <lb ed="#C" n="14"/>omnibus operibus dicitur Filius mitti, 
+        <lb ed="#C" n="15"/>sed solum: in operibus gratuitis, quae 
+        <lb ed="#C" n="16"/>in creatura irrationali esse non habent,  
+        <lb ed="#C" n="17"/>Ad 2. dicendum, quod templum &amp; 
+        <lb ed="#C" n="18"/>vasa non dicuntur sanctificari, eo quod  
+        <lb ed="#C" n="19"/>suscipiant gratiam, vel in gratia 
+        aug<lb ed="#C" n="20" break="no"/>mentetur; sed quia sacris usibus dedi 
+        <lb ed="#C" n="21"/>cantur; sed quiaFilius non dicitur mitti 
+        <lb ed="#C" n="22"/>nisi secudum opera gratuita Filio 
+        appro<lb ed="#C" n="23" break="no"/>priata: cum non dicantur talia fanctificari 
+        <lb ed="#C" n="24"/>gratiam suscipiedo, ad eaFilius non mitte 
+        <lb ed="#C" n="25"/>retur: unde in ratione equivocatur de 
+        <lb ed="#C" n="26"/>fanctificatione.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e572">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="27"/>Sacramenta dicuntur vasa gratiae, non 
+        <lb ed="#C" n="28"/>quia gratia sit in eis tanquam in 
+        subie<lb ed="#C" n="29" break="no"/>cto; sed quia faciliter per Sacramenta 
+        <lb ed="#C" n="30"/>tanquam per instrumenta Divinae 
+        mi<lb ed="#C" n="31" break="no"/>sericordiae potest aliquid habere 
+        gra<lb ed="#C" n="32" break="no"/>tiam, sicut ex vase aquam: &amp; quia 
+        <lb ed="#C" n="33"/>non mittitur Filius, nisi ad eos, in 
+        qui<lb ed="#C" n="34" break="no"/>bus est gratia sicut in subiecto, non 
+        si<lb ed="#C" n="35" break="no"/>cut in instrumento: ideo ratio non 
+        con<lb ed="#C" n="36" break="no"/>cludit. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e596">
+                  <lb ed="#C" n="37"/>Ad illud, quod ulterius quaeritur:  
+        <lb ed="#C" n="38"/>utrum per augmentum gratie mittatur  
+        <lb ed="#C" n="39"/>Filius? Dicendum, quod, aliquem 
+        aug<lb ed="#C" n="40" break="no"/>mentari in gratia, dupliciter potest 
+        in<lb ed="#C" n="41" break="no"/>telligi, ut communiter distinguitur, 
+        ve<lb ed="#C" n="42" break="no"/>quod ex tali augmento sequatur 
+        qui<lb ed="#C" n="43" break="no"/>dam novus usus, vel quidam novus 
+        <lb ed="#C" n="44"/>modus agendi, utputa aliquis habens 
+        <lb ed="#C" n="45"/>gratiam, per quam est iustus, 
+        augmen<lb ed="#C" n="46" break="no"/>tetur in gratia, ut habeat donum 
+        pro<lb ed="#C" n="47" break="no"/>phetiae, &amp; cognoscat Divina 
+        myste<lb ed="#C" n="48" break="no"/>ria, vel quod operetur mitabilia, vel 
+        <lb ed="#C" n="49"/>linguis loquatur novis, &amp; secundum 
+        <lb ed="#C" n="50"/>tale augmentum communiter 
+        conce<lb ed="#C" n="51" break="no"/>ditur Spiritus Sanctus mitti. Sed utrum 
+        <lb ed="#C" n="52"/>in augmento gratiae, per quod aliquis 
+        <lb ed="#C" n="53"/>non consurgit in novum usum; sed 
+        so<lb ed="#C" n="54" break="no"/>lum secundum illam gratiam acceptam 
+        <lb ed="#C" n="55"/>efficitur magis gratus, utrum ex 
+        tali<lb ed="#C" n="56" break="no"/>augmento sequatur missio Personae Di¬ 
+        <!--332.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>vinae sunt modi dicendi. Nam quidam 
+        <lb ed="#C" n="58"/>negant in tali augmento mitti Divinam 
+        <lb ed="#C" n="59"/>Personam: quidam concedunt. Tamem 
+        <lb ed="#C" n="60"/>satis concedere possumus in omni aus 
+        <lb ed="#C" n="61"/>mento gratiae Divinam Personam 
+        mit<lb ed="#C" n="62" break="no"/>ti, maxime cum Ang. 4. de Trin. cap. 
+        <lb ed="#C" n="63"/>20. dicat: Tunc mittitur unicuique Verbum 
+        <lb ed="#C" n="64"/>Divinum, cum a quoquam cognoscitur, atque  
+        <lb ed="#C" n="65"/>percipitur, quantum cognosci, &amp; percipi poteste 
+        <lb ed="#C" n="66"/>pro captu proficientis in Deum. Ex quo 
+        ha<lb ed="#C" n="67" break="no"/>beri potest, quod secundum quod est, 
+        <lb ed="#C" n="68"/>alia &amp; alia capacitas, est alia &amp; alia 
+        <lb ed="#C" n="69"/>missio: &amp; quia non est augmentum 
+        <lb ed="#C" n="70"/>gratiae, nisi sit aliquo modo 
+        augmen<lb ed="#C" n="71" break="no"/>tum capacitatis, concedere possumus 
+        <lb ed="#C" n="72"/>in omni tali augmento Divinem Perso¬ 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e682">
+                  <lb ed="#C" n="73"/>nam mitti, licet forte non omnis 
+        mo<lb ed="#C" n="74" break="no"/>dus missionis hic reperiatur, qui 
+        re<lb ed="#C" n="75" break="no"/>peritur, cum aliquis de novo gratiam 
+        <lb ed="#C" n="76"/>accipit, vel in novum usum gratiae 
+        con<lb ed="#C" n="77" break="no"/>surgit 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e695">
+                  <lb ed="#C" n="78"/>Ad rationes in contrarium ddm. 
+        <lb ed="#C" n="79"/>Ad primam, quod non solum: 
+        sanctifi<lb ed="#C" n="80" break="no"/>catur, qui de non sancto fit sanctus, 
+        <lb ed="#C" n="81"/>sed etiam qui de sancto sit magis 
+        san<lb ed="#C" n="82" break="no"/>ctus. Nam secundum Philos. non 
+        so<lb ed="#C" n="83" break="no"/>dum est motus a frigido in calidum, 6 
+        <lb ed="#C" n="84"/>sed a calido in magis calidum.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e713">
+        Ad 2. 
+        <lb ed="#C" n="85"/>dicendum, quod licet in aliquo 
+        aug<lb ed="#C" n="86" break="no"/>mento gratiae non reperiatur tanta 
+        no<lb ed="#C" n="87" break="no"/>vitas, quanta reperitur, cum aliquis de 
+        <lb ed="#C" n="88"/>non sancto sit sanctus, vel cum alicui  
+        <lb ed="#C" n="89"/>confertur novum donum, &amp; novus usus 
+        <lb ed="#C" n="90"/>gratiae; est tamen ibi aliquis modus 
+        no<lb ed="#C" n="91" break="no"/>vitatis, cum sitin eo maior gratia. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e731">
+                  <lb ed="#C" n="92"/>Ad illud, quod 2. ulterius 
+        quaeri<lb ed="#C" n="93" break="no"/>tur: utrum ad Angelos, vel ad Beatos 
+        <lb ed="#C" n="94"/>fiat missio? Dicendum, quod sic. Ad 
+        <lb ed="#C" n="95"/>cuius evidentiam notandum, quod 
+        si<lb ed="#C" n="96" break="no"/>cut nom est inconveniens aliquem non 
+        <lb ed="#C" n="97"/>sposse augmentari in cognitione 
+        alicu<lb ed="#C" n="98" break="no"/>ius secundum intensionem, potest 
+        ta<lb ed="#C" n="99" break="no"/>men augmentari in cognitione eius 
+        ex<lb ed="#C" n="100" break="no"/>tensive, utputa aliquis cognoscens 
+        ali<lb ed="#C" n="101" break="no"/>quam propositionem per 
+        demonstra<lb ed="#C" n="102" break="no"/>tionem, &amp; per causam, sixursum illam 
+        <lb ed="#C" n="103"/>eandem cognoscat per signum, non ma 
+        <lb ed="#C" n="104"/>gis eam cognoscit, quam prius, nec de 
+        <lb ed="#C" n="105"/>ea est magis certus, quam prius esset: 
+        <lb ed="#C" n="106"/>cum cognitio signi quantum ad certitu 
+        <lb ed="#C" n="107"/>dinem, per se loquendo, non addat 
+        su<lb ed="#C" n="108" break="no"/>per cognitionem causae; nihilominus 
+        ta<lb ed="#C" n="109" break="no"/>men eam pluribus modis cognoscit: sic 
+        <lb ed="#C" n="110"/>&amp; Angesi boni per revelationes, quas 
+        <lb ed="#C" n="111"/>continue a Deo suscipiunt, &amp; si non 
+        <lb ed="#C" n="112"/>magis in amorem Dei proficiunt, plu¬ 
+        <!--333.xml-->
+        <pb ed="#C" n="296"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ribus tamen modis cognoscunt. 
+        Divi<lb ed="#C" n="2" break="no"/>nam bonitatem, esse diligendam, &amp; 
+        cam<lb ed="#C" n="3" break="no"/>extensive magis diligunt. 
+        <lb ed="#C" n="4"/>Ad rationem in contrarium. Ad 1. ddm, 
+        <lb ed="#C" n="5"/>quod nec utgratiam recipiat, nec 
+        utgratia<lb ed="#C" n="6" break="no"/>habeant pleniorem, vel ut magis 
+        intensi<lb ed="#C" n="7" break="no"/>vae Deum diligant, sed ut extensive 
+        <lb ed="#C" n="8"/>magis in dilectionem eius tendant. 
+        Ad<lb ed="#C" n="9" break="no"/>3. dicendum, quod licet non ulterius 
+        <lb ed="#C" n="10"/>inardescant intensive, 
+        inardescuntita<lb ed="#C" n="11" break="no"/>men extensive. 
+        <lb ed="#C" n="12"/>Ad illud 3. quod quaeritur de 
+        Chri<lb ed="#C" n="13" break="no"/>sto, utrum ei facta fuerit talis missio? 
+        <lb ed="#C" n="14"/>Dicendum, quod sic: nam; ut babitum 
+        <lb ed="#C" n="15"/>est per Magist, misno Personae est idem, 
+        <lb ed="#C" n="16"/>quod datio, quod si non est verum sim 
+        <lb ed="#C" n="17"/>pliciter, tamen secundum quod facit  
+        <lb ed="#C" n="18"/>ad propositum verum est: quia nunquam 
+        <lb ed="#C" n="19"/>Persona, cui competit mitti, datur 
+        ali<lb ed="#C" n="20" break="no"/>cui, nisi mittatur act illum: &amp; quia 
+        Chri<lb ed="#C" n="21" break="no"/>sto potissime fuit data gratia Spiritus 
+        <lb ed="#C" n="22"/>Sancti, ad ipsum fuit facta missio eius, &amp; 
+        <lb ed="#C" n="23"/>quia, ut habitum est, non est missio 
+        <lb ed="#C" n="24"/>Spiritus Sancti sine missione Filij, sicut 
+        <lb ed="#C" n="25"/>in anima Christi spiritualiter 
+        inhabita<lb ed="#C" n="26" break="no"/>vit Spiritus Sanctus proptendona, quae: 
+        <lb ed="#C" n="27"/>perficiunt appetitum, ita in ea 
+        inhabi<lb ed="#C" n="28" break="no"/>tavit Filius propter dona, quae perficiut 
+        <lb ed="#C" n="29"/>intellectum. Nam cum hoc quod 
+        uni<lb ed="#C" n="30" break="no"/>ta erat anima illa Verbo in unitate 
+        Per<lb ed="#C" n="31" break="no"/>sonae habebat ipsum Verbum unitum 
+        <lb ed="#C" n="32"/>sibi secundum quod dona: gratuita in 
+        <lb ed="#C" n="33"/>ea prae animabus alijs refulgebant. 
+        Vn<lb ed="#C" n="34" break="no"/>de &amp; <name xml:id="Gi9qrR-e78766-Nd1e858" ref="#Augustine">August.</name> probat 15. de Trin. cap. 
+        <lb ed="#C" n="35"/>26. Christum dedisse, &amp; accepisse 
+        Spi<lb ed="#C" n="36" break="no"/>ritum Sanctum, Accepit quipperut, homo, 
+        <lb ed="#C" n="37"/>effudit ut Deus, sed non accipit aliquis 
+        Spi<lb ed="#C" n="38" break="no"/>ritum Sanctum, nisi quia Spiritus 
+        isane<lb ed="#C" n="39" break="no"/>ctus ad cum mittitur: fuit igitur 
+        mif<lb ed="#C" n="40" break="no"/>sio facta ad Christum. Advertendum 
+        <lb ed="#C" n="41"/>tamen, quod, ut <name xml:id="Gi9qrR-e78766-Nd1e877" ref="#Augustine">Aug.</name> probat ibidem, 
+        <lb ed="#C" n="42"/>ista acceptio sive ista missio facta fuit 
+        <lb ed="#C" n="43"/>ab instanti suae conceptionis; 
+        nonau<lb ed="#C" n="44" break="no"/>tem postmodum: quia non fuit postea 
+        <lb ed="#C" n="45"/>in gratia augmentatus, 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e889">
+                  <lb ed="#C" n="46"/>Ad rationes in contrarium: Ad 
+        <lb ed="#C" n="47"/>1. dicendum, quod idem secundum ¬ 
+        <lb ed="#C" n="48"/>idem non dat, &amp; recipit aliquid, nec 
+        <lb ed="#C" n="49"/>t Christus eodem modo dedit, &amp; 
+        rece<lb ed="#C" n="50" break="no"/>pit Spiritum Sanctum; sed dedit ut 
+        <lb ed="#C" n="51"/>Deus, recepit ut homo: unde <name xml:id="Gi9qrR-e78766-Nd1e904" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="52"/>15. de Trin cap. praeallegato dicit:: in 
+        <lb ed="#C" n="53"/>humana scilioet &amp; Divina: :. accepit quipper 
+        <lb ed="#C" n="54"/>Christo, In eo quod de illo scriptum est quod  
+        <lb ed="#C" n="55"/>acceperit a Patre promissionem Spiritus Sanctis 
+        <lb ed="#C" n="56"/>&amp; teffuderit, utraque natura monstrata est, &amp; 
+        <!--333.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ubihomo; aeffudit ut Deus.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e925">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="58"/>quod facet missio sit ad revocandum 
+        <lb ed="#C" n="59"/>ernabees; non tamen solum istum 
+        effe<lb ed="#C" n="60" break="no"/>ctum habet. Vel dicere possumus, quod 
+        <lb ed="#C" n="61"/>ettans, si accipitur negative, quod 
+        <lb ed="#C" n="62"/>ide mifonet, quod non sanctus, vel non 
+        <lb ed="#C" n="63"/>directus, anima Christi aliquando non 
+        <lb ed="#C" n="64"/>fuit directa, &amp; non fuit sancta: quia 
+        ali<lb ed="#C" n="65" break="no"/>quando non fuit:: nam non esse tale 
+        <lb ed="#C" n="66"/>etiam de nullo verificari: potesti, cum 
+        <lb ed="#C" n="67"/>negatio nihil ponat absolure: accepta, 
+        <lb ed="#C" n="68"/>&amp; sic anima illa de non sancta, sive 
+        non<lb ed="#C" n="69" break="no"/>directa fuit facta sancta, &amp; dipecta; non 
+        <lb ed="#C" n="70"/>quod prius fuerit quantum ad 
+        duratio<lb ed="#C" n="71" break="no"/>nem, &amp; postea sauctitatem cacceperit, 
+        <lb ed="#C" n="72"/>Ssed quia simal cum esse recepit etiam, 
+        <lb ed="#C" n="73"/>sanctitatem, propter quam receptionem: 
+        <lb ed="#C" n="74"/>ad eam missio fuit facta. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e78766-Dd1e965">
+               <head xml:id="Gi9qrR-e78766-Hd1e967">Articulus 2</head>
+               <p xml:id="Gi9qrR-e78766-d1e970">
+                  <lb ed="#C" n="75"/>ARTICVLVS III. 
+        <lb ed="#C" n="76"/>Vtrummissio Personarum fuerit plenior post 
+        <lb ed="#C" n="77"/>Ctincarnationem; quam  
+        <lb ed="#C" n="78"/>anter 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e981">
+                  <lb ed="#C" n="79"/>SEcundo: quaeritur: utrum plenior 
+        <lb ed="#C" n="80"/>Tfuerit facta missio post 
+        incarnatio<lb ed="#C" n="81" break="no"/>nem, iquam ante?
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e990">
+        Et videtur quod  
+        <lb ed="#C" n="82"/>non: quiae actus activorum sunt in 
+        pa<lb ed="#C" n="83" break="no"/>tiente: &amp; disposito: sed ad 
+        recipien<lb ed="#C" n="84" break="no"/>dumSpiritum: Sanctum disponimur 
+        <lb ed="#C" n="85"/>perigratiam: cum ergo ante 
+        incarna<lb ed="#C" n="86" break="no"/>tionem fuiffeor homines pleni gratia, 
+        <lb ed="#C" n="87"/>non est nune mistio plenior.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1006">
+        Praeterea: 
+        <lb ed="#C" n="88"/>Aug. vult, quod caelibatus oannis non 
+        <lb ed="#C" n="89"/>praferatur conitigio Abrahae, ergo per  
+        <lb ed="#C" n="90"/>sonae in nove restamento non sunt 
+        ple<lb ed="#C" n="91" break="no"/>niores gratiamris, quae fuerunt in veteri. 
+        <lb ed="#C" n="92"/>Praeterea: Patres iveteris, testamenti 
+        <lb ed="#C" n="93"/>proponuntur nobis in exemplum; sed  
+        <lb ed="#C" n="94"/>hoc non esset, nisi in eis fuisset gratiaes 
+        <lb ed="#C" n="95"/>plenior, quam in nobis; ergo &amp;c. 
+        Pre<lb ed="#C" n="96" break="no"/>terea: Diony: 14. de Divin. nome 
+        asti<lb ed="#C" n="97" break="no"/>milat influetia Divina sumini Solis 
+        osten<lb ed="#C" n="98" break="no"/>dens, quod sicut Sofuniversaliter immit 
+        <lb ed="#C" n="99"/>tit racios suos, sic &amp; Deus universaliter 
+        <lb ed="#C" n="100"/>inffuit suam bonitatem, sed Sor nom 
+        <lb ed="#C" n="101"/>magis quantum est de se 
+        immittitra<lb ed="#C" n="102" break="no"/>dios uno tempore, quam alio:, ergon 
+        <lb ed="#C" n="103"/>non est pleniormi ssio bonitatis, &amp; 
+        gra<lb ed="#C" n="104" break="no"/>tiae nunc, quam priius. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1046">
+                  <lb ed="#C" n="105"/>Ini contrarium: est: quia termgtis 
+        <lb ed="#C" n="106"/>post invarnationem ivocatur plenstudts 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1053">
+                  <lb ed="#C" n="107"/>temporis iuxta illu d Apostoli: Atiubia 
+        <lb ed="#C" n="108"/>venit plenitudotemgo ris misit Deus Estnim 
+        <!--334.xml-->
+        <pb ed="#C" n="297"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>suum.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1069">
+        Praeteream: tota congregatio fide 
+        <lb ed="#C" n="2"/>lium assimilatur aetatibus unius 
+        homi<lb ed="#C" n="3" break="no"/>nis secundum diversa tempora; sed 
+        ho<lb ed="#C" n="4" break="no"/>mo est perfectior in aetatibus 
+        sequenti<lb ed="#C" n="5" break="no"/>bus, quam in prima, ergo perfectior 
+        <lb ed="#C" n="6"/>est status post incarnationem, quam 
+        <lb ed="#C" n="7"/>ante. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1085">
+                  <lb ed="#C" n="8"/>RESOLVTIO. 
+        <lb ed="#C" n="9"/>Missio Personarum plenior est post incarnatio¬ 
+        <lb ed="#C" n="10"/>nem quam ante: non ratione Personae 
+        <lb ed="#C" n="11"/>ad quam fit sed ratione status. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1096">
+                  <lb ed="#C" n="12"/>REspond. dicendum, quod 
+        secun<lb ed="#C" n="13" break="no"/>dum <name xml:id="Gi9qrR-e78766-Nd1e1102" ref="#Augustine">August.</name> 4. de Trin. capit.  
+        <lb ed="#C" n="14"/>penult. datio Spiritus post 
+        incarnatio<lb ed="#C" n="15" break="no"/>nem fuit plenior, quam ante. Nam 
+        <lb ed="#C" n="16"/>exponens illud loan. Spiritus non dum erat 
+        <lb ed="#C" n="17"/>datus, ostendit hoc esse intelligendum 
+        <lb ed="#C" n="18"/>quantum ad plenitudinem; non quia 
+        <lb ed="#C" n="19"/>nullo modo ante incarnationem datus 
+        <lb ed="#C" n="20"/>esset, sed quia non in tanta 
+        plenitudi<lb ed="#C" n="21" break="no"/>ne datus fuerat, in quanta postea datus 
+        <lb ed="#C" n="22"/>fuit. Vnde ait: Spiritus non erat datus 
+        quo<lb ed="#C" n="23" break="no"/>modo intelligitur, nisi quia certa illa 
+        Spiritu<lb ed="#C" n="24" break="no"/>Sancti datio, vel missio post clarificationem 
+        <lb ed="#C" n="25"/>Christi futura erat, qualis antea nunquam fue 
+        <lb ed="#C" n="26"/>rat, neque enim antea nulla erat, sed talis non 
+        <lb ed="#C" n="27"/>fuerat. Si enim antea Spiritus Sanctus non da 
+        <lb ed="#C" n="28"/>batur, quo impleti Prophetae locuti sunt? cum 
+        <lb ed="#C" n="29"/>aperte scriptura dicat, &amp; multis locis ostendat 
+        <lb ed="#C" n="30"/>Spiritu Sancto eos locutos fuisse: igitur 
+        Spi<lb ed="#C" n="31" break="no"/>ritus Sanctus datus erat, sed non in 
+        tan<lb ed="#C" n="32" break="no"/>ta plenitudine. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1147">
+                  <lb ed="#C" n="33"/>Tamen propter argumenta 
+        notan<lb ed="#C" n="34" break="no"/>dum, quod maior, &amp; minor 
+        plenitu<lb ed="#C" n="35" break="no"/>do dupliciter potest considerari, vel  
+        <lb ed="#C" n="36"/>ratione personae, vel ratione status: ra 
+        <lb ed="#C" n="37"/>tione enim personae fuit plenior, &amp; 
+        <lb ed="#C" n="38"/>minus plena secundum quod personae 
+        <lb ed="#C" n="39"/>novi, &amp; veteris testamenti se magis, &amp; 
+        <lb ed="#C" n="40"/>minus in gratia excedebant, &amp; 
+        secun<lb ed="#C" n="41" break="no"/>dum istam viam caelibatus loan. non 
+        <lb ed="#C" n="42"/>praefertur coniugio Abrahae rationes 
+        <lb ed="#C" n="43"/>gratiae personalis. Sed si secundum 
+        sta<lb ed="#C" n="44" break="no"/>tum veteris, &amp; novi testamenti 
+        com<lb ed="#C" n="45" break="no"/>parare volumus, status post 
+        incarnatio<lb ed="#C" n="46" break="no"/>nem. dicitur plenior, &amp; potissime pos 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1181">
+                  <lb ed="#C" n="47"/>passionem Christi: quia debitum, 
+        ra<lb ed="#C" n="48" break="no"/>tione cuius natura humana erat 
+        obno<lb ed="#C" n="49" break="no"/>xia Principi tenebrarum, per mortem 
+        <lb ed="#C" n="50"/>Christi est per solutum ratione cuius ad 
+        <lb ed="#C" n="51"/>suscipiendam gratiam efficimur 
+        aptio<lb ed="#C" n="52" break="no"/>r es, 
+        <!--334.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="53"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="54" break="no"/>cendum, quod licet personae ante 
+        in<lb ed="#C" n="55" break="no"/>carnationem essent aeque dispositae ut  
+        <lb ed="#C" n="56"/>post, erant ratione gratiae personalis; 
+        <lb ed="#C" n="57"/>non secundum quod statui 
+        compete<lb ed="#C" n="58" break="no"/>bat. Nam nihil prohibet religiosos, 
+        <lb ed="#C" n="59"/>quantum ad statum saecularibus esse 
+        per<lb ed="#C" n="60" break="no"/>fectiores; aliquam tamem 
+        saecularemper<lb ed="#C" n="61" break="no"/>sonam gratia personali religiosos 
+        om<lb ed="#C" n="62" break="no"/>nes, vel saltem aliquos superare. Et per 
+        <lb ed="#C" n="63"/>hoc patet solutio ad 2. quia arguit de 
+        <lb ed="#C" n="64"/>gratia personali; per hoc etiam tertium 
+        <lb ed="#C" n="65"/>est solutum: quia non proponuntur  
+        <lb ed="#C" n="66"/>nobis in exemplum, ut eos imitari 
+        de<lb ed="#C" n="67" break="no"/>beamus ratione status, sed ratione 
+        per<lb ed="#C" n="68" break="no"/>sonae.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1236">
+        Ad 4. dicendum, quod non est 
+        <lb ed="#C" n="69"/>omnino simile de influentia luminis 
+        <lb ed="#C" n="70"/>solaris, &amp; de influentia bonitatis 
+        Divi<lb ed="#C" n="71" break="no"/>nae: quia Deus secundum praescientiam 
+        <lb ed="#C" n="72"/>suam, &amp; praeordinationem aliquos 
+        <lb ed="#C" n="73"/>praeordinavit ad maiorem gratiam, 
+        ali<lb ed="#C" n="74" break="no"/>quos ad minorem. Vel dicere 
+        possu<lb ed="#C" n="75" break="no"/>mus, quod sicut Sol propter 
+        interpo<lb ed="#C" n="76" break="no"/>sitionem nubis non potest efundere 
+        ra<lb ed="#C" n="77" break="no"/>dios aeque plene, ita in veteri testamem 
+        <lb ed="#C" n="78"/>to: quia non erat solutum debitum hu 
+        <lb ed="#C" n="79"/>manae naturae, quoddam obstaculum, 
+        <lb ed="#C" n="80"/>&amp; quasi quaedam nubes inter Deum, &amp; 
+        <lb ed="#C" n="81"/>homines erat posita: propter quod 
+        tem<lb ed="#C" n="82" break="no"/>pus illud non merebatur dici tempus, 
+        <lb ed="#C" n="83"/>plenitudinis. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e78766-Dd1e1273">
+               <head xml:id="Gi9qrR-e78766-Hd1e1275">Articulus 3</head>
+               <p xml:id="Gi9qrR-e78766-d1e1278">
+                  <lb ed="#C" n="84"/>ARTICVLUS III. 
+        <lb ed="#C" n="85"/>Vtrum per missionem Divinae Personae in me¬ 
+        <lb ed="#C" n="86"/>tem anima abstrahatur a corpore?
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1287">
+                  <lb ed="#C" n="87"/>TErtio quaeritur: utrum per mis¬ 
+        <lb ed="#C" n="88"/>sionem Divinae Personae anima. 
+        <lb ed="#C" n="89"/>abstrahatur a corpore propter quod  
+        <lb ed="#C" n="90"/>possit dici, quod sit in caelo, &amp; non in 
+        <lb ed="#C" n="91"/>mundo?
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1300">
+        Et videtur quod sic: quia 
+        se<lb ed="#C" n="92" break="no"/>cundum quod legitur Math. 6. Vbi est 
+        <lb ed="#C" n="93"/>thesaurus tuus ibi est &amp; cor tuum; sed ex eo 
+        <lb ed="#C" n="94"/>quod Divina Persona mittitur ad 
+        ho<lb ed="#C" n="95" break="no"/>minem: quia ex hoc inardescit homo 
+        <lb ed="#C" n="96"/>in amorem Dei facit, quod homo 
+        ha<lb ed="#C" n="97" break="no"/>beat Deum tanquam suum thesaurum, 
+        <lb ed="#C" n="98"/>ergo in Deo, &amp; in caelo erat eor suum 
+        <lb ed="#C" n="99"/>cum ibi sit thesaurus suus; sed ubi est 
+        <lb ed="#C" n="100"/>cor hominis ibi est &amp; anima, ergo &amp;c. 
+        <lb ed="#C" n="101"/>Praeterea: secundum Apost. ad Phil. 2. 
+        <lb ed="#C" n="102"/>Nostra conversatio in caelis est: sed hoc non 
+        <lb ed="#C" n="103"/>erat nisi ratione gratiae existentis in eo, 
+        <lb ed="#C" n="104"/>vel ratione Personae Divinae adeum 
+        <lb ed="#C" n="105"/>misse, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1333">
+        Praeterea: secundum 
+        <!--335.xml-->
+        <pb ed="#C" n="298"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Damasc. 1. lib: cap. 16. Spiritum esse 
+        <lb ed="#C" n="2"/>in loco est ipsum operari ibidem, sed  
+        <lb ed="#C" n="3"/>cum anima habeat operationem in 
+        ce<lb ed="#C" n="4" break="no"/>lo, eo quod intelligit caelestia, ergo per 
+        <lb ed="#C" n="5"/>missionem Divinae Persone, cum per 
+        <lb ed="#C" n="6"/>eam trahatur ad considerationem 
+        coe<lb ed="#C" n="7" break="no"/>lestium, in coelis erit 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1358">
+                  <lb ed="#C" n="8"/>In contrarium est: quia idem est 
+        <lb ed="#C" n="9"/>esse animae &amp; corporis, quandiu est 
+        <lb ed="#C" n="10"/>corpori coniuncta, sed cum corpus sit 
+        <lb ed="#C" n="11"/>in hoc mundo, quantumcunque fiat 
+        <lb ed="#C" n="12"/>missio Divinae Personae, per talem 
+        mis<lb ed="#C" n="13" break="no"/>sionem anima a mundo non dicetur  
+        <lb ed="#C" n="14"/>abstracta.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1376">
+        Praeterea: ad hoc idem facit: 
+        <lb ed="#C" n="15"/>quia nulla forma extendit se extra ma 
+        <lb ed="#C" n="16"/>teriam propriam, sed cum forma 
+        cor<lb ed="#C" n="17" break="no"/>poris sit anima, extra corpus se non 
+        ex<lb ed="#C" n="18" break="no"/>tendet.  
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1387">
+                  <lb ed="#C" n="19"/>RESOLVTIO. 
+        <lb ed="#C" n="20"/>Anima per missionem Divinae Personae, secundum 
+        <lb ed="#C" n="21"/>esse naturale in mundo est, sed  
+        <lb ed="#C" n="22"/>per amoris, inhaerentiam po¬ 
+        <lb ed="#C" n="23"/>tius in caelo est. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1400">
+                  <lb ed="#C" n="24"/>REspond. Quidam sic dicunt, quod  
+        <lb ed="#C" n="25"/>Danima dupliciter comparari 
+        po<lb ed="#C" n="26" break="no"/>test, &amp; ad corpus, quod informat, &amp; 
+        <lb ed="#C" n="27"/>ad obiectum, cui conformatur, a quo 
+        <lb ed="#C" n="28"/>recipit perfectionem, igitur anima 
+        <lb ed="#C" n="29"/>essentialiter erit ubi est corpus, sed per 
+        <lb ed="#C" n="30"/>quamdam conformitatem est ubi 
+        obie<lb ed="#C" n="31" break="no"/>ctum suum esse habet: &amp; quia prout con 
+        <lb ed="#C" n="32"/>siderat de caelestibus conformatur cae 
+        <lb ed="#C" n="33"/>lestibus; secundum talem co 
+        nformita<lb ed="#C" n="34" break="no"/>tem, &amp; non essentialiter habet 
+        verita<lb ed="#C" n="35" break="no"/>tem: quia dicit Apost. Nostra conversatio 
+        <lb ed="#C" n="36"/>est in caelis. Sed illud non est bene dictum 
+        <lb ed="#C" n="37"/>nam si propter hoc, quod aliquid 
+        con<lb ed="#C" n="38" break="no"/>formatur alicui diceretur esse in illo 
+        <lb ed="#C" n="39"/>tunc oculus videns parietem diceretur. 
+        <lb ed="#C" n="40"/>esse in pariete, quod nullo modo est 
+        <lb ed="#C" n="41"/>verum; immo contrarium aliquo 
+        mo<lb ed="#C" n="42" break="no"/>do veritatem habet: quia paries, 
+        quo<lb ed="#C" n="43" break="no"/>dam modo est in oculo, secundum 
+        er<lb ed="#C" n="44" break="no"/>go quod caelestia intelligimus &amp; 
+        con<lb ed="#C" n="45" break="no"/>formamur caelestibus, nullo modo 
+        pos<lb ed="#C" n="46" break="no"/>sumus dicere esse in caelestibus, sed  
+        <lb ed="#C" n="47"/>quod caelestia sint in nobis. Assignare 
+        <lb ed="#C" n="48"/>igitur quare nostra conversatio est in 
+        <lb ed="#C" n="49"/>caelis: quia de caelestibus cogitando 
+        <lb ed="#C" n="50"/>caelestibus conformamur, licet alique 
+        <lb ed="#C" n="51"/>modo arguatur oppositum, quod 
+        cae<lb ed="#C" n="52" break="no"/>lessia sint in nobis; non tamen 
+        ar<lb ed="#C" n="53" break="no"/>guitur propositum, quod nostra 
+        <lb ed="#C" n="54"/>conversatio sit in caelis, 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1470">
+                  <lb ed="#C" n="55"/>Propter hoc notandum, quod ali¬ 
+        <!--335.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="56"/>quid dicitur verius esse alicubi, quam 
+        <lb ed="#C" n="57"/>alibi triplici ratione. Primo: si illuo 
+        <lb ed="#C" n="58"/>competit ei ratione speciei, vel natura 
+        <lb ed="#C" n="59"/>specialis, aliud autem ratione esse 
+        com<lb ed="#C" n="60" break="no"/>munis: nam sicut diceretur, quod 
+        ve<lb ed="#C" n="61" break="no"/>rius competeret triangulo, quod an 
+        <lb ed="#C" n="62"/>guli intrinseci valerent duos rectos, 
+        <lb ed="#C" n="63"/>quam extrinseci quatuor: quia istud 
+        <lb ed="#C" n="64"/>competit ei ratione esse specifici, &amp; quia 
+        <lb ed="#C" n="65"/>triangulus aliud est secundum esse 
+        con<lb ed="#C" n="66" break="no"/>mune, &amp; quia figura rectilinea: sic si 
+        <lb ed="#C" n="67"/>aliquid diceretur esse in pluribus locis 
+        <lb ed="#C" n="68"/>in quorum uno esset secudum esse 
+        spe<lb ed="#C" n="69" break="no"/>ciale, in alio secundum esse commune 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1509">
+                  <lb ed="#C" n="70"/>verius diceretur esse ubi esset secudum 
+        <lb ed="#C" n="71"/>esse speciale, quam secudum esse 
+        commune<lb ed="#C" n="72" break="no"/>Secundo hoc pote stcontingere ex eo 
+        <lb ed="#C" n="73"/>quod esse, quod habet in uno loco (ut 
+        <lb ed="#C" n="74"/>accipimus esse in loco large ad omne 
+        <lb ed="#C" n="75"/>id, secundum quod aliquid est in 
+        ali<lb ed="#C" n="76" break="no"/>quo) est esse verius &amp; nobilius, quam 
+        <lb ed="#C" n="77"/>quod habeat in alio, &amp; sic dicitur crea 
+        <lb ed="#C" n="78"/>tura verius esse in Creatore, quam in se 
+        <lb ed="#C" n="79"/>ipsa: quia creatura in Creatore non est 
+        <lb ed="#C" n="80"/>aliud quam creatrix essentia. Cum 
+        igi<lb ed="#C" n="81" break="no"/>tur esse increatum sit verius, quam 
+        <lb ed="#C" n="82"/>esse creatum, verius est creatura in 
+        <lb ed="#C" n="83"/>Creatore, quam in se ipsa. Tertio mo 
+        <lb ed="#C" n="84"/>do hoc contingit quando aliquid 
+        secun<lb ed="#C" n="85" break="no"/>dum unam sui partem est in uno loco, 
+        <lb ed="#C" n="86"/>&amp; secundum aliam in alio, ubi autem 
+        <lb ed="#C" n="87"/>est secundum nobiliorem partem est 
+        <lb ed="#C" n="88"/>verius: quia semper res magis est 
+        no<lb ed="#C" n="89" break="no"/>bilius quod est in ea, quam vilius: 
+        un<lb ed="#C" n="90" break="no"/>de homo secundum Philosophum in 0. Ethic 
+        <lb ed="#C" n="91"/>magis est intellectus, quam sensus. 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1560">
+                  <lb ed="#C" n="92"/>Hoc viso sciendum, quod anim 
+        <lb ed="#C" n="93"/>caelestia diligens est in caelo, &amp; est in 
+        <lb ed="#C" n="94"/>terra: in terra est secundum esse natu 
+        <lb ed="#C" n="95"/>rale, ut corpus informat; in caelo es 
+        <lb ed="#C" n="96"/>secundum quamdam adhaerentiam, &amp; 
+        <lb ed="#C" n="97"/>amoris connexionem. Nam, ut habi 
+        <lb ed="#C" n="98"/>tum est, amori competit transformar 
+        <lb ed="#C" n="99"/>amantem in amatum, &amp; ponere ipsum 
+        <lb ed="#C" n="100"/>extra se, &amp; in amato collocare. Non 
+        <lb ed="#C" n="101"/>igitur per conformitatem, quam 
+        ha<lb ed="#C" n="102" break="no"/>bet anima secundum intellectum ad 
+        <lb ed="#C" n="103"/>caelestia, est in caelo, sed caelum in ipsa 
+        <lb ed="#C" n="104"/>sed secundum adhaerentiam, quam 
+        ha<lb ed="#C" n="105" break="no"/>bet per amorem, in caelestibus 
+        conver<lb ed="#C" n="106" break="no"/>satur, &amp; licet sit in caelo, &amp; interra 
+        <lb ed="#C" n="107"/>verius potest dici, quod sit in caelo 
+        <lb ed="#C" n="108"/>quam in terra propter triplicem 
+        ratio<lb ed="#C" n="109" break="no"/>nem tactam. Nam esse in corpore com 
+        <lb ed="#C" n="110"/>petit ei secundum quod forma, &amp; 
+        ali<lb ed="#C" n="111" break="no"/>quo modo secundum esse commune: 
+        <!--336.xml-->
+        <pb ed="#C" n="299"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>quia sicut se habet quaelibet forma ad 
+        <lb ed="#C" n="2"/>materiam suam; quia dat ei esse, &amp; 
+        ta<lb ed="#C" n="3" break="no"/>le esse; propter quod est ubi existit sua 
+        <lb ed="#C" n="4"/>materia, ita se habet ad suum 
+        corpu<lb ed="#C" n="5" break="no"/>anima: quia dat ei esse &amp; tale esse, 
+        <lb ed="#C" n="6"/>propter quod est ubi suum corpus 
+        exi<lb ed="#C" n="7" break="no"/>stit; sed esse in Caelo per appetitum 
+        in<lb ed="#C" n="8" break="no"/>tellectivum competit ei, &amp; secundum 
+        <lb ed="#C" n="9"/>esse speciale inquantum est 
+        intellectua<lb ed="#C" n="10" break="no"/>lis naturae, igitur verius est in 
+        Caelo<lb ed="#C" n="11" break="no"/>quam in terra: quia sic esse competit 
+        <lb ed="#C" n="12"/>ei magis secundum esse specificum. 
+        <lb ed="#C" n="13"/>Rursum esse, quod habet in Caelo 
+        <lb ed="#C" n="14"/>est nobilius, quam esse, quod habet in 
+        <lb ed="#C" n="15"/>terra, propter quod secundo est ibi ivi 
+        <lb ed="#C" n="16"/>rius, quam in terra. Tertio in Caelo es 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1647">
+                  <lb ed="#C" n="17"/>secundum voluntatem, quod est 
+        nobi<lb ed="#C" n="18" break="no"/>lius in anima: &amp; ideo verius ibi, quia 
+        <lb ed="#C" n="19"/>est ibi secundum nobiliorem partem 
+        <lb ed="#C" n="20"/>&amp; quantum ad hoc verum est quod 
+        an<lb ed="#C" n="21" break="no"/>ma verius est ubi amat, quam ubi 
+        ani<lb ed="#C" n="22" break="no"/>mat: quia ibi est secundum 
+        nobilio<lb ed="#C" n="23" break="no"/>rem partem, ut secundum mentem. ¬ 
+        <lb ed="#C" n="24"/>quia missio invisibilis facit nos habere 
+        <lb ed="#C" n="25"/>quemdam saporem, &amp; amorem ad 
+        <lb ed="#C" n="26"/>Divina, propterea dici possumus non 
+        <lb ed="#C" n="27"/>esse in hoc mundo. Ideo bene dictum 
+        <lb ed="#C" n="28"/>est, quod secundum quod aliquid aeter 
+        <lb ed="#C" n="29"/>num mente capimus, non in hoc mun 
+        <lb ed="#C" n="30"/>do sumus; &amp; omnium iustorum 
+        Spiri<lb ed="#C" n="31" break="no"/>tus etiam adhuc in carne viventium 
+        in<lb ed="#C" n="32" break="no"/>quantum Divina sapiunt, non sunt in 
+        <lb ed="#C" n="33"/>hoc mundo. Patet igitur, quomodo 
+        <lb ed="#C" n="34"/>anima secundum esse naturale, quod 
+        <lb ed="#C" n="35"/>habet, est in hoc mundo, &amp; sic 
+        pro<lb ed="#C" n="36" break="no"/>cedebant, argumenta, in contrarium, 
+        <lb ed="#C" n="37"/>sed per quamdam amoris adhaerentiam 
+        <lb ed="#C" n="38"/>non est in hoc mundo 
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1697">
+                  <lb ed="#C" n="39"/>Et per hoc solvuntur duae primae 
+        <lb ed="#C" n="40"/>rationes.
+      </p>
+               <p xml:id="Gi9qrR-e78766-d1e1704">
+        Ad 3. argumentum de 
+        Da<lb ed="#C" n="41" break="no"/>masc. dicendum, quod non est simile 
+        <lb ed="#C" n="42"/>de operatione Angeli, &amp; operatione 
+        <lb ed="#C" n="43"/>intellectus nostri: quia illa est operatio 
+        <lb ed="#C" n="44"/>activa; intellectus autem noster, &amp; 
+        <lb ed="#C" n="45"/>voluntas in suis actibus competit eis 
+        <lb ed="#C" n="46"/>quidam modus passionis, unde intel¬ 
+        <!--336.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="47"/>ligendo lapidem magis operatur lapis 
+        <lb ed="#C" n="48"/>in intellectu, quam intellectus in 
+        ip<lb ed="#C" n="49" break="no"/>sum.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

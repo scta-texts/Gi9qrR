@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="162"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e43420"><!-- l1-d8p1q2 -->
+            <head xml:id="Gi9qrR-e43420-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-e43420-d1e111">
+               <lb ed="#C" n="13"/>QUAESTIO II. 
+      <lb ed="#C" n="14"/>De mensura Divini esse. 
+      <lb ed="#C" n="15"/>POSTEA quaeritur de mensura Di¬ 
+    </p>
+            <p xml:id="Gi9qrR-e43420-d1e120">
+               <lb ed="#C" n="16"/>vini esse. Et circa hoc quaeruntur  
+      <lb ed="#C" n="17"/>duo. 1. de Divino esse, ut est mensura 
+      <lb ed="#C" n="18"/>aliorum. 2. prout ipsum Divinum esse 
+      <lb ed="#C" n="19"/>habet aliquomodo rationem 
+      mensura<lb ed="#C" n="20" break="no"/>ti. Circa primum quaeruntur tria. 1. utrum 
+      <lb ed="#C" n="21"/>Divinum esse sive Deus sit mensura om 
+      <lb ed="#C" n="22"/>nium substantiarum? 2. utrum sit 
+      men<lb ed="#C" n="23" break="no"/>sura omnium entium? 3. utrum 
+      dica<lb ed="#C" n="24" break="no"/>tur mensura proprie. 
+    </p>
+            <div xml:id="Gi9qrR-e43420-Dd1e142">
+               <head xml:id="Gi9qrR-e43420-Hd1e144">Articulus 1</head>
+               <p xml:id="Gi9qrR-e43420-d1e147">
+                  <lb ed="#C" n="25"/>ARTICVLVS I. 
+        <lb ed="#C" n="26"/>Vtrum Deus sit mensura omnium substantiarum?
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e154">
+                  <lb ed="#C" n="27"/>AD primum sic proceditur. Vide¬ 
+        <lb ed="#C" n="28"/>tur quod Deus non sit mensura 
+        <lb ed="#C" n="29"/>omnium substantiarum: quia secundum 
+        <lb ed="#C" n="30"/>Phil. in 10. Metaph. Mensura est unigenea 
+        <lb ed="#C" n="31"/>mensurato, sed Deus non est eiusdem 
+        ge<lb ed="#C" n="32" break="no"/>neris cum substantijs creatis, ergo &amp;c. 
+        <lb ed="#C" n="33"/>Praeterea: aliquarum substantiarum 
+        <lb ed="#C" n="34"/>mensura est tempus, sive nunc 
+        tempo<lb ed="#C" n="35" break="no"/>ris: quia Omnia mobilia, &amp; corruptibilia 
+        <lb ed="#C" n="36"/>mensurantur tempore secundum Philos. 4. 
+        <lb ed="#C" n="37"/>Phys. cum igitur Deus non habeat 
+        ra<lb ed="#C" n="38" break="no"/>tionem temporis, &amp; variabilis, non est 
+        <lb ed="#C" n="39"/>mensura omnium substantiarum. 
+        Prae<lb ed="#C" n="40" break="no"/>terea: diversorum generum quaerimus 
+        <lb ed="#C" n="41"/>diversas mensuras: unde non est una 
+        <lb ed="#C" n="42"/>mensura colorum, &amp; ponderum: quia 
+        <lb ed="#C" n="43"/>secundum Phil. 10. Metaph. Si omnia 
+        en<lb ed="#C" n="44" break="no"/>tia essent colores, album esset mensura eorum: 
+        <lb ed="#C" n="45"/>&amp; si pondera uncia. Sed non minus distant 
+        <lb ed="#C" n="46"/>a se invicem substantiae creatae, quam 
+        <lb ed="#C" n="47"/>pondus &amp; color; immo plus: quia 
+        pon<lb ed="#C" n="48" break="no"/>dus &amp; color utrumque corporale est, sed  
+        <!--199.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="49"/>aliqua substantia creata est corporalis, 
+        <lb ed="#C" n="50"/>aliqua spiritualis, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e213">
+        Praeterea: 
+        <lb ed="#C" n="51"/>omnia mensurantur minimo sui 
+        gene<lb ed="#C" n="52" break="no"/>ris, &amp; oportet esse proportionem inter 
+        <lb ed="#C" n="53"/>mensuratum &amp; mensuram, sed Dei ad 
+        <lb ed="#C" n="54"/>creaturas non est proportio, cum unum 
+        <lb ed="#C" n="55"/>sit finitum, aliud infinitum, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e226">
+                  <lb ed="#C" n="56"/>In contrarium est Phil. 10. Metaph. 
+        <lb ed="#C" n="57"/>qui vult quod oportet quaerere unam 
+        substan<lb ed="#C" n="58" break="no"/>tiam mensuram omnium substantiarum: &amp; ista est Deus 
+        <lb ed="#C" n="59"/>secundum Comm.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e238">
+        Praeterea: primus co 
+        <lb ed="#C" n="60"/>lor est mensura omnium colorum, ergo 
+        <lb ed="#C" n="61"/>prima substantia est mensura omnium 
+        <lb ed="#C" n="62"/>substantiarum, sed prima substantia, 
+        se<lb ed="#C" n="63" break="no"/>cundum quod mensurae competit 
+        pri<lb ed="#C" n="64" break="no"/>mum, ratione simplicitatis dicitur ipse  
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e251">
+                  <lb ed="#C" n="65"/>Deus, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e256">
+                  <lb ed="#C" n="66"/>RESOLVTIO. 
+        <lb ed="#C" n="67"/>Deus omnium substantiarum est mensura.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e263">
+                  <lb ed="#C" n="68"/>REspond. dicendum, quod oportet 
+        <lb ed="#C" n="69"/>nos dare aliquam substantiam esse 
+        <lb ed="#C" n="70"/>mensuram omnium substantiarum: &amp; 
+        <lb ed="#C" n="71"/>quod ista substantia est una, &amp; quod 
+        ta<lb ed="#C" n="72" break="no"/>lis una substantia est Deus. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e276">
+                  <lb ed="#C" n="73"/>Primum sic patet. Nam duplex est  
+        <lb ed="#C" n="74"/>causa, quare nos quaerimus mensuram 
+        <lb ed="#C" n="75"/>in entibus. Primo, ex eo quod reperitur 
+        <lb ed="#C" n="76"/>ordo essentialis in eis: quia ex eo quod 
+        <lb ed="#C" n="77"/>colores secundum quemdam ordinem 
+        <lb ed="#C" n="78"/>participant gradus lucis, quaerimus unum 
+        <lb ed="#C" n="79"/>colorem mensuram omnium colorum, 
+        <lb ed="#C" n="80"/>ut ille color, qui plus habet de luce. Ille 
+        <lb ed="#C" n="81"/>autem ordo essentialiter non reperitur,  
+        <lb ed="#C" n="82"/>In eadem specie: &amp; ideo non quaerimus 
+        <lb ed="#C" n="83"/>unum album mensuram omnium 
+        albo<lb ed="#C" n="84" break="no"/>rum, quia licet secundum gradus in esse sit 
+        <lb ed="#C" n="85"/>ordo inter alba; secudum gradus in 
+        essen<lb ed="#C" n="86" break="no"/>tia non est ordo inter ipsa: &amp; quia 
+        men<lb ed="#C" n="87" break="no"/>sura dicit ordinem essentialem &amp; per se: 
+        <lb ed="#C" n="88"/>quia essentialiter &amp; per se habent 
+        ordi<lb ed="#C" n="89" break="no"/>nem mensurata ad mensuram: ideo 
+        <lb ed="#C" n="90"/>inter ea, in quibus mesuram quaerimus, 
+        <lb ed="#C" n="91"/>esse oportet essentialem analogiam. 
+        Se<lb ed="#C" n="92" break="no"/>cundo, mensuram quaerimus in 
+        enti<lb ed="#C" n="93" break="no"/>bus: quia ad perfectionem entis creati 
+        <lb ed="#C" n="94"/>pertinet mensuratio. Nam sicut esse 
+        Di<lb ed="#C" n="95" break="no"/>vinum est dignum, &amp; perfectum: quia 
+        <lb ed="#C" n="96"/>est sine mensura, ita creatum est 
+        perfe<lb ed="#C" n="97" break="no"/>ctum in suo genere, eo quod est 
+        men<lb ed="#C" n="98" break="no"/>suratum: ut patuit cum disputavimus 
+        <lb ed="#C" n="99"/>de vestigio. Et quia maior est analogia 
+        <lb ed="#C" n="100"/>inter substantias, quam inter colores; &amp; 
+        <lb ed="#C" n="101"/>substantiae sunt dgniores coloribus &amp; 
+        <!--200.xml-->
+        <pb ed="#C" n="163"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>alijs passionibus &amp; quantitatibus: ide 
+        <lb ed="#C" n="2"/>si quaerimus aliquam mensuram om 
+        <lb ed="#C" n="3"/>nium eorum, debemus quaerere 
+        sub<lb ed="#C" n="4" break="no"/>stantiam omnium substantiarum. Prop 
+        <lb ed="#C" n="5"/>ter hoc dicitur 10. Metaph. Erg. 
+        <lb ed="#C" n="6"/>si in passionibus, &amp; qualitatibus, &amp; in 
+        quan<lb ed="#C" n="7" break="no"/>titabus &amp; in motu quaerimus aliquid nume 
+        <lb ed="#C" n="8"/>rum &amp; mensuram eorum, &amp; non est hoc in 
+        <lb ed="#C" n="9"/>substantia. Et sequitur &amp; in substantijs ne 
+        <lb ed="#C" n="10"/>cesse est similiter se habere: quasi diceret 
+        dig<lb ed="#C" n="11" break="no"/>nius est quod in substantijs quaeramus 
+        ta<lb ed="#C" n="12" break="no"/>lem mensuram, quam in passionibus 
+        <lb ed="#C" n="13"/>quia sunt digniores eis, &amp; magis per ana 
+        <lb ed="#C" n="14"/>logiam dictae. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e378">
+                  <lb ed="#C" n="15"/>Est autem aliqua substantia mensura 
+        <lb ed="#C" n="16"/>substantiarum una: quod 2. propone 
+        <lb ed="#C" n="17"/>batur. Nam mensura dicitur esse quid 
+        <lb ed="#C" n="18"/>certum: cum non contingat nec 
+        addi<lb ed="#C" n="19" break="no"/>tio, nec diminutio: quod ex eodem 
+        <lb ed="#C" n="20"/>10. haberi potest. Hoc autem cum sit 
+        <lb ed="#C" n="21"/>quid simplicissimum, &amp; primum 
+        sem<lb ed="#C" n="22" break="no"/>per est unum de se, nisi per accidens 
+        plu<lb ed="#C" n="23" break="no"/>rificetur: in substantijs autem primis, &amp; 
+        <lb ed="#C" n="24"/>maxime in omnino prima non est 
+        ali<lb ed="#C" n="25" break="no"/>quid per accidens, ut potest haberi ex 7. 
+        <lb ed="#C" n="26"/>Metaph. Item semper mensura est una 
+        <lb ed="#C" n="27"/>secundum speciem, &amp; numerum 
+        respe<lb ed="#C" n="28" break="no"/>ctu omnium mensuratorum, sicut es 
+        <lb ed="#C" n="29"/>unus color secundum speciem mensura 
+        <lb ed="#C" n="30"/>omnium colorum, ut album. Sed 
+        i<lb ed="#C" n="31" break="no"/>substantijs simplicibus non est 
+        plurifica<lb ed="#C" n="32" break="no"/>tio secundum numerum in eadem 
+        spe<lb ed="#C" n="33" break="no"/>cie. Cum igitur mensuram substantiarum 
+        <lb ed="#C" n="34"/>oporteat esse substantiam simplicem: 
+        <lb ed="#C" n="35"/>quia omnia mensurantur minimo sui 
+        <lb ed="#C" n="36"/>generis, mensuram substantiarum 
+        opor<lb ed="#C" n="37" break="no"/>tet esse aliquam unam substantiam, non 
+        <lb ed="#C" n="38"/>solum unam secundum naturam, sed  
+        <lb ed="#C" n="39"/>etiam unam simpliciter,  
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e436">
+                  <lb ed="#C" n="40"/>Quod autem ista substantia sit Deus 
+        <lb ed="#C" n="41"/>de levi patere potest. Nam ut tactum 
+        <lb ed="#C" n="42"/>est, isti substantiae non convenit nec 
+        ad<lb ed="#C" n="43" break="no"/>ditio, nec diminutio, &amp; non est in ea 
+        <lb ed="#C" n="44"/>aliquid per accidens, &amp; est prima sub 
+        <lb ed="#C" n="45"/>stantiarum. Huiusmodi autem est solum 
+        <lb ed="#C" n="46"/>primum: quia solum ei nullo modo 
+        con<lb ed="#C" n="47" break="no"/>venit nec additio, nec diminutio, ut  
+        <lb ed="#C" n="48"/>patet per <name xml:id="Gi9qrR-e43420-Nd1e457" ref="#Augustine">Aug.</name> S de Trin. cap. 3. nec in 
+        <lb ed="#C" n="49"/>eo est aliquid per accidens, &amp; est prima 
+        <lb ed="#C" n="50"/>substantiarum: quia simplicissima, &amp; 
+        <lb ed="#C" n="51"/>quanto simplicius aliquid tanto prius, 
+        <lb ed="#C" n="52"/>Patet igitur quod est aliqua substantia 
+        <lb ed="#C" n="53"/>mensura omnium substantiarum, &amp; hec 
+        <lb ed="#C" n="54"/>est una, &amp; est Deus ipse. Vnde Comm. 
+        <lb ed="#C" n="55"/>in 10. Metaph. ait: quod Sicut in 
+        colori<lb ed="#C" n="56" break="no"/>bus est unus color mensura colorum, ita in sub¬ 
+        <!--200.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>stantiis est una substantia mensura omnium 
+        sub<lb ed="#C" n="58" break="no"/>stantiarum, &amp; ita est primus motor, aeternus, 
+        <lb ed="#C" n="59"/>absolutus ab omni materia, actus vltimus, cur  
+        <lb ed="#C" n="60"/>non admiscetur potentia omnino, scilicet Deus 
+        <lb ed="#C" n="61"/>ipse.  
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e494">
+                  <lb ed="#C" n="62"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="63" break="no"/>dum, quod mensura dicitur esse eiusdem 
+        <lb ed="#C" n="64"/>generis, cum mensurato, non proprie 
+        <lb ed="#C" n="65"/>accipiendo genus, sed dicitur esse in 
+        eo<lb ed="#C" n="66" break="no"/>dem genere ratione cuiusdam analogiae 
+        <lb ed="#C" n="67"/>&amp; unigeneitatis, quae est inter ipsa. Ad 
+        <lb ed="#C" n="68"/>secundum dicendum, quod licet 
+        substan<lb ed="#C" n="69" break="no"/>tiae mensurentur tempore, in eo quod 
+        <lb ed="#C" n="70"/>mobiles sunt; mensurantur tamen prima 
+        <lb ed="#C" n="71"/>substantia in eo quod substantiae sunt: &amp; 
+        <lb ed="#C" n="72"/>unius &amp; eiusdem secundum diversos 
+        <lb ed="#C" n="73"/>modos accipiendi non est inconveniens 
+        <lb ed="#C" n="74"/>esse diversas mensuras: unde 10. Meta 
+        <lb ed="#C" n="75"/>ph. dicitur: quod Non semper quaerenda est 
+        <lb ed="#C" n="76"/>una mensura, sed aliquando plures. Ad tertium 
+        <lb ed="#C" n="77"/>dicendum, quod diversorum in eo quod 
+        <lb ed="#C" n="78"/>diversa quaerimus diversas mensuras; sed 
+        <lb ed="#C" n="79"/>diversorum inquantum habent esse unum 
+        <lb ed="#C" n="80"/>quaerimus unam: nam omnium entiu 
+        <lb ed="#C" n="81"/>in eo quod entia, unam mensuram 
+        quae<lb ed="#C" n="82" break="no"/>rimus.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e542">
+        Ad 4. dicendum, quod licet in 
+        <lb ed="#C" n="83"/>ter Deum &amp; substantias creatas non 
+        si<lb ed="#C" n="84" break="no"/>proportio commensurationis, est tamer 
+        <lb ed="#C" n="85"/>ibi proportio ordinis, &amp; hoc sufficit ad 
+        <lb ed="#C" n="86"/>rationem mensurae. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e43420-Dd1e554">
+               <head xml:id="Gi9qrR-e43420-Hd1e556">Articulus 2</head>
+               <p xml:id="Gi9qrR-e43420-d1e559">
+                  <lb ed="#C" n="87"/>ARTICVLVS II. 
+        <lb ed="#C" n="88"/>Vtrum Deus sit mensura omnium entium? 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e566">
+                  <lb ed="#C" n="89"/>SEcundo quaeritur utrum Deus sit 
+        <lb ed="#C" n="90"/>mensura omnium entium? Et vide 
+        <lb ed="#C" n="91"/>tur quod non: quia non est eadem men 
+        <lb ed="#C" n="92"/>sura partis, &amp; totius, ut non est eadem 
+        <lb ed="#C" n="93"/>mensura colorum, &amp; entium: cum 
+        igi<lb ed="#C" n="94" break="no"/>tur substantia sit pars entis, non est 
+        ea<lb ed="#C" n="95" break="no"/>dem mensura substantiarum &amp; entium. 
+        <lb ed="#C" n="96"/>sed Deus est mensura substantiarum, 
+        er<lb ed="#C" n="97" break="no"/>go &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e588">
+        Praeterea: si Deus esset mensura 
+        <lb ed="#C" n="98"/>omnium entium, tunc eadem esset men 
+        <lb ed="#C" n="99"/>sura substantiarum, &amp; accidentium; sed  
+        <lb ed="#C" n="100"/>mensura accidentium est accidens, &amp; 
+        <lb ed="#C" n="101"/>mensura substantiarum substantia, quia 
+        <lb ed="#C" n="102"/>secundum Philosophum. 4. Phy. unitates 
+        mensu<lb ed="#C" n="103" break="no"/>rantur unitate, aequi aequo, tempus tempore, er  
+        <lb ed="#C" n="104"/>go substantia substantia, &amp; accidens accide 
+        <lb ed="#C" n="105"/>te, sed non est possibile idem esse 
+        sub<lb ed="#C" n="106" break="no"/>stantiam, &amp; accidens: quia ut scribitur 
+        <lb ed="#C" n="107"/>1. Phy. quod vere est nulli accidit: non 
+        ei<lb ed="#C" n="108" break="no"/>go est eadem mensura omnium entium. 
+        <lb ed="#C" n="109"/>Praeterea: si omnium entium eadem 
+        <!--201.xml-->
+        <pb ed="#C" n="164"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>esset eadem mensura, vel hoc esset secundum 
+        <lb ed="#C" n="2"/>quod entia differunt, vel secundum 
+        <lb ed="#C" n="3"/>quod conveniunt? Secundum quod 
+        dif<lb ed="#C" n="4" break="no"/>ferunt, non: quia differentium in co 
+        <lb ed="#C" n="5"/>quod differentia non est dare unam 
+        <lb ed="#C" n="6"/>mensuram. Secundum quod conveniunt. 
+        <lb ed="#C" n="7"/>non: quia omnia entia maxime 
+        conve<lb ed="#C" n="8" break="no"/>niunt in ente, &amp; uno, ergo ens &amp; unum 
+        <lb ed="#C" n="9"/>essent mensura omnium, quod negat 
+        <lb ed="#C" n="10"/>Philosophus 4. Meta. ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e645">
+        Praeterea: ut  
+        <lb ed="#C" n="11"/>scribitur 10. Meta. mensura est unigenea 
+        <lb ed="#C" n="12"/>mensurato, sed potentia videtur esse uni 
+        <lb ed="#C" n="13"/>genea potentiae &amp; actus actui, ergo 
+        po<lb ed="#C" n="14" break="no"/>tentialia mensurabuntur potentiali, &amp; 
+        <lb ed="#C" n="15"/>actualia actuali: cum igitur Deus sit actus 
+        <lb ed="#C" n="16"/>purus sine potentia, potentialia non  
+        <lb ed="#C" n="17"/>mensurabuntur Deo: sed aliqua entia 
+        <lb ed="#C" n="18"/>sunt huiusmodi, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e666">
+        Praeterea 
+        <lb ed="#C" n="19"/>mensura entium est ens, sed Deus non 
+        <lb ed="#C" n="20"/>est ens iuxta illud Diony. 1. de Divi.¬ 
+        <lb ed="#C" n="21"/>nom. Deus est non intelligibilitas, in 
+        <lb ed="#C" n="22"/>nominabilitas, sed nihil existentium 
+        ex<lb ed="#C" n="23" break="no"/>istens. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e679">
+                  <lb ed="#C" n="24"/>In contrarium est: quia semper 
+        priva<lb ed="#C" n="25" break="no"/>tiones mensurantur per habitum, unde 
+        <lb ed="#C" n="26"/>vult Philosophus in lib. Ethic. quod virtuosus si 
+        <lb ed="#C" n="27"/>aliorum mensura: unde iustum, &amp; iustitia 
+        <lb ed="#C" n="28"/>sunt mensura aliorum: cum igitur 
+        om<lb ed="#C" n="29" break="no"/>nia importent privationem per 
+        compa<lb ed="#C" n="30" break="no"/>rationem ad Deum, omnia a Deo 
+        men<lb ed="#C" n="31" break="no"/>surabuntur.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e699">
+        Praeterea: scientia artificist 
+        <lb ed="#C" n="32"/>est mensura artificialium, sed omnia 
+        <lb ed="#C" n="33"/>entia comparantur ad Deum, velut 
+        arti<lb ed="#C" n="34" break="no"/>ficialia ad artificem, ergo Deus est 
+        men<lb ed="#C" n="35" break="no"/>sura omnium. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e710">
+                  <lb ed="#C" n="36"/>RESOLVTIO. 
+        <lb ed="#C" n="37"/>Deus mensura omnium entium est &amp; appropriati 
+        <lb ed="#C" n="38"/>omnium substantiarum. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e719">
+                  <lb ed="#C" n="39"/>Espondeo dicendum, quod non 
+        eo<lb ed="#C" n="40" break="no"/>a dem modo comparantur praedicamem 
+        <lb ed="#C" n="41"/>ta ad ens, &amp; ea, quae sunt in genere, ad ge 
+        <lb ed="#C" n="42"/>nus: quia quae sunt in genere addunt 
+        ali<lb ed="#C" n="43" break="no"/>quam perfectionem supra genus, de 
+        qua<lb ed="#C" n="44" break="no"/>non praedicatur genus; quia differentia, 
+        <lb ed="#C" n="45"/>quam addunt ea, quae sunt in genere, 
+        su<lb ed="#C" n="46" break="no"/>pra genus, est extra rationem generis, 
+        <lb ed="#C" n="47"/>&amp; quia ratio mensurae sumitur ex 
+        actua<lb ed="#C" n="48" break="no"/>litate &amp; perfectione, potest aliqua ratio 
+        <lb ed="#C" n="49"/>mensurae competere his, quae sunt, in 
+        <lb ed="#C" n="50"/>genere, quae non competit generi, ut  
+        <lb ed="#C" n="51"/>quia color addit supra qualitatem 
+        ali<lb ed="#C" n="52" break="no"/>uid, quod non est qualitas, potest esse 
+        <lb ed="#C" n="53"/>aliqua mensura colorum, quae non erit 
+        <!--201.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>mensura qualitatis. Sed praedicamenta. 
+        <lb ed="#C" n="55"/>non addunt aliquam perfectionem 
+        su<lb ed="#C" n="56" break="no"/>pra ens, ut hic de additione loquimur:  
+        <lb ed="#C" n="57"/>quia sic additum est extra rationem eius, 
+        <lb ed="#C" n="58"/>cui fit additio, sed nihil est, quod non 
+        <lb ed="#C" n="59"/>participet ente: &amp; ideo nihil est men 
+        <lb ed="#C" n="60"/>ura alicuius praedicamenti secundum se 
+        <lb ed="#C" n="61"/>totum, quod non sit mensura entis, 
+        <lb ed="#C" n="62"/>quia non est descensus ab ente in 
+        praedi<lb ed="#C" n="63" break="no"/>camenta mediante aliqua perfectione 
+        <lb ed="#C" n="64"/>addita, ratione cuius aliquid sit 
+        mensu<lb ed="#C" n="65" break="no"/>ra praedicamenti, quod non sit mensura 
+        <lb ed="#C" n="66"/>entis: unde Comm. 10 Meta. com. 24. 
+        <lb ed="#C" n="67"/>ait: quod hoc nomen ens &amp; unum significat 
+        <lb ed="#C" n="68"/>in praedicamento substantiae, aut quantitatis, 
+        <lb ed="#C" n="69"/>aut qualitatis, prima significatione, &amp; sine 
+        me<lb ed="#C" n="70" break="no"/>dio, non quemadmodum genus significat species. 
+        <lb ed="#C" n="71"/>mediantealio: &amp; ita patet quod non 
+        com<lb ed="#C" n="72" break="no"/>petit mensura praedicamento, nisi in 
+        <lb ed="#C" n="73"/>quantum ens: non igitur quaeremus 
+        <lb ed="#C" n="74"/>aliam mensuram omnium entium, quam 
+        <lb ed="#C" n="75"/>mensuram omnium substantiarum: Deu 
+        <lb ed="#C" n="76"/>igitur ipse, qui est prima substantia, &amp; 
+        <lb ed="#C" n="77"/>mensura substantiarum omnium, ipse es 
+        <lb ed="#C" n="78"/>primum ens, mensura entium 
+        singulo<lb ed="#C" n="79" break="no"/>rum. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e815">
+                  <lb ed="#C" n="80"/>Advertendum tamen, quod licet  
+        <lb ed="#C" n="81"/>mensura omnium entium sit mensura 
+        <lb ed="#C" n="82"/>omnium substantiarum appropriate; non 
+        <lb ed="#C" n="83"/>tamen debet dici, quod appropriate sit 
+        <lb ed="#C" n="84"/>mensura omnium quantitatum, vel  
+        <lb ed="#C" n="85"/>omnium qualitatum, ita quod alijs 
+        prae<lb ed="#C" n="86" break="no"/>dicamentis quodam speciali modo non 
+        <lb ed="#C" n="87"/>respondet una mensura, sed substantiae 
+        <lb ed="#C" n="88"/>solum. Causa autem huius duplex esse 
+        <lb ed="#C" n="89"/>potest. Prima: quia, ut dictum est, non 
+        <lb ed="#C" n="90"/>quaerimus mensuram toti 
+        predicamen<lb ed="#C" n="91" break="no"/>to nisi mensuram totius entis, cum non 
+        <lb ed="#C" n="92"/>addat supra ens aliquid, quod sit extra 
+        <lb ed="#C" n="93"/>rationem entis: sed praedicamenta 
+        acci<lb ed="#C" n="94" break="no"/>dentium non sunt entia, nisi quia sunt,  
+        <lb ed="#C" n="95"/>entis, hoc est substantiae: non igitur 
+        <lb ed="#C" n="96"/>mensura totius entis appropriabitur 
+        ni<lb ed="#C" n="97" break="no"/>si substantiae, cum alia non sint entia, 
+        <lb ed="#C" n="98"/>nisi per analogiam ad ipsam: Secunda 
+        <lb ed="#C" n="99"/>ratio ad hoc idem est ex eo quod 
+        men<lb ed="#C" n="100" break="no"/>sura habet rationem principij; sed 
+        ea<lb ed="#C" n="101" break="no"/>dem sunt principia substantiae, &amp; omnium 
+        <lb ed="#C" n="102"/>entium: ut dicit Comm. 12. Meta. ergo 
+        <lb ed="#C" n="103"/>in sola substantia hoc reperiemus, quod 
+        <lb ed="#C" n="104"/>eadem sit mensura substantiae, &amp; omniu 
+        <lb ed="#C" n="105"/>entium. Patet igitur, quod Deus est 
+        <lb ed="#C" n="106"/>mensura omnium entium, &amp; quod ipse  
+        <lb ed="#C" n="107"/>appropriate est mensura omnium 
+        sub<lb ed="#C" n="108" break="no"/>stantiarum. Vnde Diony. loquens do 
+        <lb ed="#C" n="109"/>Deitate ait: quod tota principia, &amp; ordi¬ 
+        <!--202.xml-->
+        <pb ed="#C" n="165"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>nes determinat, &amp; est super omnem 
+        principa<lb ed="#C" n="2" break="no"/>tum, &amp; ordinem collocata, &amp; mensura est 
+        <lb ed="#C" n="3"/>existentium, &amp; aevum super aevum. Et 
+        sequi<lb ed="#C" n="4" break="no"/>tur: existens supra mentem, supravitam, &amp; 
+        <lb ed="#C" n="5"/>supra substantiam. Et Proclus causa 15. 
+        <lb ed="#C" n="6"/>prop. ait: quod omnis Deus mensura est 
+        en<lb ed="#C" n="7" break="no"/>tium. 
+        <lb ed="#C" n="8"/>Resp. ad arg. Ad primum 
+        dicen<lb ed="#C" n="9" break="no"/>dum, quod non est eadem 
+        mensu<lb ed="#C" n="10" break="no"/>ra partium, &amp; totius, nisi sit talis pars 
+        <lb ed="#C" n="11"/>ad quam ordinetur totum: unde quia 
+        <lb ed="#C" n="12"/>ad colores non ordinantur omnia 
+        en<lb ed="#C" n="13" break="no"/>tia, non est eadem mensura colorum, &amp; 
+        <lb ed="#C" n="14"/>omnium entium; sed quia ad 
+        substan<lb ed="#C" n="15" break="no"/>tiam omnia alia ordinantur, est eadem 
+        <lb ed="#C" n="16"/>mensura substantiarum, &amp; omnium 
+        en<lb ed="#C" n="17" break="no"/>tium.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e927">
+        Ad 2. dicendum, quod accidentia 
+        <lb ed="#C" n="18"/>mensurantur accidente (si quaerimus 
+        <lb ed="#C" n="19"/>mensuram accidentium in eo quod ac 
+        <lb ed="#C" n="20"/>cidentia) ut colores colore; sed si 
+        quae<lb ed="#C" n="21" break="no"/>rimus mensuram accidentium 
+        inquan<lb ed="#C" n="22" break="no"/>tum entia, cum non sint entia nisi per 
+        <lb ed="#C" n="23"/>substantiam, mensura accidentium erit 
+        <lb ed="#C" n="24"/>substantia prima, Deus ipse, qui est 
+        men<lb ed="#C" n="25" break="no"/>sura omnium entium.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e947">
+        Ad 3. dicendum, 
+        <lb ed="#C" n="26"/>quod omnium entium est una mensura 
+        <lb ed="#C" n="27"/>secundum quod conveniunt. Sed 
+        con<lb ed="#C" n="28" break="no"/>venire entia potest intelligi dupliciter,  
+        <lb ed="#C" n="29"/>vel in aliquo nomine communi, sive in 
+        <lb ed="#C" n="30"/>aliquo universali, vel in aliquo 
+        com<lb ed="#C" n="31" break="no"/>muni principio, cum dicimus omnium 
+        en<lb ed="#C" n="32" break="no"/>tium esse mensuram unam secundum quod 
+        <lb ed="#C" n="33"/>conveniunt: intelligendum est secundum 
+        <lb ed="#C" n="34"/>quod conveniunt in aliquo communi 
+        <lb ed="#C" n="35"/>principio: quia Deus est commune 
+        princi<lb ed="#C" n="36" break="no"/>pium omnium, &amp; est mensura omnium; non 
+        <lb ed="#C" n="37"/>autem intelligendum est secunum quod 
+        <lb ed="#C" n="38"/>conveniunt in aliquo communi 
+        nomi<lb ed="#C" n="39" break="no"/>ne, sive in aliquo universali, vel analogo, 
+        <lb ed="#C" n="40"/>nisi forte ex consequenti, ilquantum 
+        <lb ed="#C" n="41"/>commune sumit originem ex 
+        commu<lb ed="#C" n="42" break="no"/>ni principio: ratio autem procedebat, ac 
+        <lb ed="#C" n="43"/>si communitas nominis in hoc esset 
+        <lb ed="#C" n="44"/>principaliter attendenda.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e991">
+        Ad 4. 
+        dicen<lb ed="#C" n="45" break="no"/>dum quod illa unigeneitas dicit quamdam 
+        <lb ed="#C" n="46"/>analogiam, &amp; quia est analogia inter 
+        po<lb ed="#C" n="47" break="no"/>tentiam, &amp; actum, potentia actu 
+        men<lb ed="#C" n="48" break="no"/>surari debet, sicut privatio habitu. Ad 
+        <lb ed="#C" n="49"/>5. dicendum, quod Deus dicitur non 
+        <lb ed="#C" n="50"/>existens, non quia deficiat ab essendo, 
+        <lb ed="#C" n="51"/>sed oropter superexcelientiam entitatis.
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e43420-Dd1e1011">
+               <head xml:id="Gi9qrR-e43420-Hd1e1013">Articulus 3</head>
+               <p xml:id="Gi9qrR-e43420-d1e1016">
+        <!--202.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="52"/>ARTICVLUS III. 
+        <lb ed="#C" n="53"/>Vtrum Deus dicatur mensura entium proprie?
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1027">
+                  <lb ed="#C" n="54"/>TErtio quaeritur: utrum Deus 
+        dica<lb ed="#C" n="55" break="no"/>tur mensura entium proprie? Et  
+        <lb ed="#C" n="56"/>videtur, quod non: quia Mensura per se 
+        <lb ed="#C" n="57"/>&amp; primo reperitur in quantitate discreta, ut  
+        <lb ed="#C" n="58"/>vult Comm. in 10. Meta. quia ab uno 
+        <lb ed="#C" n="59"/>in numero transfertur ratio mensurae ad 
+        <lb ed="#C" n="60"/>aliam, sed Deus non habet rationem 
+        <lb ed="#C" n="61"/>quantitatis discretae, nec unius, quod est, 
+        <lb ed="#C" n="62"/>principium numeri, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1049">
+        Praeterea: 
+        <lb ed="#C" n="63"/>de ratione mensurae videtur esse 
+        replica<lb ed="#C" n="64" break="no"/>tio, ut unitas replicata mensurat 
+        nume<lb ed="#C" n="65" break="no"/>rum; sed Deus non replicatur in men¬ 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1058">
+                  <lb ed="#C" n="66"/>surando entia, ut dicatur decies Deus 
+        <lb ed="#C" n="67"/>constituit lapidem, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1066">
+        Praeterea: 
+        <lb ed="#C" n="68"/>quanto aliquid habet magis rationem 
+        <lb ed="#C" n="69"/>numeri &amp; continentis, tanto magis 
+        <lb ed="#C" n="70"/>habet rationem mensurati, sed Deus 
+        <lb ed="#C" n="71"/>habet rationem infiniti numeri, cum 
+        in<lb ed="#C" n="72" break="no"/>finitae perfectiones sint in ipso: est enim 
+        <lb ed="#C" n="73"/>omnia continens: non igitur est 
+        mensu<lb ed="#C" n="74" break="no"/>ra proprie, sed mensuratum.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1084">
+        Praeterea: 
+        <lb ed="#C" n="75"/>cum per mensuram proprie 
+        mensuren<lb ed="#C" n="76" break="no"/>tur alia, &amp; propter quod 
+        unumquod<lb ed="#C" n="77" break="no"/>que tale, &amp; ipsum magis, ergo 
+        mensu<lb ed="#C" n="78" break="no"/>ra maxime est mensura: sed Deus est 
+        <lb ed="#C" n="79"/>nsinitus, &amp; immensus iuxta illud 
+        Diony<lb ed="#C" n="80" break="no"/>ultimo de Div. nom. quod Deus habet 
+        <lb ed="#C" n="81"/>in se omnem infinitatem secundum omnem 
+        ex<lb ed="#C" n="82" break="no"/>cessum, &amp; super omnem terminum 
+        <lb ed="#C" n="83"/>exte itum, a nullo captum aut 
+        compre<lb ed="#C" n="84" break="no"/>hensum. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1108">
+                  <lb ed="#C" n="85"/>In contrarium est: quia Deus magis 
+        <lb ed="#C" n="86"/>habet rationem simplicitatis, &amp; unitatis 
+        <lb ed="#C" n="87"/>respectu entium, quam album respectu 
+        <lb ed="#C" n="88"/>colorum, sed album non dicitur 
+        tran<lb ed="#C" n="89" break="no"/>tur perfectiones non dicantur de Deo 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1121">
+                  <lb ed="#C" n="90"/>sumptive mensura colorum, ergo nec 
+        <lb ed="#C" n="91"/>Deus entium.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1128">
+        Praeterea: esse mensura 
+        <lb ed="#C" n="92"/>aliorum dicit rationem perfectionis: 
+        un<lb ed="#C" n="93" break="no"/>de quia albus color est perfectissimus co 
+        <lb ed="#C" n="94"/>lorum, est eorum mensura: cum 
+        igi<lb ed="#C" n="95" break="no"/>transumptive, sed proprie, ut ostensum 
+        <lb ed="#C" n="96"/>fuit, cum disputavimus de Divinis 
+        attri<lb ed="#C" n="97" break="no"/>butis, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1144">
+                  <lb ed="#C" n="98"/>RESOLVTIO. 
+        <lb ed="#C" n="99"/>Deus est mensura propria &amp; communis: 
+        pro<lb ed="#C" n="100" break="no"/>pria secundum rem significatam; &amp; trasumpta se¬ 
+        <lb ed="#C" n="101"/>cundum nominis impositionem, ut proprium 
+        <lb ed="#C" n="102"/>contra transumptum dividitur.  
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1158">
+                  <lb ed="#C" n="103"/>REspond. dicendum, quod proprie 
+        <lb ed="#C" n="104"/>dupliciter accipitur. Vno modo 
+        <!--203.xml-->
+        <pb ed="#C" n="166"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/> 
+                  <lb ed="#C" n="2"/>dicitur proprium, quod dividitur 
+        con<lb ed="#C" n="3" break="no"/>tra commune, &amp; sic dicemus 
+        aliquid<lb ed="#C" n="4" break="no"/>proprium, quod convenit soli. Alio men 
+        <lb ed="#C" n="5"/>do dividitur proprium contra transum) 
+        <lb ed="#C" n="6"/>tum, &amp; sic dicitur aliquid proprie com 
+        <lb ed="#C" n="7"/>petere alicui, quod competit ei directem 
+        <lb ed="#C" n="8"/>&amp; principaliter. Cum ergo quaeritur  
+        <lb ed="#C" n="9"/>utrum Deus sit mensura entium 
+        pro<lb ed="#C" n="10" break="no"/>pria? Si loquamur de proprio, quod 
+        di<lb ed="#C" n="11" break="no"/>viditur contra commune, sic Deus est 
+        <lb ed="#C" n="12"/>mensura communis, &amp; propria: 
+        com<lb ed="#C" n="13" break="no"/>munis, quia omnium est artifex, omnem 
+        <lb ed="#C" n="14"/>habens virtutem: est enim mensura 
+        <lb ed="#C" n="15"/>propria, nam ex hoc est mensura rerum 
+        <lb ed="#C" n="16"/>ex eo quod per intellectum producit 
+        <lb ed="#C" n="17"/>res: licet autem sit unus, qui omnia 
+        pro<lb ed="#C" n="18" break="no"/>ducit, non tamen secundum eandem 
+        ra<lb ed="#C" n="19" break="no"/>tionem producta sunt omnia; sed 
+        singu<lb ed="#C" n="20" break="no"/>da rationibus proprijs. Vnde <name xml:id="Gi9qrR-e43420-Nd1e1214" ref="#Augustine">Aug.</name> 83. 
+        <lb ed="#C" n="21"/>ques. q. 46. ait: omnia ratione sunt condita. 
+        <lb ed="#C" n="22"/>Nec eadem ratione homo qua aequus, hoc enim 
+        <lb ed="#C" n="23"/>absurdum est existimari. Singula igitur 
+        pro<lb ed="#C" n="24" break="no"/>prijs sunt creata rationibus. Has autem ratio 
+        <lb ed="#C" n="25"/>nes, ubi esse arbitrandum est, nisi in ipsa 
+        <lb ed="#C" n="26"/>mentecreatoris? Si autem accipiamus proprius 
+        <lb ed="#C" n="27"/>ut dividitur cotra transumptum, sic etiam con 
+        <lb ed="#C" n="28"/>cedendum est Deum proprie dici mensuram. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1235">
+                  <lb ed="#C" n="29"/>Nam de ratione mensurae duo 
+        vi<lb ed="#C" n="30" break="no"/>dentur esse. Primo habere rationem 
+        mi<lb ed="#C" n="31" break="no"/>tnimi: quia omnia mensurantur mini 
+        <lb ed="#C" n="32"/>mo sui generis. 2. adaequatio: quia est 
+        <lb ed="#C" n="33"/>quaedam analogia mensurati ad 
+        mensu<lb ed="#C" n="34" break="no"/>ram: quia mensura semper est unigenes 
+        <lb ed="#C" n="35"/>mensurato, quod propter analogiam est, 
+        <lb ed="#C" n="36"/>dictum. Minimum autem tripliciter 
+        di<lb ed="#C" n="37" break="no"/>citur. Primo propter uniformitatem: 
+        <lb ed="#C" n="38"/>quia quanto aliquid est magis 
+        plurifica<lb ed="#C" n="39" break="no"/>tum, tanto difformius. Secundo 
+        prop<lb ed="#C" n="40" break="no"/>ter simplicitatem: quia quanto aliquid 
+        <lb ed="#C" n="41"/>compositius, tanto plurificatius. Tertio 
+        <lb ed="#C" n="42"/>propter indivisionem: quia de ratione 
+        <lb ed="#C" n="43"/>minimi est quod sit indivisibile. 
+        Secun<lb ed="#C" n="44" break="no"/>dum has tres acceptiones minimi tripli 
+        <lb ed="#C" n="45"/>citer mensurantur entia: quia secundum 
+        <lb ed="#C" n="46"/>uniformitatem reperitur mensura in 
+        mo<lb ed="#C" n="47" break="no"/>tibus, nam ut vult Philosophus 10. Meta. omnes 
+        <lb ed="#C" n="48"/>motus mensuratur motu Divino. Oportet 
+        igi<lb ed="#C" n="49" break="no"/>gitur Divinum motum habere rationem 
+        <lb ed="#C" n="50"/>minimi, &amp; tamen est motus maximus, 
+        <lb ed="#C" n="51"/>sed dicitur minimus ratione 
+        uniformi<lb ed="#C" n="52" break="no"/>tatis. Secundum simplicitatem sumitur 
+        <lb ed="#C" n="53"/>mensura in qualitatibus, sic enim 
+        dice<lb ed="#C" n="54" break="no"/>mus album esse mensuram colorum (ut  
+        <lb ed="#C" n="55"/>ex eodem 10. patere potest) quod nor 
+        <lb ed="#C" n="56"/>est nisi ratione simplicitatis: quia color 
+        <lb ed="#C" n="57"/>ille plus accedit ad lucem, &amp; ad actuali¬ 
+        <!--203.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>tatem, &amp; per conseques ad 
+        simplicita<lb ed="#C" n="59" break="no"/>tem, quam aliquis color; &amp; sic 
+        imini<lb ed="#C" n="60" break="no"/>mum in talibus idem sonat, quod 
+        sim<lb ed="#C" n="61" break="no"/>pliciter. Secundum indivisibilitatem 
+        su<lb ed="#C" n="62" break="no"/>mitur mensura in quantitatibus, 
+        secun<lb ed="#C" n="63" break="no"/>dum quod unitate mensuramus nume 
+        <lb ed="#C" n="64"/>ros, &amp; aliqua invisibili quantitate alias 
+        <lb ed="#C" n="65"/>quantitates. Et secundum istum modum 
+        <lb ed="#C" n="66"/>loquitur Philosophus 10. Meta. quod mensura 
+        <lb ed="#C" n="67"/>habet rationem indivisibilis, vel simpliciter  
+        <lb ed="#C" n="68"/>vel quia volumus. Secundum, quod vide 
+        <lb ed="#C" n="69"/>tur esse de ratione mensurae est 
+        adequa<lb ed="#C" n="70" break="no"/>tio. Hoc autem dupliciter potest accipi, 
+        <lb ed="#C" n="71"/>secundum quod in adaequatione duo 
+        <lb ed="#C" n="72"/>considerantur conformitas, &amp; imitatio. 
+        <lb ed="#C" n="73"/>Potest igitur esse adaequatio inter aliqua 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1339">
+                  <lb ed="#C" n="74"/>ratione conformitatis, vel etiam 
+        imita<lb ed="#C" n="75" break="no"/>tionis. Imitatio autem dupliciter potest 
+        <lb ed="#C" n="76"/>esse, vel quantum ad accidentalia, vel  
+        <lb ed="#C" n="77"/>quantum ad substantialia, &amp; secundum 
+        <lb ed="#C" n="78"/>hoc etiam triplicatur mensura. Nam si 
+        <lb ed="#C" n="79"/>adaequatio dicit conformitatem solum, 
+        <lb ed="#C" n="80"/>sic scientia nostra etiam speculativa est 
+        <lb ed="#C" n="81"/>mensura rerum: unde &amp; Protagoras, ut s 
+        <lb ed="#C" n="82"/>scribitur 10. Meta. dicebat hominem men 
+        <lb ed="#C" n="83"/>uram omnium: nam secundum quod 
+        sen<lb ed="#C" n="84" break="no"/>siens erat mensura sensibilium, 
+        secun<lb ed="#C" n="85" break="no"/>quod intelligens, intelligibilium: &amp; quia 
+        <lb ed="#C" n="86"/>omnia sunt sensibilia, vel intelligibilia 
+        <lb ed="#C" n="87"/>omnium hominem mensuram dicebat: 
+        <lb ed="#C" n="88"/>quia per sensum &amp; intellectum omni 
+        <lb ed="#C" n="89"/>bus conformatur. Sed si acciperemus 
+        <lb ed="#C" n="90"/>mensuram prout cum conformitate 
+        di<lb ed="#C" n="91" break="no"/>cit imitationem, sic scientia nostra 
+        spe<lb ed="#C" n="92" break="no"/>culativa non mensurat res: quia res non 
+        <lb ed="#C" n="93"/>adaequantur scientiae, sed scientia 
+        adae<lb ed="#C" n="94" break="no"/>quatur rebus: &amp; ideo sic accipiendo 
+        men<lb ed="#C" n="95" break="no"/>suram non est scientia nostra mensura 
+        <lb ed="#C" n="96"/>rerum, sed mensurata: credidit tamen 
+        <lb ed="#C" n="97"/>Protagoras, quod scientia nostra proprie esset 
+        <lb ed="#C" n="98"/>mensura rerum: quia existimavit, quod quid 
+        <lb ed="#C" n="99"/>quid videretur, esset verum, ut Comm. ait. 
+        Se<lb ed="#C" n="100" break="no"/>cundo modo accipitur mensura prout 
+        <lb ed="#C" n="101"/>cum conformitate importat 
+        imitatio<lb ed="#C" n="102" break="no"/>nem in accidentalibus, &amp; sic mensura re¬ 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1404">
+                  <lb ed="#C" n="103"/>rum est scientia nostra, non speculativa, 
+        <lb ed="#C" n="104"/>sed practica. Nam ars, quae est recta ratio 
+        <lb ed="#C" n="105"/>ractibilium, secundum quam practice 
+        opera<lb ed="#C" n="106" break="no"/>mur, non solum importat conformitatem 
+        <lb ed="#C" n="107"/>ad artificialia, sed imitationem: quia 
+        ar<lb ed="#C" n="108" break="no"/>tificialia imitat ir artem, non 
+        econver<lb ed="#C" n="109" break="no"/>so. Sed ista imitatio non est in 
+        substan<lb ed="#C" n="110" break="no"/>tialibus, sed in accidentalibus: quia omnes 
+        <lb ed="#C" n="111"/>formae artificiales sunt accidentia, ut vuli 
+        <lb ed="#C" n="112"/>Comm. 2. Phy. Sed si sit imitatio 
+        quan<lb ed="#C" n="113" break="no"/>tum ad substantialia, sic dicimus, quod i 
+        <!--204.xml-->
+        <pb ed="#C" n="167"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>s scientia intelligentiarum moventium or 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1439">
+                  <lb ed="#C" n="2"/>bes est mensura eorum, quae hic inferiu 
+        <lb ed="#C" n="3"/>generantur: quia generata hic inferius 
+        <lb ed="#C" n="4"/>recipiunt mensuram ex quantitatibus 
+        <lb ed="#C" n="5"/>motuum Stellarum, ut dicit Comm. in 
+        <lb ed="#C" n="6"/>12. sed ista quantitas motus reducitur 
+        <lb ed="#C" n="7"/>in intellectum intelligentiae: quia 
+        intelli<lb ed="#C" n="8" break="no"/>guntiae intelligendo movent. 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1457">
+                  <lb ed="#C" n="9"/>Cum ergo quaeritur, utrum Deus 
+        <lb ed="#C" n="10"/>sit mensura transumptive? Dicendum 
+        <lb ed="#C" n="11"/>quiod non: quia omnes transferentes 
+        <lb ed="#C" n="12"/>se cundum aliquam similitudinem tras 
+        <lb ed="#C" n="13"/>ferunt. Deus autem non secundum 
+        ali<lb ed="#C" n="14" break="no"/>quam similitudinem est mensura: quia 
+        <lb ed="#C" n="15"/>omnia, quae sunt de ratione mensurae, in 
+        <lb ed="#C" n="16"/>Deo inveniuntur: nam si accipitur 
+        men<lb ed="#C" n="17" break="no"/>sura ex eo quod habet rationem mini 
+        <lb ed="#C" n="18"/>mi, in Deo invenitur omnis ratio 
+        mini<lb ed="#C" n="19" break="no"/>mi superius assignata; ipse enim est sint 
+        <lb ed="#C" n="20"/>plex: Quia est actus purus, cui non 
+        admisce<lb ed="#C" n="21" break="no"/>tur potentia, ut vult Comm. in 10. 
+        Me<lb ed="#C" n="22" break="no"/>taph. Ipse est indivisibilis: quia omnis 
+        <lb ed="#C" n="23"/>creatura est numerus respectu eius. Nam 
+        <lb ed="#C" n="24"/>ipse est vere unus, in quo nullus 
+        nume<lb ed="#C" n="25" break="no"/>rus secundum <name xml:id="Gi9qrR-e43420-Nd1e1496" ref="#Boethius">Boetium,</name> &amp; est semper in 
+        <lb ed="#C" n="26"/>eo uniformitas: quia Nec augeri potest 
+        <lb ed="#C" n="27"/>nec minui, ut dicitur 8. de Trin. cap. 3. 
+        <lb ed="#C" n="28"/>Si autem consideramus mensuram 
+        ra<lb ed="#C" n="29" break="no"/>tione adaequationis, sic ipse proprie est 
+        <lb ed="#C" n="30"/>mensura: quia res non solum habent  
+        <lb ed="#C" n="31"/>aliquam conformitatem cum Deo, 
+        se<lb ed="#C" n="32" break="no"/>cundum quod scientia nostra dicebatur 
+        <lb ed="#C" n="33"/>mensura; sed etiam imitantur ipsum non 
+        <lb ed="#C" n="34"/>solum in accidentalibus, ut artificialia 
+        <lb ed="#C" n="35"/>artem, nec solum in formis quibuscum 
+        <lb ed="#C" n="36"/>que, ut in accidentalibus, vel substam 
+        <lb ed="#C" n="37"/>tialibus, ut naturalia motrices orbium, 
+        <lb ed="#C" n="38"/>sed quantum ad totum, quia secundum 
+        <lb ed="#C" n="39"/>se totas non solum quantum ad 
+        for<lb ed="#C" n="40" break="no"/>mam, sed etiam quantum ad materiam 
+        <lb ed="#C" n="41"/>a Primo processerunt in esse. Patet 
+        igi<lb ed="#C" n="42" break="no"/>tur, quod quantum ad ea, quae sunt de 
+        <lb ed="#C" n="43"/>ratione mensurae, Deus magis proprie 
+        <lb ed="#C" n="44"/>dicitur mensura, quam aliquid aliuda 
+        <lb ed="#C" n="45"/>quia nihil creatum est, quod congreget 
+        <lb ed="#C" n="46"/>in se omnia, quae sunt de ratione 
+        mensu<lb ed="#C" n="47" break="no"/>rae. Sed aliqua dicuntur mensura 
+        ratio<lb ed="#C" n="48" break="no"/>ne simplicitatis, aliqua ratione 
+        unifor<lb ed="#C" n="49" break="no"/>mitatis, aliqua uno modo, aliqua alio: 
+        <lb ed="#C" n="50"/>Deus autem per omnem modum 
+        men<lb ed="#C" n="51" break="no"/>sura est. Sed si non consideramus rem 
+        <lb ed="#C" n="52"/>significatam per hoc nomen mensura, sed  
+        <lb ed="#C" n="53"/>nominis impositionem, tunc nomer 
+        <lb ed="#C" n="54"/>mensurae a creaturis, quibus prius est 
+        <lb ed="#C" n="55"/>nomen impositum, ad Creatorem est 
+        <lb ed="#C" n="56"/>trasumptum Est igitur Deus mensura pro¬ 
+        <!--204.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>pria, &amp; communis, &amp; propria 
+        secun<lb ed="#C" n="58" break="no"/>dum rem significatam, &amp; transumpta 
+        <lb ed="#C" n="59"/>secundum nominis impositionem, ut  
+        <lb ed="#C" n="60"/>proprium contra transumptum 
+        dividi<lb ed="#C" n="61" break="no"/>tur.  
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1583">
+                  <lb ed="#C" n="62"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="63" break="no"/>cendum, quod illa transumptio a 
+        quan<lb ed="#C" n="64" break="no"/>titate discreta ad Deum est secundum 
+        <lb ed="#C" n="65"/>nominis impositionem; non secundum 
+        <lb ed="#C" n="66"/>rem sionificatam, ut dictum est.
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1596">
+        Ad 2. 
+        <lb ed="#C" n="67"/>dicendum, quod replicatio non est de 
+        <lb ed="#C" n="68"/>ratione mensurae simpliciter, sed de 
+        ra<lb ed="#C" n="69" break="no"/>tione mensurae repertae in quantitate, 
+        <lb ed="#C" n="70"/>Ad 3. dicendum, quod numerus in 
+        <lb ed="#C" n="71"/>quantitate, &amp; in formis non accipitur 
+        <lb ed="#C" n="72"/>; uniformiter: quia quanto quantitas ha 
+      </p>
+               <p xml:id="Gi9qrR-e43420-d1e1612">
+                  <lb ed="#C" n="73"/>bet rationem maioris numeri, tanto est 
+        <lb ed="#C" n="74"/>magis composita, &amp; magis habet ratio 
+        <lb ed="#C" n="75"/>nem mensurati. In formis autem non est 
+        <lb ed="#C" n="76"/>sic: quia album, in quo reperiuntur 
+        plu<lb ed="#C" n="77" break="no"/>res gradus lucis, respectu colorum est 
+        <lb ed="#C" n="78"/>mensura non mensuratum. Ad 
+        quar<lb ed="#C" n="79" break="no"/>tum dicendum, quod ratio non arguit  
+        <lb ed="#C" n="80"/>ut debet, non enim valet, si propter  
+        <lb ed="#C" n="81"/>causam causantur alia, ergo causa magis 
+        <lb ed="#C" n="82"/>causatur: sic non valet: si propter 
+        men<lb ed="#C" n="83" break="no"/>suram mensurantur alia, ergo mensura 
+        <lb ed="#C" n="84"/>ra magis mensuratur. Et ad formam ar 
+        <lb ed="#C" n="85"/>arguendi dicendum, quod propter 
+        <lb ed="#C" n="86"/>quod unumquodque tale, &amp; ipsum 
+        magi<lb ed="#C" n="87" break="no"/>intelligendum est quantum ad ea, 
+        inqui<lb ed="#C" n="88" break="no"/>bus causatum imitatur causam: unde 
+        <lb ed="#C" n="89"/>&amp; communiter dicitur, quod illa 
+        propo<lb ed="#C" n="90" break="no"/>sitio tenet in univocis, non ineo 
+        taibsiss<lb ed="#C" n="91" break="no"/>Vtrum autem hoc sit verum, quod in 
+        <lb ed="#C" n="92"/>univocis valeat talis modus arguendi, 
+        <lb ed="#C" n="93"/>infra patebit. Sed in exercendo 
+        mensu<lb ed="#C" n="94" break="no"/>ram, non imitatur mensuratum 
+        men<lb ed="#C" n="95" break="no"/>suram: &amp; ideo non valet ratio.  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

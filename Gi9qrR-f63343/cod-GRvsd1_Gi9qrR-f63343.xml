@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="628"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f63343"><!-- l1-d34prooem -->
+            <head xml:id="Gi9qrR-f63343-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f63343-d1e111">
+      <!--653.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="9"/>DISTINCTIO SRTIV 
+      <lb ed="#C" n="10"/>DE OPINIONE QVORVMDAM NON IDEMESSE PERSONA M 
+      <lb ed="#C" n="11"/>&amp; essentiam vel naturam dicentium, &amp; eandem essentiam non posse esse Patrem 
+      <lb ed="#C" n="12"/>&amp; Filium, &amp; Spiritum Sanctum.
+    </p>
+            <p xml:id="Gi9qrR-f63343-d1e127">
+      <!--653.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="13"/>RAEDICTIS autem 
+      adicien<lb ed="#C" n="14" break="no"/>dum. Postquam Magister 
+      <lb ed="#C" n="15"/>determina vit de 
+      copara<lb ed="#C" n="16" break="no"/>tione proprietatum ad 
+      Per<lb ed="#C" n="17" break="no"/>sonam &amp; essentiam: hic 
+      <lb ed="#C" n="18"/>in parte ista comparat 
+      ip<lb ed="#C" n="19" break="no"/>sas Personas ad essentiam. 
+      <lb ed="#C" n="20"/>Et duo facit: quia 1. comparat ea ad se invicem 
+      <lb ed="#C" n="21"/>secundum identitatem &amp; diversitatem. 2. 
+      spe<lb ed="#C" n="22" break="no"/>cialiter determinat de habitudine essentiae ad 
+      <lb ed="#C" n="23"/>Personas. Secunda ibi: Hic considerandum est. Circa 
+      <lb ed="#C" n="24"/>primum duo facit: quia 1. ponit errorem 
+      aliquo<lb ed="#C" n="25" break="no"/>rum, quod dicebant Divinam Personam non es 
+      <lb ed="#C" n="26"/>se idem quod essentia. 2. obiectiones eorum sol 
+      <lb ed="#C" n="27"/>vit. Secunda ibi: Hoc idem dicunt. Circa primum 
+      <lb ed="#C" n="28"/>duo facit: secundum quod dupliciter sic 
+      erran<lb ed="#C" n="29" break="no"/>tes positionem suam roborabant. Nam 1. 
+      con<lb ed="#C" n="30" break="no"/>firmabant errorem suum dicentes, quod si idem 
+      <lb ed="#C" n="31"/>est essentia &amp; Persona, tunc eadem essentia est 
+      <lb ed="#C" n="32"/>Pater &amp; Filius: &amp; ita idem sibi ipsi est Pater &amp; 
+      <lb ed="#C" n="33"/>Filius, est ergo confusio Personarum, quod est 
+      <lb ed="#C" n="34"/>inconveniens. 2. hoc idem probant per 
+      auctori<lb ed="#C" n="35" break="no"/>tatem Hilarij, qui vult quod non sit idem natura &amp; 
+      <lb ed="#C" n="36"/>res naturae: ut non est idem homo &amp; qu od est, 
+      <lb ed="#C" n="37"/>hominis: &amp; secundum hoc non est idem Deus, 
+      <lb ed="#C" n="38"/>&amp; quod est Dei: &amp; quia res naturae est 
+      hyposta<lb ed="#C" n="39" break="no"/>sis; si in Divinis hoc habet lorum quod non est 
+      <lb ed="#C" n="40"/>idem natura &amp; res naturae, ibi non est idem na 
+      <lb ed="#C" n="41"/>tura &amp; hypostasis. Secunda ibi: Id que testimonio 
+      <lb ed="#C" n="42"/>Hilarij. Deinde cum dicit: Hoc idem. Solvit. Et 1 
+      <lb ed="#C" n="43"/>solvit ad auctoritatem. 2. ad rationem. Secunda 
+      <lb ed="#C" n="44"/>ibi: Nec cum distinctemus. Circa primum duo facit: 
+      <lb ed="#C" n="45"/>quia 1. dat intellectum verborum Hilarij. Vole 
+      <lb ed="#C" n="46"/>bat enim Hilarius probare, quod eadem esset 
+      <lb ed="#C" n="47"/>natura Patris &amp; Filij: nam cum idem sit Spiritus 
+      <lb ed="#C" n="48"/>Christi &amp; ei sive Patris &amp; Filij secundum sent 
+      <lb ed="#C" n="49"/>Apost. aut Spiritus supponit ibi pro natura, autD 
+      <lb ed="#C" n="50"/>pro re naturae sive pro hypostasi? Si supponit 
+      <lb ed="#C" n="51"/>ibi pro natura: tunc cum idem sit Spiritus 
+      utri<lb ed="#C" n="52" break="no"/>usque, eadem est natura, quod est intentum. Si 
+      <lb ed="#C" n="53"/>vero Spiritus ibi accipitur pro re naturae sive 
+      <lb ed="#C" n="54"/>pro hypostasi, adhuc habetur intentum: quia nul 
+      <lb ed="#C" n="55"/>la res unius naturae procedit a rebus diversarum 
+      <lb ed="#C" n="56"/>naturarum: est ergo una natura Patris &amp; Filij, 
+      <lb ed="#C" n="57"/>cum ab eis procedit una Persona simplex, 
+      scili<lb ed="#C" n="58" break="no"/>cet, Spiritus Sanctus. 2. ex intellectu verborum 
+      <lb ed="#C" n="59"/>ostendit obiectionem factam non valere: nam non 
+      <lb ed="#C" n="60"/>vult Hilarius, quod realiter in Divinis res 
+      natu<lb ed="#C" n="61" break="no"/>rae sive Persona differat ab hypostasi; ut illi ep¬ 
+      <!--653.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="62"/>rantes concludebant, sed quod Spiritus 
+      potest<lb ed="#C" n="63" break="no"/>accipi, &amp; pro natura &amp; pro hypostasi. 
+      Tertio<lb ed="#C" n="64" break="no"/>concludit quod licet in creaturis non sit idem 
+      na<lb ed="#C" n="65" break="no"/>tura &amp; res naturae realiter; non tamen sic se 
+      ha<lb ed="#C" n="66" break="no"/>bet in Divinis. Sic ergo glossandum est 
+      verbum<lb ed="#C" n="67" break="no"/>Hilarij Tum hoc non est idem Deus &amp; quod est Dei. Hoc est, si  
+      <lb ed="#C" n="68"/>vellemus loqui de Deo sicut loquimur de creatu 
+      <lb ed="#C" n="69"/>ris, secudum hoc, hoc est sic loquedos, non est idem 
+      <lb ed="#C" n="70"/>Deus &amp; quod est Dei, nec natura &amp; Persona: quia 
+      <lb ed="#C" n="71"/>haec in creaturis differunt. Secuda ibi: Ecce si haec 
+      ver<lb ed="#C" n="72" break="no"/>ba. Tertia ibi: Ad naturam ergo rerum. Deinde cum 
+      di<lb ed="#C" n="73" break="no"/>cit: Nec tamen. Solvit ad rationem: quia licet sint,  
+      <lb ed="#C" n="74"/>idem realiter natura &amp; Persona, differunt 
+      ta<lb ed="#C" n="75" break="no"/>men ratione: &amp; propter hanc differentiam licet  
+      <lb ed="#C" n="76"/>sit una natura omnium trium; non est tamen una 
+      <lb ed="#C" n="77"/>Persona, nec idem sibi ipsi Pater &amp; Filius 
+      <lb ed="#C" n="78"/>Tunc sequitur illa pars: Hic tonsiderandum. In 
+      <lb ed="#C" n="79"/>qua ostedit habitudine essentiae ad Personas. Et  
+      <lb ed="#C" n="80"/>duo facit: quia 1. circa talem habitudinem 
+      quae<lb ed="#C" n="81" break="no"/>stionem movet. 2. quaedam essentialia 
+      compa<lb ed="#C" n="82" break="no"/>rat ad Personas, ibi: Ex praedictis constat. Circa 
+      pri<lb ed="#C" n="83" break="no"/>mum duo facit: quia 1. circa habitudinem movet 
+      <lb ed="#C" n="84"/>quaestionem quaerens utrum possimus dicere tres 
+      <lb ed="#C" n="85"/>Personas unius Dei, sicut dicimus tres Personas 
+      <lb ed="#C" n="86"/>unius essentiae? Et utrum sit eadem habitudo hic 
+      <lb ed="#C" n="87"/>&amp; ibi? Et ostendit quod non. 2. dat dicti causam 
+      <lb ed="#C" n="88"/>dicens: nos non dicere tres Personas unius Dei: 
+      <lb ed="#C" n="89"/>ne intelligatur in Personis subiectio. Deinde cum 
+      <lb ed="#C" n="90"/>dicit: Ex praedictis. Comparat essentialia ad Perso: 
+      <lb ed="#C" n="91"/>nas. Et duo facit: quia 1. facit quod dictum est. 
+      <lb ed="#C" n="92"/>2. specialiter determinat de hoc nomineHomoum 
+      <lb ed="#C" n="93"/>sion. Secunda ibi: Hic non est. Circa 1. duo facit: 
+      <lb ed="#C" n="94"/>quia 1. dicit bonitatem, potentiam, sapientiam, 
+      <lb ed="#C" n="95"/>&amp; omnia essentialia esse communia tribus. 2. 
+      ta<lb ed="#C" n="96" break="no"/>lium communium appropriationem assignat. 
+      Se<lb ed="#C" n="97" break="no"/>cunda ibi: Cumque unum. Etduo facit: quia 1. 
+      di<lb ed="#C" n="98" break="no"/>cit potentiam appropriari Patri, sapientiam 
+      Fi<lb ed="#C" n="99" break="no"/>lio, bonitatem Spiritui S. 12. irationem approt 
+      <lb ed="#C" n="100"/>priationis designat ibi: Id ergo sacri eloquij. Et duo 
+      <lb ed="#C" n="101"/>facit: quia 1. simul assignat rationem quare 
+      Pa<lb ed="#C" n="102" break="no"/>tri appropriatur potentia, &amp; Filio sapientia 
+      di<lb ed="#C" n="103" break="no"/>cens: hoc esse ne Pater credatur prior Filio, 
+      <lb ed="#C" n="104"/>&amp; ita antiquus &amp; impotens: ideo ei 
+      appropria<lb ed="#C" n="105" break="no"/>tur patentia: &amp; ne Filius creatur posterior, &amp; 
+      <lb ed="#C" n="106"/>ita novus &amp; insipiens: &amp; ideo appropriatur ei 
+      <lb ed="#C" n="107"/>sapientia. 2. ostendit quare bonitas appropriatur 
+      <lb ed="#C" n="108"/>Spiritui S. nam Spiritus in austeritatem sonat, ideo 
+      <lb ed="#C" n="109"/>ne credatur austerus, cum sit benignus, ei 
+      ap<lb ed="#C" n="110" break="no"/>propriatur bonitas. Secunda ibi: Dictus est etiam¬ 
+      <!--654.xml-->
+      <pb ed="#C" n="629"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>Deinde cum dicit: Hic non est. Determinat de 
+      <lb ed="#C" n="2"/>hoc nomine Homousion Et tria facit: quia 1. A 
+      <lb ed="#C" n="3"/>dicit Patrem &amp; Filium esse Homousion, idest 
+      <lb ed="#C" n="4"/>eiusdem naturae: nam licet hoc nomen fuisset 
+      <lb ed="#C" n="5"/>aliquado siletio praetermissum propter Costantinum 
+      <lb ed="#C" n="6"/>Imperatorem haereticum; tamen restituta 
+      liber<lb ed="#C" n="7" break="no"/>tate Fidei tale nomen fuit longedateque 
+      diffu<lb ed="#C" n="8" break="no"/>sum. 2. quia superius mentionem fecerat de 
+      no<lb ed="#C" n="9" break="no"/>minibus translative de Deo dictis, ostendit 
+      <!--654.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="10"/>ualiter talis. trastatio. fieri debeat: nam 
+      <lb ed="#C" n="11"/>in omnibus translationibus intelligentia, di¬ 
+    </p>
+            <p xml:id="Gi9qrR-f63343-d1e385">
+               <lb ed="#C" n="12"/>ctorum est sumenda ex causis dicendi. 2. 
+      <lb ed="#C" n="13"/>quia completa est pars illa huius opinionis, 
+      in<lb ed="#C" n="14" break="no"/>qua determinatur de unitate essentiae, &amp; 
+      Trini<lb ed="#C" n="15" break="no"/>t, te Personarum, subiungit dictorum Epilogum. 
+      <lb ed="#C" n="16"/>Secunda ibi: Praeterea sciendum. Tertia ibi: De 
+      sa<lb ed="#C" n="17" break="no"/>cro. In quo terminatur sentetia lectionis &amp; 
+      di<lb ed="#C" n="18" break="no"/>stinctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

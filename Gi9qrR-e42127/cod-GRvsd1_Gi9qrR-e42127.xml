@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e42127"><!-- l1-d7dublit -->
+            <head xml:id="Gi9qrR-e42127-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-e42127-d1e111">
+               <lb ed="#C" n="47"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-e42127-d1e116">
+               <lb ed="#C" n="48"/>SVPER litteram: super illud: quod 
+      po<lb ed="#C" n="49" break="no"/>esset inconveniens, si Filius alium 
+      <lb ed="#C" n="50"/>Filium genuisset: quia immoderata 
+      es<lb ed="#C" n="51" break="no"/>set Verbi nativitas, quaeritur ergo ex 
+      ta<lb ed="#C" n="52" break="no"/>li immoderatione, quod inconveniens 
+      <lb ed="#C" n="53"/>sequeretur: Dicendum, quod 
+      quadru<lb ed="#C" n="54" break="no"/>plex. 1. quia tale infinitum est 
+      imperfe<lb ed="#C" n="55" break="no"/>ctum. 2. quia inter illos genitos, sive  
+      <lb ed="#C" n="56"/>natos non esset distinctio. 3. quia in his, 
+    </p>
+            <p xml:id="Gi9qrR-e42127-d1e138">
+               <lb ed="#C" n="57"/>quae procedunt in infinitum non est 
+      da<lb ed="#C" n="58" break="no"/>re primum, nec secundum, &amp; per 
+      con<lb ed="#C" n="59" break="no"/>sequens nullum, ut potest haberi ex 2. 
+      <lb ed="#C" n="60"/>Metaph. &amp; ita ponendo ibi infinita 
+      ver<lb ed="#C" n="61" break="no"/>ba est ibi ponere nullum verbum. 4. quia 
+      <lb ed="#C" n="62"/>talis multiplicatio absque termino 
+      vide<lb ed="#C" n="63" break="no"/>tur contingere ex corruptione naturae: 
+      <lb ed="#C" n="64"/>quia non potest reservari in uno 
+      indivi<lb ed="#C" n="65" break="no"/>duo natura illa. 
+    </p>
+            <p xml:id="Gi9qrR-e42127-d1e160">
+               <lb ed="#C" n="66"/>Item super illud: Neque enim non 
+      po<lb ed="#C" n="67" break="no"/>tuit, sed non oportuit. Contra: quidquid  
+      <lb ed="#C" n="68"/>in Divinis potest esse, oportet, quod ibi  
+      <lb ed="#C" n="69"/>sit: quia non esset ibi vera aeternitas, cum  
+      <lb ed="#C" n="70"/>in aeternis non differat esse &amp; posse, si 
+      <lb ed="#C" n="71"/>ergo potuit, generavit. Dicendum, quod  
+      <lb ed="#C" n="72"/>sic est intelligendum, non enim non 
+      po<lb ed="#C" n="73" break="no"/>tuit, hoc est, non est ex impotentia 
+      Fi<lb ed="#C" n="74" break="no"/>lij, quod non generat, cum omnis 
+      po<lb ed="#C" n="75" break="no"/>tentia, quae est in Patre est in Filio, ut  
+      <lb ed="#C" n="76"/>probatum est, sed non oportuit, id est; 
+      <lb ed="#C" n="77"/>ex proprietate Filij est quod non 
+      ge<lb ed="#C" n="78" break="no"/>nerat: quia repugnat filiationi eius, 
+      <lb ed="#C" n="79"/>cum ibi non possint esse plures Filij.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

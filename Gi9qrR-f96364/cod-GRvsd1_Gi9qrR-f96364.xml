@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f96364"><!-- l1-d39expolit -->
+            <head xml:id="Gi9qrR-f96364-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f96364-d1e111">
+               <lb ed="#C" n="7"/>ExPOSITIO LITTERAE. 
+    </p>
+            <p xml:id="Gi9qrR-f96364-d1e116">
+               <lb ed="#C" n="8"/>Vper litteram, super illo: Item a 
+      qui<lb ed="#C" n="9" break="no"/>QIusdam dicitur, quod Deus possit 
+      sci<lb ed="#C" n="10" break="no"/>re plura quam sciat. Notandum, quod  
+      <!--778.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="11"/>Magister istorum positionem non 
+      asse<lb ed="#C" n="12" break="no"/>rit, sed eam recitat. Nam licet 
+      possi<lb ed="#C" n="13" break="no"/>mus concedere, quod Deus possit non 
+      <lb ed="#C" n="14"/>scire, quod scit vel scire, quod non scit in 
+      <lb ed="#C" n="15"/>sensu diviso; non tame n debemus 
+      con<lb ed="#C" n="16" break="no"/>cedere, quod possit psura scire, quam 
+      <lb ed="#C" n="17"/>sciat, vel quod eius scientiae possit fieri 
+      <lb ed="#C" n="18"/>additio, vel diminutio: quia in talibus 
+      <lb ed="#C" n="19"/>locutionibus semper sensus compositus 
+      <lb ed="#C" n="20"/>designatur, secundum quem modum 
+      <lb ed="#C" n="21"/>propositiones huiusm odi falsae sunt.  
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

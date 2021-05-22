@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="589"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f53145"><!-- l1-d31expolit -->
+            <head xml:id="Gi9qrR-f53145-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f53145-d1e111">
+               <lb ed="#C" n="82"/>ExPOSITIO LITTERAE
+    </p>
+            <p xml:id="Gi9qrR-f53145-d1e116">
+               <lb ed="#C" n="83"/>Vper litteram, super illo: Imago si 
+      <lb ed="#C" n="84"/>perfecte implet illud, cuius est imago, 
+      ip<lb ed="#C" n="85" break="no"/>sa coaequatur ei, non illud imagini. Contra: 
+      <lb ed="#C" n="86"/>quia in Divinis est mutua equalitas. 
+      Di<lb ed="#C" n="87" break="no"/>cendum quod si Filius aequatur Patri, sive 
+      <lb ed="#C" n="88"/>imago ei cuius est imago, &amp; e converso; 
+      <lb ed="#C" n="89"/>non tamen est ibi mutua coaequatio: 
+      <lb ed="#C" n="90"/>quia coaequalitas plus dicit quam 
+      aequa<lb ed="#C" n="91" break="no"/>litas: videtur enim ex suo nomine 
+      su<lb ed="#C" n="92" break="no"/>pra unitatem magnitudinis addere 
+      mo<lb ed="#C" n="93" break="no"/>dum quedam vel imitationem, &amp; quia 
+      <lb ed="#C" n="94"/>Filius imitatur Patrem, non e 
+      con<lb ed="#C" n="95" break="no"/>verso, &amp; imago imitatur id cuius est 
+      <lb ed="#C" n="96"/>imago, non e converso: ideo dictum est, 
+      <lb ed="#C" n="97"/>quod si imago perfecte implet illud, 
+      <lb ed="#C" n="98"/>cuius est imago, ipsa coaequatur ei, non 
+      <lb ed="#C" n="99"/>e converso. Imago eius &amp;c. Ista notula 
+      <lb ed="#C" n="100"/>Hilarij inducitur ad manifestationem 
+      <lb ed="#C" n="101"/>praedictae auctoritatis, videlicet, Si imago 
+      <lb ed="#C" n="102"/>perfecte implet &amp;c. Et tria facit Hilarius 
+      <lb ed="#C" n="103"/>in ea: quia primo ponit diffinitiones 
+      <lb ed="#C" n="104"/>imaginis, videlicet, quod imago est eius 
+      <lb ed="#C" n="105"/>ad quod imaginatur species indifferens, 
+      <lb ed="#C" n="106"/>&amp; quod est rei ad rem coequandam 
+      imagi<lb ed="#C" n="107" break="no"/>nata, &amp; indiscreta similitudo: ex 
+      qui<lb ed="#C" n="108" break="no"/>bus diffinitionibus apparet, quod de 
+      ra<lb ed="#C" n="109" break="no"/>tione imaginis est quod coaequetur &amp; 
+      <lb ed="#C" n="110"/>imitetur id, cuius est imago: quia est 
+      indif<lb ed="#C" n="111" break="no"/>feres species eius rei, ad quam imaginatur:  
+      <!--615.xml-->
+      <pb ed="#C" n="590"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>id tamen cuius est imago non coequatur 
+      <lb ed="#C" n="2"/>imagini: quia non accipit esse per 
+      imi<lb ed="#C" n="3" break="no"/>tationem. Secundo ex his 
+      diffinitioni<lb ed="#C" n="4" break="no"/>bus concludit distinctionem personalem 
+      <lb ed="#C" n="5"/>Patris &amp; Filij dicens: Est ergo Pater &amp; Filius, 
+      <lb ed="#C" n="6"/>idest, non tantum Pater: nec tantum Filius, 
+      <lb ed="#C" n="7"/>sed uterque, quasi dicat: Pater est distin 
+      <lb ed="#C" n="8"/>ctus a Filio: quia imago Patris est 
+      Fi<lb ed="#C" n="9" break="no"/>lius, &amp; nihil sibi est imago. Tertio oster 
+      <lb ed="#C" n="10"/>dit Patris &amp; Filij unitatem in natura: 
+      <lb ed="#C" n="11"/>quia imago, ut rei imago sit, necesse est 
+      <lb ed="#C" n="12"/>ut habeat in se speciem &amp; essentiam &amp; 
+      <lb ed="#C" n="13"/>naturam auctoris, igitur Filius habet  
+      <lb ed="#C" n="14"/>naturam Patris, secudum quod est 
+      ima<lb ed="#C" n="15" break="no"/>go eius. Siquis innascibilem. Ista secunda 
+      <lb ed="#C" n="16"/>notula inducitur ad ostendendum, quod 
+      <lb ed="#C" n="17"/>omnia sunt unum propter Patrem. Ad 
+      <lb ed="#C" n="18"/>cuius evidentiam notandum, quod 
+      in<lb ed="#C" n="19" break="no"/>tentio Hilarij est, quod in omni natura est 
+      <lb ed="#C" n="20"/>unum aliquid non habens principium 
+      se<lb ed="#C" n="21" break="no"/>cudum naturam illam, a quo alia sumum 
+      <lb ed="#C" n="22"/>originem, &amp; secudum quod omnia alia sumt, 
+      <lb ed="#C" n="23"/>unum in natura illa: &amp; ideo qui ponit 
+      <lb ed="#C" n="24"/>duos innascibiles, ponit duos Deos: &amp; 
+      <lb ed="#C" n="25"/>quia Pater est huiusmodi innascibilis, 
+      <lb ed="#C" n="26"/>omnia sunt unum propter Patrem: est 
+      <lb ed="#C" n="27"/>enim omnium creaturarum principium 
+      <lb ed="#C" n="28"/>Filius, &amp; principium Filij Pater. V. 
+      <lb ed="#C" n="29"/>universa igitur ad unum initiale, idest, 
+      <lb ed="#C" n="30"/>ad unum principium innitiativum, &amp; 
+      <lb ed="#C" n="31"/>principium omnium, ut ad Patrem 
+      refe<lb ed="#C" n="32" break="no"/>rimus: qui Filius existit natus. Ex 
+      essen<lb ed="#C" n="33" break="no"/>tia innascibili, idest ex Patre, qui 
+      innasci<lb ed="#C" n="34" break="no"/>bilis est: hoc igitur gradu &amp; hac 
+      confes<lb ed="#C" n="35" break="no"/>sione universa sumunt initium. 
+    </p>
+            <p xml:id="Gi9qrR-f53145-d1e264">
+               <lb ed="#C" n="36"/>Dubitatur autem de eo quod dicit:  
+      <lb ed="#C" n="37"/>Hoc gradu. Nam in Divinis non est 
+      gra<lb ed="#C" n="38" break="no"/>dus, ut habitum fuit per Hieronymum, 
+      <lb ed="#C" n="39"/>25. dist. Dicendum, quod licet in 
+      Divi<lb ed="#C" n="40" break="no"/>nis non sunt gradus, proprie accipiendo 
+      <lb ed="#C" n="41"/>gra dum; sunt tamen ibi gradus, 
+      acci<lb ed="#C" n="42" break="no"/>iendo gradum pro omni ordine: cum 
+      <lb ed="#C" n="43"/>ibi sit ordo originis. Vel dicendum &amp; 
+      <lb ed="#C" n="44"/>melius, quod principium omnium 
+      creatura<lb ed="#C" n="45" break="no"/>rum est Filius, principium Filij est Pater.  
+      <lb ed="#C" n="46"/>Vniversa igitur referuntur ad Patrem 
+      <lb ed="#C" n="47"/>per Filium: &amp; quia non eodem mode 
+      <lb ed="#C" n="48"/>referuntur universa ad Filium, &amp; Filius 
+      <lb ed="#C" n="49"/>ad Patrem: ideo in tali relatione sunt,  
+      <lb ed="#C" n="50"/>quidam gradus; licet igitur inter 
+      Perso<lb ed="#C" n="51" break="no"/>nas Divinas non sint gradus; 
+      connume<lb ed="#C" n="52" break="no"/>rando tamen relationes creaturarum 
+      <lb ed="#C" n="53"/>cum relationibus Personarum gradus 
+      <lb ed="#C" n="54"/>facimus. Omnibus createris &amp;c. Ista tertia 
+      <lb ed="#C" n="55"/>notula inducitur ad ostendendum quod 
+      <lb ed="#C" n="56"/>Pater &amp; Filius sunt idem in natura. Ad 
+      <!--615.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="57"/>cuius evidentiam notandum, quod 
+      crea<lb ed="#C" n="58" break="no"/>turae emanant a Deo Patre per 
+      volunta<lb ed="#C" n="59" break="no"/>tem: ideo tales sunt quales Deus vult 
+      <lb ed="#C" n="60"/>eas esse; sed Filius ab eo gignitur 
+      natu<lb ed="#C" n="61" break="no"/>raliter: &amp; ideo talis substat, qualis &amp; 
+      <lb ed="#C" n="62"/>Deus est: nam sicut ex homine 
+      natura<lb ed="#C" n="63" break="no"/>liter procedit homo; artificialiter autem 
+      <lb ed="#C" n="64"/>&amp; secundum voluntatem procedit 
+      scan<lb ed="#C" n="65" break="no"/>num, quod est diversum in natura ab 
+      <lb ed="#C" n="66"/>homine: ita Filius, qui naturaliter 
+      pro<lb ed="#C" n="67" break="no"/>cedit a Patre, est idem in natura cum 
+      ip<lb ed="#C" n="68" break="no"/>so: unde quia ex Deo naturaliter 
+      geni<lb ed="#C" n="69" break="no"/>tus est, Deus est; creatura autem, quae vo 
+      <lb ed="#C" n="70"/>luntarie &amp; per modum artificiati 
+      pro<lb ed="#C" n="71" break="no"/>cedit a Deo, est diversa in natura cum 
+      <lb ed="#C" n="72"/> ipso, &amp; hoc est quod dicit quod volun¬ 
+      <lb ed="#C" n="73"/>tas Dei: Attulit. Idest, dedit substantiam 
+      <lb ed="#C" n="74"/>omnibus creaturis. Sed perfecta nativitas. 
+      <lb ed="#C" n="75"/>Idest, perfecta naturalis generatio naturam 
+      <lb ed="#C" n="76"/>dedit Filio. Ex impassibili ac non nata 
+      sub<lb ed="#C" n="77" break="no"/>stantia. Hoc est, ex Patre qui dicitur 
+      impassi<lb ed="#C" n="78" break="no"/>biliter: quia non assumpsit carnem: 
+      dici<lb ed="#C" n="79" break="no"/>tur non nata substantia: quia ab alio non 
+      <lb ed="#C" n="80"/>traxit originem. Cuncta ergo talia sunt,  
+      <lb ed="#C" n="81"/>qualia Deus voluit, Filius autem, 
+      <lb ed="#C" n="82"/>qui ex Deo natus est, talis substat qualis 
+      <lb ed="#C" n="83"/>est Deus. Quia natura. Idest Pater 
+      Quinatu<lb ed="#C" n="84" break="no"/>raliter gignit Non edidit, idest non 
+      produ<lb ed="#C" n="85" break="no"/>xit: Naturam. Idest, Filium ab eo 
+      natura<lb ed="#C" n="86" break="no"/>liter genitum: Dissimilem sui. Sed ipse 
+      Fi<lb ed="#C" n="87" break="no"/>lius ex substantia Dei genitus: Antulit 
+      id<lb ed="#C" n="88" break="no"/>est accepit super esse, vel naturam Patris. 
+      <lb ed="#C" n="89"/>Secundum originem naturae. Idest, secundum 
+      <lb ed="#C" n="90"/>naturalem generationem, non secundum 
+      <lb ed="#C" n="91"/>creaturas voluntatis. Essentia. Idest non 
+      <lb ed="#C" n="92"/>habuit essentiam voluntatis: quia non 
+      <lb ed="#C" n="93"/>accepit esse vel essetiam per modum voluntae 
+      <lb ed="#C" n="94"/>tis secudum creaturas, idest secudum quod  
+      <lb ed="#C" n="95"/>creaturae acceperunt. Minus expresse &amp;c. 
+      <lb ed="#C" n="96"/>Ista quarta notula inducitur ad 
+      osten<lb ed="#C" n="97" break="no"/>dendum omnia connexa esse per 
+      Spiri<lb ed="#C" n="98" break="no"/>tum Sanctum. In qua Hilarius quatuor 
+      <lb ed="#C" n="99"/>facit: quia primo facit quod dictum est. 
+      <lb ed="#C" n="100"/>Secundo ex habitis destruit opinionem 
+      <lb ed="#C" n="101"/>Sabellij. Tertio exponit quoddam quod 
+      <lb ed="#C" n="102"/>dixerat, videlicet, Patrem &amp; Filium &amp; 
+      <lb ed="#C" n="103"/>Spiritum Sanctum esse per substantiam 
+      <lb ed="#C" n="104"/>tria, eo quod poterat habere pravum 
+      <lb ed="#C" n="105"/>intellectum. Quarto manifestat quid  
+      <lb ed="#C" n="106"/>est eos esse per cosonantiam unum. 
+      Se<lb ed="#C" n="107" break="no"/>cunda ibi: Volens igitur. Tertia ibi: 
+      Subsi<lb ed="#C" n="108" break="no"/>stentium Personas. Quarta ibi: Quod autem 
+      <lb ed="#C" n="109"/>dictum. Dicit ergo primo quod Pater &amp; 
+      <lb ed="#C" n="110"/>Filius &amp; &amp; Spirirus S. sunt per substantiam 
+      <lb ed="#C" n="111"/>tria, sed per cosonantiam, idest, per 
+      amo<lb ed="#C" n="112" break="no"/>ris concordiam sunt unum: &amp; in hoc  
+      <!--616.xml-->
+      <pb ed="#C" n="591"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>denoratur eorum connexio per 
+      Spiri<lb ed="#C" n="2" break="no"/>tum Sanctum. In eo vero quod 
+      <lb ed="#C" n="3"/>dicimus Personas esse unum per 
+      conso<lb ed="#C" n="4" break="no"/>nantiam, Fides Catholica minus 
+      expres<lb ed="#C" n="5" break="no"/>se locuta de indifferenti similitudine, 
+      <lb ed="#C" n="6"/>idest, de unitate Patris &amp; Filij: nam 
+      Pa<lb ed="#C" n="7" break="no"/>ter &amp; Filius non solum uniuntur in 
+      a<lb ed="#C" n="8" break="no"/>more spirato, sed etiam in natura: cum 
+      <lb ed="#C" n="9"/>igitur eos unitos dicimus amoris 
+      con<lb ed="#C" n="10" break="no"/>cordiae, non expresse omnem eorum, 
+      <lb ed="#C" n="11"/>indifferentem similitudinem, sive 
+      om<lb ed="#C" n="12" break="no"/>nem eorum indifferentem unitatem 
+      de<lb ed="#C" n="13" break="no"/>monstramus. Ex eo vero quod Persone 
+      <lb ed="#C" n="14"/>sunt per substantiam tria in nomine 
+      <lb ed="#C" n="15"/>cuiuslibet Personae sive unius cuiusqe: 
+      no<lb ed="#C" n="16" break="no"/>minativorum propriam substantiam sig 
+      <lb ed="#C" n="17"/>nificamus proprium ordinem &amp; 
+      pro<lb ed="#C" n="18" break="no"/>priam gloriam: per substantiam 
+      possu<lb ed="#C" n="19" break="no"/>mus intelligere hypostasim: per ordinem 
+      <lb ed="#C" n="20"/>originem: per gloriam proprietatem. 
+      <lb ed="#C" n="21"/>Distinguutur enim Personae realiter, 
+      <lb ed="#C" n="22"/>per hypostases, origines, &amp; 
+      proprieta<lb ed="#C" n="23" break="no"/>tes. Deinde cum dicit: Volens. Destruit 
+      <lb ed="#C" n="24"/>oppinionem Sabellij dicens quod Sancta 
+      <lb ed="#C" n="25"/>Synodus cogregata cotra sabellianos: 
+      <lb ed="#C" n="26"/>Volens eorum impietatem perimere, Idest, 
+      eo<lb ed="#C" n="27" break="no"/>rum errorem destruere: quia ponebant 
+      <lb ed="#C" n="28"/>distinctionem Personarum in nominibus 
+      <lb ed="#C" n="29"/>tantum; quia tres Personae erant 
+      tripli<lb ed="#C" n="30" break="no"/>citer nuncupatio, cui triplici 
+      nominiini<lb ed="#C" n="31" break="no"/>hil respondebat in re: &amp; non erat subsi 
+      <lb ed="#C" n="32"/>stens causa uniuscuiusque nominis. Nam 
+      <lb ed="#C" n="33"/>cum Personae non re, sed solo nomine 
+      <lb ed="#C" n="34"/>&amp; ratione differrent: ille idem qui est Pater 
+      <lb ed="#C" n="35"/>erat Filius &amp; Spiritus Sanctus, &amp; habet 
+      <lb ed="#C" n="36"/>bat utriusque nomen: ut ergo ille errot 
+      <lb ed="#C" n="37"/>destrueretur dictum est esse tres 
+      Perso<lb ed="#C" n="38" break="no"/>nas, esse per substantiam tria; ut non 
+      so<lb ed="#C" n="39" break="no"/>lum intelligeretur inter eas nominalis 
+      <lb ed="#C" n="40"/>differentia, sed realis, 
+      <lb ed="#C" n="41"/>Tunc sequitur illa pars: Subsistentium. In 
+      <lb ed="#C" n="42"/>qua exponit quomodo intelligendum sit 
+      <lb ed="#C" n="43"/>per substantiam tria. Ad cuius evidentiam 
+      <lb ed="#C" n="44"/>notandum, quod substantia 
+      aliquan<lb ed="#C" n="45" break="no"/>do accipitur pro natura, aliquando pro 
+      <lb ed="#C" n="46"/>supposito. In proposito autem 
+      Perso<lb ed="#C" n="47" break="no"/>nas subsistentium, hoc est, Personas de 
+      <lb ed="#C" n="48"/>numero subsistentium sive Personas 
+      sub<lb ed="#C" n="49" break="no"/>sistentes, per substantias intelligimus. Sunt 
+      <lb ed="#C" n="50"/>ergo tres Personae per substantiam tria; 
+      <lb ed="#C" n="51"/>non quod sit differens substantia &amp; 
+      dis<lb ed="#C" n="52" break="no"/>Similis essentia Patris &amp; Filij, sed 
+      indi<lb ed="#C" n="53" break="no"/>stincta Persona. Vult ergo Hilarius, 
+      <lb ed="#C" n="54"/>quod in proposito accipitur substantia 
+      <lb ed="#C" n="55"/>pro Persona, non pro: natura. Deinde 
+      <lb ed="#C" n="56"/>cum dicit: Quod autem. Exponit quid est, 
+      <!--616.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="57"/>esse per consonatiam unum. Nam hoc  
+      <lb ed="#C" n="58"/>non habet calumniam, cum ipse Spiritus 
+      <lb ed="#C" n="59"/>Paraclitus sit id, in quo uniuntur Pater 
+      <lb ed="#C" n="60"/>&amp; Filius per consonantiam, hoc est, per 
+      <lb ed="#C" n="61"/>amoris concordiam. Vnio ergo per 
+      <lb ed="#C" n="62"/>consonantiam dicit unionem in 
+      amo<lb ed="#C" n="63" break="no"/>re spirato: non in essentia vel potius 
+      <lb ed="#C" n="64"/>quam in essentia: nam si per unionem 
+      <lb ed="#C" n="65"/>Patris &amp; Filij secundum consonantiam, 
+      <lb ed="#C" n="66"/>intelligimus unionem in amore 
+      essentia<lb ed="#C" n="67" break="no"/>liter sumpto, hoc est, secudum 
+      quam<lb ed="#C" n="68" break="no"/>dam similitudinem inquantum amor 
+      <lb ed="#C" n="69"/>essentialiter sumptus appropriatur  
+      <lb ed="#C" n="70"/>Spiritui Sancto propter similitudinem. 
+      <lb ed="#C" n="71"/>psius ad eius proprium: &amp; ideo oportet 
+      <lb ed="#C" n="72"/>nos talem unitatem dicere non esse 
+      essen<lb ed="#C" n="73" break="no"/>tiae vel substantiae; sed per simisit udinem 
+      <lb ed="#C" n="74"/>essentiae vel substantiae: quia amor 
+      essen<lb ed="#C" n="75" break="no"/>tialiter sumptus appropriatur Spiritui 
+      <lb ed="#C" n="76"/>Sancto, in quo neciutur Pater &amp; Filius: 
+      <lb ed="#C" n="77"/>&amp; consonantiam propter similitudinem 
+      <lb ed="#C" n="78"/>quam habet ad proprium eius. Cum Deum 
+      <lb ed="#C" n="79"/>Patrem &amp;c. Ista quarta notula inducitur  
+      <lb ed="#C" n="80"/>contra erroremArrij &amp; Sabe. lij: &amp; ideo 
+      <lb ed="#C" n="81"/>duo facit Hilarius, secundum quod duos 
+      <lb ed="#C" n="82"/>errores destruit. Secunda ibi: Non 
+      Religio<lb ed="#C" n="83" break="no"/>sa. Destruit primo errorem Arrij 
+      di<lb ed="#C" n="84" break="no"/>cens, quod cum Deum Patrem 
+      confire<lb ed="#C" n="85" break="no"/>mur, &amp; Christum Dei Filium 
+      praedica<lb ed="#C" n="86" break="no"/>mus, si eos duos Deos dicimus, 
+      inreligio<lb ed="#C" n="87" break="no"/>sa est confessio nostra: nam cum sit 
+      na<lb ed="#C" n="88" break="no"/>ture indifferentia inter Patrem &amp; Filium, 
+      <lb ed="#C" n="89"/>&amp; sit tantum unum nomen eorum, 
+      se<lb ed="#C" n="90" break="no"/>cundum quod sunt naturaliter unum, 
+      <lb ed="#C" n="91"/>oportet quod sint unum in genere 
+      essen<lb ed="#C" n="92" break="no"/>tiae, in quo destruitur ertor Arrij, qui  
+      <lb ed="#C" n="93"/>cum poneret Filium creaturam etiam 
+      <lb ed="#C" n="94"/>genere, secundum eum dis erebat 
+      <lb ed="#C" n="95"/>essentia Patris ab essentia Filij. D einde 
+      <lb ed="#C" n="96"/>cum addit: Non religiosa: Excludit errorem 
+      <lb ed="#C" n="97"/>Sabellij dicens: Quod religiosa: unitas 
+      no<lb ed="#C" n="98" break="no"/>minis, secundum quod Patri &amp; Filio 
+      <lb ed="#C" n="99"/>competit unum nomen, quia uterque 
+      <lb ed="#C" n="100"/>Deus: Non ademit, idest, non abstulit 
+      Per<lb ed="#C" n="101" break="no"/>sonam genite essentiae, idest, Personam 
+      <lb ed="#C" n="102"/>Filij, qui est essentia &amp; est genitus, 
+      Perso<lb ed="#C" n="103" break="no"/>nam videlicet: Constitutam, idest 
+      produ<lb ed="#C" n="104" break="no"/>ctam &amp; generatam: Et essentia 
+      indifferen<lb ed="#C" n="105" break="no"/>tis naturae, idest, ex Patre, qui a Filio 
+      na<lb ed="#C" n="106" break="no"/>tura non differt quasi dicens, quod 
+      uni<lb ed="#C" n="107" break="no"/>tas naturae non aufert distinctionem 
+      Per<lb ed="#C" n="108" break="no"/>sonarum, quod est contra Sabellium. Vn 
+      <lb ed="#C" n="109"/>de subdit, quod unica ac singularis Dei 
+      <lb ed="#C" n="110"/>ubstantia per unionem nominis 
+      intel<lb ed="#C" n="111" break="no"/>igatur: cum unum nomen essentiae. Est supple: 
+      <lb ed="#C" n="112"/>Vtriusque, idest Patris &amp; Filij: habent  
+      <!--617.xml-->
+      <pb ed="#C" n="592"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>enim uterque, idest, Pater &amp; Filius unum 
+      <lb ed="#C" n="2"/>nomen essentiae: quia uterque dicitur  
+      <lb ed="#C" n="3"/>Deus, &amp; ideo addit quod unus Deus 
+      <lb ed="#C" n="4"/>predicatur sive dicitur in utroque, id 
+      <lb ed="#C" n="5"/>est, in Patre &amp; Filio: ob indissimilem 
+      substan<lb ed="#C" n="6" break="no"/>tiam indiscretae naturae. Nam Pater &amp; Filius sunt  
+      <lb ed="#C" n="7"/>unus Deus: quia est indissimilis substantia, 
+      <lb ed="#C" n="8"/>&amp; indiscreta natura, idest, in utroque. In 
+      <lb ed="#C" n="9"/>quantum autem proles sunt habentes 
+      <lb ed="#C" n="10"/>talem naturam destruitur error 
+      Sabel<lb ed="#C" n="11" break="no"/>lij: prout autem unus Deus praedicatur  
+      <lb ed="#C" n="12"/>in utroque destruitur error Arrij. Item su 
+      <lb ed="#C" n="13"/>per illo: A Charobdi, &amp; Scoplla liberaberis. 
+      <lb ed="#C" n="14"/>Notandum quod in partibus Siciliae est, 
+      <lb ed="#C" n="15"/>quaedam insula in mari, quae vocatur  
+      <lb ed="#C" n="16"/>Charyodis: Scylla est quaedam rupes ibi h 
+      <lb ed="#C" n="17"/>dem in terra sita iuxta mare, &amp; 
+      aqua<lb ed="#C" n="18" break="no"/>maris inter utramque transit, &amp; nautae 
+      <!--617.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="19"/>si absque naufragio inde transire volunt,  
+      <lb ed="#C" n="20"/>oportet eos inter dicta duo transire, non 
+      <lb ed="#C" n="21"/>adhaerendo Scyllae nec Chatybdi: 
+      im<lb ed="#C" n="22" break="no"/>mo aliquando quomodo unum vitare 
+      <lb ed="#C" n="23"/>volunt, in aliud incidunt: propter quod  
+      <lb ed="#C" n="24"/>dictum est: Incidit in Scyllam volens vitare 
+      <lb ed="#C" n="25"/>Charobdim: per praedicta duo Magister in 
+      <lb ed="#C" n="26"/>telligit duos errores Arrij, &amp; Sabellij. Si 
+      <lb ed="#C" n="27"/>igitur sine periculo de fide sentire 
+      volu<lb ed="#C" n="28" break="no"/>mus, sic debemus vitare Arrium 
+      po<lb ed="#C" n="29" break="no"/>nendo unitatem essentiae, quod non 
+      ad<lb ed="#C" n="30" break="no"/>haereamus Sabellio confundendo 
+      Per<lb ed="#C" n="31" break="no"/>sonas: &amp; sic debemus vitare Sabellium 
+      <lb ed="#C" n="32"/>distinguendo Personas, quod non 
+      adhae<lb ed="#C" n="33" break="no"/>reamus Artio separando substantiam. Et sic 
+      <lb ed="#C" n="34"/>faciedo liberabimur aCharybdi, &amp; 
+      Scyl<lb ed="#C" n="35" break="no"/>la, errorem Arrij &amp; Sabellij evitando.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

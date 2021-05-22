@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="4"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-d1e901"><!-- l1-prolq1 -->
+            <head xml:id="Gi9qrR-d1e901-Hd1e108">Quaestio 1</head>
+            <head xml:id="Gi9qrR-d1e901-Hd1e111" type="question-title">De causis theologiae</head>
+            <p xml:id="Gi9qrR-d1e901-d1e114">
+               <lb ed="#C" n="89"/>PROLOG I. 
+      <lb ed="#C" n="90"/>QVAESTIO PRIMA DE CAVSIS 
+      <lb ed="#C" n="91"/>THEOLOGIAE 
+    </p>
+            <p xml:id="Gi9qrR-d1e901-d1e123">
+               <lb ed="#C" n="92"/>QVoniam tactae sunt causae huius 
+      ope<lb ed="#C" n="93" break="no"/>Dris, quod scientiae divinae 
+      supponi<lb ed="#C" n="94" break="no"/>Stur: bene se habet de quatuor 
+      cau<lb ed="#C" n="95" break="no"/>sis Theologiae, siue divinae scientiae 
+      dubita<lb ed="#C" n="96" break="no"/>re, &amp; ideo primo dubitabimus de causa 
+      <lb ed="#C" n="97"/>materiali Theologiae; secundo de formalis 
+      <lb ed="#C" n="98"/>tertio de efficiente; quarto de finali. Circa 
+      <lb ed="#C" n="99"/>causam materialem contingit dubitare 
+      du<lb ed="#C" n="100" break="no"/>pliciter, primo de subiecto in se; secudo de 
+      <lb ed="#C" n="101"/>nis, quae consequitur divina scientia 
+      ex<lb ed="#C" n="102" break="no"/>ubiecto. Sed quia de subiecto in se non 
+      <lb ed="#C" n="103"/>possumus bene dubitare; nisi sciamus: vtrum 
+      <lb ed="#C" n="104"/>Theologia sit scientia specialis, vel 
+      com<lb ed="#C" n="105" break="no"/>munis: nec hoc plene declarari potest: 
+      ni<lb ed="#C" n="106" break="no"/>si declaretur quomodo differt inter esse ali 
+      <lb ed="#C" n="107"/>quid subiectum scientiae, &amp; de 
+      considera<lb ed="#C" n="108" break="no"/>tione scientiae: ideo in principio circa 
+      su<lb ed="#C" n="109" break="no"/>biectum in se tria quaeremus. Primo: vtrum 
+      <!--42.xml-->
+      <pb ed="#C" n="5"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>idem sit aliquid esse subiectum scientiae, &amp; 
+      <lb ed="#C" n="2"/>esse de consideratione. Secundo: Vtrum, 
+      <lb ed="#C" n="3"/>Theologia sit scientia specialis, vel com 
+      <lb ed="#C" n="4"/>munis. Tertio quid sit subiectum in Sacra 
+      <lb ed="#C" n="5"/>Pagina. 
+    </p>
+            <div xml:id="Gi9qrR-d1e901-Dd1e182">
+               <head xml:id="Gi9qrR-d1e901-Hd1e184">Articulus 1</head>
+               <p xml:id="Gi9qrR-d1e901-d1e187">
+                  <lb ed="#C" n="6"/>ARTICVLO I. 
+        <lb ed="#C" n="7"/>Vtrum omne, quod consideratur in scientia 
+        <lb ed="#C" n="8"/>sit subiectum 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e196">
+                  <lb ed="#C" n="9"/>Ad primum sic proceditur: videtur 
+        <lb ed="#C" n="10"/>Aquod idem sit aliquid esse subiectum 
+        <lb ed="#C" n="11"/>in scientia, &amp; esse de consideratione 
+        scien<lb ed="#C" n="12" break="no"/>tiae, quia subiectum in scientia, non est illud. 
+        <lb ed="#C" n="13"/>in quo est scientia, sed est de quo, sed illud 
+        <lb ed="#C" n="14"/>de quo est scientia, est illud quod 
+        conside<lb ed="#C" n="15" break="no"/>ratur in scientia; ergo idem est esse 
+        subiec<lb ed="#C" n="16" break="no"/>tum, &amp; deconsideratione scientiae. 
+        Praete<lb ed="#C" n="17" break="no"/>rea: subiectum in scientia dicitur esse 
+        ma<lb ed="#C" n="18" break="no"/>teria scientiae, sed materia scientiae est 
+        il<lb ed="#C" n="19" break="no"/>dud, circa quod versatur scientia: sicut ma 
+        <lb ed="#C" n="20"/>teria virtutis est illnd circa quod 
+        negotia<lb ed="#C" n="21" break="no"/>tur virtus: sed illud circa quod versatur 
+        <lb ed="#C" n="22"/>scientia, est illud, quod consideratur in scienm 
+        <lb ed="#C" n="23"/>tia, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e231">
+        Praeterea: secantur scientia 
+        <lb ed="#C" n="24"/>quem admodum &amp; res: vt scribitur in 3. 
+        <lb ed="#C" n="25"/>de Anim. sed istae res, secundum quas 
+        se<lb ed="#C" n="26" break="no"/>cantur scientiae, sunt res, quae 
+        consideran<lb ed="#C" n="27" break="no"/>tur in scientiis, sed scientiae secantur per 
+        <lb ed="#C" n="28"/>subiecta sua; ergo idem est esse subiectum in 
+        <lb ed="#C" n="29"/>scientia, &amp; esse de consideratione scientiae, 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e247">
+                  <lb ed="#C" n="30"/>In contrarium est: quia secundum 
+        <lb ed="#C" n="31"/>Avicen. in principio Metaph. suae: causa 
+        <lb ed="#C" n="32"/>non est subiectum in Metaphysica; tamen 
+        <lb ed="#C" n="33"/>secundum Phil. causa est de cosideratione 
+        <lb ed="#C" n="34"/>metaphysicae: quia metaphysicus 
+        conside<lb ed="#C" n="35" break="no"/>rat de differentijs entis: sunt enim 
+        differe<lb ed="#C" n="36" break="no"/>tiae entis causa, &amp; causatum: sicut actus, &amp; 
+        <lb ed="#C" n="37"/>potentia; cum igitur causa sit de considera 
+        <lb ed="#C" n="38"/>tione metaphysicae, &amp; non sit subiectum 
+        <lb ed="#C" n="39"/>in metaphysica, ergo aliquid est de 
+        consi<lb ed="#C" n="40" break="no"/>deratione scientiae, quod non est subiectum 
+        <lb ed="#C" n="41"/>in scientia 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e277">
+                  <lb ed="#C" n="42"/>Praeterea: aliqua considerantur in 
+        scien<lb ed="#C" n="43" break="no"/>tia per accidens, sed ex his, quae sunt per  
+        <lb ed="#C" n="44"/>accidens, nihil recipit speciem, sed ex, su 
+        <lb ed="#C" n="45"/>biecto suo scientia recipit speciem, vt pate 
+        <lb ed="#C" n="46"/>bit, igitur non est idem esse de consideratio 
+        <lb ed="#C" n="47"/>ne scientiae, &amp; esse subiectum in scientia. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e293">
+                  <lb ed="#C" n="48"/>RESOLVTIO 
+        <lb ed="#C" n="49"/>omne quod est de confideratione scientiae non est sub 
+        <lb ed="#C" n="50"/>rectum, etiam si subiectum de considera¬ 
+        <lb ed="#C" n="51"/>tione scientiae sit. 
+        <lb ed="#C" n="52"/>
+                  <!-- line coord error AEgid. in 2. Sent. 7. 1. Art. 1. -->
+               </p>
+               <p xml:id="Gi9qrR-d1e901-d1e308">
+                  <lb ed="#C" n="53"/>REspondeo dicendum, quod sicut in 
+        <lb ed="#C" n="54"/>arguendo dicebatur, subiectum in scien¬ 
+        <!--42.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>tia non est illud, in quo est scientia, sed illud 
+        <lb ed="#C" n="56"/>de quo: nam si illud, in quo est scientia, 
+        <lb ed="#C" n="57"/>esset subiectum; cum omnis scientia sit in 
+        <lb ed="#C" n="58"/>intellectu, omnium scientiarum esset vnum 
+        <lb ed="#C" n="59"/>subiectum: &amp; tunc scientiae non 
+        distingue<lb ed="#C" n="60" break="no"/>retur per subiecta sua, &amp; esset confusio scie 
+        <lb ed="#C" n="61"/>tiarum; quod est in conveniens: igitur sub 
+        <lb ed="#C" n="62"/>iectum in scientia est obiectum: &amp; quia 
+        <lb ed="#C" n="63"/>quilibet habitus ex obiecto suo principali, 
+        <lb ed="#C" n="64"/>&amp; formali sumit speciem; scientia, cum 
+        ha<lb ed="#C" n="65" break="no"/>beat rationem habitus, ex obiecto suo prin 
+        <lb ed="#C" n="66"/>cipali trahet speciem: cum igitur scientia 
+        <lb ed="#C" n="67"/>dividantur per subiecta sua, &amp; ex eis trahant 
+        <lb ed="#C" n="68"/>speciem; subiectum in scientia est obiectis 
+        <lb ed="#C" n="69"/>non quodlibet, sed obiectum principale, &amp; 
+        <lb ed="#C" n="70"/>formale, &amp; quia omne tale obiectum est 
+        <lb ed="#C" n="71"/>de consideratione scientiae: imo est id, de 
+        <lb ed="#C" n="72"/>quo principaliter considerat scientia, om 
+        <lb ed="#C" n="73"/>ne subiectum in scientia est de considera 
+        <lb ed="#C" n="74"/>tione eius: verum non omne, quod est de 
+        <lb ed="#C" n="75"/>consideratione scientiae, est subiectum, vit  
+        <lb ed="#C" n="76"/>patebit: igitur esse subiectum in scientia, &amp; 
+        <lb ed="#C" n="77"/>esse de consideratione scientiae non sunt,  
+        <lb ed="#C" n="78"/>idem poenitus, sed differunt sicut vniversale 
+        <lb ed="#C" n="79"/>&amp; particulare. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e373">
+                  <lb ed="#C" n="80"/>Consequitur namque scientia quinque 
+        <lb ed="#C" n="81"/>ex subiecto fuo: per quae apparere potest 
+        <lb ed="#C" n="82"/>quod non est idem esse subiectum in 
+        scien<lb ed="#C" n="83" break="no"/>tia, &amp; esse de consideratione. Primum 
+        au<lb ed="#C" n="84" break="no"/>tem est vnitas, quia secundum Philosoph. 
+        <lb ed="#C" n="85"/>in 1. poster, scientia vna est, quae vnius 
+        ge<lb ed="#C" n="86" break="no"/>neris subiecti partes, &amp; passiones 
+        conside<lb ed="#C" n="87" break="no"/>rat. Secundum est distinctio: nam scientiae 
+        <lb ed="#C" n="88"/>distinguuntur secundum diversitatem suo 
+        <lb ed="#C" n="89"/>rum subiectorum: nam per idem habet 
+        ali<lb ed="#C" n="90" break="no"/>quid esse, &amp; vnum esse, &amp; in distinctionem 
+        <lb ed="#C" n="91"/>a se, &amp; distinctionem ab aliis. Si igitur 
+        scien<lb ed="#C" n="92" break="no"/>tia ex subiecto suo habet esse vnum, habet 
+        <lb ed="#C" n="93"/>&amp; esse distinctum. Tertium est dignitas: nam 
+        <lb ed="#C" n="94"/>yna scietia est dignior alia, quia de 
+        dignio<lb ed="#C" n="95" break="no"/>ri subiecto, vt patet per Philos. in princ. de 
+        <lb ed="#C" n="96"/>Anim. Quartum est ordo: quia quando 
+        <lb ed="#C" n="97"/>subiectum est sub subiecto; &amp; sunt ibi alie 
+        con<lb ed="#C" n="98" break="no"/>ditiones annexae, scientia est sub scientia: 
+        si<lb ed="#C" n="99" break="no"/>cut videmus quod Perspectiva est sub Geo 
+        <lb ed="#C" n="100"/>metria: quia linea visualis est sub linea sim 
+        <lb ed="#C" n="101"/>pliciter, sive sub magnitudine continua, 
+        <lb ed="#C" n="102"/>quae in Ccometria dicitur esse subiectum. 
+        <lb ed="#C" n="103"/>quintum est necessitas: quia ex hoc nulla 
+        <lb ed="#C" n="104"/>scientia superfluit, sed quaelibet est 
+        necessa<lb ed="#C" n="105" break="no"/>ria: quia subiectum vnius non est subiectum 
+        <lb ed="#C" n="106"/>alterius, &amp; aliquid declaratur in una, quod  
+        <lb ed="#C" n="107"/>non declaratur in alia. Si autem idem esset 
+        <lb ed="#C" n="108"/>esse de consideratione scientiae, &amp; esse 
+        su<lb ed="#C" n="109" break="no"/>biectum in scientia; cum vnum, &amp; idem 
+        <lb ed="#C" n="110"/>possit esse de consideratione plurium scie¬ 
+        <!--43.xml-->
+        <pb ed="#C" n="6"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tiarum, vt patet per Philosop. 1. Poster, &amp; 
+        <lb ed="#C" n="2"/>per Com. 12. Metaph. Vnum, &amp; idem 
+        <lb ed="#C" n="3"/>esset subiectum plurium scientiarum. 
+        Rur<lb ed="#C" n="4" break="no"/>sum cum multa, &amp; diversa in vna scientia 
+        <lb ed="#C" n="5"/>considerentur si quodlibet illorum esset 
+        sub<lb ed="#C" n="6" break="no"/>iectum in scientia, &amp; non solum illud 
+        <lb ed="#C" n="7"/>quod principaliter in scientia intenditur, 
+        <lb ed="#C" n="8"/>tunc vnius scientiae essent diversa subiecta, 
+        <lb ed="#C" n="9"/>&amp; ita tolleretur unitas scientiae propter 
+        di<lb ed="#C" n="10" break="no"/>versitatem subiectorum in una scientia: &amp; 
+        <lb ed="#C" n="11"/>tolleretur distinctio propter unitatem 
+        sub<lb ed="#C" n="12" break="no"/>iecti in multis scientiis, &amp; si tolleretur 
+        uni<lb ed="#C" n="13" break="no"/>tas, &amp; distinctio in scientijs, tolleretur 
+        or<lb ed="#C" n="14" break="no"/>do, &amp; dignitas in eis: quia exshoc vna 
+        scien<lb ed="#C" n="15" break="no"/>tia alia existit digmor, &amp; vna scientia sub 
+        <lb ed="#C" n="16"/>alia ordinatur: quia scientiae habet esse 
+        dis<lb ed="#C" n="17" break="no"/>tinctum. Item: tolleretur necessitas:: quia 
+        <lb ed="#C" n="18"/>vt patuit, propter diversitatem subiectorum 
+        <lb ed="#C" n="19"/>quaelibet scientia erat necessaria, &amp; nulla 
+        <lb ed="#C" n="20"/>superfluebat. Igitur non est idem esse 
+        ali<lb ed="#C" n="21" break="no"/>quid de consideratione scientiae, &amp; esse 
+        su<lb ed="#C" n="22" break="no"/>biectum. Tamen vt pateant rationes, quae 
+        <lb ed="#C" n="23"/>factae sunt, &amp; quae fieri possent, notandum, 
+        <lb ed="#C" n="24"/>quod quatuor modis aliquid consideratur  
+        <lb ed="#C" n="25"/>in scientia: primo aliquid consideratur in 
+        <lb ed="#C" n="26"/>scientia per se, &amp; primo &amp; principaliter, &amp; 
+        <lb ed="#C" n="27"/>per omnem modum: secundo per se, &amp; 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e508">
+                  <lb ed="#C" n="28"/>primo, non tamen per omnem modum 
+        <lb ed="#C" n="29"/>tertio per se, sed non primo: quarto, &amp; 
+        vl<lb ed="#C" n="30" break="no"/>timo nec per se, nec primo sed per 
+        acci<lb ed="#C" n="31" break="no"/>dens, &amp; per aliud secudum quod videre 
+        pos<lb ed="#C" n="32" break="no"/>sumus in Metaphysica. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e521">
+                  <lb ed="#C" n="33"/>Nam illud, quod per se, &amp; primo, &amp; prin 
+        <lb ed="#C" n="34"/>cipaliter, &amp; per omnem modum 
+        consi<lb ed="#C" n="35" break="no"/>deratur in ea, est ens, &amp; ideo quidquid 
+        de<lb ed="#C" n="36" break="no"/>terminat, determinat sub ratione entis: 
+        ve<lb ed="#C" n="37" break="no"/>rum quia ralio entis magis reservatur in 
+        <lb ed="#C" n="38"/>substantia, quam reservetur in accidente, 
+        <lb ed="#C" n="39"/>quia accidentia non sunt entia, nisi quia 
+        <lb ed="#C" n="40"/>sunmentis, vt scribitur 7. Metaph. quantum 
+        <lb ed="#C" n="41"/>ad istum modum, &amp; si non per omnem 
+        <lb ed="#C" n="42"/>modum, tamen principalius considerat de 
+        <lb ed="#C" n="43"/>substantia, quam de alijs entibus, &amp; ideo di 
+        <lb ed="#C" n="44"/>est de substatia principaliter. Rursum de 
+        ac<lb ed="#C" n="45" break="no"/>cit ipse in 12. Metaph. consideratio quidem 
+        <lb ed="#C" n="46"/>dente considurat metaphysicus per se solum 
+        <lb ed="#C" n="47"/>non primo, &amp; per omnem modum: quia 
+        <lb ed="#C" n="48"/>sub ratione accidentis non considerat de 
+        <lb ed="#C" n="49"/>omuibus, de quibus considerat: nec primo 
+        <lb ed="#C" n="50"/>secundum illum aliquem modum iam 
+        dic<lb ed="#C" n="51" break="no"/>tum: quia natura entis non prius 
+        reserva<lb ed="#C" n="52" break="no"/>tur in accidente, quam in alijs, sed conside 
+        <lb ed="#C" n="53"/>rat de eo solum per se, in quantum, 
+        scisi<lb ed="#C" n="54" break="no"/>cet, est pars entis. Quarto Metaphysicus 
+        <lb ed="#C" n="55"/>adducit exempla ad declarandum 
+        proposi<lb ed="#C" n="56" break="no"/>tum, de quibus exemplis considerat nec 
+        <!--43.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>per se, nec primo, sed solum per accidens, 
+        <lb ed="#C" n="58"/>&amp; per aliud: quia exempla ponimus, non 
+        ita<lb ed="#C" n="59" break="no"/>t sit, sed vt sentiat, qui discit, vt scribitur  
+        <lb ed="#C" n="60"/>circa fine 1. Prior. Quod autem primo 
+        mo<lb ed="#C" n="61" break="no"/>do consideratur in scientia simpliciter est 
+        <lb ed="#C" n="62"/>subiectum in scientia: nam ens in eo quod  
+        <lb ed="#C" n="63"/>ens simpliciter est subiectum in 
+        Metaphysi<lb ed="#C" n="64" break="no"/>ca, quod autem secundo consideratur, 
+        li<lb ed="#C" n="65" break="no"/>cet non sit subiectum simpliciter in ea, 
+        ta<lb ed="#C" n="66" break="no"/>men aliquo modo potest dici subiectum, 
+        <lb ed="#C" n="67"/>vnde &amp; Philos. 4. Meth. cum prius 
+        dixis<lb ed="#C" n="68" break="no"/>set, quod vna scientia est, quae considerat 
+        <lb ed="#C" n="69"/>de ente in eo quod ens: innuens per hod 
+        <lb ed="#C" n="70"/>quod ens in eo quod ens est subietum in 
+        <lb ed="#C" n="71"/>Metaphysica, postea dixit: quod sicut est 
+        <lb ed="#C" n="72"/>vna scientia, quae considerat de sano, cui  
+        <lb ed="#C" n="73"/>attribuuntur omnia sana; vt medicina: ita 
+        <lb ed="#C" n="74"/>estvna scientia, quae considerat de ente, 
+        <lb ed="#C" n="75"/>curattribuuntur omnia entia, vt 
+        Metaphy<lb ed="#C" n="76" break="no"/>sica. Illud autem ens, cui attribuuntur 
+        om<lb ed="#C" n="77" break="no"/>nia entia, substantia est: per quod habere 
+        pos<lb ed="#C" n="78" break="no"/>sumus, quod aliquo modo subiectum in 
+        <lb ed="#C" n="79"/>Metaphysica est substatia, &amp; sicut 
+        substan<lb ed="#C" n="80" break="no"/>tia potest dici aliquo modo subiectum in 
+        <lb ed="#C" n="81"/>Metaphyfica: quia ratio entitatis magis 
+        re<lb ed="#C" n="82" break="no"/>ervatur in substantia, quam in alijs 
+        enti<lb ed="#C" n="83" break="no"/>bus, ita subiectum in ea potest dici Deus: 
+        <lb ed="#C" n="84"/>quia ratio entitatis magis reservatur in 
+        <lb ed="#C" n="85"/>Deo, quam in caeteris entibus. Et inde est 
+        <lb ed="#C" n="86"/>quod scientia Metaphysicae dicitur esse 
+        di<lb ed="#C" n="87" break="no"/>vina, &amp; de Deo. Quod autem tertio 
+        mo<lb ed="#C" n="88" break="no"/>do consideratur in scientia nec est subiectum 
+        <lb ed="#C" n="89"/>simpliciter, nec aliquo modo; potest 
+        ta<lb ed="#C" n="90" break="no"/>men esse pars subiecti, vt patuit. Quod 
+        au<lb ed="#C" n="91" break="no"/>tem quarto modo a scientia consideratur,  
+        <lb ed="#C" n="92"/>nec est subiectum, nec pars subiecti: patet 
+        <lb ed="#C" n="93"/>igitur quod in plus est esse consideratum in 
+        <lb ed="#C" n="94"/>lcientia, quam esse subiectum: quia quod  
+        <lb ed="#C" n="95"/>est consideratum in scientia non semper 
+        <lb ed="#C" n="96"/>est subiectum, sed aliquando est subiectum 
+        <lb ed="#C" n="97"/>simpliciter, aliquando est subiectum aliquo 
+        <lb ed="#C" n="98"/>modo, aliquando nec subiectum 
+        simplici<lb ed="#C" n="99" break="no"/>ter, nec subiectum aliquo modo, sed 
+        so<lb ed="#C" n="100" break="no"/>vlum pars subiecti, vel aliquo modo directem 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e676">
+                  <lb ed="#C" n="101"/>pertinens ad subiectum: vt quia causa 
+        su<lb ed="#C" n="102" break="no"/>piecti, vel passio subiecti, vel etiam partium 
+        <lb ed="#C" n="103"/>subiecti: aliquando autem nec est subiectum, 
+        <lb ed="#C" n="104"/>nec pars subiecti, nec directe pertinens ad 
+        <lb ed="#C" n="105"/>subiectum, sed solum per accidens 
+        intro<lb ed="#C" n="106" break="no"/>ductum 
+        <lb ed="#C" n="107"/>Resp. ad arg. ad primum dicendum: 
+        <lb ed="#C" n="108"/>quod illud de quo est scientia est subiectum, 
+        <lb ed="#C" n="109"/>sed non omne, sed solum de quo est 
+        prin<lb ed="#C" n="110" break="no"/>cipaliter, &amp; ideo non est idem 
+        considera<lb ed="#C" n="111" break="no"/>tum in scientia, &amp; subiectum, nisi sicut 
+        <lb ed="#C" n="112"/>yniversale, &amp; particulare. Ad secundum 
+        <!--44.xml-->
+        <pb ed="#C" n="7"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>dicendum: quod non est idem materia A 
+        <lb ed="#C" n="2"/>scientiae, &amp; subiectum in scientia, nisi 
+        stric<lb ed="#C" n="3" break="no"/>te accipiatur materia, &amp; si stricte materia 
+        <lb ed="#C" n="4"/>accipiatur; tunc non est verum, quod 
+        om<lb ed="#C" n="5" break="no"/>ne consideratum in scientia sit materia 
+        <lb ed="#C" n="6"/>scientiae, vel si large accipiatur subiectum; 
+        <lb ed="#C" n="7"/>&amp; tunc non est sermo de subiecto, ut hic 
+        lo<lb ed="#C" n="8" break="no"/>quimur. Ad tertium dicendum: quod per 
+        <lb ed="#C" n="9"/>considerata in scientijs scientie 
+        distinguun<lb ed="#C" n="10" break="no"/>tur non simpliciter, sed secundum 
+        diver<lb ed="#C" n="11" break="no"/>sas rationes, secundum quas 
+        consideran<lb ed="#C" n="12" break="no"/>tur: quia ut habitum est, de uno, &amp; eodem 
+        <lb ed="#C" n="13"/>considerant diverse scientiae, sub diversa 
+        <lb ed="#C" n="14"/>tamen ratione, &amp; quia illa ratio ex 
+        subiec<lb ed="#C" n="15" break="no"/>to sumitur, directe scientiae per subiecta  
+        <lb ed="#C" n="16"/>distinguuntur, non per considerata 
+        quo<lb ed="#C" n="17" break="no"/>cumque modo, ut ratio proponebat.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-d1e901-Dd1e750">
+               <head xml:id="Gi9qrR-d1e901-Hd1e752">Articulus 2</head>
+               <p xml:id="Gi9qrR-d1e901-d1e755">
+                  <lb ed="#C" n="18"/>ARTICVLVS II. 
+        <lb ed="#C" n="19"/>Utrum Theologia scientia communis? 
+        <lb ed="#C" n="20"/>vel specialis sit: 
+        <lb ed="#C" n="21"/>
+                  <!-- line coord error De hoc Henr. in sum. art. 7. 4. 3. -->
+               </p>
+               <p xml:id="Gi9qrR-d1e901-d1e768">
+                  <lb ed="#C" n="22"/>SEcundo quaeritur vtrum Theologia sit 
+        <lb ed="#C" n="23"/>scientia communis, vel specialis? Et 
+        vi<lb ed="#C" n="24" break="no"/>detur quod communis: quia illa est 
+        scien<lb ed="#C" n="25" break="no"/>tia communis, quae determinat de 
+        omni<lb ed="#C" n="26" break="no"/>bus, sed Theologia determinat de 
+        omni<lb ed="#C" n="27" break="no"/>bus, ergo &amp;c. Maior de se patet, minor de 
+        <lb ed="#C" n="28"/>claratur: quia dicit Magister in principio 
+        <lb ed="#C" n="29"/>primi Sententiarum Sacre Paginae 
+        tracta<lb ed="#C" n="30" break="no"/>tu circa res vel signa praecipue versari, sed  
+        <lb ed="#C" n="31"/>omnis doctrina, vel rerum est, vel signorum 
+        <lb ed="#C" n="32"/>it dicit <name xml:id="Gi9qrR-d1e901-Nd1e794" ref="#Augustine">Aug.</name> 1. de Doctrin. Christ. circa 
+        <lb ed="#C" n="33"/>principia: ergo ista scientia versatur circa 
+        <lb ed="#C" n="34"/>omnia: quia versatur circa ea, circa quae 
+        <lb ed="#C" n="35"/>versatur omnis doctrina. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e804">
+                  <lb ed="#C" n="36"/>Praeterea: videmus in humanis scientijs 
+        <lb ed="#C" n="37"/>quod scientia maxime abstracta est maxime 
+        <lb ed="#C" n="38"/>conmunis, cu igitur Theologia maxime sit 
+        <lb ed="#C" n="39"/>ibstracta erit maxime communis.
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e815">
+        Praeterea 
+        <lb ed="#C" n="40"/>sapiens est artifex, quia vt scribitur 1. 
+        Me<lb ed="#C" n="41" break="no"/>ta. c. 2 sapientem omnia, ut possibile est, 
+        <lb ed="#C" n="42"/>scire: ergo sapientia erit ars, sive scientia 
+        <lb ed="#C" n="43"/>communis, sed ista scientia maxime est 
+        sa<lb ed="#C" n="44" break="no"/>pientia: iuxta illud Eccles. 6. Sapientia enim 
+        <lb ed="#C" n="45"/>doctrinae secundum nomen est eius: igitur 
+        maxi<lb ed="#C" n="46" break="no"/>me est communis.
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e834">
+        Praeterea ista scientia 
+        <lb ed="#C" n="47"/>omnibus se coaptat: unde <name xml:id="Gi9qrR-d1e901-Nd1e838" ref="#Augustine">Aug.</name> 1. de Trin. 
+        <lb ed="#C" n="48"/>cap. 1. ait quod sancta Scriptura parvulis congruens 
+        <lb ed="#C" n="49"/>nullius generis rerum veroa vitavit, sed quod om 
+        <lb ed="#C" n="50"/>nibus congruit, &amp; etiam parvulis maxime 
+        de<lb ed="#C" n="51" break="no"/>omnibus debet tractare: quia talia sunt  
+        <lb ed="#C" n="52"/>quae nullus ignorat, sed sunt quasi locus 
+        <lb ed="#C" n="53"/>ianuae in domo; ut dicit Coment. in 2. 
+        <!--44.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>Metaph. sed talia tractare spectat ad 
+        com<lb ed="#C" n="55" break="no"/>munem scientiam ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e864">
+                  <lb ed="#C" n="56"/>In contrarium est: quia non possunt esse 
+        <lb ed="#C" n="57"/>duae scientiae communes, quod si possunt? 
+        <lb ed="#C" n="58"/>Da oppositum: si sunt duae scientiae 
+        com<lb ed="#C" n="59" break="no"/>munes? aut ergo quaelibet earum 
+        conside<lb ed="#C" n="60" break="no"/>rat de ente in eo quod ens: &amp; tunc una ab 
+        <lb ed="#C" n="61"/>alia non distinguitur: aut una considerat, 
+        <lb ed="#C" n="62"/>&amp; non alia? Et tunc una est communis, &amp; 
+        <lb ed="#C" n="63"/>non alia; aut neutra considerat de ente in 
+        eo<lb ed="#C" n="64" break="no"/>quod ens? Et tunc neutra communis 
+        exis<lb ed="#C" n="65" break="no"/>tit.
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e888">
+        Praeterea: ad scientiam communem 
+        <lb ed="#C" n="66"/>pertinet probare principia aliarum 
+        scientia<lb ed="#C" n="67" break="no"/>rum, unde &amp; Philosophus, quando 
+        nega<lb ed="#C" n="68" break="no"/>pantur sibi principia Philosophie naturalis 
+        in<lb ed="#C" n="69" break="no"/>dues habitum metaphysici disputavit contra 
+        <lb ed="#C" n="70"/>negantes principia, vt patet ex 1. Phys. in 
+        dis<lb ed="#C" n="71" break="no"/>putatione contra Parmenidem, &amp; Melissum. 
+        <lb ed="#C" n="72"/>sed ista scientia non probat principia 
+        alia<lb ed="#C" n="73" break="no"/>tum scientiarum, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e908">
+                  <lb ed="#C" n="74"/>RESOLVTIO. 
+        <lb ed="#C" n="75"/>Theologia scientia specialis est. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e915">
+                  <lb ed="#C" n="76"/>REspondeo dicendum, quod ut pateat 
+        <lb ed="#C" n="77"/>Dveritas huius questionis, quatuor opor 
+        <lb ed="#C" n="78"/>tet nos videre. Primo, quod omnis 
+        scien<lb ed="#C" n="79" break="no"/>tia communitatem, &amp; abstractionem, quam 
+        <lb ed="#C" n="80"/>habet, consequitur ex suo subiecto. 
+        Secun<lb ed="#C" n="81" break="no"/>do an sit idem scientiam esse magis 
+        abstrac<lb ed="#C" n="82" break="no"/>cam, &amp; magis communem, &amp; minus 
+        abs<lb ed="#C" n="83" break="no"/>tractam, &amp; magis specialem? Tertio quid  
+        <lb ed="#C" n="84"/>est dicere scientiam esse communem? 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e937">
+                  <lb ed="#C" n="85"/>quarto, &amp; vitimo videndae sunt 
+        differen<lb ed="#C" n="86" break="no"/>tiae, quas habet sacra Scriptura ad ceteras 
+        <lb ed="#C" n="87"/>scientias: &amp; his visis apparebit veritas 
+        quaes<lb ed="#C" n="88" break="no"/>tionis. Primum declaratur sic: quia ab illo 
+        <lb ed="#C" n="89"/>eodem, a quo aliquid habet esse, &amp; speciem 
+        <lb ed="#C" n="90"/>habet &amp; illud, per quod diversificatur 
+        spe<lb ed="#C" n="91" break="no"/>cies, &amp; esse: &amp; ratio est, quia per illa eadem 
+        <lb ed="#C" n="92"/>entia in esse specifico differunt, per quae in 
+        <lb ed="#C" n="93"/>esse specifico reponuntur: &amp; ideo 
+        differen<lb ed="#C" n="94" break="no"/>tia, per quam differunt singula, dicit totam 
+        <lb ed="#C" n="95"/>D speciem, &amp; totam substantiam diffiniti: ut  
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e964">
+                  <lb ed="#C" n="96"/>videtur velle Philosophus in 7. Metaph. 
+        <lb ed="#C" n="97"/>cap. de unitate diffinitionis, &amp; per illuc 
+        <lb ed="#C" n="98"/>idem, per quod aliquid in esse constituitur,  
+        <lb ed="#C" n="99"/>ab alijs distinguitur: patet quod ab eo, a 
+        <lb ed="#C" n="100"/>quo aliquid trahit esse, trahit &amp; illud, quod 
+        <lb ed="#C" n="101"/>esse diversificat. Sed cum habitum sit quod  
+        <lb ed="#C" n="102"/>scientia trahit esse, &amp; speciem a subiecto, 
+        <lb ed="#C" n="103"/>consequens est, quod ab eodem trahat 
+        con<lb ed="#C" n="104" break="no"/>munitatem, &amp; abstractionem: cum esse 
+        <lb ed="#C" n="105"/>commune, &amp; esse abstractum essentialem 
+        <lb ed="#C" n="106"/>differentiam constituant in doctrinis 
+        vt<lb ed="#C" n="107" break="no"/>patet per Philosoph. 6. Metaph. qui cum 
+        <!--45.xml-->
+        <pb ed="#C" n="8"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>distinxisset triplex genus abstractionis: quia 
+        <lb ed="#C" n="2"/>quedam scientia abstrahit a materia 
+        sensi<lb ed="#C" n="3" break="no"/>bili hac, sed non simpliciter: quia est de 
+        re<lb ed="#C" n="4" break="no"/>bus inseparabilibus, &amp; mobilibus, sicut 
+        scien<lb ed="#C" n="5" break="no"/>tia naturalis. Quaedam autem abstrahit a 
+        <lb ed="#C" n="6"/>materia sensibili simpliciter, sed non 
+        intel<lb ed="#C" n="7" break="no"/>ligibili: quia est de rebus inseparabilibus, &amp; 
+        <lb ed="#C" n="8"/>immobilibus, sicut Mathematica. Quaedam 
+        <lb ed="#C" n="9"/>autem abstrahit ab omni materia sensibili 
+        <lb ed="#C" n="10"/>&amp; intelligibili, quia est rerum inseparabilium, 
+        <lb ed="#C" n="11"/>&amp; immobilium, ut Metaphysica. Coclusit 
+        ex<lb ed="#C" n="12" break="no"/>hoc triplici genere abstractionis tres 
+        essen<lb ed="#C" n="13" break="no"/>tiales differentias Thilosophiae dicens Tres 
+        <lb ed="#C" n="14"/>utique erint specnlativae Philosophie, Mathematica. 
+        <lb ed="#C" n="15"/>Physica, Theologia. Rursum etiam commune, &amp; 
+        <lb ed="#C" n="16"/>speciale faciunt essentialem differentiam in 
+        <lb ed="#C" n="17"/>scientijs: unde &amp; isto modo Philosophus in 
+        <lb ed="#C" n="18"/>principio 4. Metaph. distinguit 
+        Metaphysi<lb ed="#C" n="19" break="no"/>eam ab omnibus alijs particularibus 
+        scien<lb ed="#C" n="20" break="no"/>tijs dicens: est quaedam scientia, quae speculatur  
+        <lb ed="#C" n="21"/>ens, prout est ens, &amp; quae ei per se insunt, haec 
+        au<lb ed="#C" n="22" break="no"/>tem nulli earum, quae in parte dicuntur 
+        ea<lb ed="#C" n="23" break="no"/>dem est. . 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1049">
+                  <lb ed="#C" n="24"/>Declarato 1. quod per subiectum 
+        scien<lb ed="#C" n="25" break="no"/>tia consequitur esse commune, &amp; 
+        abstrac<lb ed="#C" n="26" break="no"/>tum: quia ista essentialem differentiam, 
+        <lb ed="#C" n="27"/>in scientijs faciunt, declaratur secundum 
+        <lb ed="#C" n="28"/>quod non est idem esse magis abctractum, 
+        <lb ed="#C" n="29"/>&amp; magis commune, ut quaedam: ratio 
+        pro<lb ed="#C" n="30" break="no"/>ponebat: nam licet maior abstractio, &amp; 
+        <lb ed="#C" n="31"/>maior communitas in hoc conveniant. 
+        <lb ed="#C" n="32"/>quod utraque sumit originem ex subiecto. 
+        <lb ed="#C" n="33"/>potest tamen esse maior abstractio, ubi 
+        mi<lb ed="#C" n="34" break="no"/>nor communitas reperitur, unde, &amp; in o 
+        <lb ed="#C" n="35"/>Metaph. dicitur quod si non est aliqua alia substam 
+        <lb ed="#C" n="36"/>tia praeter eas, quae natura consistunt, Physica 
+        pro<lb ed="#C" n="37" break="no"/>fecto prima scientia est, &amp; appellat ibi primam 
+        <lb ed="#C" n="38"/>scientiam, scientian: magis communem. 
+        <lb ed="#C" n="39"/>&amp; magis universalem: quia tunc 
+        Mataphysi<lb ed="#C" n="40" break="no"/>ta non esset: nihilominus tamen tunc 
+        Me<lb ed="#C" n="41" break="no"/>taphysica, quae remaneret, esset magis 
+        abs<lb ed="#C" n="42" break="no"/>tracta, quam naturalis, non tamen magis 
+        <lb ed="#C" n="43"/>communis. Tertium autem sic ostenditur: I 
+        <lb ed="#C" n="44"/>quia si scientia communitatem, quam 
+        ha<lb ed="#C" n="45" break="no"/>bet, &amp; specialitatem ex subiecto trahit, tumc 
+        <lb ed="#C" n="46"/>talis erit scientia, quale erit subiectum suum, 
+        <lb ed="#C" n="47"/>igitur scientia communis habebit pro 
+        su<lb ed="#C" n="48" break="no"/>biecto commune: scientia specialis 
+        specia<lb ed="#C" n="49" break="no"/>le; verum quia hoc est per se, &amp; proprie: 
+        <lb ed="#C" n="50"/>quia scientia communis ex subiecto 
+        com<lb ed="#C" n="51" break="no"/>muni communitatem trahit, &amp; specialis 
+        <lb ed="#C" n="52"/>ex speciali specialitatem; ut potest patere 
+        <lb ed="#C" n="53"/>ex habitis: &amp; ea, quae sunt proprie, &amp; per 
+        <lb ed="#C" n="54"/>se, sunt talia in eo quod talia, ut patet per 
+        <lb ed="#C" n="55"/>Philosoph. in 1. Physic. qui vult quod ea 
+        <lb ed="#C" n="56"/>proprie facit medicus, quae facit in eo quod  
+        <!--45.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>medicut. Scientia communis non solum, 
+        <lb ed="#C" n="58"/>habebit pro subiecto commune 
+        quocum<lb ed="#C" n="59" break="no"/>que modo sumptum, sed habebit 
+        commu<lb ed="#C" n="60" break="no"/>ne in eo quod commune, &amp; specialis 
+        spe<lb ed="#C" n="61" break="no"/>ciale in eo quod speciale. Patet igitur quod  
+        <lb ed="#C" n="62"/>dicere scientiam communem, nihil aliud 
+        <lb ed="#C" n="63"/>est, quam dicere scientiam, quae habet 
+        pro<lb ed="#C" n="64" break="no"/>subiecto aliquid commune in eo quod  
+        <lb ed="#C" n="65"/>commune: &amp; non est dicere scientiam 
+        <lb ed="#C" n="66"/>commune, id est abstractam, ita quod 
+        ma<lb ed="#C" n="67" break="no"/>gis communis sit magis abstracta. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1151">
+                  <lb ed="#C" n="68"/>Quarto autem declarandae sunt 
+        differen<lb ed="#C" n="69" break="no"/>tiae, quas habet sacra Scriptura: ad ceteras 
+        <lb ed="#C" n="70"/>scientias, istae autem ad praesens sunt 
+        qua<lb ed="#C" n="71" break="no"/>tuor. Prima, quia aliae habentur per 
+        huma<lb ed="#C" n="72" break="no"/>nam inventionem, ista autem per divinam 
+        <lb ed="#C" n="73"/>inspirationem: unde &amp; <name xml:id="Gi9qrR-d1e901-Nd1e1166" ref="#Augustine">Aug.</name> loquens de 
+        <lb ed="#C" n="74"/>sacra Scriptura, per quam cognoscitur Deus, 
+        <lb ed="#C" n="75"/>in princip. 11. de Trin. ait, quod ipsam 
+        <lb ed="#C" n="76"/>Deus inspirauit: quod si ista differentia non 
+        <lb ed="#C" n="77"/>facit differentiam essentialem, quantum ad 
+        <lb ed="#C" n="78"/>ipsos habentes scientiam: quia licet 
+        scien<lb ed="#C" n="79" break="no"/>tia per rationem investigabilis per 
+        inspira<lb ed="#C" n="80" break="no"/>tionem haberi possit: facit tamen 
+        essentia<lb ed="#C" n="81" break="no"/>lem differentiam, si consideremus ipsas 
+        <lb ed="#C" n="82"/>scientias in se: quia aliquae scientiae sunt,  
+        <lb ed="#C" n="83"/>quae per rationem investigabiles existunt: 
+        <lb ed="#C" n="84"/>ut scientiae traditae a Philosophis, quae 
+        ratio<lb ed="#C" n="85" break="no"/>nem non excedunt: doctrina tamen sacra 
+        <lb ed="#C" n="86"/>de se est apta nata per inspirationem 
+        habe<lb ed="#C" n="87" break="no"/>ri: quia ad ipsam directe ratio hon 
+        attin<lb ed="#C" n="88" break="no"/>igit. Vnde &amp; 1. de Divin. nom. scribitur: 
+        <lb ed="#C" n="89"/>Omnino igitur non audendum est quidquam de 
+        sum<lb ed="#C" n="90" break="no"/>ma, abstrusaque diuinitate aut dicere, aut 
+        cogita<lb ed="#C" n="91" break="no"/>re praeter ea, quae nobis diuinitus scripta diuina 
+        <lb ed="#C" n="92"/>enunciarunt, ipsius enim super rationem, &amp; 
+        intel<lb ed="#C" n="93" break="no"/>lectum est cognitio. Ex ista differentia 
+        sequi<lb ed="#C" n="94" break="no"/>tur secunda: quod ista scientia directe, &amp; 
+        <lb ed="#C" n="95"/>principaliter nec est de sensibilibus, nec de 
+        <lb ed="#C" n="96"/>his, quae sunt insensibilibus; nec habet 
+        sen<lb ed="#C" n="97" break="no"/>sibilia, quasi partem subiecti sui: quod  
+        <lb ed="#C" n="98"/>nulli scientiae per rationem inventae 
+        con<lb ed="#C" n="99" break="no"/>igruit. Quod sic patet: nam scietia per 
+        ratici<lb ed="#C" n="100" break="no"/>nem: humanam inventa modum 
+        huma<lb ed="#C" n="101" break="no"/>num sequitur; modus autem humanus est, 
+        <lb ed="#C" n="102"/>at cognitio a sensu incipiat: unde, &amp; Phil. 
+        <lb ed="#C" n="103"/>in 1. Post. vult quod nostra cognitio 
+        inci<lb ed="#C" n="104" break="no"/>piat a sensu, &amp; deficiete sensu necesse est, &amp; 
+        <lb ed="#C" n="105"/>illam scientiam deficere, quae secundum 
+        <lb ed="#C" n="106"/>illum sensum est: habet ergo scientia 
+        nos<lb ed="#C" n="107" break="no"/>tra essentialem comparationem ad 
+        sensibi<lb ed="#C" n="108" break="no"/>lia; igitur omnis talis scientia, vel erit de 
+        <lb ed="#C" n="109"/>ensibilibus, ut naturalis, &amp; quae ad natura 
+        <lb ed="#C" n="110"/>lem reducuntur: vel de his, quae sunt 
+        insen<lb ed="#C" n="111" break="no"/>sibilibus, ut Mathematica: vel habet 
+        sen<lb ed="#C" n="112" break="no"/>sibilia subiecti sui partem, vt Metaphysica. 
+        <!--46.xml-->
+        <pb ed="#C" n="9"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Sapientia autem Divina nobis inspirata 
+        <lb ed="#C" n="2"/>modum Divinum sequitur: vnde dicitur  
+        <lb ed="#C" n="3"/>1. de Divino, quod facit ipsos animos 
+        su<lb ed="#C" n="4" break="no"/>per lucens radius extensos bene, 
+        pondera<lb ed="#C" n="5" break="no"/>te, &amp; recte, &amp; commensurabili amore 
+        ius<lb ed="#C" n="6" break="no"/>tarum illuminationum: &amp; quia Sacra 
+        Pa<lb ed="#C" n="7" break="no"/>gina sequitur modum, &amp; mensuram 
+        Di<lb ed="#C" n="8" break="no"/>vinae Sapientiae: sicut Divina Sapientia 
+        pro<lb ed="#C" n="9" break="no"/>obiecto principali habet se ipsam: quia 
+        <lb ed="#C" n="10"/>Deus nihil intelligit extra se per se, &amp; 
+        pri<lb ed="#C" n="11" break="no"/>mo; sed intelligendo se intelligit omnia 
+        <lb ed="#C" n="12"/>ita in Sacra Pagina solius Dei cognitio prin 
+        <lb ed="#C" n="13"/>cipaliter est intenta: &amp; propter 
+        cognitio<lb ed="#C" n="14" break="no"/>nem Dei intenta est cognitio omnium alio 
+        <lb ed="#C" n="15"/>rum. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1293">
+                  <lb ed="#C" n="16"/>Tertia differentia est, quia omnes aliae 
+        <lb ed="#C" n="17"/>scientiae pro obiecto principali habent 
+        ali<lb ed="#C" n="18" break="no"/>quod universale, ista autem proprie loque 
+        <lb ed="#C" n="19"/>do nec habet universale, nec particulare 
+        <lb ed="#C" n="20"/>Oportet igitur universale aliquod in alijs 
+        <lb ed="#C" n="21"/>scientijs esse obiectum: quia cum omnes 
+        <lb ed="#C" n="22"/>aliae scientiae habeant aliquam per se 
+        <lb ed="#C" n="23"/>analogiam ad ipsa sensibilia, etiam 
+        secun<lb ed="#C" n="24" break="no"/>dum quod scientiae sunt: &amp; sensibilium 
+        par<lb ed="#C" n="25" break="no"/>ticularium non possit esse scientia: 
+        opor<lb ed="#C" n="26" break="no"/>tet in talibus uiversale esse obiectum: 
+        prop<lb ed="#C" n="27" break="no"/>ter quod in 7. Metaph. dicitur quod 
+        Subs<lb ed="#C" n="28" break="no"/>tantiarum sensibilium particularium, neque 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1324">
+                  <lb ed="#C" n="29"/> 
+                  <lb ed="#C" n="30"/>diffinitio, neque demonstratio est. Illud 
+        au<lb ed="#C" n="31" break="no"/>tem, quod principaliter in ista sclentia 
+        in<lb ed="#C" n="32" break="no"/>tenditur, neque est universale, nec 
+        parti<lb ed="#C" n="33" break="no"/>culare, cum sit Deus. Quarta differentia 
+        <lb ed="#C" n="34"/>est, quod nulla scientia potest tot 
+        cognos<lb ed="#C" n="35" break="no"/>cere in propria forma, quot ista, &amp; 
+        ratio<lb ed="#C" n="36" break="no"/>est: quia cum alie scientiae considerent 
+        <lb ed="#C" n="37"/>universale aliquod, particularia contenta 
+        <lb ed="#C" n="38"/>sub illo universali non coguoscent 
+        secun<lb ed="#C" n="39" break="no"/>dum ea, quae insunt eis, in quantum par 
+        <lb ed="#C" n="40"/>ticularia sunt, sed in quantum rationem 
+        <lb ed="#C" n="41"/>illius universalis induunt. Scientia autem 
+        <lb ed="#C" n="42"/>Divina: quia modum Divinae Sapientiae 
+        <lb ed="#C" n="43"/>sequitur, licet pro obiecto principali 
+        ha<lb ed="#C" n="44" break="no"/>beat Deum ipsum, sicut ipsa scientia Deis 
+        <lb ed="#C" n="45"/>poterit tamen impropria forma omnia alia 
+        <lb ed="#C" n="46"/>cognoscere, quae considerant singulae scient 
+        <lb ed="#C" n="47"/>tiae, sicut &amp; Deus potest, &amp; si non tantum 
+        <lb ed="#C" n="48"/>Quod si aliqui habentes istam scientiam 
+        <lb ed="#C" n="49"/>talia non cognoscunt, hoc non est ex 
+        par<lb ed="#C" n="50" break="no"/>te eius, quod ipsa scientia non sit apta 
+        na<lb ed="#C" n="51" break="no"/>ta cognitionem talium perhibere, sed 
+        ex<lb ed="#C" n="52" break="no"/>parte nostra: quia eam imperfecte 
+        possi<lb ed="#C" n="53" break="no"/>demus 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1381">
+                  <lb ed="#C" n="54"/>His visis quaestio de facili solvitur: quia 
+        <lb ed="#C" n="55"/>cum quaeritur vtrum Theologia sit 
+        com<lb ed="#C" n="56" break="no"/>munis, vel specialis? Si consideramus suum 
+        <lb ed="#C" n="57"/>obiectum primum, &amp; principale, nulla 
+        <!--46.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>scientia est adeo specialis, vt ista: quia in 
+        <lb ed="#C" n="59"/>ista scientia unius solius rei, absolutem 
+        lo<lb ed="#C" n="60" break="no"/>quendo, cognitio intenditur: in alijs autem 
+        <lb ed="#C" n="61"/>scientijs, cum habeant pro obiecto 
+        universa<lb ed="#C" n="62" break="no"/>le, non intenditur in eis unum realiter, sed  
+        <lb ed="#C" n="63"/>unum secundum rationem. Iuxta illud d 
+        <lb ed="#C" n="64"/>Commt. in 1. de Anim. intellectus facit o 
+        <lb ed="#C" n="65"/>universalitatem in rebus: uniuersalis ergo 
+        <lb ed="#C" n="66"/>unitas non est unitas rei, sed rationis, sive 
+        <lb ed="#C" n="67"/>intellectus. Si autem consideremus ea, quo 
+        <lb ed="#C" n="68"/>ista scientia habet non pro obiecto 
+        princi<lb ed="#C" n="69" break="no"/>pali; cum nulla scientia ad cognitionem 
+        <lb ed="#C" n="70"/>tot rerum in propria forma se possit exten 
+        <lb ed="#C" n="71"/>dere, ut ista: communissima dici debet. 
+        <lb ed="#C" n="72"/>Sed quia in omnibus advertendum est quod 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1430">
+                  <lb ed="#C" n="73"/>est per se, &amp; principaliter; magis quam 
+        <lb ed="#C" n="74"/>aliud: quia secundum Philos. in fme s. 
+        E<lb ed="#C" n="75" break="no"/>thic. De his quae sunt per aceidens non est cura 
+        ar<lb ed="#C" n="76" break="no"/>ti. Simpliciter debet concedi quod sit 
+        scien<lb ed="#C" n="77" break="no"/>tia specialis, 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1443">
+                  <lb ed="#C" n="78"/>Resp. ad arg. Ad primum dicendum, 
+        <lb ed="#C" n="79"/>quod non sufficit, quod consideret de 
+        om<lb ed="#C" n="80" break="no"/>nibus, ut sit scientia communis: sed 
+        o<lb ed="#C" n="81" break="no"/>portet quod consideret de omnibus 
+        prin<lb ed="#C" n="82" break="no"/>cipaliter, in quantum uniuntur in aliquo 
+        <lb ed="#C" n="83"/>communi universali, vel analogo: utMeta 
+        <lb ed="#C" n="84"/>physica, quae considerat de omnibus, in 
+        <lb ed="#C" n="85"/>quantum uniuntur in ente, quod 
+        Theolo<lb ed="#C" n="86" break="no"/>&amp;gia non facit, sed per se, &amp; primo consi¬ 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1465">
+                  <lb ed="#C" n="87"/>derat de Deo solo, ut patuit. Ad 
+        secun<lb ed="#C" n="88" break="no"/>dum dicendum, quod illa propositio non 
+        <lb ed="#C" n="89"/>est universaliter vera, quod quanto 
+        scien<lb ed="#C" n="90" break="no"/>tia est magis abstracta, tanto est magis 
+        con<lb ed="#C" n="91" break="no"/>munis: ut patuit per instantiam in 
+        Philo<lb ed="#C" n="92" break="no"/>sophia naturali, &amp; Mathematica. Ad 
+        ter<lb ed="#C" n="93" break="no"/>tium dicendum, quod sciens istam 
+        scien<lb ed="#C" n="94" break="no"/>tiam est sciens quodam modo omnia: &amp; 
+        <lb ed="#C" n="95"/>ideo maxime sapiens dici debet; non 
+        ta<lb ed="#C" n="96" break="no"/>men propter hoc est artifex communis: 
+        <lb ed="#C" n="97"/>quia per se, &amp; primo unius rei, Dei scilicet  
+        <lb ed="#C" n="98"/>cognitionem habet. Ad quartum 
+        dicen<lb ed="#C" n="99" break="no"/>dum, quod ista scientia se coaptat 
+        omni<lb ed="#C" n="100" break="no"/>bus, &amp; assumit quaedam communia, quae 
+        <lb ed="#C" n="101"/>omnibus intelligibilia existunt, ut 
+        exem<lb ed="#C" n="102" break="no"/>pla; &amp; alia, ut parvulos in fide ad Dei cog 
+        <lb ed="#C" n="103"/>nitionem inducat, sed hoc non est 
+        prop<lb ed="#C" n="104" break="no"/>ter istam scientiam, quod ipsa quantum 
+        <lb ed="#C" n="105"/>est de se indigeat talibus: sed quia nos sic 
+        <lb ed="#C" n="106"/>apti nati sumus manuduci in Deum: &amp; 
+        <lb ed="#C" n="107"/>ideo Deus Pater sic providit, ut nos ad se 
+        <lb ed="#C" n="108"/>induceret proponendo quasdam 
+        varieta<lb ed="#C" n="109" break="no"/>tes velaminum, secundum quod nostra na 
+        <lb ed="#C" n="110"/>tura postulat. Vnde, &amp; 1. de Coelesti 
+        Hie<lb ed="#C" n="111" break="no"/>rat. scribitur: quod Neque possibile est nobis 
+        <lb ed="#C" n="112"/>aliter lucere Diuinum radium: nisi varietate 
+        Sa<lb ed="#C" n="113" break="no"/>erorum velaminum anagoge, id est sursum du¬ 
+        <!--47.xml-->
+        <pb ed="#C" n="10"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>cendo, circumvelatum, &amp; his, quae secundum 
+        <lb ed="#C" n="2"/>nos sunt, providentia paterna connaturaliter, &amp; 
+        <lb ed="#C" n="3"/>proprie praeparatum. Quia scilicet, sic 
+        provi<lb ed="#C" n="4" break="no"/>dit Deus Pater nos sursum ducere, ut 
+        nos<lb ed="#C" n="5" break="no"/>tra requirebat natura. 
+      </p>
+            </div>
+    
+            <div xml:id="Gi9qrR-d1e901-Dd1e1544">
+               <head xml:id="Gi9qrR-d1e901-Hd1e1546">Articulus 3</head>
+               <head xml:id="Gi9qrR-d1e901-Hd1e1549" type="question-title">Quid sit subiectum in sacra pagina</head>
+               <p xml:id="Gi9qrR-d1e901-d1e1552">
+                  <lb ed="#C" n="6"/>ARTICVLVS III. 
+        <lb ed="#C" n="7"/>Quid sit subiectum in Sacra Pagina? 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1559">
+                  <lb ed="#C" n="8"/>TErtio quaeritur quid sit subiectum in 
+        <lb ed="#C" n="9"/> Sacra Pagina?
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1566">
+        Et videtur quod Deus: 
+        <lb ed="#C" n="10"/>quia illud, a quo scientia denominatur, ma 
+        <lb ed="#C" n="11"/>xime videtur esse subiectum in ea, &amp; 
+        prin<lb ed="#C" n="12" break="no"/>cipaliter intendi in ipsa, sed Sacra Pagina. 
+        <lb ed="#C" n="13"/>a Deo denominationem recipit: ergo &amp;c. 
+        <lb ed="#C" n="14"/>Praeterea: illud est subiectum in scientia 
+        <lb ed="#C" n="15"/>sub cuius ratione alia introducuntur in ea, 
+        <lb ed="#C" n="16"/>sed sub ratione Dei omnia introducuntur  
+        <lb ed="#C" n="17"/>in Sacra Pagina. Quia quidquid in ea de 
+        <lb ed="#C" n="18"/>terminatur Divinum dicitur, ergo &amp;c
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1589">
+                  <lb ed="#C" n="19"/>Praeterea. Arguit Phil. in 6. Metaph. 
+        tri<lb ed="#C" n="20" break="no"/>bus viis, quod Metaphysica maxime est de 
+        <lb ed="#C" n="21"/>Deo. Primo: quia Metaphysica est 
+        maxi<lb ed="#C" n="22" break="no"/>me abstracta: igitur erit maxime de Deo. 
+        <lb ed="#C" n="23"/>qui est maxime abstractus. Iterum 
+        Meta<lb ed="#C" n="24" break="no"/>physica est nobilissima: igitur erit 
+        maxi<lb ed="#C" n="25" break="no"/>me de Deo, qui nobilissimus existit. 
+        Rur<lb ed="#C" n="26" break="no"/>sum Metaphysica est prima scientiarum, 
+        <lb ed="#C" n="27"/>igitur erit de Deo maxime, qui est primus 
+        <lb ed="#C" n="28"/>inter entia. His tribus vijs etiam potest 
+        pro<lb ed="#C" n="29" break="no"/>bari, quod Theologia maxime sit de Deo. 
+        <lb ed="#C" n="30"/>Primo: quia maxime abstracta: quia, ut 
+        <lb ed="#C" n="31"/>habitum est, nec est principaliter de 
+        sensi<lb ed="#C" n="32" break="no"/>bilibus, nec de his, quae sunt in 
+        sensibili<lb ed="#C" n="33" break="no"/>bus: nec habet sensibilia subiecti sui 
+        par<lb ed="#C" n="34" break="no"/>tem. Rursum est maxime nobilis, quia 
+        <lb ed="#C" n="35"/>innititur nobilissimo lumini: quia lumini 
+        <lb ed="#C" n="36"/>increato. Ex hoc etiam apparet, quod est, 
+        <lb ed="#C" n="37"/>prior alijs scientijs: quia lumen, cui 
+        inni<lb ed="#C" n="38" break="no"/>titur ista scientia, ut lumen Divinum, est D 
+        <lb ed="#C" n="39"/>prius lumine rationis, cui aliae scientiae 
+        in<lb ed="#C" n="40" break="no"/>nitutur. Igitur his tribus viis probatum est, 
+        <lb ed="#C" n="41"/>quod Theologia maxime est de Deo, sed  
+        <lb ed="#C" n="42"/>illud, de quo maxime est scientia, est 
+        sub<lb ed="#C" n="43" break="no"/>iectum in scientia: ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1646">
+                  <lb ed="#C" n="44"/>In contrarium est: quia scientia est vna, 
+        <lb ed="#C" n="45"/>quae est unius generis subiecti partes, &amp; 
+        <lb ed="#C" n="46"/>passiones considerans, sed Deus neque 
+        ha<lb ed="#C" n="47" break="no"/>bet partes, neque passiones, ergo &amp;c. 
+        Prae<lb ed="#C" n="48" break="no"/>terea: scribitur in 6. Metaph. quod nulla 
+        <lb ed="#C" n="49"/>scientia probat suum subiectum esse, sed  
+        <lb ed="#C" n="50"/>in Sacra Pagina probatur: Deum esse: si¬ 
+        <!--47.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>cut probat Magister 1. lib. dist. 3. Ergo &amp;c. 
+        <lb ed="#C" n="52"/>Praeterea: secundum Philos. 1. poster. de? 
+        <lb ed="#C" n="53"/>subiecto supponitur, quod est: ita quod 
+        <lb ed="#C" n="54"/>quid est subiecti, debet esse notum in 
+        qua<lb ed="#C" n="55" break="no"/>libet scientia, sed quid est Deus est omni 
+        <lb ed="#C" n="56"/>non ignotum: iuxta illud Damas. 1. lib. cap. 
+        <lb ed="#C" n="57"/>4. Quod itaque sit Deus, liquido constat. Quid 
+        au<lb ed="#C" n="58" break="no"/>tem ratione essentiae, ac naturae sit, nullo omnino 
+        <lb ed="#C" n="59"/>modo comprehendi, cognosci que potest. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1688">
+                  <lb ed="#C" n="60"/>RESOLVTIO. 
+        <lb ed="#C" n="61"/>Deolaratis differentijs inter subiectum, &amp; 
+        ma<lb ed="#C" n="62" break="no"/>teriam, &amp; Theologiae a Metaphpsica, statuitur,  
+        <lb ed="#C" n="63"/>quod Deus in quantum principium nostrae 
+        restau<lb ed="#C" n="64" break="no"/>rationis, &amp; consummatio nostrae glorificatio¬ 
+        <lb ed="#C" n="65"/>nis est subiectum in Theologia. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1704">
+                  <lb ed="#C" n="66"/>espondeo dicendum: quod, ut pateat 
+        <lb ed="#C" n="67"/>Rveritas huius quaestionis, duo 
+        decla<lb ed="#C" n="68" break="no"/>randa sunt. Primo: quid interest inter 
+        sub<lb ed="#C" n="69" break="no"/>iectum, &amp; materiam. Secundo, in quo 
+        dif<lb ed="#C" n="70" break="no"/>fert scientia ista a Metaphysica. Et his 
+        vi<lb ed="#C" n="71" break="no"/>sis apparebit veritas quaestsionis. 
+        Prop<lb ed="#C" n="72" break="no"/>ter primum notandum: quod ars est 
+        <lb ed="#C" n="73"/>imago naturae: &amp; ideo secundum ea, 
+        <lb ed="#C" n="74"/>quae in natura videmus, in arte loquimur.  
+        <lb ed="#C" n="75"/>Videmus autem in natura duplicem 
+        for<lb ed="#C" n="76" break="no"/>mam, substantialem, &amp; accidentalem: &amp; 
+        <lb ed="#C" n="77"/>quia quaelibet formahabet rationem actus, 
+        <lb ed="#C" n="78"/>&amp; perfectionis: considerare est in entibus 
+        <lb ed="#C" n="79"/>duplicem actum, substantialem, &amp; 
+        acci<lb ed="#C" n="80" break="no"/>dentalem: &amp; quia onilibet actus 
+        praesuppo<lb ed="#C" n="81" break="no"/>nit propriam potentiam: ut dicitur in 2. 
+        <lb ed="#C" n="82"/>de Anim. Secundum istum duplicem 
+        ac<lb ed="#C" n="83" break="no"/>tum est assignare duplicem potentiam ad 
+        <lb ed="#C" n="84"/>actum substantialem, &amp; accidentalem. 
+        Po<lb ed="#C" n="85" break="no"/>tentia ad actum substantialem est potentia 
+        <lb ed="#C" n="86"/>simpliciter, &amp; pura: quia esse substantiale 
+        <lb ed="#C" n="87"/>per se non praecedit aliquod esse: 
+        poten<lb ed="#C" n="88" break="no"/>tia autem ad actum accidentalem non est 
+        <lb ed="#C" n="89"/>potentia pura: quia esse accidentale per se 
+        <lb ed="#C" n="90"/>loquendo praecedit esse substantiale: &amp; 
+        <lb ed="#C" n="91"/>quia secundum Commentatorem in S. 
+        <lb ed="#C" n="92"/>Metaph. Haec est differentia inter materiam, 
+        <lb ed="#C" n="93"/>&amp; subiectum: quia materia dicit quid ino 
+        <lb ed="#C" n="94"/>potentia: subiectum dicit quid in actu: cum  
+        <lb ed="#C" n="95"/>potentia ad formam substantialem sit 
+        po<lb ed="#C" n="96" break="no"/>tentia simpliciter; potentia ad fermam ac 
+        <lb ed="#C" n="97"/>cidentalem non sit potentia simpliciter 
+        <lb ed="#C" n="98"/>sed potentia cum actu: Potentia illa, sive 
+        <lb ed="#C" n="99"/>susceptibile, in quo habet esse forma 
+        subs<lb ed="#C" n="100" break="no"/>tantialis, debet dici materia: illud autem 
+        <lb ed="#C" n="101"/>in quo habet esse forma accidentalis, per 
+        <lb ed="#C" n="102"/>se loquendo, debet dici subiectum. Ex his 
+        <lb ed="#C" n="103"/>autem habere possumus triplicem 
+        differen<lb ed="#C" n="104" break="no"/>tiam inter materiam, &amp; subiectum. Vna 
+        <!--48.xml-->
+        <pb ed="#C" n="11"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>differentia est: quia materia respicit formam 
+        <lb ed="#C" n="2"/>substantialem; subiectum vero 
+        acciden<lb ed="#C" n="3" break="no"/>talem. Alia differentia est, quia materia 
+        di<lb ed="#C" n="4" break="no"/>cit potentiam per omnem modum; 
+        sub<lb ed="#C" n="5" break="no"/>iectum vero aliquo modo. Tertia 
+        diffe<lb ed="#C" n="6" break="no"/>rentia est: quae in ista quodam modo in 
+        <lb ed="#C" n="7"/>cluditur, scilicet, quod potentialitas, quae 
+        <lb ed="#C" n="8"/>est, in subiecto, reservatur quodam modo 
+        <lb ed="#C" n="9"/>in materia: quia materia est in potentia ad 
+        <lb ed="#C" n="10"/>omnes formas: sed potentialitas, quae est 
+        <lb ed="#C" n="11"/>in materia, non reservatur in sublecto: 
+        <lb ed="#C" n="12"/>quia subiectum non est in potentia ad 
+        om<lb ed="#C" n="13" break="no"/>nes formas. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1826">
+                  <lb ed="#C" n="14"/>Hoc viso sciendum: quod isti duplici 
+        <lb ed="#C" n="15"/>susceptibili in natura respondet duplex 
+        <lb ed="#C" n="16"/>obiectum in scientia, principale, &amp; secun 
+        <lb ed="#C" n="17"/>darium: Obiectum principale non est 
+        po<lb ed="#C" n="18" break="no"/>tentia pura, sed est aliquo modo in actu: 
+        <lb ed="#C" n="19"/>cum ab ipso scientia recipiat speciem, &amp; 
+        <lb ed="#C" n="20"/>actualitatem: &amp; est aliquomodo in 
+        poten<lb ed="#C" n="21" break="no"/>tia. Nam cum quidquid cognoscimus, 
+        cog<lb ed="#C" n="22" break="no"/>noscamus in lumine intellectus agentis, vel  
+        <lb ed="#C" n="23"/>in aliquo lumine: oportet tale obiectum 
+        <lb ed="#C" n="24"/>a lumine actualitatem recipere, &amp; ita 
+        ac<lb ed="#C" n="25" break="no"/>tualitatem habet, &amp; potentialitatem. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1855">
+                  <lb ed="#C" n="26"/>Ex quo apparet quod scientiae duplex 
+        ac<lb ed="#C" n="27" break="no"/>tualitas attribuitur: una ab obiecto, a quo 
+        <lb ed="#C" n="28"/>recipit speciem, &amp; alia a lumine. Nam 
+        si<lb ed="#C" n="29" break="no"/>lumen dat actualitatem obiecto, &amp; 
+        obiec<lb ed="#C" n="30" break="no"/>tum dat actualitatem scientiae: oportet 
+        <lb ed="#C" n="31"/>lumen scietiae actualitatem attribuere. 
+        Ac<lb ed="#C" n="32" break="no"/>tualitas tamen, quae datur scientiae ab 
+        ob<lb ed="#C" n="33" break="no"/>iecto, est magis per se ipsi scientiae, cum ab 
+        <lb ed="#C" n="34"/>ea habeat unitatem, &amp; distinctionem, quam 
+        <lb ed="#C" n="35"/>actualitas luminis. Obiectum autem 
+        secun<lb ed="#C" n="36" break="no"/>darium non est in actu de se, secundum 
+        <lb ed="#C" n="37"/>quod nunc loquimur de actu:nam nondat 
+        <lb ed="#C" n="38"/>actualitatem scientiae, nec sub ratione sui 
+        <lb ed="#C" n="39"/>introducitur in scientia, sed sub ratione 
+        <lb ed="#C" n="40"/>principalis obiecti: &amp; ideo oportet 
+        obiec<lb ed="#C" n="41" break="no"/>tum secundarium duplicem actualitatem 
+        <lb ed="#C" n="42"/>recipere, unam ab obiecto principali, quae 
+        <lb ed="#C" n="43"/>est propria, &amp; essentialis scientiae, sub cuius 
+        <lb ed="#C" n="44"/>ratione in scientia inducitur, &amp; aliam a 
+        lu<lb ed="#C" n="45" break="no"/>mine: &amp; ita patet quod obiectum 
+        secun<lb ed="#C" n="46" break="no"/>darium est dupliciter in potentia, quia 
+        re<lb ed="#C" n="47" break="no"/>cipit actualitatem ab obiecto principali, &amp; 
+        <lb ed="#C" n="48"/>a lumine. Sed obiectum principale est in 
+        <lb ed="#C" n="49"/>potentia uno modo: quia recipit 
+        actuali<lb ed="#C" n="50" break="no"/>tatem, a lumine, sed non ab aliquo alio 
+        <lb ed="#C" n="51"/>obiecto; cum non sub ratione alicuius 
+        al<lb ed="#C" n="52" break="no"/>terius obiecti introducatur in scientia, sed 
+        <lb ed="#C" n="53"/>sub ratione sui. Ex quo apparet triplex 
+        dif<lb ed="#C" n="54" break="no"/>ferentia inter obiectum principale, &amp; 
+        se<lb ed="#C" n="55" break="no"/>cundarium: prima quia obiectum 
+        princi<lb ed="#C" n="56" break="no"/>pale est in actu, &amp; non simpliciter in po¬ 
+        <!--48.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>tentia; obiectum secundarium potest 
+        di<lb ed="#C" n="58" break="no"/>ci simpliciter in potentia. Secunda: quia 
+        <lb ed="#C" n="59"/>potentialitas respectu luminis, quae 
+        compe<lb ed="#C" n="60" break="no"/>tit obiecto principali, competit &amp; 
+        obiec<lb ed="#C" n="61" break="no"/>to secundario: sed aliqua potentialitas 
+        con<lb ed="#C" n="62" break="no"/>petit obiecto secundario: quia non sub 
+        ra<lb ed="#C" n="63" break="no"/>tione sui inducitur in scientia, quae 
+        poten<lb ed="#C" n="64" break="no"/>tialitas non competit obiecto principali. 
+        <lb ed="#C" n="65"/>Tertia differentia est: quia actualitas, quam 
+        <lb ed="#C" n="66"/>accipit obiectum principale, non est ita 
+        es<lb ed="#C" n="67" break="no"/>sentialis scientiae: sicut illa, quam habet, &amp; 
+        <lb ed="#C" n="68"/>quam scientiae dat. Sed obiecto secunda, 
+        <lb ed="#C" n="69"/>rio etiam deficit actualitas esseatialis 
+        scier<lb ed="#C" n="70" break="no"/>tiae: &amp; ideo obiectum secundarium est 
+        ma<lb ed="#C" n="71" break="no"/>gis in potentia essentiali, &amp; principale est 
+        <lb ed="#C" n="72"/>magis in potentia accidentali. Et quia 
+        is<lb ed="#C" n="73" break="no"/>tas tres differentias habebat subiectum in 
+        <lb ed="#C" n="74"/>natura respectu materiae, quas habet obiec 
+        <lb ed="#C" n="75"/>tum principale respectu secundarij: dicetur  
+        <lb ed="#C" n="76"/>in scientia obiectum principale subiectum, 
+        <lb ed="#C" n="77"/>&amp; secundarium materia. Ex quo etiam 
+        <lb ed="#C" n="78"/>patet: quod subiectum, &amp; materia in arte 
+        <lb ed="#C" n="79"/>sumuntur ad similitudinem subiecti, &amp; ma 
+        <lb ed="#C" n="80"/>teriae in natura, non in sensu: licet 
+        obiec<lb ed="#C" n="81" break="no"/>tum principale, &amp; secundarium possint 
+        su<lb ed="#C" n="82" break="no"/>mi in scietia per similitudinem eorum, quae 
+        <lb ed="#C" n="83"/>sunt in sensu. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e1989">
+                  <lb ed="#C" n="84"/>Viso quomodo differt materia in 
+        scien<lb ed="#C" n="85" break="no"/>tia a subiecto, videndum est quomodo 
+        dif<lb ed="#C" n="86" break="no"/>fert Theologia a Metaph. sciendum est igi 
+        <lb ed="#C" n="87"/>tatr, quod Theologia ad Metaphys. habet 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2000">
+                  <lb ed="#C" n="88"/>triplicem differentiam: Prima est: quia 
+        <lb ed="#C" n="89"/>Metaph. est scientia communis: est enim 
+        <lb ed="#C" n="90"/>entis secundum quod ens ut scribitur 4. 
+        Meta<lb ed="#C" n="91" break="no"/>ph. Theologia autem, ut patet ex 
+        praece<lb ed="#C" n="92" break="no"/>denti articulo, non est communis per se: 
+        <lb ed="#C" n="93"/>nisi forte ex consequenti, in quantum de 
+        <lb ed="#C" n="94"/>pluribus potest considerare, quam aliqua 
+        <lb ed="#C" n="95"/>alia scientia inventa ab homine: vel 
+        simili<lb ed="#C" n="96" break="no"/>tudinarie in quantum est de Deo, qui est 
+        <lb ed="#C" n="97"/>causa omnium, &amp; essendo omnium causa, 
+        <lb ed="#C" n="98"/>&amp; continendo omnia habet similitudinem. 
+        <lb ed="#C" n="99"/>cum communi, &amp; cum universali: 
+        pro<lb ed="#C" n="100" break="no"/>prie tamen, &amp; principaliter non est 
+        com<lb ed="#C" n="101" break="no"/>munis. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2033">
+                  <lb ed="#C" n="102"/>Ex ista autem differentia apparent tres 
+        <lb ed="#C" n="103"/>positiones, quae assignant subiectum in 
+        <lb ed="#C" n="104"/>Theologia, non accipere subiectum proprie; 
+        <lb ed="#C" n="105"/>nec assignare subiectum in Theologia: sed  
+        <lb ed="#C" n="106"/>solum materiam. Nam si Theo logia non 
+        <lb ed="#C" n="107"/>est scientia communis, non habet pro 
+        sub<lb ed="#C" n="108" break="no"/>lecto aliquid commune: &amp; ideo res, &amp; 
+        sig<lb ed="#C" n="109" break="no"/>na non sunt subiectum in Sacra Pagina, cum 
+        <lb ed="#C" n="110"/>omnia contineantur sub signis, vel sub 
+        re<lb ed="#C" n="111" break="no"/>bus. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2057">
+                  <lb ed="#C" n="112"/>Item; ens Diuinum non est subiectum 
+        <!--49.xml-->
+        <pb ed="#C" n="12"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>in Sacra Pagina: cum omnia contineantur  
+        <lb ed="#C" n="2"/>sub Divino ente, accipiendo ens, Divinum; 
+        <lb ed="#C" n="3"/>ut isti accipiunt, scilicet, per essentiam, per 
+        <lb ed="#C" n="4"/>participationem, per unionem, &amp; per 
+        sig<lb ed="#C" n="5" break="no"/>nificationem. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2079">
+                  <lb ed="#C" n="6"/>Tertia positio est: quod subiectum in 
+        <lb ed="#C" n="7"/>Sacra Pagina est scibile per inspirationem: 
+        <lb ed="#C" n="8"/>nec ista, ut apparet, subiectum accipit 
+        pro<lb ed="#C" n="9" break="no"/>prie: quia quodlibet per inspirationem 
+        sci<lb ed="#C" n="10" break="no"/>ri posset. Praetea multa per inspirationem 
+        <lb ed="#C" n="11"/>habemus in Sacra Pagina, quae non sunt,  
+        <lb ed="#C" n="12"/>subiectum in ea, nec etiam pars subiecti: &amp; 
+        <lb ed="#C" n="13"/>ita apparet, quod per primam differentiam 
+        <lb ed="#C" n="14"/>quam habet Theologia a Metaphys. quod  
+        <lb ed="#C" n="15"/>in istis tribus positionibus non directe 
+        ac<lb ed="#C" n="16" break="no"/>cipitur subiectum in ea; non tamen istae pop 
+        <lb ed="#C" n="17"/>sitiones falsae sunt, sed largo modo 
+        loquun<lb ed="#C" n="18" break="no"/>tur accipiendo subiectum pro materia. 
+        Se<lb ed="#C" n="19" break="no"/>cunda differentia est, quae aliquomodo 
+        ex<lb ed="#C" n="20" break="no"/>prima sequitur, scilicet, quod de eodem 
+        <lb ed="#C" n="21"/>considerabit Metaph. &amp; Theologia: nam 
+        <lb ed="#C" n="22"/>si Metaph. est scientia communis, 
+        opor<lb ed="#C" n="23" break="no"/>tet quod determinet de omni ente 
+        aliquo<lb ed="#C" n="24" break="no"/>modo: &amp; ideo nulla scientia est, quae non 
+        <lb ed="#C" n="25"/>rdeterminet de illis, de quibus Metaph. 
+        de<lb ed="#C" n="26" break="no"/>c terminat. Si igitur Theologia est de Deo, 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2127">
+                  <lb ed="#C" n="27"/>oportet quod etiam Metaphys. sit de Deo, 
+        <lb ed="#C" n="28"/>sed non potest esse quod sub eadem 
+        ratio<lb ed="#C" n="29" break="no"/>ne determinent de Deo Metaph. &amp; 
+        Theo<lb ed="#C" n="30" break="no"/>logia: quia si eodem modo determinarent; 
+        <lb ed="#C" n="31"/>essent una scientia; immo quaelibet deter 
+        <lb ed="#C" n="32"/>minabit de Deo secundum modum suum. 
+        <lb ed="#C" n="33"/>e Cum igitur Metaph. sit scientia 
+        commu<lb ed="#C" n="34" break="no"/>nis determinabit de Deo sub modo 
+        com<lb ed="#C" n="35" break="no"/>muni, in quantum, scilicet, ens est, &amp; 
+        cau<lb ed="#C" n="36" break="no"/>sa universalis entium: Theologia autem, 
+        <lb ed="#C" n="37"/>cum sit scientia specialis, de his, de quibus 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2154">
+                  <lb ed="#C" n="38"/>determinat, determinabit sub speciali 
+        mo<lb ed="#C" n="39" break="no"/>do: &amp; ideo sicut subiectum in scientia 
+        con<lb ed="#C" n="40" break="no"/>muni est commune, in eo quod 
+        commu<lb ed="#C" n="41" break="no"/>ne, ita subiectum in scientia speciali debet 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2165">
+                  <lb ed="#C" n="42"/>esse speciale, in eo quod speciale: &amp; ideo 
+        <lb ed="#C" n="43"/>Deus, de quo principaliter intendit ista 
+        <lb ed="#C" n="44"/>scientia, sub aliqua speciali ratione debeti. 
+        <lb ed="#C" n="45"/>esse subiectum in ea. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2176">
+                  <lb ed="#C" n="46"/>Ista autem specialis ratio potest esse in 
+        <lb ed="#C" n="47"/>quantum est principium nostrae 
+        restaura<lb ed="#C" n="48" break="no"/>tionis, &amp; consummatio nostrae 
+        glorifica<lb ed="#C" n="49" break="no"/>tionis. Quomodo autem hoc sit, per 
+        ter<lb ed="#C" n="50" break="no"/>tiam differentiam apparebit. Ex ista autem 
+        <lb ed="#C" n="51"/>secunda differentia apparet, quod omnes 
+        <lb ed="#C" n="52"/>illae positiones, quae non assignaverunt 
+        sub<lb ed="#C" n="53" break="no"/>iectum Deum sub aliqua ratione speciali, 
+        <lb ed="#C" n="54"/>non proprie acceperunt subiectum. Et ideo 
+        <lb ed="#C" n="55"/>quatuor positiones ex ista via apparet non 
+        <lb ed="#C" n="56"/>proprie incessifse: 
+        <!--49.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>Prima est, quodbonum salutare est 
+        sub<lb ed="#C" n="58" break="no"/>lectum in ista scientia: constat enim quod 
+        <lb ed="#C" n="59"/>bonum est quid commune: quia debetur 
+        <lb ed="#C" n="60"/>cuilibet enti, ut scribitur in 1. Ethic. Vnde 
+        <lb ed="#C" n="61"/>licet salutare posset esse conditio specialis; 
+        ta<lb ed="#C" n="62" break="no"/>men quia bonum est quid commune 
+        <lb ed="#C" n="63"/>in scientia speciali oportet esse subiectum, 
+        <lb ed="#C" n="64"/>non commune sub ratione speciali; sed  
+        <lb ed="#C" n="65"/>speciale sub ratione speciali: patet quod  
+        <lb ed="#C" n="66"/>ista assignatio non est propria 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2228">
+                  <lb ed="#C" n="67"/>Alia positio est, quae dicitur Cassiodori, 
+        <lb ed="#C" n="68"/>quod Christus integer caput, &amp; membra 
+        <lb ed="#C" n="69"/>est subiectum in ista scientia: cum in Chris 
+        <lb ed="#C" n="70"/>to integro includamur, &amp; nos. Sic 
+        acci<lb ed="#C" n="71" break="no"/>piendo subiectum non accipitur proprie: 
+        <lb ed="#C" n="72"/>quia aliquod ens distinctum ab alije 
+        omni<lb ed="#C" n="73" break="no"/>bus, ut Deus sub speciali ratione, est subiec  
+        <lb ed="#C" n="74"/>tum in ista scientia, ut patuit.  
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2248">
+                  <lb ed="#C" n="75"/>Tertia positio est Hug. super Angelica 
+        <lb ed="#C" n="76"/>Hierarchia quod opera restaurationis sut a 
+        <lb ed="#C" n="77"/>subiectum in Theologia. Apparet autem 
+        <lb ed="#C" n="78"/>quod nec hic proprie accipit subiectum: 
+        <lb ed="#C" n="79"/>nam restauratio est conditio superaddita, 
+        <lb ed="#C" n="80"/>non subiectum. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2264">
+                  <lb ed="#C" n="81"/>Quarta positio est, quod Deus est 
+        sub<lb ed="#C" n="82" break="no"/>iectum in Theologia; ista autem magis, 
+        ac<lb ed="#C" n="83" break="no"/>cedit ad propriam rationem subiectis non 
+        <lb ed="#C" n="84"/>tamen sufficienter assignat subiectum: quia 
+        <lb ed="#C" n="85"/>ut patuit, nunquam assignatur aliquod 
+        <lb ed="#C" n="86"/>subiectum in scientia nisi sub aliqua 
+        ratio<lb ed="#C" n="87" break="no"/>ne: aliter enim esset confusio in scientiis 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2283">
+                  <lb ed="#C" n="88"/>cum plures scientiae determinent de eodem 
+        <lb ed="#C" n="89"/>&amp; ideo licet Deus sit principaliter 
+        intentu<lb ed="#C" n="90" break="no"/>in Sacra Pagina, &amp; sub ratione ipsius alia 
+        <lb ed="#C" n="91"/>introducantur in ea: non tamen suffici 
+        <lb ed="#C" n="92"/>dicere Deus est subiectum in Sacra 
+        Pagi<lb ed="#C" n="93" break="no"/>na, nisi addatur ei aliqua specialis 
+        condi<lb ed="#C" n="94" break="no"/>tio, ut principium nostrae restaurationis, &amp; 
+        <lb ed="#C" n="95"/>consummatio nostrae glorificationis: 
+        pa<lb ed="#C" n="96" break="no"/>tet igitur per istas duas differentias datas, 
+        <lb ed="#C" n="97"/>quod omnes dictae positiones large de sub 
+        <lb ed="#C" n="98"/>iecto loquuntur. . 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2309">
+                  <lb ed="#C" n="99"/>Tertia differentia est, quod Metaph. non 
+        <lb ed="#C" n="100"/>considerat de Deo principaliter per omnem 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2316">
+                  <lb ed="#C" n="101"/>modum, sed solum secundum aliquem 
+        <lb ed="#C" n="102"/>modum, ut patuit art. 1. Sed Theologia 
+        con<lb ed="#C" n="103" break="no"/>siderat de Deo principaliter secundum 
+        <lb ed="#C" n="104"/>omnem modum. Ex ista tertia differentiae 
+        <lb ed="#C" n="105"/>apparet quare Deus in Metaphys. non est 
+        <lb ed="#C" n="106"/>subiectum simpliciter: est tamen subiectum 
+        <lb ed="#C" n="107"/>in Theologia sub aliqua tamen speciali 
+        ra<lb ed="#C" n="108" break="no"/>tione, ut patuit. Ista autem specialis 
+        ratio<lb ed="#C" n="109" break="no"/>sic habetur: quia sub illa ratione 
+        principa<lb ed="#C" n="110" break="no"/>liter subiectum consideratur in scietia, sub 
+        <lb ed="#C" n="111"/>qua eius cognitio principaliter intenditur 
+        <lb ed="#C" n="112"/>sed in Theologia principaliter cognoscere 
+        <!--50.xml-->
+        <pb ed="#C" n="13"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Deum intendimus, ut nostrum 
+        restaura<lb ed="#C" n="2" break="no"/>torem, &amp; glorificatorem: ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2355">
+                  <lb ed="#C" n="3"/>Respond. ad argumenta, quae probant 
+        <lb ed="#C" n="4"/>Deum esse subiectum in illa scientia, 
+        dicen<lb ed="#C" n="5" break="no"/>dum, quod verum dicunt, sed totam 
+        veri<lb ed="#C" n="6" break="no"/>tatem non exprimunt, nam Deus est 
+        sub<lb ed="#C" n="7" break="no"/>iectum in ista scientia, sed sub speciali 
+        ra<lb ed="#C" n="8" break="no"/>tione, ut patuit.  
+      </p>
+               <p xml:id="Gi9qrR-d1e901-d1e2371">
+                  <lb ed="#C" n="9"/>Ad primum in contrarium dicendum, 
+        <lb ed="#C" n="10"/>quod Deus non habet partes, &amp; passiones. 
+        <lb ed="#C" n="11"/>tamen, ut patebit, aliqua se habent ibi ut  
+        <lb ed="#C" n="12"/>partes, &amp; aliqua ut passiones. Vel 
+        possu<lb ed="#C" n="13" break="no"/>mus dicere, quod non oportet loqui de 
+        <lb ed="#C" n="14"/>ista scientia, quae habetur per inspirationem, 
+        <lb ed="#C" n="15"/>sicut de aliis, quae habentur per 
+        acquisitio<lb ed="#C" n="16" break="no"/>nem. Ad secundum dicendum, quod 
+        si<lb ed="#C" n="17" break="no"/>milis ratio est de subiecto in ista scientia, &amp; 
+        <lb ed="#C" n="18"/>de principijs in ea: quia nulla scientia 
+        po<lb ed="#C" n="19" break="no"/>test probare directe, nec principia sua, nec 
+        <lb ed="#C" n="20"/>subiectum suum: tamen per quaedam 
+        sig<lb ed="#C" n="21" break="no"/>na, &amp; per effectus potest: ut patet per 
+        Co<lb ed="#C" n="22" break="no"/>ment. 12. Metaph. &amp; sic probamus Deum 
+        <lb ed="#C" n="23"/>esse per effectus, non per causam. Ad 
+        ter<lb ed="#C" n="24" break="no"/>tium dicendum, quod quid est Deus 
+        secun<lb ed="#C" n="25" break="no"/>dum naturam, ut idem Damas. dicit 
+        quan<lb ed="#C" n="26" break="no"/>diu sumus in via omnino est nobis ignotum: 
+        <lb ed="#C" n="27"/>tamen quid est quod dicitur per nomen, 
+        <lb ed="#C" n="28"/>cum dicitur Deus, scire possumus: ut cum 
+        <lb ed="#C" n="29"/>dicitur quod de subiecto praesupponimus 
+        <lb ed="#C" n="30"/>quid est, exponitur quid est quod dicitur  
+        <lb ed="#C" n="31"/>per nomen. Vel possumus dicere, ut 
+        qui<lb ed="#C" n="32" break="no"/>dam dicunt, quod ipsi effectus Divini 
+        pos<lb ed="#C" n="33" break="no"/>sunt dici quod quid est in tali cognitione: 
+        <lb ed="#C" n="34"/>nam cum omne medium ad 
+        demonstran<lb ed="#C" n="35" break="no"/>dum habeat aliquomodo rationem quod 
+        <lb ed="#C" n="36"/>quid est: ipsi effectus, per quos Deum cog 
+        <lb ed="#C" n="37"/>noscimus, possunt dici, quod quid est. Estt  
+        <lb ed="#C" n="38"/>tamen ista solutio aliquomodo impropria 
+        <lb ed="#C" n="39"/>quia non distinguit inter demonstrationem 
+        <lb ed="#C" n="40"/>propter quid, &amp; quia 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="237"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e63784"><!-- l1-d12prooem -->
+            <head xml:id="Gi9qrR-e63784-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e63784-d1e111">
+      <!--274.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="84"/>DISTINCTIO XII. 
+      <lb ed="#C" n="85"/>Vtrum Spiritus Sanctus prius vel plenius procedat a Patre, quam a Filio?
+    </p>
+            <p xml:id="Gi9qrR-e63784-d1e122">
+      <!--274.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="86"/>ITEM quaeritur. Postquam determinavit 
+      <lb ed="#C" n="87"/>&amp;e Mag. superius de processione Spiritus 
+      <lb ed="#C" n="88"/>&amp;e S. secundum quod est ex Patre, &amp; 
+      Fi<lb ed="#C" n="89" break="no"/>&amp; lio, hicideterminatde ea, secudum quod  
+      <lb ed="#C" n="90"/>&amp; ipse procedit aequaliter, ab utroq; &amp; 
+      <lb ed="#C" n="91"/>age duo facit: nam aequalitas impeditur per 
+      <lb ed="#C" n="92"/>prioritatem, &amp; posterioritatem. 2. impeditur 
+      <lb ed="#C" n="93"/>per magis, &amp; mius. Primo ergo ostendit Spiri¬ 
+      <!--274.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="94"/>tum Sanctum procedere aequaliter ex Patre, &amp; 
+      <lb ed="#C" n="95"/>Filio: quia non prius procedit a Patre, quam 
+      <lb ed="#C" n="96"/>a Filio. 2. quia non magis ibi. Nunc tractandum. 
+      <lb ed="#C" n="97"/>Circa primum duo facit: quia primo adducit 
+      <lb ed="#C" n="98"/>obiectionem Haereticorum, quod prius 
+      proce<lb ed="#C" n="99" break="no"/>dat, a Patre: quia vel procedit nato Filio, vel  
+      <lb ed="#C" n="100"/>non nato? Non est dicendum, quod non 
+      na<lb ed="#C" n="101" break="no"/>to: quia tunc esset prior Filio, ergo procedit 
+      <!--275.xml-->
+      <pb ed="#C" n="238"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>nato: sed sic prius procedit a Patre Filius, quam 
+      <lb ed="#C" n="2"/>Spiritus Sanctus. 2. solvit, quod huiusmodiaem 
+      <lb ed="#C" n="3"/>obiectiones atcidunt ex falsa imaginatione: 
+      <lb ed="#C" n="4"/>quia non sunt ibi intervella temporum, ut isti 
+      <lb ed="#C" n="5"/>imaginantur. Secunda ibi: His, &amp; 
+      huiusmodi<lb ed="#C" n="6" break="no"/>Deinde cum dicit: Nunc tmactandum. Movet 
+      <lb ed="#C" n="7"/>aliam quaestionem, &amp; solvit, &amp; dno facit: quia 
+      <lb ed="#C" n="8"/>primo quaerit utrum Spirieus Sanctus magis, vel 
+      <lb ed="#C" n="9"/>plenius procedat a Patre, quam a Filio: &amp; sol 
+      <lb ed="#C" n="10"/>vit quod non. 2. ostendit dicta Sanctorum; quae 
+      <lb ed="#C" n="11"/>videntur huic sententiae contrariari, non esse 
+      <lb ed="#C" n="12"/>contraria, ibi: <name xml:id="Gi9qrR-e63784-Nd1e200" ref="#Augustine">Aug.</name> tamen. Circa quod tria 
+      fa<lb ed="#C" n="13" break="no"/>cit secundum quod tria dicta sunt a Sanctis, 
+      <lb ed="#C" n="14"/>quae huic videntur contrariari sententiae. Nam 
+      <lb ed="#C" n="15"/>August. ait: quod Spiritus Sanctus prodedit 
+      <lb ed="#C" n="16"/>a Patre principaliter. Hierony. quod 
+      proce<lb ed="#C" n="17" break="no"/>dit proprie. Hilarius autem quod procedit a 
+      <lb ed="#C" n="18"/>Patre per Filium. Ex quibus omnibus videtur  
+      <lb ed="#C" n="19"/>Spiritum Sanctum magis, vel plenius a 
+      Patro<lb ed="#C" n="20" break="no"/>procedere, quam a Filio. Primo ergo 
+      osten<lb ed="#C" n="21" break="no"/>dit verba <name xml:id="Gi9qrR-e63784-Nd1e222" ref="#Augustine">Aug.</name> suis dictis non esse contraria 
+      <lb ed="#C" n="22"/>2. ostendit hoc de Hieron. ibi: Ex eodem fensiu 
+      <lb ed="#C" n="23"/>3. de Hilario, ibi: forte etiam. Circa primum 
+      <lb ed="#C" n="24"/>tria facit: quia 1. praemittit <name xml:id="Gi9qrR-e63784-Nd1e232" ref="#Augustine">Aug.</name> sententiam. 
+      <lb ed="#C" n="25"/>quod Spiritus Sanctus procedit a Patre 
+      prin<lb ed="#C" n="26" break="no"/>cipaliter. 2. hic exponit praedicta eiusdem <name xml:id="Gi9qrR-e63784-Nd1e239" ref="#Augustine">Aug.</name> 
+               <!--275.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="27"/>dicens: hoc dictum esse: quia in Patre est 
+      au<lb ed="#C" n="28" break="no"/>ctoritas: quia non accepit ab alio, quod ab 
+      <lb ed="#C" n="29"/>eo procederet Spiritus Sanctus; non autem 
+      ci<lb ed="#C" n="30" break="no"/>ctum est: quia plenius procedat ab ipso, quam 
+      <lb ed="#C" n="31"/>a Filio. 3. concludit veritatem esse quod 
+      ex<lb ed="#C" n="32" break="no"/>positum est. Secunda ibi: Sed ne de hoc. Tertia 
+      <lb ed="#C" n="33"/>ibi: Etre exposuit. Tunc sequitur illa pars. 
+      Ex<lb ed="#C" n="34" break="no"/>eodem. Et duo facit: quia 1. ostendit Hierony. 
+      <lb ed="#C" n="35"/>licere Spiritum Sanctum procedere a Patre 
+      <lb ed="#C" n="36"/>proprie. 2. exponit dando cundem sensum ver 
+      <lb ed="#C" n="37"/>bis Hieron. quem dederat sententiae <name xml:id="Gi9qrR-e63784-Nd1e271" ref="#Augustine">Aug.</name> ibi:  
+      <lb ed="#C" n="38"/>Ecce aperte. Deinde cum dicit, sorti, exponit 
+      <lb ed="#C" n="39"/>verba Hilar. Et tria facit: quia 1. ostendit 
+      <lb ed="#C" n="40"/>Hilarium dixisse Spiritum Sanctum esse, &amp; 
+      <lb ed="#C" n="41"/>mitti a Patre per Filium. 2. reducit verba 
+      Hi<lb ed="#C" n="42" break="no"/>larij ad illum sensum, ad quem reduxit verba 
+      <lb ed="#C" n="43"/>Hieron. &amp; <name xml:id="Gi9qrR-e63784-Nd1e287" ref="#Augustine">Aug.</name> ostendens hoc dictum esse 
+      <lb ed="#C" n="44"/>propter auctoritatem, quae est in Patre: quia 
+      <lb ed="#C" n="45"/>ipse non habet ab alio; sed Filius habet ab alio. 
+      <lb ed="#C" n="46"/>. ostedit, quod propter huiusmodi auctoritatem 
+      <lb ed="#C" n="47"/>Filius dixit Spiritum Sanctum procedere a 
+      Pa<lb ed="#C" n="48" break="no"/>tre, &amp; non dixit eum procedere ab ipso: sicut  
+      <lb ed="#C" n="49"/>dicit doctrinam suam non esse suam: quia a 
+      <lb ed="#C" n="50"/>Patre acceperat. Secunda ibi: Ecce dicit. 
+      Ter<lb ed="#C" n="51" break="no"/>tia ibi: Inde est etiam. In quo terminatur 
+      sen<lb ed="#C" n="52" break="no"/>tentia lectionis, &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

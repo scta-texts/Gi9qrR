@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="792"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g06755"><!-- l1-d42q2 -->
+            <head xml:id="Gi9qrR-g06755-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-g06755-d1e111">
+               <lb ed="#C" n="92"/>QVAESTIO II. 
+      <lb ed="#C" n="93"/>De subiectis Divinae potentiae. 
+    </p>
+            <p xml:id="Gi9qrR-g06755-d1e118">
+               <lb ed="#C" n="94"/>DEINDE quaeritur de sub¬ 
+      <lb ed="#C" n="95"/>iectis Divinae potentiae. 
+      <lb ed="#C" n="96"/>Et circa hoc quaeruntur  
+      <lb ed="#C" n="97"/>tria. Primo: utrum sint 
+      <lb ed="#C" n="98"/>Deo possibilia quaecun¬ 
+      <lb ed="#C" n="99"/>que alia possunt? 
+      Secun<lb ed="#C" n="100" break="no"/>do: utrum sint Deo 
+      pos<lb ed="#C" n="101" break="no"/>sibilia, quae sunt naturae impossibilia? 
+      <lb ed="#C" n="102"/>Tertio: utrum sit iudicandum aliquid  
+      <lb ed="#C" n="103"/>possibile, vel impossibile se¬ 
+      <lb ed="#C" n="104"/>cundum causas superio. 
+      <lb ed="#C" n="105"/>res, vel inferiores?
+    </p>
+            <div xml:id="Gi9qrR-g06755-Dd1e147">
+               <head xml:id="Gi9qrR-g06755-Hd1e149">Articulus 1</head>
+               <p xml:id="Gi9qrR-g06755-d1e152">
+        <!--818.xml-->
+                  <pb ed="#C" n="793"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ARTICVLVS I. 
+        <lb ed="#C" n="2"/>Vtrum Deus possit quidquid alteri est 
+        <lb ed="#C" n="3"/>possibile? 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e168">
+                  <lb ed="#C" n="4"/>Ad primum sic proceditur: videtur,  
+        <lb ed="#C" n="5"/>quod Deus possit quidquid alij est 
+        <lb ed="#C" n="6"/>possibile: nam sicut quia Deus est 
+        sum<lb ed="#C" n="7" break="no"/>me perfectus, omnes perfectiones, quae 
+        <lb ed="#C" n="8"/>sunt in unoquoque genere, 
+        congregan<lb ed="#C" n="9" break="no"/>tur in ipso: sic quia est summe virtuosus, 
+        <lb ed="#C" n="10"/>virtutes omnium particularium agen 
+        <lb ed="#C" n="11"/>tium reservantur in eo: unde Dionys. 
+        <lb ed="#C" n="12"/>5. de Div. nom. dicit in Deo esse 
+        om<lb ed="#C" n="13" break="no"/>nem ordinem, omnem armoniam, &amp; 
+        <lb ed="#C" n="14"/>omnem virtutem: quidquid ergo 
+        pos<lb ed="#C" n="15" break="no"/>sunt omnia particularia agetia per 
+        par<lb ed="#C" n="16" break="no"/>ticulares virtutes, totum Deus potest. 
+        <lb ed="#C" n="17"/>quia omnis virtus reservatur in illo. 
+        <lb ed="#C" n="18"/>Praeterea: quae potest Deus producere 
+        <lb ed="#C" n="19"/>mediante causa secunda, potest non me 
+        <lb ed="#C" n="20"/>diante illa: eo quod omnis ordo 
+        secun<lb ed="#C" n="21" break="no"/>darum causarum reservatur in Primos 
+        <lb ed="#C" n="22"/>sed quidquid est alteri possibile, est eit 
+        <lb ed="#C" n="23"/>possibile mediante virtute prima: ed 
+        <lb ed="#C" n="24"/>quod omnia agentia aganti in virtute 
+        <lb ed="#C" n="25"/>eius: omnia ergo, quae alia agentia 
+        pos<lb ed="#C" n="26" break="no"/>sunt, Deus potest: cum possit agere sine 
+        <lb ed="#C" n="27"/>illis, quae mediantibus illis agit. 
+        Praete<lb ed="#C" n="28" break="no"/>rea: si aliqua sunt quae dicimus posse seci 
+        <lb ed="#C" n="29"/>da agentia, &amp; non Deum, potissime 
+        <lb ed="#C" n="30"/>sunt mala, sed potentia ad faciendum 
+        <lb ed="#C" n="31"/>mala non est neganda a Deo, cum tales 
+        <lb ed="#C" n="32"/>potentiae bonae sint. Nam secundum Philosom 4. 
+        <lb ed="#C" n="33"/>Top. Deus studiosus potest prava agere. 
+        <lb ed="#C" n="34"/>Praeterea: nos ponimus in Deo liberum at 
+        <lb ed="#C" n="35"/>bitrium; sed liberum arbitrium est ad 
+        op<lb ed="#C" n="36" break="no"/>posita, &amp; secundum ipsum possumus 
+        <lb ed="#C" n="37"/>peccare, &amp; non peccare, ergo &amp; talia 
+        <lb ed="#C" n="38"/>Deus potest: nihil ergo alteri possibile 
+        <lb ed="#C" n="39"/>Deo est impossibile: cum etiam pecca 
+        <lb ed="#C" n="40"/>re possit: 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e251">
+                  <lb ed="#C" n="41"/>In contrarium est: quia Deus move 
+        <lb ed="#C" n="42"/>ri non potest, nec ambulare, ut 
+        Magi<lb ed="#C" n="43" break="no"/>ster dicit in littera, &amp; tamen talia creat 
+        <lb ed="#C" n="44"/>turae sunt possibilia, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e262">
+        Praeterea: 
+        <lb ed="#C" n="45"/>sicut summe calidum non potest 
+        infrigi<lb ed="#C" n="46" break="no"/>dare, sic summe bonum non potest 
+        <lb ed="#C" n="47"/>peccare, nec malefacere: &amp; quia 
+        <lb ed="#C" n="48"/>creatura peccare potest, non quid 
+        <lb ed="#C" n="49"/>quid alteri est possibile, est possibile 
+        <lb ed="#C" n="50"/>Deo. 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e279">
+        <!--818.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>RESOLVTIO 
+        <lb ed="#C" n="52"/>Omnia illa, quae sonant in defectum, vel in 
+        <lb ed="#C" n="53"/>transmutari, vel in acquisitionem, amissionem ve¬ 
+        <lb ed="#C" n="54"/>alicuius esse, licet sint creaturae possibi¬ 
+        <lb ed="#C" n="55"/>lia; Deo autem possibilia non sunt.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e297">
+                  <lb ed="#C" n="56"/>REspond. dicendum, quod, sicut 
+        ha<lb ed="#C" n="57" break="no"/>Rbitum est, in Deo est potentia 
+        acti<lb ed="#C" n="58" break="no"/>va, non passiva: unde &amp; Magister in 
+        lic<lb ed="#C" n="59" break="no"/>tera ait: quod Deus est omnipotens, 
+        <lb ed="#C" n="60"/>quia omnia potest facere, &amp; nihil 
+        pati<lb ed="#C" n="61" break="no"/>Cum ergo quaeritur: utrum Deus 
+        pos<lb ed="#C" n="62" break="no"/>Sit quidquid alteri est possibile? Si huius 
+        <lb ed="#C" n="63"/>modi posse respicit solum activam 
+        po<lb ed="#C" n="64" break="no"/>tentiam, concedendum est plane, quod  
+        <lb ed="#C" n="65"/>sic: eo quod in ipso est omnis virtus 
+        <lb ed="#C" n="66"/>activa. Si vero huiusmodi posse respicit 
+        <lb ed="#C" n="67"/>solum passivam potentiam, vel simul 
+        <lb ed="#C" n="68"/>cum activa passivam, talis potentia Deo 
+        <lb ed="#C" n="69"/>attribuenda non est: quia in eo nulla est, 
+        <lb ed="#C" n="70"/>passiva potentia. Differt autem 
+        poten<lb ed="#C" n="71" break="no"/>ia passiva ab activa, quantum ad 
+        prae<lb ed="#C" n="72" break="no"/>sens, in tribus. Primo, quia agens per suam 
+        <lb ed="#C" n="73"/>potentiam activam, secudum quod 
+        huius<lb ed="#C" n="74" break="no"/>modi, efficit; sed secundum passivam 
+        <lb ed="#C" n="75"/>potentiam, per se &amp; principaliter 
+        loque<lb ed="#C" n="76" break="no"/>do, non efficit, sed deficit: unde &amp; Philosophusi 
+        <lb ed="#C" n="77"/>9. Meta. dicit, etrorem &amp; malum, quae 
+        <lb ed="#C" n="78"/>in defectum sonant, esse in rebus 
+        brop<lb ed="#C" n="79" break="no"/>ter potentialitatem &amp; materiam. 
+        Secun<lb ed="#C" n="80" break="no"/>don: quia secundum potentiam activam 
+        <lb ed="#C" n="81"/>Caliquid transmutat; sed secundum 
+        pas<lb ed="#C" n="82" break="no"/>sivam transmutatur: propter quod 
+        <lb ed="#C" n="83"/>Philosophus 5. Meta. cap. de Potentia, distin 
+        <lb ed="#C" n="84"/>guit potentiam activam a passiva: quia 
+        <lb ed="#C" n="85"/>activa accipitur penes transmutare; pal 
+        <lb ed="#C" n="86"/>siva penes transmutari. Tertia 
+        differen<lb ed="#C" n="87" break="no"/>tia est: quia passiva respicit esse; activa 
+        <lb ed="#C" n="88"/>agere: nam agens per suam potentiam 
+        <lb ed="#C" n="89"/>activam inducit formam, &amp; transmutat 
+        <lb ed="#C" n="90"/>vel agit; sed patiens per suam potentiam 
+        <lb ed="#C" n="91"/>passivam suscipit formam, &amp; 
+        influen<lb ed="#C" n="92" break="no"/>tiam agentis: propter quam susceptionem 
+        <lb ed="#C" n="93"/>aliquod esse acquirit: omnia ergo illa, 
+        <lb ed="#C" n="94"/>quae sonant in defectum, vel in 
+        transmu<lb ed="#C" n="95" break="no"/>tari, vel in acquisitionem alicuius esse, 
+        <lb ed="#C" n="96"/>licet sint creaturae possibilia, Deo autem 
+        <lb ed="#C" n="97"/>possibilia esse non possunt. Ad tria ergo 
+        <lb ed="#C" n="98"/>genera reducuntur, quae dicimus 
+        creatu<lb ed="#C" n="99" break="no"/>ram posse, &amp; non Deum, videlicet, ad quae 
+        <lb ed="#C" n="100"/>sonant in defectum, ut peccare: &amp; ad quae 
+        <lb ed="#C" n="101"/>sonant in motum; &amp; transmurationem, 
+        <lb ed="#C" n="102"/>ut ambulare, vel currere: &amp; ad quae 
+        di<lb ed="#C" n="103" break="no"/>cunt desinere ab esse, vel acquisitionem 
+        no<lb ed="#C" n="104" break="no"/>vi esse, ut mori, vel eorrumpi. Quae tria 
+        <lb ed="#C" n="105"/>Magister tangit in littera secudum tres 
+        <lb ed="#C" n="106"/>oppositiones, quas movet. Advertedum 
+        <!--819.xml-->
+        <pb ed="#C" n="794"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tamen quod deficere, &amp; transmutari 
+        <lb ed="#C" n="2"/>&amp; acquirere novum esse, secundum quae 
+        <lb ed="#C" n="3"/>potentia passiva ab activa videtur 
+        differ<lb ed="#C" n="4" break="no"/>re, non eodem modo ad activam 
+        po<lb ed="#C" n="5" break="no"/>tentiam comparantur. Nam defectus penitur 
+        <lb ed="#C" n="6"/>exitab ordine activae potentiae: unde 
+        <lb ed="#C" n="7"/>activa potentia, ut activa est, nec deficit 
+        <lb ed="#C" n="8"/>in se, nec in alio. Sed transmutari, &amp; 
+        <lb ed="#C" n="9"/>acquirere novum esse aliquo modo sut 
+        <lb ed="#C" n="10"/>ordine activae potentiae collocantur. Nam 
+        <lb ed="#C" n="11"/>licet agens secudum quod agens non 
+        trans<lb ed="#C" n="12" break="no"/>mutetur, nec novum esse acquitat, alis 
+        <lb ed="#C" n="13"/>tamen ab agente secudum suam activam 
+        po<lb ed="#C" n="14" break="no"/>tentiam transmutantur, &amp; novum esse 
+        <lb ed="#C" n="15"/>acquirunt: &amp; ideo licet Deus in se hoc non 
+        <lb ed="#C" n="16"/>possit, aliqua tamen horum potest in  
+        <lb ed="#C" n="17"/>alijs. Potest enim facere, quod alia 
+        trans<lb ed="#C" n="18" break="no"/>mutentur, &amp; quod acquirat novum 
+        es<lb ed="#C" n="19" break="no"/>se, vel desinant a suo esse; peccare 
+        <lb ed="#C" n="20"/>tamen non potest, nec in se, nec in alio: 
+        <lb ed="#C" n="21"/>cum peccatum non habeat causam 
+        effi<lb ed="#C" n="22" break="no"/>cientem, sed deficientem, &amp; derectus 
+        <lb ed="#C" n="23"/>per se non subsint ordini activae 
+        poten<lb ed="#C" n="24" break="no"/>tie, nisi quodammodo per accidens, in 
+        quan<lb ed="#C" n="25" break="no"/>tum ex eis quaedam perfectiones, &amp; 
+        <lb ed="#C" n="26"/>quaedam bona eliciuntur.  
+        <lb ed="#C" n="27"/>Respond. ad arg. Ad 1. dicendum 
+        <lb ed="#C" n="28"/>quod in Deo reservatur omnis 
+        virtu<lb ed="#C" n="29" break="no"/>activa: quod igitur alia possunt ex eo 
+        <lb ed="#C" n="30"/>quod in eis potentialitas, &amp; virtus 
+        pas<lb ed="#C" n="31" break="no"/>siva reservantur, Deo attribuendum, non 
+        <lb ed="#C" n="32"/>est in se: licet modo, quo dictum est 
+        <lb ed="#C" n="33"/>possit ei attribui in alijs. Nam sicut 
+        perfe<lb ed="#C" n="34" break="no"/>ctiones simpliciter ponuntur in Deo 
+        pro<lb ed="#C" n="35" break="no"/>prie, &amp; per se: perfectiones autem 
+        partici<lb ed="#C" n="36" break="no"/>patae non sunt in Deo per se; sed sunt, in 
+        <lb ed="#C" n="37"/>eo taquam in causa, inquantum talia in 
+        <lb ed="#C" n="38"/>alijs potest efficere: sic quae dicut actio 
+        <lb ed="#C" n="39"/>nem simpliciter Deo attribuuntur: quae 
+        <lb ed="#C" n="40"/>vero simul cum actione passionem 
+        im<lb ed="#C" n="41" break="no"/>portant, dicimus Deum non posse in 
+        se<lb ed="#C" n="42" break="no"/>sed in alijs. Quae autem defectum 
+        di<lb ed="#C" n="43" break="no"/>cunt, ut peccare, nec potest Deus in 
+        se<lb ed="#C" n="44" break="no"/>nec inalijs. Ad. 2. dicendum, quod 
+        <lb ed="#C" n="45"/>quidquid Deus effective potest 
+        median<lb ed="#C" n="46" break="no"/>te causa secunda, potest non mediante 
+        <lb ed="#C" n="47"/>illa, loquendo de posse quod respicit 
+        <lb ed="#C" n="48"/>activam potentiam, ut si potest movet 
+        <lb ed="#C" n="49"/>re caelum mediante intelligentia, 
+        potes<lb ed="#C" n="50" break="no"/>non mediante illa: &amp; si potest 
+        caleface<lb ed="#C" n="51" break="no"/>re per ignem, potest calefacere sine igne 
+        <lb ed="#C" n="52"/>quae, vero in potente ponunt passivam 
+        po<lb ed="#C" n="53" break="no"/>tentiam, Deus secundum se respectu il 
+        <lb ed="#C" n="54"/>lorum potens esse non potest, &amp; 
+        huius<lb ed="#C" n="55" break="no"/>modi funt, quae dicimus creaturam 
+        pos<lb ed="#C" n="56" break="no"/>se, &amp; non Deum.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e538">
+        Ad 3. dicendum, quod 
+        <lb ed="#C" n="57"/>Deus studiosus potest prava agere, sive 
+        <!--819.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>mala, loquendo de malis poenae, non de 
+        <lb ed="#C" n="59"/>malis culpae. Vel aliter dicere possuntus, 
+        <lb ed="#C" n="60"/>&amp; melius, quod non est curandum 
+        de<lb ed="#C" n="61" break="no"/>exemplis: nam exempla ponimus, non 
+        <lb ed="#C" n="62"/>ut ita sint, sed ut sentiat, qui discit: quod  
+        <lb ed="#C" n="63"/>si tamen vellemus auctoritatem illam 
+        <lb ed="#C" n="64"/>habere veritatem: eo quod potest Deus, 
+        <lb ed="#C" n="65"/>quae nunc sunt mala, facere, sed tamen 
+        <lb ed="#C" n="66"/>si faceret, non essent mala; essent tamem 
+        <lb ed="#C" n="67"/>bona secundum alium modum ordinis: 
+        <lb ed="#C" n="68"/>sicut posset alicui praecipere, quod 
+        for<lb ed="#C" n="69" break="no"/>nicaretur, quod si tamen praeciperet, 
+        <lb ed="#C" n="70"/>actus ille non maneret fornicarius, vel 
+        <lb ed="#C" n="71"/>deformis.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e577">
+        Ad 4. dicendum, quod 
+        pos<lb ed="#C" n="72" break="no"/>se peccare non est libertas, sed servitus. 
+        <lb ed="#C" n="73"/>Vnde <name xml:id="Gi9qrR-g06755-Nd1e583" ref="#Boethius">Boetius</name> in 5. de Consol. dicit 
+        <lb ed="#C" n="74"/>quod extrema servitus est, cum anims 
+        <lb ed="#C" n="75"/>se vitijs dederit, &amp; a possessione 
+        pro<lb ed="#C" n="76" break="no"/>priae rationis ceciderit.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g06755-Dd1e595">
+               <head xml:id="Gi9qrR-g06755-Hd1e597">Articulus 2</head>
+               <p xml:id="Gi9qrR-g06755-d1e600">
+                  <lb ed="#C" n="77"/>ARTICVLVS II. 
+        <lb ed="#C" n="78"/>Vtrum sint Deo possibilia, quae sunt naturae 
+        <lb ed="#C" n="79"/>cimpossibilia?
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e609">
+                  <lb ed="#C" n="80"/>SEcundo quaeritur: utrum quae isunt,  
+        <lb ed="#C" n="81"/>naturae impossibilia, sint Deo 
+        pos<lb ed="#C" n="82" break="no"/>sibilia? Et videtur, quod non: quia secun 
+        <lb ed="#C" n="83"/>cundum Commen. 7. Meta. mullum 
+        <lb ed="#C" n="84"/>immateriale trasmutat materiale: 
+        quid<lb ed="#C" n="85" break="no"/>quid igitur Deus agit, cum sit summe 
+        <lb ed="#C" n="86"/>immaterialis, agit mediantibus 
+        secun<lb ed="#C" n="87" break="no"/>dis agentibus: non igitur aliquid potest, 
+        <lb ed="#C" n="88"/>quod non sit possibile naturae, &amp; 
+        secun<lb ed="#C" n="89" break="no"/>dis agentibus.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e633">
+        Praeterea: contradictoria 
+        <lb ed="#C" n="90"/>verificari simul non subiacet Divinae 
+        po<lb ed="#C" n="91" break="no"/>tentiae, sed contradictio in omnibus 
+        op<lb ed="#C" n="92" break="no"/>positionibus reservatur: cum ergo omnis 
+        <lb ed="#C" n="93"/>impossibilitas includat aliquem modun 
+        <lb ed="#C" n="94"/>oppositionis, quodlibet impossibile im 
+        <lb ed="#C" n="95"/>plicat contradictionem: non ergo quae 
+        <lb ed="#C" n="96"/>sunt impossibilia naturae, sunt Deo 
+        pos<lb ed="#C" n="97" break="no"/>sibilia, cum impossibile naturae semper 
+        <lb ed="#C" n="98"/>aliquem modum oppositionis, &amp; per 
+        <lb ed="#C" n="99"/>consequens contradictionem implicet
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e657">
+                  <lb ed="#C" n="100"/>Praeterea: quae sunt naturae impossibilia 
+        <lb ed="#C" n="101"/>(ut patebit) sunt impossibilia 
+        simplici<lb ed="#C" n="102" break="no"/>ter, sed quod est impossibile 
+        simplici<lb ed="#C" n="103" break="no"/>ter, est magis impossibile, quam quod 
+        <lb ed="#C" n="104"/>est, impossibile per accidens, sed aliqua 
+        <lb ed="#C" n="105"/>impossibilia peri accidens negamus a 
+        <lb ed="#C" n="106"/>Deo, ut dicimus Deum non posse faceret 
+        <lb ed="#C" n="107"/>praeteritum: cum igitur hoc sit impossibile 
+        <lb ed="#C" n="108"/>per accidens, impossibilia naturae, quae 
+        <lb ed="#C" n="109"/>sunt impossibilia per se, multo magis 
+        <lb ed="#C" n="110"/>Deo impossibilia erunt.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e684">
+        Praeterea: secudum 
+        <lb ed="#C" n="111"/>Aug. 3. de libero art, aliquid in tantum vitium 
+        <lb ed="#C" n="112"/>est, quia contra naturam est, ergo Deus 
+        <lb ed="#C" n="113"/>contra naturam facere non potest, 
+        <!--820.xml-->
+        <pb ed="#C" n="795"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>cum peccare non possit, &amp; solum 
+        pec<lb ed="#C" n="2" break="no"/>catum sit contra naturam: nihil ergo Deus 
+        <lb ed="#C" n="3"/>potest, in quod natura non possit: 
+        ali<lb ed="#C" n="4" break="no"/>ter enim contra naturam posse ivideretur.  
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e708">
+                  <lb ed="#C" n="5"/>In contrarium est: quia Magister in 
+        <lb ed="#C" n="6"/>littera dicit Deum simpliciter omnia 
+        pos<lb ed="#C" n="7" break="no"/>se, ergo &amp; impossibilia potest.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e717">
+        Praeterea: 
+        <lb ed="#C" n="8"/>dicitur Tucae 1. Non est impossibile apuo 
+        <lb ed="#C" n="9"/>Deum omne verbum, ergo quidquid homo 
+        po<lb ed="#C" n="10" break="no"/>test dicere, Deo potest facere; sed impos 
+        <lb ed="#C" n="11"/>sibilia, ut praeterita non esse praeterita; &amp; 
+        <lb ed="#C" n="12"/>contradictoria verificari, dici possunt, 
+        <lb ed="#C" n="13"/>ergo talia Deus potest; sed haec sunt 
+        na<lb ed="#C" n="14" break="no"/>turae impossibilia, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e735">
+        Praeterea: 
+        <lb ed="#C" n="15"/>sicut caecitas est opposita visioni, sic 
+        <lb ed="#C" n="16"/>maternitas videtur opponi virginitatis 
+        <lb ed="#C" n="17"/>sed potuit Deus facere, quod virgo ma 
+        <lb ed="#C" n="18"/>nens virgo pareret, ergo potest facere, 
+        <lb ed="#C" n="19"/>quod caecus manens caecus videat; sed  
+        <lb ed="#C" n="20"/>haec sunt impossibilia naturae, &amp; eis 
+        ex<lb ed="#C" n="21" break="no"/>istentibus, opposita simul 
+        verifican<lb ed="#C" n="22" break="no"/>tur, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e755">
+                  <lb ed="#C" n="23"/>RESOLVTIO. 
+        <lb ed="#C" n="24"/>Impossibile, quod contradictionem involvit, nec 
+        <lb ed="#C" n="25"/>naturae, nec Deo est possibile; sed quae 
+        impossi<lb ed="#C" n="26" break="no"/>bilia dicuntur, quia non subiacent virtuti 
+        lumi<lb ed="#C" n="27" break="no"/>tatae, vel requirenti necessario causarum ordi¬ 
+        <lb ed="#C" n="28"/>nem, vel potentiae agentis, cuius natu¬ 
+        <lb ed="#C" n="29"/>ra distat ab esse; etsi sint impossi 
+        <lb ed="#C" n="30"/>bilia naturae, Deo possibi¬ 
+        <lb ed="#C" n="31"/>lia sunt,  
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e777">
+                  <lb ed="#C" n="32"/>REspond. dicendum, quod cum 
+        lo<lb ed="#C" n="33" break="no"/>quimur de posse Divino, loquimumr 
+        <lb ed="#C" n="34"/>de posse, prout respicit agere, &amp; activam, 
+        <lb ed="#C" n="35"/>potentiam. Agere autem praesupponit 
+        <lb ed="#C" n="36"/>esse, &amp; quidquid agit, agit secundum 
+        <lb ed="#C" n="37"/>quod est actu. Si ergo videre volumus; 
+        <lb ed="#C" n="38"/>quomodo differt posse Divinum a 
+        pos<lb ed="#C" n="39" break="no"/>se naturae, sive a potentia creaturae, 
+        o<lb ed="#C" n="40" break="no"/>portet nos videre, quomodo differt esse 
+        <lb ed="#C" n="41"/>eius ab esse creato? Et hoc viso 
+        ap<lb ed="#C" n="42" break="no"/>parebit: utrum aliqua sint natura 
+        <lb ed="#C" n="43"/>impossibilia, quae Deo sunt possibilia, &amp; 
+        <lb ed="#C" n="44"/>quae sunt illa. Ideo notandum, quod 
+        es<lb ed="#C" n="45" break="no"/>se Divinum quadrupliciter differt al 
+        <lb ed="#C" n="46"/>esse cuiuslibet creaturae. Primo: quia 
+        <lb ed="#C" n="47"/>eius esse non est contractum nec 
+        adge<lb ed="#C" n="48" break="no"/>nus, nec ad speciem. Esse autem 
+        cuius<lb ed="#C" n="49" break="no"/>ibet creaturae: quia est esse hoc, vel esse 
+        <lb ed="#C" n="50"/>illud, ad genus, vel speciem est 
+        contra<lb ed="#C" n="51" break="no"/>ctum. Secundo: quia eius esse est 
+        in<lb ed="#C" n="52" break="no"/>initum; esse vero cuiuslibet creaturae est 
+        <lb ed="#C" n="53"/>imitatum. Nam cum quodlioet esse 
+        <lb ed="#C" n="54"/>creatum sit esse receptum in natura, cum 
+        <!--820.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>omne, quod recipitur in aliquo, recipia 
+        <lb ed="#C" n="56"/>tur in eo secundum modum rei 
+        recipi<lb ed="#C" n="57" break="no"/>entis: oportet omne tale esse 
+        si<lb ed="#C" n="58" break="no"/>mitari &amp; finiri secundum modum natu 
+        <lb ed="#C" n="59"/>rae, in qua recipitur. Tertio: esse Divinum 
+        <lb ed="#C" n="60"/>est id, in quo continetur omne esse, &amp; 
+        <lb ed="#C" n="61"/>in quo reservatur omnis ratio essendi. In 
+        <lb ed="#C" n="62"/>omni autem alio esse quidam specialis 
+        <lb ed="#C" n="63"/>modus essendi reservatur. Quarto: om 
+        <lb ed="#C" n="64"/>ne aliud esse non est esse purum; esse 
+        au<lb ed="#C" n="65" break="no"/>tem Divinum est purum esse, non recep 
+        <lb ed="#C" n="66"/>tum in natura. Propter primum nulla 
+        <lb ed="#C" n="67"/>potentia creata simpliciter se extendit 
+        <lb ed="#C" n="68"/>ad omnia. Nam sicut quaelibet natura 
+        <lb ed="#C" n="69"/>creata est determinata ad aliquod 
+        ge<lb ed="#C" n="70" break="no"/>nus, &amp; ad aliquam speciem: sic actio 
+        <lb ed="#C" n="71"/>cuiuslibet creaturae determinata est, &amp; 
+        <lb ed="#C" n="72"/>simpliciter non se extendit ad omnia: &amp; 
+        <lb ed="#C" n="73"/>quantum ad hoc dicere possumus 
+        ali<lb ed="#C" n="74" break="no"/>qua esse Deo possibilia, quae sunt 
+        impos<lb ed="#C" n="75" break="no"/>sibilia naturae, inquantum potentia eius se 
+        <lb ed="#C" n="76"/>extedit ad aliqua, ad quae se non extendit 
+        <lb ed="#C" n="77"/>potentia creaturae. Propter secundum 
+        <lb ed="#C" n="78"/>virtus Divina in vigore superat virtutem 
+        <lb ed="#C" n="79"/>cuiuslibet creaturae. Nam si secundum 
+        <lb ed="#C" n="80"/>quod augetur virtus, diminuitur 
+        tem<lb ed="#C" n="81" break="no"/>pus, ut probatur 7. Phys: multa potest 
+        <lb ed="#C" n="82"/>Deus operari in instanti, ad quae 
+        operan<lb ed="#C" n="83" break="no"/>da in instanti virtus creaturae non se 
+        po<lb ed="#C" n="84" break="no"/>test extendere. Ex quo etiam apparet 
+        <lb ed="#C" n="85"/>caliquid Deo esse possibile, quod est na¬ 
+        <lb ed="#C" n="86"/>turae impossibile. Tertio: quia Divinum 
+        <lb ed="#C" n="87"/>esse est id, in quo continetur omne 
+        es<lb ed="#C" n="88" break="no"/>se, quae potest Deus mediante ordine 
+        <lb ed="#C" n="89"/>causarum, potest sublato tali ordine: eo 
+        <lb ed="#C" n="90"/>quod omnis virtus causae secundae per 
+        <lb ed="#C" n="91"/>amplius, &amp; perfectius reservetur in 
+        cau<lb ed="#C" n="92" break="no"/>sa Prima: sed natura creata quidquid 
+        a<lb ed="#C" n="93" break="no"/>git, agit mediante tali ordine: unde Sol 
+        <lb ed="#C" n="94"/>no producit hominem, nisi simui virtuti 
+        <lb ed="#C" n="95"/>Solis assistat virtus humana: nec homo 
+        <lb ed="#C" n="96"/>producit hominem, nisi virtus sua 
+        inni<lb ed="#C" n="97" break="no"/>tatur virtuti Solis: aliquid ergo est Deo 
+        <lb ed="#C" n="98"/>possibile, quod naturae est impossibiles 
+        <lb ed="#C" n="99"/>ut agere praeter ordinem causarum. 
+        <lb ed="#C" n="100"/>Quarto: quia esse Divinum non est esse 
+        <lb ed="#C" n="101"/>in natura receptum, potest aliquid 
+        <lb ed="#C" n="102"/>ex nihil producere: nam sicut suum 
+        <lb ed="#C" n="103"/>esse non requirit aliquid, in quo 
+        recipia<lb ed="#C" n="104" break="no"/>tur: sic nec actio sua requirit aliquid, in 
+        <lb ed="#C" n="105"/>quo recipiatur, sed potest agere nullo 
+        <lb ed="#C" n="106"/>praesupposito: quaelibet autem creatura 
+        <lb ed="#C" n="107"/>sicut habet esse receptum in alio, sicut  
+        <lb ed="#C" n="108"/>in natura: sic quaelibet actio creaturae 
+        <lb ed="#C" n="109"/>requirit aliquid, in quo recipiatur, sicut  
+        <lb ed="#C" n="110"/>materiam, vel substantiam. Aliquid est 
+        <!--821.xml-->
+        <pb ed="#C" n="796"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ergo Deo possibile, quod naturae est 
+        <lb ed="#C" n="2"/>mpossibile, ut agere nullo 
+        praesuppo<lb ed="#C" n="3" break="no"/>sito. 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e969">
+                  <lb ed="#C" n="4"/>Cum ergo quaeritur: utrum aliquid 
+        <lb ed="#C" n="5"/>sit Deo possibile, quod naturae sit impos  
+        <lb ed="#C" n="6"/>sibile? Distinguendum est de 
+        impossibi<lb ed="#C" n="7" break="no"/>li: quia si huiusmodi impossibile 
+        dici<lb ed="#C" n="8" break="no"/>tur, eo quod ipsi esse repugnet, prout 
+        <lb ed="#C" n="9"/>impossibile est verificatio contradicto 
+        <lb ed="#C" n="10"/>riorum: sic quod naturae impossibile est, 
+        <lb ed="#C" n="11"/>Deo etiam est impossibile: eo quod tale 
+        <lb ed="#C" n="12"/>impossibile nulli potentiae potest esse 
+        <lb ed="#C" n="13"/>ubiectum. Si vero sit impossibile, non 
+        <lb ed="#C" n="14"/>quia simpliciter subterfugiat: ordinem 
+        <lb ed="#C" n="15"/>virtutis, sed quia non subiacet virtuti 
+        de<lb ed="#C" n="16" break="no"/>terminate ad genus, vel ad speciem, vel  
+        <lb ed="#C" n="17"/>virtuti finitae, vel virtuti necessario requi  
+        <lb ed="#C" n="18"/>renti causarum ordinem: vel etiam non subia 
+        <lb ed="#C" n="19"/>cet potentiae agentis, cuius natura distat 
+        <lb ed="#C" n="20"/>ab esse, sic quae sunt naturae impossibilia, 
+        <lb ed="#C" n="21"/>sunt Deo possibilia, ut patet per habita 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1011">
+                  <lb ed="#C" n="22"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="23"/>quod illa propositio, si, veritatem habet 
+        <lb ed="#C" n="24"/>in rebus immaterialibus, cuiusmodi sunt 
+        <lb ed="#C" n="25"/>substantiae separatae, quae, nisi additis 
+        sen<lb ed="#C" n="26" break="no"/>sibus, non possunt transmutare materiam 
+        <lb ed="#C" n="27"/>ad formam: in Deo tamen veritatem 
+        <lb ed="#C" n="28"/>non habet, in cuius virtute omnis 
+        crea<lb ed="#C" n="29" break="no"/>ta virtus continetur.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1031">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="30"/>quod secundum quod aliqua implicant 
+        <lb ed="#C" n="31"/>contradictionem, ic effugiunt rationem 
+        <lb ed="#C" n="32"/>potentiae: &amp; quia quae dicimus esse 
+        im<lb ed="#C" n="33" break="no"/>possibilia naturae, &amp; possibilia Deo, 
+        im<lb ed="#C" n="34" break="no"/>plicat contradictionem per 
+        compara<lb ed="#C" n="35" break="no"/>tionem ad virtutem creatam, non per 
+        <lb ed="#C" n="36"/>comparationem ad virtutem Divinam: 
+        <lb ed="#C" n="37"/>ideo sunt impossibilia virtuti creatae, non 
+        <lb ed="#C" n="38"/>pirtuti Divinae.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1053">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="39"/>praeteritum non esse praeteritum, 
+        dupli<lb ed="#C" n="40" break="no"/>citer potest intelligi. Primo: quod ipsa 
+        <lb ed="#C" n="41"/>res praeterita restauretur, ut, quod 
+        <lb ed="#C" n="42"/>tcorruptum reintegretur, &amp; hoc non 
+        <lb ed="#C" n="43"/>est impossibile Deo: posset enim faceret 
+        <lb ed="#C" n="44"/>t quod homo corruptus rediret idem nun 
+        <lb ed="#C" n="45"/>mero. Alio modo potest accipi res 
+        prae<lb ed="#C" n="46" break="no"/>erita non pro ipsa re, sed prout stat sub 
+        <lb ed="#C" n="47"/>praeteritione: &amp; sic praeteritum non esse 
+        pre<lb ed="#C" n="48" break="no"/>teritum, non est possibile per se: Nam praeteri 
+        <lb ed="#C" n="49"/>tum non potest esse non praeteritum, prout stat 
+        <lb ed="#C" n="50"/>sub praeteritione: sicut nec album potest. 
+        <lb ed="#C" n="51"/>esse non album; prout stat sub albedine 
+        <lb ed="#C" n="52"/>stud tamen argumentum, licet sit 
+        so<lb ed="#C" n="53" break="no"/>lutum per ea, quae dicta sunt; melius 
+        <lb ed="#C" n="54"/>tamen solvetur in sequenti quaestione, 
+        <lb ed="#C" n="55"/>ubi declarabitur, quomodo naturae 
+        im<lb ed="#C" n="56" break="no"/>possibilia, simpliciter impossibilia no¬ 
+        <!--821.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>minantur.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1101">
+        Ad quartum dicendum, quod  
+        <lb ed="#C" n="58"/>licet Deus aliqua faciat, quae natura non 
+        <lb ed="#C" n="59"/>potest facere, non tamen proprie facit 
+        <lb ed="#C" n="60"/>aliqua contra naturam; sed praeter 
+        na<lb ed="#C" n="61" break="no"/>turam, vel supra naturam. Distinguantur 
+        <lb ed="#C" n="62"/>etiam duo genera rationum, quas Deus 
+        <lb ed="#C" n="63"/>materiae indidit, scilicet, obedientiales, 
+        <lb ed="#C" n="64"/>&amp; seminales: &amp; actor naturae nunquam 
+        <lb ed="#C" n="65"/>facit contra naturam, quia nunquam 
+        fa<lb ed="#C" n="66" break="no"/>cit contra rationes obedientiales ipsi 
+        <lb ed="#C" n="67"/>naturae inditas; licet videatur aliquo 
+        <lb ed="#C" n="68"/>modo facere contra rationes seminales: 
+        <lb ed="#C" n="69"/>haec tamen in secundo melius patefiet 
+        <lb ed="#C" n="70"/>Ad primum incontrarium dicendum 
+        <lb ed="#C" n="71"/>quod impossibilia, cuiusmodi sunt ve 
+        <lb ed="#C" n="72"/>rificationes contradictoriorum, non 
+        pro<lb ed="#C" n="73" break="no"/>prie cadunt sub distributione huius signi 
+        <lb ed="#C" n="74"/>ficationis: quia talia nec sunt entia, nec 
+        <lb ed="#C" n="75"/>non entia.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1143">
+        Ad 2. dicendum, quod secudum Aus 
+        <lb ed="#C" n="76"/>15. de Trin. cap. 11. Verbum, quod foris sonat, 
+        <lb ed="#C" n="77"/>signum est verbi, quod intus lucet: unde non 
+        <lb ed="#C" n="78"/>proprie habet rationem verbi sive dicti 
+        <lb ed="#C" n="79"/>quod non est repraesentativum eius, 
+        <lb ed="#C" n="80"/>quod iutellectus potest intelligere: &amp; 
+        <lb ed="#C" n="81"/>quia contradictoria verificari intellectus? 
+        <lb ed="#C" n="82"/>intelligere non potest: non oportet 
+        ta<lb ed="#C" n="83" break="no"/>lia Deo possibilia esse.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1164">
+        Ad 3. dicendum 
+        <lb ed="#C" n="84"/>quod non est simile, quod inducitur 
+        <lb ed="#C" n="85"/>pro simili: quia in ratione virginitatis 
+        <lb ed="#C" n="86"/>non includitur negatio maternitatis: 
+        si<lb ed="#C" n="87" break="no"/>cut in ratione caecitatis includitur priva 
+        <lb ed="#C" n="88"/>tio visus: ideo potest Deus facere, quod 
+        <lb ed="#C" n="89"/>simul sit aliqua virgo, &amp; mater; non 
+        tamen<lb ed="#C" n="90" break="no"/>quod simul sit aliquis caecus, &amp; videns. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g06755-Dd1e1184">
+               <head xml:id="Gi9qrR-g06755-Hd1e1186">Articulus 3</head>
+               <p xml:id="Gi9qrR-g06755-d1e1189">
+                  <lb ed="#C" n="91"/>ARTICVLVS III. 
+        <lb ed="#C" n="92"/>Vtram sit iudicandum aliquid possibile, vel  
+        <lb ed="#C" n="93"/>impossibile secundum causas superiores, 
+        <lb ed="#C" n="94"/>vel inferiores?
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1200">
+                  <lb ed="#C" n="95"/>TERtio quaeritur: utrum aliquid sit 
+        <lb ed="#C" n="96"/>iudicandum possibile, vel 
+        impossibi<lb ed="#C" n="97" break="no"/>le simpliciter secundum causas superiores, 
+        <lb ed="#C" n="98"/>vel secundum inferiores?
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1211">
+        
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1214">
+        Et videtur  
+        <lb ed="#C" n="99"/>quod secundum superiores. Nam 
+        po<lb ed="#C" n="100" break="no"/>tentiae inferiores non sunt potentiae, 
+        <lb ed="#C" n="101"/>nisi prout innituntur superiori 
+        vir<lb ed="#C" n="102" break="no"/>turi; sed nihil dicitur simpliciter 
+        ta<lb ed="#C" n="103" break="no"/>le, nisi per comparationem ad aliquid 
+        <lb ed="#C" n="104"/>simpliciter, ergo simpliciter possibile 
+        <lb ed="#C" n="105"/>debet dici per comparationem: 
+        adpo<lb ed="#C" n="106" break="no"/>tentiam simpliciter; sed potentiae 
+        supe<lb ed="#C" n="107" break="no"/>riores sunt potentiae simpliciter, ergo 
+        <!--822.xml-->
+        <pb ed="#C" n="797"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>&amp;c.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1246">
+        Praeterea: secundum Philosophm. 9. Meta. 
+        <lb ed="#C" n="2"/>id dicitur simpliciter possibile, quod 
+        <lb ed="#C" n="3"/>potest educi de materia uno motore 
+        <lb ed="#C" n="4"/>sive per motorem unum. Cum igitur  
+        <lb ed="#C" n="5"/>causa superior, &amp; potissime causa 
+        supre<lb ed="#C" n="6" break="no"/>ma, qualis est Deus, se ipso absque 
+        auxi<lb ed="#C" n="7" break="no"/>lio alterius causae possit omnia 
+        produce<lb ed="#C" n="8" break="no"/>re: causa autem inferior non possit sine 
+        <lb ed="#C" n="9"/>auxilio superioris, quod producitur a 
+        <lb ed="#C" n="10"/>causa inferiori, semper producitur 
+        plu<lb ed="#C" n="11" break="no"/>ribus motoribus; sed quod producitur a 
+        <lb ed="#C" n="12"/>superiori, potest produci uno motore: 
+        <lb ed="#C" n="13"/>solum ergo est indicandum aliquid 
+        pos<lb ed="#C" n="14" break="no"/>sibile per comparationem ad causam su 
+        <lb ed="#C" n="15"/>periorem, non inferiorem.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1279">
+        Praeterea: 
+        <lb ed="#C" n="16"/>causa superior magis influit, quam 
+        infe<lb ed="#C" n="17" break="no"/>rior, ergo effectus magis consequitur 
+        <lb ed="#C" n="18"/>conditiones causae superioris, quam 
+        in<lb ed="#C" n="19" break="no"/>inferioris:, iudicandus est ergo 
+        effe<lb ed="#C" n="20" break="no"/>ctus possibilis, vel impossibilis, secundum 
+        <lb ed="#C" n="21"/>causas superiores, non inferiores, ergo 
+        <lb ed="#C" n="22"/>&amp;c.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1297">
+        Praeterea: quod potest fieri, possibile 
+        <lb ed="#C" n="23"/>est, ergo impium iustificari, &amp; caecum illumi 
+        <lb ed="#C" n="24"/>nari possibilia sunt: cum aliquando facta 
+        <lb ed="#C" n="25"/>sint. Sed talia non possunt dici possibilia 
+        <lb ed="#C" n="26"/>per conparationem ad causas inferiores, cum  
+        <lb ed="#C" n="27"/>tales causae in tales effectus non possint, 
+        <lb ed="#C" n="28"/>ergo possibilitas iudicanda est 
+        secun<lb ed="#C" n="29" break="no"/>dum superiores causas. 
+        <lb ed="#C" n="30"/>In contrarium est: quia cum om 
+        <lb ed="#C" n="31"/>nia sint possibilia apud Deum, si 
+        secun<lb ed="#C" n="32" break="no"/>dum quod ad ipsum comparantur res, 
+        <lb ed="#C" n="33"/>possibiles dicerentur, nihil diceretur  
+        <lb ed="#C" n="34"/>impossibile.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1326">
+        Praeterea: omnes causae 
+        su<lb ed="#C" n="35" break="no"/>periores sunt necessariae. Si ergo: secun 
+        <lb ed="#C" n="36"/>dum eas iudicaremus de effectibus, 
+        om<lb ed="#C" n="37" break="no"/>nes effectus necessarij dicerentur, quod 
+        <lb ed="#C" n="38"/>non est verum. 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1337">
+                  <lb ed="#C" n="39"/>RESOLVTIO 
+        <lb ed="#C" n="40"/>Effectuum, qui apti nati sunt produci solum a 
+        <lb ed="#C" n="41"/>uperioribus causis, secundum eas sine dubio pos 
+        <lb ed="#C" n="42"/>sibilitas vel impossibilitas pensanda est: eorum 
+        <lb ed="#C" n="43"/>vero, qui secundum utrumque causarum genus 
+        <lb ed="#C" n="44"/>educi habent, secundum inferiores causas 
+        requi<lb ed="#C" n="45" break="no"/>venda est, ut dicatur talis simpliciter Thoc est 
+        <lb ed="#C" n="46"/>absolute: sed si accipiantur simpliciter talis 
+        <lb ed="#C" n="47"/>per omnem modum, possibilitas atten 
+        <lb ed="#C" n="48"/>denda est secundum inferiores 
+        <lb ed="#C" n="49"/>causas, &amp; impossibilitas 
+        <lb ed="#C" n="50"/>secundum supe. 
+        <lb ed="#C" n="51"/>riores. 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1368">
+                  <lb ed="#C" n="52"/>REspond. dicendum, quod aliquid 
+        <lb ed="#C" n="53"/>Resse simpliciter tale, quantum ad 
+        <lb ed="#C" n="54"/>praesens, dupliciter potest intelligi. Pri¬ 
+        <!--822.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>mo: quia absque additamento, &amp; 
+        abso<lb ed="#C" n="56" break="no"/>lute sic nominatur: unde quod absque 
+        <lb ed="#C" n="57"/>additione dicitur calidum, est 
+        simplici<lb ed="#C" n="58" break="no"/>ter calidum: &amp; sic quod est magis, vel  
+        <lb ed="#C" n="59"/>minus tale est simpliciter tale, &amp; 
+        <lb ed="#C" n="60"/>isto modo diffinit simpliciter Philosophus  
+        <lb ed="#C" n="61"/>2. Topcum dicit: simpliciter dico 
+        <lb ed="#C" n="62"/>quod nullo addito dico. Alio modo dicitur  
+        <lb ed="#C" n="63"/>simpliciter tale, quod est per omnem 
+        <lb ed="#C" n="64"/>modum tale, secundum quem modum 
+        <lb ed="#C" n="65"/>dicimus, quod est simpliciter in omni 
+        <lb ed="#C" n="66"/>genere, est causa omnium aliorum, ut  
+        <lb ed="#C" n="67"/>ignis, qui est simpliciter calidus, est 
+        cau<lb ed="#C" n="68" break="no"/>sa omnium calidorum: &amp; sic quod est, 
+        <lb ed="#C" n="69"/>magis, vel minus tale, non est simpliciter  
+        <lb ed="#C" n="70"/>le: nam magis calidum &amp; minus cali¬ 
+        <lb ed="#C" n="71"/>dum non oportet esse simpliciter 
+        cali<lb ed="#C" n="72" break="no"/>dum: sed solum quod est maxime calidum 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1421">
+                  <lb ed="#C" n="73"/>Cum ergo quaeritur: utrum secundum 
+        <lb ed="#C" n="74"/>causas superiores, vel inferiores iudicadum 
+        <lb ed="#C" n="75"/>sit aliquid simpliciter possibile, vel 
+        im<lb ed="#C" n="76" break="no"/>ossibile? Si loquimur de simpliciter,  
+        <lb ed="#C" n="77"/>prout simpliciter dictum est absolute, 
+        <lb ed="#C" n="78"/>&amp; sine additamento: tunc distinguendo 
+        <lb ed="#C" n="79"/>est de effectibus: quia huiusmodi 
+        effe<lb ed="#C" n="80" break="no"/>ctus; vel sunt apti nati produci solum 
+        <lb ed="#C" n="81"/>ecundum causas superiores, &amp; de 
+        tali<lb ed="#C" n="82" break="no"/>bus proprie non est quaestio: attamem 
+        pos<lb ed="#C" n="83" break="no"/>sibilitas, &amp; impossibilitas in eis 
+        iudican<lb ed="#C" n="84" break="no"/>da est secundum superiores causas, cum 
+        <lb ed="#C" n="85"/>solum secundum eas educi habeant. Si 
+        <lb ed="#C" n="86"/>vero huiusmodi effectus habent educi 
+        <lb ed="#C" n="87"/>ecundum utrumque genus causarum: 
+        <lb ed="#C" n="88"/>debent dici possibiles, &amp; impossibiles 
+        <lb ed="#C" n="89"/>secundum inferiores causas: quia tunc 
+        <lb ed="#C" n="90"/>a proximis causis potissime 
+        conditio<lb ed="#C" n="91" break="no"/>nes trahunt: &amp; eas maxime imitantur: 
+        <lb ed="#C" n="92"/>ideo vita, &amp; visto, in quae possunt causae 
+        <lb ed="#C" n="93"/>secundae, indicanda sunt secundum eas, 
+        <lb ed="#C" n="94"/>ut quod potest vivere, vel acquirere 
+        vi<lb ed="#C" n="95" break="no"/>tam secundum causas inferiores, debet  
+        <lb ed="#C" n="96"/>dici possibile tale. Quod vero solum 
+        se<lb ed="#C" n="97" break="no"/>cundum superiores, impossibile dici 
+        po<lb ed="#C" n="98" break="no"/>test: unde mortuum vivere, caecum 
+        vi<lb ed="#C" n="99" break="no"/>dere, &amp; talia, absolutem, &amp; absque 
+        addi<lb ed="#C" n="100" break="no"/>tamento impossibilia dici possunt.  
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1484">
+                  <lb ed="#C" n="101"/>Si vero accipiatur simpliciter tale, 
+        <lb ed="#C" n="102"/>quod est per omnem modum tale: tunc 
+        <lb ed="#C" n="103"/>de possibili &amp; impossibili non est 
+        pari<lb ed="#C" n="104" break="no"/>ter iudicandum; sed possibilitas 
+        atten<lb ed="#C" n="105" break="no"/>denda est secundum causas inferiores 
+        <lb ed="#C" n="106"/>impossibilitas vero secundum 
+        superio<lb ed="#C" n="107" break="no"/>res. Nam quod est possibile secundum 
+        <lb ed="#C" n="108"/>inferiores, etiam est possibile secundum 
+        <lb ed="#C" n="109"/>superiores: &amp; ita per omnem modum 
+        <lb ed="#C" n="110"/>est possibile: e converso autem de im¬ 
+        <!--823.xml-->
+        <pb ed="#C" n="798"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>possibilitate: quia quod est impossibile 
+        <lb ed="#C" n="2"/>secundum superiores, est impossibile 
+        se<lb ed="#C" n="3" break="no"/>cundum inferiores, &amp; ita per omnem 
+        <lb ed="#C" n="4"/>modum est impossibile.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1523">
+                  <lb ed="#C" n="5"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="6"/>cquod aliquid debet dici simpliciter tale 
+        <lb ed="#C" n="7"/>secundum id, quod magis imitatur: &amp; 
+        <lb ed="#C" n="8"/>quia effectus magis imitatur causas 
+        <lb ed="#C" n="9"/>u proprias, quam supremas, licet 
+        su<lb ed="#C" n="10" break="no"/>premae sint potentiores, &amp; magis, 
+        vir<lb ed="#C" n="11" break="no"/>tuosae: possibilitas &amp; impossibilitas in 
+        <lb ed="#C" n="12"/>effectu attendenda est simpliciter 
+        se<lb ed="#C" n="13" break="no"/>rcundum causas inferiores, non 
+        secun<lb ed="#C" n="14" break="no"/>dum superiores: accipiendo simpliciter 
+        <lb ed="#C" n="15"/>modo, quo dictum est.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1549">
+        Ad 2. dicendum 
+        <lb ed="#C" n="16"/>quod ratio procedit ex falso 
+        intel<lb ed="#C" n="17" break="no"/>lectu auctoritatis: intentio est enim Phis 
+        <lb ed="#C" n="18"/>quod illa dicantur in potentia talia, quae 
+        <lb ed="#C" n="19"/>unico principio, sive uno motore, idest, 
+        <lb ed="#C" n="20"/>una transmuratione talia fiunt: ut terra 
+        <lb ed="#C" n="21"/>non est potentia statua, quia sine multis 
+        <lb ed="#C" n="22"/>trasmutationibus formam statuae adipis 
+        <lb ed="#C" n="23"/>ci non potest: &amp; quia quod potest 
+        pro<lb ed="#C" n="24" break="no"/>ducere causa inferior, est magis in 
+        po<lb ed="#C" n="25" break="no"/>tentia propinqua, quam quod potest 
+        <lb ed="#C" n="26"/>causa superior, iudicanda est possibilitas 
+        <lb ed="#C" n="27"/>secundum inferiorem, non secundum 
+        <lb ed="#C" n="28"/>superiorem. Vnde, si bene advertimus, 
+        <lb ed="#C" n="29"/>ratio perit, quod est incontrario.
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1582">
+        Ad 3. 
+        <lb ed="#C" n="30"/>dicendum, quod licet causa superior 
+        <lb ed="#C" n="31"/>magis influat; influit tamen mediante 
+        <lb ed="#C" n="32"/>causa secunda: &amp; huiusmodi influentiae 
+        <lb ed="#C" n="33"/>per secundam causam specificari 
+        ha<lb ed="#C" n="34" break="no"/>bent, propter quod effectus magis sequi  
+        <lb ed="#C" n="35"/>tur conditiones causae proximae, qua 
+        su<lb ed="#C" n="36" break="no"/>preme. 
+      </p>
+               <p xml:id="Gi9qrR-g06755-d1e1600">
+        Ad 4. dicendum, quod, ut tactum 
+        <lb ed="#C" n="37"/>fuit in solutione principali, non est 
+        quae<lb ed="#C" n="38" break="no"/>stio de effectibus, qui habent produci 
+        <lb ed="#C" n="39"/>solum per causas supremas, cuiusmodi 
+        <!--823.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="40"/>est iustificatio impij, &amp; illuminatio 
+        <lb ed="#C" n="41"/>caeci. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

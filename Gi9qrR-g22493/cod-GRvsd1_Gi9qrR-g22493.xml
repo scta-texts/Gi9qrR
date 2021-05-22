@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="852"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g22493"><!-- l1-d48prooem -->
+            <head xml:id="Gi9qrR-g22493-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g22493-d1e111">
+      <!--877.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="49"/>DITINCTIO XDVIIJ 
+      <lb ed="#C" n="50"/>QVOD ALIQVANDO HOMO BONA VOLVNTATE ALIVD 
+      <lb ed="#C" n="51"/>vult quam Deus: &amp; aliquando mala id, quod Deus bona voluntate vult.
+    </p>
+            <p xml:id="Gi9qrR-g22493-d1e124">
+      <!--877.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="52"/>CIENDIM quoque. Postquam  
+      <lb ed="#C" n="53"/>Magister determinavit de 
+      <lb ed="#C" n="54"/>Divina voluntate in se &amp; de 
+      <lb ed="#C" n="55"/>ejus efficacia, hic ultimo de 
+      <lb ed="#C" n="56"/>terminat de conformitate 
+      <lb ed="#C" n="57"/>nostrae voluntatis ad illam 
+      <lb ed="#C" n="58"/>Et duo facit: quia 1. facit 
+      <lb ed="#C" n="59"/>quod dictum est. 2. contra 
+      <lb ed="#C" n="60"/>determinata opponit, ibi: 
+      <lb ed="#C" n="61"/>Sed ad hoc opponitur. Circa 1. tria facit: quia 1. 
+      di<lb ed="#C" n="62" break="no"/>cit conformitatem nostrae voluntatis ad Divinam 
+      <lb ed="#C" n="63"/>non debere esse principaliter in volito: sed 
+      ma<lb ed="#C" n="64" break="no"/>gis in modo volendi, ut velimus illud, quod 
+      no<lb ed="#C" n="65" break="no"/>bis congruat velle, &amp; eo fine quo debemus vel 
+      <lb ed="#C" n="66"/>le. Secundo probat quod dixerat per <name xml:id="Gi9qrR-g22493-Nd1e163" ref="#Augustine">Aug.</name> 
+      Ter<lb ed="#C" n="67" break="no"/>tio ostendit malos homines sconcordari aliquam 
+      <lb ed="#C" n="68"/>do in volito cum voluntate Divina. Nam Deus 
+      <lb ed="#C" n="69"/>volebat passionem Christi bona voluntate, qua 
+      <lb ed="#C" n="70"/>ludaei volebant mala; licet maluerit Deus 
+      occi<lb ed="#C" n="71" break="no"/>sionem Christi, quam olebant sudaei. Secun 
+      <!--877.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="72"/>da ibi: Vnde <name xml:id="Gi9qrR-g22493-Nd1e183" ref="#Augustine">Aug.</name> in Enchi. Tertia ibi: Id quoque 
+      <lb ed="#C" n="73"/>non est, 
+    </p>
+            <p xml:id="Gi9qrR-g22493-d1e189">
+               <lb ed="#C" n="74"/>Tunc sequitur illa pars: Sed ad hoc opponitur.  
+      <lb ed="#C" n="75"/>In qua opponit contra determinata. Et duo 
+      <lb ed="#C" n="76"/>facit: quia 1. opponit &amp; solvit. 2. ex dictis solvit  
+      <lb ed="#C" n="77"/>quasdam alias quaestiones, ibi: Ex quo solvitur. 
+      Cir<lb ed="#C" n="78" break="no"/>ca primum duo facit: quia primo opponit 
+      con<lb ed="#C" n="79" break="no"/>tra determinata. Dixerat enim Deum non velle 
+      <lb ed="#C" n="80"/>Christum occidi a sudaeis, quod videtur falsum: 
+      <lb ed="#C" n="81"/>Pquia voluit eum pati a sudaeis, ergo voluit  
+      <lb ed="#C" n="82"/>eum occidi ab eis. 2. solvit: nam passionem 
+      <lb ed="#C" n="83"/>Deus simpliciter voluit:: sed inordinationem 
+      <lb ed="#C" n="84"/>actus, ut culpam sudaeorum non volePat. 
+      <lb ed="#C" n="85"/>Et quia talem inordinationem videtur importa 
+      <lb ed="#C" n="86"/>re occisio: ideo dixit Deum nolle occidi 
+      Chri<lb ed="#C" n="87" break="no"/>stum a sudaeis. Secunda ibi: Ad quod respondentes. 
+      <lb ed="#C" n="88"/>Deinde cum dicit: Ex quo scivitur, ostendit, ex dictis 
+      <lb ed="#C" n="89"/>solvit quasdam alias quaestiones. Et duo 
+      fa<lb ed="#C" n="90" break="no"/>cit: secundum quod duas quaestiones sulvit:  
+      <lb ed="#C" n="91"/>nam. 1. isolvit utrum debeat placere san¬ 
+      <!--878.xml-->
+      <pb ed="#C" n="853"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>ctis Christum fuisse passum? dicens, quod 
+      intu<lb ed="#C" n="2" break="no"/>tu nostrae redemptionis debet eis placere: sed &amp; 
+      <lb ed="#C" n="3"/>propter cruciatum non. Secundo solvit de pas 
+      <lb ed="#C" n="4"/>sionibus sanctorum ibi: Si vero quaeritur. Circa quod 
+      <lb ed="#C" n="5"/>tria facit: quia 1. dicit non esse omnino simile 
+      <lb ed="#C" n="6"/>de passione sanctorum &amp; Christi: quia a 
+      passio<lb ed="#C" n="7" break="no"/>ne nullius sancti dependet redeptio nostra, ut a 
+      <lb ed="#C" n="8"/>nassione Christi. 2. solvit, ad quaesitum: quia 
+      <lb ed="#C" n="9"/>possumus velle &amp; non velle passiones sanctorum 
+      <lb ed="#C" n="10"/>si nobis proponamus rectos fines: debemus enim 
+      <!--878.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="11"/>velle sanctorum gloriam non cruciatum. 3. 
+      <lb ed="#C" n="12"/>Epilogat continuans se ad secudum librum 
+      di<lb ed="#C" n="13" break="no"/>cens: quod postquam dictum est de his quae 
+      per<lb ed="#C" n="14" break="no"/>tinent ad ministerium Divinae Vnitatis &amp; 
+      Tri<lb ed="#C" n="15" break="no"/>nitatis, quod factum est in primo libro, restat 
+      <lb ed="#C" n="16"/>considerare de creaturis, quod fiet in secundo. 
+      <lb ed="#C" n="17"/>Secunda ibi: Passiones vero sanctorum. Tertia ibi:  
+      <lb ed="#C" n="18"/>Quae ad ministerium Divinae unitatis. In quo 
+      termi<lb ed="#C" n="19" break="no"/>natur sententia lectionis &amp; distinctionis &amp; per 
+      <lb ed="#C" n="20"/>consequens totius primi libri.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

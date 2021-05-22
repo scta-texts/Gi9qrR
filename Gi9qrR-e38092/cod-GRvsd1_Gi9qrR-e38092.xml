@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="142"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e38092"><!-- l1-d7proem -->
+            <head xml:id="Gi9qrR-e38092-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e38092-d1e111">
+      <!--179.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="40"/>DISTINCTIO VIJ 
+      <lb ed="#C" n="41"/>HIC QVAERITVR AN PATER POTVERIT, VELVOLVERII 
+      <lb ed="#C" n="42"/>gignere Filium? 
+    </p>
+            <p xml:id="Gi9qrR-e38092-d1e124">
+      <!--179.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="43"/>HIC solet. Hic in parte ista 
+      Magi<lb ed="#C" n="44" break="no"/>fij ster movet quaestiones de po¬ 
+      <lb ed="#C" n="45"/>tentia generandi sive de 
+      virtu<lb ed="#C" n="46" break="no"/>re, per quam fit generatio. Et  
+      <lb ed="#C" n="47"/>duo facit: quia 1. quaerit, utrum 
+      <lb ed="#C" n="48"/>potentia generandi sit in 
+      Pa<lb ed="#C" n="49" break="no"/>tre? Secundo: utrum sit in 
+      Fi<lb ed="#C" n="50" break="no"/>lio? Secunda ibi: Quaeritur. 
+      Cir<lb ed="#C" n="51" break="no"/>ea primum duo facit. Primo obiicit ad 
+      quaestio<lb ed="#C" n="52" break="no"/>nem, &amp; solvit. Secundo adducit verba <name xml:id="Gi9qrR-e38092-Nd1e152" ref="#Augustine">Augusti</name> 
+               <lb ed="#C" n="53"/>ni, quae videntur sonare contrarium. Ibi: Sed 
+      <lb ed="#C" n="54"/>veliementer. Circa primum duo facit: quia primo 
+      <lb ed="#C" n="55"/>movet quaestionem: utrum generare posse 
+      com<lb ed="#C" n="56" break="no"/>petat Patri? Et ostendit, quod non: quia tunc 
+      <lb ed="#C" n="57"/>aliquid posset Pater, quod non posset Filius. 
+      Se<lb ed="#C" n="58" break="no"/>cundo ibi: Cui verfutiae solvit quod posse genera 
+      <lb ed="#C" n="59"/>re non continetur sub omnipotentia: quia 
+      ge<lb ed="#C" n="60" break="no"/>nerare non est aliquid sed ad aliquid: sicut quia 
+      <lb ed="#C" n="61"/>Filius non vult esse Pater, non vult aliquid, 
+      <lb ed="#C" n="62"/>quod nolit Pater: quia esse Patrem non est aliquid. 
+      <lb ed="#C" n="63"/>sed ad aliquid Tuc sequitur illa pars, Sed 
+      vehemen<lb ed="#C" n="64" break="no"/>ter. In qua adducitverba <name xml:id="Gi9qrR-e38092-Nd1e181" ref="#Augustine">Augustini,</name> quae 
+      videm<lb ed="#C" n="65" break="no"/>tur sonare cotrarium dicti. Et duo facit: quia 
+      pri<lb ed="#C" n="66" break="no"/>mo facit, quod dictum est. Secundo arguit 
+      con<lb ed="#C" n="67" break="no"/>tra verba <name xml:id="Gi9qrR-e38092-Nd1e191" ref="#Augustine">Augustini.</name> Secunda ibi: Hic autem. 
+      Cir<lb ed="#C" n="68" break="no"/>ca primum duo facit: quia pirmo adducit 
+      obie<lb ed="#C" n="69" break="no"/>ctionem Maximini, qui dicebat Filium 
+      impo<lb ed="#C" n="70" break="no"/>tentem: quia generare non poterat. Secund 
+      <lb ed="#C" n="71"/>ibi Ad quod adducit solutionem <name xml:id="Gi9qrR-e38092-Nd1e202" ref="#Augustine">Augustini</name> quia 
+      <lb ed="#C" n="72"/>Filius non genuit, non quia non potuit; sed  
+      <lb ed="#C" n="73"/>quia non oporfuit: in quo videtur velle <name xml:id="Gi9qrR-e38092-Nd1e210" ref="#Augustine">Aug.</name> 
+               <!--179.xml-->
+               <cb ed="#C" n="e"/>
+               <lb ed="#C" n="74"/>Cquod posse generare non sit proprium Patris, ut  
+    </p>
+            <p xml:id="Gi9qrR-e38092-d1e220">
+               <lb ed="#C" n="75"/>videbatur Magister innuere. Deinde cum dicit,  
+      <lb ed="#C" n="76"/>Hic autem obijcit contra dictum <name xml:id="Gi9qrR-e38092-Nd1e226" ref="#Augustine">Aug.</name> &amp; tria 
+      fa<lb ed="#C" n="77" break="no"/>cit: quia primo ostendit, Filium non posse 
+      ge<lb ed="#C" n="78" break="no"/>generare; quia si generaret, aliquam Personam 
+      <lb ed="#C" n="79"/>Divinam generaret, sed non Patrem; quia 
+      in<lb ed="#C" n="80" break="no"/>nascibilis, nec se, quia nihil se ipsum generat: 
+      <lb ed="#C" n="81"/>nec Spiritum Sanctum, qui nasci non potest. 
+      Se<lb ed="#C" n="82" break="no"/>cundo ibi: Quomodo igitur accipietur, ostendit se 
+      <lb ed="#C" n="83"/>non esse sufficientem ad aperiendum intellectum 
+      <lb ed="#C" n="84"/>Aug. Tertio cum subdit, Patest eigo sic, aperit 
+      <lb ed="#C" n="85"/>verba <name xml:id="Gi9qrR-e38092-Nd1e249" ref="#Augustine">Augustini</name> secundum modum sibi 
+      possibi<lb ed="#C" n="86" break="no"/>lem, &amp; ait quia non est intentionis <name xml:id="Gi9qrR-e38092-Nd1e254" ref="#Augustine">Augustini</name> quod 
+      <lb ed="#C" n="87"/>Filius possit generare: sed non dicitur, quia 
+      <lb ed="#C" n="88"/>non potuit: quia non repugnat potentiae; sed  
+      <lb ed="#C" n="89"/>dicitur non oportuit: quia repugnat 
+      proprieta<lb ed="#C" n="90" break="no"/>ti. Tunc sequitur illa pars, Quaeritur a quibusdaem. 
+      <lb ed="#C" n="91"/>In qua quaerit, utrum haec sit vera, potentia 
+      <lb ed="#C" n="92"/>generandi est in Filio? Et duo facit: quia 
+      pri<lb ed="#C" n="93" break="no"/>mo facit hoc, quod dictum est. Secundo 
+      quae<lb ed="#C" n="94" break="no"/>rit utrum sit vera opposita, quod Filius non 
+      ha<lb ed="#C" n="95" break="no"/>bet potentiam generandi. Secunda ibi: Ila etiam 
+      <lb ed="#C" n="96"/>cum dicitur. Circa primum duo facit: quia primo 
+      <lb ed="#C" n="97"/>quaerit, quod dictum est, &amp; solvit. Secundo 
+      <lb ed="#C" n="98"/>obiicit contra determinata ibi: Sed centra hce.¬ 
+      <lb ed="#C" n="99"/>Circa primum duo facit: quia primo quaerit 
+      <lb ed="#C" n="100"/>utrum Pater sit potens generare natura, &amp; utram 
+      <lb ed="#C" n="101"/>huiusmodi potentiae sit in Filio? Secundo ibi:  
+      <lb ed="#C" n="102"/>Ad quod. Respondet, quod Pater est potens 
+      ge<lb ed="#C" n="103" break="no"/>nerare natura, &amp; quod illa eadem potetia, quae 
+      <lb ed="#C" n="104"/>est in Patre, ut generet, est in Filio, ut genere¬ 
+      <!--180.xml-->
+      <pb ed="#C" n="143"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>tur. Deinde cum dicit Sed contra. Instat &amp; duo 
+      <lb ed="#C" n="2"/>facit: quia primo instat: quia gignere, &amp; gigni a 
+      <lb ed="#C" n="3"/>non est idem, ergo posse hoc, &amp; posse illud 
+      <lb ed="#C" n="4"/>non erit idem. Secundo ibi: Hic distincuendum, sol 
+      <lb ed="#C" n="5"/>vit, quod idem est posse gignere, &amp; gigni 
+      <lb ed="#C" n="6"/>ratione potentiae; non est idem ratione 
+      res<lb ed="#C" n="7" break="no"/>pectus., 
+    </p>
+            <p xml:id="Gi9qrR-e38092-d1e319">
+               <lb ed="#C" n="8"/>Tunc sequitur illa pars, ita, in qua 
+      quae<lb ed="#C" n="9" break="no"/>rit, utrum haec sit vera, Filius non habet 
+      poten<lb ed="#C" n="10" break="no"/>tiam generandi. Et duo facit: quia primo dicit,  
+      <lb ed="#C" n="11"/>Filium habere eandem potentiam, quam habet  
+      <!--180.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="12"/>Pater; sed non habere eam cum illo respectu, 
+      <lb ed="#C" n="13"/>quo habet eam Pater. Secundo ibi: Sicut dicitur  
+      <lb ed="#C" n="14"/>Manifestat hoc per simile: quia Pater potest 
+      <lb ed="#C" n="15"/>esse Pater, &amp; vult esse Pater, &amp; non Filius, &amp; 
+      <lb ed="#C" n="16"/>Filius potest &amp; vult esse Filius, &amp; non Pater: 
+      <lb ed="#C" n="17"/>non tamen aliquam potentiam, vel voluntatem 
+      <lb ed="#C" n="18"/>habet Pater, quam non habeat Filius, nec 
+      econ<lb ed="#C" n="19" break="no"/>verso: quia per illam eandem potentiam, &amp; 
+      vo<lb ed="#C" n="20" break="no"/>luntatem, per quam Pater potest &amp; vult esse 
+      <lb ed="#C" n="21"/>Pater, Filius potest, &amp; vult esse Filius. Et in 
+      <lb ed="#C" n="22"/>hoc terminatur sententia distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

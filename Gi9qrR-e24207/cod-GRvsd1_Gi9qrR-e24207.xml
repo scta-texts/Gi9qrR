@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="90"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e24207"><!-- l1-d3p2q3 -->
+            <head xml:id="Gi9qrR-e24207-Hd1e108">Quaestio 3</head>
+            <p xml:id="Gi9qrR-e24207-d1e111">
+               <lb ed="#C" n="92"/>QUAESTIO III. 
+      <lb ed="#C" n="93"/>De repraesentatione Trinitatis per imaginem 
+      <lb ed="#C" n="94"/>creatam. 
+    </p>
+            <p xml:id="Gi9qrR-e24207-d1e120">
+               <lb ed="#C" n="95"/>POstea quaeritur de repraesentatione 
+      <lb ed="#C" n="96"/>Trinitatis per imaginem creatam. 
+      <lb ed="#C" n="97"/>Et circa hoc quaeruntur duo: primo 
+      <lb ed="#C" n="98"/>quomodo repraesentatur ibi unitas 
+      essen<lb ed="#C" n="99" break="no"/>tiae? Secundo sin sequenti questione 
+      <lb ed="#C" n="100"/>quomodo Trinitas Personarum? Circa 
+      <lb ed="#C" n="101"/>primum quaeruntur quatuor: quia 
+      essen<lb ed="#C" n="102" break="no"/>tia quadrupliciter comparatur ad 
+      Perso<lb ed="#C" n="103" break="no"/>nas. Primo: quia est una in tribus. 
+      Se<lb ed="#C" n="104" break="no"/>cundo: quia praedieatur de tribus 
+      Per<lb ed="#C" n="105" break="no"/>sonis. Tertio: non competunt ei actus 
+      <lb ed="#C" n="106"/>notionales: quia nec gignit, nec 
+      gigni<lb ed="#C" n="107" break="no"/>tur, nec procedit: unde Personae non 
+      <lb ed="#C" n="108"/>oriuntur ab ea. Quarto: semper 
+      com<lb ed="#C" n="109" break="no"/>petunt ei actus essentialet. Et ideo quid 
+      na<lb ed="#C" n="110" break="no"/>tuor quaeremus. Primo: utrum essen¬ 
+      <!--128.xml-->
+      <pb ed="#C" n="91"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>tia animae sit una? Secundo: utrum sit 
+      <lb ed="#C" n="2"/>suae potentiae: Tertio: utrum potentii 
+      <lb ed="#C" n="3"/>oriantur ab ipsa? Quarto: utrum 
+      ani<lb ed="#C" n="4" break="no"/>ma semper se intelligat: 
+    </p>
+            <div xml:id="Gi9qrR-e24207-Dd1e172">
+               <head xml:id="Gi9qrR-e24207-Hd1e174">Articulus 1</head>
+               <p xml:id="Gi9qrR-e24207-d1e177">
+                  <lb ed="#C" n="5"/>ARTICVLVS I. 
+        <lb ed="#C" n="6"/>Vtrum sit una essentia animae in homine? 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e184">
+                  <lb ed="#C" n="7"/>AD primum sic proceditur. Videtur 
+        <lb ed="#C" n="8"/>quod non sit una essentia animae 
+        <lb ed="#C" n="9"/>in homine: quia nihil disponit 
+        naturali<lb ed="#C" n="10" break="no"/>ter ad corruptionem sui; sed 
+        vegetati<lb ed="#C" n="11" break="no"/>vum disponi: ad introductionem 
+        sensi<lb ed="#C" n="12" break="no"/>tivi, &amp; sensitivum intellectivi &amp; ita 
+        ad<lb ed="#C" n="13" break="no"/>veniente intellectivo, non cedit 
+        sensiti<lb ed="#C" n="14" break="no"/>vam, &amp; vegetativum primum 
+        introdu<lb ed="#C" n="15" break="no"/>ctum, igitur sunt ibi tres essentiae animae. 
+        <lb ed="#C" n="16"/>Praeterea: unum &amp; idem non est ab 
+        ex<lb ed="#C" n="17" break="no"/>tra, &amp; non ab extra, sed sola anima 
+        in<lb ed="#C" n="18" break="no"/>tellectiva est ab extra: vegetativum &amp; 
+        <lb ed="#C" n="19"/>sensitivum non sunt ab extra: sed solus 
+        <lb ed="#C" n="20"/>intellectus secundum Philosophum: cum 
+        <lb ed="#C" n="21"/>igitur habeamus animam vegetativam, 
+        <lb ed="#C" n="22"/>&amp; sensitivam, &amp; intellectivam, habemus 
+        <lb ed="#C" n="23"/>plures animas.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e223">
+        Praeterea: unum &amp; idem 
+        <lb ed="#C" n="24"/>non est corruptibile, &amp; incorruptibile 
+        <lb ed="#C" n="25"/>sed secundum Philosophum in libro de 
+        <lb ed="#C" n="26"/>Anima: Intellectus est alterum genis, &amp; 
+        se<lb ed="#C" n="27" break="no"/>paratur ab aliis, hoc est, a vegetativo 
+        <lb ed="#C" n="28"/>&amp; sensitivo, ut perpetuum a 
+        corrupti<lb ed="#C" n="29" break="no"/>bili.  
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e239">
+                  <lb ed="#C" n="30"/>In contrarium est quod habetur in 
+        <lb ed="#C" n="31"/>littera, quod omnes istae potentiae sunt,  
+        <lb ed="#C" n="32"/>in una anima, &amp; in una essentia. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e249">
+                  <lb ed="#C" n="33"/>RESOLVTIO. 
+        <lb ed="#C" n="34"/>Animae essentia una est. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e256">
+                  <lb ed="#C" n="35"/>RESpondeo dicendum, quod esse 
+        <lb ed="#C" n="36"/>unam animam in nobis 
+        essentiali<lb ed="#C" n="37" break="no"/>ter duplici via rrobari potest. Primo ex 
+        <lb ed="#C" n="38"/>eo quod dat esse. Secundo ex eo quod  
+        <lb ed="#C" n="39"/>dat operari. Vtrumque enim 
+        forti<lb ed="#C" n="40" break="no"/>mur ex anima, &amp; esse, &amp; operari: 
+        un<lb ed="#C" n="41" break="no"/>de secundum Philosophum anima est, 
+        <lb ed="#C" n="42"/>primum, quo. vivimus, &amp; primum 
+        sen<lb ed="#C" n="43" break="no"/>tiens. Ex eo autem quod dat esse, dupii 
+        <lb ed="#C" n="44"/>citer potest investigari quod sit una: via 
+        <lb ed="#C" n="45"/>ad impossibile, &amp; ostensiva. Via ad 
+        im<lb ed="#C" n="46" break="no"/>possibile ab aliquibus probatur triplici 
+        <lb ed="#C" n="47"/>ter. Primo; quod si non esset una, homo 
+        <lb ed="#C" n="48"/>t non esset vere unum. Nam unitas 
+        diffi<lb ed="#C" n="49" break="no"/>nitionis est ex unitare rei: &amp; unitas rei 
+        ex<lb ed="#C" n="50" break="no"/>unitate substantialis. formae, &amp; ideo si¬ 
+        <!--128.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>forma substantialis non esset una res, 
+        <lb ed="#C" n="52"/>non esset una: quod est contra Philos. 4. 
+        <lb ed="#C" n="53"/>Metha. Secundum inconveniens est: quia 
+        <lb ed="#C" n="54"/>generatio substantiae esset generatio 
+        <lb ed="#C" n="55"/>entis secundum quid: quod est contra 
+        <lb ed="#C" n="56"/>Philos. 1. de Cenera. Et ratio est: quia 
+        <lb ed="#C" n="57"/>cum generatur substantia dicitur 
+        gene<lb ed="#C" n="58" break="no"/>rari ens simpliciter, quia nullum esse, quod  
+        <lb ed="#C" n="59"/>habebat materia remanet generata 
+        sub<lb ed="#C" n="60" break="no"/>stantia: sed si essent plures formae 
+        sub<lb ed="#C" n="61" break="no"/>stant ales in materia, tunc introductio 
+        <lb ed="#C" n="62"/>secundae formae esset generatio entis 
+        se<lb ed="#C" n="63" break="no"/>cundum quid: cum haberet materia 
+        ali<lb ed="#C" n="64" break="no"/>quid esse post introductionem istius 
+        for<lb ed="#C" n="65" break="no"/>mae: quod habebat ante introductionem, 
+        <lb ed="#C" n="66"/>Tertium inconveniens est, quia 
+        genera<lb ed="#C" n="67" break="no"/>tio esset alteratio: cum subiectum ibi 
+        <lb ed="#C" n="68"/>esset ens in actu. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e337">
+                  <lb ed="#C" n="69"/>Possumus tamen si volumus ostensive 
+        <lb ed="#C" n="70"/>ostendere quod semper est una 
+        forma<lb ed="#C" n="71" break="no"/>substantialis in composito, quia 
+        genera<lb ed="#C" n="72" break="no"/>tio unius est corruptio alterius. 
+        Cenera<lb ed="#C" n="73" break="no"/>tio igitur substantiae est corruptio 
+        sub<lb ed="#C" n="74" break="no"/>stantiae, &amp; generatio entis est corruptio 
+        <lb ed="#C" n="75"/>entis. Non ergo introducitur una forma 
+        <lb ed="#C" n="76"/>substantialis, nisi cedat alia. Sed materiae 
+        <lb ed="#C" n="77"/>non similiter recipit diversas formas 
+        <lb ed="#C" n="78"/>substantiales, quia tunc ille motus non 
+        <lb ed="#C" n="79"/>esset unus, cum unitas motus accipiatur  
+        <lb ed="#C" n="80"/>ex unitate termini, &amp; per consequens 
+        <lb ed="#C" n="81"/>non esset, &amp; si non esset motus, non esset 
+        <lb ed="#C" n="82"/>mutatum esse. Quod de necessitate 
+        prae<lb ed="#C" n="83" break="no"/>cedit moveri, &amp; ita nihil induceretur in 
+        <lb ed="#C" n="84"/>materiam: sed quotiescumque non plura 
+        <lb ed="#C" n="85"/>similiter recipiuntur in aliquo, &amp; 
+        adve<lb ed="#C" n="86" break="no"/>niente uno cedit aliud, in recipiente 
+        <lb ed="#C" n="87"/>semper est unum receptum, non igitur  
+        <lb ed="#C" n="88"/>potest esse nisi una forma substantialis in 
+        <lb ed="#C" n="89"/>materia: cum adveniete una cedat alia. 
+        <lb ed="#C" n="90"/>Hoc etiam patet ex eo quod per animam 
+        <lb ed="#C" n="91"/>operamur: nam forma substantialis non 
+        <lb ed="#C" n="92"/>est immediate principium actionis; 
+        agi<lb ed="#C" n="93" break="no"/>mus ergo per animam mediante poten 
+        <lb ed="#C" n="94"/>tia. Cum igitur actus unius potentiae 
+        <lb ed="#C" n="95"/>impediatur per actum alterius: sicut 
+        ho<lb ed="#C" n="96" break="no"/>mines intenti visibilibus minus audiunt,  
+        <lb ed="#C" n="97"/>ut vult <name xml:id="Gi9qrR-e24207-Nd1e402" ref="#Augustine">Aug.</name> hoc esse non posset, nisi 
+        hu<lb ed="#C" n="98" break="no"/>iusmodi potentiae radicarentur in una 
+        <lb ed="#C" n="99"/>essentia: quae cum per unam potentiam 
+        <lb ed="#C" n="100"/>operatur, retrahitur ab actu alterius 
+        po<lb ed="#C" n="101" break="no"/>tentiae. Est ergo una anima intoto nos 
+        <lb ed="#C" n="102"/>tro corpore: propter quod <name xml:id="Gi9qrR-e24207-Nd1e416" ref="#Augustine">Aug.</name> in 
+        Ser<lb ed="#C" n="103" break="no"/>mone de imagine ait: quod sicut est 
+        <lb ed="#C" n="104"/>unus Deus omnia vivificans, &amp; ubique 
+        <lb ed="#C" n="105"/>totus: sic est anima in uno corpore 
+        ubi<lb ed="#C" n="106" break="no"/>que tota. 
+        <!--129.xml-->
+        <pb ed="#C" n="92"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Notandum in eodem: sicut Deus 
+        Pa<lb ed="#C" n="2" break="no"/>ter, Deus Filius, Deus Spiritus Sanctus 
+        <lb ed="#C" n="3"/>non tamen tres dij, sed unus Deus 
+        ha<lb ed="#C" n="4" break="no"/>bens tres Personas. Ita anima intellectus, 
+        <lb ed="#C" n="5"/>anima voluntas, amma memoria, non 
+        ta<lb ed="#C" n="6" break="no"/>mentres animae; sed una anima in uno 
+        cor<lb ed="#C" n="7" break="no"/>pore: est igitur anima imago Trinitatis 
+        <lb ed="#C" n="8"/>quantum ad unitatem Essentiae: quia 
+        si<lb ed="#C" n="9" break="no"/>cut una Essentia Diuina in omnibus 
+        Per<lb ed="#C" n="10" break="no"/>sonis Divinis, ita una anima in omnibus 
+        <lb ed="#C" n="11"/>potentijs animae, 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e459">
+                  <lb ed="#C" n="12"/>Ad primum dicendum: quod nihil 
+        <lb ed="#C" n="13"/>disponit ad corruptionem sui per se; per 
+        <lb ed="#C" n="14"/>accidens tamen disponit: sicut 
+        calidi<lb ed="#C" n="15" break="no"/>tas, quae in aere cedit in potentiam 
+        <lb ed="#C" n="16"/>materiae igne generato ex eo, &amp;  
+        <lb ed="#C" n="17"/>tamen disponit ad introductionem 
+        <lb ed="#C" n="18"/>ignis, quia quorum symbolum est, 
+        <lb ed="#C" n="19"/>facilior est transitus, sed hoc est per 
+        <lb ed="#C" n="20"/>accidens: ut corruptione subiecti, nor 
+        <lb ed="#C" n="21"/>per se ut per corruptionem a contrario; 
+        <lb ed="#C" n="22"/>ita est de vegetativo, &amp; sensitivo, &amp; 
+        in<lb ed="#C" n="23" break="no"/>tellectivo.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e488">
+        Ad 2. dicendum, quod solus 
+        <lb ed="#C" n="24"/>intellectus est ab extra, sed non propter 
+        <lb ed="#C" n="25"/>hoc habemus, quod in nobis sint diverss 
+        <lb ed="#C" n="26"/>animae: quia hoc quod dico, solus, 
+        ex<lb ed="#C" n="27" break="no"/>cludit vegetativum, &amp; sensitivum in 
+        <lb ed="#C" n="28"/>brutis, vel prius introductum in 
+        embrio<lb ed="#C" n="29" break="no"/>ne, non in homine: Ad 3. dicendum 
+        <lb ed="#C" n="30"/>quod vegetativum, &amp; sensitivum duo 
+        <lb ed="#C" n="31"/>pliciter possunt considerari: vel 
+        inquan<lb ed="#C" n="32" break="no"/>tum sunt potentiae, &amp; sic sunt 
+        corruptibi<lb ed="#C" n="33" break="no"/>les, &amp; sic loquitur Philos. vel inquan 
+        <lb ed="#C" n="34"/>tum dicunt formam substantialem in 
+        <lb ed="#C" n="35"/>homine, &amp; sic sunt incorruptibiles, sicut 
+        <lb ed="#C" n="36"/>intellectivum: quia sunt eadem entia cum 
+        <lb ed="#C" n="37"/>ipso: &amp; ita non concludebat ratio.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e24207-Dd1e522">
+               <head xml:id="Gi9qrR-e24207-Hd1e524">Articulus 2</head>
+               <p xml:id="Gi9qrR-e24207-d1e527">
+                  <lb ed="#C" n="38"/>ARTICVLVS II. 
+        <lb ed="#C" n="39"/>Vtrum anima sit suae potentiae?
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e534">
+                  <lb ed="#C" n="40"/>SEcundo quaeritur: utrum anima sit 
+        <lb ed="#C" n="41"/>suae potentiae?
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e541">
+        Et videtur quod sic: 
+        <lb ed="#C" n="42"/>quia <name xml:id="Gi9qrR-e24207-Nd1e545" ref="#Augustine">Aug.</name> in sermone de imagine: 
+        ani<lb ed="#C" n="43" break="no"/>ma est intellectus, anima voluntas, 
+        ani<lb ed="#C" n="44" break="no"/>ma memoria, sed hoc non esset, nisi 
+        <lb ed="#C" n="45"/>esset suae potentiae, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e555">
+        Praeterea: 
+        <lb ed="#C" n="46"/>idem 10. de Trin. cap. penult. Memoria, 
+        <lb ed="#C" n="47"/>intelligentia, &amp; voluntas quoniam non sun 
+        <lb ed="#C" n="48"/>tres vitae, sed una vita; nec tres mentes, sed  
+        <lb ed="#C" n="49"/>una mens: consequenter utique nec tres substan¬ 
+        <!--129.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="50"/>tiae sunt, sed una substantia: sed hoc non 
+        <lb ed="#C" n="51"/>esset, nisi essent idem, quod anima, er  
+        <lb ed="#C" n="52"/>go &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e578">
+        Praeterea: secundum Comm 
+        <lb ed="#C" n="53"/>3. de Anim. Sic se habet intellectus ad 
+        forma<lb ed="#C" n="54" break="no"/>intelligibiles, per quas perficitur in esse 
+        secun<lb ed="#C" n="55" break="no"/>do: sicut se habet materia ad formas sensibiles 
+        <lb ed="#C" n="56"/>per quas perficitur in esse primo, ergo sic est 
+        <lb ed="#C" n="57"/>in potentia intellectus, sicut &amp; materia; 
+        <lb ed="#C" n="58"/>sed materia est sua potentia, ergo &amp; in 
+        <lb ed="#C" n="59"/>tellectus, sed intellectus videtur nom 
+        na<lb ed="#C" n="60" break="no"/>re animam humanam, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e598">
+                  <lb ed="#C" n="61"/>In contrarium est: quia forma 
+        sub<lb ed="#C" n="62" break="no"/>stantialis secundum Comm. 7. Metaph. 
+        <lb ed="#C" n="63"/>non est immediatum principium actio 
+        <lb ed="#C" n="64"/>nis: sed si anima esset suae potentiae 
+        <lb ed="#C" n="65"/>tunc immediate ab anima egrederetur 
+        <lb ed="#C" n="66"/>actio, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e614">
+                  <lb ed="#C" n="67"/>RESOLVTIO. 
+        <lb ed="#C" n="68"/>Potentiae animae non sunt eius substantia 
+        <lb ed="#C" n="69"/>possunt tamen praedicatione causali dici 
+        <lb ed="#C" n="70"/>de anima; &amp; formali in ali¬ 
+        <lb ed="#C" n="71"/>quo sensu.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e627">
+                  <lb ed="#C" n="72"/>REspondeo dicendum, quod 
+        om<lb ed="#C" n="73" break="no"/>nes perfectiones in creaturis reper 
+        <lb ed="#C" n="74"/>tae sunt perfectiones participate: &amp; ideo 
+        <lb ed="#C" n="75"/>non sunt actus purus, sed inest eis 
+        ali<lb ed="#C" n="76" break="no"/>quid potentialitatis: &amp; inquantum inest 
+        <lb ed="#C" n="77"/>eis potentialitas potest in eis sumi 
+        ratici<lb ed="#C" n="78" break="no"/>generis; inquantum inest eis actualitas 
+        <lb ed="#C" n="79"/>sumitur in eis ratio specici: nam 
+        sem<lb ed="#C" n="80" break="no"/>per species, completivum quod addit 
+        <lb ed="#C" n="81"/>supra genus, habet rationem 
+        actualita<lb ed="#C" n="82" break="no"/>tis: &amp; inde est, quod nihil creatum est 
+        <lb ed="#C" n="83"/>in specie, cui non competat aliquo mo 
+        <lb ed="#C" n="84"/>do ratio generis: in solo autem Primo 
+        <lb ed="#C" n="85"/>ubi perfectiones sunt modo infinito, ha 
+        <lb ed="#C" n="86"/>bent ibi species esse ratione actualitatis 
+        <lb ed="#C" n="87"/>sed non habet ibi esse ratio generis prop 
+        <lb ed="#C" n="88"/>ter carentiam potentialitatis: &amp; ideo 
+        <lb ed="#C" n="89"/>dicitur 5. de Trinit, cap. 1. Intelligamus 
+        <lb ed="#C" n="90"/>Deum, si possumus, quantum possumus, sine 
+        <lb ed="#C" n="91"/>qualitate bonum, sine quantitate magnum. Cun 
+        <lb ed="#C" n="92"/>igitur potentiae animae sint species 
+        qua<lb ed="#C" n="93" break="no"/>litatis: quia sunt naturalis potentia, de 
+        <lb ed="#C" n="94"/>necessitate manebunt secundum suum, 
+        <lb ed="#C" n="95"/>genus, &amp; erunt qualitas; sed si essent ip 
+        <lb ed="#C" n="96"/>sa anima, essent substantia: cum anima 
+        <lb ed="#C" n="97"/>sit substantia, ut probatur in 2. de Anim. 
+        <lb ed="#C" n="98"/>Non est igitur possibile animam 
+        essen<lb ed="#C" n="99" break="no"/>tialiter, &amp; directe per omnem modum 
+        <lb ed="#C" n="100"/>praedicari de suis potentijs, nisi secundum 
+        <lb ed="#C" n="101"/>aliquem modum. Et ita patet, quod 
+        ani<lb ed="#C" n="102" break="no"/>ma non est suae potentiae, ita quod ipsa 
+        <!--130.xml-->
+        <pb ed="#C" n="93"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>potentiae sint substantia anime. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e705">
+                  <lb ed="#C" n="2"/>Sed quia <name xml:id="Gi9qrR-e24207-Nd1e709" ref="#Augustine">Aug.</name> videtur cocludere ani 
+        <lb ed="#C" n="3"/>mam esse voluntatem, intellectum, &amp; 
+        <lb ed="#C" n="4"/>memoriam: ut appareat intentio sua, 
+        <lb ed="#C" n="5"/>notandum quod accidens proprie non 
+        <lb ed="#C" n="6"/>habet essentiam, quia sola substantia 
+        es<lb ed="#C" n="7" break="no"/>sentiam habet: ut dicitur 7. de Trin. cap. 
+        <lb ed="#C" n="8"/>1. Et hoc satis concordat cum verbis 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e726">
+                  <lb ed="#C" n="9"/>Philosophi in principio 7. Metaph. 
+        <lb ed="#C" n="10"/>ubi ait: Quod accidentia non sunt entia, nisi 
+        <lb ed="#C" n="11"/>quia sunt entis; tota ergo causa, quare 
+        ac<lb ed="#C" n="12" break="no"/>cidentia dicuntur entia, est propter 
+        en<lb ed="#C" n="13" break="no"/>titatem, quae est in alio; non propter 
+        en<lb ed="#C" n="14" break="no"/>tatem, quae sit in ipsis: cum igitur istae 
+        <lb ed="#C" n="15"/>potentiae sint in anima, ut in subiecto 
+        <lb ed="#C" n="16"/>tota causa, quare dicuntur esse entia, est  
+        <lb ed="#C" n="17"/>propter entitatem, quae est in anima; non 
+        <lb ed="#C" n="18"/>propter entitatem, quae sit in eis. Nam a 
+        <lb ed="#C" n="19"/>secundum quid non debet esse 
+        denomi<lb ed="#C" n="20" break="no"/>tio: cum igitur entitas, quae est in eis, sit  
+        <lb ed="#C" n="21"/>entitas secundum quid, propter talem 
+        <lb ed="#C" n="22"/>entitatem non debent dici entia. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e760">
+                  <lb ed="#C" n="23"/>Hoc viso notandum, quod aliter sunt,  
+        <lb ed="#C" n="24"/>istae potentiae, quae dicuntur anima, in 
+        <lb ed="#C" n="25"/>anima, &amp; aliae potentiae: nam potentiae 
+        <lb ed="#C" n="26"/>sensitivae, cum sint alligatae organo, non 
+        <lb ed="#C" n="27"/>sunt in anima, ut in subiecto; sed in 
+        or<lb ed="#C" n="28" break="no"/>ganis. Istae autem potentiae intellectivae 
+        <lb ed="#C" n="29"/>in ipsa essentia animae, ut in subiecto 
+        <lb ed="#C" n="30"/>fundantur: &amp; ideo dicitur in 3. de Ani. 
+        <lb ed="#C" n="31"/>quod anima est locus specierum, sed non tota, sed  
+        <lb ed="#C" n="32"/>intellectus: quia sicut oculus est locus 
+        spe<lb ed="#C" n="33" break="no"/>cierum visibilium: quia est subiectum 
+        <lb ed="#C" n="34"/>virtutis visivae, ita essetia animaeest locus 
+        <lb ed="#C" n="35"/>specierum intelligibilium: quia est subiectum 
+        <lb ed="#C" n="36"/>intellectus. Item notandum quod aliter istae 
+        <lb ed="#C" n="37"/>potentiae sunt in anima, &amp; accidentia ir 
+        <lb ed="#C" n="38"/>subiectis suis: quia istae potentiae sunt in 
+        <lb ed="#C" n="39"/>anima naturaliter; sed accidentia, ut 
+        co<lb ed="#C" n="40" break="no"/>lor in corpore, sunt accidentaliter. Item 
+        <lb ed="#C" n="41"/>ea, quae sunt in corporibus, habent 
+        sub<lb ed="#C" n="42" break="no"/>iectum compositum; ista autem habet 
+        <lb ed="#C" n="43"/>subiectum simpliciter,  
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e808">
+                  <lb ed="#C" n="44"/>His visis dicere possumus, quod 
+        ani<lb ed="#C" n="45" break="no"/>ma praedicatur de suis potentijs 
+        praedica<lb ed="#C" n="46" break="no"/>tione causali, &amp; quodammodo 
+        formali<lb ed="#C" n="47" break="no"/>&amp; per identitatem: nam semper illud, 
+        <lb ed="#C" n="48"/>quod est causa alterius, potest praedicari 
+        <lb ed="#C" n="49"/>de illo, cuius est causa, praedicatione 
+        cau<lb ed="#C" n="50" break="no"/>sali; sicut Philos, in lib. de Sensu &amp; sensi. 
+        <lb ed="#C" n="51"/>dicit: quod odor est fumalis evaporatio: quia 
+        <lb ed="#C" n="52"/>fumalis evaporatio est causa odoris: cum 
+        <lb ed="#C" n="53"/>igitur anima sit causa omnium potentia 
+        <lb ed="#C" n="54"/>rum eius, omnes potentiae animae 
+        secun<lb ed="#C" n="55" break="no"/>dum istam viam possunt dici anima praedica 
+        <lb ed="#C" n="56"/>tione causali. Nihilominus tamem memo¬ 
+        <!--130.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ria, intelligentia, &amp; voluntas magis de 
+        <lb ed="#C" n="58"/>bent dici anima, quam ceterae potentiae, 
+        <lb ed="#C" n="59"/>magis quam quaelibet accidentia suum, 
+        <lb ed="#C" n="60"/>subiectum, magis quam proprietates 
+        <lb ed="#C" n="61"/>corporum corpora. Primum sic patet: 
+        <lb ed="#C" n="62"/>nam ultra hoc, quod anima est causa 
+        <lb ed="#C" n="63"/>istarum potentiarum, sicut ceterarum, est 
+        <lb ed="#C" n="64"/>etiam ipsarum subiectum: &amp; ideo non 
+        <lb ed="#C" n="65"/>solum praedicatione causali istae 
+        poten<lb ed="#C" n="66" break="no"/>tiae debent dici anima, sed etiam quodam 
+        <lb ed="#C" n="67"/>modo praedicatione formali: cum non 
+        <lb ed="#C" n="68"/>propter aliam entitatem sint entia, quam 
+        <lb ed="#C" n="69"/>propter entitatem animae: ceterae autem 
+        <lb ed="#C" n="70"/>potentiae licet praedicatione causali sint; 
+        <lb ed="#C" n="71"/>anima, nullo tamem modo sunt ipsa 
+        prae<lb ed="#C" n="72" break="no"/>ter entitatem subiecti, in quo existunt.  
+        <lb ed="#C" n="73"/>dicatione formali: quia sunt entia prop¬ 
+        <lb ed="#C" n="74"/>istis, quam quodlibet subiectum de 
+        acci<lb ed="#C" n="75" break="no"/>Item magis anima potest praedicari de 
+        <lb ed="#C" n="76"/>dentibus suis, accipiendo accidens, ut  
+        <lb ed="#C" n="77"/>dividitur contra proprium: nam 
+        praedi<lb ed="#C" n="78" break="no"/>catio intantum est verior, quanto 
+        prae<lb ed="#C" n="79" break="no"/>dicatum magis est idem subiecto. Ideo, 
+        <lb ed="#C" n="80"/>&amp; <name xml:id="Gi9qrR-e24207-Nd1e894" ref="#Boethius">Boetius</name> concludit: quod nulla verior 
+        <lb ed="#C" n="81"/>praedicatio: quam in qua ipsum de se 
+        ip<lb ed="#C" n="82" break="no"/>so praedicatur: &amp; quia magis est idem 
+        <lb ed="#C" n="83"/>aliquid ei, cui naturaliter inest, quam 
+        <lb ed="#C" n="84"/>alij, magis haec sunt anima, cui 
+        natura<lb ed="#C" n="85" break="no"/>liter insunt, quam accidentia subiecta 
+        <lb ed="#C" n="86"/>sua, quibus accidentaliter insunt.  
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e911">
+                  <lb ed="#C" n="87"/>Tertio magis haec sunt anima, quam 
+        <lb ed="#C" n="88"/>proprietates corporum corpora: quia 
+        <lb ed="#C" n="89"/>cum corpora sint composita, 
+        proprie<lb ed="#C" n="90" break="no"/>tates non eis inerunt secundum se 
+        to<lb ed="#C" n="91" break="no"/>ta, sed aliqua magis se tenebunt ex 
+        par<lb ed="#C" n="92" break="no"/>te materiae, aliqua ex parte formae. Sed 
+        <lb ed="#C" n="93"/>naec insunt animae, tanquam subiecto 
+        <lb ed="#C" n="94"/>simplici: &amp; ideo magis sunt idem 
+        ei<lb ed="#C" n="95" break="no"/>Haec tria tangens <name xml:id="Gi9qrR-e24207-Nd1e932" ref="#Augustine">Aug.</name> 9. de Trinit, ait: 
+        <lb ed="#C" n="96"/>Anima ergo ipsa sicut corporearum rerum 
+        noti<lb ed="#C" n="97" break="no"/>tias per sensus corporis colligit, sic 
+        incorporea<lb ed="#C" n="98" break="no"/>rum per se metipsam. Sed cum incorporea 
+        <lb ed="#C" n="99"/>cognoscat per intellectum, vult animam 
+        <lb ed="#C" n="100"/>esse intellectum, &amp; non sensum: non 
+        <lb ed="#C" n="101"/>igitur est intellectus in anima, sicut 
+        sen<lb ed="#C" n="102" break="no"/>lus. Rursum cap. 4. dicti libri ait: Ista 
+        <lb ed="#C" n="103"/>insunt substantialiter menti, non sicut color 
+        co<lb ed="#C" n="104" break="no"/>lorato: &amp; quia substantia ex his tribus non 
+        <lb ed="#C" n="105"/>est confecta, sed ista sunt eiusdem 
+        essen<lb ed="#C" n="106" break="no"/>tie. Propter primum removetur 
+        mo<lb ed="#C" n="107" break="no"/>dus inhaerentiae accidentium in subiecto: 
+        <lb ed="#C" n="108"/>propter secundum removetur modus 
+        <lb ed="#C" n="109"/>quo proprietates sunt in corporibus. 
+        Pa<lb ed="#C" n="110" break="no"/>tet igitur, quod istae potentiae 
+        possun<lb ed="#C" n="111" break="no"/>dici anima praedicatione causali, &amp; quo 
+        <lb ed="#C" n="112"/>dam modo praedicatione formali: cum 
+        <!--131.xml-->
+        <pb ed="#C" n="94"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>propter entitatem animae entia existant,  
+        <lb ed="#C" n="2"/>in quo excellunt potentias, quae sunt in 
+        <lb ed="#C" n="3"/>a ima, ut in radice, ut non solum 
+        prae<lb ed="#C" n="4" break="no"/>d eatione causali, &amp; aliquo modo 
+        for<lb ed="#C" n="5" break="no"/>mali dicuntur aima; sed etiam quodam 
+        <lb ed="#C" n="6"/>modo per identitatem, &amp; hoc dup 
+        ici<lb ed="#C" n="7" break="no"/>ter: tum quia naturaliter insunt, in quo 
+        <lb ed="#C" n="8"/>excellunt modum accidentium in 
+        sub<lb ed="#C" n="9" break="no"/>iecto: tum quia insunt subiecto 
+        simpli<lb ed="#C" n="10" break="no"/>ci, in quo excellunt modum 
+        proprieta<lb ed="#C" n="11" break="no"/>tum in corporibus. Et ita patet 
+        quomo<lb ed="#C" n="12" break="no"/>do anima potest praedicari de istis poten 
+        <lb ed="#C" n="13"/>tiis: quia post praedicationem 
+        simplici<lb ed="#C" n="14" break="no"/>ter essentialem, ista videtur verior 
+        prae<lb ed="#C" n="15" break="no"/>dicatio. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1012">
+                  <lb ed="#C" n="16"/>Ex hoc autem apparet, quid veritatis 
+        <lb ed="#C" n="17"/>habent omnes positiones circa 
+        quaestio<lb ed="#C" n="18" break="no"/>nem istam: sunt enim tres positiones 
+        <lb ed="#C" n="19"/>circa hoc. Quidam enim dicunt, quod  
+        <lb ed="#C" n="20"/>huiusmodi potentiae sunt ipsa substantia 
+        <lb ed="#C" n="21"/>anime. Quida n quod sunt accidentia. 
+        <lb ed="#C" n="22"/>Quidam quod sunt medium inter 
+        sub<lb ed="#C" n="23" break="no"/>stantiam, &amp; accidens. Illi, qui dicunt quod 
+        <lb ed="#C" n="24"/>sunt substantia, loquuntur emphatice: 
+        <lb ed="#C" n="25"/>quia propter tantam identitatem, quam 
+        <lb ed="#C" n="26"/>habent ad animam, dicunt eas esse ani 
+        <lb ed="#C" n="27"/>mae substantiam. Illi, qui dicunt, quod 
+        <lb ed="#C" n="28"/>sunt accidentia, accipiunt large 
+        acci<lb ed="#C" n="29" break="no"/>dens, prout incudit naturalem 
+        proprie<lb ed="#C" n="30" break="no"/>tatem. Illi, qui diicunt quod sunt medit 
+        <lb ed="#C" n="31"/>inter substantiam, &amp; accidens, accipiunt 
+        <lb ed="#C" n="32"/>accidens stricte, prout dividitur contra 
+        <lb ed="#C" n="33"/>proprium: quia haec sunt naturales 
+        pro<lb ed="#C" n="34" break="no"/>prietates, non sunt accidens, ut 
+        deter<lb ed="#C" n="35" break="no"/>minat de accidente Porphyrius; licet  
+        <lb ed="#C" n="36"/>sint accidens, ut accidens includit 
+        no<lb ed="#C" n="37" break="no"/>vem praedicamenta. Ex hoc etiam 
+        ap<lb ed="#C" n="38" break="no"/>paret modus <name xml:id="Gi9qrR-e24207-Nd1e1064" ref="#Augustine">Aug.</name> cum dicit hoc 
+        esse<lb ed="#C" n="39" break="no"/>animam: quia, ut habitum est, una est 
+        <lb ed="#C" n="40"/>substantia animae, propter quam omnia 
+        <lb ed="#C" n="41"/>ista sunt eatia: relative tamen illa 
+        sub<lb ed="#C" n="42" break="no"/>stantia est alia, &amp; alia: inaquntum alio 
+        <lb ed="#C" n="43"/>ordine una potentia respicit substantiam 
+        <lb ed="#C" n="44"/>animae, &amp; alio alia potentia: &amp; hoc est 
+        <lb ed="#C" n="45"/>quod ait <name xml:id="Gi9qrR-e24207-Nd1e1082" ref="#Augustine">Aug.</name> 9. de Trin. cap. 4. &amp; 10. 
+        <lb ed="#C" n="46"/>cap. penult. quod hec tria sunt una 
+        es<lb ed="#C" n="47" break="no"/>sentia; sunt tamen tria relative. 
+        <lb ed="#C" n="48"/>J. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1092">
+                  <lb ed="#C" n="49"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="50" break="no"/>dum, quod anima dicitur illa tria, 
+        ve<lb ed="#C" n="51" break="no"/>illa tria dicuntur anima modo, quo 
+        di<lb ed="#C" n="52" break="no"/>ximus. Vel possumus dicere (ut quidam 
+        <lb ed="#C" n="53"/>diitinguunt) quod est triplex totum, 
+        uni<lb ed="#C" n="54" break="no"/>ersale, integrale, &amp; potentiale. Totum 
+        <lb ed="#C" n="55"/>universale secundum essentiam, &amp; 
+        vir<lb ed="#C" n="56" break="no"/>tutem reservatur in qualibet parte: &amp; 
+        <lb ed="#C" n="57"/>ideo per omnem modum praedicatur.  
+        <!--131.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>Totum vero integrale nec secundum 
+        <lb ed="#C" n="59"/>virtutem, nec secundum essentiam 
+        re<lb ed="#C" n="60" break="no"/>servatur in partibus: &amp; ideo nullo 
+        mo<lb ed="#C" n="61" break="no"/>do praedicatur. Totum potentiale medios 
+        <lb ed="#C" n="62"/>modo se habet: quia secundum totam 
+        <lb ed="#C" n="63"/>essentiam reservatur in partibus; non 
+        se<lb ed="#C" n="64" break="no"/>cundum totam virtutem: &amp; ideo 
+        ali<lb ed="#C" n="65" break="no"/>quomodo potest concedi, quod 
+        praedi<lb ed="#C" n="66" break="no"/>cetur anima de suis potentiis, cum sit 
+        <lb ed="#C" n="67"/>totum potentiale ad illas. Sed secundum 
+        <lb ed="#C" n="68"/>istum modum aeque bene diceretur 
+        ani<lb ed="#C" n="69" break="no"/>ma est visus, auditus, &amp; tactus: cum 
+        <lb ed="#C" n="70"/>sit etiam totum potentiale ad ista, quod  
+        <lb ed="#C" n="71"/>non conceditur. Et ideo via tacta in sol 
+        <lb ed="#C" n="72"/>vendo est magis tuta. Et per hec patet 
+        <lb ed="#C" n="73"/>solutio ad secundum. Ad tertium 
+        di<lb ed="#C" n="74" break="no"/>cendum, quod non loquitur ibi Com. 
+        <lb ed="#C" n="75"/>de anima intellectiva, sed de intellectur 
+        <lb ed="#C" n="76"/>possibili, &amp; concedendum est 
+        intelle<lb ed="#C" n="77" break="no"/>ctum possibilem esse potentiam animae 
+        <lb ed="#C" n="78"/>Si autem quaeratur: quare anima non 
+        <lb ed="#C" n="79"/>est sua potentia, sicut materia prima? Di 
+        <lb ed="#C" n="80"/>cendum quod sicut primum agens est 
+        <lb ed="#C" n="81"/>sua potentia activa: ita primum 
+        passi<lb ed="#C" n="82" break="no"/>vum, sicut materia prima, est sua 
+        po<lb ed="#C" n="83" break="no"/>tentia passiva. Omnia igitur, quae sunt, 
+        <lb ed="#C" n="84"/>inter Deum, &amp; materiam primam, non 
+        <lb ed="#C" n="85"/>sunt sua potentia, nec activa, nec 
+        passi<lb ed="#C" n="86" break="no"/>va: cum igitur anima non sit adeo in 
+        <lb ed="#C" n="87"/>potentia, ut materia; nec adeo in actu, 
+        <lb ed="#C" n="88"/>ut Deus: sive intellectus dicatur 
+        poten<lb ed="#C" n="89" break="no"/>tia activa, vel passiva, anima non erit 
+        <lb ed="#C" n="90"/>suus intellectus: &amp; sicut est de 
+        intelle<lb ed="#C" n="91" break="no"/>ctu, sic est de alijs potentijs animae. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e24207-Dd1e1194">
+               <head xml:id="Gi9qrR-e24207-Hd1e1196">Articulus 3</head>
+               <p xml:id="Gi9qrR-e24207-d1e1199">
+                  <lb ed="#C" n="92"/>ARTICVLVS III. 
+        <lb ed="#C" n="93"/>Vtrum potentiae oriantur ab aninma?
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1206">
+                  <lb ed="#C" n="94"/>TErtio quaeritur: utrum potentiae 
+        <lb ed="#C" n="95"/>oriantur ab anima?
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1213">
+        Et videtur  
+        <lb ed="#C" n="96"/>quod non: quia 12. Metaph. movetur 
+        <lb ed="#C" n="97"/>quaestio, utrum eadem sint principia 
+        <lb ed="#C" n="98"/>substantiae, &amp; accidentis? Et solvitur,  
+        <lb ed="#C" n="99"/>quod principia substantiae sunt 
+        substan<lb ed="#C" n="100" break="no"/>tia, principia accidentis sunt accidentia, 
+        <lb ed="#C" n="101"/>&amp; principia relationis relatio. Cum 
+        igi<lb ed="#C" n="102" break="no"/>tur potentiae animae non sint substantia, 
+        <lb ed="#C" n="103"/>&amp; anima sit substantia, anima non erit 
+        <lb ed="#C" n="104"/>principium potentiarum.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1235">
+        Praeterea: si 
+        <lb ed="#C" n="105"/>potentiae criginarentur ab anima, anima 
+        <lb ed="#C" n="106"/>esset causa efficiens earum, sed dicitur 
+        <lb ed="#C" n="107"/>in 2. Phys. quod Materia non coincidit cum 
+        <lb ed="#C" n="108"/>alijs causis: cum igitur anim a se habeat  
+        <!--132.xml-->
+        <pb ed="#C" n="95"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>nt materia respectu potentiarum, quia 
+        <lb ed="#C" n="2"/>est ipsarum subiectum, non erit efficiens. 
+        <lb ed="#C" n="3"/>Praeterea: anima dicitur imago 
+        Trini<lb ed="#C" n="4" break="no"/>tatis, sed tres Personae non sumunt 
+        ori<lb ed="#C" n="5" break="no"/>ginem ab essentia, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1265">
+                  <lb ed="#C" n="6"/>In contrarium est: quia proprietates, 
+        <lb ed="#C" n="7"/>&amp; accidentia non possunt intelligi sine 
+        <lb ed="#C" n="8"/>substantijs: quia substantia est Primum 
+        <lb ed="#C" n="9"/>omnium secundum diffinitionem, &amp; 
+        cogni<lb ed="#C" n="10" break="no"/>tionem, &amp; secundum tempus, ut scribitur 7. 
+        <lb ed="#C" n="11"/>Metaph. sed quod non potest intelligi 
+        si<lb ed="#C" n="12" break="no"/>ne alio, illud aliud facit ad esse eius, sed  
+        <lb ed="#C" n="13"/>quod facit ad esse, habet rationem esse; 
+        <lb ed="#C" n="14"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1287">
+        Praeterea: quando aliquis 
+        ef<lb ed="#C" n="15" break="no"/>fectus progreditur ab uno immediate, 
+        <lb ed="#C" n="16"/>&amp; ab alio principaliter; si illud, a quo  
+        <lb ed="#C" n="17"/>procedit immediare, non habet per 
+        <lb ed="#C" n="18"/>se esse dicitur instrumentum coniunctum, 
+        <lb ed="#C" n="19"/>&amp; reducitur in principale tanquam in 
+        <lb ed="#C" n="20"/>causam, sed secundum huiusmodi se 
+        ha<lb ed="#C" n="21" break="no"/>bent potentiae animae ad essentiam, 
+        er<lb ed="#C" n="22" break="no"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1307">
+                  <lb ed="#C" n="23"/>RESOLVTIO. 
+        <lb ed="#C" n="24"/>Potentiae ab anima ut naturales proprietates, 
+        <lb ed="#C" n="25"/>originantur. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1316">
+                  <lb ed="#C" n="26"/>REspondeo dicendum, quod si 
+        vo<lb ed="#C" n="27" break="no"/>Rlumus videre quomodo aliquid este 
+        <lb ed="#C" n="28"/>causa alterius, oportet nos videre 
+        quo<lb ed="#C" n="29" break="no"/>modo facit ad esse illius: quia causa est, 
+        <lb ed="#C" n="30"/>ad cuius esse sequitur aliud, ut vult 
+        Avi<lb ed="#C" n="31" break="no"/>cen. &amp; Phil. esse autem est actus 
+        essen<lb ed="#C" n="32" break="no"/>etiae: unde <name xml:id="Gi9qrR-e24207-Nd1e1333" ref="#Augustine">Aug.</name> s de Trin. cap. 2. ait: 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1337">
+                  <lb ed="#C" n="33"/>Sicut enim ab eo, quod est sapere di. ta est 
+        sa<lb ed="#C" n="34" break="no"/>pientia, &amp; ab eo, quod est scire dicta est 
+        scien<lb ed="#C" n="35" break="no"/>tia, ita ab eo, quod est esse dicta est essentia. 
+        <lb ed="#C" n="36"/>Esientia, autem, sive entitas per se, &amp; 
+        <lb ed="#C" n="37"/>primo reperitur in substantia: propter 
+        <lb ed="#C" n="38"/>quod simpliciter loquendo accidentia 
+        <lb ed="#C" n="39"/>non habent essentiam, ut innuit <name xml:id="Gi9qrR-e24207-Nd1e1354" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="40"/>7. de Trin. cap. 1. quae omnia satis con 
+        <lb ed="#C" n="41"/>cordant cum verbis Phil. 4. Metaphys. 
+        <lb ed="#C" n="42"/>qui vult, quod unitas entis sit unitas 
+        at<lb ed="#C" n="43" break="no"/>tributionis, non praedicationis: ita quod 
+        <lb ed="#C" n="44"/>propter entitatem, quae est in 
+        substan<lb ed="#C" n="45" break="no"/>tia, dicitur accidens ens; non propter 
+        <lb ed="#C" n="46"/>entitatem, quae sit in eo: sicut propter  
+        <lb ed="#C" n="47"/>sanitatem, quae est in animali, dicitur  
+        <lb ed="#C" n="48"/>cibus sanus, non propter sanitatem, quae 
+        <lb ed="#C" n="49"/>sit in cibo: sed si propter entitatem 
+        sub<lb ed="#C" n="50" break="no"/>iecti omnia accidentia sunt entia, 
+        subie<lb ed="#C" n="51" break="no"/>ctum faciet ad esse omnium accidentium: 
+        <lb ed="#C" n="52"/>sed si quod facit ad esse habet rationem 
+        <lb ed="#C" n="53"/>causae, subiectum erit causa omnium 
+        <!--132.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>accidentium. Bene igitur dictum est, 
+        <lb ed="#C" n="55"/>quod scribitur Phys. 1. Materia subiecta 
+        <lb ed="#C" n="56"/>cum forma est causa omnium accidentium, quae 
+        <lb ed="#C" n="57"/>fiunt in ea: unde &amp; 7. Metaph. scribitur  
+        <lb ed="#C" n="58"/>Accidentia non sunt entia, nisi quia sunt entis. 
+        <lb ed="#C" n="59"/>Entis autem sunt quadrupliciter. Primo: 
+        <lb ed="#C" n="60"/>quia disponunt, &amp; perficiunt, ut quali 
+        <lb ed="#C" n="61"/>tates &amp; virtutes. Secundo: quia sunt, 
+        <lb ed="#C" n="62"/>via ad ens, ut motus, &amp; transmutatio 
+        <lb ed="#C" n="63"/>nes. Tertio: quia sunt respectus entis 
+        <lb ed="#C" n="64"/>ad ens, ut relationes. Quarto: quia 
+        <lb ed="#C" n="65"/>sunt negationes horum, ut priuationes: 
+        <lb ed="#C" n="66"/>quae distinctio habetur ex verbis Phil. 4. 
+        <lb ed="#C" n="67"/>Metaph. Primum genus accidentium 
+        <lb ed="#C" n="68"/>naxime habet esse. Post illud habet esse 
+        u<lb ed="#C" n="69" break="no"/>quod est via ad ens. Post hoc autem re¬ 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1427">
+                  <lb ed="#C" n="70"/>lationes: quia, ut vult Comm. 12. 
+        Me<lb ed="#C" n="71" break="no"/>taph. Relatio habet minimum de esse. 
+        Vlti<lb ed="#C" n="72" break="no"/>mo habent esse privationes: quia 
+        scri<lb ed="#C" n="73" break="no"/>bitur Phys. 1. Privatio de se est non ens. Si 
+        <lb ed="#C" n="74"/>igitur accidentia non sunt entia, 
+        nisi<lb ed="#C" n="75" break="no"/>quia sunt entis: quanto magis erunt 
+        en<lb ed="#C" n="76" break="no"/>tia, magis erunt entis, &amp; magis 
+        causa<lb ed="#C" n="77" break="no"/>buntur ab ente, sive a substantia. Cum 
+        <lb ed="#C" n="78"/>igitur potentie animae potissime habeant  
+        <lb ed="#C" n="79"/>esse inter omnia accidentia: quia 
+        col<lb ed="#C" n="80" break="no"/>locantur in primo genere divisionis 
+        da<lb ed="#C" n="81" break="no"/>tae, potissime causabuntur ab anima, &amp; 
+        <lb ed="#C" n="82"/>originabuntur ab ipsa. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1459">
+                  <lb ed="#C" n="83"/>Adivertendum tamen, quod in primo 
+        <lb ed="#C" n="84"/>genere sunt multi gradus: quia esse in 
+        <lb ed="#C" n="85"/>ente, ut disposito &amp; perfecto, potest 
+        es<lb ed="#C" n="86" break="no"/>se quadrupliciter. Quia aliqua sunt in er 
+        <lb ed="#C" n="87"/>te solum ut in radice, ut potentiae sensi 
+        <lb ed="#C" n="88"/>tivae in anima. Aliqua ut in subiecto, 
+        ta<lb ed="#C" n="89" break="no"/>men actualiter, ut color in corpore. 
+        Ali<lb ed="#C" n="90" break="no"/>qua naturaliter sicut proprietates, tamen 
+        <lb ed="#C" n="91"/>habent subiectum compositum, ut 
+        vir<lb ed="#C" n="92" break="no"/>tus attractiva ferri in adamante. Aliqua 
+        <lb ed="#C" n="93"/>sunt in aliquo, ut in subiecto, &amp; 
+        natura<lb ed="#C" n="94" break="no"/>liter, &amp; habent subiectum simplex, ut 
+        po<lb ed="#C" n="95" break="no"/>tentiae, de quibus loquimur in anima, &amp; 
+        <lb ed="#C" n="96"/>inter cetera, quae sic sunt in subiecto, 
+        po<lb ed="#C" n="97" break="no"/>issime trahunt originem ex subiecto, ut  
+        <lb ed="#C" n="98"/>potest patere intuenti. Concedendum 
+        <lb ed="#C" n="99"/>est ergo inter omnia accidentia, 
+        accipie<lb ed="#C" n="100" break="no"/>do large accidens, ut proprietatem 
+        in<lb ed="#C" n="101" break="no"/>cludit, memoriam, intelligentiam, &amp; 
+        <lb ed="#C" n="102"/>voluntatem, potissime originari ab 
+        ani<lb ed="#C" n="103" break="no"/>ma. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1507">
+                  <lb ed="#C" n="104"/>Resp. ad arg. Ad primum dicendum, 
+        <lb ed="#C" n="105"/>quod principia accidentis, &amp; substantiae 
+        <lb ed="#C" n="106"/>lunt alia, &amp; alia, loquendo de principiis 
+        <lb ed="#C" n="107"/>immediatis, &amp; quae sunt de essentia rei: 
+        <lb ed="#C" n="108"/>tamem principia immediata substantiae 
+        pos<lb ed="#C" n="109" break="no"/>sunt esse principia mediata accidentis, ut  
+        <!--133.xml-->
+        <pb ed="#C" n="96"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Comm. dicit ibidem, &amp; sufficit 
+        pone<lb ed="#C" n="2" break="no"/>re animam sic principium, ut potentiae 
+        <lb ed="#C" n="3"/>originentur ab ipsa. Ad secundum 
+        di<lb ed="#C" n="4" break="no"/>cendum, quod dupliciter est materia, n 
+        <lb ed="#C" n="5"/>qua, &amp; ex qua, licet aliquando materia 
+        <lb ed="#C" n="6"/>ex qua non possit esse causa efficies; 
+        mate<lb ed="#C" n="7" break="no"/>ria tamen in qua potest, quia subiectum est 
+        <lb ed="#C" n="8"/>in duplici genere causae respectu accidem 
+        <lb ed="#C" n="9"/>tis materialis, &amp; efficientis. Ad tertium: 
+        <lb ed="#C" n="10"/>dicendum, quod licet in anima sit 
+        ima<lb ed="#C" n="11" break="no"/>go Trinitatis, non tamen eam 
+        represen<lb ed="#C" n="12" break="no"/>at per omnem modum. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e24207-Dd1e1556">
+               <head xml:id="Gi9qrR-e24207-Hd1e1558">Articulus 4</head>
+               <p xml:id="Gi9qrR-e24207-d1e1561">
+                  <lb ed="#C" n="13"/>ARTICVLVS IV. 
+        <lb ed="#C" n="14"/>Vtrum anima se semper intelligat: 
+        <lb ed="#C" n="15"/>
+                  <!-- line coord error Iacob. de viterbio 1. quod. 4. 13. &amp; -->
+               </p>
+               <p xml:id="Gi9qrR-e24207-d1e1572">
+                  <lb ed="#C" n="16"/>QVarto queritur utrum anima se 
+        <lb ed="#C" n="17"/>semper intelligat?
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1579">
+        Et videtur quod 
+        <lb ed="#C" n="18"/>non; quia intelligere dicit alique 
+        <lb ed="#C" n="19"/>actum, sed a pura potentia non egredi 
+        <lb ed="#C" n="20"/>tur aliquis actus. Cum igitur Intellectus 
+        <lb ed="#C" n="21"/>noster in genere intelligibilium sit quasi materia 
+        <lb ed="#C" n="22"/>prima in genere entium, ut dicit Comm. an. 
+        <lb ed="#C" n="23"/>te receptionem specierum nihil 
+        intelli<lb ed="#C" n="24" break="no"/>get, sed ut dicitur 3. de Anim. 
+        Intelle<lb ed="#C" n="25" break="no"/>ctus pueri se habet sicut tabula, in qua nihil est 
+        <lb ed="#C" n="26"/>pictum ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1601">
+        Praeterea: nostrum 
+        <lb ed="#C" n="27"/>intelligere, vel est phantasia, vel non est 
+        <lb ed="#C" n="28"/>sine phantasia, ut dicitur 1. de Anima, 
+        <lb ed="#C" n="29"/>sed phantasia non est semper in actu 
+        <lb ed="#C" n="30"/>suo, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1613">
+        Praeterea: dicitur 9. 
+        Me<lb ed="#C" n="31" break="no"/>taph. Potentiae rationales sunt ad opposita, sed  
+        <lb ed="#C" n="32"/>intelligere maxime est potentiae ratione 
+        <lb ed="#C" n="33"/>lis, cum intellectus sit ipsa ratio per 
+        es<lb ed="#C" n="34" break="no"/>sentiam, ergo possumus intelligere, &amp; 
+        <lb ed="#C" n="35"/>non intelligere, sed si anima potest se 
+        <lb ed="#C" n="36"/>non intellegere, non semper se 
+        intelli<lb ed="#C" n="37" break="no"/>igit, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1631">
+                  <lb ed="#C" n="38"/>In contrarium est <name xml:id="Gi9qrR-e24207-Nd1e1635" ref="#Augustine">Aug.</name> 14. de Trin. 
+        <lb ed="#C" n="39"/>cap. 9. qui ait: se dicere semper mentem 
+        <lb ed="#C" n="40"/>sui meminisse, semper se ipsam 
+        intelli<lb ed="#C" n="41" break="no"/>gere, &amp; amare. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1645">
+                  <lb ed="#C" n="42"/>RESOLVTIO. 
+        <lb ed="#C" n="43"/>Anima semper se habituali cognitione 
+        intelli<lb ed="#C" n="44" break="no"/>git, sicut rem scire dicimus; non tamen semper 
+        <lb ed="#C" n="45"/>se intelligit, prout intelligere 
+        <lb ed="#C" n="46"/>dicit actualem conside¬ 
+        <lb ed="#C" n="47"/>rationem. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1661">
+                  <lb ed="#C" n="48"/>REspondeo dicendum, quod ut 
+        pa<lb ed="#C" n="49" break="no"/>Rteat huius quaestionis veritas, duo 
+        <lb ed="#C" n="50"/>sunt videnda. Primo: utrum aliqua no¬ 
+        <!--133.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="51"/>titia insit animae respectu sui 
+        inseparebi<lb ed="#C" n="52" break="no"/>liter, propter quam se semper dicatur 
+        <lb ed="#C" n="53"/>nosse. Secundo: utrum tale nosse possit 
+        <lb ed="#C" n="54"/>diei intelligere, ita quod proprie 
+        possi<lb ed="#C" n="55" break="no"/>mus concedere, quod anima se semper 
+        <lb ed="#C" n="56"/>aintelligit. Propter primum notandum, 
+        <lb ed="#C" n="57"/>quod in nobis distinguitur dupliciter 
+        ac<lb ed="#C" n="58" break="no"/>tus, primus, &amp; secundus, ut dicitur in 
+        <lb ed="#C" n="59"/>2. de Anima. Et scire est actus primus 
+        <lb ed="#C" n="60"/>considerare est actus secundus, ut 
+        habe<lb ed="#C" n="61" break="no"/>tur ibidem. Inter hos actus hoc interest: 
+        <lb ed="#C" n="62"/>quia ad hoc, quod sciamus, sufficit nos 
+        <lb ed="#C" n="63"/>habere potentiam scibilium, &amp; si super 
+        <lb ed="#C" n="64"/>ea non convertamur: &amp; ideo quandiu 
+        <lb ed="#C" n="65"/>scibilia alicuius scientiae sunt praesentia 
+        <lb ed="#C" n="66"/>aliquo modo animae nostrae per se, vel 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1709">
+                  <lb ed="#C" n="67"/>per suum simile dicimur ea scire, &amp; si de 
+        <lb ed="#C" n="68"/>eis non consideremus, sed ad 
+        considera<lb ed="#C" n="69" break="no"/>re non sufficit scire sine actuali 
+        conver<lb ed="#C" n="70" break="no"/>sione. Si igitur semper essent species 
+        re<lb ed="#C" n="71" break="no"/>rum in nobis, semper eas sciremus: sed quia 
+        <lb ed="#C" n="72"/>anima semper est sibi praesens, semper se 
+        <lb ed="#C" n="73"/>noscere dicitur: ideo 14. de Trin. cap. 
+        <lb ed="#C" n="74"/>6. scribitur: Nec ita sane gignit istam 
+        iusti<lb ed="#C" n="75" break="no"/>tiam suam mens, quando cognando intellect: m 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1731">
+                  <lb ed="#C" n="76"/>e conspicit, tanquam si ante incognita fuerit:  
+        <lb ed="#C" n="77"/>ed ita sibi nota erat quemadmodum notae sunt, 
+        <lb ed="#C" n="78"/>res, quae memoria continentur. Si igitur 
+        spe<lb ed="#C" n="79" break="no"/>cies rerum essent concreatae animae, &amp; 
+        <lb ed="#C" n="80"/>non possent deleri de intellectu, 
+        ani<lb ed="#C" n="81" break="no"/>ma eas nosceret. Cum igitur 
+        ani<lb ed="#C" n="82" break="no"/>na semper sit praesens sibi, &amp; a se ipsa 
+        <lb ed="#C" n="83"/>non possit removeri squia tunc ab 
+        enti<lb ed="#C" n="84" break="no"/>tate recederet) semper anima se nosceret 
+        <lb ed="#C" n="85"/>dicitur.  
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1756">
+                  <lb ed="#C" n="86"/>Viso, quod notitia inest semper 
+        ani<lb ed="#C" n="87" break="no"/>mae respectu sui. Videndum est utrum 
+        <lb ed="#C" n="88"/>tale nosse dicatur proprie intelligere? 
+        <lb ed="#C" n="89"/>Propter quod advertendum, quod 
+        inte<lb ed="#C" n="90" break="no"/>lligere dupliciter sumitur. Vno modo 
+        <lb ed="#C" n="91"/>idem est, quod actualiter considerare: &amp; 
+        <lb ed="#C" n="92"/>secundum istum modum loquitur Phil. 
+        <lb ed="#C" n="93"/>2. Topic. Multa enim scire possumus: multa, 
+        <lb ed="#C" n="94"/>imul cogitare non item: &amp; sic accipiendo a. 
+        <lb ed="#C" n="95"/>Dintelligere, tale nosse non dicitur intel¬ 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1780">
+                  <lb ed="#C" n="96"/>ligere: quia anima non semper de se 
+        <lb ed="#C" n="97"/>considerat. Alio modo accipitur 
+        intel<lb ed="#C" n="98" break="no"/>ligere pro habituali cognitione 
+        princi<lb ed="#C" n="99" break="no"/>piorum. Nam intellectus dividitur 
+        con<lb ed="#C" n="100" break="no"/>tra scientiam: Quia scientia est 
+        conclusio<lb ed="#C" n="101" break="no"/>num, intellectus est principiorum, ut potest 
+        <lb ed="#C" n="102"/>haberi ex 6. Ethic. &amp; ex fine 2. Post, &amp; 
+        <lb ed="#C" n="103"/>sic accipiendo intellectum, intelligere 
+        <lb ed="#C" n="104"/>est habitualiter cognoscere principia. 
+        <lb ed="#C" n="105"/>Nam sicut scire se habet ad scientiam, 
+        <lb ed="#C" n="106"/>sic intelligere se habet ad intellectum: si¬ 
+        <!--134.xml-->
+        <pb ed="#C" n="97"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>cut igitur semper dicimur scire rem, si 
+        <lb ed="#C" n="2"/>ipsa sit aliqualiter animae nostrae praesens: 
+        <lb ed="#C" n="3"/>ita semper dicimur intelligere principia, 
+        <lb ed="#C" n="4"/>si ipsa sint praesentia animae nostrae: &amp; 
+        <lb ed="#C" n="5"/>secundum istum modum verificatur  
+        <lb ed="#C" n="6"/>quod anima se semper intelligit. Nam 
+        <lb ed="#C" n="7"/>cum intellectus agens, &amp; intellectus pos 
+        <lb ed="#C" n="8"/>sibilis sint quaedam principia omnis 
+        scien<lb ed="#C" n="9" break="no"/>tiae in nobis: anima autem, a qua intel 
+        <lb ed="#C" n="10"/>lectus agens &amp; possibilis, ut a sui 
+        prin<lb ed="#C" n="11" break="no"/>cipio sumunt originem, potissime 
+        res<lb ed="#C" n="12" break="no"/>pectu scientiae habet rationem principij 
+        <lb ed="#C" n="13"/>&amp; ideo cognitio animae habitualis tanto 
+        <lb ed="#C" n="14"/>magis debet dici intellectus, vel 
+        intelli<lb ed="#C" n="15" break="no"/>gere, quanto magis habet rationem 
+        pri<lb ed="#C" n="16" break="no"/>mordialis principij. Patet ergo, quod  
+        <lb ed="#C" n="17"/>secundum quod accipitur intelligere 
+        <lb ed="#C" n="18"/>pro tali cognitione, semper se anima 
+        in<lb ed="#C" n="19" break="no"/>telligit, sed prout accipitur pro actuali 
+        <lb ed="#C" n="20"/>consideratione, non. Ista tamen 
+        cogni<lb ed="#C" n="21" break="no"/>tio secundum quam concedimus animam 
+        <lb ed="#C" n="22"/>se semper nosse, magis meretur hoc 
+        no<lb ed="#C" n="23" break="no"/>men, quod est intelligere, quam alia. 
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1863">
+                  <lb ed="#C" n="24"/>Ad cuius evidentiam notandum, quod 
+        <lb ed="#C" n="25"/>quanto actus est magis proximus 
+        poten<lb ed="#C" n="26" break="no"/>tiae, vel naturae, tanto magis meretur  
+        <lb ed="#C" n="27"/>nomen illius: &amp; ideo quia voluntas 
+        im<lb ed="#C" n="28" break="no"/>mediatius fertur in finem, quam in ad 
+        fi<lb ed="#C" n="29" break="no"/>nem, ipsius finis dicitur esse voluntas 
+        <lb ed="#C" n="30"/>Eius autem, quod est ad finem, dicitur electio. 
+        <lb ed="#C" n="31"/>ut vult Phil. 3. Ethic. &amp; Damasc. 2. lib. 
+        <lb ed="#C" n="32"/>cap. 22. ita quia intellectus immediatius 
+        <lb ed="#C" n="33"/>fertur in principia, quam in 
+        conclusio<lb ed="#C" n="34" break="no"/>nes, cognitio principiorum dicitur intel 
+        <lb ed="#C" n="35"/>lectus: tanto ergo secunda acceptio 
+        in<lb ed="#C" n="36" break="no"/>telligere magis meretur ipsum nomen, 
+        <lb ed="#C" n="37"/>quam prima: quanto magis immediate 
+        <lb ed="#C" n="38"/>respicicit illa acceptio potentiam intelle 
+        <lb ed="#C" n="39"/>ctivam, vel materiam, quam prima. De 
+        <lb ed="#C" n="40"/>claratum est ergo, quod anima se 
+        sem<lb ed="#C" n="41" break="no"/>per cognoscit, &amp; illud cognoscere 
+        pro<lb ed="#C" n="42" break="no"/>prie dicitur intelligere, non scire, liquid 
+        hu<lb ed="#C" n="43" break="no"/>considerare, sive cogitare: bene igitur 
+        <lb ed="#C" n="44"/>dictum est ab <name xml:id="Gi9qrR-e24207-Nd1e1910" ref="#Augustine">Aug.</name> 14. de Trin. cap. 6. 
+        <lb ed="#C" n="45"/>quod mens semper se intelligit, sed non 
+        <lb ed="#C" n="46"/>se semper cogitat.  
+      </p>
+               <p xml:id="Gi9qrR-e24207-d1e1919">
+                  <lb ed="#C" n="47"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="48" break="no"/>dum, quod intellectus noster dicitur 
+        po<lb ed="#C" n="49" break="no"/>tentia pura in genere intelligibilium 
+        <lb ed="#C" n="50"/>per quamdam similitudinem: quia 
+        si<lb ed="#C" n="51" break="no"/>cut a potentia pura non egreditur 
+        ali<lb ed="#C" n="52" break="no"/>quis actus completus, ita nec ab isto 
+        in<lb ed="#C" n="53" break="no"/>tellectu egreditur; sed non sequitur 
+        <lb ed="#C" n="54"/>quod aliquis actus incompletus egredi 
+        <lb ed="#C" n="55"/>non possit. Vel possumus dicere, quod 
+        <lb ed="#C" n="56"/>huiusmodi intelligere proprie non dicit  
+        <!--134.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>actum, sed solum dicit praesentiam 
+        ani<lb ed="#C" n="58" break="no"/>mae sibi ipsi, quae largo modo actus esse 
+        <lb ed="#C" n="59"/>conceditur. Ad secundum dicendum, 
+        <lb ed="#C" n="60"/>quod illud intelligere, de quo hic 
+        loqui<lb ed="#C" n="61" break="no"/>mur, neque est phantasia, nec cum 
+        <lb ed="#C" n="62"/>phantasia. Ad tertium dicendum, quod 
+        <lb ed="#C" n="63"/>actus potentiarum rationalium dicitur? 
+        <lb ed="#C" n="64"/>esse ad opposita, si actus est transiens in 
+        <lb ed="#C" n="65"/>exteriorem materiam, vel secundus; 
+        <lb ed="#C" n="66"/>non si est primus, &amp; non transiens, cuius 
+        <lb ed="#C" n="67"/>modi est iste. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

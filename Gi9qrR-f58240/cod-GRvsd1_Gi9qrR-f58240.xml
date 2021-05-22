@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="609"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f58240"><!-- l1-d33prooem -->
+            <head xml:id="Gi9qrR-f58240-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f58240-d1e111">
+      <!--634.xml-->
+               <pb ed="#C" n="609"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DISTINCTIO XSXXTIJ 
+      <lb ed="#C" n="2"/>VTRVM PROPRIETATES PERSONARVMSINT IPSAEPER a 
+      <lb ed="#C" n="3"/>nae, vel Deus in Divina essentia? 
+    </p>
+            <p xml:id="Gi9qrR-f58240-d1e127">
+      <!--634.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="4"/>osT supradicta. Postquam 
+      <lb ed="#C" n="5"/>Mag. determinavit de es. A 
+      <lb ed="#C" n="6"/>sentia, &amp; Personis, &amp; 
+      pro<lb ed="#C" n="7" break="no"/>prietatibus, hic coparat 
+      <lb ed="#C" n="8"/>hoc ad invicem. Et duo 
+      <lb ed="#C" n="9"/>facit: quia 1. comparat 
+      <lb ed="#C" n="10"/>proprietates ad Personam 
+      <lb ed="#C" n="11"/>&amp; essentiam. 2. comparat 
+      <lb ed="#C" n="12"/>ipsas Personas ad essentiam, ibi: Praedictis etiam. In 
+      <lb ed="#C" n="13"/>princip. 34. dist. Circa 1. duo facit: quia 1. 
+      de<lb ed="#C" n="14" break="no"/>terminet veritatem. 2. ponit obiectiones verita 
+      <lb ed="#C" n="15"/>tem negantium, ibi: Hoc autem aliqui. Circa 1. duo 
+      <lb ed="#C" n="16"/>cit: quia 1. praemitrit quaestiones, quas 
+      determi<lb ed="#C" n="17" break="no"/>nare intendit, videlicet, utrum proprietates sint 
+      <lb ed="#C" n="18"/>ipsae Personae, &amp; sint in Divinis Personis? Et  
+      <lb ed="#C" n="19"/>utrum sint idem quod Divina essentia? 2. 
+      pro<lb ed="#C" n="20" break="no"/>positarum quaestionum veritatem determinat, ibi:  
+      <lb ed="#C" n="21"/>Quod enim in Personis. Circa quod duo facit: quia 
+      <lb ed="#C" n="22"/>1. facit quod dictum est. 2. ad confirmationem 
+      <lb ed="#C" n="23"/>dicti specialiter adducit auctoritates Hilarij. 
+      Se<lb ed="#C" n="24" break="no"/>cunda ibi: Quod enim proprietas. Circa primum duo 
+      <lb ed="#C" n="25"/>facit: quia 1. determinat veritatem ex eo quod 
+      <lb ed="#C" n="26"/>proprietates comparatur ad Personas. 2. prout 
+      <lb ed="#C" n="27"/>comparantur ad essentiam, ibi: Cumque de 
+      simpli<lb ed="#C" n="28" break="no"/>eitate. Circa primum tria facit: quia 1. dicit  
+      <lb ed="#C" n="29"/>quod per multas auctoritates superius adductas 
+      <lb ed="#C" n="30"/>probari potest proprietates esse in Personis. 2. 
+      <lb ed="#C" n="31"/>adducit rationem ad ostendendum quae sunt in 
+      <lb ed="#C" n="32"/>Personis &amp; Personae: nam cum huiusmodi 
+      pro<lb ed="#C" n="33" break="no"/>prietates sint ab aeterno, non est intelligibile 
+      <lb ed="#C" n="34"/>quando ipsae sint in Deo &amp; etiam in Personis. 
+      <lb ed="#C" n="35"/>Rursum quia ipsae Personae simplices sunt non 
+      <lb ed="#C" n="36"/>est intelligibile quando etiam sint ipsae Personae: 
+      <lb ed="#C" n="37"/>quia quidquid est in Persona est Persona prop 
+      <lb ed="#C" n="38"/>ter sui simplicitatem. 3. adducit auctoritatem 
+      <lb ed="#C" n="39"/>Hieronymi ad ostendendum proprietates esse ipsas 
+      <lb ed="#C" n="40"/>Personas. Secunda ibi: Curi ergo. Tertia ibi: Quae 
+      <lb ed="#C" n="41"/>circa. Deinde cum dicit: Camque. Comparat 
+      pro<lb ed="#C" n="42" break="no"/>prietates ad essentiam. Et duo facit: quia 1. oss 
+      <lb ed="#C" n="43"/>tendit omne, quod in Deo est, esse ipsam Divinam 
+      <lb ed="#C" n="44"/>essentiam propter Dei simplicitatem. 2. ex hoc  
+      <lb ed="#C" n="45"/>concludit proprietates esse Divinam essentiam: 
+      <lb ed="#C" n="46"/>quia in Ceo sunt, &amp; esse Personas, &amp; in 
+      Perso<lb ed="#C" n="47" break="no"/>nis. Secunda ibi: Si ergo proprietates. 
+    </p>
+            <p xml:id="Gi9qrR-f58240-d1e229">
+               <lb ed="#C" n="48"/>Tunc sequitur illa pars. Quod enim. In qua 
+      <lb ed="#C" n="49"/>confirmat per Hilarium quod dixerat. Et duod 
+      <lb ed="#C" n="50"/>facit: quia 1. adducit auctoritatem Hilarij 
+      di<lb ed="#C" n="51" break="no"/>centem quod proprietas est Divina natura. 2. 
+      <lb ed="#C" n="52"/>astruetem, quod proprietas est ipsa Persona, ibi: 
+      <lb ed="#C" n="53"/>ddem in 7. Deinde cum dicit: Hoc autem aliqui. 
+      Ad<lb ed="#C" n="54" break="no"/>ducit obiectiones improbantium veritatem. Et  
+      <lb ed="#C" n="55"/>duo facit: quia 1. adducit obiectionem contra 
+      <lb ed="#C" n="56"/>hoc, quod proprietas est idem quod Persona. 2. 
+      <lb ed="#C" n="57"/>contra hoc quod est idem quod natura, ibi: Sed 
+      <lb ed="#C" n="58"/>iterum. Circa primum duo facit: quia 1. ponit 
+      <lb ed="#C" n="59"/>obiectionem dicens: quod quidam negant pro¬ 
+      <!--634.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="60"/>prietates esse Personas, sed esse extrinsecus 
+      affi<lb ed="#C" n="61" break="no"/>xas: nam cum proprietates determinent Perso 
+      <lb ed="#C" n="62"/>nas non sunt Personae. 2 obiectionem solvit 
+      di<lb ed="#C" n="63" break="no"/>cens; quod non propter hoc negare debemus, 
+      <lb ed="#C" n="64"/>proprietates non esse Personas: quia Personas 
+      <lb ed="#C" n="65"/>determinant: nam Personae se ipsis det 
+      erminan<lb ed="#C" n="66" break="no"/>tur. Secunda ibi: Contra quod dicimus. Deinde cum 
+      <lb ed="#C" n="67"/>dicit: Sed iterum. Arguit proprietates non esse 
+      Di<lb ed="#C" n="68" break="no"/>vinam naturam. Et duo facit: quia 1. prohat 
+      <lb ed="#C" n="69"/>hoc per rationem. 2. per auctoritates. 
+      Secun<lb ed="#C" n="70" break="no"/>da ibi: Verumtamen notandum. Circa primum duo 
+      <lb ed="#C" n="71"/>facit: quia 1. facit quod dictum est. 2. quasdam 
+      <lb ed="#C" n="72"/>dubietates annexas addit, ibi: Ceterum haereticorum. 
+      <lb ed="#C" n="73"/>Circa primum duo facit: quia 1. ostendit proprie 
+      <lb ed="#C" n="74"/>tates non esse Divinam naturam: quia cum 
+      Per<lb ed="#C" n="75" break="no"/>sonae in Divina natura non differant, si proprie 
+      <lb ed="#C" n="76"/>tates essent Di vina natura, propietatibus non 
+      <lb ed="#C" n="77"/>differrenti2. respondet per Hilarium quod hoc  
+      <lb ed="#C" n="78"/>determinare non debet: quia est supra mentem 
+      <lb ed="#C" n="79"/>supra rationem, ibi: Horum doctrinis. Deinde cum 
+      <lb ed="#C" n="80"/>dicit: Ceterum. Adducit quasdam obiectiones 
+      <lb ed="#C" n="81"/>annexas. Et tria facit: quia 1 arguit eandem 
+      <lb ed="#C" n="82"/>rem, ut Divinam essentiam, esse Patrem &amp; Filium, 
+      <lb ed="#C" n="83"/>etiam adiective sumendo Patrem &amp; Filium: &amp; 
+      <lb ed="#C" n="84"/>etiam generare &amp; gigni, cum in ea sit 
+      paterni<lb ed="#C" n="85" break="no"/>tas &amp; filiatio. 2. respondet per Damasc. quod 
+      <lb ed="#C" n="86"/>hufusmodi proprietates sic sunt in Divina 
+      essen<lb ed="#C" n="87" break="no"/>tia, quod eam non determinant, sed determinant 
+      <lb ed="#C" n="88"/>hypostases. Tertio quaerenti, quare proprietates 
+      <lb ed="#C" n="89"/>hypostases determinant non essentiam, respondet per 
+      <lb ed="#C" n="90"/>Hilarium, quod hoc est supra intellectum &amp; 
+      supra<lb ed="#C" n="91" break="no"/>mentem. Secunda ibi: Quorumdam audaciae. Tertia 
+      <lb ed="#C" n="92"/>ibi: Sed forte quaeres. Deinde cum dicit: 
+      Verumta<lb ed="#C" n="93" break="no"/>men. Probat per auctoritates proprietates non 
+      <lb ed="#C" n="94"/>esse Divinam essentiam. Et duo facit secundum 
+      <lb ed="#C" n="95"/>quod dupliciter hoc probat. Secunda ibi: Item 
+      <lb ed="#C" n="96"/>illis. Circa primum duo facit: quia 1. adducit 
+      <lb ed="#C" n="97"/>quandam auctoritatem Agu. in qua habetur quod  
+      <lb ed="#C" n="98"/>Deus est nomen commune substantiae, non Pater: 
+      <lb ed="#C" n="99"/>ex quo haberi videtur quod proprietas non sit 
+      <lb ed="#C" n="100"/>Divina essentia. Item in eadem auctoritate 
+      di<lb ed="#C" n="101" break="no"/>citur quod Pater non nominat id, quod est, 
+      ex<lb ed="#C" n="102" break="no"/>quo idem videtur concludi. 2. solvit dicens: 
+      <lb ed="#C" n="103"/>quod quia Pater non est eodem formaliter 
+      Pa<lb ed="#C" n="104" break="no"/>ter quo Deus: quia proprietate est Pater non 
+      subs<lb ed="#C" n="105" break="no"/>tantia, dictum est, quod Pater non est 
+      <lb ed="#C" n="106"/>nomen substantiae; non quod proprietas non sic 
+      <lb ed="#C" n="107"/>ipsa substantia: sic etiam solvit ad aliud:quia 
+      Pa<lb ed="#C" n="108" break="no"/>ter non est illud quod est: quia non illo Pater 
+      <lb ed="#C" n="109"/>test Pater formaliter, quo est, quia essentiaest, 
+      no<lb ed="#C" n="110" break="no"/>tione est Pater. Secunda ibi: Nos autem, 
+      ali<lb ed="#C" n="111" break="no"/>ter. 
+    </p>
+            <p xml:id="Gi9qrR-f58240-d1e375">
+               <lb ed="#C" n="112"/>Tunc sequitur illa pars. Item super illis. In 
+      <lb ed="#C" n="113"/>qua obijcit per auctoritatem aliam. Et duo 
+      fa<lb ed="#C" n="114" break="no"/>cit: quia 1. adducit auctoritatem, in qua 
+      conti<lb ed="#C" n="115" break="no"/>netur, quod Verbum secundum quod Verbum, 
+      <!--635.xml-->
+      <pb ed="#C" n="610"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>non est id quod Pater. Ex quo videtur haberi 
+      <lb ed="#C" n="2"/>equod proprietas, qua Verbum est Verbum, nond 
+      <lb ed="#C" n="3"/>est Divina essentia. Secundo solvit quod 
+      ver<lb ed="#C" n="4" break="no"/>bum secundum quod huiusmodi no est id quod 
+      Pa<lb ed="#C" n="5" break="no"/>ter: quia non eadem proprietate Verbum est 
+      <lb ed="#C" n="6"/>Verbum, &amp; Pater est Pater: utraque tamen 
+      pro<lb ed="#C" n="7" break="no"/>prietas est Divina essentia: unde proprietas qua 
+      <!--635.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="8"/>Verbum est Verbum, &amp; ipsum Verbum non 
+      <lb ed="#C" n="9"/>est id, quod Pater, quia non est hvpostasis 
+      Pa<lb ed="#C" n="10" break="no"/>tris, &amp; est id quod Pater: quia est Divina 
+      essen<lb ed="#C" n="11" break="no"/>tia, quae est Pater. Secunda ibi: Ad quod dicimus. 
+      <lb ed="#C" n="12"/>In quoterminatur sententia lectionis, &amp; 
+      distin<lb ed="#C" n="13" break="no"/>ctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

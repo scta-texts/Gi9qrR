@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e59471"><!-- l1-d10dublit -->
+            <head xml:id="Gi9qrR-e59471-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-e59471-d1e111">
+               <lb ed="#C" n="58"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-e59471-d1e116">
+               <lb ed="#C" n="59"/>SVPER litteram notandum, quod  
+      <lb ed="#C" n="60"/>Scum dicit Spiritum Sanctum 
+      es<lb ed="#C" n="61" break="no"/>se amorem, charitatem, &amp; dilectionem 
+      <lb ed="#C" n="62"/>nomina illa, secundum quae Spiritus 
+      <lb ed="#C" n="63"/>Sanctus multipliciter nominatur, non 
+      <lb ed="#C" n="64"/>sunt Synonyma: nam amor dicit 
+      in<lb ed="#C" n="65" break="no"/>clinationem quamdam apperitus, sive 
+      <lb ed="#C" n="66"/>lla inclinatio sit naturalis, sive 
+      anima<lb ed="#C" n="67" break="no"/>lis, sive qualiscumque: dilectio autem 
+      <lb ed="#C" n="68"/>supra talem inclinationem addit 
+      electio<lb ed="#C" n="69" break="no"/>nem, quod ipsum nomen insinuat: quia 
+      <lb ed="#C" n="70"/>dilectio electionem quodammodo 
+      im<lb ed="#C" n="71" break="no"/>portat: charitas supra dilectionem 
+      ad<lb ed="#C" n="72" break="no"/>dit finalem complacentiam: quia 
+      cha<lb ed="#C" n="73" break="no"/>ritate diligitur, quod charum 
+      habe<lb ed="#C" n="74" break="no"/>tur.  
+    </p>
+            <p xml:id="Gi9qrR-e59471-d1e153">
+               <lb ed="#C" n="75"/>Item super illud: Vnitas sive sanctitas 
+      <lb ed="#C" n="76"/>Notandum, quod Spiritus Sanctus 
+      di<lb ed="#C" n="77" break="no"/>citur unitas Patris, &amp; Filij inquantum 
+      <lb ed="#C" n="78"/>est nexus eorum: Sanctitas autem 
+      dici<lb ed="#C" n="79" break="no"/>tur inquantum procedit per modum 
+      <lb ed="#C" n="80"/>voluntatis, in qua proprie existit 
+      Sancti<lb ed="#C" n="81" break="no"/>tas, vel Sanctitas dicitur inquantum est 
+      <lb ed="#C" n="82"/>purus nexus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

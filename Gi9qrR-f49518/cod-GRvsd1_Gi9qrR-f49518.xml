@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="576"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f49518"><!-- l1-d31q1 -->
+            <head xml:id="Gi9qrR-f49518-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-f49518-d1e111">
+      <!--601.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="26"/>QVAESTIO I. 
+      <lb ed="#C" n="27"/>De aequalitate Divinarum Personarum. 
+    </p>
+            <p xml:id="Gi9qrR-f49518-d1e122">
+               <lb ed="#C" n="28"/>E duobus Magister in 
+      <lb ed="#C" n="29"/>praesenti distinctione 
+      <lb ed="#C" n="30"/>principaliter 
+      determi<lb ed="#C" n="31" break="no"/>nat, videlicet, de 
+      aequa<lb ed="#C" n="32" break="no"/>litate, &amp; appropria 
+      <lb ed="#C" n="33"/>tione: ideo de his duo 
+      <lb ed="#C" n="34"/>bus quaeremus. Circa 
+      <lb ed="#C" n="35"/>1. quaeremus tria. Primo utrum 
+      aequa<lb ed="#C" n="36" break="no"/>litas in Divinis dicat relationem realem. 
+      <lb ed="#C" n="37"/>vel secundum rationem tantum? 2. 
+      u<lb ed="#C" n="38" break="no"/>trum eadem aequalitate Pater sit 
+      aequa<lb ed="#C" n="39" break="no"/>lis Filio, &amp; e converso? 3. utrum dicat 
+      <lb ed="#C" n="40"/>quid positive, vel quid privative: 
+    </p>
+            <div xml:id="Gi9qrR-f49518-Dd1e153">
+               <head xml:id="Gi9qrR-f49518-Hd1e155">Articulus 1</head>
+               <p xml:id="Gi9qrR-f49518-d1e158">
+                  <lb ed="#C" n="41"/>ARTICVLVS I. 
+        <lb ed="#C" n="42"/>Vtrum in Divinis aequalitas sit relatio 
+        <lb ed="#C" n="43"/>realis? 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e167">
+                  <lb ed="#C" n="44"/>AD 1. sic proceditur: videtur quod  
+        <lb ed="#C" n="45"/>aequalitas sit relatio realis: quia seci 
+        <lb ed="#C" n="46"/>dumComm. 5. Meta. haec est causa, quare 
+        <lb ed="#C" n="47"/>aliqua referuntur realiter, &amp; non 
+        refe<lb ed="#C" n="48" break="no"/>runtur: quia in aliquorum relativorum 
+        <lb ed="#C" n="49"/>substantia aliquid reale ponitur: propter 
+        <lb ed="#C" n="50"/>quod referri dicuntur, ut in duplo &amp; 
+        di<lb ed="#C" n="51" break="no"/>midio ponitur quantitas: sed scibile ret 
+        <lb ed="#C" n="52"/>fertur ad scientiam secundum rationem: 
+        <lb ed="#C" n="53"/>quia nihil ponitur in scibili secundum 
+        <lb ed="#C" n="54"/>rem, per hoc quod refertur ad scientiam 
+        <lb ed="#C" n="55"/>sed in Personis Divinis aliquid ponitur, 
+        <lb ed="#C" n="56"/>propter quod aequales dicuntur: quia 
+        <lb ed="#C" n="57"/>unitas magnitudinis: ergo ibi aequalitas 
+        <lb ed="#C" n="58"/>est realis relatio.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e202">
+        Praeterea: haec videtur 
+        <lb ed="#C" n="59"/>differentia inter relationes, quae 
+        compe<lb ed="#C" n="60" break="no"/>tunt Deo ex tempore, &amp; ab aeterno: quia 
+        <!--601.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="61"/>quae competunt ei ex tempore, sunt in 
+        <lb ed="#C" n="62"/>Deo secundum rationem; sed quae 
+        com<lb ed="#C" n="63" break="no"/>petunt ab aeterno, sunt in eo secundum 
+        <lb ed="#C" n="64"/>re; sed aequalitas competit Deo ab 
+        aeter<lb ed="#C" n="65" break="no"/>no, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e224">
+        Praeterea: quae solum sunt 
+        <lb ed="#C" n="66"/>relationes secundum rationem, possunt; 
+        <lb ed="#C" n="67"/>advenire alicui absq; sui mutatione. Nam 
+        <lb ed="#C" n="68"/>aliquis de non Diio potest fieri Diis 
+        abs<lb ed="#C" n="69" break="no"/>que eo quod mutetur: si ergo aequalitas 
+        <lb ed="#C" n="70"/>reiationem secundum rationem diceret,  
+        <lb ed="#C" n="71"/>posset aliqua Persona de non aequali fie 
+        <lb ed="#C" n="72"/>ri aequalis absque sui mutatione, quod 
+        <lb ed="#C" n="73"/>non est intelligibile. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e245">
+        Praeterea: quae 
+        so<lb ed="#C" n="74" break="no"/>lum secundum rationem sunt, talia sunt, 
+        <lb ed="#C" n="75"/>entia secundum quid, &amp; apud animam; 
+        <lb ed="#C" n="76"/>sed una Persona verissime est aequalis 
+        <lb ed="#C" n="77"/>alteri: ergo aequalitas non est relatio solum 
+        <lb ed="#C" n="78"/>secundum rationem. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e258">
+                  <lb ed="#C" n="79"/>In contrarium est: quia relationes 
+        <lb ed="#C" n="80"/>reales sunt distinctivae Personarum; sed  
+        <lb ed="#C" n="81"/>per equalitatem Personae non 
+        distinguun<lb ed="#C" n="82" break="no"/>tur, licet aliquo modo distinctae 
+        demon<lb ed="#C" n="83" break="no"/>strentur: ut Magister tangit in littera, 
+        <lb ed="#C" n="84"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e274">
+        Praeterea: relationes reales 
+        po<lb ed="#C" n="85" break="no"/>nuntur quatuor: sed si aequalitas esset 
+        <lb ed="#C" n="86"/>realis relatio essent plures quatuor, ergo 
+        <lb ed="#C" n="87"/>&amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e283">
+        Praeterea <name xml:id="Gi9qrR-f49518-Nd1e285" ref="#Augustine">Aug.</name> 5. de Trin. cap. 6. 
+        <lb ed="#C" n="88"/>vult quod aequalitas in Divinis dicatur? 
+        <lb ed="#C" n="89"/>secundum substantiam; sed relatio, quae 
+        <lb ed="#C" n="90"/>pertinet ad essentiam, non potest esse 
+        <lb ed="#C" n="91"/>realis, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e297">
+                  <lb ed="#C" n="92"/>RESOLVTIO. 
+        <lb ed="#C" n="93"/>AEqualitas in Divinis rationis relatio est.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e304">
+                  <lb ed="#C" n="94"/>REspond. dicendum, quod 
+        aequali<lb ed="#C" n="95" break="no"/>tas in Divinis est relatio rationis; 
+        <lb ed="#C" n="96"/>sed ut pateat quomodo hoc sit: notandum 
+        <lb ed="#C" n="97"/>quod relativa dupliciter distinguuntur  
+        <!--602.xml-->
+        <pb ed="#C" n="577"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>quia quedam sunt relativa similium 
+        <lb ed="#C" n="2"/>nominum, quaedam dissimilium, utA 
+        <lb ed="#C" n="3"/>habitum est per Philosophum 5. Meta. ad 
+        <lb ed="#C" n="4"/>tria genera reducuntur, ad relativa 
+        mo<lb ed="#C" n="5" break="no"/>do numeri, secundum potentiam, &amp; 
+        se<lb ed="#C" n="6" break="no"/>cundum mensuram: dicuntur enim 
+        prae<lb ed="#C" n="7" break="no"/>dicta dissimilium nominum: quia utrum 
+        <lb ed="#C" n="8"/>que relativorum non simpliciter induit 
+        <lb ed="#C" n="9"/>idem nomen: nam mensura &amp; 
+        mensu<lb ed="#C" n="10" break="no"/>ratum, agens &amp; actum, duplum &amp; 
+        sub<lb ed="#C" n="11" break="no"/>duplum, non penitus idem nomen 
+        no<lb ed="#C" n="12" break="no"/>minant. Et sicut ad tria genera reducun 
+        <lb ed="#C" n="13"/>tur relativa dissimilium nominum, ita 
+        <lb ed="#C" n="14"/>ad tria reduci possunt, quae sunt similiums 
+        <lb ed="#C" n="15"/>nam talia secundum unitatem accipiu 
+        <lb ed="#C" n="16"/>tur. Vnitas autem tripliciter accipitur  
+        <lb ed="#C" n="17"/>in substantia, in quantitate, &amp; qualitate 
+        <lb ed="#C" n="18"/>&amp; secundum has tres unitates triplici 
+        <lb ed="#C" n="19"/>ter accipitur relatio: nam secundum 
+        uni<lb ed="#C" n="20" break="no"/>tatem in substantia accipitur identitas 
+        <lb ed="#C" n="21"/>secundum unitatem quantitatis 
+        aequa<lb ed="#C" n="22" break="no"/>litas, &amp; secundum unitatem qualitatis 
+        <lb ed="#C" n="23"/>similitudo, &amp; hoc est quod Philosophus innuit 
+        <lb ed="#C" n="24"/>5. Meta. Vnum in substantia facit idem 
+        <lb ed="#C" n="25"/>in quantitate aequale, in qualitate simile: &amp; non 
+        <lb ed="#C" n="26"/>solum relativa similium nominum 
+        con<lb ed="#C" n="27" break="no"/>veniunt cum relativis dissimilium: quia 
+        <lb ed="#C" n="28"/>ad tria genera reducuntur, ut illa, sed etiam 
+        <lb ed="#C" n="29"/>conveniunt cum illis: quia sicut ibi sum, 
+        <lb ed="#C" n="30"/>duo genera relativorum secundum 
+        ren<lb ed="#C" n="31" break="no"/>&amp; unum secundum rationem; ita &amp; hic. 
+        <lb ed="#C" n="32"/>Nam relativa modo numeri &amp; secundum 
+        <lb ed="#C" n="33"/>potentiam habent relationem realem; 
+        <lb ed="#C" n="34"/>sed relatio secundum mensuram dicit 
+        <lb ed="#C" n="35"/>relationem secundum rationem; sic 
+        re<lb ed="#C" n="36" break="no"/>latio sumpta secundum unitatem 
+        quan<lb ed="#C" n="37" break="no"/>titatis &amp; qualitatis: ut aequalitas &amp; simi 
+        <lb ed="#C" n="38"/>litudo relationem realem dicit; 
+        accep<lb ed="#C" n="39" break="no"/>ta tamen secundum unitatem in 
+        sub<lb ed="#C" n="40" break="no"/>stantia relationem rationis importat: nam 
+        <lb ed="#C" n="41"/>idem eidem idem relationem nominat 
+        <lb ed="#C" n="42"/>rationis; igitur quia relatio realis &amp; se 
+        <lb ed="#C" n="43"/>cundum rationem, quasi uniformiter 
+        ac<lb ed="#C" n="44" break="no"/>cipitur in relationibus similium nominum 
+        <lb ed="#C" n="45"/>&amp; dissimilium, declaratio veritatis in 
+        <lb ed="#C" n="46"/>relationibus dissimilium adiuvat ad 
+        de<lb ed="#C" n="47" break="no"/>clarationem similium; sed ut superius 
+        <lb ed="#C" n="48"/>in distinctione 30. dicebatur, quando 
+        <lb ed="#C" n="49"/>relativa dissimilium nominum, ut 
+        relati<lb ed="#C" n="50" break="no"/>va secundum potentiam, inter quae 
+        attem<lb ed="#C" n="51" break="no"/>ditur realis relatio, coincidunt in idem 
+        <lb ed="#C" n="52"/>cum relativis secundum mensuram, 
+        in<lb ed="#C" n="53" break="no"/>ter quae est relatio rationis, tunc idem 
+        <lb ed="#C" n="54"/>est iudicium de relativis secundum 
+        po<lb ed="#C" n="55" break="no"/>tentiam &amp; secundum mensuram: &amp; ideo 
+        <lb ed="#C" n="56"/>relatio inter Deum &amp; creaturam, licet  
+        <!--602.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>sit secundum potentiam: quia est 
+        agen<lb ed="#C" n="58" break="no"/>tis ad actum, tamen quia Deus est men¬ 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e453">
+                  <lb ed="#C" n="59"/>sura creaturarum omnium non 
+        refer<lb ed="#C" n="60" break="no"/>tur ad creaturam realiter, sed secundum 
+        <lb ed="#C" n="61"/>rationem: igitur sic in relationibus 
+        si<lb ed="#C" n="62" break="no"/>milium nominum se habebit, quod 
+        <lb ed="#C" n="63"/>quando similitudo vel aequalitas 
+        co<lb ed="#C" n="64" break="no"/>incidunt in idem cum identitate, idem 
+        <lb ed="#C" n="65"/>iudicium erit de istis &amp; de identitate: 
+        <lb ed="#C" n="66"/>&amp; quia identitas est relatio rationis, 
+        si<lb ed="#C" n="67" break="no"/>militudo &amp; aequalitas ab identitate non 
+        <lb ed="#C" n="68"/>differentes relationem rationis 
+        impor<lb ed="#C" n="69" break="no"/>tabunt: &amp; quia licet in creaturis 
+        magni<lb ed="#C" n="70" break="no"/>tudo &amp; qualitas non transeant in 
+        sub<lb ed="#C" n="71" break="no"/>stantiam: propter quod similitudo, &amp; 
+        <lb ed="#C" n="72"/>aequalitas ab identitate differunt; in 
+        Di<lb ed="#C" n="73" break="no"/>vinis autem ubi omnia absoluta in 
+        sub<lb ed="#C" n="74" break="no"/>stantiam transeunt: quia Deus est sine 
+        <lb ed="#C" n="75"/>quantitate magnus, sine qualitate bonus:  
+        <lb ed="#C" n="76"/>aequalitas &amp; similitudo ab identitate non 
+        <lb ed="#C" n="77"/>differunt: &amp; ideo <name xml:id="Gi9qrR-f49518-Nd1e496" ref="#Augustine">Aug.</name> 5. de Trin. cap 
+        <lb ed="#C" n="78"/>6. dicit aequalitatem in Divinis attendi 
+        <lb ed="#C" n="79"/>secundum substantiam: &amp; Magister in 
+        <lb ed="#C" n="80"/>littera dicit aequalitatem esse naturae unita 
+        <lb ed="#C" n="81"/>tem &amp; identitatem: &amp; ideo licet in 
+        crea<lb ed="#C" n="82" break="no"/>turis similitudo &amp; qualitas dicant 
+        rela<lb ed="#C" n="83" break="no"/>tionem realem, identitas autem 
+        secun<lb ed="#C" n="84" break="no"/>dum rationem, &amp; non sit idem iudicium de 
+        <lb ed="#C" n="85"/>eis &amp; de identitate; in Divinis autem ubi 
+        <lb ed="#C" n="86"/>aequalitas &amp; similitudo, ut ostensum est, 
+        <lb ed="#C" n="87"/>ab identitate non differunt, de eis &amp; de 
+        <lb ed="#C" n="88"/>identitate idem est iudieium. Erunt 
+        igi<lb ed="#C" n="89" break="no"/>tur praedictae, relationes rationis, ut  
+        <lb ed="#C" n="90"/>identitas: &amp; hoc est quod Magister 
+        <lb ed="#C" n="91"/>dicit in littera, quod aequalitas est 
+        <lb ed="#C" n="92"/>tantum appellatio relativa non relatio.  
+        <lb ed="#C" n="93"/>Sed si sic dicimus, quod credimus 
+        be<lb ed="#C" n="94" break="no"/>ne esse dictum, quaedam dubitatio 
+        no<lb ed="#C" n="95" break="no"/>bis occurit. Nam sicut aequalitas est idemt 
+        <lb ed="#C" n="96"/>cum identitate in Divinis, ita identitas 
+        <lb ed="#C" n="97"/>est idem cum ae qualitate: sicut ergo 
+        ar<lb ed="#C" n="98" break="no"/>guitur propter huiusmodi identitatem 
+        <lb ed="#C" n="99"/>quod aequalitas est relatio rationis, sic 
+        <lb ed="#C" n="100"/>videtur posse argui, quod idetitas sit 
+        re<lb ed="#C" n="101" break="no"/>latio realis rei. Quare igitur magis 
+        aequa<lb ed="#C" n="102" break="no"/>litas trahitur ad naturam identitatis 
+        <lb ed="#C" n="103"/>quam identitas ad naturam 
+        aequalita<lb ed="#C" n="104" break="no"/>tis. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e558">
+                  <lb ed="#C" n="105"/>Hoc autem duplici via solvere 
+        pos<lb ed="#C" n="106" break="no"/>sumus. Primo ex fundamento 
+        relatio<lb ed="#C" n="107" break="no"/>num: nam aequalitas, ut dictum est, 
+        fun<lb ed="#C" n="108" break="no"/>datur in quantitate, similitudo in quali 
+        <lb ed="#C" n="109"/>tate, identitas in substantia: &amp; quia in 
+        <lb ed="#C" n="110"/>Divinis alia praedicamenta transcunt 
+        in<lb ed="#C" n="111" break="no"/>substantiam; substantia vero non trahitur  
+        <lb ed="#C" n="112"/>ad naturam aliorum praedicamentorum, 
+        <!--603.xml-->
+        <pb ed="#C" n="578"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>idem est iudicium de aequalitate &amp; 
+        simili<lb ed="#C" n="2" break="no"/>tudine in Divinis, &amp; de idetitate, &amp; no 
+        <lb ed="#C" n="3"/>e converso: erit igitur similitudo &amp; 
+        ae<lb ed="#C" n="4" break="no"/>qualitas relatio rationis ut identitas. 
+        Se<lb ed="#C" n="5" break="no"/>cunda via sumi potest ex ipsis relativis, 
+        <lb ed="#C" n="6"/>nam ad hoc quod aliqua realiter 
+        referan<lb ed="#C" n="7" break="no"/>tur secundum relationem similem, quia 
+        <lb ed="#C" n="8"/>de tali loquimur, oportet quod realem 
+        <lb ed="#C" n="9"/>distinctionem habeant. Haec autem 
+        rea<lb ed="#C" n="10" break="no"/>lis distinctio non secundum quodcum. 
+        <lb ed="#C" n="11"/>que est attedenda; sed secundum id se 
+        <lb ed="#C" n="12"/>cundum quod referuntur: nam ex eo 
+        <lb ed="#C" n="13"/>quod aliqua realiter referuntur, 
+        reali<lb ed="#C" n="14" break="no"/>ter oportet esse distincta: &amp; ideo 
+        dici<lb ed="#C" n="15" break="no"/>mus relationem identitatis esse 
+        relatio<lb ed="#C" n="16" break="no"/>nem rationis: quia cum eadem sit sub 
+        <lb ed="#C" n="17"/>stantia in utroque relativorum, secundum 
+        <lb ed="#C" n="18"/>quod aliquid dicitur idem sibi, idem ad 
+        <lb ed="#C" n="19"/>se ipsum non habebit realem relationem, cum  
+        <lb ed="#C" n="20"/>secudum hoc a se ipso sit realiter 
+        indi<lb ed="#C" n="21" break="no"/>stinctum; sed cum aliquid dicitur 
+        aequa<lb ed="#C" n="22" break="no"/>le alteri potest hoc esse relatione reali: 
+        <lb ed="#C" n="23"/>quia quantitas unius potest habere esse 
+        <lb ed="#C" n="24"/>distinctum realiter a quantitate alterius; 
+        <lb ed="#C" n="25"/>sed cum Filius dicitur aequalis Patri, 
+        ea<lb ed="#C" n="26" break="no"/>dem magnitudo realiter intelligitur in 
+        <lb ed="#C" n="27"/>Patre &amp; Filio. Et quia in creaturis 
+        aequa<lb ed="#C" n="28" break="no"/>litas est relatio realis propter 
+        diversita<lb ed="#C" n="29" break="no"/>tem magnitudinis in utroque 
+        extremo<lb ed="#C" n="30" break="no"/>rum; &amp; idetitas est relatio rationis prop 
+        <lb ed="#C" n="31"/>ter identitatem substantiae: in Divinis 
+        mo<lb ed="#C" n="32" break="no"/>dus equalitatis reducetur ad modum 
+        idem<lb ed="#C" n="33" break="no"/>titatis: quia eadem est magnitudo, sicut  
+        <lb ed="#C" n="34"/>eadem substantia; sed non e converso: 
+        <lb ed="#C" n="35"/>quia non est diversa substantia, sicut est 
+        <lb ed="#C" n="36"/>diversa quantitas eorum, quae relatione 
+        <lb ed="#C" n="37"/>reali dicuntur aequalia; Pater ergo &amp; 
+        Fi<lb ed="#C" n="38" break="no"/>lius, &amp; secundum quod sunt idem &amp; 
+        si<lb ed="#C" n="39" break="no"/>miles &amp; aequales, relatione secundum 
+        <lb ed="#C" n="40"/>rationem referuntur: quia indivisa est 
+        <lb ed="#C" n="41"/>magnitudo, bonitas, &amp; substantia 
+        utro<lb ed="#C" n="42" break="no"/>rumque: immo quia solum relationibus 
+        <lb ed="#C" n="43"/>originis, ut relative dicuntur, realiter 
+        <lb ed="#C" n="44"/>sunt distincti: solum relationes origini: 
+        <lb ed="#C" n="45"/>in Divinis habent esse reale. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e682">
+                  <lb ed="#C" n="46"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="47"/>quod non sufficit ad hoc quod relatio 
+        <lb ed="#C" n="48"/>sit realis, quod aliquid ponat in utroque 
+        <lb ed="#C" n="49"/>extremorum, sed requititur quod illud ali 
+        <lb ed="#C" n="50"/>quid in utroque illorum habeat esse 
+        di<lb ed="#C" n="51" break="no"/>stinctum; sed magnitudo in Patre &amp; 
+        Fi<lb ed="#C" n="52" break="no"/>lio non habet esse distinctum, cum sit una 
+        <lb ed="#C" n="53"/>&amp; eadem in utroque. Vel dicere possumus 
+        <lb ed="#C" n="54"/>quod aequalitas in Patre &amp; Filio non 
+        di<lb ed="#C" n="55" break="no"/>citur per positionem, sed per 
+        remotio<lb ed="#C" n="56" break="no"/>ne, ut intra patebit.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e708">
+        Ad secundum di¬ 
+        <!--603.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>cendum, quod non semper relatio, quae 
+        <lb ed="#C" n="58"/>competit Deo ab aeterno, est secundum 
+        <lb ed="#C" n="59"/>rem: nam Verbum Divinum dicit 
+        res<lb ed="#C" n="60" break="no"/>pectum ad opus, &amp; ab aeterno talis 
+        res<lb ed="#C" n="61" break="no"/>pectus ei competit, nec tamen Verbum 
+        <lb ed="#C" n="62"/>respectu operis habet relationem realem, 
+        <lb ed="#C" n="63"/>sed rationis.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e730">
+        Ad 3. dicendum, quod non 
+        <lb ed="#C" n="64"/>omnis relatio rationis potest esse &amp; 
+        ab<lb ed="#C" n="65" break="no"/>esse absque mutatione rei: nam aliquis 
+        <lb ed="#C" n="66"/>dicitur idem sibi relatione rationis, &amp; 
+        <lb ed="#C" n="67"/>tamen non potest intelligi non idem 
+        abs<lb ed="#C" n="68" break="no"/>que sui mutatione, sicut non potest 
+        in<lb ed="#C" n="69" break="no"/>telligi non esse absque eo quod 
+        mute<lb ed="#C" n="70" break="no"/>tur. Ad quartum dicendum, quod, ut  
+        <lb ed="#C" n="71"/>supra patuit, res rationis tripliciter 
+        di<lb ed="#C" n="72" break="no"/>stinguuntur: quia quaedam sunt quibus 
+        <lb ed="#C" n="73"/>non respondet aliquod fundamentum, 
+        si<lb ed="#C" n="74" break="no"/>cut conceptioni chimaerae; &amp; talia sunt,  
+        <lb ed="#C" n="75"/>entia apud animam, &amp; secundum quid 
+        <lb ed="#C" n="76"/>Quibusdam autem fundamentum aliquo 
+        <lb ed="#C" n="77"/>modo respondet, &amp; talia vel 
+        intelle<lb ed="#C" n="78" break="no"/>ctus ex sua subtilitate investigando per 
+        <lb ed="#C" n="79"/>quirit, ut nomina secundae intentionis, 
+        <lb ed="#C" n="80"/>vel ex modo intelligendi de necessitate 
+        <lb ed="#C" n="81"/>consequitur, ut relationes rationis: quae 
+        <lb ed="#C" n="82"/>sic esse habet, non solum sunt entia apuo 
+        <lb ed="#C" n="83"/>animam: quia in re extra eis respondet 
+        <lb ed="#C" n="84"/>aliquod fundamentum. Vel dicere pos 
+        <lb ed="#C" n="85"/>sumus, quod sicut aliquid est vere idem 
+        <lb ed="#C" n="86"/>sibi non obstante quod identitas est 
+        re<lb ed="#C" n="87" break="no"/>latio rationis: sic Pater vere est 
+        aequali<lb ed="#C" n="88" break="no"/>Filio, licet aequalitas sit relatio 
+        ra<lb ed="#C" n="89" break="no"/>tionis. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f49518-Dd1e790">
+               <head xml:id="Gi9qrR-f49518-Hd1e792">Articulus 2</head>
+               <p xml:id="Gi9qrR-f49518-d1e795">
+                  <lb ed="#C" n="90"/>ARTICVLVS II. 
+        <lb ed="#C" n="91"/>Vtrum in Divinis sit dare plures ae¬ 
+        <lb ed="#C" n="92"/>qualitates? 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e804">
+                  <lb ed="#C" n="93"/>SEcundo quaeritur: utrum in Divinis 
+        <lb ed="#C" n="94"/>sint plures aequalitates, sive utrum 
+        <lb ed="#C" n="95"/>eadem aequalitate referatur Pater 
+        adFi<lb ed="#C" n="96" break="no"/>lium, &amp; e converso?
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e815">
+        
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e818">
+        Et videtur quod  
+        <lb ed="#C" n="97"/>plures aequalitates in Divinis existant: nam 
+        <lb ed="#C" n="98"/>relationes numerantur per supposita, 
+        <lb ed="#C" n="99"/>quot enim sunt similes, tot sunt 
+        similitu<lb ed="#C" n="100" break="no"/>dines, sed omnia Divina supposita habet  
+        <lb ed="#C" n="101"/>aequalitatem ad invicem, ergo erunt ibi: 
+        <lb ed="#C" n="102"/>tres aequalitates.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e835">
+        Praeterea: Magister in 
+        <lb ed="#C" n="103"/>littera sic arguit, quod sicut similitudo 
+        <lb ed="#C" n="104"/>non est sui ipsius secundum Hilarium, ita 
+        <lb ed="#C" n="105"/>nec aequalitas; non est enim aliquid 
+        ae<lb ed="#C" n="106" break="no"/>quale sibi, sicut nec simile; sed 
+        relatio<lb ed="#C" n="107" break="no"/>nes, quae de necessitate distinctionem 
+        re<lb ed="#C" n="108" break="no"/>quirunt, habent esse distinctum in 
+        utro<lb ed="#C" n="109" break="no"/>que relativorum, &amp; quot sunt relata, tot 
+        <!--604.xml-->
+        <pb ed="#C" n="579"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>sunt huiusmodi relationes; sed cum 
+        om<lb ed="#C" n="2" break="no"/>nia Divina supposita secundum 
+        aequali<lb ed="#C" n="3" break="no"/>tatem referantur ad invicem: tot sunt,  
+        <lb ed="#C" n="4"/>ibi equalitates, quot sunt Divinae 
+        Perso<lb ed="#C" n="5" break="no"/>nae.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e870">
+        Praeterea: quia est una magnitudo 
+        <lb ed="#C" n="6"/>omnium trium dicit <name xml:id="Gi9qrR-f49518-Nd1e874" ref="#Augustine">Aug.</name> 5. de Trin. 
+        <lb ed="#C" n="7"/>cap. 8. quod Tres Personae non sunt tres 
+        mag<lb ed="#C" n="8" break="no"/>ni; sed unus magnus; sed concedimus tres 
+        <lb ed="#C" n="9"/>Personas esse tres aequales, ergo non est 
+        <lb ed="#C" n="10"/>ibi una tantum aequalitas.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e887">
+        Praeterea: per 
+        <lb ed="#C" n="11"/>se competit relationi quod esse eius 
+        ac<lb ed="#C" n="12" break="no"/>cipiatur in comparatione ad aliud: quia 
+        <lb ed="#C" n="13"/>esse relativorum est ad aliud se haberes 
+        <lb ed="#C" n="14"/>sed omne tale distinctionem importat, 
+        <lb ed="#C" n="15"/>&amp; relationes distinctivae in Divinis 
+        plu<lb ed="#C" n="16" break="no"/>rificantur: ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e903">
+                  <lb ed="#C" n="17"/>In contrarium est: quia relationes 
+        <lb ed="#C" n="18"/>similes non multiplicantur nisi 
+        secun<lb ed="#C" n="19" break="no"/>dum fundamentum: &amp; ideo Pater per unam 
+        <lb ed="#C" n="20"/>paternitatem refertur ad multos filios: 
+        <lb ed="#C" n="21"/>&amp; simile per unam similitudinem ad 
+        <lb ed="#C" n="22"/>multos similes, ratione unius qualitatis 
+        <lb ed="#C" n="23"/>substratae ipsi similitudini; sed una est 
+        <lb ed="#C" n="24"/>magnitudo in Patre &amp; Filio: erit igitur  
+        <lb ed="#C" n="25"/>una aequalitas.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e925">
+        Praeterea: ut habitum est, 
+        <lb ed="#C" n="26"/>relationes similes in Divinis plurificari 
+        <lb ed="#C" n="27"/>non possunt, quantumcuque sint 
+        distin<lb ed="#C" n="28" break="no"/>ctivae: non enim ibi sunt duae pater 
+        <lb ed="#C" n="29"/>nitates, neque duae filiationes: non 
+        er<lb ed="#C" n="30" break="no"/>o sunt ibi plures aequalitates, quia 
+        es<lb ed="#C" n="31" break="no"/>sent ibi plures relationes similes, 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e941">
+                  <lb ed="#C" n="32"/>RESOLVTIO. 
+        <lb ed="#C" n="33"/>In Divinis non sunt plures aequalitates. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e949">
+                  <lb ed="#C" n="34"/>REspond. dicendum, quod sicut di¬ 
+        <lb ed="#C" n="35"/>ctum fuit supra, res dupliciter 
+        <lb ed="#C" n="36"/>distingui possunt, secundum rationem 
+        <lb ed="#C" n="37"/>quidditatis, &amp; secundum esse: quae 
+        di<lb ed="#C" n="38" break="no"/>stinguuntur ratione quidditatis sunt 
+        di<lb ed="#C" n="39" break="no"/>versarum specierum; quae vero secundum 
+        <lb ed="#C" n="40"/>esse, differunt numero: has autem distin 
+        <lb ed="#C" n="41"/>ctiones si ad relationem adaptare 
+        volu<lb ed="#C" n="42" break="no"/>mus, secundum rationem quidditatis 
+        <lb ed="#C" n="43"/>differunt relationes dissimiles: &amp; 
+        secun<lb ed="#C" n="44" break="no"/>dum esse differunt similes, &amp; licet in 
+        re<lb ed="#C" n="45" break="no"/>lationibus utraque distinctio inveniri 
+        <lb ed="#C" n="46"/>possit: non tamen eodem modo 
+        com<lb ed="#C" n="47" break="no"/>petit relationi utraque distinctionum pra 
+        <lb ed="#C" n="48"/>dictarum. Nam distingui secundum 
+        ra<lb ed="#C" n="49" break="no"/>tionem quidditatis competit relationi, 
+        <lb ed="#C" n="50"/>unde, relatio: quia cum esse relationis sit 
+        <lb ed="#C" n="51"/>ad aliud se habere, &amp; in comparatione 
+        <lb ed="#C" n="52"/>ad aliud accipiatur quidditas relativa, 
+        <lb ed="#C" n="53"/>distinguere relationes secudum, quiddi 
+        <!--604.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>tatem, est eas distinguere in 
+        compara<lb ed="#C" n="55" break="no"/>tione ad aliud, &amp; secundum quod 
+        rela<lb ed="#C" n="56" break="no"/>tiones sunt; distinctio vero secundum 
+        <lb ed="#C" n="57"/>esse non competit relationi, unde 
+        rela<lb ed="#C" n="58" break="no"/>tio, sed ratione fundamenti. Nam cum 
+        <lb ed="#C" n="59"/>relationi non respondeat proprium esse 
+        <lb ed="#C" n="60"/>sed esse ipsius sit esse fundamenti, 
+        di<lb ed="#C" n="61" break="no"/>stinguere relationem per esse, est eam 
+        <lb ed="#C" n="62"/>distinguere per fundamentum: &amp; ideo 
+        <lb ed="#C" n="63"/>si non plurificatur fundamentum, 
+        rela<lb ed="#C" n="64" break="no"/>tiones similes plurificari non possunt: 
+        <lb ed="#C" n="65"/>non igitur proprie sunt plures 
+        aequalita<lb ed="#C" n="66" break="no"/>tes in Divinis, cum una sit magnitudo 
+        <lb ed="#C" n="67"/>omnium Personarum. Et hoc videtur  
+        <lb ed="#C" n="68"/>sentire <name xml:id="Gi9qrR-f49518-Nd1e1031" ref="#Augustine">Aug.</name> 5. de Trin. cap. 6. qui de 
+        <lb ed="#C" n="69"/>terminans de aequalitate Patris &amp; Fili 
+        <lb ed="#C" n="70"/>dicit: Non secundum hoc, quod ad Patrem 
+        <lb ed="#C" n="71"/>dicitur, aequalis est Patri Filius. Nam Filius 
+        <lb ed="#C" n="72"/>secundum quod Filius refertur ad 
+        Pa<lb ed="#C" n="73" break="no"/>trem secundum rationem dissimilem: non 
+        <lb ed="#C" n="74"/>enim Filius dicitur relative ad Filium, 
+        <lb ed="#C" n="75"/>sed ad Patrem; sed secundum quod 
+        ae<lb ed="#C" n="76" break="no"/>qualis refertur ad Patrem secundum 
+        re<lb ed="#C" n="77" break="no"/>lationem similem: nam aequale dicitur  
+        <lb ed="#C" n="78"/>relative ad aequale; relationes autem 
+        <lb ed="#C" n="79"/>similes, secundum quod ipse innuit, non 
+        <lb ed="#C" n="80"/>plurificatur in duobus relativis: nam ut 
+        <lb ed="#C" n="81"/>ait: Amicus relative dicitur ad amicum; &amp; 
+        <lb ed="#C" n="82"/>si aequaliter se diligunt, eadem est in utroque 
+        <lb ed="#C" n="83"/>amicitia: &amp; vicinus relative dicitur ad 
+        vi<lb ed="#C" n="84" break="no"/>cinum, &amp; quia aequaliter sibi vicini sunt; 
+        quan<lb ed="#C" n="85" break="no"/>tum enim iste illi, tantum &amp; ille huic 
+        vicina<lb ed="#C" n="86" break="no"/>natur, eadem in utroque vicinitas: ergo a 
+        si<lb ed="#C" n="87" break="no"/>mili cum aequale dicatur relative ad 
+        ae<lb ed="#C" n="88" break="no"/>quale, si aequaliter sibi aequales sunt, 
+        ea<lb ed="#C" n="89" break="no"/>dem in utroque est aequalitas: sed quia 
+        <lb ed="#C" n="90"/>Pater genuit Filium per omnia sibi similem &amp; 
+        <lb ed="#C" n="91"/>aequalem, ut dicitur 15. de Trin. cap. 14. 1 
+        <lb ed="#C" n="92"/>Filius per omnem modum est aequalis 
+        <lb ed="#C" n="93"/>Patri: sic etiam Pater per omnem 
+        mo<lb ed="#C" n="94" break="no"/>dum est aequalis Filio: ergo accipiendo 
+        <lb ed="#C" n="95"/>aequalitatem non secundum quod 
+        Diony<lb ed="#C" n="96" break="no"/>sius loquitur, quod non recipitur 
+        conver<lb ed="#C" n="97" break="no"/>sio in causis &amp; causatis; sed accipiendo 
+        <lb ed="#C" n="98"/>Daequalitatem, prout unitatem magnitu¬ 
+        <lb ed="#C" n="99"/>dinis dicit, eadem erit aequalitas in 
+        Pa<lb ed="#C" n="100" break="no"/>tre &amp; Filio, secundum quod sibi 
+        invi<lb ed="#C" n="101" break="no"/>cem sunt equales. Advertendum tamenm, 
+        <lb ed="#C" n="102"/>quod in duobus vicinis est eadem 
+        vici<lb ed="#C" n="103" break="no"/>nitas, &amp; in duobus creatis equalibus est 
+        <lb ed="#C" n="104"/>eadem aequlitas per se; per accidens 
+        au<lb ed="#C" n="105" break="no"/>tem ratione fundamenti est alia, &amp; alia, 
+        <lb ed="#C" n="106"/>propter aliam, &amp; aliam magnitudinem: 
+        <lb ed="#C" n="107"/>sed in Patre &amp; Filio, nec ratione qua 
+        re<lb ed="#C" n="108" break="no"/>latio, plurificatur aequalitas: cum non 
+        plu<lb ed="#C" n="109" break="no"/>rificentur relationes similes secundum 
+        <!--605.xml-->
+        <pb ed="#C" n="580"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>rationem quidditatis, nec ratione 
+        fun<lb ed="#C" n="2" break="no"/>damenti, cum eadem sit magnitudo 
+        <lb ed="#C" n="3"/>utriusque: est ergo eadem aequalitas in 
+        <lb ed="#C" n="4"/>utroquo 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1139">
+                  <lb ed="#C" n="5"/>Respond. ad arg. Ad 1. dicendum 
+        <lb ed="#C" n="6"/>quod ad hoc quod plurificentur 
+        relatio<lb ed="#C" n="7" break="no"/>nes similes, non sufficit plurificari 
+        sup<lb ed="#C" n="8" break="no"/>posita, nisi ad plurificationem 
+        supposi<lb ed="#C" n="9" break="no"/>torum sequatur plurificatio 
+        fundamen<lb ed="#C" n="10" break="no"/>ti: &amp; quia eadem est magnitudo in 
+        Pa<lb ed="#C" n="11" break="no"/>tre &amp; Filio, non proprie ibi sunt duae 
+        ae<lb ed="#C" n="12" break="no"/>qualitates.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1159">
+        Ad 2. dicendum, quod 
+        rela<lb ed="#C" n="13" break="no"/>nitiones in Divinis aliquae sunt distinctis 
+        <lb ed="#C" n="14"/>tvae: quia distinctionem faciunt, &amp; 
+        huius<lb ed="#C" n="15" break="no"/>modi relationes distinctivae sunt 
+        relatio<lb ed="#C" n="16" break="no"/>nes originis, &amp; tales relationes non sunt  
+        <lb ed="#C" n="17"/>caedem in duobus relatis: nam relatio 
+        <lb ed="#C" n="18"/>e originis, per quam refertur Pater ad 
+        <lb ed="#C" n="19"/>Filium, est alia quam relatio, per quam 
+        <lb ed="#C" n="20"/>Filius refertur ad Patrem. Aliquae autem 
+        <lb ed="#C" n="21"/>possunt dici relationes distinctivae; non 
+        <lb ed="#C" n="22"/>quia distinctionem causent; sed quia 
+        <lb ed="#C" n="23"/>sunt distinctionis signum, unde distin 
+        <lb ed="#C" n="24"/>ctionem designant, vel demonstrant; non 
+        <lb ed="#C" n="25"/>causant, &amp; talis relatio videtur esse 
+        ae<lb ed="#C" n="26" break="no"/>qualitas: nam licet nihil sit aequale sibi 
+        <lb ed="#C" n="27"/>&amp; quia Filius est aequalis Patri, est a 
+        Pa<lb ed="#C" n="28" break="no"/>tre distinctus; talem tamen distinctio 
+        <lb ed="#C" n="29"/>nem non causat huiusmodi relatio, sed  
+        <lb ed="#C" n="30"/>relatio originis: non enim differt Pater 
+        <lb ed="#C" n="31"/>a Filio positive loquendo, nisi quia iste 
+        <lb ed="#C" n="32"/>Pater, ille Filius; &amp; tales relationes 
+        di<lb ed="#C" n="33" break="no"/>stinctivas non oportet plurificari 
+        secun<lb ed="#C" n="34" break="no"/>dum pluralitatem relatorum. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1209">
+        Ad 3. 
+        di<lb ed="#C" n="35" break="no"/>s cendum, quod tres Personae sunt tres 
+        <lb ed="#C" n="36"/>magni: sumendo magnum adiective 
+        <lb ed="#C" n="37"/>licet non sint tres magni substantive 
+        lo<lb ed="#C" n="38" break="no"/>s quendo: ita cum dicitur quod tres sunt,  
+        <lb ed="#C" n="39"/>aequales, ibi aequales adiective sumitur.  
+        <lb ed="#C" n="40"/>Vel dicere possumus quod in 
+        Divi<lb ed="#C" n="41" break="no"/>ynis esset magnitudo, si non esset ibi 
+        di<lb ed="#C" n="42" break="no"/>ostinctio Personarum: propter quod ibi 
+        <lb ed="#C" n="43"/>magnitudo non est distinctionis 
+        sig<lb ed="#C" n="44" break="no"/>tnum, neque causa; sed aequalitas licet  
+        <lb ed="#C" n="45"/>distinctionem non causet, est tamen 
+        <lb ed="#C" n="46"/>i distinctionis signum: &amp; ideo magis 
+        ac<lb ed="#C" n="47" break="no"/>cedit ad distinctionem aequalitas, quan 
+        <lb ed="#C" n="48"/>magnitudo: propter quod magis 
+        pro<lb ed="#C" n="49" break="no"/>prie potest ibi proferri pluraliter 
+        aequa<lb ed="#C" n="50" break="no"/>t le, quam magnum, licet talis accessus 
+        <lb ed="#C" n="51"/>; non sufficiat ad hoc, quod ibi proprie 
+        <lb ed="#C" n="52"/>plures aequalitates existant. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1251">
+        Ad 4. patet 
+        <lb ed="#C" n="53"/>solutio per ea, quae dicta sunt ad secun 
+        <lb ed="#C" n="54"/>dum: nam licet aequalitas in Divinis 
+        <lb ed="#C" n="55"/>possit dici aliquo modo distinctiva; 
+        <lb ed="#C" n="56"/>tamen, ut habitum est, tale distinctivus 
+        <!--605.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>non proprie in Divininis plurificatio¬ 
+        <lb ed="#C" n="58"/>nem suscipit 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f49518-Dd1e1273">
+               <head xml:id="Gi9qrR-f49518-Hd1e1275">Articulus 3</head>
+               <p xml:id="Gi9qrR-f49518-d1e1278">
+                  <lb ed="#C" n="59"/>ARTICVLVS III. 
+        <lb ed="#C" n="60"/>Vtrum in Divinis aequalitas dicat quid  
+        <lb ed="#C" n="61"/>positive? 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1287">
+                  <lb ed="#C" n="62"/>TErtio quaeritur: utrum aequalitas in 
+        <lb ed="#C" n="63"/>Divinis dicat quid positive? Et 
+        vi<lb ed="#C" n="64" break="no"/>detur quod sic: quia in creaturis dicit  
+        <lb ed="#C" n="65"/>quid positive: ergo multo fortius in 
+        Di<lb ed="#C" n="66" break="no"/>vinis.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1300">
+        Praeterea: privatio de se est non ens, 
+        <lb ed="#C" n="67"/>sed ea, quae in non entitatem sonant, 
+        <lb ed="#C" n="68"/>Divinis non debent attribui, ergo &amp;c. 
+        <lb ed="#C" n="69"/>Praeterea privatio dicit negationem op 
+        <lb ed="#C" n="70"/>positi cum aptitudine ad illud: nam 
+        caeci<lb ed="#C" n="71" break="no"/>tas dicit privationem visus cum 
+        aptitu<lb ed="#C" n="72" break="no"/>dine ad ipsum: non enim dicitur 
+        cae<lb ed="#C" n="73" break="no"/>cum, quod non est videns; sed quod non 
+        <lb ed="#C" n="74"/>est videns, est tamen aptum natum 
+        vi<lb ed="#C" n="75" break="no"/>dere: non ergo dicitur aequale, quod non 
+        <lb ed="#C" n="76"/>est maius, neque minus privative 
+        lo<lb ed="#C" n="77" break="no"/>quedo; sed quod non est maius, neque 
+        <lb ed="#C" n="78"/>minus, est tamen aptum natum esse: sed  
+        <lb ed="#C" n="79"/>hoc in Divinis esse non potest: cum 
+        <lb ed="#C" n="80"/>una Persona, neque maior alia, neque 
+        <lb ed="#C" n="81"/>minor esse possit: ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1335">
+        Praeterea: 
+        <lb ed="#C" n="82"/>secundum <name xml:id="Gi9qrR-f49518-Nd1e1339" ref="#Augustine">Aug.</name> 5. de Trin cap. 6. 
+        ae<lb ed="#C" n="83" break="no"/>qualitas in Divinis secundum 
+        substan<lb ed="#C" n="84" break="no"/>tiam dicitur: sed quae dicuntur 
+        secun<lb ed="#C" n="85" break="no"/>dum substantiam in Deo, dicuntur 
+        po<lb ed="#C" n="86" break="no"/>sitive: cum substantia quid positive 
+        di<lb ed="#C" n="87" break="no"/>cat: ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1355">
+                  <lb ed="#C" n="88"/>In contrarium est: quia secundum 
+        <lb ed="#C" n="89"/>Philosophum 10. Meta. aequale opponitur 
+        pri<lb ed="#C" n="90" break="no"/>vative maiori &amp; minori: de ratione er 
+        <lb ed="#C" n="91"/>go equalitatis est quod privationem im 
+        <lb ed="#C" n="92"/>portet; sed quae sunt de ratione alicuius 
+        <lb ed="#C" n="93"/>cosequuntur ipsum secudum se totum 
+        ubi<lb ed="#C" n="94" break="no"/>cumque ergo reperitur aequalitas 
+        pri<lb ed="#C" n="95" break="no"/>vationem importabit.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1375">
+        Praeterea: hoc 
+        <lb ed="#C" n="96"/>idem videtur velle Athanasius in 
+        Sym<lb ed="#C" n="97" break="no"/>bolo: ubi vult quod in Divinis non sit 
+        <lb ed="#C" n="98"/>neque maius, neque minus, Sed totae tres 
+        <lb ed="#C" n="99"/>Personae coaeternae sibi sunt &amp; coaequales: ergo 
+        <lb ed="#C" n="100"/>est ibi aequalitas per remotionem 
+        maio<lb ed="#C" n="101" break="no"/>ris &amp; minoris. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1391">
+                  <lb ed="#C" n="102"/>RESOLVTIO. 
+        <lb ed="#C" n="103"/>AEqualitas in Divinis non dicit positionem; sed  
+        <lb ed="#C" n="104"/>remotionem maioris, &amp; minoris.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1400">
+                  <lb ed="#C" n="105"/>REspond. dicendum, quod si 
+        volu<lb ed="#C" n="106" break="no"/>mus videre quomodo sit aequalitas 
+        <!--606.xml-->
+        <pb ed="#C" n="581"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>in Divinis, oportet nos videre quid dicat  
+        <lb ed="#C" n="2"/>aequalitas in creaturis: &amp; quae in 
+        creatu<lb ed="#C" n="3" break="no"/>ris invenimus, transferre poterimus ad 
+        <lb ed="#C" n="4"/>Divina, ubi ratio dissimilitudinis non 
+        re<lb ed="#C" n="5" break="no"/>pugnat. Notandum igitur, quod in 
+        ae<lb ed="#C" n="6" break="no"/>qualitate duo considerare possumus 
+        re<lb ed="#C" n="7" break="no"/>ationem, &amp; fundamentum: ratione 
+        fun<lb ed="#C" n="8" break="no"/>damenti aequalitas semper remotionem 
+        <lb ed="#C" n="9"/>importat: sequitur enim aequalitas ad 
+        u<lb ed="#C" n="10" break="no"/>nitatem magnitudinis, quae per 
+        remo<lb ed="#C" n="11" break="no"/>tionem maioris, &amp; minoris esse habet: 
+        <lb ed="#C" n="12"/>&amp; secundum hoc ait Philosophus 10. Meta. 
+        <lb ed="#C" n="13"/>quod aequale opponitur privative 
+        ma<lb ed="#C" n="14" break="no"/>iori &amp; minori. Si vero de aequalitate 
+        lo<lb ed="#C" n="15" break="no"/>quimur secundum quod relationem im 
+        <lb ed="#C" n="16"/>portat, sic ratio aequalitatis non 
+        consi<lb ed="#C" n="17" break="no"/>stit in remotione; sed in positione: 
+        <lb ed="#C" n="18"/>nam cum relatio sit quoddam genus 
+        <lb ed="#C" n="19"/>entis, &amp; nihil possit esse species 
+        alicu<lb ed="#C" n="20" break="no"/>ius generis entis, nisi ratio eius in 
+        posi<lb ed="#C" n="21" break="no"/>tione consistat, aequalitas accepta ut 
+        <lb ed="#C" n="22"/>relatio quid dicet positive. Hoc autem 
+        <lb ed="#C" n="23"/>si ad Divina transferre volumus, 
+        inveni<lb ed="#C" n="24" break="no"/>mus similitudinem &amp; dissimilitudinem, 
+        <lb ed="#C" n="25"/>nam considerando aequalitatem 
+        ratio<lb ed="#C" n="26" break="no"/>ne unitatis magnitudinis, invenimus 
+        <lb ed="#C" n="27"/>quamdam similitudinem. Nam sicut 
+        <lb ed="#C" n="28"/>propter hoc creaturae sunt equales: quia 
+        <lb ed="#C" n="29"/>habent unam magnitudine, ita &amp; Persone 
+        <lb ed="#C" n="30"/>Divinae propterhoc aequales dicuntur:  
+        <lb ed="#C" n="31"/>quia est una magnitudo omnium. Sed 
+        si<lb ed="#C" n="32" break="no"/>consideramus aequalitatem secundum 
+        <lb ed="#C" n="33"/>quod relatio, ibi dissimilitudinem 
+        inivie<lb ed="#C" n="34" break="no"/>nimus. Nam in creaturis aequalitas est 
+        <lb ed="#C" n="35"/>relatio realis; in Divinis autem est 
+        rela<lb ed="#C" n="36" break="no"/>tio rationis: &amp; quia omnis realis relatio 
+        <lb ed="#C" n="37"/>dicit quedam realem ordinem, 
+        aequali<lb ed="#C" n="38" break="no"/>tas in creaturis, secundum quod relatio.  
+        <lb ed="#C" n="39"/>aliquid positive dicit, eo quod in eis 
+        <lb ed="#C" n="40"/>quemdam realem ordinem ponit. In 
+        Di<lb ed="#C" n="41" break="no"/>vinis autem, secundum quod relatio, 
+        ni<lb ed="#C" n="42" break="no"/>hil ponit, eo quod sit relatio rationis 
+        <lb ed="#C" n="43"/>Dicamus ergo quod licet aequalitas in 
+        <lb ed="#C" n="44"/>creaturis positionem &amp; remotionem 
+        <lb ed="#C" n="45"/>dicat; in Divinis vero solam remotionem 
+        <lb ed="#C" n="46"/>importat: ut patet per Magistrum, qui  
+        <lb ed="#C" n="47"/>assentiens positioni quorumdam ait: 
+        <lb ed="#C" n="48"/>Non indocte videtur eis nomine aequalitatis, 
+        <lb ed="#C" n="49"/>vel similitudinis non aliquid poni, sed 
+        remo<lb ed="#C" n="50" break="no"/>veri: ut ea ratione dicatur Filius aequalis 
+        Patri<lb ed="#C" n="51" break="no"/>quia nec maior eo nec minor est: &amp; hoc 
+        prop<lb ed="#C" n="52" break="no"/>ter unitatem essentiae, ita &amp; similis dicitur:  
+        <lb ed="#C" n="53"/>quia nec diversus, nec alienus, nec in alique 
+        <lb ed="#C" n="54"/>dij imilis: &amp; hoc propter essentiae unitatem, &amp; 
+        <lb ed="#C" n="55"/>simplicitatem. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1533">
+                  <lb ed="#C" n="56"/>Respond. ad arg. Ad 1. dicendum, 
+        <!--606.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>quod non est simile de creaturis &amp; de 
+        Di<lb ed="#C" n="58" break="no"/>vinis: quia in creaturis relatio 
+        aequalita<lb ed="#C" n="59" break="no"/>ris habet esse reale: &amp; ideo ratione 
+        rela<lb ed="#C" n="60" break="no"/>tionis dicit quid positive; &amp; si non 
+        ra<lb ed="#C" n="61" break="no"/>tione unitatis magnitudinis, in Divinis 
+        <lb ed="#C" n="62"/>autem cum dicat quid rationis, solam 
+        <lb ed="#C" n="63"/>remotionem importat.
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1557">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="64"/>quod privatio, prout importat non 
+        en<lb ed="#C" n="65" break="no"/>titatem imperfectionem idicentem, in 
+        <lb ed="#C" n="66"/>Divinis non ponitur: propter quod 
+        sig<lb ed="#C" n="67" break="no"/>nanter Magister aequalitatem dicit in 
+        <lb ed="#C" n="68"/>Divinis dicere remotionem &amp; non 
+        pri<lb ed="#C" n="69" break="no"/>vationem; ne forte intelligeretur in 
+        Di<lb ed="#C" n="70" break="no"/>vinis imperfectio aliqua: large tamem 
+        ac<lb ed="#C" n="71" break="no"/>cipiendo privationem talis remotio 
+        pri<lb ed="#C" n="72" break="no"/>vatio dici potest. 
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1580">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="73"/>licet aequalitas, prout est relatio realis 
+        <lb ed="#C" n="74"/>aliquo modo dicat potentialitatem liquie 
+        u<lb ed="#C" n="75" break="no"/>aptitudinem respectu in aequalitatis, 
+        ta<lb ed="#C" n="76" break="no"/>men prout est relatio rationis non opor 
+        <lb ed="#C" n="77"/>tet: quod sic est videre: quia quando est, 
+        <lb ed="#C" n="78"/>relatio aequalitatis realis inter aliqua, 
+        <lb ed="#C" n="79"/>tumc est diversa magnitudo unius a 
+        mag<lb ed="#C" n="80" break="no"/>nitudine alterius: &amp; ideo secundum 
+        in<lb ed="#C" n="81" break="no"/>tellectum saltem potest fieri substractio 
+        <lb ed="#C" n="82"/>ab una, non facta substractione ab 
+        alte<lb ed="#C" n="83" break="no"/>ra; vel potest fieri additio uni non facta 
+        <lb ed="#C" n="84"/>additione alteri: quo facto erit 
+        inaequa<lb ed="#C" n="85" break="no"/>litas; sed in Divinis, ubi est una 
+        <lb ed="#C" n="86"/>&amp; eadem magnitudo omnium 
+        Perso<lb ed="#C" n="87" break="no"/>narum, non potest intelligi additio in 
+        <lb ed="#C" n="88"/>magnitudine unius, quin fiat additio in 
+        <lb ed="#C" n="89"/>magnitudine alterius: &amp; ideo dato per 
+        <lb ed="#C" n="90"/>mpossibile quod illa magnitudo 
+        cres<lb ed="#C" n="91" break="no"/>ceret, vel minueretur, adhuc Personae 
+        <lb ed="#C" n="92"/>remanerent aequales, ergo non est de 
+        <lb ed="#C" n="93"/>ratione aequalitatis, quae est in Divinis, 
+        <lb ed="#C" n="94"/>dicere respectum vel aptitudinem ad 
+        in<lb ed="#C" n="95" break="no"/>aequalitatem: nec possumus dicere 
+        prop<lb ed="#C" n="96" break="no"/>ter hoc, quod ibi non sit aequalitas: quia 
+        <lb ed="#C" n="97"/>tanto est ibi maior aequalitas, quanto 
+        <lb ed="#C" n="98"/>magis removetur ab opposito, quod est, 
+        <lb ed="#C" n="99"/>inaequalitas. Ad formam autem 
+        argue<lb ed="#C" n="100" break="no"/>di dicendum, quod inaequalitas in 
+        Di<lb ed="#C" n="101" break="no"/>Dvinis non habet omnem rationem pri¬ 
+        <lb ed="#C" n="102"/>vationis.  
+      </p>
+               <p xml:id="Gi9qrR-f49518-d1e1648">
+        Ad 4. dicendum, quod 
+        aequa<lb ed="#C" n="103" break="no"/>litas dicitur secundum substantiam in 
+        <lb ed="#C" n="104"/>Divinis: quia attenditur secundum 
+        mag<lb ed="#C" n="105" break="no"/>nitudinem, &amp; magnitudo in Divinis 
+        <lb ed="#C" n="106"/>transit in substantiam; attamen ad hoc  
+        <lb ed="#C" n="107"/>quod in aliquibus sit aequalitas, non 
+        suf<lb ed="#C" n="108" break="no"/>ficit quod in eis sit magnitudo; sed 
+        re<lb ed="#C" n="109" break="no"/>quititur quod in eis sit magnitudo una: 
+        <lb ed="#C" n="110"/>&amp; quia in Divinis non est unitas, quae 
+        <lb ed="#C" n="111"/>dicat positionem, cum non sit in 
+        eo<lb ed="#C" n="112" break="no"/>unum, quod est principium numeri, non 
+        <!--607.xml-->
+        <pb ed="#C" n="582"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>arguitur, quod aequalitas ibi dicat 
+        po<lb ed="#C" n="2" break="no"/>sitionem, sed remotionem. Vel dicere 
+        <lb ed="#C" n="3"/>possumus, quod aequalitas non est ipsa 
+        <lb ed="#C" n="4"/>magnitudo, vel unitas magnitudinis 
+        <lb ed="#C" n="5"/>sed secundum intellectum est 
+        conseque<lb ed="#C" n="6" break="no"/>ad illa: &amp; ideo non oportet quod si es 
+        <lb ed="#C" n="7"/>sentia, vel magnitudo aliquid positive 
+        <lb ed="#C" n="8"/>dicit in Deo, quod aequalitas ibi quid 
+        <lb ed="#C" n="9"/>positive dicat.  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

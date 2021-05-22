@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g22428"><!-- l1-d47expolit -->
+            <head xml:id="Gi9qrR-g22428-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-g22428-d1e111">
+      <!--877.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="26"/>ExPOSITIO LITTERAE 
+    </p>
+            <p xml:id="Gi9qrR-g22428-d1e120">
+               <lb ed="#C" n="27"/>SVper litteram super illo: Quos iusse 
+      <lb ed="#C" n="28"/>praedestinavit, ad paenam. Contra, 
+      prae<lb ed="#C" n="29" break="no"/>destinatio non est nisi bonorum: ergo 
+      <lb ed="#C" n="30"/>quidquid Deus praedestinat, ordinat ad 
+      <lb ed="#C" n="31"/>gloriam non ad poenam. Dicendum 
+      <lb ed="#C" n="32"/>quod ibi praedestinare sumitur large 
+      <lb ed="#C" n="33"/>pro praescientia: ut dicatur 
+      praedessina<lb ed="#C" n="34" break="no"/>ti ad poenam qui sunt praesciti. Vel 
+      pos<lb ed="#C" n="35" break="no"/>sumus dicere, quod praedestinatio 
+      simpli<lb ed="#C" n="36" break="no"/>citer sumpta sonat in bonum: sed cum 
+      de<lb ed="#C" n="37" break="no"/>terminatione potest sonare in bonum 
+      <lb ed="#C" n="38"/>&amp; malum. Nam licet damnandi 
+      abso<lb ed="#C" n="39" break="no"/>lute non possint dici praedestinati; possunt 
+      <lb ed="#C" n="40"/>tamen dici praedestinati cum 
+      determi<lb ed="#C" n="41" break="no"/>natione, ut praedestinati ad poenam. 
+      Sal<lb ed="#C" n="42" break="no"/>vandi autem simpliciter praedessinati di 
+      <lb ed="#C" n="43"/>cuntur, &amp; cum determinatione, ut,  
+      <lb ed="#C" n="44"/>praedestinati ad gloriam: &amp; secundum 
+      <lb ed="#C" n="45"/>hunc modum loquitur Isidorus de 
+      sum<lb ed="#C" n="46" break="no"/>mo bono, lib. 2. cap. 6. Cemina est 
+      prae<lb ed="#C" n="47" break="no"/>destinatio, sive electorum ad requiem, 
+      sive<lb ed="#C" n="48" break="no"/>reproborum ad mortem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

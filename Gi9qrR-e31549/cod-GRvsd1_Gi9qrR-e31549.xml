@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="118"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e31549"><!-- l1-d5proem -->
+            <head xml:id="Gi9qrR-e31549-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-e31549-d1e111">
+      <!--155.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="8"/>DISTINCTIO V. 
+      <lb ed="#C" n="9"/>DE QENERANTE, ETGENITO IN DIVINIS. 
+      <!--155.xml-->
+      <cb ed="#C" n="d"/>
+               <lb ed="#C" n="10"/> OSThac quaeritur &amp;c. Postquam 
+    </p>
+            <p xml:id="Gi9qrR-e31549-d1e129">
+               <lb ed="#C" n="11"/>movet Magister quaestiones 
+      <lb ed="#C" n="12"/>de generatione Divina 
+      quan<lb ed="#C" n="13" break="no"/>tum ad identitatem, &amp; 
+      alie<lb ed="#C" n="14" break="no"/>tatem, hic movet 
+      quaestio<lb ed="#C" n="15" break="no"/>nem quantum ad id, quod  
+      <lb ed="#C" n="16"/>est ibi gignens, &amp; genitum. 
+      <lb ed="#C" n="17"/>Et duo facit. Primo movet 
+      <lb ed="#C" n="18"/>quaestiones secundum quod 
+      <lb ed="#C" n="19"/>Essentia Divina posset dici gignens, vel genita. 
+      <lb ed="#C" n="20"/>Secundo: utrum Essentia Divina sit illud, de quo 
+      <lb ed="#C" n="21"/>est generatio? Secunda ibi, Dicitur quoque. Circa 
+      <lb ed="#C" n="22"/>primum duo facit: quia primo promittit 
+      quae<lb ed="#C" n="23" break="no"/>stiones tres, &amp; determinat eas in alteram 
+      par<lb ed="#C" n="24" break="no"/>tem. Quarum prima est utrum Essentia Divina 
+      <lb ed="#C" n="25"/>sit genita? Secunda: utrum sit gignens? Tertia: 
+      <lb ed="#C" n="26"/>utrum sit simul gignens, &amp; genita? Secundo de 
+      <lb ed="#C" n="27"/>istis quaestionibus exequitur ibi: Hic autem non. 
+      <lb ed="#C" n="28"/>Circa quod duo facit: quia primo exequitur de 
+      <lb ed="#C" n="29"/>una quaestione. Secundo de alijs duabus. Ibi, Ita 
+      <lb ed="#C" n="30"/>etiam. Circa primum duo facit: quia 2. 
+      determi<lb ed="#C" n="31" break="no"/>nat veritatem. 2. ponit instantiam. Secunda ibi:  
+      <lb ed="#C" n="32"/>Huic autem. Circa primum duo facit: quia 1. 
+      <lb ed="#C" n="33"/>ostendit Divinam Essentiam non esse genitam 
+      <lb ed="#C" n="34"/>a Patre, &amp; adducit tres rationes ad hoc. 2. 
+      ad<lb ed="#C" n="35" break="no"/>ducit simile propter rationem tertiam: ibi, 
+      simi<lb ed="#C" n="36" break="no"/>di ratione. Cirta primum: tria facit, secundum 
+      <lb ed="#C" n="37"/>quod tres rationes adducit. Secunda ibi: Item cum 
+      <lb ed="#C" n="38"/>Deus. Tertia ibi: Item si Pater. Prima ratio talis 
+      <lb ed="#C" n="39"/>est. Si Divina Essentia generaretur a Patre, 
+      re<lb ed="#C" n="40" break="no"/>ferretur ad Patremi, &amp; esset quid relativum: 
+      <lb ed="#C" n="41"/>quod est inconveniens, cum sit quid absolutum. 
+      <lb ed="#C" n="42"/>Secunda talis: Divina Essentia est Pater, si 
+      Pa<lb ed="#C" n="43" break="no"/>ter generaret eam, idem se ipsum gigneret. 
+      Ter<lb ed="#C" n="44" break="no"/>tia talis: Pater habet esse per DivinamEssentiam, D 
+      <lb ed="#C" n="45"/>si Divina Essentia gigneretur ab ipso, tunc 
+      Pa<lb ed="#C" n="46" break="no"/>ter haberet esse per Filium suum, quod est 
+      in<lb ed="#C" n="47" break="no"/>conveniens: quia Pater non Filio; sed Filius 
+      <lb ed="#C" n="48"/>Patre est. 
+    </p>
+            <p xml:id="Gi9qrR-e31549-d1e214">
+               <lb ed="#C" n="49"/>Tunc sequitur illa pars: Simili. In qua istam 
+      <lb ed="#C" n="50"/>tertiam rationem per simile manifestat: quia 
+      Pa<lb ed="#C" n="51" break="no"/>ter non est sapiens sapientia genita: quia tunc 
+      <lb ed="#C" n="52"/>saperet Filio, &amp; esset Filio: cum sapere ibi sit 
+      <lb ed="#C" n="53"/>esse: ista genuisset essentiam suam, cum sit per 
+      <lb ed="#C" n="54"/>essentiam suam, esset Filio, vel per Filium. Et  
+      <lb ed="#C" n="55"/>tria facit in parte ista: quia 1. adducit simile. 2. 
+      <lb ed="#C" n="56"/>adaptat ibi: Ita ergo. 3. quod supposuerat 
+      mani<lb ed="#C" n="57" break="no"/>festat ibi: Nam in illa. Tunc sequitur llla pars: 
+      <lb ed="#C" n="58"/>Huic au em. In qua adducit instantiam habiti. Et  
+      <lb ed="#C" n="59"/>duo facit: quia 1. adducit instantias per plures 
+      <lb ed="#C" n="60"/>ductoritates <name xml:id="Gi9qrR-e31549-Nd1e242" ref="#Augustine">Aug.</name> quae dicunt Patrem genuisse 
+      <lb ed="#C" n="61"/>id, quod est ipse; quod superius est negatum. 2. 
+      <!--155.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="62"/>solvit dicens: Pater genuit, quod est ipse, idest, 
+      <lb ed="#C" n="63"/>genuit Filium, qui Filius est idem, quod ipse. 
+      <lb ed="#C" n="64"/>Secunda pars ibi: Ad quod. 
+    </p>
+            <p xml:id="Gi9qrR-e31549-d1e259">
+               <lb ed="#C" n="65"/>Tunc sequitur illa pars, nita etiam In qua 
+      <lb ed="#C" n="66"/>solvit alias duas quaestiones.? Et duo facit: quia 
+      <lb ed="#C" n="67"/>1. facit, quod dictum est. 2. obviat 
+      determi<lb ed="#C" n="68" break="no"/>nationibus suis. Secunda ibi: praedictis. Circa 
+      <lb ed="#C" n="69"/>primum duo facit: quia 1. ostendit, quod 
+      essen<lb ed="#C" n="70" break="no"/>tia non gignit Filium: quia tunc idem se ipsur 
+      <lb ed="#C" n="71"/>generaret. 2. quod non gignitur, &amp; gignit: quia 
+      <lb ed="#C" n="72"/>tunc sequeretur idem, quod prius. Quod au 
+      <lb ed="#C" n="73"/>tem non sit genita solum, ostensum est 
+      supra<lb ed="#C" n="74" break="no"/>Secunda ibi: Ita etiam dicimus. Tunc sequitur  
+      <lb ed="#C" n="75"/>illa pars: praedictis. In qua obviat. Et duo facit: 
+      <lb ed="#C" n="76"/>quia 1. obviat per <name xml:id="Gi9qrR-e31549-Nd1e287" ref="#Augustine">Aug.</name> 2. per Hilarium. 
+      Secun<lb ed="#C" n="77" break="no"/>da ibi: Huic vero. Circa primum duo facit: quia 1. 
+      ad<lb ed="#C" n="78" break="no"/>ducit multas auctoritates <name xml:id="Gi9qrR-e31549-Nd1e294" ref="#Augustine">Aug.</name> quae sonant, quod 
+      <lb ed="#C" n="79"/>essentia sit de essetia, sive quod essetia gignetur 
+      <lb ed="#C" n="80"/>ab essentia: 2. exponit huiusmodi auctoritates 
+      di<lb ed="#C" n="81" break="no"/>cens, quod huiusmodi essentialia in talibus 
+      lo<lb ed="#C" n="82" break="no"/>cutionibus pro personalibus accipiuntur: unde 
+      <lb ed="#C" n="83"/>essentia de essentia idem est dicere, quod Filius, 
+      <lb ed="#C" n="84"/>qui est essentia, est de Patre, qui est esse aitia: &amp; 
+      <lb ed="#C" n="85"/>hoc confirmat per auctoritates <name xml:id="Gi9qrR-e31549-Nd1e313" ref="#Augustine">Aug.</name> Secunda 
+      <lb ed="#C" n="86"/>ibi: Sed si hoc ita 
+      <lb ed="#C" n="87"/>Tunc sequitur illa pars: Huic vero. In qua 
+      ob<lb ed="#C" n="88" break="no"/>viat per Hilarium. Et duo facit: quia 1. obviat 
+      <lb ed="#C" n="89"/>adducendo multas auctoritates Hilarm, quas in 
+      <lb ed="#C" n="90"/>fine lectionis exponemus. 2. dat intelligentiam 
+      <lb ed="#C" n="91"/>auctoritatum. Secunda ibi: Sed quia. Quam 
+      in<lb ed="#C" n="92" break="no"/>telligentiam per eundem Hilarium confirmat. 
+      <lb ed="#C" n="93"/>Tunc sequitur illa pars: Dicitur In qua ostendit 
+      <lb ed="#C" n="94"/>de quo sit generatio Filij. &amp; duso facit: quia 1. 
+      <lb ed="#C" n="95"/>ostendit, quod est de substan tia Patris. 2. quod 
+      <lb ed="#C" n="96"/>non est de nihilo. Secunda ibi: Ostenditur quoque. 
+      <lb ed="#C" n="97"/>Dirca primum duo facit: quia 1. adducit multas 
+      <lb ed="#C" n="98"/>auctoritates, quae dicunt Filium esse de Patris, 
+      <lb ed="#C" n="99"/>substantia. 2. dictorum dat intelligentiam 
+      re<lb ed="#C" n="100" break="no"/>colligens in brevi praedicta. Secunda ibi: His 
+      eer<lb ed="#C" n="101" break="no"/>bis. Et tria facit: quia 1. ex praedictis ostendit 
+      <lb ed="#C" n="102"/>Filium genitum de substantia Patris: &amp; innuit 
+      <lb ed="#C" n="103"/>dubitationem: qua per verba dictarum 
+      auctori<lb ed="#C" n="104" break="no"/>tatum videtur haberi, quod essentia sit genita. 
+      <lb ed="#C" n="105"/>2. ostendit illa verba referenda esse ad 
+      consub<lb ed="#C" n="106" break="no"/>stantialitatem Patris, &amp; Filij. 3. concludit, quod  
+      <lb ed="#C" n="107"/>sicutFilius non est de aliqua materia, nec ex 
+      ni<lb ed="#C" n="108" break="no"/>hilo, sed eiusdem naturae cum Patre: sic &amp; Spiritus 
+      <lb ed="#C" n="109"/>Sanctus. Secunda, ibi: Vehementer. Tertia ibi: 
+      Idem<lb ed="#C" n="110" break="no"/>que. 
+    </p>
+            <p xml:id="Gi9qrR-e31549-d1e372">
+               <lb ed="#C" n="111"/>Tunc sequitur illa pars, Ostenditur. In qua 
+      <lb ed="#C" n="112"/>ostendit Filium non esse ex nihilo. Et duo facit. 
+      <lb ed="#C" n="113"/>1. ostendit hoc per auctoritatem praemissam, &amp; 
+      <!--156.xml-->
+      <pb ed="#C" n="119"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>confirmat per Hilarium. 2. quaedam praehabita. 
+      <lb ed="#C" n="2"/>exponit. Secunda ibi: Ex quae sensu. Et tria facit A 
+      <lb ed="#C" n="3"/>quia 1. ostendit quomodo intelligendum sit, 
+      <lb ed="#C" n="4"/>Pater genuit id, quod est ipse: quia hoc dictum 
+      <lb ed="#C" n="5"/>est ratione consubstantialitatis: quia est Filius 
+      <lb ed="#C" n="6"/>Patris, qui est substantia eadem cum substantia 
+      <lb ed="#C" n="7"/>Filij. 3. manifestat istam consubstantialitatem: 
+      <lb ed="#C" n="8"/>&amp; concludit quam habitudinem habeat 
+      essen<lb ed="#C" n="9" break="no"/>tia ad Personas. Secunda ibi: Similiter expone. 
+      Ter<lb ed="#C" n="10" break="no"/>tia ibi: Hic sensus. Circa quod duo facit: quia 1. 
+      <lb ed="#C" n="11"/>ostendit Essentiam Divinam non habere ratio¬  
+      <!--156.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="12"/>nem materialis principij respectu Personarum: 
+      <lb ed="#C" n="13"/>quia non dicuntur tres Personae esse ex vna essen¬ 
+      <lb ed="#C" n="14"/>tia, sed dicimus eas esse unam essentiam vel 
+      <lb ed="#C" n="15"/>eiusdem essentiae, propter quod expressius 
+      habe<lb ed="#C" n="16" break="no"/>tur Filium esse consubstantialem Patri. 2. 
+      ratio<lb ed="#C" n="17" break="no"/>ne huius consubstantialitatis, quam habet 
+      Fili<lb ed="#C" n="18" break="no"/>us ad Patrem, dicit huiusmodi Filium esse 
+      uni<lb ed="#C" n="19" break="no"/>gemtum natura: quia alij sunt Filij per 
+      adopta<lb ed="#C" n="20" break="no"/>tionem. Secunda ibi: Inde est. Et in hoc 
+      termina<lb ed="#C" n="21" break="no"/>tur sententia huius lectionis, &amp; 
+      distinctio<lb ed="#C" n="22" break="no"/>nis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

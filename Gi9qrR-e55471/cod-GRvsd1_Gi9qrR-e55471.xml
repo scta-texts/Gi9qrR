@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="206"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e55471"><!-- l1-d9dublit -->
+            <head xml:id="Gi9qrR-e55471-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-e55471-d1e111">
+               <lb ed="#C" n="65"/>DVBITATIONES LITTERALES.
+    </p>
+            <p xml:id="Gi9qrR-e55471-d1e116">
+               <lb ed="#C" n="66"/>SVPER litteram: super illo: 
+      Aliquan<lb ed="#C" n="67" break="no"/>do Deus non habuit virtutem, &amp; sapien. 
+      <lb ed="#C" n="68"/>tiam: si aliquando non habuit Filium. Contra: 
+      <lb ed="#C" n="69"/>aut hic intelligitur de sapientia, &amp; 
+      vir<lb ed="#C" n="70" break="no"/>tute essentialiter dicta, vel personaliter? 
+      <lb ed="#C" n="71"/>Non essentialiter: quia talem haberet  
+      <lb ed="#C" n="72"/>Deus, &amp; si non esset ibi Filius: cum 
+      Pa<lb ed="#C" n="73" break="no"/>ter non sit per Filium. Nec 
+      personali<lb ed="#C" n="74" break="no"/>ter: quia tali sapientia, vel virtute 
+      <lb ed="#C" n="75"/>non est Deus Pater sapiens, vel 
+      vir<lb ed="#C" n="76" break="no"/>tuosus: cum Pater non sit sapiens 
+      sapien<lb ed="#C" n="77" break="no"/>tia genita, ut ostendit <name xml:id="Gi9qrR-e55471-Nd1e144" ref="#Augustine">Aug.</name> 7. de Trin. 
+      <lb ed="#C" n="78"/>cap. 1. Dicendum, quod utroque modo 
+      <lb ed="#C" n="79"/>potest habere veritatem. 1. quod 
+      suma<lb ed="#C" n="80" break="no"/>ur essentialiter: nam cum sapientia 
+      es<lb ed="#C" n="81" break="no"/>sentialiter dicta approprietur Filio, 
+      in<lb ed="#C" n="82" break="no"/>conveniens est Patrem esse sine 
+      sapien<lb ed="#C" n="83" break="no"/>tia, quae Filio appropriatur, sive sine 
+      sa<lb ed="#C" n="84" break="no"/>pientia essentiali. Potest sumi etiam 
+      per<lb ed="#C" n="85" break="no"/>sonaliter. Nam licet Filius non det esse 
+      <lb ed="#C" n="86"/>Patri, inconveniens est tamem Patrem 
+      <lb ed="#C" n="87"/>esse sine Filio, qui est eius operativa 
+      po<lb ed="#C" n="88" break="no"/>tentia, 
+    </p>
+            <p xml:id="Gi9qrR-e55471-d1e172">
+               <lb ed="#C" n="89"/>Item super illud: Vox Angelorum silet.  
+      <lb ed="#C" n="90"/>ontra: vox est sonus corporum, vel  
+      <lb ed="#C" n="91"/>non sit sine tali sono; sed Angeli non 
+      <lb ed="#C" n="92"/>sunt corporei ergo &amp;c. Dicendum 
+      <lb ed="#C" n="93"/>quod si Angeli non habeant corpora, 
+      <lb ed="#C" n="94"/>possunt tamen ea assumere, in quibus 
+      <lb ed="#C" n="95"/>voces formare possunt. Vel dicendum, 
+      <lb ed="#C" n="96"/>quod vox potest dici omne illud, per 
+      <lb ed="#C" n="97"/>quod repraesentatur conceptus mentis: 
+      <lb ed="#C" n="98"/>quia ea, quae sunt in voce, sunt earum, 
+      <lb ed="#C" n="99"/>quae sunt in anima passionum note. Ideo 
+      <lb ed="#C" n="100"/>vox Angelorum dici possunt ipsi nutus 
+      <lb ed="#C" n="101"/>vel signa, per quae sibi conceptiones 
+      <lb ed="#C" n="102"/>mentis manifest ant. 
+    </p>
+            <p xml:id="Gi9qrR-e55471-d1e205">
+               <lb ed="#C" n="103"/>Item super illud: Quoties ortum fuerit 
+      <lb ed="#C" n="104"/>lumen &amp;c. Per quod videtur velle, quod 
+      <lb ed="#C" n="105"/>generatio Filij iteretur, sicut ortus 
+      lumi<lb ed="#C" n="106" break="no"/>nis. Contra: ibi non est reiteratio; cum 
+      <lb ed="#C" n="107"/>non sit ibi prius, &amp; posterius. Dicendum 
+      <lb ed="#C" n="108"/>quod illud non dixit Orige. ratione 
+      ite<lb ed="#C" n="109" break="no"/>rationis, sed ratione indeficientiae. 
+    </p>
+            <p xml:id="Gi9qrR-e55471-d1e224">
+               <lb ed="#C" n="110"/>Item super illud: Vivens Deus. Vt in 
+      <!--244.xml-->
+      <pb ed="#C" n="207"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>telligantur verba Hilarij. Notandum, 
+      <lb ed="#C" n="2"/>quod in generatione Filij Dei quatuor 
+      <lb ed="#C" n="3"/>sunt attendenda. 1. quia Filius Dei 
+      ge<lb ed="#C" n="4" break="no"/>neratur vivus, propter quod separatur  
+      <lb ed="#C" n="5"/>a generatione non viuentium. 2. quia 
+      <lb ed="#C" n="6"/>etiam a principio generatur vivus. Non 
+      <lb ed="#C" n="7"/>enim sic gignitur, ut generabilia 
+      gig<lb ed="#C" n="8" break="no"/>nuntur, quae in sui primordio non 
+      vi<lb ed="#C" n="9" break="no"/>vunt, &amp; postea vivunt. 3. quia eadem 
+      <lb ed="#C" n="10"/>vita vivit cum Patre, &amp; ideo in ipso 
+      vi<lb ed="#C" n="11" break="no"/>vente vivit, &amp; in se Patrem viventem 
+      <lb ed="#C" n="12"/>habet, quod nulli generabilium 
+      conve<lb ed="#C" n="13" break="no"/>nit, quod eadem vita cum suo parente 
+      <lb ed="#C" n="14"/>vivat. 4. quia totum, quod ibi est, vita 
+      <lb ed="#C" n="15"/>est. Propter primum dicit, quod Filius 
+      <lb ed="#C" n="16"/>Dei vivus ex vivo nascitur, &amp; hoc per  
+      <lb ed="#C" n="17"/>virtutem aeternae naturae viventis. 
+      Prop<lb ed="#C" n="18" break="no"/>ter secundum ait, quod ex vivo natum 
+      <lb ed="#C" n="19"/>est vivum quantum ad suae generatio 
+      <lb ed="#C" n="20"/>nis, primordium supple, &amp; hoc propter 
+      <lb ed="#C" n="21"/>perfectionem nativitatis sine 
+      innova<lb ed="#C" n="22" break="no"/>tione naturae. Ex imperfectione enim 
+      <lb ed="#C" n="23"/>generabilium provenit, quod vivum 
+      <lb ed="#C" n="24"/>non proprie generatur ex vivo, sed 
+      so<lb ed="#C" n="25" break="no"/>lum genitum est: quia quando genera 
+      <lb ed="#C" n="26"/>tur, &amp; in sui primordio non vivit, ut  
+      <lb ed="#C" n="27"/>parens vivit. Huius autem subdit 
+      cau<lb ed="#C" n="28" break="no"/>sam dicens: non enim novum est, quod 
+      <!--244.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="29"/>ex vivo generatur vivum, hoc est, vivum 
+      <lb ed="#C" n="30"/>genitum, quod generatur ex vivo patre, 
+      <lb ed="#C" n="31"/>non est novum, nec ex nihilo, &amp; ideo 
+      <lb ed="#C" n="32"/>supple in sui primordio viuit: quia si non 
+      <lb ed="#C" n="33"/>viveret in primordio accideret ei 
+      novi<lb ed="#C" n="34" break="no"/>tas. Quidam textus habent in vivum, &amp; 
+      <lb ed="#C" n="35"/>in idem redit. Sed sic construatur benem, 
+      <lb ed="#C" n="36"/>dico, quod Filius Dei in sui primordio 
+      <lb ed="#C" n="37"/>vivit, enim pro quia, quia non est 
+      no<lb ed="#C" n="38" break="no"/>vum in vivo, id est, non est carens vita 
+      <lb ed="#C" n="39"/>in sui novitate, cum non sit in eo 
+      novi<lb ed="#C" n="40" break="no"/>tas: quia nec generatur ex nihilo. 
+      Quan<lb ed="#C" n="41" break="no"/>tum ad tertium subiungit, quod Filius 
+      <lb ed="#C" n="42"/>in vivente vivit, &amp; in se habet vitam 
+      vi<lb ed="#C" n="43" break="no"/>ventem. Quantum ad quartum addit, 
+      <lb ed="#C" n="44"/>quod totum, quod in Deo est, vita est, 
+      <lb ed="#C" n="45"/>ex quo arguit Filium Dei vivere: quia 
+      <lb ed="#C" n="46"/>ex tali vita procedit. 
+    </p>
+            <p xml:id="Gi9qrR-e55471-d1e339">
+               <lb ed="#C" n="47"/>Item super illud: Cignenti est infinitum 
+      <lb ed="#C" n="48"/>gignere, &amp; nascenti in infinitum nasci. Ergo 
+      <lb ed="#C" n="49"/>generatio illa nunquam terminatur, 
+      sem<lb ed="#C" n="50" break="no"/>per est imperfecta. Dicendum, quod  
+      <lb ed="#C" n="51"/>hoc non dicitur propter 
+      imperfectio<lb ed="#C" n="52" break="no"/>nem, sed quia talis generatio metitur 
+      <lb ed="#C" n="53"/>aeternitate, &amp; nunquam termino 
+      clau<lb ed="#C" n="54" break="no"/>ditur: unde infinitum ibi ponitur 
+      nega<lb ed="#C" n="55" break="no"/>tive; non privative.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

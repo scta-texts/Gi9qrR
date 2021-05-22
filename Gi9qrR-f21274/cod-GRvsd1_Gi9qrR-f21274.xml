@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="454"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f21274"><!-- l1-d24prooem -->
+            <head xml:id="Gi9qrR-f21274-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f21274-d1e111">
+      <!--491.xml-->
+               <pb ed="#C" n="454"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DISTIINCTIO XXUJ 
+      <lb ed="#C" n="2"/>QVID SI CNIFICETVR HIS NOMINIBVS, VNVSVE LVNA, 
+      <lb ed="#C" n="3"/>duo, vel duae, tres; vel tria, Trinus, vel Trinitas, plures, vel pluralitas, distinctio, 
+      <lb ed="#C" n="4"/>vel distinctae, cum his utimur de Deo loquentes. 
+    </p>
+            <p xml:id="Gi9qrR-f21274-d1e129">
+      <!--491.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="5"/>diligenter inquiri &amp;. Post . 
+      <lb ed="#C" n="6"/>quam Magist. distinxit 
+      no<lb ed="#C" n="7" break="no"/>mina significantia unitatem 
+      <lb ed="#C" n="8"/>essentiae, &amp; Personarum 
+      <lb ed="#C" n="9"/>distinctionem, hic de 
+      huius<lb ed="#C" n="10" break="no"/>modi nominibus 
+      determi<lb ed="#C" n="11" break="no"/>nat. Et duo facit: quia 1. 
+      <lb ed="#C" n="12"/>&amp; determinat de huiumodi 
+      <lb ed="#C" n="13"/>nominibus, quid significent in Divinis. 2. 
+      spe<lb ed="#C" n="14" break="no"/>cialiter inquirit, quomodo talia nomina 
+      ad<lb ed="#C" n="15" break="no"/>dantur huic termino, qui est Persona. Secun 
+      <lb ed="#C" n="16"/>da ibi: Biiaterea considerandum, in princip. 25. 
+      <lb ed="#C" n="17"/>dist. Circa primum duo facit: quia 1. inqui  
+      <lb ed="#C" n="18"/>rit, quid significent huiusmodi nomina in 
+      <lb ed="#C" n="19"/>Divinis, quae important unitatem, vel 
+      plura<lb ed="#C" n="20" break="no"/>litatem, ut unus, duo, itria, vel plures, &amp; 
+      <lb ed="#C" n="21"/>quid etiam significent ea, quae annexa 
+      plu<lb ed="#C" n="22" break="no"/>ralitati significant, ut difcretum, distinctum, 
+      <lb ed="#C" n="23"/>&amp; huiusmodi. 2. motas quaestiones 
+      determi<lb ed="#C" n="24" break="no"/>nat, ibi; Si diligenter. Circa quod duo facit: 
+      <lb ed="#C" n="25"/>quia 1. solvit quaestiones tactas. 2. contra 
+      <lb ed="#C" n="26"/>quaedam, quae superius dixerat, obijcit, ibi:  
+      <lb ed="#C" n="27"/>Hic non est. Circa primum duo facit: quia 1. 
+      <lb ed="#C" n="28"/>solvit huiusmodi quaestiones in generali, dicens: 
+      <lb ed="#C" n="29"/>huiusmodi nomina introducta esse in Divinis non 
+      <lb ed="#C" n="30"/>ibi ad ponedum aliquid, sed ad removendum. 
+      <lb ed="#C" n="31"/>2. in speciali hanc soluntionem explanat, ibi:  
+      <lb ed="#C" n="32"/>Cum enim. Circa quod duo facit: quia 1. 
+      ex<lb ed="#C" n="33" break="no"/>planat huiusmodi solutionem quantum ad 
+      ter<lb ed="#C" n="34" break="no"/>minos significantes unitatem; vel plurasitatem. 
+      <lb ed="#C" n="35"/>2. quantum ad terminos significantes annexa 
+      <lb ed="#C" n="36"/>his, ibi? Cum autem dicimus. Circa primum duo 
+      <lb ed="#C" n="37"/>facit: quia 1. ostendit quid significet unitas 
+      <lb ed="#C" n="38"/>2. quid plutalites, ibi: Item cum plures. Circa 
+      <lb ed="#C" n="39"/>primum: duo facit: quia 1. dicit, quid 
+      signi<lb ed="#C" n="40" break="no"/>ficat unitas addita termino essentiali, dicens: 
+      <lb ed="#C" n="41"/>quod cum dicitur unus Deus in Divinis, non 
+      <lb ed="#C" n="42"/>ponitur quantitas, vel aliquid tale, sed solum 
+      <lb ed="#C" n="43"/>excluditur multitudo deorum, quod probat 
+      <lb ed="#C" n="44"/>per Ambrosium. 2. ostendit; quid significat,  
+      <lb ed="#C" n="45"/>cum additur, termino personali, ut cum 
+      dici<lb ed="#C" n="46" break="no"/>tur unus Pater dicens, hoc etiam ratione 
+      re<lb ed="#C" n="47" break="no"/>motionis esse dictum, ut quia non sunt ibi mul 
+      <lb ed="#C" n="48"/>ti Patres. Secunda ibi: Similiter cum dicimas. 
+      <lb ed="#C" n="49"/>Deinde cum dicit: Ilem cum plures. Ostendit, 
+      <lb ed="#C" n="50"/>quid significent in Divinis termini 
+      importan<lb ed="#C" n="51" break="no"/>tes, pluralitatem. Et duo facit: quia 1. dicit,  
+      <lb ed="#C" n="52"/>quid significent huiusmodi termini importan 
+      <lb ed="#C" n="53"/>tes pluralitatem, prout accipiuntur sub esse 
+      <!--491.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="54"/>communi. 2. prout accipiuntur sub esse 
+      spe<lb ed="#C" n="55" break="no"/>ciali, ibi: Ita. Etiam circa primum tria f. cit: 
+      <lb ed="#C" n="56"/>quia 1. dicit, quod cum dicimus plures 
+      Per<lb ed="#C" n="57" break="no"/>sonas, hoc ratione remotionis esse dictum, ut  
+      <lb ed="#C" n="58"/>ad removendam solitudinem. 2. adducit 
+      quan<lb ed="#C" n="59" break="no"/>dam auctoritatem Hilarij ad sui 
+      confirmatio<lb ed="#C" n="60" break="no"/>nem. 3. ad intellectum verborum Hilarij rad 
+      <lb ed="#C" n="61"/>dit lectorem attentum. Secunda ibi: Inde 
+      <lb ed="#C" n="62"/>Hilarius. Tertia ibi: Attende lector. 
+      <lb ed="#C" n="63"/>Tunc sequitur illa pars: Ita etiam. In qua 
+      <lb ed="#C" n="64"/>postquam ostendit quid significent in Divinis 
+      <lb ed="#C" n="65"/>termini numerales non dicentes determinatum 
+      <lb ed="#C" n="66"/>numerum, sicut est iste terminus, plures, ostendit, 
+      <lb ed="#C" n="67"/>quid significent huiusmodi termini dicentes 
+      <lb ed="#C" n="68"/>numerum. determinatum, sicut sunt tres. Et  
+      <lb ed="#C" n="69"/>duo facit t quia 1. ostendit quid significet  
+      <lb ed="#C" n="70"/>iste terminus, tres, dicens hoc non positive 
+      <lb ed="#C" n="71"/>ibi dici: quia ex eo, quod dicimus tres 
+      Per<lb ed="#C" n="72" break="no"/>sonas, non ponimus ibi quantitatem, &amp; 
+      nu<lb ed="#C" n="73" break="no"/>merum, sed removemus inde singularitatem, 
+      <lb ed="#C" n="74"/>vel etiam quartam Personam. 2. ostendit 
+      <lb ed="#C" n="75"/>hunc intellectum habere hoc nomen, duo; ut 
+      <lb ed="#C" n="76"/>cum dicimus Pater, &amp; Filius sunt duo, 
+      sigr<lb ed="#C" n="77" break="no"/>nificamus non tantum Patrem esse, nec 
+      tan<lb ed="#C" n="78" break="no"/>tum Filium, sed utrumque. Secunda ibi: 
+      Si<lb ed="#C" n="79" break="no"/>militer cum dicimus. Deinde cum dicit: Cupi 
+      au<lb ed="#C" n="80" break="no"/>tem. Ostendit quid significent in Divinis 
+      no<lb ed="#C" n="81" break="no"/>mina significantia annexa pluralitati, sicut 
+      di<lb ed="#C" n="82" break="no"/>stinctio, &amp; huiusmodi. Et tria facit: quia 1. 
+      <lb ed="#C" n="83"/>ostendit quid significet distinctio in Divinis, 
+      <lb ed="#C" n="84"/>dicens: hoc per remotionem esse dictum. 
+      Vn<lb ed="#C" n="85" break="no"/>de cum dicimus, quod est distinctio in 
+      Per<lb ed="#C" n="86" break="no"/>sonis, ibi confusionem, &amp; permixtionem 
+      ex<lb ed="#C" n="87" break="no"/>cludimus. 2. addit idem dicendum esse de 
+      di<lb ed="#C" n="88" break="no"/>stinctione. 3. quia nihil dixerat, quid 
+      signifi<lb ed="#C" n="89" break="no"/>cet Trinitas in Divinis, dicit idem significari 
+      <lb ed="#C" n="90"/>per hoc, quod est Trinitas, quod per tres 
+      Per<lb ed="#C" n="91" break="no"/>sonas. Secunda ibi: Ita etiam. Tertia, ibi:  
+      <lb ed="#C" n="92"/>Cum vero. 
+    </p>
+            <p xml:id="Gi9qrR-f21274-d1e331">
+               <lb ed="#C" n="93"/>Tunc sequitur illa pars: Hic non est: quia 
+      <lb ed="#C" n="94"/>dixerat Deum non esse singularem, nec 
+      mel<lb ed="#C" n="95" break="no"/>D tiplicem, adducit quamdam auctoritatem Isi¬ 
+    </p>
+            <p xml:id="Gi9qrR-f21274-d1e340">
+               <lb ed="#C" n="96"/>dori, quae videtur hoc dicere. Et duo facit,: 
+      <lb ed="#C" n="97"/>quia 1. adducit dictam auctoritatem contra 
+      <lb ed="#C" n="98"/>le. 2. solvit dicens: Isidorum per singularem 
+      <lb ed="#C" n="99"/>intelligere unum: per multiplicem intelligere 
+      <lb ed="#C" n="100"/>terminum. Secunda ibi: Sed aed hoc dicimus. Et  
+      <lb ed="#C" n="101"/>in hoc terminatur sententia locutionis, &amp; 
+      di<lb ed="#C" n="102" break="no"/>stinctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

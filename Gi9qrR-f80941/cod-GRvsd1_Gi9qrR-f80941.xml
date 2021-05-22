@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="694"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f80941"><!-- l1-d37p2prooem -->
+            <head xml:id="Gi9qrR-f80941-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f80941-d1e111">
+      <!--719.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="31"/>DISTINCIIOIVI XXXVXJ. 
+      <lb ed="#C" n="32"/>PARS SECVNDA. 
+      <lb ed="#C" n="33"/>QVOD DEVS VBIQVESIT ET IN OMNI TEMPORE; NON TAMEN 
+      <lb ed="#C" n="34"/>localis est, non circunscriptibilis, nec loco, nec tempore movetur.
+    </p>
+            <p xml:id="Gi9qrR-f80941-d1e127">
+      <!--719.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="35"/>VMQE Divina natura &amp;c. 
+      Po<lb ed="#C" n="36" break="no"/>stquam ostendit Magister 
+      <lb ed="#C" n="37"/>Deum esse ubique, ex quo 
+      <lb ed="#C" n="38"/>sequitur Deum nec loco 
+      dif<lb ed="#C" n="39" break="no"/>finiri, nec per loca mutari: 
+      <lb ed="#C" n="40"/>hic in parte illa ostendit crea 
+      <lb ed="#C" n="41"/>turam non solum 
+      corpora<lb ed="#C" n="42" break="no"/>lem, sed tetiam spiritualem 
+      <lb ed="#C" n="43"/>diffiuiri loco, &amp; variationem suscipere. Et duo 
+      <lb ed="#C" n="44"/>facit: quia 1. ostendit creaturam spiritualem 
+      <lb ed="#C" n="45"/>diffiniri loco, &amp; mutari per tempora. 2. 
+      spe<lb ed="#C" n="46" break="no"/>cialiter quaerit: utrum mutetur per loca? Secun 
+      <lb ed="#C" n="47"/>da ibi: De mutatione vero loci. Circa 1. tria facit: 
+      <lb ed="#C" n="48"/>quia 1. ostendit solum Deum non diffiniri locos 
+      <lb ed="#C" n="49"/>creaturam vero omnem non solum corporalem, 
+      <lb ed="#C" n="50"/>sed etiam spiritualem loco diffiniri: quia 
+      quaeli<lb ed="#C" n="51" break="no"/>bet creatura, cum sit alicubi, non est ubique. 2. 
+      <lb ed="#C" n="52"/>ostendit omnem creaturam mobilem esse 
+      ex<lb ed="#C" n="53" break="no"/>quo omnis creatura quodammodo loco 
+      deter<lb ed="#C" n="54" break="no"/>minatur: non tamen eodem modo movetur om 
+      <lb ed="#C" n="55"/>nis creatura: quia corporalis movetur per 
+      tem<lb ed="#C" n="56" break="no"/>pora &amp; loca; spiritualis per tempora, non per lo 
+      <lb ed="#C" n="57"/>ca: ut ostendit per <name xml:id="Gi9qrR-f80941-Nd1e183" ref="#Augustine">Aug.</name> 3. manifestat, quid est 
+      <lb ed="#C" n="58"/>moveri per tempora, dicens: moveri per tem. 
+      <lb ed="#C" n="59"/>pus esse variari per qualitates interiores vel 
+      ex<lb ed="#C" n="60" break="no"/>teriores: ideo quod suscipit varietatem 
+      affectio<lb ed="#C" n="61" break="no"/>num, vel variationem formae sive qualitatis 
+      ex<lb ed="#C" n="62" break="no"/>terioris, per tempora mutatur. Secunda ibi: 
+      Spi<lb ed="#C" n="63" break="no"/>citus vero creatus. Tertia ibi: Mutari autem per 
+      tem<lb ed="#C" n="64" break="no"/>gus. Deinde cum dicit: De mutatione veri. Quae¬ 
+      <!--719.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="65"/>rit, cum habitum sit Spiritum moveri per 
+      tem<lb ed="#C" n="66" break="no"/>pora, non per loca: utrum concedendum sit 
+      nul<lb ed="#C" n="67" break="no"/>lo modo per loca mutari. Et tria facit: quia 1. 
+      <lb ed="#C" n="68"/>narrat positionem aliquorum, qui dicebant 
+      spi<lb ed="#C" n="69" break="no"/>ritualem substantiam nullo modo per loca 
+      mu<lb ed="#C" n="70" break="no"/>tari: quia non movetur per loca, nisi quod est 
+      <lb ed="#C" n="71"/>in loco: nec est in loeo, quod non habet esse 
+      di<lb ed="#C" n="72" break="no"/>mensionatum, &amp; quia hoc n n competit spi 
+      i<lb ed="#C" n="73" break="no"/>tuali substantiae, dicebant spirituale substantiam 
+      <lb ed="#C" n="74"/>nullo modo per loca mutari. 2. ostedit spiritum ali 
+      <lb ed="#C" n="75"/>quo modo mutari per loca: quia licet non sit 
+      <lb ed="#C" n="76"/>localis, quod loco commensuretur; est tamem 
+      loca<lb ed="#C" n="77" break="no"/>lis: quia loco diffinitur: &amp; quod ostedit <name xml:id="Gi9qrR-f80941-Nd1e234" ref="#Augustine">Aug.</name> 
+      spi<lb ed="#C" n="78" break="no"/>ritum non mutari loca, intelligendum est de 
+      <lb ed="#C" n="79"/>mutatione locorum: ut corpora per loca 
+      mutan<lb ed="#C" n="80" break="no"/>tur. 3. concludit spiritus esse locales: quia lo 
+      <lb ed="#C" n="81"/>bo diffiniuntur. Secunda ibi: Sed ut suprae diximus. 
+      <lb ed="#C" n="82"/>Tertia ibi: Sunt ergo spiritus. Circa quod tria 
+      fa<lb ed="#C" n="83" break="no"/>cit: quia 1. ostendit spiritus creatos esse cricum 
+      <lb ed="#C" n="84"/>criptibiles loco, &amp; Deum esse incircunscriptum, 
+      <lb ed="#C" n="85"/>quod probat auctoritate Ambrosij. 2. resumit 
+      <lb ed="#C" n="86"/>praetactam scientiam roborans eam auctoritate 
+      <lb ed="#C" n="87"/>Aug. asserens solum Deum omnino immobile, 
+      <lb ed="#C" n="88"/>&amp; incircunscriptibilem esse. 3. contra 
+      determi<lb ed="#C" n="89" break="no"/>nata obijcit. Secunda ibi: Fateamur Itaque. Tertiae 
+      <lb ed="#C" n="90"/>ibi: Ad hoc autem. Et duo facit: quia 1. arguit  
+      <lb ed="#C" n="91"/>Deum non esse omnino immobilem: quia cum 
+      <lb ed="#C" n="92"/>continue novae creaturae fiant, in quibus Deus 
+      <lb ed="#C" n="93"/>esse incipit, cum in eis prius non esset, videtur,  
+      <lb ed="#C" n="94"/>quod aliquo modo mutetur Deus: &amp; solvit ta¬ 
+      <!--720.xml-->
+      <pb ed="#C" n="695"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>lem novitatem non fieri per imutationem, Dei, 
+      <lb ed="#C" n="2"/>sed per mutationem creaturae. 2. epilogat ostem: 
+      <lb ed="#C" n="3"/>dens se quod amodo digressionem fecisse: quia 
+      <lb ed="#C" n="4"/>cum deberet determinare de cognitione Dei, 
+      <!--720.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="5"/>determinavit de existentia Dei in rebus, &amp; 
+      re<lb ed="#C" n="6" break="no"/>rum in Deo; unde in sequenti distioctione 
+      red<lb ed="#C" n="7" break="no"/>dit ad propositum. Secunda ibi: Iam sufficienter. In 
+      <lb ed="#C" n="8"/>quo terminatur Setetia lectionis, &amp; distinctionit,
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

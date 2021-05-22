@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="721"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f87984"><!-- l1-d38prooem -->
+            <head xml:id="Gi9qrR-f87984-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f87984-d1e111">
+      <!--746.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="23"/>DISTINCTIO SxLVIII. 
+      <lb ed="#C" n="24"/>IN QVAMAGISTER REDDIT AD PROPOSITVM REPE¬ 
+      <lb ed="#C" n="25"/>tens superius dicta, &amp; addit alia. 
+    </p>
+            <p xml:id="Gi9qrR-f87984-d1e124">
+      <!--746.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="26"/>VNo ergo ad propositum &amp;c. Quia  
+      <lb ed="#C" n="27"/>Magister quodammodo 
+      dir<lb ed="#C" n="28" break="no"/>gressionem fecerat 
+      determi<lb ed="#C" n="29" break="no"/>nando de existentia Dei in 
+      <lb ed="#C" n="30"/>rebus, &amp; rerum in Deo, &amp; 
+      <lb ed="#C" n="31"/>de locabilitate creaturarum, 
+      <lb ed="#C" n="32"/>cum deberet determinare de 
+      <lb ed="#C" n="33"/>cientia &amp; sapientia Dei: hic 
+      <lb ed="#C" n="34"/>in parte ista revertitur ad propositum de ea 
+      de<lb ed="#C" n="35" break="no"/>terminans. Et duo facit: quia 1. continuat se ad 
+      <lb ed="#C" n="36"/>dicenda, dicens: se velle determinare de Divina 
+      <lb ed="#C" n="37"/>sapientia vel scientia. 2. exequitur de 
+      proposi<lb ed="#C" n="38" break="no"/>to, ibi: Hic quaestio oritur. Circa quod duo facit: 
+      <lb ed="#C" n="39"/>quia 1. quaerit: utrum Divina scientia sit causa 
+      <lb ed="#C" n="40"/>rerum? 2. movet quaestionem circa augmentum 
+      <lb ed="#C" n="41"/>&amp; diminutionem eius. Secunda ibi: Praeterea 
+      <lb ed="#C" n="42"/>quaeri solet. In principio 19. dist. Circa 1. duo 
+      fa<lb ed="#C" n="43" break="no"/>cit: quia 1. movet quaestionem de causalitate 
+      Divi<lb ed="#C" n="44" break="no"/>nae scientiae, vel praescientiae. 2. de infallibilitatem 
+      <lb ed="#C" n="45"/>eius. Secunda ibi: Ad hoc autem quod supradictum. 
+      <lb ed="#C" n="46"/>Circa 1. duo facit: quia 1. incedit inquirendo. 
+      <lb ed="#C" n="47"/>2. determinando. Secunda ibi: Halic igitur quae 
+      <lb ed="#C" n="48"/>videtur. Circa 1. duo facit: quia 1. ostendit 
+      Di<lb ed="#C" n="49" break="no"/>vinam potentiam vel praescientiam causam 
+      re<lb ed="#C" n="50" break="no"/>rum. 2. arguit ad oppositum, ibi: Quod si 
+      ita<lb ed="#C" n="51" break="no"/>Circa 1. duo facit: quia 1. ostendit per rationem 
+      <lb ed="#C" n="52"/>Divinam scientiam vel praescientiam esse causam 
+      <lb ed="#C" n="53"/>rerum: eo quod posita ponuntur res evenire, 
+      <lb ed="#C" n="54"/>non posita non ponuntur. 2. ostendit hoc idem 
+      <lb ed="#C" n="55"/>per auctoritatem <name xml:id="Gi9qrR-f87984-Nd1e195" ref="#Augustine">Aug.</name> qui vult creaturas non 
+      <lb ed="#C" n="56"/>ideo Deum nosse, quia sunt: sed quia novit: 
+      <lb ed="#C" n="57"/>adeo sunt. Secunda ibi: Cui sententiae <name xml:id="Gi9qrR-f87984-Nd1e203" ref="#Augustine">Aug.</name> Deinde 
+      <lb ed="#C" n="58"/>cum dicit: Quod si ita est. Arguit ad partem: 
+      op<lb ed="#C" n="59" break="no"/>positam. Et tria facit: quia 1. estendit scientia 
+      <lb ed="#C" n="60"/>Dei non esse causam rerum: quia tunc esset 
+      cau<lb ed="#C" n="61" break="no"/>sa malorum, cum mala sciantur ab eo. 2. addit 
+      <lb ed="#C" n="62"/>scita non esse causam Divinae scientiae. 3. adm 
+      <!--746.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="63"/>ducit auctoritatem Origenis dicentis contrarium, 
+      <lb ed="#C" n="64"/>qui ait: res non esse futuras, quia sciuntur a 
+      <lb ed="#C" n="65"/>Deo, sed sciri a Deo futuras esse: quia futurae 
+      <lb ed="#C" n="66"/>sunt. Secunda ibi: Nec etiam res. Tertia ibi: 
+      Ori<lb ed="#C" n="67" break="no"/>genes tamem. Tunc sequitur illa pars: Hanc igitur,  
+      <lb ed="#C" n="68"/>quaevidetur. In qua postquam incessit 
+      opponen<lb ed="#C" n="69" break="no"/>do, incedit determinando. Et duo facit: quia 1. 
+      <lb ed="#C" n="70"/>exponit auctoritatem Origenis dicens: non esse 
+      <lb ed="#C" n="71"/>intelligendum per verba Origenis scita esse 
+      <lb ed="#C" n="72"/>causam Divinae scientiae: sed ideo dictum est, 
+      <lb ed="#C" n="73"/>quia res futurae sunt, a Deo sciuntur: quia nisi 
+      futu<lb ed="#C" n="74" break="no"/>rae essent, non scirentur ab ipso. 2. ostendit 
+      <lb ed="#C" n="75"/>qualiter intelligendum sit Divinam essentiam 
+    </p>
+            <p xml:id="Gi9qrR-f87984-d1e250">
+               <lb ed="#C" n="76"/>vel praescientiam esse causam rerum. Secunda 
+      <lb ed="#C" n="77"/>ibi: Ita etiam dicimus scientiam. Et tria facit: quia 
+      <lb ed="#C" n="78"/>1. dicit, quod si nomine scientiae simplex 
+      noti<lb ed="#C" n="79" break="no"/>tia intelligatur, tunc non designatur ibi 
+      causa<lb ed="#C" n="80" break="no"/>litas, nisi sine qua non: nam nisi res scirentur a 
+      <lb ed="#C" n="81"/>Deo, non progrederentur in esse. Si vero in 
+      no<lb ed="#C" n="82" break="no"/>mine scientiae non solum simplex notitia 
+      <lb ed="#C" n="83"/>intelligitur; sed etiam beneplacitum 
+      includi<lb ed="#C" n="84" break="no"/>tur, tunc recte potest dici causa rerum. 2. dicit  
+      <lb ed="#C" n="85"/>mala nesciri a Deo scientia beneplaciti. 3. 
+      ex<lb ed="#C" n="86" break="no"/>hoc ostendit Deum non esse causam malorum, 
+      <lb ed="#C" n="87"/>cum ea nesciat scientia approbationis, sed solum 
+      <lb ed="#C" n="88"/>Dsimplici. Secunda ibi: Mala vero scit Deus. Tertia 
+    </p>
+            <p xml:id="Gi9qrR-f87984-d1e281">
+               <lb ed="#C" n="89"/>ibi: His verbis aperte ostenditur. Deinde cum dicite  
+      <lb ed="#C" n="90"/>Ad hoc autem. Determinat de infallibilitate Divi 
+      <lb ed="#C" n="91"/>nae scientiae. Et tria facit: quia 1. arguit Divinam 
+      <lb ed="#C" n="92"/>praescientiam posse falli: quia si Deus praescivit 
+      <lb ed="#C" n="93"/>hunc lecturum, cum possit non legere, potest 
+      <lb ed="#C" n="94"/>falli. Et solvit quod non propter hoc falli 
+      po<lb ed="#C" n="95" break="no"/>test: quia si non legeret, non esset a Deo 
+      prae<lb ed="#C" n="96" break="no"/>scitum ipsum esse lecturum. 2. ostendit per aliam 
+      <lb ed="#C" n="97"/>rationem Divinam praescientiam posse falli: quia 
+      <lb ed="#C" n="98"/>si falli non potest, omnia sunt necessaria. 3. 
+      sol<lb ed="#C" n="99" break="no"/>vit: nam cum dicitur hoc praescitum a Deo est 
+      <!--747.xml-->
+      <pb ed="#C" n="722"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>necessarium, si intelligitur coniunctim, vero 
+      <lb ed="#C" n="2"/>est: nem ista duo non possunt simul stare, quod A 
+      <lb ed="#C" n="3"/>quid sit prescitum a Deo &amp; non eveniat sed 
+      <lb ed="#C" n="4"/>si intelligatur divisim, tunc est falsa: nam 
+      de<lb ed="#C" n="5" break="no"/>qualibet re contingenter: entura in se dici po¬ 
+      <!--747.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="6"/>test, quod potest evenire, &amp; non evenire. 
+      sfe<lb ed="#C" n="7" break="no"/>cunda ibi: sed adhac urgent. Tertia ibi: Ad quod 
+      <lb ed="#C" n="8"/>dicimus. In quo terminatur sententia lectionis 
+      <lb ed="#C" n="9"/>&amp; distinctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

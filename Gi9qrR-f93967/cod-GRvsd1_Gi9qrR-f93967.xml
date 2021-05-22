@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="744"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f93967"><!-- l1-d39q2 -->
+            <head xml:id="Gi9qrR-f93967-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-f93967-d1e111">
+      <!--769.xml-->
+               <pb ed="#C" n="744"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>&amp;. QVaAESTIO II. &amp;o 
+      <lb ed="#C" n="2"/>De Divina providentia. 
+    </p>
+            <p xml:id="Gi9qrR-f93967-d1e124">
+               <lb ed="#C" n="3"/>Einde quaeritur de Divina 
+      provi<lb ed="#C" n="4" break="no"/>Ddentia. Et circa hoc quaeruntur 
+      <lb ed="#C" n="5"/>tria. Primo quid sit? Secundo utrum 
+      <lb ed="#C" n="6"/>differat a fato? Tertio: quorum sit? 
+    </p>
+            <div xml:id="Gi9qrR-f93967-Dd1e135">
+               <head xml:id="Gi9qrR-f93967-Hd1e137">Articulus 1</head>
+               <p xml:id="Gi9qrR-f93967-d1e140">
+                  <lb ed="#C" n="7"/>ARTICVLVS I. 
+        <lb ed="#C" n="8"/>Utrum Divina providentia sit idem, quod  
+        <lb ed="#C" n="9"/>scientia? 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e149">
+                  <lb ed="#C" n="10"/>AD 1. sic proceditur: videtur quod  
+        <lb ed="#C" n="11"/>Divina providentia sit idem, quod 
+        <lb ed="#C" n="12"/>scientia: quia secundum <name xml:id="Gi9qrR-f93967-Nd1e157" ref="#Boethius">Boetium</name> 5. de 
+        <lb ed="#C" n="13"/>Consol. providentia dicitur, qd. porro a re 
+        <lb ed="#C" n="14"/>bus infimis costituta, quasi ab excelso 
+        re<lb ed="#C" n="15" break="no"/>rum cacumine cuncta prosciat. Si ergo pros 
+        <lb ed="#C" n="16"/>picere, &amp; videre conveniunt providen 
+        <lb ed="#C" n="17"/>tiae, providentia ad scientiam pertinet
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e172">
+                  <lb ed="#C" n="18"/>Praeterea: videtur, quod sit idem, quod  
+        <lb ed="#C" n="19"/>solicitudo, sive cura: quia Damasc. lib. 2. 
+        <lb ed="#C" n="20"/>cap. penul. dicit, quod providentiaest, quae 
+        <lb ed="#C" n="21"/>ex Deo ad existetria sit cura, ergo cura 
+        <lb ed="#C" n="22"/>Divina circa existentia, hoc est providem 
+        <lb ed="#C" n="23"/>tia.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e188">
+        Praeterea: videtur quod sit idem quod 
+        <lb ed="#C" n="24"/>ordo: quia <name xml:id="Gi9qrR-f93967-Nd1e192" ref="#Augustine">Aug.</name> 83. qq. q. de providem 
+        <lb ed="#C" n="25"/>ia, vult quod Deus provideat omnibus 
+        <lb ed="#C" n="26"/>rebus ex eo, quod Summo enim Deo cuncta 
+        <lb ed="#C" n="27"/>bene administrante quae fecit, nihil in ordinatum 
+        <lb ed="#C" n="28"/>in universo, nihil iniustum est.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e206">
+        Praeterea: 
+        Boe<lb ed="#C" n="29" break="no"/>tius 4. de cons. dicit: providentia est 
+        <lb ed="#C" n="30"/>ipsa Divina ratio in summo omnium 
+        <lb ed="#C" n="31"/>principe constituta, quae euncta 
+        dispo<lb ed="#C" n="32" break="no"/>nit, igitur est idem quod ordo &amp; 
+        dis<lb ed="#C" n="33" break="no"/>positio.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e219">
+        Praeterea: videtur quod 
+        provi<lb ed="#C" n="34" break="no"/>dentia sit idem quod potestas: nam 
+        prou<lb ed="#C" n="35" break="no"/>videre est superiorum, &amp; potestatem 
+        habe<lb ed="#C" n="36" break="no"/>rium.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e228">
+        Praeterea: videtur quod 
+        providen<lb ed="#C" n="37" break="no"/>ia sit idem, quod voluntas Divina: quia 
+        <lb ed="#C" n="38"/>Damasc. lib. 2. cap. 29. ait: providentia 
+        <lb ed="#C" n="39"/>est voluntas Dei, per quam omnia, quae 
+        <lb ed="#C" n="40"/>sunt, convenientem deductionem 
+        sus<lb ed="#C" n="41" break="no"/>cipiunt: Praeterea: videtur, quod sit idem 
+        <lb ed="#C" n="42"/>quod gubernatio: quia <name xml:id="Gi9qrR-f93967-Nd1e243" ref="#Augustine">Aug.</name> 83. qq. qui. 
+        die<lb ed="#C" n="43" break="no"/>providentia loquens de ea ait: quod 
+        <lb ed="#C" n="44"/>cum lex ipsa incommutabilis maneat, omnia, &amp; 
+        <lb ed="#C" n="45"/>mutabilia Deus pulcherrimamgubernatione 
+        mo<lb ed="#C" n="46" break="no"/>deretur. Et sapientiae 14. scribitur, Tua autem, 
+        <lb ed="#C" n="47"/>Pater, providentia gubernat. 
+        <!--769.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="48"/>RESOLVTIO. 
+        <lb ed="#C" n="49"/>Providentia proprie est eorum, quae sunt ad 
+        fi<lb ed="#C" n="50" break="no"/>nem: &amp; ad scientiam, potentiam, &amp; 
+        volunta<lb ed="#C" n="51" break="no"/>tem pertinet diversis respectibus: nam prout ea 
+        <lb ed="#C" n="52"/>Deus ab aeterno intuetur quomodo omnia sunt,  
+        <lb ed="#C" n="53"/>disponenda, sic ad scientiam, &amp; magis proprie 
+        <lb ed="#C" n="54"/>ad practicam, &amp; prout facere proponit, quae 
+        <lb ed="#C" n="55"/>cognoscit, ad voluntatem: &amp; prout tali cog¬ 
+        <lb ed="#C" n="56"/>nitioni &amp; proposito superadditur exe¬ 
+        <lb ed="#C" n="57"/>cutio, attinet ad potentiam. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e284">
+                  <lb ed="#C" n="58"/>REspond. dicendum, quod providem 
+        <lb ed="#C" n="59"/>Dtia proprie est eorum, quae sunt ad 
+        <lb ed="#C" n="60"/>finem: nam cum prudentia sit recta 
+        <lb ed="#C" n="61"/>ratio agibilium, &amp; proprie sit eo¬¬ 
+        <lb ed="#C" n="62"/>rum, quae sunt ad finem: 
+        providen<lb ed="#C" n="63" break="no"/>tia, quae dicitur pars prudentiae, 
+        im<lb ed="#C" n="64" break="no"/>mo in qua completive ratio 
+        pruden<lb ed="#C" n="65" break="no"/>tiae videtur consistere, eorum, quae sunt,  
+        <lb ed="#C" n="66"/>ad finem, est, praesupposita cognitione, 
+        <lb ed="#C" n="67"/>vel voluntate finis. Igitur ea, quae sunt,  
+        <lb ed="#C" n="68"/>ad finem, subiacebunt providentiae 
+        <lb ed="#C" n="69"/>non ipse finis: &amp; quia omnis creatura 
+        <lb ed="#C" n="70"/>habet rationem eius, quod est adfinem 
+        <lb ed="#C" n="71"/>in comparatione ad Deum, per ipsas 
+        <lb ed="#C" n="72"/>creaturas subiectas Divinae providentiae 
+        <lb ed="#C" n="73"/>Divina providentia nobis 
+        manifestari<lb ed="#C" n="74" break="no"/>poterit. Videmus autem duo in 
+        creatu<lb ed="#C" n="75" break="no"/>ris, quae iuvant nos ad intelligendum Di¬ 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e326">
+                  <lb ed="#C" n="76"/>vinam providentiam. Primo quia 
+        om<lb ed="#C" n="77" break="no"/>nis creatura a Deo naturam propriam 
+        <lb ed="#C" n="78"/>est sortita: aliter &amp; aliter: secundum 
+        di<lb ed="#C" n="79" break="no"/>versa creaturarum genera. Et 
+        secun<lb ed="#C" n="80" break="no"/>dum hoc, quaedam dispositio in univet 
+        <lb ed="#C" n="81"/>so attenditur, ut aliqua sint superiora, 
+        <lb ed="#C" n="82"/>aliqua inferiora, prout requirit 
+        diversi<lb ed="#C" n="83" break="no"/>tas naturarum: &amp; sic accepta dispositio 
+        <lb ed="#C" n="84"/>est ordo partium in toto. Istum autem 
+        <lb ed="#C" n="85"/>ordinem &amp; decorem universi tradidit, 
+        <lb ed="#C" n="86"/>Philosophus cum dicit 12. Meta. ubi assimilat 
+        <lb ed="#C" n="87"/>totum universum exercitui, &amp; Deum 
+        <lb ed="#C" n="88"/>duci exercitus: nam sicut in exercitu 
+        <lb ed="#C" n="89"/>aliqui milites sunt anteriores, aliqui  
+        <lb ed="#C" n="90"/>posteriores secundum maiorem &amp; 
+        mi<lb ed="#C" n="91" break="no"/>norem probitatem, si bene sit 
+        ordina<lb ed="#C" n="92" break="no"/>tus exercitus: ita quod est ibi quidam 
+        <lb ed="#C" n="93"/>ordo partium inter se: sic aliquae 
+        crea<lb ed="#C" n="94" break="no"/>turae sunt superiores, aliquae inferiores, 
+        <lb ed="#C" n="95"/>secundum quod habent excelletiorem 
+        <lb ed="#C" n="96"/>&amp; minus excellentem naturam. Vnde 
+        <lb ed="#C" n="97"/>est quidam ordo creaturarum inter se: 
+        <lb ed="#C" n="98"/>eo quod ultima supremorum attingunt 
+        <lb ed="#C" n="99"/>suprema infimorum, &amp; e coverso. 
+        Se<lb ed="#C" n="100" break="no"/>cundum considerandum in rebus crea¬ 
+        <!--770.xml-->
+        <pb ed="#C" n="745"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tis est, quod praeter hoc, quod naturam 
+        <lb ed="#C" n="2"/>propriam creatura quaelibet a Deo 
+        for<lb ed="#C" n="3" break="no"/>tita est, cuilibet tributa sunt ea, per quae 
+        <lb ed="#C" n="4"/>possit finem proprium consequi 
+        secun<lb ed="#C" n="5" break="no"/>dum naturam suam: &amp; hoc quodam 
+        <lb ed="#C" n="6"/>modo correspondet. Primo quia 
+        secun<lb ed="#C" n="7" break="no"/>dum quod creaturae in natura 
+        diversifi<lb ed="#C" n="8" break="no"/>cantur, sic eis diversa tribuuntur, per 
+        <lb ed="#C" n="9"/>quae possint consequi fines suos: &amp; 
+        <lb ed="#C" n="10"/>ideo aliquae suas operationes acquirum 
+        <lb ed="#C" n="11"/>paucis operationibus, &amp; aliquae 
+        pluri<lb ed="#C" n="12" break="no"/>bus: &amp; talis dispositio univerum proprie 
+        <lb ed="#C" n="13"/>dicit ordinem in finem. Hunc autem 
+        de<lb ed="#C" n="14" break="no"/>corem &amp; ordinem univers quatum ad 
+        <lb ed="#C" n="15"/>finem ultimum tradidit Philosophus in 12. Me 
+        <lb ed="#C" n="16"/>ta. ubi totus munds ordinatur ad Deum,  
+        <lb ed="#C" n="17"/>sed quantum ad fines proximos cum 
+        tra<lb ed="#C" n="18" break="no"/>didit Philosophus in 2. Cael. &amp; Mund. ubi 
+        di<lb ed="#C" n="19" break="no"/>stinguit gradus nobilitatis rerum, secun 
+        <lb ed="#C" n="20"/>dum quod res acquirunt nobiliorem 
+        <lb ed="#C" n="21"/>finem, &amp; minus nobilem. Et hoc 
+        opera<lb ed="#C" n="22" break="no"/>tionibus multis vel paucis. Advertendum 
+        <lb ed="#C" n="23"/>tamen, quod licet dispositio 
+        commu<lb ed="#C" n="24" break="no"/>niter sumpta possit dici ordo partium 
+        <lb ed="#C" n="25"/>in toto, &amp; ordo earum in finem: 
+        acci<lb ed="#C" n="26" break="no"/>piendo tamen eam ut contra providentiam 
+        <lb ed="#C" n="27"/>dividitur; no ut providentiam includit, sic 
+        <lb ed="#C" n="28"/>dispositio universi accipi debet, secudum 
+        <lb ed="#C" n="29"/>quod res naturas proprias sunt sortitae. 
+        <lb ed="#C" n="30"/>Providentia vero ex eo quod rebus 
+        tri<lb ed="#C" n="31" break="no"/>buta sunt ea, per quae possunt fines 
+        pro<lb ed="#C" n="32" break="no"/>prios adipisci: sic enim videmus in 
+        Pa<lb ed="#C" n="33" break="no"/>tre familias, cui Deus assimilatur. Nam 
+        <lb ed="#C" n="34"/>primo disponit domum suam, &amp; hoc  
+        <lb ed="#C" n="35"/>inquantum aliquos constituit, milites, 
+        <lb ed="#C" n="36"/>aliquos servientes, aliquos vestiarios, &amp; 
+        <lb ed="#C" n="37"/>sic singulos in suis disponit gradibus, &amp; 
+        <lb ed="#C" n="38"/>postmodum eis in suis gradibus 
+        consti<lb ed="#C" n="39" break="no"/>tutis singulariter tribuit, prout sin 
+        <lb ed="#C" n="40"/>gula requirunt officia; &amp; talis tributio 
+        <lb ed="#C" n="41"/>provisio dicitur, sed constituere eos in 
+        <lb ed="#C" n="42"/>suis gradibus dispositio nominatur. Sic 
+        <lb ed="#C" n="43"/>Deus in universo toto, quod est quasi 
+        <lb ed="#C" n="44"/>quedam sua domus, costituit creaturas in 
+        <lb ed="#C" n="45"/>diversis gradibus, secundum quod 
+        ali<lb ed="#C" n="46" break="no"/>quibus dedit naturam rationalem, 
+        ali<lb ed="#C" n="47" break="no"/>quibus irrationalem, &amp; quantum ad hoc  
+        <lb ed="#C" n="48"/>attenditur dispositio univerii. Rursum 
+        <lb ed="#C" n="49"/>prout omnibus tribuit, per quae possent 
+        <lb ed="#C" n="50"/>fines consequi, dicitur omnibus 
+        pro<lb ed="#C" n="51" break="no"/>videre, ut homini praeter hoc, quod 
+        de<lb ed="#C" n="52" break="no"/>dit sibi naturam propriam, secundum 
+        <lb ed="#C" n="53"/>quam in certo gradu universi 
+        colloca<lb ed="#C" n="54" break="no"/>tur, providit ei dando sibi intellectum 
+        <lb ed="#C" n="55"/>&amp; voluntatem, per quae possit 
+        conse<lb ed="#C" n="56" break="no"/>qui finem suum. 
+        <!--770.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>Hoc autem si bene vidimus, patere 
+        <lb ed="#C" n="58"/>potest defacili, quomodo differunt scie 
+        <lb ed="#C" n="59"/>tia, dispositio, solicitudo, providentia, &amp; 
+        <lb ed="#C" n="60"/>gubernatio. Nam scientia Divina non 
+        <lb ed="#C" n="61"/>solum est respectu eorum, quae sunt ad 
+        <lb ed="#C" n="62"/>finem, sed etiam respe ufinis. Scit enim 
+        <lb ed="#C" n="63"/>Deus &amp; se ipsum &amp; alia. Reliqua vero 
+        <lb ed="#C" n="64"/>quatuor accipiuntur penes ea, quae sunt,  
+        <lb ed="#C" n="65"/>ad finem. Nam providere, &amp; solicitum es 
+        <lb ed="#C" n="66"/>se, &amp; gubernare, &amp; disponere dicimus 
+        <lb ed="#C" n="67"/>Deum per comparationem ad ea, quae 
+        <lb ed="#C" n="68"/>sunt adfinem, quae quatuor distingui pos  
+        <lb ed="#C" n="69"/>sunt. Quia Divina solicitudo videtur 
+        es<lb ed="#C" n="70" break="no"/>se quid conmmune ad alia tria: nam &amp; in 
+        <lb ed="#C" n="71"/>providendo, &amp; disponendo, &amp; 
+        guber<lb ed="#C" n="72" break="no"/>nando potest dici Deus solicitus, &amp; 
+        ha<lb ed="#C" n="73" break="no"/>bere curam. Nam sicut Pater familias 
+        <lb ed="#C" n="74"/>habet curam, &amp; est solicitus: quomodo 
+        <lb ed="#C" n="75"/>suam domum disponat: quomodo 
+        om<lb ed="#C" n="76" break="no"/>nibus secundum suum gradum 
+        provi<lb ed="#C" n="77" break="no"/>deat: quomodo singulos secundum suum 
+        <lb ed="#C" n="78"/>modum gubernet: sic &amp; Deus respectu 
+        <lb ed="#C" n="79"/>omnium praedictorum solicitus dici 
+        po<lb ed="#C" n="80" break="no"/>test. Reliqua vero se habent per ordinem. 
+        <lb ed="#C" n="81"/>Nam providentia presupponit 
+        disposi<lb ed="#C" n="82" break="no"/>tionem, &amp; gubernatio providentiam: nam 
+        <lb ed="#C" n="83"/>prius est domum disponere, quam 
+        sin<lb ed="#C" n="84" break="no"/>gulis secundum suum statum provide 
+        <lb ed="#C" n="85"/>re. Rursum providentia praecedit 
+        gu<lb ed="#C" n="86" break="no"/>bernationem: nam gubernatio est 
+        exe<lb ed="#C" n="87" break="no"/>cutio providentiae: &amp; ideo providentia 
+        <lb ed="#C" n="88"/>&amp; dispositio aeterna sunt: 
+        guberna<lb ed="#C" n="89" break="no"/>tio est quid temporale. Nam Deus in 
+        se<lb ed="#C" n="90" break="no"/>ipso ab aeterno omnia disposuit, &amp; 
+        om<lb ed="#C" n="91" break="no"/>nibus providit, quae intempore 
+        execu<lb ed="#C" n="92" break="no"/>tus est: gubernatio, quae hanc 
+        executio<lb ed="#C" n="93" break="no"/>nem nominat, dicitur temporalis. Ex 
+        <lb ed="#C" n="94"/>hoc etiam apparet dispositionem 
+        Divi<lb ed="#C" n="95" break="no"/>nam, &amp; providentiam ad scientiam, 
+        po<lb ed="#C" n="96" break="no"/>tentiam, &amp; voluntatem diversis 
+        respe<lb ed="#C" n="97" break="no"/>ctibus pertinere. Nam si Divinam 
+        provi<lb ed="#C" n="98" break="no"/>dentiam, &amp; dispositionem 
+        considera<lb ed="#C" n="99" break="no"/>mus, prout ea Deus speculative 
+        intue<lb ed="#C" n="100" break="no"/>tur: sic pertinent ad scientiam, Etiam ad 
+        <lb ed="#C" n="101"/>solam scientiam speculativam 
+        aliquali<lb ed="#C" n="102" break="no"/>ter pertinere potest: quia licet in 
+        <lb ed="#C" n="103"/>creaturis, ubi malitia est corruptiva 
+        <lb ed="#C" n="104"/>principij, prudentia vel providentia, 
+        <lb ed="#C" n="105"/>quae est pars eius, semper ad scientiam 
+        <lb ed="#C" n="106"/>ertineat practicam, &amp; praesupponat vo 
+        <lb ed="#C" n="107"/>luntatem finis. In Deo autem potest ad 
+        <lb ed="#C" n="108"/>scientiam speculativam pertinere, 
+        <lb ed="#C" n="109"/>&amp; praesupponere cognitionem finis: 
+        <lb ed="#C" n="110"/>quamvis etiam in ipso Deo providentia, 
+        <lb ed="#C" n="111"/>magis proprie ad scientiam pertineat 
+        <lb ed="#C" n="112"/>practicam, quam ad speculativam. Si 
+        <!--771.xml-->
+        <pb ed="#C" n="746"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>vero advertimus, quod cum hoc quod 
+        <lb ed="#C" n="2"/>talia cognoscit, &amp; videt, sic facere 
+        pro<lb ed="#C" n="3" break="no"/>ponit: pertinent ad voluntatem. Sed si 
+        con<lb ed="#C" n="4" break="no"/>sideramus ea, prout tali cognitioni &amp; 
+        <lb ed="#C" n="5"/>proposito superadditur executio, sic 
+        <lb ed="#C" n="6"/>pertinent ad potentiam, mediante qua 
+        <lb ed="#C" n="7"/>talis executio habet fieri. Nam ut Deus 
+        <lb ed="#C" n="8"/>ab aeterno secundum suam scietiam 
+        vi<lb ed="#C" n="9" break="no"/>dit, quomodo erant omnia disponenda, &amp; 
+        <lb ed="#C" n="10"/>omnibus providendum per voluntatem, 
+        <lb ed="#C" n="11"/>sic facere proposuit, &amp; per suam virtus 
+        <lb ed="#C" n="12"/>tem &amp; potentiam est ea postmodum 
+        <lb ed="#C" n="13"/>executus. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e671">
+                  <lb ed="#C" n="14"/>Possumus tamen, si volumus, haec 
+        <lb ed="#C" n="15"/>aliter assignare, ut ex eo, quod Deus 
+        <lb ed="#C" n="16"/>providet rebus, dicatur Deus bonus: eo 
+        <lb ed="#C" n="17"/>quod ordinate providet, dicatur sapiens 
+        <lb ed="#C" n="18"/>eo autem quod firmiter &amp; inconcusse 
+        <lb ed="#C" n="19"/>providet, dicatur potens: ita quod ipsa 
+        <lb ed="#C" n="20"/>provisio praesuponat bonitatem, &amp; 
+        vo<lb ed="#C" n="21" break="no"/>luntatem: decor autem &amp; ordo, qui in 
+        <lb ed="#C" n="22"/>provisione aspicitur, indicent sapientia 
+        <lb ed="#C" n="23"/>&amp; cognitionem: firmitas autem &amp; im 
+        <lb ed="#C" n="24"/>mobilitas ordinis arguant potentiam &amp; 
+        <lb ed="#C" n="25"/>virtutem. Hanc autem viam secundam 
+        <lb ed="#C" n="26"/>innuit Damasc. 2. lib. cap. penul. ubi 
+        de<lb ed="#C" n="27" break="no"/>providentia determinat. Quoniam igitur  
+        <lb ed="#C" n="28"/>Divina providentia includit Divinam 
+        <lb ed="#C" n="29"/>solicitudinem: eo quod Divina cura &amp; 
+        <lb ed="#C" n="30"/>solicitudo videtur quid commune ad 
+        <lb ed="#C" n="31"/>dispositionem, providentiam, &amp; 
+        guber<lb ed="#C" n="32" break="no"/>nationem. Rursumque quia 
+        providen<lb ed="#C" n="33" break="no"/>tia quodammodo quidam ordo est, &amp; 
+        <lb ed="#C" n="34"/>etiam praesupponit dispositionem, &amp; or 
+        <lb ed="#C" n="35"/>dinem universi modo, quo dictum est: 
+        <lb ed="#C" n="36"/>&amp; quia gubernatio executionem 
+        provi<lb ed="#C" n="37" break="no"/>dentiae nominat: &amp; etiam quia 
+        provi<lb ed="#C" n="38" break="no"/>dentia ad scientiam, voluntatem, &amp; po 
+        <lb ed="#C" n="39"/>tentiam pertinet diversis respectibus, 
+        si<lb ed="#C" n="40" break="no"/>cut ostesum est, propter modum &amp; 
+        or<lb ed="#C" n="41" break="no"/>dinem, que habet ad omnia praetacta 
+        <lb ed="#C" n="42"/>licet ab omnibus eis differat, loquimur 
+        <lb ed="#C" n="43"/>tamen de ea secundum modum omnium 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e740">
+                  <lb ed="#C" n="44"/>praedictorum: &amp; ideo licet providentia, 
+        <lb ed="#C" n="45"/>differat a Divina scientia, loquimur 
+        ta<lb ed="#C" n="46" break="no"/>men de ea ad modum Divinae scientiae, 
+        <lb ed="#C" n="47"/>ut prima ratio arguebat. Sic et a loqui  
+        <lb ed="#C" n="48"/>mur de ea ad modum Divinae 
+        solicitudi<lb ed="#C" n="49" break="no"/>nis, ut arguebat secunda. Et ad modum 
+        <lb ed="#C" n="50"/>Divini ordinis, ut proponebat tertia, &amp; 
+        <lb ed="#C" n="51"/>quarta. Et ad modum potentiae, ut at 
+        <lb ed="#C" n="52"/>guebat quinta. Et ad modum 
+        volun<lb ed="#C" n="53" break="no"/>tatis, ut dicebat sexta. Et ad modum 
+        <lb ed="#C" n="54"/>gubernationis, ut ultima proponebat.
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f93967-Dd1e767">
+               <head xml:id="Gi9qrR-f93967-Hd1e769">Articulus 2</head>
+               <p xml:id="Gi9qrR-f93967-d1e772">
+        <!--771.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>ARTICVLVS II 
+        <lb ed="#C" n="56"/>Vtrum Divina providentia sit idem quod  
+        <lb ed="#C" n="57"/>fatum? 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e785">
+                  <lb ed="#C" n="58"/>SEcundo quaeritur: utrum Divina 
+        <lb ed="#C" n="59"/>providentia sit idem, quod fatum? 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e792">
+                  <lb ed="#C" n="60"/>Et videtur, quod sic per <ref xml:id="Gi9qrR-f93967-Rd1e796">Aug. 5. de 
+          Civi<lb ed="#C" n="61" break="no"/>Dei cap. 9.</ref> qui ait: Si mihi fati nomen 
+        ali<lb ed="#C" n="62" break="no"/>cui rei adhibendum placeret, magis dicerem 
+        fa<lb ed="#C" n="63" break="no"/>tum esse firmioris potentioris voluntatem, quam 
+        <lb ed="#C" n="64"/>illum causarum ordinem, quem non usitatum, 
+        <lb ed="#C" n="65"/>sed suo more stoici fatum appellant; sed 
+        vo<lb ed="#C" n="66" break="no"/>luntas firmioris, &amp; potentioris, sive 
+        vo<lb ed="#C" n="67" break="no"/>luntas Divina est idem, quod 
+        providen<lb ed="#C" n="68" break="no"/>tia, vel non realiter differt ab ipsa, erge 
+        <lb ed="#C" n="69"/>nec fatum realiter erit diversum a 
+        pro<lb ed="#C" n="70" break="no"/>videntia.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e821">
+        Praeterea: scribitur 5. de 
+        Civi<lb ed="#C" n="71" break="no"/>Dei cap. 8. Ducunt volentem fata, nolentem 
+        <lb ed="#C" n="72"/>trahunt. Si igitur fata voluntatem 
+        immu<lb ed="#C" n="73" break="no"/>tare possunt: eo quod volentem duo 
+        <lb ed="#C" n="74"/>cunt, &amp; nolentem trahunt: cum nihil 
+        <lb ed="#C" n="75"/>infra Deum liberum arbitrium 
+        immu<lb ed="#C" n="76" break="no"/>tare possit: eo quod inter Deum &amp; 
+        vo<lb ed="#C" n="77" break="no"/>luntatem nihilsit medium, fatum non 
+        <lb ed="#C" n="78"/>erit aliquid infra Deum, ergo non 
+        rea<lb ed="#C" n="79" break="no"/>liter differet a Divina providentia. 
+        Prae<lb ed="#C" n="80" break="no"/>terea: diversi respectus non faciunt 
+        dif<lb ed="#C" n="81" break="no"/>ferentiam realem, sed unum &amp; idem 
+        <lb ed="#C" n="82"/>acceptum prout est in Deo dicitur 
+        pro<lb ed="#C" n="83" break="no"/>videntia, relatum vero ad ea, quae 
+        mo<lb ed="#C" n="84" break="no"/>vetur per ipsum, dicitur fatum. Vnde 
+        <lb ed="#C" n="85"/>Boetius 4. de Consolait: quod cum in 
+        <lb ed="#C" n="86"/>ipsa Divinae intelligentiae puritate 
+        cons<lb ed="#C" n="87" break="no"/>picitur, providentia nominatur: cum 
+        ve<lb ed="#C" n="88" break="no"/>ro ad ea, quae movet, atque disponit, 
+        re<lb ed="#C" n="89" break="no"/>fertur, fatum a veteribus appellatum 
+        <lb ed="#C" n="90"/>est. Non ergo fatum &amp; providentia 
+        rea<lb ed="#C" n="91" break="no"/>liter differunt.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e870">
+        Praeterea: secundum 
+        eun<lb ed="#C" n="92" break="no"/>dem ibidem: fatalia de necessitate prove 
+        <lb ed="#C" n="93"/>niunt: quia fatum est indeclinabilis 
+        or<lb ed="#C" n="94" break="no"/>do causarum; sed res non de 
+        necessita<lb ed="#C" n="95" break="no"/>te proveniunt, nisi prout referuntur ad 
+        <lb ed="#C" n="96"/>Divinam providentiam. Nam resatae ad 
+        <lb ed="#C" n="97"/>causas proximas contingentes esse 
+        pos<lb ed="#C" n="98" break="no"/>sunt. Igitur ordo causarum, qui est in 
+        <lb ed="#C" n="99"/>Primo Principe, fatum dicitur: cum 
+        so<lb ed="#C" n="100" break="no"/>lum in eo indeclinabiliter maneat; sed  
+        <lb ed="#C" n="101"/>huiusmodi ordo est Divina providentia, 
+        <lb ed="#C" n="102"/>ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e896">
+                  <lb ed="#C" n="103"/>In contrarium est <name xml:id="Gi9qrR-f93967-Nd1e900" ref="#Augustine">Aug.</name> 5. de Civi. 
+        <!--772.xml-->
+        <pb ed="#C" n="747"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Dei cap. 9. qui ait: Omnia vero fato fieri non 
+        <lb ed="#C" n="2"/>dicimus: immo nihil fato fieri dicimus. Sed 
+        di<lb ed="#C" n="3" break="no"/>cere nihil fieri Divina providentia est 
+        <lb ed="#C" n="4"/>erroneum: non igitur idem est fatum, 
+        <lb ed="#C" n="5"/>quod Divina providentia: cum fato 
+        ni<lb ed="#C" n="6" break="no"/>hil fiat: providentia omnia fiant. 
+        Prae<lb ed="#C" n="7" break="no"/>terea: <name xml:id="Gi9qrR-f93967-Nd1e925" ref="#Boethius">Boetius</name> 4. de Cons. dicit: quod  
+        <lb ed="#C" n="8"/>fatum &amp; providentia diversa esse facile 
+        <lb ed="#C" n="9"/>liquebit, siquis utriusque rationem 
+        cons<lb ed="#C" n="10" break="no"/>pexerit, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e935">
+                  <lb ed="#C" n="11"/>RESOLVTIO. 
+        <lb ed="#C" n="12"/>A fato Divina Providentia in quinque 
+        <lb ed="#C" n="13"/>differt. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e944">
+                  <lb ed="#C" n="14"/>REspond. dicendum, quod fatum 
+        tri<lb ed="#C" n="15" break="no"/>Rpliciter consuevit accipi. Vno 
+        mo<lb ed="#C" n="16" break="no"/>do idem est, quod vis quaedam, &amp; dispo 
+        <lb ed="#C" n="17"/>sitio siderum. Vnde <name xml:id="Gi9qrR-f93967-Nd1e954" ref="#Augustine">Aug.</name> 5. de Civita. 
+        <lb ed="#C" n="18"/>Dei cap. 2. dicit, quod cum homines 
+        <lb ed="#C" n="19"/>atum audiunt, usitata loquendi consue 
+        <lb ed="#C" n="20"/>udine non intelligunt nisi vim 
+        po<lb ed="#C" n="21" break="no"/>sitionis siderum. Secundo fatum 
+        acci<lb ed="#C" n="22" break="no"/>pitur pro quocuque ordine causarum: 
+        <lb ed="#C" n="23"/>ut patet per <name xml:id="Gi9qrR-f93967-Nd1e971" ref="#Augustine">Aug.</name> 5. de Civit. Dei cap. 
+        <lb ed="#C" n="24"/>9. qui reprehendens Ciceronem, qui 
+        <lb ed="#C" n="25"/>negabat Deum esse praescium 
+        futuro<lb ed="#C" n="26" break="no"/>rum, ait: Contendat ergo Cicero cum eis, qui  
+        <lb ed="#C" n="27"/>hunc causarum ordinem dicunt esse fatalem. 
+        <lb ed="#C" n="28"/>Tertio modo fatum sumitur pro 
+        Divi<lb ed="#C" n="29" break="no"/>na voluntate, vel Divina providentia. 
+        <lb ed="#C" n="30"/>Vnde <name xml:id="Gi9qrR-f93967-Nd1e989" ref="#Augustine">Aug.</name> 5. de Civit. Dei cap. 8. 
+        lo<lb ed="#C" n="31" break="no"/>quens de quibusdam philosophis, vel 
+        <lb ed="#C" n="32"/>poetis de fato determinantibus, ait: 
+        <lb ed="#C" n="33"/>quod probatur eos appellare fatum 
+        ip<lb ed="#C" n="34" break="no"/>sam praecipue Dei summi voluntatem, 
+        <lb ed="#C" n="35"/>cuius potestas insuperabiliter per cuncta 
+        <lb ed="#C" n="36"/>porrigitur. His autem tribus modis 
+        pos<lb ed="#C" n="37" break="no"/>sunt superaddi duo modi. Nam 
+        ponen<lb ed="#C" n="38" break="no"/>tes fatum esse vim positionis siderum, di 
+        <lb ed="#C" n="39"/>visi sunt: quia quidam huiusmodi vim 
+        <lb ed="#C" n="40"/>reduxerunt in Divinam voluntatem; &amp; 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1015">
+                  <lb ed="#C" n="41"/>uidam non. Vnde <name xml:id="Gi9qrR-f93967-Nd1e1019" ref="#Augustine">Aug.</name> 5. de Civita. 
+        <lb ed="#C" n="42"/>Dei cap. 2. ait: quod homines per 
+        posi<lb ed="#C" n="43" break="no"/>ti onem siderum fatum intelligunt, 
+        qua<lb ed="#C" n="44" break="no"/>lis est quando quis nascitur, sive 
+        conci<lb ed="#C" n="45" break="no"/>pitur, quod aliqui alienant a Dei 
+        volun<lb ed="#C" n="46" break="no"/>tate, aliqui ex illa hoc etiam pendere 
+        <lb ed="#C" n="47"/>confirmant. Rursum ponentes fatum es 
+        <lb ed="#C" n="48"/>se causarum ordinem, etiam divisi sunt: 
+        <lb ed="#C" n="49"/>quia aliqui huiusmodi ordinem nec in 
+        <lb ed="#C" n="50"/>Divinam voluntatem, nec in aliquam 
+        <lb ed="#C" n="51"/>voluntatem rationalem reducunt. 
+        Vn<lb ed="#C" n="52" break="no"/>de 5. de Civit. Dei cap. 2. scribitur: 
+        <lb ed="#C" n="53"/>quod aliquando fatalia dicuntur, quae 
+        <!--772.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="54"/>praeter Dei &amp; hominum voluntatem 
+        <lb ed="#C" n="55"/>cuiusdam ordinis necessitate 
+        contin<lb ed="#C" n="56" break="no"/>gunt. Aliqui autem huiusmodi causarum 
+        <lb ed="#C" n="57"/>ordinem reductum in Divinam 
+        volun<lb ed="#C" n="58" break="no"/>tatem fatum appellant. Vnde 5. de 
+        Ci<lb ed="#C" n="59" break="no"/>vitate Dei cap. 8. scribitur: Qui vero non 
+        <lb ed="#C" n="60"/>astrorum constitutionem, sicuti est, cum 
+        quid<lb ed="#C" n="61" break="no"/>que concipitur, vel nascitur, vel inchoatur, sed  
+        <lb ed="#C" n="62"/>mnium connexionem, seriemque causarum, 
+        qua<lb ed="#C" n="63" break="no"/>fit omne, quod fit, fati nomine appellant: &amp; 
+        sub<lb ed="#C" n="64" break="no"/>dit: quod cum talibus de verbi 
+        contro<lb ed="#C" n="65" break="no"/>versia non multum laborandum est, 
+        at<lb ed="#C" n="66" break="no"/>que tractandum, quando quidem 
+        ipsa<lb ed="#C" n="67" break="no"/>rum ordinem, &amp; quamdam 
+        connexio<lb ed="#C" n="68" break="no"/>nem Dei summi tribuunt voluntati, &amp; 
+        <lb ed="#C" n="69"/>potestati, per quod intelligere dat 
+        ali<lb ed="#C" n="70" break="no"/>quos fuisse, qui ordinem causarum fatum 
+        <lb ed="#C" n="71"/>dicentes, eum in Divinam voluntatem 
+        <lb ed="#C" n="72"/>reducebant. Quinque ergo modis 
+        fa<lb ed="#C" n="73" break="no"/>tum dicitur. Primo vis positionis 
+        side<lb ed="#C" n="74" break="no"/>um in Divinam voluntatem reducta. 
+        <lb ed="#C" n="75"/>Secundo huiusmodi vis in talem 
+        volun<lb ed="#C" n="76" break="no"/>tatem non ordinata. Tertio ordo 
+        <lb ed="#C" n="77"/>causarum Divinae voluntati tributus. 
+        <lb ed="#C" n="78"/>uarto talis ordo praeter Divinam 
+        vo<lb ed="#C" n="79" break="no"/>untatem proveniens. Quinto ipsa 
+        Di<lb ed="#C" n="80" break="no"/>vina voluntas sive providentia vel 
+        pote<lb ed="#C" n="81" break="no"/>stas fatum nominatur.  
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1114">
+                  <lb ed="#C" n="82"/>Duos istorum modorum prima 
+        fa<lb ed="#C" n="83" break="no"/>cie apparet impossibiles esse. Nam quod  
+        <lb ed="#C" n="84"/>sit aliqua vis siderum, vel aliquis ordo 
+        <lb ed="#C" n="85"/>causarum in Divinam voluntatem non 
+        <lb ed="#C" n="86"/>reductus est impossibile. Solum ergo 
+        de<lb ed="#C" n="87" break="no"/>tribus alijs acceptionibus est loquendum. 
+        <lb ed="#C" n="88"/>Sed rursum una illarum acceptionum 
+        <lb ed="#C" n="89"/>non est bona. Nam quod fatum dicatur  
+        <lb ed="#C" n="90"/>ris siderum, secundum quod de huiuss 
+        <lb ed="#C" n="91"/>modi vi loquuntur, qui de tali fato 
+        de<lb ed="#C" n="92" break="no"/>terminaverunt, stare non potest: cum 
+        <lb ed="#C" n="93"/>talem vim super liberum arbitrium 
+        dire<lb ed="#C" n="94" break="no"/>cte causalitatem habere ponerent, &amp; per 
+        <lb ed="#C" n="95"/>eam de moribus hominum tanquam per 
+        <lb ed="#C" n="96"/>causam, cui directe voluntas subditur,  
+        <lb ed="#C" n="97"/>indicarent. Nam liberum arbitrium 
+        vir<lb ed="#C" n="98" break="no"/>tuti siderum etiam in Divinam 
+        volunta<lb ed="#C" n="99" break="no"/>tem reductae directe non subditur. Quod 
+        <lb ed="#C" n="100"/>si tamen huiusmodi virtus in talem 
+        vo<lb ed="#C" n="101" break="no"/>untatem reducta non fuerit: non solum 
+        <lb ed="#C" n="102"/>libero arbitrio non dominabitur, sed  
+        <lb ed="#C" n="103"/>etiam nec per eam effectus aliquis 
+        pro<lb ed="#C" n="104" break="no"/>ducetur: fatum ergo dupliciter accipi 
+        <lb ed="#C" n="105"/>potest. Vno modo, ut dicatur ordo 
+        <lb ed="#C" n="106"/>causarum Divinae voluntati tributus. 
+        <lb ed="#C" n="107"/>Alio, ut fatum dicatur ipsa Divina 
+        prae<lb ed="#C" n="108" break="no"/>cientia, vel voluntas: sed si Divinam 
+        <lb ed="#C" n="109"/>praescientiam, vel voluntatem fatum no¬ 
+        <!--773.xml-->
+        <pb ed="#C" n="748"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>minamus, a vocabuli proprietate 
+        rece<lb ed="#C" n="2" break="no"/>edimus. Vnde <name xml:id="Gi9qrR-f93967-Nd1e1187" ref="#Augustine">Aug.</name> 5. de Civit. Dei cap. 
+        <lb ed="#C" n="3"/>2. ait: quod prorsus Divina 
+        providen<lb ed="#C" n="4" break="no"/>tia regna constituuntur humana: quae 
+        <lb ed="#C" n="5"/>si propterea quisque fato tribuit: quia 
+        <lb ed="#C" n="6"/>ipsam Dei voluntatem vel potestatem 
+        fati<lb ed="#C" n="7" break="no"/>nomine appellat, sententiam teneat, 
+        <lb ed="#C" n="8"/>linguam corrigat. Proprie ergo &amp; 
+        ra<lb ed="#C" n="9" break="no"/>tionem vocabuli attendendo fati, 
+        dici<lb ed="#C" n="10" break="no"/>tur indeclinabilis ordo causarum in 
+        Di<lb ed="#C" n="11" break="no"/>vinam voluntatem reductus, quo effe 
+        <lb ed="#C" n="12"/>ctus quadam necessitate proveniunt. 
+        <lb ed="#C" n="13"/>? Nam licet non omnis ordo causarum 
+        <lb ed="#C" n="14"/>in se acceptus de necessitate producat 
+        <lb ed="#C" n="15"/>effectum, tamen si huiusmodi ordo in 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1220">
+                  <lb ed="#C" n="16"/>Divinam praescientiam reducatur, in E 
+        <lb ed="#C" n="17"/>qua reductione fati ratio formaliter, &amp; 
+        <lb ed="#C" n="18"/>s quasi completive videtur consistere, sin¬ 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1229">
+                  <lb ed="#C" n="19"/>ula talia quamdam necessitatem 
+        con<lb ed="#C" n="20" break="no"/>trahunt. Dicitur enim fatum, secundum 
+        <lb ed="#C" n="21"/>Aug. 5. de Civi. Dei cap. 0. a fando 
+        si<lb ed="#C" n="22" break="no"/>re a loquendo: nam Deus unico suo 
+        <lb ed="#C" n="23"/>Verbo coaeterno dixit. In tempore est 
+        <lb ed="#C" n="24"/>quodam causarum ordine prolocutus. 
+        <lb ed="#C" n="25"/>am sicut vox exterior manifestat 
+        ver<lb ed="#C" n="26" break="no"/>bum, sic huiusmodi causarum ordines 
+        <lb ed="#C" n="27"/>in Divinam praescientiam relati fata, 
+        si<lb ed="#C" n="28" break="no"/>ve voces, &amp; quaedam locutiones dici 
+        <lb ed="#C" n="29"/>possunt: quia rationes in Verbo 
+        Divi<lb ed="#C" n="30" break="no"/>no existentes &amp; ipsam praescientiam 
+        Di<lb ed="#C" n="31" break="no"/>vinam manifestant. Et sic loquitur de 
+        <lb ed="#C" n="32"/>rato <name xml:id="Gi9qrR-f93967-Nd1e1261" ref="#Boethius">Boetius</name> 4. de Consol. qui omnem 
+        <lb ed="#C" n="33"/>causarum ordinem Divinae providentiae 
+        <lb ed="#C" n="34"/>famulantem fatum appellat, dicens: sive 
+        <lb ed="#C" n="35"/>igitur famulantibus providentie Divinis 
+        <lb ed="#C" n="36"/>spiritibus fatum exerceatur, seu tota in 
+        <lb ed="#C" n="37"/>servitute nostra, seu caelestibus siderum 
+        <lb ed="#C" n="38"/>motibus, seu angelica virtute, seu daemo 
+        <lb ed="#C" n="39"/>num varia solertia, seu aliquibus horum, seu 
+        <lb ed="#C" n="40"/>omnibus fatalis series texatur. Ex quibus 
+        <lb ed="#C" n="41"/>verbis manifeste patet, ipsum pro indifferem 
+        <lb ed="#C" n="42"/>ti habere quemcumque ordinem 
+        causa<lb ed="#C" n="43" break="no"/>rum in Divinam providentiam reductum 
+        <lb ed="#C" n="44"/>fatum, sive quoddam Divinum edictum, aiquid 
+        h<lb ed="#C" n="45" break="no"/>quaedam Divina prolocutiodici potest. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1293">
+                  <lb ed="#C" n="46"/>Et sic accipiendo fatum, dicere 
+        pos<lb ed="#C" n="47" break="no"/>sumus in quinque differre a Divina 
+        pro<lb ed="#C" n="48" break="no"/>vvidentia; quas differentias dictus 
+        Boe<lb ed="#C" n="49" break="no"/>tius quarto de Consol. enumerat. Prima 
+        <lb ed="#C" n="50"/>est: quia Divina providentia est in 
+        cau<lb ed="#C" n="51" break="no"/>asa Prima. Patum autem est in ipsis 
+        cau<lb ed="#C" n="52" break="no"/>sis secundis. Nam cum ordo causarum 
+        <lb ed="#C" n="53"/>grelatus in causam Primam sit fatum, cum 
+        <lb ed="#C" n="54"/>ae talis ordo sit in ipsis rebus mobilibus, 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1315">
+                  <lb ed="#C" n="55"/>sive in ipsis secudis causis, &amp; relatis, fatunm 
+        <lb ed="#C" n="56"/>erit in ipsis rebus mobilibus, sive in ipsis 
+        <!--773.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>secundis causis, hoc est, quod <name xml:id="Gi9qrR-f93967-Nd1e1328" ref="#Boethius">Boetius</name> 
+                  <lb ed="#C" n="58"/>ait: quod providentia est illa Divina 
+        ra<lb ed="#C" n="59" break="no"/>tio in summo omnium principe 
+        consti<lb ed="#C" n="60" break="no"/>tuta, quae cuncta disponit. Patum vero 
+        <lb ed="#C" n="61"/>est inhaerens rebus mobilibus dispositio,  
+        <lb ed="#C" n="62"/>er quem providentia suis quaecumque 
+        <lb ed="#C" n="63"/>nectit ordinibus. Secunda est: quia 
+        hu<lb ed="#C" n="64" break="no"/>iusmodi rationes existentes in Deo, &amp; 
+        ex<lb ed="#C" n="65" break="no"/>istens idem quod Divina providentia, 
+        <lb ed="#C" n="66"/>habent rationem unitatis: quia ibi om 
+        <lb ed="#C" n="67"/>nes complexae, &amp; unitae sunt. Prout 
+        ve<lb ed="#C" n="68" break="no"/>ro in secundis agentibus reservantur, ubi e 
+        <lb ed="#C" n="69"/>sunt idem, quod fatum, habent quamdam 
+        <lb ed="#C" n="70"/>rationem pluralitatis, &amp; quasi cuiusdam 
+        <lb ed="#C" n="71"/>per tempora distributa. Et hoc est, quod  
+        <lb ed="#C" n="72"/>Boetius ait: quod providentia namque 
+        <lb ed="#C" n="73"/>pariter cuncta, quamvis diversa, quamvis 
+        <lb ed="#C" n="74"/>infini ta, complectitur. Fatum vero 
+        sin<lb ed="#C" n="75" break="no"/>gula ordinat in motu, locis, formis, ad 
+        <lb ed="#C" n="76"/>temporibus distributa: ut temporalis 
+        or<lb ed="#C" n="77" break="no"/>dinis explicatio in Divinae mentis 
+        adu<lb ed="#C" n="78" break="no"/>nata prospectum providentia sit. Eadem 
+        <lb ed="#C" n="79"/>vero adunatio digesta sive divisa atque 
+        <lb ed="#C" n="80"/>explicata temporibus, fatum vocetur,  
+        <lb ed="#C" n="81"/>Tertia differentia est: quia fatum 
+        depen<lb ed="#C" n="82" break="no"/>det ex providentia, &amp; in providentiam 
+        <lb ed="#C" n="83"/>ordinatur. Vnde idem <name xml:id="Gi9qrR-f93967-Nd1e1387" ref="#Boethius">Boetius</name> ait: quod 
+        <lb ed="#C" n="84"/>diversa sunt fatum &amp; providentia: quia 
+        <lb ed="#C" n="85"/>alterum ex altero pendet. Ordo namque 
+        <lb ed="#C" n="86"/>fatalis ex providentiae simplicitate pro¬ 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1398">
+                  <lb ed="#C" n="87"/>cedit. Nam, ut ait, sicut artifex 
+        facien<lb ed="#C" n="88" break="no"/>dae rei formam mente percipiens 
+        mo<lb ed="#C" n="89" break="no"/>et operis effectum, &amp; quod simpliciter 
+        <lb ed="#C" n="90"/>prospexerat, per temporales ordines du 
+        <lb ed="#C" n="91"/>cit, ita Deus providentia quidem 
+        singu<lb ed="#C" n="92" break="no"/>ariter, stabiliterque disponit: fato vere 
+        <lb ed="#C" n="93"/>hec ipsa, quae disponit, multipliciter acd 
+        <lb ed="#C" n="94"/>temporaliter administrat. Quarta 
+        diffe<lb ed="#C" n="95" break="no"/>rentia est: quia providentia habet 
+        ratio<lb ed="#C" n="96" break="no"/>nem immobilis, sive stabilis: fatum 
+        ve<lb ed="#C" n="97" break="no"/>ro quid mobile dicitur. Nam licet 
+        or<lb ed="#C" n="98" break="no"/>do causarum in Divinam praescientiam 
+        <lb ed="#C" n="99"/>relatus quodammodo quadam necessi 
+        <lb ed="#C" n="100"/>atem contrahat: tamen quia talis ordo 
+        <lb ed="#C" n="101"/>est in rebus mobilibus, quid mobile 
+        di<lb ed="#C" n="102" break="no"/>ci potest. Et hoc est, quod <name xml:id="Gi9qrR-f93967-Nd1e1434" ref="#Boethius">Boetius</name> dicit:  
+        <lb ed="#C" n="103"/>id certe manifestum est immobilem sim 
+        <lb ed="#C" n="104"/>plicemque gerendarum formam rerum 
+        <lb ed="#C" n="105"/>esse providentiam: fatum vero esse 
+        eo<lb ed="#C" n="106" break="no"/>rum, quae Divina simplicitas gerenda 
+        <lb ed="#C" n="107"/>disposuit, nexum atque ordinem 
+        tempo<lb ed="#C" n="108" break="no"/>ralem. Quinta differentia sumitur ex 
+        eo<lb ed="#C" n="109" break="no"/>quod omnia, quae subiecta sunt fato 
+        <lb ed="#C" n="110"/>subiecta sunt Divinae providentiae. Nam 
+        <lb ed="#C" n="111"/>cum ipse ordo causarum, qui fatum 
+        di<lb ed="#C" n="112" break="no"/>citur, Divinae providentiae sit subiectus, 
+        <!--774.xml-->
+        <pb ed="#C" n="749"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>oportet quae fato subsunt, providentiae 
+        <lb ed="#C" n="2"/>Divinae subesse: non tamen omnia, quae 
+        <lb ed="#C" n="3"/>subiecta sunt Divinae providentiae, fato 
+        <lb ed="#C" n="4"/>subsunt. Nam ea, quae immediate a Deo 
+        <lb ed="#C" n="5"/>procedunt, cum non procedant 
+        secun<lb ed="#C" n="6" break="no"/>dum ordinem secundarum causarum, 
+        <lb ed="#C" n="7"/>solum sunt subiecta Divine providentie, 
+        <lb ed="#C" n="8"/>sed non fato. Ex quo apparet, quod quanto 
+        <lb ed="#C" n="9"/>aliquid magis a Deo elongatur, sive 
+        ma<lb ed="#C" n="10" break="no"/>gis in entibus tenet gradum infimum, 
+        <lb ed="#C" n="11"/>tanto magis fato subijcitur: eo quod 
+        <lb ed="#C" n="12"/>magis procedat secundum ordinem 
+        se<lb ed="#C" n="13" break="no"/>cundarum causarum. Et hoc est, quod  
+        <lb ed="#C" n="14"/>Boetius ait: omnia, quae fato subsunt,  
+        <lb ed="#C" n="15"/>providentiae quoque subiecta sunt, cui 
+        <lb ed="#C" n="16"/>ipsum etiam subiacet fatum. Quaedam E 
+        <lb ed="#C" n="17"/>vero sub providentia sunt locata, quae 
+        <lb ed="#C" n="18"/>fati seriem superant. Nam ea, quae sunt,  
+        <lb ed="#C" n="19"/>Primae Divinitati propinqua, stabiliter 
+        <lb ed="#C" n="20"/>fixa fatalis ordinem mobilitatis 
+        exce<lb ed="#C" n="21" break="no"/>dunt. Vnde concludit: quod quod 
+        lon<lb ed="#C" n="22" break="no"/>gius a prima mente discedit, maioribus 
+        <lb ed="#C" n="23"/>fati nexibus implicatur: ac tanto aliquid 
+        <lb ed="#C" n="24"/>fato liberum est, quanto illum rerum 
+        <lb ed="#C" n="25"/>cardinem, sive illam supremam 
+        Divini<lb ed="#C" n="26" break="no"/>tatem vicinius petit: quia providentia 
+        <lb ed="#C" n="27"/>est quid simplex, immobile, non proter 
+        <lb ed="#C" n="28"/>sum, nec successionem habens, &amp; 
+        divi<lb ed="#C" n="29" break="no"/>sibile: fatum vero quamdam 
+        multiplici<lb ed="#C" n="30" break="no"/>tatem in se habet, est quid mobile, &amp; 
+        <lb ed="#C" n="31"/>quodammodo successivum, &amp; quandam 
+        <lb ed="#C" n="32"/>protensionem continens: ideo <name xml:id="Gi9qrR-f93967-Nd1e1535" ref="#Boethius">Boetius</name> 
+                  <lb ed="#C" n="33"/>dicit: quod sicut est ad intellectum 
+        ra<lb ed="#C" n="34" break="no"/>tiocinatio: ad id, quod est, quod 
+        gigni<lb ed="#C" n="35" break="no"/>tur ad aeternitatem tempus; ad punctum 
+        <lb ed="#C" n="36"/>circulus: ita est fati series mobilis ad 
+        <lb ed="#C" n="37"/>providentiae stabilem simplicitatem. 
+        Pa<lb ed="#C" n="38" break="no"/>tet ergo Divinam providentiam a fato 
+        <lb ed="#C" n="39"/>differentem esse &amp; qualiter: quod 
+        decla<lb ed="#C" n="40" break="no"/>rare volebamus, 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1556">
+                  <lb ed="#C" n="41"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="42"/>quod fatum est indeclinabilis ordo 
+        cau<lb ed="#C" n="43" break="no"/>sarum: quia stabilitas in causis secundis 
+        <lb ed="#C" n="44"/>provenit potissime ex providentia 
+        cau<lb ed="#C" n="45" break="no"/>sae Primae: propter hoc ei attribuitur &amp; 
+        <lb ed="#C" n="46"/>ab ipsa denominatur: non quod sit idem, 
+        <lb ed="#C" n="47"/>quod ipsa: sed quia per ipsam est id, quod  
+        <lb ed="#C" n="48"/>est.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1577">
+        Ad 2. dicendum, quod verba illa non 
+        <lb ed="#C" n="49"/>sunt <name xml:id="Gi9qrR-f93967-Nd1e1581" ref="#Augustine">Aug.</name> sed sunt cuiusdam alterius, 
+        <lb ed="#C" n="50"/>cuius auctoritatem ipse inducit: &amp; 
+        <lb ed="#C" n="51"/>ut patet, quidam sic locuti sunt, 
+        <lb ed="#C" n="52"/>de fato non distinguentes ipsum a 
+        <lb ed="#C" n="53"/>Divina providentia: tamen si Divinam 
+        <lb ed="#C" n="54"/>providentiam fatum nominamus, 
+        dis<lb ed="#C" n="55" break="no"/>cedimus a proprietate vocabuli, ut est 
+        <lb ed="#C" n="56"/>per habita manifestum.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1600">
+        Ad 3. dicendum, 
+        <!--774.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>quod fatum &amp; providentia non solum, 
+        <lb ed="#C" n="58"/>differunt secundum diversos respectus: 
+        <lb ed="#C" n="59"/>immo differuntsic, quod est in creatura 
+        <lb ed="#C" n="60"/>&amp; Creatore, ut potest patere per verba 
+        <lb ed="#C" n="61"/>Boetij, si bene intelligantur.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1618">
+        Ad 4. 
+        di<lb ed="#C" n="62" break="no"/>cendum, quod fato non inest 
+        indeclina<lb ed="#C" n="63" break="no"/>pilitas per se: immo in se acceptum, ut  
+        <lb ed="#C" n="64"/>probatum est, quid mobile dicitur. Sed 
+        <lb ed="#C" n="65"/>Divinae providentie per se 
+        indeclinabi<lb ed="#C" n="66" break="no"/>litas inest: non ergo sunt idem, ut ratio 
+        <lb ed="#C" n="67"/>concludebat. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1634">
+                  <lb ed="#C" n="68"/>Ad primum in contrarium 
+        dicen<lb ed="#C" n="69" break="no"/>dum, quod fatum differens est a Divina 
+        <lb ed="#C" n="70"/>providentia; &amp; tamen aliquid est 
+        accipi<lb ed="#C" n="71" break="no"/>endo fatum, ut de eo loquimur, licet  
+        <lb ed="#C" n="72"/>nihil sit, si quis appellare vellet fatum 
+        <lb ed="#C" n="73"/>vim siderum libero arbittio necessitatem 
+        <lb ed="#C" n="74"/>imponentem, vel ordinem causarum in 
+        <lb ed="#C" n="75"/>causam Primam non reductum, 
+        secun<lb ed="#C" n="76" break="no"/>dum quem modum fatum esse <name xml:id="Gi9qrR-f93967-Nd1e1655" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="77"/>negat. Aliud in contrarium 
+        conce<lb ed="#C" n="78" break="no"/>datur.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f93967-Dd1e1666">
+               <head xml:id="Gi9qrR-f93967-Hd1e1668">Articulus 3</head>
+               <p xml:id="Gi9qrR-f93967-d1e1671">
+                  <lb ed="#C" n="79"/>ARTICVLVS III. 
+        <lb ed="#C" n="80"/>Vtrum omnia subsint Divinae providentiae 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1678">
+                  <lb ed="#C" n="81"/>TErtio quaeritur: utrum omnia sub¬ 
+        <lb ed="#C" n="82"/>sint Divinae providentiae? Et 
+        vide<lb ed="#C" n="83" break="no"/>tur, quod non: quia Commentator 12. 
+        <lb ed="#C" n="84"/>Meta. reprehendit eos, qui dicunt Deum 
+        <lb ed="#C" n="85"/>habere solicitudinem omnium, &amp; etiam, 
+        <lb ed="#C" n="86"/>eos, qui dicunt ipsum habere 
+        solicitu<lb ed="#C" n="87" break="no"/>dinem nullorum: &amp; dicit viam mediam 
+        <lb ed="#C" n="88"/>esse tenendam, ergo aliquorum Deus 
+        <lb ed="#C" n="89"/>solicitudinem habet, &amp; aliquorum non
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1700">
+                  <lb ed="#C" n="90"/>Praeterea: Philosophus in 2. Meta. assimilat 
+        uni<lb ed="#C" n="91" break="no"/>versum uni domui, sed in una domo, 
+        <lb ed="#C" n="92"/>ut ibi dicitur, sunt servi, liberi, &amp; bestic. 
+        <lb ed="#C" n="93"/>In liberis autem non accidit aliquid in 
+        <lb ed="#C" n="94"/>ordinatum: quia non licentiantur ad 
+        <lb ed="#C" n="95"/>aliquid, ut ibi dicitur, quod non sit de 
+        <lb ed="#C" n="96"/>regimine domo. Servi vero, &amp; potissime 
+        <lb ed="#C" n="97"/>bestiae, in paucis actionibus 
+        communi<lb ed="#C" n="98" break="no"/>cant quantum ad ea, quae sunt de 
+        regi<lb ed="#C" n="99" break="no"/>mine domus, in quo vult Philosophus, ut Com. 
+        <lb ed="#C" n="100"/>ibidem exponit, quod corpora super¬ 
+        <lb ed="#C" n="101"/>celestia intelligantur per liberos, qui nul 
+        <lb ed="#C" n="102"/>am inordinationem habent. Per servos 
+        <lb ed="#C" n="103"/>vero, sive per bestias debemus 
+        intellige<lb ed="#C" n="104" break="no"/>re, quae sunt sub huiusmodi corporibus, 
+        <!--775.xml-->
+        <pb ed="#C" n="750"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ut ea, quae sunt in sphera activorum &amp; 
+        <lb ed="#C" n="2"/>passivorum, in quibus multa per 
+        acci<lb ed="#C" n="3" break="no"/>dens, &amp; multa inordinata videmus 
+        ac<lb ed="#C" n="4" break="no"/>cidere: sed cum providentia, vel sit ipse  
+        <lb ed="#C" n="5"/>ordo vel ordinem praesupponat, non 
+        om<lb ed="#C" n="6" break="no"/>nia Divinae providentiae subsunt: cum 
+        <lb ed="#C" n="7"/>non omnia ordinata sint.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1757">
+        Praeterea: 
+        <lb ed="#C" n="8"/>quae sunt a casu &amp; a fortuna sunt 
+        prae<lb ed="#C" n="9" break="no"/>ter intentionem, &amp; secundum quod 
+        ta<lb ed="#C" n="10" break="no"/>lia, ordinem providentiae fugiunt; sed  
+        <lb ed="#C" n="11"/>multa sunt talia, ut probatur 2. Phys.  
+        <lb ed="#C" n="12"/>ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1771">
+        Praeterea: quae cadunt sub 
+        <lb ed="#C" n="13"/>providentia artificis, sunt de 
+        intentio<lb ed="#C" n="14" break="no"/>ne eius, sed Nemo proposito sibi malo facit 
+        <lb ed="#C" n="15"/>quae facit, ut vult Diony. 4. de Divi. nom. 
+        <lb ed="#C" n="16"/>igitur mala sunt praeter intentionem 
+        Di<lb ed="#C" n="17" break="no"/>vinam, non ergo omnia subsunt 
+        Divi<lb ed="#C" n="18" break="no"/>nae providentiae: cum mala non subsint 
+        <lb ed="#C" n="19"/>ei.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1789">
+        Praeterea: quod est ordinatum &amp; 
+        provi<lb ed="#C" n="20" break="no"/>sum consequitur finem suum in maiori parte; 
+        <lb ed="#C" n="21"/>sed, ut videmus, malum est ut in 
+        pluri<lb ed="#C" n="22" break="no"/>bus: nam plures, ut videtur, dant se 
+        de<lb ed="#C" n="23" break="no"/>lectabilibus, &amp; sensibilibus, quam 
+        ope<lb ed="#C" n="24" break="no"/>ribus virtuosis, ergo universum Divina 
+        <lb ed="#C" n="25"/>providentia nonregitur.  
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1805">
+                  <lb ed="#C" n="26"/>In contrarium est <name xml:id="Gi9qrR-f93967-Nd1e1809" ref="#Augustine">Aug.</name> 83. qq. q. de 
+        Pro<lb ed="#C" n="27" break="no"/>identia, qui ait: quod Deus omnia 
+        mutabi<lb ed="#C" n="28" break="no"/>lia pulcherrima gubernatione moderatur. Sed 
+        <lb ed="#C" n="29"/>gubernatio est executio Divinae 
+        provi<lb ed="#C" n="30" break="no"/>dentiae, ergo onia mutabilia Divinae 
+        pro<lb ed="#C" n="31" break="no"/>videntie subsunt. Sed onia, quae sunt circa 
+        <lb ed="#C" n="32"/>Deum, sunt aliquo modo mutabilia, ergo 
+        <lb ed="#C" n="33"/>&amp;c.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1828">
+        Praeterea: Comm. in 12. Meta. ait: 
+        <lb ed="#C" n="34"/>quod sicut omnia, quae sunt, &amp; quae 
+        fi<lb ed="#C" n="35" break="no"/>unt in domo, fiunt propter dominum 
+        <lb ed="#C" n="36"/>domus: sic omnia, quae sunt in 
+        univer<lb ed="#C" n="37" break="no"/>o, &amp; omnes actiones eorum, sunt 
+        pro<lb ed="#C" n="38" break="no"/>ter unum: &amp; illud unum est Prima 
+        cau<lb ed="#C" n="39" break="no"/>sa, ergo omnia ordinata sunt propter 
+        <lb ed="#C" n="40"/>ipsum Deum, quod esse non 
+        pos<lb ed="#C" n="41" break="no"/>set, nisi omnia eius providentia 
+        re<lb ed="#C" n="42" break="no"/>gerentur.  
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1850">
+                  <lb ed="#C" n="43"/>RESOLVTIO. 
+        <lb ed="#C" n="44"/>Omnia sub Divinae providentiae ordine con¬ 
+        <lb ed="#C" n="45"/>tinentur; non tamen omnia aequaliter  
+        <lb ed="#C" n="46"/>tali ordini sunt subiecta. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e1861">
+                  <lb ed="#C" n="47"/>REspond. dicendum, quod Divinam 
+        <lb ed="#C" n="48"/>Rprovidentiam esse omnium 
+        dupli<lb ed="#C" n="49" break="no"/>citer venari posset. Primo ex eo quod 
+        <lb ed="#C" n="50"/>videtur providentiam impedire. 
+        Secun<lb ed="#C" n="51" break="no"/>do ex ratione talis impedimenti. Quod  
+        <lb ed="#C" n="52"/>autem videtur providentiam impedire 
+        <lb ed="#C" n="53"/>est id, quod est per accidens, &amp; praeter 
+        <lb ed="#C" n="54"/>intentionem. Nam ex hoc dicitur 
+        ali<lb ed="#C" n="55" break="no"/>quid improvise eventum, quod ab agen¬ 
+        <!--775.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="56"/>te non est praecognitum, nec intentum: 
+        <lb ed="#C" n="57"/>Thuiusmodi autem videntur esse, quae sunt,  
+        <lb ed="#C" n="58"/>per accidens: nam quia eorum 
+        secun<lb ed="#C" n="59" break="no"/>dum Philosophum possunt esse causae infinitae, cum 
+        <lb ed="#C" n="60"/>infinitas non videatur sub arte cadere, 
+        vi<lb ed="#C" n="61" break="no"/>detur ad talia providentiam non extendi. 
+        <lb ed="#C" n="62"/>Haec autem tria esse videntur, videlicet, 
+        for<lb ed="#C" n="63" break="no"/>tuita, mala, &amp; universaliter 
+        contingen<lb ed="#C" n="64" break="no"/>tia. Dicitur enim fortuitum, &amp; 
+        casua<lb ed="#C" n="65" break="no"/>le per accidens: quia evenit praeter in 
+        <lb ed="#C" n="66"/>tentionem agentis, ut vult Philosophus 2. 
+        Phys<lb ed="#C" n="67" break="no"/>Secundo mala per accidens esse 
+        dicun<lb ed="#C" n="68" break="no"/>tur: quia semper agens intemdit bonum 
+        <lb ed="#C" n="69"/>ut vult Diony. 4. de Divi. nom. in 
+        mul<lb ed="#C" n="70" break="no"/>tis locis: ideo malum per accidens esse 
+        <lb ed="#C" n="71"/>dicitur: quia est praeter intentionem 
+        a<lb ed="#C" n="72" break="no"/>gentis. Rursum omnia contingetia per 
+        <lb ed="#C" n="73"/>accidens dici possunt: quia ad alteram 
+        <lb ed="#C" n="74"/>partem determinata non sunt: quia quod  
+        <lb ed="#C" n="75"/>non est per accidens, est ordinatum, &amp; 
+        <lb ed="#C" n="76"/>per consequens ad alteram partem 
+        de<lb ed="#C" n="77" break="no"/>terminatum, contingentia per accidens 
+        <lb ed="#C" n="78"/>dici possunt. Si igitur aliquid movet 
+        <lb ed="#C" n="79"/>nos, quare Divinam providentiam 
+        ne<lb ed="#C" n="80" break="no"/>gare debemus tria praedicta existunt. Sed, 
+        <lb ed="#C" n="81"/>quod illa non impediant, sic ostendi 
+        <lb ed="#C" n="82"/>tur: nam ipsa fortuita Divinae 
+        provi<lb ed="#C" n="83" break="no"/>dentiae subduntur, quia si nos volumus 
+        <lb ed="#C" n="84"/>appellare fortuita &amp; casualia, quae nul 
+        <lb ed="#C" n="85"/>la causa nec per aliqua principia esse 
+        had<lb ed="#C" n="86" break="no"/>pent, sic nihil est fortuitum, neque ca 
+        <lb ed="#C" n="87"/>uale: ut probat <name xml:id="Gi9qrR-f93967-Nd1e1956" ref="#Boethius">Boetiuss</name> de Consol 
+        <lb ed="#C" n="88"/>qui ait: nihil esse, quod ex nullis causis 
+        <lb ed="#C" n="89"/>oriatur. Si vero casuale vel fortuitum 
+        ap<lb ed="#C" n="90" break="no"/>pellare volumus, quoties aliquod agens 
+        <lb ed="#C" n="91"/>alicuius gratia aliquid operatur, &amp; quid 
+        <lb ed="#C" n="92"/>aliud ab eo non intentum aliquibus 
+        de<lb ed="#C" n="93" break="no"/>causis contingit, ut siquis colendi 
+        agri<lb ed="#C" n="94" break="no"/>causa fodiens humum de fossa auri 
+        pon<lb ed="#C" n="95" break="no"/>dus inveniat. Sic multa casualia, &amp; mul 
+        <lb ed="#C" n="96"/>ta fortuita esse dicuntur, &amp; sic de casu 
+        <lb ed="#C" n="97"/>&amp; fortuna determinat Philosophus 2. Phys. 
+        se<lb ed="#C" n="98" break="no"/>cundum quem modum dicere 
+        possu<lb ed="#C" n="99" break="no"/>mus casum esse inopinatum concursum 
+        <lb ed="#C" n="100"/>causarum. Nam &amp; si depositio thesauri 
+        <lb ed="#C" n="101"/>causa habuit, &amp; fossio terrae etiam. Sed 
+        <lb ed="#C" n="102"/>istarum causarum concursus 
+        inopina<lb ed="#C" n="103" break="no"/>tus dicitur: quia praeter intentionem 
+        re<lb ed="#C" n="104" break="no"/>condentis fuit, ut colens agrum 
+        thesau<lb ed="#C" n="105" break="no"/>um haberet: &amp; praeter intentionem 
+        in<lb ed="#C" n="106" break="no"/>venientis, ut pecuniam inveniret: verum 
+        <lb ed="#C" n="107"/>quia huiusmodi concursus aliquis 
+        effe<lb ed="#C" n="108" break="no"/>ctus est, nec est dare effectum absque ali 
+        <lb ed="#C" n="109"/>qua causa, cum non possit reduci talis 
+        <lb ed="#C" n="110"/>concursus in fodientem, nec in 
+        recon<lb ed="#C" n="111" break="no"/>dentem, oportet dare aliquam causam su¬ 
+        <!--776.xml-->
+        <pb ed="#C" n="751"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>periorem cuius sit huiusmodi causas 
+        <lb ed="#C" n="2"/>convertere: &amp; quia Divina 
+        providen<lb ed="#C" n="3" break="no"/>tia est illa, a qua omnis ordo causarum 
+        <lb ed="#C" n="4"/>sumit originem, per quam omnis effe 
+        <lb ed="#C" n="5"/>ctus efficitur: quia oportet dare eundem es 
+        <lb ed="#C" n="6"/>se factoremrerum, &amp; provisorem, ut 
+        proba<lb ed="#C" n="7" break="no"/>Damasc. 2. lib. cap. penuit. huiusmodi 
+        <lb ed="#C" n="8"/>fortuita oportet Divinae providentiae 
+        <lb ed="#C" n="9"/>esse subiecta, cuius est omnes causas 
+        co<lb ed="#C" n="10" break="no"/>nectere, omnem causatum ordinem 
+        <lb ed="#C" n="11"/>efficere. Et ista est via Bcetij quinto de 
+        <lb ed="#C" n="12"/>Consol. per quam probat fortuita 
+        ordi<lb ed="#C" n="13" break="no"/>nem Divinae providentiae non 
+        effige<lb ed="#C" n="14" break="no"/>re, cum ait: quod licet diffinire casum, 
+        <lb ed="#C" n="15"/>esse inopinatum eventum ex 
+        influenti<lb ed="#C" n="16" break="no"/>bus causis in his, quae propter aliquid  
+        <lb ed="#C" n="17"/>geruntur: construere vero atque 
+        con<lb ed="#C" n="18" break="no"/>fluere causas facit ordo ille ex 
+        inevita<lb ed="#C" n="19" break="no"/>bili connexione procedens, qui de 
+        pro<lb ed="#C" n="20" break="no"/>videntiae fonte descendens cuncta suis 
+        <lb ed="#C" n="21"/>ocis temporibusque disponit. 
+        <lb ed="#C" n="22"/>Viso fortuita sub Divina providen 
+        <lb ed="#C" n="23"/>tia contineri, notandum, mala ordinen 
+        <lb ed="#C" n="24"/>Divine providentiae simpliciter non 
+        ef<lb ed="#C" n="25" break="no"/>fugere: nam si nihil aspiciens ad malum 
+        <lb ed="#C" n="26"/>agit, quod agit, Deus, qui sumum bo 
+        <lb ed="#C" n="27"/>num est, nunquam permitteret mala 
+        fi<lb ed="#C" n="28" break="no"/>ri, cum ea impedire possit, nisi ex ei 
+        <lb ed="#C" n="29"/>aliqua bona eliceret: &amp; inquantum 
+        ex<lb ed="#C" n="30" break="no"/>malis bona elicit, mala sub quodam or 
+        <lb ed="#C" n="31"/>dine Divinae providentiae continentur: 
+        <lb ed="#C" n="32"/>unde <name xml:id="Gi9qrR-f93967-Nd1e2087" ref="#Boethius">Boetius</name> 4. de Consol. dicit: quod 
+        <lb ed="#C" n="33"/>modus Divinus est, quod ad bonum d 
+        <lb ed="#C" n="34"/>rigens cuncta disponat: nam si a 
+        repro<lb ed="#C" n="35" break="no"/>bis nihil tam mali gignitur, licet in age 
+        <lb ed="#C" n="36"/>do erret, multo minus ordo ille de 
+        car<lb ed="#C" n="37" break="no"/>dine summi boni proficiens, a suo 
+        de<lb ed="#C" n="38" break="no"/>flectit exordio. Quod vero ad ordinem 
+        <lb ed="#C" n="39"/>providentiae mala aliquo modo 
+        redun<lb ed="#C" n="40" break="no"/>cantur, patet, quia ad decorem faciunt  
+        <lb ed="#C" n="41"/>universi: unde <name xml:id="Gi9qrR-f93967-Nd1e2110" ref="#Augustine">Aug.</name> in Ench. cap. Vnde 
+        <lb ed="#C" n="42"/>malum ait: quod malum bene ordina um, &amp; 
+        <lb ed="#C" n="43"/>suo loco positum eminentius commendat bona 
+        <lb ed="#C" n="44"/>ut magis placeant &amp; laudabiliora sint: Et  
+        <lb ed="#C" n="45"/>subdit: Neque enim Deus omnipotens, quod 
+        <lb ed="#C" n="46"/>etiam infideles fatentur, rerum cui summa 
+        <lb ed="#C" n="47"/>potestas, cum summe bonus sit, nullo 
+        mo<lb ed="#C" n="48" break="no"/>do sineret mali esse aliquid in operibus 
+        <lb ed="#C" n="49"/>suis, nisi usque adeo esset omnipotens 
+        <lb ed="#C" n="50"/>&amp; bonus, ut bene faceret etiam de malo. 
+        <lb ed="#C" n="51"/>Sed quod contingentia Divinam providem 
+        <lb ed="#C" n="52"/>tiam ne impediant facile est videre: nam 
+        <lb ed="#C" n="53"/>sicut cum Divina praescientia 
+        contin<lb ed="#C" n="54" break="no"/>gentia simul stant: ita &amp; cum Divina 
+        <lb ed="#C" n="55"/>providentia stare possunt: immo ipsius 
+        <lb ed="#C" n="56"/>contingentiae Divina providentia causa 
+        <!--776.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>existit. Nam cum sit causa entis, in eo 
+        <lb ed="#C" n="58"/>quod ens, ipsius necessitatis &amp; 
+        contin<lb ed="#C" n="59" break="no"/>gentiae eam causam esse oportet, cum 
+        <lb ed="#C" n="60"/>contingens &amp; necessarium existant 
+        <lb ed="#C" n="61"/>differentiae entis, in eo quod 
+        <lb ed="#C" n="62"/>ens. 
+        <lb ed="#C" n="63"/>Et quia nihil est in universo, quod 
+        <lb ed="#C" n="64"/>ordinem Divinae providentie impediat, 
+        <lb ed="#C" n="65"/>vel simpliciter effugiat, dicere cogimur, l 
+        <lb ed="#C" n="66"/>omnia Divinae providentiae subiacere:: 
+        <lb ed="#C" n="67"/>unde <name xml:id="Gi9qrR-f93967-Nd1e2173" ref="#Augustine">Aug.</name> 83. qq. q. de Providentia 
+        dia<lb ed="#C" n="68" break="no"/>cit: quod Summo Deo euncta bene adminif 
+        <lb ed="#C" n="69"/>trante, quae fecit, nihil inordinatum in universo, 
+        <lb ed="#C" n="70"/>nihil iniustu est, sive scietibus nobis, sive nescien 
+        <lb ed="#C" n="71"/>tibus. Habito omnia Divinae 
+        providen<lb ed="#C" n="72" break="no"/>tiae subiacere ex his, quae videbantur 
+        <lb ed="#C" n="73"/>Divinam providentiam impedire: hoc 
+        <lb ed="#C" n="74"/>idem declarare possumus ex his, 
+        secun<lb ed="#C" n="75" break="no"/>dum quae videntur huiusmodi impedi 
+        <lb ed="#C" n="76"/>menta consurgere: nam tota causa, 
+        qua<lb ed="#C" n="77" break="no"/>re dubitant aliqui, omnia Divinae 
+        <lb ed="#C" n="78"/>providentiae supponere, est: quia videm 
+        <lb ed="#C" n="79"/>aliqua inopinate, &amp; per accidens eveni 
+        <lb ed="#C" n="80"/>re. Quod autem alicui causae contingant 
+        <lb ed="#C" n="81"/>aliqua per accidens &amp; improvise, 
+        tripl<lb ed="#C" n="82" break="no"/>citer potest contingere. Primo exparti 
+        <lb ed="#C" n="83"/>cularitate causae, ut accidit quod Sorte 
+        <lb ed="#C" n="84"/>ambulante coruscat: eo quod 
+        ambula<lb ed="#C" n="85" break="no"/>tio Sortis propter sui particularitatem, 
+        <lb ed="#C" n="86"/>secundum causalitatem ad 
+        coruscatio<lb ed="#C" n="87" break="no"/>nem se non extendit. Secundo: hoc 
+        <lb ed="#C" n="88"/>contingit ex defectu agentis, ut accidit 
+        <lb ed="#C" n="89"/>naturae particulatim producere 
+        foemi<lb ed="#C" n="90" break="no"/>nam, cum intendat masculum, quod ex 
+        de<lb ed="#C" n="91" break="no"/>fectu seminis non valentis superare 
+        ma<lb ed="#C" n="92" break="no"/>teriam potest accidere. Tertio: hoc 
+        con<lb ed="#C" n="93" break="no"/>tingit ex dispositione materiae. 
+        Contin<lb ed="#C" n="94" break="no"/>gunt enim aliquando agenti aliqua per 
+        <lb ed="#C" n="95"/>accidens &amp; improvisa: eo quod 
+        mate<lb ed="#C" n="96" break="no"/>ria propter sui indispositionem perfecte 
+        <lb ed="#C" n="97"/>agentis actioni non subditur. Propter 
+        <lb ed="#C" n="98"/>nihil autem horum dicere possumus 
+        <lb ed="#C" n="99"/>Deo aliqua per accidens contingere: cum 
+        <lb ed="#C" n="100"/>ipse sit causa universalis &amp; prima, &amp; 
+        in<lb ed="#C" n="101" break="no"/>pfinitae virtutis, non agens ex 
+        suppositio<lb ed="#C" n="102" break="no"/>ne materiae: nihil ergo ei contingit per 
+        <lb ed="#C" n="103"/>accidens, quod simpliciter ordinem sua 
+        <lb ed="#C" n="104"/>providentiae possit effugere. 
+        Adverten<lb ed="#C" n="105" break="no"/>dum tamen, quod licet omnia Divinae 
+        <lb ed="#C" n="106"/>providentiae sint subiecta,; non tamer 
+        <lb ed="#C" n="107"/>ei omnia eodem modo subduntur, u 
+        <lb ed="#C" n="108"/>Damasc. ostendit 2. lib. cap. 29. aliter 
+        <lb ed="#C" n="109"/>providet rationalibus, aliter irrationa 
+        <lb ed="#C" n="110"/>libus, aliter subduntur providentiae suae 
+        <lb ed="#C" n="111"/>contingentia, aliter necessaria, aliter or 
+        <lb ed="#C" n="112"/>dini providentiae subijciuntur boni, ali¬ 
+        <!--777.xml-->
+        <pb ed="#C" n="752"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ter malisnam unicuique Deus providet 
+        <lb ed="#C" n="2"/>lecundum quod eius natura requirit,  
+        <lb ed="#C" n="3"/>vel operatio postulat: sic enim 
+        imagi<lb ed="#C" n="4" break="no"/>nare debemus; quod Deus in sua, celsitur 
+        <lb ed="#C" n="5"/>dine permanens prout unicuique videt 
+        <lb ed="#C" n="6"/>providendum esse, sic providet: &amp; hoc  
+        <lb ed="#C" n="7"/>est, quod <name xml:id="Gi9qrR-f93967-Nd1e2296" ref="#Boethius">Boetius</name> dicit 4. de Consol 
+        <lb ed="#C" n="8"/>quod Deus ex alta providentiae 
+        specu<lb ed="#C" n="9" break="no"/>la respicit, &amp; quod unicuique 
+        conve<lb ed="#C" n="10" break="no"/>niat agnoscit, &amp; quae convenire novit 
+        <lb ed="#C" n="11"/>accomodat. 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e2309">
+                  <lb ed="#C" n="12"/>His fundamentis suppositis, tanquam  
+        <lb ed="#C" n="13"/>veris &amp; manifestis. Primo quod omnia 
+        <lb ed="#C" n="14"/>Divinae providentiae sunt subiecta. Secun 
+        <lb ed="#C" n="15"/>do quod ei non subiiciuntur aequaliter, 
+        <lb ed="#C" n="16"/>Patet illorum positionem falsam esse, 
+        <lb ed="#C" n="17"/>qui dixerunt: omnia Divinae 
+        providen<lb ed="#C" n="18" break="no"/>tiae non esse subiecta: &amp; qui voluerum 
+        <lb ed="#C" n="19"/>omnia aequaliter ordine providentiae 
+        <lb ed="#C" n="20"/>contineri. Primi tripartiti sunt. Nam 
+        <lb ed="#C" n="21"/>aliqui negaverunt omnia Divine 
+        provi<lb ed="#C" n="22" break="no"/>dentiae subijci: quia dixerunt nihil ei esse 
+        <lb ed="#C" n="23"/>ubiectum, secundum quod ostendi 
+        <lb ed="#C" n="24"/>commientator 12. Meta. Aliqui vero 
+        <lb ed="#C" n="25"/>dixerunt Deum de universalibus curam 
+        <lb ed="#C" n="26"/>habere, sed circa particularia se non 
+        ex<lb ed="#C" n="27" break="no"/>tendere eius curam, quae positio Com 
+        <lb ed="#C" n="28"/>tribuitur, licet secundum eius verba 
+        di<lb ed="#C" n="29" break="no"/>recte haberi non possit. Aliqui vero, ut 
+        <lb ed="#C" n="30"/>Rabi Moyses, &amp; sui sequaces dixerunt: 
+        <lb ed="#C" n="31"/>Deum non solum de universalibus 
+        cun<lb ed="#C" n="32" break="no"/>ram habere, sed etiam quod circa 
+        par<lb ed="#C" n="33" break="no"/>ticularia hominum eius solicitudo 
+        ex<lb ed="#C" n="34" break="no"/>tenditur. Nam cum homo secundum 
+        <lb ed="#C" n="35"/>intellectum sit quid incorporale, cu  
+        <lb ed="#C" n="36"/>secundum rectam lineam est universale 
+        <lb ed="#C" n="37"/>obiectum, dignum est, ut eorum, 
+        secun<lb ed="#C" n="38" break="no"/>quod particularia sunt, Deus curam 
+        ha<lb ed="#C" n="39" break="no"/>beat. Quorum omnes positiones 
+        falsa<lb ed="#C" n="40" break="no"/>Sunt: cum secudum eas, vel nihil vel saltem non 
+        <lb ed="#C" n="41"/>quodlibet sit Divinae providentiae 
+        sub<lb ed="#C" n="42" break="no"/>iectum. Et sicut aliqui defecerunt, quia no 
+        <lb ed="#C" n="43"/>gaverunt omnia Divinae providentia 
+        <lb ed="#C" n="44"/>esse subiecta: sic aliqui male dixerunt,  
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e2383">
+                  <lb ed="#C" n="45"/>quia crediderunt omnia sub Divinae 
+        <lb ed="#C" n="46"/>providentiae ordine aequaliter contine 
+        <lb ed="#C" n="47"/>ri: qui etiam tripartiti sunt. Nam 
+        qui<lb ed="#C" n="48" break="no"/>n dam credentes non aliter ei subijci 
+        con<lb ed="#C" n="49" break="no"/>tingentia, quam scientiam stoici videm 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e2396">
+                  <lb ed="#C" n="50"/>tur asserere. Quidam autem opinantes 
+        <lb ed="#C" n="51"/>aequaliter bona &amp; mala providentiae 
+        <lb ed="#C" n="52"/>subiacere, coacti sunt ponere duos Deos 
+        <lb ed="#C" n="53"/>unum, qui bona creat, alium, qui mala 
+        <lb ed="#C" n="54"/>producit. Tertij vero quia voluerum 
+        <lb ed="#C" n="55"/>non aliter Divinae subiacere 
+        providen<lb ed="#C" n="56" break="no"/>. tiae rationalia, quam irrationalia, volue¬ 
+        <!--777.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>runt, quod nihil brutis contingat, quod  
+        <lb ed="#C" n="58"/>non fuerit eis provisum in pornam vel 
+        <lb ed="#C" n="59"/>in praemium, &amp; in tantam processerunt. 
+        <lb ed="#C" n="60"/>insaniam: quod sicut peccatum est 
+        oc<lb ed="#C" n="61" break="no"/>cidere rationalia, ita, per se loquendo, 
+        <lb ed="#C" n="62"/>dicebant nihil irrationale oecidendum 
+        <lb ed="#C" n="63"/>esse: quae omnes positiones falsae sunt,  
+        <lb ed="#C" n="64"/>quia contingentia &amp; necessaria, bona 
+        <lb ed="#C" n="65"/>&amp; mala, rationalia &amp; irrationalia non 
+        <lb ed="#C" n="66"/>aequaliter Divinae providentiae sunt 
+        sub<lb ed="#C" n="67" break="no"/>iecta. Patet ergo omnia subDivinae 
+        pro<lb ed="#C" n="68" break="no"/>videntiae ordine aliqualiter contineris 
+        <lb ed="#C" n="69"/>non tamen omnia aequaliter tali ordiui 
+        <lb ed="#C" n="70"/>esse subiecta 
+        <lb ed="#C" n="71"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="72"/>quod positio Commentatoris, in hoc 
+        <lb ed="#C" n="73"/>non est tenenda. Nam inter illas duas 
+        <lb ed="#C" n="74"/>positiones extremas debemus, tenere 
+        <lb ed="#C" n="75"/>medium, non materialiter a Deo aliqua 
+        <lb ed="#C" n="76"/>Divinae providentiae esse subiecta, &amp; 
+        ali<lb ed="#C" n="77" break="no"/>qua non; sed secundum uniformitatem: 
+        <lb ed="#C" n="78"/>quia debemus dicere: non omnia, 
+        aequa<lb ed="#C" n="79" break="no"/>liter Divinae providentiae subiacere. Ad2. 
+        <lb ed="#C" n="80"/>dicendum, quod in mundo videntur 
+        <lb ed="#C" n="81"/>esse multa inordinata respectu particu 
+        <lb ed="#C" n="82"/>larium causarum: quia non subsint 
+        ea<lb ed="#C" n="83" break="no"/>rum ordini: respectu tamen Dei nihil 
+        <lb ed="#C" n="84"/>est in ordinatum simpliciter. Nam quod 
+        <lb ed="#C" n="85"/>effugit alique modum ordinis, sub alio 
+        <lb ed="#C" n="86"/>modo ordinis continetur, ut male agens 
+        <lb ed="#C" n="87"/>effugiens ordinem Divinae misericordiae, 
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e2485">
+                  <lb ed="#C" n="88"/>sub ordine Divinae iustitiae continetur.  
+        <lb ed="#C" n="89"/>Ad 3. dicendum, quod, ut patet per 
+        ha<lb ed="#C" n="90" break="no"/>bita, etiam fortuita sub Divina 
+        providen<lb ed="#C" n="91" break="no"/>tia continentur.
+      </p>
+               <p xml:id="Gi9qrR-f93967-d1e2496">
+        Ad 4. dicendum, quod  
+        <lb ed="#C" n="92"/>bene arguitur mala non subesse Divinae 
+        <lb ed="#C" n="93"/>providentiae sicut bona; sed tamen non 
+        <lb ed="#C" n="94"/>probatur, quod mala ordinem Divinae 
+        <lb ed="#C" n="95"/>providentiae simpliciter subterfugiant.  
+        <lb ed="#C" n="96"/>Nam cum Deus ex malis eliciat bona 
+        <lb ed="#C" n="97"/>non aspiciens ad malum; sed aspiciens 
+        <lb ed="#C" n="98"/>ad bonum, mala ordinat, &amp; ipsius 
+        pro<lb ed="#C" n="99" break="no"/>videntiae etiam mala aliqualiter sunt,  
+        <lb ed="#C" n="100"/>subiecta. Ad quintum dicendum, quod  
+        <lb ed="#C" n="101"/>simpliciter loquendo, malum non est 
+        <lb ed="#C" n="102"/>in pluribus: quia si loquimur de male 
+        <lb ed="#C" n="103"/>rerum corporalium, sic corpora 
+        super<lb ed="#C" n="104" break="no"/>caelestia, in quibus non cadit error, 
+        in<lb ed="#C" n="105" break="no"/>comparabiliter excedunt omnia 
+        corpo<lb ed="#C" n="106" break="no"/>ra, quae sunt in sphera activorum &amp; 
+        pas<lb ed="#C" n="107" break="no"/>sivorum, in quibus malum aliquod 
+        re<lb ed="#C" n="108" break="no"/>peritur. Sic etiam credibile est, quod 
+        <lb ed="#C" n="109"/>caelestes mentes etiam beatae excedunt 
+        <lb ed="#C" n="110"/>omnem aliam multitudinem 
+        damnato<lb ed="#C" n="111" break="no"/>rum. Vel dicere possumus, quod nihil 
+        <lb ed="#C" n="112"/>est, quod omni fine privetur simplici¬ 
+        <!--778.xml-->
+        <pb ed="#C" n="753"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ter: cum ipsi mali ad decorem faciant 
+        <lb ed="#C" n="2"/>universi: unde consecutio finis 
+        secun<lb ed="#C" n="3" break="no"/>dum aliquem modum non solum est, 
+        <lb ed="#C" n="4"/>in pluribus; sed etiam in omnibus, prop 
+        <lb ed="#C" n="5"/>ter quod omnia Divinae providentiae 
+        <lb ed="#C" n="6"/>sunt subiecta. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

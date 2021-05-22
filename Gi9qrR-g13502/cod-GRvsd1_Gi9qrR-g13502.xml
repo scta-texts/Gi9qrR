@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g13502"><!-- l1-d44expolit -->
+            <head xml:id="Gi9qrR-g13502-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-g13502-d1e111">
+               <lb ed="#C" n="34"/>ExPOSITIO LITTERAE.
+    </p>
+            <p xml:id="Gi9qrR-g13502-d1e116">
+               <lb ed="#C" n="35"/>TVper litteram super illo: Licet non pos¬  
+      <lb ed="#C" n="36"/>sit modo incarnari. Videtur Magister 
+      <lb ed="#C" n="37"/>velle, quod Deus incarnari non possit. 
+      <lb ed="#C" n="38"/>Sed contra: sicut dicitur: quia Filius est 
+      <lb ed="#C" n="39"/>incarnatus, Deus incarnatus dicitur: sic 
+      <lb ed="#C" n="40"/>&amp; si Pater incarnaretur, Deus incarnari 
+      <lb ed="#C" n="41"/>diceretur: sed Pater incarnari potuit &amp; 
+      <lb ed="#C" n="42"/>potest (ut in tertio patebit) ergo Deus 
+      <lb ed="#C" n="43"/>incarnari potest. Dicendum, quod 
+      Ma<lb ed="#C" n="44" break="no"/>gister intelligit de Incarnatione, quae 
+      fa<lb ed="#C" n="45" break="no"/>cta fuit: quae propter praeteritionem, 
+      si<lb ed="#C" n="46" break="no"/>ve ut est praeterita, ulterius fieri non 
+      <lb ed="#C" n="47"/>potest.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="809"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g11150"><!-- l1-d44q1 -->
+            <head xml:id="Gi9qrR-g11150-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-g11150-d1e111">
+      <!--834.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="55"/>Quaestio 1. 
+      <lb ed="#C" n="56"/>De Divina potentia. 
+    </p>
+            <p xml:id="Gi9qrR-g11150-d1e122">
+               <lb ed="#C" n="57"/>MAgister in praesenti 
+      distinctio<lb ed="#C" n="58" break="no"/>ne circa potentiam Divinam 
+      <lb ed="#C" n="59"/>principaliter duo quaerit. Pri¬ 
+      <lb ed="#C" n="60"/>mo utrum Deus potuerit. faceret 
+      <lb ed="#C" n="61"/>meliora quam fecerit? Secundo, utrum 
+      <lb ed="#C" n="62"/>possit quidquid potuit? Ideo de his 
+      <lb ed="#C" n="63"/>duobus quaeremus. Circa primum 
+      quae<lb ed="#C" n="64" break="no"/>remus tria. Primo utrum Deus 
+      unam<lb ed="#C" n="65" break="no"/>quamque rem potuerit facere meliorem, 
+      <lb ed="#C" n="66"/>2. utrum totum universum potuerit 
+      <lb ed="#C" n="67"/>facere melius? Tertio specialiter de qui  
+      <lb ed="#C" n="68"/>busdam creaturis, utrum Deus potuerit 
+      <lb ed="#C" n="69"/>eas facere meliores? 
+    </p>
+            <div xml:id="Gi9qrR-g11150-Dd1e153">
+               <head xml:id="Gi9qrR-g11150-Hd1e155">Articulus 1</head>
+               <p xml:id="Gi9qrR-g11150-d1e158">
+                  <lb ed="#C" n="70"/>ARTICVLVS I. 
+        <lb ed="#C" n="71"/>Vtrum Deus potuerit meliora faceret 
+        <lb ed="#C" n="72"/>aliqua, quam fecerit: 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e167">
+        <!--834.xml-->
+                  <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="73"/>AD primum sic proceditur: videtur  
+        <lb ed="#C" n="74"/>quod Deus non potuerit facere ali 
+        <lb ed="#C" n="75"/>quam rem meliorem: nam bonitas rei 
+        <lb ed="#C" n="76"/>ex esse sumitur, iuxta illud <name xml:id="Gi9qrR-g11150-Nd1e182" ref="#Augustine">Aug.</name> in de 
+        <lb ed="#C" n="77"/>Doctrina Christiana. In quantum sumus 
+        bo<lb ed="#C" n="78" break="no"/>ni sumus: sed esse rei est simplex &amp; in 
+        di<lb ed="#C" n="79" break="no"/>visibile non suscipiens magis &amp; minus, 
+        <lb ed="#C" n="80"/>ergo res meliorari non possunt. 
+        Praete<lb ed="#C" n="81" break="no"/>rea: si dicatur, quod duplex est esse rei, 
+        <lb ed="#C" n="82"/>accidentale, &amp; substantiale; quantum ad 
+        <lb ed="#C" n="83"/>substantiale res non suscipiunt magis &amp; 
+        <lb ed="#C" n="84"/>minus, nec meliorari possunt, sed 
+        quan<lb ed="#C" n="85" break="no"/>tum ad accidentale. Contra: unitas 
+        en<lb ed="#C" n="86" break="no"/>tis non est unitas praedicationis, sed 
+        attri<lb ed="#C" n="87" break="no"/>butionis. Omnia ergo praedicamenta 
+        <lb ed="#C" n="88"/>osunt entia secundum Philosophum 4. Meta. 
+        si<lb ed="#C" n="89" break="no"/>cut omnia sana sunt sana. Sanum: autem 
+        <lb ed="#C" n="90"/>non praedicatur de omnibus sanis, eo  
+        <lb ed="#C" n="91"/>quod sanitas reperiatur in omnibus, sed  
+        <lb ed="#C" n="92"/>reperitur solum in uno, ut in animali, 
+        <lb ed="#C" n="93"/>&amp; per comparationem ad illud omnia 
+        <lb ed="#C" n="94"/>dicuntur sana: ita quod cibus &amp; urina 
+        <lb ed="#C" n="95"/>non dicuntur sana per aliquam 
+        sanita<lb ed="#C" n="96" break="no"/>tem, quae sit in eis, sed propter eam 
+        <lb ed="#C" n="97"/>quae est in animali. Sic ergo accidentia 
+        <!--835.xml-->
+        <pb ed="#C" n="810"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>non dicuntur entia propter entitatem, 
+        <lb ed="#C" n="2"/>vel propter esse, quod sit in eis, sed prot 
+        <lb ed="#C" n="3"/>ter esse quod est in substantia: unum 
+        tan<lb ed="#C" n="4" break="no"/>tum ergo esse est in re, scilicet 
+        substan<lb ed="#C" n="5" break="no"/>tiale, &amp; ratione illius omnia accidentia 
+        <lb ed="#C" n="6"/>dicuntur entia inquantum habent quam 
+        <lb ed="#C" n="7"/>dam analogiam ad illud: propter quod 
+        <lb ed="#C" n="8"/>scribitur 7. Meta. Accidentia non sunt en 
+        <lb ed="#C" n="9"/>etia, nisi quia sunt entis. Si ergo secundum 
+        <lb ed="#C" n="10"/>esse substantiale non potest esse 
+        melio<lb ed="#C" n="11" break="no"/>ratio: quia tale simplex, &amp; 
+        indi<lb ed="#C" n="12" break="no"/>visibile est, ex quo non est dare 
+        <lb ed="#C" n="13"/>in re aliud esse simplex, concedendum 
+        <lb ed="#C" n="14"/>est res meliorari non posse.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e268">
+        Praeterea 
+        <lb ed="#C" n="15"/>si Deus potuisset genuisse meliorem Filiu 
+        <lb ed="#C" n="16"/>&amp; non genuisset secudum <name xml:id="Gi9qrR-g11150-Nd1e274" ref="#Augustine">Aug.</name> invidus 
+        <lb ed="#C" n="17"/>fuisset: ergo pari ratione, si potuisset res 
+        <lb ed="#C" n="18"/>facere meliores, &amp; non fecisset, invidus 
+        <lb ed="#C" n="19"/>fuisset. Sed ab optimo relegata est 
+        om<lb ed="#C" n="20" break="no"/>nis invidia iuxta illud 1. Meta. Nec Deum 
+        <lb ed="#C" n="21"/>esse invidum convenit. Ergo fecit res quam 
+        <lb ed="#C" n="22"/>meliores potuit.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e291">
+        Praeterea: legitur 
+        Cen<lb ed="#C" n="23" break="no"/>1. Vidit Deus cuncta, quae fecerat, &amp; 
+        eran<lb ed="#C" n="24" break="no"/>valde bona. Si igitur cuncta sunt valdem 
+        <lb ed="#C" n="25"/>bona, &amp; quod valde bonum est 
+        melio<lb ed="#C" n="26" break="no"/>rari non potest, nihil a Deo potuit 
+        me<lb ed="#C" n="27" break="no"/>lius fieri¬ 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e305">
+                  <lb ed="#C" n="28"/>In contrarium est: quia cuilibet 
+        fi<lb ed="#C" n="29" break="no"/>nito potest fieri additio. Si ergo rebus 
+        <lb ed="#C" n="30"/>creatis competit habere bonitatem fini 
+        <lb ed="#C" n="31"/>tam, bonitati earum potest fieri 
+        addi<lb ed="#C" n="32" break="no"/>tio, &amp; ita possunt fieri meliores. 
+        Praete<lb ed="#C" n="33" break="no"/>rea: quidquid natura potest, Deus 
+        po<lb ed="#C" n="34" break="no"/>test, sed opere naturae res efficiuntur  
+        <lb ed="#C" n="35"/>meliores: procedunt enim naturaliter 
+        <lb ed="#C" n="36"/>ex imperfecto ad perfectum, in quo 
+        pro<lb ed="#C" n="37" break="no"/>cessu quaedam melioratio attenditur, 
+        <lb ed="#C" n="38"/>ergo multo magis Divino opere melio 
+        <lb ed="#C" n="39"/>tes fieri possunt.  
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e334">
+                  <lb ed="#C" n="40"/>RESOLVTIO. 
+        <lb ed="#C" n="41"/>Deus meliora producere potuit, simplicite 
+        <lb ed="#C" n="42"/>loquendo; sed haec vel illa facere meliora po¬ 
+        <lb ed="#C" n="43"/>tuit quantum ad bonitatem accidentalem, 
+        <lb ed="#C" n="44"/>non quantum ad substantialem.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e347">
+                  <lb ed="#C" n="45"/>REspond. dicendum, quod in 
+        pro<lb ed="#C" n="46" break="no"/>ductione cuiuslibet rei tria est 
+        con<lb ed="#C" n="47" break="no"/>siderare, producens, modum producem 
+        <lb ed="#C" n="48"/>di, &amp; productum. Si ergo res meliorari 
+        <lb ed="#C" n="49"/>non possunt, potest tripliciter contin 
+        <lb ed="#C" n="50"/>gere. Primo quod ratio huius sumatur 
+        <lb ed="#C" n="51"/>ex parte producentis. Secundo ex modo 
+        <lb ed="#C" n="52"/>producendi. Tertio ex producto. Ex 
+        <lb ed="#C" n="53"/>parte producentis dupliciter. Primo, 
+        <lb ed="#C" n="54"/>huiusmodi producens ageret ex 
+        neces<lb ed="#C" n="55" break="no"/>sitate naturae: nam talia tantum produ¬ 
+        <!--835.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="56"/>cunt, quantum producere possunt. Nam 
+        <lb ed="#C" n="57"/>cum actio naturae sit determinata ad 
+        u<lb ed="#C" n="58" break="no"/>num, &amp; agens ex necessitate naturae non 
+        <lb ed="#C" n="59"/>sit Dominus sui actus, sic agentia tantum 
+        <lb ed="#C" n="60"/>agunt, quantum possunt agere. Vnde 
+        <lb ed="#C" n="61"/>ignis inducit calorem, quanto maiorem 
+        <lb ed="#C" n="62"/>&amp; meliorem potest. Secundo: hoc esse 
+        u<lb ed="#C" n="63" break="no"/>potest, si tota bonitas producentis 
+        relu<lb ed="#C" n="64" break="no"/>ceat in producto. Nam per se 
+        loquen<lb ed="#C" n="65" break="no"/>do, non potest esse maior bonitas in 
+        es<lb ed="#C" n="66" break="no"/>fectu quam in sua causa. Si igitur tota 
+        <lb ed="#C" n="67"/>bonitas producentis in producto 
+        relu<lb ed="#C" n="68" break="no"/>ceat, sequitur quod producens non 
+        pos<lb ed="#C" n="69" break="no"/>sit producere melius eo, quod 
+        produ<lb ed="#C" n="70" break="no"/>cit: secudum quem modum possemus diceret 
+        <lb ed="#C" n="71"/>non fuisse possibile Patrem genuisse 
+        me<lb ed="#C" n="72" break="no"/>liorem Filium, eo quod tota bonita. 
+        <lb ed="#C" n="73"/>Dei Patris in eo reluceat. Ex parte etia 
+        <lb ed="#C" n="74"/>modi producendi, etiam hoc dupliciter 
+        <lb ed="#C" n="75"/>potest contingere. Nam quaedam agu 
+        <lb ed="#C" n="76"/>ex suppositione materiae, sicut ea qua 
+        <lb ed="#C" n="77"/>suos effectus producunt per motum &amp; 
+        <lb ed="#C" n="78"/>transmutationem: unde talia non agunt 
+        <lb ed="#C" n="79"/>nisi ex suppositione materiae, &amp; non 
+        in<lb ed="#C" n="80" break="no"/>ducunt formam nisi materia disposita 
+        <lb ed="#C" n="81"/>igitur ex modo agendi aliquorum aget 
+        <lb ed="#C" n="82"/>tium non potest produci melior 
+        effe<lb ed="#C" n="83" break="no"/>ctus. Primo, si simpliciter materia non sit 
+        <lb ed="#C" n="84"/>in potentia ad maiorem perfectionem, 
+        <lb ed="#C" n="85"/>secundum quem modum Sommen. 
+        di<lb ed="#C" n="86" break="no"/>xit de Philosopho, quod natura in eor 
+        <lb ed="#C" n="87"/>ostendit ultimum sui posse, ut 
+        osten<lb ed="#C" n="88" break="no"/>deret ultimam perfectionem possibilem 
+        <lb ed="#C" n="89"/>in materijs. Secundo, si dispositio ma 
+        <lb ed="#C" n="90"/>teriae, &amp; eius capacitas repugnat ul 
+        <lb ed="#C" n="91"/>teriori perfectioni, licet forte materia 
+        <lb ed="#C" n="92"/>simpliciter sumpta ad ulteriorem per 
+        <lb ed="#C" n="93"/>fectionem non habeat repugnantiam 
+        <lb ed="#C" n="94"/>Tertio ex parte producti etiam 
+        dupli<lb ed="#C" n="95" break="no"/>citer esse potest. Primo si repugnat 
+        effe<lb ed="#C" n="96" break="no"/>ctui simpliciter. Secundo, si repugna 
+        <lb ed="#C" n="97"/>huic effectui: nam nulla virtus agentis 
+        <lb ed="#C" n="98"/>est, quae producat effectum contra 
+        ra<lb ed="#C" n="99" break="no"/>tionem eius, vel quae producat hunc 
+        es<lb ed="#C" n="100" break="no"/>fectum contra rationem hujus. Dicere ergo 
+        <lb ed="#C" n="101"/>Deum non potuisse producere res 
+        me<lb ed="#C" n="102" break="no"/>liores, propter aliquam dictarum 
+        ratici<lb ed="#C" n="103" break="no"/>num hoc contingit, sed huiusmodi 
+        ra<lb ed="#C" n="104" break="no"/>tio sumi non poterit ex parte agentis, 
+        <lb ed="#C" n="105"/>eo quod agat ex necessitate naturae: ostem 
+        <lb ed="#C" n="106"/>sum est enim supra Deum agere ex 
+        li<lb ed="#C" n="107" break="no"/>bertate voluntatis. Nec &amp; hoc 
+        contin<lb ed="#C" n="108" break="no"/>get, quia tota bonitas producentis 
+        relu<lb ed="#C" n="109" break="no"/>ceat in producto: nam cum creatura 
+        <lb ed="#C" n="110"/>sint improportionatae Creatori non 
+        <lb ed="#C" n="111"/>sunt capaces tantae bonitatis, quanta 
+        <!--836.xml-->
+        <pb ed="#C" n="811"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>existit in ipso. Rursum hoc non 
+        potes<lb ed="#C" n="2" break="no"/>contingere ex modo producendi: nam 
+        <lb ed="#C" n="3"/>Deus cum sit primum agens, non agit 
+        <lb ed="#C" n="4"/>ex suppositione materiae: &amp; sicut non 
+        <lb ed="#C" n="5"/>supponit materiam, sic non supponit 
+        <lb ed="#C" n="6"/>materiam dispositam: &amp; ut potest totum 
+        <lb ed="#C" n="7"/>producere, sic potest capacitatem 
+        am<lb ed="#C" n="8" break="no"/>pliare: ideo non possumus dicere Deum 
+        <lb ed="#C" n="9"/>non potuisse facere meliora, quia 
+        repug<lb ed="#C" n="10" break="no"/>net ipsis recipietibus, vel capacitati eorum, 
+        <lb ed="#C" n="11"/>Si ergo erit aliqua causa, vel hoc erit, 
+        <lb ed="#C" n="12"/>quia repugnet effectui simpliciter, vel  
+        <lb ed="#C" n="13"/>quia repugnat huic effectui: 
+        productio<lb ed="#C" n="14" break="no"/>nem meliore repugnare simpliciter 
+        effe<lb ed="#C" n="15" break="no"/>ctui non est possibile. Nam illa simpliciter 
+        <lb ed="#C" n="16"/>sunt impossibilia &amp; repugnant 
+        simpli<lb ed="#C" n="17" break="no"/>citer effectui, quae effugiunt rationem 
+        en<lb ed="#C" n="18" break="no"/>tis, &amp; contradictionem implicant; esse 
+        <lb ed="#C" n="19"/>autem melius non effugit: rationem 
+        <lb ed="#C" n="20"/>entis: immo si ratio bonitatis ex esse 
+        <lb ed="#C" n="21"/>sumitur, quod magis habet de bonita, 
+        <lb ed="#C" n="22"/>te, magis habet de esse. Simpliciter 
+        er<lb ed="#C" n="23" break="no"/>go loquendo Deus potuit meliora 
+        pro<lb ed="#C" n="24" break="no"/>ducere, cum hoc non repugnet nec 
+        <lb ed="#C" n="25"/>producenti, nec modo producendi, nec 
+        <lb ed="#C" n="26"/>producto simpliciter. Sed si quaeratur: 
+        <lb ed="#C" n="27"/>utrum Deus hunc effectum, vel hoc 
+        <lb ed="#C" n="28"/>productum potuerit facere melius: &amp; 
+        <lb ed="#C" n="29"/>utrum talis factio repugnet huic 
+        produ<lb ed="#C" n="30" break="no"/>cto? Non est respondendum 
+        sim<lb ed="#C" n="31" break="no"/>pliciter: sed distingendum est de 
+        melio<lb ed="#C" n="32" break="no"/>ratione. Nam si loquimur de 
+        meliora<lb ed="#C" n="33" break="no"/>tione, quantum ad bonitatem 
+        essen<lb ed="#C" n="34" break="no"/>tialem, quae respicit naturam rei, Deus 
+        <lb ed="#C" n="35"/>hunc effectum non potuit facere melio 
+        <lb ed="#C" n="36"/>rem: quia si mutaretur eius natura, non 
+        <lb ed="#C" n="37"/>remaneret ulterius hic effectus. Nam 
+        <lb ed="#C" n="38"/>gradus bonitatis essentialis assimilatur  
+        <lb ed="#C" n="39"/>unitatibus in numeris: quia sicut 
+        quali<lb ed="#C" n="40" break="no"/>bet unitate addita, variantur species 
+        nu<lb ed="#C" n="41" break="no"/>merorum, sic quolibet tali gradu 
+        addi<lb ed="#C" n="42" break="no"/>to vel remoto, mutatur species entium: 
+        <lb ed="#C" n="43"/>si vero loquamur de melioratione 
+        acci<lb ed="#C" n="44" break="no"/>dentali, potuit Deus hunc effectum me 
+        <lb ed="#C" n="45"/>liorem facere. Simpliciter ergo Deus 
+        <lb ed="#C" n="46"/>potuit facere meliora; haec tamen vel 
+        <lb ed="#C" n="47"/>illa fieri meliora potu erunt quantum ad bo 
+        <lb ed="#C" n="48"/>nitatem accidentalem, non substantialem. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e609">
+                  <lb ed="#C" n="49"/>Respond ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="50"/>quod duplex est esse, substantiale, &amp; 
+        ac<lb ed="#C" n="51" break="no"/>cidentale: simpliciter loquendo potuit 
+        <lb ed="#C" n="52"/>meliora producere quantum ad 
+        u<lb ed="#C" n="53" break="no"/>trumque esse: hos tamen effectus non 
+        <lb ed="#C" n="54"/>potuit producere meliores quantum 
+        <lb ed="#C" n="55"/>ad esse essentiale: quia si tale esse muta 
+        <lb ed="#C" n="56"/>retur, non remanerent ulterius hi effe¬ 
+        <!--836.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ctus: potuit tamen eos meliores faceret 
+        <lb ed="#C" n="58"/>quantum ad accidentale.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e638">
+        Ad 2. dicendum, 
+        <lb ed="#C" n="59"/>quod cum dicitur, accidentia non sunt entia 
+        <lb ed="#C" n="60"/>nisi quia sunt entis, &amp; quod solum sunt 
+        en<lb ed="#C" n="61" break="no"/>tia per comparationem ad entitatem. 
+        <lb ed="#C" n="62"/>quae est in substantia, non est intelligendum 
+        <lb ed="#C" n="63"/>quod nulla entitas sit in accidentibus: 
+        <lb ed="#C" n="64"/>sed quia huiusmodi entitas est secundum 
+        <lb ed="#C" n="65"/>quid, &amp; quia ab eo, quod est secundum 
+        <lb ed="#C" n="66"/>quid, non est denominatio, non proprie 
+        <lb ed="#C" n="67"/>propter talem entitatem dicuntur 
+        en<lb ed="#C" n="68" break="no"/>tia; sed propter entitatem simpliciter,  
+        <lb ed="#C" n="69"/>quae est insubstantia: est ergo in re 
+        du<lb ed="#C" n="70" break="no"/>plex esse, vel duplex entitas, 
+        substantia<lb ed="#C" n="71" break="no"/>lis, &amp; accidentalis, &amp; non una tantum, 
+        <lb ed="#C" n="72"/>ut ratio argnebat.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e671">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="73"/>si Pater non genuisset Filium optimum, 
+        <lb ed="#C" n="74"/>invidus fuisset: nam cum Filius procedat 
+        <lb ed="#C" n="75"/>ab eo naturaliter, oportet eum talem esse, 
+        <lb ed="#C" n="76"/>secundum quod natura Divina requirit,  
+        <lb ed="#C" n="77"/>propter a nod tota bonitas paterna 
+        de<lb ed="#C" n="78" break="no"/>betur Filio, cum ei debeatur natura 
+        Divi<lb ed="#C" n="79" break="no"/>na, &amp; totam talem bonitatem, poterat 
+        <lb ed="#C" n="80"/>capere, cum sit Deus; sed subtrahere 
+        ali<lb ed="#C" n="81" break="no"/>cui, quod ei debetur, &amp; potest capere 
+        <lb ed="#C" n="82"/>ex invidia procedit: ideo si Pater 
+        potuis<lb ed="#C" n="83" break="no"/>set, &amp; noluisset gignere Filium 
+        opti<lb ed="#C" n="84" break="no"/>mum, invidus fuisset. Creatio tamen est 
+        <lb ed="#C" n="85"/>opus voluntatis: unde tanta bonitas 
+        de<lb ed="#C" n="86" break="no"/>betur creaturis, quantam Deus eis vult  
+        <lb ed="#C" n="87"/>conmunicare: propter quod tales Deus 
+        <lb ed="#C" n="88"/>creaturas fecit quales voluit: &amp; si non 
+        <lb ed="#C" n="89"/>communicavit eis omnem bonitatem, 
+        <lb ed="#C" n="90"/>non fuit invidus, cum eis talis bonita, 
+        <lb ed="#C" n="91"/>non debeatur.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e716">
+        Ad 4. dicendum quod 
+        <lb ed="#C" n="92"/>omnia simul sumpta sunt valdem bona 
+        <lb ed="#C" n="93"/>ratione ordinis, modo quo patebit, unum 
+        <lb ed="#C" n="94"/>quodque tamen in se, ut est quid 
+        crea<lb ed="#C" n="95" break="no"/>tum, bonum est, &amp; meliorari potest, iqde hl 
+        <lb ed="#C" n="96"/>melius potest inveniri, 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g11150-Dd1e730">
+               <head xml:id="Gi9qrR-g11150-Hd1e732">Articulus 2</head>
+               <p xml:id="Gi9qrR-g11150-d1e735">
+                  <lb ed="#C" n="97"/>ARTICVLVS II. 
+        <lb ed="#C" n="98"/>Vtrum Deus totum universum potuerit faceret 
+        <lb ed="#C" n="99"/>melius, quam fecerit?
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e744">
+                  <lb ed="#C" n="100"/>SEcundo quaeritur: utrum Deus totum 
+        <lb ed="#C" n="101"/>universum potuerit facere melius? 
+        <lb ed="#C" n="102"/>Et videtur, quod non: quia optimi est 
+        <lb ed="#C" n="103"/>optima adducere: cum igitur Deus sit 
+        <lb ed="#C" n="104"/>quid optimum, oportet universum ab 
+        <lb ed="#C" n="105"/>eo factum optimum existere: non 
+        igi<lb ed="#C" n="106" break="no"/>tur potuit ipsum facere melius. Praete¬ 
+        <!--837.xml-->
+        <pb ed="#C" n="812"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>rea: universum dicit aggregationem 
+        <lb ed="#C" n="2"/>omnium bonorum, sed aggregationi 
+        <lb ed="#C" n="3"/>omnium bonorum non potest fieri 
+        ad<lb ed="#C" n="4" break="no"/>ditio, ergo Deus universum non potuit 
+        <lb ed="#C" n="5"/>melius facere.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e779">
+        Praeterea: Deus quidquid 
+        <lb ed="#C" n="6"/>producit, ex tota sua potentia producit: 
+        <lb ed="#C" n="7"/>nam semper Deus se toto operatur: sed  
+        <lb ed="#C" n="8"/>quod producitur secundum totam 
+        po<lb ed="#C" n="9" break="no"/>tentiam alicuius, ab eo non potest fieri 
+        <lb ed="#C" n="10"/>melius, ergo universum, quod Deus 
+        se<lb ed="#C" n="11" break="no"/>cundum suam totam produxit 
+        poten<lb ed="#C" n="12" break="no"/>tiam, melius fieri non potuit.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e797">
+        Praeterea: 
+        <lb ed="#C" n="13"/>ut habitum est supra, licet unumquod 
+        <lb ed="#C" n="14"/>que in se bonum sit, omnia tamen simul 
+        <lb ed="#C" n="15"/>sumpta sunt valde bona: cum ergo uni 
+        <lb ed="#C" n="16"/>versum dicat omnia simul sumpta, 
+        uni<lb ed="#C" n="17" break="no"/>versum est valde bonum: non ergo 
+        po<lb ed="#C" n="18" break="no"/>tuit fieri melius.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e814">
+        Praeterea: ex hoc 
+        ali<lb ed="#C" n="19" break="no"/>quid est malum in quantum est privatum 
+        <lb ed="#C" n="20"/>ordine, quia secundum <name xml:id="Gi9qrR-g11150-Nd1e820" ref="#Boethius">Boetium</name> 4. de 
+        <lb ed="#C" n="21"/>Consola. ordo Divinae providentiae 
+        <lb ed="#C" n="22"/>cuncta complectitur. Si igitur nihil est 
+        <lb ed="#C" n="23"/>ibi inordinatum, nihil est in universo 
+        <lb ed="#C" n="24"/>haoens rationem mali: est igitur 
+        sum<lb ed="#C" n="25" break="no"/>mum bonum, cum sit malo 
+        impermi<lb ed="#C" n="26" break="no"/>stum. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e837">
+                  <lb ed="#C" n="27"/>In contrarium est: quia una pars 
+        u<lb ed="#C" n="28" break="no"/>niversi est melior, quam alia: cum 
+        igi<lb ed="#C" n="29" break="no"/>tur Deus potuerit facere universum so 
+        <lb ed="#C" n="30"/>lum ex partibus nobilibus, potuit facere 
+        <lb ed="#C" n="31"/>universum melius, quam fecerit. 
+        Prae<lb ed="#C" n="32" break="no"/>terea: cum multa mala in universo 
+        vi<lb ed="#C" n="33" break="no"/>deamus, &amp; Deus omnia talia coercere 
+        <lb ed="#C" n="34"/>possit: quia voluntati eius nullus 
+        esiste<lb ed="#C" n="35" break="no"/>re potest, potuit facere universum me 
+        <lb ed="#C" n="36"/>lius, quam fecerit: quia si fecisset ipsum 
+        <lb ed="#C" n="37"/>absque omni malo, cum malum 
+        dimi<lb ed="#C" n="38" break="no"/>nuat de ratione boni, fecisset ipsum me 
+        <lb ed="#C" n="39"/>lius, quam fecerit. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e868">
+                  <lb ed="#C" n="40"/>RESOLVTIO. 
+        <lb ed="#C" n="41"/>Vniversum meliorari posse, quia ordinata, 
+        <lb ed="#C" n="42"/>in se meliora esse possunt tam intensive, quam 
+        <lb ed="#C" n="43"/>extensive, certum est: ceterum secundum 
+        or<lb ed="#C" n="44" break="no"/>dinem extensive meliorari eisdem 
+        manenti<lb ed="#C" n="45" break="no"/>bus partibus; ac his etiam melioratis, 
+        quan<lb ed="#C" n="46" break="no"/>tum ad ordinem intensive nequit: valet tamen 
+        <lb ed="#C" n="47"/>quantum ad bonum, quod ex partium proportio¬  
+        <lb ed="#C" n="48"/>ne resultat, atque ipsas quantum ad finem 
+        <lb ed="#C" n="49"/>ultimum meliorari non est possibi¬ 
+        <lb ed="#C" n="50"/>le; erit autem quantum 
+        <lb ed="#C" n="51"/>ad proximum 
+        <lb ed="#C" n="52"/>sinem. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e899">
+                  <lb ed="#C" n="53"/>REspond. dicendum, quod bonitas 
+        <lb ed="#C" n="54"/>Runiversi potissime ex ordine vide¬ 
+        <!--837.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>tur consurgere: unde &amp; Philosophus 12. Meta. 
+        <lb ed="#C" n="56"/>Post bonum ducis collocat bonum 
+        or<lb ed="#C" n="57" break="no"/>dinis: bonum autem ordinis dupliciter 
+        <lb ed="#C" n="58"/>accipi potest. Primo ratione ipsius 
+        or<lb ed="#C" n="59" break="no"/>dinis in se. Secundo ratione partium 
+        or<lb ed="#C" n="60" break="no"/>dinatarum: cum ergo quaeritur: utrum 
+        <lb ed="#C" n="61"/>Deus potuerit facere melius universum 
+        <lb ed="#C" n="62"/>quam fecerit? Hujusmodi melioratio aut  
+        <lb ed="#C" n="63"/>accipitur secundum ipsum ordinem in 
+        <lb ed="#C" n="64"/>se, aut per respectum ad ordinata: 
+        me<lb ed="#C" n="65" break="no"/>liorari autem universum, quia ipsa 
+        or<lb ed="#C" n="66" break="no"/>dinata meliorari possunt, per omnem 
+        <lb ed="#C" n="67"/>modum est verum. Nam sive extensive, 
+        <lb ed="#C" n="68"/>sive intensive intelligatur 
+        huiusmodi<lb ed="#C" n="69" break="no"/>melioratio, non est impossibile quod 
+        di<lb ed="#C" n="70" break="no"/>citur: potuit enim Deus extennve 
+        me<lb ed="#C" n="71" break="no"/>lius facere universum, quantum ad 
+        par<lb ed="#C" n="72" break="no"/>tes ejus, quae ordini subduntur, sive 
+        quan<lb ed="#C" n="73" break="no"/>tum ad ipsa ordinata: quia potuit multa 
+        <lb ed="#C" n="74"/>genera creaturarum facere in universo, 
+        <lb ed="#C" n="75"/>quae non fecit: &amp; multi gradus sentis in 
+        <lb ed="#C" n="76"/>universo esse potuerunt, qui non sunt, 
+        <lb ed="#C" n="77"/>Rursum etiam intesive universum 
+        me<lb ed="#C" n="78" break="no"/>liorare potuit, faciendo quamlibet 
+        par<lb ed="#C" n="79" break="no"/>tem universi meliorem: quod dupliciter 
+        <lb ed="#C" n="80"/>esse posset. Primo quantum ad 
+        meliora<lb ed="#C" n="81" break="no"/>tionem accidentalem, &amp; talis 
+        meliora<lb ed="#C" n="82" break="no"/>tio non requireret substantialiter alias 
+        <lb ed="#C" n="83"/>partes universi. Secundo quantum ad 
+        <lb ed="#C" n="84"/>bonitatem substantialem, ut si pro 
+        quo<lb ed="#C" n="85" break="no"/>libet gradu entis, qui in universo existit, 
+        <lb ed="#C" n="86"/>fecisset alium gradum altiorem: ita quod 
+        <lb ed="#C" n="87"/>quaelibet pars talis universi esset alia sub 
+        <lb ed="#C" n="88"/>stantialiter a partibus universi. 
+        Huiusmo<lb ed="#C" n="89" break="no"/>di igitur melioratio universi, quantum 
+        <lb ed="#C" n="90"/>ad ea quae ordini subduntur, per omnem 
+        <lb ed="#C" n="91"/>modum est possibilis. Sed si quaeratur, 
+        u<lb ed="#C" n="92" break="no"/>trum quantum ad ipsum ordinem 
+        me<lb ed="#C" n="93" break="no"/>liorari possit? Est de ordine distinguen 
+        <lb ed="#C" n="94"/>dum: quia quidam est ordo partium in. 
+        <lb ed="#C" n="95"/>toto: quidam partium ad finem. Hunc 
+        <lb ed="#C" n="96"/>duplicem ordinem tangit Philosophus 12. 
+        Me<lb ed="#C" n="97" break="no"/>ta. cum ponit ordinem in universo: ex 
+        <lb ed="#C" n="98"/>eo quod una pars ordinatur ad aliam 
+        <lb ed="#C" n="99"/>partem, qui ordo est partium in toto: ex 
+        <lb ed="#C" n="100"/>eo quod totum universum ordinatur in 
+        <lb ed="#C" n="101"/>Deum, qui ordo sumitur per compara¬ 
+        <lb ed="#C" n="102"/>tionem ad finem. Si ergo loquimur de 
+        <lb ed="#C" n="103"/>ordine partium in toto: utrum secundum 
+        <lb ed="#C" n="104"/>ipsum universum meliorari possit? 
+        Di<lb ed="#C" n="105" break="no"/>cendum, quod melioratio secundum 
+        <lb ed="#C" n="106"/>talem ordinem potest intelligi 
+        extensi<lb ed="#C" n="107" break="no"/>ve &amp; intensive. Si intelligatur 
+        extensi<lb ed="#C" n="108" break="no"/>ve manentibus eisdem partibus 
+        univer<lb ed="#C" n="109" break="no"/>si meliorari non potest. Nam tunc 
+        extem<lb ed="#C" n="110" break="no"/>sive meliorari posset secundum talem 
+        <!--838.xml-->
+        <pb ed="#C" n="813"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ordinem, quando huiusmodi ordo 
+        ex<lb ed="#C" n="2" break="no"/>tenderet se ad aliquas partes universi 
+        <lb ed="#C" n="3"/>quae carerent ordine, quod esse non 
+        po<lb ed="#C" n="4" break="no"/>test: quia in universo secundum <name xml:id="Gi9qrR-g11150-Nd1e1046" ref="#Augustine">Aug.</name> 83. 
+        <lb ed="#C" n="5"/>qq. q. de Providentia: Summo Deo cuncta 
+        <lb ed="#C" n="6"/>bene administrante quae fecit, nihil inordinati 
+        <lb ed="#C" n="7"/>est. Vnde communis sententia est, quod 
+        <lb ed="#C" n="8"/>sicut quantum ad ipsas partes ordinata, 
+        <lb ed="#C" n="9"/>universum per omnem modum 
+        melio<lb ed="#C" n="10" break="no"/>rari potest; sic econverso, quantum ad 
+        <lb ed="#C" n="11"/>ipsum ordinem extensive nullo modo 
+        <lb ed="#C" n="12"/>meliorari valet.  
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1067">
+                  <lb ed="#C" n="13"/>Sed utrum intensive secundum talem 
+        <lb ed="#C" n="14"/>ordinem meliorari possit? Eoncedunt. 
+        <lb ed="#C" n="15"/>aliqui simpliciter, quod sic. Dicunt 
+        <lb ed="#C" n="16"/>enim quod si quaelibet pars universi me 
+        <lb ed="#C" n="17"/>liorata esset, ordo intensive in universo 
+        <lb ed="#C" n="18"/>simpliciter esset melior. Sed non est 
+        be<lb ed="#C" n="19" break="no"/>ne dictum, quia sic considerare ordinem 
+        <lb ed="#C" n="20"/>magis est considerare ipsum quantum 
+        <lb ed="#C" n="21"/>ad partes ordinatas ad quas se extendit, 
+        <lb ed="#C" n="22"/>quam in se. Oportet autem nos diceret 
+        <lb ed="#C" n="23"/>quod secundum ordinem in se aliquo 
+        <lb ed="#C" n="24"/>modo universum sit valde bonum. Sic 
+        <lb ed="#C" n="25"/>enim cuncta, quae fecit Deus, sunt valdem 
+        <lb ed="#C" n="26"/>bona propter bonum ordinis. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1100">
+                  <lb ed="#C" n="27"/>Ideo notandum, quod in ordine 
+        <lb ed="#C" n="28"/>duo est considerare. Primo proportionem. 
+        <lb ed="#C" n="29"/>Secundo bonum quod ex proportione 
+        re<lb ed="#C" n="30" break="no"/>sultat. Nam si cordae lyrae ordinatae essent, 
+        <lb ed="#C" n="31"/>in hujusmodi ordine duo 
+        consideran<lb ed="#C" n="32" break="no"/>da essent. Primo proportio cordarum 
+        <lb ed="#C" n="33"/>rad invicem, ut quia una excedit aliam 
+        <lb ed="#C" n="34"/>secundum modum debitum. Secundo 
+        <lb ed="#C" n="35"/>ibonum quod ex hujusmodi proportione 
+        <lb ed="#C" n="36"/>resultat, ut melodia vel symphonia de 
+        <lb ed="#C" n="37"/>lectans auditum. Si igitur quaelibet cor 
+        <lb ed="#C" n="38"/>um da secundum modum suum fieret meli 
+        <lb ed="#C" n="39"/>or, ibi ordo melioratus esset, non 
+        quan<lb ed="#C" n="40" break="no"/>tum ad proportionem, quia si 
+        propor<lb ed="#C" n="41" break="no"/>tionaliter prius se excedebant cordae, &amp; 
+        <lb ed="#C" n="42"/>um tamen melioratae sunt, si ibi debitus or 
+        <lb ed="#C" n="43"/>do debet existere, secundum 
+        proportio<lb ed="#C" n="44" break="no"/>nem debitam se excedent: tamen esset ibi  
+        <lb ed="#C" n="45"/>melioratio quantum ad bonum, quod ex 
+        pro<lb ed="#C" n="46" break="no"/>portione resultat: quia melioratis cor 
+        <lb ed="#C" n="47"/>dis resultaret ibi maior symphonia, &amp; 
+        <lb ed="#C" n="48"/>magis mulcerent auditum: sic &amp; in 
+        u<lb ed="#C" n="49" break="no"/>niverso se habet. Nam partes universi sici 
+        <lb ed="#C" n="50"/>proportionaliter se excedunt, &amp; 
+        secun<lb ed="#C" n="51" break="no"/>dum tantam analogiam ordinatae sunt,  
+        <lb ed="#C" n="52"/>quod si omnes partes universi 
+        meliora<lb ed="#C" n="53" break="no"/>rentur, si debito ordine se haberent,  
+        <lb ed="#C" n="54"/>proportio universi sic meliorati non 
+        es<lb ed="#C" n="55" break="no"/>set maior proportione, quae nunc in 
+        u<lb ed="#C" n="56" break="no"/>niverso existit; bonum tamen, quod ex 
+        <!--838.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>tali proportione resultat, esset melius. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1175">
+                  <lb ed="#C" n="58"/>Nam sicut ex proportione cordarum 
+        <lb ed="#C" n="59"/>resultat symphonia, sic ex proportione 
+        <lb ed="#C" n="60"/>partium universi resultat mani festatio 
+        <lb ed="#C" n="61"/>Divinae Majestatis: &amp; sicut melioratis 
+        <lb ed="#C" n="62"/>cordis, licet non augeatur proportio 
+        <lb ed="#C" n="63"/>melioratur tamen symphonia: sic 
+        me<lb ed="#C" n="64" break="no"/>lioratis partibus universi, non 
+        variare<lb ed="#C" n="65" break="no"/>tur proportio, magis tamen 
+        manifesta<lb ed="#C" n="66" break="no"/>retur Divina bonitas. Ergo intensive 
+        <lb ed="#C" n="67"/>quantum ad ordinem non potest melio 
+        <lb ed="#C" n="68"/>rari universum, considerando 
+        propor<lb ed="#C" n="69" break="no"/>tionem, quae in ordine consistit; potest 
+        <lb ed="#C" n="70"/>tamen meliorari quantum ad bonum, 
+        <lb ed="#C" n="71"/>quod ex proportione resultat. Verum 
+        <lb ed="#C" n="72"/>quia ordo magis essentialiter se tenet 
+        <lb ed="#C" n="73"/>ex parte proportionis, quam ex parte 
+        <lb ed="#C" n="74"/>boni, quod ex proportione resultat, cum  
+        <lb ed="#C" n="75"/>ipsa proportio sit quidam ordo, &amp; non 
+        <lb ed="#C" n="76"/>bonum quod ex proportione esse ha 
+        <lb ed="#C" n="77"/>bet, magis negare debemus secundum 
+        <lb ed="#C" n="78"/>ordinem intensive universam meliora 
+        <lb ed="#C" n="79"/>ri posse, quam affirmare. Si vero 
+        loqua<lb ed="#C" n="80" break="no"/>mur de ordine secundum quod partes 
+        <lb ed="#C" n="81"/>universi ordinantur in finem, utrum 
+        se<lb ed="#C" n="82" break="no"/>cundum talem ordinem universum me 
+        <lb ed="#C" n="83"/>liorari possit, ut utrum possit ordinari 
+        <lb ed="#C" n="84"/>ad meliorem finem? Distinguendum es 
+        <lb ed="#C" n="85"/>de fine: quia huiusmodifinis vel est 
+        <lb ed="#C" n="86"/>nis ultimus, vel proximus. Quantum ad 
+        <lb ed="#C" n="87"/>finem ultimum res meliorari non pos¬ 
+        <lb ed="#C" n="88"/>sunt. Non enim possunt habere melio 
+        <lb ed="#C" n="89"/>rem finem, cum ipse Deus secundum hum 
+        <lb ed="#C" n="90"/>modum sit finis omnium. Si vero loqui 
+        <lb ed="#C" n="91"/>mur de fine proximo, quia hujusmodi 
+        <lb ed="#C" n="92"/>finis haoet gradus, secundum quod par 
+        <lb ed="#C" n="93"/>tes universi gradatim se habent, 
+        secun<lb ed="#C" n="94" break="no"/>dum hunc modum universum 
+        melio<lb ed="#C" n="95" break="no"/>rari potest: qia si omnes partes 
+        univer<lb ed="#C" n="96" break="no"/>si meliorarentur ( accipiendo, sic 
+        fi<lb ed="#C" n="97" break="no"/>nem) ordinarentur ad meliorem 
+        fi<lb ed="#C" n="98" break="no"/>nem. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1266">
+                  <lb ed="#C" n="99"/>Respond. ad arg. Ad 1. dicendum 
+        <lb ed="#C" n="100"/>quod quaelibet res in se considerata non 
+        <lb ed="#C" n="101"/>est optima, nisi loquedo de bonitate 
+        <lb ed="#C" n="102"/>essentiali, secundum quam, manente 
+        re<lb ed="#C" n="103" break="no"/>eadem, secundum substantiam 
+        meliora<lb ed="#C" n="104" break="no"/>ri non potest. Totum tamen universum 
+        <lb ed="#C" n="105"/>aliquo modo optimum est ratione or 
+        <lb ed="#C" n="106"/>dinis, modo quo dictum est, non tamen 
+        <lb ed="#C" n="107"/>simpliciter est quid optimum: unde 
+        ali<lb ed="#C" n="108" break="no"/>quo modo meliorari potest, ut patet 
+        <lb ed="#C" n="109"/>per habita.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1292">
+        Ad 2. dicendum, quod 
+        uni<lb ed="#C" n="110" break="no"/>versum aggregat omne bonum quod 
+        <lb ed="#C" n="111"/>actu existit: non tamen aggregat omne, 
+        <lb ed="#C" n="112"/>quod Deus potest facere: unde arguitur,  
+        <!--839.xml-->
+        <pb ed="#C" n="814"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>quod post Deum nihil est melius 
+        uni<lb ed="#C" n="2" break="no"/>verso, non tamen habetur, quod 
+        univer<lb ed="#C" n="3" break="no"/>sum meliorari non possit.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1314">
+        Ad 3. 
+        dicen<lb ed="#C" n="4" break="no"/>dum, quod licet Deus producat 
+        quem<lb ed="#C" n="5" break="no"/>libet errectum secundum suam totam 
+        <lb ed="#C" n="6"/>potentiam; effectus tamen consequitur 
+        <lb ed="#C" n="7"/>bonitatem secundum voluntatem 
+        Divi<lb ed="#C" n="8" break="no"/>nam: ideo potest Deus meliora facere, 
+        <lb ed="#C" n="9"/>quam faciat.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1330">
+        Ad 4. dicendum, quod 
+        <lb ed="#C" n="10"/>omnia sunt valde bona ratione ordinis; 
+        <lb ed="#C" n="11"/>attamen idae partes universi meliorari 
+        <lb ed="#C" n="12"/>possunt, &amp; si meliorarentur, universum 
+        <lb ed="#C" n="13"/>esset melius.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1341">
+        Ad 5. dicendum, quod in 
+        <lb ed="#C" n="14"/>universo est aliquid malum: attamen 
+        <lb ed="#C" n="15"/>hujusmodi malum non per omnem 
+        <lb ed="#C" n="16"/>modum estugit ordinem Divinae provi 
+        <lb ed="#C" n="17"/>dentiae, propter quod bene dictum est, 
+        <lb ed="#C" n="18"/>quod in universo nihil est inordinatum, 
+        <lb ed="#C" n="19"/>ped propter hoc non habetur, quod 
+        uni<lb ed="#C" n="20" break="no"/>versum meliorari non possit: quia licet 
+        <lb ed="#C" n="21"/>ordo universi se extendat ad omnia, &amp; 
+        <lb ed="#C" n="22"/>quodlibet ordinatum sit; possent tamen 
+        <lb ed="#C" n="23"/>partes universi meliorari, &amp; sic 
+        univer<lb ed="#C" n="24" break="no"/>sum esset melius. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1368">
+                  <lb ed="#C" n="25"/>Ad argumenta in contrarium 
+        dicen<lb ed="#C" n="26" break="no"/>dum, quod si omnes partes universi 
+        es<lb ed="#C" n="27" break="no"/>sent aequales, quantumcumque essent 
+        <lb ed="#C" n="28"/>nobiles, &amp; si in universo nihil mali 
+        es<lb ed="#C" n="29" break="no"/>set, universum non esset inde nobilius: 
+        <lb ed="#C" n="30"/>quia mala, &amp; inaequalitas partium 
+        fa<lb ed="#C" n="31" break="no"/>ciunt ad decorem universi. 
+        <lb ed="#C" n="32"/>Vtrum Deus totum universum potuerit faceret 
+        <lb ed="#C" n="33"/>melius? Vbi nona quod cum melius praesup. 
+        <lb ed="#C" n="34"/>ponat bonum. Sciendum quod bonum in 
+        or<lb ed="#C" n="35" break="no"/>dine consistit:q ia post bonum ducis est 
+        bo<lb ed="#C" n="36" break="no"/>num ordinis primum bonum Bonum 
+        au<lb ed="#C" n="37" break="no"/>tem ordinis dupliciter accipitur, in se, vel  
+        <lb ed="#C" n="38"/>quoad ordinata. Quoad ordinata 
+        univer<lb ed="#C" n="39" break="no"/>sum meliorari potest inter sive, &amp; 
+        exten<lb ed="#C" n="40" break="no"/>sive. Extensive quidem, quia potuit, &amp; 
+        po<lb ed="#C" n="41" break="no"/>dest multa genera creaturarum in 
+        umver<lb ed="#C" n="42" break="no"/>so facere, quae non fecit, &amp; multi gradus 
+        <lb ed="#C" n="43"/>entis in unmaverso esse potuerunt, qui non 
+        <lb ed="#C" n="44"/>sunt. Intensive etiam, primo 
+        accidentali<lb ed="#C" n="45" break="no"/>ter: quia talis melioratio non reque reret 
+        <lb ed="#C" n="46"/>alias partes universi: substant aliter, quomam 
+        <lb ed="#C" n="47"/>si pro quolibet gradu universi faceret alium 
+        <lb ed="#C" n="48"/>gradum altiorem. De bono autem ordinis 
+        <lb ed="#C" n="49"/>in se dicendum quod non potest 
+        meliora<lb ed="#C" n="50" break="no"/>ri. Non quidem extensive: quia tunc 
+        ali<lb ed="#C" n="51" break="no"/>quae partes universi carus ssent, vel carerent 
+        <lb ed="#C" n="52"/>ordine, quod esse non potest. Nec 
+        intensi<lb ed="#C" n="53" break="no"/>ve: quia quantumcumque partes. fierent 
+        <lb ed="#C" n="54"/>meliores, proportio earum, quae 
+        principa<lb ed="#C" n="55" break="no"/>lior. Verumt amen bonum tunc esset melius 
+        <lb ed="#C" n="56"/>quod resultat ex proportione; sed illud no 
+        <lb ed="#C" n="57"/>principaliter consideratur in ordine. Par 
+        <lb ed="#C" n="58"/>tes autem universi quoad finem ultimum 
+        <lb ed="#C" n="59"/>meliorari non possunt, sed bene quoad 
+        <lb ed="#C" n="60"/>proximum.
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g11150-Dd1e1451">
+               <head xml:id="Gi9qrR-g11150-Hd1e1453">Articulus 3</head>
+               <p xml:id="Gi9qrR-g11150-d1e1456">
+        <!--839.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="61"/>ARTICVLVS III. 
+        <lb ed="#C" n="62"/>Vtrum sit aliqua creatura, quanihil me¬ 
+        <lb ed="#C" n="63"/>lius esse possit? 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1469">
+                  <lb ed="#C" n="64"/>TERtio quaeritur de quibusdam 
+        crea<lb ed="#C" n="65" break="no"/>turis excellentibus, utrum potuerit 
+        <lb ed="#C" n="66"/>eas Deus facere meliores? Et videtur,  
+        <lb ed="#C" n="67"/>quod humana natura in Christo nihil 
+        <lb ed="#C" n="68"/>possit esse melius: quia tanta fuit illa 
+        u<lb ed="#C" n="69" break="no"/>nio, ut Deum faceret hominem, &amp; 
+        ho<lb ed="#C" n="70" break="no"/>minem Deum. Sed cum Deus sit quo 
+        <lb ed="#C" n="71"/>maius excogitari non potest secundum 
+        <lb ed="#C" n="72"/>Anselmum in Prosol. Humanitate 
+        <lb ed="#C" n="73"/>Christi, quae Deo est unita, nihil potest 
+        <lb ed="#C" n="74"/>esse melius.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1495">
+        Praeterea: videtur, quod gra¬ 
+        <lb ed="#C" n="75"/>tia Christi nihil sit melius: quia bono 
+        <lb ed="#C" n="76"/>infinito nihil est melius; sed gratia 
+        Chri<lb ed="#C" n="77" break="no"/>sti est bonum infinitum, cum ei fuerit 
+        <lb ed="#C" n="78"/>datus spiritus non ad mensuram, ergo 
+        <lb ed="#C" n="79"/>aliqua creatura est, qua nihil melius esse 
+        u<lb ed="#C" n="80" break="no"/>potest.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1511">
+        Praeterea: videtur, quod Beata 
+        <lb ed="#C" n="81"/>Virgine nihil melius esse possit: quia 
+        se<lb ed="#C" n="82" break="no"/>cundum Anselm. 18. de Conceptu 
+        vir<lb ed="#C" n="83" break="no"/>ginali. Decebat, ut illius hominis conceptio 
+        <lb ed="#C" n="84"/>de matre alijs purissima fieret: nepe decenserat, 
+        <lb ed="#C" n="85"/>ut ea puritate, qua maior sub Deo niquit  
+        <lb ed="#C" n="86"/>intelligi, illa niteret.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1528">
+        Praeterea: videtur  
+        <lb ed="#C" n="87"/>quod beasitudine nihil possit esse 
+        me<lb ed="#C" n="88" break="no"/>lius: quia secundum <name xml:id="Gi9qrR-g11150-Nd1e1534" ref="#Boethius">Boetium,</name> Beatitudo 
+        <lb ed="#C" n="89"/>est status omnium bonorum aggregatione 
+        per<lb ed="#C" n="90" break="no"/>fectus, sed nihil potest esse melius omni 
+        <lb ed="#C" n="91"/>bono, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1545">
+                  <lb ed="#C" n="92"/>In contrarium est: quia cum 
+        quae<lb ed="#C" n="93" break="no"/>libet creatura sit certis limitibus 
+        circun<lb ed="#C" n="94" break="no"/>scripta, quodlibet bonum creatum est 
+        <lb ed="#C" n="95"/>finitum bonum, sed cuilibet finito 
+        bo<lb ed="#C" n="96" break="no"/>no potest fieri additio, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1558">
+                  <lb ed="#C" n="97"/>RESOLVTIO. 
+        <lb ed="#C" n="98"/>Creatura, quam creatura est, simpliciter 
+        lo<lb ed="#C" n="99" break="no"/>quendo, ab omnimoda perfectione deficit, &amp; 
+        <lb ed="#C" n="100"/>ea esse aliquid melius potest: etsi habeat  
+        <lb ed="#C" n="101"/>erordinem ad infinitum bonum rationem 
+        <lb ed="#C" n="102"/>aliquam infinitatis, secundum quam 
+        <lb ed="#C" n="103"/>nihil melius esse 
+        <lb ed="#C" n="104"/>possit. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1578">
+                  <lb ed="#C" n="105"/>REspond. dicendum, quod omnia 
+        <lb ed="#C" n="106"/>Dentia quodam modo clauduntur 
+        <lb ed="#C" n="107"/>inter duos terminos, quorum unus est 
+        <lb ed="#C" n="108"/>supremus, ultra quem non licet 
+        ascen<lb ed="#C" n="109" break="no"/>dere: alius est infimus, infra quem non 
+        <lb ed="#C" n="110"/>potest esse progressus. Isti duo termini 
+        <!--840.xml-->
+        <pb ed="#C" n="815"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>non sunt ejusdem generis. Nam termi 
+        <lb ed="#C" n="2"/>nus supremus est actus purus, &amp; est quid 
+        <lb ed="#C" n="3"/>increatum, videlicet Deus ipse. Termi 
+        <lb ed="#C" n="4"/>nus infimus est potentia pura, &amp; est quid 
+        <lb ed="#C" n="5"/>creatum, quia materia prima: igitur in 
+        <lb ed="#C" n="6"/>descendendo invenimus statum in 
+        re<lb ed="#C" n="7" break="no"/>bus creatis. Nam materia prima 
+        ordi<lb ed="#C" n="8" break="no"/>ne naturae nihil vilius esse potest: est 
+        <lb ed="#C" n="9"/>enim prope nihil secundum <name xml:id="Gi9qrR-g11150-Nd1e1619" ref="#Augustine">Aug.</name> &amp; 
+        se<lb ed="#C" n="10" break="no"/>cundum Commen. in 1. Physicorum n 
+        <lb ed="#C" n="11"/>est medium inter ens &amp; nihil. Adeo 
+        au<lb ed="#C" n="12" break="no"/>tem infime rationem entitatis partici 
+        <lb ed="#C" n="13"/>pat, quia si minus participaret, non 
+        con<lb ed="#C" n="14" break="no"/>stitueret gradum entis, sed esset pure 
+        ni<lb ed="#C" n="15" break="no"/>hil. In ascensu autem non invenimus 
+        <lb ed="#C" n="16"/>terminum in genere creatorum: nam nihi 
+        <lb ed="#C" n="17"/>creatum potest esse actus purus, nam si esset 
+        <lb ed="#C" n="18"/>actus purus; esset ipsum esse, &amp; non par 
+        <lb ed="#C" n="19"/>ticiparet esse: &amp; si non participaret esse 
+        <lb ed="#C" n="20"/>non haberet esse ab alio, propter quod 
+        <lb ed="#C" n="21"/>non esset quid creatum. Est ergo aliqua 
+        <lb ed="#C" n="22"/>creatura, in se considerata ordine 
+        natu<lb ed="#C" n="23" break="no"/>rae, ita infima, qua non potest esse 
+        infe<lb ed="#C" n="24" break="no"/>rior, cum in descendendo sit dare statum 
+        <lb ed="#C" n="25"/>in creaturis: nulla tamen ita est 
+        supre<lb ed="#C" n="26" break="no"/>ma, qua non possit esse superior: quia 
+        <lb ed="#C" n="27"/>In ascensu non est status in rebus 
+        crea<lb ed="#C" n="28" break="no"/>tis, sed in Creatore: Est enim hic 
+        ordo<lb ed="#C" n="29" break="no"/>quod materia prima est potentia puras 
+        <lb ed="#C" n="30"/>Deus vero est actus purus; omnia autem 
+        <lb ed="#C" n="31"/>intermedia sunt actus admixtus 
+        poten<lb ed="#C" n="32" break="no"/>tiae, &amp; potentia admixta actui: 
+        Simpli<lb ed="#C" n="33" break="no"/>citer ergo loquendo, solus Deus est ita 
+        <lb ed="#C" n="34"/>bonus, qu melius excogitati sion 
+        po<lb ed="#C" n="35" break="no"/>test; omnis autem creatura, ut creatura 
+        <lb ed="#C" n="36"/>est, simpliciter loquendo, ab omnimoda 
+        <lb ed="#C" n="37"/>perfectione deficit, &amp; ea aliquid esse 
+        <lb ed="#C" n="38"/>melius potest. Advertendum tamen 
+        <lb ed="#C" n="39"/>propter argumenta quod s sicut 
+        com<lb ed="#C" n="40" break="no"/>muniter dicitur) licet quaelibet creatura 
+        <lb ed="#C" n="41"/>simpliciter sit bonum finitum, habet 
+        ta<lb ed="#C" n="42" break="no"/>men quamdam rationem infiniti, secun 
+        <lb ed="#C" n="43"/>dum quod habet quemdam ordinem 
+        <lb ed="#C" n="44"/>ad infinitum bonum. Huiusmodi autem 
+        <lb ed="#C" n="45"/>ordo non est uniformis: quia aliquando 
+        <lb ed="#C" n="46"/>sumitur solum secundum respectum, &amp; 
+        <lb ed="#C" n="47"/>sic beataVirgo habet quamdam rationem 
+        <lb ed="#C" n="48"/>infinitatis, inquantum fuit mater Dei: 
+        <lb ed="#C" n="49"/>&amp; universum est quoddam infinitum 
+        <lb ed="#C" n="50"/>inquantum ordinatur ad infinitum 
+        bo<lb ed="#C" n="51" break="no"/>num: &amp; gratia habet quamdam rationem 
+        <lb ed="#C" n="52"/>infinitatis, inquantum conjungit nos bo 
+        <lb ed="#C" n="53"/>no infinito: &amp; multa talia exempla 
+        ad<lb ed="#C" n="54" break="no"/>ducere possumus ad ostendendum, quod 
+        <lb ed="#C" n="55"/>non est contra rationem creaturae 
+        ali<lb ed="#C" n="56" break="no"/>quo modo habere quamdam rationem 
+        <!--840.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>infinitatis. Aliquando autem sumitur  
+        <lb ed="#C" n="58"/>per comparationem ad esse, secundum 
+        <lb ed="#C" n="59"/>quem modum humana natura est unita 
+        <lb ed="#C" n="60"/>infinito bono: quia fuit assumpta 
+        <lb ed="#C" n="61"/>ad esse personale Verbi, &amp; ut non 
+        face<lb ed="#C" n="62" break="no"/>ret per se personam, sed substantificare: 
+        <lb ed="#C" n="63"/>ur in hypostasi Verbi: Quando autem 
+        <lb ed="#C" n="64"/>quiusmodi infinitas sumitur per 
+        respe<lb ed="#C" n="65" break="no"/>ctum, tunc absolute de talibus non 
+        pos<lb ed="#C" n="66" break="no"/>umus proferre sententiam. Vnde non 
+        <lb ed="#C" n="67"/>est simpliciter dicendum, quod Beata 
+        <lb ed="#C" n="68"/>Virgine nihil possit esse melius, vel  
+        <lb ed="#C" n="69"/>quod universo, &amp; gratia nihil melius 
+        <lb ed="#C" n="70"/>esse possit; sed per quemdam respectum, &amp; 
+        <lb ed="#C" n="71"/>ut talia infinita sunt, haec de ipsis 
+        pro<lb ed="#C" n="72" break="no"/>nuntiari possunt. Habet enim quamdam 
+        <lb ed="#C" n="73"/>rationem infinitatis Beata Virgo, ut est 
+        <lb ed="#C" n="74"/>Mater Dei: universum, ut ordinatur ad 
+        <lb ed="#C" n="75"/>Deum: gratia ut conjungit nos ipsi: &amp; 
+        <lb ed="#C" n="76"/>quia sicut sunt infinita bona, sic eis 
+        me<lb ed="#C" n="77" break="no"/>ius nihil esse potest: ideo dicere 
+        possu<lb ed="#C" n="78" break="no"/>mus, quod Beata Virgo non potuit esse 
+        <lb ed="#C" n="79"/>melioris Mater: quod universum non 
+        <lb ed="#C" n="80"/>potest ordinari ad melius: quod gratia 
+        <lb ed="#C" n="81"/>non potest consungere meliori: sed 
+        Chri<lb ed="#C" n="82" break="no"/>stus homo est infinitum bonum 
+        secun<lb ed="#C" n="83" break="no"/>dum quamdam comparationem 
+        simpli<lb ed="#C" n="84" break="no"/>citer, inquantum est idem esse 
+        persona<lb ed="#C" n="85" break="no"/>le, &amp; eadem Persona Filij Dei &amp; illius 
+        <lb ed="#C" n="86"/>hominis. Vnde quodam modo 
+        simpli<lb ed="#C" n="87" break="no"/>citer concedere possumus, Christo 
+        ho<lb ed="#C" n="88" break="no"/>mine nihil posse esse melius; 
+        liumanita<lb ed="#C" n="89" break="no"/>te tamen Christi aliquo modo, ut 
+        in<lb ed="#C" n="90" break="no"/>quantum est quaedam creatura, aliquid  
+        <lb ed="#C" n="91"/>melius esse potest. 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1805">
+                  <lb ed="#C" n="92"/>Respond ad arg. Ad 1. dicendum 
+        <lb ed="#C" n="93"/>quod licet humana natura in Christo 
+        <lb ed="#C" n="94"/>substantificetur in Persona Verbi, tamen 
+        <lb ed="#C" n="95"/>hujusmodi natura a Divina natura est 
+        <lb ed="#C" n="96"/>distans in infinitum: propter quod ea, 
+        <lb ed="#C" n="97"/>inquantum quaedam creatura est, 
+        ali<lb ed="#C" n="98" break="no"/>quid melius esse potest.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1823">
+        Ad 2. dicendum 
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1827">
+                  <lb ed="#C" n="99"/>Quod gratia Christi non fuit infinita sim 
+        <lb ed="#C" n="100"/>pliciter, quia determinata erat ad 
+        ali<lb ed="#C" n="101" break="no"/>quod genus etis; aliquo tamem modo in 
+        <lb ed="#C" n="102"/>pfinita etat: quia quodam modo dici pote 
+        <lb ed="#C" n="103"/>rat infinita gratia, prout aliqualiter in 
+        <lb ed="#C" n="104"/>ea reservabatur onis ratio gratiae: und 
+        <lb ed="#C" n="105"/>datus fuit ei spiritus non ad mensura 
+        <lb ed="#C" n="106"/>aliorum hominum: non quia gratia 
+        <lb ed="#C" n="107"/>illa simpliciter non esset quid infinitum, 
+        <lb ed="#C" n="108"/>sed quia habebat quemdam modum 
+        infi<lb ed="#C" n="109" break="no"/>nitatis: Ad 3. dicendum, quod Beata 
+        <lb ed="#C" n="110"/>Virgo fuit purissima, non quia esset 
+        <lb ed="#C" n="111"/>actus purus, vel quia esset ipsum esse, 
+        <lb ed="#C" n="112"/>propter quod ei competeret omnis ra¬ 
+        <!--841.xml-->
+        <pb ed="#C" n="816"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tio essendi &amp; omnis ratio bonitatis: sed 
+        <lb ed="#C" n="2"/>erat purissima, quia erat munda ab om 
+        <lb ed="#C" n="3"/>ni contagione peccati.
+      </p>
+               <p xml:id="Gi9qrR-g11150-d1e1873">
+        Ad 4. dicendum, 
+        <lb ed="#C" n="4"/>quod beatitudo est quodam modo 
+        infi<lb ed="#C" n="5" break="no"/>nitum bonum, quia conjungit nos illi 
+        <lb ed="#C" n="6"/>bono, in quo est omne oonum. 
+        Simpli<lb ed="#C" n="7" break="no"/>citer tamen in se considerata, ut est 
+        <lb ed="#C" n="8"/>quid creatum, non est infinitum bonum: 
+        <lb ed="#C" n="9"/>unde unus homo est beatior alio, &amp; 
+        <lb ed="#C" n="10"/>beatitudo unius est maior beatitudine 
+        <lb ed="#C" n="11"/>alterius. Vel dicere possumus, quod 
+        sta<lb ed="#C" n="12" break="no"/>tus omnium bonorum aggregatione 
+        <lb ed="#C" n="13"/>perfectus per se &amp; essentialiter convenit. 
+        <lb ed="#C" n="14"/>beatitudini increatae: alijs vero 
+        beati<lb ed="#C" n="15" break="no"/>tudinibus convenit per 
+        participatio<lb ed="#C" n="16" break="no"/>nem quamdam.  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="84"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e22338"><!-- l1-d3p2q1 -->
+            <head xml:id="Gi9qrR-e22338-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e22338-d1e111">
+      <!--121.xml-->
+               <pb ed="#C" n="84"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>QVAESTIO I. 
+      <lb ed="#C" n="2"/>De imagine. 
+    </p>
+            <p xml:id="Gi9qrR-e22338-d1e124">
+               <lb ed="#C" n="3"/>HIC quaeruntur tria: primo de his, 
+      <lb ed="#C" n="4"/>TIin quibus reperitur imago. 
+      Secun<lb ed="#C" n="5" break="no"/>do de partibus imaginis. Tertio de 
+      re<lb ed="#C" n="6" break="no"/>praesentatione Trinitatis per imaginem 
+      <lb ed="#C" n="7"/>in nobis. Circa primum in praesenti 
+      quae<lb ed="#C" n="8" break="no"/>stione. 
+    </p>
+            <div xml:id="Gi9qrR-e22338-Dd1e140">
+               <head xml:id="Gi9qrR-e22338-Hd1e142">Articulus 1</head>
+               <p xml:id="Gi9qrR-e22338-d1e145">
+                  <lb ed="#C" n="9"/>ARTICVLVS VNICVS 
+        <lb ed="#C" n="10"/>In quo reperitur imago?
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e152">
+                  <lb ed="#C" n="11"/>D primum sic proceditur: videtur  
+        <lb ed="#C" n="12"/>quod in Angelo non reperiatur  
+        <lb ed="#C" n="13"/>imago: quia imago expresse 
+        repraesen<lb ed="#C" n="14" break="no"/>tat id, cuius est imago; Angelus autem 
+        <lb ed="#C" n="15"/>cum sit creatura, non potest expresse 
+        <lb ed="#C" n="16"/>repraesentare Deum, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e168">
+        Praeterea: 
+        <lb ed="#C" n="17"/>imago sumitur ex eo, quod unum est 
+        <lb ed="#C" n="18"/>expressivum alterius, &amp; originatur ab alio 
+        <lb ed="#C" n="19"/>per modum naturae; sed omnia creata 
+        <lb ed="#C" n="20"/>processerunt a Primo per modum 
+        vo<lb ed="#C" n="21" break="no"/>luntatis: comparantur enim ad ipsum, ut  
+        <lb ed="#C" n="22"/>artificiata ad artem, ergo in nullo 
+        tali<lb ed="#C" n="23" break="no"/>reperitur imago, Angelus est 
+        huiusmo<lb ed="#C" n="24" break="no"/>di, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e188">
+        Praeterea: in Trinitate 
+        in<lb ed="#C" n="25" break="no"/>creata una Persona procedit ex altera 
+        <lb ed="#C" n="26"/>sed unus Angelus non procedit ex 
+        alte<lb ed="#C" n="27" break="no"/>ro, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e198">
+                  <lb ed="#C" n="28"/>In contrarium est: quia ut scribitur in 
+        <lb ed="#C" n="29"/>princ. 15. de Trin. imago est in eo, 
+        in<lb ed="#C" n="30" break="no"/>quo homo excellit pecus, sed hoc est in 
+        <lb ed="#C" n="31"/>eo, inquo attingit Angelos, ergo in eis 
+        <lb ed="#C" n="32"/>multo fortius invenitur imago. 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e211">
+                  <lb ed="#C" n="33"/>Vlterius videtur, quod in homine non 
+        <lb ed="#C" n="34"/>sit imago: quia imago potissime habet  
+        <lb ed="#C" n="35"/>esse in creatura intellectuali; homo autem 
+        <lb ed="#C" n="36"/>secundum Dionys. de Div. nom. est 
+        ra<lb ed="#C" n="37" break="no"/>tionalis, ergo &amp;c. In contrarium est 
+        <lb ed="#C" n="38"/>Aug. in Sermone de imagine, qui ponit 
+        <lb ed="#C" n="39"/>hominem esse imaginem Dei. 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e229">
+                  <lb ed="#C" n="40"/>Vlterius videtur, quod in muliere non 
+        <lb ed="#C" n="41"/>sit imago Dei: quia secundum <ref xml:id="Gi9qrR-e22338-Rd1e235">Apost. 1. 
+          <lb ed="#C" n="42"/>ad Corinth. 12.</ref> Vir est imago Dei, mulier 
+        <lb ed="#C" n="43"/>autem viri, ergo &amp;c. In contrarium est quod 
+        <lb ed="#C" n="44"/>dicitur <ref xml:id="Gi9qrR-e22338-Rd1e245">12. de Trin. cap. 7.</ref> Ad imaginem Dei 
+        <lb ed="#C" n="45"/>quip pe naturam ipsam humanam factam dicit,  
+        <lb ed="#C" n="46"/>scilicet Cenesis, quae sexu vtroque completur¬  
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e253">
+        <!--121.xml-->
+                  <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="47"/>RESOLVTIO. 
+        <lb ed="#C" n="48"/>Imago Dei in Angelo, &amp; homine reperitur; 
+        <lb ed="#C" n="49"/>magis tamen simpliciter in Angelo, 
+        <lb ed="#C" n="50"/>quam in homine. 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e269">
+                  <lb ed="#C" n="51"/>RESpondeo dicendum, quod imago 
+        <lb ed="#C" n="52"/>Din hoc distat a vestigio: quia 
+        vesti<lb ed="#C" n="53" break="no"/>gium representat id, cuius est quantum 
+        <lb ed="#C" n="54"/>ad communia, sed imago repraesentat 
+        <lb ed="#C" n="55"/>etiam quantum ad personalia: nam 
+        Her<lb ed="#C" n="56" break="no"/>cules per vestigium eius non 
+        cognosci<lb ed="#C" n="57" break="no"/>tur, nisi quia homo; sed per imaginem 
+        <lb ed="#C" n="58"/>cognoscitur secundum quod talis 
+        per<lb ed="#C" n="59" break="no"/>sona, &amp; secundum istum modum 
+        re<lb ed="#C" n="60" break="no"/>praesentatur vestigium Trinitatis in 
+        crea<lb ed="#C" n="61" break="no"/>turis, quando per communia declaratur 
+        <lb ed="#C" n="62"/>Trinitas: sed tunc repraesentatur imago 
+        <lb ed="#C" n="63"/>Trinitatis in creaturis, quando per 
+        pro<lb ed="#C" n="64" break="no"/>pria, ut per personalia designantur tres 
+        <lb ed="#C" n="65"/>Personae. 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e304">
+                  <lb ed="#C" n="66"/>Personae autem Divine per originem 
+        <lb ed="#C" n="67"/>distinguuntur, vel per relationes originis: 
+        <lb ed="#C" n="68"/>unde, &amp; Damas. 1. lib. cap. 2. ait: 
+        Confi<lb ed="#C" n="69" break="no"/>temur, quod Pater, &amp; Filius, &amp; Spiritus 
+        San<lb ed="#C" n="70" break="no"/>ctus omnino unum sint excepta ingeniti, &amp; 
+        ge<lb ed="#C" n="71" break="no"/>nerationis, &amp; processionis proprietate. Et ideo 
+        <lb ed="#C" n="72"/>si volumus accipere personalia, per actus 
+        <lb ed="#C" n="73"/>notionales, oportet nos accipere ea: ac 
+        <lb ed="#C" n="74"/>tus autem notionales radicaliter sunt ex 
+        <lb ed="#C" n="75"/>actibus ad se conversivis, &amp; ideo 
+        dici<lb ed="#C" n="76" break="no"/>mus, quod Pater intelligendo se generat 
+        <lb ed="#C" n="77"/>Verbum, in quo se intelligit: &amp; Pater &amp; 
+        <lb ed="#C" n="78"/>cilius spirant Spiritum Sanctum, quo se 
+        di<lb ed="#C" n="79" break="no"/>ligunt: converti autem ad se ipsum non 
+        <lb ed="#C" n="80"/>competit alicui corpori:ut Proclus 
+        pro<lb ed="#C" n="81" break="no"/>bat. Sola autem natura intellectualis est, 
+        <lb ed="#C" n="82"/>illa, quae est ad se conversiva: propter 
+        <lb ed="#C" n="83"/>quod &amp; Plato assimilavit intellectum 
+        <lb ed="#C" n="84"/>circulo, non sensum: solum igitur illuo 
+        <lb ed="#C" n="85"/>erit imago Trinitatis, quod habet 
+        ope<lb ed="#C" n="86" break="no"/>rationem supra se conversivam: cum 
+        so<lb ed="#C" n="87" break="no"/>lum tale possit repraesentare Trinitatem 
+        <lb ed="#C" n="88"/>quantum ad personalia, huiusmodi 
+        au<lb ed="#C" n="89" break="no"/>tem est natura intellectiva, solum igitur 
+        <lb ed="#C" n="90"/>intellectivum erit imago Dei: unde 
+        Da<lb ed="#C" n="91" break="no"/>mas. lib. 3. cap. 14. Quid est enim 
+        secun<lb ed="#C" n="92" break="no"/>dum imaginem nisi intellectus? Quasi dicens 
+        <lb ed="#C" n="93"/>nihil. 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e368">
+                  <lb ed="#C" n="94"/>Intellectivum autem tripliciter potest 
+        su<lb ed="#C" n="95" break="no"/>mi: quia ex hoc aliquid est intellectivus, 
+        <lb ed="#C" n="96"/>ex eo quod habet actionem suam 
+        cor<lb ed="#C" n="97" break="no"/>pori non communicatam: unde &amp; in 3. 
+        <lb ed="#C" n="98"/>de Ani. intellectus describitur, simplex,  
+        <lb ed="#C" n="99"/>immaterialis, non corpus, nec virtus 
+        <lb ed="#C" n="100"/>in corpore. Huiusmodi autem actionem 
+        <!--122.xml-->
+        <pb ed="#C" n="85"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>habere, est tripliciter. 1. quod nec per se, 
+        <lb ed="#C" n="2"/>nec periaccidens communicet actionem, 
+        <lb ed="#C" n="3"/>talem corpori, &amp; huiusmodi intellectualis 
+        <lb ed="#C" n="4"/>Angelus est. 2. quod huiusmodi 
+        actio<lb ed="#C" n="5" break="no"/>nem non communicet per se, sed 
+        pe<lb ed="#C" n="6" break="no"/>accidens, &amp; huiusmodi intellectualis est 
+        <lb ed="#C" n="7"/>homo, qui non intelligit sine phatasmate, 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e407">
+                  <lb ed="#C" n="8"/>3. modo potest dici tale, si in aliquo 
+        <lb ed="#C" n="9"/>communicet tali actionem sic, &amp; 
+        phanta<lb ed="#C" n="10" break="no"/>sia dicitur intellectualis: quia 
+        communi<lb ed="#C" n="11" break="no"/>cat aliquo modo in actione intellectus, 
+        <lb ed="#C" n="12"/>&amp; huismodi intellectuale est solum per 
+        <lb ed="#C" n="13"/>accidens. Et ex hoc apparet, quod inte 
+        <lb ed="#C" n="14"/>creaturas magis reperitur imago Dei in 
+        <lb ed="#C" n="15"/>Angelo, quia maxime intellectualis: post 
+        <lb ed="#C" n="16"/>Angelum autem homo quantum ad sus 
+        <lb ed="#C" n="17"/>intellectivum dicitur imago. In 
+        sensu<lb ed="#C" n="18" break="no"/>autem humano non reperitur imago, ni 
+        <lb ed="#C" n="19"/>si valde extense accipiatur imago: quia 
+        <lb ed="#C" n="20"/>proprie non competit ei actus intellec 
+        <lb ed="#C" n="21"/>tus. In irrationalibus autem nullo modo 
+        <lb ed="#C" n="22"/>reperitur imago, nisi forte secundum 
+        <lb ed="#C" n="23"/>aliqua accidentia imaginis: quia non 
+        con<lb ed="#C" n="24" break="no"/>municant actionibus intellectus. 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e446">
+                  <lb ed="#C" n="25"/>Respondeo ad arg. Ad 1. ddm. quod 
+        <lb ed="#C" n="26"/>illud expresse reprae sentare non debet 
+        <lb ed="#C" n="27"/>sumi simpliciter, sed in genere: unde suf 
+        <lb ed="#C" n="28"/>ficit, quod expresse repraesentet secun 
+        <lb ed="#C" n="29"/>dum modum possibilem creaturae.
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e459">
+        Ad 2 
+        <lb ed="#C" n="30"/>dicendum, quod bene arguitur, quod 
+        <lb ed="#C" n="31"/>Angelus non sit ita imago Dei, sicut 
+        Fi<lb ed="#C" n="32" break="no"/>lius Patris: sed ratio non arguit, quod  
+        <lb ed="#C" n="33"/>nullo modo sit imago.
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e470">
+        Ad 3. dicendum, 
+        <lb ed="#C" n="34"/>quod repraesentare Trinitatem secundu 
+        <lb ed="#C" n="35"/>quod una Persona oritur ab alia, est 
+        <lb ed="#C" n="36"/>per accidens ad imaginem, ut 
+        appa<lb ed="#C" n="37" break="no"/>rebit.  
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e481">
+                  <lb ed="#C" n="38"/>Ad illud quod querebatur ulteriu, 
+        <lb ed="#C" n="39"/>utrum in homine esset imago? Patet 
+        <lb ed="#C" n="40"/>quod sic. Et quando arguitur quod 
+        ho<lb ed="#C" n="41" break="no"/>mo non est intellectualis, sed rationalis: 
+        <lb ed="#C" n="42"/>non arguitur, quod nullo modo sit 
+        ima<lb ed="#C" n="43" break="no"/>go, sed quod non est imago, sicut 
+        An<lb ed="#C" n="44" break="no"/>gelus: nam esse rationale non tollit per 
+        <lb ed="#C" n="45"/>omnem modum esse intellectuale. Ad 
+        <lb ed="#C" n="46"/>vertendum tamen, quod licet Angelus 
+        <lb ed="#C" n="47"/>per se magis sit imago Trinitatis, quam 
+        <lb ed="#C" n="48"/>homo: homo tamen quantum ad aliqua 
+        <lb ed="#C" n="49"/>est magis, quam Angelus. Nam anima 
+        <lb ed="#C" n="50"/>humana est tota in toto corpore, &amp; tota 
+        <lb ed="#C" n="51"/>inqualibet parte, sicut Deus in toto 
+        mun<lb ed="#C" n="52" break="no"/>do: sicut narrat <name xml:id="Gi9qrR-e22338-Nd1e515" ref="#Augustine">Aug.</name> in Sermone de 
+        <lb ed="#C" n="53"/>imagine, hoc autem non convenit 
+        An<lb ed="#C" n="54" break="no"/>gelo. Possemus, si vellemus, assignare 
+        <lb ed="#C" n="55"/>alias adaptationes: quia sicut omnia al 
+        <lb ed="#C" n="56"/>uno Deo, ita omnes homines ab uno 
+        <lb ed="#C" n="57"/>homine; non tamen Angeli omnes al 
+        <lb ed="#C" n="58"/>uno Angelo: &amp; cetera talia quae le¬ 
+        <!--122.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="59"/>ctoris inventioni, &amp; iudicio 
+        relinquan<lb ed="#C" n="60" break="no"/>tur 
+      </p>
+               <p xml:id="Gi9qrR-e22338-d1e542">
+                  <lb ed="#C" n="61"/>Ad illud, quod ulterius quaeritur:  
+        <lb ed="#C" n="62"/>utrum in muliere reperiatur imago? 
+        Pa<lb ed="#C" n="63" break="no"/>tet quod sic. Nam cum non sit 
+        distin<lb ed="#C" n="64" break="no"/>ctio secundum speciem inter virum, &amp; 
+        <lb ed="#C" n="65"/>mulierem, non magis est per se intellec 
+        <lb ed="#C" n="66"/>tualis vir, quam mulier; sed per acciden 
+        <lb ed="#C" n="67"/>potest esse, inquantum omnes homines 
+        <lb ed="#C" n="68"/>processerunt ab uno homine, non at 
+        <lb ed="#C" n="69"/>una muliere. Item mulier facta fuit prop 
+        <lb ed="#C" n="70"/>ter virum, non vir propter mulierem: 
+        si<lb ed="#C" n="71" break="no"/>cut dicimus, quod omnia procedunt a 
+        <lb ed="#C" n="72"/>Deo, &amp; propter Deum sunt; sed ista su 
+        <lb ed="#C" n="73"/>accidentalia imagini: unde &amp; <name xml:id="Gi9qrR-e22338-Nd1e572" ref="#Augustine">Aug.</name> in 
+        <lb ed="#C" n="74"/>lib. de Trin. ostendit, quod non est 
+        <lb ed="#C" n="75"/>distinctio inter virum, &amp; mulierem in 
+        eo<lb ed="#C" n="76" break="no"/>quod sunt ad imaginem. Et per hoc 
+        pa<lb ed="#C" n="77" break="no"/>tet solutio ad obiectionem: quia secun 
+        <lb ed="#C" n="78"/>dum illas conditiones accidentales loqui 
+        <lb ed="#C" n="79"/>tur Apostolus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

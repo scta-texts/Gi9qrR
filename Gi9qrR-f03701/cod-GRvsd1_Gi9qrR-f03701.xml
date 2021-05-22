@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="387"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f03701"><!-- l1-d19p2prooem -->
+            <head xml:id="Gi9qrR-f03701-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-f03701-d1e111">
+      <!--424.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="16"/>DISTIINCTIO XX 
+      <lb ed="#C" n="17"/>PARS SECDNDA. 
+      <lb ed="#C" n="18"/>IN QVAOSTENDITVRPERSONARVMIN MAS¬ 
+      <lb ed="#C" n="19"/>nitudine aequalitas. 
+    </p>
+            <p xml:id="Gi9qrR-f03701-d1e127">
+      <!--424.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="20"/>SED iam nunc &amp;c. Postquam  
+      <lb ed="#C" n="21"/>Magister probavit 
+      aequali<lb ed="#C" n="22" break="no"/>tatem Personarum ex 
+      Divi<lb ed="#C" n="23" break="no"/>na perfectione, hic reddit 
+      <lb ed="#C" n="24"/>ad probandum idem, 
+      remo<lb ed="#C" n="25" break="no"/>vendo a Divinis ea, quae 
+      <lb ed="#C" n="26"/>aequalitatem impediunt. Et  
+      <lb ed="#C" n="27"/>duo facit: quia 1. dicit esse 
+      <lb ed="#C" n="28"/>aequalitatem in Divinis, &amp; quod non sunt duae 
+      <lb ed="#C" n="29"/>vel tres Personae aliquid maius, quam una. 
+      Se<lb ed="#C" n="30" break="no"/>cundo ostendit hoc modo, quo diximus, ibi: Ned 
+      <lb ed="#C" n="31"/>est aliqua. Circa quod duo facit: quia 1. facit 
+      <lb ed="#C" n="32"/>quod dictum est. Secundo dictis suis 
+      adversa<lb ed="#C" n="33" break="no"/>tur, ibi: His videntur. Ea, quae aequalitatem 
+      <lb ed="#C" n="34"/>impediunt, sunt totum &amp; pars: &amp; quia haec 
+      <lb ed="#C" n="35"/>ad 4. genera reducuntur, ideo 4. facit: quia 
+      <lb ed="#C" n="36"/>1. ostendit in Divinis non esse totum integrale. 
+      <lb ed="#C" n="37"/>2. ostendit hoc de toto universali. Tertio de 
+      to<lb ed="#C" n="38" break="no"/>to materiali. Quarto de toto secundum comple 
+      <lb ed="#C" n="39"/>xionem &amp; similitudinem. Secunda ibi: Hic 
+      <lb ed="#C" n="40"/>adiiciendum. Tertia ibi: Notandum etiam. 
+      Quar<lb ed="#C" n="41" break="no"/>ta ibi: Hs quoque addendum. Circa primum duo 
+      <lb ed="#C" n="42"/>facit; secundum quod dupliciter probat, to 
+      <lb ed="#C" n="43"/>tum integrale non esse in Divinis. Prima 
+      ratioi<lb ed="#C" n="44" break="no"/>est haec: quia totum integrale est plusquam 
+      <lb ed="#C" n="45"/>quaelibet eius pars; sed in Trinitate non sunt 
+      <lb ed="#C" n="46"/>aliquid maius tres, quam unus. Secunda talis: 
+      <lb ed="#C" n="47"/>quia in eadem Persona invenimus multas 
+      per<lb ed="#C" n="48" break="no"/>fectiones, ut bonitas, sapientia, &amp; 
+      huiusmo<lb ed="#C" n="49" break="no"/>di, quae in ea non faciunt compositionem prop 
+      <lb ed="#C" n="50"/>ter simplicitatem eius, ergo pluralitas Perso. 
+      <lb ed="#C" n="51"/>narum in Divinis compositionem non faciet 
+      <lb ed="#C" n="52"/>propter simplicitatem naturae Divinae; sed non 
+      <lb ed="#C" n="53"/>est totum integrale absque compositione, 
+      er<lb ed="#C" n="54" break="no"/>go in Deo non est tale totum. Secunda ibi:  
+      <lb ed="#C" n="55"/>llem in eodem. Deinde cum dicit: Hic adijciendum: 
+      <lb ed="#C" n="56"/>ostendit totum universale non esse in Divinis. 
+      <lb ed="#C" n="57"/>Et tria facit: quia 1. ostendit Divinam 
+      essen<lb ed="#C" n="58" break="no"/>tiam non esse genus ad Personas, itaquod 
+      Per<lb ed="#C" n="59" break="no"/>sonae sint species: quia in pluribus speciebus 
+      <!--424.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="60"/>plurificatur genus, ut homo &amp; leo sunt plura 
+      <lb ed="#C" n="61"/>animalia; sed in pluribus Personis non 
+      plurifica<lb ed="#C" n="62" break="no"/>tur essentia. 2. ostedit eam non habere rationem 
+      <lb ed="#C" n="63"/>speciei, itaquod Divinae Personae sunt 
+      particula<lb ed="#C" n="64" break="no"/>ria, &amp; Divina essetia species, quia species etiam in 
+      <lb ed="#C" n="65"/>pluribus particularibus plurificatur: quia Sortes 
+      <lb ed="#C" n="66"/>&amp; Plato sunt plures homines; sed plures 
+      Per<lb ed="#C" n="67" break="no"/>sonae non sunt plures dij. 3. adducit rationem 
+      <lb ed="#C" n="68"/>communem, quae probat Divinam essentiam 
+      <lb ed="#C" n="69"/>non esse speciem, neque genus: quia una 
+      essen<lb ed="#C" n="70" break="no"/>tia non plurificata nec est genus, nec species, 
+      <lb ed="#C" n="71"/>&amp; huiusmodi est Divina essentia: &amp; ista 
+      ratio<lb ed="#C" n="72" break="no"/>in radice non differt a primis. Secunda ibi: Si 
+      <lb ed="#C" n="73"/>vero. Tertia ibi: Alia quoque. Deinde cum 
+      di<lb ed="#C" n="74" break="no"/>cit: Notandum: ostendit Divinam essentiam 
+      <lb ed="#C" n="75"/>non esse totum materiale respectu 
+      Persona<lb ed="#C" n="76" break="no"/>rum, sicut aurum respectu anulorum: quia 
+      <lb ed="#C" n="77"/>in pluribus anulis est plus de auto, quam in 
+      <lb ed="#C" n="78"/>uno; sed in pluribus Personis non est 
+      ma<lb ed="#C" n="79" break="no"/>ior essentia, quam in una. Deinde cum dirit: 
+      <lb ed="#C" n="80"/>His quoque. Ostendit Personas Divinas non uni 
+      <lb ed="#C" n="81"/>ri in essentia tanquam in toto similitudinario, 
+      <lb ed="#C" n="82"/>sicut plures homines sunt eiusdem sexus, vel  
+      <lb ed="#C" n="83"/>giusdem complexionis, non sunt sic plures 
+      Per<lb ed="#C" n="84" break="no"/>sonae eiusdem essentiae: quia plures homines 
+      <lb ed="#C" n="85"/>sunt aliquid maius, quam unus; sed plures 
+      Per<lb ed="#C" n="86" break="no"/>sonae non sunt aliquid maius una. Et duo 
+      fa<lb ed="#C" n="87" break="no"/>cit: quia 1. adducit probationem hanc. 2. in 
+      <lb ed="#C" n="88"/>brevi dicta recolligit, ibi: Ex premissis. 
+    </p>
+            <p xml:id="Gi9qrR-f03701-d1e288">
+               <lb ed="#C" n="89"/>Tunc sequitur illa pars: His videntur. In 
+      <lb ed="#C" n="90"/>qua dictis adversatur. Et duo facit: quia ra 
+      <lb ed="#C" n="91"/>adversatur. 2. solvit, ibi; Hoc autem. Circa 
+      <lb ed="#C" n="92"/>primum duo facit: quia 1. adducit duas 
+      au<lb ed="#C" n="93" break="no"/>ctoritates Damasc. quae adversari videntur.  
+      <lb ed="#C" n="94"/>Prima est, quod Personae differunt numero 
+      <lb ed="#C" n="95"/>non natura, sed sic videntur se habere, quae 
+      <lb ed="#C" n="96"/>uniuntur in toto universali, ergo totum 
+      uni<lb ed="#C" n="97" break="no"/>versale est in Divinis. 2. quia idem Damasc. 
+      <lb ed="#C" n="98"/>plane dicit substantiam habere rationem 
+      com<lb ed="#C" n="99" break="no"/>munis, &amp; hypostasis individui, quod non es¬ 
+      <!--425.xml-->
+      <pb ed="#C" n="388"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>set, nisi esset ibi totum unive sale. Secunda ibi: A 
+      <lb ed="#C" n="2"/>liin un eodem. Deinde cum dicit: Hec autem. 
+      Sol<lb ed="#C" n="3" break="no"/>vit: &amp; duo facit. Primo solvit ad auctoritatem 
+      <lb ed="#C" n="4"/>secundam. Secundo ad primam Secunda ibi:  
+      <lb ed="#C" n="5"/>Quod loannes. Dicit ergo 1. Damasc. dixisse 
+      <lb ed="#C" n="6"/>substantiam habere rationem communis, &amp; 
+      Per<lb ed="#C" n="7" break="no"/>onam particularis propter simifitudinem 
+      ali<lb ed="#C" n="8" break="no"/>quam: &amp; quia ibi est maior diffimilitudo, quam 
+      <lb ed="#C" n="9"/>similitudo, ideo <name xml:id="Gi9qrR-f03701-Nd1e339" ref="#Augustine">August,</name> hoc negavit. Deinde 
+      <lb ed="#C" n="10"/>cum dicit: Quod loannes. Solvit ad primam 
+      au<lb ed="#C" n="11" break="no"/>ctoritatem. Et duo facit: quia 1. reddit 
+      le<lb ed="#C" n="12" break="no"/>ctorem attentum circa hoc, quod Personae 
+      di<lb ed="#C" n="13" break="no"/>cuntur differre numero. 2. ostendit, quod 
+      <lb ed="#C" n="14"/>difserre numero dicitur multipliciter: nam 
+      <lb ed="#C" n="15"/>Personae differunt numero: quia una alteri 
+      con<lb ed="#C" n="16" break="no"/>numeratur; non differunt numero, quod una 
+      <lb ed="#C" n="17"/>non sit in alia, nec aliquid sit in una, quod sit 
+      <lb ed="#C" n="18"/>in alia. Secunda ibi: Dicunt enim. Deinde cum 
+      <lb ed="#C" n="19"/>dicit: Sciendum. Ostendit veram aequalitatem 
+      <!--425.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="20"/>esse in Divinis propter earum simolicitatem. 
+      <lb ed="#C" n="21"/>Et duo facit: quia 1. facit, quod dictum est. 2. 
+      <lb ed="#C" n="22"/>ostendit, quod propter talem aequalitatem Deus 
+      <lb ed="#C" n="23"/>non dicitur triplex, ibi: Prrpierea. Circa 
+      pri<lb ed="#C" n="24" break="no"/>mum duo facit: quia 1. dicit esse aequalitatem 
+      <lb ed="#C" n="25"/>in Divinis. 2. adducit ad hoc rationem: quia 
+      <lb ed="#C" n="26"/>ibi idem est magnum esse, &amp; esse, quod 
+      ve<lb ed="#C" n="27" break="no"/>rum esse; sed una non est magis quam alia, 
+      <lb ed="#C" n="28"/>nec verius, nec plures, quam una, ergo est 
+      <lb ed="#C" n="29"/>ibi vera aequalitas. Deinde cum dicit: Propterea: 
+      <lb ed="#C" n="30"/>dicit, quod Deus non debet dici triplex. Et  
+      <lb ed="#C" n="31"/>tria facit: quia 1. facit, quod dictum est. 2. 
+      <lb ed="#C" n="32"/>ostendit in rebus corporeis talia inveniri non 
+      <lb ed="#C" n="33"/>posse, quod non sint plus duae, quam una. 
+      <lb ed="#C" n="34"/>3. concludit veram aequalitatem in Divinis 
+      <lb ed="#C" n="35"/>esse. Secunda ibi: In rebus corporeis. Tertia ibi: 
+      <lb ed="#C" n="36"/>Ac per hoc. In quo terminatur sententia 
+      lectio<lb ed="#C" n="37" break="no"/>gnis &amp; distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

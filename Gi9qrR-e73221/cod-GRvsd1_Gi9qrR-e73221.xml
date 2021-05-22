@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes Litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes Litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="272"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e73221"><!-- l1-d14dublit -->
+            <head xml:id="Gi9qrR-e73221-Hd1e108">Dubitationes Litterales</head>
+            <p xml:id="Gi9qrR-e73221-d1e111">
+               <lb ed="#C" n="91"/>DVBITATIONES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-e73221-d1e116">
+               <lb ed="#C" n="92"/>Vper litteram. Super illo 
+      dubita<lb ed="#C" n="93" break="no"/>Stur, quod ait: Quia non divisim 
+      Spi<lb ed="#C" n="94" break="no"/>ritus Sanctus procedit a Patre inFilium, &amp; 
+      aFi<lb ed="#C" n="95" break="no"/>lio in creatura. Cotra: gemina est processio 
+      <lb ed="#C" n="96"/>Spiritus Sancti: ergo ex quo sunt duae 
+      <lb ed="#C" n="97"/>divisim procedit. Dicendum, quod non 
+      <lb ed="#C" n="98"/>sunt simpliciter duae; sed una includit 
+      <lb ed="#C" n="99"/>aliam. Vel dicere possumus, quod per 
+      <lb ed="#C" n="100"/>illa verba non exeluditur processio 
+      tem<lb ed="#C" n="101" break="no"/>poralis, immo utraque innuitur 
+      tempo<lb ed="#C" n="102" break="no"/>ralis &amp; aeterna; sed excluditur 
+      proces<lb ed="#C" n="103" break="no"/>sio Spiritus Sancti esse a Patre in 
+      crea<lb ed="#C" n="104" break="no"/>turam solum mediante Filio: nam 
+      im<lb ed="#C" n="105" break="no"/>mediate ab utroque in creaturam 
+      pro<lb ed="#C" n="106" break="no"/>cedit. 
+    </p>
+            <p xml:id="Gi9qrR-e73221-d1e151">
+               <lb ed="#C" n="107"/>Item super illud: Ipse Spiritus Sanctus 
+      <lb ed="#C" n="108"/>est virtus, quae de ipso exibat. Contra: virtus 
+      <lb ed="#C" n="109"/>appropriatur Filio: quia secundum 
+      <lb ed="#C" n="110"/>Apostolum: Praedicamus Christum D vir¬ 
+      <!--310.xml-->
+      <pb ed="#C" n="273"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>natem, &amp; Dei Sapientiam Dicendum, quod  
+      <lb ed="#C" n="2"/>non est inconveniens secundum aliam, 
+      <lb ed="#C" n="3"/>&amp; aliam rationem idem appropriari 
+      <lb ed="#C" n="4"/>pluribus. Vnde virtus potest 
+      appropria<lb ed="#C" n="5" break="no"/>ri Patri, &amp; Filio, &amp; Spiritui Sancto. 
+      <lb ed="#C" n="6"/>Nam virtus dicitur esse ultimum de 
+      po<lb ed="#C" n="7" break="no"/>tentia, quae agentem perficit &amp; opus 
+      <lb ed="#C" n="8"/>suum bonum reddit, inquantum ponit 
+      <lb ed="#C" n="9"/>potentiam in ultimo, &amp; eam perficit: 
+      <!--310.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="10"/>Appropriatur Patri, cui appropriatur  
+      <lb ed="#C" n="11"/>potentia, inquantum est causa 
+      opera<lb ed="#C" n="12" break="no"/>tionis; &amp; est media inter opus, &amp; agens, 
+      <lb ed="#C" n="13"/>vel est illa, per quam agens operatur.  
+      <lb ed="#C" n="14"/>Appropriatur Filio, qui est media in 
+      <lb ed="#C" n="15"/>Trinitate Persona; &amp; per quam Deus 
+      <lb ed="#C" n="16"/>Pater omnia operatur. Inquantum 
+      <lb ed="#C" n="17"/>opus reddit bonum appropriatur 
+      Spiri<lb ed="#C" n="18" break="no"/>tui Sancto, cui appropriatur bonitas.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

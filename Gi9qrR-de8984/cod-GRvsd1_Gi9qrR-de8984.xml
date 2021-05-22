@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="34"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-de8984"><!-- l1-d1proem -->
+            <head xml:id="Gi9qrR-de8984-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-de8984-d1e111">
+               <lb ed="#C" n="81"/>DISTINCTIO I. 
+               <lb ed="#C" n="82"/>De Mysterio Trinitatis.
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e118">
+               <lb ed="#C" n="83"/>TETERIS, ac nove &amp;c. Finito proemio sequitur  
+      <lb ed="#C" n="84"/>tractatus, in quo Magister duo facit: 1. 
+      praemit<lb ed="#C" n="85" break="no"/>tit: quaedam ad praelibationem eorum, quae 
+      di<lb ed="#C" n="86" break="no"/>cuntur in toto opere: 2. exequitur de intento. 
+      Secun<lb ed="#C" n="87" break="no"/>da ibi hoc itaque &amp;c. in principio secundae distinctionis tria 
+      <lb ed="#C" n="88"/>circa primum facit; quia 1. distingnit libros huius 
+      ope<lb ed="#C" n="89" break="no"/>ris: 2. circa pertacta movet quaestiones:. 3. in summae 
+      <lb ed="#C" n="90"/>recolligit, quae dixerat de librorum distinctione. 
+      Se<lb ed="#C" n="91" break="no"/>cunda ibi: notandum vero. Tertia ibi omnium igitur. Circa 1. 
+      <lb ed="#C" n="92"/>duo acit; quia 1. separat trium materiam lib. a materia 
+      <lb ed="#C" n="93"/>quarti: 2. separat 3. libros primos ad invicem: 
+      secun<lb ed="#C" n="94" break="no"/>da ibi: id ergo in rebus &amp;c. Circa 1. duo facit: 1. ponit vnam 
+      <lb ed="#C" n="95"/>distinctionem: 2. unum membrum illius distinctionis 
+      sub<lb ed="#C" n="96" break="no"/>dividit: Secunda ibi: eorum autem. Circa 1. duo facit: 1. 
+      di<lb ed="#C" n="97" break="no"/>stinctionem ponit: 2. membra manifestat ibi: proprie 
+      au<lb ed="#C" n="98" break="no"/>tem, dicit ergo quod Sacra Pagina versatur circa res, &amp; 
+      <lb ed="#C" n="99"/>signa: quia omnis doctrina circa hoc versatur, 
+      auctori<lb ed="#C" n="100" break="no"/>tate <name xml:id="Gi9qrR-de8984-Nd1e159" ref="#Augustine">Aug.</name> in quo distinguitur quartus, qui est de 
+      sig<lb ed="#C" n="101" break="no"/>nis, a tribus primis, qui sunt de rebus. Deinde cum dicit 
+      <lb ed="#C" n="102"/>proprie autem diffinit quid sit res, &amp; quid signum, &amp; 
+      pa<lb ed="#C" n="103" break="no"/>tet. Tunc sequitur illa pars: eorum autem, in qua 
+      subdi<lb ed="#C" n="104" break="no"/>vidit alterum membrum, &amp; tria facit; 1. ponit 
+      subdi<lb ed="#C" n="105" break="no"/>visionem. 2. comparat rem ad signum, ibi omne igitur. 3. 
+      <lb ed="#C" n="106"/>adaptat distinctionem primam ad propositum, sive ad ordinem 
+      <lb ed="#C" n="107"/>librorum: ibi eum que subdividit 1. illud meibrum 
+      di<lb ed="#C" n="108" break="no"/>visionis, scilicet, signum dicens: quod aliquod signum, 
+      <lb ed="#C" n="109"/>est, quod solum significat, vt Sacramenta legalia: 
+      ali<lb ed="#C" n="110" break="no"/>uod, quod non solum significat, sed etiam confert, ut  
+      <lb ed="#C" n="111"/>paeramenta Evangelica, in quo ostendit de quibus 
+      sig<lb ed="#C" n="112" break="no"/>nis determinatur in 4. quia de conferentibus 
+      orincipali<lb ed="#C" n="113" break="no"/>ter. Deinde cum dicit omne igitur, comparat signum ad 
+      <lb ed="#C" n="114"/>rem, ostendens quod omne signum est res &amp;quia si non 
+      <lb ed="#C" n="115"/>sset res, esset nihil: &amp; ita nihil significaret, neque esset 
+      <lb ed="#C" n="116"/>signum; sed non econverso, omnis res est signam. 
+      De<lb ed="#C" n="117" break="no"/>inde cum dicit cumque, adaptat distinctionem 1. ad 
+      propo<lb ed="#C" n="118" break="no"/>situm dicens, quod Sacra Pagina versatur circa res, &amp; 
+      <lb ed="#C" n="119"/>signa; &amp; quod 1. determinabit de rebus, ve in tribus primis 
+      <lb ed="#C" n="120"/>libris, &amp; postea de signis, vt in a¬ 
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e206">
+               <lb ed="#C" n="121"/>Tunc sequitur illa pars, id ergo, in qua distinguit 
+      ma<lb ed="#C" n="122" break="no"/>eriam 3. librorum, &amp; duo facit: 1. praemittit 
+      distin<lb ed="#C" n="123" break="no"/>ctionem, per quam habetur trium lib. distinctio: 2. 
+      manife<lb ed="#C" n="124" break="no"/>stat quod dixerat, ille quibus, dicit ergo quod quaedam res sut,  
+      <lb ed="#C" n="125"/>quibus est fruendum: in quo habemus materiam primi libri 
+      <lb ed="#C" n="126"/>quae est de fruibilibus, aliae quibus vtendum, in quo habemus 
+      <lb ed="#C" n="127"/>nateriam secundi, quae est de vtibilibus: aliae quibus 
+      fruun<lb ed="#C" n="128" break="no"/>tur, &amp; vtuntur, in quo habemus materiam3. qui est de Deo 
+      <lb ed="#C" n="129"/>reparante, &amp; homine reparato: qui Deus, &amp; homo fruum 
+      <lb ed="#C" n="130"/>tur, &amp; vtuntur. Turc sequitur illa pars: ille quibus, in quae 
+      <lb ed="#C" n="131"/>declarat, quod in distinctione retigerat: &amp; tria facit: 1. 
+      <lb ed="#C" n="132"/>dicit quae sunt fruibilia, quia quae nos bonos faciunt: &amp; quae 
+      <lb ed="#C" n="133"/>vtibilia: quia per quae ad beatitudinem adiuvamur. 2. ibi  
+      <lb ed="#C" n="134"/>res: ueros convenit, quae sunt res, quae fruuntur, &amp; vtun¬ 
+      <!--72.xml-->
+      <pb ed="#C" n="35"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>tur: quia nos, &amp; Angeli. 3. ibi, siui autem, diffinit, quis 
+      <lb ed="#C" n="2"/>sit frus, &amp; quid vri. Et duo facit:. 1. facit quod dictum 
+      <lb ed="#C" n="3"/>est, &amp; patet: 2. magis in speciali declarat fruibilia, &amp; 
+      vti<lb ed="#C" n="4" break="no"/>bilia. Ibi res ergo &amp;c. Circa quod tria facit, secundum quod 
+      tri<lb ed="#C" n="5" break="no"/>pliciter hoc declarat. 1. fruibile est Deus ipse; vtibile mum 
+      <lb ed="#C" n="6"/>dus. 2. ibi: idem in eodem; quia fruibile est, quod est 
+      incon<lb ed="#C" n="7" break="no"/>munbile, cetera sunt vtibilia. 3. ibi: idem in libro de Trin. 
+      <lb ed="#C" n="8"/>Dicit fruibile esse, in quo quiescit appetitus; vtibile vero, 
+      <lb ed="#C" n="9"/>quod ad aliud refertur. Deinde sequitur, notandum vero, in 
+      <lb ed="#C" n="10"/>quo quaestionem movet, &amp; quatuor facit secundum quod 
+      <lb ed="#C" n="11"/>quadrupliciter quaestionem movet. 1. quantum ad statum 
+      <lb ed="#C" n="12"/>fruentium. 2. quantum ad obiecta fruibilia. 3. quantum 
+      <lb ed="#C" n="13"/>ad ipsos fruentes. 4. quantum ad instrumenta, per quae 
+      fin<lb ed="#C" n="14" break="no"/>fruitio. Secunda ibi: sed cum Deus. Tertia ibi: cum autem 
+      <lb ed="#C" n="15"/>homines. Quarta ibi: his considerandum. Circa 1. duo facit: 1 
+      <lb ed="#C" n="16"/>movet quaestionem: 2. solvit ibi: hic ergo. Dicit ergo 
+      pri<lb ed="#C" n="17" break="no"/>mo, quod frui est cum gaudiovti, non rei, sed spei; idee 
+      <lb ed="#C" n="18"/>frui est specialius, quam vti, ex quibus verbis oritur 
+      quae<lb ed="#C" n="19" break="no"/>stio, quod Sancti in via non fruantur cum habeant  
+      <lb ed="#C" n="20"/>spem aeterni boni, non rem. Deinde cum dicit, hic ergo 
+      <lb ed="#C" n="21"/>lolvit &amp; duo facit; secundum quod dupliciter solvit  
+      <lb ed="#C" n="22"/>secunda ibi: potest etiam, dicit ergo quod Beati perfecti 
+      <lb ed="#C" n="23"/>fruuntur; viatores imperfecte: demum, cum dicit, 
+      po<lb ed="#C" n="24" break="no"/>test solvit alio modo: quia etiam in via, non tantum 
+      <lb ed="#C" n="25"/>habemus spem, sed &amp; rem: quia licet non ipsum 
+      aeter<lb ed="#C" n="26" break="no"/>num bonum videamus, tamen ipsum aeternum bonum 
+      <lb ed="#C" n="27"/>diligimus. Deinde cum dicit, constat ergo, solvit 
+      obie<lb ed="#C" n="28" break="no"/>ctionem possibilem fieri, quibus est fruendum: dicens 
+      <lb ed="#C" n="29"/>quod fruendum est solo Deo, ceteris est vtendum. 
+      Dein<lb ed="#C" n="30" break="no"/>de cum dicit, cum ante, movet quaestionem quantum ad 
+      <lb ed="#C" n="31"/>ipsos vtentes, &amp; fruentes, &amp; duo facit: quia 1. 
+      quae<lb ed="#C" n="32" break="no"/>rit vtrum homo fruatur homine? 2. vtrum Deus? 
+      Se<lb ed="#C" n="33" break="no"/>cunda ibi, sed cum Deus. Circa 1. quatuor facit: 1. 
+      quae<lb ed="#C" n="34" break="no"/>rit, 2. solvit, 3. instat, 4. instantiam removet: 
+      se<lb ed="#C" n="35" break="no"/>cunda ibi, ad quod, tertia ibi, huis, quarta ibi, quod ita: 
+      <lb ed="#C" n="36"/>dicit ergo vtrum homo fruatur homine? Deinde cum 
+      <lb ed="#C" n="37"/>dicit, ad quod, solvit quod non: quia spes non est 
+      <lb ed="#C" n="38"/>ponenda in homine. Deinde cum dicit, huic, instat per 
+      <lb ed="#C" n="39"/>Apostolum, qui dixit ad Philemonem, ita ergo fuar te 
+      frae<lb ed="#C" n="40" break="no"/>ter in Domino. Deinde cum dicit, quod ita, solvit per <name xml:id="Gi9qrR-de8984-Nd1e331" ref="#Augustine">Aug.</name> 
+               <lb ed="#C" n="41"/>quia addidit, in Domino, non proprie fruebatur homine. 
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e337">
+               <lb ed="#C" n="42"/>Tunc sequitur illa pars, sed cum, in qua quaerit vtrum 
+      <!--72.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="43"/>Deus fruatur homine? Et quatuor facit: 1. movet 
+      <lb ed="#C" n="44"/>quaestionem dictum: &amp; patet. 2vibi: &amp; procede, solvit,  
+      <lb ed="#C" n="45"/>quod non fruitur nobis: quia non eget bono mostro, 
+      <lb ed="#C" n="46"/>nec est verum, quod non fustatur, nec vtatur nobis: 
+      <lb ed="#C" n="47"/>quia nos non diligeret. Relinquitur ergo, quod vtatur  
+      <lb ed="#C" n="48"/>3. ibi: neque tamen, dat differentiam secundum quod 
+      ho<lb ed="#C" n="49" break="no"/>mo vtitur homine, &amp; secundum quod Deus: quia Deus 
+      <lb ed="#C" n="50"/>vtitur homine propter bonitatem suam, sed homo non 
+      <lb ed="#C" n="51"/>propter bonitatem suam, sed Dei. 4. ibi: nos autem, 
+      pro<lb ed="#C" n="52" break="no"/>bat differentiam assignatam, &amp; patet. Posset etiam ibi 
+      <lb ed="#C" n="53"/>assignari secunda differentia, ut patebit in obijciendo. 
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e371">
+               <lb ed="#C" n="54"/>Tunc sequitur illa pars, hic considetandum, in qua 
+      mo<lb ed="#C" n="55" break="no"/>vet quaestionem de virtutibus? utrum eis sit fruendum? 
+      <lb ed="#C" n="56"/>Et duo facit: 1. movet quaestionem, &amp; obijcit ad eam 
+      <lb ed="#C" n="57"/>2. solvit ibi, dicimus: circa re duo facit? 1. 
+      mo<lb ed="#C" n="58" break="no"/>vet quaestionem, &amp; patetr:. 1. ibi, quitusdam obij 
+      <lb ed="#C" n="59"/>cit. Circa quod duo facit: primum obiicit ad partem 
+      <lb ed="#C" n="60"/>illam, quod virtutibus non sit fruendum dupliciter: 1. 
+      <lb ed="#C" n="61"/>quia non sunt summum bonum, quo solo est fruendum: 
+      <lb ed="#C" n="62"/>1. quia propter se non sunt amandae. 2. ibi: alijs vero, 
+      ob<lb ed="#C" n="63" break="no"/>ijcit in contrarium secundum opinionem aliorum, qui  
+      <lb ed="#C" n="64"/>dicunt authoritate Ambrosij virtutes propter se 
+      aman<lb ed="#C" n="65" break="no"/>das esse. Tunc sequitur illa pars, dicimus, in qua solvit,  
+      <lb ed="#C" n="66"/>&amp; tria facit: 1. dicit, eis non esse fruendum: quia 
+      <lb ed="#C" n="67"/>propter Beatitudinem diliguntur, quo confirmat per 
+      <lb ed="#C" n="68"/>Aug. 2. ibi: sed dicet, &amp; instat, quod eis sit smendum: 
+      <lb ed="#C" n="69"/>quia propter se diligendae sunt. 3. ibi: ad quod, instantiam 
+      <lb ed="#C" n="70"/>solvit: quod non sufficit ad hoc vt quid sit obiectum 
+      <lb ed="#C" n="71"/>fruitionis, quod propter se diligatur, sed requititur,  
+      <lb ed="#C" n="72"/>quod ibi ponatur finis dilectionis, quod non competit 
+      <lb ed="#C" n="73"/>virtutibus, nec voluntati, nec alijs, quae requiruntur ad 
+      <lb ed="#C" n="74"/>fruitionem. Tunc sequitur illa pars, cmnium, in qua per 
+      <lb ed="#C" n="75"/>modum Epilogi recolligit, quae dicta sunt continuans 
+      <lb ed="#C" n="76"/>se ad alios libros dicens: prius esse dicendum de re¬ 
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e423">
+               <lb ed="#C" n="77"/>bus, quam de signis, &amp; de fruibilibus, quam 
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e428">
+               <lb ed="#C" n="78"/>de alijs, quae sunt materia 1. libri,  
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e433">
+               <lb ed="#C" n="79"/>&amp; sic terminatur sententia 
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e438">
+               <lb ed="#C" n="80"/>distinctionis, &amp; 
+    </p>
+            <p xml:id="Gi9qrR-de8984-d1e443">
+               <lb ed="#C" n="81"/>lectionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

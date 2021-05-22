@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f35624"><!-- l1-d26expolit -->
+            <head xml:id="Gi9qrR-f35624-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f35624-d1e111">
+               <lb ed="#C" n="14"/>ExPOSITIO LITTERAE.
+    </p>
+            <p xml:id="Gi9qrR-f35624-d1e116">
+               <lb ed="#C" n="15"/>QVPER litteram, super illo: In Deo 
+      <lb ed="#C" n="16"/>autem nihil, quod secundum accidens 
+      di<lb ed="#C" n="17" break="no"/>citur: quia nihil in eo mutabile est, aut 
+      amis<lb ed="#C" n="18" break="no"/>sibile. Contra: quia ista non videtur 
+      <lb ed="#C" n="19"/>sufficiens causa: nam multa 
+      acciden<lb ed="#C" n="20" break="no"/>tia sunt, quae sunt inseparabilia, &amp; 
+      in<lb ed="#C" n="21" break="no"/>amissibilia. Dicendum, quod semper 
+      <lb ed="#C" n="22"/>accidens est diversa res a subiecto, &amp; 
+      <lb ed="#C" n="23"/>est posterius eo: &amp; ideo potest 
+      intelli<lb ed="#C" n="24" break="no"/>igi subiectum sine ipso: &amp; omne 
+      acci<lb ed="#C" n="25" break="no"/>dens est quid amissibile secundum 
+      mo<lb ed="#C" n="26" break="no"/>dum intelligendi; sed relatio non est 
+      <lb ed="#C" n="27"/>alia res, quam Persona, &amp; Persona non 
+      <lb ed="#C" n="28"/>potest intelligi non intellecta 
+      relatio<lb ed="#C" n="29" break="no"/>ne, sive proprietate: &amp; ideo talia in 
+      <lb ed="#C" n="30"/>Divinis non habent rationem 
+      acciden<lb ed="#C" n="31" break="no"/>tis. 
+    </p>
+            <p xml:id="Gi9qrR-f35624-d1e155">
+               <lb ed="#C" n="32"/>Item super illo: Homines sunt Filij 
+      <lb ed="#C" n="33"/>eit,  
+      <lb ed="#C" n="34"/>Dei factura. Notandum, quod hoc 
+      du<lb ed="#C" n="35" break="no"/>pliciter potest intelligi, vel quantum ad 
+      <lb ed="#C" n="36"/>creationem: quia sumus Filij Dei, 
+      in<lb ed="#C" n="37" break="no"/>quantum eius imaginem gerimus: vel  
+      <lb ed="#C" n="38"/>quantum ad recreationem, quia sumus 
+      <lb ed="#C" n="39"/>eius filij, inquantum eius gratiam per 
+      <!--545.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="40"/>adoptionem suscipimus: &amp; creatio, &amp; 
+      <lb ed="#C" n="41"/>recreatio quaedam factura dici potest. 
+    </p>
+            <p xml:id="Gi9qrR-f35624-d1e184">
+               <lb ed="#C" n="42"/>Item super illo: Nec quidquam ille 
+      <lb ed="#C" n="43"/>nisi Filius. Contra: omne, quod 
+      rela<lb ed="#C" n="44" break="no"/>tive dicitur, est aliquid excepto 
+      relati<lb ed="#C" n="45" break="no"/>vo, ut dicitur 7. de Trin. cap. 1. ergo 
+      <lb ed="#C" n="46"/>falsum est, quod Filius non sit quidquam 
+      <lb ed="#C" n="47"/>nisi Filius. Dicendum, quod illud 
+      ali<lb ed="#C" n="48" break="no"/>ud, quod est Filius, excepto relativo 
+      <lb ed="#C" n="49"/>est essentia: sed ex eo, quod solum in 
+      <lb ed="#C" n="50"/>eo ponitur filiatio, non excluditur 
+      essen<lb ed="#C" n="51" break="no"/>tia: quia relatio Divina comparata ad 
+      <lb ed="#C" n="52"/>essentiam est idem quod Persona; &amp; 
+      <lb ed="#C" n="53"/>non differt nisi ratione. Vel dicendum, 
+    </p>
+            <p xml:id="Gi9qrR-f35624-d1e214">
+               <lb ed="#C" n="54"/>quod Filius non est quidquam nisi 
+      Fi<lb ed="#C" n="55" break="no"/>lius: quia nunquam fuit non Filius. Et  
+      <lb ed="#C" n="56"/>hoc concordat cum verbis 
+      sequenti<lb ed="#C" n="57" break="no"/>bus, cum dicitur: Atque itaque semper est 
+      <lb ed="#C" n="58"/>Flius. 
+    </p>
+            <p xml:id="Gi9qrR-f35624-d1e227">
+               <lb ed="#C" n="59"/>Item super illo: Hic enim est verus, 
+      <lb ed="#C" n="60"/>&amp; proprius Filius. Notandum, quod 
+      cir<lb ed="#C" n="61" break="no"/>ca filiationem Christi tres fuerunt 
+      er<lb ed="#C" n="62" break="no"/>rores. Vnus fuit Nestorij, &amp; Fotini, 
+      <lb ed="#C" n="63"/>qui possuerunt Christum esse Dei Filium 
+      <lb ed="#C" n="64"/>adoptione, non solum origine: quia 
+      <lb ed="#C" n="65"/>in Christo duas Personas, sive duo 
+      sup<lb ed="#C" n="66" break="no"/>posita possuerunt. Alius fuit Sabellij, 
+      <lb ed="#C" n="67"/>qui eo quod confudit Personas, non 
+      <lb ed="#C" n="68"/>posuit Filium vere esse Filium, 
+      neque<lb ed="#C" n="69" break="no"/>Patrem vere Patrem, sed solum posuit 
+      <lb ed="#C" n="70"/>eum Filium nuncupatione, non 
+      veri<lb ed="#C" n="71" break="no"/>tate. Tertius fuit Atrij, qui separavit 
+      <lb ed="#C" n="72"/>substantias: unde dixit Dei Filium 
+      es<lb ed="#C" n="73" break="no"/>se creaturam: unde posuit eum Filium 
+      <lb ed="#C" n="74"/>creatione, non nativitate. Hos tres er 
+      <lb ed="#C" n="75"/>rores allidens Magister ait contra 
+      Fo<lb ed="#C" n="76" break="no"/>tinum &amp; Nestorium, quod Dei Filius 
+      <lb ed="#C" n="77"/>est Filius Origine non adoptione. Addit con 
+      <lb ed="#C" n="78"/>tra Sabellium, quod est Filius Veritate 
+      <lb ed="#C" n="79"/>non nuncupatione. Subiungit contra Arrium, 
+      <lb ed="#C" n="80"/>quod est Filius Nativitate non creatione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

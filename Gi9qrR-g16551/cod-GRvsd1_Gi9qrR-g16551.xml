@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="830"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g16551"><!-- l1-d46prooem -->
+            <head xml:id="Gi9qrR-g16551-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g16551-d1e111">
+      <!--855.xml-->
+               <pb ed="#C" n="830"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>DIOTIINCTIO XDUJJ. 
+      <lb ed="#C" n="2"/>ILLISENTENTIE, QVA DICTVM ESTDEIVOLVNTA¬ 
+      <lb ed="#C" n="3"/>tem non posse cassari, quae ipse est, quaedam 
+      <lb ed="#C" n="4"/>videntur obviare.
+    </p>
+            <p xml:id="Gi9qrR-g16551-d1e129">
+      <!--855.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="5"/>I oritur quaestio er. Postquam 
+      <lb ed="#C" n="6"/>Mag. determinavit de Divit 
+      <lb ed="#C" n="7"/>na voluntate in se, hic in 
+      par<lb ed="#C" n="8" break="no"/>te ista determinat de effica 
+      <lb ed="#C" n="9"/>cia eius Et duo facit: quia 
+      <lb ed="#C" n="10"/>primo movet quasdam 
+      argu<lb ed="#C" n="11" break="no"/>mentationes, quae videtur  
+      <lb ed="#C" n="12"/>concludere Divinam 
+      volun<lb ed="#C" n="13" break="no"/>tatem non habere efficaciam in omnibus, &amp; 
+      sol<lb ed="#C" n="14" break="no"/>vit eas. 2. ostendit Divinam voluntatem semper 
+      <lb ed="#C" n="15"/>impleri, &amp; in omnibis efficaciam habere. Secun 
+      <lb ed="#C" n="16"/>da ibi: Voluntas quippe Dei. In principio 47. dist. 
+      <lb ed="#C" n="17"/>Circa 1. duo facit, secundum quod dupliciter 
+      <lb ed="#C" n="18"/>arguit. 1. per auctoritate. 2. per rationem. 
+      Secun<lb ed="#C" n="19" break="no"/>da ibi: Ideoque cum constet. Circa 1. duo facit: quia 
+      <lb ed="#C" n="20"/>tur? Et arguit quod non per duas auctoritates. 
+      <lb ed="#C" n="21"/>1. quaerit utrum Divina voluntas semper implea 
+      <lb ed="#C" n="22"/>Primo per auctoritatem Apli. qui dicit: Deum 
+      <lb ed="#C" n="23"/>velle omnes homines salvos fieri; nec tamen 
+      <lb ed="#C" n="24"/>omnes salvantur. Secundo per auctoritatem 
+      E<lb ed="#C" n="25" break="no"/>vangelij. Nam Dominus loquens Civitati 
+      leru<lb ed="#C" n="26" break="no"/>salem ait: se voluisse congregare filios ejus, 
+      si<lb ed="#C" n="27" break="no"/>eut gallina congregat pullos suos, &amp; tamen 
+      no<lb ed="#C" n="28" break="no"/>luit: non ergo voluntas Dei semper impletur.  
+      <lb ed="#C" n="29"/>2. solvit, sive dat intellectum praedictarum au 
+      <lb ed="#C" n="30"/>ctoritatum, ibi: Sed audiamus solutionem. Circa quod  
+      <lb ed="#C" n="31"/>duo facit: quia 1. exponit auctoritatem 
+      secun<lb ed="#C" n="32" break="no"/>dam, ut auctoritatem Evangelij, dicens: non esse 
+      <lb ed="#C" n="33"/>intelligendum Deum voluisse congregare filios 
+      <lb ed="#C" n="34"/>derusalem, &amp; tamen non fuerit factum; sed  
+      <lb ed="#C" n="35"/>Deus voluit, &amp; serusalem noluit: quia 
+      vo<lb ed="#C" n="36" break="no"/>luntate Divina salvati sunt, ex sudaeis qui  
+      <lb ed="#C" n="37"/>salvi facti sunt, Synagoga sive serusalem 
+      no<lb ed="#C" n="38" break="no"/>lente. Secundo solvit ad auctoritatem primam: 
+      <lb ed="#C" n="39"/>ut ad autoritatem Apostoli dicens: in hac 
+      propo<lb ed="#C" n="40" break="no"/>sitione, Deus vult omnes homines salvos fieri, esse 
+      di<lb ed="#C" n="41" break="no"/>stributionem accommodam: quiat omnes 
+      <lb ed="#C" n="42"/>qui salvantur, Divina voluntate salvantur: 
+      si<lb ed="#C" n="43" break="no"/>cut illuminat omnem hominem: quia nullus 
+      <lb ed="#C" n="44"/>illuminatur nisi ab ipso, licet non 
+      quili<lb ed="#C" n="45" break="no"/>bet illuminetur. Secunda ibi: Nunc videre 
+      re<lb ed="#C" n="46" break="no"/>stat 
+    </p>
+            <p xml:id="Gi9qrR-g16551-d1e227">
+               <lb ed="#C" n="47"/>Tunc sequitur illa pars: Ideoque cum constes. In 
+      <lb ed="#C" n="48"/>qua postquam Magister adduxit auctoritates, 
+      <lb ed="#C" n="49"/>quae videtur arguere Divinam voluntatem non 
+      <lb ed="#C" n="50"/>semper impleri, &amp; eas exposuit, specialiter 
+      ar<lb ed="#C" n="51" break="no"/>guit de malis: quia cum mala videatur 
+      repugna<lb ed="#C" n="52" break="no"/>re Divinae voluntati, &amp; multa mala fiant, alique 
+      <lb ed="#C" n="53"/>fiunt contra ejus voluntatem, &amp; voluntas ejus 
+      <lb ed="#C" n="54"/>non semper impletur: unde duo facit: quia 1. 
+      <lb ed="#C" n="55"/>quaerit utrum Deus velit mala fieri? Et assignat 
+      <lb ed="#C" n="56"/>duas opiniones: quia quidam dixerunt Deum 
+      <lb ed="#C" n="57"/>non velle mala, velle tamen fieri &amp; esse. Alij 
+      <lb ed="#C" n="58"/>vero dixerunt Deum nec velle mala fieri, nen 
+      <!--855.xml-->
+      <cb ed="#C" n="c"/>
+               <lb ed="#C" n="59"/>esse. 2. has opiniones prosequitur ibi: Qui enim 
+      <lb ed="#C" n="60"/>dicunt. Circa quod duo facit: quia 1. 
+      prosequi<lb ed="#C" n="61" break="no"/>tur positionem primam. 2. secundam. Secunda 
+      <lb ed="#C" n="62"/>ibi: Illi vero qui dicunt. Circa 1. duo facit, 
+      secun<lb ed="#C" n="63" break="no"/>dum quod duas rationes adducit ad 
+      consima<lb ed="#C" n="64" break="no"/>tionem primae opinionis. Prima talis, vel Deuo 
+      <lb ed="#C" n="65"/>vult mala fieri: vel vult mala non fieri? Non est 
+      <lb ed="#C" n="66"/>dicendum, quod velit mala non fieri: quia non 
+      <lb ed="#C" n="67"/>fierent, cum ejus voluntati nihil resistat, ergo 
+      <lb ed="#C" n="68"/>vult mala fieri, quod est intentum. Secunda 
+      ta<lb ed="#C" n="69" break="no"/>lis: Deus est auctor omnis boni, sed mala fieri 
+      <lb ed="#C" n="70"/>est bonum: ut patet per <name xml:id="Gi9qrR-g16551-Nd1e285" ref="#Augustine">Aug.</name> in Enchirid. ergo 
+      <lb ed="#C" n="71"/>Deus vult mala fieri. Secunda ibi: Item bonum est. 
+      <lb ed="#C" n="72"/>Deinde cum dicit: Illi vero qui dicunt. Prosequitur  
+      <lb ed="#C" n="73"/>secundam opinionem. Et tria facit: quia 1. 
+      se<lb ed="#C" n="74" break="no"/>cundum eam solvit rationes primae positionia. 
+    </p>
+            <p xml:id="Gi9qrR-g16551-d1e298">
+               <lb ed="#C" n="75"/>2. adducit rationes ad confirmandum ipsam 3. 
+      <lb ed="#C" n="76"/>contra eum adducit quamdam instantiam 
+      so<lb ed="#C" n="77" break="no"/>phisticam &amp; eam solvit. Secunda ibi: Si quis 
+      igi<lb ed="#C" n="78" break="no"/>tur diligenter. Tertia ibi: Iam sufficienter ostensum. 
+      <lb ed="#C" n="79"/>Circa 1. duo facit: quia 1. solvit ad rationem 
+      <lb ed="#C" n="80"/>primam. Nam cum arguitur: vel Deus vult 
+      ma<lb ed="#C" n="81" break="no"/>la fieri, vel non fieri? Neutrum est dandum: sed  
+      <lb ed="#C" n="82"/>dandum est non vult mala fieri, &amp; tunc non 
+      ha<lb ed="#C" n="83" break="no"/>bet intentum. 2. solvit ad rationem secundam 
+      <lb ed="#C" n="84"/>ut ad auctoritatem <name xml:id="Gi9qrR-g16551-Nd1e321" ref="#Augustine">Aug.</name> ibi: Quod vero <name xml:id="Gi9qrR-g16551-Nd1e325" ref="#Augustine">Aug.</name> Cin 
+      <lb ed="#C" n="85"/>ca quod tria facit: quia 1. dicit <name xml:id="Gi9qrR-g16551-Nd1e330" ref="#Augustine">Aug.</name> dicere ma 
+      <lb ed="#C" n="86"/>la fieri bonum esse, non quod in se bonum sit: 
+      <lb ed="#C" n="87"/>sed quia ex hoc elicitur aliquod bonum. 2. quiae 
+      <lb ed="#C" n="88"/>innuerat bonum multipliciter dici, dat 
+      quam<lb ed="#C" n="89" break="no"/>dam quadrimembrem distinctionem boni. 3. 
+      <lb ed="#C" n="90"/>quia dixerat mala fieri esse bonum non in se, 
+      <lb ed="#C" n="91"/>sed quia ex hoc bonum elicitur, ostendit 
+      quo<lb ed="#C" n="92" break="no"/>modo ex malis potest elici bonum. Secunda ibi:  
+      <lb ed="#C" n="93"/>Est enim aliquid. Tertia ibi: Hinc patet quod ex melis. 
+      <lb ed="#C" n="94"/>Deinde cum dicit: Si quis igitar. Adducit 
+      ra<lb ed="#C" n="95" break="no"/>tiones ad ostendendum, quod Deus mala non 
+      <lb ed="#C" n="96"/>vult fieri. Et tria facit, secundum quod tres 
+      ra<lb ed="#C" n="97" break="no"/>tiones adducit. Prima talis: nullo homine 
+      sapi<lb ed="#C" n="98" break="no"/>ente auctore, homo sit deterior, ergo multa 
+      <lb ed="#C" n="99"/>minus Deo auctore, cum sit summe sapiens: sed  
+      <lb ed="#C" n="100"/>ex eo quod mala fiunt, homines facientes eo 
+      <lb ed="#C" n="101"/>deteriores sunt, non ergo Deo auctore mala 
+      <lb ed="#C" n="102"/>fiunt, sed quae non fiunt Deo auctore, non 
+      fi<lb ed="#C" n="103" break="no"/>unt eo volente, ergo Deus non vult mala 
+      fie<lb ed="#C" n="104" break="no"/>ri. Secunda talis: Deus est tantum causa bonorum, 
+      <lb ed="#C" n="105"/>ergo eo auctore non fiunt mala, &amp; per 
+      conse<lb ed="#C" n="106" break="no"/>quens nec eo volente. Tertia talis: Deus non 
+      <lb ed="#C" n="107"/>est causa tendendi ad non esse, ergo non fiunt,;  
+      <lb ed="#C" n="108"/>mala, per quae quis tendit ad non esse, Deo 
+      <lb ed="#C" n="109"/>auctore, ergo nec eo volente. Secunda ibi:  
+      <lb ed="#C" n="110"/>Deinde idem <name xml:id="Gi9qrR-g16551-Nd1e387" ref="#Augustine">Augustinas.</name> Tertiae ibi: Item aliter 
+      <lb ed="#C" n="111"/>etiam. 
+    </p>
+            <p xml:id="Gi9qrR-g16551-d1e394">
+               <lb ed="#C" n="112"/>Tuno sequitur illa pars: Inun sufficienter ostan¬ 
+      <!--856.xml-->
+      <pb ed="#C" n="831"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>sum. In qua adducit quamdam sophisticam 
+      ob<lb ed="#C" n="2" break="no"/>pectionem. Et tria facit: quia primo obijcit 
+      con<lb ed="#C" n="3" break="no"/>tra determinata. Nam mala fieri est verum, 
+      <lb ed="#C" n="4"/>omne verum iest bonum, omne bonum vule 
+      <lb ed="#C" n="5"/>Deus, ergo Deus vult mala fieri. Secun 
+      <lb ed="#C" n="6"/>do solvit quod mala fieri non est bonum 
+      <lb ed="#C" n="7"/>in se; potest tamen de hoc formari propositio 
+      <!--856.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="8"/>bona, &amp; propositio vera: &amp; talis formatio 
+      pro<lb ed="#C" n="9" break="no"/>Apositionis fit Deo auctore &amp; volente; non 
+      au<lb ed="#C" n="10" break="no"/>tem perpetratio malorum. Tertio declinat ad 
+      <lb ed="#C" n="11"/>secundam positionem dicens: eam veram esse &amp; 
+      <lb ed="#C" n="12"/>tene. idam. Secunda ibi: Quibus facile. Tertia ibi:  
+      <lb ed="#C" n="13"/>Hec igitur &amp; alia. In quo terminatur sententiae 
+      <lb ed="#C" n="14"/>lectionis, &amp; distinctionis
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

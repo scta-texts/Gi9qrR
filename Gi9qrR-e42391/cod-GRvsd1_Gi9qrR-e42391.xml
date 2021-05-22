@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="158"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e42391"><!-- l1-d8p1q1 -->
+            <head xml:id="Gi9qrR-e42391-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-e42391-d1e111">
+      <!--195.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="42"/>QVAESTIO I. 
+      <lb ed="#C" n="43"/>De entitate Dei. 
+    </p>
+            <p xml:id="Gi9qrR-e42391-d1e122">
+               <lb ed="#C" n="44"/>MAGISTRI intentio 
+      <lb ed="#C" n="45"/>in praesenti lectione 
+      <lb ed="#C" n="46"/>circa tria versatur  
+      <lb ed="#C" n="47"/>1. circa entitatem 
+      Pri<lb ed="#C" n="48" break="no"/>m1. 2. circa eius 
+      aeter<lb ed="#C" n="49" break="no"/>nitatem, sive circa 
+      <lb ed="#C" n="50"/>mensuram Divini esse. 
+    </p>
+            <p xml:id="Gi9qrR-e42391-d1e140">
+               <lb ed="#C" n="51"/>3. circa ipsius 
+      immu<lb ed="#C" n="52" break="no"/>tabilitatem: &amp; ideo de his tribus 
+      quaere<lb ed="#C" n="53" break="no"/>mus, Circa entitatem Dei quaeremus 
+      <lb ed="#C" n="54"/>duo. 1. utrum esse sit proprium solus Dei? 
+      <lb ed="#C" n="55"/>2. utrum esse Dei sit omnium esse?
+    </p>
+            <div xml:id="Gi9qrR-e42391-Dd1e153">
+               <head xml:id="Gi9qrR-e42391-Hd1e155">Articulus 1</head>
+               <p xml:id="Gi9qrR-e42391-d1e158">
+                  <lb ed="#C" n="56"/>ARTICVLVS I. 
+        <lb ed="#C" n="57"/>Vtrum esse sit proprium solius Dei?
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e165">
+                  <lb ed="#C" n="58"/>AD 1. sic proceditur. Videtur, quod 
+        <lb ed="#C" n="59"/>esse non sit proprium solius Dei: 
+        <lb ed="#C" n="60"/>quia nihil est proprium alicuius, de quo 
+        <lb ed="#C" n="61"/>magis vere dicitur oppositum, quam 
+        <lb ed="#C" n="62"/>illud, sed verius dicitur de Deo, quod est, 
+        <lb ed="#C" n="63"/>quam quod non est: quia ut scribitur 2. 
+        <lb ed="#C" n="64"/>de Angelica Hierarch. negationes de Deeo 
+        <lb ed="#C" n="65"/>unt verae, affirmationes vero incompastae: non 
+        <lb ed="#C" n="66"/>igitur esse est proprium solius Dei. 
+        Prae<lb ed="#C" n="67" break="no"/>terea: quod rei non competit, non est 
+        <lb ed="#C" n="68"/>rei proprium, sed esse non competit 
+        <lb ed="#C" n="69"/>Deo, ergo &amp;c. Quod autem sic sit patet: 
+        <!--195.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="70"/>quia si esse dicitur: de Deo, vel hoc est 
+        <lb ed="#C" n="71"/>convertibiliter, viel non convertibiliter? 
+        <lb ed="#C" n="72"/>Si convertibiliter: tunc solus Deus est, &amp; 
+        <lb ed="#C" n="73"/>ita redit positio: Parmenidis, &amp; Melissi, 
+        <lb ed="#C" n="74"/>quod solum unum est. Si non 
+        converti<lb ed="#C" n="75" break="no"/>biliter: tunc aut Deus est in plus quam esse, 
+        <lb ed="#C" n="76"/>&amp; tunc aliquid esset Deus, cui non 
+        com<lb ed="#C" n="77" break="no"/>petit esse: aut in nainus: &amp; tunc Deus 
+        ad<lb ed="#C" n="78" break="no"/>deret aliquid smpra ens, &amp; esset quid  
+        <lb ed="#C" n="79"/>compositum.
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e220">
+        Praeterea: sicut Deum 
+        in<lb ed="#C" n="80" break="no"/>telligimus, sic Dieum nominamus; sed  
+        <lb ed="#C" n="81"/>Deum non intelligimus nisi per effectus, 
+        <lb ed="#C" n="82"/>ergo per effectus; ipsum nominamus, 
+        er<lb ed="#C" n="83" break="no"/>go de Deo nihil dicitur, quod non 
+        repe<lb ed="#C" n="84" break="no"/>riatur in effectibus, ergo nec esse, nec 
+        <lb ed="#C" n="85"/>aliquid aliud est proprium solius Dei. 
+        <lb ed="#C" n="86"/>Praeterea: sicut ista dicitur incompacta: 
+        <lb ed="#C" n="87"/>Deus est sapiens, ex eo quod non est in 
+        <lb ed="#C" n="88"/>Deo sapientia, ut intelligimus: ita est 
+        <lb ed="#C" n="89"/>incompacta heec: Deus est ens, quia non 
+        <lb ed="#C" n="90"/>est in eo entitas ut intelligimus: &amp; 
+        quan<lb ed="#C" n="91" break="no"/>do aliquid dicitur, de aliquo, quod non 
+        <lb ed="#C" n="92"/>est in eo, ut intelligitur, non dicitur de 
+        <lb ed="#C" n="93"/>eo proprie, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e253">
+                  <lb ed="#C" n="94"/>In contrarium: est quia in 5. de 
+        <lb ed="#C" n="95"/>Trin. cap. 2. dicitur, quod Deo 
+        veris<lb ed="#C" n="96" break="no"/>sime competit esse. Et Hieronymus ad 
+        <lb ed="#C" n="97"/>Marcellam: Deus vere tenuit hoc nomen 
+        <lb ed="#C" n="98"/>qui est, quia exordium non habens solus ve¬¬ 
+        <lb ed="#C" n="99"/>rae essentiae nomen tenuit: quae omnia 
+        ar<lb ed="#C" n="100" break="no"/>guunt, quod Deo verissime 
+        compe<lb ed="#C" n="101" break="no"/>petit esse.
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e274">
+        Praeterea: Deus non 
+        deter<lb ed="#C" n="102" break="no"/>minatur ad aliquod genus, sed hoc 
+        com<lb ed="#C" n="103" break="no"/>petit ipsi esse, ergo si aliquid est Deo 
+        pro<lb ed="#C" n="104" break="no"/>prium, esse erit,
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e283">
+        <!--196.xml-->
+                  <pb ed="#C" n="159"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>RESOLVTIO. 
+        <lb ed="#C" n="2"/>Esse simpliciter, &amp; abstractum secundum 
+        in<lb ed="#C" n="3" break="no"/>tellectum non est proprium Dei, sed esse purum 
+        <lb ed="#C" n="4"/>simplicissimum &amp; ab omni con¬ 
+        <lb ed="#C" n="5"/>tra. lione abstractum. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e303">
+                  <lb ed="#C" n="6"/>REspond. dicendum, quod ad solum 
+        <lb ed="#C" n="7"/>Dtionem huius quaestionis requiri 
+        <lb ed="#C" n="8"/>tur duplex distinctio. Primo, quot 
+        mo<lb ed="#C" n="9" break="no"/>dis dicitur esse. Secundo, quot modis 
+        <lb ed="#C" n="10"/>proprium.
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e316">
+                  <lb ed="#C" n="11"/>Propter primum notandum, quod  
+        <lb ed="#C" n="12"/>esse dupliciter potest accipi. Vno modo 
+        <lb ed="#C" n="13"/>particulatum, &amp; contractum ad aliquod 
+        <lb ed="#C" n="14"/>genus, vel speciem, ut hoc esse, vel E 
+        <lb ed="#C" n="15"/>illud. Alio modo simpliciter: cum 
+        quae<lb ed="#C" n="16" break="no"/>ritur: utrum Deo competat esse? Si 
+        lo<lb ed="#C" n="17" break="no"/>quimur de esse contracto, non solum 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e334">
+                  <lb ed="#C" n="18"/>ale esse non est Dei proprium:: immo 
+        <lb ed="#C" n="19"/>habet aliquo modo repugnantiam ad 
+        es<lb ed="#C" n="20" break="no"/>se Divinum. Nam sicut in intelligendo 
+        <lb ed="#C" n="21"/>Divinam Bonitatem debemus eam 
+        in<lb ed="#C" n="22" break="no"/>telligere non particulatam, ut hanc, vel 
+        <lb ed="#C" n="23"/>illam, sed simpliciter, tanquam bonum 
+        <lb ed="#C" n="24"/>omnis boni, iuxta illud <name xml:id="Gi9qrR-e42391-Nd1e351" ref="#Augustine">Aug.</name> 5. de 
+        Tri<lb ed="#C" n="25" break="no"/>nit, cap. 3. Quid plura &amp; plura bonum hoo 
+        <lb ed="#C" n="26"/>&amp; bonum illud, tollehoc &amp; illud, &amp; vide 
+        <lb ed="#C" n="27"/>ipsum bonum, si potes, &amp; ita Deum videbis 
+        <lb ed="#C" n="28"/>non alio bono bonum: sed bonum omnis boni. 
+        Ita<lb ed="#C" n="29" break="no"/>isi intelligere volumus Divinam 
+        entita<lb ed="#C" n="30" break="no"/>tem licet sit ens hoc &amp; illud: quia 
+        at<lb ed="#C" n="31" break="no"/>trahitur ad hoc genus, vel ad illud, 
+        de<lb ed="#C" n="32" break="no"/>liemus tamen tollere hoc &amp; illud, &amp; 
+        <lb ed="#C" n="33"/>omuem contractionem, &amp; intelligamus 
+        <lb ed="#C" n="34"/>iipsum esse, si possumus, &amp; sic Deum 
+        in<lb ed="#C" n="35" break="no"/>telligemus; non alio esse ens, sed esse 
+        <lb ed="#C" n="36"/>bmnis entis. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e381">
+                  <lb ed="#C" n="37"/>Viso, quod esse contractum, ut hoc  
+        <lb ed="#C" n="38"/>vel illud, Deo non competit. Restat 
+        <lb ed="#C" n="39"/>videre quo modo esse simpliciter ei 
+        con<lb ed="#C" n="40" break="no"/>petat. Propter quod notandum, quod  
+        <lb ed="#C" n="41"/>esse simpliciter dicitur illud, quod est a 
+        <lb ed="#C" n="42"/>contractione, &amp; materialitate abstractum 
+        <lb ed="#C" n="43"/>non determinatum ad aliquod genus 
+        <lb ed="#C" n="44"/>entis: hoc autem esse potest dupliciter,  
+        <lb ed="#C" n="45"/>sicut abstractio dupliciter potest 
+        intelli<lb ed="#C" n="46" break="no"/>gi. Vno modo secundum intellectum 
+        <lb ed="#C" n="47"/>sicut uniuersalia dicuntur esse abstracta. 
+        <lb ed="#C" n="48"/>Alio modo secundum realem 
+        existen<lb ed="#C" n="49" break="no"/>tiam, secundum quod Plato posuit ideas 
+        <lb ed="#C" n="50"/>rerum. Cum ergo quaeritur quomodo 
+        <lb ed="#C" n="51"/>Deo competat esse simpliciter? 
+        Dicen<lb ed="#C" n="52" break="no"/>dum, quod ei non competit esse 
+        simpli<lb ed="#C" n="53" break="no"/>citer, hoc est, universaliter sive 
+        abstra<lb ed="#C" n="54" break="no"/>ctum secudum intellectum solum: quia 
+        <!--196.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>tale esse non est substantia: cum ipsa 
+        <lb ed="#C" n="56"/>Vniversalia non sint substantia, ut probatur 
+        <lb ed="#C" n="57"/>7. Metaph. &amp; ad tale esse facit 
+        intelle<lb ed="#C" n="58" break="no"/>ctus: quia Iitellectus facit universalitatem in 
+        <lb ed="#C" n="59"/>rebus. Deus autem per se maxime existit, 
+        <lb ed="#C" n="60"/>&amp; mhil est quod faciat ad eius esse; sed  
+        <lb ed="#C" n="61"/>se ipso est: &amp; ideo tale esse sic abstractum 
+        <lb ed="#C" n="62"/>non est Deus, sed est esse simpliciter, &amp; 
+        <lb ed="#C" n="63"/>abstractum ab omni contractione: quia 
+        <lb ed="#C" n="64"/>est esse purum secundum actualem 
+        exi<lb ed="#C" n="65" break="no"/>stentiam, &amp; rei veritatem. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e452">
+                  <lb ed="#C" n="66"/>Differt autem illud esse simpliciter at 
+        <lb ed="#C" n="67"/>esse communi, sive virtualiter sumpto in 
+        <lb ed="#C" n="68"/>tribus. Primo: quia licet per illud esse 
+        <lb ed="#C" n="69"/>scilicet commune, quodlibet creatum 
+        <lb ed="#C" n="70"/>sit: quia quidquid est per esse, esse 
+        ha<lb ed="#C" n="71" break="no"/>pet; ipsum tamen esse sic acceptum 
+        con<lb ed="#C" n="72" break="no"/>paratum ad Divinum esse, Deus non est 
+        <lb ed="#C" n="73"/>illo, sed econverso, nec habet rationem 
+        <lb ed="#C" n="74"/>causae, sed causati: nam &amp; ipsius esse 
+        <lb ed="#C" n="75"/>communis Deus est causa. Secunde 
+        <lb ed="#C" n="76"/>differt: quia ipso esse sic communite 
+        <lb ed="#C" n="77"/>sumpto omnia creata participant; sed 
+        <lb ed="#C" n="78"/>si tale esse ad Deum referatur, Deus non 
+        <lb ed="#C" n="79"/>participat eo, sed illud tale esse Divino 
+        <lb ed="#C" n="80"/>esse participat: quia cum creatura sit 
+        <lb ed="#C" n="81"/>oportet ipsam esse participationae sum 
+        <lb ed="#C" n="82"/>mae entitatis. Tertia est ex eo quod tale 
+        <lb ed="#C" n="83"/>esse non comprehendit Divinum esse 
+        <lb ed="#C" n="84"/>licet aliquo modo omne esse creatum 
+        <lb ed="#C" n="85"/>comprehendat, ipsum tamen Divinum 
+        <lb ed="#C" n="86"/>esse etiam tale esse continet &amp; 
+        compre<lb ed="#C" n="87" break="no"/>hendit. Has differentias tangit Dion. 5. 
+        <lb ed="#C" n="88"/>de Div. nom. cap. de existente dicens: 
+        <lb ed="#C" n="89"/>Ipsum autem esse est ex praeexistente. Id est, es 
+        <lb ed="#C" n="90"/>Deo est, &amp; ipsius est esse, hoc est, Deus est 
+        <lb ed="#C" n="91"/>esse ipsius esse, Et non ipse esse essendi, &amp; 
+        <lb ed="#C" n="92"/>hoc quantum ad primum: quia Deus 
+        <lb ed="#C" n="93"/>est causa, &amp; esse ipsius esse, non autem 
+        <lb ed="#C" n="94"/>econverso, &amp; sequitur: Et in ipso est esse, 
+        <lb ed="#C" n="95"/>hoc est, in ipso Deo comprehenditur &amp; 
+        <lb ed="#C" n="96"/>continetur ipsum esse, Et non ipse est in eo 
+        <lb ed="#C" n="97"/>quod est esse, id est, Deus in ipso esse non 
+        <lb ed="#C" n="98"/>comprehenditur, hoc quantum ad aliud. 
+        <lb ed="#C" n="99"/>quia Deus comprehendit esse, non 
+        econ<lb ed="#C" n="100" break="no"/>verso. Et subdit: Et ipsum habet esse, id  
+        <lb ed="#C" n="101"/>est, esse habet ipsum, hoc est, 
+        partici<lb ed="#C" n="102" break="no"/>pat ipsum primum, Et non ipse habet esse 
+        <lb ed="#C" n="103"/>d est, Deus non participat esse, &amp; hoc  
+        <lb ed="#C" n="104"/>quantum ad aliam differentiam: quia 
+        <lb ed="#C" n="105"/>esse communiter sumptum participat 
+        <lb ed="#C" n="106"/>Deo, non econverso. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e543">
+                  <lb ed="#C" n="107"/>Viso quod esse Deo competit, &amp; quo 
+        <lb ed="#C" n="108"/>modo esse Divinum distinguitur ab esse 
+        <lb ed="#C" n="109"/>particulato, &amp; ab esse universali, restat 
+        vi<lb ed="#C" n="110" break="no"/>dere quot modis accipitur proprium, 
+        <!--197.xml-->
+        <pb ed="#C" n="160"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Proprium, ut scribitur 1. Topic. Dicitur 
+        <lb ed="#C" n="2"/>de quidditate rei, &amp; de propria passione; 
+        ta<lb ed="#C" n="3" break="no"/>men quia propria passio non habuit 
+        <lb ed="#C" n="4"/>aliud nomen, retinuit sibi nomen 
+        com<lb ed="#C" n="5" break="no"/>mune. Cum ergo quaeritur utrum esse 
+        <lb ed="#C" n="6"/>sit proprium Dei? Si accipiatur proprium 
+        <lb ed="#C" n="7"/>pro propria passione: quia tale proprium 
+        <lb ed="#C" n="8"/>manat de genere accidentium, non est 
+        <lb ed="#C" n="9"/>Deo proprium, ubi nihil per accidens. 
+        <lb ed="#C" n="10"/>Sed si proprium intelligitur pro ipsa 
+        <lb ed="#C" n="11"/>quidditate, accipiendo esse non pro esse 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e585">
+                  <lb ed="#C" n="12"/>contracto, sed abstracto; non abstracto 
+        <lb ed="#C" n="13"/>secundum intellectum, sed pro esse 
+        pu<lb ed="#C" n="14" break="no"/>ro secundum rei veritatem, tunc esst 
+        <lb ed="#C" n="15"/>soli Deo est proprium: quia in solo Deo 
+        <lb ed="#C" n="16"/>esse est sua quidditas; omnis alia creatu 
+        <lb ed="#C" n="17"/>tura habet esse distans a quidditate. 
+        Pa<lb ed="#C" n="18" break="no"/>tet igitur, quod esse Deo competit, &amp; 
+        <lb ed="#C" n="19"/>quomodo est ei proprium. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e605">
+                  <lb ed="#C" n="20"/>Respond. ad arg. Ad primum 
+        dicen<lb ed="#C" n="21" break="no"/>dum, quod negationes dicuntur verae 
+        <lb ed="#C" n="22"/>de Deo ratione modi; &amp; sic 
+        affirma<lb ed="#C" n="23" break="no"/>tiones sunt incompactae: non enim es 
+        <lb ed="#C" n="24"/>incompacta, Deus est sapiens; quia ivuie ¬ 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e618">
+                  <lb ed="#C" n="25"/>re sapientia non sit in Deo, sed est in 
+        <lb ed="#C" n="26"/>compacta ratione modi: quia 
+        sapien<lb ed="#C" n="27" break="no"/>tia eo modo, quo intelligo, non est in 
+        <lb ed="#C" n="28"/>Deo: &amp; quia inter cetera minus est 
+        <lb ed="#C" n="29"/>contractum ens: ideo magis proprie 
+        <lb ed="#C" n="30"/>ens sive esse dicitur de Deo, quam 
+        ali<lb ed="#C" n="31" break="no"/>quid aliud. Ideo Dion. 5. de Div.nom 
+        <lb ed="#C" n="32"/>vult quod Deus potissime laudetur at 
+        <lb ed="#C" n="33"/>isto effectu, Qui est esse: quia est prius 
+        <lb ed="#C" n="34"/>&amp; communius omnibus. Ad secundum 
+        <lb ed="#C" n="35"/>dicendum, quod esse potest accipi 
+        du<lb ed="#C" n="36" break="no"/>pliciter. Vno modo pure sive non par 
+        <lb ed="#C" n="37"/>ticipatum, &amp; sic competit soli Deo. Alio 
+        <lb ed="#C" n="38"/>modo communiter, &amp; sic non 
+        compe<lb ed="#C" n="39" break="no"/>tit soli Deo. Et quod arguitur: tunc 
+        <lb ed="#C" n="40"/>Deus se habet per additionem ad ens, 
+        <lb ed="#C" n="41"/>Dicendum, quod non oportet: quia non 
+        <lb ed="#C" n="42"/>ssic dividitur analogum ut genus: &amp; ideo 
+        <lb ed="#C" n="43"/>licet dividentia genus addant aliquid su 
+        <lb ed="#C" n="44"/>pra genus; dividentia autem ens non 
+        <lb ed="#C" n="45"/>addunt aliquid supra ens, sed solum 
+        con<lb ed="#C" n="46" break="no"/>trahitur ens per diversos modos 
+        essen<lb ed="#C" n="47" break="no"/>di. Vnde non arguitur, quod Deus 
+        ad<lb ed="#C" n="48" break="no"/>dit aliquid supraens, sed quod habet 
+        <lb ed="#C" n="49"/>alium modum essendi ab alijs entibus. 
+        <lb ed="#C" n="50"/>Ad tertium dicendum, quod licet esse 
+        <lb ed="#C" n="51"/>reperiatur in effectibus, est tamen 
+        <lb ed="#C" n="52"/>Deo proprium modo, quo patuit. Ad 
+        <lb ed="#C" n="53"/>quartum dicendum, quod, ut patuit,  
+        <lb ed="#C" n="54"/>esse non dicitur de Deo proprie a nobis 
+        <lb ed="#C" n="55"/>sine aliqua incompactione, sed quia mi 
+        <lb ed="#C" n="56"/>nus est ibi de incompactione, quam in 
+        <!--197.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>aliquo attributo Divino ex eo quod 
+        ha<lb ed="#C" n="58" break="no"/>bet esse prius &amp; communius, ut patuit.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-e42391-Dd1e701">
+               <head xml:id="Gi9qrR-e42391-Hd1e703">Articulus 2</head>
+               <p xml:id="Gi9qrR-e42391-d1e706">
+                  <lb ed="#C" n="59"/>ARTICVLVS II. 
+        <lb ed="#C" n="60"/>Vtrum esse Dei sit esse omnium: 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e713">
+                  <lb ed="#C" n="61"/>SEcundo quaeritur: utrum Deus sit 
+        <lb ed="#C" n="62"/>esse omnium? Videtur, quod 
+        non<lb ed="#C" n="63" break="no"/>quia magis differunt entia secundum 
+        es<lb ed="#C" n="64" break="no"/>se, quam secundum rationem 
+        quiddita<lb ed="#C" n="65" break="no"/>tis: quia individua differunt in esse: non 
+        <lb ed="#C" n="66"/>tame differunt in ratione quidditatis: sed  
+        <lb ed="#C" n="67"/>non concedimus, quod sit una ratio quiddi 
+        <lb ed="#C" n="68"/>tatis omnium, ergo nec unum esse. Sed. 
+        <lb ed="#C" n="69"/>cum Deus sit unus, ut probatum est, non 
+        <lb ed="#C" n="70"/>est Deus esse omnium.
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e737">
+        Praeterea: ex hoc 
+        <lb ed="#C" n="71"/>dicuntur aliqua generabilia, ex eo quod 
+        <lb ed="#C" n="72"/>accipiunt novum esse; sed circa 
+        Divi<lb ed="#C" n="73" break="no"/>num esse non cadit novitas, ergo &amp;c
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e746">
+                  <lb ed="#C" n="74"/>Praeterea: dicitur in lib. de causis 
+        pro<lb ed="#C" n="75" break="no"/>pos. 21. quod Causa prima regit omnes res, 
+        <lb ed="#C" n="76"/>&amp; non commiscetur cum eis, sed si causa 
+        pri<lb ed="#C" n="77" break="no"/>ma esset esse rerum, esset commistio 
+        <lb ed="#C" n="78"/>eius ad res, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e760">
+        Praeterea: 
+        secun<lb ed="#C" n="79" break="no"/>dum quod vult Procius. 52. prop. Ante 
+        <lb ed="#C" n="80"/>participantia sunt participata, &amp; ante 
+        par<lb ed="#C" n="81" break="no"/>ticipata imparticipabilia, igitur 
+        Di<lb ed="#C" n="82" break="no"/>vinum esse, quod in sua puritate 
+        <lb ed="#C" n="83"/>est imparticipabile, est ante omne 
+        <lb ed="#C" n="84"/>aliud esse, sed hoc non esset, si ipsum 
+        <lb ed="#C" n="85"/>esset esse omnium: quia tunc esset 
+        an<lb ed="#C" n="86" break="no"/>te se ipsum, ergo &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e780">
+                  <lb ed="#C" n="87"/>In contrarium est Dion. de Div. 
+        non<lb ed="#C" n="88" break="no"/>min. qui vult, quod Deitas, &amp; Divinum 
+        <lb ed="#C" n="89"/>esse sit esse omnium.
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e789">
+        Praeterea: omnis 
+        <lb ed="#C" n="90"/>ratio mensurae sumitur ex esse aliquo 
+        <lb ed="#C" n="91"/>modo: quia non mensuratur aliquid 
+        <lb ed="#C" n="92"/>nisi secundum quod est in actu, &amp; 
+        om<lb ed="#C" n="93" break="no"/>nis actus reducitur aliquo modo ad 
+        es<lb ed="#C" n="94" break="no"/>se, cum igitur Deus sit mensura omnium, 
+        <lb ed="#C" n="95"/>ut vult Dionys. 2. de Divin. nomin. er 
+        <lb ed="#C" n="96"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e807">
+                  <lb ed="#C" n="97"/>RESOLVTIO. 
+        <lb ed="#C" n="98"/>Deus est esse omnium causaliter, &amp; formaliter 
+        <lb ed="#C" n="99"/>non inhaerenter, sed denontinative, 
+        <lb ed="#C" n="100"/>&amp; exemplariter.  
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e818">
+                  <lb ed="#C" n="101"/>REspond. dicendum, quod esse Di 
+        <lb ed="#C" n="102"/>Dvinum &amp; esse omnium, potest duo 
+        <lb ed="#C" n="103"/>pliciter intelligi. causaliter, &amp; 
+        forma<lb ed="#C" n="104" break="no"/>liter. Si intelligatur causaliter, tunc abi 
+        <lb ed="#C" n="105"/>que dubitatione concedi potest: quia 
+        <lb ed="#C" n="106"/>Deus causaliter est esse omnium: nam 
+        <!--198.xml-->
+        <pb ed="#C" n="161"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ex hoc dicitur aliquid esse causa omnis 
+        <lb ed="#C" n="2"/>talis: quia est maxime tale, Sicut ignis 
+        <lb ed="#C" n="3"/>dicitur esse causa omnium calidorum: quia es 
+        <lb ed="#C" n="4"/>summe calidus, ut ostendit Thil. 2. 
+        Meta<lb ed="#C" n="5" break="no"/>ph. esse autem aliquid summe tale dici 
+        <lb ed="#C" n="6"/>tur; quia in eo non est aliquid, quod 
+        <lb ed="#C" n="7"/>non sit tale, sicut aliquid diceretur 
+        sum<lb ed="#C" n="8" break="no"/>me bonum, si in eo non esset aliud nisi 
+        <lb ed="#C" n="9"/>bonum. Vnde <name xml:id="Gi9qrR-e42391-Nd1e859" ref="#Augustine">Aug.</name> loquens de Deo 8. 
+        <lb ed="#C" n="10"/>de Trin. 3. cap. dicit: Non enim est aliuc 
+        <lb ed="#C" n="11"/>aliquid, quam ipsum bonum, ac per hoc est etia 
+        <lb ed="#C" n="12"/>summum bonum. Secundum istum modun 
+        <lb ed="#C" n="13"/>Deum dicemus, summe esse: quia non 
+        <lb ed="#C" n="14"/>est aliquid in eo, quod non sit ipsum es 
+        <lb ed="#C" n="15"/>se, ut ex varijs locis <name xml:id="Gi9qrR-e42391-Nd1e875" ref="#Augustine">Aug.</name> haberi potest 
+        <lb ed="#C" n="16"/>Et ideo quia habet totum esse, &amp; est  
+        <lb ed="#C" n="17"/>ipsum esse, causaliter est omnium esse, 
+        <lb ed="#C" n="18"/>propter quod Dion. 4. de Ang. Hierar. 
+        <lb ed="#C" n="19"/>ait: quod Esse omnium est superesse 
+        Divi<lb ed="#C" n="20" break="no"/>nitatis: esse enim Divinitatis, sive esse 
+        <lb ed="#C" n="21"/>Divinum, quod propter sui excellentia 
+        <lb ed="#C" n="22"/>potest dici esse super esse, non est esse 
+        <lb ed="#C" n="23"/>omnium nisi causaliter: quia causat &amp; 
+        <lb ed="#C" n="24"/>conservat omnia, unde &amp; 5. de Divin. 
+        <lb ed="#C" n="25"/>nom. dicit: quia Primum incircumscripte 
+        <lb ed="#C" n="26"/>in se praeaccipit totum esse, dicitur Rex saeculo. 
+        <lb ed="#C" n="27"/>rum tanquam existens omnium substantificum 
+        <lb ed="#C" n="28"/>esse. Sed si intelligatur formaliter Deum 
+        <lb ed="#C" n="29"/>esse esse omnium, licet absque 
+        distin<lb ed="#C" n="30" break="no"/>ctione aliqui eam negent, non es 
+        <lb ed="#C" n="31"/>neganda, nec concedenda absque distin 
+        <lb ed="#C" n="32"/>ctione, cum sit multiplex: nam 
+        for<lb ed="#C" n="33" break="no"/>ma alicuius aliquid potest esse 
+        triplici<lb ed="#C" n="34" break="no"/>ter. Vno modo non solum 
+        denomina<lb ed="#C" n="35" break="no"/>tive, sed etiam inhaerenter, sicut dici 
+        <lb ed="#C" n="36"/>mus albedinem esse formam albi: quia 
+        <lb ed="#C" n="37"/>albo inest. 2. dicitur aliquid forma, si 
+        <lb ed="#C" n="38"/>solum denominet, &amp; non insit, &amp; sic 
+        <lb ed="#C" n="39"/>sanitas est aliquo modo forma cibi sani 
+        <lb ed="#C" n="40"/>nam cum omnis denominatio sit a 
+        for<lb ed="#C" n="41" break="no"/>ma, &amp; a sanitate, quae est in animali, 
+        <lb ed="#C" n="42"/>dicatur cibus sanus, sanitas in 
+        animali<lb ed="#C" n="43" break="no"/>existens dici potest aliquo modo 
+        forma<lb ed="#C" n="44" break="no"/>cibi, licet cibo non insit. 3. dicitur forma 
+        <lb ed="#C" n="45"/>ex eo quod est exemplariter talis, &amp; 
+        se<lb ed="#C" n="46" break="no"/>cundum istum modum loquitur 
+        Philos<lb ed="#C" n="47" break="no"/>in 7. Metaph. quod Species in mente 
+        artifi<lb ed="#C" n="48" break="no"/>cis est quidditas, sive forma artificialium, est 
+        <lb ed="#C" n="49"/>ergo triplex forma, inhaerens, 
+        denomi<lb ed="#C" n="50" break="no"/>nans, &amp; exemplaris 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e955">
+                  <lb ed="#C" n="51"/>Cum ergo quaeritur: utrum 
+        Divi<lb ed="#C" n="52" break="no"/>num esse sit esse formale omnium? Si 
+        <lb ed="#C" n="53"/>loquim ir de forma inherente, planu est, 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e965">
+                  <lb ed="#C" n="54"/>quod non: quia talis forma dependet 
+        <lb ed="#C" n="55"/>ab his, quorum est forma, &amp; plurificatur  
+        <lb ed="#C" n="56"/>secundum ea, quae de esse Divino dic 
+        <!--198.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>non valent. Si autem loquimur de 
+        for<lb ed="#C" n="58" break="no"/>ma exemplari, tunc planum est, quod 
+        <lb ed="#C" n="59"/>sic: quia omne habens esse est extractum 
+        <lb ed="#C" n="60"/>ab illo esse. Nam cum Deus per intelle 
+        <lb ed="#C" n="61"/>ctum exeuntem in actum per imperium 
+        <lb ed="#C" n="62"/>voluntatis res producat in esse, oportet 
+        <lb ed="#C" n="63"/>similitudines omnium in Primo 
+        exem<lb ed="#C" n="64" break="no"/>plariter existere, sicut ideas artificiatorum 
+        <lb ed="#C" n="65"/>in artifice. Sed si loquimur de forma, ut  
+        <lb ed="#C" n="66"/>denominat, sic etiam dicere possumus 
+        <lb ed="#C" n="67"/>quod Deus sit esse omnium: videmus 
+        <lb ed="#C" n="68"/>enim, quod accidentia comparata ad 
+        <lb ed="#C" n="69"/>substantiam dicuntur non habere 
+        enti<lb ed="#C" n="70" break="no"/>tatem, ideo non sunt entia, nisi quia 
+        <lb ed="#C" n="71"/>lunt entis, propter quod ab entitate, 
+        <lb ed="#C" n="72"/>quae est in Substantia cetera dicuntur entia, 
+        <lb ed="#C" n="73"/>sicut a sanitate quae est in animali cetera sana, 
+        <lb ed="#C" n="74"/>ut habetur ex 4. Metaph. &amp; inde est, 
+        <lb ed="#C" n="75"/>quod entitas, quae est in substantia, es 
+        <lb ed="#C" n="76"/>denominativa omnium accidentium: 
+        <lb ed="#C" n="77"/>unde &amp; entitas substantiae quantum ad 
+        <lb ed="#C" n="78"/>hoc potest concedi quasi entitas 
+        accidem<lb ed="#C" n="79" break="no"/>tium formaliter. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e1028">
+                  <lb ed="#C" n="80"/>Et ex hoc apparet id, quod in 3. 
+        <lb ed="#C" n="81"/>dist, quaerebatur, quod cum anima 
+        prae<lb ed="#C" n="82" break="no"/>dicatur de suis potentijs est aliquo mo 
+        <lb ed="#C" n="83"/>do praedicatio formalis; sed sicut ab en 
+        <lb ed="#C" n="84"/>titate substantie cetera accidentia dicum 
+        <lb ed="#C" n="85"/>tur entia, sic ab entitate prima omnia 
+        <lb ed="#C" n="86"/>entia dicuntur entia. Nam sicut accidem 
+        <lb ed="#C" n="87"/>tia comparata ad substantiam dicuntur? 
+        <lb ed="#C" n="88"/>non habere entitatem nisi entitatem 
+        <lb ed="#C" n="89"/>substantiae: unde non sunt entia 
+        prop<lb ed="#C" n="90" break="no"/>ter entitatem, quae sit in eis, sed propter  
+        <lb ed="#C" n="91"/>entitatem, quae est in substantia, non 
+        <lb ed="#C" n="92"/>quod nulla entitas sit in eis, sed quia est 
+        <lb ed="#C" n="93"/>entitas secundum quid; ideo non 
+        deno<lb ed="#C" n="94" break="no"/>minat: ita quia nostrum esse ad 
+        Divi<lb ed="#C" n="95" break="no"/>num comparatum dicitur non esse, ut  
+        <lb ed="#C" n="96"/>dicit Hieron. ad Marcellam, &amp; habetur  
+        <lb ed="#C" n="97"/>in littera: &amp; omnia entia comparata 
+        <lb ed="#C" n="98"/>ad Primum non dicentur esse prop 
+        <lb ed="#C" n="99"/>ter entitatem, quae sit in eis, sed 
+        prop<lb ed="#C" n="100" break="no"/>ter entitatem, quae est in Primo; non 
+        <lb ed="#C" n="101"/>quod nulla entitas sit in eis, sed quia est 
+        <lb ed="#C" n="102"/>deficiens, non denominat comparata ad 
+        <lb ed="#C" n="103"/>esse primum: &amp; ideo Divina entitas 
+        <lb ed="#C" n="104"/>quantum ad istum modum 
+        denominan<lb ed="#C" n="105" break="no"/>di est esse formale omnium. Patet 
+        igi<lb ed="#C" n="106" break="no"/>tur, quod Deus est esse omnium 
+        causa<lb ed="#C" n="107" break="no"/>liter, &amp; formaliter; non inhaerenter, sed  
+        <lb ed="#C" n="108"/>denominative, &amp; exemplariter. 
+      </p>
+               <p xml:id="Gi9qrR-e42391-d1e1093">
+                  <lb ed="#C" n="109"/>Respond. ad arg. Ad primum 
+        di<lb ed="#C" n="110" break="no"/>cendum, quod esse, in quo differunt 
+        in<lb ed="#C" n="111" break="no"/>dividua, est esse inhaerens; non esse 
+        eo<lb ed="#C" n="112" break="no"/>modo, quo diximus. Et per hoc patet 
+        <!--199.xml-->
+        <pb ed="#C" n="162"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>solutio ad 2. &amp; 3. &amp; 4. quia esse novum, 
+        <lb ed="#C" n="2"/>quod accipiunt generabilia est esse 
+        inhae<lb ed="#C" n="3" break="no"/>rens. Item esse, quod commiicetur 
+        re<lb ed="#C" n="4" break="no"/>bus est esse inhaerens. Rursum non est 
+        <lb ed="#C" n="5"/>contra esse causaliter, sive 
+        exemplari<lb ed="#C" n="6" break="no"/>ter, vel denominative, ut diximus, 
+        prae<lb ed="#C" n="7" break="no"/>cedere ea, quae causat, quae ab ipso 
+        exem<lb ed="#C" n="8" break="no"/>plantur, &amp; quae denominat. Ad 
+        argu<lb ed="#C" n="9" break="no"/>menta autem in contrarium, 
+        loqueban<lb ed="#C" n="10" break="no"/>tur de esse causali &amp; exemplari, 
+        secun<lb ed="#C" n="11" break="no"/>dum quas acceptiones concedimus Deum 
+        <lb ed="#C" n="12"/>esse esse omnium? 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

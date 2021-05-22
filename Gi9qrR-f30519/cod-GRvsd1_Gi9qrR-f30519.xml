@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="489"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f30519"><!-- l1-d25expolit -->
+            <head xml:id="Gi9qrR-f30519-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f30519-d1e111">
+      <!--526.xml-->
+               <pb ed="#C" n="489"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>ExPOSITIO LITTERAE. 
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e122">
+               <lb ed="#C" n="2"/>VPER litteram, super illo: Quibus¬ 
+      <lb ed="#C" n="3"/>dam videtur &amp;c. Notandum, quod 
+      <lb ed="#C" n="4"/>positio istorum non est bona: volunt 
+      <lb ed="#C" n="5"/>enim, quod cum dicitur, tres 
+      <lb ed="#C" n="6"/>Personae, quod nomine Personae intel 
+      <lb ed="#C" n="7"/>ligitur essentia: vel cum dicitur, alis 
+      <lb ed="#C" n="8"/>est Persona Patris, quod nomine 
+      Per<lb ed="#C" n="9" break="no"/>sonae etiam essentia denotatur. Sed haecd 
+      <lb ed="#C" n="10"/>positio stare non potest: quia nos non 
+      <lb ed="#C" n="11"/>concedimus tres essentias, nec 
+      conce<lb ed="#C" n="12" break="no"/>dimus, quod alia sit essentia Patris, alia 
+      <lb ed="#C" n="13"/>Filij: quod si nomine Personae intelli 
+      <lb ed="#C" n="14"/>geretur essentia, concede remus istas, 
+      <lb ed="#C" n="15"/>sicut &amp; illas. Et expositiones istorum 
+      <lb ed="#C" n="16"/>non sunt convenientes: exponunt enim 
+      <lb ed="#C" n="17"/>tres Personae, id est, tres sunt 
+      haben<lb ed="#C" n="18" break="no"/>tes commune id, quod est Persona: 
+      se<lb ed="#C" n="19" break="no"/>cundum quem modum possemus 
+      con<lb ed="#C" n="20" break="no"/>cedere, quod Pater &amp; Filius &amp; 
+      Spiri<lb ed="#C" n="21" break="no"/>tus Sanctus sunt tres essentiae: quia sunt,  
+      <lb ed="#C" n="22"/>tres habentes commune, quod est 
+      essen<lb ed="#C" n="23" break="no"/>tia, quod cum non concedamus eam, 
+      <lb ed="#C" n="24"/>talis expositio non est admittenda, 
+      <lb ed="#C" n="25"/>Rursum alia expositio non est bona: 
+      <lb ed="#C" n="26"/>dicunt enim: alia est Persona Patris, 
+      <lb ed="#C" n="27"/>alia Filij, sic esse intelligendum, quod 
+      <lb ed="#C" n="28"/>Pater est alius, &amp; Filius est alius 
+      ha<lb ed="#C" n="29" break="no"/>bentes commune id, quod est Persona: 
+      <lb ed="#C" n="30"/>secundum quem modum expositionis 
+      <lb ed="#C" n="31"/>possemus concedere: alia est essentia 
+      <lb ed="#C" n="32"/>Patris, alia Filij: quia Pater est alius 
+      <lb ed="#C" n="33"/>&amp; Filius est alius habentes commune 
+      <lb ed="#C" n="34"/>id, quod est essentia. 
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e196">
+               <lb ed="#C" n="35"/>Item super illo: Quadam tamen neces 
+      <lb ed="#C" n="36"/>sitate. Notandum, quod Persona in 
+      <lb ed="#C" n="37"/>in creaturis dicit quid absolutum: &amp; 
+      <lb ed="#C" n="38"/>ideo tale vocabulum quadam 
+      necessi<lb ed="#C" n="39" break="no"/>tate accomodatum fuit ad designa 
+      <lb ed="#C" n="40"/>dum pluralitatem Divinorum 
+      suppo<lb ed="#C" n="41" break="no"/>sitorum; sed postquam bene visa fuit,  
+      <lb ed="#C" n="42"/>significatio eius, &amp; quod congrue se 
+      <lb ed="#C" n="43"/>cundum nominis significatum in 
+      Divi<lb ed="#C" n="44" break="no"/>nis poterat relationem importare, non 
+      <lb ed="#C" n="45"/>solum necessitate, sed significati 
+      con<lb ed="#C" n="46" break="no"/>gruitate usi tali vocabulo sumus, &amp; 
+      <lb ed="#C" n="47"/>congruentet respondemus, Ad quid tres 
+      <lb ed="#C" n="48"/>Tres Personae. 
+      <lb ed="#C" n="49"/>Item super illo: Hoc nomemn pluraliter, videtur  
+      <lb ed="#C" n="50"/>velle Mag. quod pluraliter sumptum hoc 
+      <lb ed="#C" n="51"/>nomen, Persona, non stet pro essentia, 
+      <lb ed="#C" n="52"/>sed pro hypostasi: singulariter tamer 
+      <lb ed="#C" n="53"/>stat proessentia. Sed contra: plurale 
+      <lb ed="#C" n="54"/>non est nisi singulare geminatum. Si er 
+      <lb ed="#C" n="55"/>go persona importet relationem in 
+      <!--526.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="56"/>plurali, importabit eam in singulari: 
+      <lb ed="#C" n="57"/>non igitur in plurali stabit pro 
+      hypo<lb ed="#C" n="58" break="no"/>stasi, in singulari pro essentia. 
+      Dicen<lb ed="#C" n="59" break="no"/>dum, quod Persona tam in singulari 
+      <lb ed="#C" n="60"/>quam in plurali significat hypostasum? 
+      <lb ed="#C" n="61"/>tamen propter identitatem realem, quam 
+      <lb ed="#C" n="62"/>habet hypostasis ad essentiam, in 
+      singu<lb ed="#C" n="63" break="no"/>lari Persona potest sumi pro essentia, 
+      <lb ed="#C" n="64"/>non autem in plurali propter 
+      repug<lb ed="#C" n="65" break="no"/>nantiam intellectuum. 
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e270">
+               <lb ed="#C" n="66"/>Item super illo: Tres Personas esse 
+      u<lb ed="#C" n="67" break="no"/>nam essentiam, vel eiusdem essentiae, sed non ex 
+      <lb ed="#C" n="68"/>eadem essentia. Sed contra. quia si tres 
+      <lb ed="#C" n="69"/>Personae sunt una essentia, tunc cum 
+      <lb ed="#C" n="70"/>essentia praedicetur in recto de tribus 
+      <lb ed="#C" n="71"/>Personis, denotatur identitas 
+      essen<lb ed="#C" n="72" break="no"/>tiae ad Personas: non igitur poterit 
+      <lb ed="#C" n="73"/>praedicari in obliquo, ut dicatur, tres 
+      <lb ed="#C" n="74"/>Personae unius essentiae: cum per 
+      ta<lb ed="#C" n="75" break="no"/>lem praedicationem diversitas designe 
+      <lb ed="#C" n="76"/>tur.  
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e297">
+               <lb ed="#C" n="77"/>Item concedimus tres Personas 
+      es<lb ed="#C" n="78" break="no"/>se unius essentiae, ex qua praedicatione 
+      <lb ed="#C" n="79"/>denotatur differentia essentiae ad 
+      Per<lb ed="#C" n="80" break="no"/>sonas, concedere debemus tres Perso 
+      <lb ed="#C" n="81"/>nas esse ex eadem essentia: cum non 
+      <lb ed="#C" n="82"/>sit causa alia, quare negetur haec 
+      pro<lb ed="#C" n="83" break="no"/>positio, nisi propter differentiam 
+      essen<lb ed="#C" n="84" break="no"/>tiae ad Personam, quam, ex, 
+      proposi<lb ed="#C" n="85" break="no"/>tio denotat. 
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e319">
+               <lb ed="#C" n="86"/>Dicendum ad 1. quod Persona 
+      dif<lb ed="#C" n="87" break="no"/>fert ab essentia, &amp; est idem cum 
+      esse<lb ed="#C" n="88" break="no"/>tia, est idem re, differt ratione: &amp; prop 
+      <lb ed="#C" n="89"/>ter identitatem dicimus tres Personas 
+      <lb ed="#C" n="90"/>esse unam essentiam, propter 
+      differen<lb ed="#C" n="91" break="no"/>tiam concedimus eas esse eiusdem 
+      es<lb ed="#C" n="92" break="no"/>sentiae. 
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e337">
+               <lb ed="#C" n="93"/>Ad 2. ddm, quod, ex, videtur 
+      im<lb ed="#C" n="94" break="no"/>portare habitudinem causae materialis, 
+      <lb ed="#C" n="95"/>quam habitudinem non habet essentia 
+      <lb ed="#C" n="96"/>respectu Personarum. Sed genitivus 
+      <lb ed="#C" n="97"/>potest importare habitudinem causae 
+      <lb ed="#C" n="98"/>formalis: &amp; quia essentia se habet ad 
+      <lb ed="#C" n="99"/>Personas quodam modo per modum 
+      <lb ed="#C" n="100"/>causae formalis, concedimus tres 
+      Per<lb ed="#C" n="101" break="no"/>sonas esse unius essentiae; non ex eadem 
+      <lb ed="#C" n="102"/>essentia. Vnde licet denotetur 
+      diffe<lb ed="#C" n="103" break="no"/>rentia aliqua Personarum ad essentiam, 
+      <lb ed="#C" n="104"/>dicendo, tres Personas unius essentiae, 
+      <lb ed="#C" n="105"/>&amp; ex eadem essentia; tamen propter  
+      <lb ed="#C" n="106"/>aliam &amp; aliam differentiam &amp; 
+      habitu<lb ed="#C" n="107" break="no"/>dinem denotatam hic &amp; ibi, una 
+      con<lb ed="#C" n="108" break="no"/>ceditur, alia negatur.  
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e374">
+               <lb ed="#C" n="109"/>Item super illo: Ex praedictis 
+      colli<lb ed="#C" n="110" break="no"/>igitur. Vult Magist. quod Persona, 
+      tri<lb ed="#C" n="111" break="no"/>pliciter sumitur: quia aliquando sumi¬ 
+      <!--527.xml-->
+      <pb ed="#C" n="490"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>tur pro hypostasi, aliquando pro 
+      pro<lb ed="#C" n="2" break="no"/>prietate, aliquando pro essentia. Sed 
+      <lb ed="#C" n="3"/>contra: de ratione Personae est, quod  
+      <lb ed="#C" n="4"/>significet per modum subsistentis, &amp; 
+      <lb ed="#C" n="5"/>quid incommunicabile. Sed 
+      proprie<lb ed="#C" n="6" break="no"/>tas non significat per modum 
+      subsisten<lb ed="#C" n="7" break="no"/>tis, &amp; essentia non est quid 
+      incommu<lb ed="#C" n="8" break="no"/>nicabile, ergo non potest sumi 
+      Perso<lb ed="#C" n="9" break="no"/>na pro proprietate, nec pro essentia, 
+      <lb ed="#C" n="10"/>ut Mag. dicit.  
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e411">
+               <lb ed="#C" n="11"/>Dicendum, quod Persona 
+      sem<lb ed="#C" n="12" break="no"/>per significat hypostasim: tamen prop 
+      <lb ed="#C" n="13"/>ter identitatem realem, quam habet 
+      <lb ed="#C" n="14"/>hypostasis ad proprietatem &amp; essentiam, 
+      <lb ed="#C" n="15"/>non ratione significationis, Persona 
+      su<lb ed="#C" n="16" break="no"/>mitur non solum pro hypostasi, sed 
+      pro<lb ed="#C" n="17" break="no"/>essentia, &amp; proprietate. 
+    </p>
+            <p xml:id="Gi9qrR-f30519-d1e429">
+               <lb ed="#C" n="18"/>Item super illo: In Trinitate non est 
+      <!--527.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="19"/>aliquis gradus. Contra: in Patre 
+      poni<lb ed="#C" n="20" break="no"/>tur auctoritas, in Filio subauctoritas, 
+      <lb ed="#C" n="21"/>sed hoc non est sine gradu. Dicendum, 
+      <lb ed="#C" n="22"/>quod proprie in Trinitate non est 
+      gra<lb ed="#C" n="23" break="no"/>dus: quia gradus semper dicit, 
+      pro<lb ed="#C" n="24" break="no"/>prie loquendo, maioritatem, &amp; 
+      mino<lb ed="#C" n="25" break="no"/>ritatem: unde ponere gradus in Trinitate 
+      <lb ed="#C" n="26"/>est loqui secundum perfidiam 
+      Atria<lb ed="#C" n="27" break="no"/>nam, quae posuit Filium minorem 
+      Pa<lb ed="#C" n="28" break="no"/>tre: extendendo nomen gradus ad om 
+      <lb ed="#C" n="29"/>nem ordinem. In Divinis sunt gradus: 
+      <lb ed="#C" n="30"/>quia est ibi ordo originis, &amp; propter  
+      <lb ed="#C" n="31"/>istum ordinem in Patre est auctoritas, 
+      <lb ed="#C" n="32"/>in Filio subauctoritas: non tamen 
+      con<lb ed="#C" n="33" break="no"/>muniter conceditur subauctoritas iti 
+      <lb ed="#C" n="34"/>Filio, licet concedatur auctoritas iri 
+      <lb ed="#C" n="35"/>Patre. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

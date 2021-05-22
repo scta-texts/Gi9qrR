@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litteralis</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litteralis</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="65"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-e17311"><!-- l1-d2dublit -->
+            <head xml:id="Gi9qrR-e17311-Hd1e108">Dubitationes litteralis</head>
+            <p xml:id="Gi9qrR-e17311-d1e111">
+               <lb ed="#C" n="41"/>DVBIIATIONES LITTERALES.
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e116">
+               <lb ed="#C" n="42"/>FEGSSSSESVPER litteram videtur quod 
+      <lb ed="#C" n="43"/>&amp; &amp; male dicat, quod acies hu¬ 
+      <lb ed="#C" n="44"/>manae mentis non potest 
+      fi<lb ed="#C" n="45" break="no"/>SSSS555; gi in luce Divina, nisi mun¬ 
+      <lb ed="#C" n="46"/>detur per Fidem: quia tumo 
+      <lb ed="#C" n="47"/>sequeretur, quod soli boni talem 
+      cogni<lb ed="#C" n="48" break="no"/>tionem haberent, quod falsum est: 
+      vi<lb ed="#C" n="49" break="no"/>demus enim malos homines plus scire 
+      de<lb ed="#C" n="50" break="no"/>Divinis aliquando, quam bonos. 
+      Res<lb ed="#C" n="51" break="no"/>pondeo dicendum: quod mali 
+      homi<lb ed="#C" n="52" break="no"/>nes, si habent maiorem cognitionem, 
+      <lb ed="#C" n="53"/>non habent eam fixam: quia propter 
+      di<lb ed="#C" n="54" break="no"/>versitatem appetitus depravatur. Vel pos  
+      <!--102.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="55"/>sumus dicere, quod hoc dictum 
+      tempe<lb ed="#C" n="56" break="no"/>ratur per dictum sequens: ubi dicitur  
+      <lb ed="#C" n="57"/>Multos non mundos multa scire vera. 
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e158">
+               <lb ed="#C" n="58"/>Item super illud: Nec alicubi 
+      periculo<lb ed="#C" n="59" break="no"/>sius erratur. Contra: in principio 
+      secun<lb ed="#C" n="60" break="no"/>di de Trinitate dicitur, quod in talibus 
+      <lb ed="#C" n="61"/>facillime meremur veniam. Dicendum, 
+      <lb ed="#C" n="62"/>quod circa Divina error est periculosus; 
+      <lb ed="#C" n="63"/>&amp; meretur indulgentiam; sed non eodem 
+      mo<lb ed="#C" n="64" break="no"/>do: quia periculum attenditur ratione 
+      <lb ed="#C" n="65"/>materiae: quia Fides, circa quam est 
+      ta<lb ed="#C" n="66" break="no"/>lis error, totum sustinet spirituale 
+      aedi<lb ed="#C" n="67" break="no"/>ficium. Indulgentia autem habetur: si 
+      <lb ed="#C" n="68"/>suppositis fundamentis Fidei investigatur 
+      <lb ed="#C" n="69"/>veritas secundum modum nobis 
+      possi<lb ed="#C" n="70" break="no"/>bilem. Est ergo periculum ratione rei, &amp; 
+      <lb ed="#C" n="71"/>indulgentia ratione modi¬ 
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e191">
+               <lb ed="#C" n="72"/>Item super illud Dominus est nomen 
+      pote<lb ed="#C" n="73" break="no"/>statis. Contra: Dominus dicit 
+      relatio<lb ed="#C" n="74" break="no"/>nem, potestas est in praedicamento 
+      quali<lb ed="#C" n="75" break="no"/>tatis, vel non est secundum esse in 
+      prae<lb ed="#C" n="76" break="no"/>dicamento relationis, ergo &amp;c. Dicendum: 
+      <lb ed="#C" n="77"/>in relatione est duo considerare, 
+      funda<lb ed="#C" n="78" break="no"/>mentum, &amp; respectum: &amp; ratione 
+      fun<lb ed="#C" n="79" break="no"/>damenti potest esse relatio in alijs 
+      generi<lb ed="#C" n="80" break="no"/>bus: quia alia genera sunt fundamentum 
+      <lb ed="#C" n="81"/>relationis, ut qualitas similitudinis, &amp; 
+      <lb ed="#C" n="82"/>quantitas aequalitatis: &amp; ideo cum 
+      di<lb ed="#C" n="83" break="no"/>citur: Dominus est nomen potestatis, ibi 
+      po<lb ed="#C" n="84" break="no"/>testas accipitur pro fundamento 
+      relatio<lb ed="#C" n="85" break="no"/>nis. 
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e225">
+               <lb ed="#C" n="86"/>Item super illud: Deus est nomen naturae 
+      <lb ed="#C" n="87"/>ontra: Damasc. lib. 1. cap. 12. ait: 
+      <lb ed="#C" n="88"/>quod Deus, sive Theos dicitur ab eo, quod 
+      <lb ed="#C" n="89"/>est thein, id est, curare, sive fovere, vel  
+      <lb ed="#C" n="90"/>ab ethin, quod est ardere, vel a theaste, 
+      <lb ed="#C" n="91"/>quod est considerare. Sed omnia ista 
+      <lb ed="#C" n="92"/>non dicunt Divinam essentiam, ergo 
+      <lb ed="#C" n="93"/>&amp;c. Dicendum, quod hoc, quod dico, 
+      <lb ed="#C" n="94"/>Deus, dupliciter potest accipi, vel 
+      quan<lb ed="#C" n="95" break="no"/>tum ad id, quod significat, &amp; sic est 
+      no<lb ed="#C" n="96" break="no"/>men naturae: vel quantum ad id, 
+      prop<lb ed="#C" n="97" break="no"/>ter quod nomen est impositum: &amp; sic 
+      <lb ed="#C" n="98"/>procedebant argumenta. 
+      <lb ed="#C" n="99"/>Item super illud, quod ait <name xml:id="Gi9qrR-e17311-Nd1e257" ref="#Augustine">August.</name> in 
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e261">
+               <lb ed="#C" n="100"/>assignando pluralitatem, &amp; unitatem: 
+      <lb ed="#C" n="101"/>quia per hoc, quod dicit, nostram, 
+      deno<lb ed="#C" n="102" break="no"/>tatur distinctio: per hoc, quod dicit  
+      <lb ed="#C" n="103"/>imaginem, denotatur unitas: quia 
+      secun<lb ed="#C" n="104" break="no"/>dum cumdem <name xml:id="Gi9qrR-e17311-Nd1e274" ref="#Augustine">Aug.</name> de Fide ad Petrum: 
+      <lb ed="#C" n="105"/>ubi talem assignationem prosequitur, si 
+      <lb ed="#C" n="106"/>in illis tribus Personis tres essent essentiae, 
+      <lb ed="#C" n="107"/>non diceretur, Ad imaginem nostram: una 
+      <lb ed="#C" n="108"/>enim imago trium naturarum 
+      inaequa<lb ed="#C" n="109" break="no"/>lium esse non posset. Contra: diversae 
+      na<lb ed="#C" n="110" break="no"/>turae inaequales semper sunt imago unius, 
+      <!--103.xml-->
+      <pb ed="#C" n="66"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>ut Angelus, &amp; anima, Dei, ergo una 
+      po<lb ed="#C" n="2" break="no"/>terit esse imago diversarum. Dioendum, 
+      <lb ed="#C" n="3"/>quod non eit simile: quia eadem est 
+      na<lb ed="#C" n="4" break="no"/>tura, quae produxit hominem, &amp; 
+      Ange<lb ed="#C" n="5" break="no"/>lum: &amp; ideo uterque potest esse image 
+      <lb ed="#C" n="6"/>illius: sed si diverse essent naturae 
+      Divi<lb ed="#C" n="7" break="no"/>nae, tunc essent diversa producta, &amp; 
+      <lb ed="#C" n="8"/>quod produceret una, non produceret 
+      <lb ed="#C" n="9"/>alia: vel essent insufficientes ad 
+      produ<lb ed="#C" n="10" break="no"/>cendum: vel una produceret 
+      instrumen<lb ed="#C" n="11" break="no"/>taliter, alia principaliter: &amp; quia 
+      sem<lb ed="#C" n="12" break="no"/>per productum assimilatur magis 
+      princi<lb ed="#C" n="13" break="no"/>pali, nunquam omnium illorum unum, 
+      <lb ed="#C" n="14"/>&amp; idem esset imago. 
+      <lb ed="#C" n="15"/>Item quaeritur de expositione Hilarij. 
+      <lb ed="#C" n="16"/>Et dicendum, quod Hilarius in quolibet  
+      <lb ed="#C" n="17"/>verbo notat distinctionem, &amp; unitatem: 
+      <lb ed="#C" n="18"/>nam cum dicitur: Ad imaginem, &amp; 
+      simi<lb ed="#C" n="19" break="no"/>litudinem: ima go secundum eum est in 
+      <lb ed="#C" n="20"/>Divinis, &amp; sim litudo, ad quam 
+      ima<lb ed="#C" n="21" break="no"/>ginem, &amp; simi litudinem imitandam fit 
+      <lb ed="#C" n="22"/>homo: &amp; quia imago est in Divinis 
+      <lb ed="#C" n="23"/>oportet ibi esse pluralitatem Personarum: 
+      <lb ed="#C" n="24"/>quia imago non est unius solius. 
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e349">
+               <lb ed="#C" n="25"/>Item, nest ibi unitas naturae: quia in 
+      <lb ed="#C" n="26"/>hoc est imago in Divinis: :i quia in 
+      pluri<lb ed="#C" n="27" break="no"/>bus Personis est una essentia, vel natura.
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e358">
+      <!--103.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="28"/>Similiter intelligendum est de similitudia 
+      <lb ed="#C" n="29"/>ne. Ex eo autem quod dicit: faciamus: 
+      <lb ed="#C" n="30"/>datur intelligi pluralitas: ex eo quod sub 
+      <lb ed="#C" n="31"/>dit: nostram, unitas, ut dictum est 
+      sur<lb ed="#C" n="32" break="no"/>pra¬ 
+    </p>
+            <p xml:id="Gi9qrR-e17311-d1e376">
+               <lb ed="#C" n="33"/>Item super illud: Dominus possedit me, 
+      <lb ed="#C" n="34"/>Contra: possessio videtur esse rei 
+      diver<lb ed="#C" n="35" break="no"/>sae a possidente, sed sapientia 
+      increa<lb ed="#C" n="36" break="no"/>ta non est huiusmodi respectu Patris. 
+      Di<lb ed="#C" n="37" break="no"/>cendum, quod ibi possessio non sumitur 
+      <lb ed="#C" n="38"/>ratione diversitatis, sed ratione 
+      perfe<lb ed="#C" n="39" break="no"/>ctionis: quia sapientia perfecte habetur  
+      <lb ed="#C" n="40"/>a Deo Patre: unde in 1. Metaph. 
+      scri<lb ed="#C" n="41" break="no"/>bitur: quod scientia Divina non est 
+      pos<lb ed="#C" n="42" break="no"/>sessio humana: quia non perfecte habet 
+      <lb ed="#C" n="43"/>tur ab homine. Per hoc quod dicitur or¬ 
+      <lb ed="#C" n="44"/>dinata, non est intelligendum de ordine, 
+      <lb ed="#C" n="45"/>quo Persona sit prior Persona, sed quo 
+      <lb ed="#C" n="46"/>Persona est ex Persona: concepta: 
+      subdi<lb ed="#C" n="47" break="no"/>tur ratione unitatis essentiae. Pertinebat, 
+      <lb ed="#C" n="48"/>ratione distinctionis Personarum. 
+      Deie<lb ed="#C" n="49" break="no"/>ctatur, subiungitur propter perfectam 
+      frui<lb ed="#C" n="50" break="no"/>tionem, qua quaelibet Persona plene 
+      de<lb ed="#C" n="51" break="no"/>lectatur. Tudens: subiungitur propter  
+      <lb ed="#C" n="52"/>oeium contemplationis: nam ludus no 
+      <lb ed="#C" n="53"/>appetitur propter aliud, ut scribitur 10. 
+      <lb ed="#C" n="54"/>Ethic. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

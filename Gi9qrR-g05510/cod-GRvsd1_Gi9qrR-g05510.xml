@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="788"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g05510"><!-- l1-d42q1 -->
+            <head xml:id="Gi9qrR-g05510-Hd1e108">Quaestio 1</head>
+            <p xml:id="Gi9qrR-g05510-d1e111">
+      <!--813.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="7"/>Quaestio 1. 
+      <lb ed="#C" n="8"/>De potentia Dei. 
+    </p>
+            <p xml:id="Gi9qrR-g05510-d1e122">
+               <lb ed="#C" n="9"/>RNTENTIO Magistria 
+      <lb ed="#C" n="10"/>in praesenti distinctionem 
+      <lb ed="#C" n="11"/>versatur circa Divinam 
+      <lb ed="#C" n="12"/>potentiam, &amp; circa ea, 
+      <lb ed="#C" n="13"/>quae Divinae potentiae 
+      <lb ed="#C" n="14"/>sunt subiecta: ideo de 
+      <lb ed="#C" n="15"/>his duobus quaeremus, 
+      <lb ed="#C" n="16"/>Circa primum quaeremus duo. Primo: 
+      <lb ed="#C" n="17"/>utrum in Deo sit potentia? Secundos 
+      <lb ed="#C" n="18"/>utrum huiusmodi potentia sit una, vd ¬ 
+      <lb ed="#C" n="19"/>plures? 
+    </p>
+            <div xml:id="Gi9qrR-g05510-Dd1e148">
+               <head xml:id="Gi9qrR-g05510-Hd1e150">Articulus 1</head>
+               <p xml:id="Gi9qrR-g05510-d1e153">
+                  <lb ed="#C" n="20"/>ARTICVLVS I. 
+        <lb ed="#C" n="21"/>Vtrum in Deo sit potentia
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e160">
+                  <lb ed="#C" n="22"/>D 1. sic proceditur: videtur, quod 
+        <lb ed="#C" n="23"/>in Deo non sit potentia. Nam 
+        po<lb ed="#C" n="24" break="no"/>tentia secundum Phm, vel est accident: 
+        <lb ed="#C" n="25"/>lis, vel essentialis; sed in Deo non es 
+        <lb ed="#C" n="26"/>potentia essentialis, nec accidentalis: 
+        <lb ed="#C" n="27"/>ergo nulla potentia in eo existit. 
+        Pro<lb ed="#C" n="28" break="no"/>batio assumptae: nam tam potentiae 
+        <lb ed="#C" n="29"/>essentialis, quam acc identalis impe 
+        <lb ed="#C" n="30"/>fectionem dicunt: potentia eni 
+        <lb ed="#C" n="31"/>essentialis imperfectionem dicit: quia 
+        <lb ed="#C" n="32"/>non est connuncta actui primo. Potentia 
+        <lb ed="#C" n="33"/>vero accidentalis dicit imperfectionem: 
+        <lb ed="#C" n="34"/>quia non semper est coluncta actui: sed  
+        <lb ed="#C" n="35"/>quae imperfectionem dicunt, Deo nullo 
+        <lb ed="#C" n="36"/>modo sunt attribuenda: ergo in eo 
+        <lb ed="#C" n="37"/>nulla existit potentia.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e197">
+        Praeterea: 
+        secun<lb ed="#C" n="38" break="no"/>dum Philosopm 9. Meta. in bonis actus est 
+        <lb ed="#C" n="39"/>melior potentia; in malis autem 
+        econ<lb ed="#C" n="40" break="no"/>verso. Cum ergo in Deo non sit nisi 
+        bo<lb ed="#C" n="41" break="no"/>num, &amp; sit quidquid melius est esse, quam 
+        <lb ed="#C" n="42"/>non esse, in Deo nulla est ponenda po¬ 
+        <!--813.xml-->
+        <cb ed="#C" n="d"/>
+                  <lb ed="#C" n="43"/>tentia, ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e217">
+        Praeterea: Deus agit 
+        <lb ed="#C" n="44"/>per essentiam suam, sed quae sic agunt,  
+        <lb ed="#C" n="45"/>non agunt mediante potentia; non 
+        er<lb ed="#C" n="46" break="no"/>go in Deo est potentia ponenda, sed  
+        <lb ed="#C" n="47"/>sufficit ibi ponere suam essentiam, per 
+        <lb ed="#C" n="48"/>quam agit. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e231">
+        Praeterea: si in Deo est 
+        pon<lb ed="#C" n="49" break="no"/>tentia, vel est potentia activa, vel 
+        pas<lb ed="#C" n="50" break="no"/>siva? Passiva non: cum in eo nulla sit 
+        <lb ed="#C" n="51"/>materia, nec materiale. Nec etiam 
+        acti<lb ed="#C" n="52" break="no"/>va: quia huiusmodi potentia, ut vult 
+        <lb ed="#C" n="53"/>Philosophus 5. Meta. est principium transmuta 
+        <lb ed="#C" n="54"/>tionis in aliud: Deus autem in agendo 
+        <lb ed="#C" n="55"/>non praesupponit materiam, nec aliquid 
+        <lb ed="#C" n="56"/>aliud, in quod agat: ergo &amp;c.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e251">
+        Praeterea: 
+        <lb ed="#C" n="57"/>si in Deo est potentia activa, vel est sem 
+        <lb ed="#C" n="58"/>per coniuncta actui, vel non? Si non, cum  
+        <lb ed="#C" n="59"/>potentia perficiatur per actum, aliquam 
+        <lb ed="#C" n="60"/>do Divina potentia imperfecta est. Si 
+        <lb ed="#C" n="61"/>autem actui semper est coniuncta: ergo 
+        <lb ed="#C" n="62"/>creaturae fuerunt ab aeterno, cum 
+        huius<lb ed="#C" n="63" break="no"/>modi potentia sit aeterna 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e269">
+                  <lb ed="#C" n="64"/>In contrarium est: quia non agit, nisi 
+        <lb ed="#C" n="65"/>quod potest agere. Si ergo Primam 
+        cau<lb ed="#C" n="66" break="no"/>sam, &amp; Deum dicimus producere 
+        om<lb ed="#C" n="67" break="no"/>nia, &amp; facere, oportet, quod talia 
+        pos<lb ed="#C" n="68" break="no"/>sit: sed non est posse sine potentia, ergo 
+        <lb ed="#C" n="69"/>In Deo est potentia. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e285">
+                  <lb ed="#C" n="70"/>RESOLVTIO. 
+        <lb ed="#C" n="71"/>In Deo est potentia activa. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e292">
+                  <lb ed="#C" n="72"/>REspond. dicendum, quod secundum 
+        <lb ed="#C" n="73"/>DPVhsm 5. Meta. duplex est potentia, 
+        <lb ed="#C" n="74"/>activa, &amp; passiva: &amp; quia quotiescunque 
+        <lb ed="#C" n="75"/>aliquod nomen analogice convenit mul 
+        <lb ed="#C" n="76"/>tis, oportet secundum suam rationem 
+        <lb ed="#C" n="77"/>prius convenire uni eorum: quia poten 
+        <lb ed="#C" n="78"/>tia analogice dicitur de activa, &amp; 
+        passi<lb ed="#C" n="79" break="no"/>va, secudum quod probat Philosophus ibidem, per 
+        <lb ed="#C" n="80"/>prius dicitur de potentia activa, quam 
+        <lb ed="#C" n="81"/>passiva. Et quia per se potentia respicit 
+        <lb ed="#C" n="82"/>actum, nunquam reperitur aliquid adeo 
+        <lb ed="#C" n="83"/>in actu; in quo non reperiatur potentiam 
+        <lb ed="#C" n="84"/>immo magis quato aliquid est in actu, 
+        <lb ed="#C" n="85"/>tanto est magis potens, loquendo de 
+        <lb ed="#C" n="86"/>potentia activa: &amp; quia Deus maxime 
+        <!--814.xml-->
+        <pb ed="#C" n="789"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>est in actu: immo est ipse actus, cum sit 
+        <lb ed="#C" n="2"/>ipsum esse, potissime in eo est 
+        huius<lb ed="#C" n="3" break="no"/>modi potentia. Possumus autem 
+        qua<lb ed="#C" n="4" break="no"/>druplici via manuduci ad ostendendum 
+        <lb ed="#C" n="5"/>in Deo talem potentiam esse. Prime 
+        <lb ed="#C" n="6"/>ratione unitatis, quia quanto aliquid est 
+        <lb ed="#C" n="7"/>magis unum, tanto est magis potens: 
+        <lb ed="#C" n="8"/>loquendo de activa potentia, iuxta 
+        il<lb ed="#C" n="9" break="no"/>lud, quod scribitur in 18. propositione 
+        <lb ed="#C" n="10"/>de causis; omnis virtus unita plus est 
+        inf<lb ed="#C" n="11" break="no"/>nita, quam virtus multiplicata: &amp; o; 
+        <lb ed="#C" n="12"/>propositione Procli scribitur: quod 
+        <lb ed="#C" n="13"/>Omnis potentia unitior existens est infinitio 
+        <lb ed="#C" n="14"/>quam plurificata. Cum igitur Deus sit 
+        <lb ed="#C" n="15"/>summe unus, potissime in eo est talis 
+        <lb ed="#C" n="16"/>potentia. Secunda via sumitur ex eius B 
+        <lb ed="#C" n="17"/>immobilitate. Nam quanto aliquid 
+        ali<lb ed="#C" n="18" break="no"/>quod agens magis movet motum, tan 
+        <lb ed="#C" n="19"/>to magis agit instrumentaliter &amp; est 
+        mi<lb ed="#C" n="20" break="no"/>nus potens. Cum igitur Deus summe 
+        <lb ed="#C" n="21"/>sit immobilis: quia non movetur per 
+        <lb ed="#C" n="22"/>se, sicut corpora, nec per accidens, 
+        si<lb ed="#C" n="23" break="no"/>cut virtutes in corpore, nec ab intra 
+        <lb ed="#C" n="24"/>sicut moventur intelligentiae, quae 
+        mo<lb ed="#C" n="25" break="no"/>ventur propter finem alium a se, quem 
+        <lb ed="#C" n="26"/>intrinsecus &amp; secundum intellectum 
+        <lb ed="#C" n="27"/>apprehendunt; summe erit potens: &amp; 
+        <lb ed="#C" n="28"/>in eo potissime est activa potentia. 
+        Te<lb ed="#C" n="29" break="no"/>tia via sumitur ex eius universalitate 
+        <lb ed="#C" n="30"/>quia quanto in aliquo congregantur  
+        <lb ed="#C" n="31"/>plures rationes factivae, tanto illud es 
+        <lb ed="#C" n="32"/>potentius. Vnde cum omnes virtutes, 
+        <lb ed="#C" n="33"/>quae sunt in istis inferioribus 
+        generabili<lb ed="#C" n="34" break="no"/>bus &amp; corruptibilibus, quodammodo 
+        <lb ed="#C" n="35"/>unitive congregentur in Sole: eo quod 
+        <lb ed="#C" n="36"/>omnia generabilia agunt in virtute 
+        <lb ed="#C" n="37"/>eius, dicimus ipsum esse potentiorem 
+        <lb ed="#C" n="38"/>omnibus istis. Cum igitur in Deo 
+        con<lb ed="#C" n="39" break="no"/>gregentur rationes factivae omnium 
+        <lb ed="#C" n="40"/>quia secundum Comm. 12. Meta. oma 
+        <lb ed="#C" n="41"/>nes proportiones &amp; formae, quae sunt in 
+        <lb ed="#C" n="42"/>potentia in materia prima, sunt actu in 
+        <lb ed="#C" n="43"/>motore Primo, &amp; sunt in eo quasi in al 
+        <lb ed="#C" n="44"/>tifice, &amp; per consequens sicut ratione 
+        <lb ed="#C" n="45"/>factivae, Deus est maxime potens: &amp; in 
+        <lb ed="#C" n="46"/>eo potissime est activa potentia. 
+        Quar<lb ed="#C" n="47" break="no"/>ta via sumitur ex formalitate eius: quis 
+        <lb ed="#C" n="48"/>quanto aliquid est formalius, tanto in 
+        <lb ed="#C" n="49"/>eo maxime est activa potentia. Vnde 
+        <lb ed="#C" n="50"/>dicimus ignem activiorem esse ceteri 
+        <lb ed="#C" n="51"/>elementis, eo quod sit formalior cete 
+        <lb ed="#C" n="52"/>ris. Cum igitur Deus sit summe forma 
+        <lb ed="#C" n="53"/>lis: quia summe in actu: immo secun 
+        <lb ed="#C" n="54"/>c. dum Damasc. 2. lib. cap. 3. omne, quod 
+        <lb ed="#C" n="55"/>ad Deum comparatur, respectu eius 
+        <lb ed="#C" n="56"/>grossum &amp; materiale invenitur: Deus 
+        <!--814.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>ipse potissime est potens, &amp; in eo est 
+        <lb ed="#C" n="58"/>activa potentia. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e464">
+                  <lb ed="#C" n="59"/>Has quatuor vias breviter tangit  
+        <lb ed="#C" n="60"/>Dionysius 5. de Div. nom. qui 
+        compa<lb ed="#C" n="61" break="no"/>rans Deum ad alia, dicit omnia esse in 
+        <lb ed="#C" n="62"/>Deo sicut omnes numeri in uni 
+        <lb ed="#C" n="63"/>tate, sicut omnes lineae incentro, 
+        <lb ed="#C" n="64"/>sicut omnes naturae particulares in 
+        <lb ed="#C" n="65"/>natura universali, sicut omnes 
+        virtu<lb ed="#C" n="66" break="no"/>tes corporales in anima. Ex eo autem, 
+        <lb ed="#C" n="67"/>quod dicit omnia esse in Deo sicut 
+        nu<lb ed="#C" n="68" break="no"/>meri in unitate, tangit viam primam 
+        <lb ed="#C" n="69"/>suptam ex parte unitatis. Nam solus 
+        ip<lb ed="#C" n="70" break="no"/>se est vere potens, cum solus ipse sit 
+        ve<lb ed="#C" n="71" break="no"/>re unus; omnis autem creatura a vera 
+        <lb ed="#C" n="72"/>potentialitate deficit, cum habeat 
+        ra<lb ed="#C" n="73" break="no"/>tionem numeri. Ex eo vero, quod dicit 
+        <lb ed="#C" n="74"/>omnia in Deo esse, sicut omnes lineae 
+        <lb ed="#C" n="75"/>in centro, innuit secundam viam sump 
+        <lb ed="#C" n="76"/>tam ex immobilitate Dei. Nam lineae &amp; 
+        <lb ed="#C" n="77"/>circumferentia, quae sunt circa centrum, 
+        <lb ed="#C" n="78"/>moventur; centrum ipsum manet im 
+        <lb ed="#C" n="79"/>mobile: quia vero subdit omnia in Deo 
+        <lb ed="#C" n="80"/>existere, sicut naturae particulares in 
+        na<lb ed="#C" n="81" break="no"/>tura universali, dat intelligere viam 
+        ter<lb ed="#C" n="82" break="no"/>tiam, quae accipitur ex universalitate eius. 
+        <lb ed="#C" n="83"/>Congregantur enim omnes rationes 
+        fa<lb ed="#C" n="84" break="no"/>ctivae istorum particularium in ipso Deo, 
+        <lb ed="#C" n="85"/>quasi in quodam universali principio. 
+        <lb ed="#C" n="86"/>DEx eo vero, quod addit omnia in eo 
+        es<lb ed="#C" n="87" break="no"/>se, sicut virtutes corporales in anima 
+        <lb ed="#C" n="88"/>pandit in nobis viam quartam, quae 
+        su<lb ed="#C" n="89" break="no"/>mitur ex formalitate ipsius Dei. Est enim 
+        <lb ed="#C" n="90"/>oni corpore formalior: &amp; quia in Deo 
+        <lb ed="#C" n="91"/>esse activa potentia sic manifestis viis ad 
+        <lb ed="#C" n="92"/>dicendum cogimus: Postquam 
+        Diony<lb ed="#C" n="93" break="no"/>posuit dictos modos, concludit Deum 
+        <lb ed="#C" n="94"/>esse principium a quo omnia existunt,  
+        <lb ed="#C" n="95"/>in quo est omnis ordo, omnis armonia, 
+        <lb ed="#C" n="96"/>omnis virtus. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e550">
+                  <lb ed="#C" n="97"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="98"/>quod illa divisio non est divisio 
+        poten<lb ed="#C" n="99" break="no"/>tiae simpliciter; sed potentiae passivae &amp; 
+        <lb ed="#C" n="100"/>&amp; receptivae: huiusmodi potentia in 
+        <lb ed="#C" n="101"/>Deo non existit. Et per hoc patet 
+        solu<lb ed="#C" n="102" break="no"/>tio ad secundum: quia cum in Deo non 
+        <lb ed="#C" n="103"/>sit potentiam passiva, sed activa, non 
+        di<lb ed="#C" n="104" break="no"/>stans ab actum, non ponimus aliquid in 
+        <lb ed="#C" n="105"/>Deo, quod deroget suae bonitati.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e572">
+        Ad 3. 
+        <lb ed="#C" n="106"/>dicendum, quod Deus non agit 
+        poten<lb ed="#C" n="107" break="no"/>tia media, quae sit differens ab essentia 
+        <lb ed="#C" n="108"/>sua; sed sicut suum agere est suum esse, 
+        <lb ed="#C" n="109"/>sic sua substantia est sua virtus. Vnde 
+        po<lb ed="#C" n="110" break="no"/>nere sic ipsum agere per potentiam non 
+        <lb ed="#C" n="111"/>est ponore, quod agat per aliquid super 
+        <lb ed="#C" n="112"/>additum essentiae, vel ab essentia diffe¬ 
+        <!--815.xml-->
+        <pb ed="#C" n="790"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>res. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e598">
+        Ad 4. dicendum, iquod potentia 
+        <lb ed="#C" n="2"/>activa, quae supponit in quod agat, est  
+        <lb ed="#C" n="3"/>potentia creata, non tamem propter hoc  
+        <lb ed="#C" n="4"/>in Deo non est potentia activa: quia, non 
+        <lb ed="#C" n="5"/>supponit in quod agat. Immo tanto ma 
+        <lb ed="#C" n="6"/>gis est in eo potentia activa, quam in 
+        a<lb ed="#C" n="7" break="no"/>liis, quanto magis habet rationem 
+        prin<lb ed="#C" n="8" break="no"/>cipij productivi, quod potest agere 
+        nul<lb ed="#C" n="9" break="no"/>lo praesupposito, quam quod requirit  
+        <lb ed="#C" n="10"/>materiam, in quam agat. Nam sicut in 
+        <lb ed="#C" n="11"/>materia prima potissime sest potentia 
+        <lb ed="#C" n="12"/>passiva, &amp; in ea secundum se non est 
+        ali<lb ed="#C" n="13" break="no"/>qua activa potentia, sic in Deo 
+        potissi<lb ed="#C" n="14" break="no"/>me est activa potentia, &amp; in eo non est 
+        <lb ed="#C" n="15"/>per se aliqua possibilitas ad patiendum.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e631">
+                  <lb ed="#C" n="16"/>Ad 5. dicendum, quod duplex est actio, 
+        <lb ed="#C" n="17"/> 
+                  <lb ed="#C" n="18"/>quaedam non transiens in exteriorem 
+        <lb ed="#C" n="19"/>materiam, &amp; est perfectio agentis: 
+        quae<lb ed="#C" n="20" break="no"/>dam transiens, &amp; hoc est perfectio 
+        acti<lb ed="#C" n="21" break="no"/>semper Divina virtus fuit coniuncta 
+        <lb ed="#C" n="22"/>actioni in Trinitate, ut intellectus suo 
+        <lb ed="#C" n="23"/>intelligere, &amp; voluntas suo velle. Non 
+        ta<lb ed="#C" n="24" break="no"/>men semper secutus est effectus: quia 
+        ta<lb ed="#C" n="25" break="no"/>lia procedunt ab ipso secundum ordinem 
+        <lb ed="#C" n="26"/>suae sapientiae. Vnde sicut ab aeterno 
+        dis<lb ed="#C" n="27" break="no"/>posuit, sic in tempore producit: nec 
+        <lb ed="#C" n="28"/>propter hoc aliquam imperfectionem in 
+        <lb ed="#C" n="29"/>Deo ponimus, cu semper ponamus ipsum 
+        <lb ed="#C" n="30"/>coniunctum actui interiori, qui est per¬ 
+        <lb ed="#C" n="31"/>. 
+        <lb ed="#C" n="32"/>fectio agentis. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e670">
+                  <lb ed="#C" n="33"/>Rrimo: in Deo est potentia: quia summe u¬ 
+        <lb ed="#C" n="34"/>nus. Omnis enim virtus unita plus est 
+        infi<lb ed="#C" n="35" break="no"/>nita, quam multiplicata. Secundo quantom 
+        <lb ed="#C" n="36"/>aliquid magis movet motum, tanto 
+        magi<lb ed="#C" n="37" break="no"/>movet instrumetaliter, &amp; est minus potes 
+        <lb ed="#C" n="38"/>Cum igitur Deus sit summe immobilit, 
+        <lb ed="#C" n="39"/>quia non movetur per se, sicut corpora, 
+        <lb ed="#C" n="40"/>nec per accidens, sicut virtutes in corpore, 
+        <lb ed="#C" n="41"/>nec ab intra, sicut intelligentiae, summe 
+        <lb ed="#C" n="42"/>erit potens. Tertio: quia in Deo 
+        congre<lb ed="#C" n="43" break="no"/>gantur rationes factivae omnium: quia 
+        se<lb ed="#C" n="44" break="no"/>cundum Commentatorem 12. Meta. com. 
+        <lb ed="#C" n="45"/>39. Omnes proportiones, &amp; formae, quae 
+        <lb ed="#C" n="46"/>sunt potentia in materia prima, sunt actu 
+        <lb ed="#C" n="47"/>in primo motore. Quarto: quia Deus est 
+        <lb ed="#C" n="48"/>magis formalis: quia magis in actu: omne 
+        <lb ed="#C" n="49"/>enim crearum respectu eius est materiale, 
+        <lb ed="#C" n="50"/>&amp; grossum, ergo summe potens: sicut de 
+        <lb ed="#C" n="51"/>igne qui est formalior. 
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-g05510-Dd1e715">
+               <head xml:id="Gi9qrR-g05510-Hd1e717">Articulus 2</head>
+               <p xml:id="Gi9qrR-g05510-d1e720">
+                  <lb ed="#C" n="52"/>ARTICVLVS II. 
+        <lb ed="#C" n="53"/>Vtrum in Deo sint plures potentiae, sive 
+        <lb ed="#C" n="54"/>virtutes? 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e729">
+                  <lb ed="#C" n="55"/>Ecundo quaeritur: utrum in Deo 
+        <lb ed="#C" n="56"/>sint multae potentiae?
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e736">
+        Et videtur  
+        <lb ed="#C" n="57"/>quod sic: quia potentia Divina est prin¬ 
+        <!--815.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="58"/>cipium creaturarum, sed secundum 
+        <lb ed="#C" n="59"/>Philosophum 12. Meta. principia per prima 
+        di<lb ed="#C" n="60" break="no"/>versificantur secundum diversificationem 
+        <lb ed="#C" n="61"/>principiorum: cum ergo quaelibet 
+        crea<lb ed="#C" n="62" break="no"/>tura reducatur in Divinam potentiam 
+        tan<lb ed="#C" n="63" break="no"/>quam in principium proprium, coportet 
+        <lb ed="#C" n="64"/>in Deo esse plures potentias, cum sint;  
+        <lb ed="#C" n="65"/>plura creaturarum genera.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e762">
+        Praeterea: Idem 
+        <lb ed="#C" n="66"/>&amp; similiter sehabens semper idem est aptum 
+        <lb ed="#C" n="67"/>natum facere, cum ergo videamus plura 
+        im<lb ed="#C" n="68" break="no"/>mediate processisse a Primo principio, 
+        <lb ed="#C" n="69"/>pportet in eo plures potentias existere, 
+        <lb ed="#C" n="70"/>quibus mediantibus plura producat. Nam 
+        <lb ed="#C" n="71"/>si solum una, &amp; eadem potentia in ipso 
+        <lb ed="#C" n="72"/>existeret: cum semper maneret idem, 
+        <lb ed="#C" n="73"/>semper idem produceret.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e783">
+        Praeterea: dici¬ 
+        <lb ed="#C" n="74"/>mus in Deo esse velle, &amp; intelligeret: 
+        er<lb ed="#C" n="75" break="no"/>go oportet in eo dare virtute, quae vultj 
+        <lb ed="#C" n="76"/>&amp; virtutem, quae intelligit, &amp; ita sunt in 
+        <lb ed="#C" n="77"/>eo plures virtutes, sive plures potentiae
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e794">
+                  <lb ed="#C" n="78"/>Praeterea: aliqua dicimus scit, quae non 
+        <lb ed="#C" n="79"/>vult, non ergo in eo idem est scientia, &amp; 
+        <lb ed="#C" n="80"/>voluntas; sed voluntas Divina habet 
+        ra<lb ed="#C" n="81" break="no"/>tionem potentiae, &amp; virtutis: cum 
+        secun<lb ed="#C" n="82" break="no"/>dum eam dicimus onia producat. 
+        Rur<lb ed="#C" n="83" break="no"/>sum Divina scientia habet rationem 
+        e<lb ed="#C" n="84" break="no"/>tiam potentiae, &amp; virtutis: cum sit causa 
+        <lb ed="#C" n="85"/>rerum, ut dicit Comm. 12. Meta. sunt, u 
+        <lb ed="#C" n="86"/>ergo in Deo plures potentiae, cum sint  
+        <lb ed="#C" n="87"/>in eo scientia, &amp; voluntas.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e818">
+        Praeterea: ea, 
+        <lb ed="#C" n="88"/>quae videmus in istis inferioribus, 
+        redu<lb ed="#C" n="89" break="no"/>cuntur in attributa Divina tanquam in 
+        <lb ed="#C" n="90"/>ea, per quae in esse processerunt: ut ex 
+        vi<lb ed="#C" n="91" break="no"/>ta Divina est omnis vita, ex eius bonitate 
+        <lb ed="#C" n="92"/>omnis bonitas: quodlibet ergo Divinum 
+        <lb ed="#C" n="93"/>attributum habet rationem potentiae, &amp; 
+        <lb ed="#C" n="94"/>virtutis: cum ergo sint in Deo plura 
+        <lb ed="#C" n="95"/>attributa, sunt in eo plures potentiae, 
+        <lb ed="#C" n="96"/>In contrarium est: quia secudum <name xml:id="Gi9qrR-g05510-Nd1e839" ref="#Augustine">Aug.</name> 
+                  <lb ed="#C" n="97"/>5. de Trin. cap. 8. in Deo non sunt 
+        plu<lb ed="#C" n="98" break="no"/>res magnitudines, sed una magnitudo: 
+        <lb ed="#C" n="99"/>cum ergo non sit magnitudo nisi virtutis, 
+        <lb ed="#C" n="100"/>non erunt in eo plures virtutes, vel 
+        plu<lb ed="#C" n="101" break="no"/>res potentiae, sicut nec plures 
+        mag<lb ed="#C" n="102" break="no"/>ynitudines.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e856">
+        Praeterea: Non est multitudo 
+        <lb ed="#C" n="103"/>quae non sit unius particeps: ut dicit Diony. 
+        <lb ed="#C" n="104"/>13. de Div. nom. &amp; habetur in prima 
+        <lb ed="#C" n="105"/>propositione Procli: igitur omne agens 
+        <lb ed="#C" n="106"/>per multas virtutes, &amp; potetias reducitur 
+        <lb ed="#C" n="107"/>in illud, quod per unam potentiam 
+        a<lb ed="#C" n="108" break="no"/>igit. Nam ex hoc omnis multitudo 
+        parti<lb ed="#C" n="109" break="no"/>cipat aliqualiter uno: quia ab unitate 
+        <lb ed="#C" n="110"/>procedit, &amp; in unitatem reducitur. Cum 
+        <lb ed="#C" n="111"/>ergo Deus non reducatur in aliud 
+        ali<lb ed="#C" n="112" break="no"/>quid agens, non possumus dicere, in 
+        eo<lb ed="#C" n="113" break="no"/>esse plures virtutes, vel plures potentias.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e882">
+        <!--816.xml-->
+                  <pb ed="#C" n="791"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>RESOLVTIO. 
+        <lb ed="#C" n="2"/>In Deo non sunt plures potentiae, sive vir¬ 
+        <lb ed="#C" n="3"/>tutes, sed una virtus, quia 
+        <lb ed="#C" n="4"/>unum esse: 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e900">
+                  <lb ed="#C" n="5"/>REspond. dicendum, quod si 
+        ali<lb ed="#C" n="6" break="no"/>quod motivum habere possumus ac 
+        <lb ed="#C" n="7"/>ponendum plures potentias in Deo, ex 
+        <lb ed="#C" n="8"/>pluralitate actuum, qui procedunt, a 
+        <lb ed="#C" n="9"/>Divina virtute, sumet, initium. 
+        Huius<lb ed="#C" n="10" break="no"/>modi autem actus, qui ex Divina virtur 
+        <lb ed="#C" n="11"/>te procedunt, dupliciter distinguuntur:  
+        <lb ed="#C" n="12"/>quia quidam non transeunt in 
+        exterio<lb ed="#C" n="13" break="no"/>rem materiam, sicut dicimus Deum 
+        in<lb ed="#C" n="14" break="no"/>telligere per virtutem intellectivam, E 
+        <lb ed="#C" n="15"/>vel per voluntatem. Quidam autem 
+        <lb ed="#C" n="16"/>transcunt, sicut apparet per ea, quae in 
+        <lb ed="#C" n="17"/>creaturis videmus per virtutem Divinam 
+        <lb ed="#C" n="18"/>producta. Ponere autem in Deo plures 
+        <lb ed="#C" n="19"/>potentias ratione actuum non transeun 
+        <lb ed="#C" n="20"/>tium in exteriorem materiam non est 
+        <lb ed="#C" n="21"/>decens: nam omnes huiusmodi: actus 
+        <lb ed="#C" n="22"/>sunt idem, quod ipsum esse Divinum, &amp; 
+        <lb ed="#C" n="23"/>unam &amp; eandem rem dicunt: propter  
+        <lb ed="#C" n="24"/>quod non inferunt potentiarum diver 
+        <lb ed="#C" n="25"/>sitatem: &amp; sicut huiusmodi actus sunt,  
+        <lb ed="#C" n="26"/>ipsum esse Divinum, &amp; ipsa Divina 
+        sub<lb ed="#C" n="27" break="no"/>stantia, sic etiam sunt idem, quod ipsa 
+        <lb ed="#C" n="28"/>Divina virtus: unde ratio principij non 
+        <lb ed="#C" n="29"/>reservatur in Divina virtute respectu 
+        ta<lb ed="#C" n="30" break="no"/>lium nisi secundum intellectum tantum 
+        <lb ed="#C" n="31"/>Si ergo aliquid potest facere dubium in 
+        <lb ed="#C" n="32"/>quaesito, ipsa diversitas terum &amp; multis 
+        <lb ed="#C" n="33"/>tudo eorum, quae a Deo procedunt, 
+        <lb ed="#C" n="34"/>dubium faciet: cum talia sint a Deo 
+        va<lb ed="#C" n="35" break="no"/>ria &amp; diversa. Ideo notandum, quod  
+        <lb ed="#C" n="36"/>uanto aliquid magis habet rationem 
+        <lb ed="#C" n="37"/>universalis &amp; primi, tanto magis modo 
+        <lb ed="#C" n="38"/>unitivo comparatur ad plura. Sic enim 
+        <lb ed="#C" n="39"/>videmus in omnibus potentiis, quod  
+        <lb ed="#C" n="40"/>primae &amp; universales remanet 
+        impluri<lb ed="#C" n="41" break="no"/>ficatae; secundariae &amp; particulares 
+        pluri<lb ed="#C" n="42" break="no"/>ficantur. Nam si consideramus passivas 
+        <lb ed="#C" n="43"/>potentias, invenimus materiam prima 
+        <lb ed="#C" n="44"/>esse unam omnium habetium eam; 
+        ma<lb ed="#C" n="45" break="no"/>terie autem proximae sunt ille, quae 
+        pluri<lb ed="#C" n="46" break="no"/>ficantur: sic etiam est in activis poten¬¬ 
+        <lb ed="#C" n="47"/>tijs. Nam generabilia perfecta producum 
+        <lb ed="#C" n="48"/>tur ex Sole &amp; ex simili in specie, ut 
+        ho<lb ed="#C" n="49" break="no"/>mo ex Sole &amp; homine, &amp; capra ex 
+        So<lb ed="#C" n="50" break="no"/>le &amp; capra. Virtutes igitur plurificatae 
+        <lb ed="#C" n="51"/>in huiusmodi agentibus particularibus 
+        <lb ed="#C" n="52"/>quodam modo unitivo congregatur in 
+        So<lb ed="#C" n="53" break="no"/>le: &amp; quia Deus maxime est causa 
+        uni<lb ed="#C" n="54" break="no"/>versalis &amp; Prima: ideo per unicam suam 
+        <!--816.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>virtutem potest omnia producere: 
+        res<lb ed="#C" n="56" break="no"/>pectus igitur &amp; rationes plurificantur: 
+        <lb ed="#C" n="57"/>eo quod non secundum eandem 
+        ratio<lb ed="#C" n="58" break="no"/>nem conpositus est homo, &amp; equus; ipsa 
+        <lb ed="#C" n="59"/>tamen Divina virtus, vel Divina 
+        poten<lb ed="#C" n="60" break="no"/>tia implurificata consistit. Vt autem 
+        ap<lb ed="#C" n="61" break="no"/>pareat unitas Divinae virtutis, &amp; eius 
+        uni<lb ed="#C" n="62" break="no"/>versalitas, notandum, quod secundum 
+        <lb ed="#C" n="63"/>Commen. in 10. Meta. Deus respectuo 
+        <lb ed="#C" n="64"/>rerum est in triplici genere causae. In 
+        ge<lb ed="#C" n="65" break="no"/>nere causae efficientis, formalis 
+        exem<lb ed="#C" n="66" break="no"/>plaris, &amp; finalis. Inquantum est causa 
+        <lb ed="#C" n="67"/>efficiens omnium, omnibus esse tradit, 
+        <lb ed="#C" n="68"/>omnia in esse conservat, in omnibus 
+        <lb ed="#C" n="69"/>ordinem efficit, &amp; omnia ordinat. Prouta 
+        <lb ed="#C" n="70"/>vero est causa formalis exemplaris 
+        om<lb ed="#C" n="71" break="no"/>nium, in eo sunt omnia tanquam in suo 
+        ex<lb ed="#C" n="72" break="no"/>emplari. Prout vero est omnium finis, 
+        <lb ed="#C" n="73"/>ad ipsum omnia ordinatur. Quinque 
+        er<lb ed="#C" n="74" break="no"/>go sunt habitudines creaturarum ad 
+        <lb ed="#C" n="75"/>Deum. Comparantur enim omnes 
+        <lb ed="#C" n="76"/>creaturae ad ipsum tanquam ad id, a quo 
+        <lb ed="#C" n="77"/>esse habent, tanquam ad id, ex quo in 
+        <lb ed="#C" n="78"/>esse conservantur, vel ad illud, per quod 
+        <lb ed="#C" n="79"/>ordinem suscipiunt, &amp; in quo tanquem  
+        <lb ed="#C" n="80"/>in suo exemplari consistunt, &amp; ad quod  
+        <lb ed="#C" n="81"/>aquam ad fisem convertuntur. Secudum 
+        quan<lb ed="#C" n="82" break="no"/>ibet isturum habitudinum habemus; 
+        <lb ed="#C" n="83"/>viam ad concludendum in Deo solum, 
+        <lb ed="#C" n="84"/>unam esse potentiam: cum secundum 
+        <lb ed="#C" n="85"/>unam quamque ipsarum concludatur 
+        <lb ed="#C" n="86"/>Deum esse ipsum esse, &amp; quod sua 
+        vir<lb ed="#C" n="87" break="no"/>tus est suum esse, propter quod est una 
+        <lb ed="#C" n="88"/>pirtus eius, quod est suum esse, quod sic 
+        <lb ed="#C" n="89"/>declaratur: nam quia Deus omnibus 
+        <lb ed="#C" n="90"/>esse tribuit, oportet, quod in eo sit 
+        om<lb ed="#C" n="91" break="no"/>nis ratio: essendi: propter quod est ip 
+        <lb ed="#C" n="92"/>sum esse purum: nihil est ergo in eo 
+        ali<lb ed="#C" n="93" break="no"/>ud a fuo esse, quia si esset in eo aliquid 
+        <lb ed="#C" n="94"/>aliud ab esse, non esset causa, quare 
+        <lb ed="#C" n="95"/>omnia haberent esse: igitur sua virtus, 
+        <lb ed="#C" n="96"/>uae est in ipso, nihil est aliud, quam suum 
+        <lb ed="#C" n="97"/>esse i est igitur sua virtus una, sicut &amp; suum 
+        <lb ed="#C" n="98"/>esse, quia esse abstractum, &amp; purum 
+        plurifi<lb ed="#C" n="99" break="no"/>cari non potest. Secundo: quia Deus 
+        om<lb ed="#C" n="100" break="no"/>nia conservat in esse, etiam est ipsum esse,¬ 
+        <lb ed="#C" n="101"/>quia si non esset ipsum esse, participaret 
+        <lb ed="#C" n="102"/>esse: &amp; si participaret esse, ab alio 
+        habe<lb ed="#C" n="103" break="no"/>ret esse: &amp; si ab alio haberet esse, non 
+        om<lb ed="#C" n="104" break="no"/>nia conservaret in esse; sed ipse indigeret 
+        <lb ed="#C" n="105"/>ab alio: conservari, Suam ergo virtus est 
+        <lb ed="#C" n="106"/>dum esse: cum nihil sit in ipso praeter 
+        esse<lb ed="#C" n="107" break="no"/>&amp; quia unum est suum esse, una est sua 
+        <lb ed="#C" n="108"/>virtus. Tertio: quia Deus omnibus 
+        or<lb ed="#C" n="109" break="no"/>dinem tradit, oportet eum esse praeter 
+        <lb ed="#C" n="110"/>istum ordinem; aliter enim suprase 
+        <!--817.xml-->
+        <pb ed="#C" n="792"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ipsum causalitatem haberet, sed omne, 
+        <lb ed="#C" n="2"/>quod habet naturam distantem ab esse, 
+        <lb ed="#C" n="3"/>contrahitur ad aliquod genus, &amp; ad 
+        ali<lb ed="#C" n="4" break="no"/>quam speciem: propter quam 
+        contra<lb ed="#C" n="5" break="no"/>ctionem est pars universi, &amp; intra ambitum 
+        <lb ed="#C" n="6"/>huius ordinis continetur. Deus autem 
+        <lb ed="#C" n="7"/>supra omnem talem ordinem colloca 
+        <lb ed="#C" n="8"/>tus: eo quod omnem talem ordinem 
+        <lb ed="#C" n="9"/>causet, est actus purus, &amp; est ipsum esse 
+        <lb ed="#C" n="10"/>propter quod cum sit sua virtus, sua vir 
+        <lb ed="#C" n="11"/>tus erit ipsum esse: cum nihil sit in 
+        <lb ed="#C" n="12"/>eo a suo esse differens, erit ergo sua 
+        vir<lb ed="#C" n="13" break="no"/>us una, sicut &amp; suum esse. Quarto: 
+        o<lb ed="#C" n="14" break="no"/>portet Deum esse ipsum esse, quia in eo 
+        <lb ed="#C" n="15"/>omnia relucent: nam si non esset 
+        ip<lb ed="#C" n="16" break="no"/>sum esse, esset contractum ad aliquod P 
+        <lb ed="#C" n="17"/>genus vel speciem; sed quod est sic 
+        con<lb ed="#C" n="18" break="no"/>tractum; non potest esse omnium 
+        re<lb ed="#C" n="19" break="no"/>praesentativum: est ergo Deus ipsum 
+        es<lb ed="#C" n="20" break="no"/>se, &amp; quia sua virt is non potest esse dif 
+        <lb ed="#C" n="21"/>ferens ab esse: quia tunc in eo esset aliud 
+        <lb ed="#C" n="22"/>quam esse: propter quod non esset 
+        ip<lb ed="#C" n="23" break="no"/>sum esse, erit una sua virtus, sicut &amp; 
+        ip<lb ed="#C" n="24" break="no"/>sum esse. Quinto: quia Deus est id, ad 
+        <lb ed="#C" n="25"/>quod omnia ordinantur, oportet quod 
+        <lb ed="#C" n="26"/>ut bonum omnis boni: &amp; quia sicut 
+        re<lb ed="#C" n="27" break="no"/>se habent ad esse, sic se habent ad 
+        <lb ed="#C" n="28"/>bonitatem, si in eo est omnis 
+        ratio<lb ed="#C" n="29" break="no"/>ponitatis, in eo est omnis ratio 
+        es<lb ed="#C" n="30" break="no"/>sendi, &amp; ita est ipsum esse: &amp; tunc idem 
+        <lb ed="#C" n="31"/>quod prius: sua virtus est una, sicut &amp; 
+        <lb ed="#C" n="32"/>luum esse: eo quod sit idem sua, virtus 
+        <lb ed="#C" n="33"/>&amp; suum esse. Dicamus ergo, quia virtus 
+        <lb ed="#C" n="34"/>Divina est ipsum esse Divinum, &amp; 
+        ip<lb ed="#C" n="35" break="no"/>sum esse est unum non plurificatum, sua 
+        <lb ed="#C" n="36"/>virtus una &amp; nonplurificata xistet: qua 
+        <lb ed="#C" n="37"/>veritas ex quinque habitudinibus creatu 
+        <lb ed="#C" n="38"/>rarum ad Deum ostensa est. Has autem quinque 
+        <lb ed="#C" n="39"/>habitudines tangit Dionys. ult. de Div. 
+        <lb ed="#C" n="40"/>nom. dicens: Ad eam (supp e Divinam 
+        vir<lb ed="#C" n="41" break="no"/>tutem) recte roferuntur, ei que tribuutur omnia, 
+        <lb ed="#C" n="42"/>a qua, ex qua, per quam sunt omnia, &amp; ordine 
+        <lb ed="#C" n="43"/>quodam disposita sunt, sab ipsa enim sunt, 
+        <lb ed="#C" n="44"/>omnia, inquantum omnibus dat esse: 
+        ex<lb ed="#C" n="45" break="no"/>ipsa, inquantum omnia conservat: per 
+        <lb ed="#C" n="46"/>ipsam, prout omnia ordinat: in ipsa, in 
+        <lb ed="#C" n="47"/>quantum in ea omnia relucent: ad ipsam, 
+        <lb ed="#C" n="48"/>quia ad eam omnia reducuntur. Et quia 
+        <lb ed="#C" n="49"/>ex his habitudinibus concluditur 
+        Divi<lb ed="#C" n="50" break="no"/>nam virtutem esse unam universalem 
+        <lb ed="#C" n="51"/>&amp; primam: ait Dionysius, quia oportet 
+        <lb ed="#C" n="52"/>nos laudare virtutem Divinam unam 
+        <lb ed="#C" n="53"/>&amp; omnium causam. 
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e1259">
+                  <lb ed="#C" n="54"/>Respond. ad arg. Ad 1. dicendum, 
+        <lb ed="#C" n="55"/>quod Deus est causa Prima, inquantum 
+        <lb ed="#C" n="56"/>non eadem ratione formatur homo, &amp; 
+        <!--817.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>equus: sed ex hoc, ut dictum est, non 
+        <lb ed="#C" n="58"/>arguitur multitudo potentiarum, sed  
+        <lb ed="#C" n="59"/>multitudo rationum, sive respectuum. 
+        <lb ed="#C" n="60"/>Ad 2. dicendum, quod illud intelligen 
+        <lb ed="#C" n="61"/>dum est de agente naturali; non de 
+        a<lb ed="#C" n="62" break="no"/>gente per intellectum, cuiusmodi est 
+        <lb ed="#C" n="63"/>Deus. Hoc tamen in secundo magis 
+        <lb ed="#C" n="64"/>declarabitur.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e1290">
+        Ad 3. dicendum, quod  
+        <lb ed="#C" n="65"/>velle &amp; intelligere in Deo sunt ipsum 
+        <lb ed="#C" n="66"/>esse Divinum: &amp; quia eandem rem dicunt, non 
+        <lb ed="#C" n="67"/>arguunt potentiarum diversitatem. Ad 
+        <lb ed="#C" n="68"/>4. dicendum, quod idem est in Deo se 
+        <lb ed="#C" n="69"/>entia &amp; voluntas. dicitur tamen Deus 
+        <lb ed="#C" n="70"/>aliqua scire, quae non dicitur velle 
+        <lb ed="#C" n="71"/>propter aliam ec aliam habitudinem 
+        <lb ed="#C" n="72"/>importatam per voluntatem, &amp; 
+        scien<lb ed="#C" n="73" break="no"/>tiam.
+      </p>
+               <p xml:id="Gi9qrR-g05510-d1e1312">
+        Ad 5. dicendum, quod absoluta 
+        <lb ed="#C" n="74"/>in Divinis omnia transeunt in 
+        substan<lb ed="#C" n="75" break="no"/>tiam, &amp; non manent ibi proprie 
+        secun<lb ed="#C" n="76" break="no"/>dum aliquod commune: &amp; ideo non 
+        <lb ed="#C" n="77"/>sunt ibi nec duae bonitates, nec duae 
+        po<lb ed="#C" n="78" break="no"/>tentiae; sed si est ibi aliquod commune 
+        <lb ed="#C" n="79"/>quod ibi possit plurificari, illud erit 
+        <lb ed="#C" n="80"/>quid rationis: ideo nomina secundae 
+        <lb ed="#C" n="81"/>intentionis, cuiusmodi est attributum: 
+        <lb ed="#C" n="82"/>quia talia magis ex parte rationis se 
+        te<lb ed="#C" n="83" break="no"/>nent ibi concedimus in plurali: dicimus 
+        <lb ed="#C" n="84"/>enim ibi esse piura attributa: sed cum 
+        <lb ed="#C" n="85"/>potentia sit quid absolutum, &amp; nomen 
+        <lb ed="#C" n="86"/>primae intentionis, in Deo est solum una, 
+        <lb ed="#C" n="87"/>potentia; respectus tamem sunt multi: &amp; 
+        <lb ed="#C" n="88"/>ideo etiam nomina, quae a talibus respecti 
+        <lb ed="#C" n="89"/>bus imponerentur, pluraliter: in Deo 
+        <lb ed="#C" n="90"/>concedi possent: dicendo ibi esse plures 
+        <lb ed="#C" n="91"/>rationes, vel plures ideas. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio litterae</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio litterae</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f40229"><!-- l1-d27expolit -->
+            <head xml:id="Gi9qrR-f40229-Hd1e108">Expositio litterae</head>
+            <p xml:id="Gi9qrR-f40229-d1e111">
+               <lb ed="#C" n="39"/>ExPOSITIO LITTERAE.
+    </p>
+            <p xml:id="Gi9qrR-f40229-d1e116">
+               <lb ed="#C" n="40"/>RVPER litteram super illo: Cui er¬ 
+      <lb ed="#C" n="41"/>go convenit ut sit Pater, ei convenit 
+      ge<lb ed="#C" n="42" break="no"/>nuisse Filium. Natura Divina est Pater, er 
+      <lb ed="#C" n="43"/>go genuit Filium. Notandum, quod  
+      <lb ed="#C" n="44"/>talis argumentatio deficit: quia non 
+      <lb ed="#C" n="45"/>uniformiter accipitur hoc quod est 
+      Pa<lb ed="#C" n="46" break="no"/>ter: nam in prima propositione, si 
+      de<lb ed="#C" n="47" break="no"/>bet esse vera, Pater accipitur adiective: 
+      <lb ed="#C" n="48"/>sed in secunda propositione, cum 
+      dici<lb ed="#C" n="49" break="no"/>tur natura Divina est Pater, ibi Pater 
+      <lb ed="#C" n="50"/>accipitur substantive. Nam si 
+      accipe<lb ed="#C" n="51" break="no"/>retur adiective, falsa esset: quia Divina 
+      <lb ed="#C" n="52"/>essentia non est Pater, cum ei insit 
+      pa<lb ed="#C" n="53" break="no"/>ternitas, vel quod per paternitatem 
+      <lb ed="#C" n="54"/>determinetur, &amp; distinguatur; sed est 
+      <lb ed="#C" n="55"/>Pater, substantive loquendo, quia est 
+      <lb ed="#C" n="56"/>ille qui est Pater, sive qui per 
+      pater<lb ed="#C" n="57" break="no"/>nitatem determinatur, &amp; distinguitur.  
+    </p>
+            <p xml:id="Gi9qrR-f40229-d1e158">
+               <lb ed="#C" n="58"/>Item super illo: Differentiam 
+      hopo<lb ed="#C" n="59" break="no"/>staseon. Notandum, quod differentiam 
+      <lb ed="#C" n="60"/>non proprie sumitur in Divinis, si¬ 
+      <lb ed="#C" n="61"/>cut nec diversitas; tamen su¬ 
+      <lb ed="#C" n="62"/>mitur ibi differentia 
+      <lb ed="#C" n="63"/>large pro distin¬ 
+      <lb ed="#C" n="64"/>ctione. 
+    </p>
+    
+         </div>
+      </body>
+   </text>
+</TEI>

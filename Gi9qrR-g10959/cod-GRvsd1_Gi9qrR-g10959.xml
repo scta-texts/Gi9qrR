@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="808"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-g10959"><!-- l1-d44prooem -->
+            <head xml:id="Gi9qrR-g10959-Hd1e108">Prooemium</head>
+            <p xml:id="Gi9qrR-g10959-d1e111">
+      <!--833.xml-->
+               <cb ed="#C" n="c"/>
+               <lb ed="#C" n="76"/>DISTINCIIO ALIIIO 
+      <lb ed="#C" n="77"/>ARDEVS POSSITEACERE ALIQVID MELIVS, QVAn EAcir:
+    </p>
+            <p xml:id="Gi9qrR-g10959-d1e122">
+      <!--833.xml-->
+               <cb ed="#C" n="d"/>
+               <lb ed="#C" n="78"/>NNC ollud restat. Postquam Ma¬ 
+      <lb ed="#C" n="79"/>gister ostendit Divinam 
+      poten<lb ed="#C" n="80" break="no"/>tiam non limitari quantum 
+      <lb ed="#C" n="81"/>ad ea quae facit: quia potest 
+      <lb ed="#C" n="82"/>alia facere, ostendit eam non 
+      <lb ed="#C" n="83"/>s simitatam esse quantum ad 
+      <lb ed="#C" n="84"/>bo. qualitatem eorum, quia 
+      po<lb ed="#C" n="85" break="no"/>test meliora, producere. Et duo facit: quia 1. 
+      <!--833.xml-->
+      <cb ed="#C" n="e"/>
+               <lb ed="#C" n="86"/>facit quod dictum est. 2. movet quasdam 
+      quae<lb ed="#C" n="87" break="no"/>stiones annexas. Secunda ibi: Post hos 
+      consideran<lb ed="#C" n="88" break="no"/>dum. Circa 1, tria facit: quia 1. ponit quamdam 
+      <lb ed="#C" n="89"/>rationem, per quam ostenditur Deum non posse 
+      <lb ed="#C" n="90"/>facere meliora: quia sicut produxit filium quam 
+      <lb ed="#C" n="91"/>meliorem potuit &amp; aequalem sibi: quia si potuit 
+      <lb ed="#C" n="92"/>set producere meliorem, &amp; non produxisset, 
+      in<lb ed="#C" n="93" break="no"/>vidus fuisset: si voluissat, &amp; non potuisset infir¬ 
+      <!--834.xml-->
+      <pb ed="#C" n="809"/>
+               <cb ed="#C" n="a"/>
+               <lb ed="#C" n="1"/>mus fuisset: propter quod ne dicamus Deum im 
+      <lb ed="#C" n="2"/>potentem &amp; invidum, dicimus eum genuisse fin 
+      <lb ed="#C" n="3"/>lium quam meliorem potuit. Pari ergo ratione 
+      <lb ed="#C" n="4"/>dicere debemus, quod produxit res quam 
+      men<lb ed="#C" n="5" break="no"/>liores potuit: non ergo potest meliora 
+      produce<lb ed="#C" n="6" break="no"/>re. Secundo solvit non esse simile de filio, qui 
+      <lb ed="#C" n="7"/>procedit natura, &amp; de rebus quae procedunt ivo 
+      <lb ed="#C" n="8"/>luntate: quomodo tamen ista similitudo solvit: 
+      <lb ed="#C" n="9"/>rationem factam, in quaestionibus patebit. 
+      Ter<lb ed="#C" n="10" break="no"/>tio adducit rationem ad ostendendum Deum 
+      <lb ed="#C" n="11"/>posse meliora facere quam faciat: quia si 
+      hu<lb ed="#C" n="12" break="no"/>usmodi facta a Deo meliorari non possunt, vde ¬ 
+      <lb ed="#C" n="13"/>hoc est, quia nulla perfectio boni eis deest, &amp; 
+      <lb ed="#C" n="14"/>tuac aequarentur Creatori, quod est 
+      inconve<lb ed="#C" n="15" break="no"/>niens: vel quia non possunt maiorem bonitate 
+      <lb ed="#C" n="16"/>recipere, &amp; tunc cum Deus possit ea facere 
+      ca<lb ed="#C" n="17" break="no"/>pacia maioris boni, potuit meliora priducere., 
+      <lb ed="#C" n="18"/>Secunda ibi: Sed non valet. Tertia ibi: Terum hic at 
+      <lb ed="#C" n="19"/>tis. Deinde cum dicit: Post hoc considerandum. Mo 
+      <lb ed="#C" n="20"/>vet quasdam quaestiones annexas. Et duo facit 
+      <lb ed="#C" n="21"/>secundum duas quaestiones quas movet. 
+      Secun<lb ed="#C" n="22" break="no"/>da ibi: Braeterea: quaeri solet. Circa, 1. duo facit: quia 
+      <lb ed="#C" n="23"/>1. quaerit utrum alio meliori modo potuerit 
+      <lb ed="#C" n="24"/>Deus facere res, quam fecerit? Secundo 
+      solvi<lb ed="#C" n="25" break="no"/>dicens: quod si hujusmodi alietas referatur ad 
+      <lb ed="#C" n="26"/>sapientiam Conditoris, non: quia non alia sapientia 
+      <lb ed="#C" n="27"/>potuit res producere quam produxerit. Si vero 
+      <!--834.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="28"/>referatur ad qualitatem creaturae, potuit alio 
+      <lb ed="#C" n="29"/>modo res facere. Secunda ibi: Si modus 
+      operatio<lb ed="#C" n="30" break="no"/>his. Deinde cum dicit: Praeterea quaeri. Movet aliam 
+      <lb ed="#C" n="31"/>quaestionem, &amp; duo facit: quia 1. facit quod 
+      di<lb ed="#C" n="32" break="no"/>utum est. 2. per modum recapitulationis verita 
+      <lb ed="#C" n="33"/>tem concludit, ibi: Eateamur ergo Deum. Circa 
+      <lb ed="#C" n="34"/>1. duo facit: quia primo quaerit, utrum Deus 
+      <lb ed="#C" n="35"/>possit quidquid potuit? Et arguit quod no: quia 
+      <lb ed="#C" n="36"/>potuit incarnari &amp; non potest. 2. solvit, quod  
+      <lb ed="#C" n="37"/>Deus potest quidquid potuit; quia nulla poten 
+      <lb ed="#C" n="38"/>tia ab eo diminuta est: quia lictenon possit 
+      mo<lb ed="#C" n="39" break="no"/>do incarnari, hoc tamen non est propter 
+      dimi<lb ed="#C" n="40" break="no"/>nutionem potentiae; sed quia res ipsa transivit 
+      <lb ed="#C" n="41"/>in praeteritum. Nam sicut Deus scit quidquid  
+      <lb ed="#C" n="42"/>scivit, &amp; vult quidquia voluit, sic potest 
+      quid<lb ed="#C" n="43" break="no"/>quid potuit: ipsae ergo res variantur non 
+      Divi<lb ed="#C" n="44" break="no"/>na potentia, nec scientia; nec voluntas. 
+      Secun<lb ed="#C" n="45" break="no"/>da ibi: Ad quod dicimus. Deinde cum dicit: 
+      Fatea<lb ed="#C" n="46" break="no"/>iur ergo Deum. Per modum recapitulationis 
+      conclu<lb ed="#C" n="47" break="no"/>Sdit verita em. Et duo facit: quia 1. concludit 
+      <lb ed="#C" n="48"/>Deum poss: quidquid potuit: quia ab eo nulla 
+      <lb ed="#C" n="49"/>potentia est diminuta; non tamen semper potest 
+      <lb ed="#C" n="50"/>facere omne, quod potuit, propter variationem 
+      <lb ed="#C" n="51"/>rerum. 2. dicit: Simititer dicendum esse de Divina 
+      vo<lb ed="#C" n="52" break="no"/>luntat: &amp; scientia ejus. Secunda ibi: Similiter 
+      quid<lb ed="#C" n="53" break="no"/>quid. In quo terminatur sententia lectionis, &amp; 
+      <lb ed="#C" n="54"/>distinctionis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

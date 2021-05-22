@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="623"/>
+            <cb ed="#C" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f62181"><!-- l1-d33q2 -->
+            <head xml:id="Gi9qrR-f62181-Hd1e108">Quaestio 2</head>
+            <p xml:id="Gi9qrR-f62181-d1e111">
+               <lb ed="#C" n="95"/>QVAESTIO II. 
+      <lb ed="#C" n="96"/>De pertinentibus ad essentiam &amp; Persci 2s. 
+    </p>
+            <p xml:id="Gi9qrR-f62181-d1e118">
+               <lb ed="#C" n="97"/>OSTQUAM 
+      dubita<lb ed="#C" n="98" break="no"/>vimus de 
+      compara<lb ed="#C" n="99" break="no"/>tione proprietatum, 
+      <lb ed="#C" n="100"/>ad essentiam &amp; 
+      Per<lb ed="#C" n="101" break="no"/>sonas. Restat 
+      dubita<lb ed="#C" n="102" break="no"/>re de quibusdam 
+      an<lb ed="#C" n="103" break="no"/>nexis. Et circa hoc quaeremus duo. 1. 
+      <lb ed="#C" n="104"/>utrum actus notionales proprietatibus 
+      <lb ed="#C" n="105"/>competant? Quia utrum essentiae 
+      com<lb ed="#C" n="106" break="no"/>petant prius disputatum est. 2. utrum 
+      <lb ed="#C" n="107"/>sine peccato sit possibile, de 
+      notioni<lb ed="#C" n="108" break="no"/>bus contrarie opinari?
+    </p>
+            <div xml:id="Gi9qrR-f62181-Dd1e147">
+               <head xml:id="Gi9qrR-f62181-Hd1e149">Articulus 1</head>
+               <p xml:id="Gi9qrR-f62181-d1e152">
+        <!--649.xml-->
+                  <pb ed="#C" n="624"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>ARTICVLVS I. 
+        <lb ed="#C" n="2"/>Vtrum actus notionales competant proprie¬ 
+        <lb ed="#C" n="3"/>tatibus ? 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e168">
+                  <lb ed="#C" n="4"/>AD primum sic proceditur: videtur  
+        <lb ed="#C" n="5"/>quod actus notionales competant 
+        <lb ed="#C" n="6"/>proprietatibus sive relationibus: quia 
+        <lb ed="#C" n="7"/>omnis actus competens supposito, 
+        com<lb ed="#C" n="8" break="no"/>petit ei, quod de supposito praedicatur  
+        <lb ed="#C" n="9"/>ut si musicus praedicatur de 
+        aedificato<lb ed="#C" n="10" break="no"/>re, bene sequitur si aedificator aedificat,  
+        <lb ed="#C" n="11"/>quod musicus aedificet, sed paternitas 
+        <lb ed="#C" n="12"/>praedicatur de Patre, est enim Pater 
+        Cae<lb ed="#C" n="13" break="no"/>lestis sua paternitas, igitur generare, 
+        <lb ed="#C" n="14"/>quod competit Patri, competer paternitati. 
+        <lb ed="#C" n="15"/>Praeterea: quae sunt idem, quod convenit 
+        <lb ed="#C" n="16"/>uni convenit alij, sed, ut probatum est, in Di 
+        <lb ed="#C" n="17"/>vinis quaelibet Persona est sua 
+        proprie<lb ed="#C" n="18" break="no"/>tas, &amp; est eadem cum proprietate, ergo 
+        <lb ed="#C" n="19"/>quae conveniunt Personae, convenient &amp; 
+        <lb ed="#C" n="20"/>proprietati, sed actus notionales 
+        Perso<lb ed="#C" n="21" break="no"/>nis conveniunt, ergo &amp;c.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e210">
+        Praetera: sicut  
+        <lb ed="#C" n="22"/>se habet deitas ad Deum, sic se habet 
+        pa<lb ed="#C" n="23" break="no"/>ternitas ad Patrem; sed propter hoc quod  
+        <lb ed="#C" n="24"/>Deus est sua deitas, conceditur 
+        <lb ed="#C" n="25"/>Deus creat: ergo deitas: igitur cum 
+        Pa<lb ed="#C" n="26" break="no"/>ter sit sua paternitas, sequitur Pater 
+        ge<lb ed="#C" n="27" break="no"/>nerat, ergo paternitas.
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e226">
+        Praeterea: si 
+        ali<lb ed="#C" n="28" break="no"/>qua causa est propter quam non 
+        conce<lb ed="#C" n="29" break="no"/>datur, Pater generat, Pater est deitas, 
+        <lb ed="#C" n="30"/>ergo deitas generat, est quia generare 
+        <lb ed="#C" n="31"/>dicit notionem; essentia vero dicit quid 
+        <lb ed="#C" n="32"/>absolutum; sed si sumerentur actus 
+        ab<lb ed="#C" n="33" break="no"/>solute, ut creare vel conservare, eos 
+        <lb ed="#C" n="34"/>de deitate inferre possemus. Cum 
+        igi<lb ed="#C" n="35" break="no"/>tur paternitas non dicat quid absolutum, 
+        <lb ed="#C" n="36"/>sed notionem, actus notionales de ea in 
+        <lb ed="#C" n="37"/>ferri poterunt, igitur sequitur quod 
+        pa<lb ed="#C" n="38" break="no"/>ternitas generet.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e253">
+        Praeterea: quae uni &amp; 
+        <lb ed="#C" n="39"/>eidem sunt eadem, inter sunt eadem, sed 
+        <lb ed="#C" n="40"/>paternitas &amp; generare sunt eadem Patri, 
+        <lb ed="#C" n="41"/>ergo sunt eadem inter se: sed idem prae 
+        <lb ed="#C" n="42"/>dicatur de se ipso, ergo paternitas 
+        ge<lb ed="#C" n="43" break="no"/>nerat.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e266">
+                  <lb ed="#C" n="44"/>In contrarium est: quia generare 
+        di<lb ed="#C" n="45" break="no"/>cit actum, actus sunt suppositorum non 
+        <lb ed="#C" n="46"/>proprietatum, ergo Pater generat non 
+        <lb ed="#C" n="47"/>paternitas.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e277">
+        Praeterea: quod agit debet 
+        <lb ed="#C" n="48"/>significari ut per se subsistens; relatio 
+        <lb ed="#C" n="49"/>autem non dicit quid per se subsistens, 
+        <lb ed="#C" n="50"/>ergo non generat: cum generare 
+        impor<lb ed="#C" n="51" break="no"/>tet actum. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e288">
+                  <lb ed="#C" n="52"/>Viterius quaeritur: utrum actus 
+        essen<lb ed="#C" n="53" break="no"/>tiales possint attribui proprietatibus, ut  
+        <lb ed="#C" n="54"/>dicamus paternitas creat?  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e297">
+        
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e300">
+        Et videtur  
+        <!--649.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="55"/>quod sic: quia actus essent. 
+        <lb ed="#C" n="56"/>tunt essentiae: concedimus eni quod  
+        <lb ed="#C" n="57"/>deitas creet, sed proprietas sive relatio.  
+        <lb ed="#C" n="58"/>in Divinis est idem quod essentia, 
+        er<lb ed="#C" n="59" break="no"/>go &amp;c. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e319">
+                  <lb ed="#C" n="60"/>In contrarium est: quia sicut se habet  
+        <lb ed="#C" n="61"/>essentia ad actus notionales, sic se vide 
+        <lb ed="#C" n="62"/>tur habere notio ad actus essetiales, sed  
+        <lb ed="#C" n="63"/>actus notionales non competunt 
+        essen<lb ed="#C" n="64" break="no"/>tiae: quia essentia non generat, ergo 
+        <lb ed="#C" n="65"/>actus essentiales non convenient 
+        pro<lb ed="#C" n="66" break="no"/>prietati: non igitur proprietas creat. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e337">
+                  <lb ed="#C" n="67"/>RESOLVTIO. 
+        <lb ed="#C" n="68"/>Actus notionales non praedicantur de proprieta¬ 
+        <lb ed="#C" n="69"/>tibus relativis. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e346">
+                  <lb ed="#C" n="70"/>REspond. Quidam sic dicunt, quod  
+        <lb ed="#C" n="71"/>quia relatio secundum rationem 
+        <lb ed="#C" n="72"/>differt a supposito, licet non differat 
+        <lb ed="#C" n="73"/>secundum rem: cum huiusmodi ratio 
+        <lb ed="#C" n="74"/>sumatur a modo significandi, secundum 
+        <lb ed="#C" n="75"/>quem veritas &amp; falsitas in 
+        propositioni<lb ed="#C" n="76" break="no"/>bus attenditur: onia illa adiectiva &amp; om 
+        <lb ed="#C" n="77"/>nes illi actus, qui competunt supposito, 
+        pro<lb ed="#C" n="78" break="no"/>ut non distinguitur a proprietate, &amp; 
+        pro<lb ed="#C" n="79" break="no"/>prietati copetent, &amp; propositiones, quae 
+        <lb ed="#C" n="80"/>sic significant attribuentes 
+        proprietati<lb ed="#C" n="81" break="no"/>bus talia, veritatem habebunt: 
+        huiusmo<lb ed="#C" n="82" break="no"/>di autem potissime sunt, quae in 
+        remo<lb ed="#C" n="83" break="no"/>tionem sonant. Et ideo cum dicitur 
+        Fi<lb ed="#C" n="84" break="no"/>lius est immensus, cum in hoc Filius a 
+        <lb ed="#C" n="85"/>filiatione non sit distinctus, bene 
+        sequi<lb ed="#C" n="86" break="no"/>quitur, filiatio est immensa. Rursus cum 
+        <lb ed="#C" n="87"/>dicitur Flius non generat, cum nec in 
+        <lb ed="#C" n="88"/>hoc a filiatione distinguatur, bene etiam 
+        <lb ed="#C" n="89"/>sequitur, quod filiatio non generat: sed  
+        <lb ed="#C" n="90"/>cum aliqua competunt supposito, prout 
+        <lb ed="#C" n="91"/>a proprietate distinguitur, necesse est 
+        il<lb ed="#C" n="92" break="no"/>da proprietati non competere: &amp; quia 
+        <lb ed="#C" n="93"/>quae significant per modum actus 
+        notio<lb ed="#C" n="94" break="no"/>nalis potissime sunt talia, secundum quae 
+        <lb ed="#C" n="95"/>suppositum a proprietate est distinctum: 
+        <lb ed="#C" n="96"/>ideo talia sic competut supposito, quod  
+        <lb ed="#C" n="97"/>proprietati non attribuuntur. Significat 
+        e<lb ed="#C" n="98" break="no"/>nim proprietas, ut non per se subsistens; sup 
+        <lb ed="#C" n="99"/>positum autem ut per se subsistens: &amp; 
+        <lb ed="#C" n="100"/>quia actus debent attribui Personae 
+        sub<lb ed="#C" n="101" break="no"/>sistenti, non valet quod paternitas generet, 
+        <lb ed="#C" n="102"/>quia Pater generat. Sed illud non vide 
+        <lb ed="#C" n="103"/>tur sufficere: quia quidquid convenit sub 
+        <lb ed="#C" n="104"/>fecto, convenit &amp; praedicato, 
+        quantum<lb ed="#C" n="105" break="no"/>cunque praedicatum a subiecto in illo 
+        ha<lb ed="#C" n="106" break="no"/>beat esse distinctum. Dicimus enim quod 
+        <lb ed="#C" n="107"/>aedificator aedificat, aedificator est muli¬ 
+        <!--650.xml-->
+        <pb ed="#C" n="625"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>cus, ergo mulicus aedificat, licet aedifica 
+        <lb ed="#C" n="2"/>re sit illud, in quo aedificator a musico 
+        <lb ed="#C" n="3"/>distinguitur, ergo a simili videtur sequi,  
+        <lb ed="#C" n="4"/>quod paternitas generet: quia Pater 
+        <lb ed="#C" n="5"/>qui est paternitas generat: 
+        quantumcun<lb ed="#C" n="6" break="no"/>que generare sit illud, in quo Pater 
+        dif<lb ed="#C" n="7" break="no"/>fert a proprietate. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e453">
+                  <lb ed="#C" n="8"/>Propter hoc dicendum est aliter. 
+        <lb ed="#C" n="9"/>Notandum igitur quod quotiescunque 
+        <lb ed="#C" n="10"/>praedicatum praedicatur de supposito 
+        <lb ed="#C" n="11"/>suppositum implicado, quidquid copetit 
+        <lb ed="#C" n="12"/>supposito &amp; praedicato competet: ut 
+        pa<lb ed="#C" n="13" break="no"/>tuit superius 5. dist. cum disputavimus: 
+        <lb ed="#C" n="14"/>utrum haec sit vera, essentia generat: tot 
+        <lb ed="#C" n="15"/>igitur modis, ea quae competunt 
+        suppo<lb ed="#C" n="16" break="no"/>sito, predicato non attribuuntur, quot  
+        <lb ed="#C" n="17"/>modis potest fieri praedicatio non per 
+        <lb ed="#C" n="18"/>implicationem suppositi. Hoc autem 
+        du<lb ed="#C" n="19" break="no"/>pliciter esse potest. Primo cum 
+        termi<lb ed="#C" n="20" break="no"/>nus in subiecto positus non stat pro 
+        sup<lb ed="#C" n="21" break="no"/>posito; sed pro natura: &amp; ideo non valet,  
+        <lb ed="#C" n="22"/>homo est species, homo aedificat, ergo 
+        <lb ed="#C" n="23"/>species aedificat. Stat enim hic 
+        termi<lb ed="#C" n="24" break="no"/>nus homo pro natura, non pro supposito: 
+        <lb ed="#C" n="25"/>cum dicitur, homo est species. Secundo 
+        <lb ed="#C" n="26"/>hoc potest contingere, si sit praedicatio 
+        <lb ed="#C" n="27"/>non formalis, sed per identitatem: &amp; iste 
+        <lb ed="#C" n="28"/>modus proprie non reperitur in 
+        crea<lb ed="#C" n="29" break="no"/>turis: nam cum terminus in praedicato 
+        <lb ed="#C" n="30"/>positus stet pro natura, &amp; natura in 
+        re<lb ed="#C" n="31" break="no"/>bus creatis habeat rationem artis, 
+        <lb ed="#C" n="32"/>impossibile est naturam vel aliquam 
+        for<lb ed="#C" n="33" break="no"/>mam in rebus creatis praedicari per 
+        idem<lb ed="#C" n="34" break="no"/>titatem &amp; in abstractione; sed omnis ta 
+        <lb ed="#C" n="35"/>lis praedicatio erit per implicationem sup. 
+        <lb ed="#C" n="36"/>positi &amp; concretive. No enim dicimus 
+        <lb ed="#C" n="37"/>quod homo sit humanitas, nec quod 
+        <lb ed="#C" n="38"/>aedificator sit musica; sed musicus. Dato 
+        <lb ed="#C" n="39"/>tamen quod tales praedicationes fieri 
+        <lb ed="#C" n="40"/>possent, non possemus inferre, 
+        aedifica<lb ed="#C" n="41" break="no"/>tor aedificat, aedificator est musica, ergo 
+        <lb ed="#C" n="42"/>musica aedificat. Concederemus ergo si 
+        <lb ed="#C" n="43"/>rdificator esset musicus &amp; musica, quod  
+        <lb ed="#C" n="44"/>musicus aedificaret, non quod musica, 
+        <lb ed="#C" n="45"/>eo quod musicus de aedificare praedica: 
+        <lb ed="#C" n="46"/>tur per implicationem suppositi &amp; forma 
+        <lb ed="#C" n="47"/>liter; musica vero in abstractione &amp; per 
+        <lb ed="#C" n="48"/>identitatem. Et quia talis est predicatio: 
+        <lb ed="#C" n="49"/>cum dicitur, Pater est paternitas, 
+        videli<lb ed="#C" n="50" break="no"/>cet per identitatem, non per 
+        implica<lb ed="#C" n="51" break="no"/>tionem suppositi, non concedimus quod  
+        <lb ed="#C" n="52"/>paternitas generet, licet concedamus 
+        <lb ed="#C" n="53"/>Patrem generare.
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e555">
+                  <lb ed="#C" n="54"/>Respond. ad arg. Ad 1. dicendum, quod  
+        <lb ed="#C" n="55"/>quaecumque competunt supposito, 
+        compe<lb ed="#C" n="56" break="no"/>tunt &amp; praedicato: si sit praedicatio forma¬ 
+        <!--650.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>le &amp; per implicationem suppositi, sed  
+        <lb ed="#C" n="58"/>non si sit in abstractione &amp; per 
+        identi<lb ed="#C" n="59" break="no"/>tatem prout est in proposito: cum 
+        di<lb ed="#C" n="60" break="no"/>cimus paternitas est Pater.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e577">
+        Ad 2. 
+        dicen<lb ed="#C" n="61" break="no"/>dum quod licet proprietas &amp; Persona. 
+        <lb ed="#C" n="62"/>sint idem re; differunt tamen ratione, 
+        <lb ed="#C" n="63"/>quae differentia rationis ex modo signifi 
+        <lb ed="#C" n="64"/>candi accipitur: &amp; quia modus significan 
+        <lb ed="#C" n="65"/>di attendendus est in veritate &amp; falsitate 
+        <lb ed="#C" n="66"/>propositionum, non oportet quidquid de 
+        <lb ed="#C" n="67"/>Persona verificatur, de proprietate veri 
+        <lb ed="#C" n="68"/>ficari.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e598">
+        Ad 3. dicendum, quod Divinitas 
+        <lb ed="#C" n="69"/>non pari modo conparatur adactus esse 
+        <lb ed="#C" n="70"/>tiales &amp; proprietas ad notionales: quia 
+        <lb ed="#C" n="71"/>per acto essetiales nullo modo constitui  
+        <lb ed="#C" n="72"/>tur essentia: non enim ex eo quod Deus 
+        <lb ed="#C" n="73"/>creat, vel res in esse conservat, habet esse 
+        <lb ed="#C" n="74"/>tiam: immo intelligitur ut principiu 
+        <lb ed="#C" n="75"/>omnium essentialium actuum, 
+        proprie<lb ed="#C" n="76" break="no"/>tates vero &amp; si non per omnem modun 
+        <lb ed="#C" n="77"/>sequuntur ad notionales actus; tamen 
+        <lb ed="#C" n="78"/>secundum aliquem modum sunt 
+        poste<lb ed="#C" n="79" break="no"/>riores illis: &amp; ideo non valet, si essentia, 
+        <lb ed="#C" n="80"/>creat, quod paternitas generet:  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e627">
+        Ad 4. 6. 
+        <lb ed="#C" n="81"/>dicendum, quod non est tota causa, 
+        qua<lb ed="#C" n="82" break="no"/>re cocedimus essentia creat, &amp; non 
+        esse<lb ed="#C" n="83" break="no"/>tia generat: quia creare dicit: actum 
+        es<lb ed="#C" n="84" break="no"/>sentialem; generare vero notionalem: 
+        <lb ed="#C" n="85"/>sed quia actuum essentialium essentia 
+        pre<lb ed="#C" n="86" break="no"/>intelligitur ut principium per omnem 
+        <lb ed="#C" n="87"/>modum; paternitas autem non 
+        simpli<lb ed="#C" n="88" break="no"/>citer intelligitur ut principium 
+        notio<lb ed="#C" n="89" break="no"/>nalis actus, licet notionem importet: nonn 
+        <lb ed="#C" n="90"/>ergo notionalis actus ei est attribuen 
+        <lb ed="#C" n="91"/>dus.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e653">
+        Ad 5. dicendum quod quae uni &amp; 
+        <lb ed="#C" n="92"/>cidem sunt eadem, inter se sunt eadem 
+        <lb ed="#C" n="93"/>prout sunt eadem illi, ergo generare &amp; o 
+        <lb ed="#C" n="94"/>ater nitas sunt idem inter se re non 
+        ra<lb ed="#C" n="95" break="no"/>tione: quia non sunt eadem Patri 
+        ratio<lb ed="#C" n="96" break="no"/>ne, sed re: &amp; propter hanc identitatem 
+        <lb ed="#C" n="97"/>realem unum de alio praedicari potest. 
+        <lb ed="#C" n="98"/>praedicatione per identitatem. Vnde bet 
+        <lb ed="#C" n="99"/>ne dictum est quod paternitas est ipsum 
+        <lb ed="#C" n="100"/>generare: quia est ea lem: res quod 
+        ge<lb ed="#C" n="101" break="no"/>nerare, sed propter differetiam rationis, 
+        <lb ed="#C" n="102"/>formaliter unum de alio non praedica: 
+        <lb ed="#C" n="103"/>tur: unde non concedimus quod 
+        pater<lb ed="#C" n="104" break="no"/>nitas generet vel quod sit generans: 
+        ad<lb ed="#C" n="105" break="no"/>lective loquendo: quia sic sumendo 
+        ge<lb ed="#C" n="106" break="no"/>nerare significat actum progredientem 
+        <lb ed="#C" n="107"/>ab aliquo; proprietas vero cum non sig 
+        <lb ed="#C" n="108"/>nificat per modum subsistentis, licet sit  
+        <lb ed="#C" n="109"/>quid subsistens, non significat per modum 
+        <lb ed="#C" n="110"/>eius a quo progreditur actus. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e697">
+                  <lb ed="#C" n="111"/>Argumenta autem in 
+        contra<lb ed="#C" n="112" break="no"/>rium gratia conclusionis concedantur.  
+        <!--651.xml-->
+        <pb ed="#C" n="626"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>Alillud autem quod ulterius quae 
+        <lb ed="#C" n="2"/>ritur:  trum actus essentiales 
+        proprieta<lb ed="#C" n="3" break="no"/>tibus sit attribuedi: Dicendum quod nons 
+        <lb ed="#C" n="4"/>non enim bene dicitur quod paternita: 
+        <lb ed="#C" n="5"/>creat, vel pate nitas res in esse conservat: 
+        <lb ed="#C" n="6"/>nam ad hoc quod formae in 
+        abstractio<lb ed="#C" n="7" break="no"/>ne sumprae tribuatur agere quantum ad 
+        <lb ed="#C" n="8"/>praesens duo debet concurre. Primo: quod 
+        <lb ed="#C" n="9"/>illa forma sit ratio talis actionis: nam 
+        <lb ed="#C" n="10"/>dato per impossibile, quod musica in 
+        <lb ed="#C" n="11"/>abstractione praedicaretur de 
+        aedificato<lb ed="#C" n="12" break="no"/>re, non valeret, si aedificator aedificat 
+        <lb ed="#C" n="13"/>quod mulica aedificaret: quia musica non 
+        <lb ed="#C" n="14"/>est ratio actus aedificandi. Secudo 
+        requi<lb ed="#C" n="15" break="no"/>ritur, quod talis forma habeat per se 
+        es<lb ed="#C" n="16" break="no"/>se, sive sit suum esse, &amp; non acquirat esse 
+        <lb ed="#C" n="17"/>ex eo quod est in supposito. Non enim 
+        <lb ed="#C" n="18"/>concedimus quod calor calefacit: quia 
+        <lb ed="#C" n="19"/>non habet per se esse: &amp; agere 
+        praesup<lb ed="#C" n="20" break="no"/>ponit esse. Licet igitur salvare possemus 
+        <lb ed="#C" n="21"/>proprietates habere per se esse, eo quod 
+        <lb ed="#C" n="22"/>relationes Divinae sunt per se 
+        subsisten<lb ed="#C" n="23" break="no"/>tes; tamen quia huiusmodi 
+        proprieta<lb ed="#C" n="24" break="no"/>tes non simpliciter &amp; per omnem 
+        mo<lb ed="#C" n="25" break="no"/>dum sunt ratio essentialium actuum, 
+        <lb ed="#C" n="26"/>i actus essentiales eis attribui non possunt: 
+        <lb ed="#C" n="27"/>nam sicut actus notionales non 
+        attri<lb ed="#C" n="28" break="no"/>buebantur proprietatibus, eo quod 
+        res<lb ed="#C" n="29" break="no"/>i pectu talium actuum proprietas non 
+        <lb ed="#C" n="30"/>simpliciter habeat rationem principij; 
+        <lb ed="#C" n="31"/>t sic nec actus essentiales proprietatibus 
+        <lb ed="#C" n="32"/>attribuendi sunt: cum nec respectu ta¬ 
+        <lb ed="#C" n="33"/>lium proprietas simpliciter existat 
+        prin<lb ed="#C" n="34" break="no"/>cipium. Ad argumentum incontrarium 
+        <lb ed="#C" n="35"/>dicendum, quod licet proprietas sit idem 
+        <lb ed="#C" n="36"/>quod essentia re; differt tamen ratione 
+        <lb ed="#C" n="37"/>&amp; quantum ad modum significandi: &amp; 
+        <lb ed="#C" n="38"/>propter talem differentiam aliquid 
+        attri<lb ed="#C" n="39" break="no"/>buitur uni, quod non attribuitur alteri: 
+        <lb ed="#C" n="40"/>&amp; ideo licet essetia creet, nontamem prop 
+        <lb ed="#C" n="41"/>ter hoc valet, quod paternitas ut 
+        pater<lb ed="#C" n="42" break="no"/>nitas creet: nam sicut Pater generat &amp; non 
+        <lb ed="#C" n="43"/>paternitas propter alium &amp; alium modum 
+        sig<lb ed="#C" n="44" break="no"/>nificandi: sic deitas creat &amp; non pater 
+        <lb ed="#C" n="45"/>nitas: quia non eundem modum 
+        signi<lb ed="#C" n="46" break="no"/>ficandi habent paternitas &amp; deitas. 
+        A<lb ed="#C" n="47" break="no"/>lia vero ratio gratia conclusionis 
+        con<lb ed="#C" n="48" break="no"/>cedatur.  
+      </p>
+            </div>
+            <div xml:id="Gi9qrR-f62181-Dd1e815">
+               <head xml:id="Gi9qrR-f62181-Hd1e817">Articulus 2</head>
+               <p xml:id="Gi9qrR-f62181-d1e820">
+                  <lb ed="#C" n="49"/>ARTICVLVS II. 
+        <lb ed="#C" n="50"/>Vtrum liceat de notionali contraria opinari, 
+        <lb ed="#C" n="51"/>sine peccato.
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e829">
+                  <lb ed="#C" n="52"/>TEcundo quaeritur: utrum liceat  
+        <lb ed="#C" n="53"/>de notionibus contrarie, opinari 
+        <lb ed="#C" n="54"/>absque peccato?  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e838">
+        
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e841">
+        Et videtur quod non 
+        <lb ed="#C" n="55"/>quia mentiri circa ea, quae sunt fidei, abs¬  
+        <!--651.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="56"/>que peccato fieri non potest, sed alteram 
+        <lb ed="#C" n="57"/>positionum contrariarum necesse est esse 
+        <lb ed="#C" n="58"/>falsam, ergo &amp;c.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e858">
+        Praeterea: ex errore 
+        <lb ed="#C" n="59"/>circa notiones sequitur error circa 
+        Per<lb ed="#C" n="60" break="no"/>sonas Divinas, sed errare circa 
+        Perso<lb ed="#C" n="61" break="no"/>nas Divinas non est sine peccato: cum 
+        <lb ed="#C" n="62"/>igitur alteram positionum contrariarum 
+        <lb ed="#C" n="63"/>necesse sit esse falsam, contrarie 
+        opina<lb ed="#C" n="64" break="no"/>ri circa notiones absque peccato fieri 
+        <lb ed="#C" n="65"/>non valet.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e876">
+        Praeterea: si aliqua causa est, 
+        <lb ed="#C" n="66"/>propter quam contrarie opinans circa 
+        <lb ed="#C" n="67"/>notiones excusetur, est: quia hoc in 
+        Sa<lb ed="#C" n="68" break="no"/>cra pagina non est determinatum: &amp; 
+        <lb ed="#C" n="69"/>ideo licuit cuilibet tenere, quod voluit.  
+        <lb ed="#C" n="70"/>Sed contra: quia pro sacra pagina aut  
+        <lb ed="#C" n="71"/>Sintelligitur canon Bibliae solum, aut  
+        <lb ed="#C" n="72"/>simul cum canone intelliguntur &amp; 
+        di<lb ed="#C" n="73" break="no"/>cta sactorum: si tantum canon: tunc 
+        li<lb ed="#C" n="74" break="no"/>ceret alicui contrarie opinari de 
+        Perso<lb ed="#C" n="75" break="no"/>nis: cum de eis non fiat mentio in tali 
+        <lb ed="#C" n="76"/>canone. Si vero per Sacram Scripturam, 
+        <lb ed="#C" n="77"/>etiam sactorum dicta intelliguntur, cum  
+        <lb ed="#C" n="78"/>sancti determinaverint quid de 
+        notioni<lb ed="#C" n="79" break="no"/>ibus sit tenendum; non licet de 
+        notioni<lb ed="#C" n="80" break="no"/>bus contrarie opinari. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e911">
+                  <lb ed="#C" n="81"/>In contrarium est: quia oSne peccatum 
+        <lb ed="#C" n="82"/>vel est contra fidem vel contra mores: 
+        <lb ed="#C" n="83"/>sed qui contrarie opinatur circa 
+        no<lb ed="#C" n="84" break="no"/>itiones, non peccat contra Fidem: cum 
+        <lb ed="#C" n="85"/>tex hoc nullus articulus sidei negetur.  
+        <lb ed="#C" n="86"/>Non peccat contra mores: iquia tale 
+        <lb ed="#C" n="87"/>peccatum circa actiones consistit, sed si 
+        <lb ed="#C" n="88"/>contrarie de notionibus opinatur non 
+        <lb ed="#C" n="89"/>peccat agendo: cum nihil agat, sed tantum 
+        <lb ed="#C" n="90"/>credat, ergo nullo modo peccat. 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e935">
+                  <lb ed="#C" n="91"/>RESOLVTIO. 
+        <lb ed="#C" n="92"/>Sine peccato esse potest error opinantis circa 
+        <lb ed="#C" n="93"/>notiones, dummodo non sit contra fidei 
+        articu<lb ed="#C" n="94" break="no"/>los, nec contra determinata ab Ecclesia, neque¬ 
+        <lb ed="#C" n="95"/>ita pertinaciter assentientis, ut si ab Ec¬ 
+        <lb ed="#C" n="96"/>clesta aliter determinaretur, suam, 
+        <lb ed="#C" n="97"/>positionem retractare nollet.
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e953">
+                  <lb ed="#C" n="98"/>REspond. dicendum, quod de 
+        opi<lb ed="#C" n="99" break="no"/>nione circa ea, quae aliquo 
+        mo<lb ed="#C" n="100" break="no"/>do ad fidem pertinent, <name xml:id="Gi9qrR-f62181-Nd1e961" ref="#Augustine">Aug.</name> (si sola 
+        su<lb ed="#C" n="101" break="no"/>perficies attendatur littere) sibi ipsi 
+        vide<lb ed="#C" n="102" break="no"/>tur esse contrarius: nam in 1. de 
+        <lb ed="#C" n="103"/>Trin. cap. 3. ait: In omnibus his ubi quaeritur  
+        <lb ed="#C" n="104"/>unitas Trinitatis Patris &amp; Filij &amp; Spiritus S. 
+        <lb ed="#C" n="105"/>nec alicubi periculosius erratur, nec laboriosius 
+        <lb ed="#C" n="106"/>aliquid quaeritur, nec fructuosius aliquid 
+        inveni<lb ed="#C" n="107" break="no"/>tur. Ex quibus verbis habetur quod labo 
+        <lb ed="#C" n="108"/>riosus fructus, qui habetur, ex inquisi¬ 
+        <!--652.xml-->
+        <pb ed="#C" n="627"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>tionem fidei si sit falsitati admixto est val 
+        <lb ed="#C" n="2"/>de periculosius. In principio tamen 2. 
+        <lb ed="#C" n="3"/>de Trin. scribitur quod cum aliqui in 
+        <lb ed="#C" n="4"/>inquisitione Divinorum, Ad aliquid certiu 
+        <lb ed="#C" n="5"/>discusa omni ambiguitate pervenerint, facil 
+        <lb ed="#C" n="6"/>lime debent ignoscere errantibus in tami perve 
+        <lb ed="#C" n="7"/>stigatione secreti. Facillime autem mereri 
+        <lb ed="#C" n="8"/>veniam circa errorem Divinorum, ut 
+        <lb ed="#C" n="9"/>dicit auctoritas secundo inducta: &amp; 
+        ta<lb ed="#C" n="10" break="no"/>lem errorem valde periculosum esse, ut  
+        <lb ed="#C" n="11"/>prima auctoritas ostendebat, ut videtur,  
+        <lb ed="#C" n="12"/>simul stare non possunt,  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e1015">
+                  <lb ed="#C" n="13"/>Ideo notandum, quod sicut circa 
+        <lb ed="#C" n="14"/>peccatum moris contingit, quod 
+        alicu<lb ed="#C" n="15" break="no"/>ius delictum ex una parte aggravatur,  
+        <lb ed="#C" n="16"/>ex alia parte meretur veniam: ut si quis 
+        <lb ed="#C" n="17"/>nollens praedicationes audire, ne habeat  
+        <lb ed="#C" n="18"/>scientiam agendorum, propter quod  
+        <lb ed="#C" n="19"/>contingat ipsum contra conscientiam 
+        <lb ed="#C" n="20"/>agere, per ignorantiam peccet: licet 
+        ex<lb ed="#C" n="21" break="no"/>una parte misericordiam consequatur quo 
+        <lb ed="#C" n="22"/>niam ignorans fecit; ex alia tamem parte eius 
+        <lb ed="#C" n="23"/>aggravatur noxa: quia Noluit intelligere, ut 
+        <lb ed="#C" n="24"/>bene ageret. Quod si tamen debitam 
+        in<lb ed="#C" n="25" break="no"/>telligentiam adhibeat quantum ad illam 
+        <lb ed="#C" n="26"/>partem, unde noxa aggravatur, 
+        simpli<lb ed="#C" n="27" break="no"/>citer veniam promeretur: &amp; tanta 
+        po<lb ed="#C" n="28" break="no"/>test esse diligentia, qua non solum a 
+        tan<lb ed="#C" n="29" break="no"/>to, sed etiam a toto excusatur: sic &amp; 
+        <lb ed="#C" n="30"/>circa errorem Divinorum se habet: nam 
+        <lb ed="#C" n="31"/>talis error uno modo acceptus facillime 
+        <lb ed="#C" n="32"/>ignoscitur; alio modo consideratus 
+        pe<lb ed="#C" n="33" break="no"/>riculosissimus est: quia si altitudinem 
+        <lb ed="#C" n="34"/>Divinorum attendimus, cum ad ea inti 
+        <lb ed="#C" n="35"/>enda sufficientes non simus, facillimo 
+        <lb ed="#C" n="36"/>veniam promeremur. Et hoc innui 
+        <lb ed="#C" n="37"/>Aug. cum ait: facillime debemus 
+        ignoscer<lb ed="#C" n="38" break="no"/>errantibus in tanti pervestigatione secreti. Sivero 
+        <lb ed="#C" n="39"/>consideramus talem errorem ex eo quod 
+        <lb ed="#C" n="40"/>circa ea, quae sunt fidei, habet 
+        contin<lb ed="#C" n="41" break="no"/>gere: valde periculosus est talis error, 
+        <lb ed="#C" n="42"/>cum fides sit quasi fundamentum 
+        totiu<lb ed="#C" n="43" break="no"/>spiritualis aedificij in nobis existentis: &amp; 
+        <lb ed="#C" n="44"/>ideo <name xml:id="Gi9qrR-f62181-Nd1e1086" ref="#Augustine">Aug.</name> talem errorem in 1. de Trin. 
+        <lb ed="#C" n="45"/>periculosum asseruit. Si igitur quantum 
+        <lb ed="#C" n="46"/>est ex parte nostra removemus omne 
+        <lb ed="#C" n="47"/>illud, propter quod talis error trahi 
+        <lb ed="#C" n="48"/>periculum, per omnem modum mere 
+        <lb ed="#C" n="49"/>mur veniam; &amp; absque peccato sic 
+        er<lb ed="#C" n="50" break="no"/>rare possumus. Est autem error circa 
+        Di<lb ed="#C" n="51" break="no"/>vina periculosus inquantum est contra 
+        <lb ed="#C" n="52"/>fidem expresse vel tacite. Contra fidem 
+        <lb ed="#C" n="53"/>expresse peccat, qui articulis fidei co 
+        <lb ed="#C" n="54"/>tradicit, vel qui determinata ab 
+        Eccle<lb ed="#C" n="55" break="no"/>sia negat sciens ea ab ipsa determinata 
+        <lb ed="#C" n="56"/>esse. Tacite autem vel interpretative fi¬ 
+        <!--652.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="57"/>dei contradicit, qui ea, quae ab 
+        Eccle<lb ed="#C" n="58" break="no"/>sia determinata non sunt, nec in 
+        articu<lb ed="#C" n="59" break="no"/>lis fidei continentur, tam pertinaciter 
+        <lb ed="#C" n="60"/>asserit, quod si fcciesia determinaret 
+        <lb ed="#C" n="61"/>contrarium, positionem suam 
+        retracta<lb ed="#C" n="62" break="no"/>re nollet. Si ergo contrarie opinans cir 
+        <lb ed="#C" n="63"/>ca notiones vel circa quaecunque Divina 
+        <lb ed="#C" n="64"/>si contradicit articulis ndei peccat: quia 
+        <lb ed="#C" n="65"/>sidei contradicit. Si vero talis error non 
+        <lb ed="#C" n="66"/>contradicit articulis fidei expresse, nec 
+        <lb ed="#C" n="67"/>est ab Ecclesia determinatus, vel si est 
+        <lb ed="#C" n="68"/>determinatus, sic errans nescit 
+        determi<lb ed="#C" n="69" break="no"/>natum esse, si non cum pertinacia asserat 
+        <lb ed="#C" n="70"/>quod dicit, sine peccato errare potest. 
+        <lb ed="#C" n="71"/>Et ista videtur sententia <name xml:id="Gi9qrR-f62181-Nd1e1152" ref="#Augustine">Aug.</name> 2. de Trin. 
+        <lb ed="#C" n="72"/>in principio, qui cum prius dixisset: 
+        <lb ed="#C" n="73"/>quod in errore Divinorum facillime mer 
+        <lb ed="#C" n="74"/>remur veniam addit: Duo sunt, quae in 
+        er<lb ed="#C" n="75" break="no"/>rore hominum difficillime tollerantur, videlicet  
+        <lb ed="#C" n="76"/>praesumptio priusquam veritas pateat. Et hoc  
+        <lb ed="#C" n="77"/>quantum ad eos qui tacite fidei contra 
+        <lb ed="#C" n="78"/>dicunt, eo quod nimis pertinaciter, &amp; 
+        pre<lb ed="#C" n="79" break="no"/>sumptuose suam positionem defendunt, 
+        <lb ed="#C" n="80"/>etiam circa ea, quae non dum ab 
+        Eccle<lb ed="#C" n="81" break="no"/>sia determinata existunt. Secundo 
+        diffi<lb ed="#C" n="82" break="no"/>cile tolleratur: cum iam patuit veritas, 
+        <lb ed="#C" n="83"/>praesumptae est defensio falsitatis, &amp; hoc 
+        <lb ed="#C" n="84"/>quantum ad illos qui etiam expresse 
+        <lb ed="#C" n="85"/>contrariatur fidei. Non enim debet 
+        ali<lb ed="#C" n="86" break="no"/>quis esse tanti in genii, quod in his 
+        <lb ed="#C" n="87"/>quae sunt fidei, debeat tantum sibi ipsi 
+        <lb ed="#C" n="88"/>credere, &amp; solum suis inniti consilijs: 
+        <lb ed="#C" n="89"/>cum Ang. tantae lucis radio 
+        periustra<lb ed="#C" n="90" break="no"/>tus dicat 1. de Trin. cap. 3. Nec pigebit 
+        <lb ed="#C" n="91"/>me sicubi haesito quaerere, nec pudebit sicub. 
+        <lb ed="#C" n="92"/>erro discere. Proinde quisquis haec legit, ubi 3. 
+        <lb ed="#C" n="93"/>pariter certus est pergat mecum; ubi pariter hae 
+        <lb ed="#C" n="94"/>sitat, quaerat mecum: ubi errorem suum 
+        cog<lb ed="#C" n="95" break="no"/>noscit, redeat ad me: ubi meum, revocet  
+        <lb ed="#C" n="96"/>me¬ 
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e1211">
+                  <lb ed="#C" n="97"/>Respond. ad arg. Ad 1. dicendum. 
+        <lb ed="#C" n="98"/>quod errare circa Divina quis potest. 
+        <lb ed="#C" n="99"/>absque eo quod fidei contradicit, ut 
+        pa<lb ed="#C" n="100" break="no"/>tet per habita.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e1222">
+        Ad 2. dicendum, quod  
+        <lb ed="#C" n="101"/>aliquis potest errare circa Divina; dum 
+        <lb ed="#C" n="102"/>tamen expresse non contradicat articum 
+        <lb ed="#C" n="103"/>lis fidei &amp; eis, quae sunt determinata ab 
+        <lb ed="#C" n="104"/>Ecclesia, etiam dato quod ex dictis eius 
+        <lb ed="#C" n="105"/>possit elsei aliqua conclusio, quae esset 
+        <lb ed="#C" n="106"/>contra articulos fidei, vel contra ea, 
+        <lb ed="#C" n="107"/>quae tenet Ecclesia; ita tamen quod 
+        ips<lb ed="#C" n="108" break="no"/>se ignoraret talem deductionem: sed  
+        <lb ed="#C" n="109"/>si ei fieret talis deductio, &amp; ostederetur 
+        <lb ed="#C" n="110"/>sibi, quod dicta eius contradicunt his, 
+        <lb ed="#C" n="111"/>quae tenet Ecclesia, si ipse ex tunc sua 
+        <lb ed="#C" n="112"/>positionem non dimitteret; sed errado 
+        <!--653.xml-->
+        <pb ed="#C" n="628"/>
+                  <cb ed="#C" n="a"/>
+                  <lb ed="#C" n="1"/>peccatet, &amp; sierrorem suum cum 
+        perti<lb ed="#C" n="2" break="no"/>naciam assereret, esset haereticus.  
+      </p>
+               <p xml:id="Gi9qrR-f62181-d1e1261">
+        Ad 3. 
+        <lb ed="#C" n="3"/>dicendum, quod omnia, quae sunt in 
+        <lb ed="#C" n="4"/>canone Bibliae, tenemur credere: dum 
+        <!--653.xml-->
+        <cb ed="#C" n="b"/>
+                  <lb ed="#C" n="5"/>tamem constet nobis ea ibi esse conscripta: 
+        <lb ed="#C" n="6"/>&amp; etiam dictis Sanctorum tenemur 
+        ac<lb ed="#C" n="7" break="no"/>quiescere potissime eis, quorum 
+        con<lb ed="#C" n="8" break="no"/>traria Ecclesia negat.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

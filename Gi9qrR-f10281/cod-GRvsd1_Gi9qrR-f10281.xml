@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litterales</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litterales</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f10281"><!-- l1-d20dublit -->
+            <head xml:id="Gi9qrR-f10281-Hd1e108">Dubitationes litterales</head>
+            <p xml:id="Gi9qrR-f10281-d1e111">
+               <lb ed="#C" n="12"/>DVBITATIONESLITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-f10281-d1e116">
+               <lb ed="#C" n="13"/>VPER litteram. Super illo: Omnia, 
+      <lb ed="#C" n="14"/>quae babet Pater. Videtur, quod 
+      ma<lb ed="#C" n="15" break="no"/>le arguat: vult enim, quod si omnia, 
+      <lb ed="#C" n="16"/>quae habet Pater, habet Filius, quod 
+      <lb ed="#C" n="17"/>Filius sit aequalis Patri in potentia, &amp; 
+      <lb ed="#C" n="18"/>quod habeat omnipotentiam, ut Pater; 
+      <lb ed="#C" n="19"/>sed in ratione committitur fallacia 
+      figu<lb ed="#C" n="20" break="no"/>rae dictionis: quia mutatur quid in quam 
+      <lb ed="#C" n="21"/>tum: non oportet, quod si aliquis 
+      ha<lb ed="#C" n="22" break="no"/>bet omnia, quae habet alter, quod 
+      ha<lb ed="#C" n="23" break="no"/>beat ea in tanta plenitudine, ut alter. 
+      <lb ed="#C" n="24"/>Dicendum, quod si non valet gratia 
+      <lb ed="#C" n="25"/>argumentationis, valet gratia materiae: &amp; 
+      <lb ed="#C" n="26"/>quia illa eadem, quae habet Pater, 
+      ha<lb ed="#C" n="27" break="no"/>bet Filius: ideo oportet, quod in tanta 
+      <lb ed="#C" n="28"/>plenitudine sit in Filio, ut in Patre, 
+      ali<lb ed="#C" n="29" break="no"/>ter non haberet illa eadem 
+      simplici<lb ed="#C" n="30" break="no"/>ter. 
+      <!--449.xml-->
+      <cb ed="#C" n="b"/>
+               <lb ed="#C" n="31"/>Item super illo: Si noluit gigner: sibi 
+      aequa<lb ed="#C" n="32" break="no"/>lem, invidus fuit. Contra: quia potest 
+      <lb ed="#C" n="33"/>Deus creaturam facere meliorenm, quam 
+      <lb ed="#C" n="34"/>faciat, ut potest facere meliorem 
+      ani<lb ed="#C" n="35" break="no"/>mam rationalem, dando sibi plus 
+      de<lb ed="#C" n="36" break="no"/>gratia, nec tamen est invidus, si non 
+      fa<lb ed="#C" n="37" break="no"/>cit. Dicendum, quod non est simile 
+      de<lb ed="#C" n="38" break="no"/>creatura, &amp; Filio Dei: quia ceteris crea 
+      <lb ed="#C" n="39"/>turis esse voluntas Dei attulit; sed Filio 
+      <lb ed="#C" n="40"/>natura dedit: &amp; ideo creaturis non 
+      <lb ed="#C" n="41"/>debetur aliquid nisi secundum volunta 
+      <lb ed="#C" n="42"/>tem Divinam. Et si non datur alicui,  
+      <lb ed="#C" n="43"/>quod sibi non debetur, non est ibi 
+      invi<lb ed="#C" n="44" break="no"/>dia; sed cum filius naturaliter habeat  
+      <lb ed="#C" n="45"/>esse a Patre, naturaliter sibi debetur to 
+      <lb ed="#C" n="46"/>tum esse Patris. Si igitur Deus nollet 
+      <lb ed="#C" n="47"/>illud esse ei tribuere, invidus esset 
+    </p>
+            <p xml:id="Gi9qrR-f10281-d1e199">
+               <lb ed="#C" n="48"/>Item super illo: AEqualitatis quaestio est, 
+      <lb ed="#C" n="49"/>qualis, aut quantus sit? Contra: proprium 
+      <lb ed="#C" n="50"/>est quantitati, secundum eam aequalet 
+      <lb ed="#C" n="51"/>&amp; inaequale dici, ergo qualitati non 
+      <lb ed="#C" n="52"/>convenit. Dicendum, quod alijs, 
+      a<lb ed="#C" n="53" break="no"/>quantitate comperit ratio aequalitatis, 
+      <lb ed="#C" n="54"/>prout competit eis aliquis modus 
+      quan<lb ed="#C" n="55" break="no"/>titativus, ut secundum virtutem 
+      dicun<lb ed="#C" n="56" break="no"/>tur aliqua aequalia, licet virtus sit in 
+      <lb ed="#C" n="57"/>praedicamento qualitatis. Et quia inter 
+      <lb ed="#C" n="58"/>Patrem, &amp; Filium est aequalitas 
+      secun<lb ed="#C" n="59" break="no"/>dum virtutem, cum virtus habeat 
+      ali<lb ed="#C" n="60" break="no"/>quomodo rationem qualis &amp; quanti, 
+      <lb ed="#C" n="61"/>ut dictum est, quaestio aequalitatis est 
+      <lb ed="#C" n="62"/>qualis, aut quantus sit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

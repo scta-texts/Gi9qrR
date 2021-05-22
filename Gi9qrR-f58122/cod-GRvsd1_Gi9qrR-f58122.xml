@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dubitationes litteralis</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Dubitationes litteralis</title>
+               <date when="2021-05-22">May 22, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-05-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#C" n="NaN"/>
+            <cb ed="#C" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-f58122"><!-- l1-d32dublit -->
+            <head xml:id="Gi9qrR-f58122-Hd1e108">Dubitationes litteralis</head>
+            <p xml:id="Gi9qrR-f58122-d1e111">
+      <!--633.xml-->
+               <cb ed="#C" n="b"/>
+               <lb ed="#C" n="45"/>DVBITATIOSES LITTERALES. 
+    </p>
+            <p xml:id="Gi9qrR-f58122-d1e120">
+               <lb ed="#C" n="46"/>SVper litteram super illo: Quaeri autem 
+      <lb ed="#C" n="47"/>solet: utrum Filius sit sapiens per 
+      <lb ed="#C" n="48"/>se ipsum? Notandum quod quaelibet 
+      po<lb ed="#C" n="49" break="no"/>sitio vera est, si sane sintelligatur: nam 
+      <lb ed="#C" n="50"/>prima accipit, per, prout potest diceret 
+      <lb ed="#C" n="51"/>habitudinem causae formalis, &amp; efficien 
+      <lb ed="#C" n="52"/>tis, accipiendo large causam &amp; 
+      effi<lb ed="#C" n="53" break="no"/>ciens. Secunda vero accipit prout 
+      de<lb ed="#C" n="54" break="no"/>terminatur ad habitudinem. formae, 
+      <lb ed="#C" n="55"/>extendendo huiusmodi 
+      habitudi<lb ed="#C" n="56" break="no"/>nem ad formam &amp; ad habentem 
+      for<lb ed="#C" n="57" break="no"/>mam, 
+    </p>
+            <p xml:id="Gi9qrR-f58122-d1e149">
+               <lb ed="#C" n="58"/>Item super illo: Naturae in quid. 
+      No<lb ed="#C" n="59" break="no"/>tandum quod Hilarius vult probare Fi¬ 
+      <lb ed="#C" n="60"/>ium agere per se, sed non a se. Et tria 
+      <lb ed="#C" n="61"/>facit: nam primo premittit hanc 
+      veri<lb ed="#C" n="62" break="no"/>tatem dicens: quod unitas naturae, cui  
+      <lb ed="#C" n="63"/>contradicit Haereticus, dat Filio quod  
+      <lb ed="#C" n="64"/>agat per se, sed non a se. Secundo: probat 
+      <lb ed="#C" n="65"/>alteram partem, videlicet, quod Filius 
+      <lb ed="#C" n="66"/>non agat a se, ibi: Intelligere Filium. 
+      Di<lb ed="#C" n="67" break="no"/>cens: quia Filius dicit: Pater in me manens 
+      <lb ed="#C" n="68"/>ipse facit opera: ex hoc monstratur, quia 
+      <lb ed="#C" n="69"/>Filius non agit a se, sed a Patre. Tertio: 
+      <lb ed="#C" n="70"/>ostendit Filium per se agere, ibi: Per se 
+      <lb ed="#C" n="71"/>agit. quia ex quo Filius agit quae sunt 
+      pla<lb ed="#C" n="72" break="no"/>cita Patri, oportet quod per se agat: quia 
+      <lb ed="#C" n="73"/>non proprie est complacentia in 
+      actio<lb ed="#C" n="74" break="no"/>nibus eorum, quorum non est per se 
+      <lb ed="#C" n="75"/>agere, addit tamem quod infirmus est ipse  
+      <lb ed="#C" n="76"/>Filius non agendo a se. Nist ipse agat. Hoc  
+      <lb ed="#C" n="77"/>est nisi ipse habeat quod per se agat. 4. 
+      <lb ed="#C" n="78"/>Deo. Hoc est a Deo Patre: &amp; quia Filius 
+      <lb ed="#C" n="79"/>non est infirmus, communicatum est ei a 
+      <lb ed="#C" n="80"/>Patre, quod per se agat. Non fit vero in 
+      <lb ed="#C" n="81"/>unitate naturae. Hoc est non requirit unitas 
+      <lb ed="#C" n="82"/>naturae, quae est inter Patrem &amp; Filium, quod  
+      <lb ed="#C" n="83"/>Filius agat, &amp; quae placet agat: nisi per se 
+      <lb ed="#C" n="84"/>agat. Tertio: super illo: Vtrum tantum una 
+      <lb ed="#C" n="85"/>it sapientia? Notandum, quod sapientia, 
+      <lb ed="#C" n="86"/>genita, &amp; in genita non sunt duae 
+      <lb ed="#C" n="87"/>sapientiae, sicut Deus genitus &amp; Deus 
+      <lb ed="#C" n="88"/>in genitus nonsunt duo Dij. Dicitur 
+      ta<lb ed="#C" n="89" break="no"/>men sapientiagenita &amp; in genita propter  
+      <lb ed="#C" n="90"/>distinctas hypostases 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
