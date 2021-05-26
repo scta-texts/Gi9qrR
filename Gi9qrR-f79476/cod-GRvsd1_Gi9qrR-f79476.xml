@@ -1,697 +1,705 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#GilesOfRome">Giles of Rome</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-05-22">May 22, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-05-22" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#C" n="688"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-05-22">May 22, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-GRvsd1">Cordoba 1699</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="688"/>
+        <cb ed="#C" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-f79476"><!-- l1-d37p1q2 -->
+        <head xml:id="Gi9qrR-f79476-Hd1e108">Quaestio 2</head>
+        <head xml:id="Gi9qrR-f79476-Hd1e111" type="question-title">De ubiquitate Dei</head>
+        <p xml:id="Gi9qrR-f79476-d1e111">
+          <lb ed="#C" n="94"/>QVAESTIO II. 
+          <lb ed="#C" n="95"/>De ubiquitate Dei. 
+        </p>
+        <p xml:id="Gi9qrR-f79476-d1e118">
+          <lb ed="#C" n="96"/>DEINDE quaeritur de 
+          se<lb ed="#C" n="97" break="no"/>cundo principali, videlt 
+          <lb ed="#C" n="98"/>cet, de eo quod Deo ub 
+          <lb ed="#C" n="99"/>que esse dicitur. Circa 
+          <lb ed="#C" n="100"/>quod quaeremus tria. 
+          <lb ed="#C" n="101"/>Primo: utrum Deus sit 
+          <lb ed="#C" n="102"/>ubique? Secundo: utrum 
+          <lb ed="#C" n="103"/>hoc sit proprium solius Dei? Tertio: 
+          u<lb ed="#C" n="104" break="no"/>trum ei conveniat ab aeternos 
+        </p>
+        <div xml:id="Gi9qrR-f79476-Dd1e140">
+          <head xml:id="Gi9qrR-f79476-Hd1e142">Articulus 1</head>
+          <head xml:id="Gi9qrR-f79476-Hd1e148" type="question-title">Utrum Deus coveniat esse, ubique?</head>
+          <p xml:id="Gi9qrR-f79476-d1e145">
+            <!--714.xml-->
+            <pb ed="#C" n="689"/>
+            <cb ed="#C" n="a"/>
+            <lb ed="#C" n="1"/>ARTICVLVS I. 
+            <lb ed="#C" n="2"/>Vtrum Deus coveniat esse, ubique? 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e158">
+            <lb ed="#C" n="3"/>AD 1. sic proceditur: videtur, quod  
+            <lb ed="#C" n="4"/>esse ubique Deo non conveniat. 
+            <lb ed="#C" n="5"/>Nam esse ubique dicit esse in loco; sed  
+            <lb ed="#C" n="6"/>Deo non convenit esse in loco: cum 
+            <lb ed="#C" n="7"/>omnis, animi conceptio sit (
+            secun<lb ed="#C" n="8" break="no"/>dum <name xml:id="Gi9qrR-f79476-Nd1e173" ref="#Boethius">Boetium</name> in lib. de Hebdomadibus) 
+            <lb ed="#C" n="9"/>quantum ad sapientes, spiritualia in 
+            lo<lb ed="#C" n="10" break="no"/>co non esse.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e181">
+            Praeterea: 4. Phys. ubi 
+            po<lb ed="#C" n="11" break="no"/>nuntur propietates loci, dicitur, quod  
+            <lb ed="#C" n="12"/>dignum est, locum continere illud, cuius 
+            <lb ed="#C" n="13"/>est, &amp; nihil rei esse; sed Deus non 
+            con<lb ed="#C" n="14" break="no"/>tinetur ab aliquo: sed omnia continet,  
+            <lb ed="#C" n="15"/>ergo &amp;c.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e194">
+            Praeterea: ibidem dicitur,  
+            <lb ed="#C" n="16"/>quod dignum est, locum nec maiorem 
+            <lb ed="#C" n="17"/>nec minorem esse locato, sed nihil est  
+            <lb ed="#C" n="18"/>quod Deo adequari possit, ergo non 
+            co<lb ed="#C" n="19" break="no"/>venit Deo esse in loco.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e206">
+            Praeterea: sicut 
+            <lb ed="#C" n="20"/>se habent successiva adtempus, ita se 
+            <lb ed="#C" n="21"/>habet permanentia ad locum, sed 
+            ali<lb ed="#C" n="22" break="no"/>quod successivum indivisibile non potest 
+            <lb ed="#C" n="23"/>esse in diversis temporibus, ergo 
+            ali<lb ed="#C" n="24" break="no"/>quod indivisibile permanens non 
+            pote<lb ed="#C" n="25" break="no"/>rit esse in diversis locis: non igitur Deus 
+            <lb ed="#C" n="26"/>erit ubique.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e224">
+            Praeterea: de ratione 
+            <lb ed="#C" n="27"/>loci est, quod nihil locatum sit extra 
+            ip<lb ed="#C" n="28" break="no"/>sum: vel igitur Deus nusquam erit, vel  
+            <lb ed="#C" n="29"/>si erit alicubi, erit in aliquo determi 
+            <lb ed="#C" n="30" break="no"/>nato loco. Nam si esset in omnibus 
+            lo<lb ed="#C" n="31" break="no"/>cis, vel in pluribus, non possemus 
+            salva<lb ed="#C" n="32" break="no"/>re praedictam conditionem loci, quae per 
+            <lb ed="#C" n="33"/>se loco convenit. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e242">
+            <lb ed="#C" n="34"/>In contrarium est <ref xml:id="Gi9qrR-f79476-Rd1e252"><name xml:id="Gi9qrR-f79476-Nd1e246" ref="#Augustine">Aug.</name> 1. Conf</ref> 
+            <lb ed="#C" n="35"/>qui loquens Deo ait <quote xml:id="Gi9qrR-f79476-Qd1e259" source="http://scta.info/resource/aconf-l1-d1e113" synch="121-129">Vbique totus es &amp; 
+            nul<lb ed="#C" n="36" break="no"/>la res te totum capit</quote>.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e254">
+            Praeterea: in littera 
+            <lb ed="#C" n="37"/>per multas auctoritates habetur, quod 
+            <lb ed="#C" n="38"/>Deus ubique est. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e261">
+            <lb ed="#C" n="39"/>RESOLVTIO. 
+            <lb ed="#C" n="40"/>Dicere cogimur, Deum esse ubique, ac semper: 
+            <lb ed="#C" n="41"/>quia est praesens locatis, &amp; locis, temporibus, 
+            <lb ed="#C" n="42"/>&amp; temporalibus, continendo, 
+            <lb ed="#C" n="43"/>&amp; conservando ea. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e274">
+            <lb ed="#C" n="44"/>REspondeo dicendum, quod sicut  
+            <lb ed="#C" n="45"/>probat <name xml:id="Gi9qrR-f79476-Nd1e292" ref="#Avicenna">Avicena</name> insufficientia sua: 
+            <lb ed="#C" n="46"/><quote xml:id="Gi9qrR-f79476-Qd1e296">Nulla, res dicitur esse in loco nisi propter  
+            <lb ed="#C" n="47"/>quantitatem, suam, vel propter magnitudinem 
+            <lb ed="#C" n="48"/>uam. Nam propter formam &amp; propter 
+            mate<lb ed="#C" n="49" break="no"/>riam non dicitur aliquid esse in loco</quote>. Vnde 
+            <lb ed="#C" n="50"/>&amp; cum intelligitur forma totius sine 
+            for<lb ed="#C" n="51" break="no"/>ma, quae est totum, ut natura, quae 
+            resul<lb ed="#C" n="52" break="no"/>tat ex unione materiae ad formam, non 
+            <!--714.xml-->
             <cb ed="#C" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="Gi9qrR-f79476"><!-- l1-d37p1q2 -->
-            <head xml:id="Gi9qrR-f79476-Hd1e108">Quaestio 2</head>
-            <p xml:id="Gi9qrR-f79476-d1e111">
-               <lb ed="#C" n="94"/>QVAESTIO II. 
-      <lb ed="#C" n="95"/>De ubiquitate Dei. 
-    </p>
-            <p xml:id="Gi9qrR-f79476-d1e118">
-               <lb ed="#C" n="96"/>DEIN DE quaeritur de 
-      se<lb ed="#C" n="97" break="no"/>cundo principali, videlt 
-      <lb ed="#C" n="98"/>cet, de eo quod Deo ub 
-      <lb ed="#C" n="99"/>que esse dicitur. Circa 
-      <lb ed="#C" n="100"/>quod quaeremus tria. 
-      <lb ed="#C" n="101"/>Primo: utrum Deus sit 
-      <lb ed="#C" n="102"/>ubique? Secundo: utrum 
-      <lb ed="#C" n="103"/>hoc sit proprium solius Dei? Tertio: 
-      u<lb ed="#C" n="104" break="no"/>trum ei conveniat ab aeternos 
-    </p>
-            <div xml:id="Gi9qrR-f79476-Dd1e140">
-               <head xml:id="Gi9qrR-f79476-Hd1e142">Articulus 1</head>
-               <p xml:id="Gi9qrR-f79476-d1e145">
-        <!--714.xml-->
-                  <pb ed="#C" n="689"/>
-                  <cb ed="#C" n="a"/>
-                  <lb ed="#C" n="1"/>ARTICVLVS I. 
-        <lb ed="#C" n="2"/>UsiE Deisis coveniat esse, ubique: 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e158">
-                  <lb ed="#C" n="3"/>AD 1. sic proceditur: videtur, quod  
-        <lb ed="#C" n="4"/>esse ubique Deo non conveniat. 
-        <lb ed="#C" n="5"/>Nam esse ubique dicit esse in loco; sed  
-        <lb ed="#C" n="6"/>Deo non convenit esse in loco: cum 
-        <lb ed="#C" n="7"/>omnis, animi conceptio sit (
-        secun<lb ed="#C" n="8" break="no"/>dum <name xml:id="Gi9qrR-f79476-Nd1e173" ref="#Boethius">Boetium</name> in lib. de Hebdomadibus) 
-        <lb ed="#C" n="9"/>quantum ad sapientes, spiritualia in 
-        lo<lb ed="#C" n="10" break="no"/>co non esse.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e181">
-        Praeterea: 4. Phys. ubi 
-        po<lb ed="#C" n="11" break="no"/>nuntur propietates loci, dicitur, quod  
-        <lb ed="#C" n="12"/>dignum est, locu continere illud, cuius 
-        <lb ed="#C" n="13"/>est, &amp; nihil rei esse; sed Deus non 
-        con<lb ed="#C" n="14" break="no"/>tinetur ab aliquo: sed omnia continet,  
-        <lb ed="#C" n="15"/>ergo &amp;c.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e194">
-        Praeterea: ibidem dicitur,  
-        <lb ed="#C" n="16"/>quod dignum est, ocum nec maiorem 
-        <lb ed="#C" n="17"/>nec minorem esse locato, sed nihil est  
-        <lb ed="#C" n="18"/>quod Deo adequari possit, ergo non 
-        co<lb ed="#C" n="19" break="no"/>venit Deo esse in loco.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e206">
-        Praeterea: sicut 
-        <lb ed="#C" n="20"/>se habent successiva adtempus, ita se 
-        <lb ed="#C" n="21"/>habet permanentia ad locum, sed 
-        ali<lb ed="#C" n="22" break="no"/>quod successivum indivisibile non potest 
-        <lb ed="#C" n="23"/>esse in diversis temporibus, ergo 
-        ali<lb ed="#C" n="24" break="no"/>quod indivisibile permanens non 
-        pote<lb ed="#C" n="25" break="no"/>rit esse in diversis locis: non igitur Deus 
-        <lb ed="#C" n="26"/>erit ubique.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e224">
-        Praeterea: de ratione 
-        <lb ed="#C" n="27"/>loci est, quod nihil locatum sit extra 
-        ip<lb ed="#C" n="28" break="no"/>sum: vel igitur Deus nusquam erit, vel  
-        <lb ed="#C" n="29"/>si erit alicubi, erit in aliquo determi 
-        <lb ed="#C" n="30"/>nato loco. Nam si esset in omnibus 
-        lo<lb ed="#C" n="31" break="no"/>cis, vel in pluribus, non possemus 
-        salva<lb ed="#C" n="32" break="no"/>re praedictam conditionem loci, quae per 
-        <lb ed="#C" n="33"/>se loco convenit. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e242">
-                  <lb ed="#C" n="34"/>In contrarium est <name xml:id="Gi9qrR-f79476-Nd1e246" ref="#Augustine">Aug.</name> 1. 
-        Conf<lb ed="#C" n="35" break="no"/>qui loquens Deo ait Vbique totus es &amp; nul 
-        <lb ed="#C" n="36"/>la res te totum capit.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e254">
-        Praeterea: in littera 
-        <lb ed="#C" n="37"/>per multas auctoritates habetur, quod 
-        <lb ed="#C" n="38"/>Deus ubique est. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e261">
-                  <lb ed="#C" n="39"/>RESOLVTIO. 
-        <lb ed="#C" n="40"/>Dicere cogimur, Deum esse ubique, ac semper: 
-        <lb ed="#C" n="41"/>quia est praesens locatis, &amp; locis, temporibus, 
-        <lb ed="#C" n="42"/>&amp; temporalibus, continendo, 
-        <lb ed="#C" n="43"/>&amp; conservando ea. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e274">
-                  <lb ed="#C" n="44"/>REspondeo dicendum, quod sicut  
-        <lb ed="#C" n="45"/>Rprobat Avicena insufficientia sua: 
-        <lb ed="#C" n="46"/>Nulla, res dicitur esse in loco nisi propter  
-        <lb ed="#C" n="47"/>quantitatem, suam, vel propter magnitudinem 
-        <lb ed="#C" n="48"/>uam. Nam propter formam &amp; propter 
-        mate<lb ed="#C" n="49" break="no"/>riam non dicitur aliquid esse in loco. Vnde 
-        <lb ed="#C" n="50"/>&amp; cum intelligitur forma totius sine 
-        for<lb ed="#C" n="51" break="no"/>ma, quae est totum, ut natura, quae 
-        resul<lb ed="#C" n="52" break="no"/>tat ex unione materiae ad formam, non 
-        <!--714.xml-->
-        <cb ed="#C" n="b"/>
-                  <lb ed="#C" n="53"/>oportet intelligere locum, immo de 
-        ra<lb ed="#C" n="54" break="no"/>tione quidditatis &amp; essentiae non est, 
-        <lb ed="#C" n="55"/>quod sit in loco. Si igitur substantia est 
-        <lb ed="#C" n="56"/>in loco, hoc est ratione, qua quanta vel 
-        <lb ed="#C" n="57"/>magna. Si igitur videre volumus, 
-        quo<lb ed="#C" n="58" break="no"/>modo Deus sit in loco, videamus quo 
-        <lb ed="#C" n="59"/>modo ei competit magnitudo: non 
-        <lb ed="#C" n="60"/>autem ei competit magnitudo molis 
-        <lb ed="#C" n="61"/>ive corporalis. Nam 8. Phys. &amp; 12. 
-        Me<lb ed="#C" n="62" break="no"/>ta. probatur, quod Deus existit praeter 
-        <lb ed="#C" n="63"/>omnem magnitudinem finitam &amp; 
-        infi<lb ed="#C" n="64" break="no"/>nitam. Si igitur Deus est magnus vel 
-        <lb ed="#C" n="65"/>immensus, non est magnus vel 
-        immen<lb ed="#C" n="66" break="no"/>sus mole; sed virtute: propter quod de 
-        <lb ed="#C" n="67"/>Fide ad Petrum cap 9. scribitur: Firmissim. 
-        <lb ed="#C" n="68"/>tene, &amp; nullatenus dubites, Trinitatem Deum 
-        <lb ed="#C" n="69"/>immensum esse virture, non mole: virtus autem 
-        <lb ed="#C" n="70"/>non habet rationem magnitudinis, nisi 
-        <lb ed="#C" n="71"/>comparata ad actum, vel ad obiectum: 
-        <lb ed="#C" n="72"/>secundum igitur quod Deo competit 
-        <lb ed="#C" n="73"/>agere, vel conservare, vel continere, 
-        <lb ed="#C" n="74"/>sic ei convenit esse in loco. Non enim 
-        <lb ed="#C" n="75"/>sic Deus implet loca, in quibus est, ut  
-        <lb ed="#C" n="76"/>corporalia implent: nam corporalia 
-        a<lb ed="#C" n="77" break="no"/>locis continetur; Deus autem locum 
-        <lb ed="#C" n="78"/>continet &amp; conservat. Vnde. 1. 
-        Conf<lb ed="#C" n="79" break="no"/>Aug. loquens Deo dicit: An non opus 
-        ha<lb ed="#C" n="80" break="no"/>bes, ut quoquam continearis, qui continens 
-        om<lb ed="#C" n="81" break="no"/>nia; quoniam quae imples, continendo imples? Non. 
-        <lb ed="#C" n="82"/>enim vasa, quae te plena sunt, stabilem te faciunt 
-        <lb ed="#C" n="83"/>quia &amp; si fragantur, non effunderis, Et cum 
-        effun<lb ed="#C" n="84" break="no"/>deris super nos, non tuiaces; sed erigis nos; 
-        nec<lb ed="#C" n="85" break="no"/>tudissiparis, sed colligis nos. Viso quomodo 
-        <lb ed="#C" n="86"/>Deus est in loco: quia non est in eo, ut  
-        <lb ed="#C" n="87"/>contentum; sed conservando &amp; 
-        conti<lb ed="#C" n="88" break="no"/>nendo loca, &amp; quae in locis sunt: sicut,  
-        <lb ed="#C" n="89"/>&amp; in tempore esse dicitur, non quia 
-        <lb ed="#C" n="90"/>tempore contineatur, sed quia sua aeter 
-        <lb ed="#C" n="91"/>nitate tempus &amp; temporalia continet: 
-        <lb ed="#C" n="92"/>facile est videre per viam, quam tendit 
-        <lb ed="#C" n="93"/>Ansel. Deum ubique esse: ait enim Mo 
-        <lb ed="#C" n="94"/>nolog. 19. quod Summa essentia, sive 
-        <lb ed="#C" n="95"/>Deus, vel est nusquam &amp; nunquam, sive in 
-        <lb ed="#C" n="96"/>nullo tempore &amp; in nullo loco: vel aliquando 
-        <lb ed="#C" n="97"/>&amp; alicubi tantum, sive in aliquo loco &amp; 
-        ali<lb ed="#C" n="98" break="no"/>quo tempore: vel est ubique &amp; semper: quod  
-        <lb ed="#C" n="99"/>Deus sit nusquam &amp; nunquam est impossibile, 
-        <lb ed="#C" n="100"/>quia nullum bonum nec penitus aliquid est sine. 
-        <lb ed="#C" n="101"/>ipso. Si igitur ipse nusquam &amp; nunquam est, 
-        <lb ed="#C" n="102"/>nusquam &amp; nunquam aliquod bonum est, quod  
-        <lb ed="#C" n="103"/>impossibile est. Si vero solum alicubi &amp; 
-        ali<lb ed="#C" n="104" break="no"/>quando Deus esse dicatur, &amp; non ubique &amp; 
-        <lb ed="#C" n="105"/>semper, sequitur aliquod tempus &amp; aliquem 
-        <lb ed="#C" n="106"/>locum esse ubi &amp; quando nihil omnino est: 
-        <lb ed="#C" n="107"/>quia sine Deo nulla essentia esse potest: quod  
-        <lb ed="#C" n="108"/>si praedictae viae sunt impossibiles, con¬ 
-        <!--715.xml-->
-        <pb ed="#C" n="690"/>
-                  <cb ed="#C" n="a"/>
-                  <lb ed="#C" n="1"/>cludit eodem cap. Deum esse ibique &amp; 
-        sem<lb ed="#C" n="2" break="no"/>per. Haec autem via Anselmi ex hoc 
-        ve<lb ed="#C" n="3" break="no"/>ritatem habet: quia Deus praesens est 
-        <lb ed="#C" n="4"/>locatis &amp; locis, temporibus &amp; 
-        tempo<lb ed="#C" n="5" break="no"/>ralibus, continendo &amp; contervando ea, 
-        <lb ed="#C" n="6"/>quod si nihil sine Deo inesse 
-        conserva<lb ed="#C" n="7" break="no"/>ri potest, Deum esse ubique; &amp; semper 
-        <lb ed="#C" n="8"/>idicere cogimuratio: 
-        <lb ed="#C" n="9"/>Respondi ad arg. Adits dicendum, 
-        <lb ed="#C" n="10"/>quod communis animi conceptio: est 
-        <lb ed="#C" n="11"/>spiritualia non esse in loco tanquam ad 
-        <lb ed="#C" n="12"/>loco contenta, tamen tanquam locum 
-        <lb ed="#C" n="13"/>continentia, vel circa ipsum operantia, 
-        <lb ed="#C" n="14"/>spiritualia in loco esse nihil prohibet. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e460">
-                  <lb ed="#C" n="15"/>Ad 2. dicendum, quod secundum 
-        An<lb ed="#C" n="16" break="no"/>selm. Monologi22. esse aliqua in loco 
-        <lb ed="#C" n="17"/>&amp; ini tempore duo dicit: Primo: Quia 
-        <lb ed="#C" n="18"/>quae sunt in locis; &amp; temporibus sunt 
-        praesen<lb ed="#C" n="19" break="no"/>tia illis. Secundo: Quia continatur ab 
-        ip<lb ed="#C" n="20" break="no"/>sis. In summa vero essentia unum rantum 
-        per<lb ed="#C" n="21" break="no"/>cipitur: quia praesens est, non quia continetur.  
-        <lb ed="#C" n="22"/>und, ut ait, si usus loquendi admittere, 
-        conve<lb ed="#C" n="23" break="no"/>nientius dici videretur Deum esse icum loco 
-        <lb ed="#C" n="24"/>vel cum tempore; quam in loco &amp; intempore. 
-        <lb ed="#C" n="25"/>sEt ad formam arguendi dicendum, quod  
-        <lb ed="#C" n="26"/>APhilosophus dat proprietatem loci, secundum 
-        <lb ed="#C" n="27"/>quod corporalia sunt in loco, quae sunt,  
-        <lb ed="#C" n="28"/>in loco: quia continentur ab eo: non 
-        <lb ed="#C" n="29"/>tamen dat proprietates loci, secundum 
-        <lb ed="#C" n="30"/>quod Deus in loco est, qui non est in 
-        <lb ed="#C" n="31"/>loco: quia a loco continetur; sed est 
-        <lb ed="#C" n="32"/>in eo, quia est ibi praesens, &amp; ipsum 
-        con<lb ed="#C" n="33" break="no"/>tinet.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e504">
-        Ad 3. dicendum, quod locum 
-        a<lb ed="#C" n="34" break="no"/>; daequari locato, veritatem habet 
-        respe<lb ed="#C" n="35" break="no"/>tctu corporalium &amp; contentorum a 
-        lo<lb ed="#C" n="36" break="no"/>eo; non respectu spiritualium, &amp; loca 
-        <lb ed="#C" n="37"/>continentium.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e515">
-        Ad 4. dicendum, quod  
-        <lb ed="#C" n="38"/>indivisibile secundum suecessionem 
-        po<lb ed="#C" n="39" break="no"/>test intelligi dupliciter. Primo: quia 
-        <lb ed="#C" n="40"/>non dividitur, ut successivam dividuntur: 
-        <lb ed="#C" n="41"/>nest tamem successionis terminus, secudum 
-        <lb ed="#C" n="42"/>quod instas indivilibile dicitur: quia est 
-        <lb ed="#C" n="43"/>terminus temporis, quod est de genere 
-        <lb ed="#C" n="44"/>suecessivorum: sic etiam &amp; mutatum 
-        <lb ed="#C" n="45"/>esse quid indivisibile est: quia est 
-        termi<lb ed="#C" n="46" break="no"/>nus motus: &amp; quod sic est indivisibile,  
-        <lb ed="#C" n="47"/>non est unum &amp; idem per 
-        om<lb ed="#C" n="48" break="no"/>i nem modum in pluribus temporibus? 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e541">
-                  <lb ed="#C" n="49"/>quia secundum diversitatem temporum 
-        <lb ed="#C" n="50"/>sumitur aliquo modo diversitas 
-        instan<lb ed="#C" n="51" break="no"/>tium. Secundo dicitur aliquid 
-        indivi<lb ed="#C" n="52" break="no"/>sibile secundum successionem; non 
-        so<lb ed="#C" n="53" break="no"/>lum quia non dividitur ut fuccessivum: 
-        <lb ed="#C" n="54"/>sed quia est abomni successione 
-        abso<lb ed="#C" n="55" break="no"/>lutum: &amp; sic est quid indivisibile 
-        aeterni<lb ed="#C" n="56" break="no"/>tas, &amp; quod sic indivisibile existit, non 
-        <!--715.xml-->
-        <cb ed="#C" n="b"/>
-                  <lb ed="#C" n="57"/>solum est ide in pluribus temporibus, 
-        <lb ed="#C" n="58"/>immo continet, &amp; comprehendit in 
-        se<lb ed="#C" n="59" break="no"/>omnia tempora: sic etiam de indivisibili 
-        <lb ed="#C" n="60"/>permanente, sive de indivisibili 
-        secun<lb ed="#C" n="61" break="no"/>dum magnitudinem distinguere 
-        possu<lb ed="#C" n="62" break="no"/>mus: quia aliquod est sic indivisibile, 
-        <lb ed="#C" n="63"/>quod licet non sit magnitudo; est 
-        ta<lb ed="#C" n="64" break="no"/>men terminus magnitudinis, ut 
-        pun<lb ed="#C" n="65" break="no"/>ctus, &amp; quod est sic quid indivisibile, eo, 
-        <lb ed="#C" n="66"/>quod determinatur secundum situm, 
-        <lb ed="#C" n="67"/> est substantia posita, non est unum 
-        <lb ed="#C" n="68"/>&amp; idem in pluribus loeis. Secundo 
-        mo<lb ed="#C" n="69" break="no"/>do dicitur indivilibile secundum 
-        mag<lb ed="#C" n="70" break="no"/>nitudinem, sive secundum 
-        dimensio<lb ed="#C" n="71" break="no"/>nem, non solum quia non dividitur, ut 
-        di<lb ed="#C" n="72" break="no"/>mensio, sed quia est quid absolutum ab 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e600">
-                  <lb ed="#C" n="73"/>omni situ &amp; dimensione, &amp; quod sic est  
-        <lb ed="#C" n="74"/>quid indivisibile, non solum potest esse 
-        <lb ed="#C" n="75"/>in pluribus locis, sed etiam est praesens 
-        <lb ed="#C" n="76"/>omni loco: propter quod ubique esse 
-        <lb ed="#C" n="77"/>dicitur: &amp; huiusmodi indivisibile est 
-        <lb ed="#C" n="78"/>Deus.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e616">
-        Ad 5. dicendum, quod de 
-        ratio<lb ed="#C" n="79" break="no"/>ne loci est, quod nihil locati sit extra 
-        ip<lb ed="#C" n="80" break="no"/>sum, si huiusmodi locus respectu eius, 
-        <lb ed="#C" n="81"/>quod est in loco, se habet ut continens: 
-        <lb ed="#C" n="82"/>Deus autem non est in loco, quia 
-        con<lb ed="#C" n="83" break="no"/>tineatur a loco, ut dictum est. Vel 
-        dicen<lb ed="#C" n="84" break="no"/>dum, quod Deus sic est in loco, quod 
-        ta<lb ed="#C" n="85" break="no"/>men non habet rationem locati: quia 
-        <lb ed="#C" n="86"/>secundum Anselm. Monolog. 22. 
-        <lb ed="#C" n="87"/>Deus sic est in loco &amp; tempore, quod 
-        lege<lb ed="#C" n="88" break="no"/>loci &amp; temporis non cogitur.  
-      </p>
-            </div>
-            <div xml:id="Gi9qrR-f79476-Dd1e641">
-               <head xml:id="Gi9qrR-f79476-Hd1e643">Articulus 2</head>
-               <p xml:id="Gi9qrR-f79476-d1e646">
-                  <lb ed="#C" n="89"/>ARTICVLVS II 
-        <lb ed="#C" n="90"/>Vtrum esse ubique sit proprium, solius 
-        <lb ed="#C" n="91"/>Dei? 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e655">
-                  <lb ed="#C" n="92"/>Ecundo quaeritur: utrum esse ubi¬ 
-        <lb ed="#C" n="93"/>que sit proprium solius Dei? Et 
-        vi<lb ed="#C" n="94" break="no"/>detur quod non: quia secundum Philosophum: 
-        <lb ed="#C" n="95"/>universalia sunt vbique &amp; semper: sed cum 
-        <lb ed="#C" n="96"/>Deus nec sit quid universale, nec 
-        parti<lb ed="#C" n="97" break="no"/>culare: esse ubique non erit ei proprium: 
-        <lb ed="#C" n="98"/>cum conveniat alij ab ipso.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e673">
-        Praeterea: 
-        <lb ed="#C" n="99"/>locus quid corporale nominat; sed 
-        ubi<lb ed="#C" n="100" break="no"/>cumque est dare aliquod corporale, ibi 
-        <lb ed="#C" n="101"/>est dare materiam, ergo materia est 
-        u<lb ed="#C" n="102" break="no"/>bique; sed cum materia non sit ipse Deus. 
-        <lb ed="#C" n="103"/>immo inter cetera entia magis a Deo 
-        <lb ed="#C" n="104"/>distet, natura saltem, &amp; si non situ, esse 
-        <lb ed="#C" n="105"/>ubique non erit proprium Dei, cum 
-        <lb ed="#C" n="106"/>materiae conveniat.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e693">
-        Praeterea: si essec 
-        <!--716.xml-->
-        <pb ed="#C" n="691"/>
-                  <cb ed="#C" n="a"/>
-                  <lb ed="#C" n="1"/>aliquod corpus, extra quod nihil esset 
-        <lb ed="#C" n="2"/>illud corpus esset ubique: quia non esset 
-        <lb ed="#C" n="3"/>dare aliquem locum non repletum 
-        tali<lb ed="#C" n="4" break="no"/>corpore. Cum igitur totum universum 
-        <lb ed="#C" n="5"/>sit extra quod nihil est, totum ipsum 
-        <lb ed="#C" n="6"/>erit ubique: non igitur proprium est so 
-        <lb ed="#C" n="7"/>lius Dei ubique esse.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e718">
-        Praeterea: anima est 
-        <lb ed="#C" n="8"/>in qualibet parte corporis tota: si ergo 
-        <lb ed="#C" n="9"/>contingeret, solum corpus animatum 
-        <lb ed="#C" n="10"/>anima rationali esse, ut si poneretur 
-        <lb ed="#C" n="11"/>quod tantum esset aliquis homo, ani 
-        <lb ed="#C" n="12"/>ma illius esset ubique: non ergo est 
-        pro<lb ed="#C" n="13" break="no"/>prium solius Dei esse ubique, cum 
-        pos<lb ed="#C" n="14" break="no"/>sit alijs competere: 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e736">
-                  <lb ed="#C" n="15"/>In contrarium est Ambro. qui  
-        <lb ed="#C" n="16"/>probat Spiritum Sanctum esse Deum:  
-        <lb ed="#C" n="17"/>eo quod ei competit esse ubique: ut 
-        pa<lb ed="#C" n="18" break="no"/>tet per ea, quae dicuntur in littera, sed  
-        <lb ed="#C" n="19"/>hoc non esset, nisi Deo proprium esset 
-        <lb ed="#C" n="20"/>esse ubique, ergo &amp;c. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e752">
-                  <lb ed="#C" n="21"/>RESOLVTIO. 
-        <lb ed="#C" n="22"/>Supposita rerum existentia, directem n&amp; per 
-        <lb ed="#C" n="23"/>se &amp; secundum idem esse, so¬ 
-        <lb ed="#C" n="24"/>li Deo competit esse 
-        <lb ed="#C" n="25"/>ubique.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e765">
-                  <lb ed="#C" n="26"/>REsp. dicendum, quod creatura 
-        pri<lb ed="#C" n="27" break="no"/>ma facie dividitur in creaturam 
-        <lb ed="#C" n="28"/>corporalem &amp; spiritualem: creatur 
-        <lb ed="#C" n="29"/>ra spiritualis distinguitur: quia 
-        quae<lb ed="#C" n="30" break="no"/>dam est unita corpori ut forma, ut anis 
-        <lb ed="#C" n="31"/>ma rationalis: quaedam non, ut 
-        intelli<lb ed="#C" n="32" break="no"/>gentia sive Angelus. Rursum 
-        corpora<lb ed="#C" n="33" break="no"/>lia dupliciter considerari possunt: 
-        Pri<lb ed="#C" n="34" break="no"/>mo quantum ad esse universale. 
-        Secun<lb ed="#C" n="35" break="no"/>do quantum ad particulare. 
-        Particula<lb ed="#C" n="36" break="no"/>ria dupliciter accipi possunt. Primo 
-        se<lb ed="#C" n="37" break="no"/>cundum se. Secundo secundum suas 
-        <lb ed="#C" n="38"/>partes, ut secundum materiam vel 
-        for<lb ed="#C" n="39" break="no"/>mam. Omnibus istis potest comnpetere 
-        es<lb ed="#C" n="40" break="no"/>se ubique, non tamen per se, sed quo 
-        <lb ed="#C" n="41"/>dammodo per accidens: Deo autem 
-        <lb ed="#C" n="42"/>posita ex istentia rerum per se ei 
-        com<lb ed="#C" n="43" break="no"/>petit esse ubique. Posset enim Angelus  
-        <lb ed="#C" n="44"/>vel intelligentia ubique esse, ut si 
-        pone<lb ed="#C" n="45" break="no"/>retur esse tantum aliquod corpus, circa 
-        <lb ed="#C" n="46"/>quod totum per se &amp; primo operari 
-        <lb ed="#C" n="47"/>posset: quia cum intelligentia sit, ubi 
-        <lb ed="#C" n="48"/>operatur: posset illa intelligetia esse 
-        ubi<lb ed="#C" n="49" break="no"/>que: quia posset esse in qualibet parte 
-        il<lb ed="#C" n="50" break="no"/>lius corporis. Sic etiam &amp; anima ubique 
-        <lb ed="#C" n="51"/>esse posset: nam cum sit in qualibet par 
-        <lb ed="#C" n="52"/>te corporis, quod informat: si 
-        ponere<lb ed="#C" n="53" break="no"/>tur solum esse tale corpus animatum, ani 
-        <lb ed="#C" n="54"/>ma ubique esset. Sic etiam universalia 
-        <!--716.xml-->
-        <cb ed="#C" n="b"/>
-                  <lb ed="#C" n="55"/>ubique esse possunt: nam cum sit univer 
-        <lb ed="#C" n="56"/>sale, ubicumque est suum particulare, si 
-        <lb ed="#C" n="57"/>ponerentur solum esse particularia 
-        ali<lb ed="#C" n="58" break="no"/>cuius universalis, illud universale 
-        ubi<lb ed="#C" n="59" break="no"/>que esset. Sic etiam &amp; totum 
-        composi<lb ed="#C" n="60" break="no"/>tum ubique esse potest: ut si poneretur 
-        <lb ed="#C" n="61"/>aliquod corpus totum spatium occupa 
-        <lb ed="#C" n="62"/>re, secundum quod dicimus totum 
-        uni<lb ed="#C" n="63" break="no"/>versum occupare totum: sic 
-        accipien<lb ed="#C" n="64" break="no"/>do corpus, corpus ubique existit. Isto 
-        <lb ed="#C" n="65"/>etiam modo materia &amp; forma possunt; 
-        <lb ed="#C" n="66"/>esse ubique: si ubique sunt ea, quorum 
-        <lb ed="#C" n="67"/>materia &amp; forma partes existunt. Sed si 
-        <lb ed="#C" n="68"/>bene advertimus, nulli istorum per se &amp; 
-        <lb ed="#C" n="69"/>secundum idem esse competit lesse 
-        ubi<lb ed="#C" n="70" break="no"/>que: nam cum Angelus &amp; anima 
-        ha<lb ed="#C" n="71" break="no"/>beant esse finitum &amp; in natura receptum, 
-        <lb ed="#C" n="72"/>oportet quod habeant finitam 
-        virtu<lb ed="#C" n="73" break="no"/>tem; cum modus agendi sequatur 
-        mo<lb ed="#C" n="74" break="no"/>dum essendi: accidit ergo animae &amp; An 
-        <lb ed="#C" n="75"/>gelo esse ubique, in quantum ponitur 
-        <lb ed="#C" n="76"/>solum esse corpus aliquod, quod non 
-        ex<lb ed="#C" n="77" break="no"/>cedit eorum potentiam &amp; virtute, quod 
-        <lb ed="#C" n="78"/>si tum per se eis competeret ubique 
-        es<lb ed="#C" n="79" break="no"/>se: quamtumcunque corpus 
-        ponere<lb ed="#C" n="80" break="no"/>tur, &amp; quodcumque, semper poneremus 
-        <lb ed="#C" n="81"/>Angelum &amp; animam esse in qualibet  
-        <lb ed="#C" n="82"/>parte eius: quia quae sunt per se, 
-        insepa<lb ed="#C" n="83" break="no"/>rabilia siunt: nec sunt propria, nisi quae 
-        <lb ed="#C" n="84"/>sunt talia: ideo Ambrosius probat 
-        pro<lb ed="#C" n="85" break="no"/>prium esse Deo esse ubique, ex, 
-        immen<lb ed="#C" n="86" break="no"/>sibilitate eius: sic &amp; universali accidit es¬ 
-        <lb ed="#C" n="87"/>se ubique. Nam universalia non sunt; 
-        <lb ed="#C" n="88"/>nisi ubi sua particularia existunt: &amp; quia 
-        <lb ed="#C" n="89"/>accidit solum esse particularia alicuius 
-        <lb ed="#C" n="90"/>universalis faccipiendo universale, ut ei 
-        <lb ed="#C" n="91"/>competit unitas praedicationis, non 
-        at<lb ed="#C" n="92" break="no"/>tributionis, sive accipiendo universale, 
-        <lb ed="#C" n="93"/>ut distinguitur contra analogum) non 
-        <lb ed="#C" n="94"/>competit per se universali esse ubique. 
-        <lb ed="#C" n="95"/>Rursum non competit ei per se esse 
-        u<lb ed="#C" n="96" break="no"/>bique: quia competit ei per sua particu 
-        <lb ed="#C" n="97"/>laria, &amp; accipiendo hoc esse ubique, ut  
-        <lb ed="#C" n="98"/>hic de ubique loquimur. Possumus 
-        ta<lb ed="#C" n="99" break="no"/>men, si volumus, &amp; tertiam causam 
-        as<lb ed="#C" n="100" break="no"/>signare: quia non competit ei esse 
-        ubi<lb ed="#C" n="101" break="no"/>que secundum unum &amp; idem esse, 
-        ex<lb ed="#C" n="102" break="no"/>quo etiam apparet: quare materiae &amp; 
-        <lb ed="#C" n="103"/>formae non competit esse ubique: quia 
-        <lb ed="#C" n="104"/>talia sunt alicubi solum, per eorum 
-        tota<lb ed="#C" n="105" break="no"/>nec etiam sunt, ubicuque sunt, secudum idem 
-        <lb ed="#C" n="106"/>esse: sic etiam totum universum est 
-        ubi<lb ed="#C" n="107" break="no"/>que non per se: quia est dare aliquem 
-        lo<lb ed="#C" n="108" break="no"/>cum, ubi totum non existit, sed per suas 
-        <lb ed="#C" n="109"/>partes. Deus autem unus &amp; idem existens, 
-        <lb ed="#C" n="110"/>secundum unum &amp; idem esse non varia¬ 
-        <!--717.xml-->
-        <pb ed="#C" n="692"/>
-                  <cb ed="#C" n="a"/>
-                  <lb ed="#C" n="1"/>tus in se, est ubique, in quantum 
-        omni<lb ed="#C" n="2" break="no"/>bus dat esse: immo ponere aliquid 
-        exi<lb ed="#C" n="3" break="no"/>istere, ubi Deus non sit, est ponere illud 
-        <lb ed="#C" n="4"/>non esse: cum nihil possit illud 
-        conser<lb ed="#C" n="5" break="no"/>tare in esse, ubi Deus non existat 
-        substan<lb ed="#C" n="6" break="no"/>tificans esse eius. Posita ergo existentia 
-        <lb ed="#C" n="7"/>terum, directe &amp; per se &amp; secundum 
-        <lb ed="#C" n="8"/>idem esse soli Deo competit esse 
-        u<lb ed="#C" n="9" break="no"/>bique. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e982">
-                  <lb ed="#C" n="10"/>Respond. ad arg. Ad 1. dicendum, 
-        <lb ed="#C" n="11"/>quod universalia esse ubique &amp; semper 
-        <lb ed="#C" n="12"/>dupliciter potest intelligi. Primo: quia 
-        <lb ed="#C" n="13"/>sunt abstracta a conditionibus materiae, 
-        <lb ed="#C" n="14"/>ut ab hic &amp; nunc: &amp; quia non determi 
-        <lb ed="#C" n="15"/>nant sibi locum &amp; tempus, dicuntur 
-        es<lb ed="#C" n="16" break="no"/>se semper &amp; ubique, &amp; sic non 
-        loqui<lb ed="#C" n="17" break="no"/>mur de esse ubique. Alio modo 
-        dicun<lb ed="#C" n="18" break="no"/>tur esse ubique, quia sunt, ubicuque sua 
-        <lb ed="#C" n="19"/>particularia existunt: &amp; sic proprie &amp; 
-        <lb ed="#C" n="20"/>directe non sunt ubique: nam cum non 
-        <lb ed="#C" n="21"/>sit ubique homo particularis, non est 
-        <lb ed="#C" n="22"/>ubique homo universalis: sic etiam 
-        se<lb ed="#C" n="23" break="no"/>cundum fidem nostram universalia non 
-        <lb ed="#C" n="24"/>sunt semper: quia non semper fuerunt  
-        <lb ed="#C" n="25"/>eorum particularia: &amp; quia sic locutia 
-        <lb ed="#C" n="26"/>sumus de esse ubique per se &amp; directe, 
-        <lb ed="#C" n="27"/>universalibus non conpeter ubique: esse. Alia, 
-        <lb ed="#C" n="28"/>argumeta patet per ea, quae dicta sunt,  
-        <lb ed="#C" n="29"/>in principali solutione 
-      </p>
-            </div>
-            <div xml:id="Gi9qrR-f79476-Dd1e1030">
-               <head xml:id="Gi9qrR-f79476-Hd1e1032">Articulus 3</head>
-               <p xml:id="Gi9qrR-f79476-d1e1035">
-                  <lb ed="#C" n="30"/>ARTICVLVS III. 
-        <lb ed="#C" n="31"/>IVtrum esse ubique Deo conveniat abaeterno? 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1042">
-                  <lb ed="#C" n="32"/>TErtio quaeritur: utrum esse ubique 
-        <lb ed="#C" n="33"/>conveniat Deo ab aeterno? Et 
-        vide<lb ed="#C" n="34" break="no"/>tur, quod sic: quia quod est proprium, 
-        <lb ed="#C" n="35"/>alicui, est inseparebile ab eo, sed, ut  
-        <lb ed="#C" n="36"/>ostensum est, esse ubique est proprium, 
-        <lb ed="#C" n="37"/>Dei, ergo &amp;c.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1058">
-        Praeterea: ex hoc 
-        dici<lb ed="#C" n="38" break="no"/>tur aliquid esse ubique: quia non 
-        deter<lb ed="#C" n="39" break="no"/>minatur ad locum, sed non habere esse 
-        <lb ed="#C" n="40"/>determinatum ad locum competit 
-        <lb ed="#C" n="41"/>Deo ab aeterno, ergo &amp;c.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1069">
-        Praeterea: si 
-        <lb ed="#C" n="42"/>nunquam fuissent tempora, Deus 
-        sem<lb ed="#C" n="43" break="no"/>per fuisset, &amp; ab aeterno, ergo a simili 
-        <lb ed="#C" n="44"/>si nunquam fuissent loca, Deus fuisset 
-        <lb ed="#C" n="45"/>ubique &amp; ab aeterno. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1081">
-                  <lb ed="#C" n="46"/>In contrarium est: quia esse ubique 
-        <lb ed="#C" n="47"/>circuncornit locum, sed nec locus, nec 
-        <lb ed="#C" n="48"/>creatura aliqua fuit ab 
-        aeter<lb ed="#C" n="49" break="no"/>no, ergo esse ubique ab aeter 
-        <lb ed="#C" n="50"/>no Deo competere 
-        <lb ed="#C" n="51"/>non potest 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1097">
-        <!--717.xml-->
-                  <cb ed="#C" n="b"/>
-                  <lb ed="#C" n="52"/>RESOLVTIO 
-        <lb ed="#C" n="53"/>Deus non est ubique ab aeterno, prout esse 
-        ubi<lb ed="#C" n="54" break="no"/>que &amp; semper designat existentiam omnis 
-        <lb ed="#C" n="55"/>temporis &amp; loci: sed prout denotat absolutio? 
-        <lb ed="#C" n="56"/>nem ab omni tempore &amp; loco: &amp; prout esse 
-        <lb ed="#C" n="57"/>emper dicit indeficientiam durationis, &amp; esse 
-        <lb ed="#C" n="58"/>ubique significat esse in omni, quod  
-        <lb ed="#C" n="59"/>est, Deo convenit esse ubique 
-        <lb ed="#C" n="60"/>ab aeterno. 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1123">
-                  <lb ed="#C" n="61"/>REspond. dicendum, quod licet res 
-        <lb ed="#C" n="62"/>fuerint ab aeterno in Deo; Deus 
-        <lb ed="#C" n="63"/>tamen est in rebus ex tempote. Causa 
-        <lb ed="#C" n="64"/>autem huius diversitatis dupliciter 
-        ac<lb ed="#C" n="65" break="no"/>cipi potest. Primo: quia omne, quod 
-        <lb ed="#C" n="66"/>est in aliquo, est in eo secundum modum 
-        <lb ed="#C" n="67"/>eius, in quo est: &amp; ideo res sunt in Deo 
-        <lb ed="#C" n="68"/>secundum modum Dei; Deus autem est 
-        <lb ed="#C" n="69"/>in rebus quodammodo secundum 
-        mo<lb ed="#C" n="70" break="no"/>dum rerum: &amp; ideo assignantur diversi 
-        <lb ed="#C" n="71"/>modi, quibus Deus est in rebus, aliquo 
-        <lb ed="#C" n="72"/>modo ex diversitate rerum, ut ex eo 
-        <lb ed="#C" n="73"/>quod anima est susceptibilis gratiae, &amp; 
-        <lb ed="#C" n="74"/>non leo, est Deus per gratiam in anima, 
-        <lb ed="#C" n="75"/>non in leone: &amp; quia competit rebus 
-        <lb ed="#C" n="76"/>esse ex tempore, Deus autem 
-        aeter<lb ed="#C" n="77" break="no"/>nitate mensuratur, res sunt in Deo ab 
-        <lb ed="#C" n="78"/>aeterno; Deus autem in rebus 
-        extempo<lb ed="#C" n="79" break="no"/>re. Alia via ad ostendendum hoc idem 
-        <lb ed="#C" n="80"/>sumitur ex diversa habitudine, quae 
-        con<lb ed="#C" n="81" break="no"/>surgit ex eo, quod Deus ponitur in 
-        re<lb ed="#C" n="82" break="no"/>pus, &amp; res in Deo. Nam sicut dicimus 
-        <lb ed="#C" n="83"/>Deum scivisse omnia ab aeterno, 
-        fecis<lb ed="#C" n="84" break="no"/>se tamen ea in tempore: eo quod res ut 
-        <lb ed="#C" n="85"/>scitae dicunt aliquid in Deo existens: 
-        <lb ed="#C" n="86"/>ut factae, dicunt aliquid a Deo 
-        progre<lb ed="#C" n="87" break="no"/>liens: sic quia Deus est in rebus, secunt 
-        <lb ed="#C" n="88"/>dum quod aliqua operatio: a Deo 
-        pro<lb ed="#C" n="89" break="no"/>greditur, ut conservatio rerum in esse, 
-        <lb ed="#C" n="90"/>secundum quam in rebus esse dicitur:  
-        <lb ed="#C" n="91"/>res autem sunt in Deo non ut aliquid 
-        <lb ed="#C" n="92"/>ab ipso progrediens, sed prout in eius 
-        <lb ed="#C" n="93"/>virture &amp; scientia continentur. Deus est 
-        <lb ed="#C" n="94"/>in rebus ex tempore: eo quod tale esse 
-        <lb ed="#C" n="95"/>non est sine existentia rerum, quae est 
-        <lb ed="#C" n="96"/>temporalis: res autem sunt: in Deo ab 
-        <lb ed="#C" n="97"/>aeterno: quia tale esse solum Dei 
-        existen<lb ed="#C" n="98" break="no"/>tiam requirit: quia creatura in Creato. 
-        <lb ed="#C" n="99"/>re non est aliud, quam creatrix 
-        essen<lb ed="#C" n="100" break="no"/>tia. Si igitur esse ubique est idem, quod  
-        <lb ed="#C" n="101"/>Deum esse in rebus creatis, cum Deus non 
-        <lb ed="#C" n="102"/>fuerit in rebus ab aeterno, ab aeterno ei 
-        <lb ed="#C" n="103"/>non competet. Ideo notandum, quod 
-        ali<lb ed="#C" n="104" break="no"/>quid esse ubique tripliciter potest 
-        in<lb ed="#C" n="105" break="no"/>telligi, sicut &amp; aliquid esse semper, 
-        <!--718.xml-->
-        <pb ed="#C" n="693"/>
-                  <cb ed="#C" n="a"/>
-                  <lb ed="#C" n="1"/>Primo: quod oc sit per absolutionem 
-        <lb ed="#C" n="2"/>a tempore &amp; loco, secundum quod 
-        u<lb ed="#C" n="3" break="no"/>niversalia dicuntur esse semper &amp; 
-        ubi<lb ed="#C" n="4" break="no"/>que: quia sunt abstracta a conditioni, 
-        <lb ed="#C" n="5"/>bus materiae, quae sunt hic &amp; nunc, &amp; 
-        <lb ed="#C" n="6"/>sic ab aeterno competit Deo esse 
-        sem<lb ed="#C" n="7" break="no"/>per &amp; ubique: quia semper ei competi 
-        <lb ed="#C" n="8"/>esse sine materia, &amp; non determinati 
-        <lb ed="#C" n="9"/>per conditiones materiae. Secundo 
-        mo<lb ed="#C" n="10" break="no"/>do dicitur aliquid esse semper &amp; 
-        ubi<lb ed="#C" n="11" break="no"/>que: quia est in omni tempore, &amp; in 
-        omni<lb ed="#C" n="12" break="no"/>loco, &amp; sic esse semper &amp; ubique 
-        prae<lb ed="#C" n="13" break="no"/>sur ponit existentiam temporum, &amp; 
-        lo<lb ed="#C" n="14" break="no"/>eorum: nam sicut non dicimus, Deum 
-        <lb ed="#C" n="15"/>esse in rebus, nisi sit existentia rerum, it: 
-        <lb ed="#C" n="16"/>non dicimus, ipsum esse semper &amp; 
-        ubi<lb ed="#C" n="17" break="no"/>tque sive in omni tempore &amp; in 
-        omni<lb ed="#C" n="18" break="no"/>eloco, non praesupposita existentia 
-        tem<lb ed="#C" n="19" break="no"/>porum &amp; locorum: &amp; quia non ab 
-        ae<lb ed="#C" n="20" break="no"/>terno fuerint tempora &amp; loca, ut hic 
-        <lb ed="#C" n="21"/>de tempore &amp; loco loquimur, sic 
-        acci<lb ed="#C" n="22" break="no"/>piendo semper &amp; ubique, non 
-        compe<lb ed="#C" n="23" break="no"/>tunt Deo ab aeterno. Tertio modo 
-        sem<lb ed="#C" n="24" break="no"/>per idem sonat, quod indeficientia du 
-        <lb ed="#C" n="25"/>rationis, &amp; sic maxime semper est, quod 
-        <lb ed="#C" n="26"/>aeternum est. Vnde Anselm. Monolog. 
-        <lb ed="#C" n="27"/>22. dicit: Semper verius designare 
-        aeternita<lb ed="#C" n="28" break="no"/>lem, quam totum tempus. Nam 
-        indeficien<lb ed="#C" n="29" break="no"/>tia durationis imaginis competit 
-        aeter<lb ed="#C" n="30" break="no"/>nitati, quam toti tempori: &amp; sic esse 
-        <lb ed="#C" n="31"/>semper competit Deo ab aeterno. Sic 
-        <lb ed="#C" n="32"/>etiam esse ubique uno modo idem 
-        sig<lb ed="#C" n="33" break="no"/>nificat, quod esse in omnibus his, quae 
-        <lb ed="#C" n="34"/>sunt, ut Ansel. dicit Monolog. 23 &amp; sic 
-        <lb ed="#C" n="35"/>Deo esse ubique ab aeterno 
-        compe<lb ed="#C" n="36" break="no"/>tit, cum &amp; Deum in se ipso dicamus 
-        es<lb ed="#C" n="37" break="no"/>se. Nam semper fuit verum dicere Deum esse 
-        <lb ed="#C" n="38"/>in omnibus his, quae sunt: cum nihil sit, 
-        <lb ed="#C" n="39"/>in quo Deus non sit: cum &amp; in se ipso Deum 
-        <lb ed="#C" n="40"/>esse dicamus. Vnde Ansel. eodem 
-        Mo<lb ed="#C" n="41" break="no"/>nolog. 23. ait: aptius dici Deum esse 
-        <lb ed="#C" n="42"/>semper &amp; ubique: quam in omni tempore &amp; 
-        <lb ed="#C" n="43"/>in omni loco, ut intelligatur esse ubique: 
-        <lb ed="#C" n="44"/>quia est in onibus his, quae sunt: esse 
-        sem<lb ed="#C" n="45" break="no"/>per propter durationis indeficientiam, 
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1327">
-                  <lb ed="#C" n="46"/>Resp. ad arg. Ad 1. dicendum, quod 
-        <lb ed="#C" n="47"/>si esse ubique idem sit, quod esse in 
-        om<lb ed="#C" n="48" break="no"/>ni loco, est proprium Deo, supposita 
-        <lb ed="#C" n="49"/>rerum existentia. Vnde &amp; inseparabile 
-        <lb ed="#C" n="50"/>est ab eo, si res in esse ponuntur: sed  
-        <lb ed="#C" n="51"/>si esse ubique est idem, quod esse in 
-        <lb ed="#C" n="52"/>omnibus his, quae sunt: vel esse 
-        absolu<lb ed="#C" n="53" break="no"/>tum adeterminatione loci, sic 
-        simplici<lb ed="#C" n="54" break="no"/>ter ab aeterno Deo competit.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1349">
-        Ad 2. 
-        pa<lb ed="#C" n="55" break="no"/>tet solutio per iam dicta: quia Deum est 
-        <lb ed="#C" n="56"/>se ubique illo modo competit ei ab ae¬ 
-        <!--718.xml-->
-        <cb ed="#C" n="b"/>
-                  <lb ed="#C" n="57"/>terno.
-      </p>
-               <p xml:id="Gi9qrR-f79476-d1e1362">
-        Ad 3. dicendum, quod si 
-        nun<lb ed="#C" n="58" break="no"/>quam fuissent tempora, Deus fuisset 
-        <lb ed="#C" n="59"/>semper, prout semper dicit 
-        indeficien<lb ed="#C" n="60" break="no"/>tiam durationis; non tamen fuisset 
-        sem<lb ed="#C" n="61" break="no"/>per, prout semper idem est, quod esse in 
-        <lb ed="#C" n="62"/>omni tempore, vel prout includit actuam 
-        <lb ed="#C" n="63"/>lem existentiam temporum. Ita si 
-        nun<lb ed="#C" n="64" break="no"/>quam suisset creatura, Deus fuisset 
-        ubi<lb ed="#C" n="65" break="no"/>que, prout ubique idem est, quod esse in 
-        <lb ed="#C" n="66"/>omnibus, quae sunt, accipiendo esse, in, 
-        <lb ed="#C" n="67"/>large, secundum quod Deus in se ipso 
-        <lb ed="#C" n="68"/>esse dicitur, non tamen fuisset ubique, 
-        <lb ed="#C" n="69"/>prout ubique idem est, quod esse in om 
-        <lb ed="#C" n="70"/>ni loco, &amp; praesupponit locorum 
-        exi<lb ed="#C" n="71" break="no"/>stentiam. Et ex hoc solvitur, argumen 
-        <lb ed="#C" n="72"/>tum incontrarium: quia sic accipit esse 
-        <lb ed="#C" n="73"/>ubique, prout videlicet, ubique dicit  
-        <lb ed="#C" n="74"/>habitudinem ad locum. 
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#C" n="53"/>oportet intelligere locum, immo de 
+            ra<lb ed="#C" n="54" break="no"/>tione quidditatis &amp; essentiae non est, 
+            <lb ed="#C" n="55"/>quod sit in loco. Si igitur substantia est 
+            <lb ed="#C" n="56"/>in loco, hoc est ratione, qua quanta vel 
+            <lb ed="#C" n="57"/>magna. Si igitur videre volumus, 
+            quo<lb ed="#C" n="58" break="no"/>modo Deus sit in loco, videamus quo 
+            <lb ed="#C" n="59"/>modo ei competit magnitudo: non 
+            <lb ed="#C" n="60"/>autem ei competit magnitudo molis 
+            <lb ed="#C" n="61"/>ive corporalis. Nam <ref xml:id="Gi9qrR-f79476-Rd1e336">8. Phys.</ref> &amp; <ref xml:id="Gi9qrR-f79476-Rd1e339">12. 
+            Me<lb ed="#C" n="62" break="no"/>ta</ref>. probatur, quod Deus existit praeter 
+            <lb ed="#C" n="63"/>omnem magnitudinem finitam &amp; 
+            infi<lb ed="#C" n="64" break="no"/>nitam. Si igitur Deus est magnus vel 
+            <lb ed="#C" n="65"/>immensus, non est magnus vel 
+            immen<lb ed="#C" n="66" break="no"/>sus mole; sed virtute: propter quod <ref xml:id="Gi9qrR-f79476-Rd1e353">de 
+              <lb ed="#C" n="67"/>Fide ad Petrum cap 9</ref>. scribitur: <quote xml:id="Gi9qrR-f79476-Qd1e358" source="http://scta.info/resource/AuGch8-dd88aa-d1e3010" synch="12-24">Firmissim. 
+            <lb ed="#C" n="68"/>tene, &amp; nullatenus dubites, Trinitatem Deum 
+            <lb ed="#C" n="69"/>immensum esse virture, non mole</quote>: virtus autem 
+            <lb ed="#C" n="70"/>non habet rationem magnitudinis, nisi 
+            <lb ed="#C" n="71"/>comparata ad actum, vel ad obiectum: 
+            <lb ed="#C" n="72"/>secundum igitur quod Deo competit 
+            <lb ed="#C" n="73"/>agere, vel conservare, vel continere, 
+            <lb ed="#C" n="74"/>sic ei convenit esse in loco. Non enim 
+            <lb ed="#C" n="75"/>sic Deus implet loca, in quibus est, ut  
+            <lb ed="#C" n="76"/>corporalia implent: nam corporalia 
+            a<lb ed="#C" n="77" break="no"/>locis continetur; Deus autem locum 
+            <lb ed="#C" n="78"/>continet &amp; conservat. Vnde. <ref xml:id="Gi9qrR-f79476-Rd1e385">1. Conf
+              <lb ed="#C" n="79"/>Aug.</ref> loquens Deo dicit: <quote xml:id="Gi9qrR-f79476-Qd1e390" source="http://scta.info/resource/aconf-l1-d1e113" synch="30-76">An non opus 
+            ha<lb ed="#C" n="80" break="no"/>bes, ut quoquam continearis, qui continens 
+            om<lb ed="#C" n="81" break="no"/>nia; quoniam quae imples, continendo imples? Non. 
+            <lb ed="#C" n="82"/>enim vasa, quae te plena sunt, stabilem te faciunt 
+            <lb ed="#C" n="83"/>quia &amp; si fragantur, non effunderis, Et cum 
+            effun<lb ed="#C" n="84" break="no"/>deris super nos, non tuiaces; sed erigis nos; 
+            nec<lb ed="#C" n="85" break="no"/>tudissiparis, sed colligis nos</quote>. Viso quomodo 
+            <lb ed="#C" n="86"/>Deus est in loco: quia non est in eo, ut  
+            <lb ed="#C" n="87"/>contentum; sed conservando &amp; 
+            conti<lb ed="#C" n="88" break="no"/>nendo loca, &amp; quae in locis sunt: sicut,  
+            <lb ed="#C" n="89"/>&amp; in tempore esse dicitur, non quia 
+            <lb ed="#C" n="90"/>tempore contineatur, sed quia sua aeter 
+            <lb ed="#C" n="91"/>nitate tempus &amp; temporalia continet: 
+            <lb ed="#C" n="92"/>facile est videre per viam, quam tendit 
+            <lb ed="#C" n="93"/>Ansel. Deum ubique esse: ait enim 
+            <ref xml:id="Gi9qrR-f79476-Rd1e423">Mo<lb ed="#C" n="94" break="no"/>nolog. 19</ref>. quod <quote xml:id="Gi9qrR-f79476-Qd1e428" source="http://scta.info/resource/adcmon-c20-d1e115 http://scta.info/resource/adcmon-c20-d1e133" synch="51-81 1-125">Summa essentia, sive 
+            <lb ed="#C" n="95"/>Deus, vel est nusquam &amp; nunquam, sive in 
+            <lb ed="#C" n="96"/>nullo tempore &amp; in nullo loco: vel aliquando 
+            <lb ed="#C" n="97"/>&amp; alicubi tantum, sive in aliquo loco &amp; 
+            ali<lb ed="#C" n="98" break="no"/>quo tempore: vel est ubique &amp; semper: quod  
+            <lb ed="#C" n="99"/>Deus sit nusquam &amp; nunquam est impossibile, 
+            <lb ed="#C" n="100"/>quia nullum bonum nec penitus aliquid est sine. 
+            <lb ed="#C" n="101"/>ipso. Si igitur ipse nusquam &amp; nunquam est, 
+            <lb ed="#C" n="102"/>nusquam &amp; nunquam aliquod bonum est, quod  
+            <lb ed="#C" n="103"/>impossibile est. Si vero solum alicubi &amp; 
+            ali<lb ed="#C" n="104" break="no"/>quando Deus esse dicatur, &amp; non ubique &amp; 
+            <lb ed="#C" n="105"/>semper, sequitur aliquod tempus &amp; aliquem 
+            <lb ed="#C" n="106"/>locum esse ubi &amp; quando nihil omnino est: 
+            <lb ed="#C" n="107"/>quia sine Deo nulla essentia esse potest</quote>: quod  
+            <lb ed="#C" n="108"/>si praedictae viae sunt impossibiles, con¬ 
+            <!--715.xml-->
+            <pb ed="#C" n="690"/>
+            <cb ed="#C" n="a"/>
+            <lb ed="#C" n="1"/>cludit eodem cap. Deum esse ibique &amp; 
+            sem<lb ed="#C" n="2" break="no"/>per. Haec autem via Anselmi ex hoc 
+            ve<lb ed="#C" n="3" break="no"/>ritatem habet: quia Deus praesens est 
+            <lb ed="#C" n="4"/>locatis &amp; locis, temporibus &amp; 
+            tempo<lb ed="#C" n="5" break="no"/>ralibus, continendo &amp; contervando ea, 
+            <lb ed="#C" n="6"/>quod si nihil sine Deo inesse 
+            conserva<lb ed="#C" n="7" break="no"/>ri potest, Deum esse ubique; &amp; semper 
+            <lb ed="#C" n="8"/>idicere cogimuratio: 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e486">
+            <lb ed="#C" n="9"/>Respondi ad arg. Ad. 1 dicendum, 
+            <lb ed="#C" n="10"/>quod communis animi conceptio: est 
+            <lb ed="#C" n="11"/>spiritualia non esse in loco tanquam ad 
+            <lb ed="#C" n="12"/>loco contenta, tamen tanquam locum 
+            <lb ed="#C" n="13"/>continentia, vel circa ipsum operantia, 
+            <lb ed="#C" n="14"/>spiritualia in loco esse nihil prohibet. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e460">
+            <lb ed="#C" n="15"/>Ad 2. dicendum, quod secundum 
+            <ref xml:id="Gi9qrR-f79476-Rd1e506">An<lb ed="#C" n="16" break="no"/>selm. Monologi 22</ref>. esse aliqua in loco 
+            <lb ed="#C" n="17"/>&amp; ini tempore duo dicit: Primo: Quia 
+            <lb ed="#C" n="18"/>quae sunt in locis; &amp; temporibus sunt 
+            praesen<lb ed="#C" n="19" break="no"/>tia illis. Secundo: Quia continatur ab 
+            ip<lb ed="#C" n="20" break="no"/>sis. In summa vero essentia unum rantum 
+            per<lb ed="#C" n="21" break="no"/>cipitur: quia praesens est, non quia continetur.  
+            <lb ed="#C" n="22"/>und, ut ait, si usus loquendi admittere, 
+            conve<lb ed="#C" n="23" break="no"/>nientius dici videretur Deum esse icum loco 
+            <lb ed="#C" n="24"/>vel cum tempore; quam in loco &amp; intempore. 
+            <lb ed="#C" n="25"/>sEt ad formam arguendi dicendum, quod  
+            <lb ed="#C" n="26"/>APhilosophus dat proprietatem loci, secundum 
+            <lb ed="#C" n="27"/>quod corporalia sunt in loco, quae sunt,  
+            <lb ed="#C" n="28"/>in loco: quia continentur ab eo: non 
+            <lb ed="#C" n="29"/>tamen dat proprietates loci, secundum 
+            <lb ed="#C" n="30"/>quod Deus in loco est, qui non est in 
+            <lb ed="#C" n="31"/>loco: quia a loco continetur; sed est 
+            <lb ed="#C" n="32"/>in eo, quia est ibi praesens, &amp; ipsum 
+            con<lb ed="#C" n="33" break="no"/>tinet.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e504">
+            Ad 3. dicendum, quod locum 
+            a<lb ed="#C" n="34" break="no"/>; daequari locato, veritatem habet 
+            respe<lb ed="#C" n="35" break="no"/>tctu corporalium &amp; contentorum a 
+            lo<lb ed="#C" n="36" break="no"/>eo; non respectu spiritualium, &amp; loca 
+            <lb ed="#C" n="37"/>continentium.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e515">
+            Ad 4. dicendum, quod  
+            <lb ed="#C" n="38"/>indivisibile secundum suecessionem 
+            po<lb ed="#C" n="39" break="no"/>test intelligi dupliciter. Primo: quia 
+            <lb ed="#C" n="40"/>non dividitur, ut successivam dividuntur: 
+            <lb ed="#C" n="41"/>nest tamem successionis terminus, secudum 
+            <lb ed="#C" n="42"/>quod instas indivilibile dicitur: quia est 
+            <lb ed="#C" n="43"/>terminus temporis, quod est de genere 
+            <lb ed="#C" n="44"/>suecessivorum: sic etiam &amp; mutatum 
+            <lb ed="#C" n="45"/>esse quid indivisibile est: quia est 
+            termi<lb ed="#C" n="46" break="no"/>nus motus: &amp; quod sic est indivisibile,  
+            <lb ed="#C" n="47"/>non est unum &amp; idem per 
+            om<lb ed="#C" n="48" break="no"/>i nem modum in pluribus temporibus? 
+            <lb ed="#C" n="49"/>quia secundum diversitatem temporum 
+            <lb ed="#C" n="50"/>sumitur aliquo modo diversitas 
+            instan<lb ed="#C" n="51" break="no"/>tium. Secundo dicitur aliquid 
+            indivi<lb ed="#C" n="52" break="no"/>sibile secundum successionem; non 
+            so<lb ed="#C" n="53" break="no"/>lum quia non dividitur ut fuccessivum: 
+            <lb ed="#C" n="54"/>sed quia est abomni successione 
+            abso<lb ed="#C" n="55" break="no"/>lutum: &amp; sic est quid indivisibile 
+            aeterni<lb ed="#C" n="56" break="no"/>tas, &amp; quod sic indivisibile existit, non 
+            <!--715.xml-->
+            <cb ed="#C" n="b"/>
+            <lb ed="#C" n="57"/>solum est ide in pluribus temporibus, 
+            <lb ed="#C" n="58"/>immo continet, &amp; comprehendit in 
+            se<lb ed="#C" n="59" break="no"/>omnia tempora: sic etiam de indivisibili 
+            <lb ed="#C" n="60"/>permanente, sive de indivisibili 
+            secun<lb ed="#C" n="61" break="no"/>dum magnitudinem distinguere 
+            possu<lb ed="#C" n="62" break="no"/>mus: quia aliquod est sic indivisibile, 
+            <lb ed="#C" n="63"/>quod licet non sit magnitudo; est 
+            ta<lb ed="#C" n="64" break="no"/>men terminus magnitudinis, ut 
+            pun<lb ed="#C" n="65" break="no"/>ctus, &amp; quod est sic quid indivisibile, eo, 
+            <lb ed="#C" n="66"/>quod determinatur secundum situm, 
+            <lb ed="#C" n="67"/> est substantia posita, non est unum 
+            <lb ed="#C" n="68"/>&amp; idem in pluribus loeis. Secundo 
+            mo<lb ed="#C" n="69" break="no"/>do dicitur indivilibile secundum 
+            mag<lb ed="#C" n="70" break="no"/>nitudinem, sive secundum 
+            dimensio<lb ed="#C" n="71" break="no"/>nem, non solum quia non dividitur, ut 
+            di<lb ed="#C" n="72" break="no"/>mensio, sed quia est quid absolutum ab 
+            <lb ed="#C" n="73"/>omni situ &amp; dimensione, &amp; quod sic est  
+            <lb ed="#C" n="74"/>quid indivisibile, non solum potest esse 
+            <lb ed="#C" n="75"/>in pluribus locis, sed etiam est praesens 
+            <lb ed="#C" n="76"/>omni loco: propter quod ubique esse 
+            <lb ed="#C" n="77"/>dicitur: &amp; huiusmodi indivisibile est 
+            <lb ed="#C" n="78"/>Deus.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e616">
+            Ad 5. dicendum, quod de 
+            ratio<lb ed="#C" n="79" break="no"/>ne loci est, quod nihil locati sit extra 
+            ip<lb ed="#C" n="80" break="no"/>sum, si huiusmodi locus respectu eius, 
+            <lb ed="#C" n="81"/>quod est in loco, se habet ut continens: 
+            <lb ed="#C" n="82"/>Deus autem non est in loco, quia 
+            con<lb ed="#C" n="83" break="no"/>tineatur a loco, ut dictum est. Vel 
+            dicen<lb ed="#C" n="84" break="no"/>dum, quod Deus sic est in loco, quod 
+            ta<lb ed="#C" n="85" break="no"/>men non habet rationem locati: quia 
+            <lb ed="#C" n="86"/>secundum <ref xml:id="Gi9qrR-f79476-Rd1e675"><name xml:id="Gi9qrR-f79476-Nd1e676" ref="#Anselm">Anselm.</name> Monolog. 22.</ref> 
+            <lb ed="#C" n="87"/>Deus sic est in loco &amp; tempore, quod 
+            lege<lb ed="#C" n="88" break="no"/>loci &amp; temporis non cogitur.  
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-f79476-Dd1e641">
+          <head xml:id="Gi9qrR-f79476-Hd1e643">Articulus 2</head>
+          <head xml:id="Gi9qrR-f79476-Hd1e692" type="question-title">Utrum esse ubique sit proprium, solius Dei?</head>
+          <p xml:id="Gi9qrR-f79476-d1e646">
+            <lb ed="#C" n="89"/>ARTICVLVS II 
+            <lb ed="#C" n="90"/>Vtrum esse ubique sit proprium, solius 
+            <lb ed="#C" n="91"/>Dei? 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e655">
+            <lb ed="#C" n="92"/>SEcundo quaeritur: utrum esse 
+            ubi<lb ed="#C" n="93" break="no"/>que sit proprium solius Dei? Et 
+            vi<lb ed="#C" n="94" break="no"/>detur quod non: quia secundum <name xml:id="Gi9qrR-f79476-Nd1e712" ref="#Aristotle">Philosophum</name>: 
+            <lb ed="#C" n="95"/>universalia sunt vbique &amp; semper: sed cum 
+            <lb ed="#C" n="96"/>Deus nec sit quid universale, nec 
+            parti<lb ed="#C" n="97" break="no"/>culare: esse ubique non erit ei proprium: 
+            <lb ed="#C" n="98"/>cum conveniat alij ab ipso.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e673">
+            Praeterea: 
+            <lb ed="#C" n="99"/>locus quid corporale nominat; sed 
+            ubi<lb ed="#C" n="100" break="no"/>cumque est dare aliquod corporale, ibi 
+            <lb ed="#C" n="101"/>est dare materiam, ergo materia est 
+            u<lb ed="#C" n="102" break="no"/>bique; sed cum materia non sit ipse Deus. 
+            <lb ed="#C" n="103"/>immo inter cetera entia magis a Deo 
+            <lb ed="#C" n="104"/>distet, natura saltem, &amp; si non situ, esse 
+            <lb ed="#C" n="105"/>ubique non erit proprium Dei, cum 
+            <lb ed="#C" n="106"/>materiae conveniat.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e693">
+            Praeterea: si essec 
+            <!--716.xml-->
+            <pb ed="#C" n="691"/>
+            <cb ed="#C" n="a"/>
+            <lb ed="#C" n="1"/>aliquod corpus, extra quod nihil esset 
+            <lb ed="#C" n="2"/>illud corpus esset ubique: quia non esset 
+            <lb ed="#C" n="3"/>dare aliquem locum non repletum 
+            tali<lb ed="#C" n="4" break="no"/>corpore. Cum igitur totum universum 
+            <lb ed="#C" n="5"/>sit extra quod nihil est, totum ipsum 
+            <lb ed="#C" n="6"/>erit ubique: non igitur proprium est so 
+            <lb ed="#C" n="7"/>lius Dei ubique esse.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e718">
+            Praeterea: anima est 
+            <lb ed="#C" n="8"/>in qualibet parte corporis tota: si ergo 
+            <lb ed="#C" n="9"/>contingeret, solum corpus animatum 
+            <lb ed="#C" n="10"/>anima rationali esse, ut si poneretur 
+            <lb ed="#C" n="11"/>quod tantum esset aliquis homo, ani 
+            <lb ed="#C" n="12"/>ma illius esset ubique: non ergo est 
+            pro<lb ed="#C" n="13" break="no"/>prium solius Dei esse ubique, cum 
+            pos<lb ed="#C" n="14" break="no"/>sit alijs competere: 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e736">
+            <lb ed="#C" n="15"/>In contrarium est <name xml:id="Gi9qrR-f79476-Nd1e792">Ambro.</name> qui  
+            <lb ed="#C" n="16"/>probat Spiritum Sanctum esse Deum:  
+            <lb ed="#C" n="17"/>eo quod ei competit esse ubique: ut 
+            pa<lb ed="#C" n="18" break="no"/>tet per ea, quae dicuntur in littera, sed  
+            <lb ed="#C" n="19"/>hoc non esset, nisi Deo proprium esset 
+            <lb ed="#C" n="20"/>esse ubique, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e752">
+            <lb ed="#C" n="21"/>RESOLVTIO. 
+            <lb ed="#C" n="22"/>Supposita rerum existentia, directem n&amp; per 
+            <lb ed="#C" n="23"/>se &amp; secundum idem esse, 
+            so<lb ed="#C" n="24" break="no"/>li Deo competit esse 
+            <lb ed="#C" n="25"/>ubique.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e765">
+            <lb ed="#C" n="26"/>REsp. dicendum, quod creatura 
+            pri<lb ed="#C" n="27" break="no"/>ma facie dividitur in creaturam 
+            <lb ed="#C" n="28"/>corporalem &amp; spiritualem: creatur 
+            <lb ed="#C" n="29"/>ra spiritualis distinguitur: quia 
+            quae<lb ed="#C" n="30" break="no"/>dam est unita corpori ut forma, ut 
+            ani<lb ed="#C" n="31" break="no"/>ma rationalis: quaedam non, ut 
+            intelli<lb ed="#C" n="32" break="no"/>gentia sive Angelus. Rursum 
+            corpora<lb ed="#C" n="33" break="no"/>lia dupliciter considerari possunt: 
+            Pri<lb ed="#C" n="34" break="no"/>mo quantum ad esse universale. 
+            Secun<lb ed="#C" n="35" break="no"/>do quantum ad particulare. 
+            Particula<lb ed="#C" n="36" break="no"/>ria dupliciter accipi possunt. Primo 
+            se<lb ed="#C" n="37" break="no"/>cundum se. Secundo secundum suas 
+            <lb ed="#C" n="38"/>partes, ut secundum materiam vel 
+            for<lb ed="#C" n="39" break="no"/>mam. Omnibus istis potest comnpetere 
+            es<lb ed="#C" n="40" break="no"/>se ubique, non tamen per se, sed quo 
+            <lb ed="#C" n="41"/>dammodo per accidens: Deo autem 
+            <lb ed="#C" n="42"/>posita ex istentia rerum per se ei 
+            com<lb ed="#C" n="43" break="no"/>petit esse ubique. Posset enim Angelus  
+            <lb ed="#C" n="44"/>vel intelligentia ubique esse, ut si 
+            pone<lb ed="#C" n="45" break="no"/>retur esse tantum aliquod corpus, circa 
+            <lb ed="#C" n="46"/>quod totum per se &amp; primo operari 
+            <lb ed="#C" n="47"/>posset: quia cum intelligentia sit, ubi 
+            <lb ed="#C" n="48"/>operatur: posset illa intelligetia esse 
+            ubi<lb ed="#C" n="49" break="no"/>que: quia posset esse in qualibet parte 
+            il<lb ed="#C" n="50" break="no"/>lius corporis. Sic etiam &amp; anima ubique 
+            <lb ed="#C" n="51"/>esse posset: nam cum sit in qualibet par 
+            <lb ed="#C" n="52"/>te corporis, quod informat: si 
+            ponere<lb ed="#C" n="53" break="no"/>tur solum esse tale corpus animatum, ani 
+            <lb ed="#C" n="54"/>ma ubique esset. Sic etiam universalia 
+            <!--716.xml-->
+            <cb ed="#C" n="b"/>
+            <lb ed="#C" n="55"/>ubique esse possunt: nam cum sit 
+            univer<lb ed="#C" n="56" break="no"/>sale, ubicumque est suum particulare, si 
+            <lb ed="#C" n="57"/>ponerentur solum esse particularia 
+            ali<lb ed="#C" n="58" break="no"/>cuius universalis, illud universale 
+            ubi<lb ed="#C" n="59" break="no"/>que esset. Sic etiam &amp; totum 
+            composi<lb ed="#C" n="60" break="no"/>tum ubique esse potest: ut si poneretur 
+            <lb ed="#C" n="61"/>aliquod corpus totum spatium occupa 
+            <lb ed="#C" n="62" break="no"/>re, secundum quod dicimus totum 
+            uni<lb ed="#C" n="63" break="no"/>versum occupare totum: sic 
+            accipien<lb ed="#C" n="64" break="no"/>do corpus, corpus ubique existit. Isto 
+            <lb ed="#C" n="65"/>etiam modo materia &amp; forma possunt; 
+            <lb ed="#C" n="66"/>esse ubique: si ubique sunt ea, quorum 
+            <lb ed="#C" n="67"/>materia &amp; forma partes existunt. Sed si 
+            <lb ed="#C" n="68"/>bene advertimus, nulli istorum per se &amp; 
+            <lb ed="#C" n="69"/>secundum idem esse competit lesse 
+            ubi<lb ed="#C" n="70" break="no"/>que: nam cum Angelus &amp; anima 
+            ha<lb ed="#C" n="71" break="no"/>beant esse finitum &amp; in natura receptum, 
+            <lb ed="#C" n="72"/>oportet quod habeant finitam 
+            virtu<lb ed="#C" n="73" break="no"/>tem; cum modus agendi sequatur 
+            mo<lb ed="#C" n="74" break="no"/>dum essendi: accidit ergo animae &amp; An 
+            <lb ed="#C" n="75" break="no"/>gelo esse ubique, in quantum ponitur 
+            <lb ed="#C" n="76"/>solum esse corpus aliquod, quod non 
+            ex<lb ed="#C" n="77" break="no"/>cedit eorum potentiam &amp; virtute, quod 
+            <lb ed="#C" n="78"/>si tum per se eis competeret ubique 
+            es<lb ed="#C" n="79" break="no"/>se: quamtumcunque corpus 
+            ponere<lb ed="#C" n="80" break="no"/>tur, &amp; quodcumque, semper poneremus 
+            <lb ed="#C" n="81"/>Angelum &amp; animam esse in qualibet  
+            <lb ed="#C" n="82"/>parte eius: quia quae sunt per se, 
+            insepa<lb ed="#C" n="83" break="no"/>rabilia siunt: nec sunt propria, nisi quae 
+            <lb ed="#C" n="84"/>sunt talia: ideo Ambrosius probat 
+            pro<lb ed="#C" n="85" break="no"/>prium esse Deo esse ubique, ex, 
+            immen<lb ed="#C" n="86" break="no"/>sibilitate eius: sic &amp; universali accidit 
+            es<lb ed="#C" n="87" break="no"/>se ubique. Nam universalia non sunt; 
+            <lb ed="#C" n="88"/>nisi ubi sua particularia existunt: &amp; quia 
+            <lb ed="#C" n="89"/>accidit solum esse particularia alicuius 
+            <lb ed="#C" n="90"/>universalis faccipiendo universale, ut ei 
+            <lb ed="#C" n="91"/>competit unitas praedicationis, non 
+            at<lb ed="#C" n="92" break="no"/>tributionis, sive accipiendo universale, 
+            <lb ed="#C" n="93"/>ut distinguitur contra analogum) non 
+            <lb ed="#C" n="94"/>competit per se universali esse ubique. 
+            <lb ed="#C" n="95"/>Rursum non competit ei per se esse 
+            u<lb ed="#C" n="96" break="no"/>bique: quia competit ei per sua 
+            particu<lb ed="#C" n="97" break="no"/>laria, &amp; accipiendo hoc esse ubique, ut  
+            <lb ed="#C" n="98"/>hic de ubique loquimur. Possumus 
+            ta<lb ed="#C" n="99" break="no"/>men, si volumus, &amp; tertiam causam 
+            as<lb ed="#C" n="100" break="no"/>signare: quia non competit ei esse 
+            ubi<lb ed="#C" n="101" break="no"/>que secundum unum &amp; idem esse, 
+            ex<lb ed="#C" n="102" break="no"/>quo etiam apparet: quare materiae &amp; 
+            <lb ed="#C" n="103"/>formae non competit esse ubique: quia 
+            <lb ed="#C" n="104"/>talia sunt alicubi solum, per eorum 
+            tota<lb ed="#C" n="105" break="no"/>nec etiam sunt, ubicuque sunt, secundum idem 
+            <lb ed="#C" n="106"/>esse: sic etiam totum universum est 
+            ubi<lb ed="#C" n="107" break="no"/>que non per se: quia est dare aliquem 
+            lo<lb ed="#C" n="108" break="no"/>cum, ubi totum non existit, sed per suas 
+            <lb ed="#C" n="109"/>partes. Deus autem unus &amp; idem existens, 
+            <lb ed="#C" n="110"/>secundum unum &amp; idem esse non varia¬ 
+            <!--717.xml-->
+            <pb ed="#C" n="692"/>
+            <cb ed="#C" n="a"/>
+            <lb ed="#C" n="1" break="no"/>tus in se, est ubique, in quantum 
+            omni<lb ed="#C" n="2" break="no"/>bus dat esse: immo ponere aliquid 
+            exi<lb ed="#C" n="3" break="no"/>istere, ubi Deus non sit, est ponere illud 
+            <lb ed="#C" n="4"/>non esse: cum nihil possit illud 
+            conser<lb ed="#C" n="5" break="no"/>tare in esse, ubi Deus non existat 
+            substan<lb ed="#C" n="6" break="no"/>tificans esse eius. Posita ergo existentia 
+            <lb ed="#C" n="7"/>terum, directe &amp; per se &amp; secundum 
+            <lb ed="#C" n="8"/>idem esse soli Deo competit esse 
+            u<lb ed="#C" n="9" break="no"/>bique. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e982">
+            <lb ed="#C" n="10"/>Respond. ad arg. Ad 1. dicendum, 
+            <lb ed="#C" n="11"/>quod universalia esse ubique &amp; semper 
+            <lb ed="#C" n="12"/>dupliciter potest intelligi. Primo: quia 
+            <lb ed="#C" n="13"/>sunt abstracta a conditionibus materiae, 
+            <lb ed="#C" n="14"/>ut ab hic &amp; nunc: &amp; quia non determi 
+            <lb ed="#C" n="15"/>nant sibi locum &amp; tempus, dicuntur 
+            es<lb ed="#C" n="16" break="no"/>se semper &amp; ubique, &amp; sic non 
+            loqui<lb ed="#C" n="17" break="no"/>mur de esse ubique. Alio modo 
+            dicun<lb ed="#C" n="18" break="no"/>tur esse ubique, quia sunt, ubicuque sua 
+            <lb ed="#C" n="19"/>particularia existunt: &amp; sic proprie &amp; 
+            <lb ed="#C" n="20"/>directe non sunt ubique: nam cum non 
+            <lb ed="#C" n="21"/>sit ubique homo particularis, non est 
+            <lb ed="#C" n="22"/>ubique homo universalis: sic etiam 
+            se<lb ed="#C" n="23" break="no"/>cundum fidem nostram universalia non 
+            <lb ed="#C" n="24"/>sunt semper: quia non semper fuerunt  
+            <lb ed="#C" n="25"/>eorum particularia: &amp; quia sic locutia 
+            <lb ed="#C" n="26"/>sumus de esse ubique per se &amp; directe, 
+            <lb ed="#C" n="27"/>universalibus non conpeter ubique: esse.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1080">
+            Alia, 
+            <lb ed="#C" n="28"/>argumeta patet per ea, quae dicta sunt,  
+            <lb ed="#C" n="29"/>in principali solutione 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-f79476-Dd1e1030">
+          <head xml:id="Gi9qrR-f79476-Hd1e1032">Articulus 3</head>
+          <head xml:id="Gi9qrR-f79476-Hd1e1093" type="question-title">Utrum esse ubique Deo conveniat ab aeterno?</head>
+          <p xml:id="Gi9qrR-f79476-d1e1035">
+            <lb ed="#C" n="30"/>ARTICVLVS III. 
+            <lb ed="#C" n="31"/>Vtrum esse ubique Deo conveniat ab aeterno? 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1042">
+            <lb ed="#C" n="32"/>TErtio quaeritur: utrum esse ubique 
+            <lb ed="#C" n="33"/>conveniat Deo ab aeterno?
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1110">
+            Et 
+            vide<lb ed="#C" n="34" break="no"/>tur, quod sic: quia quod est proprium, 
+            <lb ed="#C" n="35"/>alicui, est inseparebile ab eo, sed, ut  
+            <lb ed="#C" n="36"/>ostensum est, esse ubique est proprium, 
+            <lb ed="#C" n="37"/>Dei, ergo &amp;c.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1058">
+            Praeterea: ex hoc 
+            dici<lb ed="#C" n="38" break="no"/>tur aliquid esse ubique: quia non 
+            deter<lb ed="#C" n="39" break="no"/>minatur ad locum, sed non habere esse 
+            <lb ed="#C" n="40"/>determinatum ad locum competit 
+            <lb ed="#C" n="41"/>Deo ab aeterno, ergo &amp;c.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1069">
+            Praeterea: si 
+            <lb ed="#C" n="42"/>nunquam fuissent tempora, Deus 
+            sem<lb ed="#C" n="43" break="no"/>per fuisset, &amp; ab aeterno, ergo a simili 
+            <lb ed="#C" n="44"/>si nunquam fuissent loca, Deus fuisset 
+            <lb ed="#C" n="45"/>ubique &amp; ab aeterno. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1081">
+            <lb ed="#C" n="46"/>In contrarium est: quia esse ubique 
+            <lb ed="#C" n="47"/>circuncornit locum, sed nec locus, nec 
+            <lb ed="#C" n="48"/>creatura aliqua fuit ab 
+            aeter<lb ed="#C" n="49" break="no"/>no, ergo esse ubique ab aeter 
+            <lb ed="#C" n="50"/>no Deo competere 
+            <lb ed="#C" n="51"/>non potest 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1097">
+            <!--717.xml-->
+            <cb ed="#C" n="b"/>
+            <lb ed="#C" n="52"/>RESOLVTIO 
+            <lb ed="#C" n="53"/>Deus non est ubique ab aeterno, prout esse 
+            ubi<lb ed="#C" n="54" break="no"/>que &amp; semper designat existentiam omnis 
+            <lb ed="#C" n="55"/>temporis &amp; loci: sed prout denotat absolutio? 
+            <lb ed="#C" n="56"/>nem ab omni tempore &amp; loco: &amp; prout esse 
+            <lb ed="#C" n="57"/>emper dicit indeficientiam durationis, &amp; esse 
+            <lb ed="#C" n="58"/>ubique significat esse in omni, quod  
+            <lb ed="#C" n="59"/>est, Deo convenit esse ubique 
+            <lb ed="#C" n="60"/>ab aeterno. 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1123">
+            <lb ed="#C" n="61"/>REspond. dicendum, quod licet res 
+            <lb ed="#C" n="62"/>fuerint ab aeterno in Deo; Deus 
+            <lb ed="#C" n="63"/>tamen est in rebus ex tempore. Causa 
+            <lb ed="#C" n="64"/>autem huius diversitatis dupliciter 
+            ac<lb ed="#C" n="65" break="no"/>cipi potest. Primo: quia omne, quod 
+            <lb ed="#C" n="66"/>est in aliquo, est in eo secundum modum 
+            <lb ed="#C" n="67"/>eius, in quo est: &amp; ideo res sunt in Deo 
+            <lb ed="#C" n="68"/>secundum modum Dei; Deus autem est 
+            <lb ed="#C" n="69"/>in rebus quodammodo secundum 
+            mo<lb ed="#C" n="70" break="no"/>dum rerum: &amp; ideo assignantur diversi 
+            <lb ed="#C" n="71"/>modi, quibus Deus est in rebus, aliquo 
+            <lb ed="#C" n="72"/>modo ex diversitate rerum, ut ex eo 
+            <lb ed="#C" n="73"/>quod anima est susceptibilis gratiae, &amp; 
+            <lb ed="#C" n="74"/>non leo, est Deus per gratiam in anima, 
+            <lb ed="#C" n="75"/>non in leone: &amp; quia competit rebus 
+            <lb ed="#C" n="76"/>esse ex tempore, Deus autem 
+            aeter<lb ed="#C" n="77" break="no"/>nitate mensuratur, res sunt in Deo ab 
+            <lb ed="#C" n="78"/>aeterno; Deus autem in rebus 
+            extempo<lb ed="#C" n="79" break="no"/>re. Alia via ad ostendendum hoc idem 
+            <lb ed="#C" n="80"/>sumitur ex diversa habitudine, quae 
+            con<lb ed="#C" n="81" break="no"/>surgit ex eo, quod Deus ponitur in 
+            re<lb ed="#C" n="82" break="no"/>pus, &amp; res in Deo. Nam sicut dicimus 
+            <lb ed="#C" n="83"/>Deum scivisse omnia ab aeterno, 
+            fecis<lb ed="#C" n="84" break="no"/>se tamen ea in tempore: eo quod res ut 
+            <lb ed="#C" n="85"/>scitae dicunt aliquid in Deo existens: 
+            <lb ed="#C" n="86"/>ut factae, dicunt aliquid a Deo 
+            progre<lb ed="#C" n="87" break="no"/>liens: sic quia Deus est in rebus, 
+            secun<lb ed="#C" n="88" break="no"/>dum quod aliqua operatio: a Deo 
+            pro<lb ed="#C" n="89" break="no"/>greditur, ut conservatio rerum in esse, 
+            <lb ed="#C" n="90"/>secundum quam in rebus esse dicitur:  
+            <lb ed="#C" n="91"/>res autem sunt in Deo non ut aliquid 
+            <lb ed="#C" n="92"/>ab ipso progrediens, sed prout in eius 
+            <lb ed="#C" n="93"/>virture &amp; scientia continentur. Deus est 
+            <lb ed="#C" n="94"/>in rebus ex tempore: eo quod tale esse 
+            <lb ed="#C" n="95"/>non est sine existentia rerum, quae est 
+            <lb ed="#C" n="96"/>temporalis: res autem sunt: in Deo ab 
+            <lb ed="#C" n="97"/>aeterno: quia tale esse solum Dei 
+            existen<lb ed="#C" n="98" break="no"/>tiam requirit: quia creatura in Creato. 
+            <lb ed="#C" n="99"/>re non est aliud, quam creatrix 
+            essen<lb ed="#C" n="100" break="no"/>tia. Si igitur esse ubique est idem, quod  
+            <lb ed="#C" n="101"/>Deum esse in rebus creatis, cum Deus non 
+            <lb ed="#C" n="102"/>fuerit in rebus ab aeterno, ab aeterno ei 
+            <lb ed="#C" n="103"/>non competet. Ideo notandum, quod 
+            ali<lb ed="#C" n="104" break="no"/>quid esse ubique tripliciter potest 
+            in<lb ed="#C" n="105" break="no"/>telligi, sicut &amp; aliquid esse semper, 
+            <!--718.xml-->
+            <pb ed="#C" n="693"/>
+            <cb ed="#C" n="a"/>
+            <lb ed="#C" n="1"/>Primo: quod oc sit per absolutionem 
+            <lb ed="#C" n="2"/>a tempore &amp; loco, secundum quod 
+            u<lb ed="#C" n="3" break="no"/>niversalia dicuntur esse semper &amp; 
+            ubi<lb ed="#C" n="4" break="no"/>que: quia sunt abstracta a conditioni, 
+            <lb ed="#C" n="5"/>bus materiae, quae sunt hic &amp; nunc, &amp; 
+            <lb ed="#C" n="6"/>sic ab aeterno competit Deo esse 
+            sem<lb ed="#C" n="7" break="no"/>per &amp; ubique: quia semper ei competi 
+            <lb ed="#C" n="8"/>esse sine materia, &amp; non determinati 
+            <lb ed="#C" n="9"/>per conditiones materiae. Secundo 
+            mo<lb ed="#C" n="10" break="no"/>do dicitur aliquid esse semper &amp; 
+            ubi<lb ed="#C" n="11" break="no"/>que: quia est in omni tempore, &amp; in 
+            omni<lb ed="#C" n="12" break="no"/>loco, &amp; sic esse semper &amp; ubique 
+            prae<lb ed="#C" n="13" break="no"/>sur ponit existentiam temporum, &amp; 
+            lo<lb ed="#C" n="14" break="no"/>eorum: nam sicut non dicimus, Deum 
+            <lb ed="#C" n="15"/>esse in rebus, nisi sit existentia rerum, it: 
+            <lb ed="#C" n="16"/>non dicimus, ipsum esse semper &amp; 
+            ubi<lb ed="#C" n="17" break="no"/>tque sive in omni tempore &amp; in 
+            omni<lb ed="#C" n="18" break="no"/>eloco, non praesupposita existentia 
+            tem<lb ed="#C" n="19" break="no"/>porum &amp; locorum: &amp; quia non ab 
+            ae<lb ed="#C" n="20" break="no"/>terno fuerint tempora &amp; loca, ut hic 
+            <lb ed="#C" n="21"/>de tempore &amp; loco loquimur, sic 
+            acci<lb ed="#C" n="22" break="no"/>piendo semper &amp; ubique, non 
+            compe<lb ed="#C" n="23" break="no"/>tunt Deo ab aeterno. Tertio modo 
+            sem<lb ed="#C" n="24" break="no"/>per idem sonat, quod indeficientia du 
+            <lb ed="#C" n="25"/>rationis, &amp; sic maxime semper est, quod 
+            <lb ed="#C" n="26"/>aeternum est. Vnde <ref xml:id="Gi9qrR-f79476-Rd1e1348"><name xml:id="Gi9qrR-f79476-Nd1e1349" ref="#Anselm">Anselm.</name> Monolog. 
+              <lb ed="#C" n="27"/>22.</ref> dicit: <quote xml:id="Gi9qrR-f79476-Qd1e1355" source="http://scta.info/resource/adcmon-c24-d1e117" synch="42-59">Semper verius designare 
+            aeternita<lb ed="#C" n="28" break="no"/>lem, quam totum tempus</quote>. Nam 
+            indeficien<lb ed="#C" n="29" break="no"/>tia durationis imaginis competit 
+            aeter<lb ed="#C" n="30" break="no"/>nitati, quam toti tempori: &amp; sic esse 
+            <lb ed="#C" n="31"/>semper competit Deo ab aeterno. Sic 
+            <lb ed="#C" n="32"/>etiam esse ubique uno modo idem 
+            sig<lb ed="#C" n="33" break="no"/>nificat, quod esse in omnibus his, quae 
+            <lb ed="#C" n="34"/>sunt, ut <ref xml:id="Gi9qrR-f79476-Rd1e1373"><name xml:id="Gi9qrR-f79476-Nd1e1374" ref="#Anselm">Ansel.</name> dicit Monolog. 23</ref> &amp; sic 
+            <lb ed="#C" n="35"/>Deo esse ubique ab aeterno 
+            compe<lb ed="#C" n="36" break="no"/>tit, cum &amp; Deum in se ipso dicamus 
+            es<lb ed="#C" n="37" break="no"/>se. Nam semper fuit verum dicere Deum esse 
+            <lb ed="#C" n="38"/>in omnibus his, quae sunt: cum nihil sit, 
+            <lb ed="#C" n="39"/>in quo Deus non sit: cum &amp; in se ipso Deum 
+            <lb ed="#C" n="40"/>esse dicamus. Vnde <ref xml:id="Gi9qrR-f79476-Rd1e1392"><name xml:id="Gi9qrR-f79476-Nd1e1393" ref="#Anselm">Ansel.</name> eodem 
+              Mo<lb ed="#C" n="41" break="no"/>nolog. 23.</ref> ait: <quote xml:id="Gi9qrR-f79476-Qd1e1399" source="http://scta.info/resource/adcmon-c23-d1e115" synch="115-136">aptius dici Deum esse 
+            <lb ed="#C" n="42"/>semper &amp; ubique: quam in omni tempore &amp; 
+            <lb ed="#C" n="43"/>in omni loco, ut intelligatur esse ubique</quote>: 
+            <lb ed="#C" n="44"/>quia est in omnibus his, quae sunt: esse 
+            sem<lb ed="#C" n="45" break="no"/>per propter durationis indeficientiam, 
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1327">
+            <lb ed="#C" n="46"/>Resp. ad arg. Ad 1. dicendum, quod 
+            <lb ed="#C" n="47"/>si esse ubique idem sit, quod esse in 
+            om<lb ed="#C" n="48" break="no"/>ni loco, est proprium Deo, supposita 
+            <lb ed="#C" n="49"/>rerum existentia. Vnde &amp; inseparabile 
+            <lb ed="#C" n="50"/>est ab eo, si res in esse ponuntur: sed  
+            <lb ed="#C" n="51"/>si esse ubique est idem, quod esse in 
+            <lb ed="#C" n="52"/>omnibus his, quae sunt: vel esse 
+            absolu<lb ed="#C" n="53" break="no"/>tum a determinatione loci, sic 
+            simplici<lb ed="#C" n="54" break="no"/>ter ab aeterno Deo competit.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1349">
+            Ad 2. 
+            pa<lb ed="#C" n="55" break="no"/>tet solutio per iam dicta: quia Deum est 
+            <lb ed="#C" n="56"/>se ubique illo modo competit ei ab ae¬ 
+            <!--718.xml-->
+            <cb ed="#C" n="b"/>
+            <lb ed="#C" n="57" break="no"/>terno.
+          </p>
+          <p xml:id="Gi9qrR-f79476-d1e1362">
+            Ad 3. dicendum, quod si 
+            nun<lb ed="#C" n="58" break="no"/>quam fuissent tempora, Deus fuisset 
+            <lb ed="#C" n="59"/>semper, prout semper dicit 
+            indeficien<lb ed="#C" n="60" break="no"/>tiam durationis; non tamen fuisset 
+            sem<lb ed="#C" n="61" break="no"/>per, prout semper idem est, quod esse in 
+            <lb ed="#C" n="62"/>omni tempore, vel prout includit actuam 
+            <lb ed="#C" n="63"/>lem existentiam temporum. Ita si 
+            nun<lb ed="#C" n="64" break="no"/>quam suisset creatura, Deus fuisset 
+            ubi<lb ed="#C" n="65" break="no"/>que, prout ubique idem est, quod esse in 
+            <lb ed="#C" n="66"/>omnibus, quae sunt, accipiendo esse, in, 
+            <lb ed="#C" n="67"/>large, secundum quod Deus in se ipso 
+            <lb ed="#C" n="68"/>esse dicitur, non tamen fuisset ubique, 
+            <lb ed="#C" n="69"/>prout ubique idem est, quod esse in om 
+            <lb ed="#C" n="70"/>ni loco, &amp; praesupponit locorum 
+            exi<lb ed="#C" n="71" break="no"/>stentiam. Et ex hoc solvitur, argumen 
+            <lb ed="#C" n="72"/>tum incontrarium: quia sic accipit esse 
+            <lb ed="#C" n="73"/>ubique, prout videlicet, ubique dicit  
+            <lb ed="#C" n="74"/>habitudinem ad locum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
