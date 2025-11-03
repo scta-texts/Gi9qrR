@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2025-11-03">November 03, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-grsb21">Venice 1581, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="294"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-k086059"><!-- l2-d6prae -->
+            <head xml:id="Gi9qrR-k086059-Hd1e101">Praeambulum</head>
+            <p xml:id="Gi9qrR-k086059-d1e103">
+               <lb ed="#V" n="13"/>DIST. VI. 
+      <lb ed="#V" n="14"/>De Demionum, loco eorum¬ 
+      <lb ed="#V" n="15"/>deimque ordime, ac¬ 
+      <lb ed="#V" n="16"/>Prasatione. 
+    </p>
+            <p xml:id="Gi9qrR-k086059-d1e114">
+               <lb ed="#V" n="17"/>PRAETERTA 
+      <lb ed="#V" n="18"/>SCIRI ODOR¬ 
+      <lb ed="#V" n="19"/>TET,OVODSI. 
+      <lb ed="#V" n="20"/>cvT &amp;c. Postquam 
+      <lb ed="#V" n="21"/>Magister de termi¬ 
+      <lb ed="#V" n="22"/>nault de conuersio¬ 
+      <lb ed="#V" n="23"/>ne, &amp; auersione An¬ 
+      <lb ed="#V" n="24"/>gelorum; in parte ista, 
+      <lb ed="#V" n="25"/>vt dicebatr, determi 
+      <lb ed="#V" n="26"/>nat quaodam, quae sequun¬ 
+      <lb ed="#V" n="27"/>tur, vel quae se habent, ge referri possunt genera¬ 
+      <lb ed="#V" n="28"/>liter ad auersos, &amp; conuersos. Circa quod tria 
+      <lb ed="#V" n="29"/>facit. Quia primo determinat de angelis bonis, 
+      <lb ed="#V" n="30"/>&amp; malis per comparationem ad naturam, quo¬ 
+      <lb ed="#V" n="31"/>modo aliqui sunt maiores, aliqui minores. Se¬ 
+      <lb ed="#V" n="32"/>cundo determinat de eis per comparationem ad 
+      <lb ed="#V" n="33"/>potentiam volitiuam, &amp; ad alias potentias. Ter¬ 
+      <lb ed="#V" n="34"/>tio determinat, de ipsis per comparationem ad 
+      <lb ed="#V" n="35"/>corporalem substantiam: Vtrum tam boni, quam 
+      <lb ed="#V" n="36"/>mali habeant corpora naturaliter sibi vnita. Se¬ 
+      <lb ed="#V" n="37"/>cunda ibi:  Supra dicium est.3 In principio 7. di. 
+      <lb ed="#V" n="38"/>Tertia ibi: 5 Soset etiam in quaestione verfari., in 
+      <lb ed="#V" n="39"/>principio 8. dist. Propter primum sciendum, quod 
+      <lb ed="#V" n="40"/>ex natura habent angeli, quod aliqui fuerunt maiores, 
+      <lb ed="#V" n="41"/>aliqui minores. Iterum etiam ex natura quo¬ 
+      <lb ed="#V" n="42"/>dammodo habent, quod aliqui praesint: aliqui sub. 
+      <lb ed="#V" n="43"/>sint. Nam habentes meliora naturalia, inter ma¬ 
+      <lb ed="#V" n="44"/>los praesunt malis, &amp; inter bonos bonis. Primo 
+      <lb ed="#V" n="45"/>ergo determinat de angelis, quantum ad maio¬ 
+      <lb ed="#V" n="46"/>ritatem, &amp; minoritatem. Secundo determinat 
+      <lb ed="#V" n="47"/>de eis, quantum ad praelationem, &amp; subiectio¬ 
+      <lb ed="#V" n="48"/>nem. Secunda ibi: Etsicut inter bonos. Circa 
+      <lb ed="#V" n="49"/>primum tria facit. quia primo ait, quod tam de 
+      <lb ed="#V" n="50"/>maioribus, quam de minoribus aliqui remanse¬ 
+      <lb ed="#V" n="51"/>runt, &amp; aliqui corruerunt, inter quos fuit vnus 
+      <lb ed="#V" n="52"/>omnibus alijs excellentior Lucifer ipse, qui ce¬ 
+      <lb ed="#V" n="53"/>cidit, quem probat excellentiorem fuisse per 
+      <lb ed="#V" n="54"/>auctoritates multas. Secundo declarat, vbi ipse 
+      <lb ed="#V" n="55"/>Lucifer cecidit: dicens, quod propter peccatum su¬ 
+      <lb ed="#V" n="56"/>perbiae Diabolus cum socijs eius, qui consense¬ 
+      <lb ed="#V" n="57"/>tunt sibi in malitia sua, deiectus est de coelo 
+      <!--294.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="58"/>Empyreo, in hunc aerem caliginosum, causa ex¬ 
+      <lb ed="#V" n="59"/>ercitationis nostrae. Tertio declarat quare non 
+      <lb ed="#V" n="60"/>sunt permissi stare, nec in coelo, nec in terra, 
+      <lb ed="#V" n="61"/>sed in aere calignoso. Non enim sunt permis¬ 
+      <lb ed="#V" n="62"/>si stare in coelo. quia est locus amenus, &amp; cla¬ 
+      <lb ed="#V" n="63"/>rus: nec sunt permissi stare in terra nobiscum, 
+      <lb ed="#V" n="64"/>ne nimis nos infestarent, sed in isto aere caligi¬ 
+      <lb ed="#V" n="65"/>noso iuxta nos, vt nos exercitarent: qui aer est 
+      <lb ed="#V" n="66"/>quasi eorum carcer vsque ad diem iudicii: quia 
+      <lb ed="#V" n="67"/>tunc in inferno retrudentur. Secunda ibi: AEt 
+      <lb ed="#V" n="68"/>tantae superbiae.  Tertia ibi: Von enim est 
+      <lb ed="#V" n="69"/>concessum.  Tunc sequitur illa pars: Et si¬ 
+      <lb ed="#V" n="70"/>cur inter bonos.  In qua determinat de an¬ 
+      <lb ed="#V" n="71"/>gelis tam bonis, quam malis, quantum ad 
+      <lb ed="#V" n="72"/>praelationem, &amp; subiectionem: Circa quod 
+      <lb ed="#V" n="73"/>tria facit. quia primo ait, quod sicut inter bo¬ 
+      <lb ed="#V" n="74"/>nos angelos alii alijs praesunt: ita &amp; inter ma¬ 
+      <lb ed="#V" n="75"/>los. Nam vsque ad diem iudicij, cum euacua¬ 
+      <lb ed="#V" n="76"/>bitur omnis praelatio: angeli angelis, &amp; homi¬ 
+      <lb ed="#V" n="77"/>nes hominibus, &amp; Daemones Daemonibus prae¬ 
+      <lb ed="#V" n="78"/>sunt, inter quos Daemones quidam habent ma¬ 
+      <lb ed="#V" n="79"/>iorem praelationem, vt quia praesunt vni prouin¬ 
+      <lb ed="#V" n="80"/>ciae: Quidam minorem, vt quia praesunt vni 
+      <lb ed="#V" n="81"/>homini, vel quia praesunt vni vitio. Secundo 
+      <lb ed="#V" n="82"/>mouet quaestionem de loco Daemonum. Vtrum 
+      <lb ed="#V" n="83"/>omnes sint in isto aere caliginoso, vel aliqui 
+      <lb ed="#V" n="84"/>sint in inferno: &amp; ait, quod verisimile est, 
+      <lb ed="#V" n="85"/>quod de Daemonibus alternatis vicibus aliqui 
+      <lb ed="#V" n="86"/>descendant in infernum ad detrudendas, &amp; cru¬ 
+      <lb ed="#V" n="87"/>ciandas animas. Nam certum est: animas ma¬ 
+      <lb ed="#V" n="88"/>lorum ad inferna descendere: cum &amp; Chri¬ 
+      <lb ed="#V" n="89"/>stus ad inferos descenderit, vt iustos inde edu¬ 
+      <lb ed="#V" n="90"/>ceret. Tertio specialiter determinat de Luci¬ 
+      <lb ed="#V" n="91"/>fero vbi sit, &amp; qualiter ad nos se habeat. 
+      <lb ed="#V" n="92"/>Secunda ibi:  Solet autem quaeri.  Tertia ibi: 
+      <lb ed="#V" n="93"/>De Lucifero aurem. E In qua parte tria facit. 
+      <lb ed="#V" n="94"/>Quia primo ait, Luciferum secundum quos¬ 
+      <lb ed="#V" n="95"/>dam religatum esse, nec ad nos tentandum pos¬ 
+      <lb ed="#V" n="96"/>se accedere, vsque ad tempus Antichristi. 
+      <lb ed="#V" n="97"/>Nam sic religatus est Sathanas, quia victus fuit 
+      <lb ed="#V" n="98"/>a Christo. Secundo ait, quod siue religatus sit in¬ 
+      <lb ed="#V" n="99"/>inferno Sathanas, siue non; certum est tamen 
+      <lb ed="#V" n="100"/>ipsum non habere tantam potestatem ad ten¬ 
+      <lb ed="#V" n="101"/>tandum homines nunc, quantam habebit ten¬ 
+      <lb ed="#V" n="102"/>pore Antichisti: ideo dicitur tunc solui. Ter¬ 
+      <lb ed="#V" n="103"/>tio, quia dixerat Sathanam victum a Christo 
+      <lb ed="#V" n="104"/>religatum esse: ait, quod &amp; alii Daemones cum 
+      <lb ed="#V" n="105"/>vincuntur a Sanctis, desistunt a tentatione. 
+      <lb ed="#V" n="106"/>quia victi non tentant: nec illum Sanctum 
+      <lb ed="#V" n="107"/>nec alium, vel saltem non tentant ip¬ 
+      <lb ed="#V" n="108"/>sum de illo vitio, de quo victi sunt. 
+      <lb ed="#V" n="109"/>Secunda ibi: TSed sine in infer¬ 
+      <lb ed="#V" n="110"/>num. T Tertia ibi: ( Alijs 
+      <lb ed="#V" n="111"/>quoque. EEt in hoc 
+      <lb ed="#V" n="112"/>terminatur sen¬ 
+      <lb ed="#V" n="113"/>tentia le¬ 
+      <lb ed="#V" n="114"/>ctionis, &amp; distin¬ 
+      <lb ed="#V" n="115"/>ctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

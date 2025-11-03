@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-03">November 03, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb21">Venice 1581, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="4"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-k000785"><!-- l2-d1p1prae -->
+        <head xml:id="Gi9qrR-k000785-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-k000785-d1e103">
+          <lb ed="#V" n="23"/>DIVISIO PARTIS PRIMAE 
+          <lb ed="#V" n="24"/>Prima huius libri pars quindecim complectitur di¬ 
+          <lb ed="#V" n="25"/>stinctiones: In quarum prima de rerum creatio¬ 
+          <lb ed="#V" n="26"/>ne in vniuersum: In decem sequentibus de crea¬ 
+          <lb ed="#V" n="27"/>tura mere spirituali, hoc est, de Angelis: 
+          <lb ed="#V" n="28"/>In quatuor postremis de creatura mere corporea 
+          <lb ed="#V" n="29"/>per opera sex dierum sermo habetur. 
+        </p>
+        <p xml:id="Gi9qrR-k000785-d1e121">
+          <lb ed="#V" n="30"/>DIST. I. PARS I. 
+          <lb ed="#V" n="31"/>De omnium rerum creatione, in vniuer¬ 
+          <lb ed="#V" n="32"/>sum, quantum ad principium effi¬ 
+          <lb ed="#V" n="33"/>ciens, opinione Philosopho¬ 
+          <lb ed="#V" n="34"/>rum reiecta. 
+        </p>
+        <p xml:id="Gi9qrR-k000785-d1e134">
+          <lb ed="#V" n="35"/>CREATIONEM rerum in¬ 
+          <lb ed="#V" n="36"/>sinuans, &amp;c. 
+        </p>
+        <p xml:id="Gi9qrR-k000785-d1e141">
+          <lb ed="#V" n="37"/>Postquam assignauimus cau¬ 
+          <lb ed="#V" n="38"/>sas huius operis: restat, vt ad 
+          <lb ed="#V" n="39"/>diuisionem libri, &amp; ad senten¬ 
+          <lb ed="#V" n="40"/>tiam litterae accedamus. Dice¬ 
+          <lb ed="#V" n="41"/>mus ergo, quod iste Liber Secundus, in quo agi¬ 
+          <lb ed="#V" n="42"/>tur de creaturis: diuiditur in duas partes, quia 
+          <lb ed="#V" n="43"/>primo agitur de creaturis in generali. Secundo 
+          <lb ed="#V" n="44"/>in speciali, ibi: [De angelica itaque natura.] In 
+          <lb ed="#V" n="45"/>principio secundae distinctionis. 
+        </p>
+        <p xml:id="Gi9qrR-k000785-d1e164">
+          <lb ed="#V" n="46"/>Circa primum duo facit, quia primo agit de 
+          <lb ed="#V" n="47"/>creaturis generaliter, prout procedunt a Deo tam¬ 
+          <lb ed="#V" n="48"/>quam a principio primo. Secundo agit de eis ge¬ 
+          <lb ed="#V" n="49"/>neraliter prout reducuntur in Deum, tanquam 
+          <lb ed="#V" n="50"/>in finem vltimum: vbi praesens lectio terminatur, 
+          <lb ed="#V" n="51"/>ibi: [Credamus ergo rerum.] Prima diuiditur in 
+          <lb ed="#V" n="52"/>duas: quia circa processum rerum a Deo primo pro¬ 
+          <lb ed="#V" n="53"/>ponitur vertitas, &amp; ex veritate proposita eliditur, 
+          <lb ed="#V" n="54"/>&amp; remouetur Philosophorum falsitas. Secundo 
+          <lb ed="#V" n="55"/>specialiter descenditur ad opinionem Platonis, 
+          <lb ed="#V" n="56"/>&amp; Aristot. quid senserint circa productionem re¬ 
+          <!--4.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>rum, ibi: [Plato namque]. Dicit ergo, quod [sa¬ 
+          <lb ed="#V" n="58"/>cra scriptura insinuans] id est docens creationem re¬ 
+          <lb ed="#V" n="59"/>rum: dicit, [Deum esse creatorem] &amp; dicit tem¬ 
+          <lb ed="#V" n="60"/>pus, &amp; omnem creaturam habere initium. In qui¬ 
+          <lb ed="#V" n="61"/>bus verbis eliditur error omnium Philosopho¬ 
+          <lb ed="#V" n="62"/>rum dicentium mundum esse ab eterno, &amp; non 
+          <lb ed="#V" n="63"/>habuisse initium, &amp; eliditur error ponentium plu¬ 
+          <lb ed="#V" n="64"/>ra principia sine principio. Deinde cum dicit. 
+          <lb ed="#V" n="65"/>[Plato namque] descendit ad opinionem Platonis, 
+          <lb ed="#V" n="66"/>&amp; Arist. &amp; primo ad opinionem Platonis: Secun¬ 
+          <lb ed="#V" n="67"/>do Ar. ibi: [Aristoteles pero.] 
+        </p>
+        <p xml:id="Gi9qrR-k000785-d1e218">
+          <lb ed="#V" n="68"/>Circa primum duo facit, quia primo facit quod 
+          <lb ed="#V" n="69"/>dictum est. Secundo quia mentionem fecerat de 
+          <lb ed="#V" n="70"/>Creatore, &amp; de Artifice id est de factore, vel de fa¬ 
+          <lb ed="#V" n="71"/>ctione: dat differentiam inter creare, &amp; facere, 
+          <lb ed="#V" n="72"/>ibi: [Creator enim] Dicit ergo, quod Plato aesti¬ 
+          <lb ed="#V" n="73"/>mauit tria initia: Deum scilicet &amp; exemplar id est ideam, 
+          <lb ed="#V" n="74"/>&amp; materiam. Et ipsa id est &amp; ista tria principia posuit 
+          <lb ed="#V" n="75"/>Plato esse increata sine principio, &amp; Deum posuit, 
+          <lb ed="#V" n="76"/>quasi artificem id est factorem, non creatorem. Sed 
+          <lb ed="#V" n="77"/>quomodo intelligenda sit opinio Platonis: in du¬ 
+          <lb ed="#V" n="78"/>bitationibus litteralibus apparebit. Deinde cum di¬ 
+          <lb ed="#V" n="79"/>cit:  [Creator enim:] dat differentiam inter crea¬ 
+          <lb ed="#V" n="80"/>re, &amp; facere. Circa quod duo facit, quia primo fa¬ 
+          <lb ed="#V" n="81"/>cit, quod dictum est, &amp; patet littera. Secundo ex 
+          <lb ed="#V" n="82"/>his, quae dixerat: dat differentiam inter Deum, &amp; 
+          <lb ed="#V" n="83"/>alia agentia, ibi: [Vnde &amp; homo, vel Angelus.] 
+          <lb ed="#V" n="84"/>Circa quod duo facit, quia primo dat huius dif¬ 
+          <lb ed="#V" n="85"/>ferentiam ex parte effectuum. Secundo ex parte 
+          <lb ed="#V" n="86"/>efficientium, ibi: [veruntamen sciendum]. Ex par¬ 
+          <lb ed="#V" n="87"/>te autem effectuum dat differentiam inter Deum. 
+          <lb ed="#V" n="88"/>&amp; hominem, vel Angelum, vel alia agentia, quia 
+          <lb ed="#V" n="89"/>nec homo nec Angelus: nec aliquod agens crea¬ 
+          <lb ed="#V" n="90"/>tum potest creare, vel potest facere ex nihilo ali¬ 
+          <lb ed="#V" n="91"/>quid. Sed creare est proprium solius Dei: nisi ac¬ 
+          <lb ed="#V" n="92"/>ciperetur creare large: sicut in ipsa scriptura saepe 
+          <lb ed="#V" n="93"/>Creator accipitur, tanquam factor: 
+        </p>
+        <p xml:id="Gi9qrR-k000785-d1e277">
+          <lb ed="#V" n="94"/>Deinde cum dicit: [veruntamen.] dat diffe¬ 
+          <lb ed="#V" n="95"/>rentiam inter Deum, &amp; alia agentia, quia non so¬ 
+          <lb ed="#V" n="96"/>lum Deus potest facere effectum ex nihilo, quod 
+          <lb ed="#V" n="97"/>non possunt alia agentia, sed etiam in agende 
+          <lb ed="#V" n="98"/>Deus non mutatur, nec laborat: nos autem in 
+          <lb ed="#V" n="99"/>agendo mutamur, &amp; etiam omnia agentia creata 
+          <lb ed="#V" n="100"/>agunt aliquo modo mota, quod quomodo sit: 
+          <lb ed="#V" n="101"/>in dubitationibus litteralibus declarabit. Tria 
+          <lb ed="#V" n="102"/>ergo facit, quia primo ostendit, quod Deus in 
+          <lb ed="#V" n="103"/>agendo non mutatur, nec laborat. Secundo ait, 
+          <lb ed="#V" n="104"/>quod nos in agendo mutamur: non autem Deus: 
+          <lb ed="#V" n="105"/>in quo secundum Magistrum: non proprie est a¬ 
+          <lb ed="#V" n="106"/>ctus: cum omnis actus sit in motu. Tertio, quod 
+          <lb ed="#V" n="107"/>dixerat declarat per simile in calore Solis: ex quo 
+          <lb ed="#V" n="108"/>sole multa contingunt, nulla mutatione facta in 
+          <lb ed="#V" n="109"/>calore eius, quod quomodo verum sit, in dubita¬ 
+          <lb ed="#V" n="110"/>tionibus litteralibus apparebit, secunda ibi: [Nos 
+          <lb ed="#V" n="111"/>autem operando mutari dicimur:] Tertia ibi: [Si 
+          <lb ed="#V" n="112"/>cut ergo ex calore Solis:] littera autem patet. 
+        </p>
+        <p xml:id="Gi9qrR-k000785-d1e321">
+          <lb ed="#V" n="113"/>Tunc sequitur illa pars: [Arisloteles vero.] 
+          <lb ed="#V" n="114"/>in qua descendit ad opinionem Aristotel. Circa 
+          <lb ed="#V" n="115"/>quam duo facit, quia primo facit quod dictum 
+          <lb ed="#V" n="116"/>est. Secundo ex scriptura sacra per spiritum san¬ 
+          <lb ed="#V" n="117"/>ctum inspirata elidit omnes huiusmodi errores: tam 
+          <lb ed="#V" n="118"/>Platonis, &amp; Arist. quam etiam alioram, ibi: [Horum ergo.] 
+          <!--5.xml-->
+          <pb ed="#V" n="5"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Dicit ergo quod Arist. posuit tria principia: duo in¬ 
+          <lb ed="#V" n="2"/>trinseca: materiam scilicet &amp; speciem id est formam, &amp; ter¬ 
+          <lb ed="#V" n="3"/>tium operatorium id est efficiens: mundum quoque 
+          <lb ed="#V" n="4"/>dixit semper esse, &amp; fuisse. Quomodo autem ve¬ 
+          <lb ed="#V" n="5"/>rum sit, quod Aristot. posuit tria principia: mate¬ 
+          <lb ed="#V" n="6"/>riam: formam, &amp; efficiens: in dubitationibus litte¬ 
+          <lb ed="#V" n="7"/>ralibus apparebit. Deinde cum dicit: [Horum er¬ 
+          <lb ed="#V" n="8"/>go] elidit omnes hos errores per auctoritatem scri¬ 
+          <lb ed="#V" n="9"/>pturae sacrae: dicens, quod errorem horum id est Plato¬ 
+          <lb ed="#V" n="10"/>nis, &amp; Arist. &amp; similium, &amp; aliorum Philosopho¬ 
+          <lb ed="#V" n="11"/>rum: spiritus sanctus euacuat: cum dicit: In prin¬ 
+          <lb ed="#V" n="12"/>cipio temporum Deum creasse mundum: in quo 
+          <lb ed="#V" n="13"/>datur intelligi, quod aeternitas dei extitit ante tem¬ 
+          <lb ed="#V" n="14"/>pus. Postquam enim Deus sua voluntate, quia 
+          <lb ed="#V" n="15"/>velle est ei facere, &amp; volendo facit: creauit tem¬ 
+          <lb ed="#V" n="16"/>pora, &amp; initio temporum creauit mundum: con¬ 
+          <lb ed="#V" n="17"/>sequens est, quod ipse Deus fuerit ante omne tem¬ 
+          <lb ed="#V" n="18"/>pus, &amp; ante mundum. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

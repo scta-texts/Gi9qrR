@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2025-11-03">November 03, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-grsb21">Venice 1581, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="264"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-k077354"><!-- l2-d4prae -->
+            <head xml:id="Gi9qrR-k077354-Hd1e101">Praeambulum</head>
+            <p xml:id="Gi9qrR-k077354-d1e103">
+               <lb ed="#V" n="89"/>DISTINCTIO IIII. 
+      <lb ed="#V" n="90"/>De conditionibus, es bearitudlinis. 
+      <lb ed="#V" n="91"/>&amp;o msseria Angelorum. 
+    </p>
+            <p xml:id="Gi9qrR-k077354-d1e112">
+               <lb ed="#V" n="92"/>POST HAEC VI¬ 
+      <lb ed="#V" n="93"/>DENDVM EST
+      <lb ed="#V" n="94"/>VTRVM, &amp;c.
+    </p>
+            <p xml:id="Gi9qrR-k077354-d1e121">
+               <lb ed="#V" n="95"/>Postquam Magister 
+      <lb ed="#V" n="96"/>ostendit quales fue¬ 
+      <lb ed="#V" n="97"/>runt Angeli in prin¬ 
+      <lb ed="#V" n="98"/>cipio suae creatio¬ 
+      <lb ed="#V" n="99"/>nis, quantum ad es¬ 
+      <lb ed="#V" n="100"/>se naturae, &amp; quan¬ 
+      <lb ed="#V" n="101"/>tum ad esse culpae: 
+      <lb ed="#V" n="102"/>in parte ista declarat, quales fuerunt Angeli in 
+      <lb ed="#V" n="103"/>principio suae creationis, quantum ad esse beati¬ 
+      <lb ed="#V" n="104"/>tudinis, &amp; miseriae. vtrum fuerint creati beati, 
+      <lb ed="#V" n="105"/>vel miseri, &amp; vtrum perfecti, vel imperfecti. Cir¬ 
+      <lb ed="#V" n="106"/>ca quod tria facit. Quia primo has duas quaestio¬ 
+      <lb ed="#V" n="107"/>nes mouet, &amp; patet littera. Secundo de his dua¬ 
+      <lb ed="#V" n="108"/>bus quaestionibus exequitur. Tertio epilogat cir¬ 
+      <lb ed="#V" n="109"/>ca determinata. Secunda ibi:  Ad quod potest 
+      <lb ed="#V" n="110"/>dici. L Tertia ibi: CAuales fuerunt Angeli. p 
+      <lb ed="#V" n="111"/>Pats autem illa in qua exequitur de quaestioni¬ 
+      <lb ed="#V" n="112"/>bus propositis, diuiditur in duas. Quia primo 
+      <lb ed="#V" n="113"/>exequitur de quaestione quantum ad beatitudi¬ 
+      <lb ed="#V" n="114"/>nem, &amp; miseriam. Secundo de quaestione alia qua¬ 
+      <lb ed="#V" n="115"/>tum ad perfectionem, &amp; imperfectionem ibi: . d 
+      <lb ed="#V" n="116"/>hboe autem, quod quaerebatur vtrum persecti.  
+      <lb ed="#V" n="117"/>Circa primum duo facit, quia primo exequitur 
+      <lb ed="#V" n="118"/>de Angelis malis: ostendens eos non fuisse crea¬ 
+      <lb ed="#V" n="119"/>tos miseros, quia miseria non potuit esse ante pec¬ 
+      <lb ed="#V" n="120"/>catum: nec fuisse creatos beatos, quia in sui pri¬ 
+      <!--265.xml-->
+      <pb ed="#V" n="265"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>mordio, vel nesciuerunt suum casum, &amp; tunc bea¬ 
+      <lb ed="#V" n="2"/>ti non erant. quia ignari erant: vel praesciuerunt, 
+      <lb ed="#V" n="3"/>&amp; tunc vel non potuerunt ipsum vitare, &amp; sic 
+      <lb ed="#V" n="4"/>erant miseri, vel potuerunt ipsum casum vitare, 
+      <lb ed="#V" n="5"/>sed noluerunt, &amp; sic erant stulti, &amp; maligni. Nullo 
+      <lb ed="#V" n="6"/>ergo modo fuerunt creati beati, quod confir¬ 
+      <lb ed="#V" n="7"/>mat per auctoritatem Augustini. 
+    </p>
+            <p xml:id="Gi9qrR-k077354-d1e202">
+               <lb ed="#V" n="8"/>Secundo de hac eadem quaestione exequitur, 
+      <lb ed="#V" n="9"/>quantum ad angelos bonos ibi: T Quaeritur autem, 
+      <lb ed="#V" n="10"/>cur non fuit. LCirca quod tria facit. quia primo 
+      <lb ed="#V" n="11"/>per verba Aug. ostendit angelos bonos praesci¬ 
+      <lb ed="#V" n="12"/>uisse se fuisse mansuros. Secundo ex illis verbis 
+      <lb ed="#V" n="13"/>concludit eos ex hoc a principio fuisse beatos. 
+      <lb ed="#V" n="14"/>Nam quaedam beatitudo est habere certitudinem 
+      <lb ed="#V" n="15"/>de stabilitate, &amp; felicitate sua. 
+    </p>
+            <p xml:id="Gi9qrR-k077354-d1e223">
+               <lb ed="#V" n="16"/>Tertio exponit verba August. dicens. Augu. 
+      <lb ed="#V" n="17"/>magis sic locutum fuisse opinando, &amp; inquiren¬ 
+      <lb ed="#V" n="18"/>do, quam asserendo. Secunda ibi:  His verbit 
+      <lb ed="#V" n="19"/>videtur Aug. C Tertia ibi: Sed hoc magis opi¬ 
+      <lb ed="#V" n="20"/>nando. Circa quod duo facit. quia primo ostendit 
+      <lb ed="#V" n="21"/>per plures auctoritates Aug. quod non fuerit de¬ 
+      <lb ed="#V" n="22"/>intentione eius, quod angeli boni praesciuerint 
+      <lb ed="#V" n="23"/>se permansuros: immo intentio sua fuit, quod 
+      <lb ed="#V" n="24"/>sicut nec angeli mali praesciuerunt se casuros, sic 
+      <lb ed="#V" n="25"/>nec boni se permansuros: cum ipse dicat, quod 
+      <lb ed="#V" n="26"/>si Deus reuelasset istis, &amp; non illis, fuisset prius 
+      <lb ed="#V" n="27"/>Deus vltor, quam alius peccator. Et cum ipse¬ 
+      <lb ed="#V" n="28"/>met Aug. dicat, quod illi, qui ceciderunt, beati¬ 
+      <lb ed="#V" n="29"/>esse non poterant. quia fuerunt ignari, &amp; fuerunt 
+      <lb ed="#V" n="30"/>incerti suae damnationis, nec illi, qui perstiterunt, 
+      <lb ed="#V" n="31"/>beati fuerunt. quia non erant certi de sua beati¬ 
+      <lb ed="#V" n="32"/>tudine. Secundo concludit ex dictis, duas esse 
+      <lb ed="#V" n="33"/>opiniones circa beatitudinem, &amp; miseriam an¬ 
+      <lb ed="#V" n="34"/>gelorum. Nam quidam dixerunt, quod mali 
+      <lb ed="#V" n="35"/>nunquam fuerunt beati, nec fuerunt praescii sui 
+      <lb ed="#V" n="36"/>casus, boni vero suam beatitudinem Deo reuelam 
+      <lb ed="#V" n="37"/>te sciuerunt. Quidam vero voluerunt, quod nec 
+      <lb ed="#V" n="38"/>boni, nec mali hoc sciuerint. Hos autem duos 
+      <lb ed="#V" n="39"/>dicendi modos, sub quadam distinctione ponit, 
+      <lb ed="#V" n="40"/>&amp; dicit sibi magis placere, quod postremo dictum 
+      <lb ed="#V" n="41"/>est: videlicet, quod nec illi se casuros, nec isti se 
+      <lb ed="#V" n="42"/>mansuros sciuerunt. Tunc sequitur illa pars: 
+      <lb ed="#V" n="43"/>teAd hoc autem, quod quaerebatur in qua exequ 
+      <lb ed="#V" n="44"/>tur de quaestione secunda: Vtrum creati fuerint 
+      <lb ed="#V" n="45"/>perfecti, vel imperfecti, circa quod duo facit. quia 
+      <lb ed="#V" n="46"/>primo ait, quod vno modo creati fuerunt perfe¬ 
+      <lb ed="#V" n="47"/>cti, alio modo imperfecti. Secundo distinguit de¬ 
+      <lb ed="#V" n="48"/>triplici modo perfectionis. Nam est perfectum 
+      <lb ed="#V" n="49"/>secundum tempus, quando habet quod perfe¬ 
+      <lb ed="#V" n="50"/>ctionis est secundum illum statum, &amp; hoc mo¬ 
+      <lb ed="#V" n="51"/>do creati fuerunt angeli perfecti. Et est perfe¬ 
+      <lb ed="#V" n="52"/>ctum secundum naturam, quando quis habet 
+      <lb ed="#V" n="53"/>quicquid potest suae naturae expedire: sicut beati 
+      <lb ed="#V" n="54"/>videntes Deum, &amp; sic angeli fuerunt creati im¬ 
+      <lb ed="#V" n="55"/>perfecti. Et dicitur tertio modo, quid perfectum: 
+      <lb ed="#V" n="56"/>quando est perfectum summe, &amp; naturaliter, &amp; 
+      <lb ed="#V" n="57"/>hoc modo solus Deus est perfectus. Secunda 
+      <lb ed="#V" n="58"/>ibi: CDicitur namqne perfectum. pEt patet littera. 
+      <lb ed="#V" n="59"/>Tunc sequit illa pars: C Quases fuerunt Angeli. l 
+      <lb ed="#V" n="60"/>In qua epilogat circa omnia determinata, &amp; pa¬ 
+      <lb ed="#V" n="61"/>tet littera, &amp; in hoc terminatur sententia lectio 
+      <lb ed="#V" n="62"/>nis, &amp; distinctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

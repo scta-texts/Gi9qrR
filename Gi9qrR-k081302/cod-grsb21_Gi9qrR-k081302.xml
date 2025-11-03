@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-11-03">November 03, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-grsb21">Venice 1581, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="278"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-k081302"><!-- l2-d5q1 -->
+            <head xml:id="Gi9qrR-k081302-Hd1e101">Quaestio 1</head>
+            <head xml:id="Gi9qrR-k081302-Hd1e103" type="question-title">De malorum Angelorum aversione</head>
+            <p xml:id="Gi9qrR-k081302-d1e106">
+               <lb ed="#V" n="14"/>QVASTIO I. 
+      <lb ed="#V" n="15"/>De malorum Angelorum auersione. 
+    </p>
+            <p xml:id="Gi9qrR-k081302-d1e113">
+               <lb ed="#V" n="16"/>QVIA Magister in littera agit 
+      <lb ed="#V" n="17"/>de auersione, &amp; conuersione 
+      <lb ed="#V" n="18"/>Angelorum, ideo. de his duo¬ 
+      <lb ed="#V" n="19"/>bus quaeremus. Circa auersio¬ 
+      <lb ed="#V" n="20"/>nem autem Angelorum malo¬ 
+      <lb ed="#V" n="21"/>rum quaeruntur tria. Primo 
+      <lb ed="#V" n="22"/>vtrum Angeli mali potuerunt peccare. Secundo 
+      <lb ed="#V" n="23"/>vtrum Lucifer peccando appetierit Dei aequali¬ 
+      <lb ed="#V" n="24"/>tatem. Tertio, quo genere peccati peccauit. 
+    </p>
+            <div xml:id="Gi9qrR-k081302-Dd1e135">
+               <head xml:id="Gi9qrR-k081302-Hd1e137">Articulus 1</head>
+               <p xml:id="Gi9qrR-k081302-d1e139">
+                  <lb ed="#V" n="25"/>ARTIC. I. 
+      <lb ed="#V" n="26"/>An in Angelis possit esse peccatum. 
+      <lb ed="#V" n="27"/>Conclusio est affirmxatiua. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e148">
+                  <lb ed="#V" n="28"/>DTo. 1. p. q. 62. atic. 1. 1.1 2. fente s. 4. . q. 1. 2cc. 1. rt 
+      <lb ed="#V" n="29"/>Opusc. 15. cap. r0. &amp; 20. Item contra Gent. lib. 3. c. 1os. 
+      <lb ed="#V" n="30"/>ro9. 110. Greg. Arim. d. 5. q. 1. Holxothi 2. sent. q. 4. 
+      <lb ed="#V" n="31"/>Tlio. Arg. d. 5. q 1. Dur. d. 5. q. 1. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e159">
+                  <lb ed="#V" n="32"/>AD primum sic proce ditur: vi. 
+      <lb ed="#V" n="33"/>detur, quod in Angelis non 
+      <lb ed="#V" n="34"/>possit esse peccatum. Nam 
+      <lb ed="#V" n="35"/>secundum Philosophum. 12. 
+      <lb ed="#V" n="36"/>Metaphysicae. In vniuerso est or¬ 
+      <lb ed="#V" n="37"/>do, sicut &amp; in domo. Sicut ergo 
+      <lb ed="#V" n="38"/>in domo liberi non licentiantur ad actiones inor 
+      <lb ed="#V" n="39"/>dinatas, sic in supercaelestibus corporibus, &amp; mul¬ 
+      <lb ed="#V" n="40"/>tomagis in Angelis, qui post Deum, Patremfami 
+      <lb ed="#V" n="41"/>lias, habent se quasi liberi in domo, non potest 
+      <lb ed="#V" n="42"/>inueniri aliqua inordinatio, immo si motus caeli¬ 
+      <lb ed="#V" n="43"/>semper est ordinatus, multo magis motus Ange¬ 
+      <lb ed="#V" n="44"/>lorum. sed vbi non potest esse inordinatio, nec 
+      <lb ed="#V" n="45"/>peccatum, ergo &amp;cc. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e192">
+                  <lb ed="#V" n="46"/>Praeterea secundum Philosophum in 9. Me¬ 
+      <lb ed="#V" n="47"/>taphysicae. In rebus, quae sunt aeternae, non est ali¬ 
+      <lb ed="#V" n="48"/>quod malum omnino, neque error. malum enim 
+      <lb ed="#V" n="49"/>vt drm ibi, est post potentiam, sed minus est de po¬ 
+      <lb ed="#V" n="50"/>tentialitate in Angelis, quam in corporibus su¬ 
+      <lb ed="#V" n="51"/>percelestibus, ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e209">
+                  <lb ed="#V" n="52"/>Praeterea in 7. Physicorum vult Philosophus, 
+      <lb ed="#V" n="53"/>quod mutatio virtutis, &amp; vitii reducatur in alte¬ 
+      <!--278.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="54"/>rationem, quae est secundum passiones partis sen¬ 
+      <lb ed="#V" n="55"/>sitiue, sed huiusmodipassiones non possunt esst 
+      <lb ed="#V" n="56"/>in angelo, ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e227">
+                  <lb ed="#V" n="57"/>praeterea motiuum voluntatis est ponum sim 
+      <lb ed="#V" n="58"/>pliciter, vel apparens bonum, vt vult Philosophus 
+      <lb ed="#V" n="59"/>in 3. de anima. Ex eo ergo, quod voluntas moue¬ 
+      <lb ed="#V" n="60"/>tur a bono simpliciter non peccat, sed ex eo, quod 
+      <lb ed="#V" n="61"/>mouetur ab apparenti bono, vel ex eo fit pecca¬ 
+      <lb ed="#V" n="62"/>tum, quod mouetur a bono secundum sensum, 
+      <lb ed="#V" n="63"/>sed cum in Angelis non sit sensus, non potest mo¬ 
+      <lb ed="#V" n="64"/>ueri eorum appetitus nisi ab eo, quod est bonum 
+      <lb ed="#V" n="65"/>secundum intellectum. sed tale est bonum fim¬ 
+      <lb ed="#V" n="66"/>pliciter, ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e251">
+                  <lb ed="#V" n="67"/>IN CONTRAAIVN est, quia dicitur 
+      <lb ed="#V" n="68"/>Iob: Ecce qui seruiuntei non suntstabiles, &amp; 
+      <lb ed="#V" n="69"/>in Angelis suis reperit prauitatem. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e260">
+                  <lb ed="#V" n="70"/>Praeterea, vt habetur in littera, habebant An¬ 
+      <lb ed="#V" n="71"/>geli liberum arbitrium, quo potuerunt eligere 
+      <lb ed="#V" n="72"/>bonum, &amp; malum: &amp; potuerunt peccare, &amp; etiam 
+      <lb ed="#V" n="73"/>aliqui peccauerunt. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e271">
+                  <lb ed="#V" n="74"/>RESOLVTIO. 
+      <lb ed="#V" n="75"/>In angeli pornit ese peccatan, quii dirigatar po¬ 
+      <lb ed="#V" n="76"/>regulamid est segem diuinam in mentibus scriptam, 
+      <lb ed="#V" n="77"/>a qua se auertcre potuerunt. Idque etiam pater, 
+      <lb ed="#V" n="78"/>si peccatum, quod est modi, speciei, &amp; ordinis pri¬ 
+      <lb ed="#V" n="79"/>uatio, secundum se consideretur: &amp; ad ipsum pec¬ 
+      <lb ed="#V" n="80"/>cegten restratur. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e289">
+                  <lb ed="#V" n="81"/>RESPONDEO dicendum, quod in Ange¬ 
+      <lb ed="#V" n="82"/>lis possit esse malum culpae, possumus tripliciter 
+      <lb ed="#V" n="83"/>inuestigare. Primo prout malum, siue peccatum 
+      <lb ed="#V" n="84"/>comparatur ad suam causam. Secundo prout con¬ 
+      <lb ed="#V" n="85"/>sideratur in se. Tertio prout refertur ad ipsum 
+      <lb ed="#V" n="86"/>Angelum peccantem. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e306">
+                  <lb ed="#V" n="87"/>Propter primum sciendum, quod malum, siue¬ 
+      <lb ed="#V" n="88"/>peccatum, non habet causam efficientem, sed 
+      <lb ed="#V" n="89"/>deficienrem. Vnde August. 12. de Ciui. Dei. dicit: 
+      <lb ed="#V" n="90"/>Nemo ergo quaerat efficientem causam malae vo¬ 
+      <lb ed="#V" n="91"/>luntatis. non enim est efficiens causa, sed defi¬ 
+      <lb ed="#V" n="92"/>ciens. Sicut enim videtur tenebra, &amp; auditur 
+      <lb ed="#V" n="93"/>silentium, sic, vt ibi innuitur, efficitur malum. 
+      <lb ed="#V" n="94"/>Tenebra enim non videtur videndo, sed a videre 
+      <lb ed="#V" n="95"/>deficiendo. Vnde si habens visum apertis oculis 
+      <lb ed="#V" n="96"/>nihil videat, deficiendo a visu dicitur videre te¬ 
+      <lb ed="#V" n="97"/>nebram, sic &amp; silentium auditu percipimus, 
+      <lb ed="#V" n="98"/>cum nihil audimus, &amp; cum ab audiendo de¬ 
+      <lb ed="#V" n="99"/>ficimus. Sic malum facere est a bono defice¬ 
+      <lb ed="#V" n="100"/>re, non est enim malum substantia aliqua, vel 
+      <lb ed="#V" n="101"/>natura aliqua, sed est defectus boni. Et si vo¬ 
+      <lb ed="#V" n="102"/>lumus vnum aliquid generale assignare, a quo 
+      <lb ed="#V" n="103"/>deficimus, cum male agimus, dicemus, quod ma¬ 
+      <lb ed="#V" n="104"/>le agere est non secundum regulam facere, sed a¬ 
+      <lb ed="#V" n="105"/>regula deficere. Dupliciter ergo in appetitu ali¬ 
+      <lb ed="#V" n="106"/>quo non potest esse peccatum, vt comniter ponitur, 
+      <lb ed="#V" n="107"/>vel quia appetitus ille non est dirigibilis secundu re¬ 
+      <lb ed="#V" n="108"/>gulam, vel quia huiusmodi appetitus est ipsa regu¬ 
+      <lb ed="#V" n="109"/>la, propter quod non potest peccare, cum non pos¬ 
+      <lb ed="#V" n="110"/>sit deficere a seipso. imaginabimur enim, quod 
+      <lb ed="#V" n="111"/>semper inclinatio appetitus est bona, secundum 
+      <!--279.xml-->
+      <pb ed="#V" n="279"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>illum appetitum, scundum quem est hmondi inclinatio. Nam 
+      <lb ed="#V" n="2"/>sicut appetitus sequitur naturaliter formam natu¬ 
+      <lb ed="#V" n="3"/>raliter impressam, ita appetitus cognitiuus sequi¬ 
+      <lb ed="#V" n="4"/>tur formam apprehensam. Propter quod sicut¬ 
+      <lb ed="#V" n="5"/>inclinatio naturalis est quoddam bonum secun¬ 
+      <lb ed="#V" n="6"/>dum naturam, &amp; secundum naturalem formam, 
+      <lb ed="#V" n="7"/>sic inclinatio secundum appetitum cognitiuum 
+      <lb ed="#V" n="8"/>est quoddam bonum, secundum apprehensam 
+      <lb ed="#V" n="9"/>formam, vt si appetitus sensitiuus fertur in bonum 
+      <lb ed="#V" n="10"/>concupiscibile, fertur in quoddam bonum sibi, 
+      <lb ed="#V" n="11"/>&amp; in quoddam bonum secundum sensum. lSi au¬ 
+      <lb ed="#V" n="12"/>tem est ibi malum, hoc est, quia talis appetitus 
+      <lb ed="#V" n="13"/>debet rationi obedire. ideo ibi est malum, quia 
+      <lb ed="#V" n="14"/>non fit secundum regulam rationis. Et inde est, 
+      <lb ed="#V" n="15"/>quod in appetitu brutali, sic ferri secundum sen¬ 
+      <lb ed="#V" n="16"/>sum, est laudabile. Vnde &amp; Diony. 3. de diui. no¬ 
+      <lb ed="#V" n="17"/>vult, quod passiones, &amp; concupiscentiae, &amp; irae 
+      <lb ed="#V" n="18"/>sint laudabiles in Brutis, vt laudabile est in cane¬ 
+      <lb ed="#V" n="19"/>esse furibundum, &amp; in leone superbum, &amp; ani¬ 
+      <lb ed="#V" n="20"/>mosum. In talibus ergo non est malum culpae¬ 
+      <lb ed="#V" n="21"/>nec peccatum, quia non sunt apta nata dirigi per¬ 
+      <lb ed="#V" n="22"/>superiorem regulam.
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e417">
+                  <lb ed="#V" n="23"/>Peccare ergo est deficere a regula, &amp; quia appe¬ 
+      <lb ed="#V" n="24"/>titus sensitiuus est aptus, natus dirigi: per regulam, 
+      <lb ed="#V" n="25"/>ratio autem est apta nata dirigi per leges diuinas. 
+      <lb ed="#V" n="26"/>ideo in homin e dupliciter potest esse peccatum, 
+      <lb ed="#V" n="27"/>vel quia sensus non sequitur regulam rationis, 
+      <lb ed="#V" n="28"/>vel quia ratio obliquatur a regula veritatis, &amp; non 
+      <lb ed="#V" n="29"/>sequitur leges diuinas. Voluntas enim delectata 
+      <lb ed="#V" n="30"/>per aliquod bonum sibi oblatum, causat errorem, 
+      <lb ed="#V" n="31"/>vel neseientiam quandam in ratione, vt non ve¬ 
+      <lb ed="#V" n="32"/>re iudicet, nec secundum diuinas leges, sed iudi¬ 
+      <lb ed="#V" n="33"/>cet esse faciendum, quod non est faciendum. quic¬ 
+      <lb ed="#V" n="34"/>quid ergo non est ipsa regula, sicut est diuina vo¬ 
+      <lb ed="#V" n="35"/>luntas, quae non potest deficere, &amp; quicquid esta¬ 
+      <lb ed="#V" n="36"/>ptum natum dirigi per regulam, in qua distingui¬ 
+      <lb ed="#V" n="37"/>mus ronalem creaturam a brutali: potest pecca¬ 
+      <lb ed="#V" n="38"/>re, &amp; deficere. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e454">
+                  <lb ed="#V" n="39"/>Angelus ergo peccare poterat, non quia appe¬ 
+      <lb ed="#V" n="40"/>titus sensitiuus, cum sensu careat, obliquaretur a re¬ 
+      <lb ed="#V" n="41"/>gula intellectuali, sed quia appetitus eius intelle¬ 
+      <lb ed="#V" n="42"/>ctiuus obliquabatur a regula diuina, &amp; non se¬ 
+      <lb ed="#V" n="43"/>quebatur diuinam legem. Impressit enim Deus 
+      <lb ed="#V" n="44"/>cuilibet menti rationali lumen quoddam, in quo 
+      <lb ed="#V" n="45"/>potest cognoscere, quid agendum, vel non agen¬ 
+      <lb ed="#V" n="46"/>dum, quod sequendo facimus secundum diuinas 
+      <lb ed="#V" n="47"/>leges: deuiando facimus contra huiusmodi legem, 
+      <lb ed="#V" n="48"/>ita quod gentes, quae legem non habent, natura¬ 
+      <lb ed="#V" n="49"/>liter ea, quae legis sunt faciunt, &amp; ostendunt opus 
+      <lb ed="#V" n="50"/>legis scriptum in cordibus eorum, quod si in ho¬ 
+      <lb ed="#V" n="51"/>mine haec scriptura est obrenebrata, propter quod 
+      <lb ed="#V" n="52"/>homo non solum peccat deceptus, &amp; ignorans, 
+      <lb ed="#V" n="53"/>sed multoties peccat per deceptionem, &amp; igno¬ 
+      <lb ed="#V" n="54"/>rantiam. &amp; si homo hanc scripturam non habet, 
+      <lb ed="#V" n="55"/>quod in intellectu eius possibili a sui principio sit 
+      <lb ed="#V" n="56"/>aliquid scriptum, sed solum dicitur huiusmodi 
+      <lb ed="#V" n="57"/>scripturam habere, propter praesentiam luminis 
+      <lb ed="#V" n="58"/>intellectus agentis, per quod statim talibus prin¬ 
+      <lb ed="#V" n="59"/>cipijs nobis oblatis assentimus: Angelus autem, 
+      <lb ed="#V" n="60"/>qui productus est plenus formis habens magis 
+      <lb ed="#V" n="61"/>naturaliter talem legem inscriptam, multo magis 
+      <lb ed="#V" n="62"/>debuit huiusmodi legem sequi, a qua se auerten¬ 
+      <!--279.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="63"/>do peccauit.
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e515">
+                  <lb ed="#V" n="64"/>Viso quomodo Angelus potuit peccare: si com¬ 
+      <lb ed="#V" n="65"/>sideramus peccati causam, quia cum non sit ipsa¬ 
+      <lb ed="#V" n="66"/>regula, &amp; teneatur sequi regulam, potuit se a re¬ 
+      <lb ed="#V" n="67"/>gula auertere, &amp; sic peccare, volumus declarare, 
+      <lb ed="#V" n="68"/>quomodo Angelus peccare potuit, si considere¬ 
+      <lb ed="#V" n="69"/>mus ipsum peccatum secundum se. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e531">
+                  <lb ed="#V" n="70"/>Videtur enim esse peccatum quedam prina¬ 
+      <lb ed="#V" n="71"/>tio modi, speciei, &amp; ordinis. Nam vt vult Augu¬ 
+      <lb ed="#V" n="72"/>in de vera Religione: In omni re haec tria sunt: &amp; 
+      <lb ed="#V" n="73"/>quia vitium, &amp; peccatum est quoddam nocu¬ 
+      <lb ed="#V" n="74"/>mentum naturae, &amp; non est natura aliqua: specia¬ 
+      <lb ed="#V" n="75"/>liter videtur esse peccatum priuatio horum, quae 
+      <lb ed="#V" n="76"/>reperiuntur in natura, videlicet modi, speciei. &amp; 
+      <lb ed="#V" n="77"/>ordinis. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e551">
+                  <lb ed="#V" n="78"/>Aduertendum tamen, quod haec tria possunt 
+      <lb ed="#V" n="79"/>esse conditiones inseperabiliter se habentes ad 
+      <lb ed="#V" n="80"/>quodlibet peccatum, vel possunt aliquando acci¬ 
+      <lb ed="#V" n="81"/>pi, vt non in omni peccato dicantur esse omnia 
+      <lb ed="#V" n="82"/>ista tria, sed aliquod peccatum dicetur committi¬ 
+      <lb ed="#V" n="83"/>per carentiam ordinis, quod non committetur 
+      <lb ed="#V" n="84"/>per carentiam modi, &amp; speciei, &amp; aliquod com¬ 
+      <lb ed="#V" n="85"/>mittetur per carentiam ordinis, &amp; modi, quod 
+      <lb ed="#V" n="86"/>non committetur per carentiam speciei. Ad ali¬ 
+      <lb ed="#V" n="87"/>quod vero peccatum concurret carentia omnium 
+      <lb ed="#V" n="88"/>horum trium. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e578">
+                  <lb ed="#V" n="89"/>Quodlibet enim peccatum est in se quaedam¬ 
+      <lb ed="#V" n="90"/>priuatio, &amp; fit per defectum regulae, quia peccans, 
+      <lb ed="#V" n="91"/>secundum quod huiusmodi non agit secundum 
+      <lb ed="#V" n="92"/>debitam regulam: &amp; est semper quodammodo 
+      <lb ed="#V" n="93"/>praeter intentionem, quia ipsa deordinatio, &amp; ip¬ 
+      <lb ed="#V" n="94"/>sa priuatio, non potest esse per se ab agenteinten¬ 
+      <lb ed="#V" n="95"/>ta. Inquantum ergo omne peccatum est quaedam 
+      <lb ed="#V" n="96"/>priuatio boni, sic quodlibet peccatum caret spe¬ 
+      <lb ed="#V" n="97"/>cie. quia priuatio, secundum quod huiusmodi 
+      <lb ed="#V" n="98"/>non est species, sed carentia speciei. Vnde Augu. 
+      <lb ed="#V" n="99"/>12. de Ciui. Dicit ea quippe, quae non in specie, 
+      <lb ed="#V" n="100"/>sed in eius priuatione sciuntur, si dici, aut intelli¬ 
+      <lb ed="#V" n="101"/>gi potest, quodammodo nesciendo sciuntur. Ta¬ 
+      <lb ed="#V" n="102"/>lia autem secundum ipsum sunt delicta, vel pec¬ 
+      <lb ed="#V" n="103"/>cata. Species ergo intelligibiles, vt ibidem dicit, 
+      <lb ed="#V" n="104"/>mens quidem nostra intelligendo conspicit, sed 
+      <lb ed="#V" n="105"/>vbi deficiunt intelligibiles species, nesciendo con¬ 
+      <lb ed="#V" n="106"/>discit. Iuxta illud Psal. Delicta, quis intelligit: Pec 
+      <lb ed="#V" n="107"/>catum ergo, quia est priuatio, est carentia speciei, 
+      <lb ed="#V" n="108"/>&amp; non est de se quid intelligibile, vt natura ali¬ 
+      <lb ed="#V" n="109"/>qua, &amp; vt bonum aliquod, sed, vt priuatio boni. 
+      <lb ed="#V" n="110"/>In se ergo peccatum caret specie: sed, vt est praeter 
+      <lb ed="#V" n="111"/>regulam, caret ordine, vt est praeter intentionem, 
+      <lb ed="#V" n="112"/>caret modo. Sic ergo accipiendo has tres con¬ 
+      <lb ed="#V" n="113"/>ditiones, inseparabiliter se habent ad quodlibet 
+      <lb ed="#V" n="114"/>peccatum. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e637">
+                  <lb ed="#V" n="115"/>Possumus tamen hoc aliter accipere, vt non, 
+      <lb ed="#V" n="116"/>in omni peccato concurrant omnia ilta tria. Nam 
+      <lb ed="#V" n="117"/>in actu peccati est tria considerare, videlicet ma¬ 
+      <lb ed="#V" n="118"/>teriam, supra quam cadit huiusmodi actus, &amp; a¬ 
+      <lb ed="#V" n="119"/>gens, a quotalis actus efficitur, &amp; modus, per¬ 
+      <lb ed="#V" n="120"/>quem efficit. Nam aliquando quis peccat agen¬ 
+      <lb ed="#V" n="121"/>do, quae non sunt de genere bonorum, vt adulte¬ 
+      <lb ed="#V" n="122"/>rando, vel innocentem occidendo: aliquando ve¬ 
+      <lb ed="#V" n="123"/>ro agit, quae sunt de genere bonorum, sed non a¬ 
+      <lb ed="#V" n="124"/>git conuenientia sibi, vt suspendere latronem,
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e661">
+      <!--280.xml-->
+                  <pb ed="#V" n="280"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>
+                  <!-- line coord error -->
+                  <lb ed="#V" n="2"/>vel agere aliquem actum de genero iustitiae, es¬ 
+      <lb ed="#V" n="3"/>set agere actum de genere bonorum, non tamen¬ 
+      <lb ed="#V" n="4"/>ad quemlibet spectat talem actum agere, sed ad iudicem, 
+      <lb ed="#V" n="5"/>&amp; ad personam publicam. Posset ergo aliquis agens
+      <lb ed="#V" n="6"/>talem actum, peccare, non quia ageret, quae non 
+      <lb ed="#V" n="7"/>sunt de genere bonorum, sed quia non ageret con¬ 
+      <lb ed="#V" n="8"/>uenientia sibi. In multis etiam alijs hoc vide¬ 
+      <lb ed="#V" n="9"/>mus, quod aliquis potest appetere aliqua, quae 
+      <lb ed="#V" n="10"/>sunt de genere bonorum, non tamen sunt con¬ 
+      <lb ed="#V" n="11"/>uenientia sibi. Potest etiam contingere, quod
+      <!-- missing line coord -->aliquis velit quae sunt de genere bonorum, &amp;
+      <lb ed="#V" n="12"/>conuenientia sibi, sed non vult sea eo ordine, 
+      <lb ed="#V" n="13"/>quo debet. Posset enim quis peccare appe¬ 
+      <lb ed="#V" n="14"/>tendo chatitatem. Est enim charitas de gene¬ 
+      <lb ed="#V" n="15"/>re maximorum bonorum, &amp; est bonum conue¬ 
+      <lb ed="#V" n="16"/>niens, &amp; expediens creaturae rationali, tamen¬ 
+      <lb ed="#V" n="17"/>sl quis vellet tantum donum consequi ex natu¬ 
+      <lb ed="#V" n="18"/>ra, &amp; si quis optaret, vt haberet charitatem, 
+      <lb ed="#V" n="19"/>non per viam gratiae, licet appeteret, quae sunt 
+      <lb ed="#V" n="20"/>degenere bonorum, &amp; conuenientia sibi, pecca¬ 
+      <lb ed="#V" n="21"/>tet tamen, quia non appeteret huiusmodi bonum 
+      <lb ed="#V" n="22"/>eo ordine, quo deberet. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e722">
+                  <lb ed="#V" n="23"/>Possumus ergo praedicta tria ad haec ttia ada¬ 
+      <lb ed="#V" n="24"/>prare vt dicamus peccatum carere specie, quan 
+      <lb ed="#V" n="25"/>do appetitur, quod non est de genere bonorum: 
+      <lb ed="#V" n="26"/>carere modo, quando non appetitur aliquid con¬ 
+      <lb ed="#V" n="27"/>ueniens sibi: carere ordine, quando non appetitur 
+      <lb ed="#V" n="28"/>eo ordine, qduo est appetendum¬ 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e738">
+                  <lb ed="#V" n="29"/>Ex hoc autem patere potest, quomodo An¬ 
+      <lb ed="#V" n="30"/>gtlds potuit peccare, &amp; peccauit. Non enim pec¬ 
+      <lb ed="#V" n="31"/>cauit, vel peccare potuit, appetendo, quae non 
+      <lb ed="#V" n="32"/>fdnt de genete bonorum, vel appetendo non 
+      <lb ed="#V" n="33"/>conuenientia sibi. (Non enim sic hebes erat, vt 
+      <lb ed="#V" n="34"/>noxia sibi cuperet) sed peccauit non appetendo 
+      <lb ed="#V" n="35"/>eo ordine, quo debuit. appetijit enim beatitudi¬ 
+      <lb ed="#V" n="36"/>nem, quae maxime erat de genere bonorum, &amp; 
+      <lb ed="#V" n="37"/>maxime erat conueniens sibi, sed non appetijt 
+      <lb ed="#V" n="38"/>eam eo ordine, quo debuit. quia debuit eam 
+      <lb ed="#V" n="39"/>velle habere per gratiam, quam habere voluit per 
+      <lb ed="#V" n="40"/>naturam. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e767">
+                  <lb ed="#V" n="41"/>Declarato, quomodo Angelus potuit peccare, 
+      <lb ed="#V" n="42"/>Prout peccatum per comparationem ad causam 
+      <lb ed="#V" n="43"/>est quidam defectus regulae, &amp; prout secundum 
+      <lb ed="#V" n="44"/>se est quaedam priuatio; volumus declarare, quo¬ 
+      <lb ed="#V" n="45"/>modo potuit peccare, prout peccatum compara 
+      <lb ed="#V" n="46"/>tur ad ipsum Angelum peccantem. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e784">
+                  <lb ed="#V" n="47"/>Sciendum ergo, quod quicunque peccat, vel 
+      <lb ed="#V" n="48"/>peccat per ignorantiam, vel peccat ignorans, vt
+      <lb ed="#V" n="49"/>declarari habet in 3. Ethic. Vt si lingua hominis 
+      <lb ed="#V" n="50"/>esset infecta colera, &amp; haberet vsum rationis. &amp; 
+      <lb ed="#V" n="51"/>inhibitum esset ei, quod non comederet dulcia, 
+      <lb ed="#V" n="52"/>si nesciret omne pomum esse dulce, si gustaret po¬ 
+      <lb ed="#V" n="53"/>ma dulcia, peccaret per deceptionem. Nam igno 
+      <lb ed="#V" n="54"/>rantia eent cam, quare poma gustaret, credens non 
+      <lb ed="#V" n="55"/>gustare dulcia. Sed si sciret omne pomum dulce 
+      <lb ed="#V" n="56"/>esse, &amp; tamen gustaret pomum, licet non gusta¬ 
+      <lb ed="#V" n="57"/>ret per deceptionem, gustaret tamen decepta. Et 
+      <lb ed="#V" n="58"/>licet non deciperetur in vniuersali, deciperetur 
+      <lb ed="#V" n="59"/>tamen in hoc particulari. Nam infectio coler¬ 
+      <lb ed="#V" n="60"/>inficeret iudicium de gustabili, vt pomum, quod 
+      <lb ed="#V" n="61"/>est in se dulce, propter infectionem colerae iudi¬ 
+      <lb ed="#V" n="62"/>caret amarum. Vnde ipfamet lingua tunc gustas 
+      <!--280.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="63"/>diceret: Scio omne pomum esse dulce, sed pro¬ 
+      <lb ed="#V" n="64"/>pter infectionem colerae hoc particulare pomum 
+      <lb ed="#V" n="65"/>mihi videtur amarum. Sic &amp; in proposito aliquan¬ 
+      <lb ed="#V" n="66"/>do quis peccaret per ignorantiam, &amp; per dece¬ 
+      <lb ed="#V" n="67"/>ptionem, vt quia ignorat in vniuersali, &amp; forni¬ 
+      <lb ed="#V" n="68"/>catur, quia non credit fornicationem esse pecca¬ 
+      <lb ed="#V" n="69"/>tum. Aliquando vero ignorat in particulari, vt 
+      <lb ed="#V" n="70"/>cum intellectus apprehendit fornicationem, di¬ 
+      <lb ed="#V" n="71"/>cit eam esse delectationem, &amp; dicit eam inordina¬ 
+      <lb ed="#V" n="72"/>tam. Appetitus tamen allicitur, ex eo, quod est 
+      <lb ed="#V" n="73"/>quid delectabile, &amp; praerermittit velle cogitare 
+      <lb ed="#V" n="74"/>de inordinatione. quod faciendo, inficitur volun¬ 
+      <lb ed="#V" n="75"/>tas, qua infecta, inficitur iudicium rationis, vt 
+      <lb ed="#V" n="76"/>iudicet fornicationem esse faciendam, quae non 
+      <lb ed="#V" n="77"/>est facienda. Sic ergo peccans, non poccat per 
+      <lb ed="#V" n="78"/>ignorantiam, &amp; per deceptionem, sed peccat igno¬ 
+      <lb ed="#V" n="79"/>rans, &amp; deceptus. Sicut enim ebrietas ligat iudi¬ 
+      <lb ed="#V" n="80"/>cium rationis, vt non possit mente conspicere, 
+      <lb ed="#V" n="81"/>quod est faciendum, sic concupiscentia, &amp; ira, &amp; 
+      <lb ed="#V" n="82"/>caetorae passiones, quaedam ebrietates sunt: vt cum¬ 
+      <lb ed="#V" n="83"/>est appetitus talibus infectus, inficiatur iudi¬ 
+      <lb ed="#V" n="84"/>cium rationis, vt quis passione irae detentus, 
+      <lb ed="#V" n="85"/>vel alicuius concupiscentiae, iudicabit, manen¬ 
+      <lb ed="#V" n="86"/>te tali passione, aliquid valde turpe esse facien¬ 
+      <lb ed="#V" n="87"/>dum, sed si extta passionem esset, omnino il¬ 
+      <lb ed="#V" n="88"/>lud abhorreret. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e882">
+                  <lb ed="#V" n="89"/>Sed cum Angelus passiones habere non pos¬ 
+      <lb ed="#V" n="90"/>sit, videtur, quod nullo modo peccare potuerit. 
+      <lb ed="#V" n="91"/>Nam non peccauit per ignorantiam, vel per ne¬ 
+      <lb ed="#V" n="92"/>scientiam, vt quod non haberet de rebus cogni¬ 
+      <lb ed="#V" n="93"/>tionem veram: nec peccauit nesciens, vel igno¬ 
+      <lb ed="#V" n="94"/>rans, quia non erat in eo appetitus sensitiuus, per 
+      <lb ed="#V" n="95"/>cuius passiones ligaretur eius intellectus, vel eius 
+      <lb ed="#V" n="96"/>iudicium, ne debite iudicaret. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e902">
+                  <lb ed="#V" n="97"/>Sciendum ergo, quod tunc aliquis peccat ne¬ 
+      <lb ed="#V" n="98"/>sciens, quando non considerat actu, quaecunque 
+      <lb ed="#V" n="99"/>sunt consideranda. Possumus enim scire omnem 
+      <lb ed="#V" n="100"/>mulam esse sterilem, &amp; credere hanc mulam es¬ 
+      <lb ed="#V" n="101"/>se praegnantem, vt quia non consideramus quae¬ 
+      <lb ed="#V" n="102"/>cunque sunt consideranda: vt quia videmus tu¬ 
+      <lb ed="#V" n="103"/>mefactum vterum praegnantis, si videamus mu¬ 
+      <lb ed="#V" n="104"/>lam habere vterum tumefactum, poterimus cre¬ 
+      <lb ed="#V" n="105"/>dere ipsam esse praegnantem. Quod maxime ve¬ 
+      <lb ed="#V" n="106"/>ritatem habet, cum peccamus. Quilibet enim in 
+      <lb ed="#V" n="107"/>se ipso experitur, quod cum apprehendit ali¬ 
+      <lb ed="#V" n="108"/>quid delectabile, ita a delectatione allicitur, vt 
+      <lb ed="#V" n="109"/>non vacet sibi cogitare, quae sunt cogitanda. Pro¬ 
+      <lb ed="#V" n="110"/>pter quod iudicat multoties non debite, &amp; iu¬ 
+      <lb ed="#V" n="111"/>dicat faciendum, quod non est faciendum, vel iu 
+      <lb ed="#V" n="112"/>dicat faciendum, vt non est faciendum. Dice¬ 
+      <lb ed="#V" n="113"/>mus ergo, quod Angelus, quantum ad natura¬ 
+      <lb ed="#V" n="114"/>lia, &amp; ad cognoscendum species, &amp; naturas re¬ 
+      <lb ed="#V" n="115"/>rum, non poterat deficere. Habebat se enim ad 
+      <lb ed="#V" n="116"/>cognitionem talium, quasi in actu, vt cum con¬ 
+      <lb ed="#V" n="117"/>uerteret se super speciem aliquam, posset per il¬ 
+      <lb ed="#V" n="118"/>lam speciem cognoscere quaecunque pertinent 
+      <lb ed="#V" n="119"/>ad naturam illam: nec in tal ibus poterat Ange¬ 
+      <lb ed="#V" n="120"/>lus deficere, quod appetitum naturalem haberet 
+      <lb ed="#V" n="121"/>inordinatum, quia appetitum naturalem ad ea, 
+      <lb ed="#V" n="122"/>quae naturalia sunt, dum erat in statu innocen¬ 
+      <lb ed="#V" n="123"/>tiae, sic habebat ordinatum, vt in hoc non defice 
+      <lb ed="#V" n="124"/>tet. Tamen ad ea, quae supernaturalia sunt, defice¬ 
+      <!--281.xml-->
+      <pb ed="#V" n="281"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>re poterat, &amp; maxime cum in eo esset aliquid, 
+      <lb ed="#V" n="2"/>vnde posset habere ortum talis defectus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e976">
+                  <lb ed="#V" n="3"/>In prima enim sui conditione, cognouit se, &amp; 
+      <lb ed="#V" n="4"/>alios Angelos, qui facti erant, &amp; cognouit Deum, 
+      <lb ed="#V" n="5"/>a quo factus erat, non visione clara, &amp; aperta, 
+      <lb ed="#V" n="6"/>sed in ipso cognoscebat Deum, non quod ipsam 
+      <lb ed="#V" n="7"/>Dei essentiam immediate videret. Hoc ergo appe¬ 
+      <lb ed="#V" n="8"/>tiit, scilicet claram visionem Dei, quod erat bo¬ 
+      <lb ed="#V" n="9"/>num, &amp; bonum conueniens sibi, sed non appetiit 
+      <lb ed="#V" n="10"/>eo ordine, quo debuir, voluit enim hoc habere 
+      <lb ed="#V" n="11"/>per naturam, quod debuit velle habere per gra¬ 
+      <lb ed="#V" n="12"/>tiam. Et peccauit nesciens, quia non considerauit 
+      <lb ed="#V" n="13"/>quaecunque erant consid eranda. Intuens enim 
+      <lb ed="#V" n="14"/>seipsum, delectatus tanta pulchritudine, quan¬ 
+      <lb ed="#V" n="15"/>tam in seipso vidit, credidit rantum bonum pos¬ 
+      <lb ed="#V" n="16"/>se consequi per naturam, &amp; hoc modo appetijt 
+      <lb ed="#V" n="17"/>consequi. Vnde Augustinus 11. super Gen. ad lit¬ 
+      <lb ed="#V" n="18"/>teram ait, quod superbia tumidus, ac propriae 
+      <lb ed="#V" n="19"/>potestatis delectatione corruptus: beatae angeli¬ 
+      <lb ed="#V" n="20"/>cae vitae dulcedinem non gustauit. Qustasset enim 
+      <lb ed="#V" n="21"/>dulcedinem beatae vitae, si eam appetijsset, vt de¬ 
+      <lb ed="#V" n="22"/>buit, sed delectatione propriae excellentiae corru¬ 
+      <lb ed="#V" n="23"/>ptus, volens beatitudinem habere per naturam, 
+      <lb ed="#V" n="24"/>amisit, quod obtinuisset per gratiam. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1026">
+                  <lb ed="#V" n="25"/>Dicamus ergo, quod species in mentibus An¬ 
+      <lb ed="#V" n="26"/>gelorum repraesentant quiditates rerum. Pro¬ 
+      <lb ed="#V" n="27"/>pter quod sufficienter ducunt in cognitionem¬ 
+      <lb ed="#V" n="28"/>eorum, quae res naturaliter consequuntur, &amp; 
+      <lb ed="#V" n="29"/>quae insunt naturis rerum. sed ea, quae super¬ 
+      <lb ed="#V" n="30"/>naturaliter se habent ad res, naturali cognitio¬ 
+      <lb ed="#V" n="31"/>ne, &amp; certa scientia scire non possunt, vt intel¬ 
+      <lb ed="#V" n="32"/>ligendo humanitatem Christi, scire poterant, 
+      <lb ed="#V" n="33"/>quae conueniebant Christo, in eo quod homo, 
+      <lb ed="#V" n="34"/>sed quod ille homo esset Deus naturali cogni¬ 
+      <lb ed="#V" n="35"/>tione certitudinaliter scire non poterant. &amp; quia 
+      <lb ed="#V" n="36"/>non habentes apperitum regulatum, aliquando 
+      <lb ed="#V" n="37"/>iudicant vltra illud, ad quod se extendit eorum sciem 
+      <lb ed="#V" n="38"/>tia, &amp; multomagis errat in iudicando, potuerunt 
+      <lb ed="#V" n="39"/>errare credentes esse Messiam, qui non erat, vel 
+      <lb ed="#V" n="40"/>non credentes qui erat. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1063">
+                  <lb ed="#V" n="41"/>Sic &amp; in proposito, in statu illo innocentiae, 
+      <lb ed="#V" n="42"/>quia non habebant liberum arbitrium confirma 
+      <lb ed="#V" n="43"/>tum in bono, poterant iudicare vltra id, quod da¬ 
+      <lb ed="#V" n="44"/>bat eorum scientia, vt appetentes beatitudinem 
+      <lb ed="#V" n="45"/>tanquam bonum optimum, &amp; nondum plene 
+      <lb ed="#V" n="46"/>scientes qualiter deberent eam consequi, exti¬ 
+      <lb ed="#V" n="47"/>marent quadam extimatione falsa, quod eam 
+      <lb ed="#V" n="48"/>possent consequi per naturam. Et potissime 
+      <lb ed="#V" n="49"/>hoc veritatem habuit in primo Angelo, siue 
+      <lb ed="#V" n="50"/>in Lucifero, qui videns in se tantam pulchri¬ 
+      <lb ed="#V" n="51"/>tudinem, delectatione suae excellentiae corru¬ 
+      <lb ed="#V" n="52"/>ptus, extimauit huiusmodi beatitudinem posse 
+      <lb ed="#V" n="53"/>consequi per naturam. quod si omnino exti¬ 
+      <lb ed="#V" n="54"/>masset hoc impossibile, nullo modo hoc elegis¬ 
+      <lb ed="#V" n="55"/>set, cum electio sit possibilium, vel eorum, quae 
+      <lb ed="#V" n="56"/>possibilia reputantur. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1101">
+                  <lb ed="#V" n="57"/>In hoc ergo fuit peccatum Daemonis, &amp; in 
+      <lb ed="#V" n="58"/>hoc se auertit a Deo, &amp; in hoc peccauit igno¬ 
+      <lb ed="#V" n="59"/>rans, quia cum de supernaturalibus per species 
+      <lb ed="#V" n="60"/>sibi naturaliter inditas plenam cognitionem ha¬ 
+      <lb ed="#V" n="61"/>bere non posset, non debuit extimare, nec eli: 
+      <!--281.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="62"/>gere, qualiter deberet habere suam beatitudi¬ 
+      <lb ed="#V" n="63"/>nem, quae erat quid supernaturale. sed debuit 
+      <lb ed="#V" n="64"/>subditus esse Deo, &amp; expectare in hoc diuinam 
+      <lb ed="#V" n="65"/>voluntatem, &amp; stare in hoc, quod sibi colla¬ 
+      <lb ed="#V" n="66"/>tum erat. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1129">
+                  <lb ed="#V" n="67"/>Nec peccauit suam beatitudinem appetendo, 
+      <lb ed="#V" n="68"/>quia non fuit suum peccatum respectu rei voli¬ 
+      <lb ed="#V" n="69"/>rae, sed peccauit in modo appetendi. debuit enim 
+      <lb ed="#V" n="70"/>appetere beatitudinem suam velle eo modo, 
+      <lb ed="#V" n="71"/>quo Deus ordinauerat sibi dare. sed ipse praeue¬ 
+      <lb ed="#V" n="72"/>nire volens dispositionem diuinam, &amp; delecta¬ 
+      <lb ed="#V" n="73"/>tione excellentiae suae corruptus, extimans, &amp; 
+      <lb ed="#V" n="74"/>appetens se hoc posse consequi per naturam, 
+      <lb ed="#V" n="75"/>peccauit, &amp; per peccatum corruit. Auertit er¬ 
+      <lb ed="#V" n="76"/>go se a Deo, quia, vt diximus, debuit velle suam 
+      <lb ed="#V" n="77"/>beatitudinem consequi, eo modo, quo ordi¬ 
+      <lb ed="#V" n="78"/>nauerat Deus. Et peccauit nesciens, quia cum¬ 
+      <lb ed="#V" n="79"/>non haberet sufficientem notitiam de superna¬ 
+      <lb ed="#V" n="80"/>turalibus, debuir hoc cogitare, vt non de tali¬ 
+      <lb ed="#V" n="81"/>bus suum iudicium darer, quod per naturalia 
+      <lb ed="#V" n="82"/>assequeretur ea, sed eo modo, quo Deus ordi¬ 
+      <lb ed="#V" n="83"/>nasset. Omittens ergo hoc cogitare, sed cor¬ 
+      <lb ed="#V" n="84"/>ruptus delectatione propriae potestatis, &amp; vltro 
+      <lb ed="#V" n="85"/>se ingerens, &amp; extimans, &amp; volens per sua natu¬ 
+      <lb ed="#V" n="86"/>ralia posse beatitudinem obtinere, peccauit quo¬ 
+      <lb ed="#V" n="87"/>dammodo nesciens. Propter quod patet quo¬ 
+      <lb ed="#V" n="88"/>modo Diabolus peccare potuit, non solum vt 
+      <lb ed="#V" n="89"/>peccatum comparatur ad suam causam, &amp; vt 
+      <lb ed="#V" n="90"/>consideratur secundum se, sed etiam vt refertur 
+      <lb ed="#V" n="91"/>ad Angelum peccantem. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1186">
+                  <lb ed="#V" n="92"/>RESP. AD ARG. Ad primum dicen¬ 
+      <lb ed="#V" n="93"/>dum, quod Angeli debebant esse quasi liberi 
+      <lb ed="#V" n="94"/>in domo, sed mali noluerunr agere, vt veri liberi, 
+      <lb ed="#V" n="95"/>idest vt veri filii, quia noluerunt vt debuerunt, 
+      <lb ed="#V" n="96"/>Patrifamilias, idest Deo esse subditi, nec volue¬ 
+      <lb ed="#V" n="97"/>runt secundum Dei voluntatem, voluntatem 
+      <lb ed="#V" n="98"/>suam regulare. Et ad illud, quod addebatur de¬ 
+      <lb ed="#V" n="99"/>motu corporum supercoelestium, dici debet, quod 
+      <lb ed="#V" n="100"/>huiusmodi motus est naturalis, &amp; si Angeli solum 
+      <lb ed="#V" n="101"/>de naturalibus iudicassent, de supernaturalibus 
+      <lb ed="#V" n="102"/>autem se diuinae ordinationi commisissent, non 
+      <lb ed="#V" n="103"/>peccassent. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1215">
+                  <lb ed="#V" n="104"/>Et per hoc patet solutio ad secundum. Nam 
+      <lb ed="#V" n="105"/>&amp; si in corporibus supercaelestibus est plus de po¬ 
+      <lb ed="#V" n="106"/>tentialitate, tamen huiusmodi motus potest dici 
+      <lb ed="#V" n="107"/>quid naturale, sed Angelus peccauit appetendo, 
+      <lb ed="#V" n="108"/>quod erat supernaturale. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1228">
+                  <lb ed="#V" n="109"/>Ad tertium dicendum, quod dictum philo¬ 
+      <lb ed="#V" n="110"/>sophi intelligendum est de vittutibus, &amp; vitijs, 
+      <lb ed="#V" n="111"/>quae sunt circa passiones in appetitu sensitiuo, 
+      <lb ed="#V" n="112"/>cuius passiones, &amp; appetitum in Angelis non po¬ 
+      <lb ed="#V" n="113"/>nimus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1241">
+                  <lb ed="#V" n="114"/>Ad quartum dicendum, quod bonum fuit 
+      <lb ed="#V" n="115"/>simpliciter, quod appetijt Angelus, nec peccauit 
+      <lb ed="#V" n="116"/>appetendo, quod non erat de genere bono¬ 
+      <lb ed="#V" n="117"/>rum, sed in modo appetendi, vt quia 
+      <lb ed="#V" n="118"/>voluit consequi per naturam, 
+      <lb ed="#V" n="119"/>quod debebat vel¬ 
+      <lb ed="#V" n="120"/>le per gra¬ 
+      <lb ed="#V" n="121"/>tiam 
+    </p>
+            </div>
+            <div xml:id="Gi9qrR-k081302-Dd1e1263">
+               <head xml:id="Gi9qrR-k081302-Hd1e1265">Articulus 2</head>
+               <p xml:id="Gi9qrR-k081302-d1e1267">
+      <!--282.xml-->
+                  <pb ed="#V" n="282"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>ARTIC. II. 
+      <lb ed="#V" n="2"/>An Laciser peccando. Det aquali. 
+      <lb ed="#V" n="3"/>tatem apperierit. Conclusio 
+      <lb ed="#V" n="4"/>est affirmatiua. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1285">
+                  <lb ed="#V" n="5"/>D Tho. 1. p. q. 6 3. artic. 3. &amp; 2. senten d. 3. arti. 2. Et in qu. disp. 
+      <lb ed="#V" n="6"/>de mal. q. 16. de Daem. artic. 3. D. Bonauem. d. 5. artic. 1s. q. 2. 
+      <lb ed="#V" n="7"/>Alex. de Ales 2. p q. 109. Sco. d. 5. q. 1. Franc. Mayr. d. 4. 5. 
+      <lb ed="#V" n="8"/>q. 3. Hlolroth. 2. sen. q. 3. Piel d. 6. Capr. d. 4. q. 1. Ant. And¬ 
+      <lb ed="#V" n="9"/>3. sent. d. 5. q. 1. Nic. de Nijse tract. 2. p. 2. qid 1. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1298">
+                  <lb ed="#V" n="10"/>SEcVNDo quaeritur: Vtrum 
+      <lb ed="#V" n="11"/>Lucifer peccando appetierit Dei 
+      <lb ed="#V" n="12"/>aequalitatem. Et videtur quod 
+      <lb ed="#V" n="13"/>non. nam appetitus praesuppo¬ 
+      <lb ed="#V" n="14"/>nit cognitionem, sed ipse non 
+      <lb ed="#V" n="15"/>E f intellexit diuinam essentiam, er¬ 
+      <lb ed="#V" n="16"/>go nec potuit apprehendere aequalitatem eius, 
+      <lb ed="#V" n="17"/>&amp; per consequens nec appetere. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1318">
+                  <lb ed="#V" n="18"/>Praeterea secundum Ansel in de casu Diaboli: 
+      <lb ed="#V" n="19"/>Illud appetijt, quod habuisset, si stetisset. sed nun¬ 
+      <lb ed="#V" n="20"/>quam fuisset aequalis Deo, ergo: &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1328">
+                  <lb ed="#V" n="21"/>Praeterca peccatum Diaboli fuit in auertendo 
+      <lb ed="#V" n="22"/>se a Deo, iuxta illud Dio. 4. de diui. no. Malum 
+      <lb ed="#V" n="23"/>Daemonis fuit auersio, &amp; excessus conuenientium. 
+      <lb ed="#V" n="24"/>sed appetere aequalitatem Dei est velle assimilari 
+      <lb ed="#V" n="25"/>Deo, non autem est auertere se ab ipso: ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1341">
+                  <lb ed="#V" n="26"/>Praeterea desiderium naturale non potest esse 
+      <lb ed="#V" n="27"/>peccatum, sed hoc videtur esse naturale desiderium 
+      <lb ed="#V" n="28"/>creaturae rationalis, assimilari Deo, &amp; non po¬ 
+      <lb ed="#V" n="29"/>tuisset aequari Deo, nisi fuisset Deo similis, hoc er¬ 
+      <lb ed="#V" n="30"/>go appetendo non peccauit. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1354">
+                  <lb ed="#V" n="31"/>IN CcoNTRARIVN est, quod drm Esa. ex pso¬ 
+      <lb ed="#V" n="32"/>na Nabuchodonosor in figura Diaboli: In celum 
+      <lb ed="#V" n="33"/>ascendam. &amp; ero similis altissimo. Non autem po¬ 
+      <lb ed="#V" n="34"/>test hoc intelligi de celo Empyreo, quia ibi erat. 
+      <lb ed="#V" n="35"/>intelligitur ergo de coelo sanctae Trinitatis, &amp; de¬ 
+      <lb ed="#V" n="36"/>aequalitate diuinae celsitudlinis. Voluit ergo ascen¬ 
+      <lb ed="#V" n="37"/>dere in coelum sanctae Trinitatis, &amp; esse aequalis 
+      <lb ed="#V" n="38"/>altissimo. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1374">
+                  <lb ed="#V" n="39"/>Praeterea supra illud psal. Quae non rapui, &amp;c. 
+      <lb ed="#V" n="40"/>vult Glo. quod Diabolus voluit rapere diuinita 
+      <lb ed="#V" n="41"/>tem: ergo &amp;ec¬ 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1383">
+                  <lb ed="#V" n="42"/>Dub. I. Lateralis. 
+      <lb ed="#V" n="43"/>An Angeli inferiores Dei aequalita¬
+      <lb ed="#V" n="44"/>tem appetierint. Conclusio est 
+      <lb ed="#V" n="45"/>affirmatiua. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1394">
+                  <lb ed="#V" n="46"/>Vide eosdem Doct. supra citatos. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1400">
+                  <lb ed="#V" n="47"/>VLTERIVS autem dubita¬ 
+      <lb ed="#V" n="48"/>ltur. Vtrum inferiores Angeli 
+      <lb ed="#V" n="49"/>appetierint Dei aequalitatem. 
+      <lb ed="#V" n="50"/>Et videtur, quod non. Nam ipsi 
+      <lb ed="#V" n="51"/>appetierunt esse sub Lucifero, 
+      <lb ed="#V" n="52"/>ergo non appetierunt esse aequa¬ 
+      <lb ed="#V" n="53"/>les Deo. quia nihil quod est sub 
+      <lb ed="#V" n="54"/>creatura aequari potest Creatori.
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1420">
+      <!--282.xml-->
+                  <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="55"/>Praeterea videbant inferiores Angeli se non pos¬ 
+      <lb ed="#V" n="56"/>se attingere ad aequalitatem Luciferi, ergo multo 
+      <lb ed="#V" n="57"/>magis viderunt se non posse attingere ad aequali¬ 
+      <lb ed="#V" n="58"/>tatem Dei: ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1436">
+                  <lb ed="#V" n="59"/>Praeterea, super illo verbo Apostoli: Adam non 
+      <lb ed="#V" n="60"/>est seductus, vult Glosa, quod non est credibile, 
+      <lb ed="#V" n="61"/>quod vir spirituali mente praeditus, esse voluerit 
+      <lb ed="#V" n="62"/>sicut Deus, sed quantuncunque essent Angeli in¬ 
+      <lb ed="#V" n="63"/>feriores, erant magis praediti mente, &amp; perspica¬ 
+      <lb ed="#V" n="64"/>cioris intelligentiae, quam Adam in statu innocen¬ 
+      <lb ed="#V" n="65"/>tiae, ergo &amp; c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1454">
+                  <lb ed="#V" n="66"/>IN CONTRARIVM est, quia eodem 
+      <lb ed="#V" n="67"/>genere peccati dicuntur peccasse Lncifer, &amp; infe¬ 
+      <lb ed="#V" n="68"/>riores Angeli adhaerentes sibi. Sed ille peccauit 
+      <lb ed="#V" n="69"/>appetendo Dei aequalitatem: ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1465">
+                  <lb ed="#V" n="70"/>Resolutio Artic. II. 
+      <lb ed="#V" n="71"/>Angelus Dei aequalitatem directe apperere non po¬ 
+      <lb ed="#V" n="72"/>tuit, nec ex parte Dei, nec ex parte sui: indirecte 
+      <lb ed="#V" n="73"/>Aero eudem appetijsse aequalitatem Dei non nega 
+      <lb ed="#V" n="74"/>vus cum bratitudinem pernataram, non per gra 
+      <lb ed="#V" n="75"/>tiam derisibi ooluerit. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1481">
+                  <lb ed="#V" n="76"/>RESPONDEO dicendum ad quae¬ 
+      <lb ed="#V" n="77"/>stionem primam, quod cum quaeritur: 
+      <lb ed="#V" n="78"/>Vtrum Diabolus appetierit aequalita¬ 
+      <lb ed="#V" n="79"/>sst tem Dei, certum est, quod directe eam 
+      <lb ed="#V" n="80"/>appetere non potuit, tam ex parte Dei, quam ex 
+      <lb ed="#V" n="81"/>parte sui. Ex parte Dei quidem, quia compre¬ 
+      <lb ed="#V" n="82"/>hendere non potuit, quanta esset excellentia¬ 
+      <lb ed="#V" n="83"/>Dei. propter quod, nec directe appetere potuit, 
+      <lb ed="#V" n="84"/>quod tantam excellentiam ipse haberet. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1504">
+                  <lb ed="#V" n="85"/>Nec etiam hoc potuit appetere ex parte sui. 
+      <lb ed="#V" n="86"/>Cognouit enim, quod factus erat, nec ita obtusae 
+      <lb ed="#V" n="87"/>mentis erat, quod nesciret Deo nihil simile esse pos¬ 
+      <lb ed="#V" n="88"/>se: Vnde Ansel. de casu Diaboli: Si Deus non po¬ 
+      <lb ed="#V" n="89"/>test cogitari, nisi, vt nihil illi simile cogitari pos¬ 
+      <lb ed="#V" n="90"/>sit, quomodo potuit Diabolus velle, quod non 
+      <lb ed="#V" n="91"/>potuit cogitare: Et hoc quantum ad rationem 
+      <lb ed="#V" n="92"/>primam, quia huiusmodi aequalitas non potuit 
+      <lb ed="#V" n="93"/>ab eo cogitari, nec in eius mentem potuit cade¬ 
+      <lb ed="#V" n="94"/>re. Et subdit: Non enim ita obtusae mentis erat, 
+      <lb ed="#V" n="95"/>vt nihil aliud Deo simile posse esse nesciret. 
+      <lb ed="#V" n="96"/>Et hoc quantum ad rationem secundam. quia¬ 
+      <lb ed="#V" n="97"/>ex parte sui hoc appetere non potuit. Potest au¬ 
+      <lb ed="#V" n="98"/>tem ad hoc adduci &amp; tertium. nam si quilibet¬ 
+      <lb ed="#V" n="99"/>vult esse melior, factus autem alius nullus, vt 
+      <lb ed="#V" n="100"/>vult philosophus in 9. Ethico. Nullus enim vult 
+      <lb ed="#V" n="101"/>fieri alius, quia tunc vellet non esse. Non potuit 
+      <lb ed="#V" n="102"/>ergo velle Angelus fieri Deus, quia tunc voluis¬ 
+      <lb ed="#V" n="103"/>set non esse. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1548">
+                  <lb ed="#V" n="104"/>Viso, quomodo Angelus directe non potuit 
+      <lb ed="#V" n="105"/>appetere aequalitatem Dei, volumus ostendere, 
+      <lb ed="#V" n="106"/>quomodo hoc potuit appetere indirecte. Dice¬ 
+      <lb ed="#V" n="107"/>mus enim, quod tam in speculabilibus, quam in ap¬ 
+      <lb ed="#V" n="108"/>petibilibus, est dare quaedam per se nota, contra¬ 
+      <lb ed="#V" n="109"/>quae nullus vadit directe, sed indirecte, vt de hoc 
+      <lb ed="#V" n="110"/>principio: De quolibet affirmatio, vel negatio ve¬ 
+      <!--283.xml-->
+      <pb ed="#V" n="283"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>ra, ita est notum menti, ut nnllus directe ei men¬ 
+      <lb ed="#V" n="2"/>te contradicat, sed tamen indirecte omnes as¬ 
+      <lb ed="#V" n="3"/>sentientes alicui falsitati, hoc principium ne¬ 
+      <lb ed="#V" n="4"/>gant. Nam quicunque iudicat aliquid fal¬ 
+      <lb ed="#V" n="5"/>sum, iudicat non esse quod est: vel esse, quod 
+      <lb ed="#V" n="6"/>non est, &amp; per consequens asserit contradicto¬ 
+      <lb ed="#V" n="7"/>ria verificari simul. Indirecte igitur potest nega¬ 
+      <lb ed="#V" n="8"/>ri istud principium, quia conceditur aliquid, per¬ 
+      <lb ed="#V" n="9"/>cuius concessionem huic principio contradici¬ 
+      <lb ed="#V" n="10"/>tur. Sic &amp; in proposito, appetere Dei aequali¬ 
+      <lb ed="#V" n="11"/>tatem, ita est contrarium appetitibus, &amp; maxi¬ 
+      <lb ed="#V" n="12"/>me appetere per electionem, quod non est nisi im¬ 
+      <lb ed="#V" n="13"/>possibilium, vel eorum, quae impossibilia repu¬ 
+      <lb ed="#V" n="14"/>tantur, vt in nullius appetitu hoc directe cadere 
+      <lb ed="#V" n="15"/>possit. Indirecte tamen potest. Nam sicut quili¬ 
+      <lb ed="#V" n="16"/>bet iudicans falsum, indirecte consentit contra¬ 
+      <lb ed="#V" n="17"/>dictoria simul posse verificari, ita quilibet pec¬ 
+      <lb ed="#V" n="18"/>cans, indirecte vult esse Deo aequalis. Nam om¬ 
+      <lb ed="#V" n="19"/>nis peccans, vult Deo non subesse, ex quo non 
+      <lb ed="#V" n="20"/>vult viuere scundu diuinas leges. sed qui non vult 
+      <lb ed="#V" n="21"/>subesse Deo, vult esse aequalis, vel maior Deo. 
+      <lb ed="#V" n="22"/>Omnis ergo peccator vult esse aequalis Deo, &amp; 
+      <lb ed="#V" n="23"/>quodammodo maior Deo. Nam velle facere con¬ 
+      <lb ed="#V" n="24"/>tra voluntatem alicuius, est velle plus posse, quam 
+      <lb ed="#V" n="25"/>ipse possit, Peccator ergo, qui vult facere con¬ 
+      <lb ed="#V" n="26"/>tra voluntatem Dei, vust plus posse, quam pos¬ 
+      <lb ed="#V" n="27"/>sit Deus, &amp; per consequens vult esse plus, quam 
+      <lb ed="#V" n="28"/>Deus. Hoc enim modo Ansel. in de casu Diabo¬ 
+      <lb ed="#V" n="29"/>li ostendit, Diabolum non solum voluisse esse 
+      <lb ed="#V" n="30"/>equalem Deo, sed esse maiorem Deo, quia voluit, 
+      <lb ed="#V" n="31"/>quod eum Deus velle nolebat, propter quod suam 
+      <lb ed="#V" n="32"/>voluntatem super Dei voluntatem posuit, &amp; esse 
+      <lb ed="#V" n="33"/>plus, quam Deus voluit. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1644">
+                  <lb ed="#V" n="34"/>Habito quomodo Diabolus directe aequali¬ 
+      <lb ed="#V" n="35"/>tatem Dei appetere non potuit, sed indire¬ 
+      <lb ed="#V" n="36"/>cte, sicut quilibet peccator hoc appetit; volu¬ 
+      <lb ed="#V" n="37"/>mus magis ex propinquo accedere, quomo¬ 
+      <lb ed="#V" n="38"/>do Dei aequalitatem appetijt. Omnes enim 
+      <lb ed="#V" n="39"/>concedunt, quod Diabolus Dei aequalitatem 
+      <lb ed="#V" n="40"/>appetijt, quia voluit suam beatitudinem habe¬ 
+      <lb ed="#V" n="41"/>re per naturam, sed in hoc videtur esse diffe¬ 
+      <lb ed="#V" n="42"/>rentia inter opinantes. Nam quidam dicunt, 
+      <lb ed="#V" n="43"/>quod Diabolus voluit suam beatitudinem ha¬ 
+      <lb ed="#V" n="44"/>bere per naturam, quia voluit suam beatitudi¬ 
+      <lb ed="#V" n="45"/>nem ponere in eo, quod erat sibi collatum na¬ 
+      <lb ed="#V" n="46"/>turaliter, vt videns se habere naturalia, sic splen¬ 
+      <lb ed="#V" n="47"/>dida, &amp; delectatus in suis naturalibus, voluit in 
+      <lb ed="#V" n="48"/>hoc suum finem ponere, non quaerendo vlte¬ 
+      <lb ed="#V" n="49"/>riorem felicitatem, sicut &amp; multi hominum 
+      <lb ed="#V" n="50"/>vellent semper viuere in hac mundana vita, &amp; 
+      <lb ed="#V" n="51"/>non vlteriorem felicitatem habere, quod volen¬ 
+      <lb ed="#V" n="52"/>do peccarent. Noluit ergo Diabolus felicitatem 
+      <lb ed="#V" n="53"/>ponere in seipso, quon hoc, quod habebat, ordina¬ 
+      <lb ed="#V" n="54"/>ret in Deum, secundum quod Deus est quoddam 
+      <lb ed="#V" n="55"/>vniuersale agens, conseruans omnium naturas 
+      <lb ed="#V" n="56"/>in esse. quia tunc angelus vol uisset non esse, cum 
+      <lb ed="#V" n="57"/>non posset sine Deo esse. sed voluit in seipso siste 
+      <lb ed="#V" n="58"/>re, &amp; sua pulchritudine, &amp; sua excellentia frui, 
+      <lb ed="#V" n="59"/>non referendo se vlterius in Deum, secundum 
+      <lb ed="#V" n="60"/>quod est obiectum beatificans, &amp; secundum quod 
+      <lb ed="#V" n="61"/>est quid fruibile per gratiam. Quod autem hoc 
+      <!--283.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="62"/>volebat Diabolus, satis adduci possent verba¬ 
+      <lb ed="#V" n="63"/>Aug. in de vera Relig. dicentis: Ille angelus ma¬ 
+      <lb ed="#V" n="64"/>gis frui voluit sua potentia, quam Dei, &amp; quod 
+      <lb ed="#V" n="65"/>seipsum magis, quam Deum dilexit. Si enim 
+      <lb ed="#V" n="66"/>modo, quo dictum est, volebat sistere in seipso, 
+      <lb ed="#V" n="67"/>&amp; in excellentia suae pulchritudinis naturalis, 
+      <lb ed="#V" n="68"/>quam aperte videbat; non autem per gratiam, 
+      <lb ed="#V" n="69"/>Dei essentiam aperte videre cupiebat, volebat 
+      <lb ed="#V" n="70"/>frui seipso, &amp; non Deo, &amp; dilexit se in hoc 
+      <lb ed="#V" n="71"/>magis, quam Deum, &amp; delectari in seipso, &amp; 
+      <lb ed="#V" n="72"/>videre seipsum aperte, quod competebat ei 
+      <lb ed="#V" n="73"/>per naturam, posuit esse felicitatem suam. de¬ 
+      <lb ed="#V" n="74"/>buit tamen ponere felicitatem suam esse, vide¬ 
+      <lb ed="#V" n="75"/>re Deum per essentiam, quod contigisset ei per 
+      <lb ed="#V" n="76"/>gratiam. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1744">
+                  <lb ed="#V" n="77"/>Alio modo ponitur, quod Diabolus non po¬ 
+      <lb ed="#V" n="78"/>suit felicitatem suam in his, quae fuerant sibi 
+      <lb ed="#V" n="79"/>collata naturaliter, sed in Deo: ipsam aunt uisio¬ 
+      <lb ed="#V" n="80"/>nem Dei apertam, &amp; ipsam summam felicitatem, 
+      <lb ed="#V" n="81"/>quam debuit velle habere per gratiam, voluit 
+      <lb ed="#V" n="82"/>habere per naturam. Et hoc satis videtur magis 
+      <lb ed="#V" n="83"/>consonum, &amp; dictis Sanctorum, &amp; rationi. 
+      <lb ed="#V" n="84"/>Nam beatitudo est quietatio naturalis desiderii. 
+      <lb ed="#V" n="85"/>Nunquam autem naturale desiderium quieta¬ 
+      <lb ed="#V" n="86"/>tur, si cognito effectu. ignoretur causa, homines 
+      <lb ed="#V" n="87"/>autem, quia non diligunt tantum bonum intel¬ 
+      <lb ed="#V" n="88"/>ligibile, sed etiam bonum sensibile, ratione appe¬ 
+      <lb ed="#V" n="89"/>titus sensitiui possunt ponere in aliquo bono 
+      <lb ed="#V" n="90"/>sensibili finem suum. Sed Angeli, qui non vi¬ 
+      <lb ed="#V" n="91"/>gent nisi intellectu, non nisi in bono intelli¬ 
+      <lb ed="#V" n="92"/>gibili possunt suum finem ponere. Et sicut 
+      <lb ed="#V" n="93"/>Angeli non feruntur nisi in bonum simplici¬ 
+      <lb ed="#V" n="94"/>ter, ita quod non peccauerunt appetendo quod 
+      <lb ed="#V" n="95"/>non debuerunt, sed appetendo, vt non debue¬ 
+      <lb ed="#V" n="96"/>runt; ita &amp; quietationem sui intellectus non 
+      <lb ed="#V" n="97"/>potuerunt ponere, nisi in eo, quod erat quieta¬ 
+      <lb ed="#V" n="98"/>tiuum simpliciter. nec posuerunt finem suum 
+      <lb ed="#V" n="99"/>vbi non debuerunt, sed eo modo, quo non 
+      <lb ed="#V" n="100"/>debuerunt. Non enim ita hebes erat primus 
+      <lb ed="#V" n="101"/>Angelus, quin cognosceret se factum a Deo, &amp; 
+      <lb ed="#V" n="102"/>quod non poterat esse quietus appetitus eius 
+      <lb ed="#V" n="103"/>nisi in Deo. In ipso ergo Deo felicitatem suam 
+      <lb ed="#V" n="104"/>posuit, sed videns suam excellentiam natura¬ 
+      <lb ed="#V" n="105"/>lem, tumefactus superbia, credidit Dei visionem 
+      <lb ed="#V" n="106"/>posse naturaliter obtinere sub Deo, tamen non, vt 
+      <lb ed="#V" n="107"/>influit ratihhhali creaturae gratiam, sed vt dirigit, &amp; 
+      <lb ed="#V" n="108"/>gubernat totam naturam. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1816">
+                  <lb ed="#V" n="109"/>Concordat ergo hoc rationi, quantum ad 
+      <lb ed="#V" n="110"/>id, quod Angelus appetijt: concordat etiam ra¬ 
+      <lb ed="#V" n="111"/>tioni prout potuit appetendo peccare. Nam er¬ 
+      <lb ed="#V" n="112"/>ror, vel erronea extimatio non contingit in An¬ 
+      <lb ed="#V" n="113"/>gelis, quantum ad ea, quae sunt secundum natu¬ 
+      <lb ed="#V" n="114"/>ram, sed quantum ad ea, quae sunt supra natu¬ 
+      <lb ed="#V" n="115"/>ram. Si ergo peccasset ponendo suam beatitu¬ 
+      <lb ed="#V" n="116"/>dinem in his, quae sibi erant collata naturaliter, 
+      <lb ed="#V" n="117"/>mirum esset, quomodo in talibus potuisset non 
+      <lb ed="#V" n="118"/>rectam extimationem habere, sed ponendo suam 
+      <lb ed="#V" n="119"/>felicitatem in eo, quod erat supranaturale. quia 
+      <lb ed="#V" n="120"/>non habebat de hoc plenam scientiam, quo tale 
+      <lb ed="#V" n="121"/>bonum supnaturale deberet consequi: Vtrum per natu¬ 
+      <lb ed="#V" n="122"/>ralia, quae habebat, vel aliter, cum debuisset in his, circa¬ 
+      <!--284.xml-->
+      <pb ed="#V" n="284"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>quae non habebat plenam scientiam, expectare¬ 
+      <lb ed="#V" n="2"/>diuinam ordinationem, ille delectatus excellentia 
+      <lb ed="#V" n="3"/>propriae potestatis, &amp; extimans, ac appetens per 
+      <lb ed="#V" n="4"/>sua naturalia hoc obtinere, peccauit. Debuit e¬ 
+      <lb ed="#V" n="5"/>nim beatitudinem, de qua non habebat plenam 
+      <lb ed="#V" n="6"/>scientiam, qualiter obtinenda esset, velle obtine¬ 
+      <lb ed="#V" n="7"/>re, vt Deus volebat, &amp; hoc Deus voluisset eum 
+      <lb ed="#V" n="8"/>velle, non autem debuit velle hoc per naturalia 
+      <lb ed="#V" n="9"/>obtinere. Melius ergo saluare possumus, quo¬ 
+      <lb ed="#V" n="10"/>modo potuit esse in Angelo nescientia vel exti¬ 
+      <lb ed="#V" n="11"/>matio aliquo modo falsa, &amp; qualiter potuit pec¬ 
+      <lb ed="#V" n="12"/>care, si ponamus, eum suam felicitatem posuis¬ 
+      <lb ed="#V" n="13"/>se in bono supernaturali, quam in bono natu¬ 
+      <lb ed="#V" n="14"/>rali. Iicet enim Angelus ponendo suam feli¬ 
+      <lb ed="#V" n="15"/>citatem in bono supernaturali, &amp; in visione Dei, 
+      <lb ed="#V" n="16"/>poneret hoc in bono infinito, non tamen erat 
+      <lb ed="#V" n="17"/>ita hebes, quin sciret, quod modo infinito non 
+      <lb ed="#V" n="18"/>poterat adipisci. Poterat enim scire, quod non 
+      <lb ed="#V" n="19"/>potuisset ad hoc deuenire, quod Deum compre¬ 
+      <lb ed="#V" n="20"/>hendisset, &amp; quod ipsum infinito modo vidisset. 
+      <lb ed="#V" n="21"/>Quia ergo de supernaturalibus plenam scientiam 
+      <lb ed="#V" n="22"/>non habebat, &amp; quia supernaturalem, &amp; infini¬ 
+      <lb ed="#V" n="23"/>tam beatitudinem scire poterat, se non modo in¬ 
+      <lb ed="#V" n="24"/>finito, sed finito posse adipisci, potuit in hoc ha¬ 
+      <lb ed="#V" n="25"/>bere extimationem non rectam, vt extimaret, 
+      <lb ed="#V" n="26"/>quod per naturalia sua, quae licet finita essent, 
+      <lb ed="#V" n="27"/>posset hoc bonum infinitum modo finito asse¬ 
+      <lb ed="#V" n="28"/>qui. In hoc ergo peccauit, &amp; peccatum suum 
+      <lb ed="#V" n="29"/>fuit voluntarium, quia non debuit velle iudica¬ 
+      <lb ed="#V" n="30"/>re, nec extimare aliquid, nisi quatenus haberet 
+      <lb ed="#V" n="31"/>de illo scientiam plenam. Sed non tenens se¬ 
+      <lb ed="#V" n="32"/>in suis finibus, volendo consequi diuinum bo¬ 
+      <lb ed="#V" n="33"/>num eo modo, quo Deus nolebat, factus est a¬ 
+      <lb ed="#V" n="34"/>Deo auersus, cui peruerse cupiebat esse similis. 
+      <lb ed="#V" n="35"/>Magis ergo hoc concordat rationi, quod ipsam 
+      <lb ed="#V" n="36"/>veram felicitatem appetijt, quia cum videret se 
+      <lb ed="#V" n="37"/>esse effectum, naturaliter inclinabatur, vt clare 
+      <lb ed="#V" n="38"/>videret causam, cuius erat effectus, nec peccauit 
+      <lb ed="#V" n="39"/>hoc volendo, sed quia non debito modo voluit. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1940">
+                  <lb ed="#V" n="40"/>Concordat hoc etiam magis cum auctoritati¬ 
+      <lb ed="#V" n="41"/>bus, Sanctorum, &amp; Doctorum, quia secundum 
+      <lb ed="#V" n="42"/>Ansel. peccando non appetiit, quod habebat, sed 
+      <lb ed="#V" n="43"/>quod habuisset, si stetisset. Appetendo ergo inor¬ 
+      <lb ed="#V" n="44"/>dinate non naturalia, quae habebat, sed bonum 
+      <lb ed="#V" n="45"/>supernaturale, quod obtinuisset per gratiam, si 
+      <lb ed="#V" n="46"/>stetisset, peccauit. Vnde &amp; Augustinu 1I. super 
+      <lb ed="#V" n="47"/>Gen. ait, quod mente caecus, non ab eo quod acce¬ 
+      <lb ed="#V" n="48"/>perat, cecidit, sed ab eo, quod accepisset, si subesse 
+      <lb ed="#V" n="49"/>Deo voluisset. Augustinus itaque in 11. de Ciuit. 
+      <lb ed="#V" n="50"/>Dei. vult Angelos cecidisse a beatitudine, quam 
+      <lb ed="#V" n="51"/>acceperant, cum tamen in 11. super Gen. dicat 
+      <lb ed="#V" n="52"/>eos cecidisse ab eo, quod erant accepturi. Vtrun¬ 
+      <lb ed="#V" n="53"/>que verum est. fuerunt enim creati in bea¬ 
+      <lb ed="#V" n="54"/>titudine innocentiae, &amp; erant accepturi beatitudi¬ 
+      <lb ed="#V" n="55"/>nem excellentiae. Quantum ergo ad beatitudinemn 
+      <lb ed="#V" n="56"/>innocentiae, ceciderunt ab eo, quod acceperant: 
+      <lb ed="#V" n="57"/>Quantum vero ad beatitudinem excellentiae, ab 
+      <lb ed="#V" n="58"/>eo, quod erant accepturi. Hoc ergo modo pecca¬ 
+      <lb ed="#V" n="59"/>uerunt Angeli, volendo inordinate, quod erant 
+      <lb ed="#V" n="60"/>accepturi, &amp; quod accepissent, si stetissent. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e1989">
+                  <lb ed="#V" n="61"/>Hiis itaque praelibatis, volumus declarare ex 
+      <!--284.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="62"/>habitis, quomodo indirecte appetijt Diabolua 
+      <lb ed="#V" n="63"/>aequalitatem Dei. nam si volebat in seipso quie¬ 
+      <lb ed="#V" n="64"/>scere, &amp; hoc modo suam beatitudinem appetijt 
+      <lb ed="#V" n="65"/>per naturam, quia posuit suam felicitatem in¬ 
+      <lb ed="#V" n="66"/>collatis sibi naturalibus, quae habebat per na¬ 
+      <lb ed="#V" n="67"/>turam, quam debuit ponere in visione Dei, vel 
+      <lb ed="#V" n="68"/>in dilectione Dei, quam erat habiturus per¬ 
+      <lb ed="#V" n="69"/>gratiam, certum est, quod voluit aequari Deo, 
+      <lb ed="#V" n="70"/>quia hoc est proprium solius Dei, quod quie¬ 
+      <lb ed="#V" n="71"/>scat in eo, quod habet per naturam. &amp; quod 
+      <lb ed="#V" n="72"/>non ovlterius quaerat aliquid ab aliquo per¬ 
+      <lb ed="#V" n="73"/>gratiam. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2024">
+                  <lb ed="#V" n="74"/>Nulla autem creatura rationalis potest sic re¬ 
+      <lb ed="#V" n="75"/>cte quiescere. Iuxta illud Aug. in principio Con¬ 
+      <lb ed="#V" n="76"/>fes. Ad te nos fecisti domine, &amp; inquietum est cor¬ 
+      <lb ed="#V" n="77"/>nostrum, donec requiescat in te. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2035">
+                  <lb ed="#V" n="78"/>Sed secundum alium modum dicendi, ma¬ 
+      <lb ed="#V" n="79"/>gis veritati, &amp; rationi consonum, prout suam¬ 
+      <lb ed="#V" n="80"/>beatitudinem posuit in bono diuino, quod 
+      <lb ed="#V" n="81"/>debuit appetere, velle habere per gratiam¬. 
+      <lb ed="#V" n="82"/>sed tumefactus de sua excellentia extima¬ 
+      <lb ed="#V" n="83"/>uit non recte, volens hoc habere per naturam, 
+      <lb ed="#V" n="84"/>in quo &amp; peccauit, certum est Dei aequalitatem 
+      <lb ed="#V" n="85"/>appetiuisse
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2055">
+                  <lb ed="#V" n="86"/>Quod potest tripliciter declarari, prout ad 
+      <lb ed="#V" n="87"/>huiusmodi beatitudinem, quantum ad praesens 
+      <lb ed="#V" n="88"/>spectat, tria concurrunt; videlicet aperta Dei 
+      <lb ed="#V" n="89"/>visio, simultas cognitorum, &amp; inffexibilitas vo¬ 
+      <lb ed="#V" n="90"/>luntatis ad malum. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2068">
+                  <lb ed="#V" n="91"/>Si ergo Angelus volebat suam beatitudinem 
+      <lb ed="#V" n="92"/>consequi per naturam, voluit per naturam Deum 
+      <lb ed="#V" n="93"/>videre aperte. sed cum quaelibet creatura habeat 
+      <lb ed="#V" n="94"/>substantiam differentem ab esse, intellectus re¬ 
+      <lb ed="#V" n="95"/>ceptus in natura creata, non potest habere 
+      <lb ed="#V" n="96"/>pro obiecto nisi quiditatem differentem ab 
+      <lb ed="#V" n="97"/>esise. Deus ergo, qui est ipsum esse, secundum 
+      <lb ed="#V" n="98"/>apertam visionem non est naturaliter obiectum 
+      <lb ed="#V" n="99"/>alicuius intellectus creati, sed lucem habitat 
+      <lb ed="#V" n="100"/>inaccessibilem, quam nulla creatura per natu¬ 
+      <lb ed="#V" n="101"/>ram videt, sed nec videre potest. Ideo enim 
+      <lb ed="#V" n="102"/>Deus non est intelligibilis ab intellectu creato, 
+      <lb ed="#V" n="103"/>vt vult Dionysius de diuin. nom. in principio 
+      <lb ed="#V" n="104"/>quia non est de numero existentium, vt quia est 
+      <lb ed="#V" n="105"/>nihil existentium existens. Non est enim de nu¬ 
+      <lb ed="#V" n="106"/>mero existentiuum per esse, sed est ipsum esse, 
+      <lb ed="#V" n="107"/>cuius participatione omnia existentia habent¬ 
+      <lb ed="#V" n="108"/>esse. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2110">
+                  <lb ed="#V" n="109"/>Volendo ergo Diabolus videre clare, &amp; aper¬ 
+      <lb ed="#V" n="110"/>te Deum per naturam, qui est ipsum dse, voluit 
+      <lb ed="#V" n="111"/>habere substantiam non differentem ab esse¬, 
+      <lb ed="#V" n="112"/>&amp; directe, &amp; ex consequenti voluit esse Deus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2122">
+                  <lb ed="#V" n="113"/>Secundo hoc idem patet ex eo, quod ad huius¬ 
+      <lb ed="#V" n="114"/>modi beatirudinem concurrir simultas cognito¬ 
+      <lb ed="#V" n="115"/>rum. Nam beati secundum visionem beatam¬v¬ 
+      <lb ed="#V" n="116"/>no intuitu vident omnia quae vident. Si ergo Dia 
+      <lb ed="#V" n="117"/>bolus potuisset esse beatus per naturam, potuis¬ 
+      <lb ed="#V" n="118"/>set per essentiam suam vel per aliquam speciem, 
+      <lb ed="#V" n="119"/>quam haberet in se naturaliter, vno intuitu om¬ 
+      <lb ed="#V" n="120"/>nia videre. Essentia ergo sua cum esset omnium re¬ 
+      <lb ed="#V" n="121"/>praesentatiua, non esset determinata, nec ad ge¬ 
+      <lb ed="#V" n="122"/>nus, nec ad speciem: immo quia quicquid est natu¬ 
+      <!--285.xml-->
+      <pb ed="#V" n="285"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>raliter in Angelo est ibi secundum modum natu¬ 
+      <lb ed="#V" n="2"/>rae Angeli. si ergo aliquid existens naturaliter in 
+      <lb ed="#V" n="3"/>natura angeli non esset determinatum ad genus, 
+      <lb ed="#V" n="4"/>&amp; ad speciem, &amp; posset omnia representare, con¬ 
+      <lb ed="#V" n="5"/>sequens est, quod &amp; ipsa natura angeli ad genus, &amp; 
+      <lb ed="#V" n="6"/>ad speciem determinata non esset. sed nihil est ta¬ 
+      <lb ed="#V" n="7"/>le, nisi solus Deus, ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2168">
+                  <lb ed="#V" n="8"/>Tertio hoc idem patet ex eo, quod beati habent 
+      <lb ed="#V" n="9"/>voluntatem inflexibilem ad malum. Nam aliud 
+      <lb ed="#V" n="10"/>est habere voluntatem sic inffexibilem per natu¬ 
+      <lb ed="#V" n="11"/>ram, aliud per gratiam. Nam per gratiam quidam 
+      <lb ed="#V" n="12"/>habent voluntatem infflexibilem firmiter adhae¬ 
+      <lb ed="#V" n="13"/>rentes regulae, sed per naturam habet hoc ipsa re¬ 
+      <lb ed="#V" n="14"/>gula. Nam hoc est naturale, quod regula a seipsa non 
+      <lb ed="#V" n="15"/>possit auerti, sed omne aliud a regula, dimissum 
+      <lb ed="#V" n="16"/>naturae suae, potest agere non secundum regulam. 
+      <lb ed="#V" n="17"/>Si autem voluntas, quae non est ipsa regula, nihil 
+      <lb ed="#V" n="18"/>potest facere, nisi secundum regulam, hoc inest 
+      <lb ed="#V" n="19"/>ei per aliquid superadditum sibi, vt quia per gra¬ 
+      <lb ed="#V" n="20"/>tiam est firmiter coniuncta ipsi regulae. Quare si 
+      <lb ed="#V" n="21"/>Diabolus voluit per naturam consequi beatitudi 
+      <lb ed="#V" n="22"/>nem, voluit per naturam habere voluntatem in¬ 
+      <lb ed="#V" n="23"/>flexibilem ad malum, &amp; per consequens voluit 
+      <lb ed="#V" n="24"/>esse ipsa regula, secundum quam sunt alia regu¬ 
+      <lb ed="#V" n="25"/>landa. &amp; quia hoc est proprium ipsius Dei, indi¬ 
+      <lb ed="#V" n="26"/>recte voluit esse Deus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2212">
+                  <lb ed="#V" n="27"/>RESP. AD ARG. ART. II. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2217">
+                  <lb ed="#V" n="28"/>AD primum dicendum, quod hoc arguit ar¬ 
+      <lb ed="#V" n="29"/>gumentum, quod directe aequalitatem Dei 
+      <lb ed="#V" n="30"/>non appetijt, quia nec eam potuit ap¬ 
+      <lb ed="#V" n="31"/>prehendere, quod concedimus. appe¬ 
+      <lb ed="#V" n="32"/>tiit tamen aliquid tali modo, quod habere non 
+      <lb ed="#V" n="33"/>potuisset, nisi fuisset Deus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2233">
+                  <lb ed="#V" n="34"/>Ad secundum dicendum, quod aliquid appe¬ 
+      <lb ed="#V" n="35"/>tiit, quod habnisset, si stetisset: nunquam tamen¬ 
+      <lb ed="#V" n="36"/>habuisset illud eo modo, quo appetiit, videlicet 
+      <lb ed="#V" n="37"/>per nat uram, nisi fuisset Deus, &amp; hoc modo indi¬ 
+      <lb ed="#V" n="38"/>recte appetiit esse Deus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2246">
+                  <lb ed="#V" n="39"/>Ad tertium dicendum, quod voluit assimila¬ 
+      <lb ed="#V" n="40"/>ri Deo inordinate, &amp; puerse, nec voluit hoc mo¬ 
+      <lb ed="#V" n="41"/>do, quo voluit Deus. Propter quod factus est auer¬ 
+      <lb ed="#V" n="42"/>sus a Deo. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2258">
+                  <lb ed="#V" n="43"/>Ad quartum dicendum, quod non peccauit 
+      <lb ed="#V" n="44"/>Angelus in hoc desiderio naturali, quia voluit 
+      <lb ed="#V" n="45"/>assimilari Deo, sed in modo desiderandi, vt quia 
+      <lb ed="#V" n="46"/>voluit huiusmodi beatitudinem consequi per 
+      <lb ed="#V" n="47"/>naturam¬ 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2271">
+                  <lb ed="#V" n="48"/>Resolutio Dub. 
+      <lb ed="#V" n="49"/>Si Daemones superiores indirecte Dei aequalitatem 
+      <lb ed="#V" n="50"/>appetierunt, vt superius patuit, inferiores etiam 
+      <lb ed="#V" n="51"/>idem eodem modo apperijsse, credendum est, cum¬ 
+      <lb ed="#V" n="52"/>peccato Cuciferi assensisse dicantur. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2284">
+                  <lb ed="#V" n="53"/>AD id autem, quod quaerebatur. Vtrum 
+      <lb ed="#V" n="54"/>alii Angeli minores appetierint Dei 
+      <lb ed="#V" n="55"/>aequalitatem, dici debet, quod etiam 
+      <lb ed="#V" n="56"/>minores indirecte appetierunt aequa¬ 
+      <lb ed="#V" n="57"/>litatem Dei. Nam &amp; minores Angeli peccarepo¬ 
+      <!--285.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="58"/>nuntur, quia consenserunt peccato Luciferi, li¬ 
+      <lb ed="#V" n="59"/>cet non sit credibile eos consensisse peccato Lu¬ 
+      <lb ed="#V" n="60"/>ciferi, quod solum appeterent excellentiam Lucife¬ 
+      <lb ed="#V" n="61"/>ri, non suam, sed consenserunt peccato Luciseri, 
+      <lb ed="#V" n="62"/>quia consenserunt peccare hoc modo, quo pecca 
+      <lb ed="#V" n="63"/>uit Lucifer; tamen sub eo. Voluerunt enim pro¬ 
+      <lb ed="#V" n="64"/>priam excellentiam, &amp; voluerunt per naturam 
+      <lb ed="#V" n="65"/>obtinere beatitudinem, vt sicut Lucifer vo¬ 
+      <lb ed="#V" n="66"/>luit obtinere suam beatitudinem per naturam, 
+      <lb ed="#V" n="67"/>sub Deo tamen prout operatur in omni opere 
+      <lb ed="#V" n="68"/>naturae, sic &amp; voluerunt illi obtinere suam beati 
+      <lb ed="#V" n="69"/>tudinem per naturam sub Deo, vt operatur in om¬ 
+      <lb ed="#V" n="70"/>ni opere naturae, &amp; etiam sub Lucifero. Imagina¬ 
+      <lb ed="#V" n="71"/>bimur enim, quod de his, quae sunt supernatura¬ 
+      <lb ed="#V" n="72"/>liter, Angeli non habebant plenam scientiam, &amp; 
+      <lb ed="#V" n="73"/>cum debuisset Lucifer in appetendo supernatu¬ 
+      <lb ed="#V" n="74"/>rale bonum, vt beatitudinem, expectare diuinam 
+      <lb ed="#V" n="75"/>ordinationem, vt consequeretur eam modo, quo 
+      <lb ed="#V" n="76"/>Deus vellet, ipse hoc non expectans, sed vltro se 
+      <lb ed="#V" n="77"/>offerens, &amp; ingerens, voluit eam consequi per na¬ 
+      <lb ed="#V" n="78"/>turam. Daemones autem inferiores videntes hoc 
+      <lb ed="#V" n="79"/>appetere Luciferum, consenserunt peccato suo, vt 
+      <lb ed="#V" n="80"/>ipsi essent sub eo tanquam sub principe, &amp; pro¬ 
+      <lb ed="#V" n="81"/>portionabiliter secundum quod habebant excel¬ 
+      <lb ed="#V" n="82"/>lentia, vel minus excellentia naturalia, conseque 
+      <lb ed="#V" n="83"/>rentur suam beatitudinem per naturam. Sed li¬ 
+      <lb ed="#V" n="84"/>cet in beatitudine sint gradus, quia vnus clariori 
+      <lb ed="#V" n="85"/>modo videt Deum, quam alius, nullus tamem per¬ 
+      <lb ed="#V" n="86"/>uenit ad visionem Dei apertam in quocunque 
+      <lb ed="#V" n="87"/>gradu, siue clariori, siue minus claro per naturam, 
+      <lb ed="#V" n="88"/>nisi per gratiam. Ad visionem enim Dei apertam 
+      <lb ed="#V" n="89"/>in quocunque gradu ponatur huiusmodi visio, 
+      <lb ed="#V" n="90"/>cum Deus sit ipsum esse, non posset creatura per¬ 
+      <lb ed="#V" n="91"/>uenire per naturam, nisi haberet naturam indiffe¬ 
+      <lb ed="#V" n="92"/>tentem ab esse, &amp; per consequens, nisi esset Deus. 
+      <lb ed="#V" n="93"/>Propter quod inferiores Angeli appetierunt indi 
+      <lb ed="#V" n="94"/>recte aequalitatem Dei. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2382">
+                  <lb ed="#V" n="95"/>RESP. AD ARG. DVA. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2387">
+                  <lb ed="#V" n="96"/>AD primum dicendum, quod licet 
+      <lb ed="#V" n="97"/>appetierint esse sub Lucifero tan¬ 
+      <lb ed="#V" n="98"/>quam sub principe, appetierunt ta¬ 
+      <lb ed="#V" n="99"/>men consequi beatitudinem per na¬ 
+      <lb ed="#V" n="100"/>turam, licet non tantam, quantam 
+      <lb ed="#V" n="101"/>Lucifer. quod esse non poterat nisi quilibet 
+      <lb ed="#V" n="102"/>esset Deus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2405">
+                  <lb ed="#V" n="103"/>Ipse etiam Lucifer non appetijt tantam beati¬ 
+      <lb ed="#V" n="104"/>tudinem, quantam habet Deus, quia hoc in sua 
+      <lb ed="#V" n="105"/>mente non potuisset cadere. tamen quia visionem 
+      <lb ed="#V" n="106"/>Dei apertam voluit habere per naturam, dicitur 
+      <lb ed="#V" n="107"/>voluisse esse Deus, quia non poruisset hoc habere, 
+      <lb ed="#V" n="108"/>nisi fuisset Deus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2422">
+                  <lb ed="#V" n="109"/>Ad secundum dicendum, quod prout po¬ 
+      <lb ed="#V" n="110"/>test patere per habita, non ex reuoluta, sed ex 
+      <lb ed="#V" n="111"/>modo volendi, appetierunt Daemones aequali¬ 
+      <lb ed="#V" n="112"/>tatem Dei. licet enim viderent se non posse equa¬ 
+      <lb ed="#V" n="113"/>ri Lucifero, &amp; licet non appetierint tam cla¬ 
+      <lb ed="#V" n="114"/>ram Dei visionem, sicut Lucifer, tamen eam 
+      <lb ed="#V" n="115"/>tali modo appetierunt, quod eam habere non 
+      <lb ed="#V" n="116"/>potuissent, nisi quilibet eorum fuisset super 
+      <!--286.xml-->
+      <pb ed="#V" n="286"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>omnem rem creatam, &amp; nisi quilibet fuisset 
+      <lb ed="#V" n="2"/>Deus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2453">
+                  <lb ed="#V" n="3"/>Ad tertium dicendum, quod Eua voluit rape¬ 
+      <lb ed="#V" n="4"/>re diuinitatem. Adam autem peccauit, quia no¬ 
+      <lb ed="#V" n="5"/>luit suas delitias contristare. Vnde non fuit in 
+      <lb ed="#V" n="6"/>hoc seductus, quod crediderit esse Deus. Nec etiam 
+      <lb ed="#V" n="7"/>Euam credendum est, fuisse tantae hebetudinis, vt cre¬ 
+      <lb ed="#V" n="8"/>deret simpliciter esse Deus. In homine tamen, &amp; 
+      <lb ed="#V" n="9"/>in Angelo esse potest, quod appetant aliquid taliter, 
+      <lb ed="#V" n="10"/>quod non possent habere, nisi essent Deus. Esse 
+      <lb ed="#V" n="11"/>tamen Deus simpliciter, nec homo, nec Angelus 
+      <lb ed="#V" n="12"/>appetijt. 
+    </p>
+            </div>
+            <div xml:id="Gi9qrR-k081302-Dd1e2478">
+               <head xml:id="Gi9qrR-k081302-Hd1e2480">Articulus 3</head>
+               <p xml:id="Gi9qrR-k081302-d1e2482">
+                  <lb ed="#V" n="13"/>ARTIC. III. 
+      <lb ed="#V" n="14"/>An Diabolus per saperbiam pecca 
+      <lb ed="#V" n="15"/>gerit. Conclusto est 
+      <lb ed="#V" n="16"/>affirmatiua. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2493">
+                  <lb ed="#V" n="17"/>D. Tho. 1. 9. q. 63. artic. 2. Et 2. senten. d. 5. artic. 3. Et 
+      <lb ed="#V" n="18"/>in qu. disp. de malo. De Paem. q. 16. art. 1. 4. Et lib. 3. cor¬ 
+      <lb ed="#V" n="19"/>tra Cent. c. 1o9 Alex. de Ales 2. p. q. 10o. &amp; I1. P. Bonau¬ 
+      <lb ed="#V" n="20"/>d. 5. artic. 1. q. 1. Ricar. d. 3. q. 1. Sco. d. 6. q. 2. Franc. M aur. d. 
+      <lb ed="#V" n="21"/>4. &amp; 3. q. 4. Holxoth. 2. enten. q. 3. Piel. d. 5. q. 1. Capr d. 
+      <lb ed="#V" n="22"/>4. q. 3. Ant. Andr. d. 6. q. 2. Nicol. de Nijse tract. 2. p. 2. q. 2. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2509">
+                  <lb ed="#V" n="23"/>TERTIO quaeritur, quo gene¬ 
+      <lb ed="#V" n="24"/>re peccati peccauit Diabolus. 
+      <lb ed="#V" n="25"/>Et videtur, quod non peccauerit per 
+      <lb ed="#V" n="26"/>superbiam, quia vt dicitur. 1. ad 
+      <lb ed="#V" n="27"/>Timo. Radix omniumi malo¬ 
+      <lb ed="#V" n="28"/>rum est cupiditas, sed peccatum 
+      <lb ed="#V" n="29"/>Diaboli fuit Radix omnium malorum, ergo pec¬ 
+      <lb ed="#V" n="30"/>cauit per cupiditatem, &amp; auaritiam. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2529">
+                  <lb ed="#V" n="31"/>Praeterea videtur, quod peccauerit per odium, 
+      <lb ed="#V" n="32"/>&amp; per inuidiam. Nam peccatum eius fuit auerti 
+      <lb ed="#V" n="33"/>a Deo: iuxta illud Aug. 12. de Ciui. Beatitudinis 
+      <lb ed="#V" n="34"/>igitur illorum causa est adhaerere Deo, quo circa¬ 
+      <lb ed="#V" n="35"/>istorum miseriae causa ex contrario est intelligen¬ 
+      <lb ed="#V" n="36"/>da, quod est non adhaerere Deo. sed non adhaere¬ 
+      <lb ed="#V" n="37"/>re Deo, &amp; auerti a Deo, est odio habere, vel inui¬ 
+      <lb ed="#V" n="38"/>dere, vt dicitur in littera: ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2550">
+                  <lb ed="#V" n="39"/>Praeterea videtur, quod peccatum Daemonis fue¬ 
+      <lb ed="#V" n="40"/>rit accidia. Nam fugere laborem in bonis spiritua 
+      <lb ed="#V" n="41"/>libus, videtur ad accidiam pertinere. sed dicitur 
+      <lb ed="#V" n="42"/>fuisse peccatum Daemonis, quia voluit sine labo¬ 
+      <lb ed="#V" n="43"/>re consequi gloriam, ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2563">
+                  <lb ed="#V" n="44"/>Praeterea videtur, quod peccatum eius fuerit infi¬ 
+      <lb ed="#V" n="45"/>delitas. Nam inter virtutes fides tener primum 
+      <lb ed="#V" n="46"/>gradum. infidelitas ergo erit primum vitium, sed 
+      <lb ed="#V" n="47"/>primum vitium, &amp; primum peccatum fuit pec¬ 
+      <lb ed="#V" n="48"/>catum Diaboli: ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2576">
+                  <lb ed="#V" n="49"/>Praeterea videtur, quod peccauerit peccato o¬ 
+      <lb ed="#V" n="50"/>missionis. Nam ipse ex hoc peccauit, quia cum 
+      <lb ed="#V" n="51"/>debuisset expectare diuinam ordinationem, ipse 
+      <lb ed="#V" n="52"/>hoc omittens, appetens suam felicitatem, &amp; vi¬ 
+      <lb ed="#V" n="53"/>dens suorum naturalium pulchritudinem, cre¬ 
+      <lb ed="#V" n="54"/>didit, &amp; appetijt per naturam posse beatitudinem 
+      <lb ed="#V" n="55"/>obtinere¬. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2594">
+                  <lb ed="#V" n="56"/>IN CONTRARIVM est, quia Isido. dam 
+      <!--286.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="57"/>summo bono, lib id 1s. ait, quo vno superbiae lapsu pet 
+      <lb ed="#V" n="58"/>tumorem superbiae, Homo cecidit, &amp; Diabolus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2607">
+                  <lb ed="#V" n="59"/>Praeterea August. 11. super Gen. ait, quod Dia¬ 
+      <lb ed="#V" n="60"/>bolus a luce veritatis se auertit, superbia tu¬ 
+      <lb ed="#V" n="61"/>midus, &amp; propriae potestatis delectatione cor¬ 
+      <lb ed="#V" n="62"/>tuptus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2618">
+                  <lb ed="#V" n="63"/>Dub. Lateralis. 
+      <lb ed="#V" n="64"/>An Angeliinfericres per superbia 
+      <lb ed="#V" n="65"/>peccauerimt. Conclusio est 
+      <lb ed="#V" n="66"/>affirmatiua. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2630">
+                  <lb ed="#V" n="67"/>D. Bon. d. 5. arti. 2. q. 1. Ric. d. 5. q. 2. Nic. de Niise tract. 2. p. 2. 
+      <lb ed="#V" n="68"/>q. 2. Et vidae eosd. Doct. suipra citatos. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2637">
+                  <lb ed="#V" n="69"/>VLTERIVS autem dubitatur 
+      <lb ed="#V" n="70"/>de minoribus Angelis. Vtrum 
+      <lb ed="#V" n="71"/>peccauerint peccato superbiae. 
+      <lb ed="#V" n="72"/>Et videtur, quod non. quia su¬ 
+      <lb ed="#V" n="73"/>perbiae est appetere praeesse, &amp; 
+      <lb ed="#V" n="74"/>non subesse, sed inferiores Ange¬ 
+      <lb ed="#V" n="75"/>li voluerunt esse sub Lucifero, quod patet per Ma¬ 
+      <lb ed="#V" n="76"/>gistrum dicentem, quod Lucifero consenserunt: 
+      <lb ed="#V" n="77"/>ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2659">
+                  <lb ed="#V" n="78"/>Praeterea maioris auctoritatis, &amp; dignitatis est. 
+      <lb ed="#V" n="79"/>&amp; sublimitatis, esse sub domino maiori, quam¬ 
+      <lb ed="#V" n="80"/>sub minori. minores ergo Angeli non superbie¬ 
+      <lb ed="#V" n="81"/>runt, quia appetierunt esse sub Deo, mediante¬ 
+      <lb ed="#V" n="82"/>Lucifero, quod erat minoris dignitatis, &amp; subli¬ 
+      <lb ed="#V" n="83"/>
+                  <!-- line coord error -->
+                  <lb ed="#V" n="84"/>mitatis: ergo &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2679">
+                  <lb ed="#V" n="85"/>Praeterea Aug. 11. super gen. ad litteram vult, 
+      <lb ed="#V" n="86"/>quod amor priuatus, &amp; amor communis: vel amor 
+      <lb ed="#V" n="87"/>sanctus, &amp; amor immundus, fecerunt distinctio¬ 
+      <lb ed="#V" n="88"/>nem inter Angelos, ita, quod vnus fuit in Ange¬ 
+      <lb ed="#V" n="89"/>lis bonis, alter in malis. Peccatum ergo malorum 
+      <lb ed="#V" n="90"/>Angelorum quoruncunque non fuit superbia, 
+      <lb ed="#V" n="91"/>sed amor immundus, vel concupiscentia. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2697">
+                  <lb ed="#V" n="92"/>INCONTRARIVM est, quia si hoc 
+      <lb ed="#V" n="93"/>modo peccauerunt Angeli inferiores, quia con¬ 
+      <lb ed="#V" n="94"/>senserunt Lucifero, non consenserunt ei, vt solum 
+      <lb ed="#V" n="95"/>vellent excellentiam eius, sed &amp; vt vellent excel¬ 
+      <lb ed="#V" n="96"/>lentiam suam, sicut &amp; Lucifer voluit suam¬, 
+      <lb ed="#V" n="97"/>set hoc est pecratePet stpetbiam: crgo stc: 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2713">
+                  <lb ed="#V" n="98"/>Resolutio Artic. Ill. 
+      <lb ed="#V" n="99"/>Angelipeccatum primum fuit superbia, cum pro¬ 
+      <lb ed="#V" n="100"/>priae excellentiae amore peccduterit, non au¬ 
+      <lb ed="#V" n="101"/>tem alia peccata esse potuerunt, vt sunt 
+      <lb ed="#V" n="102"/>carnalia, vel corporalia: ex conse¬ 
+      <lb ed="#V" n="103"/>quenri fuit inuidia. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2730">
+                  <lb ed="#V" n="104"/>RESPONDEO dicendum ad id, 
+      <lb ed="#V" n="105"/>quod quaeritur: Quo genere pecca¬ 
+      <lb ed="#V" n="106"/>ti peccauit Lucifer, quod hanc quae¬ 
+      <lb ed="#V" n="107"/>stionem pertractat Augustin. 11. super 
+      <lb ed="#V" n="108"/>Gen. ostendens peccatum Luciferi primum non 
+      <lb ed="#V" n="109"/>esse inuidiam, sed superbiam.
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2746">
+      <!--287.xml-->
+                  <pb ed="#V" n="287"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>Cum enim ponantur. 7. vitia capitalia: Qula, 
+      <lb ed="#V" n="2"/>Luxuria, Auaritia, Ira, Accidia, &amp; Superbia, &amp; 
+      <lb ed="#V" n="3"/>Inuidia: certum est, quod non potuit esse Daemon 
+      <lb ed="#V" n="4"/>incitatus ad peccata carnalia, vel corporalia, vt 
+      <lb ed="#V" n="5"/>ad luxuriam, vel ad gulam, vel ad auaritiam: se¬ 
+      <lb ed="#V" n="6"/>cundum, quod auaritia est speciale peccatum 
+      <lb ed="#V" n="7"/>proutilicet est cupiditas pertinentium ad sufficien¬ 
+      <lb ed="#V" n="8"/>tiam vitae, cum ipse talibus non indigeat. Nec 
+      <lb ed="#V" n="9"/>etiam accidia potuit esse peccatum eius: secun¬ 
+      <lb ed="#V" n="10"/>dum, quod aliquis retrahitur a spirituali¬ 
+      <lb ed="#V" n="11"/>bus, volens fugere corporales labores. Nam 
+      <lb ed="#V" n="12"/>ipse cum non habeat virtutes organicas: non 
+      <lb ed="#V" n="13"/>laxatur, nec laborat. Nec etiam primum 
+      <lb ed="#V" n="14"/>peccatum Daemonis potuit esse ira, vel odium: 
+      <lb ed="#V" n="15"/>vel inuidia, secundum quae est appetitus alicu¬ 
+      <lb ed="#V" n="16"/>ius mali, vel secundum quae est, dolor de alieno 
+      <lb ed="#V" n="17"/>bono. Nam talia rationem primi peccati habe¬ 
+      <lb ed="#V" n="18"/>re non possunt. &amp; Primum ergo peccatum Daemo¬ 
+      <lb ed="#V" n="19"/>nis suit superbia, &amp; amor propriae excellentiae, 
+      <lb ed="#V" n="20"/>sed ex hoc peccato consecutum est in eo odium, 
+      <lb ed="#V" n="21"/>&amp; inuidia, vt ipse doleret de alieno bono. Vnde 
+      <lb ed="#V" n="22"/>August. 1I. super Gen. ait: Nonnulli dicunt ei. est 
+      <lb ed="#V" n="23"/>Diabolo fuisse casum a supernis sedibus, quod inui¬ 
+      <lb ed="#V" n="24"/>derit homini facto ad imaginem Dei. Et subdit: 
+      <lb ed="#V" n="25"/>Porro inuidia sequitur superbiam, non prae¬ 
+      <lb ed="#V" n="26"/>cedit. Non enim, vt ait, causa superbiendi est in¬ 
+      <lb ed="#V" n="27"/>uidia, sed inuidendi superbia. Cum ergo, vt di¬ 
+      <lb ed="#V" n="28"/>cit, superbia sit amor excellentiae propriae, inui¬ 
+      <lb ed="#V" n="29"/>dia vero sit odium felicitatis alierae, quare inde 
+      <lb ed="#V" n="30"/>nascatur, in promptu est. Amando enim quis¬ 
+      <lb ed="#V" n="31"/>que excellentiam suam, vel paribus inuidet, quod 
+      <lb ed="#V" n="32"/>ei coaequentur: vel inferioribus, ne sibi coae¬ 
+      <lb ed="#V" n="33"/>quentur: vel superioribus, quod eis non coae¬ 
+      <lb ed="#V" n="34"/>quentur. Superbiendo ergo, vt concludit, in¬ 
+      <lb ed="#V" n="35"/>uidus non inuidendo est quisqu: superbus.pec¬ 
+      <lb ed="#V" n="36"/>catum ergo primum Diaboli superbia fuit, non 
+      <lb ed="#V" n="37"/>inuidia. Vnde idem Augu. ibidem ait, quod non 
+      <lb ed="#V" n="38"/>non frustra putari potest ab initio temporis, Dia¬ 
+      <lb ed="#V" n="39"/>bolum superbia cecidisse. Propter tamen argu¬ 
+      <lb ed="#V" n="40"/>menta sciendum, quod superbia, &amp; auaritia pos¬ 
+      <lb ed="#V" n="41"/>sunt accipi generaliter, &amp; sic sunt conditiones 
+      <lb ed="#V" n="42"/>inseparabiliter respicientes quodlibet peccatum. 
+      <lb ed="#V" n="43"/>Nam quilibet peccans conuertit se ad aliquod 
+      <lb ed="#V" n="44"/>commutabile bonum, &amp; ita est ibi cupiditas, &amp; 
+      <lb ed="#V" n="45"/>auaritia. quia nimis est auarus, &amp; cupidus, cui 
+      <lb ed="#V" n="46"/>non sufficit Deus. Secundum hoc ergo verifica 
+      <lb ed="#V" n="47"/>tur dictum Apostoli, quod radix omnium ma¬ 
+      <lb ed="#V" n="48"/>lorum est cupiditas. Sic etiam quilibet peccans 
+      <lb ed="#V" n="49"/>auertit se ab incommutabili bono, &amp; in hoc est 
+      <lb ed="#V" n="50"/>superbia. Nam magnae superbiae est nolle subes¬ 
+      <lb ed="#V" n="51"/>se Deo. Si ergo accipiatur cupiditas generaliter 
+      <lb ed="#V" n="52"/>pro appetitu inordinato cuiuslibet boni, &amp; su¬ 
+      <lb ed="#V" n="53"/>perbia generaliter pro omni auersione a Deo, sic 
+      <lb ed="#V" n="54"/>peccatum Diaboli, &amp; quodlibet peccatum cri¬ 
+      <lb ed="#V" n="55"/>minale, est auaritia ratione conuersioris, &amp; su¬ 
+      <lb ed="#V" n="56"/>perbia ratione auersionis. Alio modo potest ac¬ 
+      <lb ed="#V" n="57"/>cipi cupiditas specialiter secundum, quod est idem, 
+      <lb ed="#V" n="58"/>quod auaritia, &amp; secundum, quod est quoddam 
+      <lb ed="#V" n="59"/>vitium capitale distinctum ab alijs vitijs: &amp; sic 
+      <lb ed="#V" n="60"/>est idem, quod amor pecuniae, vel eorum, quae 
+      <lb ed="#V" n="61"/>possunt pecunia mensueari. vel est amor eorum, 
+      <lb ed="#V" n="62"/>quae requiruntur ad sufficientiam vitae. Sit au¬ 
+      <!--287.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="63"/>tem, vt diximus, peccatum Diaboll nunquam 
+      <lb ed="#V" n="64"/>est auaritia. quia ipse non indiget talibus, nec 
+      <lb ed="#V" n="65"/>ad talia afficitur. Posset autem habere reatum, &amp; 
+      <lb ed="#V" n="66"/>obligationem ad aliquam poenam ex huiusmo¬ 
+      <lb ed="#V" n="67"/>di peccato, prout inducit homines, vt concupi¬ 
+      <lb ed="#V" n="68"/>scant pecuniam, &amp; alia, quae possunt pecunia mon 
+      <lb ed="#V" n="69"/>surari: sed non est sic de superbia specialiter sum¬ 
+      <lb ed="#V" n="70"/>pta, quae idem est, quod amor propriae excellen¬ 
+      <lb ed="#V" n="71"/>tiae. Vnde in peccato Daemonis fuit superbia ge¬ 
+      <lb ed="#V" n="72"/>neraliter sumpta ratione auersionis, &amp; speciali¬ 
+      <lb ed="#V" n="73"/>ter sumpta ratione conuersionis. Ipse enim dili¬ 
+      <lb ed="#V" n="74"/>gens suam propriam excellentiam, quod est su¬ 
+      <lb ed="#V" n="75"/>perbia specialiter sumpta, auertit se a Deo, quod 
+      <lb ed="#V" n="76"/>est superbia generaliter accepta. Haec autem su¬ 
+      <lb ed="#V" n="77"/>perbia specialiter sumpta, quae est amor propriae 
+      <lb ed="#V" n="78"/>excellentiae est species cupiditatis generaliter sum 
+      <lb ed="#V" n="79"/>ptae. Diabolus ergo auarus, &amp; cupidus propriae 
+      <lb ed="#V" n="80"/>excellentiae: quod, vt diximus, est superbia pro¬ 
+      <lb ed="#V" n="81"/>prie accepta: cecidit, &amp; a Deo auertit se. Vnde 
+      <lb ed="#V" n="82"/>August. 11. super Gen. dicit: Hinc enim Diabo¬ 
+      <lb ed="#V" n="83"/>lus cecidit, qui vtique non amauit pecuniam, sed 
+      <lb ed="#V" n="84"/>propriam potestatem. Primum ergo peccatum 
+      <lb ed="#V" n="85"/>Daemonis fuit superbia, sed ex hoc peccato in¬ 
+      <lb ed="#V" n="86"/>currit multos defectus. Vnde Augu. 5. de Ciui. 
+      <lb ed="#V" n="87"/>dicit: Daemones esse spiritus nocendi cupidissi¬ 
+      <lb ed="#V" n="88"/>mos, a iustitia penitus alienos, superbia tumi¬ 
+      <lb ed="#V" n="89"/>dos, inuidentia liuidos, fallacia callidos. Videns 
+      <lb ed="#V" n="90"/>enim Daemon se non posse obtinere, quod volue 
+      <lb ed="#V" n="91"/>rat, incaepit odire Deum, per cuius iustitiam erat 
+      <lb ed="#V" n="92"/>deiectus, &amp; inuidere alijs angelis obtinentibus, quod 
+      <lb ed="#V" n="93"/>ipse obtinuisset, si stetisset: &amp; coepit inuidere ho¬ 
+      <lb ed="#V" n="94"/>mini, quod poterat ascendere, vnde ipse ceciderat. Et 
+      <lb ed="#V" n="95"/>cum videret se posse homini nocere, &amp; eum fallere, 
+      <lb ed="#V" n="96"/>liuidus inuidia, &amp; tumidus superbia, incaepit es¬ 
+      <lb ed="#V" n="97"/>se nocendi cupidus, &amp; fallendi callidus. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2969">
+                  <lb ed="#V" n="98"/>RESP. ADARG. ART. III. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2974">
+                  <lb ed="#V" n="99"/>AD primum dicendum, quod radix om¬ 
+      <lb ed="#V" n="100"/>nium malorum est cupiditas generali¬ 
+      <lb ed="#V" n="101"/>ter sumpta. Hoc ergo modo peccauit 
+      <lb ed="#V" n="102"/>Diabolus per cupiditatem, non cupien¬ 
+      <lb ed="#V" n="103"/>do pecuniam, sed propriam excellentiam, quae 
+      <lb ed="#V" n="104"/>cupiditas superbia erat. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e2990">
+                  <lb ed="#V" n="105"/>Ad secundum dicendum, quod odium, &amp; in¬ 
+      <lb ed="#V" n="106"/>uidia Daemonis ortum habuerunt ex superbia: 
+      <lb ed="#V" n="107"/>primo enim propriam excellentiam concupiuit, 
+      <lb ed="#V" n="108"/>quam non potens obtinere, caepit alios odire, &amp; 
+      <lb ed="#V" n="109"/>inuidere. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3003">
+                  <lb ed="#V" n="110"/>Ad tertium dicendum, quod peccatum Dae¬ 
+      <lb ed="#V" n="111"/>monis non potuit esse accidia. quia ipsi Daemo¬ 
+      <lb ed="#V" n="112"/>nes in ministrando non habent laborem, neque 
+      <lb ed="#V" n="113"/>taedium. Hoc enim est accidia, cum quis volens 
+      <lb ed="#V" n="114"/>fugere corporales labores, retrahitur a spiritua¬ 
+      <lb ed="#V" n="115"/>libus bonis. Dicitur tamen Daemon voluisse si¬ 
+      <lb ed="#V" n="116"/>ne labore consequi gloriam, quod est metapho¬ 
+      <lb ed="#V" n="117"/>rice dictum. Nam voluit ex propria virtute con¬ 
+      <lb ed="#V" n="118"/>sequi gloriam, &amp; hoc appellatur sine labore, vt 
+      <lb ed="#V" n="119"/>id dicatur, laboriosum, ad quod vires propriae 
+      <lb ed="#V" n="120"/>non sufficiunt. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3030">
+                  <lb ed="#V" n="121"/>Ad quartum dicendum, quod, vt communi¬ 
+      <lb ed="#V" n="122"/>ter dicitur, non oportet, quod ea, quae sunt prio¬ 
+      <!--288.xml-->
+      <pb ed="#V" n="288"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>ra in generatione, sint priora in destructione. 
+      <lb ed="#V" n="2"/>Propter quod non sequitur, si fides est prima vir 
+      <lb ed="#V" n="3"/>tus, quod infidelitas sit primum vitium. Primum 
+      <lb ed="#V" n="4"/>enim vitium fuit superbia, &amp; illud fuit initium 
+      <lb ed="#V" n="5"/>omnis peccati. Nam a superbia Daemonis caetera 
+      <lb ed="#V" n="6"/>peccata sequentia quodammodo habent ortum. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3056">
+                  <lb ed="#V" n="7"/>Ad quintum dicendum, quod ille peccat peccato 
+      <lb ed="#V" n="8"/>omissionis, qui tenetur ad aliquid, quod si non 
+      <lb ed="#V" n="9"/>faciat, non potest vitare peccatum. sed Diabo¬ 
+      <lb ed="#V" n="10"/>lus potuit aliter vitare peccatum, quia potuit non 
+      <lb ed="#V" n="11"/>peccare nihil conferendo de diuina ordinatione, 
+      <lb ed="#V" n="12"/>sed solum non appetendo inordinate propriam 
+      <lb ed="#V" n="13"/>excellentiam. Dicemus ergo, quod omissio alicu¬ 
+      <lb ed="#V" n="14"/>ius circunstantiae est conditio consequens quod¬ 
+      <lb ed="#V" n="15"/>libet peccatum, &amp; hoc modo in peccato Daemo¬ 
+      <lb ed="#V" n="16"/>nis fuit omissio. sed prout omissio est speciale pec¬ 
+      <lb ed="#V" n="17"/>catum, non fuit ibi omissio, sed commissio. Si 
+      <lb ed="#V" n="18"/>enim quis faceret lineam tortuosam, non dicere¬ 
+      <lb ed="#V" n="19"/>mus, quod peccaret peccato omissionis, licet 
+      <lb ed="#V" n="20"/>omisisset regulam, quam si habuisset, fecisset li¬ 
+      <lb ed="#V" n="21"/>neam rectam. Nam hoc modo omissio consequi 
+      <lb ed="#V" n="22"/>tur quodlibet peccatum: sed diceremus, quod non te¬ 
+      <lb ed="#V" n="23"/>nebatur habere regulam, nisi voluisset lineam fa¬ 
+      <lb ed="#V" n="24"/>cere. Potuisset enim non peccare, &amp; non facere li 
+      <lb ed="#V" n="25"/>neam tortuosam, etiam non habendo regulam. 
+      <lb ed="#V" n="26"/>Nam si nullam fecisset lineam, non fecisset lineam 
+      <lb ed="#V" n="27"/>tortuosam, sic si stetisset angelus in sua innocen¬ 
+      <lb ed="#V" n="28"/>tia, non peccasset. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3106">
+                  <lb ed="#V" n="29"/>Resolutio Dub. 
+      <lb ed="#V" n="30"/>Damones omnes cum propriae excellentie amore sua 
+      <lb ed="#V" n="31"/>beatitudinem consequi voluerint; Omnes 
+      <lb ed="#V" n="32"/>itidem superbiae peccato laborasse 
+      <lb ed="#V" n="33"/>censendum est. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3119">
+                  <lb ed="#V" n="34"/>AD id autem, quod quaerebatur de demo 
+      <lb ed="#V" n="35"/>nibus inferioribus. Vtrum peccauerint 
+      <lb ed="#V" n="36"/>peccato superbiae, dici debet, quod sic. 
+      <lb ed="#V" n="37"/>Dicemus enim, quod licet Angelus primus vide¬ 
+      <lb ed="#V" n="38"/>rit se habere principatum super alios, vt supra di¬ 
+      <lb ed="#V" n="39"/>ximus per auctoritatem Bernardi, non tamen ple¬ 
+      <lb ed="#V" n="40"/>ne sciuit modum, secundum quem hoc erat habi¬ 
+      <lb ed="#V" n="41"/>turus. ita dicere possumus, quod praeuidit Dia¬ 
+      <lb ed="#V" n="42"/>bolus se esse ordinatum ad felicitatem habendam, 
+      <lb ed="#V" n="43"/>sed non plene sciuit modum. quo hoc plene po¬ 
+      <lb ed="#V" n="44"/>terat consequi. Vel ergo nihil debuit cogitare de¬ 
+      <lb ed="#V" n="45"/>huiusmodi re: &amp; tunc tacite se commisisset diuinae 
+      <lb ed="#V" n="46"/>ordinationi, vel si actualiter volebat cogitare de 
+      <lb ed="#V" n="47"/>modo: debebat actualiter considerare de diuina 
+      <lb ed="#V" n="48"/>ordinatione, vt illo modo suam beatitudinem con¬ 
+      <lb ed="#V" n="49"/>sequeretur, sicut Deus ordinauerat, &amp; sicut vole¬ 
+      <lb ed="#V" n="50"/>bat eum consequi. Ipse autem hoc non expectans, 
+      <lb ed="#V" n="51"/>sed vltro se ingerens, propter pulchritudinem, 
+      <lb ed="#V" n="52"/>quam in se vidit: extimauit se posse per naturam 
+      <lb ed="#V" n="53"/>hoc consequi. Nam si nullo modo credidisset 
+      <lb ed="#V" n="54"/>hoc esse possibile, non appetisset illud, nec ele¬ 
+      <lb ed="#V" n="55"/>gisset. Nam licet velle finem sit voluntatis: tamen 
+      <lb ed="#V" n="56"/>quod hoc modo, vel illo consequamur finem, perti¬ 
+      <lb ed="#V" n="57"/>net ad electionem. &amp; quia electio non potest esse 
+      <lb ed="#V" n="58"/>impossibilium, vt dicitur in 3. Ethicorum nun¬ 
+      <!--288.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="59"/>quam elegisset illo modo beatitudinem consequi, 
+      <lb ed="#V" n="60"/>si credidisset hoc eem penitus impossibile. Propter 
+      <lb ed="#V" n="61"/>quod patet, quomodo peccauit Diabolus, quia 
+      <lb ed="#V" n="62"/>suam excellentiam diligens, &amp; excellentia pro¬ 
+      <lb ed="#V" n="63"/>priae potestatis delectatus, credidit per sua natu¬ 
+      <lb ed="#V" n="64"/>ralia posse beatitudinem consequi. Alii vero An¬ 
+      <lb ed="#V" n="65"/>geli peccatores hoc videntes, quod ille sic vole¬ 
+      <lb ed="#V" n="66"/>bat per sua naturalia beatitudinem consequi: ip¬ 
+      <lb ed="#V" n="67"/>si sub eo ranquam sub principante voluerunt eriam 
+      <lb ed="#V" n="68"/>pet sua naturalia beatitudinem consequi. Ex amo 
+      <lb ed="#V" n="69"/>re ergo propriae excellentiae, quia excellentius est 
+      <lb ed="#V" n="70"/>aliquid consequi per naturam, quam per gratiam: 
+      <lb ed="#V" n="71"/>appetierunt suam beatitudinem consequi per na¬ 
+      <lb ed="#V" n="72"/>turam, &amp; quia amor propriae excellentiae est super 
+      <lb ed="#V" n="73"/>bia, non solum Diabolus, sed &amp; alii angeli pecca¬ 
+      <lb ed="#V" n="74"/>uerunt per superbiam. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3215">
+                  <lb ed="#V" n="75"/>RESP. AD ARG. DVI. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3220">
+                  <lb ed="#V" n="76"/>AD primum dicendum, quod &amp; ad su¬ 
+      <lb ed="#V" n="77"/>Al perbiam pertinet etiam sub aliquo velle 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3228">
+                  <lb ed="#V" n="78"/>excellentiam obtinere. Vnde dicitur 
+      <lb ed="#V" n="79"/>de Diabolo in lob, quod Ipse est Rex 
+      <lb ed="#V" n="80"/>super omnes filios superbiae. Nam &amp; alii Demo¬ 
+      <lb ed="#V" n="81"/>nes filii superbiae fuerunt, amantes propriam ex¬ 
+      <lb ed="#V" n="82"/>cellentiam. Voluerunt tamen esse rub Diabolo 
+      <lb ed="#V" n="83"/>tanquam sub principe, propter huiusmodi excel 
+      <lb ed="#V" n="84"/>lentiam obtinendam. Vellet enim superbus nul¬ 
+      <lb ed="#V" n="85"/>li subesse, &amp; omnes excellere. sed cum non po¬ 
+      <lb ed="#V" n="86"/>test suam excellentiam habere: vult esse sub alio, 
+      <lb ed="#V" n="87"/>vt suam excellentiam habeat. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3252">
+                  <lb ed="#V" n="88"/>Ad secundum dicendum, quod maioris excel¬ 
+      <lb ed="#V" n="89"/>lentiae est, esse immediate sub maiori domino: at 
+      <lb ed="#V" n="90"/>tamen superbus propter aliquam excellentiam 
+      <lb ed="#V" n="91"/>consequendam, eligit aliquando esse sub domi¬ 
+      <lb ed="#V" n="92"/>no minori, vel quocunque alio modo: dum ta¬ 
+      <lb ed="#V" n="93"/>men credat excellentiam obtinere, quod totum 
+      <lb ed="#V" n="94"/>ad superbiam pertinet, cum propter amorem ex 
+      <lb ed="#V" n="95"/>cellentiae ad hoc inducatur. 
+    </p>
+               <p xml:id="Gi9qrR-k081302-d1e3272">
+                  <lb ed="#V" n="96"/>Ad tertium dicendum, quod amor ille priua¬ 
+      <lb ed="#V" n="97"/>tus fuit amor propriae excellentiae. Propter quod 
+      <lb ed="#V" n="98"/>talis amor quaedam superbia fuit. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

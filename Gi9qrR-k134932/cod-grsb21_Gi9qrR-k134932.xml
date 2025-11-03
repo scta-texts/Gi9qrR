@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2025-11-03">November 03, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-grsb21">Venice 1581, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="461"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-k134932"><!-- l2-d10prae -->
+            <head xml:id="Gi9qrR-k134932-Hd1e101">Praeambulum</head>
+            <p xml:id="Gi9qrR-k134932-d1e103">
+               <lb ed="#V" n="42"/>DIST. . 
+      <lb ed="#V" n="43"/>De Angelis assiffentibus e mini¬ 
+      <lb ed="#V" n="44"/>strantibus, dequecorundem 
+      <lb ed="#V" n="45"/>socuttione. 
+    </p>
+            <p xml:id="Gi9qrR-k134932-d1e114">
+               <lb ed="#V" n="46"/>HOC ETIAMIN. 
+      <lb ed="#V" n="47"/>VESTICAN¬ 
+      <lb ed="#V" n="48"/>DVM, &amp; c. 
+      <lb ed="#V" n="49"/>Postquam Magi¬ 
+      <lb ed="#V" n="50"/>ster in Distinctione, 
+      <lb ed="#V" n="51"/>9. determinauit de¬ 
+      <lb ed="#V" n="52"/>differentijs, &amp; de di¬ 
+      <lb ed="#V" n="53"/>stinctionibus Ange¬ 
+      <lb ed="#V" n="54"/>lorum, prout diffe¬ 
+      <lb ed="#V" n="55"/>runt, &amp; distinguuntur 
+      <lb ed="#V" n="56"/>per Hierarchias, &amp; ordines. In hac distinctione, 
+      <lb ed="#V" n="57"/>5. vt dicebatur, determinat de differentijs, &amp; de di¬ 
+      <!--461.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="58"/>stinctionibus Angelorum, prout distinguuntur, &amp; 
+      <lb ed="#V" n="59"/>&amp; differunt per assistentes, &amp; ministrantes. 
+      <lb ed="#V" n="60"/>Circa quod tria facit, quia primo, quo ad hu¬ 
+      <lb ed="#V" n="61"/>iusmodi assistentiam, &amp; ministrationem Angelo 
+      <lb ed="#V" n="62"/>rum mouet quandam quaestionem: Vtrum ali¬ 
+      <lb ed="#V" n="63"/>qui ita assistant, quod non ministrent, vel omnes 
+      <lb ed="#V" n="64"/>sint in ministerium missi. Et tangit circa hoc opi¬ 
+      <lb ed="#V" n="65"/>niones diuersas. Secundo ex huiusmodi quaestio¬ 
+      <lb ed="#V" n="66"/>ne mota, &amp; opinionibus tactis, tangit varios mo¬ 
+      <lb ed="#V" n="67"/>dos dicendi citca nomina Angelorum. Tertio sol. 
+      <lb ed="#V" n="68"/>uit obiectiones contra vtranque opinionem de¬ 
+      <lb ed="#V" n="69"/>assistentia, &amp; ministratione Angelorum. Se¬ 
+      <lb ed="#V" n="70"/>cunda ibi: Et putant illi. L Tertia ibi: ( Qut 
+      <lb ed="#V" n="71"/>autem omnes. 
+    </p>
+            <p xml:id="Gi9qrR-k134932-d1e177">
+               <lb ed="#V" n="72"/>Circa primum sex facit. quia primo mouet quae 
+      <lb ed="#V" n="73"/>stionem: Vtrum omnes ad exteriora mittantur, 
+      <lb ed="#V" n="74"/>vel aliqui supple sint ita assistentes, quod non mit¬ 
+      <lb ed="#V" n="75"/>tantur. Secundo tangit vnum modum dicendi, 
+      <lb ed="#V" n="76"/>&amp; vnam opinionem circa quaestionem proposi¬ 
+      <lb ed="#V" n="77"/>tam, quod aliqui ita assistunt, quod non mittun¬ 
+      <lb ed="#V" n="78"/>tur, sicut scriptum est Dam. 5. quod millia mil¬ 
+      <lb ed="#V" n="79"/>lium ministrabant, &amp;c. Et sicut pater per Diony. 
+      <lb ed="#V" n="80"/>volentem, quod superiora agmina, siue illi supe¬ 
+      <lb ed="#V" n="81"/>riores Angeli nunquam ab intimis recedant, sed 
+      <lb ed="#V" n="82"/>semper assistant. Tertio obiicit contra hanc opi¬ 
+      <lb ed="#V" n="83"/>nionem, quod superiores ita assistant, quod non 
+      <lb ed="#V" n="84"/>mittantur: cum ad Esaiam, vt hrmn Esa. missus sit 
+      <lb ed="#V" n="85"/>vnus Seraphin, qui est omnino ordo superior, &amp; 
+      <lb ed="#V" n="86"/>excellentior: &amp; cum Apostolus dicat ad Hebr. 1. 
+      <lb ed="#V" n="87"/>Omnes sunt administratorii Spiritus inministe¬ 
+      <lb ed="#V" n="88"/>rium missi. 
+    </p>
+            <p xml:id="Gi9qrR-k134932-d1e216">
+               <lb ed="#V" n="89"/>Quarto ponit opinionem aliam, quod nulli 
+      <lb ed="#V" n="90"/>ita assistunt, quod non mittantur: sed omnes sunt 
+      <lb ed="#V" n="91"/>in ministerium missi, quod nec inconueniens vi 
+      <lb ed="#V" n="92"/>deri debet, si superiores Angeli mittantur, cum, 
+      <lb ed="#V" n="93"/>&amp; ipse Dei filius Creator omnium ad nos descen¬ 
+      <lb ed="#V" n="94"/>derit, &amp; ad nos fuerit missus. 
+    </p>
+            <p xml:id="Gi9qrR-k134932-d1e233">
+               <lb ed="#V" n="95"/>Quinto obiicit contra hanc opinionem secun¬ 
+      <lb ed="#V" n="96"/>dam. quia si omnes mitterentur, &amp; omnes essent 
+      <lb ed="#V" n="97"/>nuncii, non videretur esse ratio, &amp; causa, quare¬ 
+      <lb ed="#V" n="98"/>vnus tantum inter 9. ordines Angelorum nomi¬ 
+      <lb ed="#V" n="99"/>ne censeatur. 
+    </p>
+            <p xml:id="Gi9qrR-k134932-d1e246">
+               <lb ed="#V" n="100"/>Sexto soluit huiusmodi obiectionem, quia 
+      <lb ed="#V" n="101"/>licet omnes mittantur, intimi tamen dicuntur An¬ 
+      <lb ed="#V" n="102"/>geli Dei nuncij, quia ipsi ex officio, &amp; saepe mittum 
+      <lb ed="#V" n="103"/>tur: superiores vero non saepe, sed raro: &amp; non ex 
+      <lb ed="#V" n="104"/>officio, sed ex aliqua ronne, &amp; causa suborta mit¬ 
+      <lb ed="#V" n="105"/>tuntur, &amp; fiunt nuncii: &amp; cum mirtuntur, dicun¬ 
+      <lb ed="#V" n="106"/>tur esse Angeli, siue nuncii. Iuxta illud Psal. Qui 
+      <lb ed="#V" n="107"/>facit Angelos suos spiritus. Illi enim, qui ex natu¬ 
+      <lb ed="#V" n="108"/>ra sua sunt spiritus, &amp; ex officio non habent, quod 
+      <lb ed="#V" n="109"/>sint Angeli. est nuncii, ex aliqua ratione suborta 
+      <lb ed="#V" n="110"/>Deus facit eos esse Angelos, siue nuncios. Secun¬ 
+      <lb ed="#V" n="111"/>da pars incipit ibi: C Quidam putant.: Tertia ibi: 
+      <lb ed="#V" n="112"/>Quibus obuicitur. EQuarta ibi::His teftimonijs.: 
+      <lb ed="#V" n="113"/>Quinta ibi:  Hic oritur quaestio. pSexta ibi: od 
+      <lb ed="#V" n="114"/>quod quidam dicunt. E Tunc sequitur illa pars: 
+      <lb ed="#V" n="115"/>CEt putant illi. L In qua ex quaestione mota, &amp; 
+      <lb ed="#V" n="116"/>opinionibus tactis, tangit varios modos dicendi 
+      <lb ed="#V" n="117"/>circa nomina Angelorum. Circa quod tria facit, 
+      <lb ed="#V" n="118"/>quia primo ait, quod illi, qui dicunt, quod omnes mittum 
+      <lb ed="#V" n="119"/>tur, purant, quod Michael, cabrie, &amp; Raphael sunt 
+      <!--462.xml-->
+      <pb ed="#V" n="462"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>de superiori ordine, &amp; sunt noia spirituum, non or. 
+      <lb ed="#V" n="2"/>dinum, ita quod singulariter aliqus supior spiritus voca 
+      <lb ed="#V" n="3"/>tur Michael, aliquis Raphael, &amp;c. Secundo circa 
+      <lb ed="#V" n="4"/>haec noia ponit opinionem aliam, quod talia non sunt 
+      <lb ed="#V" n="5"/>nomina spirituum singulariter, sed officiorum, ita 
+      <lb ed="#V" n="6"/>quod nunc iste spiritus, nunc alius, dicitur Mi¬ 
+      <lb ed="#V" n="7"/>chael vel Raphael, secundum officium, quod exercet. 
+      <lb ed="#V" n="8"/>Tertio ait, quod &amp; circa Daemones sunt multa no¬ 
+      <lb ed="#V" n="9"/>mina, quae possunt esse propria, vel communia. 
+      <lb ed="#V" n="10"/>Secunda pars incipit ibi: 3.lui pero.3 Tertia ibi: 
+      <lb ed="#V" n="11"/>TSicut &amp; Daemon. Tunc sequitur illa pars: 
+      <lb ed="#V" n="12"/>CQui autem omnes Angelos. EIn qua docet sub¬ 
+      <lb ed="#V" n="13"/>stinere vtranque opinionem, vel docet soluere¬ 
+      <lb ed="#V" n="14"/>obiectiones contra vtranque opinionem. Circa 
+      <lb ed="#V" n="15"/>quod duo facit, quia primo docet sustinere, quod 
+      <lb ed="#V" n="16"/>mittuntur, &amp; quod Dan. &amp; Dio. dicunt de supe¬ 
+      <lb ed="#V" n="17"/>rioribus Angelis, ait, quod illi dicuntur assiste¬ 
+      <lb ed="#V" n="18"/>re, &amp; ab intimis nunquam recedere, quia valde 
+      <lb ed="#V" n="19"/>raro mittuntur: &amp; cum mittuntur non recedunt 
+      <lb ed="#V" n="20"/>ab intimis, quia non recedunt a Dei contempla¬ 
+      <lb ed="#V" n="21"/>tione. quia nec illi, qui saepe mittuntur ab huius¬ 
+      <lb ed="#V" n="22"/>modi contemplatione, recedunt. Secundo resu¬ 
+      <lb ed="#V" n="23"/>mit opinionem aliam, quod non omnes mittun¬ 
+      <lb ed="#V" n="24"/>tur, quia tres superiores ordines semper assistunt: 
+      <lb ed="#V" n="25"/>tres inferiores ad exteriora mittuntur: tres medii¬ 
+      <lb ed="#V" n="26"/>mittuntur non ad exteriora, sed ad inferiores An¬ 
+      <lb ed="#V" n="27"/>gelos, ita, quod tres supremi nunciant diuinum 
+      <lb ed="#V" n="28"/>mandatum medijs: medii autem infimis: infimi 
+      <lb ed="#V" n="29"/>nobis. Et soluit adhuc dictum Apostoli, quod 
+      <lb ed="#V" n="30"/>omnes sunt in ministerium missi, quia omnes 
+      <lb ed="#V" n="31"/>sunt nuncii, &amp; omnes mittuntur, vel ad Angelos, 
+      <lb ed="#V" n="32"/>vel ad nos: vel vt ait Apostolus: Non intelligit, 
+      <lb ed="#V" n="33"/>quod omnes mittantur de omnibus simpliciter, 
+      <lb ed="#V" n="34"/>sed de inferioribus tantum. Soluit etiam per di¬ 
+      <lb ed="#V" n="35"/>ctum Diony. Auctoritatem Esaiae, quod Angelus 
+      <lb ed="#V" n="36"/>missus ad eum fuit de inferioribus Angelis, sed 
+      <lb ed="#V" n="37"/>dictus est Seraphin ratione operis, quia igne pur¬ 
+      <lb ed="#V" n="38"/>gauit labia Esaiae. &amp; Seraphin dicuntur igniti, &amp; 
+      <lb ed="#V" n="39"/>ardentes. Secunda ibi: C. lui pero dicunt. PEt in 
+      <lb ed="#V" n="40"/>hoc terminatur sententia Lectionis, &amp; Distin¬ 
+      <lb ed="#V" n="41"/>ctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

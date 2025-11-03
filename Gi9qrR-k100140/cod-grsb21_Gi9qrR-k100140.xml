@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2025-11-03">November 03, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-grsb21">Venice 1581, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="341"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-k100140"><!-- l2-d8prae -->
+            <head xml:id="Gi9qrR-k100140-Hd1e101">Praeambulum</head>
+            <p xml:id="Gi9qrR-k100140-d1e103">
+               <lb ed="#V" n="78"/>DIST. VIII. 
+      <lb ed="#V" n="79"/>De Angelorum unione ad corpora. 
+      <lb ed="#V" n="80"/>&amp; de eorundem in corporibus as¬ 
+      <lb ed="#V" n="81"/>sumptis operationibus, dequte 
+      <lb ed="#V" n="82"/>modo, quo nostra ingrediuntur 
+      <lb ed="#V" n="83"/>corpora, ac uexcant. 
+    </p>
+            <p xml:id="Gi9qrR-k100140-d1e119">
+               <lb ed="#V" n="84"/>SOIETETIAMIN 
+      <lb ed="#V" n="85"/>oV aESTIONEVER 
+      <lb ed="#V" n="86"/>SARI&amp;c. Postquam 
+      <lb ed="#V" n="87"/>Magister determina 
+      <lb ed="#V" n="88"/>uit de Angelis, quan¬ 
+      <lb ed="#V" n="89"/>tum ad eorum natu¬ 
+      <lb ed="#V" n="90"/>ram, &amp; quantum ad 
+      <lb ed="#V" n="91"/>eorum potentias, in 
+      <lb ed="#V" n="92"/>parte ista, vt diceba¬ 
+      <lb ed="#V" n="93"/>tur, determinat de 
+      <lb ed="#V" n="94"/>ipsis per comparationem ad corporalem sub¬ 
+      <lb ed="#V" n="95"/>stantiam. Circa quod duo facit, quia primo de¬ 
+      <lb ed="#V" n="96"/>terminat qualiter se habeant Angeli ad eorum cor¬ 
+      <lb ed="#V" n="97"/>pora. Secundo qualiter se habeant ad corpora no¬ 
+      <lb ed="#V" n="98"/>stra, qualiter vexent ea, vtrum substantialiter in¬ 
+      <lb ed="#V" n="99"/>trent in ipsa, &amp; illabantur animabus ibi: Illud 
+      <lb ed="#V" n="100"/>etiam consideratione. LCirca primum tria facit, 
+      <lb ed="#V" n="101"/>quia primo dubitando inquirit qualiter se habeant 
+      <lb ed="#V" n="102"/>Angeli ad corporum vnionem, vtrum habeant cor¬ 
+      <lb ed="#V" n="103"/>pora naturaliter vnita. Secundo qualiter se ha¬ 
+      <lb ed="#V" n="104"/>beant ad apparitionem per corpora, vt qualiter 
+      <lb ed="#V" n="105"/>appareant in corporalibus formis. Tertio dimis¬ 
+      <lb ed="#V" n="106"/>sis profunditatibus circa praetacta, determinat 
+      <lb ed="#V" n="107"/>veritatem. Secunda ibi:  Nec dubitandum. ETer¬ 
+      <lb ed="#V" n="108"/>tia ibi: (caeterum haec pelut. E Circa primum di¬ 
+      <lb ed="#V" n="109"/>ctum facit, quia primo mouet quaestionem, vtrum 
+      <lb ed="#V" n="110"/>Angeli tam boni, quam mali sint corporei, &amp; ha¬ 
+      <lb ed="#V" n="111"/>beant corpora naturaliter vnita. Secundo de hu¬ 
+      <lb ed="#V" n="112"/>iusmodi quaestione exequitur ibi:  Quod ali¬ 
+      <lb ed="#V" n="113"/>qui purant. E Circa quod tria facit, quia primo 
+      <lb ed="#V" n="114"/>sm opinionem quorundam exequitur de quae¬ 
+      <lb ed="#V" n="115"/>stione praetacta, quantum ad Angelos bonos, quod 
+      <lb ed="#V" n="116"/>habent corpora aerea de aere subtili, &amp; puro for¬ 
+      <!--342.xml-->
+      <pb ed="#V" n="342"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>mata: Secundo exequitur quantum ad malos, 
+      <lb ed="#V" n="2"/>quia eorum corpora ratione culpae suerunt in¬ 
+      <lb ed="#V" n="3"/>deterius permurata in aerem spissiorem, &amp; addu¬ 
+      <lb ed="#V" n="4"/>cit ad hoc ad auctoritatem Augnst. Tertio ponit 
+      <lb ed="#V" n="5"/>citca hoc opinionem aliorum, quod Angeli sunt in¬ 
+      <lb ed="#V" n="6"/>corporei, nec habent corpora sibi vnita, sed assu¬ 
+      <lb ed="#V" n="7"/>munt aliquando ea ad implendum aliquod mi¬ 
+      <lb ed="#V" n="8"/>nisterium, volentes, quod Aug. non dixerit ibi asseren¬ 
+      <lb ed="#V" n="9"/>do, quod Angeli, vel Daemones essent corporei, sed 
+      <lb ed="#V" n="10"/>aliorum opiniones referendo. Secunda ibi: 4.nae¬ 
+      <lb ed="#V" n="11"/>li: veromalis.  Tertia ibi:  Hoc autem alu  
+      <lb ed="#V" n="12"/>Iunc sequitur illa pars: vec est dubitandum.  
+      <lb ed="#V" n="13"/>In qua determinat de Angelis quantum ad eorum 
+      <lb ed="#V" n="14"/>apparitionem. Circa quod duo facit, quia primo 
+      <lb ed="#V" n="15"/>ait, Deum apparuisse in corporalibus formis, vt 
+      <lb ed="#V" n="16"/>diuersae scripturae testimonia fuerunt. Secundo 
+      <lb ed="#V" n="17"/>specialiter quaerit de Angelis, quomodo appa¬ 
+      <lb ed="#V" n="18"/>reant in corporalibus formis ibi: Sed vbi pDeim. p 
+      <lb ed="#V" n="19"/>Circa quod tria facit, quia primo quaerit de An¬ 
+      <lb ed="#V" n="20"/>gelis quomodo appareant. Vtrum quia creatur 
+      <lb ed="#V" n="21"/>noua creatura ad illud opus, vel quia Angeli ma¬ 
+      <lb ed="#V" n="22"/>nentes in suis subtilibus corporibus, in quibus 
+      <lb ed="#V" n="23"/>sunt inuisibiles: assumant quedam grossiora cor¬ 
+      <lb ed="#V" n="24"/>pora, in quibus videri possint: vel tertio, hoc con¬ 
+      <lb ed="#V" n="25"/>tingat, quia Angeli suum proprium corpus pos¬ 
+      <lb ed="#V" n="26"/>sunt vertere in species visibiles, vt ingrossando 
+      <lb ed="#V" n="27"/>eorum corpus, vel aliter circa ipsum agendo. Se¬ 
+      <lb ed="#V" n="28"/>cundo adducit verba Augu. in lib. de Trini. sub 
+      <lb ed="#V" n="29"/>his tribus membris hanc quaestionem proponen¬ 
+      <lb ed="#V" n="30"/>tis. Tertio respondet ad quaestionem factam per¬ 
+      <lb ed="#V" n="31"/>eundem Augustinum, asserentem hoc excedere 
+      <lb ed="#V" n="32"/>suas vires, qualiter Angeli appareant. Secunda 
+      <lb ed="#V" n="33"/>ibi: V. Ait enim . ugussinus. Tertia ibi: Sed fa¬ 
+      <lb ed="#V" n="34"/>teor excedere. RTunc sequitur illa pars: Tcaeterfi 
+      <lb ed="#V" n="35"/>bec velut, In qua, relictis difficultatibus circa pr¬ 
+      <lb ed="#V" n="36"/>tacta, determinat veritatem dicens, quod relinquen¬ 
+      <lb ed="#V" n="37"/>do haec profunda, &amp; obscura, tenendum est, quod 
+      <lb ed="#V" n="38"/>Deus in sua substantia nunquam apparuit mor¬ 
+      <lb ed="#V" n="39"/>talibus. cum enim ipse sit immutabilis, consequens 
+      <lb ed="#V" n="40"/>est, quod sit &amp; inuisibilis. apparuit tamen Deus in 
+      <lb ed="#V" n="41"/>substantia creata, quae ministerio Angelorum fa¬ 
+      <lb ed="#V" n="42"/>cta erat, in quo etiam possumus intelligere quo¬ 
+      <lb ed="#V" n="43"/>modo apparent Angeli, quia possunt apparere in 
+      <lb ed="#V" n="44"/>aliqua creatura corporali eorum ministerio fa¬ 
+      <lb ed="#V" n="45"/>cta. Tunc sequitur illa pars: Ilsud etiam conside¬ 
+      <lb ed="#V" n="46"/>ratione. In qua determinat de Angelis per com¬
+      <lb ed="#V" n="47"/>parationem ad corpora nostra, quomodo ea sub¬ 
+      <lb ed="#V" n="48"/>intrent, &amp; vexent. Circa quod tria facit, quia pri¬ 
+      <lb ed="#V" n="49"/>mo mouet quaestionem dicens, quod siue sint Ange¬ 
+      <lb ed="#V" n="50"/>li corporei, siue incorporei, dignum est considera¬
+      <lb ed="#V" n="51"/>re, quomodo nos vexant: vel quia substantialiter 
+      <lb ed="#V" n="52"/>intrant nostra corpora, &amp; illabuntur animabus, 
+      <lb ed="#V" n="53"/>vel solum dicuntur hoc facere, non quod nobis sub¬ 
+      <lb ed="#V" n="54"/>stantialiter illabantur, sed quia malitiae suae effe¬ 
+      <lb ed="#V" n="55"/>ctum in nobis exercent. Secundo quaestionem 
+      <lb ed="#V" n="56"/>propositam soluit, quod Angeli introeant homines, 
+      <lb ed="#V" n="57"/>cum hoc Euangelium dicat. sed hoc non est, quod 
+      <lb ed="#V" n="58"/>eis substantialiter illabantur, sed solum propter 
+      <lb ed="#V" n="59"/>malitiae effectum, quod confirmat per auctorita¬ 
+      <lb ed="#V" n="60"/>tem.. Gennadiji, &amp; Bedae. Tertio cocludit ex prae¬ 
+      <lb ed="#V" n="61"/>tactis auctoritatibus, quod Damones substantialiter 
+      <lb ed="#V" n="62"/>nos non intrant, sed propter effectum malitiae, 
+      <!--342.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="63"/>quem in bonis exercent: &amp; dicuntur a nobis pelli, 
+      <lb ed="#V" n="64"/>quando non sinuntur nobis vlterius nocere: Se¬ 
+      <lb ed="#V" n="65"/>cunda ibi: 3Qnod in homincs introcant. Tertia ibi: 
+      <lb ed="#V" n="66"/>Arris anctoritatibus ostenditur. IEt in hoc termi¬ 
+      <lb ed="#V" n="67"/>natur sententia Lectionis, &amp; Distinctionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

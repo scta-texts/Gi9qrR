@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GilesOfRome">Giles of Rome</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-11-03">November 03, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-grsb21">Venice 1581, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-11-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="521"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="Gi9qrR-k152473"><!-- l2-d12q1 -->
+            <head xml:id="Gi9qrR-k152473-Hd1e101">Quaestio 1</head>
+            <head xml:id="Gi9qrR-k152473-Hd1e103" type="question-title">De opere creationis</head>
+            <p xml:id="Gi9qrR-k152473-d1e106">
+      <!--521.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="61"/>QVAEST. I. 
+      <lb ed="#V" n="62"/>De opere creationis. 
+    </p>
+            <p xml:id="Gi9qrR-k152473-d1e117">
+               <lb ed="#V" n="63"/>QVIA Magister in littera specia 
+      <lb ed="#V" n="64"/>liter de duobus facit mentionem, 
+      <lb ed="#V" n="65"/>videlicet, de opere creationis, &amp; 
+      <lb ed="#V" n="66"/>de materia illa, vt substrata fuit 
+      <lb ed="#V" n="67"/>illi operi. 1deo de his duobus 
+      <lb ed="#V" n="68"/>quaeremus. Circa opus autem 
+      <lb ed="#V" n="69"/>creationis duo quaeremus. Primo de huiusmodi 
+      <lb ed="#V" n="70"/>opere quantum ad creantem. Secundo quantum 
+      <lb ed="#V" n="71"/>ad rea creatas. 
+    </p>
+            <div xml:id="Gi9qrR-k152473-Dd1e139">
+               <head xml:id="Gi9qrR-k152473-Hd1e141">Articulus 1</head>
+               <p xml:id="Gi9qrR-k152473-d1e143">
+                  <lb ed="#V" n="72"/>ARTIC. I. 
+      <lb ed="#V" n="73"/>An uerba Ceneseos sint ratione 
+      <lb ed="#V" n="74"/>postta. 
+      <lb ed="#V" n="75"/>Conclusio est affirmatiua. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e154">
+                  <lb ed="#V" n="76"/>Drhon. 1. p. 4. 2. aric. 3. oui. olifodlib. 2 fcaten. 
+      <lb ed="#V" n="77"/>q. &amp; tract. 9. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e161">
+                  <lb ed="#V" n="78"/>AD primum sic proceditur. Quae 
+      <lb ed="#V" n="79"/>ritur quare in opere creationis 
+      <lb ed="#V" n="80"/>non dicat Scriptura: Dixit De¬ 
+      <lb ed="#V" n="81"/>us: Creetur coelum, &amp; terra, &amp; 
+      <lb ed="#V" n="82"/>creata sunt, vel facta sunt coe¬ 
+      <lb ed="#V" n="83"/>lum, &amp; terra. cum in omnibus 
+      <lb ed="#V" n="84"/>aliis operationibus distinctionis, &amp; ornatus scri 
+      <lb ed="#V" n="85"/>ptura sic loquatur, iuxta illud: Dixit Deus: Fiat 
+      <lb ed="#V" n="86"/>lux, &amp; facta est lux: Dixit Deus: Fiat firmamen¬ 
+      <lb ed="#V" n="87"/>tum, &amp; factum est firmamentum: Dixit Deus: 
+      <lb ed="#V" n="88"/>Fiant luminaria, &amp;c. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e187">
+                  <lb ed="#V" n="89"/>Et videtur, quod in opere creationis magis de¬ 
+      <lb ed="#V" n="90"/>beat vti his verbis: Dixit Deus, quam in operi¬ 
+      <lb ed="#V" n="91"/>bus distinctionis, &amp; ornatus. Nam nullum opus 
+      <lb ed="#V" n="92"/>creationis potest fieri, nisi a solo Deo, &amp; per so¬ 
+      <lb ed="#V" n="93"/>lum verbum diuinum, quia solus Deus est Crea 
+      <lb ed="#V" n="94"/>tor rerum, opera autem distinctionis, &amp; ornatus 
+      <lb ed="#V" n="95"/>in multis facit Deus per secundas causas, quia 
+      <lb ed="#V" n="96"/>multa distinguit, &amp; ornat mediantibus secundis 
+      <lb ed="#V" n="97"/>agentibus. ergo porisfime in opere creationis de¬ 
+      <lb ed="#V" n="98"/>bemus vti his verbis: Dixit Deus, idest, verbum 
+      <lb ed="#V" n="99"/>genuit, in quo erat. vt fieret. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e214">
+                  <lb ed="#V" n="100"/>Praererea: potissime in opere creationis debe 
+      <lb ed="#V" n="101"/>mus de eo consentire, quod suum dicere est suum 
+      <lb ed="#V" n="102"/>facere. In multis autem alijs operibus dicere pos¬ 
+      <lb ed="#V" n="103"/>sumus, quod suum fari est suum facere, vt in 
+      <lb ed="#V" n="104"/>hoc distinguamus dicere Dei, &amp; fari Dei: vt 
+      <lb ed="#V" n="105"/>suum dicere sit suum verbum gignere: suum ve¬ 
+      <lb ed="#V" n="106"/>ro fari, sit, quod in verbo concepit, per foris cau¬ 
+      <lb ed="#V" n="107"/>sas, idest, per exteriores causas explicare. vn¬ 
+      <lb ed="#V" n="108"/>de fatum secundum Augustinum.5 de Ciuitat. 
+      <lb ed="#V" n="109"/>circa principium potest dicit vis siderum: ve¬ 
+      <lb ed="#V" n="110"/>ordo secundarum causarum, vt quae Deus 
+      <lb ed="#V" n="111"/>in mente concepit, per sidera: &amp; per has 
+      <!--522.xml-->
+      <pb ed="#V" n="522"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>secundas causas quasi fatur, idest foris osten¬ 
+      <lb ed="#V" n="2"/>dit, &amp; operatur. Potissime ergo opus creationis 
+      <lb ed="#V" n="3"/>debemus referre ad diuinum dicere. quia solus 
+      <lb ed="#V" n="4"/>Deus dicendo, &amp; verbum gignendo illud opus 
+      <lb ed="#V" n="5"/>operatur. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e260">
+                  <lb ed="#V" n="6"/>IN CONTRARIVM est, scriptura sa¬ 
+      <lb ed="#V" n="7"/>cra Gen. de qua dicit Augu. 2. super Gen. quod 
+      <lb ed="#V" n="8"/>maior est huius Scripturae Auctoritas, quam to¬ 
+      <lb ed="#V" n="9"/>tius humani ingenii perspicacitas. Cum ergo 
+      <lb ed="#V" n="10"/>illa scriptura in opere creationis vsa sit his ver¬ 
+      <lb ed="#V" n="11"/>bis: In principio creauit Deus coelum, &amp; terram. 
+      <lb ed="#V" n="12"/>in alijs vero operibus vsa sit: Dixit Deus: Fiat, &amp; 
+      <lb ed="#V" n="13"/>factum est, debemus credere, quod totum ratio¬ 
+      <lb ed="#V" n="14"/>nabiliter dictum sit, vt in illo opere creationis 
+      <lb ed="#V" n="15"/>non fiat mentio de dicere Dei, sed in alijs ope¬ 
+      <lb ed="#V" n="16"/>ribus de hoc fiat mentio. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e286">
+                  <lb ed="#V" n="17"/>RESOLVTIO. 
+      <lb ed="#V" n="18"/>Dicitur: In principio creanit Deus, non autem di¬ 
+      <lb ed="#V" n="19"/>citur: Fiat, vel creatur caelum. quia Dens crea¬ 
+      <lb ed="#V" n="20"/>uit dicendo; verbum gignendo: quod verbum di¬ 
+      <lb ed="#V" n="21"/>cendo, &amp; gignendo secit lucem, &amp; alia: cuncta¬ 
+      <lb ed="#V" n="22"/>que facta sunt in verbo, &amp; per verbum: adde 
+      <lb ed="#V" n="23"/>quod informitas materiae fiebat, quae verbo dis¬ 
+      <lb ed="#V" n="24"/>similis est.
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e306">
+                  <lb ed="#V" n="25"/>RESPONDEO, quod August. hanc quae¬ 
+      <lb ed="#V" n="26"/>stionem mouet in primo super Gen. ad litteram 
+      <lb ed="#V" n="27"/>circa principium dicens: Cur ita dictum est: In 
+      <lb ed="#V" n="28"/>principio creauit Deus coelum, &amp; terram: Et non 
+      <lb ed="#V" n="29"/>dictum est: In principio dixit. Fiat coelum, &amp; 
+      <lb ed="#V" n="30"/>terra, &amp; facta sunt coelum, &amp; terra, sicut de lu¬ 
+      <lb ed="#V" n="31"/>ce dixit Deus: Fiat lux, &amp; facta est lux. Assignat 
+      <lb ed="#V" n="32"/>autem Augu. duas rationes ad hoc. Quarum pri¬ 
+      <lb ed="#V" n="33"/>ma potest adaptari ad opinionem illam non ita 
+      <lb ed="#V" n="34"/>communem, videlicet, quod omnia sunt simul 
+      <lb ed="#V" n="35"/>creata, &amp; distincta, quam Aug. videtur magis as¬ 
+      <lb ed="#V" n="36"/>serere. Alia vero ratio potest adaptari ad opinio 
+      <lb ed="#V" n="37"/>nem aliam magis communem, quod omnia fue¬ 
+      <lb ed="#V" n="38"/>runt simul creata in materia informi, sed postea 
+      <lb ed="#V" n="39"/>fuerunt distincta, &amp; ornata per opera sex dierum. 
+      <lb ed="#V" n="40"/>Nos autem assignabimus etiam rationem ter¬ 
+      <lb ed="#V" n="41"/>tiam, quae ad vtranque opinionem poterit ad¬ 
+      <lb ed="#V" n="42"/>aptari. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e348">
+                  <lb ed="#V" n="43"/>Propter primum sciendum, quod cum dici¬ 
+      <lb ed="#V" n="44"/>tur: In principio creauit Deus coelum, &amp; ter¬ 
+      <lb ed="#V" n="45"/>ram. Et postea subdit: Fiat lux, &amp; facta est lux, 
+      <lb ed="#V" n="46"/>&amp; dixit: Deus: Fiat firmamentum, non ostendi¬ 
+      <lb ed="#V" n="47"/>tur ex hoc aliud, &amp; aliud factum: sed per primum 
+      <lb ed="#V" n="48"/>dietum ostendit, quod factum est: per alia dicta 
+      <lb ed="#V" n="49"/>declaratur modus fiendi. Nam in principio fe¬ 
+      <lb ed="#V" n="50"/>cit Deus coelum, &amp; terram. Ibi enim coelum stat 
+      <lb ed="#V" n="51"/>pro coelo Empyreo, vel per coelum intelliguntur 
+      <lb ed="#V" n="52"/>angeli. quia coelum Empyreum secundum Be¬ 
+      <lb ed="#V" n="53"/>dam, &amp; secundum Sanctos statim cum fuit fa¬ 
+      <lb ed="#V" n="54"/>ctum, mox sanctis angelis est repletum. Vel per 
+      <lb ed="#V" n="55"/>coelum intelligitur tora illa moles a globo lu¬ 
+      <!--522.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="56"/>nari: supra quam molem fuerunt creati sandi 
+      <lb ed="#V" n="57"/>Angeli. Per terram vero intelligitur tota moles 
+      <lb ed="#V" n="58"/>a globo lunari infra. idest, omnia haec inferiora 
+      <lb ed="#V" n="59"/>elementa. Est ergo sensus, quod in principio crea¬ 
+      <lb ed="#V" n="60"/>uit Deus coelum, &amp; terram, &amp; creauit hoc mo¬ 
+      <lb ed="#V" n="61"/>do: quia creauit dicendo, &amp; verbum gignendo, 
+      <lb ed="#V" n="62"/>quod verbum dicendo, &amp; gignendo fecit lucem, 
+      <lb ed="#V" n="63"/>&amp; firmamentum, &amp; omnia alla, quae explican¬ 
+      <lb ed="#V" n="64"/>tur per opera sex dierum. Aquia eigo fuit totum 
+      <lb ed="#V" n="65"/>simul factum, non potuit totum simul esse di¬ 
+      <lb ed="#V" n="66"/>ctum. totum ergo fuit simul secundum Augusti 
+      <lb ed="#V" n="67"/>num, &amp; factio rerum, &amp; modus fiendi. Sed non 
+      <lb ed="#V" n="68"/>potuit totum simul dici, sed prius narratur fa¬ 
+      <lb ed="#V" n="69"/>ctio, &amp; creatio rerum, cum dicitur: In principio, 
+      <lb ed="#V" n="70"/>&amp; caet. postea per partes explicatur modus fien¬ 
+      <lb ed="#V" n="71"/>di, quia simul cum coelo, &amp; terra dicendo, &amp; ver¬ 
+      <lb ed="#V" n="72"/>bum gignendo, fecit lucem, &amp; firmamentum, &amp; 
+      <lb ed="#V" n="73"/>alia. Aduertendum ergo, quod iste modus, vel 
+      <lb ed="#V" n="74"/>ista ratio, quare non dicitur: In principio dixit 
+      <lb ed="#V" n="75"/>Deus, &amp; postea sequitur: In alijs: Dixit Deus, con¬ 
+      <lb ed="#V" n="76"/>sonat opinioni Augu. ponentis omnia simul fa¬ 
+      <lb ed="#V" n="77"/>cta, &amp; distincta, quae per Moysem non potue¬ 
+      <lb ed="#V" n="78"/>runt simul esse dicta, &amp; prolata. Aduertendum 
+      <lb ed="#V" n="79"/>etiam, quod secundum Augustinum primo su¬ 
+      <lb ed="#V" n="80"/>per Sen, aliter operatur homo, aliter operatur 
+      <lb ed="#V" n="81"/>Angelus, aliter Deus. Quia homo operatur 
+      <lb ed="#V" n="82"/>motibus corporis, quia mouendo manus, vel 
+      <lb ed="#V" n="83"/>pedes, vel alia organa corporis operatur, etiam 
+      <lb ed="#V" n="84"/>intelligendo, &amp; volendo non potest operari, 
+      <lb ed="#V" n="85"/>nisi motu corporis, quia non potest intelligere, 
+      <lb ed="#V" n="86"/>non facta aliqua motione in organo phantasti¬ 
+      <lb ed="#V" n="87"/>co, quod est organum corporale. Et si non po¬ 
+      <lb ed="#V" n="88"/>test intelligere, sine tali motu, non potest etiam 
+      <lb ed="#V" n="89"/>velle. quia voluntas non potest esse in actu, nisi 
+      <lb ed="#V" n="90"/>intellectus: vel virtus apprehensiua sit in actu, 
+      <lb ed="#V" n="91"/>quia bonum apprehensum est motiuum volun¬ 
+      <lb ed="#V" n="92"/>tatis. Angelus vero operatur motibus temporis, 
+      <lb ed="#V" n="93"/>quia operatur per successionem affectionum, vt 
+      <lb ed="#V" n="94"/>si modo operatur vnum, postmodum operatur 
+      <lb ed="#V" n="95"/>aliud, oportet, quod modo velit vnum, modo ve¬ 
+      <lb ed="#V" n="96"/>lit aliud, quod sine successione, &amp; sine motu ten¬ 
+      <lb ed="#V" n="97"/>poris esse non potest: Vtrum aurem cempus il¬ 
+      <lb ed="#V" n="98"/>lud dicatur aequiuoce cum tempore nostro, non 
+      <lb ed="#V" n="99"/>est praesentis speculationis. Sed Deus operatur 
+      <lb ed="#V" n="100"/>rationibus incommutabilibus, &amp; aeternis, quae 
+      <lb ed="#V" n="101"/>sunt in verbo sibi coaeterno. ergo cum dicitur: In 
+      <lb ed="#V" n="102"/>principio creauit Deus celum, &amp; terram, narran¬ 
+      <lb ed="#V" n="103"/>tur res factae a Deo. Cum postea sequitur: Dixit 
+      <lb ed="#V" n="104"/>Deus: Fiat lux id est verbum genuit, per quod factum 
+      <lb ed="#V" n="105"/>est firmamentum, traditur modus fiendi, quia hoc 
+      <lb ed="#V" n="106"/>modo operatur Deus pes rationes incommuta¬ 
+      <lb ed="#V" n="107"/>biles, quae sunt in verbo sibi coaeterno. Ecce er¬ 
+      <lb ed="#V" n="108"/>go prima ratio, quare in principio creationis non 
+      <lb ed="#V" n="109"/>oportuit dicere: Dixit Deus, quia dixit Deus, per 
+      <lb ed="#V" n="110"/>tinet ad modum fiendi, &amp; in principio omnia¬ 
+      <lb ed="#V" n="111"/>fuerunt facta simul secundum opinionem Aug¬ 
+      <lb ed="#V" n="112"/>postea fuit narratus modus fiendi¬ 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e507">
+                  <lb ed="#V" n="113"/>Secunda autem ratio huius diuersitatis, qua¬ 
+      <lb ed="#V" n="114"/>re non dicitur: In principio dixit Deus: &amp; 
+      <lb ed="#V" n="115"/>Postea de aliis dicitur: Dixit Deus, tangi¬¬ 
+      <lb ed="#V" n="116"/>tut ab eodem Atgustino in dieto libro supet 
+      <!--523.xml-->
+      <pb ed="#V" n="523"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>Gen. quia secundum ipsum primum fiebat in¬ ¬ 
+      <lb ed="#V" n="2"/>formitas materiae, siue spiritualis, siue corpora 
+      <lb ed="#V" n="3"/>lis. Tunc ergo non erat dicendum: Dixit Deus: 
+      <lb ed="#V" n="4"/>Nec erat fienda mentio de verbo, quod gigni¬ 
+      <lb ed="#V" n="5"/>tur, &amp; producitur per dicere Dei. quia infor¬ 
+      <lb ed="#V" n="6"/>mitas, &amp; imperfectio dissimilis est a verbo. Er 
+      <lb ed="#V" n="7"/>go quia in principio, quando Deus creauit coe 
+      <lb ed="#V" n="8"/>lum, &amp; terram, quia fecit materiam adhuc infor 
+      <lb ed="#V" n="9"/>mem, &amp; imperfectam, non erat fienda mentio 
+      <lb ed="#V" n="10"/>de dicere Dei, nec de verbo eius: sed postea, quamn¬ 
+      <lb ed="#V" n="11"/>do fecit lucem, &amp; firmamentum, &amp; incaepit res 
+      <lb ed="#V" n="12"/>perficere, eas distinguendo, vel decorando, fien¬ 
+      <lb ed="#V" n="13"/>da erat mentio de dicere Dei, &amp; verbo eius. Nam 
+      <lb ed="#V" n="14"/>si informitas, &amp; imperfectio dissonant verbo di¬ 
+      <lb ed="#V" n="15"/>uino: distinctio, &amp; formositas sunt consona sibi. 
+      <lb ed="#V" n="16"/>ista autem ratio consonat opinioni communi, 
+      <lb ed="#V" n="17"/>quae prius ponit materiam informem productam, 
+      <lb ed="#V" n="18"/>&amp; postea per interualla om. dierum dixit eam di¬ 
+      <lb ed="#V" n="19"/>stinctam, &amp; ornatam. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e567">
+                  <lb ed="#V" n="20"/>Possumus autem rationem tertiam assignare, 
+      <lb ed="#V" n="21"/>quae ad opi. vtranmque poterit adaptari. Nam am¬ 
+      <lb ed="#V" n="22"/>bae istae rationes concedunt, quod in prima creatio¬ 
+      <lb ed="#V" n="23"/>ne rerum, quae fuit ante omnem diem, non fit 
+      <lb ed="#V" n="24"/>mentio de verbo Dei, sed in alijs operibus, quan¬ 
+      <lb ed="#V" n="25"/>do distinxit, &amp; ornauit, fit huiusmodi mentio. 
+      <lb ed="#V" n="26"/>Nos autem dicere possumus, quod in vtraque fit 
+      <lb ed="#V" n="27"/>mentio de verbo Dei. nam cum dicitur: In prin¬ 
+      <lb ed="#V" n="28"/>cipio creauit &amp;c. secundum vnum modum ex¬ 
+      <lb ed="#V" n="29"/>ponendi, vt August. pluries tangit super Gen¬ 
+      <lb ed="#V" n="30"/>exponetur: In principio, idest in verbo, in quo. 
+      <lb ed="#V" n="31"/>erant rationes incommutabiles omnium crean¬ 
+      <lb ed="#V" n="32"/>dorum, Creauit Deus coelum, &amp; terram. fit er¬ 
+      <lb ed="#V" n="33"/>go mentio de verbo cum dicitur: In principio, 
+      <lb ed="#V" n="34"/>idest in verbo, &amp; fit mentio de verbo cum dici¬ 
+      <lb ed="#V" n="35"/>tur: Dixit Deus, idest verbum genuit, aliter ta¬ 
+      <lb ed="#V" n="36"/>mem, &amp; aliter. Nam cum dicitur: In principio, fit 
+      <lb ed="#V" n="37"/>mentio de verbo obscure, &amp; occulte. Sed cum 
+      <lb ed="#V" n="38"/>dicitur: Dixit Deus, fit mentio de verbo clare, &amp; 
+      <lb ed="#V" n="39"/>aperte. quia nihil est aliud dicere, quam verbum 
+      <lb ed="#V" n="40"/>formare, vel gignere. Ergo cum arguitur: Qua¬ 
+      <lb ed="#V" n="41"/>re in principio, quando Deus creauit res, non 
+      <lb ed="#V" n="42"/>fit mentio de verbo, sed quando distinxit, &amp; or¬ 
+      <lb ed="#V" n="43"/>nauit, fit mentio de verbo; soluemus per inter¬ 
+      <lb ed="#V" n="44"/>emptionem. quia vtrobique fit mentio de ver¬ 
+      <lb ed="#V" n="45"/>bo, primo obscure, &amp; occulte: postea clare, &amp; a¬ 
+      <lb ed="#V" n="46"/>perte. Aduertendum autem, quod ista ratio, 
+      <lb ed="#V" n="47"/>siue ista responsio ad vtranque opinionem ad¬ 
+      <lb ed="#V" n="48"/>aptari potest. Nam siue ponamus res simul es¬ 
+      <lb ed="#V" n="49"/>se productas distinctas, &amp; ornatas: siue per haec 
+      <lb ed="#V" n="50"/>sex dierum volumina fuisse facta, semper conso¬ 
+      <lb ed="#V" n="51"/>nabit, quod debebat primo fieri mentio de verbo oc¬ 
+      <lb ed="#V" n="52"/>culte, &amp; postea clare. Nam &amp; si fuerunt omnia 
+      <lb ed="#V" n="53"/>illa simul, illud prius fuit dictum per quoddam 
+      <lb ed="#V" n="54"/>inuolucrum, &amp; postea fuit per partes declaratum. 
+      <lb ed="#V" n="55"/>Conueniebat itaque, quod prius fieret mentio de¬ 
+      <lb ed="#V" n="56"/>verbo sub quodam inuolucro, &amp; postea clare a¬ 
+      <lb ed="#V" n="57"/>geretur de ipso. si vero illa omnia non fuerunt 
+      <lb ed="#V" n="58"/>simul facta, sed prius fuerunt res productae, &amp; 
+      <lb ed="#V" n="59"/>postea per interualla temporum fuerunt distin¬ 
+      <lb ed="#V" n="60"/>ctae, &amp; ornatae: consequens est, quod res prius 
+      <lb ed="#V" n="61"/>fuerunt occulte in materia productae, &amp; postea 
+      <lb ed="#V" n="62"/>fuerunt per suas species declaratae, &amp; decoratae. 
+      <!--523.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="63"/>Et quia omnia haec fuerunt facta in verbo, &amp; 
+      <lb ed="#V" n="64"/>per verbum, prius fienda erat mentio de verbo 
+      <lb ed="#V" n="65"/>in quadam obscuritate, postea agendum erat de 
+      <lb ed="#V" n="66"/>verbo Dei clare, &amp; distincte. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e676">
+                  <lb ed="#V" n="67"/>RESP. AD ARG. Ad primum dicendum, 
+      <lb ed="#V" n="68"/>quod si in creatione potissime fienda est mentio 
+      <lb ed="#V" n="69"/>de verbo Dei; quia solus Deus potest creare, &amp; 
+      <lb ed="#V" n="70"/>omnia creantur per verbum Dei; patet, quod si¬ 
+      <lb ed="#V" n="71"/>ue teneamus opinionem Aug. quod omnia simul 
+      <lb ed="#V" n="72"/>fuerunt producta distincta, &amp; ornata siue non: ta¬ 
+      <lb ed="#V" n="73"/>men quae potuerunt simul esse facta, non potue¬ 
+      <lb ed="#V" n="74"/>runt per Movsem, nec per aliquem hominem si¬ 
+      <lb ed="#V" n="75"/>mul esse dicta. sed prius fuerunt propositae res 
+      <lb ed="#V" n="76"/>factae in quadam vniuersalitate, &amp; per conse¬ 
+      <lb ed="#V" n="77"/>quens sub quadam obscuritate: &amp; postea fue¬ 
+      <lb ed="#V" n="78"/>runt per partes propositae distincte, &amp; clare, &amp; 
+      <lb ed="#V" n="79"/>quia hoc vtroque modo, videlicet primo obscu¬ 
+      <lb ed="#V" n="80"/>re, postea clare fit mentio de verbo; secundum 
+      <lb ed="#V" n="81"/>hanc opinionem primum argumentum est iam 
+      <lb ed="#V" n="82"/>solutum. Si vero loquamur secundum opinio¬ 
+      <lb ed="#V" n="83"/>nem magisicommunem, quae est aliorum, ma¬ 
+      <lb ed="#V" n="84"/>gis patet sic esse, vt dictum est, &amp; per haec patere 
+      <lb ed="#V" n="85"/>potest solutio ad secundum. 
+    </p>
+            </div>
+            <div xml:id="Gi9qrR-k152473-Dd1e722">
+               <head xml:id="Gi9qrR-k152473-Hd1e724">Articulus 2</head>
+               <p xml:id="Gi9qrR-k152473-d1e726">
+                  <lb ed="#V" n="86"/>ARTIC. II. 
+      <lb ed="#V" n="87"/>An Angeli cum Aundo creati 
+      <lb ed="#V" n="88"/>uerimt. 
+      <lb ed="#V" n="89"/>Conclusio est affirmatiba. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e737">
+                  <lb ed="#V" n="90"/>Aegid. supra Distindt. 2. q. 1. artic. 2. D. Thom. 1. 9. 
+      <lb ed="#V" n="91"/>qu. 6 1. artic. 2. &amp; 3. Et 2. sentent. scri. 3. d. 
+      <lb ed="#V" n="92"/>r2. artic. 2. &amp; 3. Item de Pot. q. 
+      <lb ed="#V" n="93"/>s. art. 1S. &amp; 19. P. Bonall. 
+      <lb ed="#V" n="94"/>d. 13. artic. 1. q. 1. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e750">
+                  <lb ed="#V" n="95"/>SEcVNDo quaeritur de crea¬ 
+      <lb ed="#V" n="96"/>tione quantum ad res creatas. 
+      <lb ed="#V" n="97"/>Et quaeritur de illa creatione, 
+      <lb ed="#V" n="98"/>quae explicatur per opera sex 
+      <lb ed="#V" n="99"/>dierum: Vtrum ibi agatur 
+      <lb ed="#V" n="100"/>de productione angelorum. 
+      <lb ed="#V" n="101"/>Et videtur, quod non per Ma¬ 
+      <lb ed="#V" n="102"/>gistrum in littera dicentem: Haec de angelicae 
+      <lb ed="#V" n="103"/>naturae conditione dicta sufficiant: Nunc su¬ 
+      <lb ed="#V" n="104"/>perest de aliarum quoque rerum creatione, &amp; 
+      <lb ed="#V" n="105"/>praecipue de operibus sex dierum &amp;c. Videtur 
+      <lb ed="#V" n="106"/>ergo, quod opera sex dierum pertineant ad alias 
+      <lb ed="#V" n="107"/>res, quam ad naturam angelicam. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e781">
+                  <lb ed="#V" n="108"/>Praeterea: Dam. 2. lib. cap. 3. loquitur dem 
+      <lb ed="#V" n="109"/>Gregor. Naxianxeno sic ipsum sensisse ange¬ 
+      <lb ed="#V" n="110"/>los conditos esse aute omnem generationem, id¬ 
+      <lb ed="#V" n="111"/>est ante mundum. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e793">
+                  <lb ed="#V" n="112"/>Praeterea Ecclesi. 1. scribitur, quod prior 
+      <lb ed="#V" n="113"/>omnium creata est sapientia, quod Aug. ex¬ 
+      <lb ed="#V" n="114"/>ponit super Gen. ad litteram de sapientia an¬ 
+      <lb ed="#V" n="115"/>gelica. Si ergo prior omnium creata est sa¬ 
+      <lb ed="#V" n="116"/>pientia angelica, ergo creata est ante mun¬ 
+      <lb ed="#V" n="117"/>dum.
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e809">
+      <!--524.xml-->
+                  <pb ed="#V" n="524"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>Praeterea. Isid. primo de summo bono. cap. 
+      <lb ed="#V" n="2"/>1o. ait, &amp; haec sunt verba eius: Ante omnem 
+      <lb ed="#V" n="3"/>mundi creationem creati sunt angeli. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e825">
+                  <lb ed="#V" n="4"/>IN CONTRARIVM est, quod com¬ 
+      <lb ed="#V" n="5"/>muniter ponunt quatuor coaeua, videlicet coe¬ 
+      <lb ed="#V" n="6"/>lum Embrret, Naturaangelica, sempus, &amp; il 
+      <lb ed="#V" n="7"/>la Materia informis. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e836">
+                  <lb ed="#V" n="8"/>Praeterea: heda loquens de coelo Empyreo 
+      <lb ed="#V" n="9"/>dicit, quod mox, quod factum est, sanctis an¬ 
+      <lb ed="#V" n="10"/>gelis est repletum. Non ergo ante, sed simul cum 
+      <lb ed="#V" n="11"/>coelo Empyreo, &amp; simul cum mundo creati sunt 
+      <lb ed="#V" n="12"/>angeli. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e849">
+                  <lb ed="#V" n="13"/>RESOLVTIO. 
+      <lb ed="#V" n="14"/>ungeli cum aundo creatisumnt. Idque ex parrit 
+      <lb ed="#V" n="15"/>huhdi i1si, &amp; ad Peum ratione congruebat. Pem 
+      <lb ed="#V" n="16"/>ipsis autem in Genesi mentio non, nisifiguratiua 
+      <lb ed="#V" n="17"/>locutione ob populi ruditatem, factaffiit.
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e862">
+                  <lb ed="#V" n="18"/>RESPONDEO dicendum, quod in illis 
+      <lb ed="#V" n="19"/>operibus sex dierum creatus est mundus, &amp; om¬ 
+      <lb ed="#V" n="20"/>nia, quae sunt in mundo. Vel si volumus loqui 
+      <lb ed="#V" n="21"/>secundum modum Sanctorum, ante omnem diem 
+      <lb ed="#V" n="22"/>creatus est totus mundus, &amp; omnia quae sunt in 
+      <lb ed="#V" n="23"/>mundo, vel secundum se, sicut angeli, &amp; coelum 
+      <lb ed="#V" n="24"/>Empyreum: vel informem materiam, vt alia cor¬ 
+      <lb ed="#V" n="25"/>poralia postea per dies sex sequentes ex illa infor¬ 
+      <lb ed="#V" n="26"/>mi materia res fuerunt productae indistinctae, &amp; 
+      <lb ed="#V" n="27"/>ornatae. Cum ergo quaeritur: Vtrum in illa crea¬ 
+      <lb ed="#V" n="28"/>tione, quae postea ordinatur per opera sex die¬ 
+      <lb ed="#V" n="29"/>rum, creari sint angeli: vel quod idem est, vtrum 
+      <lb ed="#V" n="30"/>simul cum mundo creati fint, dicere possumus, 
+      <lb ed="#V" n="31"/>quod vel quaeritur: quid factum fuerit, vel quid 
+      <lb ed="#V" n="32"/>fieri potuerit, vel quid congruum fuerit fieri. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e898">
+                  <lb ed="#V" n="33"/>Quantum ad primum sic quaeratur de hoc, 
+      <lb ed="#V" n="34"/>quid factum fuerit, ad hoc potest esse triplex du¬ 
+      <lb ed="#V" n="35"/>bitatio, vel quantum ad rem sactam, idest vtrum 
+      <lb ed="#V" n="36"/>ipsa res, quae est natuta angelica, sit facta cum¬ 
+      <lb ed="#V" n="37"/>mundo: vel quantum ad modum fiendi, vt vtrum 
+      <lb ed="#V" n="38"/>sit facta eo modo, quo sactus est mundus: vel 
+      <lb ed="#V" n="39"/>quantum ad Scripruram sacram, vtrum Scriptu¬ 
+      <lb ed="#V" n="40"/>ra sacra, cum loquitur de factione mundi, lo¬ 
+      <lb ed="#V" n="41"/>quatur de factione angelorum. Propter pri¬ 
+      <lb ed="#V" n="42"/>mum sciendum, quod ipsa natura angelica facta 
+      <lb ed="#V" n="43"/>est simul cum mundo. Vnde Augu. primo su¬ 
+      <lb ed="#V" n="44"/>per Gene. exponens multis modis illud: In prin¬ 
+      <lb ed="#V" n="45"/>cipio: Primo, pro principio, idest pro initio tem¬ 
+      <lb ed="#V" n="46"/>poris. Secundo pro principio, idest ante omnia. 
+      <lb ed="#V" n="47"/>Tertio pro principio idest verbo diuino: ait, quod 
+      <lb ed="#V" n="48"/>in huiusmodi principio creauit Deus coelum, &amp; 
+      <lb ed="#V" n="49"/>terram, idest omnem corporalem creaturam, &amp; 
+      <lb ed="#V" n="50"/>spiritualem. In multis etiam alijs locis adaptans 
+      <lb ed="#V" n="51"/>ista duo: coelum, &amp; terram, dicit, quod in princi¬ 
+      <lb ed="#V" n="52"/>pio creauit Deus coelum, &amp; terram, idest angeli¬ 
+      <lb ed="#V" n="53"/>cam naturam, &amp; terram: idest illam informem, &amp; 
+      <lb ed="#V" n="54"/>confusam materiam. Magister etiam in praesen¬ 
+      <lb ed="#V" n="55"/>ti Distinctione i pluribus locis in littera dicit, in 
+      <lb ed="#V" n="56"/>principic creasse Deum coelum, idest angelos, &amp; 
+      <lb ed="#V" n="57"/>terram, idest materiam quatuor elementorum, 
+      <lb ed="#V" n="58"/>vel totam illam informem materiam. Quare si 
+      <!--524.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="59"/>in principio, id est in initio temporis, &amp; ante omnis,
+      <lb ed="#V" n="60"/>&amp; in verbo creauit Deus coelum, &amp; terrami d est 
+      <lb ed="#V" n="61"/>angelos, &amp; omnem corporalem creaturam, idest 
+      <lb ed="#V" n="62"/>superiorem inferiorem, &amp; interiorem idest me¬ 
+      <lb ed="#V" n="63"/>diam, vt idem Aug. ait in principio super Gene. 
+      <lb ed="#V" n="64"/>cum per corporalem creaturam intelligatur mum 
+      <lb ed="#V" n="65"/>dus, vel in omni corporali creatura intelligatur 
+      <lb ed="#V" n="66"/>siue includatur mundus, patet angelos factos in¬ 
+      <lb ed="#V" n="67"/>initio temporis esse simul cum mundo. Quan¬ 
+      <lb ed="#V" n="68"/>tum ergo ad ipsam rem factam. est quantum ad 
+      <lb ed="#V" n="69"/>ipsam naturam angelicam prout est facta: patet¬ 
+      <lb ed="#V" n="70"/>quod est facta simul cum mundo. Quantum etiam 
+      <lb ed="#V" n="71"/>ad modum fiendi, aliquam similitudinem habet 
+      <lb ed="#V" n="72"/>in factione mundi. quia sicut mundus factus est 
+      <lb ed="#V" n="73"/>cum informi materia, &amp; postea fuit mundus 
+      <lb ed="#V" n="74"/>formatus distinctus, &amp; decoratus, sic ipsa na¬ 
+      <lb ed="#V" n="75"/>tura angelica prius facta fuit informis, &amp; tene¬ 
+      <lb ed="#V" n="76"/>brosa, postea conuersa ad Creatorem, facta est lu¬ 
+      <lb ed="#V" n="77"/>minosa. Vnde Augu. in eodem super Gen. nit, quod 
+      <lb ed="#V" n="78"/>vtraque informis materia: spiritualis, &amp; corpo¬ 
+      <lb ed="#V" n="79"/>ralis dicta est coelum &amp; terra: &amp; subdit, quod spi¬ 
+      <lb ed="#V" n="80"/>ritualis vita in se, non comuersa ad Creatorem, sup¬ 
+      <lb ed="#V" n="81"/>ple, intelligitur per coelum in principio factum. 
+      <lb ed="#V" n="82"/>Et idem ibidem dicit, quod per tenebrosam abyssum 
+      <lb ed="#V" n="83"/>intelligamus naturam vitae spiritualis informem. 
+      <lb ed="#V" n="84"/>ergo sicut mundus prius fuit informis, &amp; postea 
+      <lb ed="#V" n="85"/>formatus: sic natura angelica prius fuit tenebro 
+      <lb ed="#V" n="86"/>sa, &amp; in formis, postea formata fuit &amp; lucida. 
+      <lb ed="#V" n="87"/>Vnde idem Aug. 12. Confess. per coelum in prin¬ 
+      <lb ed="#V" n="88"/>cipio factum intelligit naturam angelicam. Po¬ 
+      <lb ed="#V" n="89"/>stea in 13. per factionem lucis intelligit illumi¬ 
+      <lb ed="#V" n="90"/>nationem angelicae naturae. ergo sicut prius fuit 
+      <lb ed="#V" n="91"/>factum coelum, &amp; postea fuit facta lux: ita prius 
+      <lb ed="#V" n="92"/>fuit facta natura angelica, &amp; postea fuit illu¬ 
+      <lb ed="#V" n="93"/>minata. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1037">
+                  <lb ed="#V" n="94"/>viso quomodo ipsa res, quae est natura ange¬ 
+      <lb ed="#V" n="95"/>licat, fuit simul facta cum mundo: &amp; habito 
+      <lb ed="#V" n="96"/>quomodo modus factionis angelicae assimilatur 
+      <lb ed="#V" n="97"/>modo factionis mundi, volumus ostendero 
+      <lb ed="#V" n="98"/>tertium per comparationem ad Scripturam sa¬ 
+      <lb ed="#V" n="99"/>cram. Vtrum scriptura sacra: cum tractat de 
+      <lb ed="#V" n="100"/>creatione mundi, tracter de creatione naturae an¬ 
+      <lb ed="#V" n="101"/>gelicae. Ad quod dici potest: Aut loquimur se¬ 
+      <lb ed="#V" n="102"/>cundum se, &amp; in propria forma, aut figuratiue, 
+      <lb ed="#V" n="103"/>&amp; sub alio nomine. Si loquimur secundum se, &amp; in 
+      <lb ed="#V" n="104"/>ppria forma, Scriptura sacra, &amp; specialiter scri¬ 
+      <lb ed="#V" n="105"/>ptura Gen. nullam mentionem facit de angelis. 
+      <lb ed="#V" n="106"/>quia Moyses loquebatur secundum August. 
+      <lb ed="#V" n="107"/>populo rudi, &amp; groslo. ideo non est locutus ei de 
+      <lb ed="#V" n="108"/>angelis sub propria forma. quia non potuisset 
+      <lb ed="#V" n="109"/>hoc capere. Sed si loquimur de angelis locutio¬ 
+      <lb ed="#V" n="110"/>ne figuratiua, &amp; sub specie alia, sic in ipsa scri¬ 
+      <lb ed="#V" n="111"/>ptura Gen. fit mentio de angelis. quia per coelum 
+      <lb ed="#V" n="112"/>intelliguntur angeli ad creatorem nondum con¬ 
+      <lb ed="#V" n="113"/>uersi: per lucem factam prima die intelliguntur 
+      <lb ed="#V" n="114"/>angeli per creatorem illuminati: &amp; ad creatorem 
+      <lb ed="#V" n="115"/>iam conuersi. Vnde tanta creditur fuisse moru¬ 
+      <lb ed="#V" n="116"/>la inter angelos creatos, &amp; angelos factos tene¬ 
+      <lb ed="#V" n="117"/>bras per peccatum a Deo auersos, &amp; angelos fa¬ 
+      <lb ed="#V" n="118"/>ctos lucem per gratiam ad dominum conuer¬ 
+      <lb ed="#V" n="119"/>sos: quanta fuit morula inter creationem coeli, 
+      <lb ed="#V" n="120"/>per quod signantur angeli ibidem creati: &amp; inter 
+      <!--525.xml-->
+      <pb ed="#V" n="525"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>creationem lucis diuise a tenebris, per quam 
+      <lb ed="#V" n="2"/>lucem intelliguntur Angeli iam conuersi, &amp; per 
+      <lb ed="#V" n="3"/>tenebras Angeli auersi. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1111">
+                  <lb ed="#V" n="4"/>Postquam declarauimus quantum ad id, quod 
+      <lb ed="#V" n="5"/>factum fuit de productione Angelorum per re¬ 
+      <lb ed="#V" n="6"/>spectum ad productionem mundi, quantum ad 
+      <lb ed="#V" n="7"/>rem factam, &amp; quantum ad modum fiendi, &amp; 
+      <lb ed="#V" n="8"/>quantum ad scripturam sacram, volumus de¬ 
+      <lb ed="#V" n="9"/>clarare hic non solum quantum ad id, quod fa¬ 
+      <lb ed="#V" n="10"/>ctum fuit, sed quantum ad id, quod fieri potuit. 
+      <lb ed="#V" n="11"/>sic enim factum fuit, &amp; sic se habuit veritas, 
+      <lb ed="#V" n="12"/>quod Angeli facti fuerunt cum mundo. Et mo¬ 
+      <lb ed="#V" n="13"/>dus factionis Angelorum assimilatur modo fa¬ 
+      <lb ed="#V" n="14"/>ctionis mundi. Volumus tamen de hac mate¬ 
+      <lb ed="#V" n="15"/>ria loqui quantum ad id, quod fieri potuit. Nul 
+      <lb ed="#V" n="16"/>li enim dubium est, quod potuerunt fieri post 
+      <lb ed="#V" n="17"/>mundum. potuit enim Deus etiam tempore, vel 
+      <lb ed="#V" n="18"/>duratione prius creasse mundum, &amp; postea ere¬ 
+      <lb ed="#V" n="19"/>asse angelos. sed forte dubium videretur: Vtrum 
+      <lb ed="#V" n="20"/>potuissent creari Angeli ante mundum, loquen¬ 
+      <lb ed="#V" n="21"/>do de, ante, duratione, &amp; tempore, ita quod per 
+      <lb ed="#V" n="22"/>aliquam moram cteatio Angelorum praeces¬ 
+      <lb ed="#V" n="23"/>sisset creationem mundi. Videretur namque 
+      <lb ed="#V" n="24"/>forte aliquibus hoc fieri non posse, quia sicut 
+      <lb ed="#V" n="25"/>Angeli non possunt fieri de nihilo materialiter, 
+      <lb ed="#V" n="26"/>vt quod ipsum nihil fiat Angelus, sed possunt fie¬ 
+      <lb ed="#V" n="27"/>ri de nihilo ordinaliter, idest, post nihil, vt post¬ 
+      <lb ed="#V" n="28"/>quam Angelus erat nihil, fiat aliquid, &amp; fiat 
+      <lb ed="#V" n="29"/>Angelus ita, vt videtur, non potest fieri Ange¬ 
+      <lb ed="#V" n="30"/>lus in nihilo localiter, vt quod ipse Angelus 
+      <lb ed="#V" n="31"/>fiat in nihilo, &amp; quod nihil sit locus Angeli. 
+      <lb ed="#V" n="32"/>quare si Angeli fuerunt facti ante mundum, 
+      <lb ed="#V" n="33"/>fuerunt facti in nihilo, cum nullus locus esset, 
+      <lb ed="#V" n="34"/>vbi esse possentr. Aduertendum ergo, quod 
+      <lb ed="#V" n="35"/>Angelus non indiget loco ad sui esse. quod enim 
+      <lb ed="#V" n="36"/>res ipiritualis substantia non indigeret loco, in 
+      <lb ed="#V" n="37"/>quo sit, non solum est verum, sed etiam est com¬ 
+      <lb ed="#V" n="38"/>munis animi conceptio apud sapientes, iuxta il¬ 
+      <lb ed="#V" n="39"/>lud Boet. Communis animi conceptio apud 
+      <lb ed="#V" n="40"/>sapientes est spiritualia in loco non esse. Ad 
+      <lb ed="#V" n="41"/>hanc ergo veritatem declarandam dicamus, 
+      <lb ed="#V" n="42"/>quod tria dicuntur de locato per comparationem 
+      <lb ed="#V" n="43"/>ad locum, videlicet, quod locatum est aequale 
+      <lb ed="#V" n="44"/>suo loco, &amp; econuerso. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1202">
+                  <lb ed="#V" n="45"/>Seundo dicitur de locato, quod conseruan¬ 
+      <lb ed="#V" n="46"/>tur in suo loco, quod potissime intelligendum 
+      <lb ed="#V" n="47"/>est de suo loco proprio, vt grauia conseruantur 
+      <lb ed="#V" n="48"/>deorsum, &amp; leuia sursum. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1213">
+                  <lb ed="#V" n="49"/>Tertio dicitur de locato, quod quiescit in suo 
+      <lb ed="#V" n="50"/>loco. Nam propter hoc locatum mouetur ad 
+      <lb ed="#V" n="51"/>suum locum, vt quiescat ibidem. Secundum 
+      <lb ed="#V" n="52"/>autem haec tria possunt accipi illa tria, quae in 4. 
+      <lb ed="#V" n="53"/>Physico. ponuntur in diffinitione loci, videlicet, 
+      <lb ed="#V" n="54"/>quod locus est vltimum continentis immobi¬ 
+      <lb ed="#V" n="55"/>le. Locus quidem est quid vltimum propter 
+      <lb ed="#V" n="56"/>adaequationem ad locatum. Nam si aliqua res 
+      <lb ed="#V" n="57"/>esset in aere: &amp; aer, vtest corpus, esset locus illius 
+      <lb ed="#V" n="58"/>rei, locus esset maior locato, &amp; si recederet illa 
+      <lb ed="#V" n="59"/>res, cum huius loco esset quid maius seipsa, aer¬ 
+      <lb ed="#V" n="60"/>ergo, vt est corpus, non habet rationem loci: sed 
+      <lb ed="#V" n="61"/>vltima su perficies aeris immediate attingens rem, 
+      <lb ed="#V" n="62"/>quae est in ere, est locus huius rei: ita quod si res 
+      <!--525.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="63"/>sic locata recederet cum suo loco, &amp; huiusmodi 
+      <lb ed="#V" n="64"/>vltima superficie, non esset quid maius, quam es¬ 
+      <lb ed="#V" n="65"/>set prius, ita quod locus est quid vltimum propter 
+      <lb ed="#V" n="66"/>ad aequationem ad locatum. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1259">
+                  <lb ed="#V" n="67"/>Secundo locus est vltimum continentis pro¬ 
+      <lb ed="#V" n="68"/>pter conseruationem, vt quia habet conseruare 
+      <lb ed="#V" n="69"/>locum: vt si sit aliqua res in loco, vbi est apta 
+      <lb ed="#V" n="70"/>nata contineri, magis conseruatur ibidem, quam 
+      <lb ed="#V" n="71"/>alibi. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1273">
+                  <lb ed="#V" n="72"/>Tertio locus est vltimum, continentis immo 
+      <lb ed="#V" n="73"/>bile propter quietationem. nam propter hoc 
+      <lb ed="#V" n="74"/>mouetur locatum ad locum, vt quiescat in lo¬ 
+      <lb ed="#V" n="75"/>co, quare si locus secundum, quod huiusmodi 
+      <lb ed="#V" n="76"/>esset quid mobile, non esset ibi quies. Et inde 
+      <lb ed="#V" n="77"/>est, quodisi nauis sit in flumine, &amp; sit ligata¬ 
+      <lb ed="#V" n="78"/>ad stipitem, magis totus fluuius habebit ra¬ 
+      <lb ed="#V" n="79"/>tionem loci, quam pars fluuii. nam sic ligata 
+      <lb ed="#V" n="80"/>semper erit in eodem loco, quia semper habe¬ 
+      <lb ed="#V" n="81"/>bit eundem ordinem ad totum fluuium, non 
+      <lb ed="#V" n="82"/>autem habebit eundem ordinem ad partes flu¬ 
+      <lb ed="#V" n="83"/>uij, quae semper successiue fluunt sub ipsa. His 
+      <lb ed="#V" n="84"/>visis, dicamus, quod aequalitas locati ad locum 
+      <lb ed="#V" n="85"/>requiritur propter magnitudinem locati, vt tan¬ 
+      <lb ed="#V" n="86"/>tus sit locus, quantum est locatum. sed con¬ 
+      <lb ed="#V" n="87"/>seruatio, &amp; quies locati, in loco requiritur pro¬ 
+      <lb ed="#V" n="88"/>pter indigentiam locati. Et ideo locatum moue¬ 
+      <lb ed="#V" n="89"/>tur ad locum, vt contineatur ibi: &amp; ex hoc con¬ 
+      <lb ed="#V" n="90"/>feruetur, &amp; quiescat ibi, quia propter conser¬ 
+      <lb ed="#V" n="91"/>uationem, &amp; quietem locatum indiget loco. 
+      <lb ed="#V" n="92"/>Omnia autem ista tria concludunt, quod vel 
+      <lb ed="#V" n="93"/>est impossibilitas Angelorum ad locum, vel est nul¬ 
+      <lb ed="#V" n="94"/>la necessitas eorum ad locum. nam quantum ad 
+      <lb ed="#V" n="95"/>commensurationem, &amp; aequationem locati ad 
+      <lb ed="#V" n="96"/>locum, impossibile est Angelos esse in loco, quia 
+      <lb ed="#V" n="97"/>res spiritualis rei corporali, &amp; carens magnitu¬ 
+      <lb ed="#V" n="98"/>dine molis, habenti quantitatem molis aequari 
+      <lb ed="#V" n="99"/>non potest, &amp; secundum hoc verificatur illud di¬ 
+      <lb ed="#V" n="100"/>ctum Boetii, esse conem conceptionem animi apud 
+      <lb ed="#V" n="101"/>sapientes, spiritualia in loco non esse. non enim 
+      <lb ed="#V" n="102"/>spiritualia sunt in loco, nec aequantur loco, quod 
+      <lb ed="#V" n="103"/>est proprium his, quae sunt in loco: sed sunt in lo¬ 
+      <lb ed="#V" n="104"/>co, quia applicant virtutem suam ad locum, vel 
+      <lb ed="#V" n="105"/>quia operantur in loco. Vnde de spiritualibus cum 
+      <lb ed="#V" n="106"/>dicimus: hic sunt; proprie loquendo, deberemus 
+      <lb ed="#V" n="107"/>dicere: hic operantur, vt vult Dam. 1. libr. ca. 1c. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1354">
+                  <lb ed="#V" n="108"/>Quantum vero ad secundum, &amp; tertium, vt 
+      <lb ed="#V" n="109"/>quia mouentur ad locum, vel quia quiescunt in 
+      <lb ed="#V" n="110"/>loco, si volumus hoc ad spiritualia referre, dice¬ 
+      <lb ed="#V" n="111"/>mus, quod locus spirituahum est ipse Deus. ad eum 
+      <lb ed="#V" n="112"/>enim mouemur, &amp; in ipso quiescimus. Iuxta il¬ 
+      <lb ed="#V" n="113"/>lud Ang. circa principium Confes. Ad te nos fe¬ 
+      <lb ed="#V" n="114"/>cisti domine, &amp; inquietum est cor nostrum, do¬ 
+      <lb ed="#V" n="115"/>nec requiescat in te. Et iuxra illud Aug. 12. Con 
+      <lb ed="#V" n="116"/>fess. Quod est amor in spiritualibus, hoc est pon¬ 
+      <lb ed="#V" n="117"/>dus in corporalibus. Et idem ibidem ait: Amor 
+      <lb ed="#V" n="118"/>meus, pondus meum, eo feror, quocunque feror¬ 
+      <lb ed="#V" n="119"/>Spiritualia ergo indigent loco, vt conseruentur 
+      <lb ed="#V" n="120"/>in loco, quia indigent Deo, vt conseruentur in Deo. 
+      <lb ed="#V" n="121"/>Ipsi ent spiritus peruersi conseruari non possunt, ni 
+      <lb ed="#V" n="122"/>si in Deo: &amp; nulla creatura conseruari pont, nisi in 
+      <lb ed="#V" n="123"/>ipso. oibus quidem, quibus indigent spiritualia, in 
+      <lb ed="#V" n="124"/>digent &amp; corpalia, &amp; non ecomuerso. vt si spiritua¬ 
+      <!--526.xml-->
+      <pb ed="#V" n="526"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>lia indigent Deo, vt conseruentur in Deo, sed 
+      <lb ed="#V" n="2"/>si aliqua corporalia indigent aliquo corpore, 
+      <lb ed="#V" n="3"/>vt conseruentur in eo: spiritualia vero, &amp; potis¬ 
+      <lb ed="#V" n="4"/>sime angeli nullo indigent corpore, vt conser¬ 
+      <lb ed="#V" n="5"/>uentur in ipso. Ipsae etiam animae nostrae, licet 
+      <lb ed="#V" n="6"/>sint formae corporis, vt creentur in corpore, ta¬ 
+      <lb ed="#V" n="7"/>men, simpliciter loquendo, non indigent corpo¬ 
+      <lb ed="#V" n="8"/>re, vt conseruentur in ipso. Immo separantur a¬ 
+      <lb ed="#V" n="9"/>corpore, sicut perpetuum a corruptibili, vt pa¬ 
+      <lb ed="#V" n="10"/>tet 2. de anima. Indigent enim animae nostrae 
+      <lb ed="#V" n="11"/>corpore ad quietandum appetitum naturalem, 
+      <lb ed="#V" n="12"/>quem habent ad administrandum corpus, iuxta 
+      <lb ed="#V" n="13"/>illud August. 12. super Genesi. circa finem. 
+      <lb ed="#V" n="14"/>Quod inest animae separatae quidam appeti¬ 
+      <lb ed="#V" n="15"/>tus administrandi corpus: quo apperitu retar¬ 
+      <lb ed="#V" n="16"/>datur quodammodo: ne tota intentione pergat 
+      <lb ed="#V" n="17"/>in ipsum summum coelum. Anima itaque bea¬ 
+      <lb ed="#V" n="18"/>ta separata a corpore propter appetitum natu¬ 
+      <lb ed="#V" n="19"/>ralem, quem habet administrandi corpus: eo ap¬ 
+      <lb ed="#V" n="20"/>petitu retardatur aliqualiter in beatitudine sua, 
+      <lb ed="#V" n="21"/>ne omnino feratur in illud suum coelum, idest 
+      <lb ed="#V" n="22"/>in Deum. Animae ergo nostrae non indigent 
+      <lb ed="#V" n="23"/>corpore, modo, quo dictum est: sed angeli nul¬ 
+      <lb ed="#V" n="24"/>lo istorum modorum indigent corpore. quia 
+      <lb ed="#V" n="25"/>nec conseruantur in corpore, nec habent na¬ 
+      <lb ed="#V" n="26"/>turalem appetitum ad administrandum corpus, 
+      <lb ed="#V" n="27"/>nisi naturalitas appetitus referatur ad obedien¬ 
+      <lb ed="#V" n="28"/>tiam Creatoris, vt in tantum habent naturalem 
+      <lb ed="#V" n="29"/>appetitum administrandi corpora, vt puta mo¬ 
+      <lb ed="#V" n="30"/>uere coelos, &amp; alia corporalia, inquantum ad 
+      <lb ed="#V" n="31"/>hoc ordinantur ex obedientia Creatoris, cui vt 
+      <lb ed="#V" n="32"/>beati sint, naturaliter appetunt obedire. quia 
+      <lb ed="#V" n="33"/>omnis virtus secundum Damascenum est secun¬ 
+      <lb ed="#V" n="34"/>dum naturam: &amp; vitium contra naturam. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1473">
+                  <lb ed="#V" n="35"/>Redeamus ergo ad propositum, &amp; dicamus, quod 
+      <lb ed="#V" n="36"/>quantum ad commensurationem, &amp; adaequa¬ 
+      <lb ed="#V" n="37"/>tionem locatorum ad locum nullo modo an¬ 
+      <lb ed="#V" n="38"/>geli possunt ordinari ad locum: vt autem con¬ 
+      <lb ed="#V" n="39"/>seruentur in loco, nullo modo indigent corpo¬ 
+      <lb ed="#V" n="40"/>re, vel aliquo corporali loco, sed vt moueantur, 
+      <lb ed="#V" n="41"/>&amp; quiescant in loco: sic non corpus aliquod, 
+      <lb ed="#V" n="42"/>sed solus Deus est eorum locus, ad quem non 
+      <lb ed="#V" n="43"/>nisi per amorem mouentur, &amp; quiescunt. Prae¬ 
+      <lb ed="#V" n="44"/>suppnit enim motus ille cognitionem, fit enim 
+      <lb ed="#V" n="45"/>per amorem, vt sicut grauia mouentur, &amp; quie¬ 
+      <lb ed="#V" n="46"/>scunt in loco per pondus: sic spiritus per amo¬ 
+      <lb ed="#V" n="47"/>rem quiescunt in Deo. Ex his autem patere 
+      <lb ed="#V" n="48"/>potest, in quo sit felicitas principaliter anima¬ 
+      <lb ed="#V" n="49"/>rum, &amp; angelorum, quia in amore. Nam si 
+      <lb ed="#V" n="50"/>grauia possent esse beata, beatitudo eorum es¬ 
+      <lb ed="#V" n="51"/>set ex eo, quod mouentur ad centrur, &amp; quie¬ 
+      <lb ed="#V" n="52"/>scunt in centro. Et quia hoc fit per pondus, 
+      <lb ed="#V" n="53"/>vel per grauitatem, consequens est, quod per pon¬ 
+      <lb ed="#V" n="54"/>dus, &amp; per grauitatem contingeret ea esse bea¬ 
+      <lb ed="#V" n="55"/>ta. Sic quia animae, &amp; angeli mouentur ad 
+      <lb ed="#V" n="56"/>Deum, &amp; quiescunt in eo per amorem, in amo¬ 
+      <lb ed="#V" n="57"/>re principaliter consistit eorum felicitas, cum a¬ 
+      <lb ed="#V" n="58"/>mor in spiritualibus sit id, quod pondus in cor¬ 
+      <lb ed="#V" n="59"/>poribus. Ex his autem manifeste colligimus, 
+      <lb ed="#V" n="60"/>quod angeli potuerunt esse ante mundum. quia 
+      <lb ed="#V" n="61"/>nullo modo possunt ordinari ad locum corpo¬ 
+      <lb ed="#V" n="62"/>ralem, vt adaequentur ad ipsum, &amp; nullo mo¬ 
+      <!--526.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="63"/>do indigent loco corporali, vt conseruentur, &amp; 
+      <lb ed="#V" n="64"/>quiescaut in ipso. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1545">
+                  <lb ed="#V" n="65"/>Habito vtrum angeli fuerint creati cum mun¬ 
+      <lb ed="#V" n="66"/>do, quantum ad id, quod factum suit, &amp; osten¬ 
+      <lb ed="#V" n="67"/>so vtrum necesse fuerit eos sic creari, quantum ad 
+      <lb ed="#V" n="68"/>id quod fieri potuit; Volumus declarare ter¬ 
+      <lb ed="#V" n="69"/>tium: vtrum fuerint sic creati, quantum ad id, 
+      <lb ed="#V" n="70"/>quod fieri congruit. Possumus autem assigna¬ 
+      <lb ed="#V" n="71"/>re triplicem congruentiam, quod congruum 
+      <lb ed="#V" n="72"/>fuit eos creari cum mundo, vt sit Vna congruentia 
+      <lb ed="#V" n="73"/>ex connexione partium vniuersi. Secunda ex 
+      <lb ed="#V" n="74"/>ordine huiusmodi partium in se. Tertia ex or¬ 
+      <lb ed="#V" n="75"/>dine talium partium ad Deum. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1571">
+                  <lb ed="#V" n="76"/>Prima congruentia sic patet: Nam si non 
+      <lb ed="#V" n="77"/>fuissent creati angeli simul cum mundo, non fuis¬ 
+      <lb ed="#V" n="78"/>sent a principio connexae partes vniuersi. Cum 
+      <lb ed="#V" n="79"/>ergo principalior pars vniuersi sint spirituales 
+      <lb ed="#V" n="80"/>substantiae; congruum fuit, vt ab ipso primor¬ 
+      <lb ed="#V" n="81"/>dio mundi crearentur angeli cum mundo, &amp; es¬ 
+      <lb ed="#V" n="82"/>sent connexi mundo, vt ab ipso huiusmodi ex¬ 
+      <lb ed="#V" n="83"/>ordio partes vniuersi essent connexae, &amp; ipsa 
+      <lb ed="#V" n="84"/>spiritualia connexa esfent corporalibus crea¬ 
+      <lb ed="#V" n="85"/>turis. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1595">
+                  <lb ed="#V" n="86"/>Secunda congruentia sumitur ex ordine ipsa¬ 
+      <lb ed="#V" n="87"/>rum partium vniuersi ad se inuicem. Nam se¬ 
+      <lb ed="#V" n="88"/>cundum Aug. 3. de Ttinit. per corpora supe¬ 
+      <lb ed="#V" n="89"/>riora reguntur ista inferiora: &amp; per spiritualia 
+      <lb ed="#V" n="90"/>secundum ipsum ibidem reguntur corporalia 
+      <lb ed="#V" n="91"/>omnia. vt ergo iste ordo seruaretur, congruum 
+      <lb ed="#V" n="92"/>fuit, quod ab ipso principio simul cum corpora¬ 
+      <lb ed="#V" n="93"/>li creatura crearetur spiritualis, per quam ad¬ 
+      <lb ed="#V" n="94"/>ministranda erat corporalis. Ex quo vna pars 
+      <lb ed="#V" n="95"/>vniuersi per aliam administranda erat, congruum 
+      <lb ed="#V" n="96"/>fuit, vt simul crearentur, cum per vnam sine alia 
+      <lb ed="#V" n="97"/>huiusmodi administratio, vel huiusmodi regi¬ 
+      <lb ed="#V" n="98"/>men, vel gubernatio esse non posset. Quod si 
+      <lb ed="#V" n="99"/>dicatur, quod creatura spiritualis non statim a¬ 
+      <lb ed="#V" n="100"/>principio mundi incaepit administrare, vel rege¬ 
+      <lb ed="#V" n="101"/>corporalem; dicemus: si non stat im incaepit eam 
+      <lb ed="#V" n="102"/>administrare, statim incaepit eam decorare. quia 
+      <lb ed="#V" n="103"/>mox, cum creatum est coelum Empyreum, lan¬ 
+      <lb ed="#V" n="104"/>ctis angelis est repletum ornantibus, &amp; decoran¬ 
+      <lb ed="#V" n="105"/>tibus ipsum. Quod si angeli a principio non 
+      <lb ed="#V" n="106"/>fuerunt sancti quantum ad gloriam (quia a prin¬ 
+      <lb ed="#V" n="107"/>cipio non sunt creati beati) fuerunt lancti quan¬ 
+      <lb ed="#V" n="108"/>tum ad innocentiam. quia omnes creati sunt in¬ 
+      <lb ed="#V" n="109"/>nocentes: &amp; si ipsam innocentiam vellemus ac¬ 
+      <lb ed="#V" n="110"/>cipere pro quadam beatitudine, a principio om¬ 
+      <lb ed="#V" n="111"/>nes creati sunt beati, idest innocentes. Ex his er¬ 
+      <lb ed="#V" n="112"/>go duobus a principio simul cum mundo fue¬ 
+      <lb ed="#V" n="113"/>runt creati angeli, vt a principio mundum de¬ 
+      <lb ed="#V" n="114"/>corarent, &amp; a principio simul cum eis creatum 
+      <lb ed="#V" n="115"/>esset, quod debebant administrare, vt postea, iuben¬ 
+      <lb ed="#V" n="116"/>te Deo administrarent, &amp; gubernarent illud. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1666">
+                  <lb ed="#V" n="117"/>Tertia quidem congruentia est ex ordine par¬ 
+      <lb ed="#V" n="118"/>tium vniuersi ad Deum. quia, vt concludit Phi¬ 
+      <lb ed="#V" n="119"/>losophus 12. Metaphysicae, totus mundus idest 
+      <lb ed="#V" n="120"/>omnis creatura spiritualis, &amp; corporalis est vnur 
+      <lb ed="#V" n="121"/>principatus: &amp; Deus est vnus Princeps istiur 
+      <lb ed="#V" n="122"/>vnius principatus. vt ergo Deus vnus prin¬ 
+      <lb ed="#V" n="123"/>ceps toti vniuerso principaretur, idest spiritua¬ 
+      <lb ed="#V" n="124"/>libus, &amp; corporalibus creaturis; congrnum erat, 
+      <!--527.xml-->
+      <pb ed="#V" n="527"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>vt totum simul crearetur spiritualis, &amp; corpora¬ 
+      <lb ed="#V" n="2"/>lis creatura. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1697">
+                  <lb ed="#V" n="3"/>RESP. AD ARG. Ad primum dicen¬ 
+      <lb ed="#V" n="4"/>dum, quod opera sex dierum dicuntur alia a pro¬ 
+      <lb ed="#V" n="5"/>ductione spiritualium creaturarum, quia in pro¬ 
+      <lb ed="#V" n="6"/>pria forma, &amp; sub proprio nomine inter opera 
+      <lb ed="#V" n="7"/>sex dierum, vel in creatione mundi, quod fuit an¬ 
+      <lb ed="#V" n="8"/>te omnem diem, non agit de spiritualibus. crea¬ 
+      <lb ed="#V" n="9"/>turis: figuratiue tamen, &amp; sub nomine corpora¬ 
+      <lb ed="#V" n="10"/>lium agitur de eis, quia per creationem coeli: 
+      <lb ed="#V" n="11"/>quod potest intelligi de coelo empyreo, signatur 
+      <lb ed="#V" n="12"/>creatio Angelorum. quia illud coelum mox crea¬ 
+      <lb ed="#V" n="13"/>tum Sanctis Angelis est repletum. Per productio 
+      <lb ed="#V" n="14"/>nem vero lucis potest intelligi perfectio spiritua¬ 
+      <lb ed="#V" n="15"/>lis creaturae, quia cum facta est illa lux conuersa 
+      <lb ed="#V" n="16"/>est spiritualis creatura ad Deum. iuxta illud Aug. 
+      <lb ed="#V" n="17"/>I. super Gen. Ipsa intellectualis vita, quae nisi ad 
+      <lb ed="#V" n="18"/>Creatorem illuminanda conuerteretur, fluctua¬ 
+      <lb ed="#V" n="19"/>ret informiter: conuersa autem illuminata est. 
+    </p>
+               <p xml:id="Gi9qrR-k152473-d1e1736">
+                  <lb ed="#V" n="20"/>Ad id autem de Gregorlo Naxianxeno Angeli 
+      <lb ed="#V" n="21"/>creati ante mundum: Et ad illud de Ecclesiastico, 
+      <lb ed="#V" n="22"/>quod prior omnium creata est Sapientia, idest, 
+      <lb ed="#V" n="23"/>intellectus Angelicus. Et ad illud de Isido. quod 
+      <lb ed="#V" n="24"/>ante omnem mundi creationem creati sunt An¬ 
+      <lb ed="#V" n="25"/>geli: Dicere possumus, quod omnes istae priorita¬ 
+      <lb ed="#V" n="26"/>tes accipiendae sunt non ordine temporis, sed or¬ 
+      <lb ed="#V" n="27"/>dine dignitatis. vnde Isidorus: cum dixisset, ante 
+      <lb ed="#V" n="28"/>ereationem mundi creati sunt Angeli; Subdit, quod 
+      <lb ed="#V" n="29"/>ante omnem creationem Angelorum conditus 
+      <lb ed="#V" n="30"/>est Diabolus, &amp; exponit se, quod istud prius fuit, 
+      <lb ed="#V" n="31"/>ordine praelationis, non temporis quantitate¬. 
+      <lb ed="#V" n="32"/>idest, fuit prius dignitate, non tempore. vnde si¬ 
+      <lb ed="#V" n="33"/>cut Angeli, vt dicit August. 1. super Gen. sunt su¬ 
+      <lb ed="#V" n="34"/>periores coelis, non loco, sed sublimitate naturae. 
+      <lb ed="#V" n="35"/>ita dici potest, quod Angeli creati sunt priores cae¬ 
+      <lb ed="#V" n="36"/>lis, non tempore, sed dignitate naturae. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
