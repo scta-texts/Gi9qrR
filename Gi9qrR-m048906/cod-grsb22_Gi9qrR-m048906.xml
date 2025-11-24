@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="168"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m048906"><!-- l2d21prae -->
+        <head xml:id="Gi9qrR-m048906-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m048906-d1e103">
+          <!--168.xml-->
+          <pb ed="#V" n="168"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>DIST. XXI. 
+          <lb ed="#V" n="2"/>De primorum Parentum lapsu, 
+          <lb ed="#V" n="3"/>eorumque tentatione. 
+        </p>
+        <p xml:id="Gi9qrR-m048906-d1e119">
+          <lb ed="#V" n="4"/>VIDENS ERGO 
+          <lb ed="#V" n="5"/>DIABOLVS. 
+          <lb ed="#V" n="6"/>Postquam Magister 
+          <lb ed="#V" n="7"/>determinauit de 
+          <lb ed="#V" n="8"/>formatione pri¬ 
+          <lb ed="#V" n="9"/>morum Parentum, 
+          <lb ed="#V" n="10"/>&amp; de eorum sta¬ 
+          <lb ed="#V" n="11"/>tu, &amp; de eorum 
+          <lb ed="#V" n="12"/>generatione fi¬ 
+          <lb ed="#V" n="13"/>liorum, quae fuis¬ 
+          <lb ed="#V" n="14"/>set pro illo tem¬ 
+          <lb ed="#V" n="15"/>pore: In parte 
+          <lb ed="#V" n="16"/>ista determinat de eorum casu, &amp; de eorum lap¬ 
+          <lb ed="#V" n="17"/>su. Circa quod duo facit, quia primo determi¬ 
+          <lb ed="#V" n="18"/>nat de huiusmo di lapsu, prout tangit ipsos pri¬ 
+          <lb ed="#V" n="19"/>mos Parentes. Secundo determinat de eo, pout 
+          <lb ed="#V" n="20"/>tangit nos eorum filios: ibi:[ In supertoribus de 
+          <lb ed="#V" n="21"/>rerminat.] Iin prin. 30. dist. Circa primum duo fa¬ 
+          <lb ed="#V" n="22"/>cit, quia primo determinat de impulsu, quem 
+          <lb ed="#V" n="23"/>habuerunt ad peccandum. Secundo determi¬ 
+          <lb ed="#V" n="24"/>nat de auxilio, quod habuerunt ad resistendum, 
+          <lb ed="#V" n="25"/>ibi: INet dustaenter. in princi. dist. 34. Impulsus 
+          <lb ed="#V" n="26"/>autem quem habuerunt ad peccandum fuit ten¬ 
+          <lb ed="#V" n="27"/>tatio, de qua determinando tria facit, quia pri¬ 
+          <lb ed="#V" n="28"/>mo determinat de huiusmodi tentatione, prout 
+          <lb ed="#V" n="29"/>respicit Diabolum tentantem. Secundo deter¬ 
+          <lb ed="#V" n="30"/>minat de ea, prout respicit primos Parentes di¬ 
+          <lb ed="#V" n="31"/>ctam tentationem patientes. Tertio determinat 
+          <lb ed="#V" n="32"/>de ipsa tentatione, prout respicit Dcum permit¬ 
+          <lb ed="#V" n="33"/>tentem. Secunda ibi: [Hic videtur. Iin princ. 33. 
+          <lb ed="#V" n="34"/>dist. Iertia ibi: [Praeterea quaeri.] IPars ergo pri¬ 
+          <lb ed="#V" n="35"/>ma, in qua agitur de primorum Parentum tenta¬ 
+          <lb ed="#V" n="36"/>tione, prout respicit Diabolum tentantem, quae 
+          <lb ed="#V" n="37"/>continet totam praesentem dist. diuiditur in duas 
+          <lb ed="#V" n="38"/>partes, quia primo determinat de ipso Diabolo¬ 
+          <lb ed="#V" n="39"/>icntante. Secundo distinguit species tentatio¬ 
+          <lb ed="#V" n="40"/>num, &amp; ex hoc quaedam declaranda declarat. Se 
+          <lb ed="#V" n="41"/>cunda ibi:[Porro scien dum est. Circa primam 
+          <lb ed="#V" n="42"/>partem, vbi agit de Diabolo tentante, quatuor 
+          <lb ed="#V" n="43"/>facit, quia primo agit de motiuo, quod habuit 
+          <lb ed="#V" n="44"/>Diabolus ad tentandum, quod dicit fuisse inui¬ 
+          <lb ed="#V" n="45"/>diam. Secundo agit de ordine, quem tenuit 
+          <lb ed="#V" n="46"/>Diabolus in tentando. quia primo aggreslus est 
+          <lb ed="#V" n="47"/>debiliorem partem, id est, foeminam, vt, ca supe¬ 
+          <lb ed="#V" n="48"/>rata, superaret virum. Tertio determinat de for¬ 
+          <lb ed="#V" n="49"/>ma, quam assumpsit Diabolus ad tentandum, 
+          <lb ed="#V" n="50"/>quia accepit formam serpentis. Quarto deter¬ 
+          <lb ed="#V" n="51"/>minat de modo tentationis, quem: enuit Diabo¬ 
+          <lb ed="#V" n="52"/>lus in tentando. Secunda ibi: [o: vs enim masi. 
+          <lb ed="#V" n="53"/>tia.] Tertia ibi: [Sed quia illi][Quarta ibi: [Ten¬ 
+          <lb ed="#V" n="54"/>talio autena.]Primae duae partes patent. Iunc 
+          <lb ed="#V" n="55"/>sequitur illa pars. Led quia lin qua determinat, 
+          <lb ed="#V" n="56"/>quod in forma Serpentis processit ad tentandum, 
+          <lb ed="#V" n="57"/>Circa quod quatuor facit, quia primo facit, 
+          <lb ed="#V" n="58"/>quod dictum est. Secundo declarat quare Ser¬ 
+          <lb ed="#V" n="59"/>pens dictus est callidior caeteris, quia hoc non fuit 
+          <!--168.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="60"/>ratione sui, sed ratione astutiae Daemonis existem. 
+          <lb ed="#V" n="61"/>tis in ipso. Tertio declarat quare tentauit per Ser 
+          <lb ed="#V" n="62"/>pentem. Ad quod respondet Magister, quod 
+          <lb ed="#V" n="63"/>non fuit ei permissum ad tentandum sub forma¬, 
+          <lb ed="#V" n="64"/>sub qua posset magis decipere, quia libentius tem 
+          <lb ed="#V" n="65"/>tasset sub specie columbae. Quarto declarat qua¬ 
+          <lb ed="#V" n="66"/>re Eua non horruit Serpentem, &amp; respondet, quod 
+          <lb ed="#V" n="67"/>sciebat ipsum a Deo esse creatum, &amp; ex hoc cre¬ 
+          <lb ed="#V" n="68"/>debat, quod a Deo haberet, quod loqueretur. 
+          <lb ed="#V" n="69"/>Secunda ibi: [Ideos, Serpens. TTertia ibi: [Quen¬ 
+          <lb ed="#V" n="70"/>ramen ad tentandum. ]Quarta ibi: [Hac quaeri se¬ 
+          <lb ed="#V" n="71"/>let. ]Tunc sequitur alia pars: [Tentatio autom. 
+          <lb ed="#V" n="72"/>in qua determinat de modo tentationis, quem 
+          <lb ed="#V" n="73"/>Diabolus tenuit, quia hoc modo tentauit, quia 
+          <lb ed="#V" n="74"/>inueniens eam solam non ausus ab aliquo deter¬ 
+          <lb ed="#V" n="75"/>minato incipere, ince pit ab interrogatione, qua 
+          <lb ed="#V" n="76"/>re praeceperat Deus eis, vt non comederent &amp;c. 
+          <lb ed="#V" n="77"/>Ad quod Eua, &amp; in sua responsione id, quod Deus 
+          <lb ed="#V" n="78"/>dixerat affirmatiue dicens: Quacunque hora co¬ 
+          <lb ed="#V" n="79"/>mederitis, morte moriemini; Eua protulit du¬ 
+          <lb ed="#V" n="80"/>bitatiue dicens: Ne forre moriamur. Diabolus 
+          <lb ed="#V" n="81"/>vero replicauit negatiue negans malum, quod du¬ 
+          <lb ed="#V" n="82"/>bitabat sibi Eua posse prouenire dicens: Nequa 
+          <lb ed="#V" n="83"/>quam moriemini, &amp; asserens duplex bonum, 
+          <lb ed="#V" n="84"/>quod inde eis poterat prouenire subdens: Hinc 
+          <lb ed="#V" n="85"/>eritis sicut dii scientes bonum, &amp; malum. Duo 
+          <lb ed="#V" n="86"/>ergo facit, quia primo facit, quod dictum est. 
+          <lb ed="#V" n="87"/>Secundo ostendit hoc fuisse magnam versutiam 
+          <lb ed="#V" n="88"/>Diaboli, ibi: [Qut ad suam persuasiunem. ITunc, 
+          <lb ed="#V" n="89"/>sequitur illa pars: [Por, o sciendum. Iin qua agit 
+          <lb ed="#V" n="90"/>de speciebus tentationis. Circa quod quonque facit. 
+          <lb ed="#V" n="91"/>quia primo distinguit duas species tentationis &amp;x 
+          <lb ed="#V" n="92"/>teriorem, &amp; interiorem, &amp; concludit ex hoc ma¬ 
+          <lb ed="#V" n="93"/>gnum fuisse peccatum hominis, qui valde im¬ 
+          <lb ed="#V" n="94"/>pulsu cecidit. Secundo ex his, quae dixerat de¬ 
+          <lb ed="#V" n="95"/>clarat quare peccatum hominis fuit remediabi¬ 
+          <lb ed="#V" n="96"/>le, &amp; non peccatum Diaboli. Et respondit: 
+          <lb ed="#V" n="97"/>Quia homo per alium ceciderat, per alium de 
+          <lb ed="#V" n="98"/>bebat resurgere. Tertio etiam ex dictis decla¬ 
+          <lb ed="#V" n="99"/>rat, quare homo fuit redemptus, &amp; non Diabo 
+          <lb ed="#V" n="100"/>lus. Et respondet, quod totum humanum genus 
+          <lb ed="#V" n="101"/>ceciderat, sed non totum Angelorum genus, &amp; 
+          <lb ed="#V" n="102"/>ideo redimi debebat homo, vt non omnes dam¬ 
+          <lb ed="#V" n="103"/>narentur, sed multi ex eis saluarentur. Sicut 
+          <lb ed="#V" n="104"/>multi de Angelis sunt saluati, &amp; multi damnati. 
+          <lb ed="#V" n="105"/>Quarto declarat ordinem praecepti diuini, quod 
+          <lb ed="#V" n="106"/>datum fuit viro, vt per virum pcrueniret ad foe¬ 
+          <lb ed="#V" n="107"/>minam, quem ordinem Diabolus peruertit, 
+          <lb ed="#V" n="108"/>quia primo prostrauit foeminam, vt ea prostra¬ 
+          <lb ed="#V" n="109"/>ta postea prostraret virum. Quinto declarat, 
+          <lb ed="#V" n="110"/>quomodo primi Parentes poterant loqui, &amp; 
+          <lb ed="#V" n="111"/>quomodo poterant loquentes intelligere. Et re¬ 
+          <lb ed="#V" n="112"/>spondet, qnod tales fecerat eos Deus, &amp; tali in¬ 
+          <lb ed="#V" n="113"/>telligentia praeditos, vt loqui scirent, &amp; lo¬ 
+          <lb ed="#V" n="114"/>quentes intelligere possent. Secunda 
+          <lb ed="#V" n="115"/>ibi: [Et tamen] Tertia ibi: [Prae¬ 
+          <lb ed="#V" n="116"/>terea.] Quarta ibi: [Illud 
+          <lb ed="#V" n="117"/>terea.] Quinta ibi: 
+          <lb ed="#V" n="118"/>[sed sequitur.] 
+          <lb ed="#V" n="119"/>Et patent 
+          <lb ed="#V" n="120"/>partes. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

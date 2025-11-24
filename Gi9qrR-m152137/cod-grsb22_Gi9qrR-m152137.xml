@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="515"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m152137"><!-- l2d35q1 -->
+        <head xml:id="Gi9qrR-m152137-Hd1e101">Quaestio 1</head>
+        <head xml:id="Gi9qrR-m152137-Hd1e103" type="question-title">De peccato actuali</head>
+        <p xml:id="Gi9qrR-m152137-d1e106">
+          <lb ed="#V" n="49"/>QVAESTIO I. 
+          <lb ed="#V" n="50"/>De peccato actuali 
+        </p>
+        <p xml:id="Gi9qrR-m152137-d1e113">
+          <lb ed="#V" n="51"/>CIRCA Distinctionem istam quae 
+          <lb ed="#V" n="52"/>ritur de duobus. Primo de ipso 
+          <lb ed="#V" n="53"/>peccato. Seco de effectu peccati. 
+          <lb ed="#V" n="54"/>Circa primum quaeruntur tria. 
+          <lb ed="#V" n="55"/>Nam primo quaeritur de peccato, 
+          <lb ed="#V" n="56"/>put conparatur uel ad suam qui¬ 
+          <lb ed="#V" n="57"/>ditatem, uel ad suam diffinitionem: quia in littera dan¬ 
+          <lb ed="#V" n="58"/>tur tres diffinitiones de peccato. Secundo quaeritur 
+          <lb ed="#V" n="59"/>prout peccatum comparatur ad ipsam actio¬ 
+          <lb ed="#V" n="60"/>nem. Tertio prout comparatur ad passionem. 
+        </p>
+        <div xml:id="Gi9qrR-m152137-Dd1e137">
+          <head xml:id="Gi9qrR-m152137-Hd1e139">Articulus 1</head>
+          <p xml:id="Gi9qrR-m152137-d1e141">
+            <!--515.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="61"/>ARTIC. I. 
+            <lb ed="#V" n="62"/>An peccatum in littera recte¬ 
+            <lb ed="#V" n="63"/>diffiniatur: 
+            <lb ed="#V" n="64"/>Conclusio est affirmatiua.
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e157">
+            <lb ed="#V" n="65"/>nmo2 sontd s 4. 1aatt 1. 4. hid. 433 4. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e162">
+            <lb ed="#V" n="66"/>AD primum sic proceditur: 
+            <lb ed="#V" n="67"/>Videtur, quod peccatum incon¬ 
+            <lb ed="#V" n="68"/>uenienter diffiniatur in litte 
+            <lb ed="#V" n="69"/>ra. Nam diffinitio, ut potest 
+            <lb ed="#V" n="70"/>haberi. ex. 7. Met. est sermo 
+            <lb ed="#V" n="71"/>expressiuus quiditatis, &amp; es¬ 
+            <lb ed="#V" n="72"/>sentiae. quod ergo non habet essentiam: cuius¬ 
+            <lb ed="#V" n="73"/>modi est peccatum: quia nec est existens, nec in 
+            <lb ed="#V" n="74"/>existentibus: non potest habere diffinitionem. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e184">
+            <lb ed="#V" n="75"/>Praeterea diffinitio debet conuerti cum diffi¬ 
+            <lb ed="#V" n="76"/>nito, sed omnes diffinitiones datae de peccato 
+            <lb ed="#V" n="77"/>in littera loquuntur de peccato actuali. Cum ergo¬ 
+            <lb ed="#V" n="78"/>sit triplex peccatum: originale, quod est peccatum 
+            <lb ed="#V" n="79"/>naturale: &amp; peccatum commissionis quod con¬ 
+            <lb ed="#V" n="80"/>sistit in actu: &amp; omissionis, quod consistit in re¬ 
+            <lb ed="#V" n="81"/>cedere ab actu: diffinitiones datae in litera de pec¬ 
+            <lb ed="#V" n="82"/>cato non conuertuntur cum diffinito: quia non 
+            <lb ed="#V" n="83"/>conueniunt omni peccato, sed solum peccato 
+            <lb ed="#V" n="84"/>commissionis, quod consistit in actu. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e209">
+            <lb ed="#V" n="85"/>Praeterea in diffinitione superioris non debet 
+            <lb ed="#V" n="86"/>poni inferius. uidetur enim, quod rectitudo dis¬ 
+            <lb ed="#V" n="87"/>finitionis in hoc consistat, quod quaelibet pars 
+            <lb ed="#V" n="88"/>diffinitionis sit in plus, &amp; totum in eque. quod 
+            <lb ed="#V" n="89"/>uidetur ueritatem habere tam in diffinitione 
+            <lb ed="#V" n="90"/>substantiarum, quam accidentium. sic. nm diffinit 
+            <lb ed="#V" n="91"/>Porphyrius hominem, quod est animal rationa 
+            <lb ed="#V" n="92"/>le mortale, &amp; secundum eum quodlibet istorum 
+            <lb ed="#V" n="93"/>est plusquam homo, sed totum est ineque. Sic etiam 
+            <lb ed="#V" n="94"/>diffinit Philosophus simum in Met. quod est na¬ 
+            <lb ed="#V" n="95"/>sus cauus, sed nasus est plus, quam simus: quia 
+            <lb ed="#V" n="96"/>non omnis nasus est simus, &amp; cauus etiam est in 
+            <lb ed="#V" n="97"/>plus. Sed hoc totum: nasus cauus est in aeque, di¬ 
+            <lb ed="#V" n="98"/>ctum ergo contra legem Dei non debet poni in 
+            <lb ed="#V" n="99"/>diffinitione peccati: quia omne tale dictum est 
+            <lb ed="#V" n="100"/>peccatum, sed non econuerso. ergo etiam nec fa¬ 
+            <lb ed="#V" n="101"/>ctum contra legem debet ibi poni: quia omne ta¬ 
+            <lb ed="#V" n="102"/>le est peccatum, sed non econuerso: sic etiam con¬ 
+            <lb ed="#V" n="103"/>cupitum, debet ibi poni, quia omne tale est pec¬ 
+            <lb ed="#V" n="104"/>catum, sed non econuerso. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e255">
+            <lb ed="#V" n="105"/>Praeterea in diffinitione peccati ponitur iu¬ 
+            <lb ed="#V" n="106"/>stitia, sed iustitia est specialis uirtus, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e262">
+            <lb ed="#V" n="107"/>Praeterea in diffinitione peccati ponitur ino¬ 
+            <lb ed="#V" n="108"/>bedientia, sed inobedientia uidetur esse specia¬ 
+            <lb ed="#V" n="109"/>le uitium, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e271">
+            <lb ed="#V" n="110"/>RESOLVTIO. 
+            <lb ed="#V" n="111"/>Peccati diffinitio prima datur in comparatione ad 
+            <lb ed="#V" n="112"/>Agens. Secunda ad obiectum. Tertia ad Deum.
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e280">
+            <lb ed="#V" n="113"/>RRSPOVDEO dicendum, quod de pctoe dan¬ 
+            <lb ed="#V" n="114"/>tur tres diffinitiones in littera, duae sunt Aug. &amp; 
+            <lb ed="#V" n="115"/>tertia est Ambro. Prima Augu. est, quod pecca¬ 
+            <lb ed="#V" n="116"/>tumest omne dictum, uel fanctum uel cocupitum 
+            <!--516.xml-->
+            <pb ed="#V" n="516"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>contra legem Dei. Secunda est, quod pam est 
+            <lb ed="#V" n="2"/>voluntas recipiendi uel consequendi, quod iusti¬ 
+            <lb ed="#V" n="3"/>tia uetat. Tertia est Ambrosii, quod. pctaae est 
+            <lb ed="#V" n="4"/>punricatio legis diuinae, &amp; caelestium inobedientia 
+            <lb ed="#V" n="5"/>praeceptorum. Sed quo istae tres diffinitiones 
+            <lb ed="#V" n="6"/>sumptae suntysciendum, quod pctmue dicit aliquem a¬ 
+            <lb ed="#V" n="7"/>ctum inordinatum. Actus aunet, secundum quod 
+            <lb ed="#V" n="8"/>hmondi, &amp; specialiter actus animae, in quo habet 
+            <lb ed="#V" n="9"/>esse peccatum, est ab aliquo in aliquid: quia 
+            <lb ed="#V" n="10"/>est ab homine, uel ab aia in aliquod obiectum. 
+            <lb ed="#V" n="11"/>omnis n actio est ab aliquo agente circa aliquam 
+            <lb ed="#V" n="12"/>materiam. &amp; quia peccatum est actio inordinata: 
+            <lb ed="#V" n="13"/>oportet pctamte ad tria comparari, uel ad agens, a 
+            <lb ed="#V" n="14"/>quo est, uel ad materiam, circa quam est uel ad lege¬ 
+            <lb ed="#V" n="15"/>cui contrariat, ex qua contrarietate peccatum 
+            <lb ed="#V" n="16"/>est actus inordinatus, &amp; quia hoc est formale¬ 
+            <lb ed="#V" n="17"/>in peccato, quod sit, quid inordinatum, &amp; quod sit con¬ 
+            <lb ed="#V" n="18"/>tra legem Dei, &amp; contra iustitiam diuinam: opor¬ 
+            <lb ed="#V" n="19"/>tet, quod esse contra legem, &amp; contra iustitiam 
+            <lb ed="#V" n="20"/>ponatur in qualibet diffinitione. Tripliciter er¬ 
+            <lb ed="#V" n="21"/>go poterit diffiniri pctmme, udl, ut conmparatur ad 
+            <lb ed="#V" n="22"/>agens a quo est: uel, ut comnparatur ad obiectum in 
+            <lb ed="#V" n="23"/>quod tendit, uel, ut conmparatur ad legem Dei, &amp; ad 
+            <lb ed="#V" n="24"/>mandata diuina, quibus contradicit: ut conpara 
+            <lb ed="#V" n="25"/>tur ad agens sumitur prima diffinitio. Aug. Nam 
+            <lb ed="#V" n="26"/>ab agente, ut ab honie, uel ab aia: preat esse triplex 
+            <lb ed="#V" n="27"/>actus malus, quia uel est in corde, &amp; tunc est quod 
+            <lb ed="#V" n="28"/>concupitum: uel in ore &amp; tunc est, quid dictum, 
+            <lb ed="#V" n="29"/>uel quid prlatum, uel est in opere, &amp; tunc est quod 
+            <lb ed="#V" n="30"/>factum. Verum quia ista tria non sunt peccata: 
+            <lb ed="#V" n="31"/>nisi ut sunt inordinata, &amp; non sunt inordinata 
+            <lb ed="#V" n="32"/>nisi ut auertant an Deo, &amp; sunt contraria legi di¬ 
+            <lb ed="#V" n="33"/>uinae, ion secundum hec tria, ut auertunt a Deo, 
+            <lb ed="#V" n="34"/>uel ut sunt contraria legi diuine, sumitur prima¬ 
+            <lb ed="#V" n="35"/>diffinitio Aug. uidelicet, quod omne peccatum 
+            <lb ed="#V" n="36"/>est dictum, uel factum &amp;c. Prima ergo diffinitio 
+            <lb ed="#V" n="37"/>Augustini describit peccatum, ut est actus in¬ 
+            <lb ed="#V" n="38"/>ordinatus conparatus ad agens; &amp; quia talis actus 
+            <lb ed="#V" n="39"/>poet esse triplex. Ion data est hoc modo illa diffi¬ 
+            <lb ed="#V" n="40"/>nitio prima. Secunda autem diffinitio data est 
+            <lb ed="#V" n="41"/>de peccato, ut dicit actum inordinatum circs 
+            <lb ed="#V" n="42"/>aliquam materiam, uel circa aliquod obiectum. Nam 
+            <lb ed="#V" n="43"/>semper peccatum est conuersio ad commu¬ 
+            <lb ed="#V" n="44"/>tabile bonum, per quod fit auersio ab incom¬ 
+            <lb ed="#V" n="45"/>mutabili, cui secundum iust itiam debemus esse 
+            <lb ed="#V" n="46"/>subiecti. Ideo iustitia uetat omne, per quod auer¬ 
+            <lb ed="#V" n="47"/>timur a subiectione Dei: &amp; quia iste actus inor¬ 
+            <lb ed="#V" n="48"/>dinatus ad aliquod obiectum, quod habetur 
+            <lb ed="#V" n="49"/>uel in re, uel in spe. oportet, quod sit uolunta¬ 
+            <lb ed="#V" n="50"/>rius, quia aliter non esset peccatum. Ideo Secun¬ 
+            <lb ed="#V" n="51"/>da diffinitio data per comparationem ad obie¬ 
+            <lb ed="#V" n="52"/>ctum, uel spe, uel re, quattuor continet. quia pri¬ 
+            <lb ed="#V" n="53"/>mo continet ipsam uoluntatem, cum dicitur, 
+            <lb ed="#V" n="54"/>quod peccatum est uoluntas Secundo continet 
+            <lb ed="#V" n="55"/>ipsum obiectum, uel ipsum bonum commuta¬ 
+            <lb ed="#V" n="56"/>bile habitum in re, cum dicitur: retinendi. Tertio 
+            <lb ed="#V" n="57"/>continet tale bonum commutabile habitum in 
+            <lb ed="#V" n="58"/>spe: cum subiungitur: uel consequendi. Quarto 
+            <lb ed="#V" n="59"/>&amp; ultimo continet ipsam inordinationem, cum 
+            <lb ed="#V" n="60"/>subinfertur, quod iustitia uetat. Sumitur ergo¬ 
+            <lb ed="#V" n="61"/>secunda diffinitio, uel ex ipso obiecto, ut est 
+            <lb ed="#V" n="62"/>habitum in re, uel in spe. nam uelle retine¬ 
+            <!--516.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>re, quod habet in re, uel uelle consequi quod 
+            <lb ed="#V" n="64"/>habet in spe: si hoc iustitia uetat: est ibi com¬ 
+            <lb ed="#V" n="65"/>pleta ratio peccati. Aduertendum tame, quod iustitiatut 
+            <lb ed="#V" n="66"/>uult Philosophus in. V. Ethicorum potest sumi, uel 
+            <lb ed="#V" n="67"/>specialiter, &amp; sic est iustitia commutatiua, uel di¬ 
+            <lb ed="#V" n="68"/>stributiua. Commutatiua n iustitia etm specialis 
+            <lb ed="#V" n="69"/>quia specialiter respicit emptionem &amp; nummum 
+            <lb ed="#V" n="70"/>&amp; rebe nummatam. Nam pro re nummata habetur num 
+            <lb ed="#V" n="71"/>mus: &amp; nummus est sideiussor noster. Fideiubet 
+            <lb ed="#V" n="72"/>enim nobis, quod quotiescunque uoluerimus 
+            <lb ed="#V" n="73"/>pro numo, habebimus rem nummatam. Sic etiam 
+            <lb ed="#V" n="74"/>iustitia distributiua est iustitia specialis: quia spe¬ 
+            <lb ed="#V" n="75"/>cialiter consistit in distributione bonorum, &amp; 
+            <lb ed="#V" n="76"/>honorum. Debet n. legislator gubernans rem pu¬ 
+            <lb ed="#V" n="77"/>blicam secundum dignitatem, &amp; merita persona¬ 
+            <lb ed="#V" n="78"/>rum dare honores dignis, &amp; excludere idignos 
+            <lb ed="#V" n="79"/>&amp; sicut debet non accipere personas in distribu¬ 
+            <lb ed="#V" n="80"/>tione bonorum, quod det plus de bono realiter, 
+            <lb ed="#V" n="81"/>quo debeat habere: sic non debet esse acceptor pe¬ 
+            <lb ed="#V" n="82"/>sonarum in distributione bonorum, uel poena¬ 
+            <lb ed="#V" n="83"/>rum. Sed est alia iustitia generalis, quae dicitut 
+            <lb ed="#V" n="84"/>iustitia legalis. Nam iustum est, quod existentes sub 
+            <lb ed="#V" n="85"/>lege obseruent legen: sed cum lex praecipiatope¬ 
+            <lb ed="#V" n="86"/>ra omnium uirtutum, &amp; specialiter lex duuina 
+            <lb ed="#V" n="87"/>quae non solum precipit non rapere aliena, sed etiam 
+            <lb ed="#V" n="88"/>distribuere, &amp; conicare propria. Illum ndiuitem 
+            <lb ed="#V" n="89"/>Epulonem non legimus danenatum, quo aliena ac 
+            <lb ed="#V" n="90"/>ceperit, sed quia propria non conincauit Ista ergo¬ 
+            <lb ed="#V" n="91"/>secunda diffinitio sumpta rote obiecti, uel boni¬ 
+            <lb ed="#V" n="92"/>commutabilis habiti, uel in re, uel in spe, ut in¬ 
+            <lb ed="#V" n="93"/>stitia uetat; oportet quod sumatur, prout iustitia 
+            <lb ed="#V" n="94"/>accipitur generaliter fracipiens omnia opera uirtu¬ 
+            <lb ed="#V" n="95"/>tum, &amp; uetans omna opera uitiorum, secundum 
+            <lb ed="#V" n="96"/>quen modum est accepta iustitia: ion est facerecon 
+            <lb ed="#V" n="97"/>tra talem iustitiam, ut ordinat ad Deum facere con¬ 
+            <lb ed="#V" n="98"/>tra legem Dei. Velle ergo retinere bonum habi¬ 
+            <lb ed="#V" n="99"/>rtum, uel consequi non habitum, ut iustitia ue¬ 
+            <lb ed="#V" n="100"/>tat: est idem, quod ut lex uetat. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e519">
+            <lb ed="#V" n="101"/>Tertia animam diffinitio, quo est Ambro. sumiturt 
+            <lb ed="#V" n="102"/>conmparationem ad ipsum Deum, a quo auertit pec¬ 
+            <lb ed="#V" n="103"/>catum, uel per conparationem ad legen diuinam, ud 
+            <lb ed="#V" n="104"/>ad precepta Dei, quibus contrariat poctme. Est er¬ 
+            <lb ed="#V" n="105"/>go pctamne praeuaricatio legis diuinae, &amp; caelestium 
+            <lb ed="#V" n="106"/>inobedientia praeceptorum: ut pruaricatio legis di¬ 
+            <lb ed="#V" n="107"/>uinae, referatur ad ea, quom sunt mala scdem setino¬ 
+            <lb ed="#V" n="108"/>bedientia uero ad ea, quom sunt mala, quia prohibi¬ 
+            <lb ed="#V" n="109"/>ta. Nam inobedientia primi parentis non fuit 
+            <lb ed="#V" n="110"/>de re mala secundum se, sed de re mala, quia pro¬ 
+            <lb ed="#V" n="111"/>hibita. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e546">
+            <lb ed="#V" n="112"/>Vel possumus haec duo: uidelieet trasgresio¬ 
+            <lb ed="#V" n="113"/>nem, &amp; inobedientiam referre ad duo genera pec¬ 
+            <lb ed="#V" n="114"/>catorum, uidelicet ad pctmmem conissionis, quod consi 
+            <lb ed="#V" n="115"/>stit in facere actu malum: &amp; ad potemer omis¬ 
+            <lb ed="#V" n="116"/>sionis, quod consistit in non facere actu bo¬ 
+            <lb ed="#V" n="117"/>num. Nam transgredi importat actum malum¬ 
+            <lb ed="#V" n="118"/>sed inobedientia potest esse in solo desinere ab 
+            <lb ed="#V" n="119"/>actu bono., 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e566">
+            <lb ed="#V" n="120"/>RESP. AD ARG. Ad primum dicendum 
+            <lb ed="#V" n="121"/>quod secundum Philosophum in quarto Me 
+            <lb ed="#V" n="122"/>taphysicae illa scientia, quae considerat de er¬ 
+            <lb ed="#V" n="123"/>te, in eo, quod ens: uel considerat de enti 
+            <lb ed="#V" n="124"/>bus, &amp; de tebus, quae sunt per seentis; hahel¬ 
+            <!--517.xml-->
+            <pb ed="#V" n="517"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>considerare de negatione, de priuatione, &amp; de 
+            <lb ed="#V" n="2"/>contrario, quia omnia ista reducuntur ad ens. 
+            <lb ed="#V" n="3"/>Nam non entia non possunt intelligi, nisi per in¬ 
+            <lb ed="#V" n="4"/>tellectum entis, quia ut nult Philosophus in Elem. 
+            <lb ed="#V" n="5"/>chis semper in non facere intelligitur facere, &amp; 
+            <lb ed="#V" n="6"/>omnino in negatione intelligitur affirmatio. 
+            <lb ed="#V" n="7"/>Non possumus ergo intelligere non ens, nisi in¬ 
+            <lb ed="#V" n="8"/>relligendo ens: eo ergo modo, quo ista reducun¬ 
+            <lb ed="#V" n="9"/>tur ad ens, possunt habere diffinitionem, large lo¬ 
+            <lb ed="#V" n="10"/>quendo de diffinitione. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e607">
+            <lb ed="#V" n="11"/>Ad secundum dicendum, quod peccatum prin¬ 
+            <lb ed="#V" n="12"/>cipaliter dicitur do peccato actuali, per cuius at¬ 
+            <lb ed="#V" n="13"/>tributionem alia peccata habent, quod sint pec¬ 
+            <lb ed="#V" n="14"/>cata. propter quod peccatum originale causatum 
+            <lb ed="#V" n="15"/>est &amp;x peccato actuali. Peccatum omissionis etiam 
+            <lb ed="#V" n="16"/>ad actum reducitur quantum ad intellectum, 
+            <lb ed="#V" n="17"/>quia, ut iam diximus per Philosophum, non pos¬ 
+            <lb ed="#V" n="18"/>sumus intelligere non ficere, nisi intelligendo 
+            <lb ed="#V" n="19"/>facere. Non enim possumus intelligere non ire 
+            <lb ed="#V" n="20"/>ad Ecclesiam quod est omittere actum, nisi inrel¬ 
+            <lb ed="#V" n="21"/>ligamus, quid est ire ad Ecclesiam, quod est face¬ 
+            <lb ed="#V" n="22"/>re actum. sed de hoc in sequenti quaestione dispu¬ 
+            <lb ed="#V" n="23"/>rabitur: Vtrum in peccato omissionis semper fiat 
+            <lb ed="#V" n="24"/>aliquis actus. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e640">
+            <lb ed="#V" n="25"/>Sed ad soluendum argumentum sufficit secun¬ 
+            <lb ed="#V" n="26"/>dum intellectum non posse intelligi desinere ab 
+            <lb ed="#V" n="27"/>actu, nisi intelligendo actum. Nam res habent dis¬ 
+            <lb ed="#V" n="28"/>finiri, ut comparantur ad intellectum. Vel possu¬ 
+            <lb ed="#V" n="29"/>mus dicere, vt communiter dicitur, quod Aug. 
+            <lb ed="#V" n="30"/>accipit actum pro actu, &amp; pro eius opposito. Vt 
+            <lb ed="#V" n="31"/>siue male facias, agendo quod non debes: uel non 
+            <lb ed="#V" n="32"/>agendo, quod debes, totum intelligit actum ma¬ 
+            <lb ed="#V" n="33"/>lum Sic etiam sentiendum est de dicto, &amp; non di¬ 
+            <lb ed="#V" n="34"/>cto, &amp; de uolito, &amp; non uolito, siue de concupi¬ 
+            <lb ed="#V" n="35"/>to, &amp; non concupito. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e666">
+            <lb ed="#V" n="36"/>Ad tertium dicendum, quod partes aliquan¬ 
+            <lb ed="#V" n="37"/>do ponuntur pro toro facere. ergo, uel dicere, uel¬ 
+            <lb ed="#V" n="38"/>concupiscere, siue uelle, quae non debemus, &amp; op¬ 
+            <lb ed="#V" n="39"/>posita istis, id est omittere, quae debemus, sunt pat¬ 
+            <lb ed="#V" n="40"/>tes peccatorum. Propter quod omnia ista ponun¬ 
+            <lb ed="#V" n="41"/>tur pro toto, &amp; aequantur cum toto, quia omne¬ 
+            <lb ed="#V" n="42"/>peccatum fit aliquo istorum modorum, loquen¬ 
+            <lb ed="#V" n="43"/>do de peccato actuali, quod consistit in actu, uel¬ 
+            <lb ed="#V" n="44"/>in omissione actus, quia de peccato originali hic 
+            <lb ed="#V" n="45"/>non agitur. Quod vero addebatut in argumento, 
+            <lb ed="#V" n="46"/>quod in diffinitione quaelibet pars est in plus, quod 
+            <lb ed="#V" n="47"/>diffinitum totum inaeque; Dici debet, quod hoc 
+            <lb ed="#V" n="48"/>est propter ignorantiam nostram. quia non sem¬ 
+            <lb ed="#V" n="49"/>per scimus nominare specialem differentiam: ideo 
+            <lb ed="#V" n="50"/>aliquando circumloquimur eam per plures diffe¬ 
+            <lb ed="#V" n="51"/>rentias: sed si iciremus eam nominare: esser suffi¬ 
+            <lb ed="#V" n="52"/>ciens diffinitio ex duabus partibus: uidelicet ex 
+            <lb ed="#V" n="53"/>genere, &amp; ex specifica differentia. Propter quod 
+            <lb ed="#V" n="54"/>credimus esse sufficientem diffinitionem homi¬ 
+            <lb ed="#V" n="55"/>nis, quod homo est animal rationale. Nam ra¬ 
+            <lb ed="#V" n="56"/>tionale separat nos a bestiis, quae sunt irrariona¬ 
+            <lb ed="#V" n="57"/>les: &amp; ab Angelis, qui proprie non sunt ra¬ 
+            <lb ed="#V" n="58"/>tionales, quia non intelligunt ducurrendo, sed 
+            <lb ed="#V" n="59"/>intellectuales. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e721">
+            <lb ed="#V" n="60"/>Ad quartum dicendum, quod iustitia, quae 
+            <lb ed="#V" n="61"/>ponitur in diffinitione peccati, sumenda est ge¬ 
+            <lb ed="#V" n="62"/>neraliter, cui contrariatur omne peccatum.
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e731">
+            <!--517.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>Et per hoc patet solutio ad quintum, quia in¬ 
+            <lb ed="#V" n="64"/>obedientia mandatorum, vel praeceptorum coe¬ 
+            <lb ed="#V" n="65"/>lestium intelligitur omne peccatum, quia Deus 
+            <lb ed="#V" n="66"/>praecipit cauere omnia mala, &amp; facere omnia 
+            <lb ed="#V" n="67"/>bona. Propter hoc inobedientia, sic generaliter 
+            <lb ed="#V" n="68"/>sumpta includit omnia peccata. Vel si uolu¬ 
+            <lb ed="#V" n="69"/>mus sumere inobedientiam specialiter, sume¬ 
+            <lb ed="#V" n="70"/>mus eam pro omni peccato omissionis: &amp; trans¬ 
+            <lb ed="#V" n="71"/>gressio sumetur pro omni peccato commis¬ 
+            <lb ed="#V" n="72"/>satit quxe duo simu sumpoa indludunt om¬ 
+            <lb ed="#V" n="73"/>nia peccata. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m152137-Dd1e764">
+          <head xml:id="Gi9qrR-m152137-Hd1e766">Articulus 2</head>
+          <p xml:id="Gi9qrR-m152137-d1e768">
+            <lb ed="#V" n="74"/>RTIC. II. 
+            <lb ed="#V" n="75"/>An peccatum in aliquo semper 
+            <lb ed="#V" n="76"/>actu confistar, 
+            <lb ed="#V" n="77"/>Conclusio est negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e779">
+            <lb ed="#V" n="78"/>D. Tho. 1. 4q. 7t. artic. 3. Et 2 sent d3 5. q. 1artic. 3. Gand 
+            <lb ed="#V" n="79"/>QQuol. 14. q. 424. Ric. d. 35 q. 1. Tho. arg. d. 35 d. I 
+            <lb ed="#V" n="80"/>VVIGR.43RqI Qut. 
+            <lb ed="#V" n="81"/>dist. 35. q. 2. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e790">
+            <lb ed="#V" n="82"/>SECVNDO quaeritur de pec¬ 
+            <lb ed="#V" n="83"/>cato, ut comparatur ad actio¬ 
+            <lb ed="#V" n="84"/>nem, siue ad actum. Vtrum 
+            <lb ed="#V" n="85"/>peccatum consistat in aliquo 
+            <lb ed="#V" n="86"/>actu, &amp; uidetur, quod sic per 
+            <lb ed="#V" n="87"/>verba August. posita in littera 
+            <lb ed="#V" n="88"/>quod peccatum est factum, vel dictum, vel cupi¬ 
+            <lb ed="#V" n="89"/>tum contra legem Dei, sed omnia ista dicunt a¬ 
+            <lb ed="#V" n="90"/>ctum: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e812">
+            <lb ed="#V" n="91"/>Praeterea meritum opponitur demerito: sed 
+            <lb ed="#V" n="92"/>ficut loquimur de uno oppositorum: ita debe¬ 
+            <lb ed="#V" n="93"/>mus loqui de reliquo. sed meritum non uidetur 
+            <lb ed="#V" n="94"/>consistere, nisi in actu; ergo demeritum, 
+            <lb ed="#V" n="95"/>quod est peccatum, semper consistit in ali¬ 
+            <lb ed="#V" n="96"/>quo actu. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e829">
+            <lb ed="#V" n="97"/>Praeterea omne malum est in aliquo bono: om¬ 
+            <lb ed="#V" n="98"/>ne bonum est ens, &amp; est aliquid in actu: ergo on¬ 
+            <lb ed="#V" n="99"/>ne malum, &amp; per consequens omne peccatum 
+            <lb ed="#V" n="100"/>est in aliquo ente, vel in aliquo actu. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e840">
+            <lb ed="#V" n="101"/>Praeterea omne peccatum, vel est originale, 
+            <lb ed="#V" n="102"/>vel actuale. sed hic non loquimur de peccato ori¬ 
+            <lb ed="#V" n="103"/>ginali, sed de peccato alio: ergo omne peccatum, 
+            <lb ed="#V" n="104"/>de quo hic loquimur, est actuale. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e851">
+            <lb ed="#V" n="105"/>IN CONIRARIVM est, quod dicit 
+            <lb ed="#V" n="106"/>Ambro. in littera, quod peccatum est coelestium 
+            <lb ed="#V" n="107"/>inobedientia praeceptorum, sed praecepta coe¬ 
+            <lb ed="#V" n="108"/>lestia aliqua sunt affirmatiua praecipientia actum. 
+            <lb ed="#V" n="109"/>aliqua negatiua inhibentia actum. solum ergo 
+            <lb ed="#V" n="110"/>non faciendo, quae iubemur, peccamus: Non 
+            <lb ed="#V" n="111"/>ergo omne peccatum consistit in faciendo actum, 
+            <lb ed="#V" n="112"/>sed aliqua consistunt in non faciendo, &amp; non de¬ 
+            <lb ed="#V" n="113"/>sistendo ab actu. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e873">
+            <lb ed="#V" n="114"/>Praeterea non punitur iuste, nisi peccatum: 
+            <lb ed="#V" n="115"/>Cum ergo non faciendo, quae iubemur, iuste 
+            <lb ed="#V" n="116"/>puniamur: oportet quod uon omnia peccata¬ 
+            <!--518.xml-->
+            <pb ed="#V" n="518"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>consistant in facere, &amp; in aliquo actu, sed 
+            <lb ed="#V" n="2"/>aliqua consistant in non facere, &amp; in cestando 
+            <lb ed="#V" n="3"/>ab actu.
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e895">
+            <lb ed="#V" n="4"/>RESOLVTIO. 
+            <lb ed="#V" n="5"/>connisioni: pcccatim alinuen simper adun ad. 
+            <lb ed="#V" n="6"/>nittit: omissio etsi frequenter, non ta¬ 
+            <lb ed="#V" n="7"/>men semper. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e906">
+            <lb ed="#V" n="8"/>Respondeo dicendum, quod quaestio proposi¬ 
+            <lb ed="#V" n="9"/>ta principaliter mouetur propter peccatum omis¬ 
+            <lb ed="#V" n="10"/>sionis. Certum est enim, quod peccatum comis¬ 
+            <lb ed="#V" n="11"/>sionis consistit in aliquo actu. Sed dubium est: 
+            <lb ed="#V" n="12"/>Vtrum peccatum omissionis semper consistat in 
+            <lb ed="#V" n="13"/>aliquo actu. Circa quod inuenimus triplicem mo¬ 
+            <lb ed="#V" n="14"/>adum dicendi Quidam enim dicunt, quod semper pec¬ 
+            <lb ed="#V" n="15"/>catum omissionis consistit in aliquo actu interio¬ 
+            <lb ed="#V" n="16"/>ri, &amp; exteriori dupliciter: vel praecedente, vel con¬ 
+            <lb ed="#V" n="17"/>comitante. Videtur autem istis quod non possit es¬ 
+            <lb ed="#V" n="18"/>se peccatum omissionis, nisi sit ibi actus uolunta 
+            <lb ed="#V" n="19"/>tis interior: vt si non ire ad Ecclesiam est pecca¬ 
+            <lb ed="#V" n="20"/>tum omissionis: ibi concurri tactus uoluntatis, 
+            <lb ed="#V" n="21"/>quia non uolumus ire ad Ecclesiam. Isti uidentur 
+            <lb ed="#V" n="22"/>habere Aug. pro se. qui diffiniens peccatum, diffi¬ 
+            <lb ed="#V" n="23"/>nit omne tale esse aliquem actum. Videntur etiam 
+            <lb ed="#V" n="24"/>habere Magistrum pro se, qui loquens in littera 
+            <lb ed="#V" n="25"/>de peccato omissionis, quod consistit in non ire, 
+            <lb ed="#V" n="26"/>vel in non credere. vel in aliquo huiusmodi. Sem 
+            <lb ed="#V" n="27"/>per uidetur uelle Magister, quod in istis negati¬ 
+            <lb ed="#V" n="28"/>uis includat aliquid positiuum, &amp; aliquis actus: im 
+            <lb ed="#V" n="29"/>mo secundum istos non solum concurrit ibi actus 
+            <lb ed="#V" n="30"/>interior, sed etiam exterior, vel concomitans, vel¬ 
+            <lb ed="#V" n="31"/>praecedens. Aiunt enim, quod si quis non uadit 
+            <lb ed="#V" n="32"/>ad Ecclesiam, quando tenetur ire, vel aliquid fa¬ 
+            <lb ed="#V" n="33"/>cit tunc, vel aliquid fecit prius, propter quod im¬ 
+            <lb ed="#V" n="34"/>peditur a tali. quia si non vadit, uel aliquid facit 
+            <lb ed="#V" n="35"/>tunc, quia forte ludit, uel est in aliquo solatio, quod 
+            <lb ed="#V" n="36"/>non vult dimittere propter ire ad Ecclesiam, vel¬ 
+            <lb ed="#V" n="37"/>forte aliquid fecit prius, quia nimis uigilauit de 
+            <lb ed="#V" n="38"/>sero, propter quod non potuit ire ad Ecclesiam, ad 
+            <lb ed="#V" n="39"/>dicendum matutinum¬ 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e979">
+            <lb ed="#V" n="40"/>Sed, ut patet, isti considerant quod est per ac¬ 
+            <lb ed="#V" n="41"/>cidens. Accidit enim, quod ad peccatum omis¬ 
+            <lb ed="#V" n="42"/>sionis, per se loquendo, concurrat aliquis actus, 
+            <lb ed="#V" n="43"/>sed in desistere ab actu. Est enim hoc peccatum 
+            <lb ed="#V" n="44"/>faciendo, quod iubemur, uel ad quod tenemur. 
+            <lb ed="#V" n="45"/>Accidit autem huic peccato, quod ipsum praece¬ 
+            <lb ed="#V" n="46"/>dat aliquis actus impediens, vel concomitans ip¬ 
+            <lb ed="#V" n="47"/>sum. quia si homo nihil faciat, vel nihil fecerit, 
+            <lb ed="#V" n="48"/>quod ipsum impediat: ipsum tamen non ire aq 
+            <lb ed="#V" n="49"/>Ecclesiam est peccatum si ad hoc teneatur. Et quod 
+            <lb ed="#V" n="50"/>dicunt de uoluntate, quod ideo peccat non per 
+            <lb ed="#V" n="51"/>gens ad Ecclesiam, quia vult non ire: Dici debet, 
+            <lb ed="#V" n="52"/>quod hoc non oportet, sed sufficit, quod non ve¬ 
+            <lb ed="#V" n="53"/>lit ire. Nam quis tenetur ire ad Ecclesiam in illo¬ 
+            <lb ed="#V" n="54"/>puncto, in quo tenetur, forte nihil cogitat, nec 
+            <lb ed="#V" n="55"/>de ire, nec de non ire: propter quod quantum 
+            <lb ed="#V" n="56"/>ad hoc, nihil uerificatur affirmatiue, nec quod 
+            <lb ed="#V" n="57"/>velit ire, nec quod velit non ire: sed sufficit ad 
+            <lb ed="#V" n="58"/>hoc, quod peccer negatiue, quod non uelit ire. 
+            <lb ed="#V" n="59"/>quod potest verificari, eo nihil cogitante, nec de 
+            <!--518.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>hoc, nec de contrario, &amp; eo non uolente, nec hoc 
+            <lb ed="#V" n="61"/>nec contrarium. Et quod dicunt de impedimen¬ 
+            <lb ed="#V" n="62"/>to patet, quod dato, quod non sit impeditus, nec 
+            <lb ed="#V" n="63"/>de hoc aliquid cogitet, potest omittere ire ad Ec¬ 
+            <lb ed="#V" n="64"/>clesiam, &amp; hoc omittendo peccat. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1040">
+            <lb ed="#V" n="65"/>Est autem secundus modus dicendi in hac 
+            <lb ed="#V" n="66"/>materia, quod in peccato omissionis, non opor¬ 
+            <lb ed="#V" n="67"/>tet, quod concurrat aliquis actus, nec interior, 
+            <lb ed="#V" n="68"/>nec exterior. Nam peccans non eundo ad Eccle¬ 
+            <lb ed="#V" n="69"/>siam non oportet, quod uelit non ire: nec opot 
+            <lb ed="#V" n="70"/>tet, quod impediatur per aliquem actum praece¬ 
+            <lb ed="#V" n="71"/>dentem, uel concomitantem, sed sufficit non ire 
+            <lb ed="#V" n="72"/>ad Ecclesiam ad hoc, quod peccet. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1060">
+            <lb ed="#V" n="73"/>Sed aliqui hoc improbant adducentes di¬ 
+            <lb ed="#V" n="74"/>stum Philosophi in8. Physicorum. quia si ali¬: 
+            <lb ed="#V" n="75"/>quid aliquando non mouetur, oportet darecat 
+            <lb ed="#V" n="76"/>sam, quare tunc mouetur quia si semper essetin¬ 
+            <lb ed="#V" n="77"/>differens, non posset exire in actum, nisi contra¬ 
+            <lb ed="#V" n="78"/>dictoria verificarentur simul moueri, &amp; non 
+            <lb ed="#V" n="79"/>moueri, vel simul ire, &amp; non ire: Propter 
+            <lb ed="#V" n="80"/>quod isti inuenerunt tertium modum dicendi 
+            <lb ed="#V" n="81"/>alium a primo, &amp; secundo. Nam primi quantum 
+            <lb ed="#V" n="82"/>ad peccatum omissionis non considerauerunt 
+            <lb ed="#V" n="83"/>quod est per se. quia, per se loquendo, sufficit non 
+            <lb ed="#V" n="84"/>ire ad hoc, quod quis peccet peccato omissionis. 
+            <lb ed="#V" n="85"/>Secundi considerauerunt, ut dicunt, quod est per 
+            <lb ed="#V" n="86"/>se ad tale peccatum, sed non considerauerunt, 
+            <lb ed="#V" n="87"/>quod est considerandum quantum ad causam, 
+            <lb ed="#V" n="88"/>vel quantum ad occasionem. quia aliqua caula 
+            <lb ed="#V" n="89"/>est, vel saltem aliqua occasio, quare quis omittat 
+            <lb ed="#V" n="90"/>ire ad Ecclesiam: vel omittit quodcunque bo¬ 
+            <lb ed="#V" n="91"/>num, siue illa causa, aut occasio sit intrinseca, siue 
+            <lb ed="#V" n="92"/>extrinseca. Addunt etiam, quod oportet illam 
+            <lb ed="#V" n="93"/>causam, vel occasionem esse voluntariam ad 
+            <lb ed="#V" n="94"/>hoc, quod quis peccet peccato omissionis. Po¬ 
+            <lb ed="#V" n="95"/>nunt enim exemplum, quod si quis omittat ire 
+            <lb ed="#V" n="96"/>ad Ecclesiam, quia cum uellet ire, impeditus est 
+            <lb ed="#V" n="97"/>a lapide cadente super caput eius, qui est actus 
+            <lb ed="#V" n="98"/>exterior, uel a febre, qui est actus interior; non 
+            <lb ed="#V" n="99"/>peccat hoc omittendo. quia istud impedimen¬ 
+            <lb ed="#V" n="100"/>tum non est uoluntarium: sed tunc peccat, quan¬ 
+            <lb ed="#V" n="101"/>do impedimentum est noluntarium. Arguatur 
+            <lb ed="#V" n="102"/>ergo sic. Oportet dare aliquam causam, quare 
+            <lb ed="#V" n="103"/>quis non uadit ad Ecclesiam. quia nihil potest 
+            <lb ed="#V" n="104"/>quis velle, nisi sub ratione boni. Aliqua causa er¬ 
+            <lb ed="#V" n="105"/>go est uoluntaria, quare non vult ire. Nam non 
+            <lb ed="#V" n="106"/>velle ire, de se non potest habere rationem boni. 
+            <lb ed="#V" n="107"/>oportet ergo hoc reduci ad aliquem actum volum 
+            <lb ed="#V" n="108"/>tarium, uel praecedentem tale iter. quia forte vo¬ 
+            <lb ed="#V" n="109"/>luntarie nimis uigilauit, uel quia forte uult lude 
+            <lb ed="#V" n="110"/>re, uel aliter occupatus: semper ergo reducetur 
+            <lb ed="#V" n="111"/>in aliquem actum secundum istos. Oportet ergo¬ 
+            <lb ed="#V" n="112"/>dicere secundum istos tertios, quod bene dicunt 
+            <lb ed="#V" n="113"/>primi, &amp; bene secundi: Et male dicunt primi, &amp; 
+            <lb ed="#V" n="114"/>male secundi. Dene enim dicunt primi quantum 
+            <lb ed="#V" n="115"/>ad causam, quia semper causa omissionis est ali¬ 
+            <lb ed="#V" n="116"/>quis actus: Male dicunt, quantum ad ipsam omis¬ 
+            <lb ed="#V" n="117"/>sionem, quia ipsa omiffio non est aliquis actus. 
+            <lb ed="#V" n="118"/>Sic etiam bene dicunt secundi, quantum ad ipsam¬ 
+            <lb ed="#V" n="119"/>omissionem, quia non est aliquis actus: Et malen¬ 
+            <lb ed="#V" n="120"/>dicunt quantum ad causam, quia semper causa 
+            <lb ed="#V" n="121"/>omissionis est aliquis actus.
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1169">
+            <!--519.xml-->
+            <pb ed="#V" n="519"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Nos autem ponemus quartum modum: vide. 
+            <lb ed="#V" n="2"/>licet, quod vt plurimum causa omissionis est ali¬ 
+            <lb ed="#V" n="3"/>quis actus. sed non oportet, quod semper sit aliqus 
+            <lb ed="#V" n="4"/>actus. Nam homo cum sit bonum deficiens: se po¬ 
+            <lb ed="#V" n="5"/>test habere ad bonum, sicut Deus, qui est bonum 
+            <lb ed="#V" n="6"/>indeficiens se habet malum. Nam Deus nec vult 
+            <lb ed="#V" n="7"/>mala fieri, nec vult mala non fieri. Si. nm vellet ma¬ 
+            <lb ed="#V" n="8"/>la fieri, loquendo de malo culpae, esset actor pec¬ 
+            <lb ed="#V" n="9"/>cati, &amp; eo volente fieret homo deterior. si non vel¬ 
+            <lb ed="#V" n="10"/>let male fieri: totaliter impediret ea, &amp; si non pos¬ 
+            <lb ed="#V" n="11"/>set: videretur non esse opes. Et ion Aug. 11. Ench. 
+            <lb ed="#V" n="12"/>ait cum Deus summe bonus sit: nullo modo sine 
+            <lb ed="#V" n="13"/>ret mali aliquid esse in operibus suis, nisi vsquae aa 
+            <lb ed="#V" n="14"/>Deo esset opus, &amp; bonus, vt bene faceret de ma¬ 
+            <lb ed="#V" n="15"/>lo, vel, quod idem est, vt bona eliceret de malis. sic 
+            <lb ed="#V" n="16"/>&amp; homo se potest habere ad aliquod bonum, vt 
+            <lb ed="#V" n="17"/>puta adire Ecclesiam, quia potest esse in tali pun¬ 
+            <lb ed="#V" n="18"/>cto, quod nec vult, nec non vult tale bonum. quia 
+            <lb ed="#V" n="19"/>forte nihil cogitat de eo in illo puncto, in quo 
+            <lb ed="#V" n="20"/>tenetur ire. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1221">
+            <lb ed="#V" n="21"/>Cum ergo quaeritur: Vtrum peccatum omis¬ 
+            <lb ed="#V" n="22"/>sionis dicat aliquem actum: paret quod per se non 
+            <lb ed="#V" n="23"/>dicit talem actum. Sed utrum dicat talem actum, quam 
+            <lb ed="#V" n="24"/>tum ad causam, patet quod plurimum dicit talen¬ 
+            <lb ed="#V" n="25"/>actum, quia aliquis actus est impediens, quare om¬ 
+            <lb ed="#V" n="26"/>mittit tale bonum, sed non oportet quod semp¬ 
+            <lb ed="#V" n="27"/>sit talis actus. quia si nihil cogitet de tali bono, po¬ 
+            <lb ed="#V" n="28"/>test peccare peccato omissionis, quod peccatum 
+            <lb ed="#V" n="29"/>non reducetur in aliquem actum. quia sufficit so¬ 
+            <lb ed="#V" n="30"/>lum omittere, &amp; negligere ad hoc, quod aliquis 
+            <lb ed="#V" n="31"/>peccet hoc modo. Vnde Philosophus in tertio 
+            <lb ed="#V" n="32"/>Ethicorum uult negligentiam esse puniendam, 
+            <lb ed="#V" n="33"/>quantum ad facere, &amp; quantum ad scire, cum quis 
+            <lb ed="#V" n="34"/>negligit scire, quod debet, uel negligit facere, quod 
+            <lb ed="#V" n="35"/>debet. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1256">
+            <lb ed="#V" n="36"/>Primi ergo non loquuntur per se, nec aspi¬ 
+            <lb ed="#V" n="37"/>ciunt ad id, quod est per se. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1264">
+            <lb ed="#V" n="38"/>Secundi vero, &amp; si aspiciunt ad id, quod est per¬ 
+            <lb ed="#V" n="39"/>se: non loquuntur sufficienter. quia solum lo¬ 
+            <lb ed="#V" n="40"/>quuntur de ipsa omissione non de causa. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1273">
+            <lb ed="#V" n="41"/>Tertii uero non loquuntur uniuersaliter, quia 
+            <lb ed="#V" n="42"/>non semper aliquis actus est causa omissionis, vt 
+            <lb ed="#V" n="43"/>plurimum autem credimus, sic esse, quod aliquis 
+            <lb ed="#V" n="44"/>actus est causa omissionis, uel praecedens, quia ni¬ 
+            <lb ed="#V" n="45"/>mis uigilauit: uel concomitans, quia tunc uult ali¬ 
+            <lb ed="#V" n="46"/>quid agere exterius: uel si non est ibi aliquis actus 
+            <lb ed="#V" n="47"/>exterior, quia uult non ire forte propter laborem 
+            <lb ed="#V" n="48"/>annexum: non est tamem hoc uniuersale. Nec opor¬ 
+            <lb ed="#V" n="49"/>tet semper sic esse, quia potest quis peccare omit¬ 
+            <lb ed="#V" n="50"/>tendo, quod debet, nihil cogitando de hoc, quod 
+            <lb ed="#V" n="51"/>debet, nec uolendo illud, nec contrarium. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1299">
+            <lb ed="#V" n="52"/>Quod uero dicunt aliquam causam esse, quare 
+            <lb ed="#V" n="53"/>quis non vult ire ad Ecclesiam; Dici potest, quod 
+            <lb ed="#V" n="54"/>aliquo homine eodem modo se habente nunc, &amp; 
+            <lb ed="#V" n="55"/>prius: peccat nunc omittendo, &amp; non peccabas 
+            <lb ed="#V" n="56"/>prius. Nam peccatum omissionis, &amp; commissio¬ 
+            <lb ed="#V" n="57"/>nis respiciunt diuersa genera praeceptorum. Nam 
+            <lb ed="#V" n="58"/>peccatum commissionis opponitur praeceptis 
+            <lb ed="#V" n="59"/>tnegatiuis, quia facit non facienda. quia non facit 
+            <lb ed="#V" n="60"/>lacienda. Sed haec praecepta differunt ab illis, quia 
+            <lb ed="#V" n="61"/>praecepta negatiua obligant semper: Affirma¬ 
+            <lb ed="#V" n="62"/>tiua uero obligant pro loco, &amp; tempore. Vt si 
+            <!--519.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>quis tenetur ire ad Ecclesiam: hoc erit certis ho. 
+            <lb ed="#V" n="64"/>ris, &amp; certis temporibus: ergo aliquo se habente 
+            <lb ed="#V" n="65"/>eodem modo nunc, &amp; prius: nulla mutatione 
+            <lb ed="#V" n="66"/>facta in eo, potest peccare peccato omissionis. 
+            <lb ed="#V" n="67"/>Nam si non ibat prius ad Ecclesiam: poterat non 
+            <lb ed="#V" n="68"/>peccare, quia non erat hora eundi. Modo autem 
+            <lb ed="#V" n="69"/>si non uadat: peccat, quia est hora eundi. per 
+            <lb ed="#V" n="70"/>mutationem ergo factam in alio, id est, in coelo, 
+            <lb ed="#V" n="71"/>non in ipso homine, potest contingere, quod 
+            <lb ed="#V" n="72"/>prius non peccabat non eundo, &amp; modo pec¬ 
+            <lb ed="#V" n="73"/>cat. Sed quae possunt contingere ex sola muta¬ 
+            <lb ed="#V" n="74"/>tione facta in alio non ex mutatione facta in pec¬ 
+            <lb ed="#V" n="75"/>cante: non oportet dare actum aliquem in ip¬ 
+            <lb ed="#V" n="76"/>so peccante. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1360">
+            <lb ed="#V" n="77"/>Quod autem dicebatur de August. quod diff¬ 
+            <lb ed="#V" n="78"/>nit omne peccatum per actum; Responderi po¬ 
+            <lb ed="#V" n="79"/>test per id, quod in Olo. ad Rom. 7. dicitur,; 
+            <lb ed="#V" n="80"/>quod operari, &amp; non operari sunt partes eius, 
+            <lb ed="#V" n="81"/>quod est operari. Haec sunt enim verba Qlo. 
+            <lb ed="#V" n="82"/>quod dimittere bonum, id est non operari bonum: 
+            <lb ed="#V" n="83"/>&amp; facere malum, id est, operari malum sunt par¬ 
+            <lb ed="#V" n="84"/>tes eius, quod in operari malum. Nomine er¬ 
+            <lb ed="#V" n="85"/>go actus potest intelligi, siue operari indebite, 
+            <lb ed="#V" n="86"/>quod est peccatum commissionis, siue cessare ab 
+            <lb ed="#V" n="87"/>opere debito, quod est omissionis. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1386">
+            <lb ed="#V" n="88"/>Ad id uero, quod Magister ait, quod nega¬ 
+            <lb ed="#V" n="89"/>tiua, &amp; priuatiua in peccato omissionis inclu¬ 
+            <lb ed="#V" n="90"/>dunt affirmatiuam, &amp; aliquem actum, qui est con¬ 
+            <lb ed="#V" n="91"/>temptus, quia iste contemnit ire, uel saltem uult 
+            <lb ed="#V" n="92"/>non ire; Dici potest, quod Magister loquitur, 
+            <lb ed="#V" n="93"/>vt in pluribus, non tamen oportet semper 
+            <lb ed="#V" n="94"/>sic esse. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1404">
+            <lb ed="#V" n="95"/>RRSP. AD ARO. Ad primum dicendum 
+            <lb ed="#V" n="96"/>de August. quod solutum est per iam dicta. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1412">
+            <lb ed="#V" n="97"/>Ad secundum dicendum, quod bonum con¬ 
+            <lb ed="#V" n="98"/>stat ex tota, &amp; persecta causa: malum autem ex 
+            <lb ed="#V" n="99"/>partibus deficientibus. Ad merendum ergo opor¬ 
+            <lb ed="#V" n="100"/>tet agere, ut debes, &amp; quando debes, &amp; quomo¬ 
+            <lb ed="#V" n="101"/>do debes, &amp; omnia oportet ibi concurrere. sed 
+            <lb ed="#V" n="102"/>ad demerendum sufficit solum cessare ab actu¬ 
+            <lb ed="#V" n="103"/>debito. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1430">
+            <lb ed="#V" n="104"/>Ad tertium dicendum, quod malum semper 
+            <lb ed="#V" n="105"/>est in aliquo bono subiectiue: &amp; tale bonum da¬ 
+            <lb ed="#V" n="106"/>bimus ipsum hominem peccantem peccato omis¬ 
+            <lb ed="#V" n="107"/>sionis, non euntem ad Ecclesiam, quando de¬ 
+            <lb ed="#V" n="108"/>bet ire. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1443">
+            <lb ed="#V" n="109"/>Ad quartum dicendum, quod peccatum omis¬ 
+            <lb ed="#V" n="110"/>sionis non est peccatum originale, nec est directe 
+            <lb ed="#V" n="111"/>peccatum actuale; est tamen actuale per reductio 
+            <lb ed="#V" n="112"/>nem prout sub peccato actuali continetur, 
+            <lb ed="#V" n="113"/>uel agere, quod non debes: uel non age¬ 
+            <lb ed="#V" n="114"/>re, quod debes. Nam peccatum 
+            <lb ed="#V" n="115"/>diffinitur per agere tam com¬ 
+            <lb ed="#V" n="116"/>missionis, quam omis¬ 
+            <lb ed="#V" n="117"/>sionis, vt hoc 
+            <lb ed="#V" n="118"/>modo 
+            <lb ed="#V" n="119"/>etiam peccatum praeter 
+            <lb ed="#V" n="120"/>originale dicatur 
+            <lb ed="#V" n="121"/>actuale. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m152137-Dd1e1475">
+          <head xml:id="Gi9qrR-m152137-Hd1e1477">Articulus 3</head>
+          <p xml:id="Gi9qrR-m152137-d1e1479">
+            <!--520.xml-->
+            <pb ed="#V" n="520"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ARTIC. III 
+            <lb ed="#V" n="2"/>An peccatum in actione magis 
+            <lb ed="#V" n="3"/>quam in passione conssstar. 
+            <lb ed="#V" n="4"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1497">
+            <lb ed="#V" n="5"/>TERTIO quaeritur de peccato per¬ 
+            <lb ed="#V" n="6"/>comparationem ad passionem. 
+            <lb ed="#V" n="7"/>Nam actio, &amp; passio sunt vna¬ 
+            <lb ed="#V" n="8"/>res Illa ergo actio, quae est pec¬ 
+            <lb ed="#V" n="9"/>catum, oportet, quod sit aliqua¬ 
+            <lb ed="#V" n="10"/>passio. Ideo merito quaeretur 
+            <lb ed="#V" n="11"/>in quo consistat magis ratio peccati. Vtrum vt est 
+            <lb ed="#V" n="12"/>actio, vel vt est passio. Et uidetur, quod actus uolun¬ 
+            <lb ed="#V" n="13"/>tatis magis habeat rationem peccati, vt est passio, 
+            <lb ed="#V" n="14"/>quam ut est actio. Nam actio est. vt est a uolunta¬ 
+            <lb ed="#V" n="15"/>te: passio, vt est in uoluntate. sed ex hoc aliquid 
+            <lb ed="#V" n="16"/>est peccatum inquantum corrumpit bonum, sed 
+            <lb ed="#V" n="17"/>magis corrumpit bonum nostrum, vt est in no¬ 
+            <lb ed="#V" n="18"/>bis, quam ut a nobis. quia si esset nobis, &amp; non in 
+            <lb ed="#V" n="19"/>nobis, nullum bonum nostrum corrumperet. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1532">
+            <lb ed="#V" n="20"/>Praeterea subiectum priuationis magis dicitur 
+            <lb ed="#V" n="21"/>priuatum, quam causa efficiens priuationem. im¬ 
+            <lb ed="#V" n="22"/>mo causa efficiens priuationem est agens, &amp; est 
+            <lb ed="#V" n="23"/>in actu voluntas: ergo magis dicetur peccare, vt 
+            <lb ed="#V" n="24"/>est subiectum priuationis, quam ut est efficiens, 
+            <lb ed="#V" n="25"/>sed respectu subiecti, &amp; respectu recipientis actus 
+            <lb ed="#V" n="26"/>dicitur passio: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1550">
+            <lb ed="#V" n="27"/>Praeterea ex malo actu frequentato causat ma¬ 
+            <lb ed="#V" n="28"/>lus habitus: sed malus habitus non causatra ma¬ 
+            <lb ed="#V" n="29"/>lo actu, vt est in agente, sed vt est in recipiente, quia 
+            <lb ed="#V" n="30"/>ex hoc habilitarur ad male agere; ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1562">
+            <lb ed="#V" n="31"/>Praeterea peccatum est carentia boni debiti, 
+            <lb ed="#V" n="32"/>sed talis carentia quaedam passio est: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1569">
+            <lb ed="#V" n="33"/>IN CONTRARIVM est August. 1. de li¬ 
+            <lb ed="#V" n="34"/>bero arbitrio circa principium, vbi distinguit du¬ 
+            <lb ed="#V" n="35"/>plex malum quod facimus &amp; quod patimur. Ma¬ 
+            <lb ed="#V" n="36"/>lum autem, quod facimus, uocat malum culpae. 
+            <lb ed="#V" n="37"/>Quod patimur malum poenae. Culpa ergo, vel¬ 
+            <lb ed="#V" n="38"/>peccatum consistit in ipsa sactione, non in pas¬ 
+            <lb ed="#V" n="39"/>sione. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1587">
+            <lb ed="#V" n="40"/>Praeterea Magister in littera dicit corruptio 
+            <lb ed="#V" n="41"/>nem posse accipi dupliciter: actiue, &amp; passiue. &amp; si¬ 
+            <lb ed="#V" n="42"/>accipitur actiue in agente per uolunratem, habet 
+            <lb ed="#V" n="43"/>rationem culpae: si passiue poenae. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1598">
+            <lb ed="#V" n="44"/>RESOLVTIO 
+            <lb ed="#V" n="45"/>Peccati ratio in actione magis, quam in passione 
+            <lb ed="#V" n="46"/>consistit: &amp; magis in uo untate e mo¬ 
+            <lb ed="#V" n="47"/>uente, quam in bono sibi osten¬ 
+            <lb ed="#V" n="48"/>so alliciente. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1611">
+            <lb ed="#V" n="49"/>RESPONDEO dicendum, quod quaestio 
+            <lb ed="#V" n="50"/>proposita specialiter locum habet de peccato¬ 
+            <lb ed="#V" n="51"/>commissionis. quod semper consistit in aliquo 
+            <lb ed="#V" n="52"/>actu voluntatis inordinato. si ergo uoluntas esset 
+            <lb ed="#V" n="53"/>potentia mere passiua, non posset peccare. quia ab 
+            <lb ed="#V" n="54"/>obiecto exteriori, &amp; a bono commutabili necessi¬ 
+            <!--520.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="55"/>taretur ad volendum: Propter quod August 9
+            <lb ed="#V" n="56"/>super Gen dat differentiam inter homines, &amp; bru¬ 
+            <lb ed="#V" n="57"/>ta. Quia bruta, praesente concupiscibili, de necessi¬ 
+            <lb ed="#V" n="58"/>tate concupiscunt: sed homo propter liberta¬ 
+            <lb ed="#V" n="59"/>tem arbrtrii praesente, concupiscibili, potest non 
+            <lb ed="#V" n="60"/>concupiscere. Bruta ergo, quia in concupiscen¬ 
+            <lb ed="#V" n="61"/>tiis se uidentur habere mere, vt passiua; Ideo 
+            <lb ed="#V" n="62"/>concupiscendo non peccant. Homo vero, quia 
+            <lb ed="#V" n="63"/>per voluntatem respectu voliti non se habet me¬ 
+            <lb ed="#V" n="64"/>retur, vt passiuum. Ideo concupiscendo, quod non 
+            <lb ed="#V" n="65"/>debet, peccat. Ergo si tota causa, quare non po¬ 
+            <lb ed="#V" n="66"/>test peccare brutum, &amp; potest peccare homo¬ 
+            <lb ed="#V" n="67"/>est, quia appetitus in bruto se habet mere, vt pas¬ 
+            <lb ed="#V" n="68"/>siuus: Appetitus in homine, &amp; specialiter appeti¬ 
+            <lb ed="#V" n="69"/>tus intellectiuus non se habet mere, vt passiuus, 
+            <lb ed="#V" n="70"/>vel non se habet, ut de necessitate passiuus: opor¬ 
+            <lb ed="#V" n="71"/>tet quod peccatum magis consistat in actione 
+            <lb ed="#V" n="72"/>quam in passione. Et ut haec clarius appareant: 
+            <lb ed="#V" n="73"/>Dicemus, quod voluntas potest moueri a bono 
+            <lb ed="#V" n="74"/>commutabili dupliciter, vel ut tale bonum mo¬ 
+            <lb ed="#V" n="75"/>uet, ut agens: uel ut mouet, ut finis. Viden¬ 
+            <lb ed="#V" n="76"/>dum est ergo de bono commurabili, ad quod se 
+            <lb ed="#V" n="77"/>conuertit peccator, &amp; peccat. Vtrum peccatum 
+            <lb ed="#V" n="78"/>magis consistat in actu uoluntatis, ut estactio, 
+            <lb ed="#V" n="79"/>vel passio. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1685">
+            <lb ed="#V" n="80"/>Dicemus ergo, quod bonum commutabile 
+            <lb ed="#V" n="81"/>mouet uoluntatem, ut agens, prout est apprehen¬ 
+            <lb ed="#V" n="82"/>sum ab intellectu, sed mouet uoluntatem. ut fi¬ 
+            <lb ed="#V" n="83"/>nis prout habet esse in re extra. haec autem distin¬ 
+            <lb ed="#V" n="84"/>ctio est accepta a Commentatore in i3. ubiatt 
+            <lb ed="#V" n="85"/>quod balneum habet duplicem formam, unam 
+            <lb ed="#V" n="86"/>in anima, &amp; illa est mouens, ut agens: aliam in ma¬ 
+            <lb ed="#V" n="87"/>reria, &amp; illa est mouens, ut finis. Et haec dist. est ex 
+            <lb ed="#V" n="88"/>dem cum dist. quam fecimus, uidelicet, quod. Pu¬ 
+            <lb ed="#V" n="89"/>num commutabile, prout apprehensum est mo¬ 
+            <lb ed="#V" n="90"/>uens, ut agens, sed ut habet esse in se, uel in re tx¬ 
+            <lb ed="#V" n="91"/>tra est mouens, ut finis, sed neutrum horum po¬ 
+            <lb ed="#V" n="92"/>test mouere uoluntatem, nisi uoluntas consen¬ 
+            <lb ed="#V" n="93"/>tiat. Intellectus enim mouet uoluntatem osten¬ 
+            <lb ed="#V" n="94"/>dendo sibi aliquod bonum, &amp; ex hoc allicien¬ 
+            <lb ed="#V" n="95"/>do eam, sed non potest necessitare uolunta¬ 
+            <lb ed="#V" n="96"/>tem, nisi illud bonum sit apprehensum sub 
+            <lb ed="#V" n="97"/>omni ratione boni, sed quod sic apprehendi¬ 
+            <lb ed="#V" n="98"/>tur necessitat uoluntatem, quia non apprehen¬ 
+            <lb ed="#V" n="99"/>ditur hoc modo, nisi ipsa felicitas, &amp; ipsa bea¬ 
+            <lb ed="#V" n="100"/>titudo, quae habet omnem rationem boni, &amp; 
+            <lb ed="#V" n="101"/>quia nihil potest esse non uolitum actu, nisi 
+            <lb ed="#V" n="102"/>sub ratione mali, &amp; nihil uolitum, nisi sub 
+            <lb ed="#V" n="103"/>ratione boni: Ideo quilibet de necessitate vult 
+            <lb ed="#V" n="104"/>esse becatus, &amp; nullus miser. In talibus ergo 
+            <lb ed="#V" n="105"/>non potest esse peccatum in uoluntate, nisi sit 
+            <lb ed="#V" n="106"/>error in intellectu apprehendente sub ratione 
+            <lb ed="#V" n="107"/>omnis boni, vel omnjs mali, &amp; iudicante es¬ 
+            <lb ed="#V" n="108"/>se tale, quod non est tale: sed si non est er¬ 
+            <lb ed="#V" n="109"/>ror in intellectu, non poterit esse peccatum in 
+            <lb ed="#V" n="110"/>voluntate volente inordinate aliquod bonum 
+            <lb ed="#V" n="111"/>commutabile, nisi illud bonum ostendatur 
+            <lb ed="#V" n="112"/>sub duplici ratione, uidelicet ut bonum, quia 
+            <lb ed="#V" n="113"/>delectabile, &amp; ut malum, quia contra legem Dti. 
+            <lb ed="#V" n="114"/>quo posito in potestate uoluntatis est uel consen¬ 
+            <lb ed="#V" n="115"/>tire, quia delectabile, uel dislentire, quia contra 
+            <lb ed="#V" n="116"/>legem Dei. Voluntas ergo, ut mere passiua, non 
+            <!--521.xml-->
+            <pb ed="#V" n="521"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>peccat. quia tale bonum sic apprehensum non po¬ 
+            <lb ed="#V" n="2"/>test mouere voluntatem, nisi voluntas prius se de¬ 
+            <lb ed="#V" n="3"/>terminet per consensum. Nam si non consentien¬ 
+            <lb ed="#V" n="4"/>do moueretur, tunc moueretur inuitem, &amp; esset il¬ 
+            <lb ed="#V" n="5"/>lud peccatum. &amp; non voluntarium, quod est in¬ 
+            <lb ed="#V" n="6"/>conueniens. In ipso ergo consensu, &amp; in ipsa de¬ 
+            <lb ed="#V" n="7"/>terminatione voluntatis, in quo voluntas non om¬ 
+            <lb ed="#V" n="8"/>nino se habet, vt mota ab alio, sed vt mouens, &amp; 
+            <lb ed="#V" n="9"/>deterininans seipsam, consistit ratio peccati. Nam¬ 
+            <lb ed="#V" n="10"/>bonum, extra quod mouet, vt finis: non potest mo¬ 
+            <lb ed="#V" n="11"/>uere voluntatem, nisi vt apprehensum, &amp; vt est mo¬ 
+            <lb ed="#V" n="12"/>uens, vt agens, sed est sic mouens impersecte so¬ 
+            <lb ed="#V" n="13"/>lum voluntatem alliciendo non necessitando. con 
+            <lb ed="#V" n="14"/>pletur ergo ratio peccatiin ipso consensu, in quo 
+            <lb ed="#V" n="15"/>se magis habet voluntas, vt agens, &amp; vt mouens, 
+            <lb ed="#V" n="16"/>quam vt passa, &amp; vt mota. Ratio ergo peccati ma¬ 
+            <lb ed="#V" n="17"/>gis consistit in actione, quam in passione, vel ma¬ 
+            <lb ed="#V" n="18"/>gis consistit in voluntate se mouente, quam in 
+            <lb ed="#V" n="19"/>bono sibi ostenso eam alliciente. Voluntas ergo¬ 
+            <lb ed="#V" n="20"/>non poterit peccare, vt mota a bono, &amp; a necessi¬ 
+            <lb ed="#V" n="21"/>tante, sed solum a bono eam alliciente, quia nul¬ 
+            <lb ed="#V" n="22"/>lus peccat loquendo de peccato actuali in eo, quod 
+            <lb ed="#V" n="23"/>vitare non potest: Mouetur ergo voluntas dupli¬ 
+            <lb ed="#V" n="24"/>citer, quando peccat committendo: videlicet a 
+            <lb ed="#V" n="25"/>bono alliciente, &amp; a seipsa consentiente, &amp; se de¬ 
+            <lb ed="#V" n="26"/>terminante. Primo modo se habet solum, vt pas¬ 
+            <lb ed="#V" n="27"/>sa, &amp; vt mota. Secundo modo, vt agens &amp; vt mo¬ 
+            <lb ed="#V" n="28"/>uens. &amp; quia in hoc, quod consentit, consistit ra¬ 
+            <lb ed="#V" n="29"/>tiopeccati; ldeo talis fatio magis est in actione, 
+            <lb ed="#V" n="30"/>quam in passione. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1840">
+            <lb ed="#V" n="31"/>Sed dices, quod peccatum consistit in duo. 
+            <lb ed="#V" n="32"/>bus: in conuersione, &amp; auersione: &amp; magis consi¬ 
+            <lb ed="#V" n="33"/>stit ratio peccati in auersione, quam in conuersio 
+            <lb ed="#V" n="34"/>ne. sed respectu auersionis voluntas non se ha¬ 
+            <lb ed="#V" n="35"/>bet, vt agens, sed solum, vt patiens, quia licet vo¬ 
+            <lb ed="#V" n="36"/>luntarie se conuertat, &amp; consentiat in conuersio¬ 
+            <lb ed="#V" n="37"/>nem; tamen non voluntarie se auertit, &amp; non con 
+            <lb ed="#V" n="38"/>sentit in auersionem. Ad quod dici potest, quod totum 
+            <lb ed="#V" n="39"/>debet dici voluntarium, &amp; totum debet dici con¬ 
+            <lb ed="#V" n="40"/>sistere in consensu, &amp; in actione. quia postquam 
+            <lb ed="#V" n="41"/>videt homo, quod non potest se conuertere ad 
+            <lb ed="#V" n="42"/>tale bonum, nisi se auertat a Deo: dicitur interpre¬ 
+            <lb ed="#V" n="43"/>tatiue consentire in ipsam auersionem. Interpre¬ 
+            <lb ed="#V" n="44"/>ratur enim Deus, &amp; iudicat peccatorem consen¬ 
+            <lb ed="#V" n="45"/>tire in auersionem, quando magis fibi placet con¬ 
+            <lb ed="#V" n="46"/>uersio, quam displiceat auersio: &amp; quando eligit 
+            <lb ed="#V" n="47"/>conuersionem, non obstante, quod bene uidet, &amp; 
+            <lb ed="#V" n="48"/>cognoscit, quod non potest illam conuersionem 
+            <lb ed="#V" n="49"/>habere sine auersione. Aliquam ergo veritatem 
+            <lb ed="#V" n="50"/>concludit argumentum, videlicet, quod malum est 
+            <lb ed="#V" n="51"/>per accidens, &amp; praeter voluntatem, &amp; praeter in 
+            <lb ed="#V" n="52"/>tentionem. Vt etiam Dio. dicit. Sed istud per ac 
+            <lb ed="#V" n="53"/>cidens, &amp; praeter voluntatem, &amp; praeter intentio¬ 
+            <lb ed="#V" n="54"/>nem non excusat peccatorem, quin debeat dici¬ 
+            <lb ed="#V" n="55"/>voluntarie se auertere, post quam voluntarie se 
+            <lb ed="#V" n="56"/>conuertit. Ad quod de neceflitate sequitur, qod 
+            <lb ed="#V" n="57"/>se auertat. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1901">
+            <lb ed="#V" n="58"/>RESP. AD ARO. Ad primum dicendum qod 
+            <lb ed="#V" n="59"/>argumentum arguit de actu transeunte, sed pec¬ 
+            <lb ed="#V" n="60"/>catum, vt est in voluntate, est actus non transiens. 
+            <lb ed="#V" n="61"/>Propter quod est a uoluntate, &amp; in voluntate, &amp; 
+            <lb ed="#V" n="62"/>nisi esset a uoluntate, non esset in uoluntate. Pro¬ 
+            <!--521.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>pter quod prius intelligitur esse, a, quam, in. Ad 
+            <lb ed="#V" n="64"/>formam autem arguendi, quod peccatum magis cor¬ 
+            <lb ed="#V" n="65"/>rumpit, vt estin uoluntate, quam a voluntate. Ve¬ 
+            <lb ed="#V" n="66"/>rum est in actibus transeuntibus quando separa 
+            <lb ed="#V" n="67"/>tur a abi in. Sed quando sunt coniuncta, &amp; sunt 
+            <lb ed="#V" n="68"/>actus non transcuntrs, megis est corrurtio, vtest 
+            <lb ed="#V" n="69"/>ab a, quam, vt est ab, in. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1934">
+            <lb ed="#V" n="70"/>Ad secundum dicendum, quod actio est ab agen¬ 
+            <lb ed="#V" n="71"/>te, &amp; est in passo: &amp; quando non est actio uan¬ 
+            <lb ed="#V" n="72"/>siens, si per talem actionem sequatur priuatio, 
+            <lb ed="#V" n="73"/>agens priuat seipsum, &amp; quiasic est talis priuatio, 
+            <lb ed="#V" n="74"/>magis attribuenda est agenti, quam patienti, sicut 
+            <lb ed="#V" n="75"/>potentia. Vt patet ex quinto, magis dicitur de 
+            <lb ed="#V" n="76"/>actiua, quam de passiua, quia non dicitur de pas¬ 
+            <lb ed="#V" n="77"/>siua, nisi per comparationem ad actinam. 
+            <lb ed="#V" n="78"/>Ad tertium dicendum, quod per actus transenn¬ 
+            <lb ed="#V" n="79"/>tes non causatur habitus. Nam si ex frequenter 
+            <lb ed="#V" n="80"/>citharixare efficirur aliquis citharista, hoc non 
+            <lb ed="#V" n="81"/>erit ex actu transeunte, ur ex motu, qui est in ci¬ 
+            <lb ed="#V" n="82"/>thara. Sed ex actu non transeunte, id est, ex motu, 
+            <lb ed="#V" n="83"/>qui est in manu. Nam manus frequenter mora 
+            <lb ed="#V" n="84"/>ad citharixandum habilitatur, &amp; adgeneratur in 
+            <lb ed="#V" n="85"/>ea habitus ad talem actum. Ergo non obstante, quod 
+            <lb ed="#V" n="86"/>citharixatio est actus transiens: habilitas tamen¬ 
+            <lb ed="#V" n="87"/>manus ad citharixandum adgeneratur ex actu¬ 
+            <lb ed="#V" n="88"/>non transeunte. Sic in proposito: dato, quod ad 
+            <lb ed="#V" n="89"/>actum voluntatis non transeuntem sequatur ali¬ 
+            <lb ed="#V" n="90"/>quis actus transiens; habilitas tamen voluntatis 
+            <lb ed="#V" n="91"/>adgenerabitur ex actu non transeunte: Propter 
+            <lb ed="#V" n="92"/>quod illeactus erita uoluntate, &amp; in uoluntate. 
+            <lb ed="#V" n="93"/>vt habet rationem mali, magis erita, quam in quia 
+            <lb ed="#V" n="94"/>non esset in, nisi effet, a. 
+          </p>
+          <p xml:id="Gi9qrR-m152137-d1e1991">
+            <lb ed="#V" n="95"/>Ad quartum dicendum, quod carentia boni licet 
+            <lb ed="#V" n="96"/>sit in voluntate: est etiam a volunrate: &amp; princi¬ 
+            <lb ed="#V" n="97"/>palius est talis carentia a voluntate, quam in: &amp; 
+            <lb ed="#V" n="98"/>principalius habetrationem mali, vt esba, quam, in. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

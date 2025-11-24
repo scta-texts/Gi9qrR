@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="593"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m175585"><!-- l2d39q3 -->
+        <head xml:id="Gi9qrR-m175585-Hd1e101">Quaestio 3</head>
+        <head xml:id="Gi9qrR-m175585-Hd1e103" type="question-title">De conscientia</head>
+        <p xml:id="Gi9qrR-m175585-d1e106">
+          <!--593.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="60"/>QVAEST. III. 
+          <lb ed="#V" n="61"/>De Conscientia. 
+        </p>
+        <p xml:id="Gi9qrR-m175585-d1e117">
+          <lb ed="#V" n="62"/>POSTEA quaeritur de tertio prin¬ 
+          <lb ed="#V" n="63"/>cipaliter. sut de conscientia. Circa¬ 
+          <lb ed="#V" n="64"/>quam quaeruntur tria. Primo 
+          <lb ed="#V" n="65"/>quid sit conscientia: Vtrum sit 
+          <lb ed="#V" n="66"/>habitus, vel actus, vel potentia, 
+          <lb ed="#V" n="67"/>vel quid sit. Secundo quaeretur 
+          <lb ed="#V" n="68"/>de errore eius: Vtrum conscientia possit errare. 
+          <lb ed="#V" n="69"/>Tertio de obligatione eius: Vtrum conscientia er¬ 
+          <lb ed="#V" n="70"/>ronea liget. 
+        </p>
+        <div xml:id="Gi9qrR-m175585-Dd1e139">
+          <head xml:id="Gi9qrR-m175585-Hd1e141">Articulus 1</head>
+          <p xml:id="Gi9qrR-m175585-d1e143">
+            <lb ed="#V" n="71"/>ARTIC. I. 
+            <lb ed="#V" n="72"/>An conscientia sit potentia in¬ 
+            <lb ed="#V" n="73"/>tellectiua. 
+            <lb ed="#V" n="74"/>Conclusio est negatiua.
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e154">
+            <lb ed="#V" n="75"/>Tho Ant d.39. q. 1. artic3 piaeld. 13q4 1.
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e159">
+            <lb ed="#V" n="76"/>AD primum sic proceditur, videtur, quod 
+            <lb ed="#V" n="77"/>conscientia sit potentia, quia non est 
+            <lb ed="#V" n="78"/>subiectum vitii nisi potentia, quia ha¬ 
+            <lb ed="#V" n="79"/>bitus non est subiectum vitii, vel vit¬ 
+            <lb ed="#V" n="80"/>tus, sed est ipsum vitium, vel ipsa¬ 
+            <lb ed="#V" n="81"/>virtus. sed conscientia est subiectum vitii, &amp; im¬ 
+            <lb ed="#V" n="82"/>munditiae, &amp; coinquinationis. Iuxta illud ad Ti¬ 
+            <lb ed="#V" n="83"/>tum: Coinquinatae sunt eorum, &amp; mens, &amp; con¬ 
+            <lb ed="#V" n="84"/>scientia. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e181">
+            <lb ed="#V" n="85"/>Praeterea si dicatur, quod inquinatio non est in con 
+            <lb ed="#V" n="86"/>scientia tanquam in subiecto: Contra: Nihil vnum, 
+            <lb ed="#V" n="87"/>&amp; idem potest esse mundum, &amp; coinquinatum, 
+            <lb ed="#V" n="88"/>nisi sit subiectum vtriusque, quia soli subiecto vi¬ 
+            <lb ed="#V" n="89"/>detur hoc esse proprium, quia cum vnum, &amp; idem 
+            <lb ed="#V" n="90"/>numero sit susceptiuum contrariorum, vt ea¬ 
+            <lb ed="#V" n="91"/>dem potentia susceptiua est virtutis, &amp; vitii. Sed con¬ 
+            <lb ed="#V" n="92"/>scientia potest esse munda, &amp; immunda: ergo &amp; c. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e202">
+            <lb ed="#V" n="93"/>Praeterea videtur, quod conscientia sit potentia, 
+            <lb ed="#V" n="94"/>&amp; sit idem quod liberum arbitrium: quia liberum 
+            <lb ed="#V" n="95"/>arbitrium est idem, quod liberum rationis iudi¬ 
+            <lb ed="#V" n="96"/>cium, sed hoc videtur esse conscientia, quia est 
+            <lb ed="#V" n="97"/>idem, quod dictamen, vel iudicium rationis. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e215">
+            <lb ed="#V" n="98"/>Praeterea conscientia, vel est actus, vel habitus, 
+            <lb ed="#V" n="99"/>vel potentia, sed non est actus, qui semp manet a¬ 
+            <lb ed="#V" n="100"/>ctu: sed conscientia non semper manet actu, quia 
+            <lb ed="#V" n="101"/>non semper cogitat homo actu de omnibus, de 
+            <lb ed="#V" n="102"/>quibus est sibi conscius, immo aliquando ni¬ 
+            <lb ed="#V" n="103"/>hil cogitat actu de aliquo tali. Nec etiam est habitus, 
+            <lb ed="#V" n="104"/>quia si esset habitus, esset in parte rotnenali, sed in par¬ 
+            <lb ed="#V" n="105"/>te rationali, nullus est habitus particularium: cum 
+            <lb ed="#V" n="106"/>ergo conscientia sit de particularibus, nec est a¬ 
+            <lb ed="#V" n="107"/>ctus, nec habitus: relinquitur ergo, quod sit po¬ 
+            <lb ed="#V" n="108"/>tentia. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e241">
+            <lb ed="#V" n="109"/>IN CONTRARIVM est, quia videtur, 
+            <lb ed="#V" n="110"/>quod conscientia non sit potentia: Immo sit actus, 
+            <lb ed="#V" n="111"/>quia conscientiae est aggrauare peccatum: sed ag¬ 
+            <lb ed="#V" n="112"/>grauare peccatum est actus rationis consideran¬ 
+            <lb ed="#V" n="113"/>tis magnitudinem peccati: ergo &amp;c.
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e254">
+            <!--594.xml-->
+            <pb ed="#V" n="594"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeterea ad conscientiam spectat accusare pec¬ 
+            <lb ed="#V" n="2"/>catorem, immo nihil videtur aliud esse conscien¬ 
+            <lb ed="#V" n="3"/>tia, quamaccusatio peccatoris, sed accusare est 
+            <lb ed="#V" n="4"/>actus: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e272">
+            <lb ed="#V" n="5"/>RESOLVTIO. 
+            <lb ed="#V" n="6"/>conscientia non est potentia intellectiva nani ncc 
+            <lb ed="#V" n="7"/>nuda potentia, sed tamen potontia intellectiua di¬ 
+            <lb ed="#V" n="8"/>ci potest. Ibi enim scriptae sunt leges agibilium, 
+            <lb ed="#V" n="9"/>contra quas dum agimus, contra conscientiam a¬
+            <lb ed="#V" n="10"/>gere dicimur. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e288">
+            <lb ed="#V" n="11"/>RESPONDEO pro dicendum, quod sicut syllogizamus 
+            <lb ed="#V" n="12"/>&amp; syllogizando iudicamus, quid verum, &amp; quid 
+            <lb ed="#V" n="13"/>non verum in speculabilibus: sic syllogiazamus, &amp; 
+            <lb ed="#V" n="14"/>syllogizando iudicamus, quid agendum, vel non 
+            <lb ed="#V" n="15"/>agendum in agibilibus. propter quod per ea, quae 
+            <lb ed="#V" n="16"/>concurrunt ad syllogizandum, vel iudicandum in 
+            <lb ed="#V" n="17"/>speculabilibus, poterimus sententiare de agibili¬ 
+            <lb ed="#V" n="18"/>bus. Sed in speculabilibus est dare tria, intellectun. 
+            <lb ed="#V" n="19"/>rationem, &amp; scientiam, accipiendo large scientam 
+            <lb ed="#V" n="20"/>pro scientia, &amp; sapientia: sic &amp; in agibilibus est da¬ 
+            <lb ed="#V" n="21"/>re tria, synderesim, rationem, &amp; conscientiam, Erit 
+            <lb ed="#V" n="22"/>ergo synderesis circa principium agibilium, sicut 
+            <lb ed="#V" n="23"/>intellectus circa principia speculabilium. Ratio 
+            <lb ed="#V" n="24"/>autem tam in agibilibus, quod in speculabilibus erit 
+            <lb ed="#V" n="25"/>circa memoriam. Conscientia vero erit circa con¬ 
+            <lb ed="#V" n="26"/>clusiones agibilium, sicut scientia circa conclusio 
+            <lb ed="#V" n="27"/>nes speculabilium. In speculabilibus ergo intelle¬ 
+            <lb ed="#V" n="28"/>ctus, qui versatur circa principia, ex hibebit maio 
+            <lb ed="#V" n="29"/>rem rationem, quae discurrit, &amp; accipit sub medio, assu¬ 
+            <lb ed="#V" n="30"/>met minorem. scientia vero versabit circa conclu¬ 
+            <lb ed="#V" n="31"/>sionem. Sic etiam in agibilibus synderesis exhi¬ 
+            <lb ed="#V" n="32"/>bebit maiorem, vrputa, quod nulli est iniuriandum. 
+            <lb ed="#V" n="33"/>ratio, quae accipit sub medio, assumet minorem, 
+            <lb ed="#V" n="34"/>videlicet, quod maechari, furari, occidere, &amp;c. huius¬ 
+            <lb ed="#V" n="35"/>modi sacere est alteri iniuriari. ex hoc conclude¬ 
+            <lb ed="#V" n="36"/>tur, &amp; fiet in nobis conscientia, quod nihil tale est a¬ 
+            <lb ed="#V" n="37"/>gendum: Ratio ergo est illud, per quod discurrit 
+            <lb ed="#V" n="38"/>a maiori per minorem in conclusionem. Et quia 
+            <lb ed="#V" n="39"/>medium est illud, per quod sic discurritur; Ideo 
+            <lb ed="#V" n="40"/>ratio, per quam fit talis discursus, dicitur esse cir¬ 
+            <lb ed="#V" n="41"/>ca media, sicut intellectus est circa principia, &amp; in 
+            <lb ed="#V" n="42"/>agibilibus ratio est circa media, sicut synderesis 
+            <lb ed="#V" n="43"/>circa principia. Circa conclusiones vero in specu¬ 
+            <lb ed="#V" n="44"/>labilibus erit scientia, in agibilibus conscientia. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e365">
+            <lb ed="#V" n="45"/>Sed dices, quod cum discursus sit a principijs per 
+            <lb ed="#V" n="46"/>media in conclusiones, vel sit a maiori per mino¬ 
+            <lb ed="#V" n="47"/>rem in conclusionem, videtur, quod iste discursus non 
+            <lb ed="#V" n="48"/>debeat simpliciter attribui medio, quia medium 
+            <lb ed="#V" n="49"/>non ingreditur conclusionem. Ratio ergo, ad quam 
+            <lb ed="#V" n="50"/>pertinet discurrere, non videtur, quod specialiter di¬ 
+            <lb ed="#V" n="51"/>ci debeat circa medium, vel circa media, 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e383">
+            <lb ed="#V" n="52"/>Ad quod dici debet, quod licet medium non ingre 
+            <lb ed="#V" n="53"/>diatur conlusionem secundum substantiam, in¬ 
+            <lb ed="#V" n="54"/>greditur tamen secundum virtutem, quia virtute 
+            <lb ed="#V" n="55"/>medii fit conclusio. Maior ergo propositio se hebet, 
+            <lb ed="#V" n="56"/>vt terminus, a quo. Conclusio, vt termins, ad quem. 
+            <lb ed="#V" n="57"/>Medium vero est illud, per quod discurritur, &amp;i 
+            <!--594.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="58"/>quod in conclusione concluditur maior extreni 
+            <lb ed="#V" n="59"/>ras de minori. Est enim iste discursus quidam mo¬ 
+            <lb ed="#V" n="60"/>rus rationis. Sic enim videmus in motu corporali, q 
+            <lb ed="#V" n="61"/>in termino, a quo nondum est inceptus motus in 
+            <lb ed="#V" n="62"/>termino, ad quem, iam est finitus motus. in medio 
+            <lb ed="#V" n="63"/>ergo est tota ratio motus. Sic in motu vel in di¬ 
+            <lb ed="#V" n="64"/>scursu rationis tota ratio motus, vel tota ratio hu¬ 
+            <lb ed="#V" n="65"/>iusmodi discur sus potissime dicit esse in medio 
+            <lb ed="#V" n="66"/>vel in medijs. &amp; quia medium se potest habere, v 
+            <lb ed="#V" n="67"/>superius, &amp;, vt inferius, tam in speculabilibus, 
+            <lb ed="#V" n="68"/>in agibilibus: Ideo tam hic, quae ibi potest dici, 
+            <lb ed="#V" n="69"/>est dare rationem superiorem, quae vacat aeternis 
+            <lb ed="#V" n="70"/>consulendis: &amp; inferiorem, quae vacat temporali¬ 
+            <lb ed="#V" n="71"/>bus disponendis. quod in agibilibus clare patet 
+            <lb ed="#V" n="72"/>Nam si quis habeat conscientiam non esse maecha¬ 
+            <lb ed="#V" n="73"/>dum, vel adgenerat sibi talem conscientiam per le¬ 
+            <lb ed="#V" n="74"/>gem diuinam prohibentem mechiam, &amp; dicentem 
+            <lb ed="#V" n="75"/>Non mec haberis. Et hoc perti nebit ad rationem su¬ 
+            <lb ed="#V" n="76"/>periorem, vel adgenerabitur talis conscientia ex istis 
+            <lb ed="#V" n="77"/>inferioribus, quia nemini est iniuriandum, &amp; hoc 
+            <lb ed="#V" n="78"/>pertinebit ad rationem inferiorem. Ronergo superiot 
+            <lb ed="#V" n="79"/>consuluit aeterna, quia regit lege diuina, quo abeter 
+            <lb ed="#V" n="80"/>no Deo est inspirata. sed ratio iferior sic disponi¬ 
+            <lb ed="#V" n="81"/>tpalia, vt per ea nulli iniurietur, nullus damnifi¬ 
+            <lb ed="#V" n="82"/>cetur, nulli vituperium inferatur. Faciendo ergs¬ 
+            <lb ed="#V" n="83"/>contra praecepta Decalogi ordinando nos ad prae¬ 
+            <lb ed="#V" n="84"/>ximum, iniuriamur proximo, Danificamus Rem 
+            <lb ed="#V" n="85"/>po. Vituperamus nosipsos. Et ideo haec mediaar¬ 
+            <lb ed="#V" n="86"/>guere, non esse maechandum non esse furandum 
+            <lb ed="#V" n="87"/>&amp;c. huiusmodi, quia haec faciendo iniuriamut, 
+            <lb ed="#V" n="88"/>ximo; Damnificamus Rempublicam: Vitupera 
+            <lb ed="#V" n="89"/>mus nosipsos; Ex quorum quolibet tanquam ex 
+            <lb ed="#V" n="90"/>speciali medio potest fieri specialis syllogismus: sic 
+            <lb ed="#V" n="91"/>ergo arguere, &amp; talia media sumere pertinebit ad 
+            <lb ed="#V" n="92"/>ronem inferiorem. sed hebere conscientiam, talia non es¬ 
+            <lb ed="#V" n="93"/>se facienda, quia sunt prehibita a lege diuina, pti¬ 
+            <lb ed="#V" n="94"/>nebit ad ronem superiorem: &amp; sicut in agibilibus 
+            <lb ed="#V" n="95"/>est dare rationem superiorem, &amp; inferiorem, sie in spe¬ 
+            <lb ed="#V" n="96"/>culabilibus. Nam si arguamus virtutem aliquap¬ 
+            <lb ed="#V" n="97"/>ronenem sumpram a creaturis, poterit pertinere ad ra¬ 
+            <lb ed="#V" n="98"/>rionem inferiorem. sed si illae rationes sumantur ex inspi¬ 
+            <lb ed="#V" n="99"/>rationibus nobis factis, pertinebunt ad rationem 
+            <lb ed="#V" n="100"/>superiorem. Ex his autem apparere potet, quid est 
+            <lb ed="#V" n="101"/>conscientia. Nam sicut supra dicebamus de synde¬ 
+            <lb ed="#V" n="102"/>resi, quod synderesis idem est, quod coniudicium, quia 
+            <lb ed="#V" n="103"/>est iudicium cum alioid est 1udicium applicatum ad aliud. 
+            <lb ed="#V" n="104"/>i. ad agibilia, sic conscientia idem est, quod cum¬ 
+            <lb ed="#V" n="105"/>alio scientia id est scientia applicata ad aliudid est ad agi¬ 
+            <lb ed="#V" n="106"/>bilia. In speculabilibus ergo est iudicium simplici¬ 
+            <lb ed="#V" n="107"/>ter, sed in agibilibus est iudicium applicatum, &amp; 
+            <lb ed="#V" n="108"/>ideo dicitur coniudicium. Vel dicitur synderesisa 
+            <lb ed="#V" n="109"/>syn, quod est con, &amp; deresis, quod est quid electum, 
+            <lb ed="#V" n="110"/>vel quid iudicatum. Sic sicut in speculabilibus 
+            <lb ed="#V" n="111"/>est scientia simpliciter, sic in agibilibus est con¬ 
+            <lb ed="#V" n="112"/>scientiaid 1st cum alio scientia, vel scientia applicata 
+            <lb ed="#V" n="113"/>ad aliud: id est ad agibilia, prout homoadgenerat 
+            <lb ed="#V" n="114"/>sibi conscientiam ex iudicio rationis, quid debeat 
+            <lb ed="#V" n="115"/>agere, vel quid debeat fugere. Et si agit, &amp; fugit, 
+            <lb ed="#V" n="116"/>vt ratio dictat, dicitur agere secundum conscient 
+            <lb ed="#V" n="117"/>tiam: si vero, vt ratio vetat, dicitur facere contra 
+            <lb ed="#V" n="118"/>conscientiam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e535">
+            <lb ed="#V" n="119"/>Ex hoc autem volunt quidam, quod cum con¬
+            <!--595.xml-->
+            <pb ed="#V" n="595"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>scientia sit applicatio scientiae ad aliquid, vel¬ 
+            <lb ed="#V" n="2"/>ad aliquid agibile, vel ad aliquem actum circa¬ 
+            <lb ed="#V" n="3"/>agibilia, cum applicatio rei ad suum actum sit 
+            <lb ed="#V" n="4"/>idem, quod vsus rei, vt applicare equum ad equ¬ 
+            <lb ed="#V" n="5"/>tandum est vsus equi. Applicare cultellum ad 
+            <lb ed="#V" n="6"/>incidendum, est vsus cultelli: sic applicare scien¬ 
+            <lb ed="#V" n="7"/>tiam ad iudicandum de aliquo agibili, &amp; facere¬ 
+            <lb ed="#V" n="8"/>sibi de hoc conscientiam, erit quidam vsus sciem 
+            <lb ed="#V" n="9"/>tiae. ergo secundum istos nihil est aliud conscien¬ 
+            <lb ed="#V" n="10"/>tia, quam quidam vsus scientiae, vel quaedam ap¬ 
+            <lb ed="#V" n="11"/>plicatio scientiae. Cum ergo ipsa applicatio sit 
+            <lb ed="#V" n="12"/>quidam actus, conscientia non dicet ipsam po¬ 
+            <lb ed="#V" n="13"/>tentiam, nec dicet ipsum habitum, sed magis di¬ 
+            <lb ed="#V" n="14"/>cet quendam actum. Sed isti quamuis incidant 
+            <lb ed="#V" n="15"/>in quandam veritatem, simpliciter tamen lo¬ 
+            <lb ed="#V" n="16"/>quendo, non bene dicunt. quia vsus pertinet ad 
+            <lb ed="#V" n="17"/>voluntatem. Nam hoc est vti, assumere aliquid 
+            <lb ed="#V" n="18"/>in facultarem voluntatis, vt dicitur 10. de Trin¬ 
+            <lb ed="#V" n="19"/>cap. 11. Esset ergo conscientia in voluntate, vel 
+            <lb ed="#V" n="20"/>pertineret ad voluntatem. Nos autem ponimug 
+            <lb ed="#V" n="21"/>eam in ratione, vel in intellectu. Nam in illa po¬ 
+            <lb ed="#V" n="22"/>tentia habet esse conscientia, in qua habet esse 
+            <lb ed="#V" n="23"/>scientia. dicemus ergo, quod conscientia non di¬ 
+            <lb ed="#V" n="24"/>cit ipsam applicationem, vel ipsum vsum, sed di¬ 
+            <lb ed="#V" n="25"/>cit ipiam rem, vel ipsam scientiam applicatam 
+            <lb ed="#V" n="26"/>quae licet ratione rei sit habitus. quia scientia 
+            <lb ed="#V" n="27"/>dicit habitum: ratione tamen applicationis di¬ 
+            <lb ed="#V" n="28"/>cit actum. Scientia ergo, quam habemus de agi¬ 
+            <lb ed="#V" n="29"/>bilibus, cum actu applicamus eam ad hoc agibi¬ 
+            <lb ed="#V" n="30"/>le, vel ad illud, vtrum sit agendum, vel non agendum, 
+            <lb ed="#V" n="31"/>dicetur esse conscientia. ipsum ergo dictamen¬ 
+            <lb ed="#V" n="32"/>rationis actu applicatum ad agibilia est conscienm 
+            <lb ed="#V" n="33"/>tia. Vnde Dam. lib. 4. cap. 14. ait: Nostra consciem 
+            <lb ed="#V" n="34"/>tia est lex intellectus nostri. Ergo sicut in subie¬ 
+            <lb ed="#V" n="35"/>cto conscientia est in ipso intellectu, vt se exten¬ 
+            <lb ed="#V" n="36"/>dit ad voluntatem. quia intellectus extensiue fit 
+            <lb ed="#V" n="37"/>practicus, per quam extensionem imponitur le, 
+            <lb ed="#V" n="38"/>veluntati, quid debeat agere, &amp; quid non agere 
+            <lb ed="#V" n="39"/>&amp; haec lex, &amp; hoc dictamen circa agibilia dicitur 
+            <lb ed="#V" n="40"/>conscientia, vt patuit per Dam. Cum ergo quae 
+            <lb ed="#V" n="41"/>ritur, quid est conscientia, patet, quod conscien¬ 
+            <lb ed="#V" n="42"/>tia non est ipsa potentia nuda, nec est ipsa poten¬ 
+            <lb ed="#V" n="43"/>tia intellectiua nuda, sed est ipsa potentia intel 
+            <lb ed="#V" n="44"/>lectiua, vt sunt ibi scriptae leges agibilium, con¬ 
+            <lb ed="#V" n="45"/>tra quas agendo, agimus contra conscientiam no¬ 
+            <lb ed="#V" n="46"/>stram. Ideo dicitur ad Rom. 2. quod gentes, quae 
+            <lb ed="#V" n="47"/>legem non habent, naturaliter ea, quae legis sunt 
+            <lb ed="#V" n="48"/>faciunt, &amp; ipsi sibi sunt lex, &amp; ostendunt opus le¬ 
+            <lb ed="#V" n="49"/>gis scriptum in cordibus eorum. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e652">
+            <lb ed="#V" n="50"/>RESP. AD ARG. Ad primum dicendum 
+            <lb ed="#V" n="51"/>quod conscientia non dicitur coinquinata, quod sit sub¬ 
+            <lb ed="#V" n="52"/>iectum coinquinationis. quia hoc modo subie 
+            <lb ed="#V" n="53"/>ctum est ipsa voluntas, sed dieue scientia coinquinata¬ 
+            <lb ed="#V" n="54"/>quaded hon est ibi conscius de aliqua coinquinatione 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e665">
+            <lb ed="#V" n="55"/>Ad secundum dicendum, quod ratio supponit fal¬ 
+            <lb ed="#V" n="56"/>sum. quia cum conscientia dicat quoddam actua¬ 
+            <lb ed="#V" n="57"/>le iudicium, vel dicat quoddam iudicium actualiter 
+            <lb ed="#V" n="58"/>ad agibilia applicatum, non oportet, quod sit idem tale¬ 
+            <lb ed="#V" n="59"/>iudicium, quo iudicamy nos mundos, &amp; immundos 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e678">
+            <lb ed="#V" n="60"/>Ad tertium dicendum, quod liberum ar. secundum 
+            <lb ed="#V" n="61"/>rem est eadem potentia, quod voluntas. sed dicit volun¬ 
+            <lb ed="#V" n="62"/>rate in ordine ad intellectum. quia aqua sibetiat 
+            <!--595.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>est electio, sed electio secundum Philosophum, ve 
+            <lb ed="#V" n="64"/>est intellectus appetitiuus, vel appetitus intel 
+            <lb ed="#V" n="65"/>lectiui quia actus vtriusque potentiae concurrit a 
+            <lb ed="#V" n="66"/>electionem. Electio. en.m pertinet ad voluntatem, se¬ 
+            <lb ed="#V" n="67"/>hoc non potest facere voluntas sine consilio, &amp; si¬ 
+            <lb ed="#V" n="68"/>ne iudicio intellectus. Dicemus ergo, quod est ali¬ 
+            <lb ed="#V" n="69"/>quo modo econuerso de li. ar. &amp; de conscientia 
+            <lb ed="#V" n="70"/>quia liberum ar. est res pertinens ad voluntatem, vel est 
+            <lb ed="#V" n="71"/>res, quao est ipsa voluntas, vt hebet ordinem ad intelle¬ 
+            <lb ed="#V" n="72"/>ctum, sine cuius iudicio non pet esse electio, quo est a 
+            <lb ed="#V" n="73"/>ctus lib. ar. Sed conscientia est res pertinens ad in 
+            <lb ed="#V" n="74"/>tellectum, vel ad potentiam intellectiuam. quia sicut ir¬ 
+            <lb ed="#V" n="75"/>subiecto est in potentia intellectiua, &amp; est in ea, v¬ 
+            <lb ed="#V" n="76"/>se extendit ad voluntatem. Est n. conscientia lex intel 
+            <lb ed="#V" n="77"/>lectus nostri, vt supra probauimus per Dam. sec 
+            <lb ed="#V" n="78"/>ista lex intellectus nostri hebet esse in itellectu pra¬ 
+            <lb ed="#V" n="79"/>ctico. quia est lex, &amp; regula nostrorum actuum, &amp; 
+            <lb ed="#V" n="80"/>nostrarum operationum. quia omns actus nostros, &amp; omnia 
+            <lb ed="#V" n="81"/>opera nostra debemus regulare secundum conscien¬ 
+            <lb ed="#V" n="82"/>tiam nram, quo non sequendo, semper peccamus. Et io 
+            <lb ed="#V" n="83"/>si habemus eam erroneam, non est aliud remedium nis¬ 
+            <lb ed="#V" n="84"/>deponere eam. Nam in arduis negocijs non debemu¬ 
+            <lb ed="#V" n="85"/>confidere de nobis, nisi simus valde instructi ir¬ 
+            <lb ed="#V" n="86"/>agibilibus, &amp; i his, quo ptinent ad conscientiam. Et vb¬ 
+            <lb ed="#V" n="87"/>dubitamus de nobis, debemus habere recursum 
+            <lb ed="#V" n="88"/>ad sapientes. Concludamus ergo, &amp; dicamus, quod li¬ 
+            <lb ed="#V" n="89"/>berum ar. est res pertinens ad voluntatem habenes ordi. 
+            <lb ed="#V" n="90"/>nen ad intellectum. Conscientia auet econuerso est res 
+            <lb ed="#V" n="91"/>pertinens ad intellectum, vt se extendit ad volunta 
+            <lb ed="#V" n="92"/>tem. quia, vt sepius dictum est, itellectus extensiue fit agi¬ 
+            <lb ed="#V" n="93"/>bilis opatiuus, &amp; practicus, vt patet ex 3. de aia. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e760">
+            <lb ed="#V" n="94"/>Ex quibus oibus patere potest, quod conscientia 
+            <lb ed="#V" n="95"/>non est idem, quod liberum ar. &amp; etiam patere pote¬ 
+            <lb ed="#V" n="96"/>quomodo differt a libero ar. Nam conscientia ma¬ 
+            <lb ed="#V" n="97"/>gis dicit actum, quoa potentiam, liberum ar. econmuerso 
+            <lb ed="#V" n="98"/>magis dicit potentism, quo actum. Rursus conscien¬ 
+            <lb ed="#V" n="99"/>tia dicit rem pertinentem ad actum, vt se extendi¬ 
+            <lb ed="#V" n="100"/>ad voluntatem. sed liberum ar. econuerso dicit ipsam 
+            <lb ed="#V" n="101"/>voluntatem, vel ipsam potentiam, quae est vo¬ 
+            <lb ed="#V" n="102"/>luntas, vt habet ordinem ad intellectum 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e782">
+            <lb ed="#V" n="103"/>Ad quartum dicendum, quod conscientia, quia di¬ 
+            <lb ed="#V" n="104"/>cit iudicium applicatum ad agibilia: ratione at¬ 
+            <lb ed="#V" n="105"/>plicationis dicit actum. Et sicut semper manet 
+            <lb ed="#V" n="106"/>potentia, sed non semper manet actus, sic sem¬ 
+            <lb ed="#V" n="107"/>per manet intellectiua potentia, cuius lex est con 
+            <lb ed="#V" n="108"/>scientia, sed non semper manet actuale iudicium 
+            <lb ed="#V" n="109"/>vel non semper manet iudicium, quod est qui¬ 
+            <lb ed="#V" n="110"/>dam actus intellectus nec semper manet tale 
+            <lb ed="#V" n="111"/>iudicium, vt estactu applicatum ad agibilia. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m175585-Dd1e806">
+          <head xml:id="Gi9qrR-m175585-Hd1e808">Articulus 2</head>
+          <p xml:id="Gi9qrR-m175585-d1e810">
+            <lb ed="#V" n="112"/>ARTIC. II 
+            <lb ed="#V" n="113"/>An conscientia possit errare 
+            <lb ed="#V" n="114"/>Conclusio est affirmaetiua. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e819">
+            <lb ed="#V" n="115"/>D. Tho. 2. sentent. d. 39 q. 3 art 2. Tho. Arg. d. 
+            <lb ed="#V" n="116"/>. art. vltimo Biel. d. 39. q. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e826">
+            <lb ed="#V" n="117"/>SECVNDO quaeritur. Vtrum conscientia 
+            <lb ed="#V" n="118"/>possit errare. Et videtur, quod non. quia si iudi¬ 
+            <lb ed="#V" n="119"/>camus credendo testibs, non erramus, 
+            <lb ed="#V" n="120"/>quia in iudicio debemus credere te¬ 
+            <lb ed="#V" n="121"/>stibus, sed in iudicio, quod habemo facere¬ 
+            <lb ed="#V" n="122"/>cum Deo, testis est conscietia nostra: iuxta illud ad Ro. 
+            <!--596.xml-->
+            <pb ed="#V" n="596"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Testimonium illis reddente conscientia eorum, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e850">
+            <lb ed="#V" n="2"/>Praeterea illud, quod est naturale, est idem apud 
+            <lb ed="#V" n="3"/>omnes, &amp; est stans, non errans. sed conscientia nostra 
+            <lb ed="#V" n="4"/>est quoddam naturale iudicatorium nostrum: 
+            <lb ed="#V" n="5"/>ergo error ibi esse non potest. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e862">
+            <lb ed="#V" n="6"/>Praeterea secundum Dam. li. 4. 6. I4. conscien¬ 
+            <lb ed="#V" n="7"/>tia nira est lex intellectus nri, si ergo per leges, &amp; fa¬ 
+            <lb ed="#V" n="8"/>ciendo secundum leges non erramus: cum omnes istae 
+            <lb ed="#V" n="9"/>leges strictae processerint a lege, quae est in intel¬ 
+            <lb ed="#V" n="10"/>lectu: consequens est, quod lex, quae est in intellectu¬ 
+            <lb ed="#V" n="11"/>&amp; quae est idem, quod conscientia nostra: multo ma¬ 
+            <lb ed="#V" n="12"/>gis erit stabilis, &amp; ibi error esse non poterit. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e880">
+            <lb ed="#V" n="13"/>Praeterea conscientia est quaedam scientia: sed 
+            <lb ed="#V" n="14"/>scientia semper est verorum: ergo, &amp; scientia. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e887">
+            <lb ed="#V" n="15"/>IN CONTRARIVM est: quia videmus 
+            <lb ed="#V" n="16"/>aliquos esse hereticos, &amp; habere conscientiam er¬ 
+            <lb ed="#V" n="17"/>roneam, quod nullo modo contingeret, si conscien¬ 
+            <lb ed="#V" n="18"/>tia errare non posset. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e898">
+            <lb ed="#V" n="19"/>Praeterea conscientia est quoddam iudicium 
+            <lb ed="#V" n="20"/>de agibilibus: sed circa iudicia agibilium contin¬ 
+            <lb ed="#V" n="21"/>tingit errare, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e907">
+            <lb ed="#V" n="22"/>RESOLVTIO. 
+            <lb ed="#V" n="23"/>Omnibus modis, quibus potest esse defectus, &amp; er¬ 
+            <lb ed="#V" n="24"/>ror in conclusione speculabilium, circa quas ba¬ 
+            <lb ed="#V" n="25"/>bet esse scientia: error in conclusionibas ooibi¬ 
+            <lb ed="#V" n="26"/>lium esse potest, circa quas conscientia esse habet.
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e920">
+            <lb ed="#V" n="27"/>RESPOMDEO dicendum, quod, vt patet 
+            <lb ed="#V" n="28"/>ex superioribus, conscientia potissime consistit cir¬ 
+            <lb ed="#V" n="29"/>ca conclusiones agibilium: sicut scientia circa con[ 
+            <lb ed="#V" n="30"/>clusiones speculabilium. Nam sicut syllogixamus 
+            <lb ed="#V" n="31"/>in speculabilibus: sic &amp; in agibilibus. Ideo omni¬ 
+            <lb ed="#V" n="32"/>bus illis modis, quibus possumus errare in spe¬ 
+            <lb ed="#V" n="33"/>culabilibus, sic &amp; in agibilibus, &amp; adhuc ma¬ 
+            <lb ed="#V" n="34"/>gis: quia materia moralis, &amp; agibilis est minus 
+            <lb ed="#V" n="35"/>certa, &amp; magis variabilis, quam speculabilis. Et 
+            <lb ed="#V" n="36"/>ideo vult Philosophus primo Ethicorum, quod in ta¬ 
+            <lb ed="#V" n="37"/>libus oportet figuraliter pertramnsire: quia talis ma¬ 
+            <lb ed="#V" n="38"/>teria demostrationem non paritur: sicut materia 
+            <lb ed="#V" n="39"/>speculatiua. Ideo dicitur in eodem 1. Ethico¬ 
+            <lb ed="#V" n="40"/>rum, quod de talibus, &amp; ex talibus oportet gros¬ 
+            <lb ed="#V" n="41"/>se, &amp; figuraliter veritatem ostendere. Cum ergo in syl¬ 
+            <lb ed="#V" n="42"/>logismo tria sit dare, siue componamus syllo¬ 
+            <lb ed="#V" n="43"/>gismum in speculabilibus, siue in agibilibus: tri¬ 
+            <lb ed="#V" n="44"/>plex poterit esse ibi error secundum tria quae con¬ 
+            <lb ed="#V" n="45"/>currunt ad quenlibet syllogismum. quia istem error¬ 
+            <lb ed="#V" n="46"/>vel isti errores, vel surgunt ex defectu maioris pro¬ 
+            <lb ed="#V" n="47"/>positionis, vel minoris, vel conclusionis. sed defe¬ 
+            <lb ed="#V" n="48"/>ctus maioris, &amp; minoris ppositionis potest contin¬ 
+            <lb ed="#V" n="49"/>gere, quia recipiuntur ibi falsa, &amp; peccat in materia. 
+            <lb ed="#V" n="50"/>Sed defectus conclusionis secundum se nunqunam exi¬ 
+            <lb ed="#V" n="51"/>stit: nisi quia non syllogixat, &amp; peccatur in forma¬ 
+            <lb ed="#V" n="52"/>Nam muiori, et minori existentibus veris, conclusio 
+            <lb ed="#V" n="53"/>semp erit vera, nisi erretur in forma: tamen ex erro¬ 
+            <lb ed="#V" n="54"/>re in forma potest consequi ertor, &amp; falsitas in con 
+            <lb ed="#V" n="55"/>clusione. Inuestigabimus ergo defectus in syllogi¬ 
+            <lb ed="#V" n="56"/>xando tam accipiendo falsa, quod est peccatum in mate¬ 
+            <lb ed="#V" n="57"/>rla, &amp; quod potest contingere ex parte maioris, quam 
+            <lb ed="#V" n="58"/>etiam ex defectu forms, ex quo potest esse falsitas 
+            <!--596.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>in conlusione. Dicemus enim, quod tam in specula¬ 
+            <lb ed="#V" n="60"/>bilibus, quam in agibilibus potest esse falsitas ex par¬ 
+            <lb ed="#V" n="61"/>te maioris tripliciter. &amp; Primo adhaerendo alicui¬ 
+            <lb ed="#V" n="62"/>auctoritati male intellectae. Secundo accipiendo 
+            <lb ed="#V" n="63"/>pro maiori, quod non est per se notum, &amp; non est conmu¬ 
+            <lb ed="#V" n="64"/>nis animi conceptio. Tertio potest esse talis defe¬ 
+            <lb ed="#V" n="65"/>ctus circa ipsa principia, quao sunt per se nota non in¬ 
+            <lb ed="#V" n="66"/>telligendo ea, vel eorum terminos. Nam principia co¬ 
+            <lb ed="#V" n="67"/>gnoscimus inquantum terminos cognoscimus. ham 
+            <lb ed="#V" n="68"/>cognoscendo, quid est totum, &amp; quid est pars: starim 
+            <lb ed="#V" n="69"/>assentimus, quod omne totum est maius sua parte. 
+            <lb ed="#V" n="70"/>Primum sic patet: Ait enim Philosophus, quod semp¬ 
+            <lb ed="#V" n="71"/>agens assimilat sibi passum: loquendo de agibili¬ 
+            <lb ed="#V" n="72"/>bus vniuocis: ex hoc posset aliquis dare falsum 
+            <lb ed="#V" n="73"/>iudicium circa speculabilia asserens, quod semper simi¬ 
+            <lb ed="#V" n="74"/>le patitur a simili: cum tamen in eo, quod patitur, sem¬ 
+            <lb ed="#V" n="75"/>per patiatur a dissimili, quia habitibus presentibus in 
+            <lb ed="#V" n="76"/>materia cessat motus. Quando enim plene assimila 
+            <lb ed="#V" n="77"/>tum est passum agenti: cessat actio, &amp; passio. Agens 
+            <lb ed="#V" n="78"/>cnim, &amp; patiens in principioid est antequam incipiat 
+            <lb ed="#V" n="79"/>motus, vel quandiu durat morus, sunt dissimilia 
+            <lb ed="#V" n="80"/>vel simpliciter, vel aliqualiter: sed in fine, quoaod fini¬ 
+            <lb ed="#V" n="81"/>tus est motus, sunt similia simpliciter, &amp; oino. Et 
+            <lb ed="#V" n="82"/>quod dictum est in speculabilibus: veritatem ha¬ 
+            <lb ed="#V" n="83"/>bet in agibilibus. Nam haeretici assumentes pro ma¬ 
+            <lb ed="#V" n="84"/>iori auctoritatem danmedi male intellecam. Math. 5. Ego, 
+            <lb ed="#V" n="85"/>at dico vobis non iurare omnino. Formant sibi con¬ 
+            <lb ed="#V" n="86"/>scientiam nullo modo &amp; propter nullam causam 
+            <lb ed="#V" n="87"/>iurandum esse. Posset autem sic formari svyllogismus. 
+            <lb ed="#V" n="88"/>Quod omnino prohibitum est a Domino nullo 
+            <lb ed="#V" n="89"/>modo faciendum. Iuramentum est huiusmodi, &amp;c. 
+            <lb ed="#V" n="90"/>&amp; Sed si volumus ire secundum logicam tradentem 
+            <lb ed="#V" n="91"/>veritatem de aequipollentiis: aliud est postponere 
+            <lb ed="#V" n="92"/>negationem signo vniuersali, &amp; aliud est preponere. 
+            <lb ed="#V" n="93"/>Nam, omnis non, aequipollet ad nullus, &amp;, non ois, 
+            <lb ed="#V" n="94"/>aequpollet adl, quidam non. Aliud est ergo onno non iu¬ 
+            <lb ed="#V" n="95"/>rare, quod est idem, quod nullo modo iurare, &amp; aliud 
+            <lb ed="#V" n="96"/>est non iurare omnino, vel iurare non omnino, quod 
+            <lb ed="#V" n="97"/>est iurare non pro quacunque causa. Sussiciebat 
+            <lb ed="#V" n="98"/>enim antiquis, quod non periurarent, &amp; quod iurando 
+            <lb ed="#V" n="99"/>verum dicerent: sed modo non sufficit: quia non 
+            <lb ed="#V" n="100"/>debemus iurare etiam dato, quod verum dicas: nisi adsit 
+            <lb ed="#V" n="101"/>bona, &amp; legitima causa, quare iures. quod ideo fu¬ 
+            <lb ed="#V" n="102"/>ctum est: quia valde periculosum est piurare. ideo 
+            <lb ed="#V" n="103"/>non debemus assuefacere os nitum ad iurandum, quia 
+            <lb ed="#V" n="104"/>hoc faciendo de leui periurare possemus. ideo de 
+            <lb ed="#V" n="105"/>bemus cum magna deliberatione hoc facere exa¬ 
+            <lb ed="#V" n="106"/>minando quid iuramus, &amp; pro qua causa iura¬ 
+            <lb ed="#V" n="107"/>mus, vt si non sit verum, quod iuramus, &amp; non 
+            <lb ed="#V" n="108"/>sit bona, &amp; sufficiens causa, propter quam iura. 
+            <lb ed="#V" n="109"/>mus: a iuramento abstineamus. Secundo hoc po¬ 
+            <lb ed="#V" n="110"/>test contingere, quod sit erronea conscientia ex as¬ 
+            <lb ed="#V" n="111"/>sumptione maioris propositionis: quia illa pro¬ 
+            <lb ed="#V" n="112"/>positio non est per se nota, &amp; non habet vniuer¬ 
+            <lb ed="#V" n="113"/>saliter veritatem, vt si in speculabilibus assumere 
+            <lb ed="#V" n="114"/>tur pro maiori, quod omnis femella habenes grossum 
+            <lb ed="#V" n="115"/>ventrem est praegnans: posset ex fal so iudicare 
+            <lb ed="#V" n="116"/>mulam esse praegnantem: si videret eam habere 
+            <lb ed="#V" n="117"/>grossum ventrem: cum tamen hoc sit vniuersa¬ 
+            <lb ed="#V" n="118"/>liter falsum: quia omnis mula est sterilis. sic &amp; in 
+            <lb ed="#V" n="119"/>agibilibus formant sibi aliqui haeretici hoc prirt¬ 
+            <lb ed="#V" n="120"/>cipium: nullum vinum esse occidendum. Proptet 
+            <!--597.xml-->
+            <pb ed="#V" n="597"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod tales haeretici formant sibi conscientiam, quod 
+            <lb ed="#V" n="2"/>peccant mortaliter, si occiderent pullum, vel gal¬ 
+            <lb ed="#V" n="3"/>linam, vel quodcunque aial viuum. Quod quantum 
+            <lb ed="#V" n="4"/>ad aialia irrationalia falsum est. quia sunt oino¬ 
+            <lb ed="#V" n="5"/>seruilis conditionis, vt illud faciamus de eis, quod 
+            <lb ed="#V" n="6"/>nobis est magis vtile. Si vero intelligetut de aia¬ 
+            <lb ed="#V" n="7"/>libus rationalibus, falsum est, quod nullus debet oc¬ 
+            <lb ed="#V" n="8"/>cidi. quia maleficus debet a iudice occidi, vel iu¬ 
+            <lb ed="#V" n="9"/>dicari occidendus 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1158">
+            <lb ed="#V" n="10"/>Tertio potest esse falsitas in conclusione, &amp; 
+            <lb ed="#V" n="11"/>error in conscientia defectu maioris proposi¬ 
+            <lb ed="#V" n="12"/>tionis: dato, quod illa maior prpositio sit principium, 
+            <lb ed="#V" n="13"/>&amp; sit quasi per se nota, vel etiam si sit conis animi con 
+            <lb ed="#V" n="14"/>ceptio, si non bene intelligac, quid est, quod dite 
+            <lb ed="#V" n="15"/>eper nomen. Dr enim de quodam, quod quand primo intra¬ 
+            <lb ed="#V" n="16"/>uit scholas, &amp; audiuit, quod omne totum est maius 
+            <lb ed="#V" n="17"/>sua parte, dixit hoc falsum esse. quia aranea ha¬ 
+            <lb ed="#V" n="18"/>bet maiorem ventrem, quae totum aliud. Ille ergo non in¬ 
+            <lb ed="#V" n="19"/>telligebat, quod dirter per hoc nomemn totum. Nam in hoc to¬ 
+            <lb ed="#V" n="20"/>to, quod est aranea, includit non solum venter, 
+            <lb ed="#V" n="21"/>sed omnes aliae partes. Sic etiam in agibilibus istud est 
+            <lb ed="#V" n="22"/>principium, ad quod reducuntur oia alia: Quod 
+            <lb ed="#V" n="23"/>tibi non vis, alii ne feceris: vel quod tibi vis fieri¬ 
+            <lb ed="#V" n="24"/>alii facias. Iuxta illud: Quaecunque vultis, quod faciant 
+            <lb ed="#V" n="25"/>vobis hoies &amp;c. Sed ex isto principio male intel 
+            <lb ed="#V" n="26"/>lecto posset adgenerari erronea conscientia. Nam 
+            <lb ed="#V" n="27"/>si quis vellet, quod alius associaret eum ad aliquid fu¬ 
+            <lb ed="#V" n="28"/>randum, vel ad innocentem occidendum, posset si¬ 
+            <lb ed="#V" n="29"/>bi adgenerare conscientiam, quod alii deberent hoc 
+            <lb ed="#V" n="30"/>facere. Sed intelligendum est, quod debemus a¬ 
+            <lb ed="#V" n="31"/>lijs facere, quod nobis volumus fieri voluntate 
+            <lb ed="#V" n="32"/>regulata secundum conscientiam rectam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1210">
+            <lb ed="#V" n="33"/>Viso quomodo ex defectu maioris possit esse 
+            <lb ed="#V" n="34"/>defectus, &amp; error in conscientia, volumus osten¬ 
+            <lb ed="#V" n="35"/>dere quomodo ex defectu minoris potest contin¬ 
+            <lb ed="#V" n="36"/>gere talis error. Minor. eniam propositio potissime vi¬ 
+            <lb ed="#V" n="37"/>respicere medium, vel potissime vru respicere ipsum 
+            <lb ed="#V" n="38"/>accipere sub medio. Fit enim minor propositio ex 
+            <lb ed="#V" n="39"/>medio, &amp; minori extremitate. Dum ergo prolates 
+            <lb ed="#V" n="40"/>est maior, nescitur adhuc quid sit medium. quia 
+            <lb ed="#V" n="41"/>nullus terminus est adhuc replicatus. Sed cum¬ 
+            <lb ed="#V" n="42"/>prosertur minor, statim cognoscitur, quid est ibi¬ 
+            <lb ed="#V" n="43"/>medium. quia medium est ille terminus, qui¬ 
+            <lb ed="#V" n="44"/>assumptus est in maiori, &amp; replicatur in minori. 
+            <lb ed="#V" n="45"/>Quod dubium ideo contingit. quia possumus ar¬ 
+            <lb ed="#V" n="46"/>guere in pluribus figuris. Nam in prima figura 
+            <lb ed="#V" n="47"/>medium assumitur subiectiue in maiori, &amp; repli¬ 
+            <lb ed="#V" n="48"/>catur praedicatiue in minori. In secunda vero pre¬ 
+            <lb ed="#V" n="49"/>dicatione assumitur, &amp; praedicatiue replicatur¬ 
+            <lb ed="#V" n="50"/>in tertia vero quantum ad medium, totum effi¬ 
+            <lb ed="#V" n="51"/>citur subiectiue. Dicimus ergo, quod minor prer 
+            <lb ed="#V" n="52"/>positio potissime respicit medium. quia in eo so¬ 
+            <lb ed="#V" n="53"/>lum fit replicatio termini in premissis, vel potissime, 
+            <lb ed="#V" n="54"/>ptiner ad minorem accipere subid est accipe sub me¬ 
+            <lb ed="#V" n="55"/>dio, vel quantum ad substantiam, vel quantum ad ef¬ 
+            <lb ed="#V" n="56"/>ficaciam. Nam efficacia syllogismi est, quod me¬ 
+            <lb ed="#V" n="57"/>dium subiiciatur in maiori, &amp; praedicetur in mi¬ 
+            <lb ed="#V" n="58"/>nori. Et ex hoc est ibi principium dici de omni, 
+            <lb ed="#V" n="59"/>vel de nullo. Et quia hoc est solum in prima fi¬ 
+            <lb ed="#V" n="60"/>gura, ideo aliae figurae non habent omnimodam effi¬ 
+            <lb ed="#V" n="61"/>caciam syllogisticam, nisi reducantur ad primam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1275">
+            <lb ed="#V" n="62"/>Redeamus ergo ad propositum, &amp; dicamus, 
+            <!--597.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>quod minor potissime versatur circa medium 
+            <lb ed="#V" n="64"/>quantum ad replicationem termini. quia in so¬ 
+            <lb ed="#V" n="65"/>la minori replicatur terminus, quae replicatio est 
+            <lb ed="#V" n="66"/>de ratione medij, vel potissime versatur in acci¬ 
+            <lb ed="#V" n="67"/>pere sub: quantum ad minorem extremitatem, 
+            <lb ed="#V" n="68"/>vt est per habita declaratum. Cum ergo in acce¬ 
+            <lb ed="#V" n="69"/>ptione modii, siue medium sumatur secundum 
+            <lb ed="#V" n="70"/>causas superiores, vt secundum legem, per quam 
+            <lb ed="#V" n="71"/>ordinamur ad Deum, vel secundum causas infe¬ 
+            <lb ed="#V" n="72"/>riores, per quas ordinamur ad proximum, cum¬ 
+            <lb ed="#V" n="73"/>etiam in accipiendo, sub, possit contingere error, 
+            <lb ed="#V" n="74"/>ex quo errore potest resultare error in conclusio 
+            <lb ed="#V" n="75"/>ne, tam agibilium, circa quae versatur conscien¬ 
+            <lb ed="#V" n="76"/>tia. quam speculabilium, circa quae versatur scien¬ 
+            <lb ed="#V" n="77"/>tia, patet ergo ex dictis, quod potest esse error in 
+            <lb ed="#V" n="78"/>conclusione agibilium, siue in conscientia ex er¬ 
+            <lb ed="#V" n="79"/>rore, siue ex falsitate maioris, vel minoris. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1321">
+            <lb ed="#V" n="80"/>Restat ergo tertio ostendere quomodo pos¬ 
+            <lb ed="#V" n="81"/>sit esse error in ipsa conscientia sine falsitate ma¬ 
+            <lb ed="#V" n="82"/>ioris, vel minoris. Sed hoc non potest esse nisi ex 
+            <lb ed="#V" n="83"/>defectu formae syllogisticae. quia non syllogixa¬ 
+            <lb ed="#V" n="84"/>tur secundum debitum modum, &amp; secundum 
+            <lb ed="#V" n="85"/>debitam figuram. Nam ex falsis potest sequi ve¬ 
+            <lb ed="#V" n="86"/>rum non propter quid, sed quoniam, vt vult Phi¬ 
+            <lb ed="#V" n="87"/>losophus in prioribus, sed ex veris non nisi ve¬ 
+            <lb ed="#V" n="88"/>rum. Ideo si maior, &amp; minor sunt verae: de neces¬ 
+            <lb ed="#V" n="89"/>sitate conclusio est vera, nisi sit ibi defectus for¬ 
+            <lb ed="#V" n="90"/>mae syllogisticae, ex quo defectu potest esse error¬ 
+            <lb ed="#V" n="91"/>in conclusione non solum speculabilium, sed a¬ 
+            <lb ed="#V" n="92"/>gibilium. Ex quo errore erit error in conscientia, 
+            <lb ed="#V" n="93"/>quam versatur circa conclusiones agibilium. erit ergo¬ 
+            <lb ed="#V" n="94"/>defectus, vel error in conscientia, vel in conclusio. 
+            <lb ed="#V" n="95"/>ne agibilium, quia non seruatur ibi forma syllogisti 
+            <lb ed="#V" n="96"/>ca, sed arguitur ibi a destructione antecedentis, 
+            <lb ed="#V" n="97"/>vel a positione consequentis, vt si fiat syllogismus 
+            <lb ed="#V" n="98"/>in prima figura, &amp; arguatur minori existente ne¬ 
+            <lb ed="#V" n="99"/>gatiua. quia tunc arguetur a destructione ante¬ 
+            <lb ed="#V" n="100"/>cedentis, vel si arguatur in secunda, ambabus pre¬ 
+            <lb ed="#V" n="101"/>missis existentibus affirmatiuis. quia tunc argue¬ 
+            <lb ed="#V" n="102"/>tur a positione consequentis: vel si arguitur in 
+            <lb ed="#V" n="103"/>quacunque figura, ambabus fremissis existentibus 
+            <lb ed="#V" n="104"/>negatiuis. quia ex puris negatiuis nihil sequitur 
+            <lb ed="#V" n="105"/>in quacunque figura. Nam ex eo, quod maior, &amp; minor 
+            <lb ed="#V" n="106"/>extremitas negantur a medio, nec ex hoc habe¬ 
+            <lb ed="#V" n="107"/>tur, quod coniungantur inter se, vt ex hoc possimus 
+            <lb ed="#V" n="108"/>concludere conclusionem affirmatiuam, nec quod diuidam. 
+            <lb ed="#V" n="109"/>tur a se, vt ex hoc possimus concludere negatiuam, 
+            <lb ed="#V" n="110"/>His iaque transcursis dicamus, quod oibus modis, 
+            <lb ed="#V" n="111"/>quibus potest esse defectus, &amp; error in conclusione 
+            <lb ed="#V" n="112"/>speculabilium, circa quas habet esse scientia, potesm 
+            <lb ed="#V" n="113"/>esse defectus, &amp; error in conclusionibus agibilium, 
+            <lb ed="#V" n="114"/>circa quas hebet esse conscientia, &amp; adhuc amplius. 
+            <lb ed="#V" n="115"/>quia magis est incerta materia moralis, &amp; agibi¬ 
+            <lb ed="#V" n="116"/>lis, &amp; conscientialis, quam speculabilis, &amp; con¬ 
+            <lb ed="#V" n="117"/>templabilis, &amp; scientialis. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1406">
+            <lb ed="#V" n="118"/>RESP. ADARG. Ad primum dicendum 
+            <lb ed="#V" n="119"/>quod testibus est credendum. sed si potest compre¬ 
+            <lb ed="#V" n="120"/>hendi, testes esse mendaces, non est credendum eis. 
+            <lb ed="#V" n="121"/>Si ergo esset quaestio de vinea, quaereret quis me¬ 
+            <lb ed="#V" n="122"/>liores aduocatos. ergo cum est quaestio de aia, 
+            <lb ed="#V" n="123"/>vel de conscientia, debet quis recurrere, quantum 
+            <lb ed="#V" n="124"/>possibile est, ad bonos, &amp; optimos sapientes, &amp; 
+            <!--598.xml-->
+            <pb ed="#V" n="598"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cum eis habere consilium tam de fide, quam de 
+            <lb ed="#V" n="2"/>moribus, &amp; in tuto se firmare secundum conscien¬ 
+            <lb ed="#V" n="3"/>tiam suam, &amp; maxime si est inter fideles, &amp; bonos 
+            <lb ed="#V" n="4"/>Christianos, inter quos bonum, &amp; tutum consi¬ 
+            <lb ed="#V" n="5"/>lium non poterit sibi deficere. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1441">
+            <lb ed="#V" n="6"/>Ad secundum dicendum, quod consci entia dicitur indi 
+            <lb ed="#V" n="7"/>catorium naturale, ratione illa, qua dirigitur, &amp; 
+            <lb ed="#V" n="8"/>ortum habet a synderesi, quo est habitus principio¬ 
+            <lb ed="#V" n="9"/>rum. quia virtus principiorum saluatur etiam in con¬ 
+            <lb ed="#V" n="10"/>clusionibus non solum quantum ad speculabilia, sed etiam 
+            <lb ed="#V" n="11"/>quantum ad agibilia, de quibus conclusionibus a¬ 
+            <lb ed="#V" n="12"/>gibilium est conscientia. sed, vt patet, licet prin¬ 
+            <lb ed="#V" n="13"/>cipia sint per se nota conclusiones non sunt per 
+            <lb ed="#V" n="14"/>so notae, propter quod circa eas potest error contingere. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1464">
+            <lb ed="#V" n="15"/>Ad tertium dicendum, quod conscientia non est pri¬ 
+            <lb ed="#V" n="16"/>ma lex in actibus humanis, sed synderesis potest 
+            <lb ed="#V" n="17"/>dici huiusmodi lex quantum ad agibilia, quo secum 
+            <lb ed="#V" n="18"/>dum se, &amp; proprie loquendo, nec errare nec extin¬ 
+            <lb ed="#V" n="19"/>gui potest, sed conscientia circuncernit quasdam 
+            <lb ed="#V" n="20"/>conclusiones particulares agibilium, circa quas 
+            <lb ed="#V" n="21"/>potest esse error, vt patet de haereticis facientibus 
+            <lb ed="#V" n="22"/>sibi conscientiam, quodcunque iuramentum, si¬ 
+            <lb ed="#V" n="23"/>ue in vniuersali, siue in particulari esse illicitum, 
+            <lb ed="#V" n="24"/>&amp; omnem actum venereum, siue cum vxore, si¬ 
+            <lb ed="#V" n="25"/>uecum alia licite fieri non posse, in quibus ma¬ 
+            <lb ed="#V" n="26"/>niseste patet, quod conscientia est erronea. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1493">
+            <lb ed="#V" n="27"/>Ad quartum dicendum, quod conscientia dici¬ 
+            <lb ed="#V" n="28"/>tur scientia non simpliciter, sed secundum exti¬ 
+            <lb ed="#V" n="29"/>mationem illius, qui de aliquo agibili, vel de ali¬ 
+            <lb ed="#V" n="30"/>quibus agibilibus format sibi conscientiam. Et 
+            <lb ed="#V" n="31"/>quia in illa extimatione, secundum quam for¬ 
+            <lb ed="#V" n="32"/>mat sibi conscientiam potest esse error, ideo &amp;c. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m175585-Dd1e1510">
+          <head xml:id="Gi9qrR-m175585-Hd1e1512">Articulus 3</head>
+          <p xml:id="Gi9qrR-m175585-d1e1514">
+            <lb ed="#V" n="33"/>ARTIC. III. 
+            <lb ed="#V" n="34"/>An conscientia erronea obliger. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1521">
+            <lb ed="#V" n="35"/>Conclusio est affirmatiua. 
+            <lb ed="#V" n="36"/>D. Tho. 1. 2. q. 19. art. 5. &amp; 6. Et 2. sentent. d. 39. q. 3. 
+            <lb ed="#V" n="37"/>art.3. Et de Ver. q. 17. art. 4. Et Quol. 3. ar. 17. D 
+            <lb ed="#V" n="38"/>Bonau. d. 39. art. 1. q. 3. Ric. d. 33. q. 6. Biel. d. 19 
+            <lb ed="#V" n="39"/>q. 1. Dur. d. 33. q. 5. Capr. d. 39. art. 3. q. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1534">
+            <lb ed="#V" n="40"/>TERTIO quaeritur. Vtrum con¬ 
+            <lb ed="#V" n="41"/>scientia erronea liget. Et vide¬ 
+            <lb ed="#V" n="42"/>tur, quod non. quia, vt dicebatur 
+            <lb ed="#V" n="43"/>supra Dist. 35. Peccatum est 
+            <lb ed="#V" n="44"/>dictum, vel factum, vel concu¬ 
+            <lb ed="#V" n="45"/>pitum contra legem Dei, sed 
+            <lb ed="#V" n="46"/>facere contra scientiam erroneam non est facere 
+            <lb ed="#V" n="47"/>contra legem Dei, ergo ibi non est peccatum, &amp; 
+            <lb ed="#V" n="48"/>per talem conscientiam non obligamur ad aliquod. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1556">
+            <lb ed="#V" n="49"/>Praeterea conscientia, siue erronea, siue recte 
+            <lb ed="#V" n="50"/>habet rationem inferioris iudicis respectu Dei. 
+            <lb ed="#V" n="51"/>Sed praeceptum iudicis inferioris non ligat nos 
+            <lb ed="#V" n="52"/>si sit contra praeceptum superioris. Ergo facere 
+            <lb ed="#V" n="53"/>contra dictamen, &amp; contra praeceptum conscien¬ 
+            <lb ed="#V" n="54"/>tiae, si sit erroneum, &amp; contra legem Dei, non li¬ 
+            <lb ed="#V" n="55"/>gabit nos, vel non obligabit. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1575">
+            <lb ed="#V" n="56"/>Praeterea nullus faciens id, ad quod obligatur 
+            <lb ed="#V" n="57"/>peccat. Si ergo conscientia erronea nos obligat, 
+            <lb ed="#V" n="58"/>faciendo secundum dictamen conscientiae erro. 
+            <!--598.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>neae non peccamus, quod est falsum. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1591">
+            <lb ed="#V" n="60"/>Praeterea non est dare perplexionem. si ergo¬ 
+            <lb ed="#V" n="61"/>aliquis habens conscientiam erronenm, si obli¬ 
+            <lb ed="#V" n="62"/>geo per eam erit perplexus. Quia si faciat, quod illa di¬ 
+            <lb ed="#V" n="63"/>ctat peccabit. &amp; si non faciat, peccabit, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1602">
+            <lb ed="#V" n="64"/>INGONTRARIVM est, quod habetur 
+            <lb ed="#V" n="65"/>ad Rom. 14. Omne autem, quod non est ex fidc, 
+            <lb ed="#V" n="66"/>peccatum est. Quod Olo. &amp;ponit, quod omne, quod 
+            <lb ed="#V" n="67"/>non est ex fideid est quod est contra fidemid est contra¬ 
+            <lb ed="#V" n="68"/>conscientiam. Vbi manifeste colligitur, quod om¬ 
+            <lb ed="#V" n="69"/>ne, quod est contra conscientiam, est peccatum. 
+            <lb ed="#V" n="70"/>Praeterea Ecclesiastes 7. super illo verbo: Scit 
+            <lb ed="#V" n="71"/>n. conscientia tua. Vbi dicit interlinearis, quod con 
+            <lb ed="#V" n="72"/>scientia iudice, nemo nocens absoluitur ergo om¬ 
+            <lb ed="#V" n="73"/>nis nocensid est omnis faciens contra conscientiam 
+            <lb ed="#V" n="74"/>iudicem non absoluitur, immo ligatur secundum 
+            <lb ed="#V" n="75"/>conscientiam illam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1631">
+            <lb ed="#V" n="76"/>RESOLVTIO. 
+            <lb ed="#V" n="77"/>conscientia recta ligat, &amp; quidem simpliciter: &amp; 
+            <lb ed="#V" n="78"/>deponi non potest: erronea vero ligat, quandiu 
+            <lb ed="#V" n="79"/>durat: sed cognito errore, deponi debet
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1642">
+            <lb ed="#V" n="80"/>RESPONDEO dicendum, quod con¬ 
+            <lb ed="#V" n="81"/>scientiam erroneam nos ligare, vel nos obliga¬ 
+            <lb ed="#V" n="82"/>re, possumus probare testimonio Euangelii, Apo¬ 
+            <lb ed="#V" n="83"/>stoli, &amp; ratione. Testimonio quidem euangelii¬ 
+            <lb ed="#V" n="84"/>patet. quia <ref xml:id="Gi9qrR-m175585-Rd1e1655">Matth. 5.</ref> dicitur. Esto consentiens 
+            <lb ed="#V" n="85"/>aduersario tuo. Et licet per aduersarium possi¬ 
+            <lb ed="#V" n="86"/>mus intelligere Deum ipsum, qui semper aduer 
+            <lb ed="#V" n="87"/>satur nobis, cum mala agimus, vt glosae tangunt, 
+            <lb ed="#V" n="88"/>vel ipsum praeceptum Dei, quod semper aduer 
+            <lb ed="#V" n="89"/>satur nobis, cum male agimus: possumus etiam 
+            <lb ed="#V" n="90"/>per aduersarium intelligere ipsam conscientiam, 
+            <lb ed="#V" n="91"/>quae aduersatur nobis cum facimus contra eam. 
+            <lb ed="#V" n="92"/>Sed dices, si conscientia sit erronea, nunquid 
+            <lb ed="#V" n="93"/>obligamur ad faciendum secundum eam: 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1677">
+            <lb ed="#V" n="94"/>Ad quod dici potest, quod obligamur. quia si 
+            <lb ed="#V" n="95"/>non facimus secundum eam, peccamus. quia hoc 
+            <lb ed="#V" n="96"/>est peccare, non facere, ad quod obligamur. si er¬ 
+            <lb ed="#V" n="97"/>go non faciendo secundum conscientiam erro. 
+            <lb ed="#V" n="98"/>neam peccamus, consequens est, quod secundum 
+            <lb ed="#V" n="99"/>conscientiam erroneam obligemur. Possumus 
+            <lb ed="#V" n="100"/>etiam ad hoc adducere auctoritates. Dam. Dicen¬. 
+            <lb ed="#V" n="101"/>tis, quod conscientia nina est lex intellectus no¬ 
+            <lb ed="#V" n="102"/>stri. Si ergo lex di. Quia ligat ordinatos ad illam 
+            <lb ed="#V" n="103"/>legem, cum quilibet ordiner ad talem legem, consequens 
+            <lb ed="#V" n="104"/>est, quod quilibet ligetur a tali lege. Secundo 
+            <lb ed="#V" n="105"/>hoc idem possumus declarare ex dictis Apostoli¬ 
+            <lb ed="#V" n="106"/>ad Cal. 5. vbi dicitur: Ecce ego Paulus dico, quo¬ 
+            <lb ed="#V" n="107"/>niam si circuncidimini: Christus nihil vobis pro¬ 
+            <lb ed="#V" n="108"/>derit. Et postea subditur: Testificor autem rur¬ 
+            <lb ed="#V" n="109"/>sus omni homini circuncidenti se, quoniam de¬ 
+            <lb ed="#V" n="110"/>bitor est vniuersae legis faciendae. Duo ergo di¬ 
+            <lb ed="#V" n="111"/>cit de circuncisione. Primo quidem, quod habenes 
+            <lb ed="#V" n="112"/>conscientiam de circuncisione, vel faciens se cir¬ 
+            <lb ed="#V" n="113"/>cuncidi, credens, &amp; habens conscientiam se ad 
+            <lb ed="#V" n="114"/>hoc teneri, quod Christus nihil sibi prodest, quod 
+            <lb ed="#V" n="115"/>non esset nisi illa conscientia esset erronea. Po¬ 
+            <lb ed="#V" n="116"/>stea dicit, quod testificatur omni circuncidenti¬ 
+            <lb ed="#V" n="117"/>se, quoniam debitor est vniuersae legis faciendae. 
+            <lb ed="#V" n="118"/>Quod non esset nisi conscientia erronea nos ligtet, 
+            <!--599.xml-->
+            <pb ed="#V" n="599"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; nos constitueret debitores ad faciendum mi¬ 
+            <lb ed="#V" n="2"/>uersa, quam consciontia etiam erronea dictat. Nam, quod fa¬ 
+            <lb ed="#V" n="3"/>cit se circunoidi, quia credit hoo expedire saluti 
+            <lb ed="#V" n="4"/>corporis, si morbus corporalis ibi appareat, non 
+            <lb ed="#V" n="5"/>peccat, &amp; ex hoc non euacuatur a merito Chri. 
+            <lb ed="#V" n="6"/>sti, nec fit debitor vniuersae legis. sed si hoc cre¬ 
+            <lb ed="#V" n="7"/>dit secundum conscientiam suam expedire saluti 
+            <lb ed="#V" n="8"/>animae, duo mala inde icurrit. quia Christus nihil 
+            <lb ed="#V" n="9"/>sibi podest. Et fit debitor vniuersae legis. Quod 
+            <lb ed="#V" n="10"/>non esset nisi conscientia erronea nos ligaret. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1763">
+            <lb ed="#V" n="11"/>Possumus tertio ad hoc adducere rationem. Nam 
+            <lb ed="#V" n="12"/>conscientia nostra est dictamen rationis nostrae. Cum 
+            <lb ed="#V" n="13"/>ergo totum peccatum nostrum sit. quia agimus con¬ 
+            <lb ed="#V" n="14"/>tra rationem: &amp; totum bonum, quia agimus secum. 
+            <lb ed="#V" n="15"/>dum rationem, dum modo ratio sit recta. quia plu¬ 
+            <lb ed="#V" n="16"/>ra requiruntur ad construendum, quoam ad destruen¬ 
+            <lb ed="#V" n="17"/>dum. Nullus ergo faciet contra conscientiam 
+            <lb ed="#V" n="18"/>quantuncunque erroneam, nisi faciat contra dicta 
+            <lb ed="#V" n="19"/>men rationis, &amp; consequens est, quod nullus possit 
+            <lb ed="#V" n="20"/>facere contra conscientiam quantuncunque erroneam 
+            <lb ed="#V" n="21"/>nisi peccet, &amp; nisi aedificet ad Gehennam. Et ideo si¬ 
+            <lb ed="#V" n="22"/>non faciamus, quod aduersarius noster id est quod conscien¬ 
+            <lb ed="#V" n="23"/>tia dictat, &amp; moriamur i tali peccato, trademur 
+            <lb ed="#V" n="24"/>tortori, &amp; ponemur in carcere gehennae. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1796">
+            <lb ed="#V" n="25"/>Sed dices, vt in arguendo dicebatur, quod nulluss 
+            <lb ed="#V" n="26"/>peccat faciendo, ad quod facere tenetur, ergo si 
+            <lb ed="#V" n="27"/>tenemur facere secundum conscientiam erro¬ 
+            <lb ed="#V" n="28"/>neam faciendo illud non peccamus. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1807">
+            <lb ed="#V" n="29"/>Ad quod dici debet, quod ad construendum mul ta¬ 
+            <lb ed="#V" n="30"/>requiruntur, sed ad destruendum vnum solum suffi¬ 
+            <lb ed="#V" n="31"/>cit. Et secundum Dio. Bonum constat ex tota sua cau¬ 
+            <lb ed="#V" n="32"/>sa: Malum autem ex particularibus defectibus. Ad 
+            <lb ed="#V" n="33"/>hoc ergo, quod aliquis recte agat, oportet, quod conscienm 
+            <lb ed="#V" n="34"/>tia sit recta, &amp; opus rectum. Sed ad hoc, quod male a¬ 
+            <lb ed="#V" n="35"/>gat, vnum solum sufficit. Nam sufficit, quod conscientia non 
+            <lb ed="#V" n="36"/>sit recta, vel, quod opus non sit rectum. Vel possu¬ 
+            <lb ed="#V" n="37"/>mus dicere, quod ad peccare sufficit solum, quod 
+            <lb ed="#V" n="38"/>quis velit peccare, sed omnis volenes facere contra con¬ 
+            <lb ed="#V" n="39"/>scientiam, vel contra dictamem rationis consequens est, quod 
+            <lb ed="#V" n="40"/>velit peccare, &amp; volendo peccare peccat. Dicemus 
+            <lb ed="#V" n="41"/>ergo, quod dictamen rationis nrnae quantum ad conclusio¬ 
+            <lb ed="#V" n="42"/>nes agibilium, quod spectat ad conscientiam, est deriuatum 
+            <lb ed="#V" n="43"/>a lumine diuino. Et licet in ipso lumine non pos¬ 
+            <lb ed="#V" n="44"/>sit esse error, tamn in ipsa ratione deriuata ab ipso lu¬ 
+            <lb ed="#V" n="45"/>mine diuino potest esse ertor. Vnde super illo ver¬ 
+            <lb ed="#V" n="46"/>bo: Signatum est sup nos lumem vultus tui: Dicit 
+            <lb ed="#V" n="47"/>Olo. quod vultus Dei est ratio nitia, secundum quam fa¬ 
+            <lb ed="#V" n="48"/>cti sumus ad imaginem Dei. Agens ergo contra di¬ 
+            <lb ed="#V" n="49"/>ctamen rationis, agit contra legen Dei non in se, sed put¬ 
+            <lb ed="#V" n="50"/>perotenem nobis impressam dicitur esse in nobis, vel¬ 
+            <lb ed="#V" n="51"/>in cordibus niis inscripta lex Dei, contra quam 
+            <lb ed="#V" n="52"/>faciendo, vel facere volendo semper peccamus. 
+            <lb ed="#V" n="53"/>quod non esset nisi conscientia etiam erronen¬ 
+            <lb ed="#V" n="54"/>nos ligaret. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1866">
+            <lb ed="#V" n="55"/>His itaque transcursis volumus soluere tres dif¬ 
+            <lb ed="#V" n="56"/>ficultates circa istam materiam contingentes. Prima¬ 
+            <lb ed="#V" n="57"/>difficultas est, cum conscientia erronea liget, &amp; 
+            <lb ed="#V" n="58"/>homo semper teneatur facere, quod conscientia 
+            <lb ed="#V" n="59"/>dictat: vtrum hoc modo aliquis peccet faciendo 
+            <lb ed="#V" n="60"/>ad quod tenetur. Hanc difficultatem soluit Magi¬ 
+            <lb ed="#V" n="61"/>ster ad Ro. 14. super illo verbo: Omne autem, quod 
+            <lb ed="#V" n="62"/>non est ex fide, peccatum est. Ibien. fides stat pro co¬ 
+            <!--599.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>scientia, vt dicatur non esse ex fided iet contra fidem. 
+            <lb ed="#V" n="64"/>quia est contra conscientiam. quia credis, &amp; ha¬ 
+            <lb ed="#V" n="65"/>bes conscientiam, quod illud debeas facere. Vbi Ma 
+            <lb ed="#V" n="66"/>gister vult, quod omne, quod fit contra conscien¬ 
+            <lb ed="#V" n="67"/>tiam. quia credimus malum esse, peccatum est etiam si 
+            <lb ed="#V" n="68"/>bonum in se sit, quod fit. dato ergo, quod facia¬ 
+            <lb ed="#V" n="69"/>mus bonum, &amp; credamus illud esse malum: fa¬ 
+            <lb ed="#V" n="70"/>ciendo hoc modo contra id, quod credimus, &amp; 
+            <lb ed="#V" n="71"/>contra conscientiam semper peccamus. Sed si dices, 
+            <lb ed="#V" n="72"/>quod si homo tenetur facere, quod dictat con¬ 
+            <lb ed="#V" n="73"/>scientia erronea, ergo faciendo illud, ad quod te¬ 
+            <lb ed="#V" n="74"/>netur, non peccat. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1916">
+            <lb ed="#V" n="75"/>Ad quod respondet Magister ibidem, quod. 
+            <lb ed="#V" n="76"/>&amp; si omne, quod fit contra conscientiam, &amp; con¬ 
+            <lb ed="#V" n="77"/>tra id, quod credimus esse bonum, peccatum est, 
+            <lb ed="#V" n="78"/>non tamen omne, quod fit cum fide id est cum conscientia, 
+            <lb ed="#V" n="79"/>qua credimus illud esse bonum, consequens est, 
+            <lb ed="#V" n="80"/>quod sit bonum. Ex quobus verbis patet clarius ve¬ 
+            <lb ed="#V" n="81"/>ritas quaesiti, quod sufficit ad hoc, quod aliquis pec¬ 
+            <lb ed="#V" n="82"/>cet, quod faciat aliquid, quod credit esse malum, 
+            <lb ed="#V" n="83"/>sed non sufficit ad hoc, quod faciat aliquid, quod 
+            <lb ed="#V" n="84"/>credit esse bonum. quia bonum constat ex tota 
+            <lb ed="#V" n="85"/>sua cam: malum autem ex particularibs defectibus. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1942">
+            <lb ed="#V" n="86"/>Ex his autem soluta est difficultas proposita. 
+            <lb ed="#V" n="87"/>quia si semper teneris facere secundum conscien¬ 
+            <lb ed="#V" n="88"/>tiam: non tamen semp benefacis faciendo secundum conscienm 
+            <lb ed="#V" n="89"/>tiam, si conscientia sit erronea, vtroque modo pec¬ 
+            <lb ed="#V" n="90"/>cas. Nam peccas non faciendo secundum con¬ 
+            <lb ed="#V" n="91"/>scientiam, &amp; peccas faciendo secundum conscientiam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e1959">
+            <lb ed="#V" n="92"/>Ex hac autem prima difficultate oritur secun¬ 
+            <lb ed="#V" n="93"/>da, quod si homo peccat non faciendo, quod con¬ 
+            <lb ed="#V" n="94"/>scientia erronea dictat, &amp; peccat faciendo, quod 
+            <lb ed="#V" n="95"/>dictat: videtur, quod sit dare perplexionem. Ad 
+            <lb ed="#V" n="96"/>quod dici debet non esse inconueniens, si est da¬ 
+            <lb ed="#V" n="97"/>re perplexionem secundum quid, sed esset incon¬ 
+            <lb ed="#V" n="98"/>ueniens si esset dare perplexionem simpliciter. Quia 
+            <lb ed="#V" n="99"/>quandiu sumus in vita ista, nulli potet claudi sim¬ 
+            <lb ed="#V" n="100"/>pliciter, &amp; omnino porta salutis. Quamuis ergo 
+            <lb ed="#V" n="101"/>durante conscientia erronea peccemus non facien¬ 
+            <lb ed="#V" n="102"/>do secundum conscientiam, &amp; peccemus faciendo, 
+            <lb ed="#V" n="103"/>non propter hoc est dare perplexionem simplici¬ 
+            <lb ed="#V" n="104"/>ter. quia possumus, &amp; debemus illam conscientiam 
+            <lb ed="#V" n="105"/>deponere, &amp; sic erimus extra perplexionem. Nam sa 
+            <lb ed="#V" n="106"/>piens in eo, quod sapiens, non errat, sed simplex in 
+            <lb ed="#V" n="107"/>eo, quod simplex potet errare. Debent ergo simpli¬ 
+            <lb ed="#V" n="108"/>ces tam de fide, quam de moribus adhaerere sa¬ 
+            <lb ed="#V" n="109"/>pientibus, &amp; firmare sibi conscientiam secun¬ 
+            <lb ed="#V" n="110"/>dum iudicium saplentum, &amp; secundum doctri¬ 
+            <lb ed="#V" n="111"/>nam euangelicam quae fundata est supra Chri¬ 
+            <lb ed="#V" n="112"/>stum, qui est firma petra, &amp; Dei virtus, &amp; Dei¬ 
+            <lb ed="#V" n="113"/>sapientia. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2009">
+            <lb ed="#V" n="114"/>Tertia etiam difficultas oritur ex praedictis. 
+            <lb ed="#V" n="115"/>Nam si recta conscientia ligat, &amp; erronea ligat, 
+            <lb ed="#V" n="116"/>quaestio vtraque diuersimode ligat. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2018">
+            <lb ed="#V" n="117"/>Ad quod dici debet, quod conscientia recta¬ 
+            <lb ed="#V" n="118"/>ligat simpliciter, &amp; non potest deponi, sed con¬ 
+            <lb ed="#V" n="119"/>scientia erronea non licat simpliciter, sed ligat, 
+            <lb ed="#V" n="120"/>quandiu durat: &amp; non solum potest deponi, im¬ 
+            <lb ed="#V" n="121"/>mo debet deponi: &amp; quilibet habens eam, prout 
+            <lb ed="#V" n="122"/>est erronea, obligatur ad deponendam ipsam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2034">
+            <lb ed="#V" n="123"/>Aduertendum tamen, quod inter conscientiam re¬ 
+            <lb ed="#V" n="124"/>ctam, &amp; erroneam est dare conscientiam mediam, id est: 
+            <!--600.xml-->
+            <pb ed="#V" n="600"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>indifferentem, quae est de rebus indifferentibus, qua 
+            <lb ed="#V" n="2"/>durante, tenetur quis eam obseruare: licet ex hoc 
+            <lb ed="#V" n="3"/>non sit perplexus. quia potest sine pacto praeserua¬ 
+            <lb ed="#V" n="4"/>re illam. bonum est tamen eam deponere: quia bonum 
+            <lb ed="#V" n="5"/>est, quod quis non teneat se obligatum ad id, ad 
+            <lb ed="#V" n="6"/>quod non est de iure obligatus. tamen si sit du¬ 
+            <lb ed="#V" n="7"/>bium, &amp; tale dubium consistat in facto, bonum est 
+            <lb ed="#V" n="8"/>se deponere in tuto, &amp; declinare ad partem il¬ 
+            <lb ed="#V" n="9"/>lam, quod sit ibi aliqua culpa. quia secundum 
+            <lb ed="#V" n="10"/>Gre. bonarum mentium est ibi culpam cognosce¬ 
+            <lb ed="#V" n="11"/>re: vbi culpa non est. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2071">
+            <lb ed="#V" n="12"/>RESP. AD ARG. Ad primum dicendum, 
+            <lb ed="#V" n="13"/>quod agens non agit nisi vt tangit, &amp; quia lex Dei 
+            <lb ed="#V" n="14"/>potissime tangit nos, vt est secundum dictamen con¬ 
+            <lb ed="#V" n="15"/>scientiae nostrae. Ideo faciendo contra conscien¬ 
+            <lb ed="#V" n="16"/>tiam facimus contra legem Dei, prout illa lex re¬ 
+            <lb ed="#V" n="17"/>lucet in nobis. Et licet non faciendo secundum 
+            <lb ed="#V" n="18"/>conscientiam, &amp; secundum legem Dei relucentem in 
+            <lb ed="#V" n="19"/>nobis peccemus: Tamen non semper bene facimus 
+            <lb ed="#V" n="20"/>faciendo secundum conscientiam: quia non debemus omni 
+            <lb ed="#V" n="21"/>spiritui credere, nec omni dictamini conscientiae adhaere¬ 
+            <lb ed="#V" n="22"/>ret sed debemus examinare spiritus, &amp; tractare de dicta¬ 
+            <lb ed="#V" n="23"/>mine conscientiae nostrae in dubiis cum sapientibus, 
+            <lb ed="#V" n="24"/>&amp; videre. vtrum tale dictamen ex Deo sit, &amp; vtrum 
+            <lb ed="#V" n="25"/>sequendum sit. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2104">
+            <lb ed="#V" n="26"/>Ad secundum dicendum, quod quando praeceptum su¬ 
+            <lb ed="#V" n="27"/>perioris iudicis peruenit ad nos per iudicem in¬ 
+            <lb ed="#V" n="28"/>feriorem, tunc contemnendo iudicem inferiorem, 
+            <lb ed="#V" n="29"/>contemnimus superiorem. Ideo contemnendo, quod 
+            <lb ed="#V" n="30"/>conscientia dictat: contemnimus Deum, a quo est in 
+            <lb ed="#V" n="31"/>nobis lumen rationis: a quo lumine oritur dictamen 
+            <lb ed="#V" n="32"/>conscientiae. Sed licet peccemus dictamen conscien¬ 
+            <lb ed="#V" n="33"/>tiae non sequendo; non tamen semper bene facimus 
+            <lb ed="#V" n="34"/>sequendo: quia demus cum peritis diligenter exa¬ 
+            <lb ed="#V" n="35"/>minare illud, an sit rectum, &amp; sequendum, vel sit erro¬ 
+            <lb ed="#V" n="36"/>neum, &amp; deponendum. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2131">
+            <lb ed="#V" n="37"/>Ad tertium dicendum, quod vt paret per habita: licet sem¬ 
+            <lb ed="#V" n="38"/>per peccemus non faciendo, quod conscientia di¬ 
+            <lb ed="#V" n="39"/>ctat: non tamen semper benefacimus faciendo, quod di¬ 
+            <lb ed="#V" n="40"/>ctat. Ad formam aut arguendi quod homo non pec¬ 
+            <lb ed="#V" n="41"/>cat faciendo, ad quod tenetur, Verum est si ad il¬ 
+            <lb ed="#V" n="42"/>lud tenetur simpliciter, &amp; si malum est illud de¬ 
+            <lb ed="#V" n="43"/>ponere. Sed ad dictamen conscientiae erroneae 
+            <lb ed="#V" n="44"/>non tenemur simpliciter: sed solum quandiu du¬ 
+            <lb ed="#V" n="45"/>rat, &amp; bonum est illud deponere. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2153">
+            <lb ed="#V" n="46"/>Et per haec patet solutio ad quartum. quia ha¬ 
+            <lb ed="#V" n="47"/>bens conscientiam erroneam non est perplexus 
+            <lb ed="#V" n="48"/>simpliciter: quia potest, &amp; debet eam deponere. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2162">
+            <lb ed="#V" n="49"/>Dub. I. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2167">
+            <lb ed="#V" n="50"/>SVPER litteram quaeritur pri¬ 
+            <lb ed="#V" n="51"/>mo super illud: Quod intellectus 
+            <lb ed="#V" n="52"/>ratio: ingenium, &amp; memoria: si vi¬ 
+            <lb ed="#V" n="53"/>tiis, &amp; peccatis obnubulentur, 
+            <lb ed="#V" n="54"/>&amp; corrumpantur; bona tamen 
+            <lb ed="#V" n="55"/>sunt: nec peccata nominantur. 
+            <lb ed="#V" n="56"/>Contra: Corruptio, &amp; obnubulatio facta per pec¬ 
+            <lb ed="#V" n="57"/>catum, videtur, quod semper sit peccatum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2187">
+            <lb ed="#V" n="58"/>Dicendum, quod Magister in illis verbis assigna¬ 
+            <lb ed="#V" n="59"/>uit rationem, quare semper voluntas dicitur esse 
+            <lb ed="#V" n="60"/>mala, si velit malum, &amp; dicitur actus eius esse pec¬ 
+            <!--600.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="61"/>catum, cum vult malum, &amp; peccatum. Non autem 
+            <lb ed="#V" n="62"/>sic est de intellectu vel ratione, &amp; de ingenio, vel 
+            <lb ed="#V" n="63"/>memoria. Sed vt patet per Augustinum: Omne pec¬ 
+            <lb ed="#V" n="64"/>catum a deo est voluntarium, quod si non est volunta¬ 
+            <lb ed="#V" n="65"/>rium non est peccatum: Ita quod ratio peccati potissi¬ 
+            <lb ed="#V" n="66"/>me sumitur ex voluntate. Habere ergo ingenium, 
+            <lb ed="#V" n="67"/>&amp; bonam memoriam semper bonum est: sed voluntas 
+            <lb ed="#V" n="68"/>est mala, quae male vtitur istis bonis. Intellectus er¬ 
+            <lb ed="#V" n="69"/>go, &amp; ingenium, &amp; caetera talia bona sunt: sed pos¬ 
+            <lb ed="#V" n="70"/>sunt esse mala huic, qui per voluntatem male vtitur 
+            <lb ed="#V" n="71"/>eis. Sicut aqua bona est: sed est mala huic, quod suffo¬ 
+            <lb ed="#V" n="72"/>catur per eam. Et ideo dicit Philosophus, quod quando aqua 
+            <lb ed="#V" n="73"/>suffocat: non est opus bibere. Et hoc dicit propter 
+            <lb ed="#V" n="74"/>intellectum: quia intellectus bonus est: sed quando 
+            <lb ed="#V" n="75"/>intellectus suffocat te ostendendo tibi vias, quas 
+            <lb ed="#V" n="76"/>sequendo suffocaris a passibilibus, &amp; efficeris ma¬ 
+            <lb ed="#V" n="77"/>lus, &amp; vitiosus: bonum esset tibi, quod esses rudis, &amp; 
+            <lb ed="#V" n="78"/>grossus, &amp; non haberes subtile ingenium, nec sub¬ 
+            <lb ed="#V" n="79"/>tilem intellectum ad inueniendum vias, per quas suf¬ 
+            <lb ed="#V" n="80"/>focatis. Ideo dicitur, quod decies millies plura vtique 
+            <lb ed="#V" n="81"/>mala faciet homo malus, quam bestia: quia bestia 
+            <lb ed="#V" n="82"/>nescit inuenire vias: &amp; modos ad faciendum ma¬ 
+            <lb ed="#V" n="83"/>lum: Sicut scit homo habens intellectum, &amp; inge¬ 
+            <lb ed="#V" n="84"/>nium. ista ergo bona sunt: sed voluntas est mala, 
+            <lb ed="#V" n="85"/>quae male vtitur istis bonis. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2255">
+            <lb ed="#V" n="86"/>Dub. II. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2261">
+            <lb ed="#V" n="87"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="88"/>in litera dicitur, quod breuius respondent &amp;c 
+            <lb ed="#V" n="89"/>vbi vult Magister, quod ponentes, quod omnia 
+            <lb ed="#V" n="90"/>in quantum sunt, bona sunt. dicunt tamen 
+            <lb ed="#V" n="91"/>quod actus voluntatis in quantum est, bo¬ 
+            <lb ed="#V" n="92"/>nus est: sed inquantum inordinatus est, malus 
+            <lb ed="#V" n="93"/>est. quia vt habet inordinatum esse, non habet 
+            <lb ed="#V" n="94"/>esse: sed deficit ab esse: quia secundum Augusti¬ 
+            <lb ed="#V" n="95"/>num: malum vel peccatum non habet causan effi¬ 
+            <lb ed="#V" n="96"/>cientem, sed deficientem. Alia autem opinio est, 
+            <lb ed="#V" n="97"/>quod actus malus nullo modo est bonus. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2287">
+            <lb ed="#V" n="98"/>Dicendum, quod prima opinio est securior. 
+            <lb ed="#V" n="99"/>Nam malum non nisi in bono fundari potest 
+            <lb ed="#V" n="100"/>Nullus est enim actus ita malus, qui materiali¬ 
+            <lb ed="#V" n="101"/>ter, &amp; ratione fundamenti non sit bonus: quia 
+            <lb ed="#V" n="102"/>tunc ille actus non esset actus, sed esset purus 
+            <lb ed="#V" n="103"/>defectus: quicquid ergo est ibi actus, &amp; quic¬ 
+            <lb ed="#V" n="104"/>quid entitatis: totum secundum quod huiusmodi est bonum. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2305">
+            <lb ed="#V" n="105"/>Dub. III. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2310">
+            <lb ed="#V" n="106"/>Vlterius forte dubitaret aliquis: vtrum illa re¬ 
+            <lb ed="#V" n="107"/>sponsio, quam dat secunda opinio de actu ma¬ 
+            <lb ed="#V" n="108"/>lo: possit trahi ad bonum. Ait enim actum vo¬ 
+            <lb ed="#V" n="109"/>luntatis malum non esse de naturalibus, &amp; non 
+            <lb ed="#V" n="110"/>pertinere ad naturalia. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2323">
+            <lb ed="#V" n="111"/>Dicendum, quod opinio secunda mala est. Cre¬ 
+            <lb ed="#V" n="112"/>dit enim esse aliquas res, &amp; aliqua entia, quae secun¬ 
+            <lb ed="#V" n="113"/>dum quod huiusmodi non sunt a Deo, quod se¬ 
+            <lb ed="#V" n="114"/>cundum veritatem stare non potest. Tamen re¬ 
+            <lb ed="#V" n="115"/>sponsio tacta potest ad bonum trahi: videlicet, 
+            <lb ed="#V" n="116"/>quod actus malus non est de naturalibus: quia 
+            <lb ed="#V" n="117"/>homo naturaliter inclinatur ad bonum, &amp; omne 
+            <!--601.xml-->
+            <pb ed="#V" n="601"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>malum, &amp; omne vitium est contta, &amp; praeter na 
+            <lb ed="#V" n="2"/>turalem inclinationem nostram a Deo, &amp; dicit 
+            <lb ed="#V" n="3"/>Dam. virtutes omnes esse secundum naturam, &amp; 
+            <lb ed="#V" n="4"/>vitia contra naturam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2356">
+            <lb ed="#V" n="5"/>Dub. III. Litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2362">
+            <lb ed="#V" n="6"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="7"/>in littera dicitur, quod homo naturaliter vult bonum, 
+            <lb ed="#V" n="8"/>sed voluntas haec semper caret effectu nisi gratia 
+            <lb ed="#V" n="9"/>Del adiuuetur. Sed contra: Nihil frustra est in na¬ 
+            <lb ed="#V" n="10"/>tura: si ergo voluntas hominis naturaliter vult 
+            <lb ed="#V" n="11"/>bonum: tamen semper caret effectu: videtur, quo 
+            <lb ed="#V" n="12"/>sit aliquid frustra in natura. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2380">
+            <lb ed="#V" n="13"/>Dicendum, quod nihil est frustra in natura quan¬ 
+            <lb ed="#V" n="14"/>tum ad ta, quae sunt naturaliter, sed quantum ad 
+            <lb ed="#V" n="15"/>ea, quae sunt super naturaliter. Prout est bene fa¬ 
+            <lb ed="#V" n="16"/>cere meritorie: oporter, quod hoc fiat per gratiam, 
+            <lb ed="#V" n="17"/>&amp; iuuetur natura per gratiam. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2393">
+            <lb ed="#V" n="18"/>Vel possumus dicere quod nihil est ftustra in na¬ 
+            <lb ed="#V" n="19"/>tura loquendo de natura integra, vel de natura 
+            <lb ed="#V" n="20"/>instituta, sed loquendo de natura corrupta, vel 
+            <lb ed="#V" n="21"/>infirma potest aliquid esse frustra, quia posset quis 
+            <lb ed="#V" n="22"/>talem infirmitatem habere, quod frustra haberet 
+            <lb ed="#V" n="23"/>pedes. Ideo Magister in littera ait, quod voluntas 
+            <lb ed="#V" n="24"/>hominis naturaliter vult bonum, sed talis volun¬ 
+            <lb ed="#V" n="25"/>tas semper caret effectu: nisi gratia Dei adiuuet, 
+            <lb ed="#V" n="26"/>&amp; liberet. Adiuuet quidem quantum ad bonum, 
+            <lb ed="#V" n="27"/>quod est supra naturam, &amp; liberet ipsam naturam, 
+            <lb ed="#V" n="28"/>quae est corrupta, &amp; infirma. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2419">
+            <lb ed="#V" n="29"/>Dub. ITTI. Lirteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2424">
+            <lb ed="#V" n="30"/>Vlterius fortee dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="31"/>in littera dicitur, quod alii dicunt vnam esse vo¬ 
+            <lb ed="#V" n="32"/>luntatem, &amp;c. Est enim quaestio Magistri: Vtrum 
+            <lb ed="#V" n="33"/>sit vna, &amp; eadem voluntas, qua quis vult bonum, 
+            <lb ed="#V" n="34"/>&amp; malum: nec dici potest, quod hoc debeat refer¬ 
+            <lb ed="#V" n="35"/>ri ad potentiam, quia certum est vnam, &amp; eandem 
+            <lb ed="#V" n="36"/>esse potentiam, quam vocamus voluntatem: per 
+            <lb ed="#V" n="37"/>quam possumus velle bonum, &amp; malum, sed hoc 
+            <lb ed="#V" n="38"/>referendum est ad ipsum motum voluntatis, quia 
+            <lb ed="#V" n="39"/>circa hanc quaestionem narrat duas opiniones. 
+            <lb ed="#V" n="40"/>Quarum prima est, quod est alius, &amp; alius motus vo¬ 
+            <lb ed="#V" n="41"/>luntatis, quo voluntas mouetur naturaliter in 
+            <lb ed="#V" n="42"/>bonum, &amp; in malum. Alia vero opinio est, quod 
+            <lb ed="#V" n="43"/>est vna, &amp; eadem voluntasid est vnus motus volun¬ 
+            <lb ed="#V" n="44"/>tatis, quo homo naturaliter vult bonum, &amp; ex 
+            <lb ed="#V" n="45"/>vitio vult malum, quae harum duarum opinio¬ 
+            <lb ed="#V" n="46"/>num est melior. 
+          </p>
+          <p xml:id="Gi9qrR-m175585-d1e2463">
+            <lb ed="#V" n="47"/>Dicendum, quod naturaliter homo non fertur 
+            <lb ed="#V" n="48"/>in malum: homo ergo, vel voluntas, vt fertur in 
+            <lb ed="#V" n="49"/>malum non est motus naturalis, sed est defectus 
+            <lb ed="#V" n="50"/>a motu naturali, quia semper malum contra na¬ 
+            <lb ed="#V" n="51"/>turam. Vnus ergo est motus voluntatis, quo quis 
+            <lb ed="#V" n="52"/>fertur naturaliter in bonum, sed est ex defectu¬ 
+            <lb ed="#V" n="53"/>illius motus, quod feratur in malum. Ideo secunda 
+            <lb ed="#V" n="54"/>opinio signanter ait, quod vnus est motus volunta¬ 
+            <lb ed="#V" n="55"/>tis, quo voluntas fertur naturaliter in bonum, sed 
+            <lb ed="#V" n="56"/>ex vitio, vel ex defectu illius motu est, quod fe¬ 
+            <lb ed="#V" n="57"/>ratur in malum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="661"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m195776"><!-- l2d43prae -->
+        <head xml:id="Gi9qrR-m195776-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m195776-d1e103">
+          <lb ed="#V" n="23"/>DIST. VLIII 
+          <lb ed="#V" n="24"/>De peccato in spiritum sanctum. 
+        </p>
+        <p xml:id="Gi9qrR-m195776-d1e110">
+          <lb ed="#V" n="25"/>EST PRAETEREA 
+          <lb ed="#V" n="26"/>quoddam genus. Vt 
+          <lb ed="#V" n="27"/>patet ex superioribu¬ 
+          <lb ed="#V" n="28"/>Magister in hac distin¬ 
+          <lb ed="#V" n="29"/>ctione intendit moue¬ 
+          <lb ed="#V" n="30"/>re quaestiones, &amp; du¬ 
+          <lb ed="#V" n="31"/>bia de peccato per con¬ 
+          <lb ed="#V" n="32"/>parationem ad Spiritum 
+          <lb ed="#V" n="33"/>sanctum. Circa quod 
+          <lb ed="#V" n="34"/>duo facit, quia primo dubitat de huiusihodi 
+          <lb ed="#V" n="35"/>peccato quantum ad eius grauitatem. propter 
+          <lb ed="#V" n="36"/>quod loquitur de huiusmodi peccato suspen¬ 
+          <lb ed="#V" n="37"/>siue, quomodo sic graue est, quod neque re¬ 
+          <lb ed="#V" n="38"/>mittitur in hoc seculo, neque in futuro. 
+        </p>
+        <p xml:id="Gi9qrR-m195776-d1e143">
+          <lb ed="#V" n="39"/>Secundo quaerit, &amp; dubitat de huiusmo¬ 
+          <lb ed="#V" n="40"/>di peccato quantum ad eius quiditatem, &amp; 
+          <lb ed="#V" n="41"/>quantum ad eius esse ibi: [Sed quaeritur quid fir., 
+          <lb ed="#V" n="42"/>Ad cuius euidentiam sciendum, quod peccatum 
+          <lb ed="#V" n="43"/>in spiritum sanctum accipitur. 7. uel. 8. modis. 
+          <lb ed="#V" n="44"/>iNam obstinatio, desperatio, impaenitentia, prae¬ 
+          <lb ed="#V" n="45"/>sumptio, impugnatio ueritaris agnitae. inuidia 
+          <lb ed="#V" n="46"/>supernae gratiae, &amp; septimo peccatum in st 
+          <lb ed="#V" n="47"/>ritum sanctum est peccare ex certa malitia, est 
+          <lb ed="#V" n="48"/>etiam tale peccatum finalis impaenitentia. 
+        </p>
+        <p xml:id="Gi9qrR-m195776-d1e167">
+          <lb ed="#V" n="49"/>Tria igitur facit in determinando de hu¬ 
+          <lb ed="#V" n="50"/>iusmodi peccato quantum ad suum esse. quia 
+          <lb ed="#V" n="51"/>primo tangit primos quatuor modos: uideli¬ 
+          <lb ed="#V" n="52"/>cet quod peccatum in spuem sctum est obstina 
+          <lb ed="#V" n="53"/>tio: desperatio: impaenitentia, &amp; praesumptio. 
+        </p>
+        <p xml:id="Gi9qrR-m195776-d1e181">
+          <lb ed="#V" n="54"/>Secundo circa hoc mouet quandam quae¬ 
+          <lb ed="#V" n="55"/>stionem. Vtrum omnis obstinatio, &amp; omnis 
+          <lb ed="#V" n="56"/>desperatio, sint peccatum in Spiritum san¬ 
+          <lb ed="#V" n="57"/>ctum, &amp; soluit, quod cum peccatum in spiritum 
+          <lb ed="#V" n="58"/>sanctum sit irremissibile; si accipiatur irremif¬ 
+          <lb ed="#V" n="59"/>sibile, id est uix, &amp; ex di fficili remissibile. Sic omns 
+          <lb ed="#V" n="60"/>obstinatio, &amp; onis despatio est pctum in spumm¬ 
+          <lb ed="#V" n="61"/>sctum; sic presumptio, &amp; oem propositum non con¬ 
+          <!--661.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="62"/>fitendi, uel non paenitendi sunt huiusmodi pec¬ 
+          <lb ed="#V" n="63"/>catum. Sed si accipiatur irremissibile id est nul¬ 
+          <lb ed="#V" n="64"/>lomodo remissibile: Sic praefata peccata non 
+          <lb ed="#V" n="65"/>sunt in spiritum sanctum &amp; non sunt nullo mo¬ 
+          <lb ed="#V" n="66"/>do remissibilia: nisi prout ea concomitatur fi¬ 
+          <lb ed="#V" n="67"/>nalis impaenitentia. 
+        </p>
+        <p xml:id="Gi9qrR-m195776-d1e218">
+          <lb ed="#V" n="68"/>Tertio quia determinauerat Magister de 
+          <lb ed="#V" n="69"/>quator modis peccandi in spiritum sanctum: 
+          <lb ed="#V" n="70"/>determinat de alijs tribus modis. 
+        </p>
+        <p xml:id="Gi9qrR-m195776-d1e227">
+          <lb ed="#V" n="71"/>Secunda ibi. Sed quaeritur utrum. Tertia ibis 
+          <lb ed="#V" n="72"/>Est autem alia. Circa quod tria facit secundum 
+          <lb ed="#V" n="73"/>quod determinat tres alios modos peccandi in 
+          <lb ed="#V" n="74"/>spiritum sanctum Secunda ibi: De boc quoque 
+          <lb ed="#V" n="75"/>Tertia ibi. Non utique diftinctio illa uerborum. 
+        </p>
+        <p xml:id="Gi9qrR-m195776-d1e240">
+          <lb ed="#V" n="76"/>Aduertendum autem, quod duo quaerit, &amp; 
+          <lb ed="#V" n="77"/>duo dubitat Magister in hac Distinctione de 
+          <lb ed="#V" n="78"/>peccato in spiritum sanctum, uidelicet de eius 
+          <lb ed="#V" n="79"/>grauitate, &amp; de eius esse, uel de eius quiddi¬ 
+          <lb ed="#V" n="80"/>rate. Sed quaestionem de eius grauitate, uel 
+          <lb ed="#V" n="81"/>de eius irremissibilitate soluit, cum quaerit, an 
+          <lb ed="#V" n="82"/>omnis obstinatio, uel omnis desperatio sit hu¬ 
+          <lb ed="#V" n="83"/>iusmodi peccatum. Aduertendum etiam, quod 
+          <lb ed="#V" n="84"/>imponendo modos huiusmodi peccati Magi¬ 
+          <lb ed="#V" n="85"/>ster aliquomodo innuisset unum modum cum alio. 
+          <lb ed="#V" n="86"/>Taem intentio Magistri est determinare de quid 
+          <lb ed="#V" n="87"/>ditate huiusmodi pcti, &amp; de eius esse, quomodo ha¬ 
+          <lb ed="#V" n="88"/>bet esse. 7. uel. S. modis, &amp; de eius grauitate. Et 
+          <lb ed="#V" n="89"/>in hoc terminetur sententia praesentis Lectio¬ 
+          <lb ed="#V" n="90"/>nis, &amp; Distinctionis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

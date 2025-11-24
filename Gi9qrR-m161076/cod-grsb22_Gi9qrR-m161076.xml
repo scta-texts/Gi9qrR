@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="545"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m161076"><!-- l2d37prae -->
+        <head xml:id="Gi9qrR-m161076-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m161076-d1e103">
+          <lb ed="#V" n="27"/>DIST. XXXVII. 
+          <lb ed="#V" n="28"/>De peccato, &amp;s poena; An sint 
+          <lb ed="#V" n="29"/>a Deo. 
+        </p>
+        <p xml:id="Gi9qrR-m161076-d1e112">
+          <lb ed="#V" n="30"/>SVNT autem, &amp; 
+          <lb ed="#V" n="31"/>alii, &amp;c.] Post¬ 
+          <lb ed="#V" n="32"/>quam Magister 
+          <lb ed="#V" n="33"/>determinauit de¬ 
+          <lb ed="#V" n="34"/>quiditate pecca¬ 
+          <lb ed="#V" n="35"/>ti. &amp; de actu pec¬ 
+          <lb ed="#V" n="36"/>cati secundum opinio¬ 
+          <lb ed="#V" n="37"/>nem illam, quod in 
+          <lb ed="#V" n="38"/>quantum actus est, 
+          <lb ed="#V" n="39"/>bonus est, &amp; a 
+          <lb ed="#V" n="40"/>Deo est, hic spe¬ 
+          <lb ed="#V" n="41"/>cialiter comparat peccatum, &amp; actum, &amp; deter¬ 
+          <lb ed="#V" n="42"/>minat de huiusmodi actu scuodu opinionem aliam. 
+          <lb ed="#V" n="43"/>Videlicet, quod ipse actus peccati, scudum quod actus est, 
+          <lb ed="#V" n="44"/>malus est, &amp; a Deo non est. Duo ergo facit. quia 
+          <lb ed="#V" n="45"/>primo exequitur de hac materia secundum hanc opinio 
+          <lb ed="#V" n="46"/>nem secundam. Secundo comparatur has duas opi¬ 
+          <lb ed="#V" n="47"/>niones ad inuicem. Secunda ibi: [In hoc autem 
+          <lb ed="#V" n="48"/>verbo. ICirca primum tria facit: quia primo po¬ 
+          <lb ed="#V" n="49"/>nit hanc opinionem, quod peccatum etiam inquan¬ 
+          <lb ed="#V" n="50"/>tum actus est, malum est. secudu hanc opinionem re¬ 
+          <lb ed="#V" n="51"/>spondet ad uerba Aug. quod omnes substantiae, &amp; natu¬ 
+          <lb ed="#V" n="52"/>rae bonae sunt, &amp; omnia inquantum sunt, bona 
+          <lb ed="#V" n="53"/>sunt: &amp; hoc intelligendum est de ipsis substantijs, 
+          <lb ed="#V" n="54"/>&amp; naturis proptie sumptis, vt de anima, vel de 
+          <lb ed="#V" n="55"/>homine, &amp; de his, quae sunt substantijs, &amp; natu¬ 
+          <lb ed="#V" n="56"/>ris inseparabiliter annexa, cuiusmodi sunt poten¬ 
+          <lb ed="#V" n="57"/>tiae animae. sed hoc non est intelligendum de ipsis 
+          <!--545.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="58"/>aictibus mali, quis, uit pecoata. Terto e&amp;x his didi¬ 
+          <lb ed="#V" n="59"/>elicit quandam veritatem. Videlicet, quod cum ipsi¬ 
+          <lb ed="#V" n="60"/>actus sint quaedam res, cogimur secundum hanc opinio 
+          <lb ed="#V" n="61"/>nem dicere, esse quasdam res, quae non sunt a Deo. 
+          <lb ed="#V" n="62"/>Secunda ibi: [Illa quoque Augussinus. TTertia ibi: 
+          <lb ed="#V" n="63"/>[Ex quo colligitur. I Tunc sequitur illa pars: [In¬ 
+          <lb ed="#V" n="64"/>boc autem verbo, lin quo comparat has duas opi¬ 
+          <lb ed="#V" n="65"/>niones ad inuicem. Circa quod tria facit. quia pri¬ 
+          <lb ed="#V" n="66"/>mo ait has duas opiniones esse oppositas. d est con¬ 
+          <lb ed="#V" n="67"/>trarias. Nam secundum opinionem primam sequitur om¬ 
+          <lb ed="#V" n="68"/>nis res esse a Deo, etiam ipsi actus peccati, inquam 
+          <lb ed="#V" n="69"/>tum actus sunt, &amp; quaedam res sunt, a Deo sunt. 
+          <lb ed="#V" n="70"/>Sed tenentes opinionem secundam, aiunt sub¬ 
+          <lb ed="#V" n="71"/>stantias, siue naturas, &amp; potentias naturales esse 
+          <lb ed="#V" n="72"/>aDeo: ipsos vero actus, qui sunt peccata, &amp; ut 
+          <lb ed="#V" n="73"/>actus sunt, &amp;, quaedam res sunt, non esse a Deo. 
+          <lb ed="#V" n="74"/>Secundo relinquit iudicio legentium, uel audien¬ 
+          <lb ed="#V" n="75"/>tium, ut de his duabus opinionibus eligant, quam 
+          <lb ed="#V" n="76"/>uelint. Tertio, quia cum ditu, mala non esse a Deo, 
+          <lb ed="#V" n="77"/>posset quis intelligere de malo poenae, excludit 
+          <lb ed="#V" n="78"/>hunc intellectum, ostendens mala poenae esse a Deo. 
+          <lb ed="#V" n="79"/>Secunda ibi: [Intendant his verbis. ITertia ibi: 
+          <lb ed="#V" n="80"/>[cum igitur. IEt in hoc terminatur sententia prae¬ 
+          <lb ed="#V" n="81"/>sentis Lectionis, &amp; Distinctionis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

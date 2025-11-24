@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="335"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m098833"><!-- l2d27prae -->
+        <head xml:id="Gi9qrR-m098833-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m098833-d1e103">
+          <lb ed="#V" n="72"/>DIST. XXVII 
+          <lb ed="#V" n="73"/>De habitibus gratuitis.
+        </p>
+        <p xml:id="Gi9qrR-m098833-d1e110">
+          <lb ed="#V" n="74"/>HIC VIDENDVI 
+          <lb ed="#V" n="75"/>EST, QVID 
+          <lb ed="#V" n="76"/>SITVIRTVS 
+          <lb ed="#V" n="77"/>Postquam Ma¬ 
+          <lb ed="#V" n="78"/>gister determi¬ 
+          <lb ed="#V" n="79"/>nauit de gratia: 
+          <lb ed="#V" n="80"/>in parte ista, vt 
+          <lb ed="#V" n="81"/>dicebatur, deter 
+          <lb ed="#V" n="82"/>minat de virtute. 
+          <lb ed="#V" n="83"/>Circa quod duo 
+          <lb ed="#V" n="84"/>facit. quia primo¬ 
+          <lb ed="#V" n="85"/>determinat de ip¬ 
+          <lb ed="#V" n="86"/>sa virtute, quid sit. Secundo determinat de actu¬ 
+          <lb ed="#V" n="87"/>cius ibi: [Si igitur gratia.] Circa primum tria fa¬ 
+          <lb ed="#V" n="88"/>cit: quia primo dicit se velle determinare de vir¬ 
+          <lb ed="#V" n="89"/>tute, &amp; actu eius, siue opere, &amp; incipit determi¬ 
+          <lb ed="#V" n="90"/>nare de virtute dicens, quid sit virtus, &amp; quod 
+          <lb ed="#V" n="91"/>a solo Deo habet esse virtus. Secundo, quod 
+          <lb ed="#V" n="92"/>dixerat, declarat de virtute iustitiae, quod a solo¬ 
+          <lb ed="#V" n="93"/>Deo est, ibi: [sicut de virtute iustitiae.] Tertio 
+          <lb ed="#V" n="94"/>ostendit hoc idem degratia fidei, siue de virtute, 
+          <lb ed="#V" n="95"/>quae est fides. Nam cum iustitia fit a solo Deo, &amp; 
+          <lb ed="#V" n="96"/>fides sit a solo Deo; cum iustitia, &amp; fides sint vir¬ 
+          <lb ed="#V" n="97"/>tutes: patet, quod virtutes sunt a solo Deo, loquendo 
+          <lb ed="#V" n="98"/>de virtutibus, prout hic loquitur. Deinde cum 
+          <lb ed="#V" n="99"/>dicit: [si igitur gratia. [incipit determinare de 
+          <lb ed="#V" n="100"/>actu virtutis. Circa quod tria facit: quia primo¬ 
+          <lb ed="#V" n="101"/>determinat de actu virtutis, vt comnparatur ad vir¬ 
+          <lb ed="#V" n="102"/>tutem: dicens huiusmodi actum esse differentem 
+          <lb ed="#V" n="103"/>a virtute: quia virtus non est a libero arbitrio, sed 
+          <lb ed="#V" n="104"/>est a solo Deo. Sed actus virtutis opus meritorium 
+          <lb ed="#V" n="105"/>semper est aliquo modo a libero arbitrio: ergo 
+          <lb ed="#V" n="106"/>huiusmodi actus non est ipsa virtus. Secundo ad¬ 
+          <lb ed="#V" n="107"/>ducit opiniones quorundam hoc idem conceden¬ 
+          <lb ed="#V" n="108"/>tium. Tertio adducit opinionem aliorum dicen¬ 
+          <lb ed="#V" n="109"/>tium contrarium. Secunda ibi: [Propterea qui¬ 
+          <lb ed="#V" n="110"/>busdam.  Tertia ibi: [la vero dicunt. [ Dein¬ 
+          <lb ed="#V" n="111"/>de cum dicit: [Propterea quibusdam adducit 
+          <lb ed="#V" n="112"/>opinionem quorundam asserentium, quod Ma¬ 
+          <lb ed="#V" n="113"/>gister asserit: videlicet, quod virtus differt a suo actu: 
+          <lb ed="#V" n="114"/>quia virtus est a solo Dco: actus virtutis, vel opus 
+          <lb ed="#V" n="115"/>meritorium est aliquo modo a libero arbitrio. 
+          <!--336.xml-->
+          <pb ed="#V" n="336"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Circa quod duo facit: quia primo facit, quod di¬ 
+          <lb ed="#V" n="2"/>ctum est. Secundo epilogat circa determinata 
+          <lb ed="#V" n="3"/>ibi: [Ex praemissis.]Circa primum quinque facit: 
+          <lb ed="#V" n="4"/>quia primo ostendit, quod actus virtutis, vel opus 
+          <lb ed="#V" n="5"/>meritorium est differens a virtute, per hoc, quod hu¬ 
+          <lb ed="#V" n="6"/>iusmodi actus, vel opus est a libero arbitrio. Se¬ 
+          <lb ed="#V" n="7"/>cus do dat causam, quare opus meritorium dica¬ 
+          <lb ed="#V" n="8"/>tur esse a gratia, dicens, quod est a gratia princi¬ 
+          <lb ed="#V" n="9"/>paliter. Et ideo quamuis tale opus sit a libero ar¬ 
+          <lb ed="#V" n="10"/>bitrio, &amp; a gratia; tamem propter principalitatem 
+          <lb ed="#V" n="11"/>potissime attribuitur gratiae. Tertio confirmat, 
+          <lb ed="#V" n="12"/>quod dixerat, dicens, quod ipsa gratia est donum Dei, 
+          <lb ed="#V" n="13"/>&amp; hominis meritum est donum Dei, immo ho¬ 
+          <lb ed="#V" n="14"/>minis meritum est ipsius gratiae: quia principali¬ 
+          <lb ed="#V" n="15"/>ter est ex gratia, &amp; a gratia: meritum ergo homi¬ 
+          <lb ed="#V" n="16"/>nis est ab homine, siue est a libero arbitrio, &amp; a 
+          <lb ed="#V" n="17"/>gratia. sed quia principaliterest a gratia, principa¬ 
+          <lb ed="#V" n="18"/>laus attribuitur gratiae, quam libero arbitrio, Vel¬ 
+          <lb ed="#V" n="19"/>quam homini. Et adducit ad hoc probandum Au¬ 
+          <lb ed="#V" n="20"/>gust. Quarto, cum dicatur, quod fides meretur iu¬ 
+          <lb ed="#V" n="21"/>stificationem, &amp; vitam aeternam: &amp; cum charitas 
+          <lb ed="#V" n="22"/>dicatur similiter hic mereri, declarat quomodo 
+          <lb ed="#V" n="23"/>sint haec intelligenda. Et ait, quod fides, &amp; charitas 
+          <lb ed="#V" n="24"/>merentur ista: quia actus fidei, &amp; actus charita¬ 
+          <lb ed="#V" n="25"/>tis sunt huiusmodi meriti. Ipsa ergo fides, vel cha¬ 
+          <lb ed="#V" n="26"/>ritas, vel ipsa virtus non est ipsum meritum, sed 
+          <lb ed="#V" n="27"/>actus charitatis, vel fidei, vel virtutis debent dici 
+          <lb ed="#V" n="28"/>huiusmodi meritum. Quinto concludit ex om¬ 
+          <lb ed="#V" n="29"/>nibus praelibatis, quod per omnia huiusmodi mu¬ 
+          <lb ed="#V" n="30"/>nera, vel per omnes huiusmodi actus virtutum 
+          <lb ed="#V" n="31"/>boni sumus, &amp; iuste viuimus, &amp; etiam ex gratia 
+          <lb ed="#V" n="32"/>boni sumus, &amp; bene viuimus: sed gratia non est 
+          <lb ed="#V" n="33"/>ipsum meritum: quia non est ipsum opus merito¬ 
+          <lb ed="#V" n="34"/>rium: sed causat, &amp; facit meritum, siue opus me¬ 
+          <lb ed="#V" n="35"/>ritorium. Et subdit, quod haec, scilicet opera me¬ 
+          <lb ed="#V" n="36"/>ritoria non fiunt sine libero arbitrio. Et addu¬ 
+          <lb ed="#V" n="37"/>cit ad hoc auctoritatem Augustini. Secunda ibi: 
+          <lb ed="#V" n="38"/>[cum ergo.]Iertia ibi: [Quae ipsa etiam. Quar¬ 
+          <lb ed="#V" n="39"/>ta ibi: [Cum ergo dicitur.]] Quinta ibi: [Ex acfi¬ 
+          <lb ed="#V" n="40"/>bus, vel ex muneribus.1 Notandum ergo suffi¬ 
+          <lb ed="#V" n="41"/>cienter declaratum esse, quod opus meritorium est 
+          <lb ed="#V" n="42"/>actus virtuitis, &amp; quod differt huiusmnodi actus a vir¬ 
+          <lb ed="#V" n="43"/>tute. quia virtutem causat in nobis Deus sine no¬ 
+          <lb ed="#V" n="44"/>bis: sed actum virtutis, siue opus meritorium, per¬ 
+          <lb ed="#V" n="45"/>quod bene, &amp; iuste viuimus, non causat in nobis 
+          <lb ed="#V" n="46"/>Deus sin nobis: sed causat ipsum mediante gra¬ 
+          <lb ed="#V" n="47"/>tia, vdl virture, &amp; mediante libero arbitrio; non 
+          <lb ed="#V" n="48"/>quod ex cquo sit opus meritorium a libero arbitrio, 
+          <lb ed="#V" n="49"/>&amp; agratia, vel virtute: sed principalius est a gra¬ 
+          <lb ed="#V" n="50"/>tia, vel virtute. Deinde cum dicit: [Ex praemis¬ 
+          <lb ed="#V" n="51"/>sis lcpilogat circa determinata, &amp; duo facit. quia 
+          <lb ed="#V" n="52"/>p imo epilogat quantum ad hoc, quod patet qua¬ 
+          <lb ed="#V" n="53"/>Iiter se habcanet gratia, &amp; virtus, &amp; quomodo haec 
+          <lb ed="#V" n="54"/>se hab cant ad ipsum meritum. Et patet etiam quid 
+          <lb ed="#V" n="55"/>rit gratia, vtrum sit ipsa virtus. Secundo epilo¬ 
+          <lb ed="#V" n="56"/>gat quantum ad hoc, quod si opus meritorium est ex¬ 
+          <lb ed="#V" n="57"/>virtute, &amp; ex libero arbitrio: principalius est ex 
+          <lb ed="#V" n="58"/>virtute, quam ex hibero irbitrio. Et adaptat ista 
+          <lb ed="#V" n="59"/>ad gratiam, &amp; probat, quae dixerat. Secunda ibi: 
+          <lb ed="#V" n="60"/>[Iacmn empe. Tunc sequitur illa pars:[lii ve¬ 
+          <lb ed="#V" n="61"/>io dicuntl vbi ponit opinionem falsam asseren¬ 
+          <lb ed="#V" n="62"/>tium contrariorum eorum, quae dicta sunt: volen¬ 
+          <lb ed="#V" n="63"/>tium, quod ipse actus, &amp; ipse vsus virtutis sit ipsa 
+          <!--336.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="64"/>virtus. Circa quod quamor facit: quia primo fi¬ 
+          <lb ed="#V" n="65"/>cit, quod dictum est. Secundo adducit rationes, 
+          <lb ed="#V" n="66"/>&amp; probationes istorum, per quas roborantur di¬ 
+          <lb ed="#V" n="67"/>cta sua. Tertio soluit rationes illas. Quarto, om¬ 
+          <lb ed="#V" n="68"/>nibus his praemissis, relinquit iudicio Lectoris, 
+          <lb ed="#V" n="69"/>vt teneat de his, quae sibi placent. Secunda ibi: 
+          <lb ed="#V" n="70"/>[Quod autem virtutes.] Tertia ibi: [Quibus ali¬ 
+          <lb ed="#V" n="71"/>respondentes.]  Quarta ibi: DPraemissis, alijsao re¬ 
+          <lb ed="#V" n="72"/>stimoniis. Et in hoc terminetur sententia prae¬ 
+          <lb ed="#V" n="73"/>sentis Lectionis, &amp; Distinctionis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

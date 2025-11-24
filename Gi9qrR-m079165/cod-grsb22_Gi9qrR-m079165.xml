@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="269"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m079165"><!-- l2d24p2prae -->
+        <head xml:id="Gi9qrR-m079165-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m079165-d1e103">
+          <lb ed="#V" n="97"/>DIST. IIII. Pars II 
+          <lb ed="#V" n="98"/>De ordine peccandi, qui fuit in 
+          <lb ed="#V" n="99"/>rimis Parentibus idem, 
+          <lb ed="#V" n="100"/>arqu; in posteris. 
+        </p>
+        <p xml:id="Gi9qrR-m079165-d1e114">
+          <lb ed="#V" n="101"/>ALIVDQVQOVE 
+          <lb ed="#V" n="102"/>praetermittendum] 
+          <lb ed="#V" n="103"/>Postquam Mag¬ 
+          <lb ed="#V" n="104"/>ster determina¬ 
+          <lb ed="#V" n="105"/>uir de adiutorio 
+          <lb ed="#V" n="106"/>dato homini a 
+          <lb ed="#V" n="107"/>sua creatione, po¬ 
+          <lb ed="#V" n="108"/>quod poterat Vi¬ 
+          <lb ed="#V" n="109"/>tare omne pec¬ 
+          <lb ed="#V" n="110"/>catum. In parte 
+          <lb ed="#V" n="111"/>ista, vt diceba 
+          <lb ed="#V" n="112"/>tur, agit de ordine peccandi, qui fuit in primis 
+          <lb ed="#V" n="113"/>Parentibus, &amp; est in quolibet alio homine. Cir¬ 
+          <!--270.xml-->
+          <pb ed="#V" n="270"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ca quod duo facit, quia primo agit de taliordi¬ 
+          <lb ed="#V" n="2"/>ne peccandi diffuse. Secundo resumit, quae dixe¬ 
+          <lb ed="#V" n="3"/>rat, magis summatim, &amp; magis se perstringendo 
+          <lb ed="#V" n="4"/>ibi: [staque vt breuiter. Circa primum quatuor 
+          <lb ed="#V" n="5"/>facit, quia primo agit, quod idem ordo peccandi¬ 
+          <lb ed="#V" n="6"/>est in quolibet homine, qui fuit in primis paren¬ 
+          <lb ed="#V" n="7"/>tibus. quia sicut tunc serpens persuasit mulieri, &amp; 
+          <lb ed="#V" n="8"/>mulier persuasit viro, sic &amp; nunc serpensid est sen¬ 
+          <lb ed="#V" n="9"/>sualitas persuadet mulieriid est roteni inferiori, &amp; mu¬ 
+          <lb ed="#V" n="10"/>lier persuadet viro id est ratio inferior rationi supe¬ 
+          <lb ed="#V" n="11"/>riori. Secundo determinat de ratione inferiori, &amp; 
+          <lb ed="#V" n="12"/>superiori dicens, quod sicut Adae non inuentum est 
+          <lb ed="#V" n="13"/>simile, nisi Eua, sic roteni superiori non inuenitur 
+          <lb ed="#V" n="14"/>simile, nisi rotn inserior. Et sicut Adam, &amp; Eua fue¬ 
+          <lb ed="#V" n="15"/>runt duo in carne vna, sic ratio superior, &amp; inferior¬ 
+          <lb ed="#V" n="16"/>sunt vna mens, vel sunt duo in mente vna. Ter¬ 
+          <lb ed="#V" n="17"/>tio declarat quomodo sunt in peccato ista tria: 
+          <lb ed="#V" n="18"/>Serpens: Ron superior, &amp; iserior. Quarta declarat, 
+          <lb ed="#V" n="19"/>quando in talibus habet esse peccatum veniale, 
+          <lb ed="#V" n="20"/>&amp; peccatum mortale. Secunda ibi: [Et sicut in cun¬ 
+          <lb ed="#V" n="21"/>ctis. TTertia ibi: [ Nunc superest. IQuarta ibi. [ent 
+          <lb ed="#V" n="22"/>tunc est danabise.] ITunc sequitur illa pars: [itaque 
+          <lb ed="#V" n="23"/>vt breuiter. IIn quo magis summatim restringit, 
+          <lb ed="#V" n="24"/>quae dixerat. Circa quod quatuor facit, quia pri¬ 
+          <lb ed="#V" n="25"/>mo ostendit esse simile de viro, &amp; muliere, &amp; de 
+          <lb ed="#V" n="26"/>ratione superiori, &amp; inferiori. Secundo declarat, 
+          <lb ed="#V" n="27"/>quomodo cum illa similitudine est ibi dissimili¬ 
+          <lb ed="#V" n="28"/>tudo. quia cum uir, &amp; mulier dicant diuersas pec¬ 
+          <lb ed="#V" n="29"/>sonas: poterat vna damnari sine alia. Sed cum ra¬ 
+          <lb ed="#V" n="30"/>tio superior, &amp; inferior dicant eandem personam, 
+          <lb ed="#V" n="31"/>&amp; eandem mentem, non potest una damnari si¬ 
+          <lb ed="#V" n="32"/>ne alia. Tertio quia sic diffuse tractauerat de poten¬ 
+          <lb ed="#V" n="33"/>tiis animae ait, quod hoc fecit, vt plenius cogno 
+          <lb ed="#V" n="34"/>scatur, secundum quam portionem habet esse li¬ 
+          <lb ed="#V" n="35"/>berum arbitrium. quia habet esse secundum por¬ 
+          <lb ed="#V" n="36"/>tionem superiorem, quae dicitur vir, &amp; quae dici¬ 
+          <lb ed="#V" n="37"/>tur ratio supetior, sine qua non potest esse pecca¬ 
+          <lb ed="#V" n="38"/>tum mortale, quia nisi virid est ratio superior consen¬ 
+          <lb ed="#V" n="39"/>tiat: non est peccatum consummatum, vt debeat 
+          <lb ed="#V" n="40"/>dici mortale. Quarto, &amp; ultimo ait, quod licet sen¬ 
+          <lb ed="#V" n="41"/>sualitas sit illud, quod habemus commune cum 
+          <lb ed="#V" n="42"/>pecore, cum in Scriptura sacra saepe pro sensua¬ 
+          <lb ed="#V" n="43"/>litate accipiarur ratio inferior. Secunda ibi: [Ne¬ 
+          <lb ed="#V" n="44"/>que sicut in illis.] Tertia ibi: [Haec de animae. [Quar¬ 
+          <lb ed="#V" n="45"/>ta ibi:] Non est autem. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

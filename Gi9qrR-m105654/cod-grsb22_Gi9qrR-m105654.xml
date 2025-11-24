@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="358"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m105654"><!-- l2d28prae -->
+        <head xml:id="Gi9qrR-m105654-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m105654-d1e103">
+          <!--358.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="58"/>DIST. VIII. 
+          <lb ed="#V" n="59"/>De inufficientia liberi antitrii Ponnni. 
+          <lb ed="#V" n="60"/>lapsi, gratia cicunseripta. 
+        </p>
+        <p xml:id="Gi9qrR-m105654-d1e116">
+          <lb ed="#V" n="61"/>AD VERO IN
+          <lb ed="#V" n="62"/>concusse &amp;c.] 
+          <lb ed="#V" n="63"/>Postquam Ma¬ 
+          <lb ed="#V" n="64"/>gister determi¬ 
+          <lb ed="#V" n="65"/>nauit de duplici¬ 
+          <lb ed="#V" n="66"/>auxilio dato no¬ 
+          <lb ed="#V" n="67"/>bis: videlicet de¬ 
+          <lb ed="#V" n="68"/>gratia, &amp; virtu¬ 
+          <lb ed="#V" n="69"/>te, per quae au¬ 
+          <lb ed="#V" n="70"/>xiliamur, ut pro¬ 
+          <lb ed="#V" n="71"/>ficiamus, &amp; vt 
+          <lb ed="#V" n="72"/>non deficiamus; In parte ista determinat de insuf¬ 
+          <lb ed="#V" n="73"/>ficientia liberi arbu. quia propter insufficientiam 
+          <lb ed="#V" n="74"/>eius datum est nobis auxilium gratiae, &amp; virtu¬ 
+          <lb ed="#V" n="75"/>tis. Circa quod duo facit. quia primo determi¬ 
+          <lb ed="#V" n="76"/>nat de insufficientia liberi arpitrii generaliter, se 
+          <lb ed="#V" n="77"/>cundum quod inuenitur in nobis habentibus na¬ 
+          <lb ed="#V" n="78"/>turam corruptam. Secundo determinat de hu¬ 
+          <lb ed="#V" n="79"/>iusmodi insufficientia specialiter, prout habebat 
+          <lb ed="#V" n="80"/>esse in quodam habente naturam integram: ibi: 
+          <lb ed="#V" n="81"/>TPost hoc considerendum. IIn principio 29. Dist. 
+          <lb ed="#V" n="82"/>Circa primum tria facit. quia primo determinat 
+          <lb ed="#V" n="83"/>de insufficientia liberi arbit. quod non potest si¬ 
+          <lb ed="#V" n="84"/>ne gratia consequi salutem, nec facere iustitiam, 
+          <lb ed="#V" n="85"/>quae est facere bonum, &amp; declinare a malo:cuius 
+          <lb ed="#V" n="86"/>contrarium dixit Pelagius. Secundo determinat 
+          <lb ed="#V" n="87"/>de errore Pelagii. Tertio determinat de errore 
+          <lb ed="#V" n="88"/>Iouiniani, &amp; Manichei. Secunda ibi: [Desagia¬ 
+          <lb ed="#V" n="89"/>norum ]Tertia ibi: [ Id ergo de gratia. Dicit ergo, 
+          <lb ed="#V" n="90"/>quod inconcusse, &amp; inconcertanter tenendum 
+          <lb ed="#V" n="91"/>est, quod sine gratia non potest liberum arb. suf¬ 
+          <lb ed="#V" n="92"/>ficere ad iustitiam faciendam, nec ad gratiam 
+          <lb ed="#V" n="93"/>obtinendam: sicut posuit Pelagius Heraeticus. 
+          <lb ed="#V" n="94"/>Deinde cum dicit: [ Pelagianorum. Ideterminat 
+          <lb ed="#V" n="95"/>de errore Pelagij, &amp; sequacium: &amp; duo facit, 
+          <lb ed="#V" n="96"/>quia primo ponit sex, in quibus errabat Pela¬ 
+          <lb ed="#V" n="97"/>gius. Secundo adducit multa dicta August. per¬ 
+          <lb ed="#V" n="98"/>quem Pelagius errorem suum defendebat, ibi: 
+          <lb ed="#V" n="99"/>[Qui vero dicunt Tuerunt enim, vt narratur in lit 
+          <lb ed="#V" n="100"/>tera, sex errores Pelagii. Vnus fuit, quod nul¬ 
+          <lb ed="#V" n="101"/>omodo indigebamus gratia ad implenda om¬ 
+          <lb ed="#V" n="102"/>nia iussa diuina. Secundus error fuit, quia cum 
+          <lb ed="#V" n="103"/>esset Monachus increpatus de hoc a Commona¬ 
+          <lb ed="#V" n="104"/>chis suis aliquantulum moderauit errorem. Ni¬ 
+          <lb ed="#V" n="105"/>hilominus error erat, quod dicebat, videlicet si 
+          <lb ed="#V" n="106"/>indigebamus gratia, non erat hoc simpliciter: 
+          <lb ed="#V" n="107"/>sed ad faciliter implenda mandata, &amp; quod tota¬ 
+          <lb ed="#V" n="108"/>huiusmodi gratia erat ex libero arbu. quantum ad 
+          <lb ed="#V" n="109"/>posse. quia quicquid poteramus per gratiam: 
+          <lb ed="#V" n="110"/>poteramus cum libero arb. sine gratia: licet for¬ 
+          <lb ed="#V" n="111"/>te magis difficulter. Tertius fuit, quod non 
+          <lb ed="#V" n="112"/>indigebamus charitate: indigebamus autem scien¬ 
+          <lb ed="#V" n="113"/>tia ad cognoscendum malum. Quartus error 
+          <lb ed="#V" n="114"/>fuit, quod superuacuae erant orationes Eeclesiae, 
+          <lb ed="#V" n="115"/>&amp; sidelium. Quintus fuit, quod poteramus me¬ 
+          <lb ed="#V" n="116"/>reri gratiam perliberum aib. Sextus fuit, quod 
+          <!--359.xml-->
+          <pb ed="#V" n="359"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>paruuui non nascebantur in peccato originali. 
+          <lb ed="#V" n="2"/>Littera autem patet quantum ad omnia ista. 
+        </p>
+        <p xml:id="Gi9qrR-m105654-d1e251">
+          <lb ed="#V" n="3"/>Deinde cum dicit: [Qui uero dicunt. Osten¬ 
+          <lb ed="#V" n="4"/>dit, quo Pelagiuis defendebat errores suos per di¬ 
+          <lb ed="#V" n="5"/>cta ipsius August. Et sex facit, secundum quod 
+          <lb ed="#V" n="6"/>sex dicta August. adducebat ad sui defensionem. 
+          <lb ed="#V" n="7"/>Et soluit omnia illa dicta per eundem August. 
+          <lb ed="#V" n="8"/>Secunda ibi: [Similiter etiam.] Tertia ibi: [Alibi¬ 
+          <lb ed="#V" n="9"/>etiam.] Quarta ibi: [Haec etiam.  Quinta ibi: 
+          <lb ed="#V" n="10"/>IIn exposittione quoque. ISexta ibi: [Itsud etiam 
+          <lb ed="#V" n="11"/>diligenter. Tunc sequitur illa pars: [Id erao de¬ 
+          <lb ed="#V" n="12"/>gratia. IIn qua narrat errorem Manichaei ponen¬ 
+          <lb ed="#V" n="13"/>tis hominem non posse vitare peccatum: &amp; Io¬ 
+          <lb ed="#V" n="14"/>uiniani dicentis hominem non posse peccare. Et 
+          <lb ed="#V" n="15"/>destruit hos errores per auctoritatem Hiero. di 
+          <lb ed="#V" n="16"/>centis, quod cum simus liberi arbit. possumus 
+          <lb ed="#V" n="17"/>peccare, &amp; vitare peccatum: Licet peccare pos¬ 
+          <lb ed="#V" n="18"/>simus per: nos: vitare autem generaliter peccata 
+          <lb ed="#V" n="19"/>non possumus sine diuino auxilio, &amp; in hoc termi¬ 
+          <lb ed="#V" n="20"/>natur sententia Lectionis, &amp; Distinctionis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

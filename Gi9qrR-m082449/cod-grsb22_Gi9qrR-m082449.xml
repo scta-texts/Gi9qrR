@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="280"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m082449"><!-- l2d24p2q2 -->
+        <head xml:id="Gi9qrR-m082449-Hd1e101">Quaestio 2</head>
+        <head xml:id="Gi9qrR-m082449-Hd1e103" type="question-title">
+          De peccato, quantum ad ipsam rationem
+        </head>
+        <p xml:id="Gi9qrR-m082449-d1e106">
+          <lb ed="#V" n="104"/>QVAEST. II. 
+          <lb ed="#V" n="105"/>De peccato, quantum ad ipsam 
+          <lb ed="#V" n="106"/>rationem. 
+        </p>
+        <p xml:id="Gi9qrR-m082449-d1e115">
+          <lb ed="#V" n="107"/>POSTEA quaeritur de secun 
+          <lb ed="#V" n="108"/>do principali, scilicet de ra¬ 
+          <lb ed="#V" n="109"/>tione. Circa quam querun¬ 
+          <lb ed="#V" n="110"/>tur quinque. Primo: Vtrum 
+          <lb ed="#V" n="111"/>in ratione possit esse pecca¬ 
+          <lb ed="#V" n="112"/>tum. Secundo: Vtrum in de 
+          <lb ed="#V" n="113"/>lectatione rationis sine con¬ 
+          <lb ed="#V" n="114"/>sensu in opus possit esse peccatum mortale. Ter¬ 
+          <lb ed="#V" n="115"/>tio: Vtrum possit esse peccatum in ratione, quod 
+          <lb ed="#V" n="116"/>non oriatur ex sensualitate. Quarto: Vtrum 
+          <lb ed="#V" n="117"/>in ratione superiori possit esse peccatum venia¬ 
+          <lb ed="#V" n="118"/>le. Quinto: Vtrum peccatum veniale possit 
+          <lb ed="#V" n="119"/>fieri mortale.
+        </p>
+        <div xml:id="Gi9qrR-m082449-Dd1e146">
+          <head xml:id="Gi9qrR-m082449-Hd1e148">Articulus 1</head>
+          <p xml:id="Gi9qrR-m082449-d1e150">
+            <!--281.xml-->
+            <pb ed="#V" n="281"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ARTIC. I. 
+            <lb ed="#V" n="2"/>An in ratione possit esse 
+            <lb ed="#V" n="3"/>peccatum, 
+            <lb ed="#V" n="4"/>Conclusio est affirmatiua.
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e168">
+            <lb ed="#V" n="5"/>DTh.1. 2. q. 74ar. 3. Et 2. sent. d. 24. q. 3. 1r. 3. 
+            <lb ed="#V" n="6"/>D.Bon. d. 44. p. 2. ar. 1. q. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e175">
+            <lb ed="#V" n="7"/>AD PRIMVN, sic proceditur: 
+            <lb ed="#V" n="8"/>videtur, quod in ratione non 
+            <lb ed="#V" n="9"/>possit esse peccatum, quia secun¬ 
+            <lb ed="#V" n="10"/>dum Philosophum in de ani¬ 
+            <lb ed="#V" n="11"/>ma: Intellectus semper est re¬ 
+            <lb ed="#V" n="12"/>ctus: sed in eo, quod semper est 
+            <lb ed="#V" n="13"/>rectum, non potest esse peccatum, ergo &amp;c. 
+            <lb ed="#V" n="14"/>Praeterea in tantum aliquid est peccatum, in¬ 
+            <lb ed="#V" n="15"/>quantum est contra rationem. Si ergo in ipsa ra¬ 
+            <lb ed="#V" n="16"/>tione esset peccatum, esset aliquid in ratione, 
+            <lb ed="#V" n="17"/>quod esset contra rationem, quod non videtur 
+            <lb ed="#V" n="18"/>possibile. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e204">
+            <lb ed="#V" n="19"/>Praeterea omne peccatum videtur esse in volum¬ 
+            <lb ed="#V" n="20"/>tate: sed voluntas est potentia appetitiua, ratio 
+            <lb ed="#V" n="21"/>est potentia cognitiua, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e214">
+            <lb ed="#V" n="22"/>Praeterea, quod est mensura, &amp; regula virtu¬ 
+            <lb ed="#V" n="23"/>tum, non videtur posse in ea esse peccatum, quia 
+            <lb ed="#V" n="24"/>tunc virtus posset esse vitium, sed ratio est huius¬ 
+            <lb ed="#V" n="25"/>modi regula, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e225">
+            <lb ed="#V" n="26"/>IN CONTRARIVM est, quia eligere 
+            <lb ed="#V" n="27"/>non est sine ratione. Cum ergo electio possit 
+            <lb ed="#V" n="28"/>esse recta, &amp; non recta, poterit esse in ratione 
+            <lb ed="#V" n="29"/>peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e236">
+            <lb ed="#V" n="30"/>Praeterea sicut est in speculatiuis, ita est suo 
+            <lb ed="#V" n="31"/>modo in practicis. Sed ratio speculatiua, quae 
+            <lb ed="#V" n="32"/>debet esse mensura speculabilium, potest esse re¬ 
+            <lb ed="#V" n="33"/>cta, &amp; non recta; Ergo ratio practica, quae de¬ 
+            <lb ed="#V" n="34"/>bet esse mensura operabilium, potest esse ro¬ 
+            <lb ed="#V" n="35"/>cta, &amp; non recta, &amp; potest ibi esse peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e252">
+            <lb ed="#V" n="36"/>RESOLVIIO. 
+            <lb ed="#V" n="37"/>In ratione potest esse peccatum, cum electio 
+            <lb ed="#V" n="38"/>sine ratione esse non 
+            <lb ed="#V" n="39"/>possit. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e263">
+            <lb ed="#V" n="40"/>RESPONDEO dicendum, quod haec fuit
+            <lb ed="#V" n="41"/>opinio Socratis, ut patet per Philosophum in 
+            <lb ed="#V" n="42"/>Ethicis, quod impossibile est scientem, vel sa¬ 
+            <lb ed="#V" n="43"/>pientem peccare. Dicebat enim esse scientiam, 
+            <lb ed="#V" n="44"/>vel sapientiam tantum scutum protegens a pec¬ 
+            <lb ed="#V" n="45"/>cato, &amp; tantum fraenum refraenans peccatum, 
+            <lb ed="#V" n="46"/>quod sapiens, vel sciens, peccare non poterat. 
+            <lb ed="#V" n="47"/>Propter quod secundum eum omne peccatum 
+            <lb ed="#V" n="48"/>erat per ignorantiam. Pro hac autem positio¬ 
+            <lb ed="#V" n="49"/>ne videtur facere, quod omne peccatum est vo¬ 
+            <lb ed="#V" n="50"/>luntarium, quia secundum Augustinum, si non 
+            <lb ed="#V" n="51"/>sit voluntarium, desinit esse peccatum. Cum 
+            <lb ed="#V" n="52"/>ergo voluntas non moueatur nisi a bono appre¬ 
+            <!--281.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="53"/>henso per intellectum, vel per rationem, quia 
+            <lb ed="#V" n="54"/>voluntas est appetitus rationalis, vel intellecti¬ 
+            <lb ed="#V" n="55"/>uus, nec potest moueri nisi ab eo, quod ostendi¬ 
+            <lb ed="#V" n="56"/>tur sibi tanquam bonum, quia malum secun¬ 
+            <lb ed="#V" n="57"/>dum Dio. 3. de Di. Nom. est praeter voluntatem 
+            <lb ed="#V" n="58"/>&amp; praeter intentionem. Malum enim in eo, quod 
+            <lb ed="#V" n="59"/>malum, non potest esse volitum, nec intentum: 
+            <lb ed="#V" n="60"/>propter quod in principio Eth. dicitur, quod om¬ 
+            <lb ed="#V" n="61"/>nis ars, omnis doctrina: similiter actus, &amp; ele¬ 
+            <lb ed="#V" n="62"/>ctio bonum quoddam appetere videntur. Pro¬ 
+            <lb ed="#V" n="63"/>pter quod bene annunciauerunt Philosophi dif¬ 
+            <lb ed="#V" n="64"/>finientes bonum, quod est id, quod omnia ap¬ 
+            <lb ed="#V" n="65"/>petunt. Si ergo non potest moueri voluntas, nisi¬ 
+            <lb ed="#V" n="66"/>ostendatur ei aliquid tanquam bonum, cum pec¬ 
+            <lb ed="#V" n="67"/>catum, simpliciter loquendo, sit quid non bonum 
+            <lb ed="#V" n="68"/>non poterit esse peccatum in voluntate, nisi ostem 
+            <lb ed="#V" n="69"/>datur ei a ratione, vt bonum, quod non est bo¬ 
+            <lb ed="#V" n="70"/>num. Bed hoc esse non poterit sine errore ratio¬ 
+            <lb ed="#V" n="71"/>nis. ergo nunquam poterit esse peccatum, nisi 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e339">
+            <lb ed="#V" n="72"/>peccans sit ignorans, &amp; nisi sit aliquis error in ra¬ 
+            <lb ed="#V" n="73"/>tione. Sciens ergo, vel sapiens, vt videtur, pecca¬ 
+            <lb ed="#V" n="74"/>re non potest. sed haec positio etiam apparenti¬ 
+            <lb ed="#V" n="75"/>bus contradicit. Nam quantumcunque sciamus 
+            <lb ed="#V" n="76"/>omnem fornicationem esse fugiendam: possu¬ 
+            <lb ed="#V" n="77"/>mus tamen fornicari, scientes fornicationem esse 
+            <lb ed="#V" n="78"/>malam. Propter quod dictum est, quod vinum 
+            <lb ed="#V" n="79"/>&amp; mulieres apostatare faciunt sapientem. Salo 
+            <lb ed="#V" n="80"/>mon enim, de quo scriptum est, quod ante eum 
+            <lb ed="#V" n="81"/>non fuit sapientior, nec post eum erit, peccauit, 
+            <lb ed="#V" n="82"/>&amp; dedit honorem Idolis. 3. Reg. 3. Oportet ergo 
+            <lb ed="#V" n="83"/>distinguere de ignorantia. Dicemus ergo cum 
+            <lb ed="#V" n="84"/>Philosopho in 3. Ethic. quod omnis peccans, 
+            <lb ed="#V" n="85"/>vel peccat ex ignorantia, vel peccat ignorans, 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e373">
+            <lb ed="#V" n="86"/>Ex ignorantia autem sapiens, vel sciens peccare 
+            <lb ed="#V" n="87"/>non potest, sed sapiens, vel sciens potest pecca¬ 
+            <lb ed="#V" n="88"/>re ignorans. Nam potest quis scire omne po¬ 
+            <lb ed="#V" n="89"/>mum esse dulce, &amp; iudicare pomum esse amarum 
+            <lb ed="#V" n="90"/>per deceptionem, sed posse ipsum iudicare esse 
+            <lb ed="#V" n="91"/>amarum deceptus. vt si quis haberet linguam in 
+            <lb ed="#V" n="92"/>fectam colera, videretur sibi dulce esse amarum, 
+            <lb ed="#V" n="93"/>Sicut ergo inficitur iudicium linguae propter in 
+            <lb ed="#V" n="94"/>fectionem colerae, sicut inficitur iudicium ratio¬ 
+            <lb ed="#V" n="95"/>nis propter passiones, &amp; propter apprehiensam 
+            <lb ed="#V" n="96"/>delectationem, vt iudicet faciendum, quod non 
+            <lb ed="#V" n="97"/>est faciendum: semper igitur est ibi aliqua igno¬ 
+            <lb ed="#V" n="98"/>rantia. Sed disting uit Philosophus de ignoran¬ 
+            <lb ed="#V" n="99"/>tia in 7. Ethi. quae ignorantia simul stat cum scien¬ 
+            <lb ed="#V" n="100"/>tia, quia potest quis esse sciens simpliciter, &amp; 
+            <lb ed="#V" n="101"/>ignorans in pertractando, quia vel potest quis es¬ 
+            <lb ed="#V" n="102"/>se sciens in habitu, &amp; ignorans in actu, quia po¬ 
+            <lb ed="#V" n="103"/>test ille habitus esse actu ligatus, uel potest quis 
+            <lb ed="#V" n="104"/>scire in habitu, &amp; ignorare in actu, quia po¬ 
+            <lb ed="#V" n="105"/>test ille habitus scientiae esse ligatus per actum 
+            <lb ed="#V" n="106"/>in habitu, vel potest quis scire in uniuersali, &amp; 
+            <lb ed="#V" n="107"/>ignorare in particulari. Ommisso ergo, cum 
+            <lb ed="#V" n="108"/>quis peccat per ignorantiam, quia sic peccans 
+            <lb ed="#V" n="109"/>non est sciens, &amp; ignorans, sed est simplici¬ 
+            <lb ed="#V" n="110"/>ter ignorans. Videndum est, cum quis pec¬ 
+            <lb ed="#V" n="111"/>cat, non per ignorantiam, sed ignorans, quia 
+            <lb ed="#V" n="112"/>semper sic peccans est sciens, &amp; ignorans 
+            <lb ed="#V" n="113"/>Et, ut possimus illas quatuor distinctiones de 
+            <lb ed="#V" n="114"/>scientia, &amp; ignorantia adptare ad popositum; Dice¬ 
+            <lb ed="#V" n="115"/>mus, quod quis simpliciter peccat non n iguorantiam 
+            <!--282.xml-->
+            <pb ed="#V" n="282"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed ignorans. quia sic pecccans, vel est inconti¬ 
+            <lb ed="#V" n="2"/>nens, vel est mollis, vel est intemperatus. Si est 
+            <lb ed="#V" n="3"/>incontinens, tunc scit simpliciter, sed ignorat in 
+            <lb ed="#V" n="4"/>pertractando. Nam incontinens syllogixat in 
+            <lb ed="#V" n="5"/>quatuor terminis, vel format sibi quatuor propo¬ 
+            <lb ed="#V" n="6"/>sitiones: vnam minorem, &amp; vnam conclusionem. 
+            <lb ed="#V" n="7"/>Nam incontinens bellat volendo continere, sed 
+            <lb ed="#V" n="8"/>victus passiue efficitur incontinens, vt si adsit fa¬ 
+            <lb ed="#V" n="9"/>cultas, labitur in prauum opus: talis autem acci¬ 
+            <lb ed="#V" n="10"/>pit maiores duas: Vnam, quod inordinatum 
+            <lb ed="#V" n="11"/>est fugiendum, &amp; quod delectabile est prose¬ 
+            <lb ed="#V" n="12"/>quendum: &amp; quia fornicatio habet vtrumque, 
+            <lb ed="#V" n="13"/>cum deberet accipere hanc minorem, quod for¬ 
+            <lb ed="#V" n="14"/>nicatio est quid inordinatum, accipit sub alia 
+            <lb ed="#V" n="15"/>maiore, quod fornicatio est, quid delectabile, 
+            <lb ed="#V" n="16"/>&amp; concludit eam esse sequendam. quantumcun¬ 
+            <lb ed="#V" n="17"/>que ergo incontinens sit sciens simpliciter, est 
+            <lb ed="#V" n="18"/>tamen ignorans in pertractando, id est in syllo¬ 
+            <lb ed="#V" n="19"/>gixando. Nam sicut fit syllogismus in speculati 
+            <lb ed="#V" n="20"/>uis, sic syllogixamur in practicis, &amp; possumus 
+            <lb ed="#V" n="21"/>vtroque modo errare, &amp; ista mens Philosophi¬ 
+            <lb ed="#V" n="22"/>in 1. Ethic. Est ergo incontinens sciens &amp; igno¬ 
+            <lb ed="#V" n="23"/>rans, modo, quo diximus, sed mollis est sciens 
+            <lb ed="#V" n="24"/>in habitu ignorans in actu. Differt enim mol¬ 
+            <lb ed="#V" n="25"/>lis ab incontinente, quia incontinens bellat, sed 
+            <lb ed="#V" n="26"/>mollis non bellat, sed statim vincitur passione. 
+            <lb ed="#V" n="27"/>Mollis ergo, &amp; si habet habitum scientiae, ille 
+            <lb ed="#V" n="28"/>habitus sic ligatur per actum, id est per impe¬ 
+            <lb ed="#V" n="29"/>tum rationis, quod statim consentit in malum 
+            <lb ed="#V" n="30"/>opus. Mollis ergo, &amp; si est sciens in habitu, est 
+            <lb ed="#V" n="31"/>tamer in actu ignorans. Vterquee tam mollis, quam 
+            <lb ed="#V" n="32"/>incontinens peccat passiuenm, sed intemperatus 
+            <lb ed="#V" n="33"/>peccat electione. Ille enim dicitur intempera¬ 
+            <lb ed="#V" n="34"/>tus, qui sic est habituatus in malo, quod dele¬ 
+            <lb ed="#V" n="35"/>ctabile est ei malefacere. propter quod quan¬ 
+            <lb ed="#V" n="36"/>tumcunque habeat habitum scientiae in intellectus 
+            <lb ed="#V" n="37"/>tamen prauus habitus, qui est in appetitu: ita 
+            <lb ed="#V" n="38"/>ligat habitum scientiae, quae est in intellectu, 
+            <lb ed="#V" n="39"/>quod quandocunque occurrit facultas praui ope¬ 
+            <lb ed="#V" n="40"/>ris, progreditur in prauum opus. Talis ergo, 
+            <lb ed="#V" n="41"/>&amp; si est sciens propter habitum, quem habet, in 
+            <lb ed="#V" n="42"/>intellectu: est tamen ignorans propter habi¬ 
+            <lb ed="#V" n="43"/>tum, quem habet in appetitu sigantem habi¬ 
+            <lb ed="#V" n="44"/>tum scientiae existentem in intellectu. Propter 
+            <lb ed="#V" n="45"/>quod patet, quod tres distinctiones adaptari 
+            <lb ed="#V" n="46"/>possunt ad tres modos peccandi. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e547">
+            <lb ed="#V" n="47"/>Est autem &amp; quarta distinctio de scientia, &amp; 
+            <lb ed="#V" n="48"/>ignorantia, quia potest esse quis sciens in vniuer 
+            <lb ed="#V" n="49"/>sali, &amp; ignorans in particulari. Et ista distin¬ 
+            <lb ed="#V" n="50"/>ctio comprehendit quemlibet, qui peccat igno¬ 
+            <lb ed="#V" n="51"/>rans. Et ex ista distinctione potest patere, quo¬ 
+            <lb ed="#V" n="52"/>modo potest quis scienter peccare, &amp; quomodo 
+            <lb ed="#V" n="53"/>potest simul esse sciens, &amp; ignorans. Nam non 
+            <lb ed="#V" n="54"/>potest esse res volita, &amp; non volita, nisi appre¬ 
+            <lb ed="#V" n="55"/>hendatur, vt bona, &amp; mala. Nam illud, quod 
+            <lb ed="#V" n="56"/>apprehenditur solum, vt bonum, de necessita¬ 
+            <lb ed="#V" n="57"/>te est volitum: &amp; illud, quod apprehenditur so¬ 
+            <lb ed="#V" n="58"/>lum, vt malum, de necessitate est non volitum, 
+            <lb ed="#V" n="59"/>sed illud, quod apprehenditur vno modo, vt 
+            <lb ed="#V" n="60"/>bonum, alio modo, vt malum; potest esse vo¬ 
+            <lb ed="#V" n="61"/>litum, &amp; non volitum. Si ergo posset peccator 
+            <lb ed="#V" n="62"/>separare bonum a malo, &amp; inordinationem a 
+            <lb ed="#V" n="63"/>delectatione, iudicaret, quid esset fugiendum: vt 
+            <!--282.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>puta, quia fornicatio apprehenditur, vt bona, 
+            <lb ed="#V" n="65"/>quia delectabilis: apprehenditur, ut mala, quia 
+            <lb ed="#V" n="66"/>inordinata. Igitur si peccator posset habere de¬ 
+            <lb ed="#V" n="67"/>lectationem fornicationis sine inordinatione, 
+            <lb ed="#V" n="68"/>potius vellet. Sed magis vult illam inordinatio¬ 
+            <lb ed="#V" n="69"/>nem, quam velit perdere delectatlonem, Et 
+            <lb ed="#V" n="70"/>quantumcunque sciat fornicationem esse inor¬ 
+            <lb ed="#V" n="71"/>dinatam, ligatur eius scientia, vt non iudicet 
+            <lb ed="#V" n="72"/>fornicationem non esse facien dam, quia inordi¬ 
+            <lb ed="#V" n="73"/>nata. Sed iudicat esse faciendam, quia delecta¬ 
+            <lb ed="#V" n="74"/>bilis. Quod iudicium est erroneum, &amp; sic iudi¬ 
+            <lb ed="#V" n="75"/>cando dicitur ignorans, sed haec ignorantia non 
+            <lb ed="#V" n="76"/>est in vniuersali, quia scit omnem fornicationem 
+            <lb ed="#V" n="77"/>esse fugiendam: at in particulari, quia quan¬ 
+            <lb ed="#V" n="78"/>tumcunque sciat omnem fornicationem esse fu¬ 
+            <lb ed="#V" n="79"/>giendam, iudicat hanc fornicationem esse fa¬ 
+            <lb ed="#V" n="80"/>ciendam. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e627">
+            <lb ed="#V" n="81"/>Et vt melius intelligantur verba philosophi. 
+            <lb ed="#V" n="82"/>Dicemus, quod res in vniuersali intelligitur se¬ 
+            <lb ed="#V" n="83"/>cundum se separata a conditionibus, cum qui¬ 
+            <lb ed="#V" n="84"/>bus est. sed in particulari intelligitur eum omni¬ 
+            <lb ed="#V" n="85"/>bus conditionibus, cum quibus est. Cum:er¬ 
+            <lb ed="#V" n="86"/>go fornicatio sit quid inordinatum, si esset sepa¬ 
+            <lb ed="#V" n="87"/>rata a delectatione, numquam caderet sub ap¬ 
+            <lb ed="#V" n="88"/>petitu. Propter quod, cum appetitus elus sit in 
+            <lb ed="#V" n="89"/>vniuersali, nunquam ligabit habitum scientiae, 
+            <lb ed="#V" n="90"/>sed in particulari, vt est coniuncta delectationi, 
+            <lb ed="#V" n="91"/>ligabitur ratio, &amp; iudicabit fornicationem fa¬ 
+            <lb ed="#V" n="92"/>ciendam, cum non sit facienda. Dicemus er¬ 
+            <lb ed="#V" n="93"/>go, quod bene videt peccator, quia fornicatio 
+            <lb ed="#V" n="94"/>est bona, &amp;mala: est mala simpliciter, &amp; est 
+            <lb ed="#V" n="95"/>bona apparenter. Cum ergo vult iudicare vtrum 
+            <lb ed="#V" n="96"/>sit facienda, vel non; si in eo ratio sit fortis, &amp; 
+            <lb ed="#V" n="97"/>non vincatur passione, iudicabit eam non fa¬ 
+            <lb ed="#V" n="98"/>ciendam. sed si ratio sit debilis, &amp; permittat 
+            <lb ed="#V" n="99"/>se a passione vinci, iudicabit eam faciendam, 
+            <lb ed="#V" n="100"/>quod iudicium est erroneum. sed iste error non 
+            <lb ed="#V" n="101"/>est in vniuersali, nisi inordinatio separetur a dele¬ 
+            <lb ed="#V" n="102"/>ctatione. Sed est in particulari, ubi inordina¬ 
+            <lb ed="#V" n="103"/>tio est coniuncta delectationi, &amp; ideo dicitur 
+            <lb ed="#V" n="104"/>sic peccans ignorare in particulari, non in vni¬ 
+            <lb ed="#V" n="105"/>uersali. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e684">
+            <lb ed="#V" n="106"/>Sed dices, quod etiam, cum homo actu for¬ 
+            <lb ed="#V" n="107"/>nicatur, si quaeretur ab eo: Vtrum illa particu¬ 
+            <lb ed="#V" n="108"/>laris fornicatio sit facienda; Diceret, quod non. 
+            <lb ed="#V" n="109"/>ergo in particulari scit eam non esse faciendam. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e695">
+            <lb ed="#V" n="110"/>Dicemus ergo cum Philosopho, quod sic di¬ 
+            <lb ed="#V" n="111"/>cens mentitur, &amp; dicit ore, quod non sentit cor¬ 
+            <lb ed="#V" n="112"/>de. quia corde iudicat, &amp; consentit, quod illa 
+            <lb ed="#V" n="113"/>fornicatio sit facienda, quia si hoc non consenti¬ 
+            <lb ed="#V" n="114"/>ret corde, vel non consentiret, non faceret. Si 
+            <lb ed="#V" n="115"/>ergo facit, &amp; fornicatur, corde consentit illud 
+            <lb ed="#V" n="116"/>esse faciendum, &amp; iudicat in corde suo illud esse 
+            <lb ed="#V" n="117"/>faciendum, quantumcunque ore dicat contra¬ 
+            <lb ed="#V" n="118"/>rium. &amp; quia tale iudicium non est sine errore, 
+            <lb ed="#V" n="119"/>&amp; error non est sine ignorantia, omnis peccans, 
+            <lb ed="#V" n="120"/>&amp; si non ignorat in vniuersali, saltem ignorat in 
+            <lb ed="#V" n="121"/>particulari. Ideo dicitur in 3. Ethic. quod om¬, 
+            <lb ed="#V" n="122"/>nis malus ignorans. Potest enim contingere, quod 
+            <lb ed="#V" n="123"/>peccans habeat remorsum conscientiae, &amp; iudicet 
+            <lb ed="#V" n="124"/>illud faciendum, &amp; non faciendum, cum omnibus con¬ 
+            <lb ed="#V" n="125"/>putatis proer illo tempore, quo peccat, iudicat illud 
+            <lb ed="#V" n="126"/>magis esse faciendum, quam non faciendum: quia 
+            <!--283.xml-->
+            <pb ed="#V" n="283"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>si non iudicaret, non faceret. Sed dices, quo mo¬ 
+            <lb ed="#V" n="2"/>do potest sic ligari habitus scientiae, vel potest sic 
+            <lb ed="#V" n="3"/>ligari ratio, quod iudicet faciendum, quod non est 
+            <lb ed="#V" n="4"/>faciendum. Ad hoc respondebimus cum Philo¬ 
+            <lb ed="#V" n="5"/>sopho in 7. quod sicut ratio ligatur in dormiente, &amp; 
+            <lb ed="#V" n="6"/>in ebrio, sic ligatur ratio in homine passionato. 
+            <lb ed="#V" n="7"/>In somnis enim semper videt, quis se in iudicio ra¬ 
+            <lb ed="#V" n="8"/>tionis, &amp; ebrius deficit in iudicio rationis. &amp; si di¬ 
+            <lb ed="#V" n="9"/>cantur verba scientiae ore, corde non intelligit, quod 
+            <lb ed="#V" n="10"/>dicit. Passiones ergo, &amp; impetus sensualitatis, cu¬ 
+            <lb ed="#V" n="11"/>iusmodi sunt concupiscentiae, &amp; irae, ita reddunt 
+            <lb ed="#V" n="12"/>rationem sopitam, ita inebriant eam, vt erronee, 
+            <lb ed="#V" n="13"/>&amp; ignoranter iudicet, &amp; dicat essefaciendum, quod 
+            <lb ed="#V" n="14"/>non est faciendum. Propter quod omnis malus, 
+            <lb ed="#V" n="15"/>saltem in particulari, in quo erroneum dat iudi¬ 
+            <lb ed="#V" n="16"/>cium, dicitur esse ignorans. Sed dices, quod som¬ 
+            <lb ed="#V" n="17"/>nus, &amp; ebrietas transmutant corpus, &amp; corpore 
+            <lb ed="#V" n="18"/>transmutato, impeditur iudicium rationis. Ad 
+            <lb ed="#V" n="19"/>hoc respondebimus cum Philos. quod irae, &amp; concu¬ 
+            <lb ed="#V" n="20"/>piscentiae etiam transmutantcorpus, &amp; non solum 
+            <lb ed="#V" n="21"/>impediunt iudicium rationis, vt male iudicet hoc 
+            <lb ed="#V" n="22"/>in particulari, sed etiam reddunt aliquando ho¬ 
+            <lb ed="#V" n="23"/>minem insanum. Nam aliqui ex amore, &amp; concu¬ 
+            <lb ed="#V" n="24"/>piscentia alicuius mulieris effecti sunt insani. Et 
+            <lb ed="#V" n="25"/>tempore nostro vidimus aliquem ex nimia ira in 
+            <lb ed="#V" n="26"/>insaniam incidisse. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e797">
+            <lb ed="#V" n="27"/>RESP. AD ARO. Ad primum dicendum, quod intel 
+            <lb ed="#V" n="28"/>lectus ibi accipitur pro habitu principiorum, vel¬ 
+            <lb ed="#V" n="29"/>pro intellectuali cognitione principiorum, circa¬ 
+            <lb ed="#V" n="30"/>quae non contingit error, sed quilibet probat audita. 
+            <lb ed="#V" n="31"/>Ebsi aliquis negauit principia, hoc fuit, quia non 
+            <lb ed="#V" n="32"/>intelligebat, quid dicebatur per ea, vel hoc non 
+            <lb ed="#V" n="33"/>fuit cum ipsa significatione, sed cum extranea. dixit enim 
+            <lb ed="#V" n="34"/>Heraclitus contradictionem posse verificari: quia 
+            <lb ed="#V" n="35"/>res erant, in tanto motu, quod statim cum quis dixes 
+            <lb ed="#V" n="36"/>rat, hoc esse, poterat dicere hoc noneesse: sed hoc 
+            <lb ed="#V" n="37"/>non erat contradictoria verificari simul, sed suc¬ 
+            <lb ed="#V" n="38"/>cessiue. sed licet intellectus semper sit rectus, ra¬ 
+            <lb ed="#V" n="39"/>tio tamen potest esse recta, &amp; non recta, &amp; potest 
+            <lb ed="#V" n="40"/>ibi esse peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e831">
+            <lb ed="#V" n="41"/>Ad secundum dicendum, quod omne peccatum est 
+            <lb ed="#V" n="42"/>contra rationem, non quocunque modo sumptam, 
+            <lb ed="#V" n="43"/>sed contra rationem rectam; ideo potest contin¬ 
+            <lb ed="#V" n="44"/>gere, quod aliquis malefaciendo credat se obsequiu 
+            <lb ed="#V" n="45"/>praestare Deo, &amp; hoc credendo habebit rationem 
+            <lb ed="#V" n="46"/>non rectam. Peccatum ergo, &amp; obliquitas pos¬ 
+            <lb ed="#V" n="47"/>sunt esse in ipsa ratione. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e849">
+            <lb ed="#V" n="48"/>Ad tertium dicendum, quod omne peccatum est vo¬ 
+            <lb ed="#V" n="49"/>luntarium, &amp; hoc modo omne peccatum est in vo¬ 
+            <lb ed="#V" n="50"/>luntate: tamen, quia voluntas non mouetur, nisi¬ 
+            <lb ed="#V" n="51"/>ab obiecto ostenso ab intellectu, vel a ratione, vel¬ 
+            <lb ed="#V" n="52"/>a Deo, non potest esse defectus in voluntate, nisi 
+            <lb ed="#V" n="53"/>in vniuersali, vel in particulari sit aliquo modo 
+            <lb ed="#V" n="54"/>defectus in ratione. Vel possumus dicere, quod ra¬ 
+            <lb ed="#V" n="55"/>tio, vt hic de ratione loquimur, non dicit poten¬ 
+            <lb ed="#V" n="56"/>tiam cognitiuam, sed dicit potentiam appetitiuam 
+            <lb ed="#V" n="57"/>a ratione motam: sieut sensualitas non dicit po¬ 
+            <lb ed="#V" n="58"/>tentiam cognitiuam, sed dicit potentiam appeti¬ 
+            <lb ed="#V" n="59"/>tiuam a sensu motam. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e878">
+            <lb ed="#V" n="60"/>Ad quartum dicendum, quod ratio, non quo¬ 
+            <lb ed="#V" n="61"/>cunque modo sumpta, est mensura aliorum, nec 
+            <lb ed="#V" n="62"/>debet poni in difunitione virtutis: sed ratio, vt est 
+            <lb ed="#V" n="63"/>recta, quia virtus est habitus electiuus in medio¬ 
+            <!--283.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>critate consistens, vt recta ratio iudicabit, &amp; nor 
+            <lb ed="#V" n="65"/>quilibet homo debet esse mensura, &amp; regula alio¬ 
+            <lb ed="#V" n="66"/>rum, vt vult Philosophus: sed homo iustus, qui se 
+            <lb ed="#V" n="67"/>quitur rationem rectam. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m082449-Dd1e904">
+          <head xml:id="Gi9qrR-m082449-Hd1e906">Articulus 2</head>
+          <p xml:id="Gi9qrR-m082449-d1e908">
+            <lb ed="#V" n="68"/>ARTIC. II. 
+            <lb ed="#V" n="69"/>An delectationis tantum con¬ 
+            <lb ed="#V" n="70"/>sensus possit esse peccatum. 
+            <lb ed="#V" n="71"/>conclusio est assurmatixa. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e919">
+            <lb ed="#V" n="72"/>Dmh. 1. 3q. 31. att 6. 4at.8. 1t 2. fent 4. 24. 4. 
+            <lb ed="#V" n="73"/>art. 4. Et de Ver. quaest. 15. art. 4. cor¬ 
+            <lb ed="#V" n="74"/>Et Quol. 13. art. 43. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e928">
+            <lb ed="#V" n="75"/>AD SECVNDUM sic procedi¬ 
+            <lb ed="#V" n="76"/>tur: videtur, quod consensus in de¬ 
+            <lb ed="#V" n="77"/>lectatione rationis, sine consen¬ 
+            <lb ed="#V" n="78"/>su in opus non possit esse pecca¬ 
+            <lb ed="#V" n="79"/>tum mortale. Nam peccatum 
+            <lb ed="#V" n="80"/>homicidii est peccatum mortale 
+            <lb ed="#V" n="81"/>dato ergo, quod quis cogitet de occisione mortuo¬ 
+            <lb ed="#V" n="82"/>rum, &amp; delectetur in cogitatione illa, non videtur 
+            <lb ed="#V" n="83"/>peccare mortaliter. Nam cum audimus historias 
+            <lb ed="#V" n="84"/>Troianas, &amp; audimus, quod Hector occidit tot ho¬ 
+            <lb ed="#V" n="85"/>mines, &amp; delectamur, in hoc non videmur pecca¬ 
+            <lb ed="#V" n="86"/>re mortaliter: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e957">
+            <lb ed="#V" n="87"/>Praeterea omne peccatum in tantum est pec¬ 
+            <lb ed="#V" n="88"/>catum, inquantum est contra praeceptum diuinum: 
+            <lb ed="#V" n="89"/>ergo illius est peccare mortaliter, cuius est perci¬ 
+            <lb ed="#V" n="90"/>
+            <!-- line coord error -->
+            <lb ed="#V" n="91"/>pere praeceptum diuinum. sed hoc pertinet ad ra¬ 
+            <lb ed="#V" n="92"/>tionem superiorem: ergo in ratione inferiori quan¬ 
+            <lb ed="#V" n="93"/>tumcunque sit ibi delectatio, non poterit ibi esse 
+            <lb ed="#V" n="94"/>peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e980">
+            <lb ed="#V" n="95"/>Praeterea Magister in littera vult, quod non sit pec¬ 
+            <lb ed="#V" n="96"/>catum mortale in delectatione rationis, nisi illa 
+            <lb ed="#V" n="97"/>delectatio sit morosa. sed nulla circunstantia ag¬ 
+            <lb ed="#V" n="98"/>grauat peccatum in infinitum. Cum ergo pecca¬ 
+            <lb ed="#V" n="99"/>tum mortale in infinitum distet a veniali, mora, 
+            <lb ed="#V" n="100"/>quae est quaedam circunstantia, non aggrauat de¬ 
+            <lb ed="#V" n="101"/>lectationem in infinitum, cum delectatio rationis 
+            <lb ed="#V" n="102"/>non morosa dicatur peccatum veniale: morosa 
+            <lb ed="#V" n="103"/>vero dicatur mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1002">
+            <lb ed="#V" n="104"/>Praeterea omne peccatum est prohibitum in 
+            <lb ed="#V" n="105"/>lege diuina: etgo siue sint morosae, siue non, non 
+            <lb ed="#V" n="106"/>videntur esse peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1011">
+            <lb ed="#V" n="107"/>IN CONTRARIVM est: quia sicut in con 
+            <lb ed="#V" n="108"/>iugio primorum Parentum fuit vir, &amp; mulier, &amp; 
+            <lb ed="#V" n="109"/>quilibet poterat peccare mortaliter. Sic in coniu¬ 
+            <lb ed="#V" n="110"/>gio spirituali est ratio superior, quae se habet, vt 
+            <lb ed="#V" n="111"/>vir: &amp; inferior, quae se habet, vt mulier. Tam vir¬ 
+            <lb ed="#V" n="112"/>ergo, quam mulier, id est, tam ratio superior, 
+            <lb ed="#V" n="113"/>quam inferior poterunt peccare mortaliter. sed 
+            <lb ed="#V" n="114"/>rationi inferiori attribuitur delectatio, consenti¬ 
+            <lb ed="#V" n="115"/>re in opus attribuitur rationi superiori: ergo in 
+            <lb ed="#V" n="116"/>illa delectatione rationis sine consensu in opus po¬ 
+            <lb ed="#V" n="117"/>test esse peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1037">
+            <lb ed="#V" n="118"/>Praeterea Magister hic plane dicit in littera, quod 
+            <lb ed="#V" n="119"/>delectatio rationis, sit sit morosa sine consensu in 
+            <lb ed="#V" n="120"/>opus, est peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1046">
+            <!--284.xml-->
+            <pb ed="#V" n="284"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>RESOLVTIO. 
+            <lb ed="#V" n="2"/>maedione rationt. auque operepotor esse pecta¬ 
+            <lb ed="#V" n="3"/>tum mortale, ex delectationae morosa, non ratio¬ 
+            <lb ed="#V" n="4"/>ne morae, vel temporis: sed quia ratio delectario¬ 
+            <lb ed="#V" n="5"/>ni consentit, &amp; consentiendo eligit, sic delectari. 
+            <lb ed="#V" n="6"/>Idam sit ratione superiori, respectu Dei: &amp; infe¬ 
+            <lb ed="#V" n="7"/>riori, respectau proximi. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1070">
+            <lb ed="#V" n="8"/>RESPONDEO dicendum, quod licet superius 
+            <lb ed="#V" n="9"/>dederimus differentiam inter rationem superio¬ 
+            <lb ed="#V" n="10"/>rem, &amp; inferiorem, adhuc de distinctione earum 
+            <lb ed="#V" n="11"/>volumus aliqua dicere. Potest enim ratio supe¬ 
+            <lb ed="#V" n="12"/>rior, &amp; inferior dupliciter distingui, vel respectu¬ 
+            <lb ed="#V" n="13"/>obiectorum, vt data fuit superius distinctio inter 
+            <lb ed="#V" n="14"/>eas: quia superior est respectu aeternorum, infe¬ 
+            <lb ed="#V" n="15"/>rior respectu temporalium. Ratio enim superior¬ 
+            <lb ed="#V" n="16"/>attendit quomodo sit subiecta Deo, &amp; quomo¬ 
+            <lb ed="#V" n="17"/>do intendat aetemnis consulendis. Inferior attendit, 
+            <lb ed="#V" n="18"/>quomodo regat corpus, &amp; quomodo intendat ten¬ 
+            <lb ed="#V" n="19"/>poralibus ministrandis. Sic ergo distinguitur ra¬ 
+            <lb ed="#V" n="20"/>tio superior, &amp; inferior, vt conparantur ad obiecta: 
+            <lb ed="#V" n="21"/>sed, vt comparantur ad potentias alias, dicetur ra¬ 
+            <lb ed="#V" n="22"/>tio superior illa, quae omnes potentias alias mo¬ 
+            <lb ed="#V" n="23"/>uet ad suos actus. Nam ille, qui stat super equst. 
+            <lb ed="#V" n="24"/>dirigit equum per quamcunque viam vult, &amp; vt 
+            <lb ed="#V" n="25"/>placet sibs. Sic ratio superior mouet membra, &amp; 
+            <lb ed="#V" n="26"/>potentias, &amp; omnia, quae sunt in potestate nostra, 
+            <lb ed="#V" n="27"/>vt placet sibi. Vtroque ergo modo dicta est ratio 
+            <lb ed="#V" n="28"/>superior per comparationem ad obiecta. quia ae¬ 
+            <lb ed="#V" n="29"/>terna sunt super temporalia: &amp; per comparatio¬ 
+            <lb ed="#V" n="30"/>nem ad potentias, quia omnes alias potentias mo¬ 
+            <lb ed="#V" n="31"/>uet ad sua opera, vel ad suos actus. Propter quod 
+            <lb ed="#V" n="32"/>consentire in opus competit rationi superiori: quia 
+            <lb ed="#V" n="33"/>cum illa moueat omnes alias potentias ad suos 
+            <lb ed="#V" n="34"/>actus, non fit opus aliquod, nisi ex consensu, &amp; ex 
+            <lb ed="#V" n="35"/>imperio illius. Videtur autem haec duplex ratio 
+            <lb ed="#V" n="36"/>esse sumpta secundum rationem duplicis tabulae. 
+            <lb ed="#V" n="37"/>Nam sicut Deus dedit suas tabulas, vnam in qua¬ 
+            <lb ed="#V" n="38"/>erant scripta praecepta ordinantia ad Deum, &amp; aliam, 
+            <lb ed="#V" n="39"/>in qua erant scripta ordinantia ad proximum: sic 
+            <lb ed="#V" n="40"/>ratio superior sumpta est ex eo, quod attendat ordi¬ 
+            <lb ed="#V" n="41"/>nantia hominem ad Deum: inferior vero ordinan¬ 
+            <lb ed="#V" n="42"/>tia hominem ad proximum. Et sicut ordinantia 
+            <lb ed="#V" n="43"/>hominem ad proximum, debent regulari per or¬ 
+            <lb ed="#V" n="44"/>dinantia hominem ad Deum. Sic ratio inferior 
+            <lb ed="#V" n="45"/>debet regulari per rationem superiorem. Vtro¬ 
+            <lb ed="#V" n="46"/>bique ergo potest esse meritum, &amp; demeritum. Nam 
+            <lb ed="#V" n="47"/>si recte viuimus, &amp; agimus in his, quae sunt ad 
+            <lb ed="#V" n="48"/>Deum, meremur secundum rationem superiorem: 
+            <lb ed="#V" n="49"/>sed per ea, quae sunt ad proximum, secundum in¬ 
+            <lb ed="#V" n="50"/>feriorem: vtrobique etiam potest esse delectatio 
+            <lb ed="#V" n="51"/>bona, &amp; mala. Nam si delectamur in his, quae sunt 
+            <lb ed="#V" n="52"/>ad Deum, est delectatio bona secundum rationem 
+            <lb ed="#V" n="53"/>superiorem. Si e contrario, est delectatio mala¬ 
+            <lb ed="#V" n="54"/>secundum eandem rationem. Eodem etiam mo¬ 
+            <lb ed="#V" n="55"/>do si recte delectamur in his, quae sunt ad proxi¬ 
+            <lb ed="#V" n="56"/>mum, erit delectatio bona secundum rationem in¬ 
+            <lb ed="#V" n="57"/>feriorem. Si econtrario, erit mala secundum ean¬ 
+            <lb ed="#V" n="58"/>dem rationem. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1184">
+            <lb ed="#V" n="59"/>Aduertendum autem, quod tam ratio superior, 
+            <lb ed="#V" n="60"/>quam inferior potest bene, &amp; male se habere du¬ 
+            <lb ed="#V" n="61"/>pliciter: videlicet secundum se, &amp; secundum id, 
+            <!--284.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="62"/>quod habet regulare. nam ratio superior habet 
+            <lb ed="#V" n="63"/>regulare inferiorem. Potest ergo superior se ha¬ 
+            <lb ed="#V" n="64"/>bere dupliciter, vel secundum se, vel secundum, quod 
+            <lb ed="#V" n="65"/>compescit rationem inferiorem, &amp; dicitur male, 
+            <lb ed="#V" n="66"/>vel secundum se, vel secundum, quod negligit com¬ 
+            <lb ed="#V" n="67"/>pescere rationem inferiorem. Sic ratio iuferior du¬ 
+            <lb ed="#V" n="68"/>pliciter potest se habere bene secundum se, &amp; se¬ 
+            <lb ed="#V" n="69"/>cundum, quod compescit sensualitatem, &amp; dicitur ma¬ 
+            <lb ed="#V" n="70"/>le secundum se, &amp; secundum, quod negligit sensuali¬ 
+            <lb ed="#V" n="71"/>tatem compescere. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1219">
+            <lb ed="#V" n="72"/>Cum ergo quaeritur de delectatione rationis, 
+            <lb ed="#V" n="73"/>vtrum possit ibi esse peccatum mortale. patet, quod 
+            <lb ed="#V" n="74"/>tam in ratione superiori, quam in inferiori potest 
+            <lb ed="#V" n="75"/>esse delectatio bona, quae est meritum, &amp; delecta 
+            <lb ed="#V" n="76"/>tio mala, quae potest esse peccatum mortale. Nam 
+            <lb ed="#V" n="77"/>&amp; in his, quae sunt ad Deum, &amp; inhis, quae sunt 
+            <lb ed="#V" n="78"/>ad proximum, possumus bene, &amp; male delectari, 
+            <lb ed="#V" n="79"/>&amp; possumus mereri, &amp; mortaliter peccare. Ma¬ 
+            <lb ed="#V" n="80"/>gister tamen in littera mouet hanc quaestionem pro¬ 
+            <lb ed="#V" n="81"/>pter rationem inferiorem, cui attribuitur delecta¬ 
+            <lb ed="#V" n="82"/>tio, quia rationi superiori attribuitilr consensus in 
+            <lb ed="#V" n="83"/>opus: quod non ssc intelligendum est, quod rationi¬ 
+            <lb ed="#V" n="84"/>superiori non competat delectatio, cum delecta¬ 
+            <lb ed="#V" n="85"/>tio sit aliquid consequens operationem. Sicut er¬¬ 
+            <lb ed="#V" n="86"/>go rationi superiori artribuitur propria opera¬ 
+            <lb ed="#V" n="87"/>tio, quae est in his, quae sunt ad Deum, vel in con¬ 
+            <lb ed="#V" n="88"/>tmrijs: sic attribuemus ei propriam delectatio¬ 
+            <lb ed="#V" n="89"/>nem. sed quia rationi inferiori competit delecta¬ 
+            <lb ed="#V" n="90"/>tio, sed non competit consensus in opus: quia non 
+            <lb ed="#V" n="91"/>competit ei mouere membra, &amp; potentias ad suos 
+            <lb ed="#V" n="92"/>actus, vel ad sua opera: quia hoc competit solum 
+            <lb ed="#V" n="93"/>ei, quod tonet supremum gradum in regno animae: 
+            <lb ed="#V" n="94"/>cuiusinodi est ratio superior. Inde est ergo, quod li¬ 
+            <lb ed="#V" n="95"/>cet delectari possit esse quid commune rationi 
+            <lb ed="#V" n="96"/>superiori, &amp; inferiori: tamen, quia consentire in 
+            <lb ed="#V" n="97"/>opus est proprium rationi superiori, ideo attri¬ 
+            <lb ed="#V" n="98"/>buitur ei delectatio: nec attribuitur. rationil in¬ 
+            <lb ed="#V" n="99"/>feriori, vt in hoc distinguatur a superiori: quia 
+            <lb ed="#V" n="100"/>ei competit solum delectari, sed non consentire 
+            <lb ed="#V" n="101"/>in opus, quod rationi superiori competit. De ra¬ 
+            <lb ed="#V" n="102"/>tione ergo inferiori Magister vult, quod si sit delecta 
+            <lb ed="#V" n="103"/>tio morosa, quod sit ibi peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1291">
+            <lb ed="#V" n="104"/>Et si obiiciatur contra eum, quod non est pecca¬ 
+            <lb ed="#V" n="105"/>tum mortale line consensu rationis superioris; pro¬ 
+            <lb ed="#V" n="106"/>pter quod si non consentiatur in opus, non vide¬ 
+            <lb ed="#V" n="107"/>tur ratio superior consentire, &amp; quantumcunque¬ 
+            <lb ed="#V" n="108"/>morosa sit ista delectatio, non videtur ibi esse 
+            <lb ed="#V" n="109"/>peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1307">
+            <lb ed="#V" n="110"/>Ad quod respondet Magister, quod si sit delecta¬ 
+            <lb ed="#V" n="111"/>tio morosa in ratione inferiori, ibi est consensus 
+            <lb ed="#V" n="112"/>superioris rationis: &amp; si non est ibi consensus in 
+            <lb ed="#V" n="113"/>opus prauum, consentit tamen in delectationem 
+            <lb ed="#V" n="114"/>prauam. Nam cum delectatio sit quid consequens 
+            <lb ed="#V" n="115"/>opus: oportet, quod quale est opus, talis sit delecta¬ 
+            <lb ed="#V" n="116"/>tio, vt potest haberi a Philos. Si ergo opus erit 
+            <lb ed="#V" n="117"/>bonum, delectatio erit bona, si prauum, praua. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1327">
+            <lb ed="#V" n="118"/>Aduertendum, quod ad hoc valet distinctio supe¬ 
+            <lb ed="#V" n="119"/>rius facta, quod rationi superiori dupliciter potest 
+            <lb ed="#V" n="120"/>imputari malum, vel secundum se, vel secundum, 
+            <lb ed="#V" n="121"/>quod habet compescere rationem inferiorem: ergo 
+            <lb ed="#V" n="122"/>si delectatio sit morosa in inferiori ratione, &amp; si 
+            <lb ed="#V" n="123"/>non sit ibi consensus superioris rationis secundum 
+            <lb ed="#V" n="124"/>se; erit tamen ibi consensus, prout negligit com¬ 
+            <!--285.xml-->
+            <pb ed="#V" n="285"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pescere rationem inferiorem, quod faciendo di¬ 
+            <lb ed="#V" n="2"/>citur consentire. Nam &amp; Ambros. super illo ver¬ 
+            <lb ed="#V" n="3"/>bo: Non solum, qui faciunt, sed qui consentiunt 
+            <lb ed="#V" n="4"/>ait: Consentis, si taces, cum possis arguere. er¬ 
+            <lb ed="#V" n="5"/>go ratio superior consentit delectationi rationis 
+            <lb ed="#V" n="6"/>inferioris ex hoc solum, si non compescit eam¬ 
+            <lb ed="#V" n="7"/>cum possit compescere: quia plus est consentire 
+            <lb ed="#V" n="8"/>non compescere, qui potest compescere, quam 
+            <lb ed="#V" n="9"/>tacere, qui potest afguere. Aduertendum etiam 
+            <lb ed="#V" n="10"/>quod delectatio morosa non dicitur peccatum mor¬ 
+            <lb ed="#V" n="11"/>tale ratione temporis, vel ratione morae, sed ra¬ 
+            <lb ed="#V" n="12"/>tione consensus, &amp; electionis, vt tunc dicatur dele¬ 
+            <lb ed="#V" n="13"/>ctatio morosa, quia ratio consentit, &amp; consentien¬ 
+            <lb ed="#V" n="14"/>do eligit sic delectari. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1382">
+            <lb ed="#V" n="15"/>RESP. AD 3RO. Ad primum dicendum, 
+            <lb ed="#V" n="16"/>quod cum audimus aliqua de Sanctis, quod sic passi sunt, 
+            <lb ed="#V" n="17"/>si gaudemus de his, sic passis, tanquam bene me¬ 
+            <lb ed="#V" n="18"/>ritis, non solum non peccamus, sed meremur. sed 
+            <lb ed="#V" n="19"/>si gaudemus de eis, sicut gaudebant tyranni, pec¬ 
+            <lb ed="#V" n="20"/>camus, &amp; demeremur: &amp; nulli dubium, quod hoc 
+            <lb ed="#V" n="21"/>modo possumus mortaliter peccare, etiam si au¬ 
+            <lb ed="#V" n="22"/>dimus de aliquo milite strenue bellante, si gaude 
+            <lb ed="#V" n="23"/>mus de eo tanquam de defendente iustitiam, non 
+            <lb ed="#V" n="24"/>solum non peccamus, sed meremur. Sed si gaude 
+            <lb ed="#V" n="25"/>mus de eo tanquam de prosequente iustitiam, 
+            <lb ed="#V" n="26"/>possumus mortaliter peccare. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1412">
+            <lb ed="#V" n="27"/>Ad secundum dicendum, quod praecepta Deinon 
+            <lb ed="#V" n="28"/>solum ordinant hominem ad Deum, sed etiam ad 
+            <lb ed="#V" n="29"/>prosimum, etiam ante legis dationem, vbi fue¬ 
+            <lb ed="#V" n="30"/>runt data praecepta Dei, homo tenebatur dilige¬ 
+            <lb ed="#V" n="31"/>re Deum, &amp; proximum. Et, vt ferebatur in Deum, 
+            <lb ed="#V" n="32"/>pertinebat hoc ad rationem superiorem, vt in pro¬ 
+            <lb ed="#V" n="33"/>ximum ad inferiorem. Et nunc etiam mandata Dei, 
+            <lb ed="#V" n="34"/>licet sub hac ratione, vt sunt Dei, quae est quid ae¬ 
+            <lb ed="#V" n="35"/>ternum, videatur ad rationem superiorem perti¬ 
+            <lb ed="#V" n="36"/>nere, tamenm sub hac ratione, vt terminatur ad pro¬ 
+            <lb ed="#V" n="37"/>ximum, qui est quid temporale, pertinent ad ra¬ 
+            <lb ed="#V" n="38"/>tionem inferiorem. Vel possumus dicere non esse 
+            <lb ed="#V" n="39"/>inconueniens vnum, &amp; idem alio, &amp; alio modo 
+            <lb ed="#V" n="40"/>ad aliam, &amp; aliam rationem pertinere. Vel pos¬ 
+            <lb ed="#V" n="41"/>sumus tertio respondere, quod sicut in sensualitate 
+            <lb ed="#V" n="42"/>potest esse virtus, &amp; vitium, vt regitur a ratione in¬ 
+            <lb ed="#V" n="43"/>feriori: sic esse potest meritum, &amp; demeritum, &amp; 
+            <lb ed="#V" n="44"/>peccatum mortale in ratione, vt. regitur a ratione 
+            <lb ed="#V" n="45"/>superiori, cuius est percipere mandata Dei. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1456">
+            <lb ed="#V" n="46"/>Ad tertium dicendum, quod delectatio moro¬ 
+            <lb ed="#V" n="47"/>sa potest esse peccatum mortale non ratione mo¬ 
+            <lb ed="#V" n="48"/>rae secund im se, quae est quaedam circunstantia, 
+            <lb ed="#V" n="49"/>sed ratione consensus, &amp; electionis, quae dait spem¬ 
+            <lb ed="#V" n="50"/>peccati: Nam si quis ex impetu delectetur, non 
+            <lb ed="#V" n="51"/>peccabit mortaliter: sed si consentiat, &amp; eligat sic 
+            <lb ed="#V" n="52"/>delectari, si illud opus est mortale, mortaliter pec¬ 
+            <lb ed="#V" n="53"/>cabit. Quamuis autem in hoc aliqui contradicant 
+            <lb ed="#V" n="54"/>Magistro; tamen tutior est opinio Magistri, cum¬ 
+            <lb ed="#V" n="55"/>non solum consentire in opus, quod est peccatum 
+            <lb ed="#V" n="56"/>mortale, sed etiam consentire in ipsam delectatio 
+            <lb ed="#V" n="57"/>nem sine opere per consensum, &amp; electionem, 
+            <lb ed="#V" n="58"/>quod vocat Magister delectationem morosam, 
+            <lb ed="#V" n="59"/>est peccatum mortale, &amp; etiam contra mandata 
+            <lb ed="#V" n="60"/>Dei, &amp; reducitur ad illud mandatum: Non con¬ 
+            <lb ed="#V" n="61"/>cupisces, iuxta illud Apostoli: Nesciebam, quod 
+            <lb ed="#V" n="62"/>concupiscentia esset peccatum, nisi lex diceret: 
+            <lb ed="#V" n="63"/>Non concupisces.
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m082449-Dd1e1499">
+          <head xml:id="Gi9qrR-m082449-Hd1e1501">Articulus 3</head>
+          <p xml:id="Gi9qrR-m082449-d1e1503">
+            <!--285.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>ARTIC. III. 
+            <lb ed="#V" n="65"/>An omne peccatum a sensualitati 
+            <lb ed="#V" n="66"/>ortum habeat. 
+            <lb ed="#V" n="67"/>Conclusio est naegatiua.
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1519">
+            <lb ed="#V" n="68"/>Riat. 433qdlima niaa: 4a.. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1524">
+            <lb ed="#V" n="69"/>AD TERTIVM sic proceditur 
+            <lb ed="#V" n="70"/>videtur, quod non possit esse pecca¬ 
+            <lb ed="#V" n="71"/>tum in ratione, quod non oriatur 
+            <lb ed="#V" n="72"/>ex sensualitate, quia super illo¬ 
+            <lb ed="#V" n="73"/>verbo: Altaria tua Domine vir¬ 
+            <lb ed="#V" n="74"/>tutum, dicit Olo. quod non potest alis¬ 
+            <lb ed="#V" n="75"/>qua mala suasio oriri in te, nisi carnis tuae primo¬ 
+            <lb ed="#V" n="76"/>desiderium commouerit: ergo nullum pecca¬ 
+            <lb ed="#V" n="77"/>tum erit in ratione, nisi oriatur ex carne, id est, ex¬ 
+            <lb ed="#V" n="78"/>sensualitate. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1548">
+            <lb ed="#V" n="79"/>Praeterea Apost. ad oalatas, narrando opa car¬ 
+            <lb ed="#V" n="80"/>nis, narrat ea, ad quae possunt reduci omnia pec¬ 
+            <lb ed="#V" n="81"/>cata: ergo omnia peccata oriuntur ex carne, &amp; 
+            <lb ed="#V" n="82"/>per consequens ex sensualitate. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1560">
+            <lb ed="#V" n="83"/>Praeterea super illo verbo ad Romanos Nam con¬ 
+            <lb ed="#V" n="84"/>cupiscentiam nesciebam, &amp;c. dicit Glo. bona est¬ 
+            <lb ed="#V" n="85"/>les, quae cum concupiscentiam prohibet, omni¬ 
+            <lb ed="#V" n="86"/>mala prohibet; sed concupiscentia, cum sit passio, 
+            <lb ed="#V" n="87"/>habet esse in sensualitate: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1573">
+            <lb ed="#V" n="88"/>Praeterea aut homo viuit secundum superiora 
+            <lb ed="#V" n="89"/>aut secundum inferiora: si viuat secundum supe¬ 
+            <lb ed="#V" n="90"/>riora, non videtur peccare: peccabit ergo, si viuar 
+            <lb ed="#V" n="91"/>secundum inferiora: sed inferiora ascendunt ad 
+            <lb ed="#V" n="92"/>rationem per carnem ex sensualitate: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1586">
+            <lb ed="#V" n="93"/>IN CONTRARIVM est August. de Ciui¬ 
+            <lb ed="#V" n="94"/>Dei lib. 4. vbi ait: Qui putant omnia animae mala¬ 
+            <lb ed="#V" n="95"/>ex corpore accidisse, in errore sunt. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1595">
+            <lb ed="#V" n="96"/>Praeterea idem Aug. eo. lib. c. 3. ait: Non om¬ 
+            <lb ed="#V" n="97"/>nia vitae vitia tribuenda sunt carni, ne ab his om¬ 
+            <lb ed="#V" n="98"/>nibus purgemus Diabolum, qui non habet car¬ 
+            <lb ed="#V" n="99"/>nem. Et ad Galatas Olo. in eandem sententiam 
+            <lb ed="#V" n="100"/>incidit. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1608">
+            <lb ed="#V" n="101"/>RESOLVTIO. 
+            <lb ed="#V" n="102"/>Si ex passione peccamus, nullum est in ratione pec¬ 
+            <lb ed="#V" n="103"/>catum, quod a sensuatitate ortum non trahat: 
+            <lb ed="#V" n="104"/>contra vgro exr esectione, siue quantum ad pecca¬ 
+            <lb ed="#V" n="105"/>ta spiritualia, siute quentum ad carnalia. qui ali¬ 
+            <lb ed="#V" n="106"/>ter sentiunt, illi quidem caecutiunt. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1624">
+            <lb ed="#V" n="107"/>RESPONDEO dicendum, nuli dubun es¬ 
+            <lb ed="#V" n="108"/>se aliqua esse peccata spiritualia, aliqua carnalia. 
+            <lb ed="#V" n="109"/>Peccata autem spiritualia omnia non solum non 
+            <lb ed="#V" n="110"/>a carne, sed nec etiam a Diabolo sumunt ortum. 
+            <lb ed="#V" n="111"/>Non a carne, vt patet per August. in locis praeassi 
+            <lb ed="#V" n="112"/>gnatis. sed si omnia peccata, &amp; maxime spiritua¬ 
+            <lb ed="#V" n="113"/>lia essent a carne, purgaremus Diabolum a pec¬ 
+            <lb ed="#V" n="114"/>cato, qui non habet carnem. Nec etiam sunt a Dia¬ 
+            <lb ed="#V" n="115"/>bolo omnia talia peccata. Vnde August. in lib. de¬ 
+            <lb ed="#V" n="116"/>Eccles. dogm. ait: Non omnes malae cogitationes 
+            <lb ed="#V" n="117"/>nostrae semper Diaboli instigatione excitantur 
+            <!--286.xml-->
+            <pb ed="#V" n="286"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed aliquoties ex nostri arbitrii motu emergunt: 
+            <lb ed="#V" n="2"/>sed licet sit sic de spiritual bus peccatis, dubium 
+            <lb ed="#V" n="3"/>est de carnalibus, vtrum omnia sint ex carne, vel¬ 
+            <lb ed="#V" n="4"/>priantur a carne. Cum ergo ommisso peccato per¬ 
+            <lb ed="#V" n="5"/>ignorantiam, aliquis possit peccare ex passione, 
+            <lb ed="#V" n="6"/>vel ex d. lectatione; non est dubium, quod si pecca¬ 
+            <lb ed="#V" n="7"/>mus ex passione, quod peccata illa oriuntur ex carne, 
+            <lb ed="#V" n="8"/>&amp; ex sensualirate. Cum enim sensualitas mouctur 
+            <lb ed="#V" n="9"/>ad illicita, semper est ibi peccatum, saltem veniale. 
+            <lb ed="#V" n="10"/>Fuerunt tamen aliqui dicentes, quod in sensualitate 
+            <lb ed="#V" n="11"/>potest esse peccatum, &amp; vitium: sed non culpa, nisi¬ 
+            <lb ed="#V" n="12"/>hoc procedat a voluntate. Assentiunt ergo Aug. 
+            <lb ed="#V" n="13"/>aquod nonnullum vitium est, cum caro concupiscit ad¬ 
+            <lb ed="#V" n="14"/>uersus spiritum, &amp; spiritus aduersus carnem. sed 
+            <lb ed="#V" n="15"/>illud vitium, vel peccatum, nisi a voluntate, vel ra¬ 
+            <lb ed="#V" n="16"/>tione non procedat, non habebit rationem culpae. 
+            <lb ed="#V" n="17"/>sed tutius est dicere, quod licet primi motus natura¬ 
+            <lb ed="#V" n="18"/>les nullam habeant rationem culpae, qui motus 
+            <lb ed="#V" n="19"/>sunt primo primi: motus tamen secundo primi, 
+            <lb ed="#V" n="20"/>qui sunt sensualitatis, sequentes imaginationem no¬ 
+            <lb ed="#V" n="21"/>stram, non habent rationem culpae, iuxta illud 
+            <lb ed="#V" n="22"/>Apostoli: Video autem aliam legem in mem¬ 
+            <lb ed="#V" n="23"/>bris meis repugnantem legi mentis meae, &amp; ca¬ 
+            <lb ed="#V" n="24"/>puunntem mne sulege peccati :ergo intalibus la¬ 
+            <lb ed="#V" n="25"/>bet esse peccatum.
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1712">
+            <lb ed="#V" n="26"/>Sed dites: In talibus habet esse peccatum, cum¬ 
+            <lb ed="#V" n="27"/>sint quid inordinatum: sed non habet ibi esse cut¬ 
+            <lb ed="#V" n="28"/>pa, si non procedunt a voluntate, ex qua sumi¬ 
+            <lb ed="#V" n="29"/>tur ratio culpae. Nam in ipsis rebus naturalibus 
+            <lb ed="#V" n="30"/>habet esse peccatum, cum generant monstra: ta¬ 
+            <lb ed="#V" n="31"/>men non est in eis ratio culpae, sed quod primi mo¬ 
+            <lb ed="#V" n="32"/>tus sensualitatis sunt culpabiles, patet per Apo¬ 
+            <lb ed="#V" n="33"/>stolum, qui cum prius dixisset, quod videbat aliam 
+            <lb ed="#V" n="34"/>legem, &amp; c. postea immediate subdit: Infelix ego¬ 
+            <lb ed="#V" n="35"/>homo, quis me liberabit de corpore mortis hu¬ 
+            <lb ed="#V" n="36"/>ius: Cratia Dei. ergo cum gratia opponatur cul¬ 
+            <lb ed="#V" n="37"/>pae, &amp; habeat expellere cuipam, tales motus ita 
+            <lb ed="#V" n="38"/>sunt peccatum, quod etiam sunt culpa. De eo vero, 
+            <lb ed="#V" n="39"/>quod dicunt, quod nihil habet rationem culpae, nisi¬ 
+            <lb ed="#V" n="40"/>quatenus est a voluntate volitum, vel a ratione im¬ 
+            <lb ed="#V" n="41"/>peratum; Dici debet verum esse, quantum est de¬ 
+            <lb ed="#V" n="42"/>culpa perfecta. propter quod tales motus, inquam¬ 
+            <lb ed="#V" n="43"/>tum habent rationem culpae imperfectae, &amp; inquan¬ 
+            <lb ed="#V" n="44"/>tum sunt peccatum veniale, non oportet, quod 
+            <lb ed="#V" n="45"/>procedant a ratione, immo possunt praecedere 
+            <lb ed="#V" n="46"/>rationem. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1760">
+            <lb ed="#V" n="47"/>Et si quaeratur: vtrum aliquo modo hoc impute 
+            <lb ed="#V" n="48"/>tur rationi: dicitur, quod quia potest impedire hunc, 
+            <lb ed="#V" n="49"/>vel illum, &amp; quemlibet in se impedire potest, vt ex 
+            <lb ed="#V" n="50"/>hoc aliquo modo imputetur rationi, non obstante, 
+            <lb ed="#V" n="51"/>quod ratio omnis huius motus impedire non potest. 
+            <lb ed="#V" n="52"/>Et quia leuissima est culpa in talibus, &amp; resisten¬ 
+            <lb ed="#V" n="53"/>do eis est magnum meritum, si volumus legitime 
+            <lb ed="#V" n="54"/>certare, debemus gaudere, si in tentationes varias 
+            <lb ed="#V" n="55"/>incidamus. Omne ergo peccatum est voluntarium, 
+            <lb ed="#V" n="56"/>&amp; si est peccatum perfectum, est voluntarium sim¬ 
+            <lb ed="#V" n="57"/>pliciter: sed si est imperfectum, non oportet, quod sit 
+            <lb ed="#V" n="58"/>voluntarium simpliciter, sed sufficit, quod sit volun¬ 
+            <lb ed="#V" n="59"/>tarium secundum quid, inquantum voluntas non 
+            <lb ed="#V" n="60"/>impediuit, quod potuit impedire. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1793">
+            <lb ed="#V" n="61"/>Ad quaestionem autem, cum quaeritur: vtrum 
+            <lb ed="#V" n="62"/>possit esse peccatum in ratione, quod non oriatur ex 
+            <lb ed="#V" n="63"/>sensualitate, vt iam tetigimus, ommisso peccato 
+            <!--286.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>per ignorantiam, non contigit peccare, nisi dupli¬ 
+            <lb ed="#V" n="65"/>citer: ex passione, &amp; ex electione. Si ergo pecca¬ 
+            <lb ed="#V" n="66"/>mus ex passione, cum passionos, proprie loquen¬ 
+            <lb ed="#V" n="67"/>do, non habeant esse, nisi in parte sensitiua, nullum 
+            <lb ed="#V" n="68"/>tale peccatum erit in ratione, quod non oriatur 
+            <lb ed="#V" n="69"/>ex sensualitate. Sed si peccamus ex electione, non 
+            <lb ed="#V" n="70"/>oportet, non solum quantum ad peccata spiritua 
+            <lb ed="#V" n="71"/>lia, sed nec etiam quantum ad carnalia, quod quodl 
+            <lb ed="#V" n="72"/>ber tale oriatur ex sensualitate. Nam sicut non om¬ 
+            <lb ed="#V" n="73"/>nesmalae cogitationes nostrae sunt ex instigatio 
+            <lb ed="#V" n="74"/>ne Diaboli, quia possunt esse exmotu nostri arbi¬ 
+            <lb ed="#V" n="75"/>trii, vt patuit per Aug. Ita non oportet, quod om¬ 
+            <lb ed="#V" n="76"/>nia, quae cogitamus de carnalibus motibus, oria 
+            <lb ed="#V" n="77"/>tur a carne, quia possunt oriri ex motu nostri ar¬ 
+            <lb ed="#V" n="78"/>bitrij. Videmus enim aliquos non stimulatos a 
+            <lb ed="#V" n="79"/>carne ex motu sui arbitrii facere experimenta, &amp; 
+            <lb ed="#V" n="80"/>sumere aliqua cibaria calida, vt in eis moueatur 
+            <lb ed="#V" n="81"/>caro. Tales enim non solum non bellant contra¬ 
+            <lb ed="#V" n="82"/>carnem, immo displicet eis, quod non insurgit in ei¬ 
+            <lb ed="#V" n="83"/>caro. Dicere ergo talia peccata ortum habere a 
+            <lb ed="#V" n="84"/>scnsualitate, vcla carnenec apparentammec ea¬ 
+            <lb ed="#V" n="85"/>stentiam habet. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1854">
+            <lb ed="#V" n="86"/>RESP. AD ARG. Ad primum dicendum 
+            <lb ed="#V" n="87"/>secundum Aug. 14. de Ciui. nomine carnis pote¬ 
+            <lb ed="#V" n="88"/>intelligi totus homo. Nam cum dicitur: Ex ot¬ 
+            <lb ed="#V" n="89"/>ribus legis non iustificabitur omnis caro. Idem¬ 
+            <lb ed="#V" n="90"/>est, ac sidicat: Non iustificabitur omnis homo 
+            <lb ed="#V" n="91"/>Et in cod. cap. vult, quod peccata spiritualia, &amp; car¬ 
+            <lb ed="#V" n="92"/>nalia sunt opera carnis, quia sunt opera homi¬ 
+            <lb ed="#V" n="93"/>nis Totestergo &amp;xvponi verbum qilo. qibiqro 
+            <lb ed="#V" n="94"/>sumatur pro homine, 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1876">
+            <lb ed="#V" n="95"/>Et per hoc patet solutio ad secundum. Nam¬ 
+            <lb ed="#V" n="96"/>Augustinus eodem lib. &amp; cap. exponens opera 
+            <lb ed="#V" n="97"/>carnis, quae narrat Apostolus, vult, quod ibi ca¬ 
+            <lb ed="#V" n="98"/>ro stet pro homine. omnia ergo illa sunt opera 
+            <lb ed="#V" n="99"/>carnis, quia sunt opera hominis. Inter illa ta¬ 
+            <lb ed="#V" n="100"/>men opera, vt ait Augustinus, narrantur tam¬ 
+            <lb ed="#V" n="101"/>peccata carnalia, quam spiritualia. Dicuntur ta¬ 
+            <lb ed="#V" n="102"/>men omnia esse opera camis; quia sunt omnia 
+            <lb ed="#V" n="103"/>opera hominis, cum contingat, liominem pecer¬ 
+            <lb ed="#V" n="104"/>re vtroque genere peccatorum. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1900">
+            <lb ed="#V" n="105"/>Ad tertium dicendum quod nominp concu¬ 
+            <lb ed="#V" n="106"/>piscentiae potest intelligi omne desiderium. Cum¬ 
+            <lb ed="#V" n="107"/>ergo nullum sit malum, quod ex aliquo deside¬ 
+            <lb ed="#V" n="108"/>rio non oriatur: quia desiderare non solum com¬ 
+            <lb ed="#V" n="109"/>petit appetitui sensitiuo, sed etiam intellectiuo, 
+            <lb ed="#V" n="110"/>lex prohibendo concupsscentiami est mala deside 
+            <lb ed="#V" n="111"/>ria, prohibet omnia mala. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1919">
+            <lb ed="#V" n="112"/>Ad quartum dicendum, quod peccatum 
+            <lb ed="#V" n="113"/>non distinguitur per cogitare de su¬ 
+            <lb ed="#V" n="114"/>perioribus, vel de inferioribus: 
+            <lb ed="#V" n="115"/>sed per cegitare, &amp; viuere 
+            <lb ed="#V" n="116"/>ratione, &amp; non ra¬ 
+            <lb ed="#V" n="117"/>tione. Et quia 
+            <lb ed="#V" n="118"/>cogitando 
+            <lb ed="#V" n="119"/>de su¬ 
+            <lb ed="#V" n="120"/>perioribus, &amp; 
+            <lb ed="#V" n="121"/>inferioribus, possu¬ 
+            <lb ed="#V" n="122"/>us hoc agere ratione 
+            <lb ed="#V" n="123"/>Snon rtione: 
+            <lb ed="#V" n="124"/>ideo &amp;c. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m082449-Dd1e1951">
+          <head xml:id="Gi9qrR-m082449-Hd1e1953">Articulus 4</head>
+          <p xml:id="Gi9qrR-m082449-d1e1955">
+            <!--287.xml-->
+            <pb ed="#V" n="287"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ARTIC. IIII. 
+            <lb ed="#V" n="2"/>An in ratione superiori possit quod 
+            <lb ed="#V" n="3"/>veniale peccatum, 
+            <lb ed="#V" n="4"/>Conclusio est affirmatiua. 
+            <lb ed="#V" n="5"/>pnra eq manta, g4o. Rt. sqt 4. 44q1art3. Etd. 
+            <lb ed="#V" n="6"/>verit q. 15. art. 3. D. Bon. d. 34. p. 2. art. 1. q.3 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e1977">
+            <lb ed="#V" n="7"/>AD QVARTVM sic proceditur: 
+            <lb ed="#V" n="8"/>videtur, quod in ratione superiori 
+            <lb ed="#V" n="9"/>non possit esse peccatum veniale. 
+            <lb ed="#V" n="10"/>Nam haec videtur esse differen¬ 
+            <lb ed="#V" n="11"/>tia inter rationem superiorem, 
+            <lb ed="#V" n="12"/>&amp; inferiorem: quia ratio superior¬ 
+            <lb ed="#V" n="13"/>semper videtur ferri deliberate, sed non inferior¬ 
+            <lb ed="#V" n="14"/>Cum ergo ferri deliberate in malum sit peccatum 
+            <lb ed="#V" n="15"/>mortale, in ratione superiori non poterit esse, vt 
+            <lb ed="#V" n="16"/>videtur, peccatum veniale, sed semper mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2001">
+            <lb ed="#V" n="17"/>Praeterea supra dicebatur, quod Adam habebat 
+            <lb ed="#V" n="18"/>rationem superiorem coniunctam Deo, non po¬ 
+            <lb ed="#V" n="19"/>terat peccare venialiter. Cuius causa tota videtur 
+            <lb ed="#V" n="20"/>esse, quia in ratione superiori non potest esse pec¬ 
+            <lb ed="#V" n="21"/>catum veniale: quia si posset inesse, vt videtur, po¬ 
+            <lb ed="#V" n="22"/>tuisset Adam peccare venialiter. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2017">
+            <lb ed="#V" n="23"/>Praeterea non est aliud peccatum mortale, nisi¬ 
+            <lb ed="#V" n="24"/>obliquare se a rebus diuinis. Cum ergo ratio su¬ 
+            <lb ed="#V" n="25"/>perior habeat intendere circa diuina, non pote¬ 
+            <lb ed="#V" n="26"/>rat peccare, nisi obliquando se a diuinis, sed hoc 
+            <lb ed="#V" n="27"/>est mortale peccatum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2031">
+            <lb ed="#V" n="28"/>Praeterea pnccata venialia videntur esse ex car¬ 
+            <lb ed="#V" n="29"/>ne: Ratio ergo superior, quae est maxime remo¬ 
+            <lb ed="#V" n="30"/>ta a carne, vt vite, non poterit peccare venialiter. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2040">
+            <lb ed="#V" n="31"/>IN CONTRARIVM est: quia non est ma¬ 
+            <lb ed="#V" n="32"/>ius peccatum consentire in actum, quam sit ipse 
+            <lb ed="#V" n="33"/>actus. sed aliqui actus de se sunt peccata venialia¬ 
+            <lb ed="#V" n="34"/>ergo si ratio superior consentiat in illos actus, non 
+            <lb ed="#V" n="35"/>peccabit mortaliter, sed venialiter. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2053">
+            <lb ed="#V" n="36"/>Praeterea subiti motus, &amp; inde liberati non so¬ 
+            <lb ed="#V" n="37"/>lum possunt esse in ratione inferiori, sed superiori, 
+            <lb ed="#V" n="38"/>cum tales motus sint peccatum veniale: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2062">
+            <lb ed="#V" n="39"/>RESOLVTIO. 
+            <lb ed="#V" n="40"/>Pectatum veniale in ratione esse non potest, si de 
+            <lb ed="#V" n="41"/>veniali in genere, &amp; ex se loquamur: sed ratio¬ 
+            <lb ed="#V" n="42"/>ne subiecti non item. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2073">
+            <lb ed="#V" n="43"/>RESPONDEO dicendum, quod peccatum ve¬ 
+            <lb ed="#V" n="44"/>niale potest esse dupliciter, vel de se, &amp; per se: vel¬ 
+            <lb ed="#V" n="45"/>non de se, &amp; per se: sed per accidens, &amp; ratione 
+            <lb ed="#V" n="46"/>subiecti. Illud enim peccatum est de se veniale, 
+            <lb ed="#V" n="47"/>quod secundum suum genus est veniale. Et illud 
+            <lb ed="#V" n="48"/>per se est veniale, quod non ratione subiecti, sed 
+            <lb ed="#V" n="49"/>ratione sui est tale. Sed illud est veniale non per¬ 
+            <lb ed="#V" n="50"/>se, nec de se, sed per accidens, quando ratione su¬ 
+            <lb ed="#V" n="51"/>biecti, non ratione sui est tale: vt puta, si aliquis su¬ 
+            <lb ed="#V" n="52"/>bito cogitaret aliquid pertinens ad infidelitatem, 
+            <lb ed="#V" n="53"/>licet talis motus esset superioris rationis, quae ver¬ 
+            <lb ed="#V" n="54"/>satur in his, quae sunt circa Deum;: tamen ex hoc 
+            <lb ed="#V" n="55"/>non peccaret mortaliter. Infidlelita, ergo per sc 
+            <!--287.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="56"/>&amp; de se est peccatum mortale: sed per accidens 
+            <lb ed="#V" n="57"/>&amp; ratione subiecti, vt quia potentia, cui competit 
+            <lb ed="#V" n="58"/>talis motus, indeliberate mouetur, potest esse pec¬ 
+            <lb ed="#V" n="59"/>catum veniale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2117">
+            <lb ed="#V" n="60"/>Cum ergo quaeritur, vtrum in ratione superiori¬ 
+            <lb ed="#V" n="61"/>possit essce peccatum veniale: aut loqueris de eo 
+            <lb ed="#V" n="62"/>quod est veniale ex genere; sic in ratione superio¬ 
+            <lb ed="#V" n="63"/>ri potest esse peccatum veniale, quia potest ratio¬ 
+            <lb ed="#V" n="64"/>superior consentire, vt dicatur verbum ociosum 
+            <lb ed="#V" n="65"/>&amp; hoc faciendo non peccabit mortaliter: immo 
+            <lb ed="#V" n="66"/>quia ad rationem superiorem spectat mouere men¬ 
+            <lb ed="#V" n="67"/>bra, &amp; potentias ad suos actus, non poterimus 
+            <lb ed="#V" n="68"/>mouere labia, &amp; linguam ad proferendum verbum 
+            <lb ed="#V" n="69"/>ociosum deliberate, nisi per consensum rationi: 
+            <lb ed="#V" n="70"/>superioris. Dato ergo, quod ex deliberatione ratio 
+            <lb ed="#V" n="71"/>nis superioris consentiatur in hoc, non erit pro¬ 
+            <lb ed="#V" n="72"/>pter hoc peccatum mortale. Sed si loquamur de 
+            <lb ed="#V" n="73"/>peccato veniali non ex genere, sed ex ratione su¬ 
+            <lb ed="#V" n="74"/>biecti, vt quia potentia indeliberate mouetur ad 
+            <lb ed="#V" n="75"/>aliquem actum; sic distinguimus de motu ratio¬ 
+            <lb ed="#V" n="76"/>nis superioris: quia aut mouetur ex se, aut moue¬ 
+            <lb ed="#V" n="77"/>tur consentiendo rationi inferiori. Nam ille mo¬ 
+            <lb ed="#V" n="78"/>dus peccandi, qui habetur in littera, &amp; traditur 
+            <lb ed="#V" n="79"/>ab Aug. in lib. de Trin. quod in peccato sensualitas 
+            <lb ed="#V" n="80"/>se habet, vt serpens: ratio inferior, vt mulier: supe¬ 
+            <lb ed="#V" n="81"/>rior, vt vir; non oportet, quod semper illa tria concur¬ 
+            <lb ed="#V" n="82"/>rant ad quodlibet peccatum: quia, vt patuit per¬ 
+            <lb ed="#V" n="83"/>Aug. non debemus sic carni, vel sensualitati attri¬ 
+            <lb ed="#V" n="84"/>buere mala, vel peccata, quod Diabolus peccare non 
+            <lb ed="#V" n="85"/>possit, qui caret carne. Potest ergo in ratione esse 
+            <lb ed="#V" n="86"/>Peccatum sine sensualitate, vel absque eo, quod oriatur 
+            <lb ed="#V" n="87"/>ex sensualitate, vt in praecedenti quaest. dicebatur. 
+            <lb ed="#V" n="88"/>Et sicut potest in ratione inferiori esse peccatum 
+            <lb ed="#V" n="89"/>sine sensualitate: sic potest in ratione superiori es¬ 
+            <lb ed="#V" n="90"/>se peccatum absque inferiori: quia potest superior 
+            <lb ed="#V" n="91"/>de se moueri in his, quae sunt ad Deum, &amp; in his, 
+            <lb ed="#V" n="92"/>quae spectant ad tabulam primam, vt puta ad ado 
+            <lb ed="#V" n="93"/>randum idola, vel ad periurandum, vcl ad non san¬ 
+            <lb ed="#V" n="94"/>ctificandum sabbata. Si ergo de se moueatur ra¬ 
+            <lb ed="#V" n="95"/>tio superior ad talia non recte; vel erit ille motus 
+            <lb ed="#V" n="96"/>plenus, &amp; deliberatus, &amp; cum completo consensu¬ 
+            <lb ed="#V" n="97"/>sactus, &amp; tunc erit mortale: vel erit incompletus, 
+            <lb ed="#V" n="98"/>&amp; indeliberatus, &amp; subitus sine electione, &amp; tunc 
+            <lb ed="#V" n="99"/>erit peccatum veniale. propter quod in rationo 
+            <lb ed="#V" n="100"/>superiori, etiam hoc modo potest esse peccatum 
+            <lb ed="#V" n="101"/>veniale. Sed si moucatur ratio superior a ratione 
+            <lb ed="#V" n="102"/>inferiori, vt puta, quia ratio inferior delectatur in 
+            <lb ed="#V" n="103"/>aliquibus illecebris, &amp; suadet rationi superiori, quod 
+            <lb ed="#V" n="104"/>consentiat, talis consensus non videtur posse esso 
+            <lb ed="#V" n="105"/>sine deliberatione. Ratio enim superior ex hoc 
+            <lb ed="#V" n="106"/>habet regulare inferiorem, vt consulit aeterna, &amp; 
+            <lb ed="#V" n="107"/>vt mouet membra, &amp; potentias ad suos actus, quae¬ 
+            <lb ed="#V" n="108"/>sine deliberatione, &amp; sine electione fieri non pos¬ 
+            <lb ed="#V" n="109"/>sunt. Propter quod Magister in littera delectatio 
+            <lb ed="#V" n="110"/>nem morosam posuit peccatum mortale: quia non 
+            <lb ed="#V" n="111"/>potest hoc esse sine consensu rationis, quae &amp; si 
+            <lb ed="#V" n="112"/>non consentiat in opus, consentit tamen in delecta 
+            <lb ed="#V" n="113"/>tionem. Cum ergo voluntas eligat, &amp; eligendo con¬ 
+            <lb ed="#V" n="114"/>sentiat, non poterit ratio superior consentire infe¬ 
+            <lb ed="#V" n="115"/>riori sine electione, siue sit illa electio: quia eligit 
+            <lb ed="#V" n="116"/>non refrenare inferiorem: siue sit, quia assentit illi¬ 
+            <lb ed="#V" n="117"/>delectationi, &amp; delectatur in his, in quibus dele¬ 
+            <lb ed="#V" n="118"/>ctatur inferior. Nam cogitando de his, a quibus 
+            <!--288.xml-->
+            <pb ed="#V" n="288"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>possumus defecti, &amp; delectari inalijs, videtur, 
+            <lb ed="#V" n="2"/>quod ratio superior hoc. modo in his, quae sunt 
+            <lb ed="#V" n="3"/>de se peccatum mortale, vel in delectationem talis 
+            <lb ed="#V" n="4"/>operis erit peccatum mortale. Vnus enim, &amp; idem 
+            <lb ed="#V" n="5"/>homo est, qui per rationem inferiorem delectatur, 
+            <lb ed="#V" n="6"/>&amp; deliberando per superiorem rationem consen¬ 
+            <lb ed="#V" n="7"/>tit, vel delectationi tantum, vel delectationi, &amp; ope¬ 
+            <lb ed="#V" n="8"/>ri, quod si opus est peccatum mortale, solus consen¬ 
+            <lb ed="#V" n="9"/>sus in delectationem erit peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2274">
+            <lb ed="#V" n="10"/>RESI. AD ARO. Ad primum dicendum, 
+            <lb ed="#V" n="11"/>quod cum ratio superior dicatur semper ferri delibe¬ 
+            <lb ed="#V" n="12"/>rate; non est intelligendum, vt patet de proprio 
+            <lb ed="#V" n="13"/>motu: quia hoc modo potest moueri subito, &amp; 
+            <lb ed="#V" n="14"/>indeliberate, sed vt consentiat rationi inferiori, 
+            <lb ed="#V" n="15"/>quia hoc non fit subito: quia in hoc motu primo¬ 
+            <lb ed="#V" n="16"/>delectatur ratio inferior, &amp; suadet superiori, si¬ 
+            <lb ed="#V" n="17"/>cut mulier suasit viro, si consentiat ratio supe¬ 
+            <lb ed="#V" n="18"/>rior, quae se habet vt vir, hoc non erit sine delibe¬ 
+            <lb ed="#V" n="19"/>ratione, &amp; electione. Non potest enim quis dele¬ 
+            <lb ed="#V" n="20"/>ctari, &amp; aduertere delectationem, &amp; consentire 
+            <lb ed="#V" n="21"/>in ea sine deliberatione. Si enim quis subito dele¬ 
+            <lb ed="#V" n="22"/>ctatur, &amp; non aduerteret de delectatione, non di¬ 
+            <lb ed="#V" n="23"/>ceretur consentire in ea. Si autem animaduer¬ 
+            <lb ed="#V" n="24"/>tat, &amp; consentiat, patet, quod cum deliberatione, 
+            <lb ed="#V" n="25"/>&amp; electione hoc faciat. Si ergo opus illud est pec¬ 
+            <lb ed="#V" n="26"/>catum mortale, consensus in delectationem eius, 
+            <lb ed="#V" n="27"/>quod non fiet sine ratione, semper erit peccatum 
+            <lb ed="#V" n="28"/>mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2318">
+            <lb ed="#V" n="29"/>Ad secundum dicendum, quod Adam non potuit 
+            <lb ed="#V" n="30"/>peccare venialiter, non solum propter adhaesio¬ 
+            <lb ed="#V" n="31"/>nem rationis superioris cum Deo: sed quia habe¬ 
+            <lb ed="#V" n="32"/>bat originalem iustitiam, per quam omnia infe¬ 
+            <lb ed="#V" n="33"/>riora erant subiecta superioribus, vt nihil insurge¬ 
+            <lb ed="#V" n="34"/>ret in eo, nisi secundum dictamen rationis.. pro¬ 
+            <lb ed="#V" n="35"/>pter quod prius dictabat ratio talem motum fien¬ 
+            <lb ed="#V" n="36"/>dum esse, quuam fieret. Quandiu ergo sic se habc¬ 
+            <lb ed="#V" n="37"/>bat, nec venialiter, nec mortaliter peccabat: non 
+            <lb ed="#V" n="38"/>poterat ergo peccare, nisi prius perderet illam ori¬ 
+            <lb ed="#V" n="39"/>ginalem iustitiam, quam perdere non poterat si¬ 
+            <lb ed="#V" n="40"/>ne peccato mortali, &amp; auertendo se a Deo. pec¬ 
+            <lb ed="#V" n="41"/>catum enim veniale, etsi est aliqualis conuersio 
+            <lb ed="#V" n="42"/>ad bonum commutabile, non est ibi auersio a bo¬ 
+            <lb ed="#V" n="43"/>no incommutabili, quia non perdit per hoc ho¬ 
+            <lb ed="#V" n="44"/>mo charitatem, per quam coniungitur incommu¬ 
+            <lb ed="#V" n="45"/>tabili bono. Et quia non poterat Adam peccare, 
+            <lb ed="#V" n="46"/>nisi prius se auerteret a Deo, &amp; perderet origina¬ 
+            <lb ed="#V" n="47"/>lem iustitiam: ideo primum peccatum suum non 
+            <lb ed="#V" n="48"/>potuit esse veniale. sed non est sic in nobis, quia 
+            <lb ed="#V" n="49"/>cum non habeamus originalem iustitiam, possu¬ 
+            <lb ed="#V" n="50"/>mus prius peccare venialiter absque eo, quod pecce¬ 
+            <lb ed="#V" n="51"/>mus mortaliter, 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2370">
+            <lb ed="#V" n="52"/>Ad tertium dicondum, quod peccatum est auer¬ 
+            <lb ed="#V" n="53"/>sio ab incommutabili bono, &amp; obliquatio a Deo 
+            <lb ed="#V" n="54"/>si habeat plenam rationem peccati: sed peccatum 
+            <lb ed="#V" n="55"/>veniale, quia non habet plenam rationem peccati, 
+            <lb ed="#V" n="56"/>dicitur conuertere aliqualiter ad commutabile¬ 
+            <lb ed="#V" n="57"/>sed non auertere ab incommuta bili. &amp; dicitur es¬ 
+            <lb ed="#V" n="58"/>se praeter finem, sed non contra finem. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2388">
+            <lb ed="#V" n="59"/>Ad quartum dicendum, quod peccata venia¬ 
+            <lb ed="#V" n="60"/>lia sunt ex carne pro tanto: quia propter corru¬ 
+            <lb ed="#V" n="61"/>ptionem carnis traducitur peccatum originale, 
+            <lb ed="#V" n="62"/>&amp; nascimur sine originali iustitia, qua priuati, 
+            <lb ed="#V" n="63"/>polluinus peccare niortaliter, &amp; veniallter, &amp; 
+            <!--288.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>qua induti essemus similes Adae &amp; non possemus 
+            <lb ed="#V" n="65"/>peccare venialiter, nisi prius peccaremus morta¬ 
+            <lb ed="#V" n="66"/>liter. Cum non omnia peccata, vel mortalia, vel¬ 
+            <lb ed="#V" n="67"/>venialia sint a carne, quod non possit esse pecca¬ 
+            <lb ed="#V" n="68"/>tum veniale, vel mortale in ratione tam superio¬ 
+            <lb ed="#V" n="69"/>ri, quam inferiori: nisi oriatur &amp; came, vt estpet 
+            <lb ed="#V" n="70"/>ante habita manifestum. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m082449-Dd1e2422">
+          <head xml:id="Gi9qrR-m082449-Hd1e2424">Articulus 5</head>
+          <p xml:id="Gi9qrR-m082449-d1e2426">
+            <lb ed="#V" n="71"/>ARTIC. V. 
+            <lb ed="#V" n="72"/>An peccatum veniale fieri¬ 
+            <lb ed="#V" n="73"/>sit mortale. 
+            <lb ed="#V" n="74"/>Conclusio ob varios sensus 
+            <lb ed="#V" n="75"/>est problematica. 
+            <lb ed="#V" n="76"/>pruons. futdint, 3auat, atdumos 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2442">
+            <lb ed="#V" n="77"/>AD QVINTVM sic proceditur: 
+            <lb ed="#V" n="78"/>videtur, quod peccatum veniale pos¬ 
+            <lb ed="#V" n="79"/>sit fieri mortale, saltem per mul¬ 
+            <lb ed="#V" n="80"/>tiplicationem: quia omne fini¬ 
+            <lb ed="#V" n="81"/>tum proportionale est cuilibet 
+            <lb ed="#V" n="82"/>finito. sed in omni peccato est 
+            <lb ed="#V" n="83"/>quaedam complacentia, &amp; illa complacentia est 
+            <lb ed="#V" n="84"/>finita, siue sit peccatum veniale, siue mortale. Nam¬ 
+            <lb ed="#V" n="85"/>conuersio ad commutabile bonum, vnde sumi¬ 
+            <lb ed="#V" n="86"/>tur complacentia, est finita: Toties ergo poterit 
+            <lb ed="#V" n="87"/>fieri complacentia peccati venialis, quod aequabi¬ 
+            <lb ed="#V" n="88"/>tur complacentiae peccati mortalis. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2471">
+            <lb ed="#V" n="89"/>Praeterea delectatio rationis inferioris ante con¬ 
+            <lb ed="#V" n="90"/>sensum rationis superioris est peccatum veniale, 
+            <lb ed="#V" n="91"/>post consensum est mortale: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2480">
+            <lb ed="#V" n="92"/>Praeterea vnus motus continuus, vt puta vna¬ 
+            <lb ed="#V" n="93"/>delectatio continuata in prima sui parte potest es¬ 
+            <lb ed="#V" n="94"/>se sine contemptu Dei, &amp; tunc erit veniale: postea 
+            <lb ed="#V" n="95"/>in alia sui parte potest esse in contemptu Dei, &amp; 
+            <lb ed="#V" n="96"/>erit mortale: ergo veniale erit mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2494">
+            <lb ed="#V" n="97"/>Praeterea peccatum veniale videtur esse quaedam 
+            <lb ed="#V" n="98"/>di spositio ad mortale. Habet ergo se mortale, &amp; 
+            <lb ed="#V" n="99"/>veniale, sicut dispositio ad habitum. sed ipsa disposi¬ 
+            <lb ed="#V" n="100"/>tio fit habitus: ergo veniale potest fieri mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2505">
+            <lb ed="#V" n="101"/>Praeterea mortale potest sieri veniale, quia il¬ 
+            <lb ed="#V" n="102"/>lud, quod est mortale de se, per conformationem 
+            <lb ed="#V" n="103"/>fit veniale: ergo &amp; e conuerso, veniale potest fie¬ 
+            <lb ed="#V" n="104"/>ri mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2516">
+            <lb ed="#V" n="105"/>IN CONTRARIVM est: quia quae distant 
+            <lb ed="#V" n="106"/>in infinitum, vnum non potest in aliud transmu¬ 
+            <lb ed="#V" n="107"/>tari. sed veniale, quod obligat ad poenam tempora¬ 
+            <lb ed="#V" n="108"/>lem, distat in infinitum a mortali, quod obligat 
+            <lb ed="#V" n="109"/>ad poenam aeternam: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2529">
+            <lb ed="#V" n="110"/>Praeterea iteratio actus non diuerficat speciem, 
+            <lb ed="#V" n="111"/>sed veniale, &amp; mortale non solum sunt diuersae spe¬ 
+            <lb ed="#V" n="112"/>cies, sed sunt diuersa genera peccatorum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2538">
+            <lb ed="#V" n="113"/>RESOLVTIO. 
+            <lb ed="#V" n="114"/>Peccatum veniale ex genere per complacentiam 
+            <lb ed="#V" n="115"/>sieri potest mortale: idemquae actus mortalis, &amp; 
+            <lb ed="#V" n="116"/>veniatis qse potest materiatiter: formaliter not 
+            <lb ed="#V" n="117"/>item. Idemi insiper actis in genere mortalis, &amp; 
+            <lb ed="#V" n="118"/>venialis dici vadet, sed non ingenere moris. 
+            <!--289.xml-->
+            <pb ed="#V" n="289"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>RESPONbro dicendum, quod peccatum veniale 
+            <lb ed="#V" n="2"/>fieri mortale dicunt quidam posse fieri per itera¬ 
+            <lb ed="#V" n="3"/>tionem actus, &amp; hoc uidetur tangere Magister 
+            <lb ed="#V" n="4"/>in littera, quia quoddam est peccatum mortale si 
+            <lb ed="#V" n="5"/>fiat semel, quoddam si frequenter. Et exponit se. 
+            <lb ed="#V" n="6"/>Quia quaedam etiam semel facta damnant, quae¬ 
+            <lb ed="#V" n="7"/>dam non, nisi si frequenter. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2575">
+            <lb ed="#V" n="8"/>Sed hoc stare non potest, quia peccatum ve¬ 
+            <lb ed="#V" n="9"/>niale non tollit charitatem. Si enim aliquis ho¬ 
+            <lb ed="#V" n="10"/>mo fecisset omnia peccata uenialia, quae sunt fa¬ 
+            <lb ed="#V" n="11"/>cta ab Adam vsque nunc; propter hoc non per¬ 
+            <lb ed="#V" n="12"/>deret charitatem, quia charitas est illa uestis nup¬ 
+            <lb ed="#V" n="13"/>tialis, in qua quicunque inuenietur, intromitte¬ 
+            <lb ed="#V" n="14"/>tur ad illas nuptias aeternas. Nam ut Aug uult in 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2594">
+            <lb ed="#V" n="15"/>15. de Trin Charitas est illud donum, quod diui¬ 
+            <lb ed="#V" n="16"/>dit inter filios perditionis aeternae, &amp; filios regni 
+            <lb ed="#V" n="17"/>aeterni. Multiplicatio ergo uenialium, quae non 
+            <lb ed="#V" n="18"/>tollit charitatem, non aequabitur peccato morta 
+            <lb ed="#V" n="19"/>li, quod tollit charitatem. Verum quia huic dicto 
+            <lb ed="#V" n="20"/>videtur Magister assentire, in litteralibus quae¬ 
+            <lb ed="#V" n="21"/>stionibus patebit, quomodo possit hoc habere ve¬ 
+            <lb ed="#V" n="22"/>ritatem. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2614">
+            <lb ed="#V" n="23"/>Ad quaestionem ergo propositam responderi po¬ 
+            <lb ed="#V" n="24"/>test per uarias distinctiones, ut sit una distinctio, 
+            <lb ed="#V" n="25"/>quod id, quod est ueniale &amp;x genere, potest fieri 
+            <lb ed="#V" n="26"/>mortale per complacentiam. Vel potest dici, quod 
+            <lb ed="#V" n="27"/>idem actus materialiter potest esse peccatum ue¬ 
+            <lb ed="#V" n="28"/>niale, &amp; mortale, sed non idem formaliter. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2630">
+            <lb ed="#V" n="29"/>Potest etiam &amp; tertio dici, quod idem actus 
+            <lb ed="#V" n="30"/>in genere naturae potest esse ueniale, &amp; mortale. 
+            <lb ed="#V" n="31"/>sed non idem in genere moris. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2639">
+            <lb ed="#V" n="32"/>Potest etiam quarto dici, quod idem actus ra¬ 
+            <lb ed="#V" n="33"/>tionem praeueniens potest esse peccatum venia¬ 
+            <lb ed="#V" n="34"/>le: a ratione imperatus potest esse mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2648">
+            <lb ed="#V" n="35"/>Propter primum sciendum non esse inconue¬ 
+            <lb ed="#V" n="36"/>niens ueniale ex genere: fieri mortale ex compla¬ 
+            <lb ed="#V" n="37"/>centia. Vt puta uerbum ociosum, quod est ve¬ 
+            <lb ed="#V" n="38"/>niale &amp;x genere, ex complacentia posset esse mor¬ 
+            <lb ed="#V" n="39"/>tale, quia tantum posset quis sibi complacere in 
+            <lb ed="#V" n="40"/>verbis ociosis, quod poneret ibi rationem finis, 
+            <lb ed="#V" n="41"/>quod faciendo peccaret mortaliter. Nam lignum 
+            <lb ed="#V" n="42"/>vetitum de se non erat malum, sed tamen, ut 
+            <lb ed="#V" n="43"/>prohibitum a Deo erat malum, &amp; peccauerunt 
+            <lb ed="#V" n="44"/>mortaliter edentes de illo ligno. Si ergo bonum 
+            <lb ed="#V" n="45"/>potest fieri malum per prohibitionem, pecca¬ 
+            <lb ed="#V" n="46"/>tum veniale potest fieri mortale per prohibitio 
+            <lb ed="#V" n="47"/>nem. qui ergo tantum complaceret sibi in ver¬ 
+            <lb ed="#V" n="48"/>bo ocioso, quod etiam si Deus prohiberet, ip¬ 
+            <lb ed="#V" n="49"/>se nullo modo dimitteret; quod esset veniale sim¬ 
+            <lb ed="#V" n="50"/>pliciter, &amp; ex genere, fieret mortale ex com¬ 
+            <lb ed="#V" n="51"/>placentia. Propter quod potest habere verita¬ 
+            <lb ed="#V" n="52"/>tem id dictum, quod non est aliquod venia¬ 
+            <lb ed="#V" n="53"/>le, quod non fiat mortale: dum placet uerum 
+            <lb ed="#V" n="54"/>est, si placet placentia finis. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2694">
+            <lb ed="#V" n="55"/>Propter secundam distinctionem est scien¬ 
+            <lb ed="#V" n="56"/>dum, quod sicut aliquando quis potest esse in 
+            <lb ed="#V" n="57"/>druerso loco materialiter non formaliter, sic 
+            <lb ed="#V" n="58"/>idem actus potest esse peccatum ueniale, &amp; 
+            <lb ed="#V" n="59"/>mortale materialiter, non formaliter. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2708">
+            <lb ed="#V" n="60"/>Vel secundum tertiam distinctionem ille 
+            <lb ed="#V" n="61"/>leidem actus in genere naturae, non idem in 
+            <lb ed="#V" n="62"/>Eenere moris. Si quis enim esset in aliquo lo¬ 
+            <!--289.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>co, &amp; veniret ventus, &amp; tolleret totum ae¬ 
+            <lb ed="#V" n="64"/>rem, qui est circa ipsum, diceretur: ille est in 
+            <lb ed="#V" n="65"/>eodem loco formaliter, quia haberet eundem 
+            <lb ed="#V" n="66"/>ordinem ad vniuersum. Sed non esset in eo 
+            <lb ed="#V" n="67"/>dem loco materialiter, quia non esset in eo 
+            <lb ed="#V" n="68"/>dem aere. Sic nauis in eodem flumine ligata 
+            <lb ed="#V" n="69"/>ad stipitem semper est in alio, &amp; alio loco ma¬ 
+            <lb ed="#V" n="70"/>terialiter, quia semper habet aliam, &amp; aliam 
+            <lb ed="#V" n="71"/>aquam sub se. sed semper est in eodem loco¬ 
+            <lb ed="#V" n="72"/>formaliter, quia semper habet eundem ordinem 
+            <lb ed="#V" n="73"/>ad totum fluuium. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2745">
+            <lb ed="#V" n="74"/>Et ex hoc potest patere intellectus illius verbi¬ 
+            <lb ed="#V" n="75"/>Philosophi, quod totus fluuius habet magis ra¬ 
+            <lb ed="#V" n="76"/>tionem loci, quam pars fluuil. Potest autem es¬ 
+            <lb ed="#V" n="77"/>se, &amp; econuerso, quod aliquid sit in eodem lo¬ 
+            <lb ed="#V" n="78"/>co materialiter non formaliter, ut si vas ple¬ 
+            <lb ed="#V" n="79"/>num uino portaretur ad alium locum, esset il¬ 
+            <lb ed="#V" n="80"/>lud uinum in eodem loco materialiter, quia es¬ 
+            <lb ed="#V" n="81"/>set in eadem superficie uasis, sed non esset in eo¬ 
+            <lb ed="#V" n="82"/>dem loco formaliter, quia non haberet eun¬ 
+            <lb ed="#V" n="83"/>dem ordinem ad uniuersum. Et si quae retur de¬ 
+            <lb ed="#V" n="84"/>il la superficie uasis: Vtrum sit in eodem gene 
+            <lb ed="#V" n="85"/>re: respondetur, quod esset in eodem genere 
+            <lb ed="#V" n="86"/>ut, genus refertur ad quantitatem continuam, 
+            <lb ed="#V" n="87"/>sed non esset in eodem genere, vt genus refer 
+            <lb ed="#V" n="88"/>tur ad locum, uel ad unitatem loci. Nam alia 
+            <lb ed="#V" n="89"/>est unitas superficiei, vt est quantitas una, &amp; vt 
+            <lb ed="#V" n="90"/>est locus unus. quantitas enim continua haber 
+            <lb ed="#V" n="91"/>vnitatem, &amp; continuitatem in se, ut superfi¬ 
+            <lb ed="#V" n="92"/>cies habet in se lineam, quae continuat ipsam, 
+            <lb ed="#V" n="93"/>sed locus habet unitatem a locato, quia vni lo¬ 
+            <lb ed="#V" n="94"/>cato debetur unus locus. Si ergo unum cor¬ 
+            <lb ed="#V" n="95"/>pus esset partim in aqua, &amp; partim in aere: 
+            <lb ed="#V" n="96"/>licet superficies aeris. non faciat unam supersi¬ 
+            <lb ed="#V" n="97"/>ciem cum superficie aquae in genere quantita¬ 
+            <lb ed="#V" n="98"/>tis continuae, ramen faceret unam super ficiem in 
+            <lb ed="#V" n="99"/>genere loci. quia superficies aetis, cum superfi¬ 
+            <lb ed="#V" n="100"/>cie aquae, prout continent unum locatum, non 
+            <lb ed="#V" n="101"/>essent, nisi unus locus. Et ideo Philosophus in 
+            <lb ed="#V" n="102"/>raedicamentis uolens distinguere vnitatem loci ab 
+            <lb ed="#V" n="103"/>vnitate quantitatis continuae ait: Amplius autem 
+            <lb ed="#V" n="104"/>praeter hec, tempus, &amp; locus Magnitudo enim ha¬ 
+            <lb ed="#V" n="105"/>bet unitatem a se, continuitatem vero ab aliquo, 
+            <lb ed="#V" n="106"/>quod est in ea, &amp; est terminus eius. Tempus autem 
+            <lb ed="#V" n="107"/>&amp; locus habent unitatem ab alio, ut tempus ha¬ 
+            <lb ed="#V" n="108"/>bet vnitatem a motu, &amp; locus a locato. tempus ni 
+            <lb ed="#V" n="109"/>de se est quantitas discreta, quia est numerus, &amp; 
+            <lb ed="#V" n="110"/>si habet unitatem, habet eam ab alio, videlicet a 
+            <lb ed="#V" n="111"/>motu coelesti, qui est unus, &amp; continuus. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2830">
+            <lb ed="#V" n="112"/>Possumus autem hoc adaptare ad propositum, 
+            <lb ed="#V" n="113"/>ut dicamus, quod sicut potest esse una, &amp; ea¬ 
+            <lb ed="#V" n="114"/>dem superficies in genere loci, &amp; non in gene¬ 
+            <lb ed="#V" n="115"/>re quantitatis continuae, sicut superficies aquae, 
+            <lb ed="#V" n="116"/>&amp; aeris possunt facere unam superficiem in ge¬ 
+            <lb ed="#V" n="117"/>nere loci, sed non in genere quantitatis con¬ 
+            <lb ed="#V" n="118"/>tinue: &amp; sicut eadem superfcies potest es¬ 
+            <lb ed="#V" n="119"/>se idem locus materialiter, sed non formali¬ 
+            <lb ed="#V" n="120"/>ter, sic actus idem in genere naturae potest esse, 
+            <lb ed="#V" n="121"/>hoc uel illud, sed non idem in genere moris. 
+            <lb ed="#V" n="122"/>Verbum enim ociosum, ut est peccatum ue¬ 
+            <lb ed="#V" n="123"/>niale, vel mortale, potest esse idem actus 
+            <lb ed="#V" n="124"/>in genere naturae, sed non in genere moris: &amp; si¬ 
+            <!--290.xml-->
+            <pb ed="#V" n="290"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp;s erit idem in genere moris. hoc erit materia¬ 
+            <lb ed="#V" n="2"/>liter non formaliter. Nam naturalia sumunt spe¬ 
+            <lb ed="#V" n="3"/>ciem ex forma: moralia ex fine. Verbum autem 
+            <lb ed="#V" n="4"/>ociosum, vt est peccatum veniale, &amp; mortale, po¬ 
+            <lb ed="#V" n="5"/>test esse idem in genere naturae, quia potest forma¬ 
+            <lb ed="#V" n="6"/>ri. per eadem labia, &amp; per eandem linguam, sed 
+            <lb ed="#V" n="7"/>non erit idem in genere moris, vbi sumitur spe¬ 
+            <lb ed="#V" n="8"/>cies ex fine, quia quam diu est veniale, non pone¬ 
+            <lb ed="#V" n="9"/>tur ibi finis. Sed si fiat mortale ponetur ibi finis, 
+            <lb ed="#V" n="10"/>&amp; diligetur dilectione finis quia veniale non fit 
+            <lb ed="#V" n="11"/>mortale, nisi ponatur ibi complacentia finis. Pro¬ 
+            <lb ed="#V" n="12"/>sequutis tribus distinctionibus, quomodo idem 
+            <lb ed="#V" n="13"/>actus potest esse veniale peccatum, si non sit ibi¬ 
+            <lb ed="#V" n="14"/>complacentia finis: &amp; mortale, si sit ibi talis com¬ 
+            <lb ed="#V" n="15"/>placentia: vel idem actus potest esse hoc, &amp; illud 
+            <lb ed="#V" n="16"/>materialiter, non formaliter: vel idem actus in 
+            <lb ed="#V" n="17"/>genere naturae, non in genere moris. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2904">
+            <lb ed="#V" n="18"/>Volumus prosequi distinctionem quartam, 
+            <lb ed="#V" n="19"/>quomodo idem actus ratio nem praeueniens potest 
+            <lb ed="#V" n="20"/>esse veniale a ratione imperatus potest esse mor¬ 
+            <lb ed="#V" n="21"/>tale. Nam motus sensualitatis, vt rationem praeue¬ 
+            <lb ed="#V" n="22"/>nit, potest esse veniale. Sed vt a ratione imperatus: 
+            <lb ed="#V" n="23"/>potest esse mortale. Nam eadem delectatio de ope¬ 
+            <lb ed="#V" n="24"/>re mortali ex impetu facta, &amp; rationem prteueniens erit 
+            <lb ed="#V" n="25"/>veniale. Si tamen ei rote consentiat, vel eam impe¬ 
+            <lb ed="#V" n="26"/>ret, erit mortale. Sed dicunt aliqui, quod non est idem 
+            <lb ed="#V" n="27"/>actus hic, &amp; ille, quia consensus adueniens facit 
+            <lb ed="#V" n="28"/>ipsum mortale. Sed non oportet, quod omnis 
+            <lb ed="#V" n="29"/>actus, qui est peccatum mortale, sit a ratione, vel 
+            <lb ed="#V" n="30"/>a voluntate elicitus, sed sufficit, quod hoc modo sit 
+            <lb ed="#V" n="31"/>imperatus: Homicidium est peccatum mortale, 
+            <lb ed="#V" n="32"/>&amp; huiusmodi actus non est a uoluntate elicitus, 
+            <lb ed="#V" n="33"/>sed sufficit ad hoc, quod sit peccatum mortale, quod 
+            <lb ed="#V" n="34"/>sit a voluntate imperatus. Semper tamen recurrem 
+            <lb ed="#V" n="35"/>dum est ad distinctionem illam: quod idem actus 
+            <lb ed="#V" n="36"/>in genere naturae potest esse peccatum veniale, 
+            <lb ed="#V" n="37"/>&amp; mortale, sed non in genere moris. Si quis enim 
+            <lb ed="#V" n="38"/>cognoscat non suam, &amp; postea accipiens eam in 
+            <lb ed="#V" n="39"/>vxorem cognoscat, vt suam: erit idem actus in ge¬ 
+            <lb ed="#V" n="40"/>nere naturae, non in genere moris. Cognoscendo 
+            <lb ed="#V" n="41"/>enim eandem mulierem non suam, peccat mor¬ 
+            <lb ed="#V" n="42"/>taliter, &amp; cognoscendo eam suam, potest pecca¬ 
+            <lb ed="#V" n="43"/>re venialiter. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e2963">
+            <lb ed="#V" n="44"/>RESP. AD ARO. Ad primum dicendum, quod 
+            <lb ed="#V" n="45"/>complacentia, quae facit peccatum mortale, est 
+            <lb ed="#V" n="46"/>quasi infinita, quia est complacentia finis, &amp; fi¬ 
+            <lb ed="#V" n="47"/>nis secundum Philosophum est diligibilis in inf¬ 
+            <lb ed="#V" n="48"/>nitum. &amp; si complacentia, vt est quid naturale, 
+            <lb ed="#V" n="49"/>potest habere commensurationem aliquam hic, 
+            <lb ed="#V" n="50"/>&amp; ibi, vt est quid morale, non recipiet commen¬ 
+            <lb ed="#V" n="51"/>sura tionem. quia omnia, quae sunt ad finem, no 
+            <lb ed="#V" n="52"/>aequantur fini. Et per hoc patet solutio ad secun¬ 
+            <lb ed="#V" n="53"/>dum, quia vna delectatio, ut est rationem preueniens, 
+            <lb ed="#V" n="54"/>vel ut praecedit consensum rationis superioris: &amp; 
+            <lb ed="#V" n="55"/>vt sequitur, non est una tantum saltem in gene 
+            <lb ed="#V" n="56"/>remoris. Et per hoc patet solutio ad tertium. Nam 
+            <lb ed="#V" n="57"/>si vnus motus in vna sui parte est peccatum ve¬ 
+            <lb ed="#V" n="58"/>niale, in alia mortale; Dicemus, quod ille motus, 
+            <lb ed="#V" n="59"/>&amp;siestunus in genere naturae: non potest esse 
+            <lb ed="#V" n="60"/>vnus in genere moris. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3002">
+            <lb ed="#V" n="61"/>Ad quartum dicendum, quo[ dispositio ad 
+            <lb ed="#V" n="62"/>peccatummortale non sit peccatum mortale, si¬ 
+            <!--290.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>cut dispositio ad formam substantialem. non fit 
+            <lb ed="#V" n="64"/>forma substantialis. disponitur enim materia ad 
+            <lb ed="#V" n="65"/>formam substantialem per accidentalem, sed num 
+            <lb ed="#V" n="66"/>quam forma accidentalis fit substantialis. Sic 
+            <lb ed="#V" n="67"/>in proposito: quia peccatum mortale est compla¬ 
+            <lb ed="#V" n="68"/>centia finis, si aliquis disponit ad talem compla¬ 
+            <lb ed="#V" n="69"/>centiam, non erit idem actus cum huiusmodi con 
+            <lb ed="#V" n="70"/>placentia. Et dato, quod posset esse idem actus se 
+            <lb ed="#V" n="71"/>cundum speciem in genere naturae, non erit idem 
+            <lb ed="#V" n="72"/>in genere moris, cum moralia sumant speciem ex¬ 
+            <lb ed="#V" n="73"/>fine. Ponere enim ibi finem, quod spectat ad pec¬ 
+            <lb ed="#V" n="74"/>catum mortale: &amp; non ponere, quod potest spe¬ 
+            <lb ed="#V" n="75"/>ctare ad ueniale, non possunt esse idem secundum 
+            <lb ed="#V" n="76"/>genus moris: conuenit tamen aliquando, quod 
+            <lb ed="#V" n="77"/>aliquis ordinet vnum peccatum mortale ad illud. 
+            <lb ed="#V" n="78"/>vt aliquis committit furtum, ut habendo pecu¬ 
+            <lb ed="#V" n="79"/>niam possit moechari. tamen a fine fiet denomi¬ 
+            <lb ed="#V" n="80"/>natio quia secundum Philosophum, qui furatur t 
+            <lb ed="#V" n="81"/>vt maechetur, non est fur, sed maechus. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3055">
+            <lb ed="#V" n="82"/>Ad quintum dicendum, quod mortale fit ue¬ 
+            <lb ed="#V" n="83"/>niale per confessionem, non accipitur ibi venia 
+            <lb ed="#V" n="84"/>le, ut hic de ueniali loquimur, quia loquimur de 
+            <lb ed="#V" n="85"/>veniali ex genere. sed peccatum mortale per con¬ 
+            <lb ed="#V" n="86"/>fessionem fit ueniale non ex genere, sed ex euen¬ 
+            <lb ed="#V" n="87"/>tu. quia confessio adueniens facit ipsum ueniale, 
+            <lb ed="#V" n="88"/>quia facit, quod puniatur poena temporali, quod 
+            <lb ed="#V" n="89"/>sine confessione fuisset punitum poena aeterna. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3075">
+            <lb ed="#V" n="90"/>Dubitatio I. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3080">
+            <lb ed="#V" n="91"/>SVPER litteram dubitatur: Primo su¬ 
+            <lb ed="#V" n="92"/>per illo uerbo, quod quaedam sunt. 
+            <lb ed="#V" n="93"/>quae si semel fiant, damnant: quaedam 
+            <lb ed="#V" n="94"/>vero non, nisi saepius. Videtur ergo. 
+            <lb ed="#V" n="95"/>quod unum, &amp; idem semel factum possit esse pec¬ 
+            <lb ed="#V" n="96"/>catum ueniale: pluries autem mortale. Sed hoc 
+            <lb ed="#V" n="97"/>est falsum, ut supra probabatur, quia mortale, &amp; 
+            <lb ed="#V" n="98"/>veniale differunt in infinitum. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3100">
+            <lb ed="#V" n="99"/>Dicendum, quod Magister hoc non recitat, 
+            <lb ed="#V" n="100"/>tanquam opinionem propriam, sed tanquam alie¬ 
+            <lb ed="#V" n="101"/>nam. vnde ait, quod hoc quibusdam placet: ve¬ 
+            <lb ed="#V" n="102"/>rum, quia multum uidetur Magister assentire 
+            <lb ed="#V" n="103"/>huic opinioni, ideo possumus dicere, quod 
+            <lb ed="#V" n="104"/>ueniale pluries reiteratum potest dici mortale¬ 
+            <lb ed="#V" n="105"/>non per essentiam [quia nunquam idem a 
+            <lb ed="#V" n="106"/>ctus in genere moris potest esse ueniale, &amp; 
+            <lb ed="#V" n="107"/>mortale, sed potest uenial e dici mortale per 
+            <lb ed="#V" n="108"/>dispositionem: Quia ueniale potest d: spone¬ 
+            <lb ed="#V" n="109"/>re ad mortale, &amp; maxime si multoties rei¬ 
+            <lb ed="#V" n="110"/>teretur. quia per reiterationem quodlibet pec¬ 
+            <lb ed="#V" n="111"/>catum ueniale disponit, ut homo sibi com¬ 
+            <lb ed="#V" n="112"/>placeat in eo: &amp; ex hoc disponit, ut sit ibi com¬ 
+            <lb ed="#V" n="113"/>placentia finis, &amp; ut sit ibi peccatum mortale. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3135">
+            <lb ed="#V" n="114"/>Dubitatio II Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3140">
+            <lb ed="#V" n="115"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="116"/>in littera dicitur: E ideo de talibus. Videtur er¬ 
+            <lb ed="#V" n="117"/>go hoc velle Magister, quod de cogitatione, uel¬ 
+            <lb ed="#V" n="118"/>de delectatione morosa, si non consentiatur 
+            <lb ed="#V" n="119"/>in opus, est uenia petenda, &amp; pectus percu¬ 
+            <!--291.xml-->
+            <pb ed="#V" n="291"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tiendum &amp; dicendum: Dimittenobis debita no¬ 
+            <lb ed="#V" n="2"/>stra &amp;c. sed talia fienda sunt pro peccato veniali; 
+            <lb ed="#V" n="3"/>ergo morosa delectatio, si non consentiatur in 
+            <lb ed="#V" n="4"/>opus: videtur peccatum veniale, cuius contrarium 
+            <lb ed="#V" n="5"/>dixerat superius. Dicendum, quod morosa dele¬ 
+            <lb ed="#V" n="6"/>ctatio dicitur non ratione morae; sed ratione de¬ 
+            <lb ed="#V" n="7"/>liberationis, vel ratione consensus. Quia de ratio 
+            <lb ed="#V" n="8"/>ne inferiori delectationem habente morosam non 
+            <lb ed="#V" n="9"/>videtur hoc posse fieri sine deliberato consensu¬ 
+            <lb ed="#V" n="10"/>rationis superioris, &amp; si non in opus, saltem in de¬ 
+            <lb ed="#V" n="11"/>lectationem illam, quod a peccato mortali excu¬ 
+            <lb ed="#V" n="12"/>sari non potest. Nam non solum pro veniali, sed 
+            <lb ed="#V" n="13"/>etiam pro mortali debemus veniam petere, &amp; pe¬ 
+            <lb ed="#V" n="14"/>ctus percutere, &amp; dicere: Dimitte nobis debi¬ 
+            <lb ed="#V" n="15"/>ta nostra. Pro vtroque ergo peccato ista sunt 
+            <lb ed="#V" n="16"/>fienda, aliter tamen, &amp; aliter. Quia si constet 
+            <lb ed="#V" n="17"/>nobis peccatum esse veniale: ista possunt suffi¬ 
+            <lb ed="#V" n="18"/>cere sine confessione Sacerdotis: si sit mortale, 
+            <lb ed="#V" n="19"/>vel probabiliter dubitemus, an sit mortale, non 
+            <lb ed="#V" n="20"/>sufficiunt praemissa sine confessione Sacerdotis. 
+            <lb ed="#V" n="21"/>Inducere tamen debemus nosipsos, &amp; alios, vt 
+            <lb ed="#V" n="22"/>omnia peccata confiteamur sacerdoti, etiam ve¬ 
+            <lb ed="#V" n="23"/>nialia, quamuis non sit absolute de necessitate sa¬ 
+            <lb ed="#V" n="24"/>lutis venialia confiteri, nisi in casu quando pro¬ 
+            <lb ed="#V" n="25"/>babiliter dubitare pessemus illa esse mortalia, 
+            <lb ed="#V" n="26"/>quia semper bonarum mentium est ibi culpam 
+            <lb ed="#V" n="27"/>cognoscere, vbi culpa non est 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3219">
+            <lb ed="#V" n="28"/>Dubitatio TrI. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3224">
+            <lb ed="#V" n="29"/>Vlterius forte dubitaret aliqua de eo, quod 
+            <lb ed="#V" n="30"/>in littera dicitur, quod ratio nostra deduci ad 
+            <lb ed="#V" n="31"/>consensum non potest peccati, nisi &amp;c. Sed con¬ 
+            <lb ed="#V" n="32"/>trarium est habitum supra, quod potest ratio in 
+            <lb ed="#V" n="33"/>ferior peccare sine sensualitate, &amp; ratio superior¬ 
+            <lb ed="#V" n="34"/>sine rationeinferiori. Possumus enim peccare¬ 
+            <lb ed="#V" n="35"/>etiam mortaliter cogitando de his, quae sunt Dei. 
+            <lb ed="#V" n="36"/>quod pertinet ad rationem superiorem: absque¬ 
+            <lb ed="#V" n="37"/>eo, quod cogitemus de istis temporalibus, quod 
+            <lb ed="#V" n="38"/>pertinet ad rationem inferiorem. Et possumus 
+            <lb ed="#V" n="39"/>peccare cogitando de his temporalibus, quod 
+            <lb ed="#V" n="40"/>pertinet ad rationem inferiorem, quae se habet, 
+            <lb ed="#V" n="41"/>vt mulier: absque eo, quod incitemur a senluali 
+            <lb ed="#V" n="42"/>tate, quae se habet, ut serpens. Dicendum secun¬ 
+            <lb ed="#V" n="43"/>dum quosdam, quod hoc intelligendum est in pec¬ 
+            <lb ed="#V" n="44"/>catis carnalibus: sed hoc non sufficit, quia in qui¬ 
+            <lb ed="#V" n="45"/>buscunque peccatis non semper incitamur, vel 
+            <lb ed="#V" n="46"/>a Diabolo, vel a carne: sed etiam ad quodcun¬ 
+            <lb ed="#V" n="47"/>que genus peccati possumus moueri ex motu¬ 
+            <lb ed="#V" n="48"/>nostri arbitrij, quod Augustinus plane dicit in 
+            <lb ed="#V" n="49"/>de Eccl. dogma. de inuestigatione Diaboli, quod 
+            <lb ed="#V" n="50"/>etiam ueritatem habet de stimulatione, vel sug¬ 
+            <lb ed="#V" n="51"/>gestione carnis. Nam multi proprio motu mo¬ 
+            <lb ed="#V" n="52"/>uentur ad peccata carnalia, non praecedente 
+            <lb ed="#V" n="53"/>stimulatione, vel suggestione carnis. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3281">
+            <lb ed="#V" n="54"/>Dicendum est ergo, quod uerba Magistri in¬ 
+            <lb ed="#V" n="55"/>telligenda sunt in peccatis, quae oriuntur ex 
+            <lb ed="#V" n="56"/>motu sensualitatis, in quibus ratio non slecti¬ 
+            <lb ed="#V" n="57"/>tur, nec deducltur sine motuillius partis, id est, 
+            <lb ed="#V" n="58"/>sine motu sensualitatis, quae est apta, nata obtem 
+            <lb ed="#V" n="59"/>Perare rationi. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3297">
+            <!--291.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>Dubitatio IIII. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3306">
+            <lb ed="#V" n="61"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="62"/>in littera dicitur, quod nomine sensualitatis sepe¬ 
+            <lb ed="#V" n="63"/>intelligitur ratio inferior in Scriptura. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3315">
+            <lb ed="#V" n="64"/>Sed contra: Non habetur, nec in veteri nec in 
+            <lb ed="#V" n="65"/>nouo testamento, quod nomine sensualitatis im¬ 
+            <lb ed="#V" n="66"/>portetur ratio: immo in Scriptura sancta non ha¬ 
+            <lb ed="#V" n="67"/>betur in vsu hoc nomen, sensualitas. 
+          </p>
+          <p xml:id="Gi9qrR-m082449-d1e3327">
+            <lb ed="#V" n="68"/>Dicendum, quod Scriptura potest accipi¬ 
+            <lb ed="#V" n="69"/>non solum pro Scriptura sacra, vel pro Canone 
+            <lb ed="#V" n="70"/>Bibliae: sed etiam pro dictis Sanctorum, in qui¬ 
+            <lb ed="#V" n="71"/>bus nomine sensualitatis potet ratio inferior desig nari. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

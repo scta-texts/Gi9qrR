@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="378"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m111584"><!-- l2d29prae -->
+        <head xml:id="Gi9qrR-m111584-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m111584-d1e103">
+          <lb ed="#V" n="72"/>DIST. XXIX. 
+          <lb ed="#V" n="73"/>De liberi arbitrui insufficientia, 
+          <lb ed="#V" n="74"/>quantum ad integram natu¬ 
+          <lb ed="#V" n="75"/>ram, gratiacircumn¬ 
+          <lb ed="#V" n="76"/>scripra. 
+        </p>
+        <p xml:id="Gi9qrR-m111584-d1e116">
+          <lb ed="#V" n="77"/>POST HAEC 
+          <lb ed="#V" n="78"/>considerandum est.]
+          <lb ed="#V" n="79"/>Postquam Ma¬ 
+          <lb ed="#V" n="80"/>gister determi¬ 
+          <lb ed="#V" n="81"/>nauit de insuffi¬ 
+          <lb ed="#V" n="82"/>cientia liberi ar¬ 
+          <lb ed="#V" n="83"/>bit. generaliter, 
+          <lb ed="#V" n="84"/>quantum ad na¬ 
+          <lb ed="#V" n="85"/>turam lapsam, 
+          <lb ed="#V" n="86"/>quae est in om¬ 
+          <lb ed="#V" n="87"/>nibus nobis; 
+          <lb ed="#V" n="88"/>Hic determinat de huiusmodi insufficientia, spe¬ 
+          <lb ed="#V" n="89"/>cialiter quantum ad naturam integram, quae fuit 
+          <lb ed="#V" n="90"/>in ipso Adam ante peccatum. Propter autem in¬ 
+          <lb ed="#V" n="91"/>sufficientiam liberi arb. indigemus auxilio gra¬ 
+          <lb ed="#V" n="92"/>tiae, &amp; virtutum. Tria ergo facit: quia primo¬ 
+          <lb ed="#V" n="93"/>determinat de auxilio gratiae ante peccatum: 
+          <lb ed="#V" n="94"/>vtrum indiguerit gratia ante peccatum, &amp; deter 
+          <lb ed="#V" n="95"/>minat, quod indiguit gratia operante, &amp; coope¬ 
+          <lb ed="#V" n="96"/>rante: sed non indiguit ea omnibus modis, qui¬ 
+          <lb ed="#V" n="97"/>bus nos indigemus. Secundo determinat de 
+          <lb ed="#V" n="98"/>auxilio virtutum: vtrum Adam ante peccatum 
+          <lb ed="#V" n="99"/>habuerit in se virtutes, &amp; tangit opinionem quo¬ 
+          <lb ed="#V" n="100"/>rundam, quod non. Sed illam opinionem non 
+          <lb ed="#V" n="101"/>tenens assignat auctoritates Sanctorum, quod 
+          <lb ed="#V" n="102"/>ante peccatum fuit praeclarus virtutibus. Ter¬ 
+          <lb ed="#V" n="103"/>tio, quia locutus fuerat de Adam quantum ad 
+          <lb ed="#V" n="104"/>id, quod habuit ante peccatum: loquitur de eo, 
+          <lb ed="#V" n="105"/>quantum ad poenas, quas consecutus est per pec¬ 
+          <lb ed="#V" n="106"/>catum. Secunda ibi: [Praeterea quaeri solet. 
+          <lb ed="#V" n="107"/>Tertia ibi: [lliius quoque peccati poaenam. Cit 
+          <lb ed="#V" n="108"/>ca quod tria facit. quia primo ait, quod in. poe¬ 
+          <lb ed="#V" n="109"/>nam illius. peccati eiectus est de Paradiso in lo¬ 
+          <lb ed="#V" n="110"/>cum miseriarum, &amp; prohibitus est, vel amo¬ 
+          <lb ed="#V" n="111"/>tus est de Paradiso, ne sumat de ligno vitae. 
+          <lb ed="#V" n="112"/>Secundo exponit quomodo intelligenda est ista 
+          <lb ed="#V" n="113"/>prohibitio. quia more irati locutus est Domi¬ 
+          <lb ed="#V" n="114"/>nus, vt eiiciatur de Paradiso: sicut eiicit malus 
+          <!--379.xml-->
+          <pb ed="#V" n="379"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>de focietate bonorum, &amp; deloco bono tiquam¬ 
+          <lb ed="#V" n="2"/>indignus ibi esset. Tertio exponit, quomodo in¬ 
+          <lb ed="#V" n="3"/>telligendum sit, quod Deus collocauit ante paradi¬ 
+          <lb ed="#V" n="4"/>sum Cherubin, &amp; gladium flammeum, atque ver¬ 
+          <lb ed="#V" n="5"/>satilem. Secunda ibi: [Sed quia propter peccatum. 
+          <lb ed="#V" n="6"/>Tertia ibi: TNe vero posset. ICirca quod tria fa¬ 
+          <lb ed="#V" n="7"/>cit: quia primo facit, quod dictum est. Secundo, 
+          <lb ed="#V" n="8"/>circa lignum vitae mouet quaestionem, videlicet, 
+          <lb ed="#V" n="9"/>vtrum Adam ante peccatum comederit de illo li¬ 
+          <lb ed="#V" n="10"/>gno, &amp; declinat ad hanc partem, quod sic. Propter 
+          <lb ed="#V" n="11"/>praeceptum sibi datum: De omni ligno paradisi 
+          <lb ed="#V" n="12"/>comede: de ligno autem &amp;c. Tertio mouet aliam 
+          <lb ed="#V" n="13"/>quaestionem, si comedit de illo ligno, quare non 
+          <lb ed="#V" n="14"/>prosecutus est immortalitatem perpetuam. Et 
+          <lb ed="#V" n="15"/>soluit, quia forte illud lignum non semel, sed sae¬ 
+          <lb ed="#V" n="16"/>pe sumptum poterat hoc conferre. Secunda ibi: 
+          <lb ed="#V" n="17"/>LPorest autem quaeri.] ]Tertia ibi: [Quare ergo per¬ 
+          <lb ed="#V" n="18"/>petbc. IEt in hoc terminetur sententia huius Que¬ 
+          <lb ed="#V" n="19"/>stionis, &amp; Distinctionis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

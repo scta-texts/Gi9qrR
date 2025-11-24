@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="457"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m134860"><!-- l2d32prae -->
+        <head xml:id="Gi9qrR-m134860-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m134860-d1e103">
+          <!--457.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="54"/>DIST. XXXII
+          <lb ed="#V" n="55"/>De Peccato originali, quantum 
+          <lb ed="#V" n="56"/>adeius remisstonem, &amp; causam¬ 
+        </p>
+        <p xml:id="Gi9qrR-m134860-d1e116">
+          <lb ed="#V" n="57"/>QVONIAM supra 
+          <lb ed="#V" n="58"/>dictum est Supe¬ 
+          <lb ed="#V" n="59"/>rius determina¬ 
+          <lb ed="#V" n="60"/>uit Magister de 
+          <lb ed="#V" n="61"/>originali pecca¬ 
+          <lb ed="#V" n="62"/>to quantum ad 
+          <lb ed="#V" n="63"/>eius quiditatem, 
+          <lb ed="#V" n="64"/>&amp; quantum ad e¬ 
+          <lb ed="#V" n="65"/>ius transsysionem 
+          <lb ed="#V" n="66"/>Hic determinat 
+          <lb ed="#V" n="67"/>de eo quantum ad 
+          <lb ed="#V" n="68"/>remissionem eius, quomodo remittatur in ba¬ 
+          <lb ed="#V" n="69"/>ptismo: circa quod duo facit. Quia primo fa¬ 
+          <lb ed="#V" n="70"/>cit quod dictum est. Secundo circa hanc mate. 
+          <lb ed="#V" n="71"/>riam mouet multas quaestiones, ibi: [Praeterea quae¬ 
+          <lb ed="#V" n="72"/>ri solet.] ICirca primum duo facit: quia primo¬ 
+          <lb ed="#V" n="73"/>quaerit, quomodo dimittatur peccatum origina¬ 
+          <lb ed="#V" n="74"/>le in baptismo, prout huiusmodipeccatum ma¬ 
+          <lb ed="#V" n="75"/>culat animam. Secundo quaerit, quomodo fiat ta¬ 
+          <lb ed="#V" n="76"/>lis remissio per baptismum, prout tale peccatum 
+          <lb ed="#V" n="77"/>maculat, &amp; faedat carnem, ibi: [solet autem quaeri. 
+          <lb ed="#V" n="78"/>Circa primum rria facit, quia primo mouet quae¬ 
+          <lb ed="#V" n="79"/>stionem, quomodo dimitttaur peccatum originale¬ 
+          <lb ed="#V" n="80"/>per baptismum, prout maculat animam. Secun¬ 
+          <lb ed="#V" n="81"/>do ponit quaestionis solutionem. Tertio solutio 
+          <lb ed="#V" n="82"/>nis positae ponit multas declarationes, &amp; patesa¬ 
+          <lb ed="#V" n="83"/>ctiones. Secunda ibi: [Sed licet remaneat. ]Ter¬ 
+          <lb ed="#V" n="84"/>tia ibi: [iDuplici igitur. 
+        </p>
+        <p xml:id="Gi9qrR-m134860-d1e179">
+          <lb ed="#V" n="85"/>Tunc sequitur illa pars: [Solet autem quaeri: 
+          <lb ed="#V" n="86"/>in qua mouet quaestionem de remissione facta 
+          <lb ed="#V" n="87"/>in baptismo, quantum ad faeditatem carnis. Cir¬ 
+          <lb ed="#V" n="88"/>ca quod tria facit: quia primo mouet huiusmo, 
+          <lb ed="#V" n="89"/>di quaestionem, &amp; assignat quorundam respon¬ 
+          <lb ed="#V" n="90"/>sionem. Secundo assignat responsionem aliam, 
+          <lb ed="#V" n="91"/>&amp; obiicit contra eam. Tertio ponit illius obie¬ 
+          <lb ed="#V" n="92"/>ctionis solutionem. Secunda ibi: [Alii uero pu¬ 
+          <lb ed="#V" n="93"/>tant. ITertia ibi: [Ad quod ilsi dicunt Tunc se¬ 
+          <lb ed="#V" n="94"/>quitur illa pars: [Praeterea quaeri solet, lin qua cir¬ 
+          <lb ed="#V" n="95"/>ca peccatim originale mouet multas quaestiones, 
+          <lb ed="#V" n="96"/>&amp; sex facit, secundum quod sex mouet quaestiones. 
+          <lb ed="#V" n="97"/>Nam primo quaerit, cum peccatum originale sit 
+          <lb ed="#V" n="98"/>concupiscentia. Vtrum concupiscentia remaneat 
+          <lb ed="#V" n="99"/>post peccatum. Secundo quaerit quomodo anima¬ 
+          <lb ed="#V" n="100"/>sit obnoxia propter peccatum originale. Tertio 
+          <lb ed="#V" n="101"/>quaerit utrum peccatum originale debeat dici vo¬ 
+          <lb ed="#V" n="102"/>luntarium, uel necessarium. Quarto quaerit cum¬ 
+          <lb ed="#V" n="103"/>Deus creet animam mundam: Vtrum deceat eam 
+          <lb ed="#V" n="104"/>permittere maculari. Quinto quaerit de animarum 
+          <lb ed="#V" n="105"/>qualitate ante baptismum: Vtrum tales sint an¬ 
+          <lb ed="#V" n="106"/>te baptismum, quales sunt creatae a Deo. Sexto &amp; 
+          <lb ed="#V" n="107"/>vltimo quaerit de animarum aequalitate: Vtrum 
+          <lb ed="#V" n="108"/>a sui creatione sint creatae omnes aequales. Secun¬ 
+          <lb ed="#V" n="109"/>da ibi: [Solet ettam quaeri. ITertia ibi: [Illud etiam. 
+          <lb ed="#V" n="110"/>Quarta ibi [si uero quaeritur. QQuinta ibi: [Hoc a¬ 
+          <lb ed="#V" n="111"/>quibusdam. Sexta ibi: [Illud quoque. IEt in hoc ter 
+          <lb ed="#V" n="112"/>minet sententia presentis Lectionis, &amp; Distinctionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

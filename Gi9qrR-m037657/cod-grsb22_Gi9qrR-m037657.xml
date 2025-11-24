@@ -1,0 +1,2136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="130"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m037657"><!-- l2d19q2 -->
+        <head xml:id="Gi9qrR-m037657-Hd1e101">Quaestio 2</head>
+        <head xml:id="Gi9qrR-m037657-Hd1e103" type="question-title">
+          De corporis primi hominis immortalitate
+        </head>
+        <p xml:id="Gi9qrR-m037657-d1e106">
+          <!--130.xml-->
+          <pb ed="#V" n="130"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>QVAEST. II 
+          <lb ed="#V" n="2"/>De corporis primi hominis immortalitate.
+        </p>
+        <p xml:id="Gi9qrR-m037657-d1e119">
+          <lb ed="#V" n="3"/>POSTEA quaeritur de secundo 
+          <lb ed="#V" n="4"/>principali: videlicet de statu¬ 
+          <lb ed="#V" n="5"/>cormporis Ade: Circa quod 
+          <lb ed="#V" n="6"/>queruntur quatuor. Primo 
+          <lb ed="#V" n="7"/>vtrum Adam habuerit corpus 
+          <lb ed="#V" n="8"/>mortale. Secundo vtrum ha¬ 
+          <lb ed="#V" n="9"/>buerit corpus passibile. Ter¬ 
+          <lb ed="#V" n="10"/>tio vtrum fuerit illud immortale naturaliter. Quar¬ 
+          <lb ed="#V" n="11"/>to utrum immortalitas illa fuerit eadem, uel 
+          <lb ed="#V" n="12"/>eiusdem rationis cum immortalitate resurgen¬ 
+          <lb ed="#V" n="13"/>tium in statu gloriaes. 
+        </p>
+        <div xml:id="Gi9qrR-m037657-Dd1e145">
+          <head xml:id="Gi9qrR-m037657-Hd1e147">Articulus 1</head>
+          <p xml:id="Gi9qrR-m037657-d1e149">
+            <lb ed="#V" n="14"/>ARTIIC. I. 
+            <lb ed="#V" n="15"/>An corpus Adae fuerit immortale. 
+            <lb ed="#V" n="16"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e158">
+            <lb ed="#V" n="17"/>D. Th. 1. p. q. 97. art. 1. Et 2. sent. d. 19. q. 1. artic. 2. &amp; 4. Et de¬ 
+            <lb ed="#V" n="18"/>Malo. q. 5 at. 5. incorp. D. Bon. d. 19. ar. 1. q. 1. Ric. d. 1s 
+            <lb ed="#V" n="19"/>q. 3. Scot. d. 19. 4. 1. Th. arg. d. 19. q. 1. art. 2. Ant 
+            <lb ed="#V" n="20"/>Andr. d. 19. q. 1. Voril. d. 10. q 2. Dorb. d. 10. f
+            <lb ed="#V" n="21"/>q. 1. Prulid. 19. q3. Gorr. d. 19. q. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e171">
+            <lb ed="#V" n="22"/>AD PRIMVM sic proceditur: ui¬ 
+            <lb ed="#V" n="23"/>detur, quod corpus Adae nullo mo¬ 
+            <lb ed="#V" n="24"/>do fuerit immortale. Nam se¬ 
+            <lb ed="#V" n="25"/>cundum Philosophum in Me 
+            <lb ed="#V" n="26"/>ta. Anhelitus, &amp; nutrimentum 
+            <lb ed="#V" n="27"/>sunt necessaria ad uiram ani¬ 
+            <lb ed="#V" n="28"/>malium. Cum ergo corpus Adae indigeret nutri¬ 
+            <lb ed="#V" n="29"/>mento: uidetur, quod eodem modo uiuebat sicut ui¬ 
+            <lb ed="#V" n="30"/>uunt alia animalia nutrimento indigentia, sed 
+            <lb ed="#V" n="31"/>alia animalia habebet necessitatem moriendi. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e195">
+            <lb ed="#V" n="32"/>Praeterea Adam in primo statu poterat mori. 
+            <lb ed="#V" n="33"/>sed omne, quod possibile est mori, necesse est mo¬ 
+            <lb ed="#V" n="34"/>ri, cum mors sequatur ex necessitate materiae: er¬ 
+            <lb ed="#V" n="35"/>go Adam etiam in primo statu habebat necessita 
+            <lb ed="#V" n="36"/>tem moriendi. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e209">
+            <lb ed="#V" n="37"/>Praeterea, quod est corruptibile secundum pat¬ 
+            <lb ed="#V" n="38"/>tem, est corruptibile secundum totum, quia pars, 
+            <lb ed="#V" n="39"/>&amp; totum sunt eiusdem naturae: sed partes corpo¬ 
+            <lb ed="#V" n="40"/>ris Adae. erant corruptibiles, quia non indiguis¬ 
+            <lb ed="#V" n="41"/>set alimento, si in qualibet parte non fieret deper 
+            <lb ed="#V" n="42"/>dit io, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e225">
+            <lb ed="#V" n="43"/>Praeterea in ijs, quae differunt secundum genus, 
+            <lb ed="#V" n="44"/>ex vno non transitur in aliud, vt ex calore non 
+            <lb ed="#V" n="45"/>sit sapor. semper enim sunt transmutationes ex 
+            <lb ed="#V" n="46"/>contrarijs, &amp; in contraria sed contraria sunt posi¬ 
+            <lb ed="#V" n="47"/>ta in eodem genere. Cum ergo corruptibile, &amp; 
+            <lb ed="#V" n="48"/>incorruptibile differant genere, vt dicitur in 10¬ 
+            <lb ed="#V" n="49"/>Si corpus Adae fuisset incorruptibile, nunquam 
+            <lb ed="#V" n="50"/>fuisset factum corruptibile. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e245">
+            <lb ed="#V" n="51"/>Praeterea mortale est differentia diffinitiua ho¬ 
+            <lb ed="#V" n="52"/>minis, quia est animal rationale mortale. si ergo 
+            <lb ed="#V" n="53"/>Adam fuisset immortalis, non fuisset eiusdem spe¬ 
+            <lb ed="#V" n="54"/>ciei nobiscum, quod est falsum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e256">
+            <lb ed="#V" n="55"/>IN CONTRARIVM est Magister in littera, quod 
+            <!--130.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="56"/>Adam eratimmortalis, quia poterat non morit &amp; 
+            <lb ed="#V" n="57"/>mortalis, quia poterat mori. 
+            <lb ed="#V" n="58"/>Praeterea Boetius in de duabus naturis ait. quod si 
+            <lb ed="#V" n="59"/>Adam non peccasset, mortem nulla ratione sensisset.
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e274">
+            <lb ed="#V" n="60"/>RESOLVTIO. 
+            <lb ed="#V" n="61"/>Mors licet in Brutis, vt Philosopbi aiunt, sit ratio¬ 
+            <lb ed="#V" n="62"/>ne materiae: in bomine tamen principaliter ex 
+            <lb ed="#V" n="63"/>primi Parentis peccato esse dicitur, vt ex pater¬ 
+            <lb ed="#V" n="64"/>na aequitate, ex animae perpetuitate, &amp; ex no¬ 
+            <lb ed="#V" n="65"/>stra tandem vtilitate pater.
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e290">
+            <lb ed="#V" n="66"/>RESPONDEO dicendum, quod de morte aliterlo¬ 
+            <lb ed="#V" n="67"/>cuti sunt Philosophi, &amp; aliter loquitur sacra pa¬ 
+            <lb ed="#V" n="68"/>gina. quae diuersitas specialiter sumitur ex parte 
+            <lb ed="#V" n="69"/>mortis hominis. Nam Philosophi quantum ad 
+            <lb ed="#V" n="70"/>mortem, nullam differentiam faciuntinterhomi 
+            <lb ed="#V" n="71"/>nem, &amp; bestias. Omnem enim causam mortis at 
+            <lb ed="#V" n="72"/>tribuunt necessitati materiae, vt quare corrumpi¬ 
+            <lb ed="#V" n="73"/>tur animal, dicerent Philosophi, quia compositum 
+            <lb ed="#V" n="74"/>est ex contrarijs, non dantes aliam causam in eo, 
+            <lb ed="#V" n="75"/>quod est animal hon: vel in eo, quod est animaliumentum. 
+            <lb ed="#V" n="76"/>vel si volumus assignare causam mortis, sicut as¬ 
+            <lb ed="#V" n="77"/>signant Medici, &amp; etiam sicut innuit Philosophus 
+            <lb ed="#V" n="78"/>in de generatione. quia fit continua deperditio 
+            <lb ed="#V" n="79"/>in corporibus animalium. quia vita consistit in ca¬ 
+            <lb ed="#V" n="80"/>lido, &amp; humido, &amp; semper calidum depascit hu¬ 
+            <lb ed="#V" n="81"/>midum: vt consumpto humido, extinguatur, &amp; 
+            <lb ed="#V" n="82"/>moriatur animal. sicut ignis in lucerna consumit 
+            <lb ed="#V" n="83"/>humidatem olei, &amp; consumpto oleo extinquitur; 
+            <lb ed="#V" n="84"/>lucerna. secundum hunc autem modum mortis 
+            <lb ed="#V" n="85"/>loquitur Philosophus cum dicit, quod carens colera co¬ 
+            <lb ed="#V" n="86"/>est longaeuum. Nam cum in colera dominetur 
+            <lb ed="#V" n="87"/>ignis, qui est ita intense calidus, animal abundans: 
+            <lb ed="#V" n="88"/>colera sic haber calorem intensum, vt magna fiat 
+            <lb ed="#V" n="89"/>in eo deperditio, ex calore sic intenso, sicut est in 
+            <lb ed="#V" n="90"/>colera, vt multum depascatur in ipso de humido 
+            <lb ed="#V" n="91"/>radicali. Propter quod tale animal abundans co¬ 
+            <lb ed="#V" n="92"/>lera non potest esse longaeuum. hic autem mo¬ 
+            <lb ed="#V" n="93"/>dus mortis, quod calidum depascat humidum, vide 
+            <lb ed="#V" n="94"/>tur esse magis proprius animalibus, quam pri¬ 
+            <lb ed="#V" n="95"/>mus, vt dicantur animalia esse corruptibilia, quia 
+            <lb ed="#V" n="96"/>sunt composita ex contrarijs, Nam iste modus 
+            <lb ed="#V" n="97"/>corruptionis est communis omnibus mixtis, cum 
+            <lb ed="#V" n="98"/>omnia mixta sint, composita ex contrarijs ele¬ 
+            <lb ed="#V" n="99"/>mentis: sed qualitercunque loquimurde cam mor 
+            <lb ed="#V" n="100"/>tis, prout locuti sunt Philosophi, siue hoc fiatex 
+            <lb ed="#V" n="101"/>compositione ex contrarijs, siue ex calido depaso 
+            <lb ed="#V" n="102"/>cente humidum, non est differentia, sequendo 
+            <lb ed="#V" n="103"/>Philosophos inter mortem hominis, &amp; aliorum 
+            <lb ed="#V" n="104"/>animalium. Quod si dicas, quod immo etiam secundum 
+            <lb ed="#V" n="105"/>Philosophos homo est nobilioris complexionis, 
+            <lb ed="#V" n="106"/>quam alia animalia; Dicemus, quod hoc nihilad pro¬ 
+            <lb ed="#V" n="107"/>positum quantum ad mortem, cum videamus 
+            <lb ed="#V" n="108"/>aliquae bruta, vtputa elephantes, &amp; plura alia, es¬ 
+            <lb ed="#V" n="109"/>se longioris vitae, quam homines. Si rursus dicas, 
+            <lb ed="#V" n="110"/>quod etiam secundum Philosophos aliquid rema¬ 
+            <lb ed="#V" n="111"/>net de homine corrupto corpore, quia remanet 
+            <lb ed="#V" n="112"/>intellectus, qui, vt dicitur in 2. de anima, 
+            <lb ed="#V" n="113"/>separatur ab alijs, sicut perpetuum a corrupti¬ 
+            <lb ed="#V" n="114"/>bilis; hoc etiam non est ad propositum, quia nos 
+            <!--131.xml-->
+            <pb ed="#V" n="131"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>loquimur de morte ipsius hominis, qui est quia 
+            <lb ed="#V" n="2"/>compositum ex anima, &amp; corpore: sed corruptio 
+            <lb ed="#V" n="3"/>compositi fit ex sola separatione partium. sicut 
+            <lb ed="#V" n="4"/>ergo separata anima a corpore, moritur iumentum, 
+            <lb ed="#V" n="5"/>sic &amp; in homine per separationem animae a cor¬ 
+            <lb ed="#V" n="6"/>pore moritur homo. Quia autem mortuo iumen 
+            <lb ed="#V" n="7"/>to moritur anima, quia redit in potentiam mate¬ 
+            <lb ed="#V" n="8"/>riae, vnde est educta. Mortuo autem homine, non 
+            <lb ed="#V" n="9"/>moritur anima, vel non moritur spiritus, sed re¬ 
+            <lb ed="#V" n="10"/>uertitur ad Deum, qui dedit illum. quantum ad 
+            <lb ed="#V" n="11"/>mortem ipsius compositi, vel ipsius hominis, vel 
+            <lb ed="#V" n="12"/>ipsius iumenti, non videtur esse differentia. nam¬ 
+            <lb ed="#V" n="13"/>siue moriatur anima, siue non, ex sola separatione 
+            <lb ed="#V" n="14"/>animae, &amp; corporis, moritur similiter homo, &amp; 
+            <lb ed="#V" n="15"/>ti iumentum. sequendo ergo Philosophos incidi¬ 
+            <lb ed="#V" n="16"/>mus in id, quod dicitur Ecclesiast. quod potest 
+            <lb ed="#V" n="17"/>idici esse dictum in persona insipientium, quod vnus 
+            <lb ed="#V" n="18"/>est interitus hominis, &amp; iumentorum, &amp; aequa 
+            <lb ed="#V" n="19"/>vtriusque conditio. Philosophi ergo totam causam 
+            <lb ed="#V" n="20"/>mortis attribuentes necessitati materiae dicentes 
+            <lb ed="#V" n="21"/>in hoc se esse sapientes, stulti facti sunt. Sic ergo 
+            <lb ed="#V" n="22"/>u locuti sunt Philosophi de cam mortis. Sed sacra pa¬ 
+            <lb ed="#V" n="23"/>gina causam mortis sumit principaliter &amp;x parte¬ 
+            <lb ed="#V" n="24"/>a. animae, &amp;&amp; ex parte peccati, vt si Adam non pec¬ 
+            <lb ed="#V" n="25"/>casset, quod principaliter competebat ei ex parte¬ 
+            <lb ed="#V" n="26"/>animae, &amp; ex parte liberi arbitrii, quod fundatur 
+            <lb ed="#V" n="27"/>in anima, secundum quod possumus peccare, &amp; bene¬ 
+            <lb ed="#V" n="28"/>facere, non fuisset mortuus. ergo peccando, &amp; tras¬ 
+            <lb ed="#V" n="29"/>grediendo mandatum Dei contraxit necessitatem 
+            <lb ed="#V" n="30"/>moriendi, vt patet Gen. Sic etiam Sap. scribitur: 
+            <lb ed="#V" n="31"/>Quia Deus creauit hominem inexterminabilem, 
+            <lb ed="#V" n="32"/>id est immortalem. sed inuidia diaboli mors in¬ 
+            <lb ed="#V" n="33"/>troiuit in orbem terrarum. Et ad Rom. dicitur, quod 
+            <lb ed="#V" n="34"/>per vnum hominem in hunc mundum peccatum 
+            <lb ed="#V" n="35"/>intrauit, &amp; per peccatum mors. Cum ergo maior 
+            <lb ed="#V" n="36"/>sit huius Scripturae auctoritas, quam totius hu¬ 
+            <lb ed="#V" n="37"/>mani ingensi perspicacitas, vbi Philosophi discor 
+            <lb ed="#V" n="38"/>dauerunt a Scriptura sacra, certum est eos errasse, 
+            <lb ed="#V" n="39"/>&amp; falsum dixisse. Vbi autem concordauerunt cer¬ 
+            <lb ed="#V" n="40"/>tum est eos veritatem protulisse. Vbi autem nec 
+            <lb ed="#V" n="41"/>hoc, nec illud, quia forte de hoc, de quo hic locu¬ 
+            <lb ed="#V" n="42"/>ti sunt, non intromisit se Scriptura sacra, potue¬ 
+            <lb ed="#V" n="43"/>runt aliquando dicere falsum, aliquando verum. 
+            <lb ed="#V" n="44"/>vel forte nihil est erratum ab alijs in his, quae con¬ 
+            <lb ed="#V" n="45"/>gruunt fidei, quod per Scripturam sacram aliquo 
+            <lb ed="#V" n="46"/>modo non possit corrigi. Teneamus ergo nos 
+            <lb ed="#V" n="47"/>cum scriptura sacra dicentes quod licet in iumentis, 
+            <lb ed="#V" n="48"/>vel in alijs animalibus introducta sit mors ex 
+            <lb ed="#V" n="49"/>necessitate materiae, vt Philosophi sunt locuti: 
+            <lb ed="#V" n="50"/>tamen quia non est vnus interitus hominum, 
+            <lb ed="#V" n="51"/>&amp; iumentorum, nec est aequa vtriusque conditio, 
+            <lb ed="#V" n="52"/>principaliter est introducta mors in hominibus 
+            <lb ed="#V" n="53"/>&amp;x peccato primi parentis. Ad quod sic esse, pos¬ 
+            <lb ed="#V" n="54"/>sumus, quantum ad praesens, rationem triplicem 
+            <lb ed="#V" n="55"/>assignare. Vt prima sumatur ex quadam Dei pa¬ 
+            <lb ed="#V" n="56"/>terna aequitate Secunda ex perpetuitate animae, 
+            <lb ed="#V" n="57"/>Tertia ex vtilitate nostra. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e530">
+            <lb ed="#V" n="58"/>Prima via sic patet: Fxigebat enim diuina aequo 
+            <lb ed="#V" n="59"/>tas, vt quandiu anima Adae erat subdita suo su¬ 
+            <lb ed="#V" n="60"/>periori, id est Deo, quod omnia inferiora animae es¬ 
+            <lb ed="#V" n="61"/>sent subdita sibi. Non enim deceret iustitiam, &amp; 
+            <lb ed="#V" n="62"/>aquitatem regiam, quod permitteretsubditos rebel¬ 
+            <!--131.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>lare Comiti, quandiu Comes vellet sibi esse subie¬ 
+            <lb ed="#V" n="64"/>ctus. Sic &amp; in proposito non decebat diuinam 
+            <lb ed="#V" n="65"/>aequitatem, &amp; iustitiam, quod corpus, quod debet es¬ 
+            <lb ed="#V" n="66"/>se subiectum animae, rebellaret animae, quandiu¬ 
+            <lb ed="#V" n="67"/>anima volebat esse subiecta Deo. &amp; quia tota cau¬ 
+            <lb ed="#V" n="68"/>sa mortis est ex eo, quod in corpore insurgunt ali¬ 
+            <lb ed="#V" n="69"/>qua, quae contrariantur animae, propter quae cor¬ 
+            <lb ed="#V" n="70"/>pus quasi rebellat animae, oportet animam rece¬ 
+            <lb ed="#V" n="71"/>dere a corpore, sicut recederet Dominus ciuita¬ 
+            <lb ed="#V" n="72"/>tis a ciuitate, si ciues rebellarent sibi. quia ergo 
+            <lb ed="#V" n="73"/>non decebat diuinam iustitiam, quod sic rebellaret 
+            <lb ed="#V" n="74"/>corpus animae, nisi anima prius rebellaret Deo, 
+            <lb ed="#V" n="75"/>oportet Adam in statu innocentiae fuisse immorta¬ 
+            <lb ed="#V" n="76"/>lem, &amp; eo modo se habuisse ad mortem, &amp; se habuis¬ 
+            <lb ed="#V" n="77"/>se animam eius ad corpus, vt nullo modo rebella¬ 
+            <lb ed="#V" n="78"/>retur sibi, nec cogeretur per mortem recedere ab¬ 
+            <lb ed="#V" n="79"/>eo. Adam ergo, sicut se habebat ad peccandum, &amp; 
+            <lb ed="#V" n="80"/>per rebellionem ad recedendum a Deo, sic se ha¬ 
+            <lb ed="#V" n="81"/>bebat ad mortem. &amp; quia in illo statu poterat 
+            <lb ed="#V" n="82"/>peccare, &amp; non peccare; ideo poterat mori, &amp; 
+            <lb ed="#V" n="83"/>non mori. Propter quod peccando fuit mortuus, 
+            <lb ed="#V" n="84"/>quod si non peccasset non suisset mortuus. vnde Aug 
+            <lb ed="#V" n="85"/>9. super Gen. ait. Quid hac poena iustius, quam quod 
+            <lb ed="#V" n="86"/>non ad omnem nutum seruiat corpus, famulus 
+            <lb ed="#V" n="87"/>animae, sicut ipsa anima seruire domino suo de 
+            <lb ed="#V" n="88"/>negauit: 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e604">
+            <lb ed="#V" n="89"/>Secunda via ad hoc idem sumitur ex perpetui¬ 
+            <lb ed="#V" n="90"/>tate animae. Nam Deus creauit hominem ex dua¬ 
+            <lb ed="#V" n="91"/>bus partibus compositum: ex corpore, &amp; anima. 
+            <lb ed="#V" n="92"/>&amp; fecit vnam naturam humanam ex dictis dua 
+            <lb ed="#V" n="93"/>bus partibus. Propter quod dictae partes natura¬ 
+            <lb ed="#V" n="94"/>liter sunt unitae cum una natura humana consti¬ 
+            <lb ed="#V" n="95"/>tuatur exeis, vt quia naturaliter unitur anima¬ 
+            <lb ed="#V" n="96"/>corpori, oportet quod anima habeat naturale deside 
+            <lb ed="#V" n="97"/>rium ad administrandum corpori. quod deside 
+            <lb ed="#V" n="98"/>rium est tantum, quod anima beata retardatur a vi¬ 
+            <lb ed="#V" n="99"/>sione Dei, vel a Dei adhaesione propter huius¬ 
+            <lb ed="#V" n="100"/>modi desiderium. unde Aug. circa finem. 12. su¬ 
+            <lb ed="#V" n="101"/>per Gen. ait, quod animae naturalis inest quidam ap¬ 
+            <lb ed="#V" n="102"/>petitus corpus administrandi, quo appetitu retar¬ 
+            <lb ed="#V" n="103"/>detur quodammodo, ne tota intentione pergat ad 
+            <lb ed="#V" n="104"/>illum summum coelum id est in Deum, quandiu non 
+            <lb ed="#V" n="105"/>subest corpus, cuius administratione appetitus il¬ 
+            <lb ed="#V" n="106"/>le quiescat. ab anima quod ergo sine culpa per mor¬ 
+            <lb ed="#V" n="107"/>tem corporis tantum desiderium discontinuetur, 
+            <lb ed="#V" n="108"/>&amp; interpellationem recipiat: cum huiusmodi de 
+            <lb ed="#V" n="109"/>siderium sit naturale, &amp; sit a Deo insitum, vide 
+            <lb ed="#V" n="110"/>tur omnino a Deo dissonum, quod animam fe¬ 
+            <lb ed="#V" n="111"/>cisset perpetuam, &amp; immortalem, &amp; associasset 
+            <lb ed="#V" n="112"/>sibi naturaliter corpus corruptibile, &amp; mortale, 
+            <lb ed="#V" n="113"/>ad quod administrandum habet desiderium natu¬ 
+            <lb ed="#V" n="114"/>rale. Nullo ergo modo est credendum, quod Deus 
+            <lb ed="#V" n="115"/>vellet tantam poenam inferre animae sine culpa. Quod 
+            <lb ed="#V" n="116"/>si dicas, quod solus Adam peccauit, &amp; ex solo pec¬ 
+            <lb ed="#V" n="117"/>cato Adae omnes facti sumus mortales; Dice 
+            <lb ed="#V" n="118"/>mus cum Apostolo, quod in eo omnes peccauimus, 
+            <lb ed="#V" n="119"/>iuxta illud ad Rom. In quo omnes peccauerunt. 
+            <lb ed="#V" n="120"/>sed quomodo hoc sit rationabile, quod omnes pec¬ 
+            <lb ed="#V" n="121"/>cauerimus in Adam, infra, cum agetur de pecca¬ 
+            <lb ed="#V" n="122"/>to originali declarabitur. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e680">
+            <lb ed="#V" n="123"/>Tertia via sumitur ex nostra vtilitate. Nam cum 
+            <lb ed="#V" n="124"/>audimus de Paradiso nos esse expulsos, &amp; immor 
+            <!--132.xml-->
+            <pb ed="#V" n="132"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>taliratem, quam habebat Adam, quia poterat non 
+            <lb ed="#V" n="2"/>mori, perdidisse per peccatum Adae, cuius debe¬ 
+            <lb ed="#V" n="3"/>bamus esse membra, ut patet ex ueteri testamen¬ 
+            <lb ed="#V" n="4"/>to. Et audimus per Scripturam sacram, quod facti men¬ 
+            <lb ed="#V" n="5"/>bra Christi possumus recuperare meliorem Para¬ 
+            <lb ed="#V" n="6"/>disum quae est uisio, &amp; fruitio diuina, quae est Pa¬ 
+            <lb ed="#V" n="7"/>radisus spiritualis melior, quam habuit Adam, 
+            <lb ed="#V" n="8"/>qui fuit positus in Paradiso terrestri, &amp; corpora¬ 
+            <lb ed="#V" n="9"/>li. Et possumus recuperare ampliorem immorta 
+            <lb ed="#V" n="10"/>litatem, quam habuit Adam qui habuit immor¬ 
+            <lb ed="#V" n="11"/>talitatem, quod poterat non mori. nos per Chri¬ 
+            <lb ed="#V" n="12"/>stum recuperabimus immortalitatem, qua non poteri¬ 
+            <lb ed="#V" n="13"/>mus mori, magis inardescimus ad benefaciendum. 
+            <lb ed="#V" n="14"/>Ad primum dicendum, quod corpus Adae indige¬ 
+            <lb ed="#V" n="15"/>bat cibis: &amp; corpus nostium, &amp; aliorum anima¬ 
+            <lb ed="#V" n="16"/>lium indiget cibis, sed tunc in Adam per cibos 
+            <lb ed="#V" n="17"/>fuisset facta restauratio ita puri alimenti: sicut fuis¬ 
+            <lb ed="#V" n="18"/>set facta deperditio, vt ex hoc nunquam suisset 
+            <lb ed="#V" n="19"/>mortuus quandiu voluisset esse coniunctus Deo. 
+            <lb ed="#V" n="20"/>sed eo rebellante Deo: rebellauit sibi corpus, vt 
+            <lb ed="#V" n="21"/>non ita pura restitutio fieret: sicut facta fuit de¬ 
+            <lb ed="#V" n="22"/>perditio: &amp; ex hoc sic fieret corpus impurum, &amp; 
+            <lb ed="#V" n="23"/>indispositum, quod anima ibi vlterius stare non 
+            <lb ed="#V" n="24"/>posset, sed oporteret eam a corpore recedere, per¬ 
+            <lb ed="#V" n="25"/>cuius fecessum moreretur homo, &amp; putrefieret 
+            <lb ed="#V" n="26"/>corpus iuxta illud Philosophi in de anima, quod re¬ 
+            <lb ed="#V" n="27"/>cedente aia a corpore, corpus expirat, &amp; marcessit.¬ 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e752">
+            <lb ed="#V" n="28"/>Ad secundum dicendum, quod quantum ad 
+            <lb ed="#V" n="29"/>statum modernum quod possibile est mori, ne¬ 
+            <lb ed="#V" n="30"/>cesse est mori, quia sicut non generatur purum vi¬ 
+            <lb ed="#V" n="31"/>num ex aqua, nisi in ventre vitis, sic non genera¬ 
+            <lb ed="#V" n="32"/>tur pura caro ex alimentis, nisi in matrice, &amp; in venm¬ 
+            <lb ed="#V" n="33"/>trae matris. Postquam autem puer est extra uterum: 
+            <lb ed="#V" n="34"/>simile est de eo, sicut de uino extra vitem. Si quis 
+            <lb ed="#V" n="35"/>ergo acciperet de illo uino, &amp; poneret ibi de a¬ 
+            <lb ed="#V" n="36"/>qua, &amp; iterum acciperet de eodem vino, &amp; sup¬ 
+            <lb ed="#V" n="37"/>pleret defectum per appositionem aquae, semper sic 
+            <lb ed="#V" n="38"/>faciendo fieret vinum sic aquosum, quod non posset 
+            <lb ed="#V" n="39"/>facere opus vini. sic &amp; in proposito calor natura¬ 
+            <lb ed="#V" n="40"/>lis depascit humidum radicale. sed quod deper¬ 
+            <lb ed="#V" n="41"/>ditum est de illo humido, restauratur per alimen¬ 
+            <lb ed="#V" n="42"/>tum, sed non restauratur ita purum sicut est de 
+            <lb ed="#V" n="43"/>perditum. Ad vltimum autem est caro ita impu¬ 
+            <lb ed="#V" n="44"/>ra, quod non potest facere carnis opus, nec ani¬ 
+            <lb ed="#V" n="45"/>ma potest vlterius in illo corpore stare. propter 
+            <lb ed="#V" n="46"/>quod necesse est hominem mori. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e796">
+            <lb ed="#V" n="47"/>Hoc autem exem plum de vino ponit Philoso¬ 
+            <lb ed="#V" n="48"/>phus in de Generatione: sic est ergo in statu mo¬ 
+            <lb ed="#V" n="49"/>derno. sed in statu innocentiae primitiuo per lignum 
+            <lb ed="#V" n="50"/>vitae, vel per operationem diuinam latentem, pro¬ 
+            <lb ed="#V" n="51"/>ut tangit Aug in 8. super Gen. Fuisset continua¬ 
+            <lb ed="#V" n="52"/>ta vita nostra, id est ita fuisset facta pura restaura 
+            <lb ed="#V" n="53"/>tio, sicut &amp; deperditio, vt non esset necesse homi¬ 
+            <lb ed="#V" n="54"/>nem mori, licet potuisset mori peccando 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e816">
+            <lb ed="#V" n="55"/>Ad tertium dicendum, quod quaelibet pars nutriti est 
+            <lb ed="#V" n="56"/>nutrita, &amp; quae libet pars minorati, est minorata. 
+            <lb ed="#V" n="57"/>propter quod sicut fit restauratio in singulis parti¬ 
+            <lb ed="#V" n="58"/>bus, ita fit deperditio per calidum depascentem 
+            <lb ed="#V" n="59"/>humidum in singulis partibus. sed quia tunc fuis¬ 
+            <lb ed="#V" n="60"/>set facta ante peccatum ita pura restauratio, si¬ 
+            <lb ed="#V" n="61"/>cut &amp; deperditio, ideo non peccando potuisset 
+            <lb ed="#V" n="62"/>semper homo se continuare in vita. Ad formam 
+            <!--132.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>autem argumenti, quod eiusuaem nature est pars, &amp; totum; 
+            <lb ed="#V" n="64"/>Dici potest, quod illa immortalitas Adae, vt pa¬ 
+            <lb ed="#V" n="65"/>tebit in quaestionibus sequentibus, non erat pure¬ 
+            <lb ed="#V" n="66"/>naturalis, sed erat ibi aliqua latens operatio diui¬ 
+            <lb ed="#V" n="67"/>na, vt in sequentibus apparebit. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e852">
+            <lb ed="#V" n="68"/>Ad quartum dicendum, quod si corruptibile, 
+            <lb ed="#V" n="69"/>&amp; incorruptibile sumantur eodem modo, diffe¬ 
+            <lb ed="#V" n="70"/>runt genere: sed si non sumantur eodem modo, 
+            <lb ed="#V" n="71"/>possunt esse in vno, &amp; eodem numero. In Adam 
+            <lb ed="#V" n="72"/>ergo corruptibilitas erat ex parte corporis, sed 
+            <lb ed="#V" n="73"/>immortalitas erat ex parte animae. vt quandiu vo¬ 
+            <lb ed="#V" n="74"/>lebat esse subiecta suo superiori, erant sibi subie¬ 
+            <lb ed="#V" n="75"/>cta sua inferiora. Propter quod ita erat animae 
+            <lb ed="#V" n="76"/>subiectum , corpus, quod nec egritudo, nec aliquid 
+            <lb ed="#V" n="77"/>poterat insurgere in corpore, per quod impedire 
+            <lb ed="#V" n="78"/>tur anima, vel cogeretur anima recedere a corpo¬ 
+            <lb ed="#V" n="79"/>re. &amp; quia corruptibilitas, &amp; incorruptibilitas in 
+            <lb ed="#V" n="80"/>Adam non sumebantur eodem modo: ideo haec 
+            <lb ed="#V" n="81"/>duo non solum oportebat esse in diuersis genere, 
+            <lb ed="#V" n="82"/>sed etiam fuerunt in eodem numero. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e887">
+            <lb ed="#V" n="83"/>Et per hoc potest patere solutio ad quintum. nam 
+            <lb ed="#V" n="84"/>cum dite, quod diffinitio hominis est animal rationale, 
+            <lb ed="#V" n="85"/>mortale; Dici potest, quod partes positae in diffi¬ 
+            <lb ed="#V" n="86"/>nitione non dicunt actum, sed apitudinem. &amp; si 
+            <lb ed="#V" n="87"/>dissiniatur homo, quod est animal gressibile bi¬ 
+            <lb ed="#V" n="88"/>pes. vt per hoc, quod gressibile, separaturabaui¬ 
+            <lb ed="#V" n="89"/>bus, quae computantur inter volatilia. &amp; a pisci¬ 
+            <lb ed="#V" n="90"/>bus, qui sunt de numero natatilium. Per hoc au¬ 
+            <lb ed="#V" n="91"/>tem, quod additur bipes, separatur abanimalibus 
+            <lb ed="#V" n="92"/>terrestribus, quae vel carent pedibus, vel habent 
+            <lb ed="#V" n="93"/>plures pedes, quam duos. tamen si curtetur qui¬ 
+            <lb ed="#V" n="94"/>est bipes; secundum Porphyrium adhuc dicitur 
+            <lb ed="#V" n="95"/>bipes, quia est aptus natus habere duos pedes. er¬ 
+            <lb ed="#V" n="96"/>go partes diffinitionis, sufficit, quod dicant apti¬ 
+            <lb ed="#V" n="97"/>tudinem, &amp;possibilitatem: secundum quem mo¬ 
+            <lb ed="#V" n="98"/>dum Adam erat tumnc mortalis, quia poterat mori. 
+            <lb ed="#V" n="99"/>Dato tamen quod nullo modo suisset mortalis, 
+            <lb ed="#V" n="100"/>vel, quod non potuisset mori, non propter hoc ce¬ 
+            <lb ed="#V" n="101"/>cidisset a diffinitione praedicta. quia ibi ponitur 
+            <lb ed="#V" n="102"/>mortale, vt dicit conditionem naturae. sed sic im 
+            <lb ed="#V" n="103"/>mortale non posset esse nisi per gratiam. Adhuc 
+            <lb ed="#V" n="104"/>autem dato, quod sine gratia homo mortalis fie¬ 
+            <lb ed="#V" n="105"/>ret immortalis. quia post resurrectionem etiam 
+            <lb ed="#V" n="106"/>mali quaerent mortem, &amp; non inuenient; non 
+            <lb ed="#V" n="107"/>propter hoc directe caderet a dicta diffinitione 
+            <lb ed="#V" n="108"/>quia homo dissinitur, quod est anmmal mortale 
+            <lb ed="#V" n="109"/>supple naturaliter: &amp; supposito motu caeli, qui 
+            <lb ed="#V" n="110"/>tunc cessabit. Propter quod oportebit cessare cor¬ 
+            <lb ed="#V" n="111"/>ruptionem, &amp; mortem hominum, quia cessabit 
+            <lb ed="#V" n="112"/>generatio, &amp; propagatio ipsorum. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m037657-Dd1e957">
+          <head xml:id="Gi9qrR-m037657-Hd1e959">Articulus 2</head>
+          <p xml:id="Gi9qrR-m037657-d1e961">
+            <lb ed="#V" n="113"/>ARTIC. II. 
+            <lb ed="#V" n="114"/>An Adae corpus fuerit passibile. 
+            <lb ed="#V" n="115"/>Conclusio est negatiua.
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e970">
+            <lb ed="#V" n="116"/>Dm. 1p. 47 art. 1Et,. sent d19 qa1 at3 nt 4 a1 q1ar 
+            <lb ed="#V" n="117"/>aVur. d. 19.d. 4. Gert.  n. &amp;a 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e977">
+            <lb ed="#V" n="118"/>SECVNDO quaeritur: Vtrum Adam ha¬ 
+            <lb ed="#V" n="119"/>buerit corpus passibile. Et videtiea 
+            <lb ed="#V" n="120"/>sic. quia cum haberet corpus indi¬ 
+            <lb ed="#V" n="121"/>Sens alimentis, quia in dormiende 
+            <!--133.xml-->
+            <pb ed="#V" n="133"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vigorantur naturalia ad melius digerendum, vt 
+            <lb ed="#V" n="2"/>cibos melius digereret dormiebat, sed secundum 
+            <lb ed="#V" n="3"/>qua Philosophum: Somnus est quaedam passio, &amp; im¬ 
+            <lb ed="#V" n="4"/>mobilitatio organorum sentiendi: ergo &amp;c.
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1003">
+            <lb ed="#V" n="5"/>Praeterea non solum somnus est qua dam pas¬ 
+            <lb ed="#V" n="6"/>sio, sed ipsum sentire est quoddam pati. Cum er¬ 
+            <lb ed="#V" n="7"/>go corpus Adae sentiret per suos sensus: conse¬ 
+            <lb ed="#V" n="8"/>quens est, quod patiebatur, &amp; erat quid passibile. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1015">
+            <lb ed="#V" n="9"/>Praeterea in omni nutritione est quaedam de¬ 
+            <lb ed="#V" n="10"/>perditio humidi, &amp; quaedam deperditio membro 
+            <lb ed="#V" n="11"/>rum, quia si non esset ibi deperditio in partibu¬ 
+            <lb ed="#V" n="12"/>corporis nutriti, non oporteret, quod esset ibi restau¬ 
+            <lb ed="#V" n="13"/>ratio, &amp; illud corpus non indigeret alimentis, sed 
+            <lb ed="#V" n="14"/>haec non possunt esse sine passione. ergo &amp; c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1031">
+            <lb ed="#V" n="15"/>Praeterea corpora superiora sunt causa mo¬ 
+            <lb ed="#V" n="16"/>tuum corporum inferiorum, sed hoc non est si¬ 
+            <lb ed="#V" n="17"/>ne passione: cum ergo corpus Adae esset suble¬ 
+            <lb ed="#V" n="18"/>ctum motui coeli: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1042">
+            <lb ed="#V" n="19"/>Praeterea si molle obuiet duro, non erit sine pas¬ 
+            <lb ed="#V" n="20"/>sione ipsius mollis. sed corpus Adae erat molle, 
+            <lb ed="#V" n="21"/>&amp; poterat obuiare duro: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1051">
+            <lb ed="#V" n="22"/>IN CONTRNRIVM est, quia secundum Philo¬ 
+            <lb ed="#V" n="23"/>&amp; sophum, omnis passio magis facta abiicit a substam 
+            <lb ed="#V" n="24"/>tia: si ergo corpus Adae fuisset passibile: illa pas¬ 
+            <lb ed="#V" n="25"/>sio magis facta abiiceret a substantia, &amp; ex hoc 
+            <lb ed="#V" n="26"/>Adam potuislet mori: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1064">
+            <lb ed="#V" n="27"/>Praeterea corpus Adae erat nobilius omnibus 
+            <lb ed="#V" n="28"/>alijs corporibos hic inserius, sed nobilius non pa¬ 
+            <lb ed="#V" n="29"/>ritur ab ignobiliori: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1073">
+            <lb ed="#V" n="30"/>RESOLVTO 
+            <lb ed="#V" n="31"/>Ada corpur in fatu tinotetia passone porsectua, 
+            <lb ed="#V" n="32"/>non autem poenali, passibise erat. Nam deperdi¬ 
+            <lb ed="#V" n="33"/>tio ipsa humidi radicalis, ob rationcm, quam ha¬ 
+            <lb ed="#V" n="34"/>bebat, &amp; ob diuinum instinctum, famem non effe¬ 
+            <lb ed="#V" n="35"/>cisset, nec mortem, nec poenam nllam ei cibis in¬ 
+            <lb ed="#V" n="36"/>digenti atrulisset. 
+            
+            <lb ed="#V" n="37"/>Rrsrorprodieenquu q uihiuouituregitet 
+            <lb ed="#V" n="38"/>duplex passio. Iuxta dictum Philosophi in 7. Phy¬ 
+            <lb ed="#V" n="39"/>sicorum. Nam communiter loquendo omnis receptio est 
+            <lb ed="#V" n="40"/>quaedam passio, quia ecuemu Philosophum ipsum re¬ 
+            <lb ed="#V" n="41"/>cipere est quoddam pati, secundum quem modum loquenm 
+            <lb ed="#V" n="42"/>di ois creatura est passibilis, quia cum nulla crea¬ 
+            <lb ed="#V" n="43"/>tura sit actus purus, quaelibet creatura est recepti¬ 
+            <lb ed="#V" n="44"/>bilis alicuius superioris influentiae. Ipsi etiam Angeli¬ 
+            <lb ed="#V" n="45"/>superiores recipiunt influentias illuminationum a 
+            <lb ed="#V" n="46"/>Deo, &amp; per eas illuminant inferiores Angelos. 
+            <lb ed="#V" n="47"/>sed vete quo talis receptio non proprie poffit dici pas¬ 
+            <lb ed="#V" n="48"/>sio, cum sit ad magnam recipientis perfectionem. 
+            <lb ed="#V" n="49"/>Vnde Philosophus in 7. vult. quod non sit passio illa 
+            <lb ed="#V" n="50"/>receptio, quae est dispositio perfecti ad optimum. 
+            <lb ed="#V" n="51"/>Dicemus ergo, vt communiter dicitur, quod licet lar¬ 
+            <lb ed="#V" n="52"/>ge omnis receptio possit vocari passio, &amp; omnis 
+            <lb ed="#V" n="53"/>mutatio possit dici passio, tamen quando illa re¬ 
+            <lb ed="#V" n="54"/>ceptio est ad perfectionem, &amp; ad bonum: proprie 
+            <lb ed="#V" n="55"/>non debet dici passio. Sed quando est ad nocu¬ 
+            <lb ed="#V" n="56"/>mentum, &amp; ad malum, tunc proprie meretur no¬ 
+            <lb ed="#V" n="57"/>men passionis. Cum ergo quis sanatur, &amp; recipit 
+            <lb ed="#V" n="58"/>sanitatem, non debet dici proprie, quod patiatur, sed 
+            <lb ed="#V" n="59"/>cam quis infirmatur, &amp; declnat id cgutudinem 
+            <!--133.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>etiam proprie loquendo debet dici, quod pa¬ 
+            <lb ed="#V" n="61"/>iatur. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1150">
+            <lb ed="#V" n="62"/>Ex hac autem distinctione a Philosopho sum 
+            <lb ed="#V" n="63"/>pta respondent scripta communia ad quaestio¬ 
+            <lb ed="#V" n="64"/>nem propositam, quod corpus Adae in statu inno¬ 
+            <lb ed="#V" n="65"/>centiae erat passibile modo, quo dicitur aliquid 
+            <lb ed="#V" n="66"/>pati: prout mouetur ad suum perfectum, quod 
+            <lb ed="#V" n="67"/>est valde large loqui de passione. sed non erat pas¬ 
+            <lb ed="#V" n="68"/>sibile, prout passio est motus, vel mutatio ad ali¬ 
+            <lb ed="#V" n="69"/>quod detrimentum. sed cum corpus Adae esset 
+            <lb ed="#V" n="70"/>animal, &amp; indigens cibis ab ommi passione etiam, 
+            <lb ed="#V" n="71"/>quae importat aliquod detrimentum, ipsum a¬ 
+            <lb ed="#V" n="72"/>mouere non possumus. Nam cum ideo fiat nutri¬ 
+            <lb ed="#V" n="73"/>mentum ex alimentis ad restaurandum deperdi¬ 
+            <lb ed="#V" n="74"/>tum, &amp; ad restaurandum humidum radicale de¬ 
+            <lb ed="#V" n="75"/>pastum a calido naturali, quod ipsa deperditio non 
+            <lb ed="#V" n="76"/>sit vere, &amp; proprie passio, &amp; non importet ali¬ 
+            <lb ed="#V" n="77"/>quod detrimentum, saluare non possumus. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1187">
+            <lb ed="#V" n="78"/>Dicemus ergo, quod corpus Adae ex illa deperdi¬ 
+            <lb ed="#V" n="79"/>tione poterat dici passibile, sed ex illa passione 
+            <lb ed="#V" n="80"/>non poterat mori, quia non poterat abiicere a 
+            <lb ed="#V" n="81"/>substantia. Ex illa etiam passione non poterat sen¬ 
+            <lb ed="#V" n="82"/>tire nec poenam, nec dolorem, quia nunquam 
+            <lb ed="#V" n="83"/>fuisset tanta in statu innocentiae, quod posset causa¬ 
+            <lb ed="#V" n="84"/>re dolorem, vel poenam. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1205">
+            <lb ed="#V" n="85"/>Sed dices quando sumebat alimentum, aut fa¬ 
+            <lb ed="#V" n="86"/>mescebat, aut non; si famescebat, hoc non erat si¬ 
+            <lb ed="#V" n="87"/>ne poena. Si sumebat non famellcus, non uideba¬ 
+            <lb ed="#V" n="88"/>tur esse sine culpa, quod non famelicus, &amp; non indi¬ 
+            <lb ed="#V" n="89"/>gens cibis sumat cibos. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1218">
+            <lb ed="#V" n="90"/>Ad quod dici potest, quod inter esse famelicum, 
+            <lb ed="#V" n="91"/>&amp; esse plenum non indigentem cibis est dare me¬ 
+            <lb ed="#V" n="92"/>dium, uidelicet quando est facta aliqua deperditio¬ 
+            <lb ed="#V" n="93"/>in membris, quod indigant restauratione, &amp; cibo; 
+            <lb ed="#V" n="94"/>tamen illa non est deperditio tanta, quod acue¬ 
+            <lb ed="#V" n="95"/>ret, vel adgeneraret famemn, quae est quaedam: poena¬ 
+            <lb ed="#V" n="96"/>Ideo dixerunt aliqui, &amp; concordant cum Magi¬ 
+            <lb ed="#V" n="97"/>stro in sequen. dist. quod Adam semper praeue¬ 
+            <lb ed="#V" n="98"/>nisset tempus famis, id est sumpsisset cibum an¬ 
+            <lb ed="#V" n="99"/>re, quam esset facta tanta deperditio, quod inde 
+            <lb ed="#V" n="100"/>generaretur sames. Sed dices: Quomodo hoc co¬ 
+            <lb ed="#V" n="101"/>gnouisset Adam: 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1247">
+            <lb ed="#V" n="102"/>Ad quod possumus respondere per verba, quae 
+            <lb ed="#V" n="103"/>tangit Philosophus in de bona fortuna, cum quae¬ 
+            <lb ed="#V" n="104"/>rit unde est, quod sunt aliqu bene fortunati. Ad quod 
+            <lb ed="#V" n="105"/>respondet, quod Deus mouet naturam totam, &amp; 
+            <lb ed="#V" n="106"/>facit quo sdam impetus in omnibus tam rationa¬ 
+            <lb ed="#V" n="107"/>libus, quam irrationalibus. Et addit, quod istos 
+            <lb ed="#V" n="108"/>impetus magis percipiunt irrationabisia, quam 
+            <lb ed="#V" n="109"/>rationalia. Vnde uidemus aliqua irrationalia sa¬ 
+            <lb ed="#V" n="110"/>cere quaedam opera artis, quae non ex doctrina, 
+            <lb ed="#V" n="111"/>sed ex solo naturali initinctu faciunt, vt hirundo 
+            <lb ed="#V" n="112"/>sic facit nidum, &amp; aranea sic telam ex solo na¬ 
+            <lb ed="#V" n="113"/>turali instinctu, quod omnino assimilantur 
+            <lb ed="#V" n="114"/>operibus artis. quod inde est, quod irratio¬ 
+            <lb ed="#V" n="115"/>nalia hoc magis percipiunt, quia non dedita ra¬ 
+            <lb ed="#V" n="116"/>tioni, nec retardata ab illo motu, vel ab impetu, 
+            <lb ed="#V" n="117"/>vi, uel occupatione rationis, magis percipiunt istos 
+            <lb ed="#V" n="118"/>instinctus, &amp; istos impetus naturales, &amp; ponit 
+            <lb ed="#V" n="119"/>Philosophus exemplum de caecis, quod  melius me¬ 
+            <lb ed="#V" n="120"/>morantur de his, quo audiunt, quo videntes, quia vt 
+            <lb ed="#V" n="121"/>vulgariter dicitur, Pluribus intentus minor cst ad 
+            <!--134.xml-->
+            <pb ed="#V" n="134"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>singula sensus. videntes ergo dediti uisibilibus, &amp; 
+            <lb ed="#V" n="2"/>audibilibus non ita memorantur de audibilibus, 
+            <lb ed="#V" n="3"/>sicut ceci, qui non valentes videre ad sola audibi¬ 
+            <lb ed="#V" n="4"/>lia sunt intenti. &amp; sicut videmus bestias non de¬ 
+            <lb ed="#V" n="5"/>ditas rationi, magis percipere impetus natura¬ 
+            <lb ed="#V" n="6"/>les: Sic inter ipsos homines, simplices non sic in¬ 
+            <lb ed="#V" n="7"/>tenti, &amp; attenti circa ea, quae sunt rationis, magis 
+            <lb ed="#V" n="8"/>percipiunt istos impetus diuinos, &amp; instinctus na¬ 
+            <lb ed="#V" n="9"/>turales, quo faciunt sapientes, vt ex hoc dicantur be¬ 
+            <lb ed="#V" n="10"/>ne fortunati. Quilibet enim experitur in seipso, quod 
+            <lb ed="#V" n="11"/>cum habet aliquid facere, &amp; occurrunt sibi diuer 
+            <lb ed="#V" n="12"/>sae viae, &amp; aliquando ab squd aliqua ratione dictat 
+            <lb ed="#V" n="13"/>sibi cor, &amp; habet quendam impetum mouentem 
+            <lb ed="#V" n="14"/>cor. quod vna via est melior, quam alia, &amp; tenet iliam 
+            <lb ed="#V" n="15"/>viam, &amp; accidit sibi melius. Propter quod in 
+            <lb ed="#V" n="16"/>Scriptura sacra dicitur: Et cum simplicibus ser¬ 
+            <lb ed="#V" n="17"/>mocinatio eius, id est Dei, quod eteam naturaliter po¬ 
+            <lb ed="#V" n="18"/>test accidere, vt patet per habita quantum ad in¬ 
+            <lb ed="#V" n="19"/>stinctus, &amp; impetus naturales, qui quamuis secun¬ 
+            <lb ed="#V" n="20"/>dum Philosophum sint a Deo mouente naturam 
+            <lb ed="#V" n="21"/>totam, tamen melius eos percipiunt simplices, quad 
+            <lb ed="#V" n="22"/>sapientes. Ideo dicit Philosophus diffiniendo bo¬ 
+            <lb ed="#V" n="23"/>nam fortunam, quod est sine ratione natura. Ille ergo, 
+            <lb ed="#V" n="24"/>qui habet talem naturam, quod melius percipit istos 
+            <lb ed="#V" n="25"/>impetus, &amp; instinctus naturales, &amp; secundum istos 
+            <lb ed="#V" n="26"/>agit, nesciens assignare aliquam rationem, quare 
+            <lb ed="#V" n="27"/>sic agit, sed ex solo impetu cordis mouetur ad sic 
+            <lb ed="#V" n="28"/>agendum: erit bene fortunatus, quia semper isti¬ 
+            <lb ed="#V" n="29"/>impetus, &amp; instinctus naturales sunt ad bonum, 
+            <lb ed="#V" n="30"/>cum sunt a Deo. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1364">
+            <lb ed="#V" n="31"/>Sed quamuis dicat Philosophus, quod ex non da¬ 
+            <lb ed="#V" n="32"/>re se rationi. est magis istos impetus percipere. Si¬ 
+            <lb ed="#V" n="33"/>cut ex non dare se uisibilibus, est habere maiorem 
+            <lb ed="#V" n="34"/>memoriam de auditis. Possumus tamen dicere 
+            <lb ed="#V" n="35"/>hoc magis factum esse ex peccato, &amp; ex depraua¬ 
+            <lb ed="#V" n="36"/>tione naturae, &amp; ex amissione illius innocentiae pri¬ 
+            <lb ed="#V" n="37"/>mitiuae, quo ex non intendere rationi. omnino eni. cre¬ 
+            <lb ed="#V" n="38"/>dendum est, quod huiusmodi impetus a Deo factos, 
+            <lb ed="#V" n="39"/>&amp; istos instinctus naturales melius percepisset 
+            <lb ed="#V" n="40"/>Adam in illo statu innocentiae, qua aliqua irratio¬ 
+            <lb ed="#V" n="41"/>nalia. Vnde si aliqua irrationalia ex naturali in¬ 
+            <lb ed="#V" n="42"/>stinctu faciunt opera sua, &amp; cognoscunt aliquas 
+            <lb ed="#V" n="43"/>medicinales herbas, &amp; comedunt, secundum quod 
+            <lb ed="#V" n="44"/>expedit complexio ni corporis, &amp; cognoscumnm her¬ 
+            <lb ed="#V" n="45"/>bas nociuas, quas respuunt, &amp; ex naturali instin¬ 
+            <lb ed="#V" n="46"/>ctu cognoscunt, quid est sequendum, quid fugiem 
+            <lb ed="#V" n="47"/>dum: Vt agnus naturali instinctu fugit lupum, &amp; se 
+            <lb ed="#V" n="48"/>quitur matrem, quis de hoc, nunquo fuerit edoctus 
+            <lb ed="#V" n="49"/>a matre. Istos ergo instinctus naturales, &amp; istos 
+            <lb ed="#V" n="50"/>impetus diuinos magis cognouisset Adam in statu¬ 
+            <lb ed="#V" n="51"/>innocentiae, quo aliqua irrationalia. Nequaquam ta¬ 
+            <lb ed="#V" n="52"/>ium men est praetermittendum, Adam in illo statu, si 
+            <lb ed="#V" n="53"/>perseuerasset, habuisset non solum generales im¬ 
+            <lb ed="#V" n="54"/>petus, &amp; instinctus, secundum quos Deus mouet 
+            <lb ed="#V" n="55"/>naturam totam, sed etiam speciales, secundum quos spe¬ 
+            <lb ed="#V" n="56"/>cialiter mouisset hoies, &amp; fecisset in eis impetum ad 
+            <lb ed="#V" n="57"/>bonum, &amp; ad ea, quae essent eis agenda, si perstitis¬ 
+            <lb ed="#V" n="58"/>sent in illa innocentia, vt loquimur modo, quo 
+            <lb ed="#V" n="59"/>ioquitur Apostolus: Nunquid de bobus cura est 
+            <lb ed="#V" n="60"/>Deo: Certum est quod de bobus, &amp; de omnibus ani¬ 
+            <lb ed="#V" n="61"/>malibus est Deo quaedam cura generalis. Sed non 
+            <lb ed="#V" n="62"/>est de eis illa cura specialis, quam habet de homi¬ 
+            <!--134.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>nibus. Sic Deus etiam in statu innocentie, &amp; etiam in pi¬ 
+            <lb ed="#V" n="64"/>hoc statu facit impetus gnales in omnibus, &amp; prae¬ 
+            <lb ed="#V" n="65"/>ter istos impetus gneales facit impetus speciales in 
+            <lb ed="#V" n="66"/>hominibus, sed in statu naturae corruptae non ita¬ 
+            <lb ed="#V" n="67"/>pcipiunt istos impetus homines, sicut pcepissent 
+            <lb ed="#V" n="68"/>i statu naturae istitutae, &amp; plures tunc habuissent ho¬ 
+            <lb ed="#V" n="69"/>mines de instinctibus istis, quam nunc habeant. 
+            <lb ed="#V" n="70"/>Adam ergo, &amp; ex rotene, quam habebat, &amp; ex instin¬ 
+            <lb ed="#V" n="71"/>ctu diuino, sic se habuisset ad esum, quod non expe¬ 
+            <lb ed="#V" n="72"/>ctasset tantam deperditionem humidi radicalis, quo 
+            <lb ed="#V" n="73"/>fuisset ex hoc ad generata in eo fames. praeuenisset 
+            <lb ed="#V" n="74"/>ergo tempus famis, sed non tempus cuiuscunque 
+            <lb ed="#V" n="75"/>deperditionis. Erat ergo suum corpus aliquo modo 
+            <lb ed="#V" n="76"/>passibile, etiam antequam peccasset, sed non ea passione, 
+            <lb ed="#V" n="77"/>qua posset incurrere non solum mortem, sed etiam nec 
+            <lb ed="#V" n="78"/>dolorem, vel poenam. Cum en. ponant Sancti ipsum in¬ 
+            <lb ed="#V" n="79"/>diguisse cibis, quod sine aliqua deperditione hu¬ 
+            <lb ed="#V" n="80"/>midi radicalis esse non poterat. quo deperditio vere 
+            <lb ed="#V" n="81"/>poterat dici passio, &amp; ex hoc corpus Adae pote¬ 
+            <lb ed="#V" n="82"/>rat dici passibile, cui passioni per cibum poterat 
+            <lb ed="#V" n="83"/>leuiter subueniri. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1487">
+            <lb ed="#V" n="84"/>RESP. AD ARG. Ad primum dicendum, aliquos 
+            <lb ed="#V" n="85"/>dixisse, quod Adam in illo statu non dormiuisset, sed cum 
+            <lb ed="#V" n="86"/>hoc, nec auctoritate, nec rotnene firmari possit, vt 
+            <lb ed="#V" n="87"/>conter dicitur; Ideo probabilius tenetur, quodor¬ 
+            <lb ed="#V" n="88"/>miuisset, sed cum somnus possit accidere, vel ex cam 
+            <lb ed="#V" n="89"/>naturali, vt ex euaporatione ciborum, &amp; ex humi¬ 
+            <lb ed="#V" n="90"/>ditate cerebri, vel ex cam innaturali, ut ex nimio la¬ 
+            <lb ed="#V" n="91"/>bore: accidisset somnus in Adam pro illo statu non 
+            <lb ed="#V" n="92"/>ex causa innaturali, sed naturali, &amp; ille somnus non 
+            <lb ed="#V" n="93"/>fuisset proprie passio, quia non fuisset ad detri¬ 
+            <lb ed="#V" n="94"/>mentum, sed ad profectum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1513">
+            <lb ed="#V" n="95"/>Ad secundum dicendum, quod sentire est quoddam pa¬ 
+            <lb ed="#V" n="96"/>ti, sed non passione, quao sit ad detrimentum, sed ad 
+            <lb ed="#V" n="97"/>profectum, cum dati sint nobis sensus, ut deseruiat no¬ 
+            <lb ed="#V" n="98"/>bis ad duplicem profectum: videlicet ad necessita¬ 
+            <lb ed="#V" n="99"/>tem uitae, &amp; ad scientiam Propter quod dicit Philo¬ 
+            <lb ed="#V" n="100"/>sophus in principio Meta. quod pteter ullam necessitatem 
+            <lb ed="#V" n="101"/>vite diligimus sensus, &amp; maxime illum, quo est per visum. 
+            <lb ed="#V" n="102"/>quia plures rerum differentias nobis demonsttat, dd 
+            <lb ed="#V" n="103"/>si aliquod sentire vere facit nobis nocumentum, 
+            <lb ed="#V" n="104"/>vt si irreuerberatis oculis per nimiam horam re¬ 
+            <lb ed="#V" n="105"/>spiceremus solem, &amp; si ad corpus nimis calidum 
+            <lb ed="#V" n="106"/>applicaremus manum, lesionem sentiremus. Ata¬ 
+            <lb ed="#V" n="107"/>libus ergo sensibilibus, quae possent eum laedere, 
+            <lb ed="#V" n="108"/>Adam cauisset sibi: tam ratione, qua erat prae¬ 
+            <lb ed="#V" n="109"/>ditus, quam naturalibus instinctibus, quibus 
+            <lb ed="#V" n="110"/>erat dotatus. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1550">
+            <lb ed="#V" n="111"/>Ad tertium dicendum, quod in nutritione est pas¬ 
+            <lb ed="#V" n="112"/>sio ratione deperditionis, sed illi passioni leuiter 
+            <lb ed="#V" n="113"/>subueniebatur per cibum, &amp; Adam tam rotene, v 
+            <lb ed="#V" n="114"/>naturali instinctu, non permisisset illam deperdi¬ 
+            <lb ed="#V" n="115"/>tionem tantam esse, quod posset non solum abiicere 
+            <lb ed="#V" n="116"/>a substantia, vt dicebatur, sed necetiam generare 
+            <lb ed="#V" n="117"/>dolorem, vel poenam. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1568">
+            <lb ed="#V" n="118"/>Ad quartum dicendum, quod secundum Philoso¬ 
+            <lb ed="#V" n="119"/>phum in S. Motus coeli est vita in entibus. corp¬ 
+            <lb ed="#V" n="120"/>ergo Adae si fuisset subiectum motui caeli, prout 
+            <lb ed="#V" n="121"/>vita in entibus, &amp; prout facit ad conseruationem 
+            <lb ed="#V" n="122"/>perfectionem rerum inseriorum, non asiat prou¬ 
+            <lb ed="#V" n="123"/>facit detrimentum, &amp; si fuisset ei subiectum, quatun¬ 
+            <lb ed="#V" n="124"/>dlua nodieumn demnentum, quodeffs¬ 
+            <!--135.xml-->
+            <pb ed="#V" n="135"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ditio alicuius humidi ndicalis: illi semper sup¬ 
+            <lb ed="#V" n="2"/>ueniebatur per cibum, &amp; semper Adam ex ra¬ 
+            <lb ed="#V" n="3"/>tione, &amp; naturali instinctu subuenisset tali deper 
+            <lb ed="#V" n="4"/>ditioni, dum fuisset modica antequem multum cresceret. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1601">
+            <lb ed="#V" n="5"/>Ad quintum dicendum, quod Adam pro il¬ 
+            <lb ed="#V" n="6"/>lo statu cauisset sibi, ne obuiasset duris, quia ca¬ 
+            <lb ed="#V" n="7"/>uent etiam sibi bruta animalia, ne obuient ofsen¬ 
+            <lb ed="#V" n="8"/>diculis. quod si uoluntarie uoluisset se impellere 
+            <lb ed="#V" n="9"/>in rem duram, peccasset. quia fecisset contra dictamen, 
+            <lb ed="#V" n="10"/>rationis: &amp; quod dictum est de uoluntaria impul¬ 
+            <lb ed="#V" n="11"/>fione in rem duram, veritatem habet de omnibus 
+            <lb ed="#V" n="12"/>aliis voluntariis actionibus contra rationem fa¬ 
+            <lb ed="#V" n="13"/>ctis. vt si uoluisset voluntarie tantum abstinere a 
+            <lb ed="#V" n="14"/>cibo, quod fuisset inde laesum corpus, vel quodcum 
+            <lb ed="#V" n="15"/>que aliud: secisset contra dictamen rationis, &amp; 
+            <lb ed="#V" n="16"/>peccasset. sed si illa impulsio in rem duram fuis¬ 
+            <lb ed="#V" n="17"/>set violenta ab ea, &amp; ab omnibus aliis violenter 
+            <lb ed="#V" n="18"/>nociuis praeseruasset ipsum Adam diuina pro¬ 
+            <lb ed="#V" n="19"/>uidentia. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m037657-Dd1e1637">
+          <head xml:id="Gi9qrR-m037657-Hd1e1639">Articulus 3</head>
+          <p xml:id="Gi9qrR-m037657-d1e1641">
+            <lb ed="#V" n="20"/>ARTIC. III 
+            <lb ed="#V" n="21"/>An immortalitas fuerit na¬ 
+            <lb ed="#V" n="22"/>turalis. Conclusio est negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1650">
+            <lb ed="#V" n="23"/>D. Th. 2. sent. d. 19. q. 1. art. 4. D. Bon. d. 19. art. 3. q. 1. Alex. de 
+            <lb ed="#V" n="24"/>Ales 4D. q. 3. art. 1. Ric. d. 19. q. 5. Ih. Arg. d. 40. q. 
+            <lb ed="#V" n="25"/>1 art. 3. Voril. d. 19. q 3. Prul. d. 19. d. 
+            <lb ed="#V" n="26"/> Endul d. 19. q. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1661">
+            <lb ed="#V" n="27"/>TERTIO quaeritur: vtrum illa¬ 
+            <lb ed="#V" n="28"/>immortalitas Adae fuerit natu¬ 
+            <lb ed="#V" n="29"/>ralis. Et uidetur, quod sic, quia sed 
+            <lb ed="#V" n="30"/>Aug 6. super Gen. Et magister 
+            <lb ed="#V" n="31"/>recitat in littera, quod creatus est 
+            <lb ed="#V" n="32"/>prinius homo immortalis, &amp; 
+            <lb ed="#V" n="33"/>hocei praestabatur ex esu ligni vitae, sed esus ligni¬ 
+            <lb ed="#V" n="34"/>vitae erat ei naturalis: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1681">
+            <lb ed="#V" n="35"/>Praeterea naturalis rectitudo secum non com¬ 
+            <lb ed="#V" n="36"/>patitur rationem moriendi. Vnde dicitur per Sa¬ 
+            <lb ed="#V" n="37"/>2. lomonem prouerb. 11. quod iustitia liberabit a mor¬ 
+            <lb ed="#V" n="38"/>te. quandiu ergo Adam se seruabat in illa rectitu¬ 
+            <lb ed="#V" n="39"/>dine non habebat necessitarem moriendi, sed 
+            <lb ed="#V" n="40"/>hoc poterat naturaliter facere: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1698">
+            <lb ed="#V" n="41"/>Praeterea eiusdem est infundere vitam, &amp; prae¬ 
+            <lb ed="#V" n="42"/>seruare eam. sed cum anima insundat uitam cor¬ 
+            <lb ed="#V" n="43"/>pori naturaliter: ergo poterat eam praeseruare natura 
+            <lb ed="#V" n="44"/>liter, vt ex hoc esset Adae immortalitas naturalis. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1709">
+            <lb ed="#V" n="45"/>Praeterea mors contingit in animalibus ex con¬ 
+            <lb ed="#V" n="46"/>sumptione humidi. Cum ergo in Adam fieret il¬ 
+            <lb ed="#V" n="47"/>lius deperditi restauratio per esum ciborum na¬ 
+            <lb ed="#V" n="48"/>turaliter, immortalitas Adae erat sibi naturalis. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1720">
+            <lb ed="#V" n="49"/>IN CONTRARIVM est, quia Dio. 4. de di. no 
+            <lb ed="#V" n="50"/>vult, quod in ipsis Daemonibus remanserint naturalia 
+            <lb ed="#V" n="51"/>integra, &amp; splendida. sed non suit maius peccatum 
+            <lb ed="#V" n="52"/>Adae, quam ipsius Daemonis: ergo si immortali¬ 
+            <lb ed="#V" n="53"/>tas competisset Adae naturaliter, quia illa natura¬ 
+            <lb ed="#V" n="54"/>lia sibi remanserant: fuisset Adam etiam immor¬ 
+            <lb ed="#V" n="55"/>talis post peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1738">
+            <lb ed="#V" n="56"/>Praeterea naturalis diffinitio hominis est, quod sit 
+            <lb ed="#V" n="57"/>animal rationale mortale, ergo immortalitas per¬ 
+            <lb ed="#V" n="58"/>naturam non potest sibi competere. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1747">
+            <!--135.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>RESOLVTIO. 
+            <lb ed="#V" n="60"/>Ex Dei beneficio, non ex naturae conditione im¬ 
+            <lb ed="#V" n="61"/>mortalitas dae competebat. Id quod ratione pe¬ 
+            <lb ed="#V" n="62"/>riodi, inordinatiexcessus, ex calidi defectu, &amp; ex¬ 
+            <lb ed="#V" n="63"/>violentia ipsefit planum. Non tamen negandum 
+            <lb ed="#V" n="64"/>esst, immortalitatem eius naturae ipsi, ob natura¬ 
+            <lb ed="#V" n="65"/>lia, &amp; sobrietatem, aliarque conditiones naturae 
+            <lb ed="#V" n="66"/>ipsi quodammodo esse adscribendam. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1771">
+            <lb ed="#V" n="67"/>RESPONDEO dicendum, quod vt patet ex littera, 
+            <lb ed="#V" n="68"/>&amp; sunt verba Aug. super Gen. immortalitas noni 
+            <lb ed="#V" n="69"/>competebat Adae ex conditione naturae, sed ex ii 
+            <lb ed="#V" n="70"/>beneficio Creatoris. Assignant autem aliqui quin¬ 
+            <lb ed="#V" n="71"/>que modos corruptionis, contra quos subuenie¬ 
+            <lb ed="#V" n="72"/>batur Adae ex beneficio Creatoris. Vt sit primus 
+            <lb ed="#V" n="73"/>modus corruptionis rerum ex certa periodo, se¬ 
+            <lb ed="#V" n="74"/>cundum quem modum loquitur Philosophus 
+            <lb ed="#V" n="75"/>in de generatione, quod omnia mensurantur ex 
+            <lb ed="#V" n="76"/>sua periodo. Et iste modus corruptionis habet es¬ 
+            <lb ed="#V" n="77"/>se in omnibus corruptibilibus. Nam aliud est non 
+            <lb ed="#V" n="78"/>corrumpi, quia ibi est carentia principii corrup¬ 
+            <lb ed="#V" n="79"/>tiui, &amp; sic potest fieri praeseruatio a corruptione 
+            <lb ed="#V" n="80"/>per uirtutem finitam, sicut coelum est incorrup¬ 
+            <lb ed="#V" n="81"/>tibile, quia est ibi carentia contrarii, &amp; priuatio¬ 
+            <lb ed="#V" n="82"/>nis, per quae videtur materia machinariad cor¬ 
+            <lb ed="#V" n="83"/>ruptionem. Alio modo potest esse talis reserua¬ 
+            <lb ed="#V" n="84"/>tio stantibus principiis corruptionis, quod esse 
+            <lb ed="#V" n="85"/>non poterit per naturam, nisi esset natura infini¬ 
+            <lb ed="#V" n="86"/>ta, &amp; ideo secundum. quod natura rei incorruptibi¬ 
+            <lb ed="#V" n="87"/>lis est magis, &amp; minus potens, sic mensuratur il¬ 
+            <lb ed="#V" n="88"/>la res maiori, &amp; minori periodo, vt omnia habeant 
+            <lb ed="#V" n="89"/>certam periodum, &amp; certam circulationem tem¬ 
+            <lb ed="#V" n="90"/>poris suae corruptionis, vltra quam non potest 
+            <lb ed="#V" n="91"/>ire, iuxta illud: Constituisti terminos eius, qui prae¬ 
+            <lb ed="#V" n="92"/>teriri non poterunt &amp;c. Est enim aliquis termi¬ 
+            <lb ed="#V" n="93"/>nus assignatus cuilibet homini etiam naturali¬ 
+            <lb ed="#V" n="94"/>ter, ut compensata sua complexione, &amp; caeteris 
+            <lb ed="#V" n="95"/>impellentibus, &amp; retrahentibus a corruptione, vt 
+            <lb ed="#V" n="96"/>si homo comederet omnia cibaria sibi magis pro¬ 
+            <lb ed="#V" n="97"/>ficua, &amp; uterec omni sobrietate, quam posset, non 
+            <lb ed="#V" n="98"/>posset semper viuere, sed esset dare aliquem ter¬ 
+            <lb ed="#V" n="99"/>minum, &amp; aliquam reuolutionem temporis, vl¬ 
+            <lb ed="#V" n="100"/>tra quam ire non posset, &amp; hic modus est in om¬ 
+            <lb ed="#V" n="101"/>nibus corruptibilibus eo modo, quo sunt cor¬ 
+            <lb ed="#V" n="102"/>ruptibilia. Quia aliquando sunt corruptibilia se¬ 
+            <lb ed="#V" n="103"/>cundum partem, &amp; non secundum se tota: eo mo¬ 
+            <lb ed="#V" n="104"/>do, squo sunt corruptibilia, sua periodo mensurant. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1857">
+            <lb ed="#V" n="105"/>Ab hac autem corruptione praeseruabatur 
+            <lb ed="#V" n="106"/>Adam ex aliquo dono supernaturali, vt si vo¬ 
+            <lb ed="#V" n="107"/>luisset remanere in innocentia sua, nulla pe¬ 
+            <lb ed="#V" n="108"/>riodus corruptionis, vel mortis habuisset in 
+            <lb ed="#V" n="109"/>eo locum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1870">
+            <lb ed="#V" n="110"/>Secundus modus corruptionis est in rebus 
+            <lb ed="#V" n="111"/>per aliquem inordinatum excessum alicuius con¬ 
+            <lb ed="#V" n="112"/>trarii, &amp; iste modus corruptionis est in omni¬ 
+            <lb ed="#V" n="113"/>bus mixtis, quia aliquod contrariorum, quod est 
+            <lb ed="#V" n="114"/>de compositione mixti habet inordinatum ex¬ 
+            <lb ed="#V" n="115"/>cessum super alia, ut illud mixtum oporteat cor¬ 
+            <lb ed="#V" n="116"/>rumpi. contra etiam istum modum corruptio¬ 
+            <lb ed="#V" n="117"/>nis, vt communiter dicitur: praeseruabatur Adam 
+            <lb ed="#V" n="118"/>&amp;x illo eodem dono supernaturali
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1892">
+            <!--136.xml-->
+            <pb ed="#V" n="136"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Est autem &amp; tertius, &amp; quartus modus cor¬ 
+            <lb ed="#V" n="2"/>ruptionis rebus animatis, &amp; specialiter animali¬ 
+            <lb ed="#V" n="3"/>bus, qui duo modi fiunt per calidum naturale de¬ 
+            <lb ed="#V" n="4"/>pascens humidum radicale. Et dicimus hic esse 
+            <lb ed="#V" n="5"/>duos modos, quia illud humidum radicale, quod 
+            <lb ed="#V" n="6"/>depascitur a calido, potest considerari duplici¬ 
+            <lb ed="#V" n="7"/>ter. vel ut est, quid quantum: vel vt est quid qua¬ 
+            <lb ed="#V" n="8"/>le: vt autem est quid quantum, subiicitur nobis in 
+            <lb ed="#V" n="9"/>hoc statu etiam per vsum ciborum, quia potest 
+            <lb ed="#V" n="10"/>virtus nutritiua conuertere de cibis in humi¬ 
+            <lb ed="#V" n="11"/>dum radicale tantum, quantum est inde deper¬ 
+            <lb ed="#V" n="12"/>ditum, &amp; etiam plus: Vt non solum nutriatur 
+            <lb ed="#V" n="13"/>corpus nostrum per virtutem nutritiuam, sed 
+            <lb ed="#V" n="14"/>etiam, vt possit augmentari usque ad certum tem¬ 
+            <lb ed="#V" n="15"/>pus per virtutem augmentatiuam, &amp; hoc modo 
+            <lb ed="#V" n="16"/>subuenitur nobis per esum ciborum, &amp; subuenie¬ 
+            <lb ed="#V" n="17"/>batur Adae in statuinnocentiae per esum etiam alio¬ 
+            <lb ed="#V" n="18"/>rum lignorum a ligno vitae. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1940">
+            <lb ed="#V" n="19"/>Alio modo potest considerari illud humi¬ 
+            <lb ed="#V" n="20"/>dum, quod depascitur a calido: non solum, vt 
+            <lb ed="#V" n="21"/>est quid quantum, sed vt est, quid quale. &amp; hoc 
+            <lb ed="#V" n="22"/>pacto nullo modo possunt nobis subuenire ci¬ 
+            <lb ed="#V" n="23"/>bi in statu huius miseriae, quod sit tale restaura. 
+            <lb ed="#V" n="24"/>tum, &amp; ita purum, quale fuit deperditum. sed 
+            <lb ed="#V" n="25"/>Adae subueniebatur quantum ad hoc, ut dicunt 
+            <lb ed="#V" n="26"/>scripta omnia, per lignum uitae, per quod fuis¬ 
+            <lb ed="#V" n="27"/>set, vt dicta eorum sonant, tale restauratum, &amp; 
+            <lb ed="#V" n="28"/>ita purum, quale fuerat deperditum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e1964">
+            <lb ed="#V" n="29"/>Est autem &amp; quintus modus corruptionis per¬ 
+            <lb ed="#V" n="30"/>violentiam, cui, secundum sic dicentes, subuenie 
+            <lb ed="#V" n="31"/>batur Adae per diuinam prouidentiam. sed isti mi¬ 
+            <lb ed="#V" n="32"/>scent naturalia cum supernaturalibus, quia con¬ 
+            <lb ed="#V" n="33"/>tra primum modum corruptionis, qui est men¬ 
+            <lb ed="#V" n="34"/>surari periodo: &amp; contra secundum, qui est ex¬ 
+            <lb ed="#V" n="35"/>cessus inordinatus alicuius contrariorum com¬ 
+            <lb ed="#V" n="36"/>ponentium mixtum, assignant subuentionem fa¬ 
+            <lb ed="#V" n="37"/>ctam Adae per donum supernaturale: non expri¬ 
+            <lb ed="#V" n="38"/>mentes, quare fuerit illud donum. Contra autem 
+            <lb ed="#V" n="39"/>tertium, &amp; quartum modum, qui sunt depascere 
+            <lb ed="#V" n="40"/>humidum, vt est quantum, &amp; vt est quale; assignant 
+            <lb ed="#V" n="41"/>subuentionem factam Adae quasi per naturalia. quia 
+            <lb ed="#V" n="42"/>esus lignorum, siue sit lignum uitae, siue alia ligna, 
+            <lb ed="#V" n="43"/>&amp; quoruncunque ciborum: dum tamen habeamus 
+            <lb ed="#V" n="44"/>illos cibos, nobis est naturalis: nec credimus, quod 
+            <lb ed="#V" n="45"/>per solum esum ligni uitae post peccatum Adam 
+            <lb ed="#V" n="46"/>potuisset esse immortalis. Quod autem dicunt 
+            <lb ed="#V" n="47"/>de diuina prouidentia, credimus esse bene dictum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2008">
+            <lb ed="#V" n="48"/>Dicemus ergo, quod cum quaestio sit vtrum 
+            <lb ed="#V" n="49"/>immortalitas Adae fuerit naturalis, vel superna¬ 
+            <lb ed="#V" n="50"/>turalis, ad soluendum quaesitum oportet nos 
+            <lb ed="#V" n="51"/>declarare quomodo illa immortalitas fuerit na¬ 
+            <lb ed="#V" n="52"/>turalis, &amp; quomodo supernaturalis. nam secun¬ 
+            <lb ed="#V" n="53"/>dum quasdam habilitates poterat dici naturalis, 
+            <lb ed="#V" n="54"/>sed secundum perfectionem, &amp; complemen¬ 
+            <lb ed="#V" n="55"/>tum debebat dici supernaturalis. Ad cuius eui¬ 
+            <lb ed="#V" n="56"/>dentiam sciendum, quod naturalis poterat dici il¬ 
+            <lb ed="#V" n="57"/>la immortalitas propter3. naturales habilitates, 
+            <lb ed="#V" n="58"/>vt sit prima habilitas ex parte naturalis comple¬ 
+            <lb ed="#V" n="59"/>xionis. Nam malitia complexionis, &amp; quoc 
+            <lb ed="#V" n="60"/>non habeat, quis complexionem ad diu uiuen¬ 
+            <lb ed="#V" n="61"/>dum, potest contingere, vel ex indispositione¬ 
+            <lb ed="#V" n="62"/>materiae, vel ex defectu alicuius principii natu¬ 
+            <!--136.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>ralis, vel &amp;x inordinata excellentia alicuius ele¬ 
+            <lb ed="#V" n="64"/>menti contrarii, vt si semen non inueniat men¬ 
+            <lb ed="#V" n="65"/>struum bene dispositum: non poterit ibi indu¬ 
+            <lb ed="#V" n="66"/>cere propter indispositionem materiae comple¬ 
+            <lb ed="#V" n="67"/>xionem bonam aequalem, &amp; temperatam qualem 
+            <lb ed="#V" n="68"/>requirit humana natura ad diu viuendum: vel si 
+            <lb ed="#V" n="69"/>semen, quod se habet, vt principium actiuum, sit 
+            <lb ed="#V" n="70"/>defectiuum, &amp; debiles non habebit sufficiens do¬ 
+            <lb ed="#V" n="71"/>minium supra menstruum, quod est materia: vn¬ 
+            <lb ed="#V" n="72"/>de fit foerus. Propter quod non poterit ipsum be¬ 
+            <lb ed="#V" n="73"/>ne complexionare, vt ipse soetus ex hoc diutius vi¬ 
+            <lb ed="#V" n="74"/>uat. Tertio si sit ibi inordinata excellentia alicu¬ 
+            <lb ed="#V" n="75"/>ius elementi contrarii, vtputa si dominetur ibi¬ 
+            <lb ed="#V" n="76"/>calor ignis: faciet foetum ita colericum, quod non 
+            <lb ed="#V" n="77"/>poterit diu viuere, sed Deus per seipsum ex li¬ 
+            <lb ed="#V" n="78"/>mo terrae formauit corpus Adae: cuius operatio¬ 
+            <lb ed="#V" n="79"/>nem non poterat impedire indispositio materiae, 
+            <lb ed="#V" n="80"/>nec desectus, vel debilitas alicuius principii agen¬ 
+            <lb ed="#V" n="81"/>tis, cum per seipsum hoc ageret, nec inordinata 
+            <lb ed="#V" n="82"/>excellentia alicuius contrarii, cum omnia sibi obe¬ 
+            <lb ed="#V" n="83"/>diant ad nutum: omnino censendum est Adam 
+            <lb ed="#V" n="84"/>habuisse corpus ualde naturaliter complexionatum 
+            <lb ed="#V" n="85"/>ad diu uiuendum. Non tamen, vt ex hoc dicere 
+            <lb ed="#V" n="86"/>tur simpliciter naturaliter immortalis, sed vt ha¬ 
+            <lb ed="#V" n="87"/>beret quandam aptitudinem, &amp; habilitatem, vt 
+            <lb ed="#V" n="88"/>per donum supernaturale immortalitatem reci¬ 
+            <lb ed="#V" n="89"/>peret, sicut &amp; habentes bona naturalia facilius se 
+            <lb ed="#V" n="90"/>quuntur Deum uocantem eos ad gratiam. &amp; eo¬ 
+            <lb ed="#V" n="91"/>dem enim impetu facto a Deo illuminabitur 
+            <lb ed="#V" n="92"/>Angelus superior, &amp; non inferior. &amp; quia toto 
+            <lb ed="#V" n="93"/>conatu se habuerunt Angeli respectu gratiae ha¬ 
+            <lb ed="#V" n="94"/>bentes meliora naturalia, ampliorem susceperunm 
+            <lb ed="#V" n="95"/>gratiam. bona ergo naturalia in Adam, ut diu vi. 
+            <lb ed="#V" n="96"/>ueret, erat quaedam habilitas, vt per donum super 
+            <lb ed="#V" n="97"/>naturale superuiueret, ut bonitas naturalium di¬ 
+            <lb ed="#V" n="98"/>catur quaedam habilitas ad bona supernaturalia. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2126">
+            <lb ed="#V" n="99"/>Secundo fuit quaedam habilitas in Adam &amp; 
+            <lb ed="#V" n="100"/>parte naturalium instinctuum. Nam illi instin¬ 
+            <lb ed="#V" n="101"/>ctus, &amp; illi impetus naturales, facti a Deo genera¬ 
+            <lb ed="#V" n="102"/>liter in naturam totam, multum uigebant in At 
+            <lb ed="#V" n="103"/>dam, in quo non solum erant isti impetus natu¬ 
+            <lb ed="#V" n="104"/>rales generales, sed etiam erant in eo impetus 
+            <lb ed="#V" n="105"/>speciales: &amp; peristos impetus, &amp; instinctus, quos 
+            <lb ed="#V" n="106"/>habebat naturaliter, per quos Deus mouet natu¬ 
+            <lb ed="#V" n="107"/>ram totam &amp; specialiter mouebat naturam Adae 
+            <lb ed="#V" n="108"/>poterar cognoscere, quando debebat sumere ci¬ 
+            <lb ed="#V" n="109"/>bos, &amp; quantum, ut etiam ex hoc habilis ad diu¬ 
+            <lb ed="#V" n="110"/>viuendum naturaliter esset etiam habilis, vt reci¬ 
+            <lb ed="#V" n="111"/>peret immortalitatem per donum supernatura¬ 
+            <lb ed="#V" n="112"/>le, siue supernaturaliter. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2159">
+            <lb ed="#V" n="113"/>Tertio quidem aderat sibi ex naturali sobriet 
+            <lb ed="#V" n="114"/>te. Nam Adam ex bonitate suae complexionis ha¬ 
+            <lb ed="#V" n="115"/>bebat quandam sobrietatem naturalem, vt ex hoc 
+            <lb ed="#V" n="116"/>haberet naruraliter habilitatem ad din viuendum, 
+            <lb ed="#V" n="117"/>&amp; esset magis aptus ad donum supernaturale, &amp; 
+            <lb ed="#V" n="118"/>ad immortalitatem recipiendum. Possumus au¬ 
+            <lb ed="#V" n="119"/>rem &amp; quartum modum habilitatis assignare ex ci¬ 
+            <lb ed="#V" n="120"/>bis, &amp; alijs lignis generaliter. Et quintum ex ll¬ 
+            <lb ed="#V" n="121"/>gno uitae specialiter. Nam tunc in statu innocen¬ 
+            <lb ed="#V" n="122"/>tiae quaelibet ligna, a quibus non erat Adam pre¬ 
+            <lb ed="#V" n="123"/>hibitus, erant ita bona ad nescendum, vt &amp;x esu¬ 
+            <lb ed="#V" n="124"/>eorum etiam naturali fieret etiam humana 
+            <!--137.xml-->
+            <pb ed="#V" n="137"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>uita multum longaeua, &amp; specialiter hoc habebat 
+            <lb ed="#V" n="2"/>lignum uitae, quod erat tante bonitatis ad uescen¬ 
+            <lb ed="#V" n="3"/>dum, vt vescens eo, valde diu viueret: tamen sine 
+            <lb ed="#V" n="4"/>dono supernaturali, licet ista potuissent confer¬ 
+            <lb ed="#V" n="5"/>re Adae, longe, &amp; diu viuere, tamen omnia ista 
+            <lb ed="#V" n="6"/>simul congregata non poterant ei conferre sem¬ 
+            <lb ed="#V" n="7"/>per viuere. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2209">
+            <lb ed="#V" n="8"/>Et si inueniantur aliqua dicta Sanctorum, quae 
+            <lb ed="#V" n="9"/>videantur hoc sonare. iuxta illud Aug. 6. super 
+            <lb ed="#V" n="10"/>Gen. Quia prestabatur Adae de ligno vitae, a quo 
+            <lb ed="#V" n="11"/>separatus est, cum peccasset, ut posset mori, qui nisi 
+            <lb ed="#V" n="12"/>peccasset, posset non mori. Separatus ergo fuit 
+            <lb ed="#V" n="13"/>Adam a ligno uitae, vt posset mori. quia propter 
+            <lb ed="#V" n="14"/>peccatum non solum fuit dignus mori, sed etiam ci¬ 
+            <lb ed="#V" n="15"/>to mori, &amp; peccans non solum fuit indignus sem¬ 
+            <lb ed="#V" n="16"/>per viuere, sed etiam fuit indignus diu uiuere, vt 
+            <lb ed="#V" n="17"/>ex hoc prohiberetur a ligno vitae. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2233">
+            <lb ed="#V" n="18"/>Vel possumus, si uolumus, illud uerbum Gen. 
+            <lb ed="#V" n="19"/>3. Nunc ergo ne forte mittat manum suam, &amp; su¬ 
+            <lb ed="#V" n="20"/>mat de ligno uitae, &amp; comedat, &amp; uiuat in aeternum 
+            <lb ed="#V" n="21"/>esse dictum ironice, sicut &amp; illud dictum est ironi¬ 
+            <lb ed="#V" n="22"/>ce: Ecce Adam factus est quasi unus ex nobis 
+            <lb ed="#V" n="23"/>sciens bonum, &amp; malum: &amp; maxime cum unum 
+            <lb ed="#V" n="24"/>istorum in Gen. statim sequatur ad aliud. Nam 
+            <lb ed="#V" n="25"/>quia sic deceperat eos Daemon dicens: Nequa¬ 
+            <lb ed="#V" n="26"/>quam moriemini, sed eritis, sicut Dii scientes bo¬ 
+            <lb ed="#V" n="27"/>num, &amp; malum. Ideo derisorie dictum est ei: Fa¬ 
+            <lb ed="#V" n="28"/>ctus est quasi Deus. sic &amp; derisorie potest dici si¬ 
+            <lb ed="#V" n="29"/>bi fuisse dictum, quod si comederet de ligno vitae, vi¬ 
+            <lb ed="#V" n="30"/>ueret in eternum, quia tunc naturaliter competis¬ 
+            <lb ed="#V" n="31"/>set ei immortalitas, cum uti cibis sit naturale, quod 
+            <lb ed="#V" n="32"/>est contra Aug. in o. quod Adam mortalis erat 
+            <lb ed="#V" n="33"/>conditione corporis animalis: immortalis benefi¬ 
+            <lb ed="#V" n="34"/>cio Conditoris. Immortalitas quoque Adae ex quadam 
+            <lb ed="#V" n="35"/>hilitate poterat esse per naturam, sed secundum perse¬ 
+            <lb ed="#V" n="36"/>ctionem, &amp; complementum erat per donum su¬ 
+            <lb ed="#V" n="37"/>pernaturale, &amp; ex beneficio Creatoris. Nam nun 
+            <lb ed="#V" n="38"/>quam actus actiuorum sunt, nisi in patiente, &amp; di¬ 
+            <lb ed="#V" n="39"/>sposito: ut non recipitur gratia, nisi in anima di¬ 
+            <lb ed="#V" n="40"/>spositi ad gratiam, &amp; non recipiebatur illud do¬ 
+            <lb ed="#V" n="41"/>num supernaturale, per quod Adam reddebat im¬ 
+            <lb ed="#V" n="42"/>mortalis, nisi in natura Adae ad hoc habili, &amp; di¬ 
+            <lb ed="#V" n="43"/>sposita ad aliquam habilitatem, etiam immortali¬ 
+            <lb ed="#V" n="44"/>tatem habuisset Adam ex natura. perfectionem au¬ 
+            <lb ed="#V" n="45"/>tem, &amp; complementum ex dono supernaturali, vel¬ 
+            <lb ed="#V" n="46"/>ex beneficio Creatoris. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2298">
+            <lb ed="#V" n="47"/>His habitis restat ostendere quomodo ex do¬ 
+            <lb ed="#V" n="48"/>no supernaturali, &amp; ex beneficio Creatoris Adam 
+            <lb ed="#V" n="49"/>habebat immortalitatem: prout requirebat ille¬ 
+            <lb ed="#V" n="50"/>status perfecte, &amp; completiue. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2309">
+            <lb ed="#V" n="51"/>Aduertendum ergo, quod omnis mors, vel est natu¬ 
+            <lb ed="#V" n="52"/>ralis, vel est uiolenta, morte autem naturali desende¬ 
+            <lb ed="#V" n="53"/>ibatur Adam per donum supernaturale, quod erat 
+            <lb ed="#V" n="54"/>originalis iustitia. Illud autem donum dicebatur 
+            <lb ed="#V" n="55"/>iustitia originalis. Nam dicebatur iustitia, quia quan¬ 
+            <lb ed="#V" n="56"/>diu Adam non peccasset, &amp; fuisset subiectus Deo 
+            <lb ed="#V" n="57"/>superiori suo, omnia inferiora in eo fuissent su¬ 
+            <lb ed="#V" n="58"/>biecta suo superiori, uel suis superioribus. Haec est 
+            <lb ed="#V" n="59"/>enim quaedam iustitia, &amp; quedam equitas, vt di¬ 
+            <lb ed="#V" n="60"/>cebatur de Comite, quod quandiu vult esse subie¬ 
+            <lb ed="#V" n="61"/>ctus Regi, quod Rex hoc agat, ut omnes sui sub¬ 
+            <lb ed="#V" n="62"/>diti sint subiecti sibi. Sic quandiu Adam non re¬ 
+            <!--137.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>bellasset suo superiori, nihil in eo rebellasset suo 
+            <lb ed="#V" n="64"/>superiori. &amp; quia corpus est inferius anima, nun¬ 
+            <lb ed="#V" n="65"/>quam rebellasset animae, &amp; numquam insurrexisset 
+            <lb ed="#V" n="66"/>in corpore: nec egritudo, nec aliqua alia conditio, 
+            <lb ed="#V" n="67"/>per quam oporteret animam recedere a corpore 
+            <lb ed="#V" n="68"/>Adae, vel oporteret ex hoc mori Adam: &amp; hoc facie¬ 
+            <lb ed="#V" n="69"/>bat illud donum supernaturale, &amp; illa iustitia, quo ve¬ 
+            <lb ed="#V" n="70"/>re iustitia erat, quia iustum est inferiora superiori¬ 
+            <lb ed="#V" n="71"/>bus esse subiecta. Dicebatur etiam illud donum esse 
+            <lb ed="#V" n="72"/>iustitia originalis, vel quia ab origine habuit Adam 
+            <lb ed="#V" n="73"/>illud donum, vel illam iustitiam, quia anima Adae fuit si¬ 
+            <lb ed="#V" n="74"/>bi infusa cum tali iustitia, vel poterat dici origi¬ 
+            <lb ed="#V" n="75"/>nalis, quia illam iustitiam Adam in suos posteros pe¬ 
+            <lb ed="#V" n="76"/>originem transsudisset, non quta animae sint ex tra¬ 
+            <lb ed="#V" n="77"/>duce, ut quod anima filii Adae sumvraducta abanima¬ 
+            <lb ed="#V" n="78"/>patris. sed sicut peccatum originale transfundi¬ 
+            <lb ed="#V" n="79"/>tur in filios a parentibus, quia cum filii sint con¬ 
+            <lb ed="#V" n="80"/>cepti in libidine, &amp; habeant quasi carnem immum 
+            <lb ed="#V" n="81"/>dam, &amp; maculatam, Deus illi carni maculatae in¬ 
+            <lb ed="#V" n="82"/>sundit animam, cum carentia originalis iustitiae, 
+            <lb ed="#V" n="83"/>per quam carentiam cum debito habendi dici¬ 
+            <lb ed="#V" n="84"/>tur filius contrahere originale peccatum: sic quia 
+            <lb ed="#V" n="85"/>in statu innocentiae suisset conceptio filiorum 
+            <lb ed="#V" n="86"/>sine libidine, &amp; caro eorum fuisset concepta, &amp; 
+            <lb ed="#V" n="87"/>munda, &amp; immaculata: cui carni sic mundae, &amp; im¬ 
+            <lb ed="#V" n="88"/>maculatae Deus infudisset animam cum origina¬ 
+            <lb ed="#V" n="89"/>li iustitia: ut sicut nunc propter maculam carnis 
+            <lb ed="#V" n="90"/>conceptae dicitur traduci originale peccatum, sic 
+            <lb ed="#V" n="91"/>tunc propter munditiam carnis conceptae fuis¬ 
+            <lb ed="#V" n="92"/>set dicta traduci originalis iustitia. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2408">
+            <lb ed="#V" n="93"/>Postquam diximus quomodo saluatus fuisset 
+            <lb ed="#V" n="94"/>Adam a morte naturali, quia hoc fuisset benefi¬ 
+            <lb ed="#V" n="95"/>cio Creatoris per illam originalem iustitiam. Re¬ 
+            <lb ed="#V" n="96"/>stat dicere quo fuisset saluatus a morte uiolen¬ 
+            <lb ed="#V" n="97"/>ta, beneficio Creatoris, quia hoc fuisset per diu¬ 
+            <lb ed="#V" n="98"/>nam prouidentiam: ergo diuina prouidentia sal¬ 
+            <lb ed="#V" n="99"/>uasset Adam a morte uiolenta: Originalis au¬ 
+            <lb ed="#V" n="100"/>tem iustitia a morte naturali. Videtur tamen Au¬ 
+            <lb ed="#V" n="101"/>gust 8. super Gen. ligno uitae, ut possent per esum¬ 
+            <lb ed="#V" n="102"/>eius homines non mori, superaddere latentem 
+            <lb ed="#V" n="103"/>diuinam operationem. Vnde ait: Illud quoque ad 
+            <lb ed="#V" n="104"/>do, quanquam corporalem cibum talem, tamen¬ 
+            <lb ed="#V" n="105"/>illam arborem, id est lignum uitae prestitisse, quo 
+            <lb ed="#V" n="106"/>corpus hominis sanitate stabili firmaretur: non 
+            <lb ed="#V" n="107"/>sicut ex alio cibo, sed nonnulla inspiratione salu¬ 
+            <lb ed="#V" n="108"/>britatis occulta, ut ex hoc tria occurrerent ad im¬ 
+            <lb ed="#V" n="109"/>mortalitatem Adae: Originalis iustitia, Dei inspi¬ 
+            <lb ed="#V" n="110"/>ratio, Vel operatio in esu ligni vite occulta, qua 
+            <lb ed="#V" n="111"/>saluarent Adam a morte naturali, &amp; diuina pro¬ 
+            <lb ed="#V" n="112"/>uidentia, quae saluaret ipsum a uiolenta, 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2454">
+            <lb ed="#V" n="113"/>RESP. AD ARO. Ad primum dicendum, 
+            <lb ed="#V" n="114"/>quod, ut patet per habita, esus ligni uitae non suf¬ 
+            <lb ed="#V" n="115"/>secisset ad semper uiuere, licet forte suffecisset 
+            <lb ed="#V" n="116"/>ad diu uiuere, sine Dei operatione occulta, vel 
+            <lb ed="#V" n="117"/>sine originali iustitia. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2467">
+            <lb ed="#V" n="118"/>Ad secundum dicendum, quod naturalis rectitu¬ 
+            <lb ed="#V" n="119"/>do non sinebat in Adam esse necessitatem mo¬ 
+            <lb ed="#V" n="120"/>riendi, propter originalem iustitiam, quae comi¬ 
+            <lb ed="#V" n="121"/>tabatur illam rectitudinem naturalem. quia quam 
+            <lb ed="#V" n="122"/>diu fuisset subiectus Deo: corpus fuisset subie 
+            <lb ed="#V" n="123"/>ctum animae, ut nunquam esset ibi machinatio ac 
+            <lb ed="#V" n="124"/>maleficium, perquod expellerer anima a corpore, 
+            <!--138.xml-->
+            <pb ed="#V" n="138"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; necessitaretur Adam mori per separationem 
+            <lb ed="#V" n="2"/>animae. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2496">
+            <lb ed="#V" n="3"/>Ad tertium dicendum, quod anima infundit vitam 
+            <lb ed="#V" n="4"/>corpori naturaliter: quandiu est dispositum ad re¬ 
+            <lb ed="#V" n="5"/>cipiendum illum influxum vitae, sed per aegritudi¬ 
+            <lb ed="#V" n="6"/>nem, vel per uiolentiam, vel per radicalis humi¬ 
+            <lb ed="#V" n="7"/>di consumptionem illud corpus, quod erat di¬ 
+            <lb ed="#V" n="8"/>spositum ad suscipiendum influxum vitae, &amp; quod 
+            <lb ed="#V" n="9"/>erat locus naturalis animae, quandiu fuisset tale, 
+            <lb ed="#V" n="10"/>tandiu infudisset sibi anima vitam: sed factum sic 
+            <lb ed="#V" n="11"/>indispositum efficitur locus animae innaturalis: 
+            <lb ed="#V" n="12"/>propter quod anima non potest sibi plus infun¬ 
+            <lb ed="#V" n="13"/>dere vitam, &amp; cogitur inde recedere, sicut a loco¬ 
+            <lb ed="#V" n="14"/>innaturali. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2525">
+            <lb ed="#V" n="15"/>Ad quartum dicendum, quod in Adam per esum 
+            <lb ed="#V" n="16"/>cuiuscunque ligni non: fuisset facta. restauratio 
+            <lb ed="#V" n="17"/>humiditatis ita pura, sicut fuerat deperdita, nisi 
+            <lb ed="#V" n="18"/>per Dei operationem occultam, vel per origina¬ 
+            <lb ed="#V" n="19"/>lem iustitiam. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m037657-Dd1e2539">
+          <head xml:id="Gi9qrR-m037657-Hd1e2541">Articulus 4</head>
+          <p xml:id="Gi9qrR-m037657-d1e2543">
+            <lb ed="#V" n="20"/>ARTIC. IIII. 
+            <lb ed="#V" n="21"/>An in statu innocentie, Adae im¬ 
+            <lb ed="#V" n="22"/>mortalitas fuerit eadem cum 
+            <lb ed="#V" n="23"/>imimnortalitate resurgentium. 
+            <lb ed="#V" n="24"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2556">
+            <lb ed="#V" n="25"/>Dm, fent d. 19 q. 1. att. 3. Dpon d4. 1, ar. 4. Rie 4. 19. 
+            <lb ed="#V" n="26"/>qG. Alex. de Ale. 4. p. q. 3 4rt 3. Etul. d. 19. d.6 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2563">
+            <lb ed="#V" n="27"/>QVARTO quaeritur vtrum immor 
+            <lb ed="#V" n="28"/>talitas Adae in statu innocentiae 
+            <lb ed="#V" n="29"/>fuerit eadem cum immortali¬ 
+            <lb ed="#V" n="30"/>tate resurgentium in statu glo¬ 
+            <lb ed="#V" n="31"/>riae. Et videtur, quod non per di¬ 
+            <lb ed="#V" n="32"/>ctum Aug. &amp; habetur a Magi¬ 
+            <lb ed="#V" n="33"/>stro in littera, quia alia est immortalitas carnis, quod 
+            <lb ed="#V" n="34"/>in Adam accepimus: &amp; alia, quam in resurrectio 
+            <lb ed="#V" n="35"/>ne speramus per Christum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2585">
+            <lb ed="#V" n="36"/>Praeterea ab immortalitate, quam habebas 
+            <lb ed="#V" n="37"/>Adam, transisset, si non peccasset, ad immortalita¬ 
+            <lb ed="#V" n="38"/>tem resurgentium. sed non transitur ab eodem in 
+            <lb ed="#V" n="39"/>idem: ergo alia immortalitas innocentiae, quae in¬ 
+            <lb ed="#V" n="40"/>cepit in Adam, &amp; alia immortalitas resurgen¬ 
+            <lb ed="#V" n="41"/>tium, ad quam, si non peccasset, fuisset sine morte 
+            <lb ed="#V" n="42"/>translatus. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2604">
+            <lb ed="#V" n="43"/>Praeterea, quae sunt ex alio, &amp; alio principio, 
+            <lb ed="#V" n="44"/>sunt aliud, &amp; aliud. sed immortalitas resurgen¬ 
+            <lb ed="#V" n="45"/>tium, ad quam iuisset translatus Adam, &amp; immor¬ 
+            <lb ed="#V" n="46"/>talitas innocentiae, in qua fuit constitutus causa¬ 
+            <lb ed="#V" n="47"/>batur ex alio, &amp; alio principio: ergo &amp;c. Assum¬ 
+            <lb ed="#V" n="48"/>pta autem per se patet. quia immortalitas inno¬ 
+            <lb ed="#V" n="49"/>centiae causabatur ex originali iustitia, sed immor¬ 
+            <lb ed="#V" n="50"/>talitas resurgentium causabatur ex gratia consum¬ 
+            <lb ed="#V" n="51"/>mata, siue ex gloria. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2626">
+            <lb ed="#V" n="52"/>Praeterea ubi non est eadem impassibilitas, non 
+            <lb ed="#V" n="53"/>est eadem immortalitas. sed in Adam, &amp; in resur¬ 
+            <lb ed="#V" n="54"/>gentibus non est eadem impassibilitas, quia Adam 
+            <lb ed="#V" n="55"/>habebat aliquo modo corpus passibile: cum indi¬ 
+            <lb ed="#V" n="56"/>geret cibis, &amp; fieret in eo vera deperditio ex con¬ 
+            <!--138.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="57"/>sumptione humidi radicalis per calidum natura¬ 
+            <lb ed="#V" n="58"/>le. Resurgentes autem non habebunt aliquo mo¬ 
+            <lb ed="#V" n="59"/>do corpus passibile: ergo &amp;e. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2650">
+            <lb ed="#V" n="60"/>IN CONTRARIVM est, quia immortalitas in 
+            <lb ed="#V" n="61"/>Adam videbatur sequi libertatem arbitrij, quia 
+            <lb ed="#V" n="62"/>videbatur Adam pro suo libertatis arbitrio posse 
+            <lb ed="#V" n="63"/>peccare, &amp; non peccare, &amp; peccando posse mori: 
+            <lb ed="#V" n="64"/>non peccando non posse mori. sed cum idem sit 
+            <lb ed="#V" n="65"/>liberum arbitrium in resurgentibus, &amp; in Adam: 
+            <lb ed="#V" n="66"/>ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2668">
+            <lb ed="#V" n="67"/>Praeterea eadem potentia, quae prius disposita 
+            <lb ed="#V" n="68"/>habilitatur ad rem aliquam, postea necessitatur 
+            <lb ed="#V" n="69"/>ad rem illam. ut ignis calefaciendo habilitat rem, 
+            <lb ed="#V" n="70"/>vt fiat ignis, sed tantum potest augmentari illa ca¬ 
+            <lb ed="#V" n="71"/>lefactio, quod de necessitate fiat ignis, sic &amp; in pro¬ 
+            <lb ed="#V" n="72"/>positio in statu innocentiae fuit habilitata natu¬ 
+            <lb ed="#V" n="73"/>ra humana ad immortalitatem. quia poterat mo¬ 
+            <lb ed="#V" n="74"/>ri, &amp; non mori. sed in statu resurgentium erit illa 
+            <lb ed="#V" n="75"/>potentia, &amp; illa natura necessitata, quia proillo¬ 
+            <lb ed="#V" n="76"/>statu impossibile erit mori, vel necesse erit non 
+            <lb ed="#V" n="77"/>mori. sed cum non sit aliud, &amp; aliud, sed unum, 
+            <lb ed="#V" n="78"/>&amp; idem, quod primo habilitatur, &amp; postea ne¬ 
+            <lb ed="#V" n="79"/>cessitatur: non erit alia, &amp; alia immortalitas 
+            <lb ed="#V" n="80"/>haec, &amp; illa. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2701">
+            <lb ed="#V" n="81"/>RESOLVTIO. 
+            <lb ed="#V" n="82"/>Adae immortalitas, vt habet esse cum gaudio: &amp; 
+            <lb ed="#V" n="83"/>ea, quae resitrgentium erit, est eadem, sed altera. 
+            <lb ed="#V" n="84"/>te. Hinc quatuor differt modis: quantum ad mo¬ 
+            <lb ed="#V" n="85"/>dum: quantum ad cuusam, quantum adpersectio¬ 
+            <lb ed="#V" n="86"/>nem, &amp; quantum ad locum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2717">
+            <lb ed="#V" n="87"/>RESPONDEO dicendum, quod prima triaar. 
+            <lb ed="#V" n="88"/>gumenta videntur omnino maniseste conclude¬ 
+            <lb ed="#V" n="89"/>re, quod immortalitas innocentiae, &amp; resurgentium non 
+            <lb ed="#V" n="90"/>sit eadem: tum quia immortalitas haec, &amp; illa est 
+            <lb ed="#V" n="91"/>alia. &amp; alia. quia immortalitas innocentiae est 
+            <lb ed="#V" n="92"/>posse non mori: immortalitas vero resurgentium 
+            <lb ed="#V" n="93"/>est non posse mori. Multum enim differunt, &amp; 
+            <lb ed="#V" n="94"/>multum diuersificantur posse non mori, &amp; non 
+            <lb ed="#V" n="95"/>posse mori: tum etiam, quia non per idem, sed per¬ 
+            <lb ed="#V" n="96"/>aliud, &amp; aliud est immortalitas haec, &amp; illa. quia in 
+            <lb ed="#V" n="97"/>innocentia fuit immortalitas per originalem iu¬ 
+            <lb ed="#V" n="98"/>stitiam; resurgentium vero erit per gloriam. cum 
+            <lb ed="#V" n="99"/>&amp; tertio: quia de una fuisset transitus ad aliam, si 
+            <lb ed="#V" n="100"/>Adam non peccasset. Sed nunquam est enim tram¬ 
+            <lb ed="#V" n="101"/>situs de eodem in idem, sed de alio in aliud, iuxta 
+            <lb ed="#V" n="102"/>illud Crego. Mutari enim, de alio in aliud ire est. 
+            <lb ed="#V" n="103"/>Sed has rationes non est difficile soluere. Nam pos¬ 
+            <lb ed="#V" n="104"/>se non mori, quod fuit in statu innocentiae, &amp; non 
+            <lb ed="#V" n="105"/>posse mori, quod erit in statu gloriae: non dicunt 
+            <lb ed="#V" n="106"/>aliam, &amp; aliam immortalitatem, sed dicunt vnam, 
+            <lb ed="#V" n="107"/>&amp; eandem habitam imperfecte, &amp; persecte. In 
+            <lb ed="#V" n="108"/>vtroque enim statu suisset eadem immortalitas d es 
+            <lb ed="#V" n="109"/>eadem perpetua coniunctio animae, &amp; corporis, 
+            <lb ed="#V" n="110"/>sed in ssatu innocentie erat immortalitas illa im¬ 
+            <lb ed="#V" n="111"/>persecta. quia poterat Adam peccare, &amp; per pec¬ 
+            <lb ed="#V" n="112"/>catum tolli. in statu glorie erit perfecta, quia beati 
+            <lb ed="#V" n="113"/>non poterunt peccare, &amp; non poterunt per pec¬ 
+            <lb ed="#V" n="114"/>catum immortalitatem perdere. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2781">
+            <lb ed="#V" n="115"/>Quod vero addebatur de originali iustitia, &amp; 
+            <!--139.xml-->
+            <pb ed="#V" n="139"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>de gratia consummata: non arguit, quod sitalia, 
+            <lb ed="#V" n="2"/>&amp; alia immortalitas una, quam alia. quia vtraque¬ 
+            <lb ed="#V" n="3"/>est perpetua coniunctio animae cum corpore, ta¬ 
+            <lb ed="#V" n="4"/>men ex alia, &amp; alia causa. Erat enim haec immor¬ 
+            <lb ed="#V" n="5"/>talitas in statu innocentiae per originalem iustitiam, 
+            <lb ed="#V" n="6"/>sed erit in statu gloriae per gratiam consummatam. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2805">
+            <lb ed="#V" n="7"/>Quod ulterius addebatur tertio, quod non 
+            <lb ed="#V" n="8"/>itur ab eodem in idem: immo patet, quod potest 
+            <lb ed="#V" n="9"/>esse transitus ab eodem in idem: dum tamem vnum 
+            <lb ed="#V" n="10"/>sit perfectum, &amp; aliud imperfectum, vt de imper 
+            <lb ed="#V" n="11"/>fecte calido itur ad perfecte calidum: sic de im¬ 
+            <lb ed="#V" n="12"/>mortalitate imperfecta, quae erat in statu innocenm 
+            <lb ed="#V" n="13"/>tiae, transisset Adam, si non peccasset, ad immorta¬ 
+            <lb ed="#V" n="14"/>litatem perfectam, qnae erit in statu gloriae. Vt er¬ 
+            <lb ed="#V" n="15"/>go hec manisestius appareant; dicemus, quod semp¬ 
+            <lb ed="#V" n="16"/>vnadendum est de re aliqua quid importetur per 
+            <lb ed="#V" n="17"/>eam, vt quid importetur per mortem, &amp; quid per¬ 
+            <lb ed="#V" n="18"/>immortalitatem. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2834">
+            <lb ed="#V" n="19"/>Cum ergo secundum Aug. 3. Confes. 1. Deu¬ 
+            <lb ed="#V" n="20"/>im sit uita animae: Et cum anima sit uita corporis: 
+            <lb ed="#V" n="21"/>nihil est aliud mors animae, nisi separatio ani¬ 
+            <lb ed="#V" n="22"/>mae a Deo: &amp; nihil est aliud mors corporis, 
+            <lb ed="#V" n="23"/>nisi separatio eius ab anima. erit ergo immor¬ 
+            <lb ed="#V" n="24"/>talitas corporis, &amp; per consequens immortalitas 
+            <lb ed="#V" n="25"/>hominis, vt est compositum ex anima &amp; corpore¬ 
+            <lb ed="#V" n="26"/>perpetua coniunctio animae cum corpore. Potest 
+            <lb ed="#V" n="27"/>enim mors corporis fieri multis de causis, &amp; mul¬ 
+            <lb ed="#V" n="28"/>tis modis, sic &amp; immortalitas hominis, uel 
+            <lb ed="#V" n="29"/>corporis potest fieri multis de causis, &amp; multis 
+            <lb ed="#V" n="30"/>modis: tamen semper erit idem hoc, &amp; illud. vt 
+            <lb ed="#V" n="31"/>qualitercunque separatur anima a corpore, dice 
+            <lb ed="#V" n="32"/>tur homo mori: &amp; qualitercunque sit semper con¬ 
+            <lb ed="#V" n="33"/>iuncta, dicetur immortalis. Quantum ergo ad mor¬ 
+            <lb ed="#V" n="34"/>tem istam, quae est in statu miseriae, possumus assi¬ 
+            <lb ed="#V" n="35"/>gnare triplicem modum, &amp; multiplicem causam 
+            <lb ed="#V" n="36"/>o mortis. Est enim in morte triplex modus, sicut 
+            <lb ed="#V" n="37"/>tripliciter extinguitur candela, vel per violen¬ 
+            <lb ed="#V" n="38"/>tiam, vt per ventum: Vel per suffocationem, vt si 
+            <lb ed="#V" n="39"/>apponatur cornu: vel aliud concauum super ip¬ 
+            <lb ed="#V" n="40"/>sam, vt non possit exhalare: Vel per consumptionem 
+            <lb ed="#V" n="41"/>humidi, vt olei, vel cerae. Sic tripliciter moritur 
+            <lb ed="#V" n="42"/>homo, vel per violentiam, vt per truncationem 
+            <lb ed="#V" n="43"/>capitis, vel per aliam violentiam, seu per suffoca¬ 
+            <lb ed="#V" n="44"/>tionem, quia suffocatur cor non valens respirare. 
+            <lb ed="#V" n="45"/>vel per consumptionem humidi radicalis, licet 
+            <lb ed="#V" n="46"/>ista consumptio, quantum ad aliquid sit alio mo¬ 
+            <lb ed="#V" n="47"/>sdo, quam consumptio olei in lucerna. Et quantum 
+            <lb ed="#V" n="48"/>ad aliquid sit eodem modo, sed hoc esset longum 
+            <lb ed="#V" n="49"/>pertractare. Et licet sint assignati tres modi mor¬ 
+            <lb ed="#V" n="50"/>tis, tamen vnus, &amp; idem illorum modorum po¬ 
+            <lb ed="#V" n="51"/>test fieri multis de causis: vt potest quis mori sus¬ 
+            <lb ed="#V" n="52"/>focatus, vel suspendio, vel morbo, vel ad littora 
+            <lb ed="#V" n="53"/>per suffocationem aquae. Nam ideo moritur quis 
+            <lb ed="#V" n="54"/>per suspendium, quia suspensus non valens res¬ 
+            <lb ed="#V" n="55"/>pirare, suffocatur cor: &amp; morbo, vt plurimum mo¬ 
+            <lb ed="#V" n="56"/>ritur, quis suffocatus, quia materia morbi accedit 
+            <lb ed="#V" n="57"/>ad cor, &amp; suffocat ipsum. Diximus autem hoc es¬ 
+            <lb ed="#V" n="58"/>se, vt plurimum, propter thysicos, qui moriuntur 
+            <lb ed="#V" n="59"/>ex consumptione humidi, sicut moriuntur senes. 
+            <lb ed="#V" n="60"/>Et quanuis sit in hoc aliqua similitudo mortis thi¬ 
+            <lb ed="#V" n="61"/>sicorum, &amp; senum: magna tamen est differentia 
+            <lb ed="#V" n="62"/>mortis horum, &amp; illorum. sic etiam moftui sub¬ 
+            <!--139.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>aquis ex suffocatione moriuntur, quia vt non pos¬ 
+            <lb ed="#V" n="64"/>sunt respirare, suffocatur cor quibuscunque tamen¬ 
+            <lb ed="#V" n="65"/>de causis fiat mors, hoc tamen formaliter erit: 
+            <lb ed="#V" n="66"/>Mors separatio animae a corpore Potest ergoesse 
+            <lb ed="#V" n="67"/>vna mors ex vna causa, &amp; alia per alium modum, 
+            <lb ed="#V" n="68"/>quam alia, &amp; magis cita, vel magis tarda quam 
+            <lb ed="#V" n="69"/>alia; tamen mors per se, &amp; essentialiter semper di¬ 
+            <lb ed="#V" n="70"/>cet vnum, &amp; idem, videlicet separationem animae 
+            <lb ed="#V" n="71"/>a corpore: &amp; quod dictum est de morte, possu¬ 
+            <lb ed="#V" n="72"/>mus dicere de immortalitate. vt sicut mors potest 
+            <lb ed="#V" n="73"/>fieri multis modis, &amp; multis de causis: &amp; potest 
+            <lb ed="#V" n="74"/>vna esse magis cita, &amp; alia magis tarda: sic &amp; im¬ 
+            <lb ed="#V" n="75"/>mortalitas potest habere esse pluribus modis, &amp; 
+            <lb ed="#V" n="76"/>pluribus de causis. Et quod dicebamus de morte¬ 
+            <lb ed="#V" n="77"/>quod una potest esse magis cita, &amp; alia magis tarda, 
+            <lb ed="#V" n="78"/>dicemus de immortalitate, quod vna potest esse im¬ 
+            <lb ed="#V" n="79"/>persecta, &amp; alia perfecta: tamen sicut nomine mor¬ 
+            <lb ed="#V" n="80"/>tis semper importatur idem, vt separatio animae 
+            <lb ed="#V" n="81"/>a corpore; sic nomine immortalitatis semper im¬ 
+            <lb ed="#V" n="82"/>portatur idem, vt perpetua coniunctio animae 
+            <lb ed="#V" n="83"/>cum corpore. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e2982">
+            <lb ed="#V" n="84"/>Cum ergo quaeritur: Vtrum suerit eadem im¬ 
+            <lb ed="#V" n="85"/>mortalitas innocentiae, quam habuit Adam, cum 
+            <lb ed="#V" n="86"/>immortalitate resurgentium, quam omnes expe¬ 
+            <lb ed="#V" n="87"/>ctamus pe Christum; Dicemus, quod una im mortali¬ 
+            <lb ed="#V" n="88"/>tas differt ab alia quantum ad modum, quantum ad camm, 
+            <lb ed="#V" n="89"/>&amp; quantum ad esse imperfectum, &amp; persectum. vt im¬ 
+            <lb ed="#V" n="90"/>mortalitas innocentiae suit per hunc modum, quia 
+            <lb ed="#V" n="91"/>Adam poterat non mori. sed immortalitas resui¬ 
+            <lb ed="#V" n="92"/>gentium erit per alium modum, quia resurgentes 
+            <lb ed="#V" n="93"/>non poterunt mori. Secundo immortalitas haec, 
+            <lb ed="#V" n="94"/>&amp; illa habet esse per aliam, &amp; aliam causam. quia 
+            <lb ed="#V" n="95"/>causa immortalitatis innocentiae suit originalis iu 
+            <lb ed="#V" n="96"/>stitia Causa immortalitatis resurgentium erit gra¬ 
+            <lb ed="#V" n="97"/>tia consummata, siue gloria. Differt, &amp; tertio im¬ 
+            <lb ed="#V" n="98"/>mortalitas haec, &amp; illa secundum esse imperfectum 
+            <lb ed="#V" n="99"/>&amp; perfectum. Quia immortalitas innocentiae erat 
+            <lb ed="#V" n="100"/>imperfecta, erat enim posse non mori, cum qua 
+            <lb ed="#V" n="101"/>stabat etiam posse mori. propter quod illa im 
+            <lb ed="#V" n="102"/>mortalitas habebat aliquo modo mortalitatem 
+            <lb ed="#V" n="103"/>admixtam. Quia licet esset immortalitas ex eo, qo 
+            <lb ed="#V" n="104"/>Adam poterat non mori, poterat etiam dici moi 
+            <lb ed="#V" n="105"/>talitas ex eo, quod poterat mori: &amp; ex hoc erat im¬ 
+            <lb ed="#V" n="106"/>mortalitas imperfecta. vt sicut est aliquid imper 
+            <lb ed="#V" n="107"/>cte calidum, quia habet aliquid admixtum de fri¬ 
+            <lb ed="#V" n="108"/>gido: sic tandiu est aliquid immortale imperfecte 
+            <lb ed="#V" n="109"/>quandiu habet aliquid ad mixtum de mortalita 
+            <lb ed="#V" n="110"/>te. Erat ergo illa immortalitas innocentiae impe¬ 
+            <lb ed="#V" n="111"/>fecta propter admixtionem mortalitatis. sed im¬ 
+            <lb ed="#V" n="112"/>mortalitas resurgentium erit perfecta propter 
+            <lb ed="#V" n="113"/>expoliationem, &amp; separationem ab omni morta 
+            <lb ed="#V" n="114"/>litate quia resurgentes ita poterunt non mori, quod 
+            <lb ed="#V" n="115"/>nullo modo poterunt mori. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3054">
+            <lb ed="#V" n="116"/>Aduertendum tamen, quod hic accipitur immor 
+            <lb ed="#V" n="117"/>talitas non quocunque modo, sed vt habet esse cum 
+            <lb ed="#V" n="118"/>gaudio, quia immortalitas resurgentium, vt exten¬ 
+            <lb ed="#V" n="119"/>dit se ad omnes, habebit esse ex cessatione motus 
+            <lb ed="#V" n="120"/>coeli: sed, vt habet esse cum gaudio, vt in beatis, sit 
+            <lb ed="#V" n="121"/>erit per gratiam consummatam, vel per habitum 
+            <lb ed="#V" n="122"/>gloriae. tamen immortalitas ex quacunque causa 
+            <lb ed="#V" n="123"/>&amp; quocunque modo esse habeat, est perpetua cor¬ 
+            <lb ed="#V" n="124"/>iunctio animae, &amp; corporis: siue sit hoc cum nad 
+            <!--140.xml-->
+            <pb ed="#V" n="140"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dio, vt erit in beatis, siue cum poena, vt in damna 
+            <lb ed="#V" n="2"/>tis, semp dicetur immortalitas perpetua coniun¬ 
+            <lb ed="#V" n="3"/>ctio animae, &amp; corporis, ex quibus constituitur 
+            <lb ed="#V" n="4"/>homo. Verum quia ex modo loquendi nostro con 
+            <lb ed="#V" n="5"/>iunctio animae, &amp; corporis cum poena dicitur im¬ 
+            <lb ed="#V" n="6"/>.mortalitas, quia sic existentes immortales magis 
+            <lb ed="#V" n="7"/>vellent mori, quam viuere, &amp; quaerent mortem, 
+            <lb ed="#V" n="8"/>&amp; non inuenient. ideo illa immortalitas mors vo¬ 
+            <lb ed="#V" n="9"/>cari posset. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3102">
+            <lb ed="#V" n="10"/>Qui ergo vellet ipsum gaudium beatorum vo¬ 
+            <lb ed="#V" n="11"/>care immortalitatem, recte diceret, quod vere erit, 
+            <lb ed="#V" n="12"/>im mortalitas ex coniunctione eius cum Deo, 
+            <lb ed="#V" n="13"/>qui est vita ipsorum. sicut poenam damnatorum 
+            <lb ed="#V" n="14"/>vocamus mortem propter separationem eorum 
+            <lb ed="#V" n="15"/>a Deo, qui si fuissent boni, fuisset ipsorum vita, 
+            <lb ed="#V" n="16"/>esse cum Deo. Vnde in Scriptura sacra, poena dam¬ 
+            <lb ed="#V" n="17"/>natorum, siue sit animarum separatarum, siue con 
+            <lb ed="#V" n="18"/>positorum, appellatur mors secunda: vt mors pri¬ 
+            <lb ed="#V" n="19"/>mo sumptalyt communiter loquuntur homines 
+            <lb ed="#V" n="20"/>de morte sit separatio animae a corpore. sed ex 
+            <lb ed="#V" n="21"/>hoc primo modo loquendi uenit secundus mo¬ 
+            <lb ed="#V" n="22"/>dus, vt dicatur mors separatio animae a Deo. lo¬ 
+            <lb ed="#V" n="23"/>quendo ergo primo mon: eadem fuit immortalitas 
+            <lb ed="#V" n="24"/>innocentie cum immortalitate, quod erit resurgentium, 
+            <lb ed="#V" n="25"/>differens tripliciter, vt dictum est, quantum ad mo¬ 
+            <lb ed="#V" n="26"/>dum, quantum ad causam, &amp; quantum ad perfe¬ 
+            <lb ed="#V" n="27"/>ctionem. Possumus autem assignare, &amp; quartam 
+            <lb ed="#V" n="28"/>differentiam quantum ad locum, quia illa immor¬ 
+            <lb ed="#V" n="29"/>talitas Adae fuit in Paradiso corporali: immorta¬ 
+            <lb ed="#V" n="30"/>litas resurgentium erit in Paradiso spirituali, vt 
+            <lb ed="#V" n="31"/>in ipso Deo. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3153">
+            <lb ed="#V" n="32"/>DVB. I. LATERALIS 
+            <lb ed="#V" n="33"/>An ad tres ffatus omnes modales propositiones 
+            <lb ed="#V" n="34"/>possint adaptari. Conclusio est 
+            <lb ed="#V" n="35"/>affirmatiua. 
+            <lb ed="#V" n="36"/>Idque duobus modis 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3166">
+            <lb ed="#V" n="37"/>VLTERIVS forte dubitaret aliquis, quia 
+            <lb ed="#V" n="38"/>videtur, quod propositiones moda¬
+            <lb ed="#V" n="39"/>les sint propriae illis tribus statibus: 
+            <lb ed="#V" n="40"/>videlicet innocentiae, miseriae, &amp; glo¬ 
+            <lb ed="#V" n="41"/>riae. quia in statu innocentiae. poterat homo mo¬ 
+            <lb ed="#V" n="42"/>ri, &amp; non mori. in statu gloriae impossibile erit mo¬ 
+            <lb ed="#V" n="43"/>ri: in statu miseriae necesse est mori. Ad hos ergo 
+            <lb ed="#V" n="44"/>tres status uidentur adaptari omnes modi moda 
+            <lb ed="#V" n="45"/>lium propositionum. Ideo quaeritur quomodo 
+            <lb ed="#V" n="46"/>fieri habeat. Dicendum, quod cum quatuor sint mo¬ 
+            <lb ed="#V" n="47"/>di modalium, &amp; quilibet habeat quatuor propo¬ 
+            <lb ed="#V" n="48"/>sitiones. si loco esse ponatur mori, duo modi 
+            <lb ed="#V" n="49"/>modalium cum suis propositionibus competent 
+            <lb ed="#V" n="50"/>statui innocentiae. Tertius modus statui gloriae. 
+            <lb ed="#V" n="51"/>Quartus statui miseriae. In statu enim innocentie, 
+            <lb ed="#V" n="52"/>prout Adam potuit mori, competunt sibi propo¬ 
+            <lb ed="#V" n="53"/>sitiones primi modi. Prout potuit non mori Con¬ 
+            <lb ed="#V" n="54"/>petunt sibi propositiones secundi modi. Sunt autem 
+            <lb ed="#V" n="55"/>ppositiones primi modi. Possibile est esse, contin¬ 
+            <lb ed="#V" n="56"/>git esse, Non impossibile est em, Non necesse est esse. 
+            <lb ed="#V" n="57"/>Si ergo per esse ponatu mori, prout Adam potuit mo¬ 
+            <lb ed="#V" n="58"/>ri, omnia ista nossunt dici de ipso Nam secundum 
+            <!--140.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>ilum statum verificatur hocmodo de Adam, qu 
+            <lb ed="#V" n="60"/>possibile est mori, quod contingit mori, quod non im¬ 
+            <lb ed="#V" n="61"/>possibile est mori, quod non necesse est non mori. 
+            <lb ed="#V" n="62"/>Propositiones ergo secundi modi verificabantur 
+            <lb ed="#V" n="63"/>de Adam, prout poterat non mori. Sunt autem 
+            <lb ed="#V" n="64"/>propositiones secundi modi: Possibile est non es¬ 
+            <lb ed="#V" n="65"/>se, Contingit non esse, Non impossibile est non es¬ 
+            <lb ed="#V" n="66"/>se, Non necesse est esse. si ergo loco esse ponatur 
+            <lb ed="#V" n="67"/>mori, omnia ista verificabantur de Adam, prout 
+            <lb ed="#V" n="68"/>poterat non mori, quia hoc modo possibile est ip¬ 
+            <lb ed="#V" n="69"/>sum non mori, contingit non mori, non impos¬ 
+            <lb ed="#V" n="70"/>sibile est non mori, non necesse est mori. Tertius 
+            <lb ed="#V" n="71"/>autem modus modalium cum suis propositioni¬ 
+            <lb ed="#V" n="72"/>bus competit statui gloriae. sunt autem proposi¬ 
+            <lb ed="#V" n="73"/>tiones tertii modi. Non possibile est esse: Non con 
+            <lb ed="#V" n="74"/>tingit esse, Impossibile est esse, Necesse est non es¬ 
+            <lb ed="#V" n="75"/>se. Si ergo esse ponatur pro mori, ista verificabun¬ 
+            <lb ed="#V" n="76"/>tur de quolibet homine in statu gloriae, quia quen¬ 
+            <lb ed="#V" n="77"/>libet talem hominem non possibile est mori, non 
+            <lb ed="#V" n="78"/>contingit mori, impossibile est mori, necesse est 
+            <lb ed="#V" n="79"/>non mori. Quartus vero modus cum suis propo¬ 
+            <lb ed="#V" n="80"/>sitionibus adaptabitur ad statum miseriae. sunt 
+            <lb ed="#V" n="81"/>autem propo sitiones quarti modi: Non possibile¬ 
+            <lb ed="#V" n="82"/>est non esse, Contingit non esse, Impossibile est 
+            <lb ed="#V" n="83"/>non esse, Necesse est esse. Si loco ergo esse ponatur 
+            <lb ed="#V" n="84"/>mori, verificabuntur omnia haec de quolibet ho¬ 
+            <lb ed="#V" n="85"/>mine in statu miseriae, quia quemlibet talem non 
+            <lb ed="#V" n="86"/>possibile est non mori, non contingit non mori, 
+            <lb ed="#V" n="87"/>impossibile est non mori, necesse est mori. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3283">
+            <lb ed="#V" n="88"/>Possumus &amp; alio modo adaptare istos modos 
+            <lb ed="#V" n="89"/>modalium ad praedictos tres status, vt loco esse 
+            <lb ed="#V" n="90"/>non ponatur mori, sed loco esse ponatur super 
+            <lb ed="#V" n="91"/>esse. Secundum quem modum duo primi modi 
+            <lb ed="#V" n="92"/>modalium competunt statui innocentiae, sed non 
+            <lb ed="#V" n="93"/>eodem modo sicut prius. Et alii duo modi com¬ 
+            <lb ed="#V" n="94"/>petunt alijs duobus statibus, sed non eodem mo¬ 
+            <lb ed="#V" n="95"/>do, sicut prius. statui ergo innocentiae adaptaban¬ 
+            <lb ed="#V" n="96"/>tur duo primi modi, vt Primus adaptabatur illi¬ 
+            <lb ed="#V" n="97"/>statui, prout Adam poterat mori. Secundus prout 
+            <lb ed="#V" n="98"/>poterat non mori. Nunc autem econuerso, vt si 
+            <lb ed="#V" n="99"/>pro esse accipiatur semper esse; Primus modus 
+            <lb ed="#V" n="100"/>competet statui innocentiae, prout Adam pote¬ 
+            <lb ed="#V" n="101"/>rat non mori: Et Secundus prout poterat mori. 
+            <lb ed="#V" n="102"/>Prout ergo Adam poterat non mori, verificabun¬ 
+            <lb ed="#V" n="103"/>tur de ipso propositiones primi modi, vt si acci¬ 
+            <lb ed="#V" n="104"/>piatur pro esse, semper esse; Dicemus possibile¬ 
+            <lb ed="#V" n="105"/>est Adam semper esse, contingit semper esse, non 
+            <lb ed="#V" n="106"/>impossibile est semper esse. Sed prout Adam po¬ 
+            <lb ed="#V" n="107"/>terat mori verificabuntur de eo,hoc modo pro¬ 
+            <lb ed="#V" n="108"/>positiones secundi modi; dicemus, quod possibile est 
+            <lb ed="#V" n="109"/>Adam non semper esse, contingit non semper es¬ 
+            <lb ed="#V" n="110"/>se, non impossibile est non semper esse, non ne¬ 
+            <lb ed="#V" n="111"/>cesse est semper esse. Alii vero duo modimoda¬ 
+            <lb ed="#V" n="112"/>lium verificabuntur de alijs duobus statibus, sed 
+            <lb ed="#V" n="113"/>non eodem modo. quia quando loco ipsius esse 
+            <lb ed="#V" n="114"/>accipiebamus tertium modum mori, adaptaba¬ 
+            <lb ed="#V" n="115"/>mus ad statum gloriae, vbi impossibile est homi¬ 
+            <lb ed="#V" n="116"/>nem mori: &amp; quartum modum ad statum miseriae, 
+            <lb ed="#V" n="117"/>vbi necesse est hominem non mori. Sed si volu¬ 
+            <lb ed="#V" n="118"/>mus loco esse accipere semp esse, fiet adaptatio 
+            <lb ed="#V" n="119"/>econuerso, quia tertius modus cum suis propo¬ 
+            <lb ed="#V" n="120"/>stiomnbus adapuabitur ad sutum misetae: &amp; quat 
+            <!--141.xml-->
+            <pb ed="#V" n="141"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tus ad statum gloriae. de quolibet enim homine 
+            <lb ed="#V" n="2"/>in statu miseriae dicere possumus. quod non possibi¬ 
+            <lb ed="#V" n="3"/>le est semper esse, non contingit semper esse, im¬ 
+            <lb ed="#V" n="4"/>possibile est semper esse, necesse est non semper 
+            <lb ed="#V" n="5"/>esse, quae sunt propositiones tertii modi. Quartus 
+            <lb ed="#V" n="6"/>vero modus adaptabitur ad statum gloriae, quia 
+            <lb ed="#V" n="7"/>de quolibet homine dici poterit, quod non possibile 
+            <lb ed="#V" n="8"/>est non semper esse, non contingit non sempet 
+            <lb ed="#V" n="9"/>esse, impossibile est non semper esse, necesse est 
+            <lb ed="#V" n="10"/>semper esse, quae sunt ppositiones quarti modi.
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3385">
+            <lb ed="#V" n="11"/>DVB. II. LATERAIIS. 
+            <lb ed="#V" n="12"/>Anpe,bonini: sutos dipliti fficientia suina,¬ 
+            <lb ed="#V" n="13"/>tur. Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3394">
+            <lb ed="#V" n="14"/>VLTERIVS forte dubitaret aliquis, 
+            <lb ed="#V" n="15"/>quomodo accipiuntur illi tres status. 
+            <lb ed="#V" n="16"/>Dicendum, quod cum prer mori, &amp; non mo¬ 
+            <lb ed="#V" n="17"/>riaccipiantur omnes tales status: oum 
+            <lb ed="#V" n="18"/>mori, &amp; non mori sint contraria, quia in vno ne¬ 
+            <lb ed="#V" n="19"/>cesse est mori, in alio impossibile est mori: &amp; ne¬ 
+            <lb ed="#V" n="20"/>cesse, &amp; impossibile, vt dictum est, opponuntur 
+            <lb ed="#V" n="21"/>contrarie; vnum &amp; idem iudicium est de istis tribus 
+            <lb ed="#V" n="22"/>statibus, sicut est de quibussibet alijs contrarijs. 
+            <lb ed="#V" n="23"/>Vtputa de calido, &amp; frigido, dulci, &amp; amaro, albo, 
+            <lb ed="#V" n="24"/>&amp; nigro. Nam semper contraria, vel tenent extre 
+            <lb ed="#V" n="25"/>mum, vel tenent medium. Si tenent extremum, 
+            <lb ed="#V" n="26"/>tunc sunt impermixta. Si tenent medium, tunc 
+            <lb ed="#V" n="27"/>sunt mixta. Vt ergo sunt duo extrema, &amp; imper¬ 
+            <lb ed="#V" n="28"/>mixta, sic considerantur contraria secundum se. Si 
+            <lb ed="#V" n="29"/>vero considerantur mixta, sic est medium quod 
+            <lb ed="#V" n="30"/>participat de vtroque: vt si accipiantur contraria, 
+            <lb ed="#V" n="31"/>calidum, &amp; frigidum; tunc tepidum erit medium, 
+            <lb ed="#V" n="32"/>quod participat de vtroque, sed dulce, &amp; ama¬ 
+            <lb ed="#V" n="33"/>rum habent medium, &amp; eritaliquis sapor, qui sa¬ 
+            <lb ed="#V" n="34"/>pit naturam vtriusque. Vtrum autem sint multi 
+            <lb ed="#V" n="35"/>talis sapores medii nihil ad propositum. Et in 
+            <lb ed="#V" n="36"/>coloribus etiam sunt colores extremi, vt album, 
+            <lb ed="#V" n="37"/>&amp; nigrum: &amp; color medius, qui participat natu¬ 
+            <lb ed="#V" n="38"/>ram vtriusque. Sic eodem modo erit in staribus. est 
+            <lb ed="#V" n="39"/>dare status extremos, &amp; statum medium partici¬ 
+            <lb ed="#V" n="40"/>pantem naturam vtriusque. Status ergo extremi¬ 
+            <lb ed="#V" n="41"/>sunt contrarii omnino, vt status beatitudinis, si¬ 
+            <lb ed="#V" n="42"/>ue gloriae, &amp; status miseriae: &amp; quia hi sunt omni¬ 
+            <lb ed="#V" n="43"/>no oppositi, opponuntur enim quantum ad ap¬ 
+            <lb ed="#V" n="44"/>petitum, quia quilibet de necessitate vult esse bea¬ 
+            <lb ed="#V" n="45"/>tus, &amp; de necessitate nullus vult esse miser. Et 
+            <lb ed="#V" n="46"/>quantum ad esse, quia in vno statu necesse est sper esse, in 
+            <lb ed="#V" n="47"/>statu istius miseriae impossibile est semper esse. &amp; 
+            <lb ed="#V" n="48"/>quia necesse, &amp; impossibile in modalibus oppo¬ 
+            <lb ed="#V" n="49"/>nuntur contrarie, ideo isti status sunt contrarii, 
+            <lb ed="#V" n="50"/>&amp; extremi. Si etiam ipsos duos status volumus 
+            <lb ed="#V" n="51"/>comparare ad mori, eliam opponuntur contra¬ 
+            <lb ed="#V" n="52"/>rie. Status autem medius inter istos extremos est 
+            <lb ed="#V" n="53"/>status innocentiae, vbi homo poterat mori, &amp; 
+            <lb ed="#V" n="54"/>participabat in hoc aliquid de statu miseriae, &amp; 
+            <lb ed="#V" n="55"/>poterat non mori: &amp; in hoc participabat aliquid 
+            <lb ed="#V" n="56"/>de statu gloriae, &amp; quia non est dare, nisi extrema, 
+            <lb ed="#V" n="57"/>&amp; medium, non est dare nisi tres. status. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3492">
+            <lb ed="#V" n="58"/>Vel possumus dicere, quod omnes isti status non 
+            <lb ed="#V" n="59"/>differunt, nisi, prout rosse mori aliter, &amp; aliter 
+            <!--141.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>potest comparari ad negationem. quod non nisi 
+            <lb ed="#V" n="61"/>quadrupliciter fieri habet. quia ad hoc, quod est 
+            <lb ed="#V" n="62"/>posse mori, potest esse negatio nullo modo appo¬ 
+            <lb ed="#V" n="63"/>sita. Secundo potest esse negatio ad posse solum 
+            <lb ed="#V" n="64"/>postposita. Tertio potest esse negatio praeposita. 
+            <lb ed="#V" n="65"/>Quarto potest esse negatio praeposita, &amp; postpo¬ 
+            <lb ed="#V" n="66"/>sita. Duo primi modi pertinent ad statum inno¬ 
+            <lb ed="#V" n="67"/>centiae, quia verum erat Adam tunc posse mori, 
+            <lb ed="#V" n="68"/>vt ad posse mori nulla erat negatio apposita. Et 
+            <lb ed="#V" n="69"/>verum erat Adam tunc posse non mori, vt ad pos¬ 
+            <lb ed="#V" n="70"/>se sit negatio solum postposita. In statu gloriae 
+            <lb ed="#V" n="71"/>erit solum praeposita, quia tunc verificabitur non 
+            <lb ed="#V" n="72"/>posse mori. Inistatu autem huius miseriae est ne¬ 
+            <lb ed="#V" n="73"/>gatio praeposita, &amp; postposita. quia nunc verifica¬ 
+            <lb ed="#V" n="74"/>tur non posse non mori, &amp; cum pluribus modis 
+            <lb ed="#V" n="75"/>non possit se habere negatio, ad hoc, quod est 
+            <lb ed="#V" n="76"/>posse mori, oportet esse tantummodo tres status. 
+            <lb ed="#V" n="77"/>Haec autem sufficientia statum declarat pri¬ 
+            <lb ed="#V" n="78"/>mum. quia status habens negationem praepositam 
+            <lb ed="#V" n="79"/>ad posse, vbi erit non posse mori, omnino exclu¬ 
+            <lb ed="#V" n="80"/>dit mortem: qui est status gloriae. Status vero ha¬ 
+            <lb ed="#V" n="81"/>bens negationem hoc modo praepositam, &amp; post 
+            <lb ed="#V" n="82"/>positam, vbi est non posse non mori, quod est 
+            <lb ed="#V" n="83"/>idem, quod necesse mori, omnino includit mor¬ 
+            <lb ed="#V" n="84"/>tem, &amp; hic est status miseriae, qui duo status sunt 
+            <lb ed="#V" n="85"/>omnino extremi, &amp; contrarii. Status vero innocen 
+            <lb ed="#V" n="86"/>tiae tanquam status medius, &amp; participans cum ex 
+            <lb ed="#V" n="87"/>tremis, vel habens negationem nullo modo appo¬ 
+            <lb ed="#V" n="88"/>sitam ad posse respectu mori, quia verificabatur 
+            <lb ed="#V" n="89"/>de Adam posse mori, &amp; in hoc conueniebat cum 
+            <lb ed="#V" n="90"/>statu miseriae. Habebat etiam ille status negatio¬ 
+            <lb ed="#V" n="91"/>nem solum postpositam, quia verificabatur de 
+            <lb ed="#V" n="92"/>Adam posse non mori, in quo habebat Adam 
+            <lb ed="#V" n="93"/>conuenientiam cum statu gloriae. Sunt ergo duo 
+            <lb ed="#V" n="94"/>status extremi, &amp; vnus medius participans cum¬ 
+            <lb ed="#V" n="95"/>vtroque, vt superius dicebatur. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3582">
+            <lb ed="#V" n="96"/>RESP. AD ARO. ART. IIII. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3587">
+            <lb ed="#V" n="97"/>Ad argumenta autem dicendum, quod tria argu¬ 
+            <lb ed="#V" n="98"/>menta prima sunt iam soluta. Ad quartum autem 
+            <lb ed="#V" n="99"/>argumentum de impassibilitate dici potest, quod non 
+            <lb ed="#V" n="100"/>arguit argumentum, quod non sit eadem immortali¬ 
+            <lb ed="#V" n="101"/>tas haec, &amp; illa, sed quod vna est impersecta, &amp; ratione¬ 
+            <lb ed="#V" n="102"/>suae imperfectionis compatitur secum aliquam 
+            <lb ed="#V" n="103"/>passibilitatem, etiam loquendo propriede passi¬ 
+            <lb ed="#V" n="104"/>bilitate: &amp; talis est immortalitas innocentiae. Alia 
+            <lb ed="#V" n="105"/>vero, vt immortalitas gloriae, quae erit perfecta 
+            <lb ed="#V" n="106"/>rotione suae perfectionis, talem passibilitatem se 
+            <lb ed="#V" n="107"/>cum non compatietur. ergo non arguit argumen¬ 
+            <lb ed="#V" n="108"/>tum, quod sit immortalitas alia, &amp; alia, sed quod est vna, 
+            <lb ed="#V" n="109"/>&amp; eadem se habens sicut imperfecta, &amp; perfecta. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3618">
+            <lb ed="#V" n="110"/>Argumenta vero in Contrarium gratia con¬ 
+            <lb ed="#V" n="111"/>clusionis collaudauimus. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3625">
+            <lb ed="#V" n="112"/>Dubitatio I. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3630">
+            <lb ed="#V" n="113"/>SVPER litteram licet multa sint dicta 
+            <lb ed="#V" n="114"/>de illis tribus statibus; tamen adhuc, 
+            <lb ed="#V" n="115"/>posset, quis vlterius dubitare de eis. 
+            <lb ed="#V" n="116"/>Vtrum in illis tribus statibus habeanetm 
+            <lb ed="#V" n="117"/>esse omnes oppositiones, quae sunt: Contrariae, 
+            <!--142.xml-->
+            <pb ed="#V" n="142"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Subcontrariae: Cotradictorie, &amp; Subalternae: secum 
+            <lb ed="#V" n="2"/>dum quod illi status comparantur ad mortem, &amp; im¬ 
+            <lb ed="#V" n="3"/>mortalitatem. Dicendum, quod status gloriae ne¬ 
+            <lb ed="#V" n="4"/>gat vniuersaliter mortem, quia cum ibi sit impos¬ 
+            <lb ed="#V" n="5"/>sibile mori, cum ex hoc excludatur mors vniuer¬ 
+            <lb ed="#V" n="6"/>saliter, erit ibi nullo modo mori. quia respectu¬ 
+            <lb ed="#V" n="7"/>mortis est uniuersalis negatiua, slatus autem hu¬ 
+            <lb ed="#V" n="8"/>ius miseriae affirmat mortem uniuersaliter, quia 
+            <lb ed="#V" n="9"/>cum hoc sit necesse mori; oportet, quod hoc sit om¬ 
+            <lb ed="#V" n="10"/>nino mori. Existens ergo in ploria nullo modo 
+            <lb ed="#V" n="11"/>potest incurrere mortem, &amp; est ibi nullatenus 
+            <lb ed="#V" n="12"/>mori. Existens autem in hac miseria nullo mo¬ 
+            <lb ed="#V" n="13"/>do potest euadere mortem, ut sit hic uniuersalis 
+            <lb ed="#V" n="14"/>affirmatiua respectu mortis, quae est omnino mo¬ 
+            <lb ed="#V" n="15"/>ri. Status autem innocentiae medius respectu mor¬ 
+            <lb ed="#V" n="16"/>tis continet particularem affirmatiuam: inquan¬ 
+            <lb ed="#V" n="17"/>tum Adam poterat mori, quod est quodammo¬ 
+            <lb ed="#V" n="18"/>do mori. Et particularem negatiuam, inquantum 
+            <lb ed="#V" n="19"/>Adam poterat non mori, quod est quodamon non 
+            <lb ed="#V" n="20"/>mori. Status gloriae ubi mors uniuersaliter nega¬ 
+            <lb ed="#V" n="21"/>tur, &amp; status miseriae, ubi mors vniuersaliter af¬ 
+            <lb ed="#V" n="22"/>firmatur, opponuntur contrarie, quae nunquam 
+            <lb ed="#V" n="23"/>sunt simul uera, sed possunt esse simul falsa. Si¬ 
+            <lb ed="#V" n="24"/>mul enim falsificabantur in Adam, de quo nec 
+            <lb ed="#V" n="25"/>verificabatur nullatenus mori, vel impossibile 
+            <lb ed="#V" n="26"/>mori, quod est in statu gloriae. Nec omnino mo¬ 
+            <lb ed="#V" n="27"/>ri, uel necesse mori, quod est in statu miseriae. Fal 
+            <lb ed="#V" n="28"/>sificabantur ergo ambo ista contraria in Adam, 
+            <lb ed="#V" n="29"/>verificari autem nec in eo, nec in aliquo alio si¬ 
+            <lb ed="#V" n="30"/>mul possent. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3715">
+            <lb ed="#V" n="31"/>Oppositio ergo contraria est in illis duobus 
+            <lb ed="#V" n="32"/>statibus extremis, sed oppositio subcontraria, quae 
+            <lb ed="#V" n="33"/>est quodammodo mori, &amp; quodammodo non 
+            <lb ed="#V" n="34"/>mori, verificabatur in statu innocentiae. Nam cum 
+            <lb ed="#V" n="35"/>Adam posset mori, erat quodammodo mortalis: 
+            <lb ed="#V" n="36"/>&amp; cum posset non mori, erat quodammodo im¬ 
+            <lb ed="#V" n="37"/>mortalis. propter quod erat in illo vno, &amp; eodem 
+            <lb ed="#V" n="38"/>statu oppositio subcontraria: &amp; quia subcontra¬ 
+            <lb ed="#V" n="39"/>ria habent legem oppositam contrarijs, quia pos¬ 
+            <lb ed="#V" n="40"/>sunt simul verificari, sed non simul falsificari; 
+            <lb ed="#V" n="41"/>simul verificabantur de Adam subcontrarie op¬ 
+            <lb ed="#V" n="42"/>posita. sed nec de eo, nec de alio possunt simul¬ 
+            <lb ed="#V" n="43"/>falsificari. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3747">
+            <lb ed="#V" n="44"/>Postquam assignauimus in praefatis statibus 
+            <lb ed="#V" n="45"/>oppositionem contrariam, &amp; subcontrariam; leue¬ 
+            <lb ed="#V" n="46"/>est assignare in eis contradictoriam, &amp; subalter¬ 
+            <lb ed="#V" n="47"/>nam. Nam prout in statu innocentiae erat parti¬ 
+            <lb ed="#V" n="48"/>cularis affirmatiua, quia Adam potuit mori, &amp; 
+            <lb ed="#V" n="49"/>erat quodammodo mortalis, opponebatur ex 
+            <lb ed="#V" n="50"/>hoc statui gloriae, vbi respectu mortis est vniuersa 
+            <lb ed="#V" n="51"/>lis negatiua contradictorie: sed in statu miseriae 
+            <lb ed="#V" n="52"/>respectu mortis vniuersalis affirmatiua, oppone¬ 
+            <lb ed="#V" n="53"/>batur subalternae, quia sicut nullatenus mori, &amp; 
+            <lb ed="#V" n="54"/>quodammodo mori opponuntur contradicto¬ 
+            <lb ed="#V" n="55"/>rie, sic omnino mori, &amp; quodammodo non mo¬ 
+            <lb ed="#V" n="56"/>ri opponuntur subalterne. sed prout in statu in¬ 
+            <lb ed="#V" n="57"/>nocentiae verificabatur particularis negatiua, quia 
+            <lb ed="#V" n="58"/>prout Adam poterat non mori, erat quodam¬ 
+            <lb ed="#V" n="59"/>modo immortalis, hoc modo ad praefatos ex¬ 
+            <lb ed="#V" n="60"/>tremos status habet se status innocentiae mo¬ 
+            <lb ed="#V" n="61"/>do conuerso. Nam statui gloriae opponitur 
+            <lb ed="#V" n="62"/>subalterne: statui miseriae contradictoria, Nam 
+            <!--142.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>nulatenus mori, quod est in statu gloriae, &amp; quos 
+            <lb ed="#V" n="64"/>dammodo non mori, quod verificabatur in sta¬ 
+            <lb ed="#V" n="65"/>tu innocentiae, opponuntur subalterne. sed om¬ 
+            <lb ed="#V" n="66"/>nino mori, quod est in statu huius miseriae, vel 
+            <lb ed="#V" n="67"/>posse non mori, vel quodammodo non mori, op¬ 
+            <lb ed="#V" n="68"/>ponuntur contradictorie, vt omnia genera op¬ 
+            <lb ed="#V" n="69"/>positionum per respectum ad mortem in illis 
+            <lb ed="#V" n="70"/>tribus statibus modo, quo diximus, sint reperta. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3812">
+            <lb ed="#V" n="71"/>Dubitatio II. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3817">
+            <lb ed="#V" n="72"/>Vlterius forte dubitartet aliquis de eo, quod 
+            <lb ed="#V" n="73"/>dicitur in littera, quod Adam erat immortalis, &amp; 
+            <lb ed="#V" n="74"/>mortalis, quae videntur opposita esse. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3826">
+            <lb ed="#V" n="75"/>Dicendum, quod, vt patuit supra, ista sunt opposi¬ 
+            <lb ed="#V" n="76"/>ta subcontrarie, &amp; Magister in littera non asseri¬ 
+            <lb ed="#V" n="77"/>simpliciter, quod Adam fuerit mortalis, &amp; immor¬ 
+            <lb ed="#V" n="78"/>talis, quia poterat mori, &amp; non mori, &amp; cum 
+            <lb ed="#V" n="79"/>haec opponantur subcontrarie, quae possunt esse 
+            <lb ed="#V" n="80"/>simul vera, non autem simul falsa, non est incon 
+            <lb ed="#V" n="81"/>ueniens ea simul esse verificata in Adam 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3844">
+            <lb ed="#V" n="82"/>Dubitatio III. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3849">
+            <lb ed="#V" n="83"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="84"/>dicitur in littera, quod in primo statu fuit corpus ho¬ 
+            <lb ed="#V" n="85"/>minis animale. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3859">
+            <lb ed="#V" n="86"/>Sed contra: Cum homo sit animal, &amp; genus 
+            <lb ed="#V" n="87"/>semper praedicetur de specie, sicut in omni statu¬ 
+            <lb ed="#V" n="88"/>verificatur, quod homo est animal: sic in omni statu¬ 
+            <lb ed="#V" n="89"/>videtur verificari, quod homo sit res animalis, &amp; quod 
+            <lb ed="#V" n="90"/>corpus eius sit quid animale. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3872">
+            <lb ed="#V" n="91"/>Dicendum, quod secundum Philosophum, contra &amp;a 
+            <lb ed="#V" n="92"/>rationem generis est, quod predicetur denominatiue 
+            <lb ed="#V" n="93"/>Praedicatur enim genus de suis inferioribus essen¬ 
+            <lb ed="#V" n="94"/>tialiter, &amp; praedicatio essentialis est opposita prae¬ 
+            <lb ed="#V" n="95"/>dicationi denominatiuae. cum ergo homo sit ani¬ 
+            <lb ed="#V" n="96"/>mal essentialiter, animal denominatiue esse non 
+            <lb ed="#V" n="97"/>poterit, sumpto vtroqu, eodem modo. Dicemus 
+            <lb ed="#V" n="98"/>ergo quod animal, vt praedicatur de homine deno 
+            <lb ed="#V" n="99"/>minatiue, nominat hominem, prour conuenit 
+            <lb ed="#V" n="100"/>cum brutis iuxta illud A postoli: [ Animalis ho¬ 
+            <lb ed="#V" n="101"/>mo non sapit, quae Dei sunt. Sed homo cum brd 
+            <lb ed="#V" n="102"/>tis potest conuenire dupliciter, vel quantum ad 
+            <lb ed="#V" n="103"/>naturalia, quia eget alimentis, sicut &amp; bruta, &amp; 
+            <lb ed="#V" n="104"/>sic erat animal in primo statu. Vel potest dici ho¬ 
+            <lb ed="#V" n="105"/>mo animal non solum quantum ad uitam natu¬ 
+            <lb ed="#V" n="106"/>ralem, per quam indiget cibis, sed etiam quantum 
+            <lb ed="#V" n="107"/>ad uitam voluptuosam, per quam assimilaturiu¬ 
+            <lb ed="#V" n="108"/>mentis insipientibus: quae animalitas nec fuit in 
+            <lb ed="#V" n="109"/>statu innocentiae, nec erit in statuglorie, sed po¬ 
+            <lb ed="#V" n="110"/>test esse in statu huius miserie. animal ergo, quod 
+            <lb ed="#V" n="111"/>est genus, competit homini in omni statu, sedani¬ 
+            <lb ed="#V" n="112"/>malitas secundum naturalem indigentiam, quan¬ 
+            <lb ed="#V" n="113"/>tum ad cibos, poterat sibi competere in statu in¬ 
+            <lb ed="#V" n="114"/>nocentiae, sed non competeret sibi in statu glorie. 
+            <lb ed="#V" n="115"/>animalitas vero voluptuosa sibi competere solum 
+            <lb ed="#V" n="116"/>in statu huius miserie. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3931">
+            <lb ed="#V" n="117"/>Dubitatio IIII. Litteralis. 
+            <lb ed="#V" n="118"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <!--143.xml-->
+            <pb ed="#V" n="143"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dicitur in littera, quod corpus propterpeccatum 
+            <lb ed="#V" n="2"/>mortuum est, quod quidam exponunt, quod statim Adam 
+            <lb ed="#V" n="3"/>peccante poterat dici mortuus, quia statim incepit 
+            <lb ed="#V" n="4"/>continue deficere, vsque quod suit mortuus 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e3953">
+            <lb ed="#V" n="5"/>Quod quidam improbant tripliciter. primo, 
+            <lb ed="#V" n="6"/>quia nullus motus est continuus, nisi motus lo¬ 
+            <lb ed="#V" n="7"/>calis, &amp; ideo sicut motus augmenti non est con¬ 
+            <lb ed="#V" n="8"/>tinuus, nisi aliquis sic successiue augmentetur, quod 
+            <lb ed="#V" n="9"/>non sit dare tempus quantuncunque modicum, in 
+            <lb ed="#V" n="10"/>quo non augmentetur, est inconueniens ponere. 
+            <lb ed="#V" n="11"/>hoc enim est coelum in motu locali, vt patet per¬ 
+            <lb ed="#V" n="12"/>Philosophum. Quandiu enim durat motus lo¬ 
+            <lb ed="#V" n="13"/>calis, non est dare tempus, quantumcunque modi 
+            <lb ed="#V" n="14"/>cum, in quo non sit aliquid de illo motu, sed in 
+            <lb ed="#V" n="15"/>alijs motibus semper est dare aliquam interpo¬ 
+            <lb ed="#V" n="16"/>lationem. Vt si gutta cauat lapidem, non semper 
+            <lb ed="#V" n="17"/>quaelibet gutta accipiet aliquid de illo lapide, sed 
+            <lb ed="#V" n="18"/>post primam guttam venit secunda, post secun¬ 
+            <lb ed="#V" n="19"/>dam tertia, &amp; sic deinceps. postea vltima gutta¬ 
+            <lb ed="#V" n="20"/>in virtute omnium praecedentium aliquid remo¬ 
+            <lb ed="#V" n="21"/>uebit de illo lapide. Vel si vlterius per guttas ca¬ 
+            <lb ed="#V" n="22"/>uari debeat ille lapis, non quaelibet gutta cauabit 
+            <lb ed="#V" n="23"/>ipsum, sed forte centum, vel plures cauabunt ip¬ 
+            <lb ed="#V" n="24"/>sum, nec illae centum sic se habebunt, quod quaelibet 
+            <lb ed="#V" n="25"/>cauet, sed vltima cauabit in virtute omnium prae¬ 
+            <lb ed="#V" n="26"/>cedentium. Sic &amp; in proposito non continue de 
+            <lb ed="#V" n="27"/>ficit homo, sed est aliqua interpolatio in huius¬ 
+            <lb ed="#V" n="28"/>modidefectu. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4008">
+            <lb ed="#V" n="29"/>Praeterea dicunt contradictam expositionem, 
+            <lb ed="#V" n="30"/>quod nihil mouetur simul motibus contrarijs, sed 
+            <lb ed="#V" n="31"/>semper inter duos motus contrarios est dare quie¬ 
+            <lb ed="#V" n="32"/>tem mediam, cum ergo corpus humanum etiam 
+            <lb ed="#V" n="33"/>in statu huius miseriae vsque ad certum tempus 
+            <lb ed="#V" n="34"/>perficiatur, vtputa vsque ad. a5. annos secundum 
+            <lb ed="#V" n="35"/>communem modum hominum, quamuis aliqui¬ 
+            <lb ed="#V" n="36"/>citius, aliqui tardius hoc peragant, sed postquam 
+            <lb ed="#V" n="37"/>est psectum incaepit declinare, &amp; ire ad senium, &amp; ad 
+            <lb ed="#V" n="38"/>mortem, quod inter istos duos motus contrarios non 
+            <lb ed="#V" n="39"/>sit quies media, vt dicunt, est inconueniens. ergo 
+            <lb ed="#V" n="40"/>est ibi alia interpolatio, vt non dicatur ex hoo 
+            <lb ed="#V" n="41"/>corpus mortuum, quod continue vadat ad mortem. 
+            <lb ed="#V" n="42"/>Praeterea, vt dicunt, dato, quod sic esset, non deberet 
+            <lb ed="#V" n="43"/>dici corpus mortuum, sed deberet dici mori, &amp; 
+            <lb ed="#V" n="44"/>semper mori, donec esset mortuum. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4045">
+            <lb ed="#V" n="45"/>Sed improbare dictam expositionem, vt dica¬ 
+            <lb ed="#V" n="46"/>tur corpus mortuum, quia quotidie vadit ad mor¬ 
+            <lb ed="#V" n="47"/>tem, est improbare dicta Sanctorum. Sic enim ait 
+            <lb ed="#V" n="48"/>Aug. 9. super Gen. quid enim aliud non dicam nati, 
+            <lb ed="#V" n="49"/>sed omnino concepti, nisi aegritudinem quandam 
+            <lb ed="#V" n="50"/>inchoamus, qua sumus sine dubio morituri. Vi¬ 
+            <lb ed="#V" n="51"/>delicet tam necesse est, quod sit cum ipso morbo mo¬ 
+            <lb ed="#V" n="52"/>riturus hydropicus, vel disentericus, vel elephan¬ 
+            <lb ed="#V" n="53"/>tuosus factus, quam eum, qui hoc corpus habere 
+            <lb ed="#V" n="54"/>caeperit. Morbus ergo, cum quo sumus concepti, 
+            <lb ed="#V" n="55"/>magis necessitat nos mori, quam aliquis alius 
+            <lb ed="#V" n="56"/>morbus, vt per ipsum continue tendamus ad mor¬ 
+            <lb ed="#V" n="57"/>tem, &amp; ex hoc temporalis vita magis dicenda est 
+            <lb ed="#V" n="58"/>mors, quam vita. Quod concordat cum oreg. di¬ 
+            <lb ed="#V" n="59"/>cente: Ipsa temporalis vita, aeternae vitae con para 
+            <lb ed="#V" n="60"/>ta mors est potius dicenda, quam ipse quotidia¬ 
+            <lb ed="#V" n="61"/>nus desectus corruptionis nihil est aliud, quam 
+            <lb ed="#V" n="62"/>quaedam prolixitas mortis, nec reprobamus ex 
+            <!--143.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>hoc illum modum exponendi, quod corpus propter¬ 
+            <lb ed="#V" n="64"/>peccatum dicitur mortuum, quia habet necessi¬ 
+            <lb ed="#V" n="65"/>tatem moriendi, sed dicimus, quod Sanctorum verba¬ 
+            <lb ed="#V" n="66"/>hoc sonant, quod homo quandiu viuit est in conti¬ 
+            <lb ed="#V" n="67"/>nuo desectu, &amp; continue vadit ad mortem. sicut 
+            <lb ed="#V" n="68"/>quandiu est accensa lucerna, ignis continue de¬ 
+            <lb ed="#V" n="69"/>pascit oleum, &amp; continue lucerna vadit ad extin¬ 
+            <lb ed="#V" n="70"/>ctionem. Quod si dicatur, quod ibi est aliqua interpo¬ 
+            <lb ed="#V" n="71"/>latio, dicemus, quod non in comsumptione olei, 
+            <lb ed="#V" n="72"/>est etiam aliqua interpolatio, quia ignis conti¬ 
+            <lb ed="#V" n="73"/>nue calefacit oleum, &amp; trahit ad se partem olei¬ 
+            <lb ed="#V" n="74"/>magis calefactam, quam consumit, faciendo ip¬ 
+            <lb ed="#V" n="75"/>sam euaporare, &amp; resoluendo ipsam in subti¬ 
+            <lb ed="#V" n="76"/>lius corpus, quia in tali consumptione non est 
+            <lb ed="#V" n="77"/>annihilatio, sed est in subtilius corpus resolutio. 
+            <lb ed="#V" n="78"/>&amp; licet tales consumptiones sint cum aliquibus 
+            <lb ed="#V" n="79"/>interpolationibus, quia prius calefit oleum, &amp; 
+            <lb ed="#V" n="80"/>calefactum attrahitur, quam euaporet per ignem, 
+            <lb ed="#V" n="81"/>quia istae interpolationes habent tempus per¬ 
+            <lb ed="#V" n="82"/>ceptibile, quia quando parum deest, scrudu Philoso 
+            <lb ed="#V" n="83"/>phume, intellectus accipit tamnquam nihil istis interpola¬ 
+            <lb ed="#V" n="84"/>tionibus non obstantibus, quia quasi fiunt in ten¬ 
+            <lb ed="#V" n="85"/>pore inperceptibili, semper, &amp; continue dicit 
+            <lb ed="#V" n="86"/>oleum consumi, quo consumpto, extinguitur lu¬ 
+            <lb ed="#V" n="87"/>cerna, &amp; semper dicitur humidum radicale con¬ 
+            <lb ed="#V" n="88"/>sumi, quo consumpto, moritur homo. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4148">
+            <lb ed="#V" n="89"/>Dubitatio V Litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4153">
+            <lb ed="#V" n="90"/>Vlterius forte dubitaret aliquis de eo, quod isti 
+            <lb ed="#V" n="91"/>secundo addebant, quod semper inter duos motus. 
+            <lb ed="#V" n="92"/>contrarios est dare quietem mediam. Dicendum, 
+            <lb ed="#V" n="93"/>quod homo nascitur imperfectus, &amp; perficitur eun¬ 
+            <lb ed="#V" n="94"/>do de infantia ad pueritiam, de pueritia ad adole¬ 
+            <lb ed="#V" n="95"/>scentiam, &amp; de adolescentia ad aetatem virilem. 
+            <lb ed="#V" n="96"/>Perfectus autem per etatem virilem incipit de¬ 
+            <lb ed="#V" n="97"/>clinare, &amp; ire ad senium. Vtrum autem sit dare 
+            <lb ed="#V" n="98"/>medium, vel quietem mediam inter duos motus; 
+            <lb ed="#V" n="99"/>Credimus, quod non, nisi eo modo, quo nullus mo¬ 
+            <lb ed="#V" n="100"/>tus est continuus praeter localem. sed istae inter¬ 
+            <lb ed="#V" n="101"/>polationes ita sunt, cum homo vadat de imper¬ 
+            <lb ed="#V" n="102"/>fecto ad perfectum, vt de infantia ad pueritiam, 
+            <lb ed="#V" n="103"/>&amp; sic deinceps: sicut de perfecto ad imperfectum, 
+            <lb ed="#V" n="104"/>vt de aetate virili ad senium: &amp; si dicatur ibi es¬ 
+            <lb ed="#V" n="105"/>se quies media;llla quies erit ex imperceptiont 
+            <lb ed="#V" n="106"/>nostra, quia cum homo est perfectus, non statim 
+            <lb ed="#V" n="107"/>percipit se deficere, sed videtur sibi per aliquod 
+            <lb ed="#V" n="108"/>tempus stare in statu. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4197">
+            <lb ed="#V" n="109"/>Vel possumus dicere, quod statim cum infans est 
+            <lb ed="#V" n="110"/>extra vterum, semper deficit usque ad mortem. Nam 
+            <lb ed="#V" n="111"/>statim calidum incipit depascere humidum, &amp; 
+            <lb ed="#V" n="112"/>virtus nutritiua incipit restaurare deperditum 
+            <lb ed="#V" n="113"/>&amp; quia plus restaurat in principio, quam sit fa¬ 
+            <lb ed="#V" n="114"/>cta deperditio, infans crescit, &amp; augmentatur vsqu 
+            <lb ed="#V" n="115"/>ad certum tempus, &amp; postea non ulterius aug 
+            <lb ed="#V" n="116"/>mentatur, quia secundum Philosophum in de ani¬ 
+            <lb ed="#V" n="117"/>ma: Omnium natura constantium est certa ratio, 
+            <lb ed="#V" n="118"/>&amp; numerus eorum magnitudinis, &amp; augmenti¬ 
+            <lb ed="#V" n="119"/>&amp; licet illo tempore augmenti natura plus restau¬ 
+            <lb ed="#V" n="120"/>rer, quam sit deperditum, quantum ad quantita¬ 
+            <lb ed="#V" n="121"/>tem; non tamen restaurat purius, &amp; melius. Im¬ 
+            <lb ed="#V" n="122"/>mo impurius, &amp; peius quantum ad qualitatem 
+            <lb ed="#V" n="123"/>vt hoc modo statim homo incipiat deficere, vt 
+            <!--144.xml-->
+            <pb ed="#V" n="144"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>semper calor pascat purius, &amp; restauretur impu¬ 
+            <lb ed="#V" n="2"/>rius: donec sit ita impurum, quod, ut supra di¬ 
+            <lb ed="#V" n="3"/>xlmus, non potest ulterius facere opus, &amp; ex 
+            <lb ed="#V" n="4"/>hoc compelletur anima a corpore separari. Non 
+            <lb ed="#V" n="5"/>ergo debemus imaginari, quod per omnem modum 
+            <lb ed="#V" n="6"/>semper eatur de imperfecto ad perfectum, &amp; po¬ 
+            <lb ed="#V" n="7"/>stea econuerso redeatur ad imperfectum, quia li¬ 
+            <lb ed="#V" n="8"/>cet hoc posset tolerari secundum quantitatem, 
+            <lb ed="#V" n="9"/>vel molis, uel uirium quia crescit corpus secun¬ 
+            <lb ed="#V" n="10"/>dum quantitatem molis, &amp; crescente corpore cre¬ 
+            <lb ed="#V" n="11"/>scunt uires, tamen secundum qualitatem, &amp; puri¬ 
+            <lb ed="#V" n="12"/>tatem deperditi semper incipimus deficere, a 
+            <lb ed="#V" n="13"/>principio natiuitatis nostrae usque ad senium, vt 
+            <lb ed="#V" n="14"/>hoc modo non dicantur duo motus contrarij, 
+            <lb ed="#V" n="15"/>sed vnus motus continuus eo modo, quo po¬ 
+            <lb ed="#V" n="16"/>test esse continuus. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4273">
+            <lb ed="#V" n="17"/>Dubitatio VI Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4278">
+            <lb ed="#V" n="18"/>Vlterius forte dubitaret aliquis de tertio eorum 
+            <lb ed="#V" n="19"/>verbo, quod dato, quod sic esset, ut ipsi dicunt, quod semper 
+            <lb ed="#V" n="20"/>continue deficeremus, non tamen propter hoc cor¬ 
+            <lb ed="#V" n="21"/>pus nostrum deberet dici mortuum, sed mori, vel 
+            <lb ed="#V" n="22"/>mortale. Dicemus secundum Aug. quod cum A po¬ 
+            <lb ed="#V" n="23"/>stolus dicat de corpore nostro, quod propter pecca¬ 
+            <lb ed="#V" n="24"/>tum est mortuum, &amp; non dicat, quod sit mortale: ma¬ 
+            <lb ed="#V" n="25"/>gis debemus dicere, quod sit mortuum, qua mortale, 
+            <lb ed="#V" n="26"/>quod dictum concordat cum dicto Philosophi¬ 
+            <lb ed="#V" n="27"/>volentis, quod propositiones de contingenti, siue de¬ 
+            <lb ed="#V" n="28"/>.possibili conuertuntur in oppositam qualitatem, 
+            <lb ed="#V" n="29"/>vt si haec est vera: A contingit esse b, erit vera se¬ 
+            <lb ed="#V" n="30"/>cundum oppositam qualitatem, quod A contingit 
+            <lb ed="#V" n="31"/>non esse B. Si ergo haec est vera: Corpus nostrum 
+            <lb ed="#V" n="32"/>est mortale id est potest mori, erit: haec vera Cor¬ 
+            <lb ed="#V" n="33"/>pus nostrum est non mortale d est potest non mori. 
+            <lb ed="#V" n="34"/>Et quia hoc verificabatur in statu innocentiae, non 
+            <lb ed="#V" n="35"/>autem in statu miseriae: ideo in statu innocentiae 
+            <lb ed="#V" n="36"/>poterat dici corpus Adae mortale, quia poterat 
+            <lb ed="#V" n="37"/>mori, &amp; quia hec propositio erat de possibili, si¬ 
+            <lb ed="#V" n="38"/>ue de contingenti, conuertebatur in oppositam 
+            <lb ed="#V" n="39"/>qualitatem, vt diceretur corpus eius non mortale, 
+            <lb ed="#V" n="40"/>id est potens non mori. sed cum hoc non sit in 
+            <lb ed="#V" n="41"/>statu miseriae, magis debet dici corpus mortuum, 
+            <lb ed="#V" n="42"/>quam mortale, quod dupliciter potest dici mor¬ 
+            <lb ed="#V" n="43"/>tuum. Vel propter continuum defectum, per quem 
+            <lb ed="#V" n="44"/>semper tendit ad mortem, vel propter necessita¬ 
+            <lb ed="#V" n="45"/>tem moriendi, quo posito, non dicitur mortale 
+            <lb ed="#V" n="46"/>id est possibile mori, quia tunc esset possibile non mo¬ 
+            <lb ed="#V" n="47"/>ri, quod non est verum, quia est necesse mori. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4346">
+            <lb ed="#V" n="48"/>Dubitatio VII. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m037657-d1e4352">
+            <lb ed="#V" n="49"/>Vlterius forte dubitaret aliquis de eo, quod ait 
+            <lb ed="#V" n="50"/>littera, quod immortalitas erat Adae ex ligno vitae, 
+            <lb ed="#V" n="51"/>quod videtur falsum, cum nullus esus ciborum 
+            <lb ed="#V" n="52"/>faciat hominem immortalem. Dicendum, quod lignum 
+            <lb ed="#V" n="53"/>vitae, vt dicebatur, dabat immortalitatem Adae 
+            <lb ed="#V" n="54"/>non absolute, &amp; simpliciter, vt patuit per Aug. 6. 
+            <lb ed="#V" n="55"/>super Oen. sed per latentem operationem diui¬ 
+            <lb ed="#V" n="56"/>nam, quam operabatur Deus cum ligno, vel per¬ 
+            <lb ed="#V" n="57"/>lignum vitae. Vel possumus dicere, quod simpliciter 
+            <lb ed="#V" n="58"/>non fuisset immortalitas Adae ex ligno vitae, sed 
+            <!--144.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>hoc erat ei ex iustitia originali, quod erat donum su¬ 
+            <lb ed="#V" n="60"/>pernaturale sibi a Deo collatum, per quod donum 
+            <lb ed="#V" n="61"/>erat ita purum, quod restaurabatur per almentum, 
+            <lb ed="#V" n="62"/>sicut quod erat deperditum per calorem natura¬ 
+            <lb ed="#V" n="63"/>lem depascentem humidum, in quo stat tota cau¬ 
+            <lb ed="#V" n="64"/>sa nostrae mortis naturalis. quia semper deper¬ 
+            <lb ed="#V" n="65"/>ditur in nobis, quod est purum, &amp; restauratur non 
+            <lb ed="#V" n="66"/>ita purum. Ad id vero, quod dicitur in Gen. Ne su¬ 
+            <lb ed="#V" n="67"/>mas de ligno vitae &amp;c. sufficienter superius est 
+            <lb ed="#V" n="68"/>responsum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

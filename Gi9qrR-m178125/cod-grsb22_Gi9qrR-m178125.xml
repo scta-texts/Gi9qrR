@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="602"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m178125"><!-- l2d40q1 -->
+        <head xml:id="Gi9qrR-m178125-Hd1e101">Quaestio 1</head>
+        <head xml:id="Gi9qrR-m178125-Hd1e103" type="question-title">
+          De bonitate, et malitia voluntatis circa actus exteriores
+        </head>
+        <p xml:id="Gi9qrR-m178125-d1e106">
+          <!--602.xml-->
+          <pb ed="#V" n="602"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>QVESTIO I. 
+          <lb ed="#V" n="2"/>De bonitate, et malitia volunta¬ 
+          <lb ed="#V" n="3"/>tis circa actus exteriores. 
+        </p>
+        <p xml:id="Gi9qrR-m178125-d1e122">
+          <lb ed="#V" n="4"/>QVIA Magister comparat actus 
+          <lb ed="#V" n="5"/>exteriores ad voluntatem secundum 
+          <lb ed="#V" n="6"/>bonitatem, &amp; malitiam: Ion duo 
+          <lb ed="#V" n="7"/>principaliter quaeremus. Primo: 
+          <lb ed="#V" n="8"/>Vtrum actus exteriores habeant 
+          <lb ed="#V" n="9"/>bonitatem, &amp; malitiam ex voluntate. 
+          <lb ed="#V" n="10"/>Secundo quo tales actus se habeant ad bonitatam, &amp; 
+          <lb ed="#V" n="11"/>malitiam. Circa primum quaerunt tria. Primo: Vtrum 
+          <lb ed="#V" n="12"/>bonitas ex malitia actus exterioris sit ex volunta 
+          <lb ed="#V" n="13"/>te. Secundo: Vurum actus exterior addat aliquid 
+          <lb ed="#V" n="14"/>in bonitate, &amp; malitia supra interiorem. Tertio: 
+          <lb ed="#V" n="15"/>Vurum eadem actio possit esse bona, &amp; mala. 
+        </p>
+        <div xml:id="Gi9qrR-m178125-Dd1e151">
+          <head xml:id="Gi9qrR-m178125-Hd1e153">Articulus 1</head>
+          <p xml:id="Gi9qrR-m178125-d1e155">
+            <lb ed="#V" n="16"/>ARTIC. I. 
+            <lb ed="#V" n="17"/>An actuum exteriorum malitia, 
+            <lb ed="#V" n="18"/>&amp; bonitas a voluntate ac¬ 
+            <lb ed="#V" n="19"/>cipiantur. 
+            <lb ed="#V" n="20"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e168">
+            <lb ed="#V" n="21"/>Drh. 1. 4. q. 40. ar4. Et 2 sent. d. 40 ar. 2. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e173">
+            <lb ed="#V" n="22"/>AD primum sic proceditur: Vi 
+            <lb ed="#V" n="23"/>detur, quod malitia, &amp; bonitas a¬ 
+            <lb ed="#V" n="24"/>ctus exterioris accipienda sit ex 
+            <lb ed="#V" n="25"/>voluntate: quia, vt dieiu Matth. 
+            <lb ed="#V" n="26"/>Non potet arbor bona, &amp;c. Sed ar¬ 
+            <lb ed="#V" n="27"/>bor bona est ipsa voluntas bona: 
+            <lb ed="#V" n="28"/>mala est voluntas mala: fructus autem sunt ipsa¬ 
+            <lb ed="#V" n="29"/>opera exteriora, iuxta illud: A fructibus eorum co¬ 
+            <lb ed="#V" n="30"/>gnoscetis eos. Per opera autem interiora non pos¬ 
+            <lb ed="#V" n="31"/>sumus cognoscere hominem. Sed per exteriora, 
+            <lb ed="#V" n="32"/>quia homo intuetur faciem: Deus autem intue¬ 
+            <lb ed="#V" n="33"/>tur cor. Ergo a voluntate bona, vel mala fructus.d is 
+            <lb ed="#V" n="34"/>opera exteriora iudicanda sunt bona, vel mala. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e204">
+            <lb ed="#V" n="35"/>Praeterea opera exteriora non reducuntur ad ge¬ 
+            <lb ed="#V" n="36"/>nus moris, nec iudicanda sunt bona, vel mala ni¬ 
+            <lb ed="#V" n="37"/>si prout sunt imperata a voluntate: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e214">
+            <lb ed="#V" n="38"/>Praeterea, vt superius dicebatur, naturalia reci¬ 
+            <lb ed="#V" n="39"/>piunt speciem ex forma, quia sunt inter formam, 
+            <lb ed="#V" n="40"/>vt est in agente: &amp; formam, vt est in patiente: mora¬ 
+            <lb ed="#V" n="41"/>lia vero recipiunt spem ex fine, quia sunt inter finem, 
+            <lb ed="#V" n="42"/>vt est in intentione: &amp; finem, vt est in executione 
+            <lb ed="#V" n="43"/>sed res non habent rationem finis, &amp; boni nisi, vt com¬ 
+            <lb ed="#V" n="44"/>parantur ad appetitum, vel ad voluntatem: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e232">
+            <lb ed="#V" n="45"/>Praeterea meritum, &amp; demeritum est ex parte¬ 
+            <lb ed="#V" n="46"/>voluntatis, quia voluntas est id, qua peccatur, &amp; 
+            <lb ed="#V" n="47"/>qua recte viuitur, vt potest patere per Aug. in de¬ 
+            <lb ed="#V" n="48"/>vera Rel. ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e243">
+            <lb ed="#V" n="49"/>In CONTRARIVM est, quia secundum 
+            <lb ed="#V" n="50"/>Philosophum in Eth. quodam haet statim conuolutam ma¬ 
+            <lb ed="#V" n="51"/>litiam, quae non possunt bene fieri, vt surtum, vel me¬ 
+            <lb ed="#V" n="52"/>chia. Ergo in talibus si quis hebeat recam voluntatem, vel 
+            <!--602.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="53"/>rectam intentionem semperit ibi peccatum: ergo, &amp;c 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e261">
+            <lb ed="#V" n="54"/>Praeterea: habens conscientiam erroneam quic¬ 
+            <lb ed="#V" n="55"/>quid facit peccat: non ergo ex voluntate poterit 
+            <lb ed="#V" n="56"/>iudicari actio bona, quia semper erit mala, duran¬ 
+            <lb ed="#V" n="57"/>te conscientia erronea: error tamen non dicit ali 
+            <lb ed="#V" n="58"/>quid in voluntate sed in intellectu. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e274">
+            <lb ed="#V" n="59"/>RESOLVTIO. 
+            <lb ed="#V" n="60"/>Actus bonus a voluntate bene intendente, quod bent 
+            <lb ed="#V" n="61"/>eliciente &amp; in circunstantijs bene se habentihus 
+            <lb ed="#V" n="62"/>iudicari debet. Horum autem aliquo deficiente, 
+            <lb ed="#V" n="63"/>malus existimatur. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e287">
+            <lb ed="#V" n="64"/>REPONPEO dicendum, quod secundum 
+            <lb ed="#V" n="65"/>scripta conia voluntas dupliciter potet considerari: 
+            <lb ed="#V" n="66"/>vel, vt est intendens, pront fertur in finem vtimum: 
+            <lb ed="#V" n="67"/>vel, vt est eligens, prout fertur in obiectum prori¬ 
+            <lb ed="#V" n="68"/>mum. Primo modo sufficit, quod voluntas sit mala: 
+            <lb ed="#V" n="69"/>ad hoc, quod actus iudicandus sit malus, quia sola¬ 
+            <lb ed="#V" n="70"/>intentio mala facit actum malum: sed non sufficit 
+            <lb ed="#V" n="71"/>sola intentio bona ad hoc, quod actus sit bonus, quo 
+            <lb ed="#V" n="72"/>potest quis male agendo habere intentionem bo¬ 
+            <lb ed="#V" n="73"/>nam, quia potest quis furari, vt det eleemosinam. 
+            <lb ed="#V" n="74"/>Sed si loquimur de voluntate secundo modo: 
+            <lb ed="#V" n="75"/>prout est eligens, &amp; prout fertur in obiectum pro¬ 
+            <lb ed="#V" n="76"/>ximum, sic, vti dicunt, a voluntate bona iudican¬ 
+            <lb ed="#V" n="77"/>dus est actus bonus, &amp; a mala malus: quia, vt 
+            <lb ed="#V" n="78"/>niunt, Electio est conclusio consilii. Sed ad hoc 
+            <lb ed="#V" n="79"/>quod quis bene consilietur: oportet, quod ibi inten¬ 
+            <lb ed="#V" n="80"/>datur bonus finis: &amp; quod assumantur bona, 
+            <lb ed="#V" n="81"/>quae sunt ad finem, quia si quis ad bonum finenm or¬ 
+            <lb ed="#V" n="82"/>dinaret, quae sunt mala: vellet bonam conclusio 
+            <lb ed="#V" n="83"/>nem concludere incompetenti medio: si per malum¬ 
+            <lb ed="#V" n="84"/>vellet puenire ad bonum, vt si de furto vellet fa¬ 
+            <lb ed="#V" n="85"/>cere eleemosinam: tale ergo consilium non deberet di¬ 
+            <lb ed="#V" n="86"/>ci bonum, nec ex tali consilio eliceret bona electio. 
+            <lb ed="#V" n="87"/>Sic eteam econuerso, si malus esset finis, &amp; mala esset 
+            <lb ed="#V" n="88"/>intentio: non posset ibi esse bona electio, quia in 
+            <lb ed="#V" n="89"/>tendendo malum finem non possumus bene elige¬ 
+            <lb ed="#V" n="90"/>re, nec esset bonus consiliator, qui per opera &amp;o¬ 
+            <lb ed="#V" n="91"/>na vellet consequi malum finem. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e351">
+            <lb ed="#V" n="92"/>Est etiam sumu istos tertium aduertendum, quod 
+            <lb ed="#V" n="93"/>hoc fieret tempore conuenienti, quia si princeps bel¬ 
+            <lb ed="#V" n="94"/>li vellet praeliari, &amp; sine maturo consilio inchoa¬ 
+            <lb ed="#V" n="95"/>re bellum: non haberet bonum consilium. Sic etiam 
+            <lb ed="#V" n="96"/>si nimis tardaret, quia ad bonum consilium con¬ 
+            <lb ed="#V" n="97"/>currunt omnia bona: cum bona electio sit conclu¬ 
+            <lb ed="#V" n="98"/>sio boni consilii a voluntate bona eligente iudi¬ 
+            <lb ed="#V" n="99"/>candus est actus bonus, &amp; a mala malus. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e371">
+            <lb ed="#V" n="100"/>Sed iste modus dicendi stare non potest. Nam, 
+            <lb ed="#V" n="101"/>scum quod isti dicunt, &amp; bene, in voluntate est con¬ 
+            <lb ed="#V" n="102"/>siderare duo: Intentionem, &amp; electionem, &amp; vnum 
+            <lb ed="#V" n="103"/>est distinctum ab alio, quia intentio est de fine: 
+            <lb ed="#V" n="104"/>electio de his, quae sunt ad finem. Si ergo electio 
+            <lb ed="#V" n="105"/>accipiat escumu se, vt non includit intentionem: &amp; inten¬ 
+            <lb ed="#V" n="106"/>tio, vt non includit electionem, sed ad actum mo¬ 
+            <lb ed="#V" n="107"/>lum sufficiat sola mala intentio, vel sola mala ele¬ 
+            <lb ed="#V" n="108"/>ctio, quia ad actum malum sufficiunt particulares 
+            <lb ed="#V" n="109"/>defectus: tamen ad actum bonum oportet concurtere 
+            <lb ed="#V" n="110"/>vtraque bona, vel oia bona, quia bonum constat 
+            <lb ed="#V" n="111"/>ex tota, &amp; perfecta sua cam: propter quod nisi bona interr 
+            <!--603.xml-->
+            <pb ed="#V" n="603"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tio inciudat bonamtiegionem, &amp; aconuerto non 
+            <lb ed="#V" n="2"/>poterit iudicari actus bonus: licet ad actum ma¬ 
+            <lb ed="#V" n="3"/>lum sufficiat solum alterum esse malum. Mira¬ 
+            <lb ed="#V" n="4"/>mur tamen, quare sic loquentes voluerunt potius 
+            <lb ed="#V" n="5"/>actum bonum attribuere electioni bonae, quam 
+            <lb ed="#V" n="6"/>intentioni: Cum dicat Philosophus in 2. de aia. 
+            <lb ed="#V" n="7"/>Quia a fine sunt omnia denominanda. &amp; cum 
+            <lb ed="#V" n="8"/>ea, quae sunt ad finem, ordinentur ad ipsum finem, 
+            <lb ed="#V" n="9"/>&amp; non econuerso, &amp; cum habeat in littera: hond 
+            <lb ed="#V" n="10"/>enim opus intentio facit. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e428">
+            <lb ed="#V" n="11"/>Reuertamur erpo ad propositum, &amp; dicamus: 
+            <lb ed="#V" n="12"/>Quia nec bona intentio est sine bona electione, 
+            <lb ed="#V" n="13"/>nec econuerso sufficit ad actum bonum: &amp; si inuenia 
+            <lb ed="#V" n="14"/>tur, quod vnus istorum sufficiat: intelligendum 
+            <lb ed="#V" n="15"/>est prout inuicem se conludunt. Et si dicatur, quod 
+            <lb ed="#V" n="16"/>non bene eligit, qui male intendit; Respondebi¬ 
+            <lb ed="#V" n="17"/>mus, quod non bene intendit, qui male elegit. Et li¬ 
+            <lb ed="#V" n="18"/>cet vnum non sufficiat sine alio: conuenientius 
+            <lb ed="#V" n="19"/>tamen bonitas operis extetioris denominabitur 
+            <lb ed="#V" n="20"/>ab intentione tamnquam a fine, quam ab electione. 
+            <lb ed="#V" n="21"/>Iuxta illud: Quicquid agunt homines, intentio 
+            <lb ed="#V" n="22"/>iudicat omnes. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e457">
+            <lb ed="#V" n="23"/>Cum ergo quaeritur: Vtrum ex voluntate sit 
+            <lb ed="#V" n="24"/>bonitas, &amp; malitia in actu exteriori: patet, quia 
+            <lb ed="#V" n="25"/>cum ad actum bonum concurrant omnia: ad ma¬ 
+            <lb ed="#V" n="26"/>lum sufficiant particulares defectus: Et cum vo¬ 
+            <lb ed="#V" n="27"/>luntas sola sit illud, qua peccatur, &amp; recte viuitur: 
+            <lb ed="#V" n="28"/>&amp; cum ignorantia, ex qua potest consurgere con¬ 
+            <lb ed="#V" n="29"/>scientia erronea, sumat originem ex negligentia 
+            <lb ed="#V" n="30"/>voluntatis: omnia ista debent ad voluntatem re¬ 
+            <lb ed="#V" n="31"/>duci, ad hoc, quod sint opera bona, vel mala, 
+            <lb ed="#V" n="32"/>&amp; potissime in genere moris: a voluntate ergo 
+            <lb ed="#V" n="33"/>bene intendente, &amp; bene eligente, &amp; in circunstan¬ 
+            <lb ed="#V" n="34"/>tijs bene se habente iudicari poterit opus bonum, 
+            <lb ed="#V" n="35"/>sed a voluntate in aliquo horum deficiente pote¬ 
+            <lb ed="#V" n="36"/>rit iudicari malum. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e490">
+            <lb ed="#V" n="37"/>RESP. ADARG. Ad primum dicendum, 
+            <lb ed="#V" n="38"/>quod secundum Aug. in Ench. 15. c. exponentem 
+            <lb ed="#V" n="39"/>illud verbum: Non potest arbor bona, &amp;c. Natu¬ 
+            <lb ed="#V" n="40"/>ram humanam appropriat terrae: arborem bonam, 
+            <lb ed="#V" n="41"/>&amp; malam appropriat voluntati: fructus autem 
+            <lb ed="#V" n="42"/>appropriat operibus. Sicut ergo in eadem terra¬ 
+            <lb ed="#V" n="43"/>possunt oriri arbores bonae, vt ficus, &amp; vites, &amp; ar¬ 
+            <lb ed="#V" n="44"/>bores malae, vt spinae, &amp; tribuli: sic in eadem na¬ 
+            <lb ed="#V" n="45"/>tura humana potest esse voluntas bona bene in¬ 
+            <lb ed="#V" n="46"/>tendens, bene eligens, &amp; erga circunstantias be¬ 
+            <lb ed="#V" n="47"/>ne se habens, &amp; talis voluntas, siue talis arbor de¬ 
+            <lb ed="#V" n="48"/>necessitate faeiet fructum bonum id est opus bonum. 
+            <lb ed="#V" n="49"/>quia non poterit esse simpliciter, &amp; absolute bo¬ 
+            <lb ed="#V" n="50"/>na voluntas, vel bona arbor nisi habeat omnia bo¬ 
+            <lb ed="#V" n="51"/>na: &amp; si habet omnia bona de necessitate faciet 
+            <lb ed="#V" n="52"/>fructum, &amp; opus bonum. Sed ad hoc, quod sit 
+            <lb ed="#V" n="53"/>mala voluntas, vel mala arbor, &amp; ad hoc, quod faciar 
+            <lb ed="#V" n="54"/>fructum, &amp; opus malum, sufficit aliquod illorum 
+            <lb ed="#V" n="55"/>esse malum. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e534">
+            <lb ed="#V" n="56"/>Ad secundum dicendum, quod omnia opera ex¬ 
+            <lb ed="#V" n="57"/>teriora a voluntate habent, quod sint bona, vel mala¬ 
+            <lb ed="#V" n="58"/>in genere moris: tamen non oportet, quod si ex vo¬ 
+            <lb ed="#V" n="59"/>luntate sint applicata ad materiam debitam, &amp; 
+            <lb ed="#V" n="60"/>ex hoc sint bona ex genere, quod sint bona sim¬ 
+            <lb ed="#V" n="61"/>pliciter, vel si ex voluntate sunt effectui mancipa¬ 
+            <lb ed="#V" n="62"/>ta per bonam intentionem, &amp; sint bona ex fine, &amp; 
+            <!--603.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>absolute loquendo, sint bona: vel si sunt bona ex 
+            <lb ed="#V" n="64"/>circunstantijs, quod sint bona simpliciter: led si 
+            <lb ed="#V" n="65"/>in omnibus istis modis sunt a bona voluntate im¬ 
+            <lb ed="#V" n="66"/>perata, erunt bona. Si vero aliquod istorum de¬ 
+            <lb ed="#V" n="67"/>ficiat: erunt mala. Concedimus ergo, quod opera ex¬ 
+            <lb ed="#V" n="68"/>teriora a voluntate habent, quod sint bona, vel mala: 
+            <lb ed="#V" n="69"/>sed, vt sunt bona: sunt a tota voluntate, vt est to¬ 
+            <lb ed="#V" n="70"/>ra, &amp; perfecta: sed vt sunt mala sufficit ea pro¬ 
+            <lb ed="#V" n="71"/>cedere ex particularibus defectibus voluntatis. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e577">
+            <lb ed="#V" n="72"/>Et per hoc patet solutio ad tertium, quia opa¬ 
+            <lb ed="#V" n="73"/>exteriora ex voluntate habent, quod sint bona, 
+            <lb ed="#V" n="74"/>vel mala: modo, quo dictum est. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e586">
+            <lb ed="#V" n="75"/>Et per hoc patet solutio ad quartum, quia vo¬ 
+            <lb ed="#V" n="76"/>luntate recta vinitur. &amp; peccarur Sed ea recte 
+            <lb ed="#V" n="77"/>viuitur, vt ibi omnia concurrunt, sed peccatur, 
+            <lb ed="#V" n="78"/>prout aliquid ibi debentium concurrere deficit. 
+            <lb ed="#V" n="79"/>RIIP. ADARG. IN CONTRIRIVM. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e599">
+            <lb ed="#V" n="80"/>AD primum autem in contrarium dicen¬ 
+            <lb ed="#V" n="81"/>dum, quod ad voluntatem pertinet agere 
+            <lb ed="#V" n="82"/>actum habentem conuolutam mali¬ 
+            <lb ed="#V" n="83"/>tiam, quia ad voluntatem spectat ap¬ 
+            <lb ed="#V" n="84"/>plicare actus exteriores ad non debitam mate¬ 
+            <lb ed="#V" n="85"/>riam. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e615">
+            <lb ed="#V" n="86"/>Ad secundum dicendum, quod erronea consciem 
+            <lb ed="#V" n="87"/>tia est imputanda negligentiae voluntatis, non 
+            <lb ed="#V" n="88"/>adhibentis omnem diligentiam ad sciendam ve¬ 
+            <lb ed="#V" n="89"/>ritatem de agibilibus, vt non possit errare in con¬ 
+            <lb ed="#V" n="90"/>scientia. Sed quid, si adhiberet omnem diligen¬ 
+            <lb ed="#V" n="91"/>tiam, &amp; esset ibi ignorantia inuincibilis: Dici de¬ 
+            <lb ed="#V" n="92"/>bet, quod omnino debemus pie credere, quod Deus in 
+            <lb ed="#V" n="93"/>illo casu sibi reuelaret veritatem, sicut fecit Cor¬ 
+            <lb ed="#V" n="94"/>nelio mittens ad eum Angelum suum, vt faceret 
+            <lb ed="#V" n="95"/>eum ire ad Petrum, qui eum doceret fidei verita 
+            <lb ed="#V" n="96"/>tem, vt habetur in actis Apostolorum. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m178125-Dd1e643">
+          <head xml:id="Gi9qrR-m178125-Hd1e645">Articulus 2</head>
+          <p xml:id="Gi9qrR-m178125-d1e647">
+            <lb ed="#V" n="97"/>ARTIC. II. 
+            <lb ed="#V" n="98"/>An actus exterior in bonitate, e&amp; 
+            <lb ed="#V" n="99"/>malitia addat aliquid su¬ 
+            <lb ed="#V" n="100"/>pra interiorem. 
+            <lb ed="#V" n="101"/>Conclusio est affirmatiua.
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e660">
+            <lb ed="#V" n="102"/>DTTh. 1. 4. q. 1a. 2r.4. rt 4. sent d. 4o. ar. 3. D. Bon. q 40. 
+            <lb ed="#V" n="103"/>r. R. q.4. Ric. d 47. d. 7 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e667">
+            <lb ed="#V" n="104"/>SECVNDO quaeritur: Vtrum 
+            <lb ed="#V" n="105"/>actus exterior addat aliquid in 
+            <lb ed="#V" n="106"/>bonitate, &amp; malitia ad actum in¬ 
+            <lb ed="#V" n="107"/>teriorem, 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e678">
+            <lb ed="#V" n="108"/>Et videtur, quod non. quia, vt ha¬ 
+            <lb ed="#V" n="109"/>betur in Ethic. Nihil prohibet 
+            <lb ed="#V" n="110"/>minora dantem liberaliorem esse, si a pauciori¬ 
+            <lb ed="#V" n="111"/>bus accipiat. Et hoc idem habetur Matth. de il¬ 
+            <lb ed="#V" n="112"/>la vidua dante duo minuma. Si en. actus exterior 
+            <lb ed="#V" n="113"/>aliquid adderet: ergo semper faciens maius opus 
+            <lb ed="#V" n="114"/>extenius, magis meretetur, quod est fassum. 
+            <!--604.xml-->
+            <pb ed="#V" n="604"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>praeterea dicitur debeato Martino, quod ani¬ 
+            <lb ed="#V" n="2"/>ma sua erat beata, quam si gladius persecutoris 
+            <lb ed="#V" n="3"/>non abstulit, palmam tamen martyrii non ami¬ 
+            <lb ed="#V" n="4"/>sit. Actus ergo martytii exterior non videtur ali¬ 
+            <lb ed="#V" n="5"/>quid addere. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e714">
+            <lb ed="#V" n="6"/>praeterea voluntas habendi Sactamentum suffi¬ 
+            <lb ed="#V" n="7"/>cit: si non adsit facultas exterior. Ergo Sacramen¬ 
+            <lb ed="#V" n="8"/>tum, vel quodcunque opus exterius nihil vide¬ 
+            <lb ed="#V" n="9"/>tur addere super interiori voluntate. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e725">
+            <lb ed="#V" n="10"/>Praeterea: secundum Philosophum in Ethic. 
+            <lb ed="#V" n="11"/>Ista bona exteriora videntur facere ad quandam 
+            <lb ed="#V" n="12"/>claritatem felicitatis: non ad ipsam felicitatem. 
+            <lb ed="#V" n="13"/>Est enim homo felis, &amp; beatus &amp;x interioribus, non 
+            <lb ed="#V" n="14"/>exterioribus: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e738">
+            <lb ed="#V" n="15"/>In CONTRARIVM est, quia super il¬ 
+            <lb ed="#V" n="16"/>lo verbo ad Gal. 6. Tempore suo metemus non 
+            <lb ed="#V" n="17"/>deficientes, dicit Olo. quod quantum seminamus in 
+            <lb ed="#V" n="18"/>oper ibus: tantum metemus in fructibus, &amp; vide¬ 
+            <lb ed="#V" n="19"/>tur ibi loqui de operibus exterioribus. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e751">
+            <lb ed="#V" n="20"/>Praeterea Apostolus ad Cor. loquens de opere 
+            <lb ed="#V" n="21"/>exteriori ait, quod qui parce seminat: parce &amp; 
+            <lb ed="#V" n="22"/>metet: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e760">
+            <lb ed="#V" n="23"/>RESOLVTIO. 
+            <lb ed="#V" n="24"/>Actus exterior interiori addit, vt est quadamraes in 
+            <lb ed="#V" n="25"/>se, &amp; quantum ad meritum, ac praemium in Patria: acti¬ 
+            <lb ed="#V" n="26"/>dilectionir perfectum reddit: charitati augmentim, 
+            <lb ed="#V" n="27"/>gratiaeq excelletiam fistat: nosa, Deo magis unit. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e773">
+            <lb ed="#V" n="28"/>RESPONDEO dicendum, quod opera ex 
+            <lb ed="#V" n="29"/>teriora possunt considerari dupliciter. Primo, vt 
+            <lb ed="#V" n="30"/>comparant ad ea, quae sunt interius in anima, pro¬ 
+            <lb ed="#V" n="31"/>ut ea perficiunt, &amp; augmentant. Si enim opus exte¬ 
+            <lb ed="#V" n="32"/>rius perficit illud, quod est in anima, vel augmentat 
+            <lb ed="#V" n="33"/>ipsum: cum perfectum dicatur semper aliquid ad 
+            <lb ed="#V" n="34"/>dere supra imperfectum, &amp; augmentum super id, 
+            <lb ed="#V" n="35"/>quod est augmentum: non immerito dirm actus exterior 
+            <lb ed="#V" n="36"/>in opere aliquid addere super ea, quae sunt inte¬ 
+            <lb ed="#V" n="37"/>rius in anima. Secundo modo possunt considera 
+            <lb ed="#V" n="38"/>ri opera exteriora, vt sunt quaedam res in se. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e800">
+            <lb ed="#V" n="39"/>Propter primum sciendum, quod opa exteriora addunt 
+            <lb ed="#V" n="40"/>supe ea, quoa sunt interius in anima, quadrupliciter. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e807">
+            <lb ed="#V" n="41"/>primo quia actum dilectionis perficiunt. Scdo, 
+            <lb ed="#V" n="42"/>quia si saepius iterentur, vel ex toto conatu fiant: 
+            <lb ed="#V" n="43"/>habitum charitatis augmentant. Tertio, quia habi¬ 
+            <lb ed="#V" n="44"/>tum charitatis augmentando, quod perficit potentiam aiae¬ 
+            <lb ed="#V" n="45"/>gratiam excel lentiorem reddunt, quae perficit essen¬ 
+            <lb ed="#V" n="46"/>tiam. Quarto, quia omnia haec faciendo, Deo, quod est 
+            <lb ed="#V" n="47"/>nrm essentiale premium: magis nos vniunt, &amp; coniungunt, 
+            <lb ed="#V" n="48"/>&amp; in Deum per amplius, &amp; pfectius nos trames formant. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e827">
+            <lb ed="#V" n="49"/>Primo ergo ista exteriora opa addunt sup inte¬. 
+            <lb ed="#V" n="50"/>riora, quia actum dilectionis perficiunt. Nam ex actu &amp; 
+            <lb ed="#V" n="51"/>lectionis, quem hebemus ad Deum, &amp; ad proximum ten¬ 
+            <lb ed="#V" n="52"/>dimus in opus exterius bonum, tanquam in obiectum, 
+            <lb ed="#V" n="53"/>vel tanquam in terminum, vt puta ex actu interio¬ 
+            <lb ed="#V" n="54"/>ris dilectionis imus ad ecclesiam, reficimus pau¬ 
+            <lb ed="#V" n="55"/>perem, facimus caetera huiusmodi bona opa exte¬ 
+            <lb ed="#V" n="56"/>riora. Et quia actus pficitur ex eo, quod tendit in obie¬ 
+            <lb ed="#V" n="57"/>ctum debitum, &amp; motus recipit quandam pfectionem 
+            <lb ed="#V" n="58"/>ex ter mino; Ideo ratione huiusmodi perfectionis primo 
+            <lb ed="#V" n="59"/>dicitur opus exterius aliquod addere supr id, quod est 
+            <lb ed="#V" n="60"/>interius, quia op exterins respectu opis interis se 
+            <lb ed="#V" n="61"/>het, vt obiectum, &amp;, vt termin, modo, quo dictum est. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e858">
+            <!--604.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="62"/>Secundo opus nostrum exterius dite aliqueod ad. 
+            <lb ed="#V" n="63"/>dere super ea, quae sunt interius, quia tale opus 
+            <lb ed="#V" n="64"/>non solum actum dilectionis perficit, sed si est se 
+            <lb ed="#V" n="65"/>pius iteratum, vel ex toto conatu factum, habitum 
+            <lb ed="#V" n="66"/>charitatis augmentat. Nam licet charitas non sit 
+            <lb ed="#V" n="67"/>habitus ex operibus acquisitus, sed sit a Deo in¬ 
+            <lb ed="#V" n="68"/>fusus. quia dicit beatus loan. Comparando nos 
+            <lb ed="#V" n="69"/>ad Deus non, quod nos dilexerimus Deum, sed qunded 
+            <lb ed="#V" n="70"/>ipse prior dilexit nos. Ipse n. prius dilexit nos, &amp; 
+            <lb ed="#V" n="71"/>dedit nobis de gratia sua, &amp; de dilectione sua. 
+            <lb ed="#V" n="72"/>Charitas ergo est in nobis diuina infusione: pi¬ 
+            <lb ed="#V" n="73"/>quod habitus charitatis quantum ad suam generatio 
+            <lb ed="#V" n="74"/>nem differt ab habitibus acquisitis, sed quantum 
+            <lb ed="#V" n="75"/>ad suum augmentum, prout ad propositum spe¬ 
+            <lb ed="#V" n="76"/>ctat, possumus dicere idem esse iudicium de aug 
+            <lb ed="#V" n="77"/>mento charitatis, &amp; aliorum habituum, quia si¬ 
+            <lb ed="#V" n="78"/>cut frequenter cytharixando augmentamur in 
+            <lb ed="#V" n="79"/>arte cytharixandi, vel in habitu ortharixationis, 
+            <lb ed="#V" n="80"/>quia semper magis, &amp; magis habilitatur manus 
+            <lb ed="#V" n="81"/>nostra ad cytharixandum, sic saepe saepius facien¬ 
+            <lb ed="#V" n="82"/>do opera consona charitati, meremur: per ope¬ 
+            <lb ed="#V" n="83"/>ra illa etiam exteriora facta in charitate, vt aug¬ 
+            <lb ed="#V" n="84"/>mentetur in nobis habitus charitatis. Et si dica 
+            <lb ed="#V" n="85"/>tur, quod istud augmentum est ex actu interio 
+            <lb ed="#V" n="86"/>ris charitatis, siue virtutis, quae est charitas: ma¬ 
+            <lb ed="#V" n="87"/>tet, quod cum actus charitatis aliquam perse¬ 
+            <lb ed="#V" n="88"/>ctionem adipiscatur ex obiecto, vel ex opere ex¬ 
+            <lb ed="#V" n="89"/>teriori: non incompetentet meritum, per quod 
+            <lb ed="#V" n="90"/>fit nobis augmentum charitatis, potest aliquo mo¬ 
+            <lb ed="#V" n="91"/>do attribui bonitati operis exterioris. Et quod di¬ 
+            <lb ed="#V" n="92"/>ctum est de frequentatione operum exteriorum 
+            <lb ed="#V" n="93"/>consonantium charitati: potest dici de opere vno 
+            <lb ed="#V" n="94"/>aliquo exteriori ex toto, vel ex magno conatu fa¬ 
+            <lb ed="#V" n="95"/>cto. Vtpnta si quis omnia bona sua daret pau¬ 
+            <lb ed="#V" n="96"/>peribus, &amp; Religionem intraret, implens illud ver 
+            <lb ed="#V" n="97"/>bum Domini. Vis perfectus esse: vade, &amp; ven 
+            <lb ed="#V" n="98"/>de omnia, quae habes, &amp; da pauperibus, &amp; seque¬ 
+            <lb ed="#V" n="99"/>re me. Mancipando enim effectui tantum opus: 
+            <lb ed="#V" n="100"/>omnino credendum est per huiusmodi opus: si 
+            <lb ed="#V" n="101"/>fit, vt fieri debet, quod augmentetur in nobis la¬ 
+            <lb ed="#V" n="102"/>bitus charitatis. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e954">
+            <lb ed="#V" n="103"/>Tertio opus nostrum exterius dicitur aliquid 
+            <lb ed="#V" n="104"/>addere his, quae sunt interius in aia, quia augmenta¬ 
+            <lb ed="#V" n="105"/>ta charitate, quo perficit aiae potentiam: augmentas, &amp; 
+            <lb ed="#V" n="106"/>excellentior reddic in nobis gra perficiens animae 
+            <lb ed="#V" n="107"/>essentiam. Nam a gratia est spunale esse: a charitate ve¬ 
+            <lb ed="#V" n="108"/>ro, quod perficit potentiam, est spunale agere. Sicut. ncae¬ 
+            <lb ed="#V" n="109"/>teris paribus non poest alicui conpetere magis calefs¬ 
+            <lb ed="#V" n="110"/>cere: nisi ei competat hre esse magis calidum, quia 
+            <lb ed="#V" n="111"/>non pot augmentari posterius, nisi augmentetut 
+            <lb ed="#V" n="112"/>prius: sic seudu Dio. 2. d Ecclesiastica Hierar. Prius 
+            <lb ed="#V" n="113"/>competit nobis spirituale esse, &amp; postea spirituas 
+            <lb ed="#V" n="114"/>le agere: non poterimus augmentari in charitae 
+            <lb ed="#V" n="115"/>te, per quam competit nobis spirituale agergi ni¬ 
+            <lb ed="#V" n="116"/>si augmentemur in gratia, per quam copetit ner 
+            <lb ed="#V" n="117"/>bis spirituale esse. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e989">
+            <lb ed="#V" n="118"/>Quarto hoc idem patet, quia per haec oia: perhae¬ 
+            <lb ed="#V" n="119"/>bendo perfectiorem charitatis actum, &amp; maiorem cha¬ 
+            <lb ed="#V" n="120"/>ritatis habitum, &amp; excellentius grae donum: magit 
+            <lb ed="#V" n="121"/>vnimur, &amp; coniugimur Deo, &amp; transformamurin 
+            <lb ed="#V" n="122"/>ipsum. quia licet cognitio assimilet: Amor tamem 
+            <lb ed="#V" n="123"/>transformat. Et licet cognoscendo, &amp; intelligenes 
+            <!--605.xml-->
+            <pb ed="#V" n="605"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>res intellecta sit in nobis: amando tamen collo¬ 
+            <lb ed="#V" n="2"/>camur In re amata, quia amor non sinit sui ipso¬ 
+            <lb ed="#V" n="3"/>rum esse amatores, sed collocat eos in re amata, 
+            <lb ed="#V" n="4"/>&amp; facit rem amantem esse vnum, &amp; idenm cum re¬ 
+            <lb ed="#V" n="5"/>amata, iuxta illud: Qui adhaeret Deo: supple per¬ 
+            <lb ed="#V" n="6"/>amorem: vnus spiritus est: supple cum illo. Ex 
+            <lb ed="#V" n="7"/>quibus omnibus haberi potest, quod opus exte¬ 
+            <lb ed="#V" n="8"/>rius, vt comparatur ad ea, quae sunt interius in 
+            <lb ed="#V" n="9"/>anima nostra, aliquid addit illis interioribus. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1032">
+            <lb ed="#V" n="10"/>Viso quomodo opus exterius, vt comparatur 
+            <lb ed="#V" n="11"/>ad interiora nostra: aliquid addit illis interiori¬ 
+            <lb ed="#V" n="12"/>bus. Volumus declarare quomodo opus exterius, vt est 
+            <lb ed="#V" n="13"/>quaedam res in se: aliquid addit, &amp; aliquod gau¬ 
+            <lb ed="#V" n="14"/>dium facit praeter gaudium, quod habemus in 
+            <lb ed="#V" n="15"/>via, &amp; habebimus in patria de his, quae sunt in¬ 
+            <lb ed="#V" n="16"/>terius. Nam aliquod gaudium habet homo numnm 
+            <lb ed="#V" n="17"/>in sua conscientia de bono opere, quod operatur 
+            <lb ed="#V" n="18"/>exterius, &amp; ex hoc aliquod gaudium habebit in¬ 
+            <lb ed="#V" n="19"/>de in patria. Erit enim, vt communiter ponitur, in 
+            <lb ed="#V" n="20"/>patria duplex praemium, &amp; duplex gaudium. Erit 
+            <lb ed="#V" n="21"/>enim ibi praemium essentiale, &amp; hoc est gaudium 
+            <lb ed="#V" n="22"/>quod habebimus de bono increato de ipso Deo, 
+            <lb ed="#V" n="23"/>&amp; isuud praemium vocatur aurea. Et erit ibi prae¬ 
+            <lb ed="#V" n="24"/>mium aceidentale, &amp; istud erit gaudium de om¬ 
+            <lb ed="#V" n="25"/>ni bono creato, quod fecimus in charitate, &amp; istud 
+            <lb ed="#V" n="26"/>praemium potest vocari aureola: quasi diminutum 
+            <lb ed="#V" n="27"/>de aures. Et quamuis nulla sit comparatio gau¬ 
+            <lb ed="#V" n="28"/>dii, quod habebimus de bono creato, respectu¬ 
+            <lb ed="#V" n="29"/>gaudii, quod habebimus de bono increato: ta¬ 
+            <lb ed="#V" n="30"/>men magnum gaudium habebimus de bonis ope¬ 
+            <lb ed="#V" n="31"/>ribus etiam exterioribus, quae fecimus in cha¬ 
+            <lb ed="#V" n="32"/>ritate. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1084">
+            <lb ed="#V" n="33"/>Cum ergo quaeritur: Vtrum bonum opus ex 
+            <lb ed="#V" n="34"/>terius addat aiquid super ea, quae sunt interius. 
+            <lb ed="#V" n="35"/>Dici debet, quod opus exterius addit aliquid su¬ 
+            <lb ed="#V" n="36"/>per opus interius. etiam, vt est quaedam res in 
+            <lb ed="#V" n="37"/>se. Et ista additio est quantum ad meritum in 
+            <lb ed="#V" n="38"/>via, &amp; quantum ad praemium in patria. Et si qua 
+            <lb ed="#V" n="39"/>ratur quomodo habeat esse ista additio. Dicemus, quod si¬ 
+            <lb ed="#V" n="40"/>cut praemium accidentale addit supra praemium 
+            <lb ed="#V" n="41"/>essentiale, &amp; sicut gaudium de bono creato ad¬ 
+            <lb ed="#V" n="42"/>det in patria supra gaudium de bono increato, &amp; 
+            <lb ed="#V" n="43"/>sicut aureola addet in patria supra auream. Sicut 
+            <lb ed="#V" n="44"/>ergo omnes istae additiones fient in patria quantum 
+            <lb ed="#V" n="45"/>ad praemium, sie bonum exterius addit in via su¬ 
+            <lb ed="#V" n="46"/>per opus interius quantum ad meritum. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1117">
+            <lb ed="#V" n="47"/>Aduertendum tamen, quod licet aureola sit 
+            <lb ed="#V" n="48"/>gaudium in patria de bono creato, vel de bono 
+            <lb ed="#V" n="49"/>opere exterius facto, quod est bonum creatum: ta¬ 
+            <lb ed="#V" n="50"/>men non omne gaudium de quocunque bono 
+            <lb ed="#V" n="51"/>exteriori proprie dicitur aureola, sed sortit hoc 
+            <lb ed="#V" n="52"/>nomen opus priuilegiatum. Ideo iuxta tria ope¬ 
+            <lb ed="#V" n="53"/>ra priuilegiata dicitur triplex aureola. Habebunt 
+            <lb ed="#V" n="54"/>enim aureolam Virgines, &amp; Martyres, &amp; Docto 
+            <lb ed="#V" n="55"/>res: Iuxta tres vires animae: concupiscibilem, ira¬ 
+            <lb ed="#V" n="56"/>scibilem, &amp; rationalem. Virgines enim habebunt 
+            <lb ed="#V" n="57"/>aureolam propter puritatem concupiscibilis. 
+            <lb ed="#V" n="58"/>Martyres propter excellentiam irascibilis. Spe¬ 
+            <lb ed="#V" n="59"/>ctat enim ad irascibilem tendere in arduum, &amp; 
+            <lb ed="#V" n="60"/>aggredi terribile. sed secundum Philosophum fi¬ 
+            <lb ed="#V" n="61"/>nis omnium terribilium est mors. Sed Doctores 
+            <lb ed="#V" n="62"/>habebunt aureolam propter eorum rationem splen¬ 
+            <!--605.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>dentem, &amp; nadiantem, iuxta illud Dam. 12. qu 
+            <lb ed="#V" n="64"/>autem Doctores fuerunt fulgebunt quasi splen¬ 
+            <lb ed="#V" n="65"/>dor firmamenti. Et qui ad iustitiam erudiut mul¬ 
+            <lb ed="#V" n="66"/>tos quasi Stellae in perpetuas aeternitates. Sicut 
+            <lb ed="#V" n="67"/>ergo de quolibet verbo otioso reddemus ratio¬ 
+            <lb ed="#V" n="68"/>nem, fic de quolibet bono opere etiam exteriori¬ 
+            <lb ed="#V" n="69"/>habebimus gaudium: sed aureola non dicit quod¬ 
+            <lb ed="#V" n="70"/>cunque tale gaudium de quocunque opere bo¬ 
+            <lb ed="#V" n="71"/>no exteriori, sed de bono opere excellenti, &amp; pri¬ 
+            <lb ed="#V" n="72"/>uilegiato. Ex quibus patere potest quid addat bo¬ 
+            <lb ed="#V" n="73"/>num opus exterius tam in bonitate, quam in pri¬ 
+            <lb ed="#V" n="74"/>uilegio vltra id, quod est interius. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1185">
+            <lb ed="#V" n="75"/>RESP. AD ARO. Ad primum dicendum 
+            <lb ed="#V" n="76"/>quod maioritas, &amp; minoritas in talibus non attendi¬ 
+            <lb ed="#V" n="77"/>tur secundum quantitatem rei, sed secundum di¬ 
+            <lb ed="#V" n="78"/>ctamen rationis. Ideo ait Philosophus in quar¬ 
+            <lb ed="#V" n="79"/>to, quod non in multitudine datorum, sed in habi.¬ 
+            <lb ed="#V" n="80"/>tu dantis consistit liberalitas. Nam moralia, de 
+            <lb ed="#V" n="81"/>quibus nuncagitur, non accipiunt speciem ex is¬ 
+            <lb ed="#V" n="82"/>sis rebus secundum se, sed accipiunt speciem a 
+            <lb ed="#V" n="83"/>voluntate, vt est regulata a ratione quantum ad 
+            <lb ed="#V" n="84"/>bona: vel, vt deuiat a ratione quantum ad mala¬ 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1209">
+            <lb ed="#V" n="85"/>Ad secundum dicendum: quod, vt dicunt aliqui¬ 
+            <lb ed="#V" n="86"/>illud verbum, quod anima Beati Martini palmam 
+            <lb ed="#V" n="87"/>martyrii non amisit. Intelligendum est quantum 
+            <lb ed="#V" n="88"/>ad auream, &amp; quantum ad praemium essentiale, 
+            <lb ed="#V" n="89"/>quia aureolam, &amp; gaudium illud de martyrio non 
+            <lb ed="#V" n="90"/>habebit Beatus Martinus, vel non habet anima 
+            <lb ed="#V" n="91"/>sua nunc, cum non fuerit passus martyrium. Vel¬ 
+            <lb ed="#V" n="92"/>possumus dicere, quod palma martyrii dicitur ex. 
+            <lb ed="#V" n="93"/>cellentia martyrij. Sed excellentia potest accipi du¬ 
+            <lb ed="#V" n="94"/>pliciter, vel secundum statum, vel secundum per¬ 
+            <lb ed="#V" n="95"/>sonam. Certum est enim, quod secundum statum 
+            <lb ed="#V" n="96"/>Clerici sunt altiores Laicis, sed loquendo de ex¬ 
+            <lb ed="#V" n="97"/>cellentia personali multi laici sunt longe excellen¬ 
+            <lb ed="#V" n="98"/>tiores multis Clericis. Sic status Martyrum est ex 
+            <lb ed="#V" n="99"/>cellentior statu Confessorum, sed loquendo de 
+            <lb ed="#V" n="100"/>excellentia personali, multi Confessores fuerunt 
+            <lb ed="#V" n="101"/>excellentiores multis Martyribus. Credendum est¬ 
+            <lb ed="#V" n="102"/>enim, quod anima beati Martini sit in excellen¬ 
+            <lb ed="#V" n="103"/>tiori loco, quam animae multorum Martyrum 
+            <lb ed="#V" n="104"/>ideo dicitur anima beati Martini non amisisse pal 
+            <lb ed="#V" n="105"/>mam martyrij, quia est in excellentiori loco, quam 
+            <lb ed="#V" n="106"/>multi Martyres. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1259">
+            <lb ed="#V" n="107"/>Ad tertium dicendum, quod voluntas haber¬ 
+            <lb ed="#V" n="108"/>di sacramentum, si non adsit facultas exterior suf¬ 
+            <lb ed="#V" n="109"/>ficit quantum ad habendam gloriam, &amp; quantum 
+            <lb ed="#V" n="110"/>ab habendam auream, quia quantum ad hoc suf¬ 
+            <lb ed="#V" n="111"/>ficit Saeramentum in voto. Sed si sit Sacramen¬ 
+            <lb ed="#V" n="112"/>tum in voto, &amp; in opere: erit ibi aliquod gaudium 
+            <lb ed="#V" n="113"/>de ipso opere, quod non habebit habenes Sacramen¬ 
+            <lb ed="#V" n="114"/>tum in voto, &amp; non in opere. Quod patet per exe 
+            <lb ed="#V" n="115"/>plum, quia baptixatus in voto, &amp; non in opere, li¬ 
+            <lb ed="#V" n="116"/>cet possit reciperegratiam; tamen non recipit 
+            <lb ed="#V" n="117"/>caracterem: propter quod si sic decederet, non 
+            <lb ed="#V" n="118"/>haberet illud gaudium de caractere, quod habent 
+            <lb ed="#V" n="119"/>baptixati in opere: immo cum ille caracter sit a¬ 
+            <lb ed="#V" n="120"/>liqua pulchritudo animae: sequitur, quod aliquam 
+            <lb ed="#V" n="121"/>pulchritudinem habeat anima baptitati in ope¬ 
+            <lb ed="#V" n="122"/>re, quam non hebeat anima baptixati solum in voto. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1297">
+            <lb ed="#V" n="123"/>Ad quartum dicendum, quod bona fortunae orga¬ 
+            <lb ed="#V" n="124"/>nicae faciunt ad foelicitatem: licet non faciant 
+            <!--606.xml-->
+            <pb ed="#V" n="606"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>essentialiter. Nam habentes bona fortunae pos¬ 
+            <lb ed="#V" n="2"/>sunt se exercitare in multis operibus virtutum, 
+            <lb ed="#V" n="3"/>quod non possunt carentes dictis bonis: propter 
+            <lb ed="#V" n="4"/>quod si non simpliciter, &amp; absolute talia bona 
+            <lb ed="#V" n="5"/>faciunt ad foelicitatem organice: tamen per ac¬ 
+            <lb ed="#V" n="6"/>cidens faciunt. Et hoc sufficit ad hoc, quod opus 
+            <lb ed="#V" n="7"/>bonum exterius addat aliquid in bonitate, &amp; in 
+            <lb ed="#V" n="8"/>praemio supra opus interius. quia etiam secundum 
+            <lb ed="#V" n="9"/>se consideratum, vt dictum est, addit quoddam 
+            <lb ed="#V" n="10"/>praemium accidentale. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m178125-Dd1e1333">
+          <head xml:id="Gi9qrR-m178125-Hd1e1335">Articulus 3</head>
+          <p xml:id="Gi9qrR-m178125-d1e1337">
+            <lb ed="#V" n="11"/>ARTIC. III. 
+            <lb ed="#V" n="12"/>An eadem actio possit esse bona, 
+            <lb ed="#V" n="13"/>&amp; mala. 
+            <lb ed="#V" n="14"/>Conclusio est negatiua.
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1348">
+            <lb ed="#V" n="15"/>DTh. 1. 3. q. 18 ar. 1. 3. 3. 3. Et q. 30. ar.46. Et atent. q4. q0 
+            <lb ed="#V" n="16"/>ar. 4. Et de Malo q. 1. ar. 1. Tho. Arg. d. 40. q. princ. &amp; 
+            <lb ed="#V" n="17"/>ar. 1. Capr. d. 4. q. 1. Dur. d. 40. q. 1. ai3.. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1357">
+            <lb ed="#V" n="18"/>TERTIO quaeritur: Vtrum ea 
+            <lb ed="#V" n="19"/>dem actio possit esse bona, &amp; 
+            <lb ed="#V" n="20"/>mala. Et videtur, quod sic. quia a¬ 
+            <lb ed="#V" n="21"/>ctio, &amp; passio sunt vnus, &amp; idem 
+            <lb ed="#V" n="22"/>motus, quia non differunt nisi¬ 
+            <lb ed="#V" n="23"/>sicut via, qua itur Athenis The¬ 
+            <lb ed="#V" n="24"/>bas, &amp; Thebis Athenas. Sed in martyribns actio¬ 
+            <lb ed="#V" n="25"/>erat mala, quam exercebant tyranni: Et passio erat 
+            <lb ed="#V" n="26"/>bona, quam sustinebant martyres, iuxta illud: 
+            <lb ed="#V" n="27"/>Actio displicuit: passio grata fuit. Ergo vnus, &amp; 
+            <lb ed="#V" n="28"/>idem motus potest esse bonus, &amp; malus. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1383">
+            <lb ed="#V" n="29"/>Praeterea quamdiu motus est continuus: tam¬ 
+            <lb ed="#V" n="30"/>diu est vnus motus, vt potest haberi ex;. Phys. Sed 
+            <lb ed="#V" n="31"/>in vno, &amp; eodem motu continuo, cum quis vadit 
+            <lb ed="#V" n="32"/>ad Ecclesiam potest quis habere prius bonam in 
+            <lb ed="#V" n="33"/>tentionem, &amp; postea malam, vel econuerso. Ergo¬ 
+            <lb ed="#V" n="34"/>ille vnus, &amp; idem motus, vel illa vna, &amp; eadem 
+            <lb ed="#V" n="35"/>actio erit bona, &amp; mala. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1402">
+            <lb ed="#V" n="36"/>Praeterea: si primo motui non resistatur, e&amp; 
+            <lb ed="#V" n="37"/>quid malum, &amp; peccatum: si resistatur, est quid bo¬ 
+            <lb ed="#V" n="38"/>num, &amp; meritorium. Sed potest contingere, quod il¬ 
+            <lb ed="#V" n="39"/>lo motu durante quis primo non resistat, &amp; postea 
+            <lb ed="#V" n="40"/>resistat. Ergo ille idem motus erit bonus, &amp; malus. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1415">
+            <lb ed="#V" n="41"/>Praeterea potest contingere, quod Dominus 
+            <lb ed="#V" n="42"/>bona intentione, &amp; ex charitate praecipiat seruo, 
+            <lb ed="#V" n="43"/>quod det elemosinam: seruus autem dat eam in¬ 
+            <lb ed="#V" n="44"/>uitus, &amp; coactus. Constat autem, quod illa actio 
+            <lb ed="#V" n="45"/>est Domini, &amp; serui: &amp; tamen, vt est Domini, est 
+            <lb ed="#V" n="46"/>bona, vt est serui, est mala: ergo, &amp; c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1431">
+            <lb ed="#V" n="47"/>Praeterea omne, quod est, inquantum est, bonum 
+            <lb ed="#V" n="48"/>est: ergo omnis actio quantumcunque a Deo pro¬ 
+            <lb ed="#V" n="49"/>hibita inquantum est actio, bona est. Inquantum est 
+            <lb ed="#V" n="50"/>a Deo prohibita: mala est: propter quod manifeste 
+            <lb ed="#V" n="51"/>concluditur, vnam, &amp; eandem actionem esse, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1444">
+            <lb ed="#V" n="52"/>IN CONTRARIVM est, quia nemo potest¬ 
+            <lb ed="#V" n="53"/>duobus Danes seruire, vt hr Matth. Sed per actionem 
+            <lb ed="#V" n="54"/>bonam seruitur Deo: per malam Diabolo: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1453">
+            <lb ed="#V" n="55"/>Praeterea impossibile est simul contraria esse 
+            <lb ed="#V" n="56"/>in caden re. Sed bonum, &amp; malum sunt contraria 
+            <lb ed="#V" n="57"/>ergo in eadem actione esse simul, est impossibile. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1462">
+            <!--606.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="58"/>RESOLVTIO. 
+            <lb ed="#V" n="59"/>Aflitadennimnero in gonere nori, colon goos 
+            <lb ed="#V" n="60"/>re bona, &amp; mala non potest. Sed aliqua actio in 
+            <lb ed="#V" n="61"/>genere entis hona esse potest: mala vero in gene¬ 
+            <lb ed="#V" n="62"/>te moris, &amp; econuerso. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1481">
+            <lb ed="#V" n="63"/>RRSPONDEO dicendam, quod quaeritur 
+            <lb ed="#V" n="64"/>de vnitate actionis, &amp; de bonitate eius d est de ma¬ 
+            <lb ed="#V" n="65"/>litia: Vtrum eadem actio possit esse bons, &amp; 
+            <lb ed="#V" n="66"/>mala. Et quia vnitas, &amp; bonitas, &amp; malitia actio¬ 
+            <lb ed="#V" n="67"/>nis paet multis modis accipi: ion oportet de istis 
+            <lb ed="#V" n="68"/>multipliciter distinguere. Nam actio, &amp; speciali¬ 
+            <lb ed="#V" n="69"/>ter humana, potest considerari secundum duplex genus 
+            <lb ed="#V" n="70"/>&amp; vt est in duplici genere, videlicet in genere en¬ 
+            <lb ed="#V" n="71"/>tis, &amp; in gnene moris: propter quodd scuedu diuersa hu¬ 
+            <lb ed="#V" n="72"/>iusmodi oodenena diuersimode poterit iudicari uel 
+            <lb ed="#V" n="73"/>vna, vel bona, vel mala. Nam in gnee entis est vna 
+            <lb ed="#V" n="74"/>quamdiu est vnus motns continuus est bona, pro¬ 
+            <lb ed="#V" n="75"/>ut procedit a suis principijs bonis, &amp; sufficienti¬ 
+            <lb ed="#V" n="76"/>bus, a quibus habet esse: &amp; est mala, prout pro¬ 
+            <lb ed="#V" n="77"/>cedit a talibus principijs deficientibus, vt pate¬ 
+            <lb ed="#V" n="78"/>in ambulatione, quae tamn diu est vna, est continua 
+            <lb ed="#V" n="79"/>tam diu est bona in genere entis, quamdiu proce¬ 
+            <lb ed="#V" n="80"/>dit a sufficienti virtute gresfiua. Sed tunc incipi¬ 
+            <lb ed="#V" n="81"/>ambulatio esse mala in genere entis: quando vir¬ 
+            <lb ed="#V" n="82"/>tus gressiua incipit deficere, &amp; tybia incipit clau¬ 
+            <lb ed="#V" n="83"/>dicare. Ergo in genere entis habet esse ambula¬ 
+            <lb ed="#V" n="84"/>tio ex tybia, &amp; virtute gressiua. Malum ergo se¬ 
+            <lb ed="#V" n="85"/>cundum tale genus est defectus entis: &amp; bonum 
+            <lb ed="#V" n="86"/>est perfectio illius entis, &amp; veritas est continuatio 
+            <lb ed="#V" n="87"/>illius motus, sed non ex eisdem habet ambula¬ 
+            <lb ed="#V" n="88"/>tio, quod sit in genere entis, &amp; in genere moris, 
+            <lb ed="#V" n="89"/>Nam in gnee entis est per ea, quae dicta sunt, sed in 
+            <lb ed="#V" n="90"/>genere moris collocatur, prout est a voluntate im 
+            <lb ed="#V" n="91"/>perata rectae rationi se consormante. Et hoc modo 
+            <lb ed="#V" n="92"/>est bona; vel a recta ratione deuiante, &amp; hoc modo 
+            <lb ed="#V" n="93"/>est mala. Ipsae ergo res naturales sunt principia 
+            <lb ed="#V" n="94"/>actuum, vt sunt in ganee entis: sed voluntas, &amp; ratio 
+            <lb ed="#V" n="95"/>sunt principia dictarum actionum, vt sunt in genere 
+            <lb ed="#V" n="96"/>moris. Et ex hoc apparet illud, quod supra dice¬ 
+            <lb ed="#V" n="97"/>batur, quod naturalia respiciunt speciem a forma, 
+            <lb ed="#V" n="98"/>moralia a fine. Et licet huiusmodi dicti assigna¬ 
+            <lb ed="#V" n="99"/>uerimus rotoenem superius, dicentes, quod natu¬ 
+            <lb ed="#V" n="100"/>ralia recipiunt speciem a forma, quia sunt intet 
+            <lb ed="#V" n="101"/>formam, &amp; formam: Moralia vero a fine, quia sunt in¬ 
+            <lb ed="#V" n="102"/>ter finem, &amp; finem: modo, quo supra declarabatur. 
+            <lb ed="#V" n="103"/>Nunc autem possumus rotnenem aliam assignare. Nam na¬ 
+            <lb ed="#V" n="104"/>turalia, scudum quod hmondme, respiciunt principia, a quibus 
+            <lb ed="#V" n="105"/>habenet esse. Et quia esse principaliter est a forma: 
+            <lb ed="#V" n="106"/>Ideo dicuntur naturalia recipere spem a forma, 
+            <lb ed="#V" n="107"/>&amp; collocari in esse per formam. Sed principia in 
+            <lb ed="#V" n="108"/>moralibus sunt voluntas, &amp; rae: &amp; moralia collo¬ 
+            <lb ed="#V" n="109"/>cantur in esse morali: vel collocantur in genere 
+            <lb ed="#V" n="110"/>moris per voluntatem, &amp; rationem. vt tunc sunt bona 
+            <lb ed="#V" n="111"/>moralia, quando voluntas, quae in talibus habet 
+            <lb ed="#V" n="112"/>principalitatem, &amp; dominium rectae rationi se con¬ 
+            <lb ed="#V" n="113"/>formar. &amp; tunc sunt mala moralia, quando ea¬ 
+            <lb ed="#V" n="114"/>dem voluntas a recta ratione deuiat. Et quia hoc 
+            <lb ed="#V" n="115"/>est proprium rationis, dirigere voluntatem in re¬ 
+            <lb ed="#V" n="116"/>ctum finem: ideo consideratis principijs, per que¬ 
+            <!--607.xml-->
+            <pb ed="#V" n="607"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>moralia reponunt in genere moris, oportet ea su¬ 
+            <lb ed="#V" n="2"/>mere speciem a fine, vt si voluntas tendendo in 
+            <lb ed="#V" n="3"/>finem rectae rotei se conformat: erunt moralia bo¬ 
+            <lb ed="#V" n="4"/>na: si a recta ratione deuiat, erunt mala. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1616">
+            <lb ed="#V" n="5"/>Ex quibus omnibus apparere potest vnde mo¬ 
+            <lb ed="#V" n="6"/>ralia habeant vnitatem: vnde bonitatem: vnde 
+            <lb ed="#V" n="7"/>malitiam. Nam vnitatem habent ex vna ipsa ten¬ 
+            <lb ed="#V" n="8"/>sione, vel ex ipso vno motu voluntatis in vnum 
+            <lb ed="#V" n="9"/>finem: sed bonitatem habent ex eo, quod talis mo¬ 
+            <lb ed="#V" n="10"/>tus rectae rationi se conformat: Malitiam vero, prer¬ 
+            <lb ed="#V" n="11"/>ut a recta ratione deuiat. His ergo transcursis 
+            <lb ed="#V" n="12"/>dicamus, quod potest esse actio vna in genere 
+            <lb ed="#V" n="13"/>entis, &amp; non erit vna in genere moris &amp; econ¬ 
+            <lb ed="#V" n="14"/>uerso. Et potest esse actio bona in genere en¬ 
+            <lb ed="#V" n="15"/>tis, &amp; non erit bona in genere moris, &amp; econuer¬ 
+            <lb ed="#V" n="16"/>so. Et quod dictum eti de vnitate, &amp; bonitate actionis, 
+            <lb ed="#V" n="17"/>veriratem hebnt etiam de malitia. quae oia sic declaram 
+            <lb ed="#V" n="18"/>tur. Nam, vt posuimus exemplum de ambulatione, 
+            <lb ed="#V" n="19"/>Dicemus, quod tam diu est vna ambulatio in gene¬ 
+            <lb ed="#V" n="20"/>re entis, quodiu est ibi continuus ambulationis 
+            <lb ed="#V" n="21"/>motus: Sed non oporter, ambulatione existente 
+            <lb ed="#V" n="22"/>sic vna numero in genere entis, quod sit vna nume¬ 
+            <lb ed="#V" n="23"/>ro i gne moris, immo ambulatio vna numero in 
+            <lb ed="#V" n="24"/>gne entis pot esse diuersa numero, &amp; diuersa spen¬ 
+            <lb ed="#V" n="25"/>in gne moris. Nam in vna, &amp; eadem ambulatione 
+            <lb ed="#V" n="26"/>numero, in gane entis potet esse diuersa intentio 
+            <lb ed="#V" n="27"/>primo bona, &amp; postea mala: vel econuerso ingane¬ 
+            <lb ed="#V" n="28"/>moris, non solum sunt diuersa numero, sed &amp; 
+            <lb ed="#V" n="29"/>spen. Et etiam posset esse talis diuersitas intentionis re¬ 
+            <lb ed="#V" n="30"/>snectu finis, quod faceret diuersitatem in gane, vt in 
+            <lb ed="#V" n="31"/>gula est assignare plures spees peccatorum, &amp; plura 
+            <lb ed="#V" n="32"/>peccata numero. Si ergo eatur ad aliud vitium, vt 
+            <lb ed="#V" n="33"/>puta ad homicidium, potet dici non solum aliud pec¬ 
+            <lb ed="#V" n="34"/>catum numero, vel specie: sed etiam genere. Et 
+            <lb ed="#V" n="35"/>quia in vno, &amp; eodem motu numero in genere en¬ 
+            <lb ed="#V" n="36"/>tis possunt esse omnes istae diuersitates in genere 
+            <lb ed="#V" n="37"/>moris. Ideo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1690">
+            <lb ed="#V" n="38"/>Et quod dictum est de vnitate actionis in gane en¬ 
+            <lb ed="#V" n="39"/>tis raespectu diuersitatis in gane moris; aliquo¬ 
+            <lb ed="#V" n="40"/>mon vtritatem habet de vnitate in gne moris re¬ 
+            <lb ed="#V" n="41"/>spectu diuersitatis in ganese entis. vt si quis pergens 
+            <lb ed="#V" n="42"/>ad ecclesiam bona intentione, in illa intentione 
+            <lb ed="#V" n="43"/>persistens interrumperet motum: esset ibi diuersi¬ 
+            <lb ed="#V" n="44"/>tas motus in gnne entis: Sed non poprie in genere 
+            <lb ed="#V" n="45"/>moris: Si sic pergens ad ecclesiam semper se 
+            <lb ed="#V" n="46"/>continuaret in illa bona intentione, totus talis 
+            <lb ed="#V" n="47"/>motus etiam aliqualiter interpellatus in genere 
+            <lb ed="#V" n="48"/>entis, poterit dici vna actio meritoria in genere 
+            <lb ed="#V" n="49"/>morum. immo quantum ad meritum in genere 
+            <lb ed="#V" n="50"/>morum non oportet, quod illa intentio continuetur 
+            <lb ed="#V" n="51"/>cm actum, sed sufficit, quod continuetur secundum ha¬ 
+            <lb ed="#V" n="52"/>bitum. vt si quis vadit ad aliquem locum intendens 
+            <lb ed="#V" n="53"/>reficere pauperem, non oportet, quod semper actu 
+            <lb ed="#V" n="54"/>cogitet, quodiu durat ille motus de illa refectione, 
+            <lb ed="#V" n="55"/>sed sufficit henre quandam habitualem intentio 
+            <lb ed="#V" n="56"/>nem circa refectionem illam. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1734">
+            <lb ed="#V" n="57"/>Viso quomodo actio potet esse diuersimode vna, &amp; non 
+            <lb ed="#V" n="58"/>vna in gnne entis, &amp; morum; volum declarare quomodo 
+            <lb ed="#V" n="59"/>diuersimode possit esse bona, &amp; mala in vtroque¬ 
+            <lb ed="#V" n="60"/>huiusmodi gne. Nam actio, vtputa ambulatio, vel¬ 
+            <lb ed="#V" n="61"/>alia actio tunc est bona in gane entis, quadon eius prin¬ 
+            <lb ed="#V" n="62"/>cipia, vt virtus gressiua, &amp; musculi, &amp; nerui, in 
+            <!--607.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>quibus consistit talis virtus, sunt sufficientia ad fa¬ 
+            <lb ed="#V" n="64"/>ciendum motum rectum: Sed tunc est mala talis actio¬ 
+            <lb ed="#V" n="65"/>quade talia principia sunt deficientia, &amp; faciunt mo¬ 
+            <lb ed="#V" n="66"/>tum claudicantem. potest ergo quis recte pergere, &amp; bame am¬ 
+            <lb ed="#V" n="67"/>bulare in gne entis, &amp; facere haec mala intentione, 
+            <lb ed="#V" n="68"/>&amp; male agere in gne morum, &amp; econuerso. Sic etiam pet¬ 
+            <lb ed="#V" n="69"/>quis claudicare, &amp; male pergere in gane entis, &amp; 
+            <lb ed="#V" n="70"/>facere hoc bona intentione, &amp; bunte agere in gsne mo¬ 
+            <lb ed="#V" n="71"/>ris. Cum ergo quiritur: Vtrum vna, &amp; eadem actio nu¬ 
+            <lb ed="#V" n="72"/>mero possit esse bona, &amp; mala: patet, quod vna, &amp; ea¬ 
+            <lb ed="#V" n="73"/>dem actio numero in genere moris non potest 
+            <lb ed="#V" n="74"/>esse bona, &amp; mala in genere moris. Sed vna, &amp; 
+            <lb ed="#V" n="75"/>eadem actio in genere entis potest esse bona, &amp; 
+            <lb ed="#V" n="76"/>mala in genere moris, 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1784">
+            <lb ed="#V" n="77"/>REST. AD ARG. Ad primum dicendum, quod ibi erat 
+            <lb ed="#V" n="78"/>duplex actio: vna ex pte tyrannorum psequentium 
+            <lb ed="#V" n="79"/>martyres: &amp; alia ex parte martyrum patientiam hanc 
+            <lb ed="#V" n="80"/>tium. &amp; in hoc acceptantium passionem illam. licet ergc 
+            <lb ed="#V" n="81"/>sit idem actio, &amp; passio: Tae non merebantur mar¬ 
+            <lb ed="#V" n="82"/>tyres ea:eo quod patiebantur. Sed ex eo, quod Pie¬ 
+            <lb ed="#V" n="83"/>Deum complacebant sibi in passione illa, vel ex 
+            <lb ed="#V" n="84"/>eo, quod patienter sustinebant eam, 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1804">
+            <lb ed="#V" n="85"/>Ad secundum dicendum, quo licet in exeplo posito 
+            <lb ed="#V" n="86"/>motus ille ponar vnus numero in gne entis: Tam 
+            <lb ed="#V" n="87"/>in ganene moris non solum est vnus numero: Sed etiam 
+            <lb ed="#V" n="88"/>non est vnus spe: Quia bonum, &amp; malum in ge¬ 
+            <lb ed="#V" n="89"/>nere entis, vel in gne moris differunt specie. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1818">
+            <lb ed="#V" n="90"/>Et per hoc patet solutio ad tertium: Quia non 
+            <lb ed="#V" n="91"/>resistere malo, &amp; resistere malo non est idem mo¬ 
+            <lb ed="#V" n="92"/>tus: vel non est eadem actio in genere moris. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1827">
+            <lb ed="#V" n="93"/>Ad quartum dicendum, quod licet actio domini, 
+            <lb ed="#V" n="94"/>&amp; serui possint dici vna, inquantum ordinantur ad 
+            <lb ed="#V" n="95"/>vnum; tamn ad subueniendum pauperi; vt saltem 
+            <lb ed="#V" n="96"/>in genere moris, alia estactio domini, quae est bo¬ 
+            <lb ed="#V" n="97"/>na intentione, &amp; ex charitarte facta, &amp; meritoria: 
+            <lb ed="#V" n="98"/>&amp; alia serui, quae est econuerso. 
+          </p>
+          <p xml:id="Gi9qrR-m178125-d1e1843">
+            <lb ed="#V" n="99"/>Et per hoc potest patere solutio ad quintum. 
+            <lb ed="#V" n="100"/>Quia vna, &amp; eadem actio potest esse a Deo in ge¬ 
+            <lb ed="#V" n="101"/>nere entis, &amp; potest esse prohibita in genere mo¬ 
+            <lb ed="#V" n="102"/>ris, secundum quem modum concessum est su¬ 
+            <lb ed="#V" n="103"/>pra. eandlem actionem diuersimode sumptam 
+            <lb ed="#V" n="104"/>posse esse bonam, &amp; malam. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

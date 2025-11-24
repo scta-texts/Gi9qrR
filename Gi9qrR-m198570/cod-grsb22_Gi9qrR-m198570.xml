@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="670"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m198570"><!-- l2d43q2 -->
+        <head xml:id="Gi9qrR-m198570-Hd1e101">Quaestio 2</head>
+        <head xml:id="Gi9qrR-m198570-Hd1e103" type="question-title">De peccati in spiritum sanctum gravitate</head>
+        <p xml:id="Gi9qrR-m198570-d1e106">
+          <lb ed="#V" n="40"/>QVAESTIO. II. 
+          <lb ed="#V" n="41"/>De peccati in Spiritum sanctum 
+          <lb ed="#V" n="42"/>grauitate.
+        </p>
+        <p xml:id="Gi9qrR-m198570-d1e115">
+          <lb ed="#V" n="43"/>DEINDE quaeritur de secun¬ 
+          <lb ed="#V" n="44"/>do principali, uidelicet de 
+          <lb ed="#V" n="45"/>peccato in spiritum sanctum 
+          <lb ed="#V" n="46"/>quantum ad grauitatem. Cir¬ 
+          <lb ed="#V" n="47"/>ca quod quaeruntur tria. Pri¬ 
+          <lb ed="#V" n="48"/>mo de ipsa grauitate, quan¬ 
+          <lb ed="#V" n="49"/>tum ad irremissibilitatem: Vtrum sit ita graue 
+          <lb ed="#V" n="50"/>quod sit irremissibile. 
+        </p>
+        <p xml:id="Gi9qrR-m198570-d1e135">
+          <lb ed="#V" n="51"/>Secundo quaeretur de ipsa grauitate, quan¬ 
+          <lb ed="#V" n="52"/>tum ad alia peccata, utrum sit ita graue pecca¬ 
+          <lb ed="#V" n="53"/>tum in Spiritum sanctum, quod non possit esse 
+          <lb ed="#V" n="54"/>peccatum alicuius hominis, sed oporteat sic 
+          <lb ed="#V" n="55"/>peccantem prius habere alia peccata. 
+        </p>
+        <p xml:id="Gi9qrR-m198570-d1e149">
+          <lb ed="#V" n="56"/>Terrio quaeremus de huiusmodi grauitate per con 
+          <lb ed="#V" n="57"/>parationem ad ipsos peccantes. Vtrum primus 
+          <lb ed="#V" n="58"/>homo, &amp; primus Angelus debeant dici peccas¬ 
+          <lb ed="#V" n="59"/>se in spiritum sanctum. 
+        </p>
+        <div xml:id="Gi9qrR-m198570-Dd1e160">
+          <head xml:id="Gi9qrR-m198570-Hd1e162">Articulus 1</head>
+          <p xml:id="Gi9qrR-m198570-d1e164">
+            <!--670.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>ARTIC. I. 
+            <lb ed="#V" n="61"/>An peccatum in Spiritum san¬ 
+            <lb ed="#V" n="62"/>ctum sit irremissibile. Conclu¬ 
+            <lb ed="#V" n="63"/>sio est affiruutatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e180">
+            <lb ed="#V" n="64"/>D. Tho. 24. q. 14. ar. 3. Et 3. sent. d. 13 ar. 4 Et de Maloq 
+            <lb ed="#V" n="65"/>3. ar. 14. 15. Et 2. Quol. 2. quaestio. 8. arti. 1. D. Bon. 
+            <lb ed="#V" n="66"/>43. ar. 3: quaestio. 3. Ric. d. 43. q. 4 Thom. Arg. dist. 43 
+            <lb ed="#V" n="67"/>arx Vit. d. 44. q. 1.Dur d. 4a q.x. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e191">
+            <lb ed="#V" n="68"/>AD Primum, sic proceditur. vt 
+            <lb ed="#V" n="69"/>quod peccatum in Spiritum san¬ 
+            <lb ed="#V" n="70"/>ctum non sit irremissibile, quia 
+            <lb ed="#V" n="71"/>ut dicitur ad Romanos: Vbisu¬
+            <lb ed="#V" n="72"/>perabundauit delictum, ibist 
+            <lb ed="#V" n="73"/>perabundauit, &amp; gratia; uide 
+            <lb ed="#V" n="74"/>tur, ergo ex hoc, quod grauitas peccati non fa¬ 
+            <lb ed="#V" n="75"/>ciat ad irremissibilitatem, sed magis faciat ad 
+            <lb ed="#V" n="76"/>faciliorem remissionem. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e213">
+            <lb ed="#V" n="77"/>Praeterea charitas est perfectior spe, &amp; fides 
+            <lb ed="#V" n="78"/>est prior spe: Cum ergo odium, quod opponi¬ 
+            <lb ed="#V" n="79"/>tur charitati, &amp; infidelitas, quae opponitur fidei 
+            <lb ed="#V" n="80"/>sint peccata remissibilia: Desperatio, quae ot¬ 
+            <lb ed="#V" n="81"/>ponitur spei, quae est peccatum in Spirtum san¬ 
+            <lb ed="#V" n="82"/>ctum, non debet dici irremissibile. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e230">
+            <lb ed="#V" n="83"/>Praeterea ignorantia, quae est ex intellectu: 
+            <lb ed="#V" n="84"/>Infirmitas, que est ex appetitu sensitiuo, &amp; ma¬ 
+            <lb ed="#V" n="85"/>litia, quae est ex appetitu intellectiuo uidentur 
+            <lb ed="#V" n="86"/>esse quaedam poenalitates, quae proueniunt 
+            <lb ed="#V" n="87"/>ex uno, &amp; eodem primo homine: Vnum ergo, 
+            <lb ed="#V" n="88"/>&amp; idem iudicium debet esse de omnibus eis. 
+            <lb ed="#V" n="89"/>Sed peccatum ex ignorantia, &amp; ex infirmitate 
+            <lb ed="#V" n="90"/>est remissibile, ergo peccatum in Spiritum san¬ 
+            <lb ed="#V" n="91"/>ctum, quod est ex malitia, erit remissibile. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e252">
+            <lb ed="#V" n="92"/>Praeterea, uidet homo differre ab Angelo 
+            <lb ed="#V" n="93"/>quia homo habet uertibilitatem electienis non 
+            <lb ed="#V" n="94"/>autem Angelus. Est enim Angelus inuertibi¬ 
+            <lb ed="#V" n="95"/>lis, &amp; immutabilis, quia ab eo, quod semel ele¬ 
+            <lb ed="#V" n="96"/>git, non potest resilire: Peccatum erg Angeli¬ 
+            <lb ed="#V" n="97"/>debet dici irremissibile. non autem peccatum 
+            <lb ed="#V" n="98"/>hominis, quodcunque sit illud. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e270">
+            <lb ed="#V" n="99"/>Praeterea si peccatum in Spiritum sanctum 
+            <lb ed="#V" n="100"/>dicitur irremissibile, uel hoc est ex parte remit 
+            <lb ed="#V" n="101"/>tentis: quod esse non potest: quia solus Deus 
+            <lb ed="#V" n="102"/>peccata remittit, qui est potentie insinitae, &amp; 
+            <lb ed="#V" n="103"/>cui nihil est ipossibile. Nec ex parte eius, cui fit 
+            <lb ed="#V" n="104"/>remissio: quia homo etiam peccator est liberi arbi¬ 
+            <lb ed="#V" n="105"/>trij, per quod, quandiu est in uia, potest a pec¬ 
+            <lb ed="#V" n="106"/>cato resilire, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e290">
+            <lb ed="#V" n="107"/>Praeterea charitas est maxima uirtus, &amp; ta¬ 
+            <lb ed="#V" n="108"/>men contingit a charitate cadere, ergo pecca¬ 
+            <lb ed="#V" n="109"/>tum in Spiritum sanctum, quantuncunque 
+            <lb ed="#V" n="110"/>sit maximum pec catorum, continget a tali¬ 
+            <lb ed="#V" n="111"/>peccato resilire, &amp; erit tale peccatum remissi¬ 
+            <lb ed="#V" n="112"/>bile. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e306">
+            <lb ed="#V" n="113"/>IN CONTRIRIVM est, quod dicitur 
+            <lb ed="#V" n="114"/>
+            <ref xml:id="Gi9qrR-m198570-Rd1e312">Matth. 12.</ref> qui dixerit contra Spiritum sanctum 
+            <lb ed="#V" n="115"/>non remittetur ei, neque in hoc seculo, neq 
+            <lb ed="#V" n="116"/>in futuro. Et quod dicit. 1. I0. peccatum ad mort 
+            <!--671.xml-->
+            <pb ed="#V" n="671"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non pro illo dico, ut oret quis, sed illud, pro quo 
+            <lb ed="#V" n="2"/>non est orandum, est irremissibile. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e330">
+            <lb ed="#V" n="3"/>RESOLVTIO. 
+            <lb ed="#V" n="4"/>Peccatum in spiritam sunonsn rrenifiiise sa¬ 
+            <lb ed="#V" n="5"/>citur, ratione difficultatis. impaenitentia ex 
+            <lb ed="#V" n="6"/>cepta. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e342">
+            <lb ed="#V" n="7"/>RESPONDEO dicendum, quod ut tradunt 
+            <lb ed="#V" n="8"/>scripta communia de peccato in Spiritum san¬ 
+            <lb ed="#V" n="9"/>ctum, est duplex opinio. Nam quidam impoeni¬ 
+            <lb ed="#V" n="10"/>tentiam, prout est circunstantia peccati, dicunt 
+            <lb ed="#V" n="11"/>aesse peccatum in Spiritum sanctum. Hi autem 
+            <lb ed="#V" n="12"/>non distinguentes de impoenitentia prout dicit 
+            <lb ed="#V" n="13"/>actum, idell, prout dicit propositum non poeni¬ 
+            <lb ed="#V" n="14"/>tendi, &amp; prout dicit circunstantiam actus uel 
+            <lb ed="#V" n="15"/>prout dicit quendam euentum, prout contingit, 
+            <lb ed="#V" n="16"/>uel euenit, quod aliquis moritur de facto sine 
+            <lb ed="#V" n="17"/>poenitentia. Dixerunt quinque esse peccata in 
+            <lb ed="#V" n="18"/>Spiritum sanctum: Obstinationem: praesumptionem: 
+            <lb ed="#V" n="19"/>desperationem: impugnationem ueritatis agnitae, 
+            <lb ed="#V" n="20"/>&amp; inuidiam supernae gratiae. Ista autem dicuntur 
+            <lb ed="#V" n="21"/>irremissibilia, quia sunt uix, id est, de non facili 
+            <lb ed="#V" n="22"/>remissibilis, tamen si addatur eis sexium, scilicet 
+            <lb ed="#V" n="23"/>finalis impoenitentia, quae est quaedam circun¬ 
+            <lb ed="#V" n="24"/>stantia peccati, tunc quodcunque illorum pecca¬ 
+            <lb ed="#V" n="25"/>torum cum tali circunstantia, siue cum finali im¬ 
+            <lb ed="#V" n="26"/>poenitentia erit irremissibile simpliciter. sed hic 
+            <lb ed="#V" n="27"/>modus ponendi, ab aliquibus improbatur, quia 
+            <lb ed="#V" n="28"/>tunc non esset differentia inter peccare in Patrem, 
+            <lb ed="#V" n="29"/>in Filium, &amp; in Spiritum sanctum, quia constat, 
+            <lb ed="#V" n="30"/>quod quis potest mortaliter peccare ex infirmi¬ 
+            <lb ed="#V" n="31"/>tate, uel ex passione, uel ex ignorantia, uel ex ne¬ 
+            <lb ed="#V" n="32"/>gligentia. si quis neglexit, uel noluit intelligere, 
+            <lb ed="#V" n="33"/>ut bene ageret poterit ex tali ignorantia negle¬ 
+            <lb ed="#V" n="34"/>cta mortaliter peccare. Si ergo tale mortale¬ 
+            <lb ed="#V" n="35"/>peccatum concomitetur finalis impoenitentia erit 
+            <lb ed="#V" n="36"/>irremissibile. Assignatur ergo alius modus di¬ 
+            <lb ed="#V" n="37"/>cendi, quod peccatum in Spiritum sanctum di¬ 
+            <lb ed="#V" n="38"/>citur ex eo, quod quantum est de se est irremissi¬ 
+            <lb ed="#V" n="39"/>bile. Et hoc modo ponuntur sex modi peccandi¬ 
+            <lb ed="#V" n="40"/>in spiritum sanctum, uidelicet illi quinque prae¬ 
+            <lb ed="#V" n="41"/>assignati, &amp; impaenitentia, ut est propositum rotn 
+            <lb ed="#V" n="42"/>penitendi. Cum ergo impaenitentia possit dici¬ 
+            <lb ed="#V" n="43"/>dupliciter, uidelicet impaenitentia propositi, 
+            <lb ed="#V" n="44"/>prout quis proponit non paenitere &amp; impaeniten¬ 
+            <lb ed="#V" n="45"/>tia facti, prout quis de facto moritur sine paeni¬ 
+            <lb ed="#V" n="46"/>tentia, oportebit dicere secundum istos, quod 
+            <lb ed="#V" n="47"/>impaen: tentia secundum propositum, prout quis 
+            <lb ed="#V" n="48"/>proponit non paenitere erit peccatum in Spiritum 
+            <lb ed="#V" n="49"/>sanctum, sed impaenitentia facti, uel secundum 
+            <lb ed="#V" n="50"/>factum, prout quis de facto moritur sine paeni¬ 
+            <lb ed="#V" n="51"/>tentia non erit peccatum, sed circunstantia pec 
+            <lb ed="#V" n="52"/>cati, uel erit quoddam accidens, uel quidam euen¬ 
+            <lb ed="#V" n="53"/>tus peccati, quia sic accidit, &amp; sic euenit de ali¬ 
+            <lb ed="#V" n="54"/>quo peccato mortali, quod homo moritur in 
+            <lb ed="#V" n="55"/>eo sine poenitentia. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e451">
+            <lb ed="#V" n="56"/>Vt ergo sciamus ueritatem omnium praedi¬ 
+            <lb ed="#V" n="57"/>ctorum, resumemus, quae dicta sunt in solutio¬ 
+            <lb ed="#V" n="58"/>ne ultimi argumenti praecedentis quaestionis. 
+            <lb ed="#V" n="59"/>Dicebatur enim, quod ibi aliud est considerare 
+            <lb ed="#V" n="60"/>peccarum in Spiritum sanctum, ut peccatum est, 
+            <lb ed="#V" n="61"/>&amp; aliud, ut in Spiritum sanctum est: quia ratio¬ 
+            <!--671.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="62"/>peccati, uidetur consistere in ipsa deuiatione, 
+            <lb ed="#V" n="63"/>nel in ipsa deformitate facta contra rationem 
+            <lb ed="#V" n="64"/>Et ideo quantum ad speciem peccati, ut ibi di¬ 
+            <lb ed="#V" n="65"/>cebatur, nunquam circunstantia manens circun¬ 
+            <lb ed="#V" n="66"/>stantia dat speciem peccato, licet possit aggra 
+            <lb ed="#V" n="67"/>uare, uel alleuiare peccatum, uel indifferenter 
+            <lb ed="#V" n="68"/>se habere ad ipsum. Sed quia circunstantia po¬ 
+            <lb ed="#V" n="69"/>test pertinere ad substantiam actus, &amp; maxime, 
+            <lb ed="#V" n="70"/>ut est in genere mori: hoc modo sumpta cir¬
+            <lb ed="#V" n="71"/>cunstantia poterit dare speciem peccato. Nam 
+            <lb ed="#V" n="72"/>peccatum est in genere entis, uel in genere na¬ 
+            <lb ed="#V" n="73"/>turae: prout causatur a suis principiis efficien¬ 
+            <lb ed="#V" n="74"/>tibus, quaecunque sint illa: sed est in genere mo¬ 
+            <lb ed="#V" n="75"/>ris, prout est uoluntarium recte rationi se con¬ 
+            <lb ed="#V" n="76"/>formans: Et tunc ille actus, uel illud opus est bo¬ 
+            <lb ed="#V" n="77"/>num, &amp; meritorium, uel a recta ratione deuians, 
+            <lb ed="#V" n="78"/>&amp; tunc erit peccatum, &amp; demeritorium. Et inde 
+            <lb ed="#V" n="79"/>est, quod bonitas, &amp; malitia actuum humanorum sunt 
+            <lb ed="#V" n="80"/>differentiae essentiales eorum in genere morum,
+            <lb ed="#V" n="81"/>ut supra dicebatur. sed circunstantia manens cir¬ 
+            <lb ed="#V" n="82"/>cunstantia: lieet non possit facere ad specialem 
+            <lb ed="#V" n="83"/>deformitatem, uel non possit causare specialem mo¬ 
+            <lb ed="#V" n="84"/>dum deformitatis in peccato, ut peccatum est; 
+            <lb ed="#V" n="85"/>potest tamen causare specialem modum irremissi¬ 
+            <lb ed="#V" n="86"/>bilitatis, secundum quem modum accipitur pecca¬ 
+            <lb ed="#V" n="87"/>tum in Spiritum sanctum, ut in Spiritum sanctum 
+            <lb ed="#V" n="88"/>est, quia peccare in Spiritum sanctum secundum quod 
+            <lb ed="#V" n="89"/>huiusmodi ab irremissibilitate sumptum est se¬ 
+            <lb ed="#V" n="90"/>cundum scripturam sacram. Nam haec circunstan¬ 
+            <lb ed="#V" n="91"/>tia, de qua hic loquimur, cuiusmodi est finalis 
+            <lb ed="#V" n="92"/>impaenitentia: non tantum in proposito, sed prout 
+            <lb ed="#V" n="93"/>de facto quis in peccato mortali sine penitentia 
+            <lb ed="#V" n="94"/>moritur talis circunstantia, licet faciat ad spe¬ 
+            <lb ed="#V" n="95"/>cialem irremissibilitatem, quia mutat statum: tamen¬ 
+            <lb ed="#V" n="96"/>per se loquendo non facit ad specialem deformita¬ 
+            <lb ed="#V" n="97"/>tem: cum possit contingere ex sola passione, &amp; 
+            <lb ed="#V" n="98"/>praeter oenm actionem. Erit ergo prima uia su¬ 
+            <lb ed="#V" n="99"/>mendi species, &amp; modos peccandi in Spiritum san¬ 
+            <lb ed="#V" n="100"/>ctum, prout talis circunstantia, quae est de facto 
+            <lb ed="#V" n="101"/>finalis impoenitentia: comparatur ad actum. 
+            <lb ed="#V" n="102"/>Dicemus ergo quod peccatum in Spiritum sanctum, 
+            <lb ed="#V" n="103"/>uel accipietur ex ipsa circunstantia, uel ex ipso 
+            <lb ed="#V" n="104"/>actu, uel ex utroque, quia si acciperet ex neutro: 
+            <lb ed="#V" n="105"/>non esset ibi peccatum in Spiritum sanctum ex ipsa 
+            <lb ed="#V" n="106"/>praefata circunstantia: quando quis moritur in 
+            <lb ed="#V" n="107"/>aliis peccatis a spiritui sancto sine poenitentia 
+            <lb ed="#V" n="108"/>Ibi enim non est peccatum in Spiritum sanctum 
+            <lb ed="#V" n="109"/>scilicet ex actu, quia actus ille peccati, in quo¬ 
+            <lb ed="#V" n="110"/>moritur, non ponitur esse peccatum in Spiritum 
+            <lb ed="#V" n="111"/>sanctum. Sed est ibi huiusmodi peccatum ex sola¬ 
+            <lb ed="#V" n="112"/>circunst antia propter finalem impaenitentiam, ex qua¬ 
+            <lb ed="#V" n="113"/>est ibi specialis modus irremissibilitatis. Quia 
+            <lb ed="#V" n="114"/>nt dicitur Eccl. 11. S. ceciderit lignum ad Austrum, 
+            <lb ed="#V" n="115"/>aut ad Aquilonem: in quocunque loco ceciderit: 
+            <lb ed="#V" n="116"/>ibi erit. Si autem peccatum in Spiritum sanctum 
+            <lb ed="#V" n="117"/>sumatur ex ipso actu, tunc poterit fieri septem 
+            <lb ed="#V" n="118"/>modis, quorum o. oi 1Scripta conmunia tangunt. 
+            <lb ed="#V" n="119"/>Sunt enim illi ooem modi: Desperatio, praesumptio, 
+            <lb ed="#V" n="120"/>impugnatio ueritatis agnitae, inuidia superna 
+            <lb ed="#V" n="121"/>gratiae, obstinatio, &amp; inpaenitentia id est propositum 
+            <lb ed="#V" n="122"/>non paenitendi, &amp; 7. modus peccandi in Spiritum 
+            <lb ed="#V" n="123"/>sanctum erit actus ille, qui sit ex certa malitia. 
+            <lb ed="#V" n="124"/>Omnes enim isti sS. modi, unus sumptus ex cir¬ 
+            <!--672.xml-->
+            <pb ed="#V" n="672"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cunstantia, &amp; septem sumpti ex actu sunt pecca¬ 
+            <lb ed="#V" n="2"/>va in Spiritum sanctum: quia ex quolibet illo¬ 
+            <lb ed="#V" n="3"/>rum accipitur specialis modus irremissibilita¬ 
+            <lb ed="#V" n="4"/>tis. Si uero accipiantur peccata in spiritum san¬ 
+            <lb ed="#V" n="5"/>ctum, prout habent esse ex actu, &amp; ex circun¬ 
+            <lb ed="#V" n="6"/>stantia illa, quae est finalis impaenitentia facti non 
+            <lb ed="#V" n="7"/>propositi tantum, sic erunt 7. modi peccandi in 
+            <lb ed="#V" n="8"/>Spirit. sanet. prout cuilibet illorum. 1. actuum, 
+            <lb ed="#V" n="9"/>qui dicunum peccata in spiritum sanctum, potest 
+            <lb ed="#V" n="10"/>addi haec circunstantia, quae est finalis impeni¬ 
+            <lb ed="#V" n="11"/>tentia facti. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e638">
+            <lb ed="#V" n="12"/>Secunda uia ad accipiendum peccata in spi¬ 
+            <lb ed="#V" n="13"/>ritum sanctum erunt ex ipsa irremissibilitate, 
+            <lb ed="#V" n="14"/>siue ex ipso peccato ad mortem: Quod opponi¬ 
+            <lb ed="#V" n="15"/>4tir peccato remissibili, siue ueniali, quod non 
+            <lb ed="#V" n="16"/>est ad mortem. Dicebatur autem supra, quod 
+            <lb ed="#V" n="17"/>peccatum ueniale, siue remissibile dicebatur 
+            <lb ed="#V" n="18"/>5. modis, ex causa, ex euentu, ex statu, ex opere 
+            <lb ed="#V" n="19"/>operante, &amp; ex opere operato: sed duo istorum 
+            <lb ed="#V" n="20"/>modorum, uidelicet peccatum ueniale, uel re¬ 
+            <lb ed="#V" n="21"/>missibile ex euentu, &amp; statu: licet possint esse 
+            <lb ed="#V" n="22"/>distincti quantum ad peccatum ueniale, &amp; re¬ 
+            <lb ed="#V" n="23"/>misbile, non tamen possunt esse distincti, quan¬ 
+            <lb ed="#V" n="24"/>tum ad peccatum in spiritum sanctum, quod 
+            <lb ed="#V" n="25"/>estirremissibile. Nam ueniale ex euentu est pec¬ 
+            <lb ed="#V" n="26"/>catum, quodcunque sit illud, cui euenit confes¬ 
+            <lb ed="#V" n="27"/>sio: quia confessio facit, quod peccatum mortale¬ 
+            <lb ed="#V" n="28"/>eueniat, &amp; fiat ueniale: sed ueniale ex statu dici 
+            <lb ed="#V" n="29"/>tur, quandiu durat tempus uitae, in quo nun¬ 
+            <lb ed="#V" n="30"/>quam clauditur porta salutis. Et quia potest 
+            <lb ed="#V" n="31"/>quis confiteri absque eo, quod mutet statum: 
+            <lb ed="#V" n="32"/>immo quia post confessionem potest quis diu¬ 
+            <lb ed="#V" n="33"/>uiuere: Ideo ueniale, uel remissibile &amp;x euentu, 
+            <lb ed="#V" n="34"/>&amp; remissibile ex statu possunt ab inuicem di¬ 
+            <lb ed="#V" n="35"/>stingui: sed irremissibile ex euentu, &amp; ex statu¬ 
+            <lb ed="#V" n="36"/>non possunt ad inuicem distingui, quia illud di¬ 
+            <lb ed="#V" n="37"/>citur irremissibile ex euentu, quando quis mo¬ 
+            <lb ed="#V" n="38"/>ritur in peccato, quodcumque sit illud sine paeni¬ 
+            <lb ed="#V" n="39"/>tentia: hoc autem esse non potest sine muta¬ 
+            <lb ed="#V" n="40"/>tione status. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e703">
+            <lb ed="#V" n="41"/>Propter quod licet assignati fuerint. 5. mo¬ 
+            <lb ed="#V" n="42"/>di peccati uenialis, &amp; remissibilis non assigna¬ 
+            <lb ed="#V" n="43"/>buntur, nisi quatuor modi peccati in spir. fan¬ 
+            <lb ed="#V" n="44"/>quod est irremissibile: quia uel erit irremissibi¬ 
+            <lb ed="#V" n="45"/>le ex causa, uel ex euentu, uel ex opere operan¬ 
+            <lb ed="#V" n="46"/>te, uel exopore operato. Et ad hos quatuor 
+            <lb ed="#V" n="47"/>modos, ut supra patuit, reducuntur omnes 8. 
+            <lb ed="#V" n="48"/>modi hic assignati. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e723">
+            <lb ed="#V" n="49"/>Tertia uia ad sumendum modos peccandi¬ 
+            <lb ed="#V" n="50"/>in spir. sanc. potest sumi ex ipso Deo, ut est iu¬ 
+            <lb ed="#V" n="51"/>dex noster, secundum quam considerationem 
+            <lb ed="#V" n="52"/>est quatuor considerare: quia Primo consideram 
+            <lb ed="#V" n="53"/>dum est ipse Deus, qui est iudex. Secundo con¬ 
+            <lb ed="#V" n="54"/>fideranda sunt bona, quae tribuit nobis, ut se¬ 
+            <lb ed="#V" n="55"/>quamur ipsum tanquam bonum iudicem. Ter¬ 
+            <lb ed="#V" n="56"/>tio considerandus est ipse homo, qui iudican¬ 
+            <lb ed="#V" n="57"/>dus est a tali iudice. Quarto consideranda sunt 
+            <lb ed="#V" n="58"/>ipsa peccata, ut sunt irremissibilia per huius¬ 
+            <lb ed="#V" n="59"/>modi iudicem. Ex quolibet autem istorum qua¬ 
+            <lb ed="#V" n="60"/>tuor sumuntur, duo modi peccandi in spir. san¬ 
+            <lb ed="#V" n="61"/>&amp; sic in uniuerso sunt 8. huiusmodi. Nam ex par¬ 
+            <lb ed="#V" n="62"/>te ipsius iudicis sumuntur duo modi, sic peccam 
+            <lb ed="#V" n="63"/>di, uidelicet Desperatio, &amp; Praesumptio, uel quia 
+            <!--672.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>credimus istum iudicem esse iustum sinemise 
+            <lb ed="#V" n="65"/>ricordia, &amp; tunc desperamus: uel misericordem 
+            <lb ed="#V" n="66"/>sine iustitia, &amp; tunc praesumimus, dicente scri¬ 
+            <lb ed="#V" n="67"/>ptura Misericordia, &amp; ueritas id est misericordia, 
+            <lb ed="#V" n="68"/>&amp; iustitia obuiauerunt sibi, ut Sap. es. dicitur. Di¬ 
+            <lb ed="#V" n="69"/>ligite iustitiam, quod iudicatis terram. Non et ergo prae¬ 
+            <lb ed="#V" n="70"/>termittenda iustitia. Nec etiam est omnino pretermitten¬ 
+            <lb ed="#V" n="71"/>da misericordi. aquia iudicium sine misericordia 
+            <lb ed="#V" n="72"/>fietilli, qui non fecerit misericordiam, ergo cum¬ 
+            <lb ed="#V" n="73"/>misericordia miscenda est iustitia, &amp; ecomuerso 
+            <lb ed="#V" n="74"/>Sic etiam possunt sumi duo modi ex parte bonorum 
+            <lb ed="#V" n="75"/>nobis retributorum a iudice, ut sequamur ipsum 
+            <lb ed="#V" n="76"/>tanquam bonum iudicem, quorum unum est bonum 
+            <lb ed="#V" n="77"/>fidei nobis ostendentis ueritatem, &amp; sic est pec¬ 
+            <lb ed="#V" n="78"/>catum in spir. san. impugnatio ueritatis agnitae 
+            <lb ed="#V" n="79"/>&amp; specialiter ueritatis fidei secundum bonum no 
+            <lb ed="#V" n="80"/>bis tributum a iudice est gratia inclinans no¬ 
+            <lb ed="#V" n="81"/>in huiusmodi bonitatem, &amp; secundum hoc sumitur talt 
+            <lb ed="#V" n="82"/>peccatum, prout est inuidia supernae gratiae. Ex 
+            <lb ed="#V" n="83"/>parte etiam hominis, qui iudicatu, sumuntur dud 
+            <lb ed="#V" n="84"/>peccata in spir. san. unum ex parte conuersionis 
+            <lb ed="#V" n="85"/>ad bonum conmutabile, &amp; sic sumitur obstinatio 
+            <lb ed="#V" n="86"/>cum quis obstinate, &amp; pertinaciter se conuer¬ 
+            <lb ed="#V" n="87"/>tit ad bonum conmutabile. Aliud ex parte auer¬ 
+            <lb ed="#V" n="88"/>sionis, &amp; sic sumitur impaenitentia id est propositum 
+            <lb ed="#V" n="89"/>non paenitendi, cum quis sine dolore, &amp; cum prae¬ 
+            <lb ed="#V" n="90"/>posito non paenitendi se auertit ab inconmutab¬ 
+            <lb ed="#V" n="91"/>li bono. Reliqua uero duo peccata in spir. san¬ 
+            <lb ed="#V" n="92"/>quae conplent numerum, octonarium talium pecca¬ 
+            <lb ed="#V" n="93"/>torum sumuntur ex parte ipsius peccati, ut hee¬ 
+            <lb ed="#V" n="94"/>esse irremis sibile: quia uel hoc erit ex causa, quod 
+            <lb ed="#V" n="95"/>non hebet in se cam remissibilitatis, &amp; hoc eri¬ 
+            <lb ed="#V" n="96"/>cum quis peccat ex certa malitia: uel erit tali¬ 
+            <lb ed="#V" n="97"/>irremissibilitas ex euentu, cum quis sie poen¬ 
+            <lb ed="#V" n="98"/>tentia in peccato mortali, quodcumque sit illud, dit 
+            <lb ed="#V" n="99"/>claudit extremum. Differt auteam haec impaenitentia 
+            <lb ed="#V" n="100"/>quae secundum hunc ordinem teneti S. modum peccand 
+            <lb ed="#V" n="101"/>in spir. san. ab illa impenitentia, quae est posita 
+            <lb ed="#V" n="102"/>in 6 loco: quia iste modus positus 8. loco est im 
+            <lb ed="#V" n="103"/>penitentia facti: sed iste modus positus. 6. loco¬ 
+            <lb ed="#V" n="104"/>est impoenitentia propositi. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e851">
+            <lb ed="#V" n="105"/>Quarta autem uia ad sumendum numerum pec¬ 
+            <lb ed="#V" n="106"/>catorum sumitur, prout Deus est noster medi¬ 
+            <lb ed="#V" n="107"/>cus. Et ista uia fuit superius tacta, &amp; est eadem 
+            <lb ed="#V" n="108"/>realiter cum ista tertia: Taumen quia doctorum scripta¬ 
+            <lb ed="#V" n="109"/>aliquade sumunt numerum istorum peccatoru, prut¬ 
+            <lb ed="#V" n="110"/>Deus se hebet, ut iudex. Aliqame prout Deus se hent 
+            <lb ed="#V" n="111"/>ut medicus: Ion, ut intelligantur dicta doctorum 
+            <lb ed="#V" n="112"/>posuimus has duas uias tanquam differentes, tan¬ 
+            <lb ed="#V" n="113"/>sicut si accipiatu Deus, ut iudex, est ibi quatuot 
+            <lb ed="#V" n="114"/>considerare, &amp; secundum quodlibet illorum qua¬ 
+            <lb ed="#V" n="115"/>tuor accipiunt duo modi peccandi. Sic si acci¬ 
+            <lb ed="#V" n="116"/>piatur Deus, ut medicus, est ibi quatuor cons¬ 
+            <lb ed="#V" n="117"/>derare, uidelicet Medicum, medicinam, infirmum 
+            <lb ed="#V" n="118"/>&amp; infirmitatem, &amp; secundum quodlibet istorum 
+            <lb ed="#V" n="119"/>quatuor accipiuntur duo modi peccandi in spi¬ 
+            <lb ed="#V" n="120"/>ri. sanu ut supra diffusius est ostensum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e889">
+            <lb ed="#V" n="121"/>Ad primum dicendum, quod peccatum in spi. sin¬ 
+            <lb ed="#V" n="122"/>ctum ratione irremissibilitatis spanliter praecludi¬ 
+            <lb ed="#V" n="123"/>uiam gratiae. propter quod tale peccatum, ut tale est 
+            <lb ed="#V" n="124"/>non facit gratiam abundare: sed hebet fontem gri¬ 
+            <lb ed="#V" n="125"/>tiae desiccare, propter quod in hoc peccato spec¬ 
+            <lb ed="#V" n="126"/>liter non arguitur propositum, sed oppositum 
+            <!--673.xml-->
+            <pb ed="#V" n="673"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Vel possumus dicere, quod ubi abundauit delictum 
+            <lb ed="#V" n="2"/>ibi superabundauit &amp; gratia, quod hoc non fuit ope¬ 
+            <lb ed="#V" n="3"/>re humano, sed diuino. Propter quod non est contra¬ 
+            <lb ed="#V" n="4"/>nos, quod dicitur. Nam pctmane in Spir. san. non opor¬ 
+            <lb ed="#V" n="5"/>tet, quod dicatur irremissibile ope diuino: sed sufsi¬ 
+            <lb ed="#V" n="6"/>cit, quod dicatur humano. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e924">
+            <lb ed="#V" n="7"/>Ad secundum dicendum, quod spes est de ultimo fi¬ 
+            <lb ed="#V" n="8"/>ne, &amp; finis in agibilibus, se hebet sicut pirncipium in 
+            <lb ed="#V" n="9"/>speculabilibus. sicut ergo mentiri circa princi¬ 
+            <lb ed="#V" n="10"/>pia in speculabilib. est error incurabilis: sic pec¬ 
+            <lb ed="#V" n="11"/>care ex certa malitia. quia, ut dete 6. Eth. malitia, 
+            <lb ed="#V" n="12"/>quae facit mentiri circa principia est error incu¬ 
+            <lb ed="#V" n="13"/>rabilis, quantum est de se. quia non hebet aliquam excu¬ 
+            <lb ed="#V" n="14"/>sationis cam. sed peccare contra charitatem cum 
+            <lb ed="#V" n="15"/>charitas se extendat ad poximum, qui est de his, 
+            <lb ed="#V" n="16"/>que sunt ad finem. iono Deo non est simile hic, &amp; ibi, 
+            <lb ed="#V" n="17"/>Vel possumus dicere, quod odium fratris in se non est 
+            <lb ed="#V" n="18"/>peccare contra charitatemin se: sed ille peccaret 
+            <lb ed="#V" n="19"/>contra charitatem in se, qui inuideret diuinae gra¬ 
+            <lb ed="#V" n="20"/>tiae, uel inuideret fratri non in se: sed inquantum fa¬ 
+            <lb ed="#V" n="21"/>cit opera diuinae gratiae. Ad illud autem, quod tange. 
+            <lb ed="#V" n="22"/>batur de infidel it ate; Dici potest, quod infidelitas 
+            <lb ed="#V" n="23"/>poet contingere ex ignorantia, &amp; tunc non est pec¬ 
+            <lb ed="#V" n="24"/>catum in Spir. san. Quia hebet aliquod excusationis 
+            <lb ed="#V" n="25"/>pallium. Sed si contingeret ex certa malitia. 
+            <lb ed="#V" n="26"/>Tunc esset peccatum in Spiritum sanctum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e970">
+            <lb ed="#V" n="27"/>Ad tertium dicendum, quod malitia, pro¬ 
+            <lb ed="#V" n="28"/>ut est quaedam poenalitas proueniens ex primo 
+            <lb ed="#V" n="29"/>parente: non dicit: ctum peccandi, sicut di¬ 
+            <lb ed="#V" n="30"/>cit peccatum in Spiritum sanctum, sed dicit 
+            <lb ed="#V" n="31"/>fomitem, id est quandam pronitatem ad pec¬ 
+            <lb ed="#V" n="32"/>candum. Et hoc modo uerum est, quod ma¬ 
+            <lb ed="#V" n="33"/>litia non est peccatum in Spiritum sanctum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e988">
+            <lb ed="#V" n="34"/>Ad quartum dicendum, quod secundum 
+            <lb ed="#V" n="35"/>Dam. libro secundo, cap. tertio. Quod est homi¬ 
+            <lb ed="#V" n="36"/>nibus mors: est Angelis casus. Angeli en. post ca¬ 
+            <lb ed="#V" n="37"/>sum non possunt paenitere, sicut nec homines 
+            <lb ed="#V" n="38"/>post mortem, quandiu ergo durat status praesen 
+            <lb ed="#V" n="39"/>tis uit r: possunt homines paenitere, &amp; redire ad 
+            <lb ed="#V" n="40"/>bonum. Quod non possunt homines post mor¬ 
+            <lb ed="#V" n="41"/>tem. Ad formam autem arguendi dicendum, 
+            <lb ed="#V" n="42"/>quod peccatum in Spiritum sanctum dicitur ir¬ 
+            <lb ed="#V" n="43"/>remissibile opere humano. quia de se excludit 
+            <lb ed="#V" n="44"/>omnem causam irremissibilitatis. Quia sicpec¬ 
+            <lb ed="#V" n="45"/>canti non remanet aliqua excusatio, nec ex igno 
+            <lb ed="#V" n="46"/>rantia, nec ex infirmitate: Tamen quandiu uiui 
+            <lb ed="#V" n="47"/>mus, &amp; quandiu sumus in uia, nihil est irremis si 
+            <lb ed="#V" n="48"/>bile opere diuino. Et si dicatur etiam, quod 
+            <lb ed="#V" n="49"/>Deus posset mortuum suscitare, &amp; suscitatus 
+            <lb ed="#V" n="50"/>posset paenitere. Dici debet, quod hoc non esset, 
+            <lb ed="#V" n="51"/>secundum solitum cursum, aut secundum hunc 
+            <lb ed="#V" n="52"/>ordinem, quem uidemus. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1032">
+            <lb ed="#V" n="53"/>Ad quintum dicendum, quod licet sufficiat 
+            <lb ed="#V" n="54"/>liberum arbitrium ad cadere in peccatum; Ta¬ 
+            <lb ed="#V" n="55"/>men nol sufficit ad resurgere a peccato. Cum 
+            <lb ed="#V" n="56"/>ego inter peccata, aliqua habeant excusatio¬ 
+            <lb ed="#V" n="57"/>nem, ut quae fiunt ex ignorantia, uel ex infirmi¬ 
+            <lb ed="#V" n="58"/>rate. Propter quod talia peccata, dato, quod tol¬ 
+            <lb ed="#V" n="59"/>lant gratiam propter faciliorem possibilitatem 
+            <lb ed="#V" n="60"/>ad ueniam, dicuntur non desiccare fontem gra¬ 
+            <lb ed="#V" n="61"/>tiae. Cum ergo quaeritur, vnde sint irremissibi¬ 
+            <lb ed="#V" n="62"/>lia peccata in Spiritum sanctum: patet, quod 
+            <lb ed="#V" n="63"/>non dicuntur esse talia, nisi prout carent pallio¬ 
+            <!--673.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>excusationis, quod carendo dicuntur irremissi¬ 
+            <lb ed="#V" n="65"/>bilia opere humano, licet non oporteat ea esse 
+            <lb ed="#V" n="66"/>irremissibilia opere diuino. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1069">
+            <lb ed="#V" n="67"/>Ad sextum dicendum, quod charitas nunt 
+            <lb ed="#V" n="68"/>excidit, quantum est de se. Tamem propter uertibilitatem 
+            <lb ed="#V" n="69"/>liberi arbitrii multi cadunt a charitate. Sic econ 
+            <lb ed="#V" n="70"/>trario pctim in Spir. san. dicitur irremis sibile se¬ 
+            <lb ed="#V" n="71"/>cundum se, sed propter abundantiam benigni¬ 
+            <lb ed="#V" n="72"/>tatis Dei multi resurgunt etia a tanta labe peti¬ 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m198570-Dd1e1086">
+          <head xml:id="Gi9qrR-m198570-Hd1e1088">Articulus 2</head>
+          <p xml:id="Gi9qrR-m198570-d1e1090">
+            <lb ed="#V" n="73"/>ARTIC. II. 
+            <lb ed="#V" n="74"/>An peccatum in piritum sctum 
+            <lb ed="#V" n="75"/>sine alio peccato prauio esse possit. 
+            <lb ed="#V" n="76"/>Conclusio est affirmatiua.
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1101">
+            <lb ed="#V" n="77"/>D. Tho. 2. 3. q. 14. 4r. 4Et 2. scut d. 13. a1. 3. D. Bon d. 42. 
+            <lb ed="#V" n="78"/>ar. 2. q. 2. Ric. d. 43. q. 2. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1108">
+            <lb ed="#V" n="79"/>SECUNDO quaeritur degraui¬ 
+            <lb ed="#V" n="80"/>tate pecccati in Spir. sanct. 
+            <lb ed="#V" n="81"/>per comparationem ad alia 
+            <lb ed="#V" n="82"/>peccata. Vtrum in primo a¬ 
+            <lb ed="#V" n="83"/>ctu peccati possit quis pec¬ 
+            <lb ed="#V" n="84"/>care in Spiritum sanctum. Et 
+            <lb ed="#V" n="85"/>vrte, quod non. quia ut ait Orig¬ 
+            <lb ed="#V" n="86"/>in libro de paenitentijs nemo repente fit sum¬ 
+            <lb ed="#V" n="87"/>mus. ergo a contrario sensu, nemo repente fit pes¬ 
+            <lb ed="#V" n="88"/>simus. Cum ergo per peccatum in Spir. sanct. 
+            <lb ed="#V" n="89"/>fiat homo quasi pessimus, quia peccatum illud 
+            <lb ed="#V" n="90"/>est irremissibile, vrtr quod pctane in Spir. san. presuppo¬ 
+            <lb ed="#V" n="91"/>nat multa alia pctam, &amp; quod nullus possit primo a¬ 
+            <lb ed="#V" n="92"/>ctu peccare in Spiritum sanctum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1141">
+            <lb ed="#V" n="93"/>Praeterea secundum Qreg. 31. moral. Ipsa namque 
+            <lb ed="#V" n="94"/>uitiorum regina superbia, dum deuictum hoinem ple¬ 
+            <lb ed="#V" n="95"/>ne concepit: mox illum. 7. principalib. uitijs, qua¬ 
+            <lb ed="#V" n="96"/>si quibusdam suis ducib. deuastand ume tradidit, quos 
+            <lb ed="#V" n="97"/>uidelicet duces exercitus sequitur uitiorum, innu¬ 
+            <lb ed="#V" n="98"/>merabilis multitudo. Est ergo hoc post, quod sub¬ 
+            <lb ed="#V" n="99"/>intrat honiem, uel animam eius regina su pbia, po¬ 
+            <lb ed="#V" n="100"/>stea, hac subintrante subintrant: 7. capitalia ui¬ 
+            <lb ed="#V" n="101"/>tia. Nam superbia secundum se, proprie loquondo, ut pa¬ 
+            <lb ed="#V" n="102"/>tet per Oreg. ibidem, Non est uitium cap tale, sed est 
+            <lb ed="#V" n="103"/>tale uitium eius filia Inanisgloria quob. 7uitijs ca¬ 
+            <lb ed="#V" n="104"/>pitalib. subintrantib. quasi ducib. subintrat: po¬ 
+            <lb ed="#V" n="105"/>stea quasi exercitus uitiorum, &amp; innumerabilis 
+            <lb ed="#V" n="106"/>multitudo. ergo antequm peccator incidat in pec¬ 
+            <lb ed="#V" n="107"/>catum, quod dite in Spir. sen. oportet, quod multa alia 
+            <lb ed="#V" n="108"/>peccata praecedant. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1179">
+            <lb ed="#V" n="109"/>Praeterea secundum Philosophum in Eth. prieat 4¬ 
+            <lb ed="#V" n="110"/>non iusti iusta facere, sed non quemadmodum iusti 
+            <lb ed="#V" n="111"/>faciunt, ergo a contrario sensu paast iusti iniusta fa¬ 
+            <lb ed="#V" n="112"/>cere, sed non quenadmodum iniusti faciunt. Nam 
+            <lb ed="#V" n="113"/>aliud est agere ex passione, &amp; aliud ex habitu, 
+            <lb ed="#V" n="114"/>uel electione. Illud. ni.m isdem, quod facit intemperatus 
+            <lb ed="#V" n="115"/>ex habitu potest facere incontinens ex infirmitate. 
+            <lb ed="#V" n="116"/>Sed non facit eod. modo unus, quo alius, quia itempera 
+            <lb ed="#V" n="117"/>tus faciet ex electione, quod incontinens facit ex 
+            <lb ed="#V" n="118"/>passione. Cum ergo pctm i Spi. sa. sit agere ex pro¬ 
+            <lb ed="#V" n="119"/>pria malitia, &amp; ex electione. qua agere ex electio 
+            <lb ed="#V" n="120"/>ne precedit agerae. ev passion, Ion &amp; certa malitia 
+            <!--674.xml-->
+            <pb ed="#V" n="674"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; electione non potest quis agere in Spiritum 
+            <lb ed="#V" n="2"/>sanctum nisi prius sit obnoxius alijs peccatis, &amp; 
+            <lb ed="#V" n="3"/>nisi prius pcccet ex passione. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1221">
+            <lb ed="#V" n="4"/>Praeterea sicut spei opponitur desperatio: 
+            <lb ed="#V" n="5"/>Ita meritis opponuntur demerita. Et sicut spes 
+            <lb ed="#V" n="6"/>praesupponit merita, quia spes est certa expe¬ 
+            <lb ed="#V" n="7"/>ctatio futurae beatitudinis ex meritis, &amp; gra¬ 
+            <lb ed="#V" n="8"/>tia praecedens: sic desperatio praesupponit de¬ 
+            <lb ed="#V" n="9"/>merita. Peccare ergo in Spiritum sanctum per¬ 
+            <lb ed="#V" n="10"/>desperationem non potest esse sine aliis prae¬ 
+            <lb ed="#V" n="11"/>cedentibus demeritis, uel aliis peccatis. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1241">
+            <lb ed="#V" n="12"/>Praeterea sicut peccatum in Spiritum sanctum 
+            <lb ed="#V" n="13"/>ponitur desperatio: sic ponitur impaenitentia, sed 
+            <lb ed="#V" n="14"/>impenitentia opponitur poenitentiae. Cum ergo 
+            <lb ed="#V" n="15"/>poenitentia sit dolor de peccatis commissis: sic 
+            <lb ed="#V" n="16"/>&amp; impaenitentia aliqua peccata conmissa praesup¬ 
+            <lb ed="#V" n="17"/>ponet. Desperatiolergo, &amp; impaenitentia, quae suntl 
+            <lb ed="#V" n="18"/>peccata in Spiritum sanctum non possunt dice¬ 
+            <lb ed="#V" n="19"/>re actum peccati primum: sed aliqua peccata 
+            <lb ed="#V" n="20"/>praesupponent. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1263">
+            <lb ed="#V" n="21"/>IN CONTRARIVM est, quia peccata haben¬ 
+            <lb ed="#V" n="22"/>tia actum distinctum, non oportet, quod unum praesup¬ 
+            <lb ed="#V" n="23"/>ponat aliud, sed peccatum in Spiritum sanctum ha¬ 
+            <lb ed="#V" n="24"/>bet actum distinctum ab aliis peccatis: ergo non 
+            <lb ed="#V" n="25"/>oportet, quod praesupponat alia peccata¬ 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1276">
+            <lb ed="#V" n="26"/>Praeterea peccatum in Spiritum sanctum in 
+            <lb ed="#V" n="27"/>hoc consistit, quod uoluntas reiicit illud, per 
+            <lb ed="#V" n="28"/>quod a peccato retrahitur. Cum ergo uoluntas 
+            <lb ed="#V" n="29"/>se habeat ad utrumque oppositorum: sicut potest 
+            <lb ed="#V" n="30"/>in primo actu admittere illud, per quod ad pec¬ 
+            <lb ed="#V" n="31"/>catum inducitur: Ita potest in primo actu reiice¬ 
+            <lb ed="#V" n="32"/>re illud, per quod a peccato retrahitur, &amp; sic in 
+            <lb ed="#V" n="33"/>primo actu poterit peccare in Spiritum sanctum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1296">
+            <lb ed="#V" n="34"/>RESOLVTIO. 
+            <lb ed="#V" n="35"/>Peccatum, quod ex certa malitia, exque electio¬ 
+            <lb ed="#V" n="36"/>ne secundum habitum perpetratur, absque prae¬ 
+            <lb ed="#V" n="37"/>uio peccato esse non potest. cetera uero pecca¬ 
+            <lb ed="#V" n="38"/>ta, cum octo sint modi peccandi in Spiritum san¬ 
+            <lb ed="#V" n="39"/>ctum, prima esse queunt.
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1313">
+            <lb ed="#V" n="40"/>RRSPONDEO dicendum, quod in hac 
+            <lb ed="#V" n="41"/>quaestione sic procedemus, quia primo distin¬ 
+            <lb ed="#V" n="42"/>guemus inter contingere saepe, &amp; frequenter 
+            <lb ed="#V" n="43"/>&amp; contingere raro, &amp; casualiter. Secundo re¬ 
+            <lb ed="#V" n="44"/>ducemus ad tria omniaipeccata in Spiritum san¬ 
+            <lb ed="#V" n="45"/>ctum, uidelicet ad habitum, actum, &amp; circunstan¬ 
+            <lb ed="#V" n="46"/>tiam, ex quo patere poterit ueritas quaesiti.I 
+            <lb ed="#V" n="47"/>Tertio illam ueritatem declarabimus compa¬ 
+            <lb ed="#V" n="48"/>rando peccatum in Spiritum sanctum ad mo¬ 
+            <lb ed="#V" n="49"/>tum ipsius grauis. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1337">
+            <lb ed="#V" n="50"/>Propter primum sciendum, quod cum quae¬ 
+            <lb ed="#V" n="51"/>ritur utrum peccatum in Spiritum sanctum prae¬ 
+            <lb ed="#V" n="52"/>supponat alia peccata, uel possit quis quantum 
+            <lb ed="#V" n="53"/>ad primum actum malum, iel quantum ad pri¬ 
+            <lb ed="#V" n="54"/>mum peccatum peccare in Spiritum sanctum. 
+            <lb ed="#V" n="55"/>Dicemus, quod aut loquimur de eo, quod con¬ 
+            <lb ed="#V" n="56"/>tingit saepe, &amp; frequenter. Aut de eo, quod con¬ 
+            <lb ed="#V" n="57"/>tingit raro, &amp; casualiter. Nam inter peccata, 
+            <lb ed="#V" n="58"/>quaedam sunt primitiua, &amp; capitalia, quaedam 
+            <lb ed="#V" n="59"/>deriuatiua, &amp; subsequentia. sed morale nego¬ 
+            <lb ed="#V" n="60"/>cium habet tantam uarietatem, &amp; tantam instabi¬ 
+            <!--674.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="61"/>litatem, quod non possumus loqui de eo, tanquam 
+            <lb ed="#V" n="62"/>de re firma, uel tanquam de re necessaria. Nam &amp; 
+            <lb ed="#V" n="63"/>in naturalibus specialiter ea, quae sunt in sphae¬ 
+            <lb ed="#V" n="64"/>ra actiuorum, &amp; passiuorum, non habent tan¬ 
+            <lb ed="#V" n="65"/>tam stabilitatem, quod sit ibi omnimoda neces¬ 
+            <lb ed="#V" n="66"/>sitas. Posfumus ergo de naturalibus loqui, tant 
+            <lb ed="#V" n="67"/>de his, quae contingunt saepe: non autem tanquam 
+            <lb ed="#V" n="68"/>de his, quae contingunt omnimode semper. 
+            <lb ed="#V" n="69"/>Et si dicantur naturalia esse semper, dicemus 
+            <lb ed="#V" n="70"/>hoc essel sub conditione, nisi impediantur. Et si 
+            <lb ed="#V" n="71"/>inuenitur instabilitas in naturalibus, multo ma¬ 
+            <lb ed="#V" n="72"/>gis hoc erit in moralibus, quia ad haec sunt ma¬ 
+            <lb ed="#V" n="73"/>gis determinata naturalia, quam moralia, quae 
+            <lb ed="#V" n="74"/>sunt uoluntaria, &amp; maxime loquendo de statu¬ 
+            <lb ed="#V" n="75"/>uiae: ubi liberum arbitrium est de se omnino uer¬ 
+            <lb ed="#V" n="76"/>tibile. Et si non possumus loqui de naturalibus 
+            <lb ed="#V" n="77"/>omnino, ut semper: multo magis non poteri 
+            <lb ed="#V" n="78"/>mus sic loqui de moralibus: loquamur ergo de 
+            <lb ed="#V" n="79"/>eis, ut saepe. Illa ergo dicentur uitia primitiua, &amp; 
+            <lb ed="#V" n="80"/>capitalia, ex quibus, ut saepe, sunt apta nata oriri¬ 
+            <lb ed="#V" n="81"/>alia uitia. Et illa dicentur esse uitia, uel peccata 
+            <lb ed="#V" n="82"/>deriuatiua, &amp; frequentatiua, quae sunt apta nata 
+            <lb ed="#V" n="83"/>oriri ex aliispeccatis. Hoc ergo modo cogno 
+            <lb ed="#V" n="84"/>scemus haec peccata ab illis, quia cum nullus 
+            <lb ed="#V" n="85"/>aspiciens ad malum agat, quod agit. Illud erit 
+            <lb ed="#V" n="86"/>magis capitale peccatum, quod tendit in magis 
+            <lb ed="#V" n="87"/>appetibile. Ideo auaritia dicitur uitium capita¬ 
+            <lb ed="#V" n="88"/>le, quia pecunia est multum appetibilis. luxta il¬ 
+            <lb ed="#V" n="89"/>lud: Pecuniae obediunt omnia. Etiam de ea dicit 
+            <lb ed="#V" n="90"/>Aug. in lib. de Ciuit. Dei, Quod pecunia louem, 
+            <lb ed="#V" n="91"/>uocauerunt, eo quod esset omnia. Est enim pecu¬ 
+            <lb ed="#V" n="92"/>nia multum appetibilis. Et ideo auaritia est uitium 
+            <lb ed="#V" n="93"/>capitale, &amp; multa peccata oriuntur ex ea. Sic 
+            <lb ed="#V" n="94"/>etiam gula, &amp; luxuria propter delectationem ma¬ 
+            <lb ed="#V" n="95"/>gnam, quae est in eis, sunt multum appetitiua, &amp; 
+            <lb ed="#V" n="96"/>sunt uitia capitalia, &amp; multa peccata sunt apta¬ 
+            <lb ed="#V" n="97"/>nata oriri ex ipsis. Peccata ergo in Spiritum san¬ 
+            <lb ed="#V" n="98"/>ctum, quantum est de se, magis sunt peccata deri¬ 
+            <lb ed="#V" n="99"/>uatiua ex aliis, &amp; habentia ortum ex aliis, quam 
+            <lb ed="#V" n="100"/>primitiua ad alia. Nam desperare, &amp; praesume¬ 
+            <lb ed="#V" n="101"/>re, &amp; obstinate se habcre, &amp; non paenitere de ma¬ 
+            <lb ed="#V" n="102"/>le actis, non possunt habere rationem magni appe¬ 
+            <lb ed="#V" n="103"/>tibilis, ut homo ex primo peccato habeat esse 
+            <lb ed="#V" n="104"/>talis, &amp; magis homines fiunt tales ex multipli¬ 
+            <lb ed="#V" n="105"/>catione talium peccatorum. Iunta illud Prou. 18. 
+            <lb ed="#V" n="106"/>Impius cum in profundum peccatorum uenerit: 
+            <lb ed="#V" n="107"/>contemnit loquendo: ergo ut plurimum peccata¬ 
+            <lb ed="#V" n="108"/>prima trahunt hominem in alia peccata. Sed utrum 
+            <lb ed="#V" n="109"/>raro, &amp; casualiter possit aliquod primum pecca¬ 
+            <lb ed="#V" n="110"/>tum trahere in aliud, in sequenti dicto patebit. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1476">
+            <lb ed="#V" n="111"/>Declarato ergo primo dicto, quod aliqua ha¬ 
+            <lb ed="#V" n="112"/>bentlesse saepe, &amp; frequenter: Aliqua uero raro, 
+            <lb ed="#V" n="113"/>&amp; casualiter: Volumus declarare secundum, ui¬ 
+            <lb ed="#V" n="114"/>delicet, quod omnia peccata in Spiritum san¬ 
+            <lb ed="#V" n="115"/>ctum reducantur ad tria: ad habitum, ad actum, 
+            <lb ed="#V" n="116"/>&amp; ad circunstantiam. Et ex hoc poterit appa¬ 
+            <lb ed="#V" n="117"/>rere ueritas quaesiti. Videlicet quomodo raro, 
+            <lb ed="#V" n="118"/>&amp; casualiter peccatum in Spiritum fanctum po¬ 
+            <lb ed="#V" n="119"/>test esse primum peccatum, &amp; quomodo etiam raro, 
+            <lb ed="#V" n="120"/>&amp; casualiter non potest esse primum peccatum. 
+            <lb ed="#V" n="121"/>Dicemus enim, quod peccatum in Spiritum sanctum, uel¬ 
+            <lb ed="#V" n="122"/>est ex habitu, &amp; tunc est, cum quis peccat ex ele¬ 
+            <lb ed="#V" n="123"/>cionae, &amp; ex certa malitia, Nam apeneas ex pastio¬ 
+            <!--675.xml-->
+            <pb ed="#V" n="675"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ne, &amp; ex infirmitate, secundum quem modum 
+            <lb ed="#V" n="2"/>ngit, qui peccat in patrem. Et agens ex ignoram 
+            <lb ed="#V" n="3"/>tia, secundum quem modum agit, qui peccat 
+            <lb ed="#V" n="4"/>in filium non proprie agit ex habitu: sed agens 
+            <lb ed="#V" n="5"/>&amp;x electione, &amp; ex certa malitia, secundum quem 
+            <lb ed="#V" n="6"/>modum agit, qui peccat in Spiritum sanctum, 
+            <lb ed="#V" n="7"/>dicitur agere ex habitu. Ideo dicebatur supra 
+            <lb ed="#V" n="8"/>quod aliter peccat incontinens, qui peccat ex infir¬ 
+            <lb ed="#V" n="9"/>mitate, &amp; ex passione, &amp; aliter intemperatus, qui¬ 
+            <lb ed="#V" n="10"/>peccat ex habitu, &amp; ex certa malitia: &amp; ex ele¬ 
+            <lb ed="#V" n="11"/>ctione. propter quod ad peccare ex habitu, re¬ 
+            <lb ed="#V" n="12"/>ducitur illud peccatum in Spiritum sanctum, 
+            <lb ed="#V" n="13"/>quod est peccare ex certa malitia. Sed ad pec¬ 
+            <lb ed="#V" n="14"/>care ex actu reducuntur. O. peccata in Spi. sanct. 
+            <lb ed="#V" n="15"/>coniter, &amp; quasi ab omnibus posita. Videlicet 
+            <lb ed="#V" n="16"/>Desperatio: Praesumptio: Inuidia supernae gra¬ 
+            <lb ed="#V" n="17"/>tiae: Impugnatio ueritatis agnitae: Obstinatio, 
+            <lb ed="#V" n="18"/>&amp; Impaenitentia i. propositum non paenitendi: sed 
+            <lb ed="#V" n="19"/>ad peccatum ex circunstantia, uel euentu redu per¬ 
+            <lb ed="#V" n="20"/>citur peccatum in spir. san. quod est finalis im¬ 
+            <lb ed="#V" n="21"/>paenitentia facti non propositi tantum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1559">
+            <lb ed="#V" n="22"/>Ex hoc autem patet solutio ad quonem pro¬ 
+            <lb ed="#V" n="23"/>positam. Nam peccatum in Spir. sanct. quod 
+            <lb ed="#V" n="24"/>est ex certa malitia, &amp; quod est ex habitu, uel 
+            <lb ed="#V" n="25"/>ex electionc, non potest esse primum peccatum: qa¬ 
+            <lb ed="#V" n="26"/>semper tale peccatum est habitus acquisitus ex 
+            <lb ed="#V" n="27"/>malis actibus. quia habitus malus, per quem 
+            <lb ed="#V" n="28"/>peccat aliquis ex certa malitia: non potest em infu¬ 
+            <lb ed="#V" n="29"/>sus: sed oportet, quod sit acquisitus ex malis acti¬ 
+            <lb ed="#V" n="30"/>bus: quia semp ex similib. actib. assignantursimi¬ 
+            <lb ed="#V" n="31"/>les habitus: sed illa sex peccata in spir. san. quae 
+            <lb ed="#V" n="32"/>possunt fieri ex actu sine habitu:licet hoc pos¬ 
+            <lb ed="#V" n="33"/>set contingere raro: Pont tan contingere, quod quodli¬ 
+            <lb ed="#V" n="34"/>bet eorum sit primum pctinm, quod hoc modo potest¬ 
+            <lb ed="#V" n="35"/>contigere. Nam per gratiam receptam in baptismo. [ 
+            <lb ed="#V" n="36"/>potet quis diu se continere a pcton mortali. Et praet 
+            <lb ed="#V" n="37"/>se tandiu sic continere, quod hebeat experientiam negon¬ 
+            <lb ed="#V" n="38"/>rum mundi Et quod uideat, quod per fidem ostendit 
+            <lb ed="#V" n="39"/>uia ueritatis. Et quomodo sint diuisiones gratiarum: 
+            <lb ed="#V" n="40"/>quia uni datur gratia discernendi spres, &amp; fugan¬ 
+            <lb ed="#V" n="41"/>di Spiritus malos, de quo dicit dominus: In 
+            <lb ed="#V" n="42"/>hoc autem nolite gaudere, quia Spiritus subij¬ 
+            <lb ed="#V" n="43"/>ciuntur uobis. Alicui datur gratia curationum: 
+            <lb ed="#V" n="44"/>quia ad umbram Petri sanabant infirmi. Pont eteam 
+            <lb ed="#V" n="45"/>quis tandiu abstinere a peccato mortali, quod potest¬ 
+            <lb ed="#V" n="46"/>scire, quo difficile est mereri pemia aeterna, &amp; quod ar¬ 
+            <lb ed="#V" n="47"/>cta est uia, quod ducit ad uitam, &amp; quo ampla quae du¬ 
+            <lb ed="#V" n="48"/>cit ad mortem, &amp; quod difficile est bene uiuere, &amp; fa¬ 
+            <lb ed="#V" n="49"/>cile est in peccatum ruere. quod libet ergo illorum 
+            <lb ed="#V" n="50"/>sex peccatorum potet esse primum pctme in aliquo: 
+            <lb ed="#V" n="51"/>licet hoc possit contingere ualde raro &amp; casuali 
+            <lb ed="#V" n="52"/>ter. N potest quis statim impugnare ueritatem 
+            <lb ed="#V" n="53"/>agnitam etiam ueritatem fidei. Propter quod primum 
+            <lb ed="#V" n="54"/>pctm suum potest esse talis impugnatio. Sic eteam preat 
+            <lb ed="#V" n="55"/>quis statim iuidere supnae grae: sicut inuideban 
+            <lb ed="#V" n="56"/>Iudaei dicentes, quod xpes in Beelxebub eiiciebat 
+            <lb ed="#V" n="57"/>daemonia, nec loquimur hic de inuidia fratris, 
+            <lb ed="#V" n="58"/>ut frater est, uel ut refulgent in eo aliquae boni¬ 
+            <lb ed="#V" n="59"/>tates naturales sicut est ingenium, uel aliquid hu¬ 
+            <lb ed="#V" n="60"/>iusmodi, uel vt abundant in eis exteriora bona 
+            <lb ed="#V" n="61"/>cuiusmodi sunt diuitie: quia hmonei inuidia es 
+            <lb ed="#V" n="62"/>vnum de vitijs capitalibus, sed cum quis inuidet 
+            <lb ed="#V" n="63"/>fratri: quia relucet in eo donum aliquod supernae grae¬ 
+            <!--675.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>hoc est peccatum in spir. san. &amp; potest esse primum pec¬ 
+            <lb ed="#V" n="65"/>catum in aliquo: sic etiam propter difficultatem peruenien¬ 
+            <lb ed="#V" n="66"/>di ad premia aeterna, poest quis statim despare non 
+            <lb ed="#V" n="67"/>curando de pmijs aeternis, uel potest statim praesu¬ 
+            <lb ed="#V" n="68"/>mere non curando de aeternis paenis, uel potest sta¬ 
+            <lb ed="#V" n="69"/>tim esse obstin atus pertinaciter adhaerendo de¬ 
+            <lb ed="#V" n="70"/>lectationi b. mutabilium bonorum, vel potest statim 
+            <lb ed="#V" n="71"/>proponere non penitere non dolendo de difformi¬ 
+            <lb ed="#V" n="72"/>tate peccati. propter quod libet illorum sex pctoterum 
+            <lb ed="#V" n="73"/>in Spir. san. loquendo de vno pctoe tamnmem potest estm in 
+            <lb ed="#V" n="74"/>aliquo primum pctame. Sic etiam si loquimur de pctone¬ 
+            <lb ed="#V" n="75"/>in spir. san. quod est ex circunstantia, siue ex euentu¬ 
+            <lb ed="#V" n="76"/>put aliquis decedit in pcton mortali sine pnia: 
+            <lb ed="#V" n="77"/>Ponest hoc etiam contingere de primo pctote: quia statim 
+            <lb ed="#V" n="78"/>cum quis peccauit mortaliter: pret sibi statim post 
+            <lb ed="#V" n="79"/>illud pemmnme mors cuenire, &amp; in illo pcton morta 
+            <lb ed="#V" n="80"/>li mori sine penitentia. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1694">
+            <lb ed="#V" n="81"/>His auem discursis, uolumus hanc ue ritatem de¬ 
+            <lb ed="#V" n="82"/>cadere in pctmae in spir. san. declarare per ea,  
+            <lb ed="#V" n="83"/>uidemus in motu grauium, quod in principio solu¬ 
+            <lb ed="#V" n="84"/>tionis huiusmodi quaestionis erat tertio propositum 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1705">
+            <lb ed="#V" n="85"/>Dicemus enim quod sicut graue potest moueri a ge¬ 
+            <lb ed="#V" n="86"/>nerante, &amp; a remouente prohibens: sic cadere in 
+            <lb ed="#V" n="87"/>pctme in spir. san. potest hoc contigere, uel a gnan¬ 
+            <lb ed="#V" n="88"/>te, vel a remouente prohibes: Tune e nm contingit a ge¬ 
+            <lb ed="#V" n="89"/>nerante quaden aggeneratus est habitus in aliquo 
+            <lb ed="#V" n="90"/>per quem inclinatur ad similes actus, &amp; per que¬ 
+            <lb ed="#V" n="91"/>habitum peccat ex certa malitia, &amp; ex electio 
+            <lb ed="#V" n="92"/>ne. Et hic modus peccandi in spir. san. non potest 
+            <lb ed="#V" n="93"/>esse per peccatum primum: Quia oportet alia pec¬ 
+            <lb ed="#V" n="94"/>cata precedere, per quae aggeneratus est habitus 
+            <lb ed="#V" n="95"/>sed si loquimur de motu grauis, prout mouetur 
+            <lb ed="#V" n="96"/>a remouente prohibens, sic quasi per simile pret 
+            <lb ed="#V" n="97"/>quis secundum primum peccatum peccare in spir. san¬ 
+            <lb ed="#V" n="98"/>Nam illud, quod prohibet nos a peccatis, uel 
+            <lb ed="#V" n="99"/>est amor aeternorum premiorum, uel timor aeter¬ 
+            <lb ed="#V" n="100"/>narum poenarum. Aliquis ergo statim uisis diuer 
+            <lb ed="#V" n="101"/>sis statibus hoium, &amp; quod conter honies uadunt 
+            <lb ed="#V" n="102"/>post haec sensibilia, uel mutabilia bona potet a se¬ 
+            <lb ed="#V" n="103"/>abiicere amorem proemiorum gternorum, &amp; de¬ 
+            <lb ed="#V" n="104"/>sperare, vel non curare de eternis paenis, &amp; praesu¬ 
+            <lb ed="#V" n="105"/>mere, uel potest statim impugnare ueritatem fidei, 
+            <lb ed="#V" n="106"/>uel inuidere supernae gratiae, &amp; sic de alijs. De¬ 
+            <lb ed="#V" n="107"/>peccato autem in spir. san. quantum ad circunstan¬ 
+            <lb ed="#V" n="108"/>tiam, vel euentum, vt quod quis moriatur in aliquo¬ 
+            <lb ed="#V" n="109"/>peccato mortali sine pnia: patet, quod hoc potest de¬ 
+            <lb ed="#V" n="110"/>primo peccato contingere. Cum ergo &amp;8u. sint mo¬ 
+            <lb ed="#V" n="111"/>di assignati peccatorum in Spiritum sanctum, 
+            <lb ed="#V" n="112"/>excepto peccato, quod fit ex habituid es. ex certa¬ 
+            <lb ed="#V" n="113"/>malitia, &amp; ex electione secundum habitum, quod 
+            <lb ed="#V" n="114"/>non potest esse primum. Quodlibet autem aliorum 
+            <lb ed="#V" n="115"/>peccatorum secundum se, licet hoc raro, &amp; casua¬ 
+            <lb ed="#V" n="116"/>liter contingat, accipiendo casualiter, pro om¬ 
+            <lb ed="#V" n="117"/>ni eo, quod raro contingit: potest esse primum 
+            <lb ed="#V" n="118"/>peccatum modo, quod dictum est 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1782">
+            <lb ed="#V" n="119"/>RESP. Ad primum dicendum, quod non est simile de¬ 
+            <lb ed="#V" n="120"/>profectu secundum uirtutem, &amp; de casu in petmte 
+            <lb ed="#V" n="121"/>quia hon non potest per se ipsum agere opa meri 
+            <lb ed="#V" n="122"/>toria sine gratia: sed potet per se ipsum ca dere in 
+            <lb ed="#V" n="123"/>peceatum, &amp; statim desperare de eternis prae¬ 
+            <lb ed="#V" n="124"/>mijs, &amp; peccare in spiritum sanctum¬ 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1798">
+            <lb ed="#V" n="125"/>Ad secundum dicendum, quod Orex. bi lo¬ 
+            <lb ed="#V" n="126"/>quitur, ut plurimum. Sed ex hot non exclud tur 
+            <!--676.xml-->
+            <pb ed="#V" n="676"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quin possitaliter contingere, &amp; quin possit ho¬ f 
+            <lb ed="#V" n="2"/>mo statim desperare, &amp; peccare in Spiritum san¬ 
+            <lb ed="#V" n="3"/>ctum, uel etiam praesumere, &amp; alia peccata in 
+            <lb ed="#V" n="4"/>Spiritum sanctum conmittere non loquendo de 
+            <lb ed="#V" n="5"/>pluribus talibus peccatis simul, sed saltem de 
+            <lb ed="#V" n="6"/>quo libet, secundum se. Et si possunt plura talia 
+            <lb ed="#V" n="7"/>peccata fieri simul, plura talia erunt simul pri¬ 
+            <lb ed="#V" n="8"/>ma, &amp; si non origine, saltem tempore. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1829">
+            <lb ed="#V" n="9"/>Ad tertium dicendum, quod argumentum il¬ 
+            <lb ed="#V" n="10"/>lud loquitur de peccato in Spiritum sanctum, quod 
+            <lb ed="#V" n="11"/>habet fieri ex habitu, uel electione causata ex 
+            <lb ed="#V" n="12"/>habitu, quod peccatum in Spiritum sanctum, ut 
+            <lb ed="#V" n="13"/>patuit, non potest esse primum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1842">
+            <lb ed="#V" n="14"/>Ad quartum dicendum, quod spes non praesup¬ 
+            <lb ed="#V" n="15"/>ponit merita in actu, sed sufficit, quod supponat 
+            <lb ed="#V" n="16"/>merita in pposito, quia potest quis sperare aeternam 
+            <lb ed="#V" n="17"/>gloriam proponendo facere bona, per quae merea 
+            <lb ed="#V" n="18"/>tur illa. Sic &amp; desperatio sufficit, quod presupponat 
+            <lb ed="#V" n="19"/>impaenitentiam in proposito, quia potest quis despe¬ 
+            <lb ed="#V" n="20"/>rare proponendo non paenitere de quibuscunque 
+            <lb ed="#V" n="21"/>peccatis, quae continget eum in posterum facere. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1862">
+            <lb ed="#V" n="22"/>Ad quintum dicendum, quod sicut diximus su¬ 
+            <lb ed="#V" n="23"/>pra de statu innocentiae, quod ibi poterat esse pae¬ 
+            <lb ed="#V" n="24"/>nitentia sub conditione, quia potest innocens ha¬ 
+            <lb ed="#V" n="25"/>bere paenitentiam sub conditione, si contingent 
+            <lb ed="#V" n="26"/>eum peccare. Sic &amp; multo magis in proposito 
+            <lb ed="#V" n="27"/>potest quis per malitiam suam proponere non 
+            <lb ed="#V" n="28"/>poenitere, proponere etiam, si contingeret de 
+            <lb ed="#V" n="29"/>caetero ipsum pectare, 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m198570-Dd1e1883">
+          <head xml:id="Gi9qrR-m198570-Hd1e1885">Articulus 3</head>
+          <p xml:id="Gi9qrR-m198570-d1e1887">
+            <lb ed="#V" n="30"/>ARTIC. III. 
+            <lb ed="#V" n="31"/>An primus homo, &amp;Sprimus An¬ 
+            <lb ed="#V" n="32"/>gelus peccauerint in Spiritum san¬ 
+            <lb ed="#V" n="33"/>ctum. Conclusio est necatitta. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1898">
+            <lb ed="#V" n="34"/>D. Tho. 4. sent. d. 4. 3. ar. 8. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1903">
+            <lb ed="#V" n="35"/>TERTIO quaeritur de grauita 
+            <lb ed="#V" n="36"/>te peccati in Spiritum sanctum 
+            <lb ed="#V" n="37"/>per conparationem ad ipsos pec¬ 
+            <lb ed="#V" n="38"/>cantes. Vtrum primus homo, 
+            <lb ed="#V" n="39"/>&amp; primus Angelus peccaue¬ 
+            <lb ed="#V" n="40"/>rint in Spinitum sanctum. Et ui¬ 
+            <lb ed="#V" n="41"/>detur quod primus homo pec¬ 
+            <lb ed="#V" n="42"/>cauerit in Spiritum sanctum, quia omne peccatum, 
+            <lb ed="#V" n="43"/>uel est in patrem, &amp; sic peccatur per infirmitatem, 
+            <lb ed="#V" n="44"/>uel in filium, &amp; sic peccatur per ignorantiam, uel 
+            <lb ed="#V" n="45"/>peccatur in Spiritum sanctum, sed infirmitas, &amp; 
+            <lb ed="#V" n="46"/>ignorantia sunt introductae ex peccato primi ho¬ 
+            <lb ed="#V" n="47"/>minis: ergo primus homo non potuit peccare 
+            <lb ed="#V" n="48"/>nisi in Spiritum sanctum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1936">
+            <lb ed="#V" n="49"/>Praeterea peccare in Spiritum sanctum est 
+            <lb ed="#V" n="50"/>praesumere de Dei misericordia, sed Adam prae¬ 
+            <lb ed="#V" n="51"/>sumpsit de Dei misericordia, quia ut dicebatur 
+            <lb ed="#V" n="52"/>
+            <ref xml:id="Gi9qrR-m198570-Rd1e1946">supra in 23. di.</ref> quod Adam peccando, de Dei mi¬ 
+            <lb ed="#V" n="53"/>sericordia cogitauit, sed peccare sub spe diuinae 
+            <lb ed="#V" n="54"/>misericordiae sest, ut uidetur praesumere de ea. 
+            <lb ed="#V" n="55"/>ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1957">
+            <lb ed="#V" n="56"/>Praeterea uidetur, quod primus Angelus in 
+            <lb ed="#V" n="57"/>Spiritum sanctum peccauerit quia proprietas pec¬ 
+            <lb ed="#V" n="58"/>cati in Spiritum sanctum, uidetur esse irremissi¬ 
+            <lb ed="#V" n="59"/>bilitas, sed cui conuenit proprium uidetur con¬ 
+            <!--676.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>uenire id, cuius est proprium. sed cum pecca¬ 
+            <lb ed="#V" n="61"/>tum Angeli sit irremissibile ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1977">
+            <lb ed="#V" n="62"/>Praeterea eodem modo uidetur, peccasse Ange¬ 
+            <lb ed="#V" n="63"/>lus modo, quo peccat, sed modo peccat inui¬ 
+            <lb ed="#V" n="64"/>dendo gratiae sanctorum. quod est peccatum 
+            <lb ed="#V" n="65"/>in Spiritum sanctum. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e1988">
+            <lb ed="#V" n="66"/>In contrarium est, quia primus homo non ui¬ 
+            <lb ed="#V" n="67"/>detur peccasse in Spiritum sanctum immo ma¬ 
+            <lb ed="#V" n="68"/>gis uidetur peccasse in filium, quia peccauit ap¬ 
+            <lb ed="#V" n="69"/>petendo scientiam, quae appropriatur filio. Iuxta 
+            <lb ed="#V" n="70"/>illud. Eritis, sicut Dii scientes, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2001">
+            <lb ed="#V" n="71"/>Praeterea uidetur, quod peccatum Angeli non 
+            <lb ed="#V" n="72"/>fuerit in Spiritum sanctum, quia ipse dicitur rex¬ 
+            <lb ed="#V" n="73"/>sup omnes filios superbiae. Peccatum ergo eius fuit 
+            <lb ed="#V" n="74"/>superbia: Non ergo fuit peccatum in spsae sanctum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2012">
+            <lb ed="#V" n="75"/>RESOLVTIO. 
+            <lb ed="#V" n="76"/>Peccatum primi hominis in Spiritum sanctum pro¬ 
+            <lb ed="#V" n="77"/>prie esse non potuit, cum in filium peccauerit: Nec 
+            <lb ed="#V" n="78"/>primus Angelus in eundem spiritum ex genere 
+            <lb ed="#V" n="79"/>operis, sed tantum ex mutatione flatus peccauit.
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2025">
+            <lb ed="#V" n="80"/>RESPONDEO dicendum, quod ista diuer 
+            <lb ed="#V" n="81"/>sitas modorum peccandi, quod aliqui peccant in Patrem 
+            <lb ed="#V" n="82"/>aliqui in Filium: aliqui in Spiritum sanctum, secun¬ 
+            <lb ed="#V" n="83"/>dum quos referenda est ad statum naturae cotru¬ 
+            <lb ed="#V" n="84"/>ptae, secundum quem statum aliqui peccant ex infir¬ 
+            <lb ed="#V" n="85"/>mitate, aliqui ex ignorantia, aliqui ex electione 
+            <lb ed="#V" n="86"/>Non est autem referenda ad statum primi hominis 
+            <lb ed="#V" n="87"/>uel ad statum Angelorum. Vbi non contingebat 
+            <lb ed="#V" n="88"/>peccare, nec ex insirmitate, nec proprie loquendo 
+            <lb ed="#V" n="89"/>ex ignorantia, sed credimus, &amp; melius dictum est 
+            <lb ed="#V" n="90"/>talia referenda esse non ad statum naturae corruptae, 
+            <lb ed="#V" n="91"/>sed ad statum naturae reparatae per Christum. 
+            <lb ed="#V" n="92"/>Nam ante aduentum Christi fides Trinitatis non 
+            <lb ed="#V" n="93"/>erat conmmuniter nota. Nam ipsi iudaei conmuniter 
+            <lb ed="#V" n="94"/>ignorabant Trinitatem, licet aliquibus maioribus 
+            <lb ed="#V" n="95"/>hoc fuerit reuelatum non solum ex iudaeis, sed etiam 
+            <lb ed="#V" n="96"/>ex gentilibus. Credendum est en. quod Noe, &amp; Iob, 
+            <lb ed="#V" n="97"/>&amp; talibus, qui erant gentiles, reuelatum fueritmi¬ 
+            <lb ed="#V" n="98"/>sterium Trinitatis, sed in lege gratiae, in qua ba¬ 
+            <lb ed="#V" n="99"/>ptixati In nomine patris, &amp; filii, &amp; spiritus sandi. 
+            <lb ed="#V" n="100"/>Incipimus spiritualiter uiuere, publicatum est moi¬ 
+            <lb ed="#V" n="101"/>sterium Trinitatis. Ideo haec distinctio, quod contingit 
+            <lb ed="#V" n="102"/>peccare in Patrem, &amp;c. Oportuit, quod habuerit lo¬ 
+            <lb ed="#V" n="103"/>cum post diuulgationem Trinitatis, quae facta est 
+            <lb ed="#V" n="104"/>sub Christo, &amp; per Christum, quia multifarie mul¬ 
+            <lb ed="#V" n="105"/>tisque modis locutus est olim Deus patribus in 
+            <lb ed="#V" n="106"/>prophetis, nouissime diebus istis locutus est no¬ 
+            <lb ed="#V" n="107"/>a bis in filioid est per filium. Ideo omnes modi peccandi¬ 
+            <lb ed="#V" n="108"/>in Spiritum sanctum referendi sunt ad Christum, 
+            <lb ed="#V" n="109"/>ppter quod unus modus peccandi in Spiritum 
+            <lb ed="#V" n="110"/>sanctum ponitum impugnatio ueritatis agnitae, &amp; 
+            <lb ed="#V" n="111"/>inuidia supernae gratiae, quo referenda sunt ad Chri¬ 
+            <lb ed="#V" n="112"/>stum, uel ad uerbum incarnatum, quia de illo uer¬ 
+            <lb ed="#V" n="113"/>bo incarnato dicit Ioan. 1. Vidimus gloriam eius, 
+            <lb ed="#V" n="114"/>gloriam quasi unigeniti a patre plenum gratiae, &amp; 
+            <lb ed="#V" n="115"/>ueritatis. Et in eo. ca. scribitur, quod lex pe Moysen¬ 
+            <lb ed="#V" n="116"/>data est: gratia, &amp; ueritas per Iesum Christum fa¬ 
+            <lb ed="#V" n="117"/>cta est, quia ergo ueritas agnita est peChrislum. 
+            <lb ed="#V" n="118"/>&amp; sub Christo. Et quia tempus plenitudinis gra¬ 
+            <lb ed="#V" n="119"/>tiae incaepit sub Christo, qui conceptus est de spi¬ 
+            <lb ed="#V" n="120"/>ritu sancto. Ideo impugnatio uerita tis agnilae, 
+            <lb ed="#V" n="121"/>&amp; specialiter ueritatis fidei, &amp; inuidia supernt, 
+            <!--677.xml-->
+            <pb ed="#V" n="677"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>gratiae specialiter dicuntur peccata in spiritum 
+            <lb ed="#V" n="2"/>sanctum. Rursus primitus in lege scripta spe¬ 
+            <lb ed="#V" n="3"/>cialiter promittebantur terrona, &amp; temporalia. 
+            <lb ed="#V" n="4"/>luxta illud Esa. 1. Si uolueritis, &amp; audieritis mes 
+            <lb ed="#V" n="5"/>bona terrae comedetis, sed nunc sub lege gra¬ 
+            <lb ed="#V" n="6"/>tiae specialiter promittuntur caelestia, &amp; aeterna. 
+            <lb ed="#V" n="7"/>luxta illud: Primum quaerite regnum Dei, &amp;c. 
+            <lb ed="#V" n="8"/>ergo spes praemiorum aeternorum specialiter 
+            <lb ed="#V" n="9"/>incaepit uigere sub lege noua, &amp; sub diuulgatio¬ 
+            <lb ed="#V" n="10"/>ne mysterii Trinitatis cum spes sit media inter 
+            <lb ed="#V" n="11"/>praesumptionem, &amp; desperationem: sicut liberalitas 
+            <lb ed="#V" n="12"/>est media inter prodigalitatem, &amp; auaritiam: 
+            <lb ed="#V" n="13"/>Ideo praesumptio, &amp; desperatio ponuntur etiam 
+            <lb ed="#V" n="14"/>peccata in Spiritum sanctum. Amplius autem quia 
+            <lb ed="#V" n="15"/>rempus restaurationis nostrae, siue tempus ple¬ 
+            <lb ed="#V" n="16"/>nitud nis gratiae incaepit sub Ep. scopo medico 
+            <lb ed="#V" n="17"/>nostro, de quo dictum est, quod non est opus ualen¬ 
+            <lb ed="#V" n="18"/>tibus medico, sed male habtienbus, quia infirmi, 
+            <lb ed="#V" n="19"/>pet se loquendo, indigent medico, quia in infir¬ 
+            <lb ed="#V" n="20"/>mo est considerare duo, id quod subiicitur infit¬ 
+            <lb ed="#V" n="21"/>mitati, &amp; ipsam infirmitarem, siue id, quod subiicitur 
+            <lb ed="#V" n="22"/>peccato, &amp; ipsum peccarum. Ideo alii modi pec¬ 
+            <lb ed="#V" n="23"/>candi in Spiritum sanctum, uel sumuntur ex ipso 
+            <lb ed="#V" n="24"/>infirmo, uel ex ipsa infirmitate, uel, quod idem 
+            <lb ed="#V" n="25"/>est, sumuntur ex ipso peccante, uel ex ipso pec¬ 
+            <lb ed="#V" n="26"/>cato, ut superius est diffusius declaratum. Omnes 
+            <lb ed="#V" n="27"/>ergo modi peccandi in Spiritum sanctum non 
+            <lb ed="#V" n="28"/>sunt accipiendi ex naturacorrupta, prout homi¬ 
+            <lb ed="#V" n="29"/>nes uiuebant sub lege naturae: nec, ut homines 
+            <lb ed="#V" n="30"/>uiuebnt sub lege scripta, quia nec hic, nec ibi¬ 
+            <lb ed="#V" n="31"/>erat distincta cognitio diuinarum personarum 
+            <lb ed="#V" n="32"/>secund a propria, nisi forte per quaedam appropria &amp; 
+            <lb ed="#V" n="33"/>ta, sed peccare in hanc personam, uel in illam referen¬ 
+            <lb ed="#V" n="34"/>dum est ad naturam reparatam sub Episcopo, uel 
+            <lb ed="#V" n="35"/>ad rempus plenitudinis gratiae, in quo diuulgata 
+            <lb ed="#V" n="36"/>est distincta cognitio personarum. Tamen si hos 
+            <lb ed="#V" n="37"/>modos peccandi uolumus referre ad peccatum 
+            <lb ed="#V" n="38"/>Primi hominis, uel ad peccatum Angeli; Dice¬ 
+            <lb ed="#V" n="39"/>mus. quod Adam primus homo proprie non pecca¬ 
+            <lb ed="#V" n="40"/>uit in Spiritum sanctum discurrendo secundum 
+            <lb ed="#V" n="41"/>omnes illos modos superius assignatos: tamen¬ 
+            <lb ed="#V" n="42"/>ad peccatum Ar geli possumus adaptare etiam pro¬ 
+            <lb ed="#V" n="43"/>prie, uidelicet peccatum in Spiritum sanctum, sci¬ 
+            <lb ed="#V" n="44"/>licet, cui annexa est mors, uel mutatio status. 
+            <lb ed="#V" n="45"/>Nam quocunt; peccato mortali peccet aliquis: 
+            <lb ed="#V" n="46"/>si illi peccato annexa sit, uel si illud peccatum 
+            <lb ed="#V" n="47"/>immediate consequatur mutatio status, quia ex 
+            <lb ed="#V" n="48"/>hoc illud peccatum est irremissibile: dicitur esst 
+            <lb ed="#V" n="49"/>peccatum in Spiritum sanctum. Si ergo uolumus 
+            <lb ed="#V" n="50"/>comparare peccatum primi parentis ad pecca¬ 
+            <lb ed="#V" n="51"/>tum Angeli: Dicemus, quod ad peccatum primi¬ 
+            <lb ed="#V" n="52"/>hominis, possumus adaptare peccatum in Patrem, 
+            <lb ed="#V" n="53"/>&amp; in Filium. Sed ad peccatum Angeli possumus 
+            <lb ed="#V" n="54"/>adaptare peccatum in Filium, &amp; in Spiritum sanctum. 
+            <lb ed="#V" n="55"/>Nam peccare in Datrem est peccare ex passione: 
+            <lb ed="#V" n="56"/>sed peccare in filium est peccare ex ignorantia. 
+            <lb ed="#V" n="57"/>Adam e go peccauit in patrem, quia si peccauit 
+            <lb ed="#V" n="58"/>ex passione peccauit ex compassione. Nam ut 
+            <lb ed="#V" n="59"/>ait Aug. 14. de Ciuit. Dei: Adam cum peccauit 
+            <lb ed="#V" n="60"/>non credidit serpentem uerum d. cere: sed uoluit 
+            <lb ed="#V" n="61"/>suae sociae otonsentire. Nolendo ergo turbare deli¬ 
+            <lb ed="#V" n="62"/>tias fuas, uel nolendo tur bare sociam fuam, fed 
+            <lb ed="#V" n="63"/>conpatien do sibi, &amp; consentiendo peccauit, quod 
+            <!--677.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>peccatum ad naturam non omnino firmam redu¬ 
+            <lb ed="#V" n="65"/>citur. Nam cum natura erit omnino firma, &amp; erit 
+            <lb ed="#V" n="66"/>in sinu Abrahae, uel in diuina gloria, chaos ma¬ 
+            <lb ed="#V" n="67"/>gnum erit inter nos, &amp; damnatos, ut qui uolue¬ 
+            <lb ed="#V" n="68"/>rint ire ad eos per compassionem non possint., 
+            <lb ed="#V" n="69"/>Pater enim glorificatus non compatietur filio 
+            <lb ed="#V" n="70"/>damnato, nec econtrario. Et quia quidam modus 
+            <lb ed="#V" n="71"/>infirmitat is est compassio: ideo peccare ex com¬ 
+            <lb ed="#V" n="72"/>passione est quodammodo peccare in Patrem, 
+            <lb ed="#V" n="73"/>uel ex infirmitate. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2289">
+            <lb ed="#V" n="74"/>Rursus Adam peccauit in filium, &amp; ex igno¬ 
+            <lb ed="#V" n="75"/>rantia. Aliqua enim ignorantia ductus Adam in 
+            <lb ed="#V" n="76"/>peccatum lapsus est, quia ut ait Aug. 14. de Ciuit. 
+            <lb ed="#V" n="77"/>Dei: Adam peccauit, quia potuit putare uenia¬ 
+            <lb ed="#V" n="78"/>le, quod erat mortal.. Nam licet Alam non fue¬ 
+            <lb ed="#V" n="79"/>rit seductus, sed mulier: Et licet Adam non cre¬ 
+            <lb ed="#V" n="80"/>deret, se penrem uerum dicere:tamen non fuit pec¬ 
+            <lb ed="#V" n="81"/>catum illud sine omni ignorantia, quia potuit 
+            <lb ed="#V" n="82"/>peccatum illud putare ueniale, quuod erat mor¬ 
+            <lb ed="#V" n="83"/>tale. Vel si haec ignroantia non fuit ibi: saltem fuit 
+            <lb ed="#V" n="84"/>ibi ista ignorantia, quod non putauit peccatum esse 
+            <lb ed="#V" n="85"/>ita graue, ut erat: sed in Spiritum sanctum proprie¬ 
+            <lb ed="#V" n="86"/>non peccauit Adam quia peccans in Spiritum 
+            <lb ed="#V" n="87"/>sanctum quantum est de se est impaenitens, sed 
+            <lb ed="#V" n="88"/>Adam peccans de paenitentia, &amp; de Dei miseri¬ 
+            <lb ed="#V" n="89"/>cordia cogitauit, ut habetur supra Dist. a 2. Viso 
+            <lb ed="#V" n="90"/>quomodo ad peccatum primi hominis possumus 
+            <lb ed="#V" n="91"/>adaptare peccatum in Patrem, &amp; Filium; Volumus 
+            <lb ed="#V" n="92"/>declarare, quomodo ad peccatum Angeli possu¬ 
+            <lb ed="#V" n="93"/>mus peccatum in filium ad iptare, &amp; in Spiritum 
+            <lb ed="#V" n="94"/>sanctum. Nam licet Angelus sit perspicacioris 
+            <lb ed="#V" n="95"/>intellectus, quo homo: cum aliqua ignorantia fue¬ 
+            <lb ed="#V" n="96"/>rit in Angelo, &amp; specialiter in Angelo uiatore 
+            <lb ed="#V" n="97"/>antequam esset confirmatus per gloriam, quia non 
+            <lb ed="#V" n="98"/>fuit praescius sui casus: Aliqua ergo ignorantia 
+            <lb ed="#V" n="99"/>fuit in peccato Angeli, quia non credidit suum 
+            <lb ed="#V" n="100"/>peccatum sic grauiter debere puniri, ut est pu¬ 
+            <lb ed="#V" n="101"/>nitum, quomodo autem fuerit ibi peccatum in Spi¬ 
+            <lb ed="#V" n="102"/>ritum sanctum est per habita declaratum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2354">
+            <lb ed="#V" n="103"/>RESP. AD ARG. Ad primum dicendum, quo 
+            <lb ed="#V" n="104"/>potest patere per habita, quomodo per infirmitatem 
+            <lb ed="#V" n="105"/>&amp; quomodo per ignorantiam peccauit Adam¬ 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2363">
+            <lb ed="#V" n="106"/>Aduertendum tamen, quod ignorantia potest sumi¬ 
+            <lb ed="#V" n="107"/>dupliciter, uel priuatiue, quando homo ignorat 
+            <lb ed="#V" n="108"/>id, quod est aptum natum scire pro illo statu, &amp; 
+            <lb ed="#V" n="109"/>talis ignorantia non fuit in Adam, uel potest su¬ 
+            <lb ed="#V" n="110"/>mi ignorantia negatiue. quia aliqua latent eum, 
+            <lb ed="#V" n="111"/>&amp; uescit omnia, &amp; talis ignorantia potuit esse 
+            <lb ed="#V" n="112"/>in Adam. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2381">
+            <lb ed="#V" n="113"/>Ad secundum dicendum, quod cum quis pec¬ 
+            <lb ed="#V" n="114"/>cat si cogitet de diuina misericordir sine peni¬ 
+            <lb ed="#V" n="115"/>tentia, ut si quis peccat cogitans, quod absque 
+            <lb ed="#V" n="116"/>hoc, quod poeniteat, Deus misereatur eius: sic 
+            <lb ed="#V" n="117"/>peccans uidetur praesumere, sed si cogitet de 
+            <lb ed="#V" n="118"/>paenitentia, &amp; penitens proponat bene uiuere, 
+            <lb ed="#V" n="119"/>&amp; bona merita habere, talis cogitatio non de¬ 
+            <lb ed="#V" n="120"/>bet dici praesumptio. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2401">
+            <lb ed="#V" n="121"/>Ad tertium de Angelo dicendum, quod pos¬ 
+            <lb ed="#V" n="122"/>sumts concedere argumentum, quod fuit ibi 
+            <lb ed="#V" n="123"/>peccatum in Spiritum sanctum non ex gene¬ 
+            <lb ed="#V" n="124"/>re peccati: sed ex mutatione status, propter 
+            <lb ed="#V" n="125"/>quam mutationem peccatum Angeli habuit es¬ 
+            <lb ed="#V" n="126"/>se irremissibile. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2417">
+            <!--678.xml-->
+            <pb ed="#V" n="678"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad quartum dicendum, quod quomodo daemo 
+            <lb ed="#V" n="2"/>nes, uel damnati possunt peccare, non est prae¬ 
+            <lb ed="#V" n="3"/>sentis speculationis. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2434">
+            <lb ed="#V" n="4"/>Ad formam autem arguendi dicendum, quod 
+            <lb ed="#V" n="5"/>quaestio proposita est: utrum peccatum primi¬ 
+            <lb ed="#V" n="6"/>hominis, uel primum peccatum Angeli fuerit in 
+            <lb ed="#V" n="7"/>Spiritum sanctum: quia de aliis peccatia primi¬ 
+            <lb ed="#V" n="8"/>hominis non est dubium, quod potueruut esse 
+            <lb ed="#V" n="9"/>in Spiritum sanctum. Sic etiam alia peccata An¬ 
+            <lb ed="#V" n="10"/>geli eo modo, quo peccare potest, non est du¬ 
+            <lb ed="#V" n="11"/>bium, quod possint esse in Spiritum sanctum: 
+            <lb ed="#V" n="12"/>Quia quantum ad punitionem essentialem, uel 
+            <lb ed="#V" n="13"/>quantum ad demeritum essentiale non est ibi 
+            <lb ed="#V" n="14"/>augmentum. Sed quantum ad accidentale. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2460">
+            <lb ed="#V" n="15"/>RESP. AD RATIONES INCONTR. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2465">
+            <lb ed="#V" n="16"/>Ad primum argumentum incontrarium de ho¬ 
+            <lb ed="#V" n="17"/>mine dicendum quod potest concedi modo, 
+            <lb ed="#V" n="18"/>quo dictum est, quod non fuit ibi proprie pec¬ 
+            <lb ed="#V" n="19"/>catum in Spiritum sanctum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2476">
+            <lb ed="#V" n="20"/>Ad secundum autem argumentum incon¬ 
+            <lb ed="#V" n="21"/>trarium de Angelo dici potest, quod peccatum 
+            <lb ed="#V" n="22"/>Angeli, non fuit in Spiritum sanctum quantum 
+            <lb ed="#V" n="23"/>est ex genere operis: Sed ex mutatione status, 
+            <lb ed="#V" n="24"/>ut est per habita manifestum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2489">
+            <lb ed="#V" n="25"/>Dubitatio i. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2494">
+            <lb ed="#V" n="26"/>SVper ltera primo quaeritut super iL¬ 
+            <lb ed="#V" n="27"/>lo uerbo: Nec hic, nec in futuro re¬ 
+            <lb ed="#V" n="28"/>mitteturei; Sed contra: Nulla pecca¬ 
+            <lb ed="#V" n="29"/>ta remittuntur in futuro. Quia non 
+            <lb ed="#V" n="30"/>est ulterius tempus merendi, uel demerendi, 
+            <lb ed="#V" n="31"/>sed secundum merita recipiendi. Iuxta illud: 
+            <lb ed="#V" n="32"/>Amodo iam dicit spiritus, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2513">
+            <lb ed="#V" n="33"/>Dicendum quod in futuro uenialia quantum 
+            <lb ed="#V" n="34"/>ad culpam, &amp; penam. Et mortalia si sint confes¬ 
+            <lb ed="#V" n="35"/>sa, non quantum ad culpam, quia hoc modo fue¬ 
+            <lb ed="#V" n="36"/>runt dimissa in confessione, sed quantum ad pae¬ 
+            <lb ed="#V" n="37"/>nam possunt remitti in futuro. Quia homo in 
+            <lb ed="#V" n="38"/>purgatorio potest satisfacere de peccatis uenia 
+            <lb ed="#V" n="39"/>libus, &amp; de mortalibus iam confessis. Vel possu¬ 
+            <lb ed="#V" n="40"/>mus dicere, quod peccatum in Spiritum sanctum 
+            <lb ed="#V" n="41"/>non dimittitur, nec hic, nec in futuro. Quia dae 
+            <lb ed="#V" n="42"/>se est irremissibile &amp; non habet aliquod pallium 
+            <lb ed="#V" n="43"/>excusationis. Si autem remittatur, hoc est ope¬ 
+            <lb ed="#V" n="44"/>re diuino, &amp; quasi miraculose. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2542">
+            <lb ed="#V" n="45"/>Dubitario ii. Litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2547">
+            <lb ed="#V" n="46"/>Vlterius quaeritur de eo, quod dicitur in lit¬ 
+            <lb ed="#V" n="47"/>tera, quod discuti oportet an aliud sit peccatum 
+            <lb ed="#V" n="48"/>obstinatio, aliud impaenitentia. Sed contra: cum 
+            <lb ed="#V" n="49"/>contingat aliquos peccare per obstinationem, 
+            <lb ed="#V" n="50"/>aliquos per impaenitentiam: uidetur non esse du¬ 
+            <lb ed="#V" n="51"/>bium, quod ponit in dubium. Dicendum, quod 
+            <lb ed="#V" n="52"/>non est dubium, quod alia rat ione dicitur pec¬ 
+            <lb ed="#V" n="53"/>catum, obltinatio, &amp; alia ratione impaenitentia. 
+            <lb ed="#V" n="54"/>propter quod peccatum obstinationis, &amp; impae¬ 
+            <lb ed="#V" n="55"/>nitentiae formaliter non sunt idem. Nam cum 
+            <lb ed="#V" n="56"/>in peccato sint duo, conuersio ad aliquod bo¬ 
+            <lb ed="#V" n="57"/>num delectabile, uel quocunque modo commu¬ 
+            <lb ed="#V" n="58"/>rabile, &amp; auersio ab incommutabili, obstinatio¬ 
+            <lb ed="#V" n="59"/>magis se tenet ex parte conuersionis, prout quis 
+            <!--678.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>pertinaciter adhaeret bono commnutabili: Sed 
+            <lb ed="#V" n="61"/>impaenitentia magis se tenet ex parte auersio¬ 
+            <lb ed="#V" n="62"/>nis, prout quis non paenitet, &amp; non dolet de auer¬ 
+            <lb ed="#V" n="63"/>sione a bono incommutabili. Et quia in eodem 
+            <lb ed="#V" n="64"/>peccato sunt ista duo, materialiter possunt 
+            <lb ed="#V" n="65"/>aliquo modo dici unum peccatum ista duo 
+            <lb ed="#V" n="66"/>uel possumus d cere, quod quantumcunque ista 
+            <lb ed="#V" n="67"/>duo sint duo peccata formaliter, possunt dici¬ 
+            <lb ed="#V" n="68"/>unum peccatum originaliter. Nam nnum po¬ 
+            <lb ed="#V" n="69"/>test oriri ex alio: Quia quando quis pertinaci 
+            <lb ed="#V" n="70"/>ter, &amp; obstinate se conuertit ad bonum conmu¬ 
+            <lb ed="#V" n="71"/>tabile: potest ex hoc oriri, quod non doleat, &amp; 
+            <lb ed="#V" n="72"/>non paeniteat de auersione ab incommutabili. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2612">
+            <lb ed="#V" n="73"/>Dubitatio iii. Litteralii. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2617">
+            <lb ed="#V" n="74"/>vbetiu, fore abitaret aliqui, deimptuitcu 
+            <lb ed="#V" n="75"/>tia: Vtrum sit unum peccatum, uel plura peccata¬ 
+            <lb ed="#V" n="76"/>Dicendum, quod impenitentia potest accipi du¬ 
+            <lb ed="#V" n="77"/>pliciter, uel ut dicit impaenitentiam propositi 
+            <lb ed="#V" n="78"/>prout quis proponit non paenitere, uel ut dicit im 
+            <lb ed="#V" n="79"/>penitentiam facti, quia de facto non paenitet, sed 
+            <lb ed="#V" n="80"/>decedit in aliquo peccato mortali sine peniten¬ 
+            <lb ed="#V" n="81"/>tia. Et sic impaenitentia est aliud, &amp; aliud peccatum 
+            <lb ed="#V" n="82"/>in Spiritum sanctum, ut est per habita manifestum. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2639">
+            <lb ed="#V" n="83"/>Dybitatio i iii. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2645">
+            <lb ed="#V" n="84"/>Vlterius forte dubitaret aliquis de eo, quod i¬ 
+            <lb ed="#V" n="85"/>in littera dicitur: Non pro eo dico, ut quis oret. 
+            <lb ed="#V" n="86"/>Sed contra: De nullo desperandum est, quandiu¬ 
+            <lb ed="#V" n="87"/>sumus in uia: Ergo semper possumus orarae pra¬ 
+            <lb ed="#V" n="88"/>quocunque peccatore. Dicendum quod peccatum 
+            <lb ed="#V" n="89"/>in Spiritum sanctum, uel potest dici finalis im 
+            <lb ed="#V" n="90"/>penitentia facti, prout quis finaliter decedit in 
+            <lb ed="#V" n="91"/>peccato mortali fine paenitentia, &amp; tunc si consse 
+            <lb ed="#V" n="92"/>fic esse, nullo modo est orandum. uel hoc potest 
+            <lb ed="#V" n="93"/>sumi pro alijs modis peccandi in Spiritum san¬ 
+            <lb ed="#V" n="94"/>ctum, &amp; tunc non est orandum, id est uix, &amp; cum¬ 
+            <lb ed="#V" n="95"/>difficultate orandum, quia non opere humano. 
+            <lb ed="#V" n="96"/>sed diuino, &amp; quasi miraculose habet esse talis 
+            <lb ed="#V" n="97"/>remissio: uel non est orandum a quolibet, sed a 
+            <lb ed="#V" n="98"/>personis ualde magnis, &amp; ualde sanctis: ad quo¬ 
+            <lb ed="#V" n="99"/>rum orationes etiam miracula fiunt. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2682">
+            <lb ed="#V" n="100"/>Dubitatio D Litreralis. 
+          </p>
+          <p xml:id="Gi9qrR-m198570-d1e2687">
+            <lb ed="#V" n="101"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="102"/>in littera dicitur. Qui autem blasphemauerit Spiri¬ 
+            <lb ed="#V" n="103"/>tum sanctum, &amp;c. de quo habetur quod omne pec¬ 
+            <lb ed="#V" n="104"/>catum, &amp; blasphemia remittetur hominibus, spoe¬ 
+            <lb ed="#V" n="105"/>ritus autem blasphemiae non remittetur. Quae est 
+            <lb ed="#V" n="106"/>ergo differentia inter blasphemiam, &amp; spiritum 
+            <lb ed="#V" n="107"/>blasphemiae e Dicendum, quod blasphemia potest con¬ 
+            <lb ed="#V" n="108"/>tingere ex infirmitate, cum quis passione ductus 
+            <lb ed="#V" n="109"/>maledicit Deo: Vel ex ignorantia cum sentit, uel¬ 
+            <lb ed="#V" n="110"/>credit de Deo, quod non est credendum. Sed spi¬ 
+            <lb ed="#V" n="111"/>ritus blasphemiae potest dici uoluntas blasphe¬ 
+            <lb ed="#V" n="112"/>mandi, cum quis ex certa malitia male sentit de¬ 
+            <lb ed="#V" n="113"/>Deo, &amp; ducit homines in errorem. Vt pur a si¬ 
+            <lb ed="#V" n="114"/>aliquis fiat schismaticus, &amp; ex hoc etiam scien¬ 
+            <lb ed="#V" n="115"/>ter ducat alios in errores. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="223"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m065346"><!-- l2d23prae -->
+        <head xml:id="Gi9qrR-m065346-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m065346-d1e103">
+          <!--223.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="59"/>DIST. XXIII. 
+          <lb ed="#V" n="60"/>De Dei permissione in actu fen¬ 
+          <lb ed="#V" n="61"/>tandi: dequod cognitione primo¬ 
+          <lb ed="#V" n="62"/>rum Parentum. 
+        </p>
+        <p xml:id="Gi9qrR-m065346-d1e119">
+          <lb ed="#V" n="63"/>PRAETEREA 
+          <lb ed="#V" n="64"/>queri solet Post¬ 
+          <lb ed="#V" n="65"/>quam Magister 
+          <lb ed="#V" n="66"/>determinauit de 
+          <lb ed="#V" n="67"/>tentatione, &amp; de¬ 
+          <lb ed="#V" n="68"/>peccato primorum 
+          <lb ed="#V" n="69"/>Parentum quan¬ 
+          <lb ed="#V" n="70"/>tum ad Diabolum 
+          <lb ed="#V" n="71"/>tentantem, &amp; ad 
+          <lb ed="#V" n="72"/>peccandum im¬ 
+          <lb ed="#V" n="73"/>&amp; pellentem, &amp; quam 
+          <lb ed="#V" n="74"/>tum ad ipsos Pa¬ 
+          <lb ed="#V" n="75"/>rentes tentatos, &amp; ad peccandum impulsos: In 
+          <lb ed="#V" n="76"/>hac xiil. dist determinat de huiusmodi peccato, 
+          <lb ed="#V" n="77"/>&amp; tentatione: quantum ad Deum hoc permittentem. 
+          <lb ed="#V" n="78"/>Et duo facit, quia primo determinat hoc modo 
+          <lb ed="#V" n="79"/>de primorum Parentum peccato, &amp; tentatione, 
+          <lb ed="#V" n="80"/>Secundo determinat de eorum cognitione, ibi: 
+          <lb ed="#V" n="81"/>TEt quidem secundum animam] Circa primum quinque 
+          <lb ed="#V" n="82"/>facit, secundum, quod quinque dubia mouer per compara¬ 
+          <lb ed="#V" n="83"/>tionem ad Deum de tentatione, &amp; de peccato 
+          <lb ed="#V" n="84"/>primorum Parentum. Nam primo quaerit qua¬ 
+          <lb ed="#V" n="85"/>re Deus permisit hominem tentari, cum sciret 
+          <lb ed="#V" n="86"/>ipsum decipiendum esse, &amp; peccaturum. Et soluit, 
+          <lb ed="#V" n="87"/>quod hoc erat magis laudabile homini: Si non cre¬ 
+          <lb ed="#V" n="88"/>deret suadenti sibi malum, quia gloriosius est no¬ 
+          <lb ed="#V" n="89"/>consentire tentanti, quam non tentari. Secundo 
+          <lb ed="#V" n="90"/>quaerit quare Deus creauit eos, cum praesciret 
+          <lb ed="#V" n="91"/>eos malos fuisse futuros. Et soluit, quod Deus 
+          <lb ed="#V" n="92"/>scit ex malis bona elicere. Tertio quaerit, quare 
+          <lb ed="#V" n="93"/>Deus non fecit hominem talem quod peccare om¬ 
+          <lb ed="#V" n="94"/>nino nollet, vel quod idem est, quod peccare non pos¬ 
+          <lb ed="#V" n="95"/>set. Et soluit, quod melior est natura, quae peccare¬ 
+          <lb ed="#V" n="96"/>non vult: Sed non est mala narura illa, quae pec¬ 
+          <lb ed="#V" n="97"/>care potest, si vult. Quarto quaerit, cum omnes es¬ 
+          <lb ed="#V" n="98"/>sent boni, si Deus vellet: quare non omnes bo¬ 
+          <lb ed="#V" n="99"/>ni sunt: Et responedet, quod Deus fecit homines, 
+          <lb ed="#V" n="100"/>vt tales essent, quales vellent, vt si essent boni, non 
+          <lb ed="#V" n="101"/>infructuose, &amp; si mali non impune. VQuinto quae¬ 
+          <lb ed="#V" n="102"/>rit, cum Deus possit mutare voluntatem malorum: 
+          <lb ed="#V" n="103"/>quare non mutat. Et soluit, quod non est nostrum 
+          <lb ed="#V" n="104"/>scrutari secreta Dei, nec debemus velle plus sa¬ 
+          <lb ed="#V" n="105"/>pere, quam oportet. Secunda ibi: [Monetur ertam. 
+          <lb ed="#V" n="106"/>Tertia ibi: [adduat etiam. Quarta ibi: Item in¬ 
+          <lb ed="#V" n="107"/>quiunt si Deus. Quinta ibi:[Item, inquiunt, pos¬ 
+          <lb ed="#V" n="108"/>set.]Tunc sequitur illa pars: [Et quidem secundim. 
+          <lb ed="#V" n="109"/>in qua agit de cognitione primi hominis. Circa¬ 
+          <lb ed="#V" n="110"/>quam 7. facit, quia primo agit, quam cognitionem ha¬ 
+          <lb ed="#V" n="111"/>buit primus homo a sui formatione. Secundo ait 
+          <lb ed="#V" n="112"/>quod triplici cognitione praeditus homo, videlicet 
+          <lb ed="#V" n="113"/>creaturae, Det &amp; sui. Et declarat quomodo habuit 
+          <lb ed="#V" n="114"/>cognitionem creaturarum. Tertio declarat, quomo¬ 
+          <lb ed="#V" n="115"/>do habuit cognitionem Dei. Quarto quomodo 
+          <lb ed="#V" n="116"/>cognitionem sui. Quinto quaerit, si habuit cogni¬ 
+          <!--224.xml-->
+          <pb ed="#V" n="224"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tionem sui casus, &amp; ait quod non. quia nec homo, 
+          <lb ed="#V" n="2"/>nec Diabolus suum casum praesciuerunt. Secunda ibi: 
+          <lb ed="#V" n="3"/>[ruit itaque. [Tertia ibi: [coxnitionem quoque. 
+          <lb ed="#V" n="4"/>Quarta ibi. TPorro. IQuinta ibi: [si antt queritur. I 
+          <lb ed="#V" n="5"/>&amp; in hoc terminatur sententia Lectionis, &amp; Di¬ 
+          <lb ed="#V" n="6"/>stinctionis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

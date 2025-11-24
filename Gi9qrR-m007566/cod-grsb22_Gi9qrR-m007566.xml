@@ -1,0 +1,2582 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="27"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m007566"><!-- l2d17q1 -->
+        <head xml:id="Gi9qrR-m007566-Hd1e101">Quaestio 1</head>
+        <head xml:id="Gi9qrR-m007566-Hd1e103" type="question-title">De anime humanae productione secundum se</head>
+        <p xml:id="Gi9qrR-m007566-d1e106">
+          <lb ed="#V" n="28"/>QVAEST. I. 
+          <lb ed="#V" n="29"/>De anime humanae productione 
+          <lb ed="#V" n="30"/>secundum se. 
+        </p>
+        <p xml:id="Gi9qrR-m007566-d1e115">
+          <lb ed="#V" n="31"/>CVM Magister agat de duo¬ 
+          <lb ed="#V" n="32"/>bus, videlicet de productio¬ 
+          <lb ed="#V" n="33"/>ne animae secundum se, &amp; de¬ 
+          <lb ed="#V" n="34"/>productione eius per compa¬ 
+          <lb ed="#V" n="35"/>rationem ad corpus; Ideo de¬ 
+          <lb ed="#V" n="36"/>his duobus quaeremus. Circa¬ 
+          <lb ed="#V" n="37"/>primum autem, vt circa pro¬ 
+          <lb ed="#V" n="38"/>ductionem anime secundum se quaeremus tria. 
+          <lb ed="#V" n="39"/>Primo vtrum anima fuerit producta de substan¬ 
+          <lb ed="#V" n="40"/>tia Dei. Secundo vtrum fuerit producta de ali¬ 
+          <lb ed="#V" n="41"/>qua substantia corporali. Tertio vtrum fuerit 
+          <lb ed="#V" n="42"/>producta de aliqua materia: vel, quod idem est, 
+          <lb ed="#V" n="43"/>vtrum habeat anima materiam partem sui. 
+        </p>
+        <div xml:id="Gi9qrR-m007566-Dd1e146">
+          <head xml:id="Gi9qrR-m007566-Hd1e148">Articulus 1</head>
+          <p xml:id="Gi9qrR-m007566-d1e150">
+            <lb ed="#V" n="44"/>ARTICULUS. I. 
+            <lb ed="#V" n="45"/>An Anima humana de Dei sub¬ 
+            <lb ed="#V" n="46"/>stantia sit prodacta. Conclu¬ 
+            <lb ed="#V" n="47"/>sio et negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e161">
+            <lb ed="#V" n="48"/>DIh. 1. p.q. 90. art. 1. Et 3. sent. d. 17. q. 1. art. 1. Et 2 contra 
+            <lb ed="#V" n="49"/>Gent. c. 83. Item Opusc. 3 c. 34. D. Bon. d. 17. ar. 1. q. 1. 
+            <lb ed="#V" n="50"/>Biel. d. 17. q. 1. Barth. Syb. 1. Dec. q. 1. De hac ma¬ 
+            <lb ed="#V" n="51"/>teria vide D. P. Aug. lib. de cogn. verae vitae. 
+            <lb ed="#V" n="52"/>Tomo 9. Et ad D. Hier. de orig. animae 
+            <lb ed="#V" n="53"/>Tom. 7. Vide etiam Hier. ad Mar¬ 
+            <lb ed="#V" n="54"/>cellinum, &amp; Anapsicham. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e179">
+            <!--27.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="55"/>AD PRIMVM sic proceditur: 
+            <lb ed="#V" n="56"/>videtur, quod anima huma¬ 
+            <lb ed="#V" n="57"/>na fuerit producta de substan¬ 
+            <lb ed="#V" n="58"/>tia Dei, per illud, quod habe¬ 
+            <lb ed="#V" n="59"/>tur Gen. 1. quod inspirauit in 
+            <lb ed="#V" n="60"/>saciem eius &amp;c. Sed inspirare 
+            <lb ed="#V" n="61"/>est de se flatum emittere: ergo Deus de se slatum 
+            <lb ed="#V" n="62"/>emisit, quando animam produxit. Sed si de se ip¬ 
+            <lb ed="#V" n="63"/>so produxit animam: produxit eam de sua sub¬ 
+            <lb ed="#V" n="64"/>stantia. Nam quicquid est in Deo: Deus est, &amp; per¬ 
+            <lb ed="#V" n="65"/>consequens est Dei substantia. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e210">
+            <lb ed="#V" n="66"/>Praeterea Act. 17. dicitur: Genus ergo cum si¬ 
+            <lb ed="#V" n="67"/>mus Dei &amp;c. Sed homo non potest dici de gene 
+            <lb ed="#V" n="68"/>re Dei ratione corporis: ergo ratione animae. Sed 
+            <lb ed="#V" n="69"/>anima non potest dici de genere Dei, nisi facta de 
+            <lb ed="#V" n="70"/>natura Dei, &amp; de substantia eius: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e224">
+            <lb ed="#V" n="71"/>Praeterea quicquid intelligitur, vel intelligi¬ 
+            <lb ed="#V" n="72"/>tur per identitatem, vel per similitudinem. Sed 
+            <lb ed="#V" n="73"/>anima potest intelligere Deum, &amp; potest intelli¬ 
+            <lb ed="#V" n="74"/>gere materiam primam: hoc autem non erit per¬ 
+            <lb ed="#V" n="75"/>fimilitudinem (quia nulla similitudo potest ab¬ 
+            <lb ed="#V" n="76"/>strahi a Deo, cum sit summe abstractus a materia 
+            <lb ed="#V" n="77"/>prima: cum sit pura potentia, ergo sicut Ange¬ 
+            <lb ed="#V" n="78"/>lus intelligit essentiam suam non per similitudi¬ 
+            <lb ed="#V" n="79"/>nem, sed per identitatem, quia intelligit eam per¬ 
+            <lb ed="#V" n="80"/>seipsam; sic intellectus noster intelligit essentiam 
+            <lb ed="#V" n="81"/>Dei, &amp; essentiam materiae primae non per simili¬ 
+            <lb ed="#V" n="82"/>tudinem, sed peridentitatem. Ergo est idem cum¬ 
+            <lb ed="#V" n="83"/>ipsis. quod non esset, nisi anima esset producta¬ 
+            <lb ed="#V" n="84"/>de essentia Dei, quia aliter non posset esse idem 
+            <lb ed="#V" n="85"/>cum essentia eius. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e259">
+            <lb ed="#V" n="86"/>Praeterea quae nullo modo differunt, sunt idem, 
+            <lb ed="#V" n="87"/>sed Deus, &amp; anima humana, &amp; materia prima¬ 
+            <lb ed="#V" n="88"/>nullo modo possunt differre, quia quaecunque 
+            <lb ed="#V" n="89"/>differunt, differentia differunt. nam sic descri¬ 
+            <lb ed="#V" n="90"/>bitur differentia: Differentia est, qua diffe¬ 
+            <lb ed="#V" n="91"/>runt a se singula. Omnia ergo, quae differunt pe¬ 
+            <lb ed="#V" n="92"/>differentiam: sunt composita ex illa differentia, 
+            <lb ed="#V" n="93"/>&amp; ex genere illius differentiae. Sed Deus non est 
+            <lb ed="#V" n="94"/>compositus, cum sit actus purus, &amp; anima huma 
+            <lb ed="#V" n="95"/>na non viderur composita, cum sit potentia pu¬ 
+            <lb ed="#V" n="96"/>ra in genere intelligibilium: nec materia prima¬ 
+            <lb ed="#V" n="97"/>videtur composita, cum sit potentia pura in gene¬ 
+            <lb ed="#V" n="98"/>re entium. Ista ergo tria: Deus: Anima rationalis, 
+            <lb ed="#V" n="99"/>&amp; Materia prima, cum non habeant per quid dif¬ 
+            <lb ed="#V" n="100"/>erant, erunt idem. ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e294">
+            <lb ed="#V" n="101"/>Praeterea Dio. 4. caelestis Hierar. loquens do 
+            <lb ed="#V" n="102"/>Deo ait: Existentia ergo omnia eius esse partici¬ 
+            <lb ed="#V" n="103"/>pant. Sed illud, quod participatur ab omnibus vi¬ 
+            <lb ed="#V" n="104"/>detur esse de essentia omnium. Si ergo quaelibet 
+            <lb ed="#V" n="105"/>res participat de essentia Dei: quaelibet facta est 
+            <lb ed="#V" n="106"/>de essentia eius. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e310">
+            <lb ed="#V" n="107"/>IN CORTRARIVM est: Quicquid est produ¬ 
+            <lb ed="#V" n="108"/>ctum de natura Dei est eiusdem naturae cum ip¬ 
+            <lb ed="#V" n="109"/>so. Sed nos nec anima nostra sunt eiusdem natu¬ 
+            <lb ed="#V" n="110"/>rae cum Deo: ergo &amp;c. Maior de se euidens est. Mi¬ 
+            <lb ed="#V" n="111"/>nor declaratur. Quia Aug exponens illud verbum: 
+            <lb ed="#V" n="112"/>Ego sum vitis vera. ait, quod non vnius quippe na¬ I 
+            <lb ed="#V" n="113"/>turae sunt vitis, &amp; palmites: propter quod cum es¬ 
+            <lb ed="#V" n="114"/>set Deus, cuius naturae nos non sumus: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e330">
+            <lb ed="#V" n="115"/>Praeterea natura Dei est idem, quod Deus. 
+            <lb ed="#V" n="116"/>quaelibet ergo res producta de, natura Dei est 
+            <!--28.xml-->
+            <pb ed="#V" n="28"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>idem, quod Dens. sed cum hocnon possitcom¬ 
+            <lb ed="#V" n="2"/>petere alicui creaturae: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e348">
+            <lb ed="#V" n="3"/>RESOLVTIO. 
+            <lb ed="#V" n="4"/>Deus est immobilis, atcmnur, aqtus purun artiser im¬ 
+            <lb ed="#V" n="5"/>materialis, simpseo, suac inuisihilis, infinitus. 
+            <lb ed="#V" n="6"/>Hinc Deus animae compositionem in¬ 
+            <lb ed="#V" n="7"/>gredi non poteftr. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e362">
+            <lb ed="#V" n="8"/>RESPONDEO dicendum, quod comparando 
+            <lb ed="#V" n="9"/>Deum ad ista creata possumus assignare ro. diffe¬ 
+            <lb ed="#V" n="10"/>rentias, ex quarum qualibet concludi poterit, di¬ 
+            <lb ed="#V" n="11"/>uinam essentiam non esse de compositione ani¬ 
+            <lb ed="#V" n="12"/>mae, nec alicuius creaturae. Primo enim compara 
+            <lb ed="#V" n="13"/>tur Deus ad ista creata, vt immobilis ad mobilia. 
+            <lb ed="#V" n="14"/>Se cundo, vt aeternus ad temporalia. Tertio, vt 
+            <lb ed="#V" n="15"/>actus purus ad possibilia. Quarto, vt causa ad es¬ 
+            <lb ed="#V" n="16"/>fectus. Quinto, vt artisex ad artificialia. ista autem 
+            <lb ed="#V" n="17"/>comparatio quinta differt a quarta, quia est spe¬ 
+            <lb ed="#V" n="18"/>cialior, quam illa. Sexto comparatur Deus ad ista 
+            <lb ed="#V" n="19"/>creata: sicut immaterialis ad materialia. Septimo 
+            <lb ed="#V" n="20"/>sicut simplex ad composita. Octauo sicut lux ad 
+            <lb ed="#V" n="21"/>tenebras. Nono sicur inuisibilis ad uisibilia. De¬ 
+            <lb ed="#V" n="22"/>cimo sicut infinitus ad finita. Possent &amp; aliae com¬ 
+            <lb ed="#V" n="23"/>parationes differentes assignari, sed ista sufficiant. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e399">
+            <lb ed="#V" n="24"/>Primo ergo comparatur Deus ad ista creata, 
+            <lb ed="#V" n="25"/>vt immobilis ad mobilia. Nam secundum Phi¬ 
+            <lb ed="#V" n="26"/>losophum. Omne, quod mouetur ab alio moue¬ 
+            <lb ed="#V" n="27"/>tur. Cum ergo non sit abire in infinitum: opor¬ 
+            <lb ed="#V" n="28"/>tet deuenire ad aliquid omnino immobile, &amp; iste 
+            <lb ed="#V" n="29"/>est Deus, qui secundum Philosophum est immo¬ 
+            <lb ed="#V" n="30"/>bilis per se, &amp; per accidens, &amp; ab intra. Omne 
+            <lb ed="#V" n="31"/>enim, quod mouetur, vel mouetur per se, &amp; sic 
+            <lb ed="#V" n="32"/>possunt moueri corpora: vel mouetur per acci¬ 
+            <lb ed="#V" n="33"/>dens. &amp; sic possunt moueri materia, &amp; forma, &amp; 
+            <lb ed="#V" n="34"/>alia, quae sunt in corporibus: vel mouetur ab in¬ 
+            <lb ed="#V" n="35"/>tra, &amp; sic possunt moueri omnia, quae agunt per 
+            <lb ed="#V" n="36"/>liberum arbitrium, quae per affectionem interio¬ 
+            <lb ed="#V" n="37"/>rem nunc volunt vnum, nunc aliud. Deus au¬ 
+            <lb ed="#V" n="38"/>tem omni modo est immobilis, quod concordat 
+            <lb ed="#V" n="39"/>cum scriptura sacra. Iuxta illud Prophetae: Ego¬ 
+            <lb ed="#V" n="40"/>Deus, &amp; non mutor. Et iuxta illud lacobi: A pud 
+            <lb ed="#V" n="41"/>quem non est transmutatio &amp;c Si ergo solus Deus 
+            <lb ed="#V" n="42"/>est semotus ab omni modo motus, &amp; omnis crea¬ 
+            <lb ed="#V" n="43"/>tura est aliquo modo mobilis: &amp; ei, de quo fit 
+            <lb ed="#V" n="44"/>res mobilis, oportet, quod conueniat aliquis modus 
+            <lb ed="#V" n="45"/>motus: de diuina essentia omnino immobili, nec 
+            <lb ed="#V" n="46"/>anima, nec aliqua creatura fieri poterit, &amp; maxi¬ 
+            <lb ed="#V" n="47"/>me cum anima sit mutabilis: nunc ad bonum: nunc 
+            <lb ed="#V" n="48"/>ad malum: ex re omnino immutabiliccuiusmodi¬ 
+            <lb ed="#V" n="49"/>est diuina essential fieri non potest. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e458">
+            <lb ed="#V" n="50"/>Secundo Deus comparatur ad haec creata, vt 
+            <lb ed="#V" n="51"/>aeternus ad temporalia. Nam, &amp; si mundus 
+            <lb ed="#V" n="52"/>fuisset ab aeterno; non tamen propter hoc parti¬ 
+            <lb ed="#V" n="53"/>ciparet omnes conditiones aeternitatis, nec pro¬ 
+            <lb ed="#V" n="54"/>pter hoc mensuraretur eadem mensura, qua 
+            <lb ed="#V" n="55"/>smensuratur Deus. Mensuratur enim Deus aeter¬ 
+            <lb ed="#V" n="56"/>nitate pura, &amp; simplici. Id ergo, quod de nouo 
+            <lb ed="#V" n="57"/>incipit esse: fieri non potest de eo, quod est aeter¬ 
+            <lb ed="#V" n="58"/>num: vbi nulla nouitas esse potest. Ista autem dif¬ 
+            <lb ed="#V" n="59"/>setenta sequitur &amp;x prima, vt, quia Deus est om¬ 
+            <!--28.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>nino immobilis: oportet quod sitxternus, &amp; quo 
+            <lb ed="#V" n="61"/>nulla nouitas possit esse in ipso. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e491">
+            <lb ed="#V" n="62"/>Tertio comparatur Deus ad haec creata: sicut pei¬ 
+            <lb ed="#V" n="63"/>actus purus ad possibilia. Nam secundum Com 
+            <lb ed="#V" n="64"/>men. in 10. Met. Deus est actus purus, cui non co¬ 
+            <lb ed="#V" n="65"/>admiscetur aliquid de potentia. Propter quod 
+            <lb ed="#V" n="66"/>impossibile est de natura diuina produci aliquid 
+            <lb ed="#V" n="67"/>habens admixtam potentiam, quia tunc natura 
+            <lb ed="#V" n="68"/>diuina esse desineret actus purus. Sequitur ad¬ 
+            <lb ed="#V" n="69"/>tem ista differentia ex secunda. Nam quia Deus 
+            <lb ed="#V" n="70"/>est aeternus, &amp; in aeternis secundum Philosophum 
+            <lb ed="#V" n="71"/>non differt esse, &amp; posse. quia quicquid ibi potest 
+            <lb ed="#V" n="72"/>esse: totum ibi est. sed si posset aliquid ibi esse, 
+            <lb ed="#V" n="73"/>quod actuibi non esset, tunc quantum ad illud 
+            <lb ed="#V" n="74"/>non esset aliquid aeternum. Ratione ergo eterni¬ 
+            <lb ed="#V" n="75"/>tatis, quam ponimus in Deo simpliciter, &amp; abso 
+            <lb ed="#V" n="76"/>lute: oportet, quod omnis possibilitas remouea 
+            <lb ed="#V" n="77"/>tur ab eo, vt sit actus purus, cui omnino non ad¬ 
+            <lb ed="#V" n="78"/>miscetur potentia. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e530">
+            <lb ed="#V" n="79"/>Quarta autem differentia est, quia Deus com¬ 
+            <lb ed="#V" n="80"/>paratur ad ista creata: sicut causa ad effectus, &amp; 
+            <lb ed="#V" n="81"/>quia est causa vniuersalis omnium, de eo potissi¬ 
+            <lb ed="#V" n="82"/>me verificatur illud Dio. 3. de di. no. quod non est 
+            <lb ed="#V" n="83"/>diligens comparatio causaris, &amp; causis, &amp; quod 
+            <lb ed="#V" n="84"/>causata habebet quasdam imagines, id est imitagines 
+            <lb ed="#V" n="85"/>suae canae Omnia enim causata, vel omnia ista crea¬ 
+            <lb ed="#V" n="86"/>ta Deo adaequari non possunt, sed sunt quaedam 
+            <lb ed="#V" n="87"/>
+            <sic>imitagines</sic> Dei: sed si fierent de diuina essentia: 
+            <lb ed="#V" n="88"/>aequarentur Deo, &amp;c. Sequitur autem ista diffe¬ 
+            <lb ed="#V" n="89"/>rentia ex tertia. Nam omne quod agit: agit pro¬ 
+            <lb ed="#V" n="90"/>ut est in actu. &amp; omne, quod patitur: patitur, vt 
+            <lb ed="#V" n="91"/>est in potentia. &amp; quia omnia ista comparantur 
+            <lb ed="#V" n="92"/>ad Deum, sicut possibilia ad actum: oportet, 
+            <lb ed="#V" n="93"/>quod omnia comparentur ad ipsum: sicut effe¬ 
+            <lb ed="#V" n="94"/>ctus ad causam. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e569">
+            <lb ed="#V" n="95"/>Quinta differentia est, qui, Deus comparatur 
+            <lb ed="#V" n="96"/>ad alia: sicut artifex ad artificialia. Ista etiam quit 
+            <lb ed="#V" n="97"/>ra differentia sequitur ex quarta, vt quia compa¬ 
+            <lb ed="#V" n="98"/>ratur ad alia, sicut causa ad causata. Nam omnis 
+            <lb ed="#V" n="99"/>causa agit, &amp; causat alia secundum modum natu¬ 
+            <lb ed="#V" n="100"/>rae suae. Nam si quaereretur: quomodo agit ignis, 
+            <lb ed="#V" n="101"/>&amp; quomodo causat alia: facilis esset responsio. 
+            <lb ed="#V" n="102"/>Nam cum ignis sit naturae calidae, &amp; sit naturae 
+            <lb ed="#V" n="103"/>igneae: quicquid agit, vel causat: hoc facit calefa¬ 
+            <lb ed="#V" n="104"/>ciendo, &amp; igniendo. Sic, cum Deus sit nature in¬ 
+            <lb ed="#V" n="105"/>tellectualis, &amp; sit liberi arbitrii: quicquid causat: 
+            <lb ed="#V" n="106"/>hoc facit intelligendo, &amp; volendo. Et quia iste mo¬ 
+            <lb ed="#V" n="107"/>dus causalitatis eonuenit artifici; omnia compa¬ 
+            <lb ed="#V" n="108"/>rantur ad Deum sicut artificiata ad artificem. 
+            <lb ed="#V" n="109"/>Est ergo ista specialis ratio, quod quia Deus agit 
+            <lb ed="#V" n="110"/>intelligendo: consequens est, quod sit separatus, 
+            <lb ed="#V" n="111"/>&amp; immixtus, secundum quod concordat Anaxa¬ 
+            <lb ed="#V" n="112"/>goras in 3. de anima loquens de intellectu. Arti¬ 
+            <lb ed="#V" n="113"/>sex ergo, vt artifex non in natura propria, sed in 
+            <lb ed="#V" n="114"/>alia natura producit sibi simile. Et si inueniatur 
+            <lb ed="#V" n="115"/>artifex in propria natura pducere sibi simile: hoc 
+            <lb ed="#V" n="116"/>modo non faciet, vtartifex, nec vt agens perarten, 
+            <lb ed="#V" n="117"/>sed vt agens per naturam. Sic enim videmus in 
+            <lb ed="#V" n="118"/>artifice carnali, qui, vt artifex, facit arcamin alia 
+            <lb ed="#V" n="119"/>materia, vel natura, sed per naturam generat si¬ 
+            <lb ed="#V" n="120"/>lium in propria natura. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e629">
+            <lb ed="#V" n="121"/>Sexto comparatur Deus ad alia, vt immaterialis 
+            <!--29.xml-->
+            <pb ed="#V" n="29"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad materialia, &amp; ista differentia sequitur ex gremis¬ 
+            <lb ed="#V" n="2"/>sis. Nam semper actus videtur habere rationem perfe¬ 
+            <lb ed="#V" n="3"/>ctionis, &amp; formae: potentia rationem imperfectionis, &amp; 
+            <lb ed="#V" n="4"/>materiae, accipiendo materiam large pro quocunque¬ 
+            <lb ed="#V" n="5"/>materiali, secundum quem modum loquitur Au¬ 
+            <lb ed="#V" n="6"/>ctor de causis, quod intelligentia habet suum hy¬ 
+            <lb ed="#V" n="7"/>nleachinid est suum materiale. Si ergo Deus compa¬ 
+            <lb ed="#V" n="8"/>ratur ad omnia ista, vt actus ad possibilia: conse¬ 
+            <lb ed="#V" n="9"/>quens est, quod comparetur ad haec omnia, vt im¬ 
+            <lb ed="#V" n="10"/>materialis ad materialia. quod ergo de re immate 
+            <lb ed="#V" n="11"/>riali: cuiusmodi est diuina essentia fiant materia¬ 
+            <lb ed="#V" n="12"/>lia: cuiusmodi sunt omnia creata: est dicere oppo¬ 
+            <lb ed="#V" n="13"/>situm in adiecto. Semper enim illud ex quo fit 
+            <lb ed="#V" n="14"/>aliquid: loquendo de fieri proprie squia secundum 
+            <lb ed="#V" n="15"/>.Philosophum proprie non fit, nisi compositum, 
+            <lb ed="#V" n="16"/>se habet, vt materiale ad illud, quod fit ex ipso, 
+            <lb ed="#V" n="17"/>quod cogitare de diuina substantia est absurdum 
+            <lb ed="#V" n="18"/>i. Septimo Deus comparatur ad alia sicut sim¬ 
+            <lb ed="#V" n="19"/>plex ad composita. Nulla est enim creatura, quae 
+            <lb ed="#V" n="20"/>non sit composita, vel ex his, vt ex actu, &amp; poten¬ 
+            <lb ed="#V" n="21"/>tia, quae sunt generales differentiae entis, vel huic 
+            <lb ed="#V" n="22"/>sicut actui componitur potentiae, &amp; potentia actui. 
+            <lb ed="#V" n="23"/>Solum ergo diuina essentia omnem compositio 
+            <lb ed="#V" n="24"/>nem repellit, vt secundum Boetium. ipsa diuina 
+            <lb ed="#V" n="25"/>essentia sit vere vnum: vbi nullus est numerus: lo¬ 
+            <lb ed="#V" n="26"/>quendo de numero compositionem faciente, quia 
+            <lb ed="#V" n="27"/>numerus personarum nullam compositionem 
+            <lb ed="#V" n="28"/>facit: cum ita sit simplex persona sicut essentia. Si¬ 
+            <lb ed="#V" n="29"/>ergo de diuina essentia posset fieri aliquod, &amp; po¬ 
+            <lb ed="#V" n="30"/>tissime aliquid creatum, quod de necessitate est 
+            <lb ed="#V" n="31"/>quid compositum: non esset natura simplex, 
+            <lb ed="#V" n="32"/>quia saltem esset componibilis huic, quod sta¬ 
+            <lb ed="#V" n="33"/>re non potest. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e712">
+            <lb ed="#V" n="34"/>Octaua differentia est, quod Deus compara¬ 
+            <lb ed="#V" n="35"/>tur ad alia, vt lux ad tenebras. luxta illud: Deus 
+            <lb ed="#V" n="36"/>lux est, &amp; tenebrae in eo non sunt vllae. Secundum 
+            <lb ed="#V" n="37"/>hunc autem modum loquitur Augustinus. 2. su¬ 
+            <lb ed="#V" n="38"/>per Gene. vbi vult, quod actus habet rationem lu¬ 
+            <lb ed="#V" n="39"/>cis, &amp; priuatio rationem noctis: siue tenebra¬ 
+            <lb ed="#V" n="40"/>rum. Si ergo in Deo est pura lux: vbi nullae pos¬ 
+            <lb ed="#V" n="41"/>sunt esse tenebrae; nec anima rationalis: nec ali¬ 
+            <lb ed="#V" n="42"/>qua creaturas cum quaelibet talis res habeat ali¬ 
+            <lb ed="#V" n="43"/>quas admixtas tenebras, de diuina substantia fie¬ 
+            <lb ed="#V" n="44"/>ri poterit. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e738">
+            <lb ed="#V" n="45"/>Nono Deus comparatur ad alia: sicut inuisibi¬ 
+            <lb ed="#V" n="46"/>lis ad visibilia. Deus enim dicitur inuisibilis cui¬ 
+            <lb ed="#V" n="47"/>libet creaturae quia nulla creatura potest per na¬ 
+            <lb ed="#V" n="48"/>turam videre Deum. Si autem communicatur 
+            <lb ed="#V" n="49"/>creaturae, quod Deum videat: hoc erit per gra¬ 
+            <lb ed="#V" n="50"/>tiam: non per naturam. Omnis enim creatura 
+            <lb ed="#V" n="51"/>est Deo visibilis. Iuxta illud ad Hebrae 4. Et non 
+            <lb ed="#V" n="52"/>est vlla creatura inuisibilis in conspectu eius, sed 
+            <lb ed="#V" n="53"/>vt ibi subditur: Omnia autem nuda, &amp; aper 
+            <lb ed="#V" n="54"/>ta sunt oculis eius. Ipse tamen est inuisibilis cui¬ 
+            <lb ed="#V" n="55"/>libet creaturae, &amp; hoc est ratione claritatis suae 
+            <lb ed="#V" n="56"/>lucis. Tropter quod ista differentia nona sequi¬ 
+            <lb ed="#V" n="57"/>tur ex octaua. Sicut enim scribitur ad Tim. O. 
+            <lb ed="#V" n="58"/>quod Deus lucem habitat inaccessibilem, quam 
+            <lb ed="#V" n="59"/>nullus hominum vidit, sed nec videre potest. 
+            <lb ed="#V" n="60"/>Cum ergo nulla natura intellectualis possit na¬ 
+            <lb ed="#V" n="61"/>turaliter videre d uinam paturam: consequens 
+            <lb ed="#V" n="62"/>est, quod omnem naturam intellectualem eacel¬ 
+            <!--29.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>lat vtnulla natura, quantumcunque intelledu¬ 
+            <lb ed="#V" n="64"/>lis possit fieri de illa natura, quia tunc non excel¬ 
+            <lb ed="#V" n="65"/>leret omnem naturam intellectualem creatam: 
+            <lb ed="#V" n="66"/>Immo esset subdita, &amp; supposita illi naturae, quae 
+            <lb ed="#V" n="67"/>fieret de ipsa. Loquendo enim de rebus creatis, 
+            <lb ed="#V" n="68"/>quodlibet excellit illud &amp;x quo fit: quia aliquam 
+            <lb ed="#V" n="69"/>perfectionem addit super illud. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e799">
+            <lb ed="#V" n="70"/>Decimo comparatur Deus ad alia, vt infini¬ 
+            <lb ed="#V" n="71"/>tum ad finita. Nam si in creaturis inuenitur in¬ 
+            <lb ed="#V" n="72"/>finitas: hoc est ratione potentialitatis, &amp; priua¬ 
+            <lb ed="#V" n="73"/>tionis, cuiusmodi est infinitas materiae, quia ma¬ 
+            <lb ed="#V" n="74"/>teria finitur per formam. Forma enim est finis 
+            <lb ed="#V" n="75"/>materiae, &amp; materia cum per agens mouetur ad 
+            <lb ed="#V" n="76"/>formam: tendit in ipsam, tanquam in suum fi¬ 
+            <lb ed="#V" n="77"/>nem. Quare infinitas in creatura non potest es¬ 
+            <lb ed="#V" n="78"/>se in actu, nec potest esse in facto esse, nec potest 
+            <lb ed="#V" n="79"/>secundum se intelligi, sed semper intelligitur per 
+            <lb ed="#V" n="80"/>analogiam ad actum. Propter, quod matoria non 
+            <lb ed="#V" n="81"/>est intelligibilis, nisi per analogiam ad formam. 
+            <lb ed="#V" n="82"/>vt patet per Philosophum, &amp; per August. in 12. 
+            <lb ed="#V" n="83"/>Conses. Potentia etiam finit actum: limitando ip¬ 
+            <lb ed="#V" n="84"/>sum, quia omne, quod recipitur in aliquo: recipi¬ 
+            <lb ed="#V" n="85"/>tur secundum modum rei recipientis. Actus er¬ 
+            <lb ed="#V" n="86"/>go receptus in potentia limitaturper eam: vt 
+            <lb ed="#V" n="87"/>non recipiatur in ipsa plus de illo actu, nisi secum 
+            <lb ed="#V" n="88"/>dum capacitatem recipientis Non solum autem 
+            <lb ed="#V" n="89"/>potentia finit actum limitando ipsum, sed &amp; 
+            <lb ed="#V" n="90"/>actus finit potentiam perficiendo eam: cum po¬ 
+            <lb ed="#V" n="91"/>tentia intelligatur non finita, quando caret actu. 
+            <lb ed="#V" n="92"/>Intelligitur autem finita, quando perficitur per¬ 
+            <lb ed="#V" n="93"/>actum, &amp; quia omnes creaturae sunt compositae 
+            <lb ed="#V" n="94"/>ex potentia &amp; actu, vel sunt potentia composita¬ 
+            <lb ed="#V" n="95"/>actui, vel actus compositus potentiae: omnes crea¬ 
+            <lb ed="#V" n="96"/>turae sunt quid finitum. Solus enim Deus est quid 
+            <lb ed="#V" n="97"/>infinitum, quia nec est actus limitatus per poten¬ 
+            <lb ed="#V" n="98"/>tiam: necest potentia perfecta per actum, nec est 
+            <lb ed="#V" n="99"/>quid compositum ex potentia, &amp; actu. &amp; quia 
+            <lb ed="#V" n="100"/>Deus non est quid limitatum, nec quid finitum; 
+            <lb ed="#V" n="101"/>infinitae perfectiones sunt in ipso. Vnde &amp; Dio. 
+            <lb ed="#V" n="102"/>12. de di. no. vocat ipsum infinitorum nominum. 
+            <lb ed="#V" n="103"/>Et Augustinus 8. super Gene. vocat ipsum nume¬ 
+            <lb ed="#V" n="104"/>rum sine numero. Cum ergo diuina natura con¬ 
+            <lb ed="#V" n="105"/>tineat perfectiones infinitas: nullum perfecti¬ 
+            <lb ed="#V" n="106"/>bile poterit ex ea fieri, quia tunc aliqua perse¬ 
+            <lb ed="#V" n="107"/>ctiosibi defioeret. &amp; quia quaelibet creatura 
+            <lb ed="#V" n="108"/>est quoddam perfectibile: nihil tale poterit ex 
+            <lb ed="#V" n="109"/>illa fieri. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e888">
+            <lb ed="#V" n="110"/>RESP. AD ARG. Ad primum dicendum, 
+            <lb ed="#V" n="111"/>quod Augustinus 7 super Gene d. Deus flauit fa¬ 
+            <lb ed="#V" n="112"/>ciendo animam, quia flatum fecit. Nam &amp; ipsa¬ 
+            <lb ed="#V" n="113"/>anima posset dici quidam flatus. Iuxta illud Esa. 
+            <lb ed="#V" n="114"/>Omnem flatum ego feci. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e901">
+            <lb ed="#V" n="115"/>Ad secundum dicendum, quod homo dicitur 
+            <lb ed="#V" n="116"/>esse de genere Dei ratione animae: non quod ani¬ 
+            <lb ed="#V" n="117"/>ma sit facia de natura Dei, sed quia facta est ad 
+            <lb ed="#V" n="118"/>imaginem Dei. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e913">
+            <lb ed="#V" n="119"/>Ad tertium dicendum, quod vel loquimur de¬ 
+            <lb ed="#V" n="120"/>intelligere Deum in via, vel in patria, si loquimur 
+            <lb ed="#V" n="121"/>in via: non intelligitur Deus per identitatem: nec 
+            <lb ed="#V" n="122"/>intelligitur immediate secundum se, sed intelligitur 
+            <lb ed="#V" n="123"/>sub qu. busdam velamin: bus: vt paruit per Dio. 
+            <lb ed="#V" n="124"/>sed si loquimur de intelligere Dei in patria: possu 
+            <!--30.xml-->
+            <pb ed="#V" n="30"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>mus concedere, quod ibi intelligitur Dens per iden¬ 
+            <lb ed="#V" n="2"/>titatem: non per identitatem ad naturam animaet 
+            <lb ed="#V" n="3"/>vt quod fiat eadem natura ex natura animae, &amp; natu¬ 
+            <lb ed="#V" n="4"/>ra dinina: nisi forte per adhaesionem, vt quia sic 
+            <lb ed="#V" n="5"/>adhaerebit natura animae naturae Dei: quod possit ali¬ 
+            <lb ed="#V" n="6"/>quo modo dici vna natura cum illa Iuxta illud Apo¬ 
+            <lb ed="#V" n="7"/>stoli: Qui adhaeret Deo: vnus Spiritus est cum il¬ 
+            <lb ed="#V" n="8"/>lo. Sed si volumus loqui de idenritate simpliciter: 
+            <lb ed="#V" n="9"/>naturam diuina intelligetur in patria per identita¬ 
+            <lb ed="#V" n="10"/>tem: non per identitatemad naturam animae, sed 
+            <lb ed="#V" n="11"/>propter identitatem ad seipsam, quia ibi natura 
+            <lb ed="#V" n="12"/>diuina non per aliam speciem, sed per se ipsam cau¬ 
+            <lb ed="#V" n="13"/>sabit actum intelligendi se ipsam in anima. Pro¬ 
+            <lb ed="#V" n="14"/>pter quod sic Angelus intelligit essentiam suam 
+            <lb ed="#V" n="15"/>per essentiam suam. sic &amp; in patria quilibet ho¬ 
+            <lb ed="#V" n="16"/>mo, &amp; quilibet Angelus intelligit essentiam diui¬ 
+            <lb ed="#V" n="17"/>onam per essentiam diuinamid est per se ipsam. Quili¬ 
+            <lb ed="#V" n="18"/>bet enim Beatus cognoscit in patria Deum sicut 
+            <lb ed="#V" n="19"/>cognitus est a Deo. Sed Deus videt essentiam An¬ 
+            <lb ed="#V" n="20"/>geli, vel hominis per essentiam suam: non per es¬ 
+            <lb ed="#V" n="21"/>sentiam Angeli, vel hominis: per illam ergo ean¬ 
+            <lb ed="#V" n="22"/>dem essentiam diuinam, per quam Deus nunc co¬ 
+            <lb ed="#V" n="23"/>gnoscit me: ego cognoscam tunc Deum, &amp; vide¬ 
+            <lb ed="#V" n="24"/>bo eum. Propter, quod siccognoscam Deum tunc: 
+            <lb ed="#V" n="25"/>sicut ab ipso nunc cognitus sum. Quod autem ad¬ 
+            <lb ed="#V" n="26"/>debatur de materia;dici potest, quod intelligitur 
+            <lb ed="#V" n="27"/>per speciem: ad quam est in potentia, quia non 
+            <lb ed="#V" n="28"/>intelligitur, nisi per analogiam ad formam. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e996">
+            <lb ed="#V" n="29"/>Ad quartum dicendum, quod naturae rerum, siue¬ 
+            <lb ed="#V" n="30"/>species differunt per potentiam. Ipsae autem difse¬ 
+            <lb ed="#V" n="31"/>rentiae differunt seipsis. Vel dicere possumus, quod 
+            <lb ed="#V" n="32"/>ipsa composita differunt per simplicia. Sed sim¬ 
+            <lb ed="#V" n="33"/>plicia differunt per se ipsa. Vel possumus facere 
+            <lb ed="#V" n="34"/>differentiam inter esse diuersum, &amp; esse differens. 
+            <lb ed="#V" n="35"/>sicut &amp; Physicus facit in 10. Meta. quia composi¬ 
+            <lb ed="#V" n="36"/>ta possunt dici differentia, quia possunt per diffe¬ 
+            <lb ed="#V" n="37"/>rentiam differre. sed simplicia, &amp; si non possunt 
+            <lb ed="#V" n="38"/>dici differentia. possunt dici diuersa, quia pos¬ 
+            <lb ed="#V" n="39"/>sunt per seipsa diuersificari. Ad formam autem 
+            <lb ed="#V" n="40"/>arguendi dicendum, quod anima rationalis licet sit 
+            <lb ed="#V" n="41"/>potentia pura in genere intelligibilium: non est 
+            <lb ed="#V" n="42"/>tamen potentia pura in genere entium. sicut ma¬ 
+            <lb ed="#V" n="43"/>teria prima. Nec est actus purus in genere entium: 
+            <lb ed="#V" n="44"/>sicut Deus. in genere ergo entium estanima no¬ 
+            <lb ed="#V" n="45"/>stra: est actus admixtus potentiae: in quo differt ab¬ 
+            <lb ed="#V" n="46"/>essentia diuina, &amp; potentia admixta actui, in quo 
+            <lb ed="#V" n="47"/>differt a materia prima. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1040">
+            <lb ed="#V" n="48"/>Ad quintum dicendum, quod omnes creatu¬ 
+            <lb ed="#V" n="49"/>re, &amp; potissime creaturae intellectuales, inter quas 
+            <lb ed="#V" n="50"/>potest computari anima humana: participant es¬ 
+            <lb ed="#V" n="51"/>sentiam diuinam non in se, scilicet, quod illa diuina 
+            <lb ed="#V" n="52"/>essentia, quae est simplex, &amp; indiuisibilis di¬ 
+            <lb ed="#V" n="53"/>uidatur per frusta, vel partes, sed per¬ 
+            <lb ed="#V" n="54"/>quandam similitudinem: prout 
+            <lb ed="#V" n="55"/>ipsi diuinae essentiae partici 
+            <lb ed="#V" n="56"/>patiue assimilantur, &amp; 
+            <lb ed="#V" n="57"/>imparilitate ae¬ 
+            <lb ed="#V" n="58"/>quantur. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m007566-Dd1e1068">
+          <head xml:id="Gi9qrR-m007566-Hd1e1070">Articulus 2</head>
+          <p xml:id="Gi9qrR-m007566-d1e1072">
+            <!--30.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>ARTIC. II. 
+            <lb ed="#V" n="60"/>An anima humanaex aliqua na¬ 
+            <lb ed="#V" n="61"/>tuera corporea sit producra. 
+            <lb ed="#V" n="62"/>Conclusio est ne¬ 
+            <lb ed="#V" n="63"/>gatiua
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1090">
+            <lb ed="#V" n="64"/>Pmhi pq,tat. 1st. onmn ounte ene 
+            <lb ed="#V" n="65"/>8o. D. Bon. d. 17. art. 1. q. 2 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1097">
+            <lb ed="#V" n="66"/>SECVNDO dato, quod anima non sit 
+            <lb ed="#V" n="67"/>producta de substantia diuina; 
+            <lb ed="#V" n="68"/>Quaeritur, an sit producta de 
+            <lb ed="#V" n="69"/>aliqua natura corporea, vel quod 
+            <lb ed="#V" n="70"/>idem est, an sit corpus. Et vide¬ 
+            <lb ed="#V" n="71"/>tur, quod sic, quia Empedocles, vt 
+            <lb ed="#V" n="72"/>patet ex primo de anima, posuit animam compo¬ 
+            <lb ed="#V" n="73"/>sitam ex quatuor elementis, quod esse non pos¬ 
+            <lb ed="#V" n="74"/>set, nisi esset corpus, quod si in hac parte non recipi¬ 
+            <lb ed="#V" n="75"/>tur eius auctoritas: respondeatur ad rationem elus. 
+            <lb ed="#V" n="76"/>Ait enim, quod simile a simili cognoscitur, quod nos 
+            <lb ed="#V" n="77"/>concedimus, cum omnis cognitio fiat per assimi¬ 
+            <lb ed="#V" n="78"/>lationem: oportet ergo, vt videtur, animam esse con¬ 
+            <lb ed="#V" n="79"/>positam ex omnibus elementis, vt posset cogno¬ 
+            <lb ed="#V" n="80"/>scere omnia elementa, &amp; vt per ea possit cogno¬ 
+            <lb ed="#V" n="81"/>scere omnia elementata. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1134">
+            <lb ed="#V" n="82"/>Praeterea, quando aliqua duo sunt in aliquo 
+            <lb ed="#V" n="83"/>vno, &amp; vnum non potest exire, nisi exeat aliud: vi¬ 
+            <lb ed="#V" n="84"/>detur esse idem vnum, quod aliud. sed sanguis, &amp; 
+            <lb ed="#V" n="85"/>anima sic sunt in eodem corpore, quod non potest 
+            <lb ed="#V" n="86"/>exire totus sanguis, nisi exeat anima: ergo vide¬ 
+            <lb ed="#V" n="87"/>tur esse anima idem, quod sanguis. Quod &amp; ali¬ 
+            <lb ed="#V" n="88"/>qui philosophantium ita asseruerunt, sed cum 
+            <lb ed="#V" n="89"/>sanguis sit quoddam corpus, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1155">
+            <lb ed="#V" n="90"/>Praeterea Spiritus potet esse simul cum corpore, 
+            <lb ed="#V" n="91"/>sed non potest esse simul cum alio spiritu. Sed spiritus 
+            <lb ed="#V" n="92"/>ent malignus potest esse simul cum anima: vt patet 
+            <lb ed="#V" n="93"/>in his, qui sunt obsessi a malis spiritibus, qui ha¬ 
+            <lb ed="#V" n="94"/>bent malos spiritus in corpore suo. Sed cum sit ani¬ 
+            <lb ed="#V" n="95"/>ma in qualibet parte corporis: non potest esse in 
+            <lb ed="#V" n="96"/>eodem corpore spiritus cum anima, nisi sit si¬ 
+            <lb ed="#V" n="97"/>mul cum anima: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1175">
+            <lb ed="#V" n="98"/>Praeterea secundum Philosophum in primo¬ 
+            <lb ed="#V" n="99"/>de Anima: Anima magis continet corpus, quam i 
+            <lb ed="#V" n="100"/>corpus animam: sed cum corpus contentum li¬ 
+            <lb ed="#V" n="101"/>neatur per aliquid continens: videtur continens 
+            <lb ed="#V" n="102"/>sic esse lineatum: sicut contentum, vt patet ex 
+            <lb ed="#V" n="103"/>aqua contenta in vase. Nam aqua sic lineatur, &amp; 
+            <lb ed="#V" n="104"/>sic figuratur, dum est in vase: sicut figuratur ip¬ 
+            <lb ed="#V" n="105"/>sum vas continens eam. Vt si vas sit rotundum: 
+            <lb ed="#V" n="106"/>aqua erit rotunda: si quadratum, quadrata. Cum¬ 
+            <lb ed="#V" n="107"/>ergo corpus contentum ab anima aliter, &amp; aliter 
+            <lb ed="#V" n="108"/>figuretur, vel habet aliter, &amp; aliter menbra distin¬ 
+            <lb ed="#V" n="109"/>cta propter aliam, &amp; aliam animam. Iuxta illud 
+            <lb ed="#V" n="110"/>Commen. in primo de anima: Membra Leonis, 
+            <lb ed="#V" n="111"/>&amp; membra Cerui non differunt, nisi quia anime¬ 
+            <lb ed="#V" n="112"/>differunt, &amp; quod veritatem habet deCeruo, &amp; 
+            <lb ed="#V" n="113"/>Leone, veritatem habet de homine respectu cu¬ 
+            <lb ed="#V" n="114"/>iuslibet alterius animalis. videtur ergo, quod ani¬ 
+            <lb ed="#V" n="115"/>ma hominis sic sit figurata, sicut corpus homi¬ 
+            <!--31.xml-->
+            <pb ed="#V" n="31"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nis, cum huiusmodi corpus habeat suam figurationem, 
+            <lb ed="#V" n="2"/>per animam, &amp; ab anima continente ipsum Sed 
+            <lb ed="#V" n="3"/>hoc non posset esse, nisi aia esset corpus: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1230">
+            <lb ed="#V" n="4"/>IN CONTRARIVM est, quia, vt vult August in 
+            <lb ed="#V" n="5"/>li. de quantitate animae, &amp; vt allegatum esta Ma¬ 
+            <lb ed="#V" n="6"/>gistro in 16. di. Anima facta est similis Deo: quia 
+            <lb ed="#V" n="7"/>immortalem, &amp; indissolubilem fecit eam Deus. 
+            <lb ed="#V" n="8"/>Sed si anima esset corpus: esset corpus viuum, vel¬ 
+            <lb ed="#V" n="9"/>esset corpus viuens per vitam. Omne autem tale¬ 
+            <lb ed="#V" n="10"/>corpus naturaliter est corruptibile: cum calor na¬ 
+            <lb ed="#V" n="11"/>turalis semp deposcat humidum radicale: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1250">
+            <lb ed="#V" n="12"/>Praeterea ex hac eadem auctoritate August. ar¬ 
+            <lb ed="#V" n="13"/>guitur, quod anima humana non solum non est cor¬ 
+            <lb ed="#V" n="14"/>pus, sed etiam non est educta essentialiter de cor¬ 
+            <lb ed="#V" n="15"/>poris potentia: quia omnis forma sic educta est 
+            <lb ed="#V" n="16"/>corruptibilis, &amp; dissoluibilis: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1263">
+            <lb ed="#V" n="17"/>RESOLVTIO. 
+            <lb ed="#V" n="18"/>AMnima corporea non est, quia non est quanta, &amp; 
+            <lb ed="#V" n="19"/>corpus non est in corpore, nec continet corpus: 
+            <lb ed="#V" n="20"/>immo corpus ab ea continetur.
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1274">
+            <lb ed="#V" n="21"/>RESPONDEO dicendum quod quae faciunt difficul¬ 
+            <lb ed="#V" n="22"/>tatem in hac materia, sunt verba Gen. adducta ter¬ 
+            <lb ed="#V" n="23"/>Magistrum, vbi dicitur, quod creauit Deus hominem 
+            <lb ed="#V" n="24"/>de limo terrae, &amp; in spirauit in faciem eius spiracu¬ 
+            <lb ed="#V" n="25"/>lum vitae. Vel, vt habet alia littera: Flauit: vel Suf¬ 
+            <lb ed="#V" n="26"/>flauit in faciem eius &amp;c. Et allegat Aug. in princi¬ 
+            <lb ed="#V" n="27"/>pio. 7. fuper Gen. Cum ergo flatus sit quid corpo¬ 
+            <lb ed="#V" n="28"/>rale: videtur, quod anima sit quoddam corpus. 
+            <lb ed="#V" n="29"/>ee Hoc ergo ordine in hac quaestione procede¬ 
+            <lb ed="#V" n="30"/>mus, quia primo adducemus rationes ex parte¬ 
+            <lb ed="#V" n="31"/>flatus, per quas videtur probari, animam esse cor¬ 
+            <lb ed="#V" n="32"/>pus. Secundo soluemus rationes illas. Tertio ad. 
+            <lb ed="#V" n="33"/>ducemus rationes ad propositum, quod impossibi¬ 
+            <lb ed="#V" n="34"/>le est animam esse corpus. narrabimus enim ex 
+            <lb ed="#V" n="35"/>parte flatus quatuor rationes, iuxta quatuor cau¬ 
+            <lb ed="#V" n="36"/>sas, secundum quas probati videbitur, animam 
+            <lb ed="#V" n="37"/>ir, esse corpus. Nam primo quidem hoc patet, si con 
+            <lb ed="#V" n="38"/>sideretur flatus materialiter, quia sic consideratu. 
+            <lb ed="#V" n="39"/>d. non est, nisi quidam aer attractus, &amp; expulsus. ordina 
+            <lb ed="#V" n="40"/>uit enim natura pulmonem quasi ventilabrum co¬ 
+            <lb ed="#V" n="41"/>dis, per quem attrahitur aer ad refrigerationero 
+            <lb ed="#V" n="42"/>cordis, &amp; quia aer attractus statim calefit, ne suf¬ 
+            <lb ed="#V" n="43"/>focetur cor: expellitur aeriam attractus, &amp; calefa¬ 
+            <lb ed="#V" n="44"/>ctus: &amp; attrahitur alius aer, &amp; sic vicissim conti¬ 
+            <lb ed="#V" n="45"/>nuando manet cor in sua temperie, &amp; continua¬ 
+            <lb ed="#V" n="46"/>tur vita nostra, &amp; hoc modo spiramus, &amp; respi¬ 
+            <lb ed="#V" n="47"/>ramus &amp; flatum facimus. Quare si anima est ssa¬ 
+            <lb ed="#V" n="48"/>tus insufflatus in faciem hominis: cum materia fla¬ 
+            <lb ed="#V" n="49"/>tus sit aer; Videtur, quod anima sit naturae aereae, &amp;f 
+            <lb ed="#V" n="50"/>consequens sit naturae corporeae, &amp; etiam sit cos¬ 
+            <lb ed="#V" n="51"/>pus. Huic autem concordat dictum illorum Sa¬ 
+            <lb ed="#V" n="52"/>pientiae. dicentium: Ex nihilo nati sumus, &amp; post 
+            <lb ed="#V" n="53"/>hoc erimus tanquam non fuerimus. Et subditur: 
+            <lb ed="#V" n="54"/>Extinctus cinis erit corpus nostrum, &amp; spiritus 
+            <lb ed="#V" n="55"/>diffundetur tanquam mollis aer. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1353">
+            <lb ed="#V" n="56"/>Secundo anima videtur esse corpus: cum dica¬ 
+            <lb ed="#V" n="57"/>tur esse flatus, si consideretur flatus efficienter, vel¬ 
+            <lb ed="#V" n="58"/>si consideretur quomodo efficitur. Nam anima 
+            <lb ed="#V" n="59"/>attrahens aerem facit flatum. In omnibus enim ope¬ 
+            <!--31.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>ribus animae: anima est primum agens, vel est il¬ 
+            <lb ed="#V" n="61"/>lud, per quod primo agitur. Potentia vero est im¬ 
+            <lb ed="#V" n="62"/>mediate agens. Licet ergo anima attrahat per po¬ 
+            <lb ed="#V" n="63"/>tentiam attractiuam, &amp; sentiat per potentiam sensi¬ 
+            <lb ed="#V" n="64"/>tiuam: Ipsa tamen est primum attrahens, &amp; pri¬ 
+            <lb ed="#V" n="65"/>mum sentiens. ergo cum per hmoneni attractionem, 
+            <lb ed="#V" n="66"/>per quam fit flatus, non attrahatur spiritus, sedcor¬ 
+            <lb ed="#V" n="67"/>pus: si consideretur quomodo fiat flatus, quia fit 
+            <lb ed="#V" n="68"/>per attractionem corporis, vrtr anima esse corpus. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1388">
+            <lb ed="#V" n="69"/>Tertio quidem hoc idem videtur, si conside 
+            <lb ed="#V" n="70"/>retur flatus formaliter, &amp; etiam si consideretur 
+            <lb ed="#V" n="71"/>anima formaliter &amp; secundum suam essantiam, 
+            <lb ed="#V" n="72"/>&amp; naturam. Nam Philosophiantiqui volentes in¬ 
+            <lb ed="#V" n="73"/>uestigare naturam animae: tripliciter inuestigaue¬ 
+            <lb ed="#V" n="74"/>runt eam, videlicet motu, sensu, &amp; incorporeo 
+            <lb ed="#V" n="75"/>Videtur enim animatum distingui a non anima¬ 
+            <lb ed="#V" n="76"/>to, motu: quia animatum mouetur ex se: non ani 
+            <lb ed="#V" n="77"/>matum autem ex alio. Differt etiam &amp; sensu: quia 
+            <lb ed="#V" n="78"/>animata, &amp; potissime habentia animam sensitiuam 
+            <lb ed="#V" n="79"/>sentiunt: non habentia autem huius animam non 
+            <lb ed="#V" n="80"/>sentiunt ergo motu, &amp; sensu, siue motu, &amp; cogni¬ 
+            <lb ed="#V" n="81"/>tione possumus inuestigare naturam animae, sed 
+            <lb ed="#V" n="82"/>hoc modo est inuestigare eam per operationes 
+            <lb ed="#V" n="83"/>eius: quia motus, &amp; sensus sunt quaedam opera 
+            <lb ed="#V" n="84"/>animae. Et si dicatur, quod sentire non est agere, sed: 
+            <lb ed="#V" n="85"/>pati. Dicemus, quod illa passio significatur per me 
+            <lb ed="#V" n="86"/>dum actionis. Vel possumus dicere, quod licet sent 
+            <lb ed="#V" n="87"/>re sit pati: prout organum sensus patitur, &amp; im¬ 
+            <lb ed="#V" n="88"/>mutatur ab obiecto. Tamen prout es tali immu¬ 
+            <lb ed="#V" n="89"/>tatione iudicamus esse hoc, vel illud: habet quar¬ 
+            <lb ed="#V" n="90"/>dam rationem actionis. Inuestigare itaque anima 
+            <lb ed="#V" n="91"/>motu, &amp; sensu, est inuestigare eam ex suis action¬ 
+            <lb ed="#V" n="92"/>bus. sed inuestigare eam ex incorporeo est inue¬ 
+            <lb ed="#V" n="93"/>stigare ipsam ex eius natura, &amp; essentia. Ideo prae¬ 
+            <lb ed="#V" n="94"/>termissis primis vijs, &amp; sequendo hanc tertiam: 
+            <lb ed="#V" n="95"/>dicemus, quod illi [hilosophi antiqui, qui inuestiga¬ 
+            <lb ed="#V" n="96"/>uerunt animam ex incorporeo: dixerunt ipsam 
+            <lb ed="#V" n="97"/>esse incorpoream, quia erat corpus valde subti¬ 
+            <lb ed="#V" n="98"/>le. Vnde Democritus, &amp; Leucippus dixerunt ani¬ 
+            <lb ed="#V" n="99"/>mam esse athomos.dest corpora valde subtilia, cu¬ 
+            <lb ed="#V" n="100"/>iusmodi sunt minutae exalationes, &amp; decisiones. 
+            <lb ed="#V" n="101"/>ergo si consideretur anima formaliter secundun¬ 
+            <lb ed="#V" n="102"/>suam naturam: prout sentiunt antiqui Philoso 
+            <lb ed="#V" n="103"/>phi, quia est quaedam minutae exalationes, &amp; 
+            <lb ed="#V" n="104"/>est quoddam subtile corpus, quia etiam formali¬ 
+            <lb ed="#V" n="105"/>ter videtur esse flatus; concluditur tertio, vt supe¬ 
+            <lb ed="#V" n="106"/>rius diximus, quod anima sit quoddam corpus. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1473">
+            <lb ed="#V" n="107"/>Quarto hoc idem patet: si considerentur ista 
+            <lb ed="#V" n="108"/>finaliter. Nam ad hoc nobis videtur esse data ani¬ 
+            <lb ed="#V" n="109"/>ma, vt possimus viuere. Nam August. 3. Con¬ 
+            <lb ed="#V" n="110"/>fes. vult quod anima sit vita corporis. Ad hoc etiam da¬ 
+            <lb ed="#V" n="111"/>tus est nobis flatus: vt possimus continuare vitam. 
+            <lb ed="#V" n="112"/>Tandiu nm viuimus: quamdiu possumus spirare, &amp; 
+            <lb ed="#V" n="113"/>respirare, &amp; quamdiu possumus flatum habere 
+            <lb ed="#V" n="114"/>statim autem cum non vlterius habemus fla¬ 
+            <lb ed="#V" n="115"/>tum: non vlterius habemus vitam, nec vlterius 
+            <lb ed="#V" n="116"/>animam. Ita quod flatus: vita nostra, &amp; anima vnum, 
+            <lb ed="#V" n="117"/>&amp; idem videtur esse. Et quia flatus est aer attra¬ 
+            <lb ed="#V" n="118"/>ctus, &amp; expulsus: &amp; est quid corporeum: videtur 
+            <lb ed="#V" n="119"/>anima esse quid corporeu. Vnde Ecech37 vbi A 
+            <lb ed="#V" n="120"/>agitur de vaticinio resurrectionis, &amp; de reditu 
+            <lb ed="#V" n="121"/>animarum, &amp; spirituum ad corpora: animae, &amp; 
+            <!--32.xml-->
+            <pb ed="#V" n="32"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>spiritus vocantur ventus, &amp; insusflatio. Iuxta il¬ 
+            <lb ed="#V" n="2"/>lud: A quatuor ventis veni spiritus, &amp; suffla su¬ 
+            <lb ed="#V" n="3"/>per interfectos istos, &amp; reuiuiscant. Sed omnes 
+            <lb ed="#V" n="4"/>istae rationes sundant se super falso. Credunt en. 
+            <lb ed="#V" n="5"/>quod Deus sic sufflando fecerit animam: sicut homo 
+            <lb ed="#V" n="6"/>sufflando facit aliquid. Nam sequendo doctrinam 
+            <lb ed="#V" n="7"/>August. Sicut Deus creando hominem de limo 
+            <lb ed="#V" n="8"/>terrae non fecit hominem manibus, sed stabilibus 
+            <lb ed="#V" n="9"/>rationibus. Sic cum dicitur, quod Deus flauit, vel¬ 
+            <lb ed="#V" n="10"/>flatum fecitid est animam produxit, non corporali¬ 
+            <lb ed="#V" n="11"/>bus faucibus sufflauitid est flatum fecit, &amp; animam pro¬ 
+            <lb ed="#V" n="12"/>duxit, sed hoc est aeternis rationibus operatus. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1541">
+            <lb ed="#V" n="13"/>Aduert <sic>endum</sic> tamen, quod multa sunt. quae con¬ 
+            <lb ed="#V" n="14"/>seruant hominem in vita: a quibus potest deno¬ 
+            <lb ed="#V" n="15"/>minari anima, quae tamen non sunt ipsa ani¬ 
+            <lb ed="#V" n="16"/>ma. Nam sine emissione flatus &amp; sine inspiratio¬ 
+            <lb ed="#V" n="17"/>ne, &amp; respiratione: non potest stare anima in cor¬ 
+            <lb ed="#V" n="18"/>pore hominis. Tamen ipsa inspiratio, &amp; respira¬ 
+            <lb ed="#V" n="19"/>tio, siue ipsa attractio aeris, &amp; emissio, vel, quod 
+            <lb ed="#V" n="20"/>idem est, ipse flatus: quamuis non sit anima, potest 
+            <lb ed="#V" n="21"/>ri tamen dici anima, quia sine eo in corpore non po¬ 
+            <lb ed="#V" n="22"/>test stare anima. Est enim cor in corpore anima 
+            <lb ed="#V" n="23"/>e to illud membrum, quod primo viuit, &amp; vltimo 
+            <lb ed="#V" n="24"/>moritur. Nam per cor viuunt omnia alia mem¬ 
+            <lb ed="#V" n="25"/>i. bra, quia per cor mouentur omnia alia menbra, 
+            <lb ed="#V" n="26"/>&amp; motus in membris deriuatus a corde: est vita¬ 
+            <lb ed="#V" n="27"/>ut in omnibus alijs membris. Ideo Plato vegeta¬ 
+            <lb ed="#V" n="28"/>tiuam ponebat in corde: nutritiuam inhepate, sen 
+            <lb ed="#V" n="29"/>e sitiuam in cerebro. Non quod etiam omnia ista non 
+            <lb ed="#V" n="30"/>sint radicaliter in corde, sed quia nutrimentum ma¬ 
+            <lb ed="#V" n="31"/>xime quantum ad partes inferiores corporis fit pe¬ 
+            <lb ed="#V" n="32"/>hepar: sensus autem, vel sensitiua dicitur esse in ce¬ 
+            <lb ed="#V" n="33"/>rebro, quia in capite sunt omnes sensus. Spiritus 
+            <lb ed="#V" n="34"/>enim vitalis id est vegetatiua dicitur esse in corde, 
+            <lb ed="#V" n="35"/>quia motus, qui fit in corpore, vt patet in pulsu: 
+            <lb ed="#V" n="36"/>fit a corde. Propter quod si ista membra ledantur: 
+            <lb ed="#V" n="37"/>potissime cor, vel vulnere, vel suffocatione facta 
+            <lb ed="#V" n="38"/>per materiam morbi, siue per aerem calefactum, 
+            <lb ed="#V" n="39"/>vt patet in homine suspenso, qui cum non possit 
+            <lb ed="#V" n="40"/>respirare: suffocatur cor, &amp; moritur homo. Con 
+            <lb ed="#V" n="41"/>tinuatur ergo vita in homine ex membris princi¬ 
+            <lb ed="#V" n="42"/>palibus, vel ex flatu, quorum quodlibet est corpus 
+            <lb ed="#V" n="43"/>Anima tamen nihil horum est: propter quod non 
+            <lb ed="#V" n="44"/>est corpus, sed sine his corporalibus non potest 
+            <lb ed="#V" n="45"/>anima durare in corpore, nec animare corpus. 
+            <lb ed="#V" n="46"/>Quod vero dicebatur de flatu, quod materialite 
+            <lb ed="#V" n="47"/>est aer haberetur intentum: si anima esset flatus. 
+            <lb ed="#V" n="48"/>Quod vero addebatur secundo, quod flatus effi¬ 
+            <lb ed="#V" n="49"/>cienter fit ab anima, quia anima est primum attra 
+            <lb ed="#V" n="50"/>hens aerem, per quam fit flatus: non arguitur ex¬ 
+            <lb ed="#V" n="51"/>hoc quod anima sit corpus, sed quod habet opera¬ 
+            <lb ed="#V" n="52"/>tionem circa corpus. Quod autem addebatur, &amp; 
+            <lb ed="#V" n="53"/>tertio, quod tripliciter possumus inuestigare animam 
+            <lb ed="#V" n="54"/>secundum Philosophum: motu: sensu, &amp; incor 
+            <lb ed="#V" n="55"/>poreo. Et hoc tertio modo inuestigare animam est 
+            <lb ed="#V" n="56"/>inuestiga re animam secundum se, &amp; formaliter 
+            <lb ed="#V" n="57"/>&amp; quod illi, qui inuestigauerunt eam per incorpo¬ 
+            <lb ed="#V" n="58"/>reum, dixerunt, quod quoddam corpus subtile: dici¬ 
+            <lb ed="#V" n="59"/>debet. Quia asserentes animam esse quid incorpo¬ 
+            <lb ed="#V" n="60"/>reum id est esse quoddam corpus subtile: dissentiunt 
+            <lb ed="#V" n="61"/>a veritate, quia anima non est corpus, sed est actus 
+            <lb ed="#V" n="62"/>corporis, vt patet &amp;x 2. de anima. Quod autem ad¬ 
+            <!--32.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>debatur &amp; quarto, videlicet si consideratur fha¬ 
+            <lb ed="#V" n="64"/>tus finaliter, quia ad hoc data est nobis anima fi¬ 
+            <lb ed="#V" n="65"/>naliter, vt possimus viuere, &amp; quod viuere non 
+            <lb ed="#V" n="66"/>possumus, nisi quam diu possumus flatum face¬ 
+            <lb ed="#V" n="67"/>re. Dici debet, quod ex hoc non arguitur, quod anima sit 
+            <lb ed="#V" n="68"/>flatus, sed quod viuere nostrum continuatur per 
+            <lb ed="#V" n="69"/>flatum: Ita etiam continuatur per caput, quia am¬ 
+            <lb ed="#V" n="70"/>putato capite, homo moritur. Tamen anima non 
+            <lb ed="#V" n="71"/>est caput, sed est actus capitis, &amp; cuinslibet partis 
+            <lb ed="#V" n="72"/>corporis. Quod autem in Exech. spiritus humani, 
+            <lb ed="#V" n="73"/>vel animae hominum vocantur venti: hoc est, quia 
+            <lb ed="#V" n="74"/>rudis populus, cui loquebatur Exech. non pote¬ 
+            <lb ed="#V" n="75"/>rat transcendere corpus. Ideo nomine corporis 
+            <lb ed="#V" n="76"/>subtilis dabat eis intelligere animam. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1689">
+            <lb ed="#V" n="77"/>Expeditis duabus partibus huius articuli, vbi¬ 
+            <lb ed="#V" n="78"/>solutae sunt rationes ex parteslatus, per quas vide 
+            <lb ed="#V" n="79"/>batur, animam esse corpus. Volumus modo exe¬ 
+            <lb ed="#V" n="80"/>qui partem tertiam: adducendo rationes ad prin¬ 
+            <lb ed="#V" n="81"/>cipale propositum: probantes, quod anima non sit 
+            <lb ed="#V" n="82"/>corpus. Quod triplici via inuestigare possumus: 
+            <lb ed="#V" n="83"/>secundum triplicem modum essendi corporis in 
+            <lb ed="#V" n="84"/>corpore omnino alium, &amp; diuersum a modo es¬ 
+            <lb ed="#V" n="85"/>sendi animae in corpore. Nam corpus sic est in cor¬ 
+            <lb ed="#V" n="86"/>pore, quod non est simul cum corpore. Secundo 
+            <lb ed="#V" n="87"/>corpus sic est in corpore, quod non est per suam es¬ 
+            <lb ed="#V" n="88"/>sentiam in corpore, sed per suam quantitatem. 
+            <lb ed="#V" n="89"/>Tertio sic est corpus in corpore, quod non conti¬ 
+            <lb ed="#V" n="90"/>net corpus, sed continetur a corpore. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1722">
+            <lb ed="#V" n="91"/>Prima via sic patet. nam sic est corpus in cor¬ 
+            <lb ed="#V" n="92"/>pore quod non potest esse simul cum corpore, quia 
+            <lb ed="#V" n="93"/>vt probatur in 4. Physico. Impossibile est duocor¬ 
+            <lb ed="#V" n="94"/>pora esse simul. Et si teneamus per fidem Chri¬ 
+            <lb ed="#V" n="95"/>stum intrasse ad discipulos ianuis clausis, &amp; ext¬ 
+            <lb ed="#V" n="96"/>uisse de vtero Virginis vtero clauso: In quorum 
+            <lb ed="#V" n="97"/>vtroque actu corpus non cessit corpori, sed suit 
+            <lb ed="#V" n="98"/>corpus simul cum corpore; Hoc non fuit natura¬ 
+            <lb ed="#V" n="99"/>liter, sed supernaturaliter. Sic etiam corpora bea 
+            <lb ed="#V" n="100"/>ta habebunt dotem subtilitatis; per quam poterunt 
+            <lb ed="#V" n="101"/>transire murum sine scissura muri. Beati enimp 
+            <lb ed="#V" n="102"/>sua corpora mouebuntur per coelos: non scindem 
+            <lb ed="#V" n="103"/>do eos. Erunt enim corpora eorum simul cum cot¬ 
+            <lb ed="#V" n="104"/>poribus coelorum, sed hoc erit supernaturaliter, 
+            <lb ed="#V" n="105"/>&amp; dos illa, per quam hoc fiet, erit supernaturalis. 
+            <lb ed="#V" n="106"/>Sed anima naturaliter est simul cum corpore qua 
+            <lb ed="#V" n="107"/>anima est naturaliter forma corporis, &amp; corpus 
+            <lb ed="#V" n="108"/>animatum est materia, quam informat anima. 
+            <lb ed="#V" n="109"/>Sed naturaliter forma est cum sua materia, &amp; econ¬ 
+            <lb ed="#V" n="110"/>tra: ergo naturaliter anima est simul cum corpo¬ 
+            <lb ed="#V" n="111"/>re, &amp; econuerso. Sed hoc non potest naturaliter 
+            <lb ed="#V" n="112"/>conuenire alicui corpori, quod sit simul cum cor¬ 
+            <lb ed="#V" n="113"/>pore: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1775">
+            <lb ed="#V" n="114"/>Secunda via ad hoc idem sumitur ex eo, quod 
+            <lb ed="#V" n="115"/>corpus sic est in corpore, quod non est ibi per suam 
+            <lb ed="#V" n="116"/>essentiam, sed per suam quantitatem. Esse enim 
+            <lb ed="#V" n="117"/>corporis est in loco, quia vbi est corpus: ibi est es¬ 
+            <lb ed="#V" n="118"/>se corporis: Tamen essentia corporis non est ra¬ 
+            <lb ed="#V" n="119"/>tio, quare corpus sit in loco, sed quantitas eius. &amp; 
+            <lb ed="#V" n="120"/>ideo dicitur corpus esse in loco non per essentiam 
+            <lb ed="#V" n="121"/>sed per quantitatem. Nam corpus est in lococon 
+            <lb ed="#V" n="122"/>mensurando se loco, quia tantus est locus, quan¬ 
+            <lb ed="#V" n="123"/>tum est locatum, &amp; econuerso. Vt declarari ha¬ 
+            <lb ed="#V" n="124"/>bet in 4. Physi. Per illud ergo est corpus in loco, re¬ 
+            <!--33.xml-->
+            <pb ed="#V" n="33"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>per quod aequatur loco, &amp; commensurat se loco. 
+            <lb ed="#V" n="2"/>Hoc autem est quantitas. Nam &amp; ipse locus est 
+            <lb ed="#V" n="3"/>quaedam quantitas: quia est superficies corporis 
+            <lb ed="#V" n="4"/>continentis: sed nihil potest aequari quantitati: 
+            <lb ed="#V" n="5"/>nisi per quantitatem: vt vlna panniaequatur vlne¬ 
+            <lb ed="#V" n="6"/>ligni: quia tanta est quantitas vnius, quanta est al¬ 
+            <lb ed="#V" n="7"/>terius. Corpus ergo locatum cum aequatur loco: 
+            <lb ed="#V" n="8"/>quia hoc fit per quantitatem: est ibi immediate 
+            <lb ed="#V" n="9"/>per suam quantitarem. Et inde est, quod duo 
+            <lb ed="#V" n="10"/>corpora non possunt esse in eodem loco: quia di¬ 
+            <lb ed="#V" n="11"/>n mensiones vnius corporis, per quas corpus est 
+            <lb ed="#V" n="12"/>in loco: resistunt dimensionibus alterius. Vnde 
+            <lb ed="#V" n="13"/>&amp; Philosophus in 4. dicit, quod non est dare va¬ 
+            <lb ed="#V" n="14"/>cuum; &amp; si esset dare vacuum: vult, quod in ipso 
+            <lb ed="#V" n="15"/>vacuo non possit esse corpus. Nam si esset dare va¬ 
+            <lb ed="#V" n="16"/>im cuum: esset dare quasdam dimensiones separatas. 
+            <lb ed="#V" n="17"/>Et quia illae dimensiones resisterent dimensioni¬ 
+            <lb ed="#V" n="18"/>bus corporis: non posset ibi recipi corpus: quae 
+            <lb ed="#V" n="19"/>omnia arguunt locatum esse in loco per fuam 
+            <lb ed="#V" n="20"/>quantitatem, siue per suas dimensiones. Sed ani¬ 
+            <lb ed="#V" n="21"/>er ma non est in corpore per quantitatem, sed im¬ 
+            <lb ed="#V" n="22"/>mediate est in suo corpore per suam essentiam: 
+            <lb ed="#V" n="23"/>vel, quod idem est: anima est in suo corpore non 
+            <lb ed="#V" n="24"/>mediante quantitate, sed mediante sua essentia. 
+            <lb ed="#V" n="25"/>Quod patet: quia anima est in corpore: quia dat 
+            <lb ed="#V" n="26"/>le vluere corpori: &amp; si dat viuere corpori, dat esse 
+            <lb ed="#V" n="27"/>corpori. Quia secundum Philosophum: Viuere 
+            <lb ed="#V" n="28"/>est viuentibus esse. sed secundum Augu. in de Tri¬ 
+            <lb ed="#V" n="29"/>nita. Sicut a sapientia est sapere: sic a potentia est 
+            <lb ed="#V" n="30"/>posse, &amp; ab essentia esse. Cum ergo anima sit in 
+            <lb ed="#V" n="31"/>corpore, quia dat esse corpori: oporter, quod sit 
+            <lb ed="#V" n="32"/>ibi per suam essentiam, &amp; mediante sua essentia, 
+            <lb ed="#V" n="33"/>per quam dat esse corpori. Sicut ergo oportet es¬ 
+            <lb ed="#V" n="34"/>sentiam formae esse simul cum essentia materiae: 
+            <lb ed="#V" n="35"/>Vel sicut oportet formam esse per essentiam in 
+            <lb ed="#V" n="36"/>sua materia: quia ex materia, &amp; forma sit vnum 
+            <lb ed="#V" n="37"/>secundum esse qui est actus essentiae. Sic oportet 
+            <lb ed="#V" n="38"/>animam esse in corpore immediate per suam ef¬ 
+            <lb ed="#V" n="39"/>sentiam: Vel mediante sua essentia: quia ex anima, 
+            <lb ed="#V" n="40"/>&amp; corpore fir vnum secundum esse. Cum ergo 
+            <lb ed="#V" n="41"/>hoc repugnet corpori, quod sit in aliquo corpo¬ 
+            <lb ed="#V" n="42"/>re per suam essentiam: quia vbicunque esse dici¬ 
+            <lb ed="#V" n="43"/>tur corpus: hoc est per suam quantitatem: mani¬ 
+            <lb ed="#V" n="44"/>feste concluditur, quod anima non sit corpus. 
+            <lb ed="#V" n="45"/>Tertia via ad hoc idem sumitur: quia corpus 
+            <lb ed="#V" n="46"/>um non est in corpore, quod contineat ipsum: sed quia 
+            <lb ed="#V" n="47"/>continetur ab eo: vt aqua est in aere: non, quod 
+            <lb ed="#V" n="48"/>on contineat aerem sed quia continetur ab aere. Ani¬ 
+            <lb ed="#V" n="49"/>ma autem e conuerso: sic est in corpore, quod ma¬ 
+            <lb ed="#V" n="50"/>igis continet corpus, quam corpus ipsam. vt pro¬ 
+            <lb ed="#V" n="51"/>bat Philosophus in primo de anima Cum igitur 
+            <lb ed="#V" n="52"/>hoc repugnet corpori, quod sit in corpore conti¬ 
+            <lb ed="#V" n="53"/>nendo corpus: concludere possumus, quod ani¬ 
+            <lb ed="#V" n="54"/>ma non sit corpus. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1925">
+            <lb ed="#V" n="55"/>RESP. AD ARG. Ad primum dicendum, quod 
+            <lb ed="#V" n="56"/>falsum est dictum Empedoclis quod anima sit compo¬ 
+            <lb ed="#V" n="57"/>i. sita ex elementis. Ad rationem autem eius, quod simile a 
+            <lb ed="#V" n="58"/>simili cognoscitur, verum est, sed non oportet, quod ista 
+            <lb ed="#V" n="59"/>smilatio sit in natura, quod corpus cognoscatur 
+            <lb ed="#V" n="60"/>corpore: materia cognoscatur per materiam. Sed 
+            <lb ed="#V" n="61"/>ista similitudo est per aliquam speciem rer: siue 
+            <lb ed="#V" n="62"/>sit cognitio sensitiua: siue intellectiua, vt per spe¬ 
+            <!--33.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>ciem albi videtur album. Fstenim oculus quasi¬ 
+            <lb ed="#V" n="64"/>quoddam speculum: quia sicut in speculo appa¬ 
+            <lb ed="#V" n="65"/>rent quaedam similitudines rerum: sic in oculo¬ 
+            <lb ed="#V" n="66"/>recipiuntur similitudines visibilium, &amp; recipien¬ 
+            <lb ed="#V" n="67"/>do similitudines rerum, videt res. Et quod dictum 
+            <lb ed="#V" n="68"/>est de cognitione sensitiua, vt de oculo: veritatem 
+            <lb ed="#V" n="69"/>habet de cognitione intellectiua, siue de intelle¬ 
+            <lb ed="#V" n="70"/>ctu. Nam sicut oculus videt album per speciem 
+            <lb ed="#V" n="71"/>albi, quam apud se habet, &amp; lapidem per speciem 
+            <lb ed="#V" n="72"/>lapidis, quam apud se haber: sic intellectus intelligit 
+            <lb ed="#V" n="73"/>album, vel lapidem per suas species, quas habet 
+            <lb ed="#V" n="74"/>apud se. vt ergo intellectus intelligat lapidem non 
+            <lb ed="#V" n="75"/>oportet, quod sit, vel, quod fiat lapis, sed sufficit, 
+            <lb ed="#V" n="76"/>quod habeat apud se speciem lapidis. Propter quod 
+            <lb ed="#V" n="77"/>commendatur Anaxagoras in 3. de anima: po¬ 
+            <lb ed="#V" n="78"/>nens intellectum immaterialem, &amp; abstractum, 
+            <lb ed="#V" n="79"/>separatum a materia: vt posset materiam cogno¬ 
+            <lb ed="#V" n="80"/>scere. Sic debuisset Empedocles dicere, quod ani¬ 
+            <lb ed="#V" n="81"/>ma non est ex elementis: nec est de natura elemen¬ 
+            <lb ed="#V" n="82"/>torum: vt possit elementa cognoscere: sicut &amp; 
+            <lb ed="#V" n="83"/>pupilla est abscolor, &amp; non est de natura colo¬ 
+            <lb ed="#V" n="84"/>rum: vt possit species colorum recipere, &amp; de co¬ 
+            <lb ed="#V" n="85"/>loribus iudicare. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e1999">
+            <lb ed="#V" n="86"/>Ad secundum dicendum, quod non est verum, 
+            <lb ed="#V" n="87"/>quod quando aliqua duo ita se habent, quod vno 
+            <lb ed="#V" n="88"/>exeunte, exeat aliud: vel vno recedente recedat 
+            <lb ed="#V" n="89"/>aliud, quod vnum sit aliud. Nam posito sigillo in aqua, 
+            <lb ed="#V" n="90"/>figuratur aqua. sicut figuratum est sigillum remo¬ 
+            <lb ed="#V" n="91"/>to sigillo remouerur, &amp; recedit figuratio aquae: non 
+            <lb ed="#V" n="92"/>est tamen eadem figuratio sigilli, &amp; aquae. Sic. &amp; 
+            <lb ed="#V" n="93"/>anima non potest stare in corpore sine sanguine, 
+            <lb ed="#V" n="94"/>&amp; recedente sanguine toto oportet, quod recedat 
+            <lb ed="#V" n="95"/>anima. Quod autem addebatur, quod aliqui Phi¬ 
+            <lb ed="#V" n="96"/>losophi hoc senserunt, dici debet, quod si hoc sen¬ 
+            <lb ed="#V" n="97"/>serunt: errauerunt. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2028">
+            <lb ed="#V" n="98"/>Ad tertium dicendum, quod nec corpus po¬ 
+            <lb ed="#V" n="99"/>test esse simul cum corpore: loquendo naturali¬ 
+            <lb ed="#V" n="100"/>ter: quia quodlibet corpus contentum a loco est 
+            <lb ed="#V" n="101"/>eodem modo in loco: quia est ibi per suas dimen¬ 
+            <lb ed="#V" n="102"/>siones. Sic &amp; spiritus si est eodem modo alicubi: 
+            <lb ed="#V" n="103"/>sicut alius spiritus: non poterunt illi duo spiritus 
+            <lb ed="#V" n="104"/>esse simul. Sed quando non eodem modo illi duo 
+            <lb ed="#V" n="105"/>spiritus comparantur ad illud, vbi sunt: non est 
+            <lb ed="#V" n="106"/>inconueniens illos duos spiritus esse simul. Pro¬ 
+            <lb ed="#V" n="107"/>pter quod in eodem corpore erat vna Legio spiri¬ 
+            <lb ed="#V" n="108"/>tuum malignorum, &amp; simulcum omnibus spiri. 
+            <lb ed="#V" n="109"/>tibus erat anima illius corporis. Propter quod 
+            <lb ed="#V" n="110"/>quando dixit Dominus Daemoni: Quod est tibi, 
+            <lb ed="#V" n="111"/>nomen: llle respondit: Legio: quia multi sumus. 
+            <lb ed="#V" n="112"/>Omnes ergo illi spiritus non erant simul in eadem 
+            <lb ed="#V" n="113"/>parte corporis: quia vbi erat vnus, non erat alius. 
+            <lb ed="#V" n="114"/>quia omnes illi Ipiritus eodem modo comparaban¬ 
+            <lb ed="#V" n="115"/>tur ad locum: ideo vbi erat vnus, non erat alius. Oenes 
+            <lb ed="#V" n="116"/>enim illi spiritus erant in illo corpore: vt Moto 
+            <lb ed="#V" n="117"/>res, &amp; vt agentes aliquid mali in illo corpore: Ani¬ 
+            <lb ed="#V" n="118"/>ma aurem erat in illo, vt forma, &amp; vt dans esse per¬ 
+            <lb ed="#V" n="119"/>se, &amp; primo. Si autem erat ibi, vt motor: hoc erat 
+            <lb ed="#V" n="120"/>ex consequenti: quia primo intelligitur, quod ani¬ 
+            <lb ed="#V" n="121"/>ma dat esse corpori, &amp; postea, quod moueat ip¬ 
+            <lb ed="#V" n="122"/>sum: &amp; nisi daret anima suo corpori esse: non pos¬ 
+            <lb ed="#V" n="123"/>set ipsum mouere, &amp; si posset esse, quod anima 
+            <lb ed="#V" n="124"/>mouerer corpus, sine dando esse: non posset ibi si 
+            <!--34.xml-->
+            <pb ed="#V" n="34"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>mul cum anima esse aliquis alius spiritus, nisi spi¬ 
+            <lb ed="#V" n="2"/>ritus diuinus id est nisi Deus, qui est in qualibet sua 
+            <lb ed="#V" n="3"/>creatura. Poterant ergo omnes illi spiritus esse si¬ 
+            <lb ed="#V" n="4"/>mul cum anima propter alium, &amp; alium modum 
+            <lb ed="#V" n="5"/>essendi, quia illi erant, non vt dantes esse, sed vt 
+            <lb ed="#V" n="6"/>motores, &amp; vt vexantes. anima autem erat ibi, vt 
+            <lb ed="#V" n="7"/>dans esse &amp; vt forma. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2111">
+            <lb ed="#V" n="8"/>Ad quartum dicendum, quod membra leonis, &amp; 
+            <lb ed="#V" n="9"/>membra cerui, vel etiam membra hominis diffe¬ 
+            <lb ed="#V" n="10"/>runt, quia animae differunt: non quod anima ho¬ 
+            <lb ed="#V" n="11"/>minis sit figurata, sicut sunt figurata menbra. Erit 
+            <lb ed="#V" n="12"/>ergo illa similitudo de diuersitate membrorum, 
+            <lb ed="#V" n="13"/>&amp; diuersitate animarum, sicut est de diuersitate 
+            <lb ed="#V" n="14"/>artium, &amp; diuersitate organorum. vt quia est alia 
+            <lb ed="#V" n="15"/>ars malleatoria, &amp; alia carpentaria: alia sunt orga¬ 
+            <lb ed="#V" n="16"/>na, vel instrumenta huius, vel illius. &amp; quia mem¬ 
+            <lb ed="#V" n="17"/>bra sunt quaedam organa animae, per quae anima 
+            <lb ed="#V" n="18"/>exercet operationes suas: secundum quod sunt 
+            <lb ed="#V" n="19"/>aliae animae; sunt aliae operationes: oportet, quod 
+            <lb ed="#V" n="20"/>etiam sint alia organa, &amp; alia membra Vnde Phi¬ 
+            <lb ed="#V" n="21"/>losophus in lib. de anima repraehendens fabulas 
+            <lb ed="#V" n="22"/>Pythagoricorum, quod anima exiens de vno corpo¬ 
+            <lb ed="#V" n="23"/>re intrabat aliud, etiam diuersum spe, ait: hoc est 
+            <lb ed="#V" n="24"/>dicere, quod vna ars intrat organa alterius: Ex 
+            <lb ed="#V" n="25"/>hoc ergo concluditur, quod anima non sit corpus, 
+            <lb ed="#V" n="26"/>sed quod exercet opera sua per membra corporis. 
+            <lb ed="#V" n="27"/>propter quod alia, &amp; alia anima requirit alia, &amp; 
+            <lb ed="#V" n="28"/>alia membra. vt volatilia oportet, quod habeant alas, 
+            <lb ed="#V" n="29"/>per quas volent, &amp; gressibilia pedes, per quos 
+            <lb ed="#V" n="30"/>gradiantur. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m007566-Dd1e2164">
+          <head xml:id="Gi9qrR-m007566-Hd1e2166">Articulus 3</head>
+          <p xml:id="Gi9qrR-m007566-d1e2168">
+            <lb ed="#V" n="31"/>ARTIC. III. 
+            <lb ed="#V" n="32"/>An Anima humana ex aliqua 
+            <lb ed="#V" n="33"/>materia sit producta. Con¬ 
+            <lb ed="#V" n="34"/>clusio est vesatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2179">
+            <lb ed="#V" n="35"/>D.Th. 1.p. q. 35. art. 3. Et 1. sent q. 3. q. 3. art. 3. nt 2. stnt. q. 
+            <lb ed="#V" n="36"/>II. q. 1. art. 2. Et 2. contra Gent. c. q9. Et quol. 3. q. &amp;. 
+            <lb ed="#V" n="37"/>Et de anima art. 6. Et Opusc. 3. lib. 6. D. Bon. d. 
+            <lb ed="#V" n="38"/>17. art. 1. q. 2. Th. Arg. d. 17. q. 1. art. 1 
+            <lb ed="#V" n="39"/>Bacch. d. 17. q. 2. Nic. de Niise tract. 
+            <lb ed="#V" n="40"/>2. p. 2. q. 3. de anima humana. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2195">
+            <lb ed="#V" n="41"/>TERTIO quaeritur: Vtrum ani¬ 
+            <lb ed="#V" n="42"/>ma fuerit producta de aliqua 
+            <lb ed="#V" n="43"/>materia. Et videtnr, quod sic. 
+            <lb ed="#V" n="44"/>Nam Boe. circa principium sui¬ 
+            <lb ed="#V" n="45"/>lib de Trin. ait, quod formas esse 
+            <lb ed="#V" n="46"/>RA subiectas accidentibus, hoc fa¬ 
+            <lb ed="#V" n="47"/>cit materia. Et ponit exemplum, quod humani¬ 
+            <lb ed="#V" n="48"/>tas non ita accidentia suscipit in eo, quod ipsa est, sed 
+            <lb ed="#V" n="49"/>eo, quod materia ei subiecta est. humanitas ergo, &amp; 
+            <lb ed="#V" n="50"/>lapideitas, &amp; caetera talia, quo formas importare vi¬ 
+            <lb ed="#V" n="51"/>dentur: non suscipiunt accidentia, nisi ratione ma¬ 
+            <lb ed="#V" n="52"/>teriae sibi subiectae. Propter quod concludit ibi¬ 
+            <lb ed="#V" n="53"/>dem Boe quod forma, quae est sine materia, non po¬ 
+            <lb ed="#V" n="54"/>test esse subiectum: supple accidentium. Anima 
+            <lb ed="#V" n="55"/>ergo, quae varia suscipit accidentia: oportet quod 
+            <lb ed="#V" n="56"/>habeat materiam partem sui. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2232">
+            <lb ed="#V" n="57"/>Praeterea Ano, 4. super den, di quoudam in¬ 
+            <!--34.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="58"/>commutabile esset anima: nullo modo eius ma¬ 
+            <lb ed="#V" n="59"/>teriam quaerere deberemus. In omni ergom uta¬ 
+            <lb ed="#V" n="60"/>bili est querenda materia, sed anima est quid mu¬ 
+            <lb ed="#V" n="61"/>tabile: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2251">
+            <lb ed="#V" n="62"/>Praeterea ad hoc idem videtur facere auctori. re¬ 
+            <lb ed="#V" n="63"/>tas Philosophi in 2. Meta. quod necesse est imagina¬ 
+            <lb ed="#V" n="64"/>ri materiam in re mota. Cum ergo anima sit 
+            <lb ed="#V" n="65"/>quaedam res mota, quia nunc deformatur vitijs, 
+            <lb ed="#V" n="66"/>&amp; erroribus: nunc reformatur virtutibus, &amp; do¬ 
+            <lb ed="#V" n="67"/>ctrinis: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2267">
+            <lb ed="#V" n="68"/>Praeterea proprietates non deserunt id, cuius 
+            <lb ed="#V" n="69"/>sunt: sed proprietates materiae sunt subiicireci¬ 
+            <lb ed="#V" n="70"/>pere, &amp; pati, &amp; omnia ista reperiunturin ani¬ 
+            <lb ed="#V" n="71"/>ma: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2278">
+            <lb ed="#V" n="72"/>Praeterea secundum Philosophum. 8. Meta. re¬ 
+            <lb ed="#V" n="73"/>Nullius agentis actio terminatur ad formam: 
+            <lb ed="#V" n="74"/>sed ad compositum: sed actio Creatoris termi¬ 
+            <lb ed="#V" n="75"/>natur ad animam: ergo anima est quid composi¬ 
+            <lb ed="#V" n="76"/>tum. sed prima compositio est ex materia, &amp; for. 
+            <lb ed="#V" n="77"/>ma, ex qua omnes aliae compositiones videntur 
+            <lb ed="#V" n="78"/>sequi: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2296">
+            <lb ed="#V" n="79"/>Praeterea nihil viuit in seipso: nisi solus Dens. 
+            <lb ed="#V" n="80"/>Iuxta illud loan. Sicut Pater habet vitam in se¬ 
+            <lb ed="#V" n="81"/>metipso: sic dedit Filio habere vitam in semetip¬ 
+            <lb ed="#V" n="82"/>so. Sed anima non solum viuificat corpus, sed 
+            <lb ed="#V" n="83"/>etiam viuit in seipsa. Si ergo hoc esset per seip¬ 
+            <lb ed="#V" n="84"/>sam, non per aliquam sui partem: esset omnino 
+            <lb ed="#V" n="85"/>simplex. habet ergo aliquam partem, per quam vi¬ 
+            <lb ed="#V" n="86"/>uit, &amp; haec est forma eius, sed non est dare for¬ 
+            <lb ed="#V" n="87"/>mam in aliquo, quae sit pars eius, nisi ibi sit etiam 
+            <lb ed="#V" n="88"/>materia: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2320">
+            <lb ed="#V" n="89"/>Praeterea in omni creato differt quod opera¬ 
+            <lb ed="#V" n="90"/>tur, &amp; quo operatur. Seda nima est quid crca¬ 
+            <lb ed="#V" n="91"/>tum: ergo est ibi assionare quod operatur, &amp; 
+            <lb ed="#V" n="92"/>quo operatur quod non esset, nisi esset composi¬ 
+            <lb ed="#V" n="93"/>ta ex materia, &amp; forma: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2333">
+            <lb ed="#V" n="94"/>IN CONTRARIVM est: Quia quanto aliquid 
+            <lb ed="#V" n="95"/>plus appropinquat Deo, tanto est simpiicius Ami 
+            <lb ed="#V" n="96"/>ma ergo humana est perfectior alijs formis perfi¬ 
+            <lb ed="#V" n="97"/>cientibus materiam corporalem, quia plus ap¬ 
+            <lb ed="#V" n="98"/>propinquat Deo. sed aliae formae perficientes 
+            <lb ed="#V" n="99"/>alias materias corporales non sunt sic compo¬ 
+            <lb ed="#V" n="100"/>sitae: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2352">
+            <lb ed="#V" n="101"/>Praeterea secundum Boe de duabus naturis, 
+            <lb ed="#V" n="102"/>&amp; vna persona Christi: Omnis enim natura in¬ 
+            <lb ed="#V" n="103"/>corporeae substantiae nullo modo nititur sunda¬ 
+            <lb ed="#V" n="104"/>mento: anima est huius modi. ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2363">
+            <lb ed="#V" n="105"/>Praeterea Philosophus in 8. Met. vult, quod 
+            <lb ed="#V" n="106"/>ea, quae possunt esse sine corpore, non habeat¬ 
+            <lb ed="#V" n="107"/>materiam, neque sensibilem, neque intelligibl¬ 
+            <lb ed="#V" n="108"/>lem: anima est huiusmodi. ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2374">
+            <lb ed="#V" n="109"/>RESOLVTIO. 
+            <lb ed="#V" n="110"/>Anina humana ex materia propria digta, quate¬ 
+            <lb ed="#V" n="111"/>nus ad corpus relata, nullo vnquam pacto¬ 
+            <lb ed="#V" n="112"/>constare potest. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2385">
+            <lb ed="#V" n="113"/>RESPONDEO dicendum: aliquos esse, vel fuis¬ 
+            <lb ed="#V" n="114"/>se huius opinionis. sanimam esse quid composi¬ 
+            <lb ed="#V" n="115"/>tum ex materia, &amp; forma, &amp; non solum in ans¬ 
+            <lb ed="#V" n="116"/>na sed etiam in ipsi, Angelis talem composito 
+            <!--35.xml-->
+            <pb ed="#V" n="35"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nem afferunt. Nos autem ostendemus quadru¬ 
+            <lb ed="#V" n="2"/>plici via animam non esse compositam ex mate¬ 
+            <lb ed="#V" n="3"/>ria, &amp; forma: loquendo de materia proprie. quia si 
+            <lb ed="#V" n="4"/>vellemus loqui de materia large: prout dicit, quod 
+            <lb ed="#V" n="5"/>cunque possibile, quia quodlibet tale dicit aliquid 
+            <lb ed="#V" n="6"/>materiale, vel dicit aliquid se habens ad modum 
+            <lb ed="#V" n="7"/>materiae: sic etiam ipsae intelligentiae habebet suum¬ 
+            <lb ed="#V" n="8"/>materiale, siue suum hyleachin, vt dicitur in Con¬ 
+            <lb ed="#V" n="9"/>mento. 9. propositionis de causis. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2422">
+            <lb ed="#V" n="10"/>Prima ergo via ad probandum, animam non es¬ 
+            <lb ed="#V" n="11"/>se sic compositam, sumetur, prout anima compara 
+            <lb ed="#V" n="12"/>tur ad corpus generaliter, &amp; ista erit generalis non 
+            <lb ed="#V" n="13"/>solum uaetum ad animam, sed quantum ad omnes 
+            <lb ed="#V" n="14"/>formas intelligibiles: quas coni nomine vocamus 
+            <lb ed="#V" n="15"/>Angelos, &amp; Philosophi eas vocant intelligentias. 
+            <lb ed="#V" n="16"/>Aliae aunt tres viae sumuntur: proutanima compa¬ 
+            <lb ed="#V" n="17"/>ratur ad suum corpus specialiter, &amp; illae tres viae spe¬ 
+            <lb ed="#V" n="18"/>cialiter probabunt de anima, quod non sit composi¬ 
+            <lb ed="#V" n="19"/>ta Propter primum sciendum, quod loquendo de ma¬ 
+            <lb ed="#V" n="20"/>teria proprie sumpta: hic vocamus materiam, quod 
+            <lb ed="#V" n="21"/>est pura potentia, secundum quem modum loqui¬ 
+            <lb ed="#V" n="22"/>tur Aug. in li. Conses. quod materiam debemus intel 
+            <lb ed="#V" n="23"/>ligere per omnis actus priuationem. Illlud erit er¬ 
+            <lb ed="#V" n="24"/>go materia, quod erit ita prope nihil, quod non po¬ 
+            <lb ed="#V" n="25"/>testesse magis prope, &amp; est ita longe a Deo, quod non 
+            <lb ed="#V" n="26"/>potest esse magis longe, nisi esset nihil: &amp; est ita pu¬ 
+            <lb ed="#V" n="27"/>ra potentia, quod nullus est ibi actus, sed est priuata¬ 
+            <lb ed="#V" n="28"/>omni actu. Propter quod nec est nihil, nec est ali¬ 
+            <lb ed="#V" n="29"/>quid, sed est id, quod potest esse aliquid, quae om¬ 
+            <lb ed="#V" n="30"/>nia sunt superius declarata, quae etiam omnia pos¬ 
+            <lb ed="#V" n="31"/>sunt patere ex dictis Aug. &amp; Philosophi, &amp; Con¬ 
+            <lb ed="#V" n="32"/>men. sui. His visisist quid importatur nomine ma¬ 
+            <lb ed="#V" n="33"/>teriae proprie sumptae: dicemus, quod si talis materia 
+            <lb ed="#V" n="34"/>esset in anima, non differret a materia corporis. 
+            <lb ed="#V" n="35"/>nMale n. fecit Auicebron, qui posuit materiam in 
+            <lb ed="#V" n="36"/>corporibus, &amp; in spiritibus: cum ex quo posuit ibi¬ 
+            <lb ed="#V" n="37"/>materiam: oportuit eam ponere secundum se eam¬ 
+            <lb ed="#V" n="38"/>dem in corporibus, &amp; spiritibus. Nam si in spiri¬ 
+            <lb ed="#V" n="39"/>tibus esset materia, quae sit potentia pura, illa scumdu¬ 
+            <lb ed="#V" n="40"/>se, non habebit per quid differat a materia corpo¬ 
+            <lb ed="#V" n="41"/>ris. Nam omnis differentia entium, vel sumitur 
+            <lb ed="#V" n="42"/>secundum numerum tantum: prout differunt in 
+            <lb ed="#V" n="43"/>diuidua sub eadem specie, &amp; de hac non curamus. 
+            <lb ed="#V" n="44"/>t quia hoc est semper per quantitatems vt quia non 
+            <lb ed="#V" n="45"/>constat indiuiduum ex tota materia sua: ideo in 
+            <lb ed="#V" n="46"/>diuersis partibus materiae poterunt recipi diuersae 
+            <lb ed="#V" n="47"/>indiuiduales formae. Alia autem differentia est essen¬ 
+            <lb ed="#V" n="48"/>tialis, vel per essentiam. Et ista semper accipitur in 
+            <lb ed="#V" n="49"/>entibus per magis appropinquare, vel magis dista 
+            <lb ed="#V" n="50"/>rea Deo, a quo producta sunt: vel magis appro¬ 
+            <lb ed="#V" n="51"/>pinquare, &amp; magis distare a nihilo, ex quo ordina¬ 
+            <lb ed="#V" n="52"/>liter producta sunt. Ista est. nu. fides nostra, &amp; veri¬ 
+            <lb ed="#V" n="53"/>,tas, quod omnia a Deo producta sunt, &amp; ex nihilo¬ 
+            <lb ed="#V" n="54"/>creata sunt, &amp; omnia sunt inter Deum, &amp; nihil, vt 
+            <lb ed="#V" n="55"/>non sint duae res essentialiter differentes sexcludem 
+            <lb ed="#V" n="56"/>do ea, quoar differunt solo numero, quin vna sit pro¬ 
+            <lb ed="#V" n="57"/>pinquior Deo, &amp; remotior a nihilo, &amp; alia econ¬ 
+            <lb ed="#V" n="58"/>uerso. Nam ista generabilia sunt remotiora a Deo, 
+            <lb ed="#V" n="59"/>qu sempiterna, &amp; sunt propinquiora nihilo, quod illa. 
+            <lb ed="#V" n="60"/>Propter quod dicit Philosophus in 2. de Genera¬ 
+            <lb ed="#V" n="61"/>tione, quod propter longe distare a primo principio, 
+            <lb ed="#V" n="62"/>siue a Deo, est generatio, &amp; corruptio in istis in¬ 
+            <!--35.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>serioribus: &amp; sicut omnia generabilia plus distant 
+            <lb ed="#V" n="64"/>a Deo, quaom sempiterna: sic vnum generabile essentia¬ 
+            <lb ed="#V" n="65"/>liter differens ab alio: plus distat, vel appropin¬ 
+            <lb ed="#V" n="66"/>quat Deo, quam aliud: vel plus distat, aut plus appro 
+            <lb ed="#V" n="67"/>pinquat nihilo, quam aliud. Sic etiam ipsa sem¬ 
+            <lb ed="#V" n="68"/>piterna se habent: Et non solum in diuersis rebus 
+            <lb ed="#V" n="69"/>per se existentibus etiam essentialiter differenti¬ 
+            <lb ed="#V" n="70"/>bus: inuenimus hanc differentiam per minus, &amp; 
+            <lb ed="#V" n="71"/>magis distare a Deo, &amp; a nihilosinter quao sunt om¬ 
+            <lb ed="#V" n="72"/>nia creata, sed in partibus eiusdem compositi in¬ 
+            <lb ed="#V" n="73"/>uenimus hanc differentiam, vt forma magis di¬ 
+            <lb ed="#V" n="74"/>stat a nihilo, &amp; magis appropinquat Deo, quom mate¬ 
+            <lb ed="#V" n="75"/>ria, &amp; actus: scudum quod huiusmodi plus appropinquat Deo, 
+            <lb ed="#V" n="76"/>&amp; magis distat a nihilo, quam potentia. Quis ergo au¬ 
+            <lb ed="#V" n="77"/>debit dicere posse esse, velposse intelligi duas po¬ 
+            <lb ed="#V" n="78"/>tentias puras essentialiter differentes: Omnia n. 
+            <lb ed="#V" n="79"/>verba sapientum hoc sonant, quod in pura potentia 
+            <lb ed="#V" n="80"/>nulla potest esse distinctio, &amp; quod actus est qui distin¬
+            <lb ed="#V" n="81"/>guit. Potest n. intelligi pura potentia per se ipsam 
+            <lb ed="#V" n="82"/>diuersificari ab actu, quia res compositae distin¬ 
+            <lb ed="#V" n="83"/>guuntur per actum, &amp; potentiam: actus, &amp; poten¬ 
+            <lb ed="#V" n="84"/>tia seipsis diuersificari poterunt. Sic ergo actus 
+            <lb ed="#V" n="85"/>potest diuersificari a potentia, vel vnus actus non 
+            <lb ed="#V" n="86"/>purus diuersificari poterit ab alio actu puro, vel 
+            <lb ed="#V" n="87"/>non puro. Sed quod vnus actus purus essentialiter 
+            <lb ed="#V" n="88"/>diue rsificetur ab alio actu puro, &amp; sint duo Dij, 
+            <lb ed="#V" n="89"/>vel quod vna potentia ponatur essentialiter, &amp; diuer¬ 
+            <lb ed="#V" n="90"/>sificetur ab alia potentia pura, &amp; sint duae poten¬ 
+            <lb ed="#V" n="91"/>tiae purae essentialiter differentes: credimus hoc es¬ 
+            <lb ed="#V" n="92"/>se impossibilius, quam ex hoc alia impossibilia 
+            <lb ed="#V" n="93"/>considerere. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2611">
+            <lb ed="#V" n="94"/>Sed dicunt aliqui, quod etiam in potentijs puris 
+            <lb ed="#V" n="95"/>potest esse distinctio non per se, sed per compara¬ 
+            <lb ed="#V" n="96"/>tionem ad alium, &amp; alium actum. Sed istud stare¬ 
+            <lb ed="#V" n="97"/>non potest, quia si per comparationem ad alium 
+            <lb ed="#V" n="98"/>&amp; alium actum differunt dictae potentiae: oportet, 
+            <lb ed="#V" n="99"/>quod vnus illorum actuum sit nobilior alio. Illa ergo 
+            <lb ed="#V" n="100"/>potentia, quae de se habet ordinem ad nobiliorem 
+            <lb ed="#V" n="101"/>actum, erit nobilior alia: postquam de se ordinenm 
+            <lb ed="#V" n="102"/>habet ad nobiliorem actum, quam alia: &amp; si est 
+            <lb ed="#V" n="103"/>nobilior alia, erit proprinquior Deo, quam alia, 
+            <lb ed="#V" n="104"/>&amp; per consequens non erit potentia pura sicuc 
+            <lb ed="#V" n="105"/>alia, quia per actum appropinquamus Deo, &amp; 
+            <lb ed="#V" n="106"/>per potentiam appropinquamus nihilo. Sed 
+            <lb ed="#V" n="107"/>sorte dices, quod illae duae potentiae purae istum 
+            <lb ed="#V" n="108"/>ordinem ad nobiliorem, vel ignobiliorem actum 
+            <lb ed="#V" n="109"/>non habebunt de se, quod tunc una esset nobilior¬ 
+            <lb ed="#V" n="110"/>alia, &amp; esset propinquior Deo, &amp; actui vna poten¬ 
+            <lb ed="#V" n="111"/>tia, quam alia &amp; per consequens non esset poten¬ 
+            <lb ed="#V" n="112"/>tia pura: sicut &amp; alia; sed dices, quod hoc habe¬ 
+            <lb ed="#V" n="113"/>bunt ex ordine creatoris. Ad quod dici potest, quod 
+            <lb ed="#V" n="114"/>sicut licet figulo ex eadem massa facere aliud vas 
+            <lb ed="#V" n="115"/>in honorem: aliud vero in contumeliam: sic, &amp; 
+            <lb ed="#V" n="116"/>multomagis, licet Deo ex eadem materia facere¬ 
+            <lb ed="#V" n="117"/>rem magis nobilem, &amp; minus nobilem: &amp; ex 
+            <lb ed="#V" n="118"/>hoc non soluitur difficultas, quod possint esse 
+            <lb ed="#V" n="119"/>duae potentiae purae essentialiter disserentes. Ex 
+            <lb ed="#V" n="120"/>his autem omnibus nolumus plus habere, nisi 
+            <lb ed="#V" n="121"/>quod in anima, vel in quacunque re intellectua¬ 
+            <lb ed="#V" n="122"/>li, vel non est ibi propria materia, quae sit pura po¬ 
+            <lb ed="#V" n="123"/>tentia: vel si sit ibi talis materia illa absoluta ab 
+            <lb ed="#V" n="124"/>omni forma, non habebit per quid differat a ma¬ 
+            <!--36.xml-->
+            <pb ed="#V" n="36"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>teria corporis sic accepta. Propter quod essentia¬ 
+            <lb ed="#V" n="2"/>liter erir eadem materia haec, &amp; illa. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2693">
+            <lb ed="#V" n="3"/>Sed si dicas, quod in anima est materia: non 
+            <lb ed="#V" n="4"/>quae sit pura potentia, sed quia in ipsa natura ani¬ 
+            <lb ed="#V" n="5"/>mae, &amp; cuiussibet intelligentiae est aliqua poten¬ 
+            <lb ed="#V" n="6"/>tialitas ad suscipiendas vlteriores perfectiones: 
+            <lb ed="#V" n="7"/>videlicet potentias, habitus, &amp; actus, quae omnia 
+            <lb ed="#V" n="8"/>reperiuntur, tam in animabus humanis, quam in 
+            <lb ed="#V" n="9"/>intelligentijs; Sic dicens sententiam teneas, sed 
+            <lb ed="#V" n="10"/>linguam corrigas. Non ergo dicas animam, vel in¬ 
+            <lb ed="#V" n="11"/>tell igentiam esse compositam ex materia, &amp; for¬ 
+            <lb ed="#V" n="12"/>ma, sed ex potentia, &amp; actu, vel ex substantia, &amp; ac 
+            <lb ed="#V" n="13"/>cidente: vel ex essentia, &amp; esse, quae omnia vna cum 
+            <lb ed="#V" n="14"/>eo hilariter concedemus. His itaque habitis re¬ 
+            <lb ed="#V" n="15"/>uertamur ad propositum, &amp; dicamus, quod in 
+            <lb ed="#V" n="16"/>anima, vel in Angelo, vel non est materia, quae sit 
+            <lb ed="#V" n="17"/>pura potentia: vel si est ibi talis materia; erit eadem 
+            <lb ed="#V" n="18"/>per essentiam cum materia corporum, quia pu¬ 
+            <lb ed="#V" n="19"/>ra potentia a pura potentia essentialiter differre 
+            <lb ed="#V" n="20"/>non potest. Sed hoc forte, qui concederet non ha¬ 
+            <lb ed="#V" n="21"/>beret pro inconuenienti, quod materia animae, 
+            <lb ed="#V" n="22"/>vel intelligentiae sic accepta non haberet per quod 
+            <lb ed="#V" n="23"/>differret a materia corporum sic accepta. Quod 
+            <lb ed="#V" n="24"/>Auicebron, &amp; sui sequaces videntur concede 
+            <lb ed="#V" n="25"/>re. sed hoc posito, quod non esset alia materia ani¬ 
+            <lb ed="#V" n="26"/>marum, vel intelligentiarum, &amp; corporum: tunc 
+            <lb ed="#V" n="27"/>ex corpore posset fieri spiritus, vel creatura spiri¬ 
+            <lb ed="#V" n="28"/>tualis, &amp; econuerso. Sic ergo dicens audias Au¬ 
+            <lb ed="#V" n="29"/>gust. 7. super Gen quod anima non est corporea, 
+            <lb ed="#V" n="30"/>nec est ex corporeis elementis, quia omne tale est 
+            <lb ed="#V" n="31"/>corporeum, &amp; idem in eodem. omne quippe cor¬ 
+            <lb ed="#V" n="32"/>pus in omne corpus posse mutari, non defue¬ 
+            <lb ed="#V" n="33"/>runt, qui hoc assererent. Corpus autem ali¬ 
+            <lb ed="#V" n="34"/>quod, siue terrenum, siue coeleste conuerti in ani 
+            <lb ed="#V" n="35"/>mam, fierique naturam incorpoream, nec quem 
+            <lb ed="#V" n="36"/>quam sensisse scio: nec fides habet. Idem etiam 
+            <lb ed="#V" n="37"/>in eodem loquens de anima humana ait, quod 
+            <lb ed="#V" n="38"/>habet anima innumerabilia longe dissimilia cun¬ 
+            <lb ed="#V" n="39"/>cto generi corporum, quae non nisi intellectu, 
+            <lb ed="#V" n="40"/>atque ratione conspiciat, quod nullus tacitus sen¬ 
+            <lb ed="#V" n="41"/>sus aspirat. Quapropter non materiae humanae at 
+            <lb ed="#V" n="42"/>tribuendum est, quod sit, nec de terra, nec de a¬ 
+            <lb ed="#V" n="43"/>qua, nec de quolibet elemento: sed si esset eadem 
+            <lb ed="#V" n="44"/>materia animae, &amp; corporum de corpore posset 
+            <lb ed="#V" n="45"/>fieri anima, &amp; econuerso. Idem etiam in eodem¬ 
+            <lb ed="#V" n="46"/>Sicut enim Deus omnem creaturam: sic anima 
+            <lb ed="#V" n="47"/>omnem corpoream creaturam naturae dignitate¬ 
+            <lb ed="#V" n="48"/>praecellit. Cum ergo tanta sit excellentia animae¬ 
+            <lb ed="#V" n="49"/>ad corpora: nullo modo vnum in aliud mutari¬ 
+            <lb ed="#V" n="50"/>potest nec ex eadem materia esse possunt. Idem 
+            <lb ed="#V" n="51"/>etiam in eodem ait: Omne quippe corpus in 
+            <lb ed="#V" n="52"/>aliud corpus mutari posse credibile est. Quodli¬ 
+            <lb ed="#V" n="53"/>bet autem corpus mutari in animam est absurdis¬ 
+            <lb ed="#V" n="54"/>simum. Idem etiam in eodem dicit, quod quidam puta¬ 
+            <lb ed="#V" n="55"/>uerunt quintum quoddam corpus esse: vnde fit 
+            <lb ed="#V" n="56"/>anima, vt illud corpus Celeste purum, &amp; lucidum. 
+            <lb ed="#V" n="57"/>Sed, vt vult Augustinus ibi, si corpus est, siue sit 
+            <lb ed="#V" n="58"/>vnum de quatuor elementis, siue sit quintum 
+            <lb ed="#V" n="59"/>corpus Caeleste: omne tale habens longitudi¬ 
+            <lb ed="#V" n="60"/>nem, &amp; latitudinem, nec est anima, nec inde fa¬ 
+            <lb ed="#V" n="61"/>cta credenda est anima. Patet ergo per August. 
+            <lb ed="#V" n="62"/>quod ex nullo corpore potest fieri anima, nec 
+            <!--36.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>econuerso. Propter quod materia proprie sum¬ 
+            <lb ed="#V" n="64"/>pta, quae non habet per quid differat a materia cot 
+            <lb ed="#V" n="65"/>porum, non potest poni in anima. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2836">
+            <lb ed="#V" n="66"/>DVB. I. LATIRALIS. 
+            <lb ed="#V" n="67"/>An proprie probari possit, animam esse formam. 
+            <lb ed="#V" n="68"/>conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2845">
+            <lb ed="#V" n="69"/>Aegid. 1. sent d. 8. 3 princ q. 3. D. Th. 4. D.q. 75. 44. 45Tho. 
+            <lb ed="#V" n="70"/>Arg. d. 17. q. 1. art. 3. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2852">
+            <lb ed="#V" n="71"/>VLTERIVS forte dubitaret aliqus 
+            <lb ed="#V" n="72"/>de anima comparata ad proprium 
+            <lb ed="#V" n="73"/>suum corpus. Vtrum ex hoc pos¬ 
+            <lb ed="#V" n="74"/>sint sumi speciales rationes, quod 
+            <lb ed="#V" n="75"/>anima non sit composita ex materia, &amp; forma. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2865">
+            <lb ed="#V" n="76"/>Dicendum autem, vt supra tangebatur, quod 
+            <lb ed="#V" n="77"/>comparando animam generaliter ad corpus, po¬ 
+            <lb ed="#V" n="78"/>terit sumi via, &amp; ratio generalis tam de quali¬ 
+            <lb ed="#V" n="79"/>bet anima, quam de qualibet intelligentia, quod 
+            <lb ed="#V" n="80"/>non erat ex forma, &amp; materia proprie sumpta. 
+            <lb ed="#V" n="81"/>quia tunc quaelibet anima, &amp; quaelibet intelligen¬ 
+            <lb ed="#V" n="82"/>tia posset fieri corpus, &amp; econuerso: cum habe¬ 
+            <lb ed="#V" n="83"/>rent eandem materiam cum corpore, &amp; econuer 
+            <lb ed="#V" n="84"/>so. Nunc autem volumus speciales vias tangere 
+            <lb ed="#V" n="85"/>specialiter probantes de anima per comparatio 
+            <lb ed="#V" n="86"/>nem specialem ad suum proprium corpus, quod 
+            <lb ed="#V" n="87"/>ex materia, &amp; forma non possit esse composita: 
+            <lb ed="#V" n="88"/>loquendo de materia proprie, quae est potentia 
+            <lb ed="#V" n="89"/>pura, vt hactenus loquebamur. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2898">
+            <lb ed="#V" n="90"/>Inuestigamus enim hoc tribus vijs, vt sit pri¬ 
+            <lb ed="#V" n="91"/>ma via: prout materia animae comparatur ad ma¬ 
+            <lb ed="#V" n="92"/>teriam proprii corporis. Secunda prout forma¬ 
+            <lb ed="#V" n="93"/>animae comparatur ad materiam propriam &amp; ad 
+            <lb ed="#V" n="94"/>materiam proprii corporis. Tertia prout tota 
+            <lb ed="#V" n="95"/>anima, quae ponitur sic composita, comparatur 
+            <lb ed="#V" n="96"/>ad suum proprium corpus. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2917">
+            <lb ed="#V" n="97"/>Prima via sic patet: Nam sicut est impossibile r 
+            <lb ed="#V" n="98"/>duas formas ciusdem rationis esse simul, siue sint 
+            <lb ed="#V" n="99"/>substantiales, siue accidentales, vt quod in aliquo. 
+            <lb ed="#V" n="100"/>corpore sint simul duae albedines, vel duae forme 
+            <lb ed="#V" n="101"/>substantiales eiusdem rationis. Possunt enim es¬ 
+            <lb ed="#V" n="102"/>se in eodem pomo color, &amp; sapor: sed non duo 
+            <lb ed="#V" n="103"/>colores, &amp; potissime duo colores eiusdem ratio¬ 
+            <lb ed="#V" n="104"/>nis: vt duae albedines: quae si essent separatae, non 
+            <lb ed="#V" n="105"/>haberent per quid differrent. Quae enim non 
+            <lb ed="#V" n="106"/>possunt habere esse distinctum, separata a meteria, 
+            <lb ed="#V" n="107"/>non possunt habere esse distinctum in eadem mate¬ 
+            <lb ed="#V" n="108"/>ria. Duae ergo albedines si separatae a materia 
+            <lb ed="#V" n="109"/>non possunt habere esse distipqum in eadem ma¬ 
+            <lb ed="#V" n="110"/>teria simul: multomagis non poterunt habere 
+            <lb ed="#V" n="111"/>esse distinctum. Nam talia ideo suntdistincta per¬ 
+            <lb ed="#V" n="112"/>materiam: quia recipiuntur in alia, &amp; alia materia. 
+            <lb ed="#V" n="113"/>Et sicut duae formaesloquendo de formis realibus 
+            <lb ed="#V" n="114"/>si sunt eiusdem rationis non possunt esse simul 
+            <lb ed="#V" n="115"/>naturaliter: sic duae materiae eiusdem rationis si¬ 
+            <lb ed="#V" n="116"/>mul esse non possunt. non haberent enim per¬ 
+            <lb ed="#V" n="117"/>quid distinguerentur. Oporteret igitur, quod 
+            <lb ed="#V" n="118"/>vna fieretalia. Si ergo anima haberet materian¬ 
+            <lb ed="#V" n="119"/>partem sui: illa materia non posset esse simul cum 
+            <lb ed="#V" n="120"/>materia corporis, quia esset eiusdem rationi¬ 
+            <lb ed="#V" n="121"/>cum ea, vt quaestione praecedenti est declaratum.
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2974">
+            <!--37.xml-->
+            <pb ed="#V" n="37"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Sed dicet aliquis, quod differt materia ani. 
+            <lb ed="#V" n="2"/>mae a materia corporis, quia materia corporis est 
+            <lb ed="#V" n="3"/>quanta: materia autem animae non est quanta. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e2990">
+            <lb ed="#V" n="4"/>Ad quod dici potest quod si sint duae materiae 
+            <lb ed="#V" n="5"/>eiusdem rationis, &amp; simul: non poterit intelligi¬ 
+            <lb ed="#V" n="6"/>vna esse quanta, quin alia intelligatur esse quanta. 
+            <lb ed="#V" n="7"/>Imaginabimur quidem, quod natura, uel intelli¬ 
+            <lb ed="#V" n="8"/>gentia prius in anima, uel essentia eius adhae¬ 
+            <lb ed="#V" n="9"/>ret essentia corporis, quam quantitas. quia om¬ 
+            <lb ed="#V" n="10"/>nis forma accidentalis est compositioni contin¬ 
+            <lb ed="#V" n="11"/>gens rei compositae. Prius ergo intelligitur res 
+            <lb ed="#V" n="12"/>composita ex materia, &amp; forma: postea intelligi¬ 
+            <lb ed="#V" n="13"/>tur, quod adueniat ei quaecunque forma acciden¬ 
+            <lb ed="#V" n="14"/>talis. Ipsae etiam dimensiones, vel si sint indeter¬ 
+            <lb ed="#V" n="15"/>minatae secundum Commen. praecedunt formam 
+            <lb ed="#V" n="16"/>substantialem in materia, tamen determinatae se¬ 
+            <lb ed="#V" n="17"/>quuntur. quantitas ergo corporis fundabitur 
+            <lb ed="#V" n="18"/>in materia corporis, &amp; fundabitur in materia ani¬ 
+            <lb ed="#V" n="19"/>mae. &amp; si materia animae non est alterius rationis ab il¬ 
+            <lb ed="#V" n="20"/>la: non erit dare causam: quare quantitas exten¬ 
+            <lb ed="#V" n="21"/>dit unam materiam, &amp; non aliam, &amp; maxime cum 
+            <lb ed="#V" n="22"/>perficiantur per eandem formam, erit ergo du¬ 
+            <lb ed="#V" n="23"/>plex inconueniens uidelicet, quod illa materia 
+            <lb ed="#V" n="24"/>animae extenderetur extensione quantitatis cor¬ 
+            <lb ed="#V" n="25"/>poris, &amp; fieret idem cum materia corporis. nam¬ 
+            <lb ed="#V" n="26"/>quod duae materiae, vel duae quaecunque res eius¬ 
+            <lb ed="#V" n="27"/>dem rationis sint simul: non remanebunt distin¬ 
+            <lb ed="#V" n="28"/>cte, naturaliter loquendo. &amp; quod aliquod acci¬ 
+            <lb ed="#V" n="29"/>dens: vrputa quantitas sit in duabus materiis eius¬ 
+            <lb ed="#V" n="30"/>dem rationis, &amp; quod extendat vnam, &amp; non ex 
+            <lb ed="#V" n="31"/>tendat aliam: stare non potest. Quod enim ani¬ 
+            <lb ed="#V" n="32"/>ma humana non extendatur extensione corpo¬ 
+            <lb ed="#V" n="33"/>ris: sicut omnes aliae formae, vel sicut animae bru¬ 
+            <lb ed="#V" n="34"/>torum: hoc est, quia non est eiusdem rationis 
+            <lb ed="#V" n="35"/>cum illis. Nam omnes aliae formae substantiales 
+            <lb ed="#V" n="36"/>inductae per agens naturale: sunt eductae de po¬ 
+            <lb ed="#V" n="37"/>tentia materiae. &amp; ideo sunt eductae sicut pars de 
+            <lb ed="#V" n="38"/>parte, &amp; totum de toto, ut sit de illis formis pars 
+            <lb ed="#V" n="39"/>in parte, &amp; tota in toto: quo posito extensione 
+            <lb ed="#V" n="40"/>totius receptibilis extenduntur totae formae rece¬ 
+            <lb ed="#V" n="41"/>ptae, sed anima humana non educitur de poten¬ 
+            <lb ed="#V" n="42"/>tia materiae, sed immediate producitur a Deo. 
+            <lb ed="#V" n="43"/>propter quod sic excedit suam materiam, vt non 
+            <lb ed="#V" n="44"/>extendatur extensione materiae, sed quantuncun¬ 
+            <lb ed="#V" n="45"/>que non sit educta de potentia materiae, si habe¬ 
+            <lb ed="#V" n="46"/>ret in se ueram materiamsquia illa esset pura po¬ 
+            <lb ed="#V" n="47"/>tentia, non haberet secundum se per quid differ 
+            <lb ed="#V" n="48"/>ret a materia sui corporis, quae etiam de se est pu¬ 
+            <lb ed="#V" n="49"/>ra potentia &amp; quia esser eiusdem rationis cum 
+            <lb ed="#V" n="50"/>illa, si esset simul cum ea: fieret idem cum ipsa. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3094">
+            <lb ed="#V" n="51"/>Secunda via ad hoc idem sumitur: si forma¬ 
+            <lb ed="#V" n="52"/>animae comparetur ad suam materiam propria¬ 
+            <lb ed="#V" n="53"/>&amp; ad materiam proprii corporis. Nam forte quis 
+            <lb ed="#V" n="54"/>proteruiret dicens, quod quantumcunque mate¬ 
+            <lb ed="#V" n="55"/>ria animae sit eiusdem rationis, cum materia sui¬ 
+            <lb ed="#V" n="56"/>corporis [ quod negari non potest, cum quaeli¬ 
+            <lb ed="#V" n="57"/>bet de se sit pura potentia  hoc non obstante: 
+            <lb ed="#V" n="58"/>materia animae remanebit distincta a materia cor¬ 
+            <lb ed="#V" n="59"/>poris. sed hoc posito sequitur, quod eadem forma¬ 
+            <lb ed="#V" n="60"/>animae perficiet duas materias eiusdem rationis. 
+            <lb ed="#V" n="61"/>Nam sicut est inconueniens, quod eadem mate¬ 
+            <lb ed="#V" n="62"/>ria perficiatur a duabus formis eiusdem rationis, 
+            <!--37.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>sic est inconueniens, quod vna forma perficiat duas 
+            <lb ed="#V" n="64"/>materias eiusdem rationis. Ad hanc enim posi¬ 
+            <lb ed="#V" n="65"/>tionem potest quis pro libito cogitare. Nam non 
+            <lb ed="#V" n="66"/>solum sequerentur, quae dicta sunt, sed etiam se¬ 
+            <lb ed="#V" n="67"/>queretur, quod forma animae prius perficeret ma¬ 
+            <lb ed="#V" n="68"/>teriam propriam, &amp; postea ex consequenti, &amp; per¬ 
+            <lb ed="#V" n="69"/>accidens perficeret materiam corporalem. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3142">
+            <lb ed="#V" n="70"/>Tertia via ad hoc idem sumitur, prout tota ani¬ 
+            <lb ed="#V" n="71"/>ma comparatur ad materiam corporalem. Nam 
+            <lb ed="#V" n="72"/>quaelibet tota forma secundum se totam habet 
+            <lb ed="#V" n="73"/>perficere suam materiam. Si ergo anima esset 
+            <lb ed="#V" n="74"/>composita ex materia, &amp; forma, cum ipsa sit for¬ 
+            <lb ed="#V" n="75"/>ma corporis secundum se totam; consequens es¬ 
+            <lb ed="#V" n="76"/>set, quod secundum se totam, siue secundum suam 
+            <lb ed="#V" n="77"/>totam essentiam esset forma corporis, &amp; secun¬ 
+            <lb ed="#V" n="78"/>dum se totam esset forma, &amp; non esset composi¬ 
+            <lb ed="#V" n="79"/>ta ex materia, &amp; forma: cum pura potentia cuius¬ 
+            <lb ed="#V" n="80"/>modi est materia proprie sumpta, rationem actus 
+            <lb ed="#V" n="81"/>endelechiae habere non possit.
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3171">
+            <lb ed="#V" n="82"/>DVP. II. LATERALIS. 
+            <lb ed="#V" n="83"/>An anima sit hoc aliquid, &amp; forma. 
+            <lb ed="#V" n="84"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3181">
+            <lb ed="#V" n="85"/>Acgd. 1scat d. 3.. princ4a n oorpD. Th. 1. pr.q4. 7Sart, 
+            <lb ed="#V" n="86"/>Et de creat. spe. q. 2. art. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3188">
+            <lb ed="#V" n="87"/>VLTTRIVS forte dubitaret aliquis 
+            <lb ed="#V" n="88"/>de ipsa anima: cum habitum sit, quod 
+            <lb ed="#V" n="89"/>non est compositum ex materia, &amp; 
+            <lb ed="#V" n="90"/>forma; sed, quod secundum se totam est 
+            <lb ed="#V" n="91"/>forma, vtrum possit esse hoc aliquid, &amp; forma. Di¬ 
+            <lb ed="#V" n="92"/>cendum, quod tota causa, quare dubitamus, vtrum 
+            <lb ed="#V" n="93"/>anima possit esse hoc aliquid: hoc est propter cor¬ 
+            <lb ed="#V" n="94"/>pus, cuius est forma. Videtur namque contra ratio¬ 
+            <lb ed="#V" n="95"/>nem formae: cum non habeat per se esse, quod sit hoc 
+            <lb ed="#V" n="96"/>aliquid, de cuius ratione videtur esse habere per¬ 
+            <lb ed="#V" n="97"/>se esse. Sciendum ergo, quod anima potest compara¬ 
+            <lb ed="#V" n="98"/>ri ad corpus, quantum ad praesens spectat. 5. mo¬ 
+            <lb ed="#V" n="99"/>dis. Vno modo per se ipsam. Secundo modo per 
+            <lb ed="#V" n="100"/>suum agens. Tertio modo persuas potentias Quar¬ 
+            <lb ed="#V" n="101"/>to modo per suum esse separatum, quod habet 
+            <lb ed="#V" n="102"/>post mortem corporis. Quinto modo per suum esse 
+            <lb ed="#V" n="103"/>reunitum, quod habebit post resurrectionem. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3227">
+            <lb ed="#V" n="104"/>Quantum ad primum modum sic distinguunt ali¬ 
+            <lb ed="#V" n="105"/>qui dicentes, quod aliquid potest dici hoc aliquid duo¬ 
+            <lb ed="#V" n="106"/>bus modis: vel ex eo, quod habet esse per se subsi¬ 
+            <lb ed="#V" n="107"/>stens in natura, &amp; sic anima ronalis est hoc aliquod, 
+            <lb ed="#V" n="108"/>nec ex hoc sequitur, quod si habet esse per se subsi stenes 
+            <lb ed="#V" n="109"/>in natura, quod habeat materiam partem sui. Hoc ne 
+            <lb ed="#V" n="110"/>videlicet habere sic materiam, accidit subsistenti, quia 
+            <lb ed="#V" n="111"/>potest aliquid per se subsistere sine materia. Immo¬ 
+            <lb ed="#V" n="112"/>magis per se subsistentia sunt immaterialia, quo ma¬ 
+            <lb ed="#V" n="113"/>terialia. Alio modo potest aliquid dici hoc aliquid, 
+            <lb ed="#V" n="114"/>quia indiuiduatur per aliquid, quod est in eo, &amp; 
+            <lb ed="#V" n="115"/>sic anima non est hoc aliquid, quia non indiuidua¬ 
+            <lb ed="#V" n="116"/>tur per aliquid, quod in ipsa est, sed indiuidua 
+            <lb ed="#V" n="117"/>tur per aliquid, in quo est ipsa. Indiuiduatur. ni.m 
+            <lb ed="#V" n="118"/>per suum corpus, sed hoc non potest ad ple. 
+            <lb ed="#V" n="119"/>num stare. Nam quod anima habeat esse per se sub¬ 
+            <lb ed="#V" n="120"/>sistens in natura: cum hoc sit de natura animae, 
+            <lb ed="#V" n="121"/>quod sit forma corporis, &amp; vna natura humana 
+            <lb ed="#V" n="122"/>composita sit ex natura animae, &amp; natura corpo¬ 
+            <!--38.xml-->
+            <pb ed="#V" n="38"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ns. Cum ergo forma naturaliter habeat vnum esse 
+            <lb ed="#V" n="2"/>cum sua materia. &amp; cum non habeat per se esse, 
+            <lb ed="#V" n="3"/>sed habeat esse in sua materia, quod sit hoc aliquid, 
+            <lb ed="#V" n="4"/>quia est per se subsistens in natura, non videtur 
+            <lb ed="#V" n="5"/>bene dictum. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3288">
+            <lb ed="#V" n="6"/>Recurremus ergo ad ipsam indiuiduationem, ex 
+            <lb ed="#V" n="7"/>qua illi volebant accipere causam, &amp; rationem, 
+            <lb ed="#V" n="8"/>quod anima possit esse hoc aliquid, &amp; forma. Di¬ 
+            <lb ed="#V" n="9"/>stinguemus enim de indiuiduatione formae dicenm 
+            <lb ed="#V" n="10"/>tes, quod Valiquae formae sunt aptae natae indiuidua 
+            <lb ed="#V" n="11"/>ri per se ipsas. Sunt enim sic indiuiduae eo ipso, 
+            <lb ed="#V" n="12"/>quod non sunt aptae natae recipi in materia, &amp; ta¬ 
+            <lb ed="#V" n="13"/>les formae sunt intelligentiae. Eo enim ipso, quod 
+            <lb ed="#V" n="14"/>intelligentiae non sunt aptae natae recipi in ma¬ 
+            <lb ed="#V" n="15"/>tteria, seipsis sunt hoc aliquid. Vnde &amp; Philoso. 
+            <lb ed="#V" n="16"/>phus in 6. Met. t. c. 16. ait: Omnia autem, quae non ha¬ 
+            <lb ed="#V" n="17"/>pent materiam, nec intelligibilem, nec sensibilem, 
+            <lb ed="#V" n="18"/>vnumquodque eorum statim est vnum illud, quod 
+            <lb ed="#V" n="19"/>est per essentiam suam. vbi Commem. vult, quod in ta¬ 
+            <lb ed="#V" n="20"/>libus quidditas, &amp; existentia sunt idem. In om¬ 
+            <lb ed="#V" n="21"/>e nibus enim habentibus simpliciter quidditatem 
+            <lb ed="#V" n="22"/>est eadem res quidditas, &amp; existentia sed non eodem 
+            <lb ed="#V" n="23"/>a modo. nam illa res dicitur esse, vt habet esse in re¬ 
+            <lb ed="#V" n="24"/>i. rum natura: sed dicitur quidditas, vt est obiecti 
+            <lb ed="#V" n="25"/>intellectus. Res autem corporales, vt habent esse 
+            <lb ed="#V" n="26"/>in rerum natura, sunt hoc aliquid, &amp; sunt quid in 
+            <lb ed="#V" n="27"/>diuiduum. Sed vt comparantur ad intellectum, sunt 
+            <lb ed="#V" n="28"/>aliquid vniuersale, &amp; quia obiectum intellectus pel¬ 
+            <lb ed="#V" n="29"/>se. &amp; primo non est ipsum indiuiduum, sed ipsum 
+            <lb ed="#V" n="30"/>vniuersale: consequens est, quod ista materialia, vt ha¬ 
+            <lb ed="#V" n="31"/>bent esse in rerum natura: non sunt proprium in¬ 
+            <lb ed="#V" n="32"/>tellectus obiectum, sed vt sunt abstracta per intel 
+            <lb ed="#V" n="33"/>lectum sunt obiectum eius Formae ergo separatae, cu¬ 
+            <lb ed="#V" n="34"/>iusmodi sunt intelligenriae, seipsis sunt hoc aliquod, 
+            <lb ed="#V" n="35"/>&amp; idem est in eis essentia, &amp; quidditas. quia secundum 
+            <lb ed="#V" n="36"/>esse quod habent in rerum natura, sunt obiectum in¬ 
+            <lb ed="#V" n="37"/>tellectus. Patet ergo quomodo formae separatae, 
+            <lb ed="#V" n="38"/>quae non requirunt esse in corpore: per seip sas 
+            <lb ed="#V" n="39"/>sunt hoc aliquid. &amp; idem est in eis esse, &amp; quiddi¬ 
+            <lb ed="#V" n="40"/>tas, quia secundum esse quod habent in rerum na¬ 
+            <lb ed="#V" n="41"/>tura, sunt obiectum intellectus. Patet ergo, quomodo 
+            <lb ed="#V" n="42"/>formae separatae, quae non acquirunt esse in corpo¬ 
+            <lb ed="#V" n="43"/>re per seipsas sunt hoc aliquid &amp; idem est in eis 
+            <lb ed="#V" n="44"/>esse &amp; quidditas: sed sicur intelligentiae sunt for¬ 
+            <lb ed="#V" n="45"/>mae omnino immateriales, quia nullo modo acqui¬ 
+            <lb ed="#V" n="46"/>runt esse in corpore sic sunt aliquae formae omni¬ 
+            <lb ed="#V" n="47"/>no materiales, quia sic acquirunt esse in materia, 
+            <lb ed="#V" n="48"/>quod nullo modo possunt elle sine materia. &amp; ideo 
+            <lb ed="#V" n="49"/>non sunt per se hoc aliquid sed sunt hoc aliquid 
+            <lb ed="#V" n="50"/>a per materiam, &amp; in materia. Vnde non intelligum¬ 
+            <lb ed="#V" n="51"/>tur esse hoc aliquid nisi prout simul cum eis ha¬ 
+            <lb ed="#V" n="52"/>lio bet esse materia. Sunt autem &amp; aliae formae mediae, 
+            <lb ed="#V" n="53"/>ub quae licet acquirant esse in materia, non tamer 
+            <lb ed="#V" n="54"/>si educuntur de potentia materiae, nec corrumpun¬ 
+            <lb ed="#V" n="55"/>etur corruptione materiae, sed possunt esse praete¬ 
+            <lb ed="#V" n="56"/>materiam suam, cuiusmodi sunt animae intelle¬ 
+            <lb ed="#V" n="57"/>ctiuae, de qubus dicit Philosophus in 2. de anima, 
+            <lb ed="#V" n="58"/>quod intellectus alterum genus est, &amp; separatur ab 
+            <lb ed="#V" n="59"/>alijs, sicut perpetuum a corruptibili. A nima ergo 
+            <lb ed="#V" n="60"/>simul est forma, &amp; hoc aliquid, vt per seipsam 
+            <lb ed="#V" n="61"/>comparatur ad corpus. quia licet acquirat esse in¬ 
+            <lb ed="#V" n="62"/>corpore, tamen quia non educitur de potentia 
+            <!--38.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>corporis: non corrumpitur cum corpore. ergo istud 
+            <lb ed="#V" n="64"/>esse hoc aliquid magis competit animae quia po¬ 
+            <lb ed="#V" n="65"/>test esse sine corpore, quam alio modo. Est ergo 
+            <lb ed="#V" n="66"/>sorma corporis quia accipit esse in corpore, &amp; ilem 
+            <lb ed="#V" n="67"/>lud esse communicat corpori: &amp; est hoc aliquid, 
+            <lb ed="#V" n="68"/>quia sic accipit esse in corpore, quod potest esse sine cor¬ 
+            <lb ed="#V" n="69"/>pore: &amp; sic communicat esse, &amp; viuere corpori, 
+            <lb ed="#V" n="70"/>quod illud esse, &amp; illud viuere remanent sibi, corrupto 
+            <lb ed="#V" n="71"/>corpore. Non n. vegerat vlterius corpus, corrupto¬ 
+            <lb ed="#V" n="72"/>corpore, &amp; non communicat esse corpori iam cor¬ 
+            <lb ed="#V" n="73"/>rupto. Sed cum viuere viuentibus sit esse: eo mo, 
+            <lb ed="#V" n="74"/>do, quo habebat esse, &amp; viuere in corpore, rema¬ 
+            <lb ed="#V" n="75"/>net sibi, corrupto corpore. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3447">
+            <lb ed="#V" n="76"/>Secundo potet conmparari anima ad corpus per suum 
+            <lb ed="#V" n="77"/>agens. Nam cum non possit produci, nisi a Deo: 
+            <lb ed="#V" n="78"/>non oportet, quod educatur de potentia corporis. Hoc 
+            <lb ed="#V" n="79"/>enim est proprium aliorum agentium, quod nulla for¬ 
+            <lb ed="#V" n="80"/>mam naturalem causant in materia, quam non edu¬ 
+            <lb ed="#V" n="81"/>cant de potentia materiae: sed Deus, qui est agenes 
+            <lb ed="#V" n="82"/>supernaturale, qui secundum Aug animam cream 
+            <lb ed="#V" n="83"/>do infundit, &amp; infundendo creat, producit animam 
+            <lb ed="#V" n="84"/>in corpore non educendo eam de potentia corpo¬ 
+            <lb ed="#V" n="85"/>ris, vt ex hoc non oino dependeat a corpore, sed 
+            <lb ed="#V" n="86"/>possit esse sin e corpore, &amp; tunc idem, quod primum. 
+            <lb ed="#V" n="87"/>Nam ex hoc, vt patet, potest esse forma &amp; hoc aliquod. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3476">
+            <lb ed="#V" n="88"/>Tertio potest comparari anima ad corpus per 
+            <lb ed="#V" n="89"/>suas potentias, ex quibus apparet quod anima est me¬ 
+            <lb ed="#V" n="90"/>dia inter substantias separatas, &amp; formas omnino 
+            <lb ed="#V" n="91"/>materiales. Propter quod dixerunt eam Philoso, 
+            <lb ed="#V" n="92"/>phi creatam in Orixonte aeternitatis id est inter substam 
+            <lb ed="#V" n="93"/>tias separatas, quo mensurantur aeuo: &amp; formas istas 
+            <lb ed="#V" n="94"/>materiales corruptibiles, que mensurantur tempo¬ 
+            <lb ed="#V" n="95"/>re. Et quia est sic media quantum ad suas poten¬ 
+            <lb ed="#V" n="96"/>tias: communicat cum vtrisque formis, videlicet cum 
+            <lb ed="#V" n="97"/>formis omnino materialibus: cuiusmodi animae 
+            <lb ed="#V" n="98"/>sunt brutorum: &amp; cum formis immaterialibus, 
+            <lb ed="#V" n="99"/>cuiusmodi sunt intelligentiae. nam intelligentiae 
+            <lb ed="#V" n="100"/>nullas habent virtutes organicas: animae Brutorum 
+            <lb ed="#V" n="101"/>nullas non organicas. Anima vero humana quas¬ 
+            <lb ed="#V" n="102"/>dam habet uirtutes, siue potentias organicas, vt 
+            <lb ed="#V" n="103"/>sensitiuas, &amp; vegetatiuas: &amp; quasdam non organi¬ 
+            <lb ed="#V" n="104"/>cas, vt intellectiuas vt ex hoc etiam possit ostendi, 
+            <lb ed="#V" n="105"/>quomodo sit forma, &amp; hoc aliquid. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3519">
+            <lb ed="#V" n="106"/>Quarto anima potest comparari ad corpus se 
+            <lb ed="#V" n="107"/>cundum suum esse separatum, quia sic habet esse 
+            <lb ed="#V" n="108"/>in corpore, quod potest esse sine corpore. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3528">
+            <lb ed="#V" n="109"/>Quinto potest comparari ad corpus secundum suum 
+            <lb ed="#V" n="110"/>esse, quod habebit reunitum. quod non posset es¬ 
+            <lb ed="#V" n="111"/>se quod reuniret corpori nisi posset habere esse sine 
+            <lb ed="#V" n="112"/>corpore. ut ergo unita, uel reunita corpori dat 
+            <lb ed="#V" n="113"/>esse corpori, est sorma: sed prout potet esse sine cor¬ 
+            <lb ed="#V" n="114"/>pore, em hoc aliquod, vt vtrumque sibi coueniat suo modo 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3544">
+            <lb ed="#V" n="115"/>DVE. III. LATERALIS. 
+            <lb ed="#V" n="116"/>An D.P. Augustinus, animam habere materiam, 
+            <lb ed="#V" n="117"/>senserit. Conclusio est negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3553">
+            <lb ed="#V" n="118"/>VLTERIVS forte circa hoc dubitaret alli¬ 
+            <lb ed="#V" n="119"/>quis, quae fuerit opinio Aug. de natu¬ 
+            <lb ed="#V" n="120"/>ra animae, vtrum ipse senserit animam habere 
+            <lb ed="#V" n="121"/>materiam. Dicendum quod aliqua verb eius 
+            <!--39.xml-->
+            <pb ed="#V" n="39"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sonare videntur, animam habere materiam. Ait 
+            <lb ed="#V" n="2"/>enim. 7. super Gen. quod credibile est in primis illis 
+            <lb ed="#V" n="3"/>sex dierum operibus Deum condidisse materiam 
+            <lb ed="#V" n="4"/>suturi corporis, de qua fieret id est terram, de cuius li¬ 
+            <lb ed="#V" n="5"/>mo fingeretur, &amp; suspensiue, &amp; dubitatiue relin¬ 
+            <lb ed="#V" n="6"/>quit. Animae autem solam ibi condidisse ratio¬ 
+            <lb ed="#V" n="7"/>nem, secundum quam fieret: non quandam 
+            <lb ed="#V" n="8"/>pro suo genere materiam, de qua fieret. Videtur 
+            <lb ed="#V" n="9"/>ergo velle, quod inter illa opera sex dierum fuit quae 
+            <lb ed="#V" n="10"/>dam materia producta, proer suo genere, de qua fie¬ 
+            <lb ed="#V" n="11"/>ret anima. Ita quod hoc argumentum arguit ab iden¬ 
+            <lb ed="#V" n="12"/>titate animae, &amp; corporis. vt, cum anima, &amp; corpus 
+            <lb ed="#V" n="13"/>faciant vnum, &amp; idem; sicut corpus habet suam 
+            <lb ed="#V" n="14"/>materiam, ita anima pro suo genere habebit suam 
+            <lb ed="#V" n="15"/>materiam. Secunda etiam ratio videtur sumi ex 
+            <lb ed="#V" n="16"/>mutabilitate animae. Ait enim, quod mutabilitas ei¬ 
+            <lb ed="#V" n="17"/>animae satis indicat eam talem, videlicet eam ha¬ 
+            <lb ed="#V" n="18"/>bere materiam. nam videmus animam esse muta¬ 
+            <lb ed="#V" n="19"/>bilem, &amp; interim vitijs, atque fallacijs informem 
+            <lb ed="#V" n="20"/>reddi. Interim formari virtutibus, &amp; doctrina ve¬ 
+            <lb ed="#V" n="21"/>ritatis. Si ergo transmutario fecit sciri materiam. 
+            <lb ed="#V" n="22"/>sicut &amp; actio formam: anima sic mutabilis vide¬ 
+            <lb ed="#V" n="23"/>tur esse materialis. Tertia ratio Augst. ad hoc idem 
+            <lb ed="#V" n="24"/>videtur esse, ex eo, quod similes mutabilitates reperium 
+            <lb ed="#V" n="25"/>tur in corpore. Nam, vt ait, iam caro est, vel pro¬ 
+            <lb ed="#V" n="26"/>ficit, vt pluchra fiat, vel deficit, vt deformis sit. Si 
+            <lb ed="#V" n="27"/>ergo ex hoc ponimus carnem habere materiam, 
+            <lb ed="#V" n="28"/>cum &amp; anima pulchra fiat per virtutes, defor¬ 
+            <lb ed="#V" n="29"/>mis per vitia, videtur eam habere materiam. Sic 
+            <lb ed="#V" n="30"/>ergo verba Aug. videntur facere pro hac parte, 
+            <lb ed="#V" n="31"/>quod ibi sit materia. Adducit tamen August. 
+            <lb ed="#V" n="32"/>uerba sonantia contrarium, quia si in anima 
+            <lb ed="#V" n="33"/>esset materia; illa materia, vel esset beata, vel 
+            <lb ed="#V" n="34"/>esset misera, vel esset ociosa. Si enim fuit ma¬ 
+            <lb ed="#V" n="35"/>teria, de qua facta fuit anima, sicut suit ter¬ 
+            <lb ed="#V" n="36"/>ra, de qua formatum fuit corpus. illa ergo mate¬ 
+            <lb ed="#V" n="37"/>ria spiritualis, de qua facta fuit anima, si bene 
+            <lb ed="#V" n="38"/>egit, erat beata: si male, erat misera: si nec bene, 
+            <lb ed="#V" n="39"/>nec male, erat ociosa. &amp; quia quodlibet istorum 
+            <lb ed="#V" n="40"/>videtur inconueniens, vt in prosequendo pate¬ 
+            <lb ed="#V" n="41"/>bit, videtur, quod non sit dare materiam, de qua¬ 
+            <lb ed="#V" n="42"/>facta sit anima. Et sicut a rguit August. ex parte 
+            <lb ed="#V" n="43"/>beatitudinis, &amp; miseriae, vel ociositatis, sic arguit 
+            <lb ed="#V" n="44"/>ex parte vitae, &amp; rationis. Nam si facta est anima 
+            <lb ed="#V" n="45"/>de aliqua materia, illa materia, vel erat viua, vel¬ 
+            <lb ed="#V" n="46"/>non viua: Si non erat viua, de non viuo non po¬ 
+            <lb ed="#V" n="47"/>terat fieri substantia spunealis viua. Si autem erat vi 
+            <lb ed="#V" n="48"/>ua, vel agebat bene, vel male, &amp; tunc erat beata, 
+            <lb ed="#V" n="49"/>vel misera vt prius arguebatur. Si autem non age¬ 
+            <lb ed="#V" n="50"/>bat, nec bene, nec male. ergo non erat rarionalis 
+            <lb ed="#V" n="51"/>de re autem non rationali secundum Aug. non 
+            <lb ed="#V" n="52"/>potest fieri res rationalis. ergo videtur, quod non 
+            <lb ed="#V" n="53"/>possit inueniri materia, de qua facta est anima. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3686">
+            <lb ed="#V" n="54"/>Adducit etiam &amp; aliam rationem. quia etiam 
+            <lb ed="#V" n="55"/>si facta suir anima de aliqua materia pro suo gepe¬ 
+            <lb ed="#V" n="56"/>re, vel fuit facta de meliori, vel peiori Nam secun¬ 
+            <lb ed="#V" n="57"/>dum eum, opere diuino non fit peius de meliori: 
+            <lb ed="#V" n="58"/>ita quod opere diuino mius non potest esse mate¬ 
+            <lb ed="#V" n="59"/>ria peioris. Si ergo amima fuit facta de aliqua ma¬ 
+            <lb ed="#V" n="60"/>teria: conueniens estsquod illa materia non suerit 
+            <lb ed="#V" n="61"/>misera, sed beata. saed anima non fuit creata bea¬ 
+            <lb ed="#V" n="62"/>ta, suit ergo res melior mareria peioris, quia de 
+            <!--39.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>re beata suit producta anima non beata. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3715">
+            <lb ed="#V" n="64"/>Inter tot autem diuersitates tactas uolentes 
+            <lb ed="#V" n="65"/>habere mentem Aug. Dicemus secundum quos¬ 
+            <lb ed="#V" n="66"/>dam, quod August. deducendo per singula, osten¬ 
+            <lb ed="#V" n="67"/>dit animam non esse factam ex aliqua materia. 
+            <lb ed="#V" n="68"/>quia si hoc fuisset, fuisset facta de materia spiri¬ 
+            <lb ed="#V" n="69"/>tuali rationali: quo posito: oporteret illam mate¬ 
+            <lb ed="#V" n="70"/>riam fuisse beatam, vel miseram, vel ociosam¬ 
+            <lb ed="#V" n="71"/>Beatam non, quia tunc de meliori re opere diui¬ 
+            <lb ed="#V" n="72"/>no fieret peius. Misera non, quia tunc commisis¬ 
+            <lb ed="#V" n="73"/>set culpam, unde fuisset facta misera, quod est 
+            <lb ed="#V" n="74"/>contra Apostolum. quia sine praecedentibus ne¬ 
+            <lb ed="#V" n="75"/>ritis, vel demeritis fiunt praedestinationes. Iuxta 
+            <lb ed="#V" n="76"/>illud ad Ro. 9. Cum enim nondum nati fuis¬ i 
+            <lb ed="#V" n="77"/>sent, aut aliquid egissent boni, aut mali, ut secun¬ 
+            <lb ed="#V" n="78"/>dum electionem propositum Dei maneret. Di¬ 
+            <lb ed="#V" n="79"/>ctum est: lacob dilexi, &amp;c. Si autem illa spiritualis 
+            <lb ed="#V" n="80"/>substantia, de qua facta fuit anima, fuisset ocio¬ 
+            <lb ed="#V" n="81"/>sa, non habuisset vsum rationis, quod est incon¬ 
+            <lb ed="#V" n="82"/>ueniens. Rursus: si est irrationalis: adhuc esset 
+            <lb ed="#V" n="83"/>inconueniens. quia in tali re ex irrationali non 
+            <lb ed="#V" n="84"/>potest fieri substantia rationalis. Nec etiam po¬ 
+            <lb ed="#V" n="85"/>test poni illa materia non uiua. quia, ut nunc lo¬ 
+            <lb ed="#V" n="86"/>quimur, de non uiuo non potest fieri viuum. Di :comr¬ 
+            <lb ed="#V" n="87"/>scurrendo ergo per omnes modos secundum hanc r 
+            <lb ed="#V" n="88"/>inquisitionem August. quomodo ex materia ali¬ 
+            <lb ed="#V" n="89"/>qua potest fieri anima, non poterimus inuenira 
+            <lb ed="#V" n="90"/>aliquem conuenientem modum, vt ex hoc dica¬ 
+            <lb ed="#V" n="91"/>mus animam non esse factam ex materia, nec ha¬ 
+            <lb ed="#V" n="92"/>bere materiam. Ad hanc autem sententiam, 
+            <lb ed="#V" n="93"/>verba aliquorum Doctorum nituntur tendere. 
+            <lb ed="#V" n="94"/>Sed aut August. loquitur arguendo, aut asseren¬ 
+            <lb ed="#V" n="95"/>do. quod si huiusmodi verba dicit asserendo, 
+            <lb ed="#V" n="96"/>oportet suam mentem exponeste. si arguendo: 
+            <lb ed="#V" n="97"/>oportet sua argumenta declarare, &amp; soluere. sed 
+            <lb ed="#V" n="98"/>secundum praefatum modum, nec uerba Au¬ 
+            <lb ed="#V" n="99"/>gust. sufficienter exporiuntur, nec argumenta 
+            <lb ed="#V" n="100"/>elus sufficienter soluuntur. Sed uerba eius sub 
+            <lb ed="#V" n="101"/>quodam inuolucro inuoluta ad propositum 
+            <lb ed="#V" n="102"/>adaptantur. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3803">
+            <lb ed="#V" n="103"/>Aduertendum ergo, quod August. in praeta¬ 
+            <lb ed="#V" n="104"/>cto loco uidetur prius arguere animam habere 
+            <lb ed="#V" n="105"/>materiam, propter quod innuit ipsam aliquo mo¬ 
+            <lb ed="#V" n="106"/>do esse compositam, ut ex hoc dicatur habere 
+            <lb ed="#V" n="107"/>materiam, vel aliquid loco materiae. Alia autem 
+            <lb ed="#V" n="108"/>dicta August. quae sequuntur: uidentur ostende 
+            <lb ed="#V" n="109"/>re animam non habere materiam: ergo sicut pri¬ 
+            <lb ed="#V" n="110"/>ma verba asserunt aliquam compositionem in¬ 
+            <lb ed="#V" n="111"/>anima, sic uerba sequentia negant aliquam com¬ 
+            <lb ed="#V" n="112"/>positionem in anima. Propter quod oportet da¬ 
+            <lb ed="#V" n="113"/>re aliquam compositionem, quae competit ani¬ 
+            <lb ed="#V" n="114"/>mae: &amp; aliquam, quae non competit ei. Propter 
+            <lb ed="#V" n="115"/>primum sciendum, August tripliciter arguere, 
+            <lb ed="#V" n="116"/>animam habere materiam. primo prout anima, 
+            <lb ed="#V" n="117"/>&amp; corpus comparantur ad materiam. quia si cor¬ 
+            <lb ed="#V" n="118"/>pus habet materiam pro suo genere: videtur ra¬ 
+            <lb ed="#V" n="119"/>tionabile, quod &amp; anima habeat materiam pro¬ 
+            <lb ed="#V" n="120"/>suo genere. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3845">
+            <lb ed="#V" n="121"/>Secundo hoc idem arguit, pro ut anima &amp; cor¬ 
+            <lb ed="#V" n="122"/>pus comparantur ad mutabilitatem Nam si co¬ 
+            <lb ed="#V" n="123"/>pus propter suam mutabilitatem habet mate¬ 
+            <lb ed="#V" n="124"/>riam: uidetur, quod &amp; anima, tum sit quid mutabile: 
+            <!--40.xml-->
+            <pb ed="#V" n="40"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>habeat materiam. Tertio arguit idem prout ani¬ 
+            <lb ed="#V" n="2"/>ma, &amp;corpus comparantur ad formositatem, &amp; 
+            <lb ed="#V" n="3"/>deformositatem. Nam si, quia caro nunc est pul¬ 
+            <lb ed="#V" n="4"/>chra, nuncturpistarguimus eam habere materiam: 
+            <lb ed="#V" n="5"/>rgo quia potest amima habere deformiratem, &amp; 
+            <lb ed="#V" n="6"/>formosirarem, vel turpitudinem, &amp; pulchritudi¬ 
+            <lb ed="#V" n="7"/>nem, vrtne, quod ex hoc habeat materiam. Omnia ergo 
+            <lb ed="#V" n="8"/>haec arouunt animam esse compositam, quia si es¬ 
+            <lb ed="#V" n="9"/>set omnino simplex, nec esset perfectio corporis, 
+            <lb ed="#V" n="10"/>vt comparari posset ad materiam suo motn, sic cor¬ 
+            <lb ed="#V" n="11"/>pus, quod erat rono prima, nec posset esse mutabi¬ 
+            <lb ed="#V" n="12"/>lis, quod erat ratio secunda, nec posset esse formosa, 
+            <lb ed="#V" n="13"/>&amp; deformis, quod erat roten tertia. Non ergo anima 
+            <lb ed="#V" n="14"/>est omnino simplex, sed sufficit ad omnia ista tol¬ 
+            <lb ed="#V" n="15"/>lenda, quod sit composita ex sua substantia, &amp; ex suo¬ 
+            <lb ed="#V" n="16"/>esse, vel quod sit conposita ex sua substantia, &amp; ex suis 
+            <lb ed="#V" n="17"/>accidentibus: cuiusmodi sunt suae potentiae, per¬ 
+            <lb ed="#V" n="18"/>quas comparatur ad actus, &amp; per quas potest pe¬ 
+            <lb ed="#V" n="19"/>ne, &amp; male agere, vt ex hoc sit mutabilis, &amp; pos¬ 
+            <lb ed="#V" n="20"/>sit esse formosa per virtutes, &amp; deformis per vi¬ 
+            <lb ed="#V" n="21"/>tia, Ex hoc ergo anima pro suo genere habet ma¬ 
+            <lb ed="#V" n="22"/>teriam, quia habet aliquid se habens ad modum 
+            <lb ed="#V" n="23"/>materiae. Nam sicut materia carnis subiicitur suae 
+            <lb ed="#V" n="24"/>formae, &amp; perficitur per ipsam; sic substantia ani¬ 
+            <lb ed="#V" n="25"/>mae subiicitur suis potentiis, &amp; perficitur per ip¬ 
+            <lb ed="#V" n="26"/>sas, vt non sit ex hoc in ea proprie materia, sed sit 
+            <lb ed="#V" n="27"/>aliquid se habens ad modum materiae. Ex isto au¬ 
+            <lb ed="#V" n="28"/>tem modo compositionis illa tria argumenta om¬ 
+            <lb ed="#V" n="29"/>nimode sunt soluta. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e3926">
+            <lb ed="#V" n="30"/>His autem visis volumus de alijis in contrarit 
+            <lb ed="#V" n="31"/>exequi, vt mentem August. habere possimus. Vo¬ 
+            <lb ed="#V" n="32"/>lens enim Aug. inducere quasi per singula mem 
+            <lb ed="#V" n="33"/>bra, animam non habere materam: accipit qua¬ 
+            <lb ed="#V" n="34"/>tuor fundamenta, quorum primum est, quod illa¬ 
+            <lb ed="#V" n="35"/>res, de qua posset fieri anima: de necessitate est 
+            <lb ed="#V" n="36"/>apta nata habere actiones suas, &amp; ex hoc arguit il¬ 
+            <lb ed="#V" n="37"/>lam rem posse esse miseram, vel beatam, seu etiam 
+            <lb ed="#V" n="38"/>ociosam. Secundum fundamentum est, quod il¬ 
+            <lb ed="#V" n="39"/>la res, de qua potest fieri anima: necesse est. quod 
+            <lb ed="#V" n="40"/>sit viua, quia in hac re, de qua loquimur, de non 
+            <lb ed="#V" n="41"/>viuo non potest fieri viuum. Tertium sundamen¬ 
+            <lb ed="#V" n="42"/>tum est, quod illa res necesse est, quod sit quid ratio¬ 
+            <lb ed="#V" n="43"/>nale, quia loquendo de re, de qua loquimur, ex 
+            <lb ed="#V" n="44"/>irronnali non potest fieri rationale. Quartum sundamen¬ 
+            <lb ed="#V" n="45"/>tum est, quod opere diuino ex meliori non potest sie 
+            <lb ed="#V" n="46"/>ri peius. Prima quidem tria sundamenta aliquam 
+            <lb ed="#V" n="47"/>compositionem negant ab anima, &amp; aliquam 
+            <lb ed="#V" n="48"/>ailerunt Negant autem omuino materiam cor¬ 
+            <lb ed="#V" n="49"/>poralem ab anima, vel materiam quae sit pura po¬ 
+            <lb ed="#V" n="50"/>tentia. Nam ex tali materia aliquid ex eo, quod non 
+            <lb ed="#V" n="51"/>est aptum natum agere, fit aptum narum agere, 
+            <lb ed="#V" n="52"/>quod est contra primum sundamentum &amp; fit ex 
+            <lb ed="#V" n="53"/>non viuo viuum, quod est contra secundum: &amp; sic 
+            <lb ed="#V" n="54"/>ex non rationali rationale, quod est contra ter¬ 
+            <lb ed="#V" n="55"/>tium. Sed illa res, ex qua primo componitur ani¬ 
+            <lb ed="#V" n="56"/>ma: sicut in prosequendo patebit, habet omnia 
+            <lb ed="#V" n="57"/>ista: ex materia quidem corporali potest aliquid 
+            <lb ed="#V" n="58"/>fieri, &amp; sic ex eo, quod est aptum natum agere. Nam 
+            <lb ed="#V" n="59"/>potentia pura est illud, ex quo fiunt corporalia, a¬ 
+            <lb ed="#V" n="60"/>qua, secundum quod huiusmodi, non est apta nata egre¬ 
+            <lb ed="#V" n="61"/>di aliqua actio: nec aliqua operatio. Rursum 
+            <lb ed="#V" n="62"/>ex tali materia potest de non viuo fieri viuum, vt 
+            <!--40.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>quotidie fieri videmus. Potest etiam de non 
+            <lb ed="#V" n="64"/>rationali fieri rationale, quia fetus humanus 
+            <lb ed="#V" n="65"/>prius viuit vita plantae, secundo vita animalis, &amp; 
+            <lb ed="#V" n="66"/>vltimo vita hominis. In illo ergo instanti, in quo 
+            <lb ed="#V" n="67"/>suntomnia membra completa, Deus insundit il¬ 
+            <lb ed="#V" n="68"/>li saetui animam rationalem, quo facto, fit de non 
+            <lb ed="#V" n="69"/>rationali rationale. Illud ergo, quod primo requiri¬ 
+            <lb ed="#V" n="70"/>tur in compositione animae, oporter quod sit ali¬ 
+            <lb ed="#V" n="71"/>quid aptum natum agere &amp; quod sit quid viuum, &amp; 
+            <lb ed="#V" n="72"/>quod sit quid rationale. Et haec tria sundamenta quae 
+            <lb ed="#V" n="73"/>supponuntur in eo, quod estprimo de compositio 
+            <lb ed="#V" n="74"/>ne animae: excludunt ab anima omnem mate¬ 
+            <lb ed="#V" n="75"/>riam corporalem. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4033">
+            <lb ed="#V" n="76"/>Dicemus ergo in anima esse triplicem modum, 
+            <lb ed="#V" n="77"/>compositionis, vt sit prima compositio in ea ex 
+            <lb ed="#V" n="78"/>sua substantia, &amp; suo esse. Secunda sit ex sua sub¬ 
+            <lb ed="#V" n="79"/>stantia, &amp; suis potentiis. Tertia sit ex suis poten¬ 
+            <lb ed="#V" n="80"/>tijs, &amp; his, quae superadduntur eis cuuusmod 
+            <lb ed="#V" n="81"/>sunt vitia, &amp; virtutes, &amp; operationes bonae, &amp; 
+            <lb ed="#V" n="82"/>malae, per quae potest anima esse formosa, &amp; 
+            <lb ed="#V" n="83"/>deformis. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4053">
+            <lb ed="#V" n="84"/>Prima compositio in anima est ex substantia, 
+            <lb ed="#V" n="85"/>&amp; esse, sed nullo modo potest esse ex materia pro¬ 
+            <lb ed="#V" n="86"/>prie sumpta, nec ex aliquo, quod sit pura potentia. 
+            <lb ed="#V" n="87"/>quia cum anima secundum suam substantiam sit 
+            <lb ed="#V" n="88"/>actus corporis; id, quod est pura potentia, in eins 
+            <lb ed="#V" n="89"/>substanria esse non potest, nec ad compositionem 
+            <lb ed="#V" n="90"/>suae substaptiae potest concurrere. Secundum hanc 
+            <lb ed="#V" n="91"/>autem primam compositionem, oportet animam 
+            <lb ed="#V" n="92"/>esse quandam naturam sormae Et quia non est da¬ 
+            <lb ed="#V" n="93"/>re naturam aliquam ociosam, &amp; quia sorma est 
+            <lb ed="#V" n="94"/>ratio actionis: oportet illud, quod primo venit 
+            <lb ed="#V" n="95"/>ad compositionem animae, esse aliquid, quod ap¬ 
+            <lb ed="#V" n="96"/>tum natum sit acere: &amp; cum hoc sit ipsa substan¬ 
+            <lb ed="#V" n="97"/>tia animae, quae est quaedam forma; oportet il¬ 
+            <lb ed="#V" n="98"/>lud, quod primo occurrit ad compositionem 
+            <lb ed="#V" n="99"/>animae, &amp; esse quid viuum: cum omnes naturae 
+            <lb ed="#V" n="100"/>intellectuales dicantur esse viuentes: &amp; esse quid 
+            <lb ed="#V" n="101"/>rationale, quod maxime competit naturae animae, 
+            <lb ed="#V" n="102"/>prout comparatur ad naturam Angelorum, quia 
+            <lb ed="#V" n="103"/>Angeli habent naturam magis intellectualemt 
+            <lb ed="#V" n="104"/>animae humanae magis rationalem, quia intelli¬ 
+            <lb ed="#V" n="105"/>gunt ratiocinando, &amp; discurrendo. R hac au¬ 
+            <lb ed="#V" n="106"/>tem prima compositione, secundum quam ani¬ 
+            <lb ed="#V" n="107"/>ma est composita ex substantia, &amp; esse: apparet 
+            <lb ed="#V" n="108"/>verum esse illud prius dictum Augustini, quod 
+            <lb ed="#V" n="109"/>sicut caro habet suam materiam, ex qua est con¬ 
+            <lb ed="#V" n="110"/>stituta: sic anima pro modo sui generis habet 
+            <lb ed="#V" n="111"/>materiam, ex qua est constituta. Nam haecest ma¬ 
+            <lb ed="#V" n="112"/>teria in corporalibus, vt patet ex 5. Meta. &amp;x quo 
+            <lb ed="#V" n="113"/>primo componitur res. Cum ergo primo com¬ 
+            <lb ed="#V" n="114"/>ponaturanima ex substantia, &amp; esseripsa substan¬ 
+            <lb ed="#V" n="115"/>tia se habebit in compositione animae, sicur ma¬ 
+            <lb ed="#V" n="116"/>teria in compositione materialium. Quia sicut 
+            <lb ed="#V" n="117"/>corporalia primo componuntur ex materia, pro¬ 
+            <lb ed="#V" n="118"/>ut subiicitur suae substanriali formae; sic anima¬ 
+            <lb ed="#V" n="119"/>primo componitur &amp;x substantia: prout subiici¬ 
+            <lb ed="#V" n="120"/>tur, &amp; perficitur per suum esse. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4136">
+            <lb ed="#V" n="121"/>Postquam tractauimus de prima compositione 
+            <lb ed="#V" n="122"/>animae, volumus tractare de secunda. Dicemus ni 
+            <lb ed="#V" n="123"/>quod sicut ad primam conpositionem animae non potet con¬ 
+            <lb ed="#V" n="124"/>currere aliquid, quod sit pura potentasita quod non erit 
+            <!--41.xml-->
+            <pb ed="#V" n="41"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>illa prima compositio ex pura potentia, &amp; actu¬ 
+            <lb ed="#V" n="2"/>siue ex materia propria sumpta, &amp; suo actu. 
+            <lb ed="#V" n="3"/>S. Sic ista secunda compositio non potest esse ex 
+            <lb ed="#V" n="4"/>&amp; substantia cum substantia, sed erit ex substantia, &amp; 
+            <lb ed="#V" n="5"/>us accidentibus quia erit ex substantia animae, &amp; suis 
+            <lb ed="#V" n="6"/>a&amp; potentijs. In corporalibus n. potest fieri aliquid 
+            <lb ed="#V" n="7"/>vnum ex pluribus substantiis, quia est in eis dare pu¬ 
+            <lb ed="#V" n="8"/>ram potentiam, ex qua, &amp; actu potest fieri essentialiter 
+            <lb ed="#V" n="9"/>vnum Sed cum in animabus, &amp; intelligentiis om¬ 
+            <lb ed="#V" n="10"/>nibus non sit dare talem potentiam puram: in eis 
+            <lb ed="#V" n="11"/>non fiet vnum ex duabus substantiis sed ex substam 
+            <lb ed="#V" n="12"/>tia, &amp; accidentibus. Vt autem istud dictum aliquid tam 
+            <lb ed="#V" n="13"/>gere contra pluralitatem formarum. Sed de hocquatum 
+            <lb ed="#V" n="14"/>ad hominem non intendimus ad praesens deter¬ 
+            <lb ed="#V" n="15"/>minare quaestionem, sed quantum ad omnia alia 
+            <lb ed="#V" n="16"/>plene quaestionem differimus: prout nostra mo¬ 
+            <lb ed="#V" n="17"/>dica scientia se extendit, vt non sit, nisi vna forma¬ 
+            <lb ed="#V" n="18"/>substantialis in composito. De homine tamen ha¬ 
+            <lb ed="#V" n="19"/>bemus. specialem difficultatem propter duplex 
+            <lb ed="#V" n="20"/>agens, quod necesse est concurrere ad generatio¬ 
+            <lb ed="#V" n="21"/>nem eius. videlicet agens naturale, quod non pro¬ 
+            <lb ed="#V" n="22"/>ducit essentiam animae, sed disponit ad ipsam, &amp; 
+            <lb ed="#V" n="23"/>agens supernaturale, quod est Deus, qui pducit 
+            <lb ed="#V" n="24"/>ipsam essentiam rationalis animae. Sed quatum ad pro¬ 
+            <lb ed="#V" n="25"/>positum spectat de substantiis intellectualibus, si¬ 
+            <lb ed="#V" n="26"/>ue rationalibus diximus primam corrpositionem in eis 
+            <lb ed="#V" n="27"/>fore ex substantia, &amp; esse. Secundam vero conposi¬ 
+            <lb ed="#V" n="28"/>tionem esse non posse ex substantia cum substantia, 
+            <lb ed="#V" n="29"/>Ssed ex substantia cum accidentibus. Et quia duo 
+            <lb ed="#V" n="30"/>&amp; sunt ibi genera accidentium, quia sunt aliqua acci¬ 
+            <lb ed="#V" n="31"/>daentia naturalia, a quibus non potest cadere, &amp; sine 
+            <lb ed="#V" n="32"/>quibus non potet esse, vt potentie, cuiusmodi est 
+            <lb ed="#V" n="33"/>intellectus &amp; voluntas. propter quod talia accidentia 
+            <lb ed="#V" n="34"/>cum substantia faciant compositionem secundam. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4228">
+            <lb ed="#V" n="35"/>Sunt autem, &amp; alia accidentia superaddita poten¬ 
+            <lb ed="#V" n="36"/>tijs, sine quibus potest esse anima, &amp; illa cum anima¬ 
+            <lb ed="#V" n="37"/>faciant compositionem tertiam. Tria ergo pri¬ 
+            <lb ed="#V" n="38"/>ma fundamenta Aug. quod illud, ex quo primo est con¬ 
+            <lb ed="#V" n="39"/>stituta anima, est quid aptum natum agere bene, 
+            <lb ed="#V" n="40"/>vel malelper quod potest intelligi anima misera, 
+            <lb ed="#V" n="41"/>vel beatal duas compositiones excludunt, &amp; tres 
+            <lb ed="#V" n="42"/>compositiones includunt. Excludunt nm ab anima, 
+            <lb ed="#V" n="43"/>quod ad compositionem eius non possit concurre. 
+            <lb ed="#V" n="44"/>re materia corporalis, siue materia, quae est pura 
+            <lb ed="#V" n="45"/>potentia, quia hoc esset contra illa tria fundamen. 
+            <lb ed="#V" n="46"/>ta, vt superius probabatur. Excludunt etiam ab ani¬ 
+            <lb ed="#V" n="47"/>ma, quod non possit esse composita ex pluribus sub¬ 
+            <lb ed="#V" n="48"/>stantijs, quia illud, quod habet esse ex pluribus 
+            <lb ed="#V" n="49"/>substantijs: &amp; maxime si habet esse ab eodem agen¬ 
+            <lb ed="#V" n="50"/>te, fit, vel fieri potet ex eo, quod non est aptum na¬ 
+            <lb ed="#V" n="51"/>tum agere, &amp; potet ibi fieri ex non vino viuum &amp; non 
+            <lb ed="#V" n="52"/>rotenali rationale: immo si bene vellemus prosequi¬ 
+            <lb ed="#V" n="53"/>istam viam, si anima esset composita ex duabus 
+            <lb ed="#V" n="54"/>substantijs; oporteret, quod vna illarum esset pura po¬ 
+            <lb ed="#V" n="55"/>tentia, &amp; tunc esset idem illud, ex quo fit anima, 
+            <lb ed="#V" n="56"/>cum eo, &amp;x quo fit corpus, &amp; tunc posset ex anima 
+            <lb ed="#V" n="57"/>fieri corpus, quod totiens est negatum. Tria ergo 
+            <lb ed="#V" n="58"/>sundamenta praefata has duas compositiones ex 
+            <lb ed="#V" n="59"/>cludunm sed tres alias includunt. videlicet, quod anima¬ 
+            <lb ed="#V" n="60"/>sit primo composita ex substantia, &amp; esse. Secundo 
+            <lb ed="#V" n="61"/>&amp; his, &amp; suis potentiis. Tertio ex omnibus prae¬ 
+            <lb ed="#V" n="62"/>fatis, &amp; his, quae superadduntur potentis. His au¬ 
+            <!--41.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>tem omnibus excursis, volumus dequarto sunda 
+            <lb ed="#V" n="64"/>mento ab August. dato aliquid dicere. videlicet, 
+            <lb ed="#V" n="65"/>quod melius non potest esse, vel opere diuino fieri¬ 
+            <lb ed="#V" n="66"/>materia peioris. Dicemus. nm quod hoc quartum fun¬ 
+            <lb ed="#V" n="67"/>damentum necessarium fuit superaddi aliis tri¬ 
+            <lb ed="#V" n="68"/>bus. Nam sicut illa tria excludunt animam non 
+            <lb ed="#V" n="69"/>posse esse compositam, vel productam de aliqua¬ 
+            <lb ed="#V" n="70"/>re corporali: sic istud quantum fundamentum 
+            <lb ed="#V" n="71"/>excludit animam non posse esse compositam, vel¬ 
+            <lb ed="#V" n="72"/>productam de aliqua re spirituali meliori se: cu¬ 
+            <lb ed="#V" n="73"/>iusmodi est substantia diuina, quae est omnino 
+            <lb ed="#V" n="74"/>beata, &amp; est substantia cuiussibet intelligen¬ 
+            <lb ed="#V" n="75"/>tiae. quia anima tenet infimum gradum in gene¬ 
+            <lb ed="#V" n="76"/>re intelligentiarum, vt nulla sit intelligentia non 
+            <lb ed="#V" n="77"/>habens naturam nobiliorem anima. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4328">
+            <lb ed="#V" n="78"/>DVB IIII. LATERALIS 
+            <lb ed="#V" n="79"/>An ex treaturarum emanationo, porponarum di¬ 
+            <lb ed="#V" n="80"/>uinarum emanatio inueniri. ossit. 
+            <lb ed="#V" n="81"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4339">
+            <lb ed="#V" n="82"/>VLTERIVS forte dubitaret aliquis 
+            <lb ed="#V" n="83"/>vtrum ex ista emanatione creatura¬ 
+            <lb ed="#V" n="84"/>rum. secundum quam diximus om¬ 
+            <lb ed="#V" n="85"/>nes creaturas factas esse a Deo de 
+            <lb ed="#V" n="86"/>aliquosquia naturae corporales factae sunt a Deo 
+            <lb ed="#V" n="87"/>de aliqua materia, spirituales factae sunt a Deo non 
+            <lb ed="#V" n="88"/>de aliqua materia, sed de aliquo loco materiae, 
+            <lb ed="#V" n="89"/>Vtrum ex hoc possimus aliquo modo ascende¬ 
+            <lb ed="#V" n="90"/>re ad considerandum aliqua de emanatione Per¬ 
+            <lb ed="#V" n="91"/>sonarum, &amp; specialiter considerando de emana 
+            <lb ed="#V" n="92"/>tione creaturarum spiritualium, in quibus non so¬ 
+            <lb ed="#V" n="93"/>lum est vestigium Trinitatis, sed etiam imago. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4368">
+            <lb ed="#V" n="94"/>Dicendum, quod omnes crcature spirituales 
+            <lb ed="#V" n="95"/>sunt creatae de nihilo, &amp; sunt factae a Deo de ali¬ 
+            <lb ed="#V" n="96"/>qua natura intellectuali, &amp; sunt compositae ex il¬ 
+            <lb ed="#V" n="97"/>la natura intellectuali, &amp; ex aliquo alio, quod se 
+            <lb ed="#V" n="98"/>habet, vt actus, &amp; perfectio illius naturae. Omne¬ 
+            <lb ed="#V" n="99"/>enim, quod producitur ex aliquo, videtur in se 
+            <lb ed="#V" n="100"/>habere duo: videlicet illud, de quo producitur, &amp; 
+            <lb ed="#V" n="101"/>illud, per quod in esse constituitur. Quia si volu¬ 
+            <lb ed="#V" n="102"/>mus hoc adaptare ad personas diuinas: non di¬ 
+            <lb ed="#V" n="103"/>cemus eas esse creatas quia absit hoc cogitare, cum 
+            <lb ed="#V" n="104"/>non sint ex nihilo. Nec dicemus eas esse factas, 
+            <lb ed="#V" n="105"/>cum non sint de aliena substantia. Nec dicemus, 
+            <lb ed="#V" n="106"/>eas esse compositas, quia &amp; si sunt ex duohus: 
+            <lb ed="#V" n="107"/>non tamen sunt ex duobus aliquibus, nec sunt con¬ 
+            <lb ed="#V" n="108"/>stitutae in esse per aliquid, &amp; aliquid, sed per¬ 
+            <lb ed="#V" n="109"/>aliquid &amp; ad aliquid. Cum ergo nomen creatio¬ 
+            <lb ed="#V" n="110"/>nis, &amp; factionis ad diuinas personas etiam non 
+            <lb ed="#V" n="111"/>possimus transferre, &amp; cum nomen composi¬ 
+            <lb ed="#V" n="112"/>tionis ad diuinas personas etiam non possimus 
+            <lb ed="#V" n="113"/>transferre; oportet in utroque, in sactione, &amp; 
+            <lb ed="#V" n="114"/>compositione aliquod nomen latius accipere. 
+            <lb ed="#V" n="115"/>nam pro factione accipiemus nomen, quod 
+            <lb ed="#V" n="116"/>omnem emanationem includat. Pro factio¬ 
+            <lb ed="#V" n="117"/>ne ergo accipietur productio, &amp; pro facere 
+            <lb ed="#V" n="118"/>producere. Nam producere includit omnem 
+            <lb ed="#V" n="119"/>emanationis modum. Quicquid enim quocun¬ 
+            <lb ed="#V" n="120"/>que modo emanat a Deo: pducitur ab illo. Pro¬ 
+            <lb ed="#V" n="121"/>pter quod dicere possumus, quod sicut creaturae 
+            <!--42.xml-->
+            <pb ed="#V" n="42"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>emanant a Deo id est a tota Trinitate &amp; producitur 
+            <lb ed="#V" n="2"/>ab illo de aliquo i est de aliqua substantia: alia .d es. diuer 
+            <lb ed="#V" n="3"/>sa a natura diuina: sic filins emanando a patre¬ 
+            <lb ed="#V" n="4"/>producitur ab ipso de aliquo.d est de aliqua substan¬ 
+            <lb ed="#V" n="5"/>tia: non alia a substantia patris. Propter quod fi¬ 
+            <lb ed="#V" n="6"/>lius sic est productus a patre: quod non est factus ab¬ 
+            <lb ed="#V" n="7"/>ipso: quia non est productus a patre de alia sub¬ 
+            <lb ed="#V" n="8"/>stantia, sed de illa eadem, quam habet Pater. Pro¬ 
+            <lb ed="#V" n="9"/>pter quod filius potest dici productus, &amp; genitus, 
+            <lb ed="#V" n="10"/>sed non factus. Creaturae autem, quia sunt de alie¬ 
+            <lb ed="#V" n="11"/>na substantia a Deo: non solum possunt dici pro¬ 
+            <lb ed="#V" n="12"/>ductae, sed etiam factae. Et quod dictum est de si¬ 
+            <lb ed="#V" n="13"/>lio respectu patris, quia est productus a parreid est 
+            <lb ed="#V" n="14"/>de aliqua substantia, vt de substantia patris. Ita ve¬ 
+            <lb ed="#V" n="15"/>ritatem habet de Spiritu sancto respectu Patris, 
+            <lb ed="#V" n="16"/>&amp; Hiliji, quia est productus a Patre, &amp; Filio de ali¬ 
+            <lb ed="#V" n="17"/>quo. ien de aliqua substantia, vt de substantia vtrius¬ 
+            <lb ed="#V" n="18"/>que. Viso quod simile in creaturis ex eo, quod sunt 
+            <lb ed="#V" n="19"/>de aliquo: non possumus ad diuinas psonas trans¬ 
+            <lb ed="#V" n="20"/>ferre, nisi accipiamus nomen largum, quod inclu¬ 
+            <lb ed="#V" n="21"/>dat omnem modum emanationis: cuiusmodi est 
+            <lb ed="#V" n="22"/>producere;, quia quicquid emanat a Deo: siue 
+            <lb ed="#V" n="23"/>sint personae diuinae,, siue creaturae: possunt dici 
+            <lb ed="#V" n="24"/>productae ab eo, a quo emanant, &amp; quia creaturae 
+            <lb ed="#V" n="25"/>emanant a tota Trinitate: sunt productae a tota¬ 
+            <lb ed="#V" n="26"/>Trinitate. Filius vero, quia emanata solo Patre: 
+            <lb ed="#V" n="27"/>est productus a solo Patre. Spiritus sanctus, quia 
+            <lb ed="#V" n="28"/>emanat ab vtroque, est productus ab vtroque. Vo¬ 
+            <lb ed="#V" n="29"/>lumus ergo inuestigare, utrum possimus compo¬ 
+            <lb ed="#V" n="30"/>sitionem, quam vidimus in creaturis, aliquo mo¬ 
+            <lb ed="#V" n="31"/>do tranesferre ad diuina. Dicemus enim, quod sub¬ 
+            <lb ed="#V" n="32"/>hoc nomine, quod est compositio, non transfer¬ 
+            <lb ed="#V" n="33"/>tur ad diuina, quia in tam alta, &amp; sancta materia, la¬ 
+            <lb ed="#V" n="34"/>bijs valde circuncisis: non vocabulis improprijs 
+            <lb ed="#V" n="35"/>est loquendum. Sicut ergo superius accipiebamus 
+            <lb ed="#V" n="36"/>nomen largius, quam sit factio, &amp; loquebamur 
+            <lb ed="#V" n="37"/>de productione, quod potest extendi ad omnem¬ 
+            <lb ed="#V" n="38"/>emanationem: sic &amp; nunc accipiemus largius no¬ 
+            <lb ed="#V" n="39"/>men, quam sit compositio. Accipiemus ergo con¬ 
+            <lb ed="#V" n="40"/>stitui in esse. Dicemus itaque omne, quod produ¬ 
+            <lb ed="#V" n="41"/>citur ex aliquo, constituitur in esse ex duobus, &amp; 
+            <lb ed="#V" n="42"/>quia hoc est commune tam in creaturis, quam in 
+            <lb ed="#V" n="43"/>personis diuinis, quod producantur de aliquo: ergo¬ 
+            <lb ed="#V" n="44"/>hoc erit commune tam in illis, quam in istis, quod 
+            <lb ed="#V" n="45"/>constituit in esse ex duobus. Videamus ergo quo 
+            <lb ed="#V" n="46"/>modo creaturae, quia sunt productae de aliquo, 
+            <lb ed="#V" n="47"/>constituantur in esse ex duobus, &amp; ex hoc poter 
+            <lb ed="#V" n="48"/>mus ascendere ad diuinas personas, prout tantae 
+            <lb ed="#V" n="49"/>rei hoc poterit adaptari. Creaturae ergo, quia pro¬ 
+            <lb ed="#V" n="50"/>ducuntur de aliquo: oportet, quod cum illo ali¬ 
+            <lb ed="#V" n="51"/>quo sit aliquid aliud, quod constituat in esse crea¬ 
+            <lb ed="#V" n="52"/>turas. Non est enim intelligibile, saltem in crea¬ 
+            <lb ed="#V" n="53"/>turis, quod sint productae de aliquo, &amp; non ha¬ 
+            <lb ed="#V" n="54"/>beant aliquid aliud praeter illud, ex quo sunt pro¬ 
+            <lb ed="#V" n="55"/>ductae. Necesse est ergo omnem creaturam esse ex 
+            <lb ed="#V" n="56"/>aliquibus, &amp; constitui in esse per duo, quorum 
+            <lb ed="#V" n="57"/>quodlibet est aliquid: &amp; ista duo sunt potentia, &amp; 
+            <lb ed="#V" n="58"/>actus. Nam illud, de quo producitur creatura, est 
+            <lb ed="#V" n="59"/>id, quod se habet, vt potentia, siue sit materia, vt 
+            <lb ed="#V" n="60"/>in corporalibus: siue non sit, sed aliquid loco ma¬ 
+            <lb ed="#V" n="61"/>teriae, vt in spiritualibus, est ipsa natura spiritua¬ 
+            <lb ed="#V" n="62"/>lis. Illud autem aliquid aliud, ex quo constituitur 
+            <!--42.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>creatura in corporalibus est forma: in spirituali¬ 
+            <lb ed="#V" n="64"/>bus est esse, quod se habet, vt actus essentiae, &amp; vt 
+            <lb ed="#V" n="65"/>actus illius spiritualis nature. sed quia etiam ipsae¬ 
+            <lb ed="#V" n="66"/>diuinae personae sunt producte ex aliquo, vt filius 
+            <lb ed="#V" n="67"/>est productus &amp;x substantia Patris, &amp; Spiritus san¬ 
+            <lb ed="#V" n="68"/>ctus ex substantia Patris, &amp; Filij: oporter tam per¬ 
+            <lb ed="#V" n="69"/>sonam filii, quam personam Spiritus sancti esse 
+            <lb ed="#V" n="70"/>constitutam in esse ex duobus. Sed illa duo non 
+            <lb ed="#V" n="71"/>erunt potentia, &amp; actus, sicut in creaturis: nec 
+            <lb ed="#V" n="72"/>erunt aliquid, &amp; aliquid sicut in creaturis, sed 
+            <lb ed="#V" n="73"/>erunt aliquid, &amp; ad aliquid. Nam per aliquid, &amp; r 
+            <lb ed="#V" n="74"/>ad aliquid constituitur in esse quaelibet persona 
+            <lb ed="#V" n="75"/>diuina. Dictum est enim, quod Filius est produ¬ 
+            <lb ed="#V" n="76"/>ctus a Patre de aliquo i. de substantia Patris: ergo¬ 
+            <lb ed="#V" n="77"/>in Filio est aliquid, quod est in Patre, quia in eo 
+            <lb ed="#V" n="78"/>est substantia Patris: ergo Pater, &amp; Filius habent 
+            <lb ed="#V" n="79"/>in se aliquid, quia habent unam, &amp; eandem sub¬ 
+            <lb ed="#V" n="80"/>stantiam: ergo filius habet in se aliquid, quia ha¬ 
+            <lb ed="#V" n="81"/>bet diuinam substantiam communicatam sibi a 
+            <lb ed="#V" n="82"/>Patre, &amp; Pater habet in se aliquid, quia habet il¬ 
+            <lb ed="#V" n="83"/>lam eandem substantiam, quam communicat Fi¬ 
+            <lb ed="#V" n="84"/>lio, &amp; quam communicando producitrilium: sed 
+            <lb ed="#V" n="85"/>non est intelligibile, quod aliquis producat alii, 
+            <lb ed="#V" n="86"/>&amp; non referatur ad productum: nec est intelligi¬ 
+            <lb ed="#V" n="87"/>bile, quod productus non reseratur ad producen¬ 
+            <lb ed="#V" n="88"/>tem. Propter quod non est intelligibile, loquendo¬ 
+            <lb ed="#V" n="89"/>de productione personarum, quod illa relatio 
+            <lb ed="#V" n="90"/>non sit realis ex vtraque parte. ergo in Filio non 
+            <lb ed="#V" n="91"/>solum est aliquid, sed est etiam in eo ad aliquid, 
+            <lb ed="#V" n="92"/>quia est in eo relatio realis id est Filiatio, per quam¬ 
+            <lb ed="#V" n="93"/>refertur ad Patrem: &amp; in Patre est aliquid,, vt 
+            <lb ed="#V" n="94"/>substantia sua, quam communicat Filio: &amp; estin¬ 
+            <lb ed="#V" n="95"/>eo ad aliquid .d est aliqua relatio realis, vt paternitas, 
+            <lb ed="#V" n="96"/>per quam resertur ad Filium. Tam ergo persona 
+            <lb ed="#V" n="97"/>Patris, quam persona Filii constat ex duobus, &amp; 
+            <lb ed="#V" n="98"/>substantia, &amp; relatione: &amp; quod dictum est de Ta¬ 
+            <lb ed="#V" n="99"/>tre, respectu filii: veritatem habet de Patre, &amp; Fi¬ 
+            <lb ed="#V" n="100"/>lio respectu Spiritus sancti. Propter quod ait Boc. 
+            <lb ed="#V" n="101"/>quod in diuinis non sunt, nisi duo praedicamenta: Sub¬ 
+            <lb ed="#V" n="102"/>stantia, &amp; Relatio, quia secundum ipsum in suo¬ 
+            <lb ed="#V" n="103"/>li. de Tri. in diuinis omnia transeunt in substan¬ 
+            <lb ed="#V" n="104"/>tiam diuinam praeter relationem ex his ergoduo 
+            <lb ed="#V" n="105"/>bus praedicamentis i. ex substantia, &amp; relatione con 
+            <lb ed="#V" n="106"/>stituitur in esse quaeliber diuinarum personartm. 
+            <lb ed="#V" n="107"/>Haec autem haberi possunt ab Angust. 7. de Tri. 
+            <lb ed="#V" n="108"/>c. 1. vbi loquens de distinctione diuinarum per¬ 
+            <lb ed="#V" n="109"/>sonarum ait, quod omne, quod relatiue dicitur, 
+            <lb ed="#V" n="110"/>est aliquid: excepto relatiuoid est est aliquid, excepto¬ 
+            <lb ed="#V" n="111"/>ad aliquid: ergo est aliquid, &amp; ad aliquid. Osfent¬ 
+            <lb ed="#V" n="112"/>sa est ergo similitudo aliqua creaturarum ad di¬ 
+            <lb ed="#V" n="113"/>uinas personas, quia sicut creaturae sunt produ¬ 
+            <lb ed="#V" n="114"/>cte ex aliquo, &amp; habebet aliquid aliud praeter illud, 
+            <lb ed="#V" n="115"/>ex quo sunt productae: per quod aliud constitus 
+            <lb ed="#V" n="116"/>tur in esse: sic etiam personae diuinae habent in se¬ 
+            <lb ed="#V" n="117"/>aliquid, ex quo sunt productae, quia habebet ipsam 
+            <lb ed="#V" n="118"/>diuinam substantiam, &amp; preter illud non habent 
+            <lb ed="#V" n="119"/>aliquid, per quod constituantur in esse sed habent 
+            <lb ed="#V" n="120"/>ad aliquid, vt quaelibet persona sit constituta in 
+            <lb ed="#V" n="121"/>esse per aliquid, &amp; ad aliquidid est per duo predica¬ 
+            <lb ed="#V" n="122"/>menta: per substantiam, &amp; relationem. Aliter 
+            <lb ed="#V" n="123"/>tamen &amp; aliter, quia Pater habet illud aliquid, v¬ 
+            <lb ed="#V" n="124"/>cnnuniat filo: fiius aatem habctiluaa 
+            <!--43.xml-->
+            <pb ed="#V" n="43"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quid, siue illam substantiam, vt communicatur ei¬ 
+            <lb ed="#V" n="2"/>aPatre, &amp; vr communicat eam Spiritui sancto. 
+            <lb ed="#V" n="3"/>sed Spiritus sanctus solum habet eam, vt conmu¬ 
+            <lb ed="#V" n="4"/>nicatun eiab alijs. Sicur &amp; Pater solum habet 
+            <lb ed="#V" n="5"/>eam, vtcommunicat ipsam alijs. Filius autem vtro 
+            <lb ed="#V" n="6"/>que modo habet cam, vt communicatam ab alio, 
+            <lb ed="#V" n="7"/>id est a Patre, &amp; vt communicans eam aliiid est Spiri¬ 
+            <lb ed="#V" n="8"/>tui sancto. Sed quaeres: vtrum hoc possit adap¬ 
+            <lb ed="#V" n="9"/>uri ad diuinam essentiam, vt dicatur constitu¬ 
+            <lb ed="#V" n="10"/>ta in esse. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4739">
+            <lb ed="#V" n="11"/>Ad quod dici potest qo cosure est idem, quod 
+            <lb ed="#V" n="12"/>que cum alio stare. Nam semper ad constareconcur¬ 
+            <lb ed="#V" n="13"/>runt duo. quia non stat cum alio, vbi non sunt 
+            <lb ed="#V" n="14"/>duo: personae ergo possunt dici constaro, vol con¬ 
+            <lb ed="#V" n="15"/>stitui in esse, quia in eis essentia. stat cum alioid ist cum 
+            <lb ed="#V" n="16"/>relatione: ex quibus duobus tamnquam per res duo¬ 
+            <lb ed="#V" n="17"/>rum praedicamentorum constituitur persona in 
+            <lb ed="#V" n="18"/>esse. Sed diuina essentia non constituitur in esse, 
+            <lb ed="#V" n="19"/>sed est ipsum esse, nec realiter refertur ad aliquid, 
+            <lb ed="#V" n="20"/>vt ex hoc relatio eam constituat in esse. Quaelibet 
+            <lb ed="#V" n="21"/>autem personarum, quia est ita simplex sicut es¬ 
+            <lb ed="#V" n="22"/>sentia, &amp; est ipsum esse sicut existentia, &amp; est per¬ 
+            <lb ed="#V" n="23"/>relationem constituta in esse, vt in ea relatio non 
+            <lb ed="#V" n="24"/>faciat compositionem, sed distinctionem, &amp; mul¬ 
+            <lb ed="#V" n="25"/>tiplicationem; vt in hoc verificetur dictum Boe. 
+            <lb ed="#V" n="26"/>quod substantia continet vnitatem: relatio mul¬ 
+            <lb ed="#V" n="27"/>tiplicat trinitatem. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4778">
+            <lb ed="#V" n="28"/>DVB. V. LATERALIS. 
+            <lb ed="#V" n="29"/>An Anima humana ex aliquo sit produca. 
+            <lb ed="#V" n="30"/>conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4788">
+            <lb ed="#V" n="31"/>VLTERIVS de compositione animae 
+            <lb ed="#V" n="32"/>quia est quaestio multum litigiosa: for¬ 
+            <lb ed="#V" n="33"/>te dubitaret aliquis, quomodo veri¬ 
+            <lb ed="#V" n="34"/>tatem habet, quod anima sit produ¬ 
+            <lb ed="#V" n="35"/>cta de aliquo. Hoc. num non videtur proprie di¬ 
+            <lb ed="#V" n="36"/>i ctum. Nam de materialibus dicimus, quod sunt 
+            <lb ed="#V" n="37"/>producta de aliquo, quia sunt producta de sua 
+            <lb ed="#V" n="38"/>materia. Sed non est vsitatum dicere, nec videtur 
+            <lb ed="#V" n="39"/>proprie dictum, quod intelligentiae, vel animae sint 
+            <lb ed="#V" n="40"/>productae de aliquo: cum sint quaedam formae pe¬ 
+            <lb ed="#V" n="41"/>se existentes, vel quae possunt per se existere, quae¬ 
+            <lb ed="#V" n="42"/>secundum Philosophum in 7. statim sunt id, quod 
+            <lb ed="#V" n="43"/>sunt per essentiam suam, &amp; sunt entes praeter om¬ 
+            <lb ed="#V" n="44"/>nem materiam. Rursus cum tam animae, quam 
+            <lb ed="#V" n="45"/>intelligentiae de necessitate sint productae de nihi¬ 
+            <lb ed="#V" n="46"/>lo: non videtur bene dictum, quod sint producte 
+            <lb ed="#V" n="47"/>de aliquo. Dicendum, quod cum concedamus 
+            <lb ed="#V" n="48"/>tde diuinis personis, quod sunt productae de ali¬ 
+            <lb ed="#V" n="49"/>quo: non possumus negare quin animae, &amp; intel 
+            <lb ed="#V" n="50"/>igentiae dicantur productae de aliquo. Deus er¬ 
+            <lb ed="#V" n="51"/>go pater de aliquo id est de aliqua substantia produ¬ 
+            <lb ed="#V" n="52"/>eit Filium, &amp; Pater, &amp; Filius de aliquoid est de ali¬ 
+            <lb ed="#V" n="53"/>qua substantia producunt Spiritum sanctum. Sic, 
+            <lb ed="#V" n="54"/>&amp; tota Trinitas de aliquo d est de aliqua substantia 
+            <lb ed="#V" n="55"/>produxit intelligentias, &amp; quotidie producit ani¬ 
+            <lb ed="#V" n="56"/>mas, differenter tamen. quia Filium producit Pa¬ 
+            <lb ed="#V" n="57"/>ter de propria substantia, &amp; Spiritum sanctum pro¬ 
+            <lb ed="#V" n="58"/>ducunt Pater, &amp; Filius, etiam de propria substan¬ 
+            <lb ed="#V" n="59"/>tia. Sed intelligentias produxit tota Trinitas, &amp; 
+            <!--43.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>producit quotidie animas non de propria, sed de 
+            <lb ed="#V" n="61"/>aliena substantia. Quia ergo dicebatur: quod in¬ 
+            <lb ed="#V" n="62"/>telligentiae, &amp; animae fiunt de nihilo: ergo non 
+            <lb ed="#V" n="63"/>fiunt de aliquo. Dici debet, quod quicquid fit de¬ 
+            <lb ed="#V" n="64"/>nihilo fit de aliquo: non de aliquo praeiacente, sed 
+            <lb ed="#V" n="65"/>de aliquo concreato. &amp; licet illud, quod fir de ni¬ 
+            <lb ed="#V" n="66"/>hilo, fiat etiam hoc modo de aliquo: hoc est tamen¬ 
+            <lb ed="#V" n="67"/>aliter, &amp; aliter. Nam impossibile est, quod de nihilo, 
+            <lb ed="#V" n="68"/>&amp; de aliquo sit aliquid eodem modo factum, quia 
+            <lb ed="#V" n="69"/>tunc nihilesset aliquid. Intelligentiae ergo, &amp; ani¬ 
+            <lb ed="#V" n="70"/>mae, &amp; vniuersaliter omnes creaturae sunt de ni¬ 
+            <lb ed="#V" n="71"/>hilo ordinaliter, &amp; sunt de aliquo substantialiter. 
+            <lb ed="#V" n="72"/>Non enim potest fieri aliquid de nihilo, quod pos¬ 
+            <lb ed="#V" n="73"/>sit malleari nihil, vt fiat inde aliquid sicut potest 
+            <lb ed="#V" n="74"/>malleari ferrum, vt fiat inde cultellus. Solum er¬ 
+            <lb ed="#V" n="75"/>&amp;o ordinaliter sunt res ex nihilo, quia sunt post 
+            <lb ed="#V" n="76"/>enihil, vt cum prius essent nihil: virtute diuina in¬ 
+            <lb ed="#V" n="77"/>ceperunt esse aliquid: sed substantialiter omnes 
+            <lb ed="#V" n="78"/>creaturae sunt ex aliquo, quia factae sunt ex ali¬ 
+            <lb ed="#V" n="79"/>qua substantia. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e4901">
+            <lb ed="#V" n="80"/>Ad maiorem autem intelligentiam dictorum 
+            <lb ed="#V" n="81"/>dicemus, quod omne compositum ex potentia, 
+            <lb ed="#V" n="82"/>&amp; actu fit ex eo, quod se habet in eis tanquam po¬ 
+            <lb ed="#V" n="83"/>tentia. quia secundum August super Sene. Sem¬ 
+            <lb ed="#V" n="84"/>per &amp;x in formi fit formatum. &amp; quia potentia for¬ 
+            <lb ed="#V" n="85"/>matur, &amp; perficitur per actum; oportet, quod ex¬ 
+            <lb ed="#V" n="86"/>eo, quod est in potentia, dicatur res fieri: prout illa po¬ 
+            <lb ed="#V" n="87"/>tentia perficitur per actum: Oportet ergo, quod 
+            <lb ed="#V" n="88"/>sit aliquo modo similis comparatio corporalium, 
+            <lb ed="#V" n="89"/>&amp; spiritualium ad illud, de quo fiunt. vt si modo 
+            <lb ed="#V" n="90"/>crearetur vnus lapis, &amp; crearerur vna spiritualis 
+            <lb ed="#V" n="91"/>substantia, quia nihil fit, nisi compositum: opor¬ 
+            <lb ed="#V" n="92"/>teret illum lapidem esse compositum ex potentia, 
+            <lb ed="#V" n="93"/>&amp; actu. &amp; etiam illa spiritualis substantia, ex quo¬ 
+            <lb ed="#V" n="94"/>cadit sub factione, erit composita ex potentia, &amp; 
+            <lb ed="#V" n="95"/>actu. Aliter tamen, &amp; aliter. quia ille lapis sic pro¬ 
+            <lb ed="#V" n="96"/>ductus esset compositus ex potentia, &amp; actu, quia 
+            <lb ed="#V" n="97"/>est compositus ex materia, &amp; forma, quae mate¬ 
+            <lb ed="#V" n="98"/>ria est de se pura potentia. Sic &amp; illa spiritualie 
+            <lb ed="#V" n="99"/>substantia producta erit composita ex potentia 
+            <lb ed="#V" n="100"/>&amp; actu, sed illa potentia non erit materia, nec erit, 
+            <lb ed="#V" n="101"/>aliquid, quod sit pura potentia, vt supra plenius 
+            <lb ed="#V" n="102"/>dicebatur, sed erit ipsa essentia, vel ipsa substantia, 
+            <lb ed="#V" n="103"/>vel ipsa natura rei spiritualis, &amp; actus erit ipsum 
+            <lb ed="#V" n="104"/>esse rei spiritualis. Nam nulla natura creata, quan¬ 
+            <lb ed="#V" n="105"/>rumcunque spiritualis, est suum esse, sed est in po¬ 
+            <lb ed="#V" n="106"/>tentia ad esse, &amp; perficitur per esse. Si enim esset 
+            <lb ed="#V" n="107"/>suum esse, esset omnino simplex, &amp; ab alio, vel 
+            <lb ed="#V" n="108"/>per aliud non inciperet esse, sed ab aeterno habuis¬ 
+            <lb ed="#V" n="109"/>set esse. Bene ergo dixit Aug. quod sicut quaerimus 
+            <lb ed="#V" n="110"/>aliquid, vnde fit corpus: sic debemus quaerere ali 
+            <lb ed="#V" n="111"/>quid pro suo genere, vnde fit anima, &amp; vnde fit 
+            <lb ed="#V" n="112"/>quaecunque spiritualis substantia. Nam sicut cor¬ 
+            <lb ed="#V" n="113"/>pus fit ex materia: prout perficitur per formam; 
+            <lb ed="#V" n="114"/>sic pro genere suo quaelibet intelligentia, &amp; quae 
+            <lb ed="#V" n="115"/>libet anima fit ex quadam spirituali substantia, 
+            <lb ed="#V" n="116"/>prout perficitur, per esse. Comparabitur ergo ip¬ 
+            <lb ed="#V" n="117"/>sa substantia spiritualis ad sunm esse: sicut com¬ 
+            <lb ed="#V" n="118"/>paratur materia corporalis ad suam formam: non, 
+            <lb ed="#V" n="119"/>quod ista similitudo sit per omnem modum, sed si 
+            <lb ed="#V" n="120"/>cut materia corporalis est quaedam potentia, qua 
+            <lb ed="#V" n="121"/>perficitur per formam, tanquam per suum actum: 
+            <!--44.xml-->
+            <pb ed="#V" n="44"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sic quelibet substantia spiritualis erit quaedi po¬ 
+            <lb ed="#V" n="2"/>tentia, quae perficitur per esse, tanquam per suum 
+            <lb ed="#V" n="3"/>actum. Ad videndum ergo de potentia, &amp; actu, 
+            <lb ed="#V" n="4"/>quae sunt de compositione omnium rerum facta¬ 
+            <lb ed="#V" n="5"/>trum: descendemus ad animam humanam, quae est 
+            <lb ed="#V" n="6"/>actus humani corporis potentia vitam habentis. 
+            <lb ed="#V" n="7"/>Nam totus homo potest dici corpus, &amp; pars ho¬ 
+            <lb ed="#V" n="8"/>minis, quae perficitur per animam: potest dici cor¬ 
+            <lb ed="#V" n="9"/>pus, sed totu, homo diuer corpus, habens actu vitam, 
+            <lb ed="#V" n="10"/>includens in se vitam quia quadibet pars includitin to¬ 
+            <lb ed="#V" n="11"/>to. Ille ergo actus, &amp; illa forma, per quam homo¬ 
+            <lb ed="#V" n="12"/>viuit, est pars hominis, &amp; includitur actu in ho¬ 
+            <lb ed="#V" n="13"/>mine. Sic ergo loquendum est de corpore anima¬ 
+            <lb ed="#V" n="14"/>to: prout stat pro toto, sed prout stat pro parte 
+            <lb ed="#V" n="15"/>non includit actum, sed est potentia ad actum, &amp; 
+            <lb ed="#V" n="16"/>quia est potentia ad actum, siue ad formam, per 
+            <lb ed="#V" n="17"/>quam est vita; dicetur potentia vitam habebes. Pro¬ 
+            <lb ed="#V" n="18"/>pter quod anima humana est actus corporis hu¬ 
+            <lb ed="#V" n="19"/>mani potentia vitam habentis. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e5042">
+            <lb ed="#V" n="20"/>Aduertendum tamen, quod licet vna pars com¬ 
+            <lb ed="#V" n="21"/>positi non includat aliam, sed sit in potentia ad 
+            <lb ed="#V" n="22"/>aliam: tamen vna pars compositi est coniuncta 
+            <lb ed="#V" n="23"/>aliji, ex qua coniunctione dicitur non abiicere 
+            <lb ed="#V" n="24"/>aliam. Ideo potentia, &amp; actus, quae componunt ho¬ 
+            <lb ed="#V" n="25"/>minem: licet vna secundum se non includat aliamm 
+            <lb ed="#V" n="26"/>tamen propter coniunctionem, quam habet ad 
+            <lb ed="#V" n="27"/>partem aliam, dicitur non abiicere aliam. Homo¬ 
+            <lb ed="#V" n="28"/>ergo est compositus ex potentia, &amp; actu, quia est 
+            <lb ed="#V" n="29"/>compositus ex corpore, tamnquam potentia, &amp; ani¬ 
+            <lb ed="#V" n="30"/>ma, tanquam actu. Corpus itaque non est ipse 
+            <lb ed="#V" n="31"/>actus, sed est potentia habens actum, vel est poten¬ 
+            <lb ed="#V" n="32"/>tia habens vitam. Tamen quia ista potentia est 
+            <lb ed="#V" n="33"/>coniuncta ipsi vitae, &amp; ipsi actui: dicitur potentia 
+            <lb ed="#V" n="34"/>non abiiciens actum, quae omnia possunt patere 
+            <lb ed="#V" n="35"/>ex 2. de Anima. Ex his autem, quae diximus de 
+            <lb ed="#V" n="36"/>anima respectu corporis, possumus dicere tam¬ 
+            <lb ed="#V" n="37"/>de corporibus, quam de spiritibus. vt sicut cor¬ 
+            <lb ed="#V" n="38"/>pus est compositum ex potentia, &amp; actu. quia est 
+            <lb ed="#V" n="39"/>compositum ex materia, &amp; forma: sic quilibet spi¬ 
+            <lb ed="#V" n="40"/>ritus &amp; quaelibet intelligentia, &amp; quaelibet anim¬ 
+            <lb ed="#V" n="41"/>est composita ex potentia, &amp; actu. Nam licet non 
+            <lb ed="#V" n="42"/>i sint composita ex materia, &amp; forma: tamem illud, 
+            <lb ed="#V" n="43"/>quod in eis se habet, vt porenta: se habet ad mo¬ 
+            <lb ed="#V" n="44"/>dum materiae, &amp; ad modum rei perfectibilis. Il¬ 
+            <lb ed="#V" n="45"/>lud autem, quod se habet, vt actus: se habet ad 
+            <lb ed="#V" n="46"/>modum formae &amp; persectionis Si quis ergo vel¬ 
+            <lb ed="#V" n="47"/>let diffinire illud quod in lapide se habet, vt actus: 
+            <lb ed="#V" n="48"/>id est formam; diceret, quod est actus materiae la pidum 
+            <lb ed="#V" n="49"/>potentia habentis talem actum. Sic qui vellet dif¬ 
+            <lb ed="#V" n="50"/>finire in spiritibus illud, quod se habet in eis, vt 
+            <lb ed="#V" n="51"/>actus id est esse: diceret, quod est actus naturae spiritua 
+            <lb ed="#V" n="52"/>lis potentia habentis esse verum quia non est da¬ 
+            <lb ed="#V" n="53"/>re rem otiosam. Dicemus ergo quod sicut anima 
+            <lb ed="#V" n="54"/>est comnposita ex sua natura, &amp; ex suo esse, vt possit 
+            <lb ed="#V" n="55"/>esse; sic est composita ex sua natura, &amp; ex suis poten¬ 
+            <lb ed="#V" n="56"/>tijs, vt possit agere. Erunt ergo in anima tria: sua na¬ 
+            <lb ed="#V" n="57"/>tura, &amp; suum esse, per quod est &amp; suae potentiae, prer 
+            <lb ed="#V" n="58"/>quas agit. His itaque praelibatis possumus clare 
+            <lb ed="#V" n="59"/>&amp; descendere ad dictum August. Nam clare paret, 
+            <lb ed="#V" n="60"/>quo modo anima ex aliquo est. tanquam materia 
+            <lb ed="#V" n="61"/>pro suo genere. Nam sicut corpora sunt compo¬ 
+            <lb ed="#V" n="62"/>sita ex materia proprie sumpta, &amp; forma, quae est 
+            <!--44.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>actus cius: sic animi estcomposina non en mate¬ 
+            <lb ed="#V" n="64"/>ria proprie sumpra, sed pro suo genere, quia est 
+            <lb ed="#V" n="65"/>composita ex potentia, &amp; actu, siue ex sua natu¬ 
+            <lb ed="#V" n="66"/>ra, &amp; suo esse. Ex his etiam patere possunt illa¬ 
+            <lb ed="#V" n="67"/>tria fundamenta Aug. videlicet, quod in productio¬ 
+            <lb ed="#V" n="68"/>ne animae, ex irrationali non fit rationale, ex non 
+            <lb ed="#V" n="69"/>viuo non fit viuum. Fiunt etiam ista ex eo, quod est 
+            <lb ed="#V" n="70"/>aptum natum agere, &amp; ex hoc, quod est aptum na¬ 
+            <lb ed="#V" n="71"/>tum esse miserum, vel beatum. Cum enim tria sint 
+            <lb ed="#V" n="72"/>in anima: natura, &amp; esse, per quod est, &amp; poten¬ 
+            <lb ed="#V" n="73"/>tiae, per quas agit, illa tria fundamenta referenda¬ 
+            <lb ed="#V" n="74"/>sunt ad ista tria. Vt quod anima est producta ex re ra¬ 
+            <lb ed="#V" n="75"/>tionali: referendum est ad naturam animae, quae 
+            <lb ed="#V" n="76"/>est natura rationalis. Quod autem anima produ¬ 
+            <lb ed="#V" n="77"/>cta est ex re viua: reserendum est, aut potest refer¬ 
+            <lb ed="#V" n="78"/>ri ad esse animae, quod est quoddam viuere eius. 
+            <lb ed="#V" n="79"/>Quod uero facta est ex re quae est apta nata agere be¬ 
+            <lb ed="#V" n="80"/>ne, vel male, &amp; ex hoc est apta nata esse misera, 
+            <lb ed="#V" n="81"/>vel beata, potest referri ad potentias animae, per 
+            <lb ed="#V" n="82"/>quas anima est aptae nara bene, vel male agere. Ex¬ 
+            <lb ed="#V" n="83"/>quibus omnibus fundamentis potest concludi, vt 
+            <lb ed="#V" n="84"/>iupra diffusius dicebatur, quod anima non habet ma¬ 
+            <lb ed="#V" n="85"/>teriam proptie sumptam partem sui, quia ex tali¬ 
+            <lb ed="#V" n="86"/>materia, vt supra coneludebatur, non potest ra¬ 
+            <lb ed="#V" n="87"/>tionale fieri ex irrationali, &amp; viuum ex non viuo, 
+            <lb ed="#V" n="88"/>&amp; aptum natum agere: ex non apto nato. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e5198">
+            <lb ed="#V" n="89"/>RESP. AD ARO. Ad primum dicendum, quod 
+            <lb ed="#V" n="90"/>Boe. ibi loquitur de forma, quae est Deus, qnec 
+            <lb ed="#V" n="91"/>habet materiam, nec aliquid materiale. Propter 
+            <lb ed="#V" n="92"/>quod non potest subesse accidentibus. De Deo 
+            <lb ed="#V" n="93"/>ergo verificatur illud A ugust in de Tri. quod in 
+            <lb ed="#V" n="94"/>Deo nihil est per accidens. Omnia autem alia, &amp; 
+            <lb ed="#V" n="95"/>si non habent veram materiam, habetet tamen ali¬ 
+            <lb ed="#V" n="96"/>quid materiale, ratione cuius potest in eis esse ali¬ 
+            <lb ed="#V" n="97"/>qu. d.er accidens. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e5220">
+            <lb ed="#V" n="98"/>Ad secundum dicendum quod anima potest esse 
+            <lb ed="#V" n="99"/>quid mutabile, quia quamuis non habeat mate¬ 
+            <lb ed="#V" n="100"/>riam, non est tamen actus purus, sed est actus ad. 
+            <lb ed="#V" n="101"/>mixtus potentiae. Ratione cuius potest sibi muta¬ 
+            <lb ed="#V" n="102"/>bilitas accidere. Nam nec potentia pura, nec pu¬ 
+            <lb ed="#V" n="103"/>rus actus possunt esse subiecta motui. Nam cum¬ 
+            <lb ed="#V" n="104"/>motus sit actus, licet impersectus: pura potentia 
+            <lb ed="#V" n="105"/>non potest intelligi subiecta motui, nisi intelliga¬ 
+            <lb ed="#V" n="106"/>tur subiecu alicui, &amp; per consequens, nis intdli 
+            <lb ed="#V" n="107"/>gatur subiecta actui. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e5244">
+            <lb ed="#V" n="108"/>Ad tertium dicendum, quod Philosophus in M 
+            <lb ed="#V" n="109"/>ta. loq uitur de motu proprie, qui non potest con¬ 
+            <lb ed="#V" n="110"/>petere, nisi corpori Nam morus proprie sumptus 
+            <lb ed="#V" n="111"/>est commensurare se loco, vel se commensurare 
+            <lb ed="#V" n="112"/>alicuius spatio, per quod mouetur. quod non fit, 
+            <lb ed="#V" n="113"/>nisi per quantitatem, que solum in corporibus in¬ 
+            <lb ed="#V" n="114"/>uenitur. Anima ergo ex hoc non oportet, quod ha¬ 
+            <lb ed="#V" n="115"/>beat materiam, quia non mouetur hoc modo. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e5265">
+            <lb ed="#V" n="116"/>Ad quartum dicendum, quod proprietates 
+            <lb ed="#V" n="117"/>materiae, cuius sunt: recipere, subiici. &amp; pati: sunt 
+            <lb ed="#V" n="118"/>in anima, &amp; in materia aequiuoce. Nam materia 
+            <lb ed="#V" n="119"/>subiicitur formis particularibus. Anima vero vn 
+            <lb ed="#V" n="120"/>uersalibus. non, quod illae formae, quae sunt in anima 
+            <lb ed="#V" n="121"/>sint in se vniuersales, sed sunt aptae natae repraesen¬ 
+            <lb ed="#V" n="122"/>tare res vniuersales: propter quod subiici hic, &amp; ibi 
+            <lb ed="#V" n="123"/>sumitur aequiuoce. sic &amp; recipere hic, &amp; ibi sumi¬ 
+            <lb ed="#V" n="124"/>tur aquiuoce, quia materia recipit formas sensi¬ 
+            <!--45.xml-->
+            <pb ed="#V" n="45"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>biles: anima intelligibiles. Sic &amp; passio sumitur 
+            <lb ed="#V" n="2"/>aequiuoce hic, &amp; ibi, quia in materia passio magis 
+            <lb ed="#V" n="3"/>facta abiicit ad substantia, sed passio in anima non 
+            <lb ed="#V" n="4"/>est proprie abiectio, sed salus, &amp; receptio. Nam 
+            <lb ed="#V" n="5"/>ipsum intelligere animae est quoddam pari, &amp; ip¬ 
+            <lb ed="#V" n="6"/>sum velle est quoddam pati, sed anima sic patiendo, 
+            <lb ed="#V" n="7"/>&amp; bene intelligendo, &amp; volendo est apta nata¬ 
+            <lb ed="#V" n="8"/>perfici scientia, &amp; virtutibus.
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e5311">
+            <lb ed="#V" n="9"/>Ad quintum dicendum, quod actio agentis termi¬ 
+            <lb ed="#V" n="10"/>natur ad compositum, quia terminatur ad id, quod 
+            <lb ed="#V" n="11"/>itum est hoc aliquid, &amp; omne tale est quid compositum, 
+            <lb ed="#V" n="12"/>&amp; anima quamuis sit forma, tamen modo, quo di¬ 
+            <lb ed="#V" n="13"/>ximus, potest dici hoc aliquid, &amp; ipsa est quid con¬ 
+            <lb ed="#V" n="14"/>positum: non ex materia, &amp; forma, sed &amp;x substan¬ 
+            <lb ed="#V" n="15"/>tia, &amp; esse, vel ex sua natura, vel ex suis potentijs. 
+            <lb ed="#V" n="16"/>Ad sextum dicendum, quod solus Deus viuit in 
+            <lb ed="#V" n="17"/>a seipso, quia vinit pernihil sibiadditum. Nam si 
+            <lb ed="#V" n="18"/>y viunere est viuentibus esse, sicut Deus est suum esse: 
+            <lb ed="#V" n="19"/>ita, &amp; suum viuere, quod nulli creaturae quantum 
+            <lb ed="#V" n="20"/>cunque spirituali competit, quia nulla est suum es¬ 
+            <lb ed="#V" n="21"/>se, sed est composita ex essentia &amp; esse A nima er 
+            <lb ed="#V" n="22"/>go uiuit in seipsa, sed non, quod ipsa sit suum viuere, 
+            <lb ed="#V" n="23"/>quia nec est suum esse, &amp; dat viuere corpori. quia 
+            <lb ed="#V" n="24"/>a ei communicat suum esse. Posset autem distingui¬ 
+            <lb ed="#V" n="25"/>de viuere, quia potest accipi mulris modis. Nam 
+            <lb ed="#V" n="26"/>non solum esse animae potest dici quoddam viue¬ 
+            <lb ed="#V" n="27"/>re, sed etiam ipsum intelligere animae potest dici¬ 
+            <lb ed="#V" n="28"/>el quoddam uiuere, quia secundum Commen. in 
+            <lb ed="#V" n="29"/>u12. Actus intellectus est vita, sed de hoc non sit 
+            <lb ed="#V" n="30"/>nobis curae. 
+          </p>
+          <p xml:id="Gi9qrR-m007566-d1e5361">
+            <lb ed="#V" n="31"/>Ad septimum dicendum, quod in omni creato dif¬ 
+            <lb ed="#V" n="32"/>fert, quod est, &amp; quo est, &amp; quod agit, &amp; quo ngit. 
+            <lb ed="#V" n="33"/>sed propter hoc non oportet ponere in anima 
+            <lb ed="#V" n="34"/>compositionem ex materia, &amp; forma, quia si ani¬ 
+            <lb ed="#V" n="35"/>ma est haec: est per esse sibi additum, vt etiam in 
+            <lb ed="#V" n="36"/>ea aliud sit esse, &amp; aliud id, quod est Nam essentia 
+            <lb ed="#V" n="37"/>animae est per esse, &amp; non est suum esse, sed parti¬ 
+            <lb ed="#V" n="38"/>cipat esse. Sic &amp; si anima agit, hoc est per suas po¬ 
+            <lb ed="#V" n="39"/>tentias, quae non sunt idem, quod anima. Aliud 
+            <lb ed="#V" n="40"/>ergo est anima, quae agit, &amp; aliud est potentia, qua¬ 
+            <lb ed="#V" n="41"/>agit, quamuis non dicatur proprie anima agere, 
+            <lb ed="#V" n="42"/>quia nec pprie dicitur intelligere, sed homo agit 
+            <lb ed="#V" n="43"/>&amp; intelligit per animam, vt patet ex primo de aia. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

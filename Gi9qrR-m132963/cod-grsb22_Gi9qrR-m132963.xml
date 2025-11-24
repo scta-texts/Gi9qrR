@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="451"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m132963"><!-- l2d31q2 -->
+        <head xml:id="Gi9qrR-m132963-Hd1e101">Quaestio 2</head>
+        <head xml:id="Gi9qrR-m132963-Hd1e103" type="question-title">
+          De peccati originalis transfundendi ordine
+        </head>
+        <p xml:id="Gi9qrR-m132963-d1e106">
+          <lb ed="#V" n="17"/>QVAEST. II. 
+          <lb ed="#V" n="18"/>De peccati originalis transfundendi¬ 
+          <lb ed="#V" n="19"/>ordine. 
+        </p>
+        <p xml:id="Gi9qrR-m132963-d1e115">
+          <lb ed="#V" n="20"/>POSTEA quaeritur de origi. 
+          <lb ed="#V" n="21"/>nali peccato quantum ad suum 
+          <lb ed="#V" n="22"/>ordinem: vbi habet esse per¬ 
+          <lb ed="#V" n="23"/>prius, &amp; vbi per posterius. 
+          <lb ed="#V" n="24"/>quia ordo prioris, &amp; poste¬ 
+          <lb ed="#V" n="25"/>rioris habet esse secundum 
+          <lb ed="#V" n="26"/>diuersa. Cum in anima sit 
+          <lb ed="#V" n="27"/>vna essentia, &amp; diuersa genera potentiarum; 
+          <lb ed="#V" n="28"/>Erit circa hoc duplex quaestio. Vtrum peccatum 
+          <lb ed="#V" n="29"/>originale per prius habeat esse in essentia animae, 
+          <lb ed="#V" n="30"/>quam in potentijs, vel econuerso. Alia quaestio 
+          <lb ed="#V" n="31"/>crit, in qubus potentis habcat esse Per prius. 
+        </p>
+        <div xml:id="Gi9qrR-m132963-Dd1e144">
+          <head xml:id="Gi9qrR-m132963-Hd1e146">Articulus 1</head>
+          <p xml:id="Gi9qrR-m132963-d1e148">
+            <lb ed="#V" n="32"/>ARTIC. I. 
+            <lb ed="#V" n="33"/>An peccatum originale prius in 
+            <lb ed="#V" n="34"/>animae potentia, quam in 
+            <lb ed="#V" n="35"/>essentia sit.: 
+            <lb ed="#V" n="36"/>Conclusio est negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e161">
+            <lb ed="#V" n="37"/>D. Th. 1. 2. q. 83. ar. 1. &amp; 3 Sent. d. 31. q. 2. ar. 1. Et de Maloq 
+            <lb ed="#V" n="38"/>4. ar. 3. &amp; 4. D. Bon. d. 31. ar. 1. q. 2. Ric. d. 31. q. 1. Th. Arg. 
+            <lb ed="#V" n="39"/>d. 31. ar. 4. Dur. d. 31. q. 3 Capr. d. 31 d. S. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e170">
+            <lb ed="#V" n="40"/>AD PRIMVM sic proceditur 
+            <lb ed="#V" n="41"/>videtur, quod originale pecca¬ 
+            <lb ed="#V" n="42"/>tum prius sit in potentia, quan¬ 
+            <lb ed="#V" n="43"/>in essentia. quia peccatum origi¬ 
+            <lb ed="#V" n="44"/>nale est carentia originalis iusti¬ 
+            <lb ed="#V" n="45"/>tiae. sed iustitia habet esse in vo¬ 
+            <lb ed="#V" n="46"/>luntate: &amp; voluntas nominat potentiam, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e188">
+            <lb ed="#V" n="47"/>Praeterea essentia animae intellectiuae est imma¬ 
+            <lb ed="#V" n="48"/>terialis, quia non habet materiam partem sui. 
+            <lb ed="#V" n="49"/>sed immateriale non attingit materiale, nisi me¬ 
+            <lb ed="#V" n="50"/>diante aliquo materiali. Non ergo anima attin¬ 
+            <lb ed="#V" n="51"/>get corpus, nisi mediantibus potentijs sensitiuis, 
+            <lb ed="#V" n="52"/>quae sunt potentiae materiales, &amp; organicaem. In 
+            <!--451.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="53"/>ulibus ergo potentijs erit per prius peccatum 
+            <lb ed="#V" n="54"/>originale. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e213">
+            <lb ed="#V" n="55"/>Praeterea ideo dicitur peccatum originale, quia 
+            <lb ed="#V" n="56"/>traducitur per originem naturae humanae. sed 
+            <lb ed="#V" n="57"/>origo naturae humanae pertinet ad potentiam ge¬ 
+            <lb ed="#V" n="58"/>neratiuam, cum origo sit idem, quod generatio, 
+            <lb ed="#V" n="59"/>quae terminatur ad naturam, &amp; est opus naturae: 
+            <lb ed="#V" n="60"/>Erit ergo peccatum originale in ipsa potentia ge¬ 
+            <lb ed="#V" n="61"/>neratiua per prius. Si autem sit in essentia animae 
+            <lb ed="#V" n="62"/>hoc erit per redundantiam. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e233">
+            <lb ed="#V" n="63"/>Praeterea peccatum originale, vt habeturin lit 
+            <lb ed="#V" n="64"/>tera, est concupiscentia, vel concupiscibilitas. sed 
+            <lb ed="#V" n="65"/>ista siue sumantur actualiter, siue habitualiter, 
+            <lb ed="#V" n="66"/>pertinent ad vires sensitiuas. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e244">
+            <lb ed="#V" n="67"/>Praeterea secundum Augustinum in de vera Re¬ 
+            <lb ed="#V" n="68"/>ligione: Omne peccatum est in voluntate, sed 
+            <lb ed="#V" n="69"/>peccatum originale est peccatum, ergo est in vo¬ 
+            <lb ed="#V" n="70"/>luntate.
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e255">
+            <lb ed="#V" n="71"/>Praeterea poena debet respondere culpae. sed 
+            <lb ed="#V" n="72"/>carentia visionis diuinae est poena originalis pec¬ 
+            <lb ed="#V" n="73"/>cati, cum visio diuina pertineat ad intellectum, 
+            <lb ed="#V" n="74"/>&amp; ad. rationem, non ad essentiam: peccatum 
+            <lb ed="#V" n="75"/>originale erit in intellectu, vel in ratione non in 
+            <lb ed="#V" n="76"/>essentia. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e271">
+            <lb ed="#V" n="77"/>IN CONTRARIVM est: quia anima po¬ 
+            <lb ed="#V" n="78"/>test considerari dupliciter, vel vt :est, forma cort 
+            <lb ed="#V" n="79"/>poris, vel vt est motor. Si ergo peescatum origi¬ 
+            <lb ed="#V" n="80"/>nale est in anima, vt coniungitur torpori; non 
+            <lb ed="#V" n="81"/>poterit esse in ea, prout coniungitur, vt motor: 
+            <lb ed="#V" n="82"/>quia per nullam motionem nostram, &amp; per nul¬ 
+            <lb ed="#V" n="83"/>lum actum nostrum fit in nobis peccatum origi¬ 
+            <lb ed="#V" n="84"/>nale. Erit ergo peccatum originale in anima 
+            <lb ed="#V" n="85"/>non, vt est motor icorporis, sed vt est forma. 
+            <lb ed="#V" n="86"/>cum ergo sit forma corporis per essentiam. er¬ 
+            <lb ed="#V" n="87"/>go &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e297">
+            <lb ed="#V" n="88"/>Praeterea dictum est peccatum originale, quia 
+            <lb ed="#V" n="89"/>contrahitur per originem, vel per generationem. Si¬ 
+            <lb ed="#V" n="90"/>ergo tale peccatum erit in anima erit in ea, vt est 
+            <lb ed="#V" n="91"/>terminus generationis. sed huiusmodi terminus 
+            <lb ed="#V" n="92"/>est per essentiamergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e311">
+            <lb ed="#V" n="93"/>RESOLVTIO. 
+            <lb ed="#V" n="94"/>Peccatum originale prius in anima essentia, quam 
+            <lb ed="#V" n="95"/>in potentijs est: si consideretur originalis iufti¬ 
+            <lb ed="#V" n="96"/>ria, vt vnum donum secundum se: magisque¬ 
+            <lb ed="#V" n="97"/>naturae, quam personae datitm, &amp; a Deo qui¬ 
+            <lb ed="#V" n="98"/>dem, &amp; vt gratia. Idemque patet ex ijs, qua 
+            <lb ed="#V" n="99"/>alijs in rebus nidemus: &amp; ex modo ipsum con¬¬ 
+            <lb ed="#V" n="100"/>trabendi. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e331">
+            <lb ed="#V" n="101"/>RESDOVDEO dicendum, quod peccaa¬ 
+            <lb ed="#V" n="102"/>tum originale est carentia originalis iustitiae cum 
+            <lb ed="#V" n="103"/>debito habendi eam, vt est ex superioribus dechara 
+            <lb ed="#V" n="104"/>tum. Si ergo bene volumus videre, quid est ori¬ 
+            <lb ed="#V" n="105"/>ginale peccatum: oportet nos videre, quid erat 
+            <lb ed="#V" n="106"/>originalis iustitia. Dicemus ergo, quod origi¬ 
+            <lb ed="#V" n="107"/>nalis iustitia erat quoddam vnum donum gratui¬ 
+            <lb ed="#V" n="108"/>tum datum naturae nostrae a Deo: habens seinna¬ 
+            <lb ed="#V" n="109"/>tura instituta, sicut se habet modo gratia in natu¬ 
+            <lb ed="#V" n="110"/>ra corrupta. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e355">
+            <lb ed="#V" n="111"/>Sex ergo vijs declarabimus, quod peccatum origi¬ 
+            <lb ed="#V" n="112"/>nale per prius habet esse in essentia animae &amp; per¬ 
+            <!--452.xml-->
+            <pb ed="#V" n="452"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quandam redundantiam habet esse in potentijs: 
+            <lb ed="#V" n="2"/>vt Prima via sumatur, prout iustitia originalis se 
+            <lb ed="#V" n="3"/>cundum se erat vnum donum, licet per redundam 
+            <lb ed="#V" n="4"/>tiam esset multa dona: sic peccatum originale 
+            <lb ed="#V" n="5"/>secundum se est vnus defectus, licet per redun¬ 
+            <lb ed="#V" n="6"/>dantiam possit esse defectus multi. Propter quod 
+            <lb ed="#V" n="7"/>erit prima via ex ipsa vnitate ipsius originalis iu¬ 
+            <lb ed="#V" n="8"/>stitiae, siue originalis peccati. Secunda via erit, 
+            <lb ed="#V" n="9"/>prout originalis iustitia erat donum datum natu¬ 
+            <lb ed="#V" n="10"/>rae, magis, quam personae. Tertia erit prout ta¬ 
+            <lb ed="#V" n="11"/>le donum erat datum a Deo. Quarta via erat, 
+            <lb ed="#V" n="12"/>prout tale donum se habebat, vt gratia. Quinta 
+            <lb ed="#V" n="13"/>erit ex his, quae videmus in alijs rebus. Sexta 
+            <lb ed="#V" n="14"/>erit ex modo contrahendi originale peccatum: 
+            <lb ed="#V" n="15"/>quia contrahitur per carnem. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e401">
+            <lb ed="#V" n="16"/>Prima via sic patet dictum est enim, quod ori¬ 
+            <lb ed="#V" n="17"/>ginalis iustitia erat vnum donum, &amp; originale 
+            <lb ed="#V" n="18"/>peccatum est vnus defectus, vt communiter po¬ 
+            <lb ed="#V" n="19"/>nitur. sed potentiae secundum se non habent vni¬ 
+            <lb ed="#V" n="20"/>tatem. immo sunt multae, &amp; variae potentiae: 
+            <lb ed="#V" n="21"/>oportet ergo, quod peccatum originale, vel ori¬ 
+            <lb ed="#V" n="22"/>ginalis iustitia, cuius defectus est originale pec¬ 
+            <lb ed="#V" n="23"/>catum, habeat esse in aliquo vno, in quo vniun¬ 
+            <lb ed="#V" n="24"/>tur potentiae. huiusmodi autem est essentia animae. 
+            <lb ed="#V" n="25"/>ergo &amp;c. Hanc autem rationem quidam calum 
+            <lb ed="#V" n="26"/>niantur, diuentes, quod ista vnitas est cuiusdam 
+            <lb ed="#V" n="27"/>ordinis. sed ooim inueniatur aliqua vna potentia, 
+            <lb ed="#V" n="28"/>ad quam aliae ordinantur, vt voluntas; Argumem 
+            <lb ed="#V" n="29"/>tum hoc arguit peccatum originale propter suam 
+            <lb ed="#V" n="30"/>vnitatem esse in aliqua vna re, sed non arguit, quo 
+            <lb ed="#V" n="31"/>illa vna res sit essentia, quae est vna. quia potest es¬ 
+            <lb ed="#V" n="32"/>se voluntas, quae est vna potentia, ad quam ordi¬ 
+            <lb ed="#V" n="33"/>nantur aliae potentiae. Sed ista obiectio non bene 
+            <lb ed="#V" n="34"/>se fundat: cum fundet se, quod originale pec¬ 
+            <lb ed="#V" n="35"/>catum est vnum secundum quendam ordinem: 
+            <lb ed="#V" n="36"/>cum non sit vnum secundum ordinem tantum, 
+            <lb ed="#V" n="37"/>sed etiam secundum esse. quia est vnus defectus 
+            <lb ed="#V" n="38"/>vnius doni, quod dicebatur originalis iustitia. 
+            <lb ed="#V" n="39"/>propter quod obiectio non bene se fundat, &amp; su¬ 
+            <lb ed="#V" n="40"/>per fundamentum non bene aedificat. Vult enim, 
+            <lb ed="#V" n="41"/>quod aliae potentiae ordinentur ad voluntatem. 
+            <lb ed="#V" n="42"/>Nam veritas est, quod peccatum originale est 
+            <lb ed="#V" n="43"/>vnum secundum se. quod vnum secundum se re¬ 
+            <lb ed="#V" n="44"/>dundat in omnes potentias vegetabiles, quae sunt 
+            <lb ed="#V" n="45"/>generatiua, nutritiua, &amp; augmentatiua. oportet 
+            <lb ed="#V" n="46"/>ergo, quod subiectum istius doni, quod est ori¬ 
+            <lb ed="#V" n="47"/>ginalis iustitia, vel istius vnius defectus, quod 
+            <lb ed="#V" n="48"/>est originale peccatum, sit tale vnum, in quo vnian¬ 
+            <lb ed="#V" n="49"/>tur omnes potentiae. Vel si volumus loqui modo, 
+            <lb ed="#V" n="50"/>quo loquuntur, sic obiiciendo, sit tale vnum, 
+            <lb ed="#V" n="51"/>in quo uniantur omnes potentiae: Hoc autem 
+            <lb ed="#V" n="52"/>non potest esse, nec voluntas, nec ratio, nec ali¬ 
+            <lb ed="#V" n="53"/>qua alia potentia, quia potentiae vegetatiuae ni¬ 
+            <lb ed="#V" n="54"/>hil faciunt, nec pro ratione, nec pro voluntate 
+            <lb ed="#V" n="55"/>consideratae secundum se, nisi prout eis deser¬ 
+            <lb ed="#V" n="56"/>uiunt aliqui actus exteriores, vt ponere cibum 
+            <lb ed="#V" n="57"/>in ore, vel alii actus exteriores, qui possunt esse 
+            <lb ed="#V" n="58"/>voluntarii, &amp; secundum rationem. Tale ergo 
+            <lb ed="#V" n="59"/>vnum, ad quod ordinantur omnes illae potentiae, 
+            <lb ed="#V" n="60"/>a quibus deriuabatur perfectio originalis iustitiae. 
+            <lb ed="#V" n="61"/>&amp; a quibus nunc deriuat defectus originalis pec¬ 
+            <lb ed="#V" n="62"/>cati, est sola essentia animae, in qua primo, &amp; prin¬ 
+            <lb ed="#V" n="63"/>cipaliter erat originalis iustitia. Et nunc pro¬ 
+            <!--452.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>pter peccatum Adae, per quod sublata fuit origi¬ 
+            <lb ed="#V" n="65"/>nalis iustitia, est originale peccatum primo, &amp; 
+            <lb ed="#V" n="66"/>principaliter. Et a tali defectu in essentia anime 
+            <lb ed="#V" n="67"/>deriuantur defectus ad omnes potentias: quia 
+            <lb ed="#V" n="68"/>omnes potentiae oriuntur ab essentia animae tan¬ 
+            <lb ed="#V" n="69"/>quam accidentia, &amp; proprietates a subiecto. q 
+            <lb ed="#V" n="70"/>secundum Philosophum: Materia subiecta cum¬ 
+            <lb ed="#V" n="71"/>forma est causa omnium accidentium, quae fiunm 
+            <lb ed="#V" n="72"/>in ea. Et licet omnia accidentia aliquo modo possint 
+            <lb ed="#V" n="73"/>attribui materiae, &amp; formae; tamen forma est ma¬ 
+            <lb ed="#V" n="74"/>gis ratio actionis, &amp; materia magis passionis. 
+            <lb ed="#V" n="75"/>Et quia omnes potentiae animae sunt aliquo mo¬ 
+            <lb ed="#V" n="76"/>do actiuae: &amp; illae, quae sunt passiuae possunt di¬ 
+            <lb ed="#V" n="77"/>ci actiuae ratione iudicii; ideo omnes tales poten¬ 
+            <lb ed="#V" n="78"/>tiae magis debent reduci ad essentiam formae 
+            <lb ed="#V" n="79"/>quam materiae, &amp; ad essentiam animae, quam 
+            <lb ed="#V" n="80"/>corporis. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e549">
+            <lb ed="#V" n="81"/>Sed dices, quod aliquae potentiae fundantur 
+            <lb ed="#V" n="82"/>in ipsis organis corporalibus, vtputa visiua in 
+            <lb ed="#V" n="83"/>oculo. Ad quod dici potest, quod potentiae or¬ 
+            <lb ed="#V" n="84"/>ganicae non fundantur in organis, nisi prout illis 
+            <lb ed="#V" n="85"/>organis est coniuncta essentia animae dans eis im¬ 
+            <lb ed="#V" n="86"/>mediate esse, propter quod omnes potentias ani¬ 
+            <lb ed="#V" n="87"/>mae, tam organicas, quam non organicas, attin¬ 
+            <lb ed="#V" n="88"/>git essentia animae. Attingit enim ipsas potentias 
+            <lb ed="#V" n="89"/>organicas inquantum attingit. organa dans eis 
+            <lb ed="#V" n="90"/>immediate esse. Est enim essentia animae intel¬ 
+            <lb ed="#V" n="91"/>lectiuae secundum Augustinum, &amp; secundum ve¬ 
+            <lb ed="#V" n="92"/>ritatem tota in toto corpore, &amp; tota in qualibet par¬ 
+            <lb ed="#V" n="93"/>te dans esse per seipsam, &amp; immediate toti, &amp; cui¬ 
+            <lb ed="#V" n="94"/>libet parti coniunctae toti. Potentias autem non 
+            <lb ed="#V" n="95"/>organicas attingit essentia animae, quia in ea si 
+            <lb ed="#V" n="96"/>ne organis fundantur, sicut in subiecto. defe¬ 
+            <lb ed="#V" n="97"/>ctus ergo, qui est in essentia animae primo, &amp; 
+            <lb ed="#V" n="98"/>principaliter, per redundantiam potest esse in 
+            <lb ed="#V" n="99"/>omnibus potentijs: &amp; talis defectus est origina¬ 
+            <lb ed="#V" n="100"/>le peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e595">
+            <lb ed="#V" n="101"/>Secunda via ad pot idem icuiter patet. Nam¬ 
+            <lb ed="#V" n="102"/>illud donum originalis iustitiae magis erat datum 
+            <lb ed="#V" n="103"/>naturae, quam personae. quod patet: quia natura 
+            <lb ed="#V" n="104"/>lia possunt transfundi in posteros, &amp; illud donum 
+            <lb ed="#V" n="105"/>fuit datum naturae, non, vt erat personae tantum: 
+            <lb ed="#V" n="106"/>sed vt erat transfundendum in posteros. Et quia na¬ 
+            <lb ed="#V" n="107"/>tura principaliter dicitur de forma, ut patet per 
+            <lb ed="#V" n="108"/>Philosophum in 5. Metaphysicae, &amp; in 2. Physico¬ 
+            <lb ed="#V" n="109"/>rum: cum anima sit forma per suam essentiam; 
+            <lb ed="#V" n="110"/>originale peccatum, quod est defectus origina¬ 
+            <lb ed="#V" n="111"/>lis iustitiae, primo, &amp; principaliter est in essentia 
+            <lb ed="#V" n="112"/>animae, &amp; per eam habet esse in potentijs. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e625">
+            <lb ed="#V" n="113"/>Tertia via sic patet. quia Dei perfecta sunt 
+            <lb ed="#V" n="114"/>opera. Agentia autem naturalia procedunt de im¬ 
+            <lb ed="#V" n="115"/>perfecto ad perfectum. &amp; primo inducunt acci¬ 
+            <lb ed="#V" n="116"/>dentia, &amp; postea substantialem formam. vt ignis 
+            <lb ed="#V" n="117"/>primo calefacit, &amp; inducit calorem, &amp; postea in 
+            <lb ed="#V" n="118"/>ducit substantialem formam, &amp; generat ignem. 
+            <lb ed="#V" n="119"/>Sed Dei persecta sunt opera, quia primo produ¬ 
+            <lb ed="#V" n="120"/>cit substantiam, &amp; producendo substantiam pro¬ 
+            <lb ed="#V" n="121"/>ducit accidentia competentia eidem substantiae. 
+            <lb ed="#V" n="122"/>&amp; sicut se habet in perficiendo: sic se habet in pre¬ 
+            <lb ed="#V" n="123"/>ficiendo. quia primo perficit essentiam, &amp; po¬ 
+            <lb ed="#V" n="124"/>stea potentias, quae sunt quaedam proprietates, &amp; 
+            <lb ed="#V" n="125"/>quaedam accidentia essentiae originalis. ergo iu¬ 
+            <lb ed="#V" n="126"/>stitia erat perfectio essentiae animae, &amp; ab, ea re¬ 
+            <!--453.xml-->
+            <pb ed="#V" n="453"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dundabat perfectio in potentits. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e667">
+            <lb ed="#V" n="2"/>Quarta via sie patet: Nam originalis iustitia 
+            <lb ed="#V" n="3"/>pro illo statu, vt debebamus esse membra Adae, 
+            <lb ed="#V" n="4"/>se habebat, sicut gratia, per quam fimus mem¬ 
+            <lb ed="#V" n="5"/>bra Christi. &amp; ideo Christus dictus est secundus 
+            <lb ed="#V" n="6"/>Adam. Sic enim ordinauerat Deus, vt descendem 
+            <lb ed="#V" n="7"/>do ab Adam reciperemus originalem iustitiam, 
+            <lb ed="#V" n="8"/>per quam ordinabamur ad salutem. Erat ergo 
+            <lb ed="#V" n="9"/>iste ordo, vt eramus membra Adae, &amp; vt eramus 
+            <lb ed="#V" n="10"/>nati ab Adam. nunc non consequimur originalem 
+            <lb ed="#V" n="11"/>iustitiam, quam perdidit: sed originalem iniusti¬ 
+            <lb ed="#V" n="12"/>tiam, &amp; originalem defectum, quem sua culpa¬ 
+            <lb ed="#V" n="13"/>adeptus est. Propter quod totus ille ordo pri¬ 
+            <lb ed="#V" n="14"/>mus est immutatus, &amp; non saluamur, vt nati ab¬ 
+            <lb ed="#V" n="15"/>26. Adam, sed vt renati per Christum: Gratia ergc 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e700">
+            <lb ed="#V" n="16"/>Christi supplet illud, quod perdidimus in Adam. 
+            <lb ed="#V" n="17"/>Ideo vbi nunc est gratia Christi, ibi erat origina 
+            <lb ed="#V" n="18"/>lis iustitia, quam perdidimus in Adam. sed gra¬ 
+            <lb ed="#V" n="19"/>tia est in ipsa essentia animae, &amp; ab ea deriuan¬ 
+            <lb ed="#V" n="20"/>tur perfectiones in potentijs: Et sicut originalis 
+            <lb ed="#V" n="21"/>iustitia erat in ipsa essentia animae, &amp; ab ea deri¬ 
+            <lb ed="#V" n="22"/>uabantur perfectiones in potentijs: sic etiam 
+            <lb ed="#V" n="23"/>originale peccatum est quidam defectus in ipsa¬ 
+            <lb ed="#V" n="24"/>essentia animae, &amp; ab illo defectu habent esse de¬ 
+            <lb ed="#V" n="25"/>fectus in potentijs. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e724">
+            <lb ed="#V" n="26"/>Aduertendum tamen, quod cum dicimus, 
+            <lb ed="#V" n="27"/>egratia se habet, sicut se habebat originalis iu¬ 
+            <lb ed="#V" n="28"/>stitia; quantum ad propositum, est sic. quia, sicut 
+            <lb ed="#V" n="29"/>gratia est in essentia: &amp; ab ea deriuantur perfe¬ 
+            <lb ed="#V" n="30"/>ctiones in potentijs; sic quantum ad hoc se ha¬ 
+            <lb ed="#V" n="31"/>bebat originalis iustitia. Sed quo est sic de gratia, 
+            <lb ed="#V" n="32"/>&amp; originali iustitia: &amp; quo non est sic, satis potest 
+            <lb ed="#V" n="33"/>esse per ante habita manifestum. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e744">
+            <lb ed="#V" n="34"/>Quinta via ad hoc idem sumitur ex ijs, quae 
+            <lb ed="#V" n="35"/>videmus in alijs rebus. quia vt dicit Dio. 2. de Eo¬ 
+            <lb ed="#V" n="36"/>cles. Ierar. oportet nos prius esse, quam agere. 
+            <lb ed="#V" n="37"/>Primum ergo est esse, vt ait, postea operari. Et sub¬ 
+            <lb ed="#V" n="38"/>dit, quod illud, quod aliquo modo est illud, solu 
+            <lb ed="#V" n="39"/>operatur aut patitur, in quibus essentiatum est 
+            <lb ed="#V" n="40"/>Ad bene ergo agere, &amp; ad habere esse diuinum, 
+            <lb ed="#V" n="41"/>oportet, quod primo simus essentiati, &amp; habea¬ 
+            <lb ed="#V" n="42"/>mus tale esse per perfectionem datam essentiae 
+            <lb ed="#V" n="43"/>&amp; postea operemur opera tdiuina per perfectio¬ 
+            <lb ed="#V" n="44"/>nes datas potentijs. Primum ergo esse diuinum, 
+            <lb ed="#V" n="45"/>quod habuit Adam, fuit per originalem iustitiam 
+            <lb ed="#V" n="46"/>quae erat perfectio essentiae Adae, &amp; ab illa perfe¬ 
+            <lb ed="#V" n="47"/>ctione essentiae, per quam habebat Adam esse diu¬ 
+            <lb ed="#V" n="48"/>num, deriuabantur perfectiones in potentijs, 
+            <lb ed="#V" n="49"/>per quas poterat Adam operari opera diuina, &amp; 
+            <lb ed="#V" n="50"/>spiritualia: non opera diuina, &amp; spiritualia, vt pos¬ 
+            <lb ed="#V" n="51"/>set sub Deo spiritualiter proficere, sed vt posset 
+            <lb ed="#V" n="52"/>sub Deo spiritualiter stare, &amp; spiritualiter se sub¬ 
+            <lb ed="#V" n="53"/>Deo continuare, &amp; praeseruare. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e790">
+            <lb ed="#V" n="54"/>Sexta via ad hoc idem patet: Cum modus con¬ 
+            <lb ed="#V" n="55"/>trahendi originale peccatum sit per carnem; opol¬ 
+            <lb ed="#V" n="56"/>tet, quod secundum illud, illa anima contrahat 
+            <lb ed="#V" n="57"/>primo, &amp; principaliter originale peccatum. secon¬ 
+            <lb ed="#V" n="58"/>dum quod primo, &amp; principaliter coniungit car¬ 
+            <lb ed="#V" n="59"/>ni. hoc autem est, vt forma &amp; per essentiam: &amp; ideo 
+            <lb ed="#V" n="60"/>in ipsa essentia primo, &amp; principaliter contrahi¬ 
+            <lb ed="#V" n="61"/>tur talis defectus, qui est peccatum originale: &amp; ab¬ 
+            <lb ed="#V" n="62"/>essentia, vel defcctu in essentia fiunt defectus in 
+            <lb ed="#V" n="63"/>potentijs. quod dictum magis patebit, cum dispu¬ 
+            <!--453.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>tabitur de ipso defectu potentiarum, in qua po¬ 
+            <lb ed="#V" n="65"/>tentia per prius habeat esse defectus, qui est ori¬ 
+            <lb ed="#V" n="66"/>ginale peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e826">
+            <lb ed="#V" n="67"/>RESP. AD ARO. Ad primum dicendum 
+            <lb ed="#V" n="68"/>quod aequiuocatur ibi originalis iustitia, quia vt 
+            <lb ed="#V" n="69"/>potest patere ex superioribus; ab originali iusti¬ 
+            <lb ed="#V" n="70"/>tia, quae erat in essentia animae Adae: causabatur 
+            <lb ed="#V" n="71"/>iustitia in voluntate, &amp; prudentia in intellectu 
+            <lb ed="#V" n="72"/>&amp; quaecunque virtutes in quibuscunque poten¬ 
+            <lb ed="#V" n="73"/>tijs, quae requiruntur ad hoc, quod sint rectae, &amp; 
+            <lb ed="#V" n="74"/>quod non necessitentur auerti, &amp; deuiare a fine. 
+            <lb ed="#V" n="75"/>Peccatum ergo originale est carentia originalit 
+            <lb ed="#V" n="76"/>iustitiae in essentia quae originalis iustitia si esset 
+            <lb ed="#V" n="77"/>in essentia, caufaret iustitiam in potentia, id est, 
+            <lb ed="#V" n="78"/>in voluntate. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e855">
+            <lb ed="#V" n="79"/>Ad secundum dicendum, quod anima compa¬ 
+            <lb ed="#V" n="80"/>ratur ad corpus, vt torma, &amp; vt motor: &amp; vt com¬ 
+            <lb ed="#V" n="81"/>paratur, vt forma, attingit totum corpus, &amp; quan¬ 
+            <lb ed="#V" n="82"/>libet partem corporis per essentiam: Sed vt copa¬ 
+            <lb ed="#V" n="83"/>ratur, vt motor attingit corpus, &amp; partes corpo¬ 
+            <lb ed="#V" n="84"/>ris per potentias non organicas. &amp; hoc modo ve¬ 
+            <lb ed="#V" n="85"/>rum est argumentum, quod per potentias imma¬ 
+            <lb ed="#V" n="86"/>teriales non potest moueri corpus, nisi medianti¬ 
+            <lb ed="#V" n="87"/>bus virtutibus materialibus, id est, organicis: vt 
+            <lb ed="#V" n="88"/>non potest anima per voluntatem mouere bra¬ 
+            <lb ed="#V" n="89"/>chia, nisi per virtutes, quae sunt in musculis, &amp; la¬ 
+            <lb ed="#V" n="90"/>certis mouentes brachia: sed hoc modonon est 
+            <lb ed="#V" n="91"/>argumentum ad propositum. quia peccatum ori¬ 
+            <lb ed="#V" n="92"/>ginale, cum sit principaliter in essentia animae, 
+            <lb ed="#V" n="93"/>principalius est in anima, vt est forma corpo¬ 
+            <lb ed="#V" n="94"/>ris, quamm vt est motor. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e892">
+            <lb ed="#V" n="95"/>Ad tertium dicendum, quod peccatum ori¬ 
+            <lb ed="#V" n="96"/>ginale est in potentia generatiua causaliter, non 
+            <lb ed="#V" n="97"/>formaliter. Eo enim modo est in potentia ge¬ 
+            <lb ed="#V" n="98"/>neratiua, prout virtute eius causatur semen, per¬ 
+            <lb ed="#V" n="99"/>cuius virtumt mgeneratur foetus secundum om¬ 
+            <lb ed="#V" n="100"/>nem modum, secundum quem habet esse in vte¬ 
+            <lb ed="#V" n="101"/>ro: tamen formaliter non est in embrione peccs 
+            <lb ed="#V" n="102"/>tum originale ante infusionem animae: sed de hoc 
+            <lb ed="#V" n="103"/>agetur in sequenti quaestione. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e914">
+            <lb ed="#V" n="104"/>Ad quartum dicendum, quod concupiscen¬ 
+            <lb ed="#V" n="105"/>tia &amp; concupiscibilitas, &amp; talia, quae dicunt defe¬ 
+            <lb ed="#V" n="106"/>ctus potentiarum, deriuantur a defectu essen¬ 
+            <lb ed="#V" n="107"/>tiae, vbi principaliter habet esse originale pec¬ 
+            <lb ed="#V" n="108"/>catum. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e927">
+            <lb ed="#V" n="109"/>Ad quintum dicendum, quod omne pecca¬ 
+            <lb ed="#V" n="110"/>tum est in voluntate, vt habet rationem culpae¬ 
+            <lb ed="#V" n="111"/>actualis. quod non sic intelligendum est, quod 
+            <lb ed="#V" n="112"/>actus illarum potentiarum non habeant ratio¬ 
+            <lb ed="#V" n="113"/>nem peccati. quia cum irasci sit actus irascibi¬ 
+            <lb ed="#V" n="114"/>lis; si irasci non posset habere rationem peccati, 
+            <lb ed="#V" n="115"/>frustra diceret Propheta: Irascimini, &amp; nolite 
+            <lb ed="#V" n="116"/>peccare. Possunt ergo actus aliarum potentia 
+            <lb ed="#V" n="117"/>rum esse peccata: sed pro tanto dictum est, 
+            <lb ed="#V" n="118"/>quod omne peccatum est in voluntate, quia 
+            <lb ed="#V" n="119"/>tales actus non habent completiue rationem 
+            <lb ed="#V" n="120"/>peccati, vel culpae, nisi prout sunt voluntarii. 
+            <lb ed="#V" n="121"/>Ad formam autem arguendi, quod omne pec¬ 
+            <lb ed="#V" n="122"/>catum est in voluntate: Verum est loquendo de 
+            <lb ed="#V" n="123"/>peccato actuali: Teccatum autem originale non 
+            <lb ed="#V" n="124"/>est actuale, sed magis naturale. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e964">
+            <lb ed="#V" n="125"/>Ad sextum dicendum, quod visio diuina non 
+            <lb ed="#V" n="126"/>potest esse sine gratia, quae est in essentia anime. 
+            <!--454.xml-->
+            <pb ed="#V" n="454"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Visio ergo diuina potest comparari tripliciter: 
+            <lb ed="#V" n="2"/>vel ad lumen, in quo fit illa visio, &amp; sic fuit in lu¬ 
+            <lb ed="#V" n="3"/>mine gratiae, vel in lumine gloriae, quae erit gra¬ 
+            <lb ed="#V" n="4"/>tia consummata, Iuxta illud: In lumine tuo, id est, 
+            <lb ed="#V" n="5"/>in lumine gratiae consummatae, vel gloriae, quod 
+            <lb ed="#V" n="6"/>lumen das tu Deus: videbimus lumen, quod es 
+            <lb ed="#V" n="7"/>Deus. Secundo potest comparari visio ad poten¬ 
+            <lb ed="#V" n="8"/>tiam, cuius est actus: &amp; sic pertinet ad intellectum. 
+            <lb ed="#V" n="9"/>Tertio potest comparari ad potentiam, cuius est 
+            <lb ed="#V" n="10"/>praemium, &amp; sic praemium voluntatis est. quia 
+            <lb ed="#V" n="11"/>non est poena aliquid nisi inquantum est displi¬ 
+            <lb ed="#V" n="12"/>cens, nec est merces, vel praemium nisi inquan¬ 
+            <lb ed="#V" n="13"/>tum est placens. Primo ergo visio, vt compara 
+            <lb ed="#V" n="14"/>tur ad lumen, pertinet ad essentiam, in qua est lu¬ 
+            <lb ed="#V" n="15"/>men gratiae consummatae: &amp; sic visio est illorum 
+            <lb ed="#V" n="16"/>trium, videlicet, essentiae, potentiae intellectiue, 
+            <lb ed="#V" n="17"/>&amp; voluntatis: sic carentia visionis diuinae erit de¬ 
+            <lb ed="#V" n="18"/>fectus illorum trium, &amp; vt talis carentia est poe¬ 
+            <lb ed="#V" n="19"/>na originalis peccati, erit defectus essentiae anime 
+            <lb ed="#V" n="20"/>ex cuius defectu causatur defectus in potentijs, 
+            <lb ed="#V" n="21"/>&amp; ex cuius perfectione habent esse perfectiones 
+            <lb ed="#V" n="22"/>in potentijs: Fuisset enim Adam, si non peccasset, 
+            <lb ed="#V" n="23"/>ab illa vita, in qua per originalem iustitiam pote¬ 
+            <lb ed="#V" n="24"/>rat non mori, transsatus ad vitam gloriae, per 
+            <lb ed="#V" n="25"/>quam non posset mori. &amp; sicut in illo statu a per¬ 
+            <lb ed="#V" n="26"/>fectione essentiae causabantur perfectiones in po¬ 
+            <lb ed="#V" n="27"/>tentijs: sic si fuisset translatus ad statum gloriae 
+            <lb ed="#V" n="28"/>a perfectione essentiae, quae fuisset gloria, vel gra¬ 
+            <lb ed="#V" n="29"/>tia consummata: fuissent tantae perfectiones in po¬ 
+            <lb ed="#V" n="30"/>tentijs, vt visio in intellectu, &amp; tensio in affectu. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m132963-Dd1e1044">
+          <head xml:id="Gi9qrR-m132963-Hd1e1046">Articulus 2</head>
+          <p xml:id="Gi9qrR-m132963-d1e1048">
+            <lb ed="#V" n="31"/>ARTIC. II. 
+            <lb ed="#V" n="32"/>An originale peccatum sit prius 
+            <lb ed="#V" n="33"/>in voluntate, quam int alia 
+            <lb ed="#V" n="34"/>potentia. 
+            <lb ed="#V" n="35"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1061">
+            <lb ed="#V" n="36"/>D. Th. 1. 2. q. 83. Et de Malo. q. 4. ar. 53. Et 2. 
+            <lb ed="#V" n="37"/>Sent. d. 3. ar. 3. q. 1 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1068">
+            <lb ed="#V" n="38"/>SECVNDO quaeritur, in qui¬ 
+            <lb ed="#V" n="39"/>bus potentijs, vel in qua poten¬ 
+            <lb ed="#V" n="40"/>tia per prius habeat esse origina¬ 
+            <lb ed="#V" n="41"/>le peccatum. Est enim origi¬ 
+            <lb ed="#V" n="42"/>nale peccatum defectus quidam 
+            <lb ed="#V" n="43"/>in essentia, a quo causantur de 
+            <lb ed="#V" n="44"/>fectus in potentijs. Propter quod quaeritur in 
+            <lb ed="#V" n="45"/>qua potentia per prius causatur huiusmodi pec¬ 
+            <lb ed="#V" n="46"/>catum: &amp; quia communiter ponitur, quod in 
+            <lb ed="#V" n="47"/>voluntate; Arguitur contra hoc, quia origina¬ 
+            <lb ed="#V" n="48"/>le non est nisi quaedam infectio: sed inter omnes 
+            <lb ed="#V" n="49"/>potentias generatiua dicitur magis infecta. Ergo¬ 
+            <lb ed="#V" n="50"/>ibi principalius est peccatum originale. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1099">
+            <lb ed="#V" n="51"/>Praeterea originale peccatum videtur esse re¬ 
+            <lb ed="#V" n="52"/>bellio virium. quia sic per originalem iustitiam 
+            <lb ed="#V" n="53"/>fuissent vires inferiores subiectae rationi: sic per¬ 
+            <!--454.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="54"/>originale peccatum tales vires sunt rebelles ratio¬ 
+            <lb ed="#V" n="55"/>ni: Originale pecactum non erit in volunta¬ 
+            <lb ed="#V" n="56"/>te: sed vel erit in ratione, cui rebellant infe¬ 
+            <lb ed="#V" n="57"/>riores vires: vel erit in ipsis inferioribus viri¬ 
+            <lb ed="#V" n="58"/>bus. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1124">
+            <lb ed="#V" n="59"/>Praeterea videtur, quod nec in voluntate, nec 
+            <lb ed="#V" n="60"/>in ratione sit peccatum originale: sed magis sit 
+            <lb ed="#V" n="61"/>in ipsis viribus inferioribus. Nam sicut secundum 
+            <lb ed="#V" n="62"/>Philosophum: Honor est magis in honorante, 
+            <lb ed="#V" n="63"/>in illo, qui honoratur: sic rebellio magis est in re¬ 
+            <lb ed="#V" n="64"/>bellante, quam in illo, cui rebellatur. Ergo¬ 
+            <lb ed="#V" n="65"/>peccatum originale, quod est quaedam rebel¬ 
+            <lb ed="#V" n="66"/>lio, est in viribus inferioribus, quae se habent, vt 
+            <lb ed="#V" n="67"/>rebellantes. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1146">
+            <lb ed="#V" n="68"/>Praeterea peccatum originale dicitur concu¬ 
+            <lb ed="#V" n="69"/>piscentia, vel concupiscibilitas, vt in quaestione 
+            <lb ed="#V" n="70"/>praecedenti dicebatur: sed hoc pertinet ad vires 
+            <lb ed="#V" n="71"/>inferiores. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1157">
+            <lb ed="#V" n="72"/>Praeterea in peccato originali potest assigna¬ 
+            <lb ed="#V" n="73"/>ri connersio, &amp; auersio: sed conuersio dicitur per¬ 
+            <lb ed="#V" n="74"/>tinere ad vires inferiores: auersio ad superiores: 
+            <lb ed="#V" n="75"/>sed cum in peccato actuali conuersio praecedat 
+            <lb ed="#V" n="76"/>auersionem: videtur, quod peccatum originale¬ 
+            <lb ed="#V" n="77"/>prius sit in viribus inferioribus, ad quas spectat 
+            <lb ed="#V" n="78"/>conuersio, quam in viribus superioribus, ad quas 
+            <lb ed="#V" n="79"/>spectat auersio. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1177">
+            <lb ed="#V" n="80"/>IN CONTRARIVM est: quia peccatum 
+            <lb ed="#V" n="81"/>originale est carentia originalis iustitiae: Sed iu¬ 
+            <lb ed="#V" n="82"/>stitia habet esse in voluntate; ergo &amp; eius op¬ 
+            <lb ed="#V" n="83"/>positum, videlicet carentia, &amp; defectus iusti¬ 
+            <lb ed="#V" n="84"/>tiae. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1190">
+            <lb ed="#V" n="85"/>Praeterea peccatum non habet rationem cul¬ 
+            <lb ed="#V" n="86"/>pae, nisi vt est voluntarium. ergo tale peccatum 
+            <lb ed="#V" n="87"/>principalius est in voluntate. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1199">
+            <lb ed="#V" n="88"/>RESOIVTIO. 
+            <lb ed="#V" n="89"/>peccattm orianate papuit eseteaftor itam: 
+            <lb ed="#V" n="90"/>formaliter in animae infusione: &amp; magis tribui¬ 
+            <lb ed="#V" n="91"/>tur viribus superioribus, quam inferioribus, 
+            <lb ed="#V" n="92"/>quantum ad culpae rationtm: sed ratione 
+            <lb ed="#V" n="93"/>inclinationis ad malum inserioribas ad 
+            <lb ed="#V" n="94"/>scribi potest. Sed prius in volun¬ 
+            <lb ed="#V" n="95"/>tate, quam in alijs poten¬ 
+            <lb ed="#V" n="96"/>tijs esse habet. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1222">
+            <lb ed="#V" n="97"/>RESPONDEO dicendum, quod eo mo¬ 
+            <lb ed="#V" n="98"/>do habet esse originale peccatum in filijs Adae 
+            <lb ed="#V" n="99"/>habentibus naturam corruptam, quo si. A¬ 
+            <lb ed="#V" n="100"/>dam non peccasset, habuisset esse in eis origina¬ 
+            <lb ed="#V" n="101"/>lis iustitia. sed hoc modo originalis iustitia ha¬ 
+            <lb ed="#V" n="102"/>buisset esse in filijs Adae: quia generatio fuisset 
+            <lb ed="#V" n="103"/>ibi sine libidine, &amp; thorus immaculatus. Pro¬ 
+            <lb ed="#V" n="104"/>pter quod semen fuisset ibi mundum, &amp; conce¬ 
+            <lb ed="#V" n="105"/>ptus ex tali semine fuisset mundus, sicut modo 
+            <lb ed="#V" n="106"/>pater carnalis facit conceptum immundum de 
+            <lb ed="#V" n="107"/>immundo semine. eo ergo modo, quo per ge¬ 
+            <lb ed="#V" n="108"/>generationem, vel per originem accepissemus 
+            <lb ed="#V" n="109"/>in natura instituta originalem iustitiam: sic in 
+            <lb ed="#V" n="110"/>natura eorrupta contrahimus peccatum origi¬ 
+            <!--455.xml-->
+            <pb ed="#V" n="455"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nale: sed foetus, vt supra diximus, prius est lac, 
+            <lb ed="#V" n="2"/>postea sanguinis, &amp; quandiu est talis, viuit vita plam 
+            <lb ed="#V" n="3"/>tae, quia nutritur, &amp; augetur. sed non sentit: 
+            <lb ed="#V" n="4"/>postea est caro. &amp; formantur in eo membra: &amp; 
+            <lb ed="#V" n="5"/>quandiu est talis, viuit vita animalis, quia non so¬ 
+            <lb ed="#V" n="6"/>lum augetur, &amp; nutritur, sicut planta: sed etiam 
+            <lb ed="#V" n="7"/>si pungeretur cum acu, sentiret, quod est pro¬ 
+            <lb ed="#V" n="8"/>prium animalium: sed nondum viuit vita homi¬ 
+            <lb ed="#V" n="9"/>nis, quia non est ei infusa rationalis anima: sed 
+            <lb ed="#V" n="10"/>in illo instanti, in quo omnia membra sunt com¬ 
+            <lb ed="#V" n="11"/>plete formata, infunditur ei rationalis anima, &amp; 
+            <lb ed="#V" n="12"/>incipit viuere vita hominis. In statu ergo natu¬ 
+            <lb ed="#V" n="13"/>rae institutae omnia haec fuissent munda, &amp; cor¬ 
+            <lb ed="#V" n="14"/>pori sic formato mundo fuisset infusa anima, 
+            <lb ed="#V" n="15"/>non solum munda ab omni peccato, sed etiam 
+            <lb ed="#V" n="16"/>quodammodo decorata omni bono. Dicimus 
+            <lb ed="#V" n="17"/>autem: quodam modo, quia eo modo fuisset ani¬ 
+            <lb ed="#V" n="18"/>ma prolis sicut ante peccatum fuit anima Adae: 
+            <lb ed="#V" n="19"/>qui pro illo statu ante peccatum dicebatur bea¬ 
+            <lb ed="#V" n="20"/>tissimus, quod non intelligendum est, quod non 
+            <lb ed="#V" n="21"/>esset accepturus maiorem beatitudinem: sed 
+            <lb ed="#V" n="22"/>quia pro illo statu, in quo erat decoratus origi¬ 
+            <lb ed="#V" n="23"/>nali iustitia, non poterat plus crescere in bonita¬ 
+            <lb ed="#V" n="24"/>te, nisi mutaret statum, &amp; vltra originalem iu¬ 
+            <lb ed="#V" n="25"/>stitiam, per quam poterat stare, sed non profice¬ 
+            <lb ed="#V" n="26"/>re; acciperet gratiam gratum facientem, per¬ 
+            <lb ed="#V" n="27"/>quam posset stare, &amp; proficere. Sic ergo fuis¬ 
+            <lb ed="#V" n="28"/>set in statu naturae institutae. sed tin statu naturae 
+            <lb ed="#V" n="29"/>corruptae omnia haec sunt immunda: quia semen¬ 
+            <lb ed="#V" n="30"/>maris, in quo est virtus actiua, est immundum li¬ 
+            <lb ed="#V" n="31"/>bidinose emissum. Et cum per virtutem illius 
+            <lb ed="#V" n="32"/>seminis foetus primo est lac, &amp; postea sanguis, est 
+            <lb ed="#V" n="33"/>lac immundum, &amp; sanguis immundus, &amp; sic de 
+            <lb ed="#V" n="34"/>alijs: &amp; corpori sic maculato infunditur anima 
+            <lb ed="#V" n="35"/>immaculata: sicut ponimus exemplum de ma¬ 
+            <lb ed="#V" n="36"/>nu polluta, quod pomum quantumcunque de 
+            <lb ed="#V" n="37"/>se, mundum, fieret pollutum: si poneretur in ma¬ 
+            <lb ed="#V" n="38"/>nu polluta: Vel sicut ponit exemplum Magi¬ 
+            <lb ed="#V" n="39"/>ster, quod vinum quantumcunque bonum re¬ 
+            <lb ed="#V" n="40"/>ceptum in vase acetoso fieret acetosum. Sed, si¬ 
+            <lb ed="#V" n="41"/>cut supra diximus, talis macula, quam contrahit 
+            <lb ed="#V" n="42"/>anima ex coniunctione ad carnem non debet as¬ 
+            <lb ed="#V" n="43"/>osimilari appositioni turpitudinis, sed magis per 
+            <lb ed="#V" n="44"/>subtractionem cuiusdam pulchritudinis. Hoc er¬ 
+            <lb ed="#V" n="45"/>go modo imaginabimur originale peccatum, 
+            <lb ed="#V" n="46"/>quod in natura instituta infundebatu aia corpori mun¬ 
+            <lb ed="#V" n="47"/>do, &amp; disposito ad recipiendam animam cum illa pul¬ 
+            <lb ed="#V" n="48"/>chrirudine, quae erat originalis iustitia. nunc au¬ 
+            <lb ed="#V" n="49"/>tem corpori immundo, &amp; ex hoc indisposito ad 
+            <lb ed="#V" n="50"/>recipiendam animam cum illa pulchritudine, 
+            <lb ed="#V" n="51"/>Qquia actus actiuorum sunt in patiente disposito 
+            <lb ed="#V" n="52"/>infunditur anima sine illa pulchritudine, &amp; sine 
+            <lb ed="#V" n="53"/>originali iustitia cum debito habendi eam: &amp; ex 
+            <lb ed="#V" n="54"/>hoc dicitur contrahere peccatum originale, quia 
+            <lb ed="#V" n="55"/>quodammodo, vt supra diximus, habent ratio¬ 
+            <lb ed="#V" n="56"/>nem culpae. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1383">
+            <lb ed="#V" n="57"/>Cum ergo quaeritur de ordine peccati origi¬ 
+            <lb ed="#V" n="58"/>nalis, vel institiae originalis: patet, quod sicut 
+            <lb ed="#V" n="59"/>corpori primo infunditur essentia animae, &amp; 
+            <lb ed="#V" n="60"/>cum ea infunduntur potentiae: sic in statu naturae 
+            <lb ed="#V" n="61"/>institutae ordine naturae prius fuisset infusa essen¬ 
+            <lb ed="#V" n="62"/>tia animae, &amp; postea non tempore, sed natura 
+            <lb ed="#V" n="63"/>fuissent insusae potentiae perfectae suis perfectio¬ 
+            <!--455.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>ctionibus a perfectione essentiae deriuatis: vt si 
+            <lb ed="#V" n="65"/>cut potentiae naturaliter deriuantur ab essentia 
+            <lb ed="#V" n="66"/>sic perfectiones potentiarum fuissent deriuate 
+            <lb ed="#V" n="67"/>perfectione essentiae, &amp; nunc in natura corrupta¬ 
+            <lb ed="#V" n="68"/>defectus potentiarum deriuantur a defectu essen¬ 
+            <lb ed="#V" n="69"/>tiae: sed quia non est quaestio de originali pecca¬ 
+            <lb ed="#V" n="70"/>to, quem ordinem habeat, vt est in essentia ani¬ 
+            <lb ed="#V" n="71"/>mae, &amp; in potentijs, quia hoc declarauit quae¬ 
+            <lb ed="#V" n="72"/>stio praecedens, quia principalius est in essentia 
+            <lb ed="#V" n="73"/>quam in potentijs: sed quastio nostra quaerit de ip¬ 
+            <lb ed="#V" n="74"/>sis potentijs, in qua illarum habeat esse per prius. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1429">
+            <lb ed="#V" n="75"/>Ad hoc dici potest, quod peccatum origina¬ 
+            <lb ed="#V" n="76"/>le alicubi habet esse causaliter tantum: &amp; hoc 
+            <lb ed="#V" n="77"/>modo est in carne corrupta ante infusionem ani¬ 
+            <lb ed="#V" n="78"/>mae. Non enim potest caro ante infusionem ani 
+            <lb ed="#V" n="79"/>mae intellectiuae esse susceptiua culpae formali¬ 
+            <lb ed="#V" n="80"/>ter. sed bene potest esse sic susceptiua causali¬ 
+            <lb ed="#V" n="81"/>ter. quia dispositio, &amp; indispositio materiae po¬ 
+            <lb ed="#V" n="82"/>test esse causa dignitatis, vel indignitatis formae¬ 
+            <lb ed="#V" n="83"/>Caro ergo corrupta, &amp; ex hoc indisposita ad 
+            <lb ed="#V" n="84"/>susceptionem animae cum illa pulchritudine, qu¬ 
+            <lb ed="#V" n="85"/>erat originalis iustitia, dicitur anima in ipsa con¬ 
+            <lb ed="#V" n="86"/>iunctione ad carnem contrahere peccatum ori¬ 
+            <lb ed="#V" n="87"/>ginale, quod est carentia originalis iustitiae: &amp; 
+            <lb ed="#V" n="88"/>est quidam defectus in ipsa essentia animae: Ante 
+            <lb ed="#V" n="89"/>ergo infusionem animae potest caro esse infecta 
+            <lb ed="#V" n="90"/>causaliter, vel potest in ea esse culpa casualiter 
+            <lb ed="#V" n="91"/>inquantum est indisposita ad suscipiendam ani¬ 
+            <lb ed="#V" n="92"/>mam cum praefata pulchritudine: sed in ipsa 
+            <lb ed="#V" n="93"/>infusione a nimae incipit esse peccatum originale¬ 
+            <lb ed="#V" n="94"/>in anima formaliter. Primo in ipsa essentia, per¬ 
+            <lb ed="#V" n="95"/>quam vnitur anima carni: vt forma, &amp; deindo 
+            <lb ed="#V" n="96"/>in potentijs, per quas vnitur, vt motor. Sed 
+            <lb ed="#V" n="97"/>si quaeratur, in qua, vel in quibus potentijs ha¬ 
+            <lb ed="#V" n="98"/>beat esse magis, vel minus, vel prius, vel poste¬ 
+            <lb ed="#V" n="99"/>rius tale peccatum; dici potest, quod diuersis re¬ 
+            <lb ed="#V" n="100"/>spectibus possunt haec diuersis potentijs attri¬ 
+            <lb ed="#V" n="101"/>bui: Nam in peccato est consideranda substan¬ 
+            <lb ed="#V" n="102"/>tia actus, &amp; auersio a Deo, secundum quam 
+            <lb ed="#V" n="103"/>actus habet magis rationem culpae. Nam cum 
+            <lb ed="#V" n="104"/>peccatum sit conuersio ad commutabile bonum 
+            <lb ed="#V" n="105"/>&amp; auersio ab incommutabili. conuersio haber 
+            <lb ed="#V" n="106"/>rationem culpae materialiter, sed auersio forma¬ 
+            <lb ed="#V" n="107"/>liter. Quantum ad inclinationem ad malum 
+            <lb ed="#V" n="108"/>actum, &amp; quantum ad conuersionem ad bonum 
+            <lb ed="#V" n="109"/>commutabile, magis est hoc in carne, &amp; in viri¬ 
+            <lb ed="#V" n="110"/>bus inferioribus. sed quantum ad ipsam auersio¬ 
+            <lb ed="#V" n="111"/>nem, &amp; quantum ad rationem culpae magis hoc 
+            <lb ed="#V" n="112"/>imputatur viribus superioribus, quia non debe¬ 
+            <lb ed="#V" n="113"/>rent consentire viribus inferioribus. sed debe¬ 
+            <lb ed="#V" n="114"/>rent eas pro posse refraenare. Ideo peccatum origi¬ 
+            <lb ed="#V" n="115"/>nale dicitur sex membrorum repugnans legi men¬ 
+            <lb ed="#V" n="116"/>tis. Sunt autem tres vires inferiores potissime sic 
+            <lb ed="#V" n="117"/>infectae: Generatiua, quae exercet actum genera¬ 
+            <lb ed="#V" n="118"/>tionis: Tactiua, quae propter magnam delectatio¬ 
+            <lb ed="#V" n="119"/>tionem inclinat ad talem actum: Concupiscibilis 
+            <lb ed="#V" n="120"/>quae etiam propter delectationem imperat ta 
+            <lb ed="#V" n="121"/>lem actum: Superiores etiam vires, vel poten¬ 
+            <lb ed="#V" n="122"/>tiae sunt duae: Intellectus, &amp; voluntas: sed quan¬ 
+            <lb ed="#V" n="123"/>tum ad executionem actus: oportet intellectun¬ 
+            <lb ed="#V" n="124"/>obedire voluntati: ita quod tota ratio culpe attri¬ 
+            <lb ed="#V" n="125"/>buitur voluntati. propter quod actus malus non 
+            <lb ed="#V" n="126"/>dicitur culpa, nisi inquantum est voluntarius. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1544">
+            <!--456.xml-->
+            <pb ed="#V" n="456"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Aduertendum tamen, quod de peccato origi¬ 
+            <lb ed="#V" n="2"/>nali possumus loqui formaliter, &amp; causaliter. Et 
+            <lb ed="#V" n="3"/>causaliter dupliciter, vel causaliter actiue, quia 
+            <lb ed="#V" n="4"/>icausat: vel causaliter passiue, quia causatur. Pec 
+            <lb ed="#V" n="5"/>catum ergo originale formaliter non est nisi quae 
+            <lb ed="#V" n="6"/>dam carentia, &amp; quidam defectus cum debito ha¬ 
+            <lb ed="#V" n="7"/>bendi illud, quo caremus, siue accipiatur talis 
+            <lb ed="#V" n="8"/>defectus in essentia, siue in potentia, vt quod sa¬ 
+            <lb ed="#V" n="9"/>gitta non recte tenderet in signum, vel est ex par¬ 
+            <lb ed="#V" n="10"/>te manus, vbi est carentia artis sagittandi, vel ex 
+            <lb ed="#V" n="11"/>parte sagittae, in qua est carentia poenarum, pro¬ 
+            <lb ed="#V" n="12"/>pter quam sagitta etiam a sciente recte sagittare, 
+            <lb ed="#V" n="13"/>non recte tendit. In essentia ergo tanimae debet 
+            <lb ed="#V" n="14"/>esse principaliter talis pulchritudo, &amp; talis perfe¬ 
+            <lb ed="#V" n="15"/>ctio, &amp; per oppositum inest principaliter talis 
+            <lb ed="#V" n="16"/>impulchritudo, &amp; talis defectio:, &amp; in potentijs 
+            <lb ed="#V" n="17"/>superioribus quantum est de se sunt hic princi¬ 
+            <lb ed="#V" n="18"/>palius, quod in inferioribus, &amp; in voluntate prae¬ 
+            <lb ed="#V" n="19"/>omnibus alijs. Verum quia ex tali carentia, &amp; 
+            <lb ed="#V" n="20"/>ex tali defectu causatur pronitas ad peccandum, 
+            <lb ed="#V" n="21"/>sicut ex defectu froeni causatur equo pronitas ad 
+            <lb ed="#V" n="22"/>cadendum: &amp; aliquando ipse casus ex defectu¬ 
+            <lb ed="#V" n="23"/>originalis iustitiae causatur pronitas ad male agen¬ 
+            <lb ed="#V" n="24"/>i dum, &amp; ipseetiam malus actus. Peccatum er¬ 
+            <lb ed="#V" n="25"/>go formaliter est ipsa carentia: sed causaliter po¬ 
+            <lb ed="#V" n="26"/>test dici ipsa pronitas ad malum, quae causatur ex 
+            <lb ed="#V" n="27"/>tali carentia. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1612">
+            <lb ed="#V" n="28"/>Patet ergo quid sit originale peccatum forma¬ 
+            <lb ed="#V" n="29"/>liter, &amp; quid causaliter, &amp; quomodo secundum 
+            <lb ed="#V" n="30"/>aliam, &amp; aliam considerationem potest dici ma¬ 
+            <lb ed="#V" n="31"/>ius, &amp; minus in vua potentia, quam in alia: ta¬ 
+            <lb ed="#V" n="32"/>men simpliciter, &amp; absolute loquendo, inter po¬ 
+            <lb ed="#V" n="33"/>tentias animae, principalius est peccatum origi¬ 
+            <lb ed="#V" n="34"/>nale, &amp; actuale in voluntate, quam in alijs po¬ 
+            <lb ed="#V" n="35"/>tentijs: sed peccatum originale est defectus natu¬ 
+            <lb ed="#V" n="36"/>ralis in essentia animae, &amp; in voluntate consequens 
+            <lb ed="#V" n="37"/>animam, vt est forma corporis secundum hanc 
+            <lb ed="#V" n="38"/>naturam corruptam. sed peccatum actuale est 
+            <lb ed="#V" n="39"/>quidam defectus consequens animam, vt est mo¬ 
+            <lb ed="#V" n="40"/>uens, &amp; agens. Et quia est per potentias, &amp; prin¬ 
+            <lb ed="#V" n="41"/>cipaliter per voluntatem: ideo actualis culpa per¬ 
+            <lb ed="#V" n="42"/>omnem modum principalius competit ipsi volum 
+            <lb ed="#V" n="43"/>tati, per quam anima mouet omnes alias poten¬ 
+            <lb ed="#V" n="44"/>tias ad suos actus. Est enim voluntas instrumen¬ 
+            <lb ed="#V" n="45"/>tum seipsum mouens secundum Ansel. est etiam 
+            <lb ed="#V" n="46"/>mouens alia: sed peccatum originale, quod est 
+            <lb ed="#V" n="47"/>naturale, principaliter est in essentiat sed inter po¬ 
+            <lb ed="#V" n="48"/>tentias princi palius est in voluntate. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1660">
+            <lb ed="#V" n="49"/>RESP. AD ARG. Ad primum dicendum, 
+            <lb ed="#V" n="50"/>quod generatiua potest dici magis infecta causa 
+            <lb ed="#V" n="51"/>liter. quia per eam causatur natura, in qua ha¬ 
+            <lb ed="#V" n="52"/>bet esse originale peccatum: vel potest dici ma¬ 
+            <lb ed="#V" n="53"/>gis infecta materialiter, quia actus eius propter¬ 
+            <lb ed="#V" n="54"/>delectationem in tactu, &amp; propter ardorem in 
+            <lb ed="#V" n="55"/>concupiscibili magis inclinat ad peccandum se¬ 
+            <lb ed="#V" n="56"/>cundum peccatum illud: sed ex voluntate habet 
+            <lb ed="#V" n="57"/>rationem eulpae formaliter, quia actus non ha¬ 
+            <lb ed="#V" n="58"/>bet rationem culpae formaliter, nisi vt est volun¬ 
+            <lb ed="#V" n="59"/>tarius. propter quod defectus, quem habemus 
+            <lb ed="#V" n="60"/>in voluntate ex origine naturali secundum natu¬ 
+            <lb ed="#V" n="61"/>ram corruptam, nisi a tali defectu absoluamur 
+            <lb ed="#V" n="62"/>per baptismum, habet magis rationem culpae, 
+            <lb ed="#V" n="63"/>sesectus, qui est eSorigine in potentis aliis 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1696">
+            <!--456.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>Ad secundum dicendum, quod illa rebellio 
+            <lb ed="#V" n="65"/>magis imputatur viribus superioribus, &amp; potis 
+            <lb ed="#V" n="66"/>sime voluntati, quae non retraenat inferiores vi¬ 
+            <lb ed="#V" n="67"/>res. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1712">
+            <lb ed="#V" n="68"/>Ad tertium dicendum, quod rebellio magis 
+            <lb ed="#V" n="69"/>est in viribus rebellantibus, quam ad substan¬ 
+            <lb ed="#V" n="70"/>tiam actus, quod est quid materiale uin culpa: 
+            <lb ed="#V" n="71"/>sed quantum ad rationem culpae, magis est in vc¬ 
+            <lb ed="#V" n="72"/>luntate, quae non refraenat inferiores vires: sic &amp; 
+            <lb ed="#V" n="73"/>honor magis est in honorante, quantum ad sub¬ 
+            <lb ed="#V" n="74"/>stantiam actus, quia illa reuerentia, &amp; illa incli¬ 
+            <lb ed="#V" n="75"/>natio est in eo, qui se inclinat: sed quantum ad i¬ 
+            <lb ed="#V" n="76"/>lud, propter quod fit, quia fit in testimonium vir¬ 
+            <lb ed="#V" n="77"/>tutis, magis est in honorato. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1736">
+            <lb ed="#V" n="78"/>Ad quartum dicendum, quod peccatum ori¬ 
+            <lb ed="#V" n="79"/>ginale est aliquo modo in omnibus viribus. Pro¬ 
+            <lb ed="#V" n="80"/>pter quod multis nominibus nioat tam ppe defe¬ 
+            <lb ed="#V" n="81"/>ctum essentiae, quod propter defectum diuersarum potentiarum 
+            <lb ed="#V" n="82"/>sed nonoportet, quod omnia talia nomina semper su¬ 
+            <lb ed="#V" n="83"/>mantur ab eo, quod est magis formale in pecca¬ 
+            <lb ed="#V" n="84"/>to ori ginali. Propter quod concupiscentia, &amp; 
+            <lb ed="#V" n="85"/>concupiscibilitas sumuntur ab eo, quod est ibi¬ 
+            <lb ed="#V" n="86"/>magis materiale, vt potest patere per habi¬ 
+            <lb ed="#V" n="87"/>ta. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1760">
+            <lb ed="#V" n="88"/>Ad quintum dicendum, quod in peccato¬ 
+            <lb ed="#V" n="89"/>actuali conuersio praecedit auersionem in via ge¬ 
+            <lb ed="#V" n="90"/>nerationis. quia nullus aspiciens ad malum fa¬ 
+            <lb ed="#V" n="91"/>cit, quod facit peccator. Ergo quia vult aliquod 
+            <lb ed="#V" n="92"/>bonum commutabile, ad quod se conuertit per¬ 
+            <lb ed="#V" n="93"/>dit Deum, a quo se auertit: tamem in via perfectio 
+            <lb ed="#V" n="94"/>nis, &amp; complementi auersio praecedit conuersio 
+            <lb ed="#V" n="95"/>nem, quia ratio culpae principalius, &amp; forma¬ 
+            <lb ed="#V" n="96"/>lius consistit in auersione, quam in conuersione, 
+            <lb ed="#V" n="97"/>&amp; hoc sufficit ad soluendum argumentum, quia 
+            <lb ed="#V" n="98"/>si vellemus tangere omnes defectus illius argu¬ 
+            <lb ed="#V" n="99"/>menti, nimis esset longum. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1789">
+            <lb ed="#V" n="100"/>Dubitatio I. Lirteralis 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1794">
+            <lb ed="#V" n="101"/>SVPER litteram primo quaeritur de 
+            <lb ed="#V" n="102"/>eo, quod dicitur: Ipsa concu¬ 
+            <lb ed="#V" n="103"/>piscentia est lex membrorum, vel 
+            <lb ed="#V" n="104"/>carnis, quae est morbidus quidam 
+            <lb ed="#V" n="105"/>affectus, quomodo haec sinti intelligenda. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1808">
+            <lb ed="#V" n="106"/>Dicendum, quod in peccato originali, de quo¬ 
+            <lb ed="#V" n="107"/>agitur, tria sunt consideranda. Primo defectus, 
+            <lb ed="#V" n="108"/>vel carentia alicuius perfectionis, &amp; sic potes¬ 
+            <lb ed="#V" n="109"/>dici lex carnis, vel lex membrorum. Secunde 
+            <lb ed="#V" n="110"/>potest considerari pronitas ad hoc: &amp; sic potest 
+            <lb ed="#V" n="111"/>dici concupiscentia, non vt nominat actum: sed 
+            <lb ed="#V" n="112"/>vt nominat vitium, vel pronitatem. Tertio po¬ 
+            <lb ed="#V" n="113"/>test nominare ipsum actum, &amp; sic potest dici 
+            <lb ed="#V" n="114"/>quidam morbidus affectus, ad hoc etiam pos¬ 
+            <lb ed="#V" n="115"/>sunt adaptari alia nomina, quae sequuntur, quia 
+            <lb ed="#V" n="116"/>peccatum originale quantum ad defectum po¬ 
+            <lb ed="#V" n="117"/>test dici lex peccati: quantum ad pronitatem po¬ 
+            <lb ed="#V" n="118"/>test dici languor, vel carnalis concupiscentia 
+            <lb ed="#V" n="119"/>Sed quantum ad actum potest dici illicitum desi¬ 
+            <lb ed="#V" n="120"/>derium. Peccatum en.m originale potest dici actua 
+            <lb ed="#V" n="121"/>le, causaliter, Passiue, &amp; actiuer passiue quidem, quod 
+            <lb ed="#V" n="122"/>causatum ab actuali peccato in Adam: Actiue vero, 
+            <!--457.xml-->
+            <pb ed="#V" n="457"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia propter pronitatem, quam habemus &amp; oti¬ 
+            <lb ed="#V" n="2"/>ginall peccato ad malum, incidimus in actuale ma¬ 
+            <lb ed="#V" n="3"/>lum, &amp; in actualem culpam. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1860">
+            <lb ed="#V" n="4"/>Dubitatio II. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1865">
+            <lb ed="#V" n="5"/>Vlterius forte dubitaret aliquis de eo, quod in 
+            <lb ed="#V" n="6"/>littera dicitur, quod lex peccati manet in carne, non 
+            <lb ed="#V" n="7"/>in anima, sed est per carnem in anima, quomodo 
+            <lb ed="#V" n="8"/>hoc habeat veritatem. Dicendum, quod caro non est 
+            <lb ed="#V" n="9"/>susceptiua culpae formaliter: sed potest esse sic su¬ 
+            <lb ed="#V" n="10"/>sceptiua causaliter, &amp; per carnem potest causari 
+            <lb ed="#V" n="11"/>in anima in quantum coniuncta carni affecti¬ 
+            <lb ed="#V" n="12"/>ue causat in ea aliquis defectus, qui modo, quo 
+            <lb ed="#V" n="13"/>dictum est, sibi imputatur ad culpam. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1887">
+            <lb ed="#V" n="14"/>Dubitatio TII. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1892">
+            <lb ed="#V" n="15"/>Vlterius forte dubitaret aliquis super illo uer 
+            <lb ed="#V" n="16"/>bo: Quomodo peccatum originale sit in carne: 
+            <lb ed="#V" n="17"/>Vtrum, vt poena: uel ut culpa. Dicendum est, 
+            <lb ed="#V" n="18"/>quod Magister soluit obiectionem, negando u¬ 
+            <lb ed="#V" n="19"/>trunque dicens, quod non est peccatum originale in 
+            <lb ed="#V" n="20"/>carne, ut culpa, nec ut poena. sed est ibi, ut quidam 
+            <lb ed="#V" n="21"/>defectus. Diximus autem supra, quod peccatum 
+            <lb ed="#V" n="22"/>originale magis habet esse in quadam subtractio 
+            <lb ed="#V" n="23"/>ne, quam in appositione. Imaginabimur enim ip¬ 
+            <lb ed="#V" n="24"/>sum in carne, ut quendam defectum: quia deficit 
+            <lb ed="#V" n="25"/>caro ab illa dispositione, ut sit disposita ad susci¬ 
+            <lb ed="#V" n="26"/>piendam animam cum illa pulchritudine, quae 
+            <lb ed="#V" n="27"/>est originalis iustitia: ideo recipit eam cum ca¬ 
+            <lb ed="#V" n="28"/>rentia eius, ex qua carentia dicitur contrahere 
+            <lb ed="#V" n="29"/>originale peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1927">
+            <lb ed="#V" n="30"/>Dubiratio TTTI. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1933">
+            <lb ed="#V" n="31"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="32"/>m littera dicitur, quod foeditas maior uidetur es¬ 
+            <lb ed="#V" n="33"/>se in carne concupiscentialiter traducta, quam 
+            <lb ed="#V" n="34"/>in ea, unde traducitur: sed hoc uidetur falsum: 
+            <lb ed="#V" n="35"/>quia caro parentum, unde traducitur caro prolis 
+            <lb ed="#V" n="36"/>mouetur libidinose, non autem caro prolis. Di¬ 
+            <lb ed="#V" n="37"/>cendum quod hoc pro tanto forte dicit Magister. 
+            <lb ed="#V" n="38"/>quia parentes siue coniuges possunt excusari ab 
+            <lb ed="#V" n="39"/>omni foeditate peccati: quia possunt generando 
+            <lb ed="#V" n="40"/>prolem non solum non peccare, sed mereri: &amp; 
+            <lb ed="#V" n="41"/>proles non potest exculari ab omni faeditate pec¬ 
+            <lb ed="#V" n="42"/>cati: quia oportet, quod nascatur in peccato 
+            <lb ed="#V" n="43"/>priginali. 
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1964">
+            <lb ed="#V" n="44"/>Dubitatio V. Litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m132963-d1e1969">
+            <lb ed="#V" n="45"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="46"/>in littera dicitur: Ecce enim in iniquitatibus con¬ 
+            <lb ed="#V" n="47"/>ceptus sum. Quare peccatum originale, cum sit 
+            <lb ed="#V" n="48"/>unum, nominatur pluraliter, iniquitates. Di¬ 
+            <lb ed="#V" n="49"/>cendum, quod licet peccatum originale sit unum 
+            <lb ed="#V" n="50"/>in se, &amp; sit quidam defectus essentiae animae: est 
+            <lb ed="#V" n="51"/>tamen multi defectus per redundantiam, quia 
+            <lb ed="#V" n="52"/>&amp;x in illo uno defectu redundant multi defectus 
+            <lb ed="#V" n="53"/>in potentijs.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="569"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m168409"><!-- l2d38q2 -->
+        <head xml:id="Gi9qrR-m168409-Hd1e101">Quaestio 2</head>
+        <head xml:id="Gi9qrR-m168409-Hd1e103" type="question-title">De intentione ad voluntatem relata</head>
+        <p xml:id="Gi9qrR-m168409-d1e106">
+          <!--569.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="63"/>QVAEST. II. 
+          <lb ed="#V" n="64"/>De intentione ad voluntatem relata. 
+        </p>
+        <p xml:id="Gi9qrR-m168409-d1e117">
+          <lb ed="#V" n="65"/>DEINDE quaeritur de secundo 
+          <lb ed="#V" n="66"/>principali videlicet de intentio 
+          <lb ed="#V" n="67"/>ne. Circa quam quaeruntur tria. 
+          <lb ed="#V" n="68"/>Primo cuius actus sit intentio: 
+          <lb ed="#V" n="69"/>Vtrum sit actus uoluntatis, vel 
+          <lb ed="#V" n="70"/>rationis. Secundo utrum quis 
+          <lb ed="#V" n="71"/>possit intendere plures fines simul. Tertio vtrum 
+          <lb ed="#V" n="72"/>voluntas possit fieri simul uno actu in finem, &amp; 
+          <lb ed="#V" n="73"/>in ea, quae sunt ad finem. 
+        </p>
+        <div xml:id="Gi9qrR-m168409-Dd1e139">
+          <head xml:id="Gi9qrR-m168409-Hd1e141">Articulus 1</head>
+          <p xml:id="Gi9qrR-m168409-d1e143">
+            <lb ed="#V" n="74"/>ARTIC. I. 
+            <lb ed="#V" n="75"/>An intentio sit actus vo¬ 
+            <lb ed="#V" n="76"/>luntatis. 
+            <lb ed="#V" n="77"/>Conclusio est affirmativa.
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e154">
+            <lb ed="#V" n="78"/>DTh. 1. 2. q. 14. art. 1. Et 2. sent d. 38. art. 3. Et de vet q. 1. 
+            <lb ed="#V" n="79"/>23. art. 13. D. Bon. d. 38. art. 2. q. 1. Ric. d. 30. q. 9. Sco. d. 
+            <lb ed="#V" n="80"/>38. q. 1. Ant. And. d. 38. q. 1. Dur. d. 38. q. 2. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e163">
+            <lb ed="#V" n="81"/>AD PRIMVM sic proceditur. vi¬ 
+            <lb ed="#V" n="82"/>detur quod intentio non sit 
+            <lb ed="#V" n="83"/>actus voluntatis. Nam superil¬ 
+            <lb ed="#V" n="84"/>lo verbo Matthei: Lucerna cor¬ 
+            <lb ed="#V" n="85"/>poris tui est oculus tuus: vult 
+            <lb ed="#V" n="86"/>Glo. quod oculus stet ibi pro in¬ 
+            <lb ed="#V" n="87"/>tentione. Sed secundum <ref xml:id="Gi9qrR-m168409-Rd1e180">August. 15. de Tri.</ref> Mens 
+            <lb ed="#V" n="88"/>est oculus animae. Et <ref xml:id="Gi9qrR-m168409-Rd1e184">Dam. lib. 2.</ref> vult, quod sit 
+            <lb ed="#V" n="89"/>oculus in corpore: hoc est intellectus in anima. 
+            <lb ed="#V" n="90"/>Si ergo intentio dicitur oculus, &amp; oculus in cor¬ 
+            <lb ed="#V" n="91"/>pore est idem, quod intellectus in anima: conse¬ 
+            <lb ed="#V" n="92"/>quens est, quod intentio non est quid perti¬ 
+            <lb ed="#V" n="93"/>nens ad voluntatem, sed ad intellectum, vel ra¬ 
+            <lb ed="#V" n="94"/>tionem. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e200">
+            <lb ed="#V" n="95"/>Praeterea secundum <ref xml:id="Gi9qrR-m168409-Rd1e204">Philosophum in 3. Ethi</ref>
+            <lb ed="#V" n="96"/>omne quod est in anima, vel est passio, uel est 
+            <lb ed="#V" n="97"/>habitus, uel est potentia. sed intentio non est ip¬ 
+            <lb ed="#V" n="98"/>sa potentia, quae est uoluntas, nec passio uolunta¬ 
+            <lb ed="#V" n="99"/>tis, quia passiones pertinent ad appetitum sensi¬ 
+            <lb ed="#V" n="100"/>tiuum. nec habitus uoluntaris: ergo &amp; c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e219">
+            <lb ed="#V" n="101"/>Praeterea intentio competit ipsi naturali agen¬ 
+            <lb ed="#V" n="102"/>ti: quia natura in sua actione intendit finem ut 
+            <lb ed="#V" n="103"/>dicitur in <ref xml:id="Gi9qrR-m168409-Rd1e227">2. Physic.</ref> sed agens naturale distingui¬ 
+            <lb ed="#V" n="104"/>tur ab agente per uoluntatem. si ergo intentio est 
+            <lb ed="#V" n="105"/>quid competens naturae: non erit quid compe¬ 
+            <lb ed="#V" n="106"/>tens voluntati. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e237">
+            <lb ed="#V" n="107"/>Praeterea uoluntas est principium rerum ope¬ 
+            <lb ed="#V" n="108"/>rabilium, quae pertinent ad artem, siue ad intelle¬ 
+            <lb ed="#V" n="109"/>ctum practicum. Ideo dicitur in 6. Metaphysi¬ 
+            <lb ed="#V" n="110"/>cae. quod principium artis est uoluntas, &amp; quod 
+            <lb ed="#V" n="111"/>artificiatum &amp; uoluntarium sunt idem, sed in etm 
+            <lb ed="#V" n="112"/>tio non solum reperitur in practicis, sed etiam 
+            <lb ed="#V" n="113"/>in speculatiuis: ut cogitans potest cogitare in¬ 
+            <lb ed="#V" n="114"/>rendens cogitando cognoscere ueritatem: er¬ 
+            <lb ed="#V" n="115"/>go &amp;c.
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e259">
+            <!--570.xml-->
+            <pb ed="#V" n="570"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeterea id, quod pertinet ad potentiam vo¬ 
+            <lb ed="#V" n="2"/>luntatis, vel competit ei secundum se, vel in ordi¬ 
+            <lb ed="#V" n="3"/>ne ad rationem. sed intendere non competit vo¬ 
+            <lb ed="#V" n="4"/>luntati secundum se, quia tunc denominaretur a 
+            <lb ed="#V" n="5"/>voluntate. Nam quia intelligere competit intel¬ 
+            <lb ed="#V" n="6"/>lectui secundum se: ideo denominatur ab intelle¬ 
+            <lb ed="#V" n="7"/>ctu. Et velle, quia competit voluntati secundum 
+            <lb ed="#V" n="8"/>se, ideo denominatur a voluntate, sed intentio 
+            <lb ed="#V" n="9"/>non denominatur a voluntate: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e288">
+            <lb ed="#V" n="10"/>Rursus non potest dici, quod intendere com¬ 
+            <lb ed="#V" n="11"/>petat voluntati in ordine ad rationem, quia hoc 
+            <lb ed="#V" n="12"/>modo competit ei eligere: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e297">
+            <lb ed="#V" n="13"/>IN CONTRARIVM est, quia meritum, &amp; deme¬ 
+            <lb ed="#V" n="14"/>ritum potissime sunt quid pertinens ad volunta¬ 
+            <lb ed="#V" n="15"/>tem. Sed circa intentionem potissime consistit 
+            <lb ed="#V" n="16"/>meritum, &amp; demeritum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e308">
+            <lb ed="#V" n="17"/>Praeterea ut habetur in littera: intentio est de 
+            <lb ed="#V" n="18"/>fine. Sed cum finis, &amp; bonum sint idem, vt vult 
+            <lb ed="#V" n="19"/>Commen. Meta. intentio potissime pertinebitad 
+            <lb ed="#V" n="20"/>voluntatem. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e320">
+            <lb ed="#V" n="21"/>RESOLVTIO. 
+            <lb ed="#V" n="22"/>Intentio ad voluntatem pertinet. Ipsa enim intentio 
+            <lb ed="#V" n="23"/>non inconcinne oculus, lucernaque dici soltt: 
+            <lb ed="#V" n="24"/>Itemque cum pac praepositione, in, mo¬ 
+            <lb ed="#V" n="25"/>tum dicit. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e333">
+            <lb ed="#V" n="26"/>RESPoONDro dicendum, quod intendere est idem, 
+            <lb ed="#V" n="27"/>quod in aliud tendere, quod potissime competit 
+            <lb ed="#V" n="28"/>voluntati, quando ex vno volito tendit in aliud 
+            <lb ed="#V" n="29"/>volitum, ut quando ex his, quae sunt ad finem: tem¬ 
+            <lb ed="#V" n="30"/>dit in ipsum finem: ideo dicitur in littera, quod intem 
+            <lb ed="#V" n="31"/>tio ad illud respicit, propter quod volumus: hu¬ 
+            <lb ed="#V" n="32"/>iusmodi autem est ipse finis, propter quem volumus 
+            <lb ed="#V" n="33"/>alia. quia ergo intendere includit tendere, &amp; ten¬ 
+            <lb ed="#V" n="34"/>dere dicit motum cum hac praepositione in Rur¬ 
+            <lb ed="#V" n="35"/>sus intentio dicitur oculus, quia super illo uerbo, 
+            <lb ed="#V" n="36"/>Matthei: Lucerna corporis tui est oculus tuus. di¬ 
+            <lb ed="#V" n="37"/>dicit Augustinus, quod ibi oculum debemus 
+            <lb ed="#V" n="38"/>accipere intentionem. Et si intentio dicitur 
+            <lb ed="#V" n="39"/>oculus, cum oculus dicatur Lucerna: oportet, quo 
+            <lb ed="#V" n="40"/>intentio dicatur lucerna. Quatuor ergo uiis osten¬ 
+            <lb ed="#V" n="41"/>demus, quod intentio pertinet ad appetitum, siue ad 
+            <lb ed="#V" n="42"/>voluntatem in agentibus a proposito. Vt prima 
+            <lb ed="#V" n="43"/>uia sumatur si consideremus quomodo inten¬ 
+            <lb ed="#V" n="44"/>tio potest dici oculus. Secunda si consideremus, quo 
+            <lb ed="#V" n="45"/>intentio potest dici lucerna. Tertia si considere. 
+            <lb ed="#V" n="46"/>mus, quomodo dicit motum. Quarta si conside¬ 
+            <lb ed="#V" n="47"/>remus, quo dicit motum cum hac praepositione, in¬ 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e383">
+            <lb ed="#V" n="48"/>Prima uia sic patet. Nam intentio dicitur ocu¬ 
+            <lb ed="#V" n="49"/>lus, quia non sit sine oculo. id est, sine intellectu. 
+            <lb ed="#V" n="50"/>Nam intellectus in anima, vel in spiritibus se ha¬ 
+            <lb ed="#V" n="51"/>bet sicut oculus in corporibus, vt in arguendo pa¬ 
+            <lb ed="#V" n="52"/>tuit per Aug. &amp; Dam. Ron ni. intentio dicitur ocu¬ 
+            <lb ed="#V" n="53"/>lus, quod sit quaedam uisio, &amp; quod eliciatur ab ocu¬ 
+            <lb ed="#V" n="54"/>lo, uel ab intellectu: qui in spiritibus se habet, ut 
+            <lb ed="#V" n="55"/>oculus. Potest enim esse intentio in carentibus 
+            <lb ed="#V" n="56"/>omni intellectu, sed non potest esse in carentibus 
+            <lb ed="#V" n="57"/>omni appetitu. Ex quo datur intelligi, quond ma¬ 
+            <lb ed="#V" n="58"/>gis directe pertinet intentio ad appetitum, quam 
+            <lb ed="#V" n="59"/>ad intellectum. Nam intentio competit ipsi na¬ 
+            <!--570.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>turae, uel ipsis agentibus per naturam, quaecarent 
+            <lb ed="#V" n="61"/>intellectu: tamen non dicitur intendereid e. in finem 
+            <lb ed="#V" n="62"/>tendere, nisi quia dirigitur ab intelligentiis, &amp;: 
+            <lb ed="#V" n="63"/>Deo in quibus est intentus. Propter quod ait Con C 
+            <lb ed="#V" n="64"/>men. in 12. quod natura non intendit, nisi reme¬ 
+            <lb ed="#V" n="65"/>morata a superioribus causis, quae sunt Deus, &amp; 
+            <lb ed="#V" n="66"/>intelligentiae, quae omnia sunt sub una arte prin¬ 
+            <lb ed="#V" n="67"/>cipali, quae est ipsius Dei. quia ergo Deus media 
+            <lb ed="#V" n="68"/>tibus motoribus orbium, quae sunt intelligentia 
+            <lb ed="#V" n="69"/>indidit naturae, &amp; agentibus per naturam quendam 
+            <lb ed="#V" n="70"/>appetitum, &amp; quandam inclinationem natura 
+            <lb ed="#V" n="71"/>lem, ut directe tendat in finem: ideo dicitur na¬ 
+            <lb ed="#V" n="72"/>tura, vel agentia naturalia intendere. Sed hoc non 
+            <lb ed="#V" n="73"/>est ab intellectu, qui sit in eis, sed qui est in Deo 
+            <lb ed="#V" n="74"/>&amp; in intelligentiis. Ipsaen. sagitta directe tendit in 
+            <lb ed="#V" n="75"/>signum. sed hoc non est abintellectu, qui sit in ea 
+            <lb ed="#V" n="76"/>sed qui est in sagittante. Si ergo quaeratur, cuiua 
+            <lb ed="#V" n="77"/>actus sit tendere in signum; Dici posset, quod est 
+            <lb ed="#V" n="78"/>actus, &amp; motus sagittae tamen non est sine impul¬ 
+            <lb ed="#V" n="79"/>su, &amp; sine directione sagittantis. Potest ergo ali¬ 
+            <lb ed="#V" n="80"/>quid tendere in finem per appetitum naturalem, 
+            <lb ed="#V" n="81"/>qui est in ipso: absque eo, quod oculus, uel inten¬ 
+            <lb ed="#V" n="82"/>tus sit in ipso, sed sufficit, quod oculus, uel intel¬ 
+            <lb ed="#V" n="83"/>lectus sit in alio ab agente naturali, uel quod sit 
+            <lb ed="#V" n="84"/>in intelligentiis, &amp; in Deo: ad hoc quod agens na¬ 
+            <lb ed="#V" n="85"/>turale intendat, uel ad hoc, quod in finem tendat. 
+            <lb ed="#V" n="86"/>Et quia intentio non separatur ab appetitu: sepa¬ 
+            <lb ed="#V" n="87"/>ratur autem ab intellectu, quia potest esse in re, 
+            <lb ed="#V" n="88"/>in qua non est intentus: ideo directe, &amp; elicitiue 
+            <lb ed="#V" n="89"/>non est ab intellectu, sed ab appetitu. Semper ta¬ 
+            <lb ed="#V" n="90"/>men habet aliquem ordinem ad intellectum, quia 
+            <lb ed="#V" n="91"/>possunt aliqua competere potentiae apretitiue 
+            <lb ed="#V" n="92"/>in ordine ad potentiam cognitiuam. quod si ista 
+            <lb ed="#V" n="93"/>non separarentur, ut quod non posset aliquis in¬ 
+            <lb ed="#V" n="94"/>tendere, nisi intelligeret, forte posset esse dubium 
+            <lb ed="#V" n="95"/>utrum intendere pertineret ad intelligendum, uel 
+            <lb ed="#V" n="96"/>saltem ad aliquam potentiam cognitiuam. sed 
+            <lb ed="#V" n="97"/>cum haec adinuicem separari contingat, quia po¬ 
+            <lb ed="#V" n="98"/>test aliquod agens intendere, quod nec intelligit, 
+            <lb ed="#V" n="99"/>nec cognoscit: dubium esse non potest, quod in¬ 
+            <lb ed="#V" n="100"/>tentio non pertineat ad appetirum. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e505">
+            <lb ed="#V" n="101"/>Secunda uia ad hoc idem sumitur &amp;x eo, quod 
+            <lb ed="#V" n="102"/>intentio dicitur oculus, &amp; oculus dicitur lucer¬ 
+            <lb ed="#V" n="103"/>na. Propter quod ipsa intentio secundum doctri¬ 
+            <lb ed="#V" n="104"/>nam Euangelicam, &amp; ex positionem Sanctorum uocata 
+            <lb ed="#V" n="105"/>est lucerna. Et ista secunda uia declarat primam. Nam 
+            <lb ed="#V" n="106"/>constat, quod lucerna non uidet, nec cognoscit, sed il¬ 
+            <lb ed="#V" n="107"/>luminat oculum, uidentem, &amp; cognoscentem. Si ergo 
+            <lb ed="#V" n="108"/>intentio dicitur lucerna, quae nec uidet, nec co¬ 
+            <lb ed="#V" n="109"/>gnoscit: consequens est, quod intentio ad poten¬ 
+            <lb ed="#V" n="110"/>tiam uisiuam, uel intellectiuam, ieu cognitiuam 
+            <lb ed="#V" n="111"/>directe pertinere non potest. Sed dices quo. 
+            <lb ed="#V" n="112"/>modo intentio dicitur oculus, &amp; quomodo lu¬ 
+            <lb ed="#V" n="113"/>cerna: &amp; ut restringamus nos ad agentiaa pro¬ 
+            <lb ed="#V" n="114"/>posito, circa quae uersatur potissime quaestio. 
+            <lb ed="#V" n="115"/>Dicemus, quod intentio directe pertinet ad uo¬ 
+            <lb ed="#V" n="116"/>luntatem, ad quam spectat intendere, id est, in fi¬ 
+            <lb ed="#V" n="117"/>nem tendere: tamen Inrentio dater oculus, quia uolunm¬ 
+            <lb ed="#V" n="118"/>tati non competerer intendere, nisi dirigeretur ab 
+            <lb ed="#V" n="119"/>intellectu, &amp; nisi intellectus sibi ostenderet, qumo, &amp; 
+            <lb ed="#V" n="120"/>in quod debet tendere. dite ergo intentio oculus: prout 
+            <lb ed="#V" n="121"/>intellectus conparat uoluntati ad hoc, quod intendat. Et 
+            <!--571.xml-->
+            <pb ed="#V" n="571"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dicitur intentio lucerna, prout voluntas compa¬ 
+            <lb ed="#V" n="2"/>rarintellectui ad hoc, quod clare videat, &amp; iudicet, 
+            <lb ed="#V" n="3"/>&amp; cognoscat. Quod enim est oculus in corpore, hoc 
+            <lb ed="#V" n="4"/>est intellectus in anima. sicut ergo lucerna corpo¬ 
+            <lb ed="#V" n="5"/>ralis facit, quod corporalis oculus clare iudicet, &amp; 
+            <lb ed="#V" n="6"/>cognoscat: sic intentio, quae est lucerna spiritualis: 
+            <lb ed="#V" n="7"/>quae se tenet ex parte voluntatis: si sit recta, &amp; sim¬ 
+            <lb ed="#V" n="8"/>plex, facit, quod intellectus clare iudicet, &amp; cogno¬. 
+            <lb ed="#V" n="9"/>scat Ideo si intentio sit bona debet dici lucerna¬ 
+            <lb ed="#V" n="10"/>Si sit mala debet dici tenebra. Nam sicut lingua 
+            <lb ed="#V" n="11"/>infecta peruertit iudicium de saporibus, si vero¬ 
+            <lb ed="#V" n="12"/>non sit insecta, sed sit munda, &amp; recta, recte iudi¬ 
+            <lb ed="#V" n="13"/>cat de saporibus: sic si voluntas sit infecta per ma¬ 
+            <lb ed="#V" n="14"/>lam intentionem peruertit iudicium intellectus, vt 
+            <lb ed="#V" n="15"/>male iudicet de agibilibus. Si vero sit simplex, &amp; 
+            <lb ed="#V" n="16"/>recta, clarificat intellectum, vt bene iudicet de apen¬ 
+            <lb ed="#V" n="17"/>dis. Oculus ergo id est intentio est quaedam lucerna, 
+            <lb ed="#V" n="18"/>quae si sit simplex, &amp; recta totum corpus nostrum 
+            <lb ed="#V" n="19"/>i. tota congeries operationum nostrarum lucida 
+            <lb ed="#V" n="20"/>erit, &amp; intellectus de agibilibus lucide iudicabit. 
+            <lb ed="#V" n="21"/>Sed si iste oculus, &amp; ista intentio nequam suerit, to¬ 
+            <lb ed="#V" n="22"/>ta congeries operationum nostrarum tenebrosa e¬ 
+            <lb ed="#V" n="23"/>rit, &amp; intellectus de agibilibus dabit iudicium tene¬ 
+            <lb ed="#V" n="24"/>brosum: ideo bene ait Philosophus in Ethi. quod 
+            <lb ed="#V" n="25"/>omnis malus ignorans: quia omnis malus per ma¬ 
+            <lb ed="#V" n="26"/>lam intentionem dat prauum iudicium de agibili¬ 
+            <lb ed="#V" n="27"/>bus, vt iudicet saltem in particulari, non ut sciens, 
+            <lb ed="#V" n="28"/>sed ut ignorans. Reuertamur ergo ad propositum, 
+            <lb ed="#V" n="29"/>&amp; dicamus, quod si intentio ditn lucerna, cum lucerna 
+            <lb ed="#V" n="30"/>nec videat nec cognoscat, sed illuminet videntem, 
+            <lb ed="#V" n="31"/>&amp; cognoscentem, plane concluditur, intentionem 
+            <lb ed="#V" n="32"/>non pertinere directe ad intellectum: sed ad vo¬ 
+            <lb ed="#V" n="33"/>luntatem, quae si recta intentione moueatur, cla¬ 
+            <lb ed="#V" n="34"/>rificat, &amp; elucidat iudicium intellectus: qui est po¬ 
+            <lb ed="#V" n="35"/>tentia cognitiua intellectus, &amp; cognoscens. Esset 
+            <lb ed="#V" n="36"/>autem tertia, &amp; quarta via ad hoc idem adducen¬ 
+            <lb ed="#V" n="37"/>da: sed de eis ad facilius capiendum, quae dicun¬ 
+            <lb ed="#V" n="38"/>tur, quoddam vlterius faciemus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e642">
+            <lb ed="#V" n="39"/>DVB. I.LATERALIS. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e647">
+            <lb ed="#V" n="40"/>An intentio dicat motum. 
+            <lb ed="#V" n="41"/>conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e655">
+            <lb ed="#V" n="42"/>VLTERIVS ergo dubitaret aliquis 
+            <lb ed="#V" n="43"/>quomodo ex hoc, quod intentio di¬ 
+            <lb ed="#V" n="44"/>cit motum, &amp; ex hoc, quod dicit mo¬ 
+            <lb ed="#V" n="45"/>tum cum hac praepositione, in, de¬ 
+            <lb ed="#V" n="46"/>clarare possimus, quod intentio non pertinet di¬ 
+            <lb ed="#V" n="47"/>recte ad intellectum: sed ad uoluntatem: Dicen¬ 
+            <lb ed="#V" n="48"/>dum, quod in motu uoluntatis est quatuor consi¬ 
+            <lb ed="#V" n="49"/>derare, sicut in motu aliarum rerum, vtputa in 
+            <lb ed="#V" n="50"/>motu grauium. Nam si aliquid debet moueri deor¬ 
+            <lb ed="#V" n="51"/>sum: [rimo est ibi dare pondus, uel grauitatem. 
+            <lb ed="#V" n="52"/>Secundo est ibi dare terminum, a quo incaepit il. 
+            <lb ed="#V" n="53"/>le motus. Eertio est ibi dare medium, per quod effi¬ 
+            <lb ed="#V" n="54"/>citur, vel effectui mancipatur ille motus. Quarto 
+            <lb ed="#V" n="55"/>est ibi dare terminum, in quo terminatur ille mo¬ 
+            <lb ed="#V" n="56"/>tus. Sic omnia ista quatuor est assignare in mo¬ 
+            <lb ed="#V" n="57"/>tu voluntatis. Nam tria istorum sumuntur in mo¬ 
+            <lb ed="#V" n="58"/>tu voluntatis per comparationem ad finem, &amp; vnum 
+            <lb ed="#V" n="59"/>per comparationem ad ea, quae sunt ad finem. Finis 
+            <!--571.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>enim facit voluntatem ponderosam, &amp; est termi¬ 
+            <lb ed="#V" n="61"/>nus. a quo motus uoluntatis inclinatur, &amp; est ter 
+            <lb ed="#V" n="62"/>minus, in quem motus voluntatis terminatur. Ea 
+            <lb ed="#V" n="63"/>vero, quae sunt ad finem, se habebnet sicut membrum, 
+            <lb ed="#V" n="64"/>per quod motus voluntatis effectui mancipar. 
+            <lb ed="#V" n="65"/>Finis enim potest tripliciter considerari. Primo, ut 
+            <lb ed="#V" n="66"/>est in apprehensione, quod pertinet ad intellectum 
+            <lb ed="#V" n="67"/>Secundo ut est in intentione: quod pertiner ad 
+            <lb ed="#V" n="68"/>voluntatem. Tertio prout est in executione, quod 
+            <lb ed="#V" n="69"/>pertinet ad finem, ut est in seipso, uel ut est in i¬ 
+            <lb ed="#V" n="70"/>sa re a sine. ergo ut est in apprehensione, voluntas 
+            <lb ed="#V" n="71"/>actiuatur, &amp; ponderosa redditur: sed a fine ut est 
+            <lb ed="#V" n="72"/>in intentione motus voluntatis inchoatur, &amp; est 
+            <lb ed="#V" n="73"/>hoc modo finis terninus, a quo incipit uolunta¬ 
+            <lb ed="#V" n="74"/>tis motus. sed finis in executione, &amp; ut est in seip¬ 
+            <lb ed="#V" n="75"/>so, uel ut est in ipsa re, est terminus ad quem: vel¬ 
+            <lb ed="#V" n="76"/>est terminus, in quem terminatur uoluntatis mo¬ 
+            <lb ed="#V" n="77"/>tus. sed, vt diximus, ea, quae sunt ad finem: sunt 
+            <lb ed="#V" n="78"/>quasi membrum, per quod effectui mancipatut 
+            <lb ed="#V" n="79"/>talis motus. Debet enim volens venitatem intellige¬ 
+            <lb ed="#V" n="80"/>re in hac materia, multum ponderare has habitu¬ 
+            <lb ed="#V" n="81"/>dines, videlicet a quo actiuatur voluntas, vt fit ap¬ 
+            <lb ed="#V" n="82"/>ta ad motum, a quo tanquam a termino inci¬ 
+            <lb ed="#V" n="83"/>pit iste motus, &amp; tanquam per medium effici¬ 
+            <lb ed="#V" n="84"/>tur talis motus, &amp; in quod tanquam in termi¬ 
+            <lb ed="#V" n="85"/>num terminatur huiusmodi motus. Propter pr¬ 
+            <lb ed="#V" n="86"/>mum sciendum, quod illud, a quo actiuatur voluntas 
+            <lb ed="#V" n="87"/>vt sit apta ad motum, est finis apprehensus, uel est 
+            <lb ed="#V" n="88"/>bonum, vt est in apprehensione. Nam, vt saepe sae¬ 
+            <lb ed="#V" n="89"/>pius diximus per Commen. pro eodem accipien¬ 
+            <lb ed="#V" n="90"/>da sunt finis, &amp; bonum: Bonum ergo appreher 
+            <lb ed="#V" n="91"/>sum est id, quod actiuat uoluntatem, &amp; quod facii 
+            <lb ed="#V" n="92"/>eam aptam ad motum. Nam quod dicit Commen in 13 
+            <lb ed="#V" n="93"/>de Balneo, veritatem habet de quolibet bono. Nam 
+            <lb ed="#V" n="94"/>quodlibet bonum duplicem habet formam. Vnam 
+            <lb ed="#V" n="95"/>in anima, &amp; illa est mouens uragens, &amp; aliam in 
+            <lb ed="#V" n="96"/>re ipsa, &amp; ista est mouens, vt finis. Forma enim 
+            <lb ed="#V" n="97"/>balnei, vel alterius boni, ut est in anima, est in ap¬ 
+            <lb ed="#V" n="98"/>prehensione intellectus. Nam intellectus, ut di 
+            <lb ed="#V" n="99"/>in 3. est locus formarum &amp; specierum: ideo bal, 
+            <lb ed="#V" n="100"/>neum, vt forma, &amp; ut est in animna tanquam for¬ 
+            <lb ed="#V" n="101"/>ma, pertinet ad apprehensionem intellectus: quia 
+            <lb ed="#V" n="102"/>vt est in anima tanquam quid intentum ab anima, 
+            <lb ed="#V" n="103"/>non se habet, ut forma: sed se habet, vt finis &amp; di¬ 
+            <lb ed="#V" n="104"/>recte non pertinet ad apprehensionem intellectus: 
+            <lb ed="#V" n="105"/>sed ad intentionem uoluntatis, per quod balneum 
+            <lb ed="#V" n="106"/>duplicem habet modum essendi in anima; quia 
+            <lb ed="#V" n="107"/>vnus pertinet ad apprehensionem intellectus, &amp; 
+            <lb ed="#V" n="108"/>hoc modo habet esse, ut forma ab in tellectu ap¬ 
+            <lb ed="#V" n="109"/>prehensa. Alio modo est in anima per intentionem 
+            <lb ed="#V" n="110"/>voluntatis, &amp; hoc modo non proprie dirt esse in 
+            <lb ed="#V" n="111"/>anima, ut forma: sed vt finis a uoluntate intentus. 
+            <lb ed="#V" n="112"/>Habet etiam balneum tertium modum essendi, 
+            <lb ed="#V" n="113"/>ut est in re ipsa; uel ut est in se ipso: ergo balneum, 
+            <lb ed="#V" n="114"/>vt habet formam in anima, est mouens, ut agens. 
+            <lb ed="#V" n="115"/>sed hoc est mouens, ut agens, quod actiuat passum: 
+            <lb ed="#V" n="116"/>quia agentis est actiuare passum. ergo bonum, vt 
+            <lb ed="#V" n="117"/>habet formam in anima apprehensam ab intelle¬ 
+            <lb ed="#V" n="118"/>qu habet actiuare voluntatem, &amp; habet eam moue¬ 
+            <lb ed="#V" n="119"/>re, vt agens. Haecautem actiuatio nihil est aliud, 
+            <lb ed="#V" n="120"/>nisi quoddam pondus, &amp; quaedam inclinatio ponde 
+            <lb ed="#V" n="121"/>rosa reddems, vel faciens voluntatem aptam ad motum
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e835">
+            <!--572.xml-->
+            <pb ed="#V" n="572"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad quod intelligendum imaginari debemus, 
+            <lb ed="#V" n="2"/>quod voluntas non est apta, nata moueri, nisi actiua 
+            <lb ed="#V" n="3"/>ta a bono apprehenso ab intellectu. Sratim enim cum 
+            <lb ed="#V" n="4"/>intellectus ostendit voluntati aliquod sub ratio¬ 
+            <lb ed="#V" n="5"/>ne boni, actiuatur ex hoc voluntas, &amp; adgenerat 
+            <lb ed="#V" n="6"/>in ea, quidam amor boni,. quod si plena, &amp; comple¬ 
+            <lb ed="#V" n="7"/>ta actiuatio illa fuerit, &amp; ostendatar illud nomen¬ 
+            <lb ed="#V" n="8"/>sub omni ratione boni necessitatur voluntas, ut 
+            <lb ed="#V" n="9"/>per amorem feratur in illud bonum, &amp; ideo de 
+            <lb ed="#V" n="10"/>necessitate quilibet vult esse beatus. Sed si res il¬ 
+            <lb ed="#V" n="11"/>la apprehensa ostendatur uoluntati sub nulla ra¬ 
+            <lb ed="#V" n="12"/>tione boni, uel sub omni ratione mali, necessitat 
+            <lb ed="#V" n="13"/>voluntas, ut respuat illud: ideo de necessitate nul¬ 
+            <lb ed="#V" n="14"/>lus vult esse miser. Sed si ostendatur illud non sub¬ 
+            <lb ed="#V" n="15"/>omni ratione boni, adgeneratur in voluntate aliquis 
+            <lb ed="#V" n="16"/>amor boni: sed ex illo amore non necessitabitur, 
+            <lb ed="#V" n="17"/>vt seratur in illud bonum: sed forte voluntas mo¬ 
+            <lb ed="#V" n="18"/>uebit intellectum ad consulendum de illo bono, 
+            <lb ed="#V" n="19"/>vel forte ex sola ostensione intellectus non neces¬ 
+            <lb ed="#V" n="20"/>sitabitur, sed allicietur ut sic allecta seratur in il¬ 
+            <lb ed="#V" n="21"/>lud bonum. Propter quod bene dictum est. quod 
+            <lb ed="#V" n="22"/>saepe saepius dictum est, quod voluntas non mouet se, 
+            <lb ed="#V" n="23"/>actiuando se: quia semper actiuatur a bono appre 
+            <lb ed="#V" n="24"/>henso ab intellectu, sed mouet se determinando 
+            <lb ed="#V" n="25"/>se: quia si non necessitaca tali apprehensione, erit 
+            <lb ed="#V" n="26"/>prima determinatio uoluntatis. Vtrum ex sola 
+            <lb ed="#V" n="27"/>ostensione intellectus velit ferri in tale bonuoo, 
+            <lb ed="#V" n="28"/>vel velit mouere intellectum ad consulendum 
+            <lb ed="#V" n="29"/>de illo bono, an debeat in illud ferri. Exhis autem 
+            <lb ed="#V" n="30"/>intantum dictum sit, quod a bono in anima appre¬ 
+            <lb ed="#V" n="31"/>henso ab intellectu voluntas actiuatur, &amp; adgene¬ 
+            <lb ed="#V" n="32"/>ratur in voluntate quidam amor boni, &amp; si sit ple¬ 
+            <lb ed="#V" n="33"/>na actiuatio, necessitat uoluntatem: si semiplena¬ 
+            <lb ed="#V" n="34"/>relinquit uoluntatem in potestate sua, ut per acti¬ 
+            <lb ed="#V" n="35"/>uationem illam possit se multipliciter determi¬ 
+            <lb ed="#V" n="36"/>nare, &amp; se determinando multipliciter moue¬ 
+            <lb ed="#V" n="37"/>re. Propter quod verum est uerbum Augustini¬ 
+            <lb ed="#V" n="38"/>13. Confes. quod amor in spiritibus est sicut poedus 
+            <lb ed="#V" n="39"/>in corporibus. Quia sicut corpora mouentur per¬ 
+            <lb ed="#V" n="40"/>pondera: ita spiritus per amorem. Propter quod 
+            <lb ed="#V" n="41"/>ipse ait de seipso: Amor mens, pondus meum, 
+            <lb ed="#V" n="42"/>eo feror, quocunque feror. Viso quomodo se ha¬ 
+            <lb ed="#V" n="43"/>bet ad voluntatem bonum in anima ab intellectu¬ 
+            <lb ed="#V" n="44"/>apprehensum; Restat videre quomodo se habet 
+            <lb ed="#V" n="45"/>bonum in anima a voluntate intentum: sed si con¬ 
+            <lb ed="#V" n="46"/>siderentur praehabita facile est videre, quod quae 
+            <lb ed="#V" n="47"/>ritur. Nam bonum in anima ab intellectu appre¬ 
+            <lb ed="#V" n="48"/>hensum: quia hoc modo voluntas a bono actiua 
+            <lb ed="#V" n="49"/>tur, &amp; redditur apta ad motum: sed a bono in 
+            <lb ed="#V" n="50"/>anima per uoluntatem intento, inchoatur ta¬ 
+            <lb ed="#V" n="51"/>lis motus. Est enim terminus, a quo incipit 
+            <lb ed="#V" n="52"/>motus. Nam nisi aliquid intenderet uoluntas: 
+            <lb ed="#V" n="53"/>nunquam inchoaretur eius motus: sed a bono 
+            <lb ed="#V" n="54"/>vt est in re, &amp; ut est in seipso terminatur, &amp; fini¬ 
+            <lb ed="#V" n="55"/>tur talis motus. Finis ergo tripliciter se habet ad 
+            <lb ed="#V" n="56"/>uoluntatis motum: sed ea, quae sunt ad finem, se 
+            <lb ed="#V" n="57"/>habent vno modo: quia se habent, ut medium, 
+            <lb ed="#V" n="58"/>per quod mancipareffectui talis motus. Et quia 
+            <lb ed="#V" n="59"/>omnibus istis modis bonum comparatur ad uo¬ 
+            <lb ed="#V" n="60"/>luntatem, prout uoluntas habet moueri a fine 
+            <lb ed="#V" n="61"/>in finem: &amp; per ea, quae suntad finem, consequens 
+            <lb ed="#V" n="62"/>est quod intentio, pront dicit motum non pertinet 
+            <!--572.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>directe ad intellectum. sed ad uolunoatem, cum¬ 
+            <lb ed="#V" n="64"/>omnes praetaxati modi mouendi ad uoluntatem 
+            <lb ed="#V" n="65"/>sint adaptandi. Nam finis quocumque modo sum¬ 
+            <lb ed="#V" n="66"/>ptus, &amp; ea, quae sunt ad finen, ad volutatem portinent. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e991">
+            <lb ed="#V" n="67"/>Sed dices, quod finis ab intellectu apprehensus a¬ 
+            <lb ed="#V" n="68"/>ctiuat uoluntatem, &amp; facit eam aptam ad motum. 
+            <lb ed="#V" n="69"/>Rursus. magis est aliquid attrihuendum actitino, 
+            <lb ed="#V" n="70"/>quam passiuo. Si ergo intellectus mouet uolun¬ 
+            <lb ed="#V" n="71"/>tatem per bonum apprehensum, &amp; sine hoc non 
+            <lb ed="#V" n="72"/>potest voluntas tendere in bonum, uidetur quod 
+            <lb ed="#V" n="73"/>intendere bonum, vel tendere in bonum sit ma¬ 
+            <lb ed="#V" n="74"/>gis attribuendumn intellectui tanquam agenti,: 
+            <lb ed="#V" n="75"/>uoluntati tanquam passo. Ad quod dici potest, 
+            <lb ed="#V" n="76"/>quod ipsa uoluntas tendit in bonum, uel in finem 
+            <lb ed="#V" n="77"/>non intellectus: licet hoc ostendat ei intellectus. 
+            <lb ed="#V" n="78"/>ex qua ostensione modo, quo dictum est, actiua 
+            <lb ed="#V" n="79"/>tur uoluntas ab intellectu. Ad formam autem ar¬ 
+            <lb ed="#V" n="80"/>guendi dici debet, quod si in aliis motibus potest 
+            <lb ed="#V" n="81"/>motus attribui magis agenti, quam palso: quia 
+            <lb ed="#V" n="82"/>passio est effectus actionis: tamen in motibus vo¬ 
+            <lb ed="#V" n="83"/>luntatis habet instantiam. Nam omne, quod reci¬ 
+            <lb ed="#V" n="84"/>pitur in aliquo, recipitur per modum recipien¬ 
+            <lb ed="#V" n="85"/>tis: totum ergo, quod recipitur in uoluntate, re¬ 
+            <lb ed="#V" n="86"/>cipirur per modum uoluntatis, ut totum dicatur 
+            <lb ed="#V" n="87"/>uoluntarium, &amp; totum possit atttibui voluntati. 
+            <lb ed="#V" n="88"/>immo etiam vbi magis necessitatur uoluntas, il¬ 
+            <lb ed="#V" n="89"/>lud est magis uoluntarium: quia magis uolunta¬ 
+            <lb ed="#V" n="90"/>rie mouemnr in beatitudinem &amp; in finem, quam 
+            <lb ed="#V" n="91"/>in ea, quae sunt ad finem. Nam motus in finem 
+            <lb ed="#V" n="92"/>specialiter dicitur uoluntas, &amp; denominatur 
+            <lb ed="#V" n="93"/>a voluntate: sed motus in ea, quae sunt ad fi¬ 
+            <lb ed="#V" n="94"/>nem, dicitur electio, &amp; non sic denominatur 
+            <lb ed="#V" n="95"/>a voluntate. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1056">
+            <lb ed="#V" n="96"/>DVD. II. LATERALIS. 
+            <lb ed="#V" n="97"/>An intentio cum hac praepositione, in, mo¬ 
+            <lb ed="#V" n="98"/>tum dicat. 
+            <lb ed="#V" n="99"/>conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1067">
+            <lb ed="#V" n="100"/>VLTERIVS forte dubitaret aliquis 
+            <lb ed="#V" n="101"/>de quarta conditione, uidelicet, quod 
+            <lb ed="#V" n="102"/>intentio pertineat ad uoluntatem 
+            <lb ed="#V" n="103"/>prout dicit motum cum habitudi 
+            <lb ed="#V" n="104"/>ne huiusmodi praepositionis, in, 
+            <lb ed="#V" n="105"/>quia hoc tendere ut saepius dictum, est in aliquid 
+            <lb ed="#V" n="106"/>tendere, uel in aliquid mouere: quomodo ergo¬ 
+            <lb ed="#V" n="107"/>hoc esset habeat: Dicenduni, quod iam tractauimus 
+            <lb ed="#V" n="108"/>de motu animae, &amp; specialiter de motu volunta¬ 
+            <lb ed="#V" n="109"/>tis, &amp; dixim us ad talem motum quatuor concur¬ 
+            <lb ed="#V" n="110"/>rere, quorum tria se tenebant ex parte finis, &amp; 
+            <lb ed="#V" n="111"/>unum ex parte eorum, quae sunt ad finem: sed 
+            <lb ed="#V" n="112"/>omnia illa quatuor non sufficienter comprehen¬ 
+            <lb ed="#V" n="113"/>dunt unum modum traditum a <ref xml:id="Gi9qrR-m168409-Rd1e1099">Philolopho in 
+              <lb ed="#V" n="114"/>3. de Anima, in c. de mouente</ref>. Vult enim, quod ad 
+            <lb ed="#V" n="115"/>motum animalis qui fit per appetitum concur¬ 
+            <lb ed="#V" n="116"/>rant tria, videlicet mouens ut appetibile, uel ap¬ 
+            <lb ed="#V" n="117"/>petitus. &amp; quod mouetur, ut animal, &amp; organum, 
+            <lb ed="#V" n="118"/>quo mouet, vt cor. Sed haec tria Thenistius ex¬ 
+            <lb ed="#V" n="119"/>plicat, uel dilatat in quatuor. Nam id, quod mouet 
+            <lb ed="#V" n="120"/>animal, diuidit in duo, in appetibile, &amp; appeutum 
+            <!--573.xml-->
+            <pb ed="#V" n="573"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quatuor ergo sunt assignanda in motu animalis, 
+            <lb ed="#V" n="2"/>delicet appetibile, quod se habet ut mouens, &amp; 
+            <lb ed="#V" n="3"/>appetitus, quid etiam se habet ut mouens. Ter¬ 
+            <lb ed="#V" n="4"/>tio est ibi animal, quod mouetur, &amp; quarto est ibi 
+            <lb ed="#V" n="5"/>ganum id est cor, per quod fit ibi executio talis mo¬ 
+            <lb ed="#V" n="6"/>tus. Philosophus etiam omnia ista quatuor innuit 
+            <lb ed="#V" n="7"/>in dicto cap. immo cum assignata sint duo mo¬ 
+            <lb ed="#V" n="8"/>uentia in motu animalis, videlicet appetibile, &amp; 
+            <lb ed="#V" n="9"/>appetitus, Philosophus distinguit inter ista duo¬ 
+            <lb ed="#V" n="10"/>mouentia, dicens, quod appetibile est mouens non 
+            <lb ed="#V" n="11"/>motum: sed appetitus est mouens motum. Illa 
+            <lb ed="#V" n="12"/>a ergo quatuor, quae diximus concurrere ad mo¬ 
+            <lb ed="#V" n="13"/>tum uoluntatis, non sunt nisi unum istorum qua¬ 
+            <lb ed="#V" n="14"/>tuor, uidelicet ipsum appetibile, cum uellemus 
+            <lb ed="#V" n="15"/>ex omnibus istis quatuor faceretria membra, ui¬ 
+            <lb ed="#V" n="16"/>delicet mouenms, quod mouet d est animal &amp; organum, 
+            <lb ed="#V" n="17"/>quo mouetur id est cor. omnia predicta quatuor non 
+            <lb ed="#V" n="18"/>continent complete unum membrum: quia om¬ 
+            <lb ed="#V" n="19"/>nia praefata quatuor non continent, nisi ipsum 
+            <lb ed="#V" n="20"/>appetibile. Sed sub mouente continetur tam ap¬ 
+            <lb ed="#V" n="21"/>petibile, quod est mouens immobile, quam appe¬ 
+            <lb ed="#V" n="22"/>tritus, qui est mouens motus. Quod autem om¬ 
+            <lb ed="#V" n="23"/>nia illa quatuor in praecedenti vlterius assignata 
+            <lb ed="#V" n="24"/>sint ad ipsum appetibile, patet quin appetibile est 
+            <lb ed="#V" n="25"/>bonum, quod est finis, &amp; appetibile est bonum, 
+            <lb ed="#V" n="26"/>quod est ad finem: licet secundum quod huiusmo¬ 
+            <lb ed="#V" n="27"/>di non sit appetibile, nisi in ordine ad finem. Sed 
+            <lb ed="#V" n="28"/>bonum, quod est finis, tripliciter potest conside 
+            <lb ed="#V" n="29"/>rari, uel ut apprehensum, &amp; sic actiuat uolunta¬ 
+            <lb ed="#V" n="30"/>tem, uel ut intentum, &amp; sic est illudy a quo inchoa¬ 
+            <lb ed="#V" n="31"/>tur motus uoluntatis, uel ut tale bonum, quod 
+            <lb ed="#V" n="32"/>est finis, habet esse in seipso, uel in reipsa, &amp; sic 
+            <lb ed="#V" n="33"/>est illud, ad quod terminatur motus uoluntatis. 
+            <lb ed="#V" n="34"/>Sed si tale appetibile consideretur, ut est bonum: 
+            <lb ed="#V" n="35"/>quod est ad finem: sic se habet ut medium,. per 
+            <lb ed="#V" n="36"/>quod mancipatur effectui motus uoluntatis. Et 
+            <lb ed="#V" n="37"/>quia omnia ista quatuor non dicunt nisi ipsum 
+            <lb ed="#V" n="38"/>appetibile, bene dictum est, quod dicebatur. Ad 
+            <lb ed="#V" n="39"/>uertendum tamen, quod licet bonum, quod est finis, 
+            <lb ed="#V" n="40"/>possit considerari tripliciter, uel ut apprehensum 
+            <lb ed="#V" n="41"/>ab intellectu, vel ut intentum a uoluntate, uel vt 
+            <lb ed="#V" n="42"/>est in seipso, uel in re ipsa. potissime tamem habet 
+            <lb ed="#V" n="43"/>rationem finis, &amp; boni, ut est in seipso, uel in re¬ 
+            <lb ed="#V" n="44"/>ipsa: quia ut tale bonum, ut est apprehensum ab¬ 
+            <lb ed="#V" n="45"/>intellectu, uel intentum a uoluntate, non habet rotn¬ 
+            <lb ed="#V" n="46"/>nem boni, nisi in ordine ad ipsam rem. Nam bonum, 
+            <lb ed="#V" n="47"/>vt est in anima, siue sit in ea per apprenensionem 
+            <lb ed="#V" n="48"/>in intellectu, siue per intentionem in uoluntate: 
+            <lb ed="#V" n="49"/>tamen sic, uel sic sumptum, simpliciter loquendo, 
+            <lb ed="#V" n="50"/>non habet rationem boni, nisi in ordine ad seip¬ 
+            <lb ed="#V" n="51"/>sum, ut est in re. Ideo in Metaphysica loquens de¬ 
+            <lb ed="#V" n="52"/>hono, &amp; malo, non dicit ea esse in anima, sed 
+            <lb ed="#V" n="53"/>in rebus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1239">
+            <lb ed="#V" n="54"/>His itaque exeursis, dicamus, quod intendere di¬ 
+            <lb ed="#V" n="55"/>cit quendam motum cum hac praepositione, in. 
+            <lb ed="#V" n="56"/>Nam hoc est intendere, in finem tendere, uel in 
+            <lb ed="#V" n="57"/>finem moueri. Cum ergo motus dicat tres habi¬ 
+            <lb ed="#V" n="58"/>tudines, a quo inchoat, per quod transit, &amp; in 
+            <lb ed="#V" n="59"/>quod terminatur: quia id, a quo incipit motus 
+            <lb ed="#V" n="60"/>foluntatis, est finis intentus: illud per quod tran¬ 
+            <lb ed="#V" n="61"/>sit est bonum, quod est ad finem, illud, in quo ter 
+            <lb ed="#V" n="62"/>ninagest finis in seipso, uel in ipsa re: quia om¬ 
+            <!--573.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>nia ista pertinent ad uoluntatem: oportet quod in 
+            <lb ed="#V" n="64"/>tentio pertineat ad uoluntatem. Motus nm uolum. 
+            <lb ed="#V" n="65"/>tatis incipit a fine, ut est in intentione, transit pet 
+            <lb ed="#V" n="66"/>ea, quae sunt ad finem, &amp; terminatur ad finem, 
+            <lb ed="#V" n="67"/>uel ad bonum, ut est in seipsoi est in re ipsa. Quia 
+            <lb ed="#V" n="68"/>licet verum, &amp; falsum sint in anima, bonum, &amp; ma¬ 
+            <lb ed="#V" n="69"/>lum sunt in rebus, ut dicitur in &amp;. Sed dices, quod 
+            <lb ed="#V" n="70"/>primoassignata sunt quatuor in motu uolunta¬ 
+            <lb ed="#V" n="71"/>tis: nuncautem non sunt assignata, nisi tria. Sed 
+            <lb ed="#V" n="72"/>ad hoc satis patet solutio per iam dicta. Nam, ut 
+            <lb ed="#V" n="73"/>dicebatur supra, alius est motus, ut graue actiue 
+            <lb ed="#V" n="74"/>tur, &amp; fiatgraue, &amp; alius est motus iam facti gra¬ 
+            <lb ed="#V" n="75"/>uis. Sic alius est motus, ut uoluntas actiuetur, &amp; 
+            <lb ed="#V" n="76"/>fiat grauis, &amp; generetur in ea amor boni, qui se 
+            <lb ed="#V" n="77"/>habet, ut grauitas, &amp; ut pondus, &amp; alius est mo¬ 
+            <lb ed="#V" n="78"/>tus uoluntatis iam actiuatae, &amp; factae grauis. Pri¬ 
+            <lb ed="#V" n="79"/>mum ergo, quod se tenet ex parte intellectus, re¬ 
+            <lb ed="#V" n="80"/>spicit motum uoluntatuis, ut actiuetur, &amp; fiat gra¬ 
+            <lb ed="#V" n="81"/>uis: sed haec tria nuncassignata respiciunt motum 
+            <lb ed="#V" n="82"/>voluntatis iam actiuatae, &amp; factae grauis. Possn¬ 
+            <lb ed="#V" n="83"/>mus autem ad ueritatem quaesitam declarandam 
+            <lb ed="#V" n="84"/>addere, quod licet omnia haec tria narrata perti¬ 
+            <lb ed="#V" n="85"/>neant ad uoluntatem, &amp; quantum ad illud, a quo 
+            <lb ed="#V" n="86"/>incipit motus eius, &amp; quantum ad medium, 
+            <lb ed="#V" n="87"/>per quod transit, &amp; quantum ad illud, in quo ter 
+            <lb ed="#V" n="88"/>minatur: quia omnia ista pertinent ad volun¬ 
+            <lb ed="#V" n="89"/>tatem: ideo intentio cum omnibus istis tribus¬ 
+            <lb ed="#V" n="90"/>habitudinibus pertinet ad uoluntatem, uel ad mo¬ 
+            <lb ed="#V" n="91"/>tum uoluntatis. Nam in motu uoluntatis est in 
+            <lb ed="#V" n="92"/>choatio, quae dat intelligere talem motum cum ha¬ 
+            <lb ed="#V" n="93"/>bitudine huiusinodi praepositionis a: &amp; est ibi¬ 
+            <lb ed="#V" n="94"/>mediatio dans intelligere illum eundem motum 
+            <lb ed="#V" n="95"/>cum habitudine huiusmodi propositionis, per: 
+            <lb ed="#V" n="96"/>&amp; est ibi consumatio, uel terminatio dans intelli¬ 
+            <lb ed="#V" n="97"/>gere sllum eundem motum cum habitudine hu¬ 
+            <lb ed="#V" n="98"/>ius propositionis, in. Et quia aliae habitudines or¬ 
+            <lb ed="#V" n="99"/>nantur ad habitudinem, quae sumitur per hanc 
+            <lb ed="#V" n="100"/>praepositionem, in: Ideo intentio, quae speciali¬ 
+            <lb ed="#V" n="101"/>ter nominat motum uoluntatis cum habitudine 
+            <lb ed="#V" n="102"/>huius propositionis, in, secundum se sumpta: quodam spo¬ 
+            <lb ed="#V" n="103"/>ciali modo ratione habitudinis huius propositio 
+            <lb ed="#V" n="104"/>nis, in: pertinebit ad voluntatem. Quod in 
+            <lb ed="#V" n="105"/>hoc vlterius declarare uolebamus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1360">
+            <lb ed="#V" n="106"/>RESP. AD ARO. Ad primum dicendum, 
+            <lb ed="#V" n="107"/>quod intentio drr oculus non quocunque modo sum 
+            <lb ed="#V" n="108"/>ptus: sed dirumr oculus, ut est idem, quod sucerna. sed 
+            <lb ed="#V" n="109"/>lucerna non uidet nec cognoscit: ideo argumen¬ 
+            <lb ed="#V" n="110"/>tum non arguit, quod intentio pertineat ad oculum, 
+            <lb ed="#V" n="111"/>vt dicit uirtutem cognitiuam. Tamen quantum 
+            <lb ed="#V" n="112"/>ad hanc materiam arguit argumentum, quod sem¬ 
+            <lb ed="#V" n="113"/>per ad intentionem aliquid cooperatur intelle¬ 
+            <lb ed="#V" n="114"/>ctus, qui est potentia cognitiua, rationecuius in¬ 
+            <lb ed="#V" n="115"/>tentio potest dici oculus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1384">
+            <lb ed="#V" n="116"/>Ad secundum dicendum, quod intentio potest dici, quaedam 
+            <lb ed="#V" n="117"/>passio: quia voluntas, cuiusmodi est intendere potest¬ 
+            <lb ed="#V" n="118"/>dici potentia passiua, vt eo modo, quo intellige¬ 
+            <lb ed="#V" n="119"/>re, quod pertinet ad intellectum, potet dici quod. 
+            <lb ed="#V" n="120"/>dam pari: sic intendere, quod pertinet ad uolun¬ 
+            <lb ed="#V" n="121"/>tatem, quoddam pati dici potest. Vel possumus dice¬ 
+            <lb ed="#V" n="122"/>re, quod illa propositio Philosophi non continet 
+            <lb ed="#V" n="123"/>omnia, quae sunt in anima simpliciter: sed prour¬ 
+            <lb ed="#V" n="124"/>spectat ad propositum Thilosophi. Nam in anima 
+            <!--574.xml-->
+            <pb ed="#V" n="574"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non solum sunt habitusi sed etiam sunt actus prae¬s 
+            <lb ed="#V" n="2"/>cedentes ab habitu, qui propne non comprehen¬ 
+            <lb ed="#V" n="3"/>duntur per illa tria. Et in anima etiam sunt species 
+            <lb ed="#V" n="4"/>intelligibiles, quae directe sub illis tribus non 
+            <lb ed="#V" n="5"/>comprehenduntur: sed possint reduci ad aliquod 
+            <lb ed="#V" n="6"/>illorum trium. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1426">
+            <lb ed="#V" n="7"/>Ad tertium dicendum, quod intendere non com¬ 
+            <lb ed="#V" n="8"/>peteret naturae vel agenti naturali, nisi ei compe¬ 
+            <lb ed="#V" n="9"/>teret appetere: quia agens naturale non intende¬ 
+            <lb ed="#V" n="10"/>ret naturali ter finem, nisi naturaliter appeterer¬ 
+            <lb ed="#V" n="11"/>finem. Et hoc sufficit, quod intentio se teneat cumap¬ 
+            <lb ed="#V" n="12"/>petitu in agentibus naturalibus ad hoc, quod in agen¬ 
+            <lb ed="#V" n="13"/>ubus a proposito se teneat cum uoluntate, quia vo¬ 
+            <lb ed="#V" n="14"/>luntas in talibus agentibus est quidam appetitus.1 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1446">
+            <lb ed="#V" n="15"/>Ad quartum dicendum, quod voluntas non solumi 
+            <lb ed="#V" n="16"/>est principium in practicis: sed etiamin specula¬ 
+            <lb ed="#V" n="17"/>tiuis: quia eius est mouere intellectum ad specu¬ 
+            <lb ed="#V" n="18"/>landum, &amp; ad cogitandum de speculabilibus hac 
+            <lb ed="#V" n="19"/>intentione, ut ex hoc veritas elucescat. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1459">
+            <lb ed="#V" n="20"/>Ad quintum dicendum, quod uoluntati compe¬ 
+            <lb ed="#V" n="21"/>tunt tria. s. velle, intendere, &amp; eligere: aliter tamen, 
+            <lb ed="#V" n="22"/>&amp; aliter: quia velle competit ei, ut tendit in fintm 
+            <lb ed="#V" n="23"/>sm se, &amp; quia velle competit uoluntati secundum se¬ 
+            <lb ed="#V" n="24"/>ideo denominatur a voluntate: sicutr intelligere 
+            <lb ed="#V" n="25"/>ab intellectu. Et ita sicut intellectus per se tendit 
+            <lb ed="#V" n="26"/>in principia: ita intellectus drtunesse principium, &amp;. 
+            <lb ed="#V" n="27"/>intelligere respicit specialiter ipsa principia: sic 
+            <lb ed="#V" n="28"/>voluntas deru esse ipsius finis. &amp; velle, quod denominat 
+            <lb ed="#V" n="29"/>a voluntate specialiter respicit ipsum finem. Sed 
+            <lb ed="#V" n="30"/>intendere non proprie competiti uoluntati scudm¬ 
+            <lb ed="#V" n="31"/>se: sed, ut habet ordinem ad intellectum, ad quem ha¬ 
+            <lb ed="#V" n="32"/>bet duplicem ordinem, vnum prout ab intelledtu¬ 
+            <lb ed="#V" n="33"/>dirigitur in ea, quae sunt ad finem, &amp; sic competit 
+            <lb ed="#V" n="34"/>voluntati eligere, iuxta illud Philosophi in 3. Vo¬ 
+            <lb ed="#V" n="35"/>luntas est finis, electio est eorum, quae sunt ad finem. 
+            <lb ed="#V" n="36"/>Secundo voluntas habet ordinem ad intellectum, 
+            <lb ed="#V" n="37"/>prout ab intellectu dirigitur in ipsum finem: &amp; 
+            <lb ed="#V" n="38"/>hoc modo ditur voluntas intendere, prout directa 
+            <lb ed="#V" n="39"/>ab intellectu tendit in ipsum finem, sicut dicebaen 
+            <lb ed="#V" n="40"/>eligere, prout directa ab intellectu tendit in ea, 
+            <lb ed="#V" n="41"/>quae sunt ad finem. Voluntas ergo prout mouet 
+            <lb ed="#V" n="42"/>in finem, &amp; in bonum absolute daeu velle: sed prout 
+            <lb ed="#V" n="43"/>mouet in finem directa ab intellectu ditr intendere. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m168409-Dd1e1516">
+          <head xml:id="Gi9qrR-m168409-Hd1e1518">Articulus 2</head>
+          <p xml:id="Gi9qrR-m168409-d1e1520">
+            <lb ed="#V" n="44"/>ARTIC. II. 
+            <lb ed="#V" n="45"/>An quis fines plures inten¬ 
+            <lb ed="#V" n="46"/>dere possit 
+            <lb ed="#V" n="47"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1531">
+            <lb ed="#V" n="48"/>Aegid Quol. 5. q. 12 Et de cogn. Ang. q 7. D. Tho. 1. 1. q. 13. 
+            <lb ed="#V" n="49"/>ar 3 Ric. d. 38. q. 4. Iho. Arg. d. a8. q. 1. Ar. 1. Greg. Arim¬ 
+            <lb ed="#V" n="50"/>1. Sent 8. 4. &amp; [.Rr. 3. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1540">
+            <lb ed="#V" n="51"/>SECVNDO quaeritur: Vtrum 
+            <lb ed="#V" n="52"/>possit quis simul plures fines 
+            <lb ed="#V" n="53"/>intendere. Et videtur, quod non: quia 
+            <lb ed="#V" n="54"/>intentio dicit motum volunta¬ 
+            <lb ed="#V" n="55"/>tis in terminum. sed unius mo¬ 
+            <lb ed="#V" n="56"/>tus est unus terminus, ergo &amp;c. 
+            <lb ed="#V" n="57"/>Praeterea ficut supra dicebatur, moralia sunt 
+            <!--574.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="58"/>inter finem, &amp; finem: sicut naturalia inter forma¬ 
+            <lb ed="#V" n="59"/>&amp; formam: sed natura materiae, cuius est moueri ad 
+            <lb ed="#V" n="60"/>formam vno motu, non mouetur nisi ad unam 
+            <lb ed="#V" n="61"/>sormam: ergo in moralibus unus motus non erit 
+            <lb ed="#V" n="62"/>nisi ad vnum finem: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1573">
+            <lb ed="#V" n="63"/>Praeterea intentio praesupponit actum intelle¬ 
+            <lb ed="#V" n="64"/>ctus, &amp; ideo dicta est oculus: quia praesupponit 
+            <lb ed="#V" n="65"/>actum oculii ist intellectus, qui se haber, ut oculus: 
+            <lb ed="#V" n="66"/>sed secundum <ref xml:id="Gi9qrR-m168409-Rd1e1583">Philosophum mn Topi.</ref> Possumus quidem, 
+            <lb ed="#V" n="67"/>plura scire, intelligere autem vnum solum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1590">
+            <lb ed="#V" n="68"/>Praeterea sicut cera secundum eandem partem non potest 
+            <lb ed="#V" n="69"/>figurari nisi una figura: ita quaelibet potentia an i 
+            <lb ed="#V" n="70"/>mae, &amp; maxime si sit potentia non organica. it non 
+            <lb ed="#V" n="71"/>extensa, &amp; non habens partem, &amp; partem. non po¬ 
+            <lb ed="#V" n="72"/>rerit actiuari nisi uno actu. sed intentio est actus 
+            <lb ed="#V" n="73"/>uoluntatis, &amp; voluntas est potentia non organi¬ 
+            <lb ed="#V" n="74"/>caid est non habens partem, &amp; partem: ergo &amp;c. 
+            <lb ed="#V" n="75"/>IN COVTRARIVM est. Quia videmus in na¬ 
+            <lb ed="#V" n="76"/>turalibus, quod per idem instrumentum natura in¬ 
+            <lb ed="#V" n="77"/>rendit duo consequi, gustum, &amp; loeutionem. lux¬ 
+            <lb ed="#V" n="78"/>ta illud: Lngua naturaliter congruit in duo, in 
+            <lb ed="#V" n="79"/>gustum, &amp; locutionem: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1619">
+            <lb ed="#V" n="80"/>Praeterea quicquid praeeligimus est: quia pos¬ 
+            <lb ed="#V" n="81"/>sumus per illud plura bona consequi. iuxta illud 
+            <lb ed="#V" n="82"/>Philosophi in Topi. Plura bona paucioribus bo¬ 
+            <lb ed="#V" n="83"/>nis sunt magis eligenda: sed si non possemus plu¬ 
+            <lb ed="#V" n="84"/>ra intendere, non possemus propter plura bona 
+            <lb ed="#V" n="85"/>aliud magis praeeligere. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1635">
+            <lb ed="#V" n="86"/>RIESOLVTIO. ¬ 
+            <lb ed="#V" n="87"/>cum intennio non solum de fint, sed etiam de ijs, 
+            <lb ed="#V" n="88"/>quae sunt ad finem dicatur, plures ab ipsa inten¬ 
+            <lb ed="#V" n="89"/>di fines quis ibit inficias, modo alter ad alterum, 
+            <lb ed="#V" n="90"/>uel ambo ad tertium reserantur: contrariique 
+            <lb ed="#V" n="91"/>non nisi imperfecte dicantur. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1651">
+            <lb ed="#V" n="92"/>RESPoxDro dicendum, quod vt supra dictum 
+            <lb ed="#V" n="93"/>est, uoluntati competit uelle intendere, &amp; elige¬ 
+            <lb ed="#V" n="94"/>re. &amp; vnum istorum vtu oriri ex actiuo: quia intem 
+            <lb ed="#V" n="95"/>dere virtn oriri ex velle, &amp; eligere ex intendere. Nam 
+            <lb ed="#V" n="96"/>inter heotria vrtn haec esse differentia: quia uelle 
+            <lb ed="#V" n="97"/>denominatur ab ipsa uoluntate: sed intendere, 
+            <lb ed="#V" n="98"/>&amp; eligere non denominantur ab ipsa voluntate. 
+            <lb ed="#V" n="99"/>Sed scuedu Philosophum, &amp; communiter secundum Doct. 
+            <lb ed="#V" n="100"/>Actus ille, qui denominatur ab ipsa potentia, con 
+            <lb ed="#V" n="101"/>petit potentiae scumdum se: sed actus ille, qui non deno¬ 
+            <lb ed="#V" n="102"/>minatur ab ipsa potentia, competit ipsi potenuae 
+            <lb ed="#V" n="103"/>in ordine ad aliam potentiam. Velle autem, quod 
+            <lb ed="#V" n="104"/>denominatur ab ipsa uoluntate, competit scumum set 
+            <lb ed="#V" n="105"/>sed intendere, &amp; aeligere, quae non denominantur 
+            <lb ed="#V" n="106"/>a voluntate, competunt uoluntati in ordine ad 
+            <lb ed="#V" n="107"/>aliam potentiam id ist in ordine ad intellectum. Nam 
+            <lb ed="#V" n="108"/>voluntas, prout dirigitur ab intellectu, in finem 
+            <lb ed="#V" n="109"/>qietu intendere: sed, prout dirigitur in ea, quae sunt 
+            <lb ed="#V" n="110"/>ad finem, dir eligere. Sed uoluntas dirigitur ab in¬ 
+            <lb ed="#V" n="111"/>tellectu etiam quantum ad ipsum uelle: quia non 
+            <lb ed="#V" n="112"/>potest uoluntas velle nisi mota ab intellectu. Ad 
+            <lb ed="#V" n="113"/>quod dici potest, quod aliud est, quod competit actui ra¬ 
+            <lb ed="#V" n="114"/>tione potentiae, &amp; aliud est, quod competit actui¬ 
+            <lb ed="#V" n="115"/>sm se Velle ergo non potest elici moluntate nisi 
+            <lb ed="#V" n="116"/>praeuio intellectus sed hocestab ipsa potentua sm 
+            <!--575.xml-->
+            <pb ed="#V" n="575"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>se: quia voluntas non potest moueri, nec exire 
+            <lb ed="#V" n="2"/>in aliquem actum nisi praeuio intellectu. Ipse ta¬ 
+            <lb ed="#V" n="3"/>men actus, qui est velle. denominatur a uolunta 
+            <lb ed="#V" n="4"/>te secundum se, &amp; est aptus, natus elici a voluntate scdmu se: 
+            <lb ed="#V" n="5"/>sed intendere, &amp; eligere non sic se habent. Nam 
+            <lb ed="#V" n="6"/>tales actus non solum ratione potentiae: sed etiam 
+            <lb ed="#V" n="7"/>em se, vt sunt quidam actus, eliciuntur a uolunta 
+            <lb ed="#V" n="8"/>te, &amp; habent quendam ordinem ad intellectum. 
+            <lb ed="#V" n="9"/>Nam hoc est intendere, in aliud tendere, &amp; in aliud 
+            <lb ed="#V" n="10"/>dirigi, quod uoluntas de se facere non potet, cum 
+            <lb ed="#V" n="11"/>de se caeca sit, &amp; oporteat, quod a cognoscente diriga¬ 
+            <lb ed="#V" n="12"/>tur. Sic electio: quia est conclusio consilij, cum consi¬ 
+            <lb ed="#V" n="13"/>liari sit actus intellectus de his, quae sunt ad finem: 
+            <lb ed="#V" n="14"/>quia circa finem proprie loquendo non cadit consi¬ 
+            <lb ed="#V" n="15"/>lium, oportet, quod eligere competat voluntati, prout 
+            <lb ed="#V" n="16"/>in his, quae sunt ad finem, dirigitur ab intellectu. 
+            <lb ed="#V" n="17"/>Habent ergo se isti tres actus hoc modo, quod uelle¬ 
+            <lb ed="#V" n="18"/>competit uoluntati cudu se, &amp; si competit ei in 
+            <lb ed="#V" n="19"/>ordine ad intellectum, hoc est ex parte ipsius po¬ 
+            <lb ed="#V" n="20"/>tentiae, quae non est apta exire in actum nisi primo 
+            <lb ed="#V" n="21"/>mota ab intellectu: tamen ipsius uolun tatis est 
+            <lb ed="#V" n="22"/>velle bonum, &amp; ferri in bonum tanquam in finem. 
+            <lb ed="#V" n="23"/>Propter quod ipsum bonum secundum se, &amp; absolute 
+            <lb ed="#V" n="24"/>sm ordinem ad voluntatem, siue ad appetitum, 
+            <lb ed="#V" n="25"/>habet diffiniri, uel describi. Iuxta illud in princi¬ 
+            <lb ed="#V" n="26"/>pio Ethi. bene enunciauerunt bonum esse quod 
+            <lb ed="#V" n="27"/>onia appetunt. sed alii duo actus, videlicet intende 
+            <lb ed="#V" n="28"/>re, &amp; eligere, considerati etiam secundum se, &amp;, vt 
+            <lb ed="#V" n="29"/>sunt actus habent ordinem ad intellectum. Velle¬ 
+            <lb ed="#V" n="30"/>ergo dicit simplicem motum uoluntatis in bonum: 
+            <lb ed="#V" n="31"/>sed intendere, &amp; eligere dicunt motum uolunta 
+            <lb ed="#V" n="32"/>tis in bonum cum quodam ordine. aliter tamen, 
+            <lb ed="#V" n="33"/>&amp; aliter. quia intentio dicit motum voluntatis in 
+            <lb ed="#V" n="34"/>bonum, prout ad illud bonum alia ordinatur: 
+            <lb ed="#V" n="35"/>sed electio dicit motum volsntatis in bonum, prout 
+            <lb ed="#V" n="36"/>illud bonum ad aliud ordinatur: quia est differem 
+            <lb ed="#V" n="37"/>tia inter finem. nam ad ipsum ordinantur alia, &amp; 
+            <lb ed="#V" n="38"/>ea, quae sunt ad finem: quia illa ordinantur ad fi¬ 
+            <lb ed="#V" n="39"/>nem. Ideo bene dictum est, quod intentio est ipsius 
+            <lb ed="#V" n="40"/>finis, &amp; electio est eorum, quae sunt ad finem. 
+            <lb ed="#V" n="41"/>Sed dices quod voluntas est etiam ipsius finis, &amp; vel¬ 
+            <lb ed="#V" n="42"/>le proprie dicit motum in ipsum finem. Ad quod 
+            <lb ed="#V" n="43"/>dici debet, quod uoluntas est ipsius finis &amp; uelle scudue¬ 
+            <lb ed="#V" n="44"/>se dicit motum uoluntatis in finem: sed hoc est 
+            <lb ed="#V" n="45"/>absolute, &amp; simpliciter. sed intendere dicit mo¬ 
+            <lb ed="#V" n="46"/>tu uoluntatis in finam, non absolute, &amp; simpliciter. 
+            <lb ed="#V" n="47"/>sed cum quodam ordine, prout sic tendit in fi. 
+            <lb ed="#V" n="48"/>nem, &amp; ordinat alia ad ipsum finem. Potest er¬ 
+            <lb ed="#V" n="49"/>go circa idem cadere electio, &amp; intentio: sed num. 
+            <lb ed="#V" n="50"/>quam hoc erit eodem modo: quia semper dice. 
+            <lb ed="#V" n="51"/>tur electum illud, quod ordinatur ad aliud, &amp; sen 
+            <lb ed="#V" n="52"/>per intentum illud, ad quod ordinat aliud. Pri¬ 
+            <lb ed="#V" n="53"/>mum ergo electum, uel vltimum electum: quia 
+            <lb ed="#V" n="54"/>ad illud non ordinantur alia, non potest esse in 
+            <lb ed="#V" n="55"/>tentum: sic vltimum intentum, uel primum in¬ 
+            <lb ed="#V" n="56"/>tentum: quia illud non ordinatur ad alia non po¬ 
+            <lb ed="#V" n="57"/>test esse etlectum. Sed omnia intermedia poss unt 
+            <lb ed="#V" n="58"/>dici intenta, &amp; electa. Intenta quidem, prout ad 
+            <lb ed="#V" n="59"/>ipsa ordinantur alia. electa vero prout ipsa ordi¬ 
+            <lb ed="#V" n="60"/>nantur ad alia. Et vt haec pateant, exemplum 
+            <lb ed="#V" n="61"/>ponamus, quod quis finaliter intendit dominari. Ip¬ 
+            <lb ed="#V" n="62"/>sum ergo dominari erit primum, &amp; ultimum. 
+            <!--575.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>Primum smintentionaem: vltimum sumn exccutio 
+            <lb ed="#V" n="64"/>nem, uel erit primum uia resolutionis, &amp; vltim um 
+            <lb ed="#V" n="65"/>via generationis, siue adeptionis. Hoc ergo ordi¬ 
+            <lb ed="#V" n="66"/>ne in hoc negocio procedemus, quod voluntas pri¬ 
+            <lb ed="#V" n="67"/>mo intendit dominari, &amp; in hoc fertur tanquam 
+            <lb ed="#V" n="68"/>in ultimum finem adipiscendum. &amp; hoc erit pri¬ 
+            <lb ed="#V" n="69"/>mum intentum, uel secundum intentionem &amp; habebit 
+            <lb ed="#V" n="70"/>se in practicis, sicut principium in speculatiuis. 
+            <lb ed="#V" n="71"/>Et quia uia resolutoria a principijs procedetur 
+            <lb ed="#V" n="72"/>ad conclusiones: ideo uoluntas hoc intendens 
+            <lb ed="#V" n="73"/>mouebit intellectum ad consiliandum, quomo¬ 
+            <lb ed="#V" n="74"/>do possit dominari. Vtrum hoc possit fieri per me¬ 
+            <lb ed="#V" n="75"/>ram sagacitatem, vel per meram sapientiam: quia 
+            <lb ed="#V" n="76"/>plus valet sapientia, quam arma bellica, uel iudi¬ 
+            <lb ed="#V" n="77"/>cabit, &amp; dabit consilium intellectus, quod ad hoc non 
+            <lb ed="#V" n="78"/>sufficit mera sapientia: sed simul cum sapientia erit 
+            <lb ed="#V" n="79"/>necessaria multitudo bellatorum: Ideo eliget vo¬ 
+            <lb ed="#V" n="80"/>luntas habere multos bellatores, &amp; ista electio 
+            <lb ed="#V" n="81"/>erit conclusio consilii. Rursus consiliabitur, &amp; 
+            <lb ed="#V" n="82"/>concludit, &amp; eliget per consillum datum ab intel 
+            <lb ed="#V" n="83"/>lectu habere multitudinem armorum, sine qua 
+            <lb ed="#V" n="84"/>non posset haberi multitudo bellatorum. Tertio 
+            <lb ed="#V" n="85"/>consiliabitur, &amp; concludet, &amp; eliget habere multi¬ 
+            <lb ed="#V" n="86"/>tudinem pecuniae: sine qua non potest haberi mul¬ 
+            <lb ed="#V" n="87"/>titudo armorum, &amp; bellatorum. Via ergo resolu¬ 
+            <lb ed="#V" n="88"/>tionis, secundum quam proceditur a fine intento, qui se 
+            <lb ed="#V" n="89"/>habet, ut principium ad electiones, quae se ha¬ 
+            <lb ed="#V" n="90"/>bent, ut conclusiones, uitimum est pecunia. Sed 
+            <lb ed="#V" n="91"/>via compositionis, secundum quam procedirur 
+            <lb ed="#V" n="92"/>a conclusionibus ad principia, uel ab electioni¬ 
+            <lb ed="#V" n="93"/>bus ad finem, primum erit pecunia, &amp; ultimum 
+            <lb ed="#V" n="94"/>erit finis intentus. st dominari: ergo dominari est 
+            <lb ed="#V" n="95"/>primum in intentione, &amp; ultimum in executio¬ 
+            <lb ed="#V" n="96"/>ne, vel est primum via resolutionis, prout proce¬ 
+            <lb ed="#V" n="97"/>ditur a principijs ad conclusiones, uel a fine: quod 
+            <lb ed="#V" n="98"/>se habet, ut principium ad electiones, quae sunt 
+            <lb ed="#V" n="99"/>consiliorum conclusiones. Sed via compositio¬ 
+            <lb ed="#V" n="100"/>nis, ultimum in intentione, erit primum in exe¬ 
+            <lb ed="#V" n="101"/>cutione, vel vltimum in resolutione, ut utamur¬ 
+            <lb ed="#V" n="102"/>verbis Philosophi. erit principium in generatione., 
+            <lb ed="#V" n="103"/>Et si pecunia est tale vltimum, illa primo quaere¬ 
+            <lb ed="#V" n="104"/>tur, ut per eam habeantur arma bellica, &amp; bella¬ 
+            <lb ed="#V" n="105"/>tores, &amp;, ut per haec perueniatur ad dominium. Et 
+            <lb ed="#V" n="106"/>si pecunia haberi non possit, desisteret a tali intem 
+            <lb ed="#V" n="107"/>to, quae omnia patent per Philosophum in 3. Eth. 
+            <lb ed="#V" n="108"/>Pecunia ergo non habet rationem finis sic accepta: 
+            <lb ed="#V" n="109"/>sed solum rationem eius, quae sunt ad finem. Et 
+            <lb ed="#V" n="110"/>dominari sic acceptum habebat rationem finis, 
+            <lb ed="#V" n="111"/>&amp; non eius, quod est ad finem. Intermedia ue¬ 
+            <lb ed="#V" n="112"/>ro, ut habere arma bellica, &amp; bellatores habebunt 
+            <lb ed="#V" n="113"/>rationem vtriusque. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e1963">
+            <lb ed="#V" n="114"/>Cum ergo quaeritur: Vtrum quis possit plures 
+            <lb ed="#V" n="115"/>fines intendere, patet, quod cum idem possit esse ele¬ 
+            <lb ed="#V" n="116"/>ctum, &amp; intentum, electum, ut ordinatur ad alia, 
+            <lb ed="#V" n="117"/>intentum, ut alia ordinantur ad ipsum. vel cum 
+            <lb ed="#V" n="118"/>intentio possit dici non solum de fine vltimo: 
+            <lb ed="#V" n="119"/>sed etiam de finibus intermedijs: patet, quod homo¬ 
+            <lb ed="#V" n="120"/>potest simul multos fines intendere. Propter ar¬ 
+            <lb ed="#V" n="121"/>gumenta tamen sciendum, quod cum quaeritur: Vtrum 
+            <lb ed="#V" n="122"/>quis possit simul multos fines intendere. si unum 
+            <lb ed="#V" n="123"/>ordinatur ad aliud, ut habere arma bellica ordi¬ 
+            <lb ed="#V" n="124"/>natur ad habendum bellatores, &amp; habere bellatores 
+            <!--576.xml-->
+            <pb ed="#V" n="576"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad habendum dominium hoc modo, ut patet,, 
+            <lb ed="#V" n="2"/>potest quis multos fines intendere, uel si unum non 
+            <lb ed="#V" n="3"/>ordinatur ad aliud: sed ambo ordinantur ad ter 
+            <lb ed="#V" n="4"/>tium, ut furtum, &amp; vsura ordinantur ad cumula 
+            <lb ed="#V" n="5"/>tionem pecuniae. Hoc etiam modo potest quis 
+            <lb ed="#V" n="6"/>multos fines intendere: immo, ut in arguendo 
+            <lb ed="#V" n="7"/>dicebatur, cum ista sit una de conditionibus ad 
+            <lb ed="#V" n="8"/>hoc, quod aliquid sit magis eligendum: quia est ad 
+            <lb ed="#V" n="9"/>plura bona proficuum: si quis eligat tale eligibile¬ 
+            <lb ed="#V" n="10"/>sub hac intentione: quia plura bona inde potest 
+            <lb ed="#V" n="11"/>consequi, constat sic eligentem in tali electione 
+            <lb ed="#V" n="12"/>plura bona intendere. Sed quaeres vtrum quis 
+            <lb ed="#V" n="13"/>possit intendere plura bona, non solum non or¬ 
+            <lb ed="#V" n="14"/>dinata ad inuicem, nec ad alterum: sed etiam om¬ 
+            <lb ed="#V" n="15"/>nino contraria. Ad quod dici potest, quod simul con 
+            <lb ed="#V" n="16"/>traria intendere, uel hoc potest intelligi perfecte, 
+            <lb ed="#V" n="17"/>uel imperfecte: perfecte quidem est impossibile 
+            <lb ed="#V" n="18"/>luxta illud Dionyrs. in de Ecclesia. Hier. c. 2. quod 
+            <lb ed="#V" n="19"/>non contingit summe duo contraria participare. 
+            <lb ed="#V" n="20"/>Sed imperfecte potest quis simul contraria intem 
+            <lb ed="#V" n="21"/>dere. Nam nihil est simul persecte album, &amp; per¬ 
+            <lb ed="#V" n="22"/>secte nigrum: sed media sunt quaedam participa¬ 
+            <lb ed="#V" n="23"/>tiones extremorum, ut fuscum comparatum ad 
+            <lb ed="#V" n="24"/>album potest dici nigrum, &amp; econuerso. Sic, &amp; 
+            <lb ed="#V" n="25"/>in proposito: quia sunt in nobis motores contra¬ 
+            <lb ed="#V" n="26"/>rij, sensus, &amp; ratio. Sensualitas allicit nos ad bonum 
+            <lb ed="#V" n="27"/>sensibile. Ratio vero persuadet bonum scuduu ratio 
+            <lb ed="#V" n="28"/>nem: quia, ut diru in Ethi. semper ad optima depre¬ 
+            <lb ed="#V" n="29"/>catur ratio. Propter quod continens, &amp; inconti 
+            <lb ed="#V" n="30"/>nens: quia vterque pugnat cum passibilibus, quan¬ 
+            <lb ed="#V" n="31"/>diu durat pugna, quilibet eorum intendit aliquo 
+            <lb ed="#V" n="32"/>modo duo contraria, videlicet bonum secundum sensum, 
+            <lb ed="#V" n="33"/>&amp; bonum sm rationem. sed habita uictoria pu¬ 
+            <lb ed="#V" n="34"/>gnae: si sit continens, vincit intentio boni secun¬ 
+            <lb ed="#V" n="35"/>dum rationem: si incontinens vincit intentio bo¬ 
+            <lb ed="#V" n="36"/>ni secundum sensum. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2074">
+            <lb ed="#V" n="37"/>RESP. AD ARO. Ad primum dicendum, 
+            <lb ed="#V" n="38"/>quod vnius motus est vnus retminus omnino fina¬ 
+            <lb ed="#V" n="39"/>lis, &amp; ultimus: sed possunt esse multi alii fines 
+            <lb ed="#V" n="40"/>intermedii, quorum unus ordinatur ad alium, uel¬ 
+            <lb ed="#V" n="41"/>ambo ordinantur ad secundum, ut potest, quis refice¬ 
+            <lb ed="#V" n="42"/>re pauperem intendens ex hoc habere gratiam di¬ 
+            <lb ed="#V" n="43"/>uinam, &amp; visitare infirmum intendens illud idem: 
+            <lb ed="#V" n="44"/>uel potet quis plura intendere, si illa plura coniun¬ 
+            <lb ed="#V" n="45"/>ganrur in vno, vel potest quis eligere aliquid quod 
+            <lb ed="#V" n="46"/>est proficuum ad multa bona intendens illa plu¬ 
+            <lb ed="#V" n="47"/>ra bona ex uno posse consequi. vel potest quis in. 
+            <lb ed="#V" n="48"/>tendere plura bona contraria: sed non totali¬ 
+            <lb ed="#V" n="49"/>ter, &amp; perfecte, ut patuit de continente, &amp; in 
+            <lb ed="#V" n="50"/>continente. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2108">
+            <lb ed="#V" n="51"/>Ad secundum dicendum, quod materia potest si¬ 
+            <lb ed="#V" n="52"/>mul moueri ad multas formas, ut cum aliquid ca¬ 
+            <lb ed="#V" n="53"/>lefit, simul tendit in calorem, &amp; in formam sub¬ 
+            <lb ed="#V" n="54"/>stantialem ignis: sed calor tanquam forma acci¬ 
+            <lb ed="#V" n="55"/>dentalis ordinatur ad formam substantialem: quia 
+            <lb ed="#V" n="56"/>alteratio ordinatur ad generationem, uel cum ali¬ 
+            <lb ed="#V" n="57"/>quid calefit, simul tendit in calorem, &amp; in siccita¬ 
+            <lb ed="#V" n="58"/>tem: si haec duo ordinentur ad unam formam substam 
+            <lb ed="#V" n="59"/>tialem ignis: cui haec duo suntannexa. sic etiam 
+            <lb ed="#V" n="60"/>potest esse de intentionibus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2132">
+            <lb ed="#V" n="61"/>Ad tertium dicendum, quod possumus etiam in¬ 
+            <lb ed="#V" n="62"/>telligere multa simul, &amp; si non secundum se, &amp; 
+            <!--576.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>separatim: tamen, ut unum ordinatur aliud, 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2145">
+            <lb ed="#V" n="64"/>Ad quartum dicendum, quod intentio non opor¬ 
+            <lb ed="#V" n="65"/>tet, quod dicat rem iam adeptam: quia homo inten¬ 
+            <lb ed="#V" n="66"/>dit, quod nondum habet. Argumentum ergo est 
+            <lb ed="#V" n="67"/>pro nobis: quia cera est in potentia ad multas 
+            <lb ed="#V" n="68"/>formas, &amp; potissime si una ordinetur ad aliam: 
+            <lb ed="#V" n="69"/>quia formatio, uel figuratio cerae potest ire de 
+            <lb ed="#V" n="70"/>imperfecto ad persectum: tamen unum istorum 
+            <lb ed="#V" n="71"/>ordinabitur ad aliud: quia imperfectum ordina¬ 
+            <lb ed="#V" n="72"/>bitur ad persectum. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m168409-Dd1e2168">
+          <head xml:id="Gi9qrR-m168409-Hd1e2170">Articulus 3</head>
+          <p xml:id="Gi9qrR-m168409-d1e2172">
+            <lb ed="#V" n="73"/>ARTIC. III. 
+            <lb ed="#V" n="74"/>An voluntas uno actu in finem¬ 
+            <lb ed="#V" n="75"/>in id, quod est ad finem, mo¬ 
+            <lb ed="#V" n="76"/>ueri possit. 
+            <lb ed="#V" n="77"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2185">
+            <lb ed="#V" n="78"/>D. Tho. 1, 2. q. 12. ar. 4. Et q. 8. ar. 3. Et 2. Sent. d. 38. art. 4Et 
+            <lb ed="#V" n="79"/>de Ver. q. 22. ar. 14. Ric. d. 38. q. 12. Tho. Arg. d. 30. q 
+            <lb ed="#V" n="80"/>ar7. Vht d. 38. d. 3. Vtes d. &amp;pt. d4. 4r. 4.&amp;. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2194">
+            <lb ed="#V" n="81"/>TERTIO quaeritur: Vtrum vo¬ 
+            <lb ed="#V" n="82"/>luntas possit uno actu moueri¬ 
+            <lb ed="#V" n="83"/>in finem, &amp; in id, quod est ad 
+            <lb ed="#V" n="84"/>ad finem. Et uidetur, quod non: 
+            <lb ed="#V" n="85"/>quia secundum <ref xml:id="Gi9qrR-m168409-Rd1e2207">Philosophum 
+              <lb ed="#V" n="86"/>in 2. de Anima</ref>: potentiae distin 
+            <lb ed="#V" n="87"/>guuntur per actus, &amp; actus per obiecta. Cum er¬ 
+            <lb ed="#V" n="88"/>go finis, &amp; id, quod est ad finem sint duo obie¬ 
+            <lb ed="#V" n="89"/>cta, non poterit eorum esse vnusactus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2219">
+            <lb ed="#V" n="90"/>Praeterea non est idem motus in terminum ulu¬ 
+            <lb ed="#V" n="91"/>mum, &amp; in medium: quia non est idem motus 
+            <lb ed="#V" n="92"/>in pallorem, &amp; nigredinem, cum pallor, &amp; nigre¬ 
+            <lb ed="#V" n="93"/>do sint duae formae diuersae: sic non erit idem 
+            <lb ed="#V" n="94"/>actus, respectu eius, quod est ad finem, quod se 
+            <lb ed="#V" n="95"/>habet quasi medium, &amp; respectu finis, qui se ha¬ 
+            <lb ed="#V" n="96"/>bet quasi terminus: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2238">
+            <lb ed="#V" n="97"/>Praeterea aliquis dat eleemosynam propter ina 
+            <lb ed="#V" n="98"/>nem gloriam: sed ibi est id, quod est ad finem. 
+            <lb ed="#V" n="99"/>vt dare eleemosynam est, quid bonum. Ipse au¬ 
+            <lb ed="#V" n="100"/>tem finis: quia fit propter inanem gloriam: est 
+            <lb ed="#V" n="101"/>quid malum: sed non potest esse idem actus bo¬ 
+            <lb ed="#V" n="102"/>nus, &amp; malus: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2254">
+            <lb ed="#V" n="103"/>Praeterea actus uoluntatis sequitur aqumintel 
+            <lb ed="#V" n="104"/>lectus. sed non est eadem cogitatio de fine, &amp; de¬ 
+            <lb ed="#V" n="105"/>eo, quod est ad finem: ergo nec idemactus uo¬ 
+            <lb ed="#V" n="106"/>luntatis. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2265">
+            <lb ed="#V" n="107"/>IN CONTRRIVM est: quia, ut supra dixi¬ 
+            <lb ed="#V" n="108"/>mus, ubi unum propter alterum, utrobique¬ 
+            <lb ed="#V" n="109"/>vnum tantum, sed id, quod est ad finem, est pro¬ 
+            <lb ed="#V" n="110"/>pter ipsum sinem, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2276">
+            <lb ed="#V" n="111"/>Praeterea potentia non potest esse simul sib¬ 
+            <lb ed="#V" n="112"/>duobus actibus, uel sub duobus motibus: seo¬ 
+            <lb ed="#V" n="113"/>ut patebit, simul possumus uelle finem, &amp; id, 
+            <lb ed="#V" n="114"/>quod est ad finem: ergo haec duo non sunt quo¬ 
+            <lb ed="#V" n="115"/>actus, uel quo motus: quia hoc esset impoffibt¬ 
+            <lb ed="#V" n="116"/>le: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2292">
+            <!--577.xml-->
+            <pb ed="#V" n="577"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>RESOLVTIO. 
+            <lb ed="#V" n="2"/>Voluntas vno actu ad finem, &amp; ad ea, quae sunt 
+            <lb ed="#V" n="3"/>ad finem, moneri potest: modo vnus al¬ 
+            <lb ed="#V" n="4"/>terius sit ratio. Hoc enim pacto¬ 
+            <lb ed="#V" n="5"/>vnus morus est, &amp; actus 
+            <lb ed="#V" n="6"/>in vtrunque. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2314">
+            <lb ed="#V" n="7"/>RESPONDEO dicendum, quod finis, &amp; 
+            <lb ed="#V" n="8"/>id, quod est ad finem, possunt considerari duplici¬ 
+            <lb ed="#V" n="9"/>ter: vel vt quodlibet est quoddam obiectum, &amp; 
+            <lb ed="#V" n="10"/>quoddam bonum per se, &amp; tunc non est vnus actus, 
+            <lb ed="#V" n="11"/>vel vnus motus in vtrunque: vel potest considera 
+            <lb ed="#V" n="12"/>ri, prout vnum est ratio alterius, &amp; sic est vnus mo¬ 
+            <lb ed="#V" n="13"/>tus, &amp; vnus actus in vtrunque, quod declarari po¬ 
+            <lb ed="#V" n="14"/>test, tam in sensibilibus, quam in speculabilibus. 
+            <lb ed="#V" n="15"/>Nam si quaeratur, vtrum eodem actu feratur vi¬ 
+            <lb ed="#V" n="16"/>sus in colorem, &amp; in lucem, plana erit responsio. 
+            <lb ed="#V" n="17"/>Nam si consideretur color secundum se, &amp; lux se 
+            <lb ed="#V" n="18"/>cundum se, prout quodlibet est obiectum visus; 
+            <lb ed="#V" n="19"/>sic non est idem actus visus in colorem, &amp; in lu¬ 
+            <lb ed="#V" n="20"/>cem, id est, in corpus coloratum, &amp; in corpus lu¬ 
+            <lb ed="#V" n="21"/>cidum. Sed dices, quod simul potest quis videre So¬ 
+            <lb ed="#V" n="22"/>lem, &amp; corpus coloratum; &amp; tamen quodlibet isto 
+            <lb ed="#V" n="23"/>rum est quoddam obiectum: visus ergo in lucem, 
+            <lb ed="#V" n="24"/>&amp; in colorem, qui sunt obiecta visus, potest si¬ 
+            <lb ed="#V" n="25"/>mul ferri. Ad quod dici potest, quod oculus es&amp; 
+            <lb ed="#V" n="26"/>quid extensum, &amp; habet partem, &amp; partem: &amp; in 
+            <lb ed="#V" n="27"/>vna parte potest recipi species Solis, &amp; in alia spe¬ 
+            <lb ed="#V" n="28"/>cies corporis colorati. vel secundum hunc modum 
+            <lb ed="#V" n="29"/>potest oculus ferri in duo corpora colorata di¬ 
+            <lb ed="#V" n="30"/>uersa, &amp; distantia ab inuicem; tamen secundum 
+            <lb ed="#V" n="31"/>vnam, &amp; eandem partem oculi diametraliter non 
+            <lb ed="#V" n="32"/>possunt recipi duae species diuersorum colorum, 
+            <lb ed="#V" n="33"/>vel diuersorum corporum coloratorum. Et quia 
+            <lb ed="#V" n="34"/>secundum diametralem receptionem fit visio; 
+            <lb ed="#V" n="35"/>ideo non potest ferri visio in duo, vt sunt duo o¬ 
+            <lb ed="#V" n="36"/>biecto: sed in duo, prout vnum est ratio alterius, 
+            <lb ed="#V" n="37"/>necesse est esse vnum actum, &amp; vnum motum, vt 
+            <lb ed="#V" n="38"/>in lucem, prout est respersa super coloribus, vel¬ 
+            <lb ed="#V" n="39"/>super corporibus coloratis; oportet, quod sit vnus 
+            <lb ed="#V" n="40"/>actus, &amp; vna visio: quia color non videtur, nisi¬ 
+            <lb ed="#V" n="41"/>prout habet immutare visum. sed, vt dicitur in 2 
+            <lb ed="#V" n="42"/>de anima, color non est motiuum visus, nisi secun¬ 
+            <lb ed="#V" n="43"/>dum actum lucidi, id est, secundum quod est actu¬ 
+            <lb ed="#V" n="44"/>illumina tus: non solum ergo est idem actus vi¬ 
+            <lb ed="#V" n="45"/>sus, qui fertur in colorem, &amp; in lucem, immo non 
+            <lb ed="#V" n="46"/>potest talis actus ferri in colorem, nisi feratur in 
+            <lb ed="#V" n="47"/>lucem, vel nisi feratur in colorem, vt est illumi¬ 
+            <lb ed="#V" n="48"/>natus. Sic &amp; in proposito aliquis vult ambulare 
+            <lb ed="#V" n="49"/>post cenam propter digestionem, ne cibus resi¬ 
+            <lb ed="#V" n="50"/>deat in orificio stomachi. Si ergo consideretur 
+            <lb ed="#V" n="51"/>ambulatio, vt est quid per se, &amp; digestio, vt est 
+            <lb ed="#V" n="52"/>quid per se; sic non est idem actus voluntatis, 
+            <lb ed="#V" n="53"/>quo volumus ambulationem, &amp; digestionem. 
+            <lb ed="#V" n="54"/>sed si consideremus digestionem, vt est ratio vo¬ 
+            <lb ed="#V" n="55"/>lendi ambulationem, &amp; prout hoc modo solum 
+            <lb ed="#V" n="56"/>est volita ambulatio propter digestionem; sic non 
+            <lb ed="#V" n="57"/>solum est vnus actus, sed non potest esse hoc mo¬ 
+            <lb ed="#V" n="58"/>do alius actus in hoc, &amp; in illud. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2430">
+            <lb ed="#V" n="59"/>Secundo modo potest hoc idem declarari in 
+            <lb ed="#V" n="60"/>speculatiuis. Philosophus erim in principio Po¬ 
+            <lb ed="#V" n="61"/>steriorum determinans de praecognitionibus, quo¬ 
+            <!--577.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="62"/>modo aliquid praecognoscitur, vel prius cognosci¬ 
+            <lb ed="#V" n="63"/>tur alio, vel simul cognoscitur cum alio. Ait, quod 
+            <lb ed="#V" n="64"/>haec propositio: Omnis triangulus habet tres, po¬ 
+            <lb ed="#V" n="65"/>test per se praecognosci, vel prius cognosci, quam 
+            <lb ed="#V" n="66"/>cognoscatur, quod, triangulus, qui est in semicir¬ 
+            <lb ed="#V" n="67"/>culo, habet tres: sed si vnum inducatur in aliud, 
+            <lb ed="#V" n="68"/>&amp; dicatur, quod triangulus, qui est in semicircu¬ 
+            <lb ed="#V" n="69"/>culo est triangulus, simul inducens cognouit. Er¬ 
+            <lb ed="#V" n="70"/>go haec maior, quod omnis triangulus habet tres. 
+            <lb ed="#V" n="71"/>vt est quaedam propositio in se, potest praecogno¬ 
+            <lb ed="#V" n="72"/>sci, &amp; tempore prius sciri, quam sciatur haec, 
+            <lb ed="#V" n="73"/>quod triagulus, qui est in semicirculo, habet tres. 
+            <lb ed="#V" n="74"/>sed, vt haec inducitur in hanc maiorem, quod om¬ 
+            <lb ed="#V" n="75"/>nis triangulus, &amp;c. vt haec maior est ratio cogno¬ 
+            <lb ed="#V" n="76"/>scendi, simul illam inducens cognouit: quia se¬ 
+            <lb ed="#V" n="77"/>cundum, quod huiusmodi non est alius actus, qui¬ 
+            <lb ed="#V" n="78"/>fertur in obiectum, &amp; in rationem obiecti: ferri¬ 
+            <lb ed="#V" n="79"/>ergo in finem, vt est ratio eius, quod est ad finem 
+            <lb ed="#V" n="80"/>eodem actu itur in hoc, &amp; in illud, secundum quod 
+            <lb ed="#V" n="81"/>huiusmodi. Est enim hic ordo, quod via resolu¬ 
+            <lb ed="#V" n="82"/>tiua itur a fine ad id, quod est ad finem, vt est a sa¬ 
+            <lb ed="#V" n="83"/>nitate in potionem. Sed via compositiua, vel via 
+            <lb ed="#V" n="84"/>generatiua, vel via executiua est e conuerso: quia 
+            <lb ed="#V" n="85"/>hoc modo itur ab eo, quod est a fine in ipsum fi¬ 
+            <lb ed="#V" n="86"/>nem, vt a potione in sanitatem. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2498">
+            <lb ed="#V" n="87"/>Sed dices, quod siue eatur a sanitate in potio¬ 
+            <lb ed="#V" n="88"/>nem, siue e conuerso, semper est processus reso¬ 
+            <lb ed="#V" n="89"/>lutiuus, &amp; non compositiuus, licet hoc sit secun¬ 
+            <lb ed="#V" n="90"/>dum aliud, &amp; aliud genus causae. Nam cum pro¬ 
+            <lb ed="#V" n="91"/>ceditur ex causa ad effectum, dicitur processus 
+            <lb ed="#V" n="92"/>resolutiuus: quia incipit iste processus a causa, 
+            <lb ed="#V" n="93"/>in quam resoluitur effectus: quia semper effectus 
+            <lb ed="#V" n="94"/>resoluitur in suas causas. sed si e conuerso fiat, &amp; 
+            <lb ed="#V" n="95"/>procedatur ab effectu ad eam, dicitur composi¬ 
+            <lb ed="#V" n="96"/>tiuus: quia talis processus incipit ab effectu, qui¬ 
+            <lb ed="#V" n="97"/>componitur ex suis causis: sed, siue fiat proces¬ 
+            <lb ed="#V" n="98"/>sus a sanitate in potionem, siue e conuerso, sem¬ 
+            <lb ed="#V" n="99"/>per erit processus resolutiuus, &amp; semper proce¬ 
+            <lb ed="#V" n="100"/>detur a causa ad effectum, licet non secundum 
+            <lb ed="#V" n="101"/>idem genus causae. Nam sanitas est causa potio¬ 
+            <lb ed="#V" n="102"/>nis, &amp; e conuerso. Sed sanitas est causa potionis 
+            <lb ed="#V" n="103"/>in genere causae finalis: &amp; potio est causa sani¬ 
+            <lb ed="#V" n="104"/>tatis in genere causae efficientis. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2540">
+            <lb ed="#V" n="105"/>Ad quod dici potest, quod sinis est causa causa. 
+            <lb ed="#V" n="106"/>rum: finis enim mouet agentem, &amp; facit efficien¬ 
+            <lb ed="#V" n="107"/>tem. Mouet enim finis agentem, vt agat, qui agen¬ 
+            <lb ed="#V" n="108"/>do fit efficiens rei. Et si sint aliqua duo, quorum 
+            <lb ed="#V" n="109"/>vnum se habet, vt efficiens: aliud, vt finis: illud, 
+            <lb ed="#V" n="110"/>quod se habet, vt finis, erit demonstrationis prin¬ 
+            <lb ed="#V" n="111"/>cipium, &amp; dicet: propter quid rei: illud, quod se 
+            <lb ed="#V" n="112"/>habet, vt efficiens, erit demonstrationis conclu¬ 
+            <lb ed="#V" n="113"/>sio, &amp; dicet quid rei. Ideo Philosophus in Poste¬ 
+            <lb ed="#V" n="114"/>rioribus loquens de diffinitionibus, quomodo se 
+            <lb ed="#V" n="115"/>habet ad demonstrationem, vult, quod aliqua 
+            <lb ed="#V" n="116"/>diffinitio sit demonstrationis principium, aliqua¬ 
+            <lb ed="#V" n="117"/>demonstrationis conclusio, aliqua est tota de¬ 
+            <lb ed="#V" n="118"/>monstratio positione differens. Dicemus enim, 
+            <lb ed="#V" n="119"/>quod iratus primo appetit dolorem in contrario id est 
+            <lb ed="#V" n="120"/>in inimico, &amp; in eo, qui fecit sibi iniuriam, &amp; ex hoc 
+            <lb ed="#V" n="121"/>accenditur sibi sanguis circa cor. Illa autem ac¬ 
+            <lb ed="#V" n="122"/>censio sanguinis est causa efficiens iram: sed do¬ 
+            <lb ed="#V" n="123"/>lor in contrario est finis irae, vel finis irati. Si ergo¬ 
+            <lb ed="#V" n="124"/>diffinitur ira, quod est appetitus doloris in contra¬ 
+            <!--578.xml-->
+            <pb ed="#V" n="578"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>rio, ista diffinitio erit demonstrationis principium, A 
+            <lb ed="#V" n="2"/>&amp; dicet: propter quid irae. quia data est per cau¬ 
+            <lb ed="#V" n="3"/>sam finalem. Sed si diffinitur ira, quod est accensus 
+            <lb ed="#V" n="4"/>sanguinis circa cor, hoc erit demonstrationis con¬ 
+            <lb ed="#V" n="5"/>clusio: quia data est per causam efficientem. Et 
+            <lb ed="#V" n="6"/>quia efficiens conparatur ad finem tanquam ad suam 
+            <lb ed="#V" n="7"/>causam, cum finis, vt dictum est, moueat agentem, &amp; 
+            <lb ed="#V" n="8"/>faciat efficientem: si ergo efficiens habet aliquam cau¬ 
+            <lb ed="#V" n="9"/>salitatem respectu finis; ipse tamen finis habet po¬ 
+            <lb ed="#V" n="10"/>tiorem causalitatem respectu efficientis. Procedere 
+            <lb ed="#V" n="11"/>ergo a sanitate ad potionem, non obstante, quod potio 
+            <lb ed="#V" n="12"/>sit causa efficiens sanitatis, est processus resoluti¬ 
+            <lb ed="#V" n="13"/>uus a causa in effectu propter principalitatem, quam 
+            <lb ed="#V" n="14"/>habet finis respectu aliarum causarum. Sed dices, o 
+            <lb ed="#V" n="15"/>non eodem modo accipitur finis, vel sanitas, vt est 
+            <lb ed="#V" n="16"/>potionis causa, &amp; vt est potionis effectus. Nam sani 
+            <lb ed="#V" n="17"/>tas in intentione est potionis causa, &amp; est prior po¬ 
+            <lb ed="#V" n="18"/>tione: sed sanitas in effectu, vel in executione est 
+            <lb ed="#V" n="19"/>potionis effectus, &amp; est posterior potione. Sed, vt 
+            <lb ed="#V" n="20"/>patet, eadem res, &amp; eadem sanitas est prius intenta, &amp; 
+            <lb ed="#V" n="21"/>est causa electionis potionis: &amp;, vt est intenta, ordi¬ 
+            <lb ed="#V" n="22"/>natur ad seipsam, vt est adepta, vel vt quis est eam 
+            <lb ed="#V" n="23"/>consecutus: sed magis habet rationem finis, vt est 
+            <lb ed="#V" n="24"/>ab aliquo adepta, qu vt est ab eo intenta: quia bo¬ 
+            <lb ed="#V" n="25"/>num, quod se habet, vt finis: &amp; malum, quod se ha¬ 
+            <lb ed="#V" n="26"/>bet, vt contrarium finis, sunt in rebus, non in anima¬ 
+            <lb ed="#V" n="27"/>Sanitas ergo, vt est intenta, &amp; vt est in anima non sic 
+            <lb ed="#V" n="28"/>habet rationem finis, sicut vt est in re, &amp; vt est in se¬ 
+            <lb ed="#V" n="29"/>ipsa. Omnia autem haec verba diximus, vt intelligam¬ 
+            <lb ed="#V" n="30"/>tur verba Philos. quod procedere a causa finali ad a¬ 
+            <lb ed="#V" n="31"/>lia, vocat viam resolutiuam: sed procedere ab alijs, 
+            <lb ed="#V" n="32"/>vel ab his, quae sunt ad finem ad ipsum finem, vocat 
+            <lb ed="#V" n="33"/>viam compositiuam, innuens finem habere princi¬ 
+            <lb ed="#V" n="34"/>palitatem quandam respectu aliarum causarum¬ 
+            <lb ed="#V" n="35"/>Sic &amp; procedere ab his, quae sunt ad finem ad ip¬ 
+            <lb ed="#V" n="36"/>sum finem, vocat viam generatiuam: quia ea, quae 
+            <lb ed="#V" n="37"/>sunt ad finem, se habent, vt generans, &amp; vt efficiens 
+            <lb ed="#V" n="38"/>respectu finis. Nam sicut se habet potio respectu¬ 
+            <lb ed="#V" n="39"/>sanitatis; sic etiam talis via potest vocari executi¬ 
+            <lb ed="#V" n="40"/>ua, vel consecutiua: quia per ea, quae sunt ad finem, 
+            <lb ed="#V" n="41"/>consequimur ipsum finem, &amp; exequimur opera 
+            <lb ed="#V" n="42"/>nostra, vt perueniamus ad finem. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2683">
+            <lb ed="#V" n="43"/>RESP. AD ARG. Ad primum dicendum, quod finis, 
+            <lb ed="#V" n="44"/>vt est quoddam obiectum, &amp; id, quod est ad finem, &amp; 
+            <lb ed="#V" n="45"/>vt est quodda obiectum, possunt non respondere 
+            <lb ed="#V" n="46"/>eid etm actui, vel potest eorum esse non vnus actus. 
+            <lb ed="#V" n="47"/>sed vt vnum est ratio alterius, prout finis est ratio 
+            <lb ed="#V" n="48"/>cius, quod est ad finem, secundum quod huius¬ 
+            <lb ed="#V" n="49"/>modi, est semper corum vnus actus, &amp; vnus vo¬ 
+            <lb ed="#V" n="50"/>luntatis motus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2703">
+            <lb ed="#V" n="51"/>Ad secundum dicendum, quod si medium, &amp; termi¬ 
+            <lb ed="#V" n="52"/>nus vltimus consideretur vnumquodque in se; sic pos¬ 
+            <lb ed="#V" n="53"/>sunt ibi esse diuersi motus, sed prout vnum est rotn 
+            <lb ed="#V" n="54"/>alterius, potest ibi esse vnus motus, vt si ire pere¬ 
+            <lb ed="#V" n="55"/>gre est ratio, quare eatur per Sanctum Marcum, po¬ 
+            <lb ed="#V" n="56"/>test quis eodem motu ire per hoc in illud. Et si cali¬ 
+            <lb ed="#V" n="57"/>dum est ratio, quare eatur in tepidum, potest codem¬ 
+            <lb ed="#V" n="58"/>motu aliquis ire in tepidum, &amp; calidum: quia tunc 
+            <lb ed="#V" n="59"/>non accipietur tepidum, &amp; calidum, vt aliud, &amp; a¬ 
+            <lb ed="#V" n="60"/>liud: sed vt vnum propter aliud, &amp; ex hoc vtrobiqui 
+            <lb ed="#V" n="61"/>vnum tantum. sed si non continuetur motus, sed quie¬ 
+            <lb ed="#V" n="62"/>scatur in tepido, &amp; post quietem in tepido fiat mo¬ 
+            <lb ed="#V" n="63"/>tus ad calidum, erunt tales plures motus: quia quod¬ 
+            <!--578.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>libet eorum videtur esse secundum se intentum. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2740">
+            <lb ed="#V" n="65"/>Ad tertium dicendum, quod datio eleemosynae pro¬ 
+            <lb ed="#V" n="66"/>pter inanem gloriam non est duo actus, sed vnus a¬ 
+            <lb ed="#V" n="67"/>ctus, &amp; non est actus bonus, &amp; malus: sed est ma¬ 
+            <lb ed="#V" n="68"/>lus, quia bonum constat ex tota sua causa: malum 
+            <lb ed="#V" n="69"/>autem ex partibus deficientibus. Ad hoc ergo, 
+            <lb ed="#V" n="70"/>quod actus sit bonus; oportet, quod sit bonus ex 
+            <lb ed="#V" n="71"/>genere, &amp; bonus ex fine: sed ad hoc, quod sit ma¬ 
+            <lb ed="#V" n="72"/>lus, sufficit alterum istorum. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2761">
+            <lb ed="#V" n="73"/>Ad quartum dicendum, quod potest esse eadem co¬ 
+            <lb ed="#V" n="74"/>gitatio de fine, &amp; de eo, quod est ad finem, &amp; po¬ 
+            <lb ed="#V" n="75"/>test esse alia, &amp; alia. Nam si cogitetur de vtroque, 
+            <lb ed="#V" n="76"/>vt quodlibet est quoddam obiectum in se, erit alia 
+            <lb ed="#V" n="77"/>&amp; alia cogitatio. sed si hoc fiat, prout vnum est 
+            <lb ed="#V" n="78"/>ratio alterius, poterit esse eadem. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2777">
+            <lb ed="#V" n="79"/>Dubitatio I. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2782">
+            <lb ed="#V" n="80"/>SVPER litteram primo quaeritur de¬ 
+            <lb ed="#V" n="81"/>illo verbo: Rectae sunt voluntates, si 
+            <lb ed="#V" n="82"/>bona est illa, ad quam cuncta referun¬ 
+            <lb ed="#V" n="83"/>tur. Sed contra: Potest quis furati, vt 
+            <lb ed="#V" n="84"/>det eleemosynam: cum ergo ista voluntas, quae 
+            <lb ed="#V" n="85"/>est dare eleemosynam, sit bona: ergo ista volun¬ 
+            <lb ed="#V" n="86"/>tas, quae est furari propter hoc erit bona; Dicen¬ 
+            <lb ed="#V" n="87"/>dum hoc esse intelligendum de his, quae de se sunt 
+            <lb ed="#V" n="88"/>apta nata referri ad bonam voluntatem, &amp; quae de 
+            <lb ed="#V" n="89"/>se sunt ordinabilia ad bonam intentionem: sed fu¬ 
+            <lb ed="#V" n="90"/>rari, &amp; quaecunque sunt de genere malorum non 
+            <lb ed="#V" n="91"/>sunt ordinabilia ad bonam intentionem, vel ad 
+            <lb ed="#V" n="92"/>bonam voluntatem. Possunt enim forte ex ope¬ 
+            <lb ed="#V" n="93"/>re operantis sic ordinari: sed ex opere operato, &amp; 
+            <lb ed="#V" n="94"/>de se non sunt sic ordinabilia. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2817">
+            <lb ed="#V" n="95"/>Dubitatio II. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2822">
+            <lb ed="#V" n="96"/>VLTERIVS forte dubitaret aliquis de eo, 
+            <lb ed="#V" n="97"/>quod in littera dicitur, quod non debemus Luan¬ 
+            <lb ed="#V" n="98"/>gelizare, vt manducemus. Contra est, quod hiabe¬ 
+            <lb ed="#V" n="99"/>tur in <ref xml:id="Gi9qrR-m168409-Rd1e2832">Glo. 1. ad Corinth.</ref> quod, qui arat id est Praecr 
+            <lb ed="#V" n="100"/>cator, qui corda aperit ad fidem, debet arare in 
+            <lb ed="#V" n="101"/>spe stipendiorum temporalium: ergo euangeliza 
+            <lb ed="#V" n="102"/>mus, vt manducemus. sic etiam Dominus in Euan¬ 
+            <lb ed="#V" n="103"/>gelio ait: Edentes, &amp; bibentes, quae apud illos sunt. 
+            <lb ed="#V" n="104"/>Dignus est enim operarius mercede sua. Possu¬ 
+            <lb ed="#V" n="105"/>mus ergo euangelixare, vt ex hoc consequamur 
+            <lb ed="#V" n="106"/>corporalem refectionem; Dicendum, quod non de¬ 
+            <lb ed="#V" n="107"/>bemus cuangelixare, ideo vt manducemus, hoc 
+            <lb ed="#V" n="108"/>intendendo principaliter: sed tamen inquantum 
+            <lb ed="#V" n="109"/>aliquid additum, &amp; tamnquam aliquid adiectum pos¬ 
+            <lb ed="#V" n="110"/>sumus hoc intendere, &amp; ex consequenti, iuxta il¬ 
+            <lb ed="#V" n="111"/>lud: Primum quaerite regnum Dei, &amp;c. Vel per euan¬ 
+            <lb ed="#V" n="112"/>gelixare possumus intendere comestionem, non 
+            <lb ed="#V" n="113"/>propter se, sed propter ipsum euangelix are: quia 
+            <lb ed="#V" n="114"/>non possemus continuare praedicationem Euan¬ 
+            <lb ed="#V" n="115"/>gelii, nisi sustentaretur corpus, &amp; nisi manduca¬ 
+            <lb ed="#V" n="116"/>remus. Et quia per comestionem sustentatur vi¬ 
+            <lb ed="#V" n="117"/>ta corporalis, quae quasi nihil est respectu vitae ae¬ 
+            <lb ed="#V" n="118"/>ternae, ad quam ordinatur praedicatio Luange¬ 
+            <lb ed="#V" n="119"/>lii: idco despectiue, &amp; quasi increpatiue loquitur 
+            <lb ed="#V" n="120"/>Apostolus Corinth. primo: Si vobis spiritualia se¬ 
+            <lb ed="#V" n="121"/>minamus: non magnum est, si vestra camalia 
+            <lb ed="#V" n="122"/>metamus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2885">
+            <!--579.xml-->
+            <pb ed="#V" n="579"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dubitatio, 1II. Litterali. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2897">
+            <lb ed="#V" n="2"/>VITTRIVS forte dubitaret aliquis de eo, 
+            <lb ed="#V" n="3"/>quod in littera dicitur: Finis vero voluntatis est illud, 
+            <lb ed="#V" n="4"/>quod volumus. Contra: Finis semper habet ratio¬ 
+            <lb ed="#V" n="5"/>nem causae, &amp; semper est illud, propter quod volu¬ 
+            <lb ed="#V" n="6"/>mus: ergo non est illud, quod volumus; Dicendum, 
+            <lb ed="#V" n="7"/>quod duplex est finis: obiectum, siue illud, quod volu¬ 
+            <lb ed="#V" n="8"/>mus: &amp; illud, propter est obiectum: siue illud, pro¬ 
+            <lb ed="#V" n="9"/>pter quod obiectum volumus: Aliter tamen, &amp; ali¬ 
+            <lb ed="#V" n="10"/>ter. Nam ipsum obiectum est finis ipsius actus, siue 
+            <lb ed="#V" n="11"/>ipsius velle. Nam iste actus, qui est velle, est per ip¬ 
+            <lb ed="#V" n="12"/>sum volitum, vel propter ipsum obiectum: sed ipsum 
+            <lb ed="#V" n="13"/>obiectum potest esse volitum propter aliquid aliud 
+            <lb ed="#V" n="14"/>Vt si quis vult dare eleemosynam per amorem Dei, 
+            <lb ed="#V" n="15"/>hoc volitum, quod est eleemosma, est finis ipsius 
+            <lb ed="#V" n="16"/>actus, siue ipsius velle. Nam voluntas ordinat suum 
+            <lb ed="#V" n="17"/>actum, &amp; suum velle ad hoc obiectum, vel ad hot 
+            <lb ed="#V" n="18"/>volitum, quod est eleemosyna. sed hoc obiectum, 
+            <lb ed="#V" n="19"/>quod est eleemosyna, voluntas ordinat ad alium 
+            <lb ed="#V" n="20"/>finem, vt ad amorem Dei. Ideo Magister ait in 
+            <lb ed="#V" n="21"/>littera, quod finis est, quod volumus, &amp; propter 
+            <lb ed="#V" n="22"/>quod volumus: sed hoc est aliter, &amp; aliter. Nam, 
+            <lb ed="#V" n="23"/>quod volumus, est finis ipsius actus: sed propter 
+            <lb ed="#V" n="24"/>quod volumus, est Vlterior finis: quia est finis ip¬ 
+            <lb ed="#V" n="25"/>sius voliti, vel ipsius obiecti. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2952">
+            <lb ed="#V" n="26"/>Dubitatio TIIL Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e2957">
+            <lb ed="#V" n="27"/>VLTERIVS forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="28"/>in littera dicitur, quod intentio interdum pro volun¬ 
+            <lb ed="#V" n="29"/>tate, interdum pro fine voluntatis accipitur. Con 
+            <lb ed="#V" n="30"/>tra: Intentio dicit actum voluntatis: sed finis non 
+            <lb ed="#V" n="31"/>dicit actum voluntatis: ergo &amp;c. Dicendum, quod vo¬ 
+            <lb ed="#V" n="32"/>luntas potest sumi dupliciter, vel pro ipsa poten¬ 
+            <lb ed="#V" n="33"/>tia, quae est voluntas, velipro actu voluntatis. Vn¬ 
+            <lb ed="#V" n="34"/>de consueuit quis dicere: Haec est voluntas meaid is 
+            <lb ed="#V" n="35"/>hoc volo. Ibi ergo voluntas non stat pro potentia, 
+            <lb ed="#V" n="36"/>sed pro actu voluntatis. Rursus: Ipse actus volun¬ 
+            <lb ed="#V" n="37"/>tatis potest sumi formaliter, &amp; tunc dicit ipsum 
+            <lb ed="#V" n="38"/>velle, vel ipsum intendere, vt est actus voluntatis, 
+            <lb ed="#V" n="39"/>&amp; potest sumi materialiter, &amp; tunc dicit ipsam 
+            <lb ed="#V" n="40"/>rem volitam, vel ipsam rem intentam. Ex his pa¬ 
+            <lb ed="#V" n="41"/>tet, quomodo sunt intelligenda verba Magistri, vi¬ 
+            <lb ed="#V" n="42"/>delicet, quod intentio interdum accipitur pro volunta¬ 
+            <lb ed="#V" n="43"/>te d est pro actu voluntatis, &amp; tunc accipitur inten¬ 
+            <lb ed="#V" n="44"/>tio formaliter. Interdum accipitur pro ipso fine. &amp; 
+            <lb ed="#V" n="45"/>pro ipsa re volita, siue pro ipsa re intenta, &amp; tunc 
+            <lb ed="#V" n="46"/>accipitur intentio materialiter. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e3003">
+            <lb ed="#V" n="47"/>Dubitatio V. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e3008">
+            <lb ed="#V" n="48"/>VITERIVS forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="49"/>in littera dicitur, quod intentio ad aliud respicit, pro¬ 
+            <lb ed="#V" n="50"/>pter quod volumus. Contra: Intentio est de fine: 
+            <lb ed="#V" n="51"/>sed sinis, vt dictum est, potest dici, quod volumus, 
+            <lb ed="#V" n="52"/>&amp; propter quod volumus: ergo &amp; intentio. Di¬ 
+            <lb ed="#V" n="53"/>cendum, quod in:entio est de fine, non de fine proxi¬ 
+            <lb ed="#V" n="54"/>mo, &amp; immediato, secundum quem modum id, 
+            <lb ed="#V" n="55"/>quod immediate volumus, est finis ipsius actus. 
+            <lb ed="#V" n="56"/>sed accipitur intentio pro fine ipsius obiecti, secum 
+            <lb ed="#V" n="57"/>dum quem modum intentio est de eo, quod volu¬ 
+            <lb ed="#V" n="58"/>mus immediate, &amp; de eo, propter quod volumus. 
+            <!--579.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>Ex quo patet, quod intentio potestesse de fine vlti¬ 
+            <lb ed="#V" n="60"/>mo, &amp; de finibus intermedijs: non autem de eo, 
+            <lb ed="#V" n="61"/>quod immediate volumus, quod non est finis ali¬ 
+            <lb ed="#V" n="62"/>cuius obiecti, sed solum ipsius actus. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e3047">
+            <lb ed="#V" n="63"/>Dubitatio VI. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m168409-d1e3053">
+            <lb ed="#V" n="64"/>VLTERIVS forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="65"/>in littera dicitur, quod alia videtur esse voluntas, qua¬ 
+            <lb ed="#V" n="66"/>volo vitam eternam, &amp; alia, qua volo pauperi sub¬ 
+            <lb ed="#V" n="67"/>uenire. Contrar: Eadem est voluntas, &amp; idem est 
+            <lb ed="#V" n="68"/>actus voluntatis, quo quis fertur in sinem, &amp; in 
+            <lb ed="#V" n="69"/>id, quod est ad finem; Dicendum, quod ex quaestio¬ 
+            <lb ed="#V" n="70"/>ne quaesita patet, quomodo eodem actu volunta¬ 
+            <lb ed="#V" n="71"/>tis possumus ferri, in finem, &amp; in id, quod est ad 
+            <lb ed="#V" n="72"/>finem, &amp; quomodo non 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

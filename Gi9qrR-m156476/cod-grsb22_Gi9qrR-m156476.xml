@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="530"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m156476"><!-- l2d36prae -->
+        <head xml:id="Gi9qrR-m156476-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m156476-d1e103">
+          <!--530.xml-->
+          <pb ed="#V" n="530"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>DIST. XXXVI. 
+          <lb ed="#V" n="2"/>De Peccato, vt ad poenam 
+          <lb ed="#V" n="3"/>ad alia comparatur. 
+        </p>
+        <p xml:id="Gi9qrR-m156476-d1e119">
+          <lb ed="#V" n="4"/>DICENDVM EST 
+          <lb ed="#V" n="5"/>TAMEN.] Quia 
+          <lb ed="#V" n="6"/>Magister in Di¬ 
+          <lb ed="#V" n="7"/>stin. praecedenti 
+          <lb ed="#V" n="8"/>tractans de qui¬ 
+          <lb ed="#V" n="9"/>ditate peccati, 
+          <lb ed="#V" n="10"/>&amp; dans multas 
+          <lb ed="#V" n="11"/>descriptiones de 
+          <lb ed="#V" n="12"/>peccato, compa¬ 
+          <lb ed="#V" n="13"/>rauit peccatum ad 
+          <lb ed="#V" n="14"/>duo: Primo ad 
+          <lb ed="#V" n="15"/>actum. Secundo 
+          <lb ed="#V" n="16"/>ad poenam. Ideo in hac Dist. 36. &amp; in seq. 37. vt pa¬ 
+          <lb ed="#V" n="17"/>tet per habita, specialiter exequitur de compara¬ 
+          <lb ed="#V" n="18"/>tione. Prima, prout peccatum comparatur ad actum, 
+          <lb ed="#V" n="19"/>&amp; hoc in Dist. seq. ibi: [Sunt autem &amp; alij. IPrima 
+          <lb ed="#V" n="20"/>pars, quae est praesentis Dist. &amp; Lectionis diuiditur 
+          <lb ed="#V" n="21"/>in duas partes: quia primo ostendit per multa di¬ 
+          <lb ed="#V" n="22"/>cta Sanctorum, quod vnum, &amp; idem potest esse peccatum, 
+          <lb ed="#V" n="23"/>&amp; poena peccati. Secundo inquirit, quomodo hoc 
+          <lb ed="#V" n="24"/>esse possit, ibi: [Et ideo meriso. Circa quod tria 
+          <lb ed="#V" n="25"/>facit: quia Primo ostendit, quod idem potest esse pecca¬ 
+          <lb ed="#V" n="26"/>tum, &amp; poena, ratione annexi. Secundo ostendit, quod po¬ 
+          <lb ed="#V" n="27"/>test esse hoc idem ratione peccati ipsius. Tertio re¬ 
+          <lb ed="#V" n="28"/>mouet quandam dubitationem ortam ex dictis Aug. 
+          <lb ed="#V" n="29"/>&amp; Hiero. Secunda ibi: [In nullo tamen praeiudiciim. 
+          <lb ed="#V" n="30"/>Tertia ibi: [Illud autem diligenter. IPropter pri¬ 
+          <lb ed="#V" n="31"/>mum sciendum, quod annexum peccati, quod se potest ha¬ 
+          <lb ed="#V" n="32"/>bere, vt poena, est duplex: boni corruptio, &amp; ad ma¬ 
+          <lb ed="#V" n="33"/>lum inclinatio. Ideo tria facit: quia primo ostendit, 
+          <lb ed="#V" n="34"/>quod peccatum potest esse poena peccati ratione anne¬ 
+          <lb ed="#V" n="35"/>x.d 1. ratione corruptionis boni. Secundo ostendit, 
+          <lb ed="#V" n="36"/>quod potest esse peccatum poena peccati ratione alte 
+          <lb ed="#V" n="37"/>rius annexi, inclinationis ad malum, vt dicantur pec¬ 
+          <lb ed="#V" n="38"/>cata esse poena: non quia tormenta, sed quia vitiorum 
+          <lb ed="#V" n="39"/>incrementa. Tertio excludit quandam obiectionem 
+          <lb ed="#V" n="40"/>circa praemissa. Secunda ibi: [Et licet. Tertia ibi: 
+          <lb ed="#V" n="41"/>ISed cum ait. ISequitur illa pars: Tin nullo tamen¬ 
+          <lb ed="#V" n="42"/>praeiuditium.in qua declarat, quod peccatum non so¬ 
+          <lb ed="#V" n="43"/>lum rantione annexi, sed etiam sub ratione, qua pec¬ 
+          <lb ed="#V" n="44"/>catum potest esse poena peccati, &amp; in hoc nullum fit 
+          <lb ed="#V" n="45"/>praeiudicisum veritati. Circa quod tria facit: quia pri¬ 
+          <lb ed="#V" n="46"/>mo facit, quod dictum est. Secundo declarat de pec¬ 
+          <lb ed="#V" n="47"/>caris, generaliter discurrendo per diuersa genera 
+          <lb ed="#V" n="48"/>peccatorum, quomodo peccatum, secundum quod huius¬ 
+          <lb ed="#V" n="49"/>modi, potest esse poena peccati. Tertio ostendit de qui¬ 
+          <lb ed="#V" n="50"/>busdam peccatis specialiter, quod habent rationem poaenae: 
+          <lb ed="#V" n="51"/>vt inuidia, &amp; ira. Secunda ibi: [ Quod autem quaedam. 
+          <lb ed="#V" n="52"/>Tertia ibi: [Praeterea nullatenus. [Tunc sequitur il¬ 
+          <lb ed="#V" n="53"/>la pars ibi: [Illud aunt diligenttr. Iin qua remouet 
+          <lb ed="#V" n="54"/>quandam dubitationem ortam ex dictis Aug. &amp; Hiero. 
+          <lb ed="#V" n="55"/>Circa quod tria facit: quia ostendit esse contrarieta 
+          <lb ed="#V" n="56"/>tem quandam inter dicta Aug. &amp; Hieron. Secundo 
+          <lb ed="#V" n="57"/>soluit contrarietatem illam. Tertio epilogat circa¬ 
+          <lb ed="#V" n="58"/>determinata. Secunda ibi: [Ad quod dici potest. 
+          <lb ed="#V" n="59"/>Tertia ibi: [Satis dil. venter. I&amp; in hoc terminetui 
+          <lb ed="#V" n="60"/>sententia praesentis Distinctionis, &amp; Lectionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

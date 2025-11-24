@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="530"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m156625"><!-- l2d36q1 -->
+        <head xml:id="Gi9qrR-m156625-Hd1e101">Quaestio 1</head>
+        <head xml:id="Gi9qrR-m156625-Hd1e103" type="question-title">
+          De peccato, vt comparatur ad poenam
+        </head>
+        <p xml:id="Gi9qrR-m156625-d1e106">
+          <!--530.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="61"/>QVAEST. I 
+          <lb ed="#V" n="62"/>De Peccato, vt comparatur ad 
+          <lb ed="#V" n="63"/>poenam. 
+        </p>
+        <p xml:id="Gi9qrR-m156625-d1e119">
+          <lb ed="#V" n="64"/>CIRCA istam Distin. quaerun¬ 
+          <lb ed="#V" n="65"/>tur duo principaliter: Primo 
+          <lb ed="#V" n="66"/>de peccato, vt conparatur ad 
+          <lb ed="#V" n="67"/>paenam. Secundo de peccato, vt 
+          <lb ed="#V" n="68"/>coparatur ad alia. Circa pri¬ 
+          <lb ed="#V" n="69"/>mum quaeruntur tria: Nam 
+          <lb ed="#V" n="70"/>Primo quaeritur de peccato, 
+          <lb ed="#V" n="71"/>siue de culpa, vt comparatur ad poenam: Vtrum ma¬ 
+          <lb ed="#V" n="72"/>lum sufficienter diuidatur per culpam, &amp; poenam¬ 
+          <lb ed="#V" n="73"/>Secundo quaeritur de culpa, siue de peccato, vt con¬ 
+          <lb ed="#V" n="74"/>paratur ad poenam: Vtrum peccatum possit esse pe¬ 
+          <lb ed="#V" n="75"/>na peccati. Tertio quaeritur circa hoc: Vtrum pas¬ 
+          <lb ed="#V" n="76"/>sio possit habere rationem peccati, vel culpae. 
+        </p>
+        <div xml:id="Gi9qrR-m156625-Dd1e150">
+          <head xml:id="Gi9qrR-m156625-Hd1e152">Articulus 1</head>
+          <p xml:id="Gi9qrR-m156625-d1e154">
+            <lb ed="#V" n="77"/>ARIIC. I. 
+            <lb ed="#V" n="78"/>An malum sufficienter in cubpam. 
+            <lb ed="#V" n="79"/>s poenam diuidatur. 
+            <lb ed="#V" n="80"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e165">
+            <lb ed="#V" n="81"/>PTh.I.p.q 34att.. Et, Rtut d,e: 44. art 1 trqumo¬ 
+            <lb ed="#V" n="82"/>quast 2.art 4. Tho. Aig dilt a &amp; att 3. Duran dist, 1 q 1. 
+            <lb ed="#V" n="83"/>Capr. dist. 36. quaest. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e174">
+            <lb ed="#V" n="84"/>AD PRIMVM sic proceditur: 
+            <lb ed="#V" n="85"/>Videtur, quod Malum non sufficien¬ 
+            <lb ed="#V" n="86"/>ter diuidatur per culpam, &amp; pae¬ 
+            <lb ed="#V" n="87"/>nam:. quia Malum nihil est a¬ 
+            <lb ed="#V" n="88"/>liud, nisi defectus boni. Sdd in 
+            <lb ed="#V" n="89"/>creaturis insensibilibus potest esse 
+            <lb ed="#V" n="90"/>defectus alicuius boni, in quibus non potest esse, 
+            <lb ed="#V" n="91"/>nec culpamec pena, cum sint insensibilia: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e194">
+            <lb ed="#V" n="92"/>Praeterea in. illis, quae non habent dominium 
+            <lb ed="#V" n="93"/>sui actus, non potest esse culpa: quia nihil est cul¬ 
+            <lb ed="#V" n="94"/>pa, nisi sit voluntaria, &amp; per consequens nec poe¬ 
+            <lb ed="#V" n="95"/>na: quia poena debet respondere culpae: ergo &amp;c 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e206">
+            <lb ed="#V" n="96"/>Praeterea secundum Augustinum in de Ciui¬ 
+            <lb ed="#V" n="97"/>tate Dei, Malum idco dicitur, quia nocet: sed om¬ 
+            <lb ed="#V" n="98"/>ne, quod nocet, est poena: ergo omne malum est 
+            <lb ed="#V" n="99"/>paena. sed cum totum non debeat diuidi contra 
+            <lb ed="#V" n="100"/>partem: ergo malum penae non debet diuidi con¬ 
+            <lb ed="#V" n="101"/>tra culpam¬ 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e222">
+            <lb ed="#V" n="102"/>Praeterea, si dicatur, vt videtur Magister dlce¬ 
+            <lb ed="#V" n="103"/>re, quod aliter nocet poena, aliter culpa: quia culpa¬ 
+            <lb ed="#V" n="104"/>hoofacit actiue, &amp; poena passiue. Contra: Ps¬ 
+            <lb ed="#V" n="105"/>sio est effectus actionis. quicunque ergo infert ali¬ 
+            <lb ed="#V" n="106"/>quam poenam actiue, peccat, &amp; lest culpabilis. 
+            <lb ed="#V" n="107"/>quod est haereticum: quia tunc iudex inlte con¬ 
+            <lb ed="#V" n="108"/>demnans latronem, culpam committeret, quod 
+            <lb ed="#V" n="109"/>est falsum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e242">
+            <lb ed="#V" n="110"/>IN CONTRARIVM est <ref xml:id="Gi9qrR-m156625-Rd1e246">August. 1. de li¬ 
+              <lb ed="#V" n="111"/>bero arbitrio</ref>, circa principium, qui vult, quod <quote xml:id="Gi9qrR-m156625-Qd1e251" source="http://scta.info/resource/aldx7s-x1ez55-d1e124@22-39">om¬ 
+                <lb ed="#V" n="112"/>ne malum nostrum, vel est malum, quod facimus, 
+                <lb ed="#V" n="113"/>&amp; hoc est malum culpae: vel malum, quod pati¬ 
+                <lb ed="#V" n="114"/>mum, &amp; hoc est malum poenae</quote>. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e261">
+            <!--531.xml-->
+            <pb ed="#V" n="531"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeterea culpa, &amp; poena non possunt proprie 
+            <lb ed="#V" n="2"/>esse, nisi in creaturis rationalibus: sed omnia ma¬ 
+            <lb ed="#V" n="3"/>la talium creaturarum sufficienter diuiduntur per¬ 
+            <lb ed="#V" n="4"/>culpam, &amp; poenam: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e279">
+            <lb ed="#V" n="5"/>RESOLVTIO. 
+            <lb ed="#V" n="6"/>Malum, Peccatum, &amp; culpa, vt magis, minusi¬ 
+            <lb ed="#V" n="7"/>commune se habent. Malum autem sufficien¬ 
+            <lb ed="#V" n="8"/>ter in poenam, &amp; culpam diuiditur. sed de ma¬ 
+            <lb ed="#V" n="9"/>lo, quod esse habet in rationali tantum creatura, 
+            <lb ed="#V" n="10"/>hic habetur sermo. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e295">
+            <lb ed="#V" n="11"/>RESPONDEO dicendum, quod haec tria: Malum, 
+            <lb ed="#V" n="12"/>peccatum, &amp; Culpa, se habent per ordinem, &amp; 
+            <lb ed="#V" n="13"/>vnum est in plus, quam aliud. Est n. malum in plus, 
+            <lb ed="#V" n="14"/>quam peccatum, &amp; peccatum in plus, quam culpa. 
+            <lb ed="#V" n="15"/>Et vnum istorum addit super aliud: quia peccatum 
+            <lb ed="#V" n="16"/>addit super malum, &amp; culpa super peccatum. Nam 
+            <lb ed="#V" n="17"/>malum nihil est aliud, nisi priuatio boni, vt pluries 
+            <lb ed="#V" n="18"/>per Doctores, &amp; Sanctos ostensum est. Quodcun¬ 
+            <lb ed="#V" n="19"/>que ergo sit illud bonum, &amp; maxime si sit bonum 
+            <lb ed="#V" n="20"/>debitum in esse, priuatio illius boni dicitur malum. 
+            <lb ed="#V" n="21"/>Siue ergo illud bonum sit forma d est perfectio pri¬ 
+            <lb ed="#V" n="22"/>ma, siue sit perfectio secunda, cuiusmodi est opera 
+            <lb ed="#V" n="23"/>tio, accipiendo etiam large formam, prout etiam se¬ 
+            <lb ed="#V" n="24"/>extendit ad formam accidentalem, secundum quem 
+            <lb ed="#V" n="25"/>modum dicimus, quod scientia est perfectio prima: 
+            <lb ed="#V" n="26"/>quia se habet vt forma, &amp; vt perfectio habitualis 
+            <lb ed="#V" n="27"/>ipsius intellectus: &amp; considerare est perfectio secumn¬ 
+            <lb ed="#V" n="28"/>da, quia est actus ipsius scientiae. Qualitercumque er¬ 
+            <lb ed="#V" n="29"/>go accipiatur defectus, siue respectu perfectionis 
+            <lb ed="#V" n="30"/>primae, vt cum quis deficit in scientia, quam debet 
+            <lb ed="#V" n="31"/>habere, siue respectu perfectionis secundae, vt cum¬ 
+            <lb ed="#V" n="32"/>quis deficiat a consideratione alicuius, quando de¬ 
+            <lb ed="#V" n="33"/>bet considerare de illo, vtrunque debet dici ma¬ 
+            <lb ed="#V" n="34"/>lum. Sed tamen peccatum non dicit quemcunque 
+            <lb ed="#V" n="35"/>defectum: sed dicit defectum in ipso actu, vel in 
+            <lb ed="#V" n="36"/>ipsa operatione, per quam res est apta nata acqui¬ 
+            <lb ed="#V" n="37"/>rere finem suum. ideo Philosophus in 2. Physico 
+            <lb ed="#V" n="38"/>rum, ostendit, quod in omnibus agentibus propter 
+            <lb ed="#V" n="39"/>finem, &amp; maxime hic inferius, vbi agentia propter 
+            <lb ed="#V" n="40"/>finem, aliquando deficiunt a fine, contingit esse 
+            <lb ed="#V" n="41"/>peccatum. Addit ergo peccatum supra malum ope¬ 
+            <lb ed="#V" n="42"/>rationem deordinatam a, fine propter finem, cum¬ 
+            <lb ed="#V" n="43"/>progreditur ab eis operatio deordinata a fine, di¬ 
+            <lb ed="#V" n="44"/>citur ibi esse peccatum. Et quia operari propter fi¬ 
+            <lb ed="#V" n="45"/>nem habet esse in naturalibus, artificialibus, &amp; mo¬ 
+            <lb ed="#V" n="46"/>ralibus: ideo in omnibus his contingit esse pecca¬ 
+            <lb ed="#V" n="47"/>tum. Nam monstra sunt peccata in naturalibus, vt 
+            <lb ed="#V" n="48"/>.patet in Phys. Agit enim natura propter finem, &amp; in¬ 
+            <lb ed="#V" n="49"/>tendit facere tale corpus, quale requirit anima: 
+            <lb ed="#V" n="50"/>quia, vt ait Commen. membra Leonis, &amp; mebnbra¬ 
+            <lb ed="#V" n="51"/>Cerui non differunt, nisi quia animae differunt. Et 
+            <lb ed="#V" n="52"/>Philosophus fabulas Pythagoricorum asserentium 
+            <lb ed="#V" n="53"/>quamnlibet animam ingredi quodlibet corpus, assi¬ 
+            <lb ed="#V" n="54"/>milat dicentibus artem vnam ingredi organa al¬ 
+            <lb ed="#V" n="55"/>terius, vt puta, quod ars carpentaria subintrare¬ 
+            <lb ed="#V" n="56"/>fistulas musicales. Sicut orgo quaelibet ars requi¬ 
+            <lb ed="#V" n="57"/>rit sua organa; sic quaelibet anima requirit sua men¬ 
+            <lb ed="#V" n="58"/>bra tanquam propria organa. Hoc ergo intendit 
+            <lb ed="#V" n="59"/>natura in omnibus corporalibus animalium, fa¬ 
+            <lb ed="#V" n="60"/>cere talia corpora cum talibus membris, qualia 
+            <!--531.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="61"/>requirunt animae illorum animalium, vt ibi nihii¬ 
+            <lb ed="#V" n="62"/>sit superfluum, neque minus. Si ergo sit ibi aliquid 
+            <lb ed="#V" n="63"/>diminutum, vt quod quis nascatur sine manu, vel¬ 
+            <lb ed="#V" n="64"/>sine pede, vel si sit ibi aliquid superfluum, vt quod 
+            <lb ed="#V" n="65"/>aliquis nascatur cum manu, vel pede habente sex 
+            <lb ed="#V" n="66"/>digitos, erit monstrum, &amp; dicetur esse peccatum 
+            <lb ed="#V" n="67"/>in naturalibus: quia natura in tali operatione de¬ 
+            <lb ed="#V" n="68"/>ficit a fine intento: quia in corporibus animalium 
+            <lb ed="#V" n="69"/>intendebat nihil facere superfluum, neque minus. 
+            <lb ed="#V" n="70"/>Sic etiam in artificialibus, vt ait Philosophus, con¬ 
+            <lb ed="#V" n="71"/>tingunt esse peccata, vt puta in arte Crammati¬ 
+            <lb ed="#V" n="72"/>cae, &amp; in arte Medicinae, &amp; in alijs artibus: quia 
+            <lb ed="#V" n="73"/>scripsit non recte Crammaticus, &amp; potauit non 
+            <lb ed="#V" n="74"/>recte Medicus. In moralibus autem contingunt 
+            <lb ed="#V" n="75"/>esse peccata, cum quis per actum suum, vel per¬ 
+            <lb ed="#V" n="76"/>operationem suam deficit a suo fine, siue ab ip¬ 
+            <lb ed="#V" n="77"/>so Deo, in quem adiutus per diuinum auxiliun¬ 
+            <lb ed="#V" n="78"/>debet tendere. Est ergo peccatum non quilibet 
+            <lb ed="#V" n="79"/>defectus, sed defectus in operatione deordinata 
+            <lb ed="#V" n="80"/>a fine. Addit ergo peccatum supra malum spe¬ 
+            <lb ed="#V" n="81"/>cialem defectum, qui est in operatione deordina 
+            <lb ed="#V" n="82"/>ta a fine: sic &amp; culpa addit supra peccatum esse 
+            <lb ed="#V" n="83"/>voluntarium: quia non omne peccatum est cul¬ 
+            <lb ed="#V" n="84"/>pa, nec omnis deordinatio a fine est voluntaria 
+            <lb ed="#V" n="85"/>In agentibus en. a natura sunt tales deordinationes 
+            <lb ed="#V" n="86"/>a fine: sed quia non sunt voluntaria, licet merean¬ 
+            <lb ed="#V" n="87"/>tur nomen peccati, non merentur tamen nomen¬ 
+            <lb ed="#V" n="88"/>culpae. Sic ergo possumus distinguere inter pec¬ 
+            <lb ed="#V" n="89"/>catum, &amp; culpam; communiter tamen loquendo, 
+            <lb ed="#V" n="90"/>vnum sumitur pro alio. Nam Augustinus in plu¬ 
+            <lb ed="#V" n="91"/>ribus locis de ratione peccati dicit esse volunta 
+            <lb ed="#V" n="92"/>rium, vt patet in de vera Religione, vbi ait, quod 
+            <lb ed="#V" n="93"/>si non est voluntarium, non est peccatum. sed ibi¬ 
+            <lb ed="#V" n="94"/>pro eodem accipit peccatum, &amp; culpam. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e485">
+            <lb ed="#V" n="95"/>Cum ergo quaeritur: Vtrum malum sufficien¬ 
+            <lb ed="#V" n="96"/>ter datum diuidatur per culpam, &amp; poenam; pa¬ 
+            <lb ed="#V" n="97"/>tet, quod culpa debet esse voluntaria: quaestio prae¬ 
+            <lb ed="#V" n="98"/>posita non habet locum de malo, vt habet esse 
+            <lb ed="#V" n="99"/>in rebus naturalibus, in quibus non potest esse 
+            <lb ed="#V" n="100"/>culpa: sed solum in creatura rationali agente per 
+            <lb ed="#V" n="101"/>voluntatem arbitrii, quae voluntarie potest se a 
+            <lb ed="#V" n="102"/>Deo auertere, &amp; hoc modo culpam contrahere. 
+            <lb ed="#V" n="103"/>Si ergo de creatura rationali sit quaestio: dicemus, 
+            <lb ed="#V" n="104"/>quod malum creaturae rationalis sufficienter di¬ 
+            <lb ed="#V" n="105"/>uiditur per culpam, &amp; poenam. Nam omne ta¬ 
+            <lb ed="#V" n="106"/>le malum, vt malum, vel est voluntarium, &amp; tunc 
+            <lb ed="#V" n="107"/>est culpae: vel est inuoluntarium, vel saltem non 
+            <lb ed="#V" n="108"/>voluntarium, &amp; tunc est poena. &amp; quia affirma¬ 
+            <lb ed="#V" n="109"/>tio, &amp; negatio sufficienter diuidunt quodcun¬ 
+            <lb ed="#V" n="110"/>que; ideo malum culpae, quod est voluntarium, 
+            <lb ed="#V" n="111"/>&amp; malum poenae, quod est non voluntarium, suf¬ 
+            <lb ed="#V" n="112"/>ficienter diuidunt malum creaturae rationalis ha¬ 
+            <lb ed="#V" n="113"/>bentis dominium suorum actuum, &amp; agentis per¬ 
+            <lb ed="#V" n="114"/>arbitrium voluntatis. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e531">
+            <lb ed="#V" n="115"/>Diximus autem supra, quod poena, vel est in¬ 
+            <lb ed="#V" n="116"/>uoluntaria, vel est saltem non voluntaria. Quod 
+            <lb ed="#V" n="117"/>ideo dictum est, quod duplex est poena: sensus, 
+            <lb ed="#V" n="118"/>&amp; damni: poena sensus semper est inuoluntaria, 
+            <lb ed="#V" n="119"/>&amp; semper ei displicet: quia aliter non esset poe¬ 
+            <lb ed="#V" n="120"/>na sensus, &amp; non sentiretur: sed poena damni cu¬ 
+            <lb ed="#V" n="121"/>iusmodi est poena decedentium in solo origina 
+            <lb ed="#V" n="122"/>li, nec est voluntaria, nec inuoluntaria: nec est pla¬ 
+            <lb ed="#V" n="123"/>cens, nec displicens: quia secundum quod huius¬ 
+            <!--532.xml-->
+            <pb ed="#V" n="532"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>modi, nec est cum gaudio, cui semper annectitur 
+            <lb ed="#V" n="2"/>complacentia: nec est cum dolore, cui semper anne¬ 
+            <lb ed="#V" n="3"/>ctitur displicentia, vt supra declarabatur, cum a¬ 
+            <lb ed="#V" n="4"/>gebatur de poena peccati originalis, quam habent 
+            <lb ed="#V" n="5"/>paruuli sine omni dolore. Non ergo dici potest, 
+            <lb ed="#V" n="6"/>quod illa pena sit displicens, vel sit inuoluntaria: sed 
+            <lb ed="#V" n="7"/>potest dici negatiua tantum, quod non est volunta¬ 
+            <lb ed="#V" n="8"/>ria. Rursus dictum est, quod si malum, secundum quod 
+            <lb ed="#V" n="9"/>huiusmodi est voluntarium, tunc habet rationem 
+            <lb ed="#V" n="10"/>culpae: sed oportet loqui de voluntario respectu¬ 
+            <lb ed="#V" n="11"/>finis, sicut loquimur de cognitione. Nam aliqua 
+            <lb ed="#V" n="12"/>tendunt in finem per cognitionem, quae est in ipsis, 
+            <lb ed="#V" n="13"/>vt rationalia. Aliqua vero tendunt in finem per co¬ 
+            <lb ed="#V" n="14"/>gnitionem, quae est in alio, vt sagitta tendit in signum, 
+            <lb ed="#V" n="15"/>non per cognitionem, quae est in sagittante: sic &amp; 
+            <lb ed="#V" n="16"/>tota natura tendit in finem, non per cognitionem, 
+            <lb ed="#V" n="17"/>quae sit m ipsa, sed per eam, quae est in intelligen¬ 
+            <lb ed="#V" n="18"/>tijs. &amp; ideo ait Commen. in 11r. quod natura non in¬ 
+            <lb ed="#V" n="19"/>tendit, nisi rememorata a superioribus causis, quae 
+            <lb ed="#V" n="20"/>sunt intelligentiae, quae omnia sunt sub vna arte 
+            <lb ed="#V" n="21"/>principali, quae est ipsius Dei. &amp; sicut aliqua ten¬ 
+            <lb ed="#V" n="22"/>dunt in finem per cognitionem, quae est in ipsis. 
+            <lb ed="#V" n="23"/>Aliqua per cognitionem, quae est in alio, vt natu¬ 
+            <lb ed="#V" n="24"/>ralia; sic aliqua deuiant a fine, &amp; auersa sunt a Deo 
+            <lb ed="#V" n="25"/>per voluntatem, quae est in ipsis, &amp; huiusmodi est 
+            <lb ed="#V" n="26"/>culpa actualis. Aliqua vero per voluntatem, quae 
+            <lb ed="#V" n="27"/>est in alio, &amp; huiusmodi est culpa originalis, quae 
+            <lb ed="#V" n="28"/>principaliter dicitur voluntaria per voluntatem, 
+            <lb ed="#V" n="29"/>quae fuit in primo Parente. &amp; ideo talis culpa di¬ 
+            <lb ed="#V" n="30"/>citur naturalis: quia per voluntatem primi Paren¬ 
+            <lb ed="#V" n="31"/>tis fuit infecta natura, per quam sic infectam con¬ 
+            <lb ed="#V" n="32"/>trahimus peccatum originale. Vel dicitur talis cul¬ 
+            <lb ed="#V" n="33"/>pa naturalis: quia sicut non potest aliquid tende¬ 
+            <lb ed="#V" n="34"/>re in finem, nisi per cognitionem: tamenm non opor¬ 
+            <lb ed="#V" n="35"/>tet, quod ista cognitio sit in seipso, sed potest esse in 
+            <lb ed="#V" n="36"/>alio; sic, cum culpa debeat esse voluntaria, non o¬ 
+            <lb ed="#V" n="37"/>portet, quod sit voluntaria per voluntatem, quae est 
+            <lb ed="#V" n="38"/>in ipso, sed per voluntatem, quae est in alio. Pote¬ 
+            <lb ed="#V" n="39"/>rit ergo dici talis culpa naturalis: quia sicut natu¬ 
+            <lb ed="#V" n="40"/>ralia tendunt in finem per cognitionem, quae est 
+            <lb ed="#V" n="41"/>in alio, sic culpa originalis est auersio a fine per¬ 
+            <lb ed="#V" n="42"/>voluntatem, quae est in alio. Erit ergo haec simili¬ 
+            <lb ed="#V" n="43"/>tudo culpae originalis, &amp; motus naturalis secun¬ 
+            <lb ed="#V" n="44"/>dum voluntatem in alio, &amp; cognitionem in alio, 
+            <lb ed="#V" n="45"/>vt ex hac similitudine culpa originalis dici valeat 
+            <lb ed="#V" n="46"/>naturalis. Aduertendum tamen, quod non no ne¬
+            <lb ed="#V" n="47"/>gamus, quin culpa originalis possit dici aliter vo¬ 
+            <lb ed="#V" n="48"/>luntaria, quam per voluntatem primi Parentis. sed 
+            <lb ed="#V" n="49"/>quia per voluntatem primi Parentis dicitur prin¬ 
+            <lb ed="#V" n="50"/>cipalius voluntaria, quam alijs modis, vt potest 
+            <lb ed="#V" n="51"/>patere ex his, quae diximus, cum tractanimus de 
+            <lb ed="#V" n="52"/>peccato originali. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e672">
+            <lb ed="#V" n="53"/>RESP. AD ARO. Ad primum dicendum, 
+            <lb ed="#V" n="54"/>quod non omnis defectus habet rationem mali: sed 
+            <lb ed="#V" n="55"/>defectus perfectionis natae inesse, vel defectus 
+            <lb ed="#V" n="56"/>perfectionis, quam res non habet, vt eam tenetur 
+            <lb ed="#V" n="57"/>habere, nec etiam talis defectus, prout malum di¬ 
+            <lb ed="#V" n="58"/>uiditur per culpam, &amp; poenam, accipiendus est 
+            <lb ed="#V" n="59"/>in omnibus rebus: sed solum in illis, in quibus po¬ 
+            <lb ed="#V" n="60"/>test esse culpa, cuiusmodi sunt habentia dominium 
+            <lb ed="#V" n="61"/>suorum actuum, &amp; agentia per libertatem arbitrii. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e694">
+            <lb ed="#V" n="62"/>Et per hoc patet solutio ad secundum: quia 
+            <lb ed="#V" n="63"/>culpa, &amp; poena non sunt defectus mali absolute 
+            <!--532.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>sumpti: sed mali secundum, quod est in agentibus 
+            <lb ed="#V" n="65"/>a proposito. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e710">
+            <lb ed="#V" n="66"/>Ad tertium dicendum, quod nocere, &amp; corrum¬ 
+            <lb ed="#V" n="67"/>pere potest intelligi dupliciter, vel formaliter, vel¬ 
+            <lb ed="#V" n="68"/>effectiue. Formaliter quidem sic nocet, &amp; corru¬ 
+            <lb ed="#V" n="69"/>pit ipsa corruptio, vel ipsum nocumentum: sed 
+            <lb ed="#V" n="70"/>effectiue sic nocet, &amp; corrumpit illud, quod cau¬ 
+            <lb ed="#V" n="71"/>sat ipsum nocumentum, vel ipsam corruptionem 
+            <lb ed="#V" n="72"/>Primo modo, secundum Magistrum, malum su¬ 
+            <lb ed="#V" n="73"/>mitur passiue, &amp; habet rationem poenae. Secundo 
+            <lb ed="#V" n="74"/>modo sumitur actiue, &amp; habet rationem culpae, 
+            <lb ed="#V" n="75"/>vt patuit in littera praecedentis Distinctionis. Vel 
+            <lb ed="#V" n="76"/>possumus dicere non esse inconueniens omne pec¬ 
+            <lb ed="#V" n="77"/>catum habere rationem poenae, &amp; omne peccatum 
+            <lb ed="#V" n="78"/>esse quandam poenam: sed non sub eadem ratio¬ 
+            <lb ed="#V" n="79"/>ne dicitur esse peccatum, &amp; pona, vt in sequenti 
+            <lb ed="#V" n="80"/>quaestione patebit. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e745">
+            <lb ed="#V" n="81"/>Ad quartum dicendum, quod poena est quaedam 
+            <lb ed="#V" n="82"/>corruptio inducta ab aliquo agente, &amp; culpa est 
+            <lb ed="#V" n="83"/>quoddam actiuum, &amp; quoddam effectiuum corru¬ 
+            <lb ed="#V" n="84"/>ptionis: sed non oportet, vt communiter dicitur 
+            <lb ed="#V" n="85"/>quod omne effectiuum corruptionis sit culpa. Pro 
+            <lb ed="#V" n="86"/>pter quod non oportet, quod iudex iudicans aequum 
+            <lb ed="#V" n="87"/>vt inferens alii corruptionem, &amp; poenam, quod ipse¬ 
+            <lb ed="#V" n="88"/>peccet, vel culpam committat. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m156625-Dd1e767">
+          <head xml:id="Gi9qrR-m156625-Hd1e769">Articulus 2</head>
+          <p xml:id="Gi9qrR-m156625-d1e771">
+            <lb ed="#V" n="89"/>ARTIC. II. 
+            <lb ed="#V" n="90"/>An peccatum possit esse poena 
+            <lb ed="#V" n="91"/>peccati. 
+            <lb ed="#V" n="92"/>Conclusio est affirmatiua.
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e782">
+            <lb ed="#V" n="93"/>D. Th. 1. 2. q. 87. art. 2. Et 2. senten. d. 36. q. 1. art. 3. DBon. 
+            <lb ed="#V" n="94"/>d. 30. art. 1. q. 1. Scot. dist. 36. quaest. 1. Duran. dist3 G. q. 2. 
+            <lb ed="#V" n="95"/>Ant. Andr. d. 30. q. 2. Biel d. 36tq. 1. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e791">
+            <lb ed="#V" n="96"/>SECVNDO quaeritur: Vtrum pec¬ 
+            <lb ed="#V" n="97"/>catum possit esse pena peccati. 
+            <lb ed="#V" n="98"/>Et videtur, quod non: quia omnis 
+            <lb ed="#V" n="99"/>pena est ordinata, &amp; est a Deo: 
+            <lb ed="#V" n="100"/>peccatum autem est quid inordi¬ 
+            <lb ed="#V" n="101"/>natum, &amp; non est a Deo: ergo &amp;c. 
+            <lb ed="#V" n="102"/>preterea causa, &amp; effectus non incidunt in idem, 
+            <lb ed="#V" n="103"/>sed peccatum est causa poenae: ergo non est poena. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e811">
+            <lb ed="#V" n="104"/>Praeterea poena ordinatur contra peccatum, &amp; 
+            <lb ed="#V" n="105"/>contra culpam, &amp; est quaedam medicina ipsius 
+            <lb ed="#V" n="106"/>culpae, vt potest patere per Philos in 2. Ethic. Pec 
+            <lb ed="#V" n="107"/>catum ergo cum non sit medicina alterius pec¬ 
+            <lb ed="#V" n="108"/>cati, non potest esse poena peccati. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e825">
+            <lb ed="#V" n="109"/>Praeterea, si punitur vnum peccatum per aliud: vel 
+            <lb ed="#V" n="110"/>quod idem est, si vnum peccatum est poena alterius, 
+            <lb ed="#V" n="111"/>aut hoc competit omni peccato, &amp; tunc semper 
+            <lb ed="#V" n="112"/>post peccatum esset peccatum, &amp; iretur in pecca¬ 
+            <lb ed="#V" n="113"/>tis in infinitum. Si autem non competit omni pec¬ 
+            <lb ed="#V" n="114"/>cato: sed vltimum peccatum non punitur alio pec¬ 
+            <lb ed="#V" n="115"/>cato, sed pena inferni. Contra: Potest enim con¬ 
+            <lb ed="#V" n="116"/>tingere, quod vltimum peccatum sit grauius omni¬ 
+            <lb ed="#V" n="117"/>bus alijs: quo posito, grauius peccatum minus pu¬ 
+            <lb ed="#V" n="118"/>nietur, quod est ineonueniens: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e849">
+            <lb ed="#V" n="119"/>Praeterea omnis poena est contra voluntatem, 
+            <lb ed="#V" n="120"/>omne peccatum est voluntarium: &amp; quia est vo¬ 
+            <lb ed="#V" n="121"/>luntarium, non potest esse contra voluntatem, 
+            <lb ed="#V" n="122"/>peccatum non potest habere rationem poenae. 
+            <!--533.xml-->
+            <pb ed="#V" n="533"/>
+            <cb ed="#V" n="a"/>
+            <!-- line cord error -->IN CONTRIRIVM est, quod habetur
+            <lb ed="#V" n="1"/>Apoc. quod qui in fordibus est, sordescat adhuc: &amp; 
+            <lb ed="#V" n="2"/>qui iustus est, &amp;c. ergo ex peccato, &amp; ex sorde me¬ 
+            <lb ed="#V" n="3"/>retur, quis vlterius sordescere; sic secunda sordes 
+            <lb ed="#V" n="4"/>est poena primae sordis. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e878">
+            <lb ed="#V" n="5"/>Praeterea auerti a tanto bono, sicut est Deus, &amp; 
+            <lb ed="#V" n="6"/>perdere tantum bonum, summa est poena. sed hoc 
+            <lb ed="#V" n="7"/>facit peccatum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e887">
+            <lb ed="#V" n="8"/>RESOLVTIO. 
+            <lb ed="#V" n="9"/>Peccatum est poena peccati. Deum enim tollit: gra¬ 
+            <lb ed="#V" n="10"/>tiam aufert: naturam corrumpit, &amp; inbabilem 
+            <lb ed="#V" n="11"/>reddit, &amp; in peccatum labi facit. Est autem 
+            <lb ed="#V" n="12"/>peccati causa, non quantum ad id, quod essen¬ 
+            <lb ed="#V" n="13"/>tialiter est, sed quantum ad illud, quod peccato 
+            <lb ed="#V" n="14"/>est amnexum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e905">
+            <lb ed="#V" n="15"/>RESPONDEO dicendum, quod peccatum est 
+            <lb ed="#V" n="16"/>paena peccati: quod declarare possumus septem mo¬ 
+            <lb ed="#V" n="17"/>dis: tribus modis ex parte auersionis, &amp; quatuor 
+            <lb ed="#V" n="18"/>ex parte conuersionis. Habet eniam peccatum rationem 
+            <lb ed="#V" n="19"/>poenae ex parte auersionis tripliciter: quia Primo¬ 
+            <lb ed="#V" n="20"/>tollit nobis tantum bonum, sicut est Deus. Secun¬ 
+            <lb ed="#V" n="21"/>do, quia corrumpit gratiam. Tertio, quia corrumpit 
+            <lb ed="#V" n="22"/>gratiam, &amp; inhabilitat naturam: quia quanto ho¬ 
+            <lb ed="#V" n="23"/>mo magis peccat, &amp; plura peccata conmmittit; tan¬ 
+            <lb ed="#V" n="24"/>to semper natura est magis inhabilis ad recupe¬ 
+            <lb ed="#V" n="25"/>randum tantum bonum, quod perdidit, quod est 
+            <lb ed="#V" n="26"/>gratia: &amp; quia omnia ista habent rationem poenae; 
+            <lb ed="#V" n="27"/>ideo omne peccatum, &amp; potissime si sit mortale, 
+            <lb ed="#V" n="28"/>habet rationem poenae. Ex parte etiam conuersionis, 
+            <lb ed="#V" n="29"/>peccatum habet rationem poenae quadrupliciter: 
+            <lb ed="#V" n="30"/>Primo, quia ipsa poena inflicta per peccatum, facit 
+            <lb ed="#V" n="31"/>hominem labi in peccatum, vt hoc modo verificetur, 
+            <lb ed="#V" n="32"/>quod peccatum est poena peccati: quia ipsa poena pecca¬ 
+            <lb ed="#V" n="33"/>ti est peccatum causaliter: quia causat aliud pecca¬ 
+            <lb ed="#V" n="34"/>tum. quod autem sic sit, patet. Nam remouens circu¬ 
+            <lb ed="#V" n="35"/>lum a dolio est causa effusionis vini: quia circulus 
+            <lb ed="#V" n="36"/>continebat dolium, &amp; erat causa continentiae vini. 
+            <lb ed="#V" n="37"/>sic quia peccatum tollit gratiam, quae continet ani¬ 
+            <lb ed="#V" n="38"/>mam, ne labatur in peccatum, ibi subtractio gratiae 
+            <lb ed="#V" n="39"/>quae fit per peccatum, &amp; quae est poena peccati, est 
+            <lb ed="#V" n="40"/>causa sequentis peccati. Subtractio gratiae ergo, 
+            <lb ed="#V" n="41"/>quae est poena peccati est peccatum causaliter: quia 
+            <lb ed="#V" n="42"/>causat illud sequens peccatum. Secundo peccatum 
+            <lb ed="#V" n="43"/>habet rationem poenae ex parte conuersionis, saltem 
+            <lb ed="#V" n="44"/>quantum ad aliqua peccata, vt ira, &amp; inuidia, quae in 
+            <lb ed="#V" n="45"/>seipsis habent quandam poaenam. Tertio ex parte con¬ 
+            <lb ed="#V" n="46"/>uersionis peccatum habet rationem penae, quantum 
+            <lb ed="#V" n="47"/>ad ipsum actum propter laborem annexum. Nam ad 
+            <lb ed="#V" n="48"/>consequendum aliquid, quod est malum, &amp; pecca¬ 
+            <lb ed="#V" n="49"/>tum; ita laborant aliqui, quod etiam pro bono aliquo, 
+            <lb ed="#V" n="50"/>non sic laborarent. Ideo in persona peccatorum 
+            <lb ed="#V" n="51"/>dicitur Sapien. Laxati sumus in via iniquitatis, &amp; 
+            <lb ed="#V" n="52"/>perditionis, &amp; ambulauimus vias difficiles. Quat 
+            <lb ed="#V" n="53"/>to peccatum habet rationem poenae ratione actus, 
+            <lb ed="#V" n="54"/>non solum propter laborem, quem habet anne¬ 
+            <lb ed="#V" n="55"/>xum talis actus, sed etiam propter deformitatem 
+            <lb ed="#V" n="56"/>Ipsa enim deformitas actus peccati: quia talis a¬ 
+            <lb ed="#V" n="57"/>ctus est contra rationem: homini, qui est animal 
+            <lb ed="#V" n="58"/>rationale, quandam poenam infert. Nam sicut dele 
+            <lb ed="#V" n="59"/>ctatio oritur ex coniunctione conuenientis cum¬ 
+            <!--533.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>conuenienti; ita consurgit dolor ex coniunctione
+            <lb ed="#V" n="61"/>inconuenientis cum inconuenienti. Et quia pec¬ 
+            <lb ed="#V" n="62"/>catum est contra rationem, &amp; non conuenit: sed 
+            <lb ed="#V" n="63"/>discordat a ratione, homo habebnes in se rationem 
+            <lb ed="#V" n="64"/>cum committit peccatum, oportet, quod sit ibi¬ 
+            <lb ed="#V" n="65"/>coniunctio rationis cum eo, quod est contra ra¬ 
+            <lb ed="#V" n="66"/>tionem, quod sine poena esse non potest. Sed 
+            <lb ed="#V" n="67"/>omnes hi septem modi videntur dicere peccatum 
+            <lb ed="#V" n="68"/>habere rationem poaenae, non quantum ad id, quod 
+            <lb ed="#V" n="69"/>essentialiter est peccatum, sed quantum ad aliquid 
+            <lb ed="#V" n="70"/>annexum peccato. Nam amissio tanti boni, sicut 
+            <lb ed="#V" n="71"/>est Deus, &amp; amissio gratiae, &amp; inhabilitas naturae 
+            <lb ed="#V" n="72"/>sunt quaedam annexa ipsi peccato; sic poena, quae 
+            <lb ed="#V" n="73"/>est in ira, vel in inuidia, &amp; quod homo labatur in 
+            <lb ed="#V" n="74"/>aliud peccatum: &amp; labor, &amp; deformitas, quae sunt 
+            <lb ed="#V" n="75"/>in ipso actu peccati, videntur esse quaedam anne¬ 
+            <lb ed="#V" n="76"/>xa peccato. Sed Magister in littera vult, quod nul¬ 
+            <lb ed="#V" n="77"/>lum fiat praeiudicium veritati, si quis dicat ipsa ea 
+            <lb ed="#V" n="78"/>dem, quae sunt peccata essentialiter, esse poenas, &amp; 
+            <lb ed="#V" n="79"/>punitiones peccatorum. Vult enim Magister in 
+            <lb ed="#V" n="80"/>littera, quod tripliciter peccatum habeat rationem 
+            <lb ed="#V" n="81"/>poenae: Primo ratione annexi ex parte auersionis: 
+            <lb ed="#V" n="82"/>quia peccatum ex eo, quod auertit a Deo, habet 
+            <lb ed="#V" n="83"/>tres penas annexas, quae tactae sunt supra, &amp; quas 
+            <lb ed="#V" n="84"/>tangit satis Magister in littera: quia tollit a nobis 
+            <lb ed="#V" n="85"/>Deum, subtrahit gratiam, corrumpit, &amp; inhabili¬ 
+            <lb ed="#V" n="86"/>tat naturam; sic etiam ex parte conuersionis ha¬ 
+            <lb ed="#V" n="87"/>bet multa annexa, quae habent rationem poenae, 
+            <lb ed="#V" n="88"/>vt est per habita declaratum. sed praeter haec an¬ 
+            <lb ed="#V" n="89"/>nexa ipsum etiam peccatum, vt est quid essentia¬ 
+            <lb ed="#V" n="90"/>liter, habet rationem poenae. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1077">
+            <lb ed="#V" n="91"/>Dicemus ergo cum Magistro, quod peccatum sum¬ 
+            <lb ed="#V" n="92"/>ptum essentialiter habet rationem poenae; non ob¬ 
+            <lb ed="#V" n="93"/>stante, quod poenae, si iustae sunt, a Deo sint, &amp; pec¬ 
+            <lb ed="#V" n="94"/>cata a Deo non sint: &amp; non obstante, quod pec¬ 
+            <lb ed="#V" n="95"/>cata, vt peccata, poenae non sunt, quae omnia ha¬ 
+            <lb ed="#V" n="96"/>bentur a Magistro in littera. Sed quomodo esse 
+            <lb ed="#V" n="97"/>possit, quod peccatum essentialiter sit poena: &amp; 
+            <lb ed="#V" n="98"/>vt est poena, sit a Deo: &amp; vt est peccatum non sit 
+            <lb ed="#V" n="99"/>a Deo. Et rursus, quomodo esse possit, quod pec¬ 
+            <lb ed="#V" n="100"/>catum essentialiter sit poena, &amp; quod peccatum, 
+            <lb ed="#V" n="101"/>vt peccatum non sit poena. Vt haec omnia decla¬ 
+            <lb ed="#V" n="102"/>rentur, dicemus cum Philosopho in 3. Ethico, 
+            <lb ed="#V" n="103"/>quod non omnes actiones sunt simpliciter volun¬ 
+            <lb ed="#V" n="104"/>tariae: sed quaedam coactae sunt participantes ali¬ 
+            <lb ed="#V" n="105"/>quid de inuoluntario, sicut est proiicere merces 
+            <lb ed="#V" n="106"/>in mari, vt saluetur corpus. Haec enim actio ha¬ 
+            <lb ed="#V" n="107"/>bet aliquid de inuoluntario, sed plus habet de vo¬ 
+            <lb ed="#V" n="108"/>luntario. Nam ipsemet homo accipit bona sua 
+            <lb ed="#V" n="109"/>&amp; proiicit ea in mari. Certum est enim, quod il¬ 
+            <lb ed="#V" n="110"/>lam actionem vult, &amp; non vult: sed magis est ib 
+            <lb ed="#V" n="111"/>de velle, quam de nolle, cum ipsemet hoc faciat 
+            <lb ed="#V" n="112"/>Si enim plus esset ibi de nolle, quam de velle, nun¬ 
+            <lb ed="#V" n="113"/>quam ipsemet faceret. Et sicut existens in mar¬ 
+            <lb ed="#V" n="114"/>proiicit sua bona, vt saluetur corpus, in quo si 
+            <lb ed="#V" n="115"/>mul concurrunt velle, &amp; nolle: sed plus est ibi de 
+            <lb ed="#V" n="116"/>velle, quam de nolle: quia aliter ipsemet non face¬ 
+            <lb ed="#V" n="117"/>ret. sic, cum homo peccat, plus est ibi de velle, 
+            <lb ed="#V" n="118"/>de nolle: quia aliter non peccaret, &amp; vt est ibi vel 
+            <lb ed="#V" n="119"/>le, peccatum habet rationem culpae: &amp; vt est ib¬ 
+            <lb ed="#V" n="120"/>nolle, habet rationem poenae. Hoc ergo modo omnia 
+            <lb ed="#V" n="121"/>verificari possunt, videlicet, quod peccatum essentiali¬ 
+            <lb ed="#V" n="122"/>ter habet rationem poenae: quia illud idem, quod est 
+            <!--534.xml-->
+            <pb ed="#V" n="534"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>peccatum, &amp; quod est volitum, est etiam non volitum, 
+            <lb ed="#V" n="2"/>&amp; vt est volitum est peccatum, &amp; vt est non voli¬ 
+            <lb ed="#V" n="3"/>tum est poena: &amp; quia eadem res est volita, &amp; non 
+            <lb ed="#V" n="4"/>volita:eadem res est peccatum, vt est volita: &amp; pae¬ 
+            <lb ed="#V" n="5"/>&amp; na, vt non volita. Sicut ergo idem essentialiter est 
+            <lb ed="#V" n="6"/>actio, &amp; passio: sed vt est actio, est ab agente: vt 
+            <lb ed="#V" n="7"/>passio a patiente, &amp; quamuis idem essentialiter sit 
+            <lb ed="#V" n="8"/>actio, &amp; passio; tamen, vt est actio, non est passio, 
+            <lb ed="#V" n="9"/>tnec e conuerso, sic idem essentialiter est peccatum, 
+            <lb ed="#V" n="10"/>&amp; poaena: sed vt est peccatum non est poena, nece con¬ 
+            <lb ed="#V" n="11"/>iuerso. Multum ergo est ad propositum exemplum 
+            <lb ed="#V" n="12"/>positum de eiectione mercium in mari. Nam ea¬ 
+            <lb ed="#V" n="13"/>dem proiectio est volita propter consequendam sa¬ 
+            <lb ed="#V" n="14"/>lutem corporis, &amp; non volita propter damnum, 
+            <lb ed="#V" n="15"/>quod ibi consistit; sic idem peccatum est volitum 
+            <lb ed="#V" n="16"/>propter delectationem aliquam consequendam, &amp; 
+            <lb ed="#V" n="17"/>non volitum propter damnum, quod inde habe¬ 
+            <lb ed="#V" n="18"/>tur. Et vt est volitum est peccatum, vt non volitum 
+            <lb ed="#V" n="19"/>poena. Et quia, vt est volitum, non est nolitum; ideo 
+            <lb ed="#V" n="20"/>vt est peccatum non est poena, nec e conuerso; sic 
+            <lb ed="#V" n="21"/>etiam vt est poena, est a Deo. Iuste enim vult Deus, 
+            <lb ed="#V" n="22"/>quod peccator habens inordinatum animum: vt 
+            <lb ed="#V" n="23"/>ex hoc ipso poenam habeat. ideo dicitur 1. Con¬ 
+            <lb ed="#V" n="24"/>fes. Iussisti enim Domine, &amp; sic est, vt poena sua si¬ 
+            <lb ed="#V" n="25"/>bi esset omnis inordinatus animus. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1211">
+            <lb ed="#V" n="26"/>RESP. AD ARO. Ad primum dicendum, quod 
+            <lb ed="#V" n="27"/>omnis poena ordinata est a Deo. &amp; peccatum est pae¬ 
+            <lb ed="#V" n="28"/>na, &amp; vt est poena, est a Deo: &amp; vt peccatum, non 
+            <lb ed="#V" n="29"/>est a Deo, vt est per habita manifestum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1222">
+            <lb ed="#V" n="30"/>Ad secundum dicendum, quod causa, &amp; effectus in 
+            <lb ed="#V" n="31"/>diuersis generibus causarum incidunt in idem: quia 
+            <lb ed="#V" n="32"/>potio est causa sanitatis in genere causae efficientis, 
+            <lb ed="#V" n="33"/>&amp; sanitas potionis in genere causae finalis. In eodem 
+            <lb ed="#V" n="34"/>etiam genere causarum possunt causa, &amp; effectus 
+            <lb ed="#V" n="35"/>incidere in idem, non numero, sed specie: vt ignis 
+            <lb ed="#V" n="36"/>factus ab igne generat, &amp; facit alium ignem: vel¬ 
+            <lb ed="#V" n="37"/>causa, &amp; effectus possunt incidere in idem reali¬ 
+            <lb ed="#V" n="38"/>ter, &amp; essentialiter: sed non in idem secundum ratio 
+            <lb ed="#V" n="39"/>nem. Nam actio, &amp; passio sunt idem realiter, &amp; es¬ 
+            <lb ed="#V" n="40"/>sentialiter: sicut eadem est via, qua itur Athenis 
+            <lb ed="#V" n="41"/>Thebas, &amp; e conuerso; &amp; tamem passio est effectus 
+            <lb ed="#V" n="42"/>actionis, quae omnia aptari possunt ad peccatum, 
+            <lb ed="#V" n="43"/>&amp; ad poenam, si diligenter considerentur. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1255">
+            <lb ed="#V" n="44"/>Ad tertium dicendum, quod pena est medicina cul¬ 
+            <lb ed="#V" n="45"/>pae: sed haec medicina aliquando est suiipsius: quia 
+            <lb ed="#V" n="46"/>ipsemet peccator conuertitur propter malum, quod 
+            <lb ed="#V" n="47"/>ipse consequitur ex peccato. Aliquando est medi¬ 
+            <lb ed="#V" n="48"/>cina alterius: quia suspenditur latro, vt alii timeant. 
+            <lb ed="#V" n="49"/>Aliquando poena non habet rationem medicinae, 
+            <lb ed="#V" n="50"/>sed solum rationem iustitiae. Cum ergo arguitur, 
+            <lb ed="#V" n="51"/>quod peccatum non habet rationem medicinae: Ve¬ 
+            <lb ed="#V" n="52"/>rum est, vt peccatum, sed vt peccatum est poena, 
+            <lb ed="#V" n="53"/>potest habere rationem medicinae: &amp; etiam, vt pro¬ 
+            <lb ed="#V" n="54"/>pter peccatum infertur poena, potest etiam habe¬ 
+            <lb ed="#V" n="55"/>re rationem medicinae. sed non omne peccatum 
+            <lb ed="#V" n="56"/>est sic medicinale: quia, quod est per accidens, 
+            <lb ed="#V" n="57"/>non oportet, quod sit vniuersaliter. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1288">
+            <lb ed="#V" n="58"/>Ad quartum dicendum, quod si vltimum peccatum 
+            <lb ed="#V" n="59"/>minus punitur, quam aliud, hoc est per accidens: 
+            <lb ed="#V" n="60"/>sicut, quod primum peccatum maius damnum in¬ 
+            <lb ed="#V" n="61"/>ferat, quam aliud, hoc est per accidens. Nam sem¬ 
+            <lb ed="#V" n="62"/>per primu peccatum, si est mortale, tollit gratiam, 
+            <lb ed="#V" n="63"/>quam non tollit sequen,, etiam si sit grauius, sed 
+            <!--534.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>hoc est per accidens. Nam sequens peccatum non 
+            <lb ed="#V" n="65"/>tollit gratiam, quia non inuenit eam: nam si inueni¬ 
+            <lb ed="#V" n="66"/>ret, tolleret. Sic vltimum peccatum non inelinnt ad 
+            <lb ed="#V" n="67"/>aliud peccatum, quia est vltimum: si non esset n¬ 
+            <lb ed="#V" n="68"/>timum, inclinaret. Accidit enim peccato, vt pec¬ 
+            <lb ed="#V" n="69"/>catum, quod habeat, vel non habeat sequenes pec¬ 
+            <lb ed="#V" n="70"/>catum: quia hoc non facit, vt peccatum: sed quia pec¬ 
+            <lb ed="#V" n="71"/>cator forte conuertitur, &amp; non vult stare plus in pec¬ 
+            <lb ed="#V" n="72"/>cato, vel moritur, &amp; non potest amplius peccare. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1327">
+            <lb ed="#V" n="73"/>Ad quintum dicendum, quodd hoc non obstante 
+            <lb ed="#V" n="74"/>quod omne peccatum est voluntarium, &amp; omnis p¬ 
+            <lb ed="#V" n="75"/>na est inuoluntaria, peccatum potest habere ra¬ 
+            <lb ed="#V" n="76"/>tionem poenae: quia idem aliter, &amp; aliter sumptum 
+            <lb ed="#V" n="77"/>potest esse voluntarium, &amp; non voluntarium, vt 
+            <lb ed="#V" n="78"/>est per habita manifestum. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m156625-Dd1e1344">
+          <head xml:id="Gi9qrR-m156625-Hd1e1346">Articulus 3</head>
+          <p xml:id="Gi9qrR-m156625-d1e1348">
+            <lb ed="#V" n="79"/>ARTIC. III. 
+            <lb ed="#V" n="80"/>An passio possit habere rationem¬ 
+            <lb ed="#V" n="81"/>peccati, vel culpae. 
+            <lb ed="#V" n="82"/>Conclusio est negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1359">
+            <lb ed="#V" n="83"/>Aegid. supra d. 34. p. 2. q. 1. art. 3. Et vide eosdem Doct ipici. 
+            <lb ed="#V" n="84"/>ratos. D. Tho. 3. senten. d. 36. q. 1att. 2. D. bon d. 3Gart 1. 
+            <lb ed="#V" n="85"/>quaest a. Ricar. dist. 36. quast. 2. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1368">
+            <lb ed="#V" n="86"/>TERTIO quaeritur: Vtrum passio 
+            <lb ed="#V" n="87"/>possit habere rationem peccat 
+            <lb ed="#V" n="88"/>vel culpae. Et videtur, quod liciqui¬ 
+            <lb ed="#V" n="89"/>motus sensualitatis est quaedam 
+            <lb ed="#V" n="90"/>passio: sed talis motus inordina¬ 
+            <lb ed="#V" n="91"/>tus est peccatum: ergo &amp;c. 
+            <lb ed="#V" n="92"/>Praeterea ira est quaedam passio: sed est vnun¬ 
+            <lb ed="#V" n="93"/>de vitijs capitalibus, &amp; est peccatum: ergo &amp;c 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1388">
+            <lb ed="#V" n="94"/>Praeterea, secundum <ref xml:id="Gi9qrR-m156625-Rd1e1392">August. 10. de Ciuit. Dei</ref>
+            <lb ed="#V" n="95"/>Nonnullum vitium est, cum caro concupistit ad 
+            <lb ed="#V" n="96"/>uersus spiritum &amp;c. sed tales concupiscontia fint 
+            <lb ed="#V" n="97"/>quaedam passiones: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1402">
+            <lb ed="#V" n="98"/>Preterea, propter quod mumquodqi, &amp;illis, 
+            <lb ed="#V" n="99"/>magis, vt vult Philosophus in Poste. sed propter 
+            <lb ed="#V" n="100"/>superabundantiam passionum receditur a vrru¬ 
+            <lb ed="#V" n="101"/>te, &amp; peccatur: ergo propter ipsas passioncs corr¬ 
+            <lb ed="#V" n="102"/>tingit esse peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1415">
+            <lb ed="#V" n="103"/>Praeterea meritum, &amp; demcriti contingut cira¬ 
+            <lb ed="#V" n="104"/>idem: sed circa passiones potest esse meritum, &amp; virtus: 
+            <lb ed="#V" n="105"/>ergo circa eas potest esse demeritum, &amp; peccatum 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1424">
+            <lb ed="#V" n="106"/>INCONTRARIVM est: quia non contin 
+            <lb ed="#V" n="107"/>git peccatum, nisi circa id, cuius principiu est in 
+            <lb ed="#V" n="108"/>nobis. sed principium passionum non est in no¬ 
+            <lb ed="#V" n="109"/>bis, sed est in ipso bono sensibili, respectu cuius 
+            <lb ed="#V" n="110"/>passionamur: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1437">
+            <lb ed="#V" n="111"/>Praeterea, secundum philospropter pasione, 
+            <lb ed="#V" n="112"/>nec laudamur, nec vituperamur. sed illud, pro¬ 
+            <lb ed="#V" n="113"/>pter quod nec laudamur, nec vituperamur, non 
+            <lb ed="#V" n="114"/>potest esse peccatum, nec virtus: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1448">
+            <lb ed="#V" n="115"/>RESOLVTTO. 
+            <lb ed="#V" n="116"/>Passio secundum se non esi peccatm, vt paiet. se 
+            <lb ed="#V" n="117"/>acti oni, potentijs sensitiuis, cognitiuisii ton¬ 
+            <lb ed="#V" n="118"/>paretur.
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1459">
+            <lb ed="#V" n="119"/>RESPODEO dicendum, quod passio habet 
+            <!--535.xml-->
+            <pb ed="#V" n="535"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>multiplicem comparationem, &amp; multiplicem di¬ 
+            <lb ed="#V" n="2"/>stinctionem. Vtroque ergo modo ostendemus, 
+            <lb ed="#V" n="3"/>quod passio secundum se sumpta non est peccatum. 
+            <lb ed="#V" n="4"/>Et primo quidem modo, prout passio habet mul¬ 
+            <lb ed="#V" n="5"/>tiplicem comparatione, maccipietur triplex via, 
+            <lb ed="#V" n="6"/>prout passio ad tria potest comparari. Videlicet 
+            <lb ed="#V" n="7"/>ad ipsam actionem, &amp; ad ipsas potentias animae, 
+            <lb ed="#V" n="8"/>Prout distinguuntur per cognitiuas, &amp; appetiti¬ 
+            <lb ed="#V" n="9"/>uas. Tertio potest comparari ad ipsas potentias 
+            <lb ed="#V" n="10"/>appetitiuas; prout reperitur ibi appetitus sensiti¬ 
+            <lb ed="#V" n="11"/>uus, &amp; intellectiuus. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1495">
+            <lb ed="#V" n="12"/>Prima quidem via, prout passio comparat ad 
+            <lb ed="#V" n="13"/>actionem, quod non habet rationem peccati, sic pa¬ 
+            <lb ed="#V" n="14"/>tet. Nam passio, secundum quod passio, est aliquid 
+            <lb ed="#V" n="15"/>receptum in alio: &amp; actio, secundum quod actio, est 
+            <lb ed="#V" n="16"/>aliquid egrediens ab alio. Videndum est ergo vn¬ 
+            <lb ed="#V" n="17"/>de sumatur roe peccati, vel ex eo, quod aliquid recipit 
+            <lb ed="#V" n="18"/>in patiente, vel &amp;x eo, quod aliquid egreditur ab agen¬ 
+            <lb ed="#V" n="19"/>te. Hanc autem qonem determinat Danes: Matth. I5 
+            <lb ed="#V" n="20"/>asserens, quod id, quod intrat in os i est in hoiem, vel id, 
+            <lb ed="#V" n="21"/>quod recipitur in hoie, non coinquinat hoiem, 
+            <lb ed="#V" n="22"/>sed id, quod exit a corde, &amp; ab ore, siue ab hoie tam¬ 
+            <lb ed="#V" n="23"/>quam ab agente, &amp; cogitante, vel dicente mala 
+            <lb ed="#V" n="24"/>contra legem Dei, est id, quod coinquinat hoiem. 
+            <lb ed="#V" n="25"/>Vnde Aug. supra diffinit peccatum, quod est con¬ 
+            <lb ed="#V" n="26"/>cupitum quantum ad cor:vel dictum quantum ad 
+            <lb ed="#V" n="27"/>os: vel factum quantum ad opus contra legen Dei. 
+            <lb ed="#V" n="28"/>In ipsa ergo passione, vt passio est, non habemus 
+            <lb ed="#V" n="29"/>nos rt agentes, sed solum, vt patientes: Propter 
+            <lb ed="#V" n="30"/>quod non potest ibi esse peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1539">
+            <lb ed="#V" n="31"/>Secundo hoc idem patet, prout passio compa¬ 
+            <lb ed="#V" n="32"/>ratur ad potentias appetitiuas, &amp; cognitiuas. Nam 
+            <lb ed="#V" n="33"/>in cognolcendo est motus rerum ad animam, sed in 
+            <lb ed="#V" n="34"/>appetendo est motus aiae ad res. Et hos duos mo¬ 
+            <lb ed="#V" n="35"/>tus designat Philosophus in de anima: cum ait, quo 
+            <lb ed="#V" n="36"/>est motus ad illamid est ad animam, &amp; hoc modo ha¬ 
+            <lb ed="#V" n="37"/>bet esse motus, secundum potentiam cognitiuam. 
+            <lb ed="#V" n="38"/>Et ab illaid est ab aia, secundum quem modum ha¬ 
+            <lb ed="#V" n="39"/>bet esse talis motus, quantum ad potentiam appe¬ 
+            <lb ed="#V" n="40"/>titiuam, sed secundum motum rerum ad animam vn 
+            <lb ed="#V" n="41"/>sumi rono passionis: secundum motum animae ad res 
+            <lb ed="#V" n="42"/>Vrn sumi ratio actionis: sed quia peccatum secun¬ 
+            <lb ed="#V" n="43"/>dum se non habet esse in potentijs cognitiuis, sed 
+            <lb ed="#V" n="44"/>magis in appetitiuis, quia omne peccatum est vo¬ 
+            <lb ed="#V" n="45"/>luntarium, &amp; si non est voluntarium non est pec¬ 
+            <lb ed="#V" n="46"/>catum, in passione, vel in receptione secundum se¬ 
+            <lb ed="#V" n="47"/>non consistit peccatum, sed magis in actione. 
+            <lb ed="#V" n="48"/>Sed dices, quod loquendo de appetitu sensitiuo 
+            <lb ed="#V" n="49"/>magis habet ibi esse passio, quam in quacunque 
+            <lb ed="#V" n="50"/>potentia cognitiua. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1585">
+            <lb ed="#V" n="51"/>Ad quoddici potest, quod si consideretur mo 
+            <lb ed="#V" n="52"/>tus sensualitatis, vel appetitus sensitiui, habet ma¬ 
+            <lb ed="#V" n="53"/>gis rationem passionis, quam motus cuiuscunque 
+            <lb ed="#V" n="54"/>potentiae cognitiuae: sed ex eo, quod est ibi talis 
+            <lb ed="#V" n="55"/>passio, non est ibi peccatum, sed ex eo, quod ex ta¬ 
+            <lb ed="#V" n="56"/>li passione habet esse aliquis actus. Certum est 
+            <lb ed="#V" n="57"/>enim, quod sentire est quoddam pati, &amp; non est 
+            <lb ed="#V" n="58"/>pure pati, quia in ipso sentire est aliqua actio, proe¬ 
+            <lb ed="#V" n="59"/>ut est ibi iudicium de re sensibili. In immutatic 
+            <lb ed="#V" n="60"/>ne enim medii per quod fit actus sentiendi, vide 
+            <lb ed="#V" n="61"/>tur esse pura passio. quia medium ita immuta¬ 
+            <lb ed="#V" n="62"/>tur per speciem sensibilem, quod nihil iudicat 
+            <lb ed="#V" n="63"/>per immutationem illam: sed eum immutatur 
+            <!--535.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>organum sensus per speciem sensibilem, est ibi¬ 
+            <lb ed="#V" n="65"/>aliqua actio. quia fit aliquod iudicium per immt 
+            <lb ed="#V" n="66"/>tationem illam, sic in appetitu, cum patitur ab al¬ 
+            <lb ed="#V" n="67"/>petibili est ibi aliqua actio. quia membra mo¬ 
+            <lb ed="#V" n="68"/>uentur ad fugiendum, vel ad prosequendum, iux 
+            <lb ed="#V" n="69"/>ta passionem factam in appetitu: immo quan¬ 
+            <lb ed="#V" n="70"/>tum ad istam actionem maior est talis actio in 
+            <lb ed="#V" n="71"/>potentia appetitiua, quam in cognitiua. quia pro¬ 
+            <lb ed="#V" n="72"/>pter potentiam cognitiuam nisi ad cognitionem 
+            <lb ed="#V" n="73"/>illam, vel ad iudicium illud moucatur appetitus, 
+            <lb ed="#V" n="74"/>non fit motus in membris. Vnde &amp; Philosophus 
+            <lb ed="#V" n="75"/>in 3. de Anima: cum loquitur de mouente ipsam 
+            <lb ed="#V" n="76"/>potentiam appetitiuam, siue sit intellectiua, siue 
+            <lb ed="#V" n="77"/>sensitiua, dicit esse, quid mouens. Ipse enim intel¬ 
+            <lb ed="#V" n="78"/>lectus, vel ipse sensus non fit practicus id est non exit 
+            <lb ed="#V" n="79"/>in opus, nisi, vt se extendit ad appetitum. I ipso 
+            <lb ed="#V" n="80"/>ergo appetitu, vt mouet potentias, &amp; membra, 
+            <lb ed="#V" n="81"/>vel, vt ei obediunt virtutes motiuae, quaesunt in 
+            <lb ed="#V" n="82"/>musculis, &amp; neruis ad agendum aliquid, potest 
+            <lb ed="#V" n="83"/>esse peccatum, &amp; culpa: siue materialiter, &amp; im¬ 
+            <lb ed="#V" n="84"/>perfecte, prout hoc consistit in appetitu sensiti¬ 
+            <lb ed="#V" n="85"/>uo: siue formaliter, &amp; perfecte, prout hoc con¬ 
+            <lb ed="#V" n="86"/>sistit in appetitu intellectiuo. Principaliter enim, 
+            <lb ed="#V" n="87"/>&amp; perfecte in sola vvoluntate, quae est appetitus 
+            <lb ed="#V" n="88"/>intellectiuus, &amp; quae mouet seipsam, &amp; mouet 
+            <lb ed="#V" n="89"/>potentias ad suos actus, &amp; membra ad suas ope¬ 
+            <lb ed="#V" n="90"/>rationes, habet esse peccatum. Et inde veritatem 
+            <lb ed="#V" n="91"/>habet, quod toties replicatum est, quod omne¬ 
+            <lb ed="#V" n="92"/>peccatum est voluntarium. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1683">
+            <lb ed="#V" n="93"/>Dicebamus autem supra, quod motus sensua¬ 
+            <lb ed="#V" n="94"/>litatis, vel appetitus sensitiui, vt est passio, magis 
+            <lb ed="#V" n="95"/>habet rationem passionis, quam motus sensus 
+            <lb ed="#V" n="96"/>vt est potentia cognitiua considerando talem mo¬ 
+            <lb ed="#V" n="97"/>tum etiam, vt est passio, quod dupliciter potest 
+            <lb ed="#V" n="98"/>considerari, vel dedarari. Primo, quia ad mo¬ 
+            <lb ed="#V" n="99"/>tum sensualitatis verc paritur corpus, &amp; immu¬ 
+            <lb ed="#V" n="100"/>tatur corpus, quia si talis passio sit timor: tunc 
+            <lb ed="#V" n="101"/>corpus infrigidatur, quia propter timorem san¬ 
+            <lb ed="#V" n="102"/>guis refugit ad cor, &amp; membra remanent frigi¬ 
+            <lb ed="#V" n="103"/>da. Sed si talis passio sit ira, tunc non oportet, 
+            <lb ed="#V" n="104"/>quod refugiat ad cor, accendatur, &amp; calefiat: Pro¬ 
+            <lb ed="#V" n="105"/>pter quod diffinitur ira, quod est accensus san¬ 
+            <lb ed="#V" n="106"/>guinis circa cor: &amp; quia talis alteratio, &amp; talis 
+            <lb ed="#V" n="107"/>passio corporis magis habet esse ex motu po¬ 
+            <lb ed="#V" n="108"/>tentiae appetitiuae, quam cognitiuae: Ideo mo¬ 
+            <lb ed="#V" n="109"/>tus sensualitatis, siue appetitus sensitiui magis 
+            <lb ed="#V" n="110"/>habet rationem passionis, quam motus ipsius 
+            <lb ed="#V" n="111"/>sensus, vt est potentia cognitiua. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1727">
+            <lb ed="#V" n="112"/>Secundo hoc idem patet, si consideremus, 
+            <lb ed="#V" n="113"/>quid est ipsum pati. Nam hoc est pati, quia pas¬ 
+            <lb ed="#V" n="114"/>sum trahitur ad conditiones agentis, &amp; cum 
+            <lb ed="#V" n="115"/>calefactibile patitur a calefaciente, ante calefit, 
+            <lb ed="#V" n="116"/>&amp; trahitur ad modum, &amp; ad naturam calefacien¬ 
+            <lb ed="#V" n="117"/>tis. Hoc est autem in ipso appetitu, secundum 
+            <lb ed="#V" n="118"/>quem fit motus animae ad res: Non autem fit 
+            <lb ed="#V" n="119"/>hoc, secundum potentias cognitiuas, secun¬ 
+            <lb ed="#V" n="120"/>dum quas fit motus rerum ad animam: tamen¬ 
+            <lb ed="#V" n="121"/>in talibus passionibus, vt passiones sunt, nec lau¬ 
+            <lb ed="#V" n="122"/>damur, nec vituperamur, &amp; non habet ibi pro¬ 
+            <lb ed="#V" n="123"/>prie esse peccatum: sed prout passi, secun¬ 
+            <lb ed="#V" n="124"/>dum nassiones illas, nos habemus circa eas be¬ 
+            <lb ed="#V" n="125"/>ne, vel male, &amp; mouemur ad agendum aliquid 
+            <lb ed="#V" n="126"/>boni, vel mali: sic laudamur, vel vituperamur 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1762">
+            <!--536.xml-->
+            <pb ed="#V" n="536"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Propter quod ex hac via, prout passio com¬ 
+            <lb ed="#V" n="2"/>paratur ad potentias cognitiuas, &amp; appetitiuas, 
+            <lb ed="#V" n="3"/>patet, quod in ipsis passionibus, vt passiones sunt, 
+            <lb ed="#V" n="4"/>non habet esse peccatum, sed in nostris actioni¬ 
+            <lb ed="#V" n="5"/>bus, prout bene, vel male nos habemus prepe nras 
+            <lb ed="#V" n="6"/>actiones circa passiones illas: vtputa si aliquis ex 
+            <lb ed="#V" n="7"/>improuiso videret aliquid valde terribile, si appe¬ 
+            <lb ed="#V" n="8"/>titus eius pateretur, &amp; immutaretur, &amp; timeret 
+            <lb ed="#V" n="9"/>ex tali immutatione, vt est solum passio, non lau¬ 
+            <lb ed="#V" n="10"/>daretur, nec vituperaretur: sed si bene, vel male per¬ 
+            <lb ed="#V" n="11"/>actum appetitiuae se haberet circa illud terribile, 
+            <lb ed="#V" n="12"/>posset laudari, vel vituperari. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1798">
+            <lb ed="#V" n="13"/>Tertia via ad hoc idem potest sumi, prout pas¬ 
+            <lb ed="#V" n="14"/>sio comparatur ad diuersas potentias appetitiuas. 
+            <lb ed="#V" n="15"/>videlicet ad sensualitatem, quae est appetitus sen¬ 
+            <lb ed="#V" n="16"/>sitiuus, &amp; ad voluntatem, quae est appetitus inter. 
+            <lb ed="#V" n="17"/>lectiuus. Nam quantumcunque passionetur sen¬ 
+            <lb ed="#V" n="18"/>sualitas, vel moueatur inordinate, nisi voluntas 
+            <lb ed="#V" n="19"/>consentiat, vel in delectationem, vel in opus: non 
+            <lb ed="#V" n="20"/>potest ibi esse peccatum mortale, immo si statim 
+            <lb ed="#V" n="21"/>resistat illi passioni, vel illi motui inordinato, plus 
+            <lb ed="#V" n="22"/>est ibi meriti, quam demeriti, &amp; plus laudis, quao vi¬ 
+            <lb ed="#V" n="23"/>tuperii: Non ergo in ipsis passionibus, sed in ipso 
+            <lb ed="#V" n="24"/>actu voluntatis, &amp; in ipso consensu voluntatis ha¬ 
+            <lb ed="#V" n="25"/>bet esse peccatum, si consentiat illecebris: vel vir¬ 
+            <lb ed="#V" n="26"/>tus, si consentiat oppositis. Viso quomodo in 
+            <lb ed="#V" n="27"/>passione non habet esse peccatum, prout in pas¬ 
+            <lb ed="#V" n="28"/>sione habet esse multiplex operatio; Volumus 
+            <lb ed="#V" n="29"/>hoc idem ostendere, prout de passione fit multi¬ 
+            <lb ed="#V" n="30"/>plex distinctio. Distinguitur enim de passione, quod 
+            <lb ed="#V" n="31"/>aliquando est pura passio, siue hoc fiat a principio¬ 
+            <lb ed="#V" n="32"/>extrinseco, vt cum aliquis secatur, vel vritur, siue 
+            <lb ed="#V" n="33"/>hoc fiat a principio intrinseco, vt cum aliquis febri¬ 
+            <lb ed="#V" n="34"/>citat, &amp; habet calorem inordinatum. Aliquame vero 
+            <lb ed="#V" n="35"/>passio non est pura, sed est actioni coniuncta, vt 
+            <lb ed="#V" n="36"/>patet tam in sensibus, qui sunt potentiae cogniti¬ 
+            <lb ed="#V" n="37"/>uae, quao in sensualitate, quae est potentia appetitiua. 
+            <lb ed="#V" n="38"/>Cum en. immutatur sensus, non est ibi pura passio, 
+            <lb ed="#V" n="39"/>sed est ibi actio, vt iam patuit, quia est ibi iudicium 
+            <lb ed="#V" n="40"/>de sensibus. Et cum immutatur etiam appetitus 
+            <lb ed="#V" n="41"/>sensitiuus, non est ibi pura passio, sed ex tali imu¬ 
+            <lb ed="#V" n="42"/>tatione resultat aliquis actus in potentia appetiti 
+            <lb ed="#V" n="43"/>ua, cui obediunt membra, vt inuadant aliquid, 
+            <lb ed="#V" n="44"/>vel fugiant ab aliquo, secundum quod inclinat 
+            <lb ed="#V" n="45"/>actus ille resultans in potentia appetitiua. Ex ta¬ 
+            <lb ed="#V" n="46"/>libus ergo, siue sint passiones purae, siue passio¬ 
+            <lb ed="#V" n="47"/>nes cum actionibus, vt passiones sunt, prout 
+            <lb ed="#V" n="48"/>etiam communiter ponitur, non habet esse pecca¬ 
+            <lb ed="#V" n="49"/>tum, vel virtus, nisi prout circa passiones illas 
+            <lb ed="#V" n="50"/>diuersimode negociatur voluntas. quia etiam 
+            <lb ed="#V" n="51"/>circa meras passiones, tam a principio extrinse¬ 
+            <lb ed="#V" n="52"/>co, sicut est secari, &amp; vri: quam ab intrinseco, 
+            <lb ed="#V" n="53"/>sicut est febricitare, famescere, vel sitire potest 
+            <lb ed="#V" n="54"/>esse meritum, si voluntas hoc sustineat patien¬ 
+            <lb ed="#V" n="55"/>ter: vel demeritum si praeter rationem impatien¬ 
+            <lb ed="#V" n="56"/>tiam habeat. Et quod dictum est de mere pas¬ 
+            <lb ed="#V" n="57"/>sionibus, veritatem habet de passionibus mix¬ 
+            <lb ed="#V" n="58"/>tis, vel de passionibus, quas concomitantur ali¬ 
+            <lb ed="#V" n="59"/>quae actiones. quia ut passiones non sunt pecca¬ 
+            <lb ed="#V" n="60"/>tum, quia nec est laus, nec vituperium secun¬ 
+            <lb ed="#V" n="61"/>dum Philosophum, sed, vt circa eas negocia¬ 
+            <lb ed="#V" n="62"/>tur voluntas, potest ibi esse peccatum, &amp; vitu¬ 
+            <lb ed="#V" n="63"/>perium: &amp; laus, &amp; meritum
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1911">
+            <!--536.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="64"/>RESP. AD ARO. Ad primum dicen¬ 
+            <lb ed="#V" n="65"/>dum, quod in motu sensualitatis non habet esse 
+            <lb ed="#V" n="66"/>peccatum, nisi prout talis motus est in potestate 
+            <lb ed="#V" n="67"/>voluntatis, &amp; prout talis motus est aliquo mo¬ 
+            <lb ed="#V" n="68"/>do voluntarius. quia si nullo modo esset volunta¬ 
+            <lb ed="#V" n="69"/>rius, nullo modo esset peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1931">
+            <lb ed="#V" n="70"/>Ad secundum dicendum, quod ira non dicit 
+            <lb ed="#V" n="71"/>solam passionem, sed dicit actum sensualitatis, 
+            <lb ed="#V" n="72"/>vel dicit actum irascibilis, qui magis opponitur 
+            <lb ed="#V" n="73"/>virtuti, quae est mansuetudo. Nam semper vir¬ 
+            <lb ed="#V" n="74"/>tus est inter duo vitia, &amp; vni illorum opponitur 
+            <lb ed="#V" n="75"/>magis: Alii vero minus, vt liberalitas magis or¬ 
+            <lb ed="#V" n="76"/>ponitur auaritiae, quam prodigalitati. sic man¬ 
+            <lb ed="#V" n="77"/>suetudo est inter iram, &amp; insensibilitatem. Nam¬ 
+            <lb ed="#V" n="78"/>aliqui sunt iracundi, qui sine causa rationali mo¬ 
+            <lb ed="#V" n="79"/>uentur ad iram. Aliqui autem sunt insensibiles. 
+            <lb ed="#V" n="80"/>qui etiam existente causa rationali non irascun¬
+            <lb ed="#V" n="81"/>tur: contra quos ait Propheta: Irascimini, &amp; 
+            <lb ed="#V" n="82"/>nolite peccare. Mansuetudo autem est virtus me¬ 
+            <lb ed="#V" n="83"/>dia, sed magis opponitur irae. Ira ergo non di¬ 
+            <lb ed="#V" n="84"/>cit meram passionem, sed dicit actum, vel ui¬ 
+            <lb ed="#V" n="85"/>tium, cui opponitur virtus mansuetudinis. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1968">
+            <lb ed="#V" n="86"/>Et per hoc patet solutio ad tertium. quia il¬ 
+            <lb ed="#V" n="87"/>lud concupiscere contra spiritum non dicit me¬ 
+            <lb ed="#V" n="88"/>ram passionem, sed dicit actum inordinatum ip¬ 
+            <lb ed="#V" n="89"/>sius concupiscibilis. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1979">
+            <lb ed="#V" n="90"/>Ad quartum dicendum, quod ipsae passiones 
+            <lb ed="#V" n="91"/>secundum se non valent esse peccatum. sed si sit 
+            <lb ed="#V" n="92"/>ibi contra rationem superabundantia, vel defe¬ 
+            <lb ed="#V" n="93"/>ctus, poterit ibi esse peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e1990">
+            <lb ed="#V" n="94"/>Ad formam autem arguendi dicendum, quod 
+            <lb ed="#V" n="95"/>non propter ipsas est peccatum, sed quia sunt 
+            <lb ed="#V" n="96"/>superabundantes, &amp; non regulantur a ratione, 
+            <lb ed="#V" n="97"/>vel a voluntate, quae est appetitus sequens ra¬ 
+            <lb ed="#V" n="98"/>tionem: Ideo ibi contingit esse peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m156625-d1e2004">
+            <lb ed="#V" n="99"/>Ad quintum dicendum, quod circa passio¬ 
+            <lb ed="#V" n="100"/>nes secundum se, nec est laus, nec vituperium 
+            <lb ed="#V" n="101"/>vt saepe dictum est per Philosophum, sed pro¬ 
+            <lb ed="#V" n="102"/>ut circa eas negociatur voluntas, &amp; ratio pos¬ 
+            <lb ed="#V" n="103"/>sunt haec ibi cor: ingere. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

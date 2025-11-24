@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="488"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m144179"><!-- l2d33q2 -->
+        <head xml:id="Gi9qrR-m144179-Hd1e101">Quaestio 2</head>
+        <head xml:id="Gi9qrR-m144179-Hd1e103" type="question-title">De peccati originalis poena</head>
+        <p xml:id="Gi9qrR-m144179-d1e106">
+          <lb ed="#V" n="93"/>QVAEST. II. 
+          <lb ed="#V" n="94"/>De peccati originalis poena. 
+        </p>
+        <p xml:id="Gi9qrR-m144179-d1e113">
+          <lb ed="#V" n="95"/>DEINDE quaeritur de secun¬ 
+          <lb ed="#V" n="96"/>do principali, uidelicet de poe¬ 
+          <lb ed="#V" n="97"/>na originalis peccati. Et circa 
+          <lb ed="#V" n="98"/>hoc quaeruntur duo. Primo 
+          <lb ed="#V" n="99"/>utrum originali peccato post 
+          <lb ed="#V" n="100"/>mortem debeatur poena sens¬ 
+          <lb ed="#V" n="101"/>bilis in illis, qui decedunt in originali tantum. 
+        </p>
+        <p xml:id="Gi9qrR-m144179-d1e131">
+          <lb ed="#V" n="102"/>Secundo specialiter quaeritur de interiori p¬ 
+          <lb ed="#V" n="103"/>na, quae est dolor. Vtrum decedentes in origi¬ 
+          <lb ed="#V" n="104"/>nali tmn dolcant de co, quod carent uisione diuina 
+        </p>
+        <div xml:id="Gi9qrR-m144179-Dd1e141">
+          <head xml:id="Gi9qrR-m144179-Hd1e143">Articulus 1</head>
+          <p xml:id="Gi9qrR-m144179-d1e145">
+            <lb ed="#V" n="105"/>ARIIC. I. 
+            <lb ed="#V" n="106"/>An peccato originali secundum s¬ 
+            <lb ed="#V" n="107"/>paena sensibilis debeatur. 
+            <lb ed="#V" n="108"/>Conclusio est negativa. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e156">
+            <lb ed="#V" n="109"/>D. Tho. 2. sent. d. 33. q. 3. a1. 1. Et dt Malo q. 4. arti. 3. Sco 
+            <lb ed="#V" n="110"/>d. 33. q. 1. Biel d. 33. q. 1. Tho. Arg. d. 33. q. 1. art. Graeg¬ 
+            <lb ed="#V" n="111"/>Arim. d. 30. quaest. 1. arti. 1. Ant. Andr. d. 33. q. 1. Capr 
+            <lb ed="#V" n="112"/>d. 33.q. ult 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e167">
+            <lb ed="#V" n="113"/>AD primum sic proceditur: Vi 
+            <lb ed="#V" n="114"/>detur, quod peccato origina¬ 
+            <lb ed="#V" n="115"/>li secundum se debeatur pae¬ 
+            <lb ed="#V" n="116"/>na sensibilis. Dicit en. Aug. de 
+            <lb ed="#V" n="117"/>fide ad Petrum, Paruulos de 
+            <lb ed="#V" n="118"/>hoc seculo sine Baptismo tran¬ 
+            <!--489.xml-->
+            <pb ed="#V" n="489"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>seuntes ignis aeterni supplicio sempiterno pu¬ 
+            <lb ed="#V" n="2"/>nitos. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e193">
+            <lb ed="#V" n="3"/>Praeterea maiori culpae debetur maior pena¬ 
+            <lb ed="#V" n="4"/>sed culpa originalis vr maior, quam venialis: cum 
+            <lb ed="#V" n="5"/>gra stet simul cum culpa ueniali, non autem cum 
+            <lb ed="#V" n="6"/>originali sed culpae uenialidebetur pena sensi¬ 
+            <lb ed="#V" n="7"/>bilis ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e207">
+            <lb ed="#V" n="8"/>Praeterea post hanc uitam grauius puniun¬ 
+            <lb ed="#V" n="9"/>tur peccata, quam in hac uita. Sed in hac uita 
+            <lb ed="#V" n="10"/>pro peccato originali sunt inflictae nobis mul¬ 
+            <lb ed="#V" n="11"/>tae poenae sensibiles: ut mors, egritudo, &amp; labor¬ 
+            <lb ed="#V" n="12"/>ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e220">
+            <lb ed="#V" n="13"/>Praeterea si non puniantur poena sensibili, er¬ 
+            <lb ed="#V" n="14"/>go habebunt corpus impassibibile, sed corpus 
+            <lb ed="#V" n="15"/>impassibile non potest esse nisi propter duplicenm¬ 
+            <lb ed="#V" n="16"/>causam, uel propter dotem impassibilitatis, se¬ 
+            <lb ed="#V" n="17"/>cundum quem modum post resurrectionem 
+            <lb ed="#V" n="18"/>erunt impassibilia corpora beatorum, &amp; tunc 
+            <lb ed="#V" n="19"/>paruuli sic decedentes essent beati. quod est in¬ 
+            <lb ed="#V" n="20"/>conueniens, uel propter originalem iustitiam, 
+            <lb ed="#V" n="21"/>scdm quem modum erat impassibile ante pec¬ 
+            <lb ed="#V" n="22"/>catum corpus Ade. Et si hoc modo essent im¬ 
+            <lb ed="#V" n="23"/>passibilia corpora paruulorum: tunc decede¬ 
+            <lb ed="#V" n="24"/>rent cum originali iustitia, &amp; non haberent ori¬ 
+            <lb ed="#V" n="25"/>ginale peccatum, quod est contra quaestionem 
+            <lb ed="#V" n="26"/>motam: cum quaestio mota sit de paruulis dece 
+            <lb ed="#V" n="27"/>dentibus in originali peccato. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e255">
+            <lb ed="#V" n="28"/>IN CONTRARIVM est Augustinus, in 
+            <lb ed="#V" n="29"/>littera: uolens quod mitissima sane poena eorum 
+            <lb ed="#V" n="30"/>erit quasi praeter peccatum, quod origine tra¬ 
+            <lb ed="#V" n="31"/>xerunt nullum insuper addiderunt. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e266">
+            <lb ed="#V" n="32"/>Praeterea Deus remunerat supra condignum: 
+            <lb ed="#V" n="33"/>Qui ergo non peccauerunt per aliquem sensum, 
+            <lb ed="#V" n="34"/>non debent puniri aliqua poena sensibili. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e275">
+            <lb ed="#V" n="35"/>RESOLVTIO 
+            <lb ed="#V" n="36"/>poa pyrtit, onpintnpanusi, tstuamn¬ 
+            <lb ed="#V" n="37"/>se originale peccatum consideretur; si actuali¬ 
+            <lb ed="#V" n="38"/>gtneraliter: si . Adae specialiter comparetur: si de¬ 
+            <lb ed="#V" n="39"/>nique consideretur, cur post mortem alicui pae¬ 
+            <lb ed="#V" n="40"/>na debeatur aeterna. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e291">
+            <lb ed="#V" n="41"/>RESPONDEO dicendum quod quadru¬ 
+            <lb ed="#V" n="42"/>plici via inuestigare possumus, quod paruuli dece¬ 
+            <lb ed="#V" n="43"/>dentes in solo originali non punientur poena ali¬ 
+            <lb ed="#V" n="44"/>qua sensibili. Primo enim poterit hoc ostendi, si 
+            <lb ed="#V" n="45"/>consideretur peccatum originale, quid sit secun¬ 
+            <lb ed="#V" n="46"/>dum se, &amp; formaliter. Secundo ostendemr hoc 
+            <lb ed="#V" n="47"/>idem, si pctmaem originale comparetur ad peccatum 
+            <lb ed="#V" n="48"/>actuale generaliter. Tertio si tale peccatum con¬ 
+            <lb ed="#V" n="49"/>paretur ad peccatum actuale Adae specialiter. 
+            <lb ed="#V" n="50"/>Quarto si consideretur causa, quare alicui post 
+            <lb ed="#V" n="51"/>mortem debeatur poena sensibilis. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e318">
+            <lb ed="#V" n="52"/>Prima uia sic patet: Nam peccatum originale 
+            <lb ed="#V" n="53"/>formaliter, &amp; secundum se loquendo, est carentia 
+            <lb ed="#V" n="54"/>originalis iustitiae cum debito habendi eam. sed 
+            <lb ed="#V" n="55"/>illa originalis iustitia erat qddam donum gra¬ 
+            <lb ed="#V" n="56"/>tuitum, &amp; supernaturale. simpliciter en. &amp; abso¬ 
+            <lb ed="#V" n="57"/>lute loquendo, tale donum non erat debitum na¬ 
+            <lb ed="#V" n="58"/>turae, sed erat naturae gratis datum. per subtractio 
+            <lb ed="#V" n="59"/>nem ergo tabs doni fuit natura humana sibiit 
+            <!--489.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>si &amp; in suis naturalibus derelicta. propter quod nul¬ 
+            <lb ed="#V" n="61"/>la poena debetur paruulo ex tali carentia: nisi ca¬ 
+            <lb ed="#V" n="62"/>rentia eius, quod non ponet per naturam homo si¬ 
+            <lb ed="#V" n="63"/>bi, &amp; in suis naturalibus derelictam consequi, vel 
+            <lb ed="#V" n="64"/>hrie, hoc est carentia uisionis diuinae, quia talem 
+            <lb ed="#V" n="65"/>visionem nullus potest attingere per naturam. Cum n. 
+            <lb ed="#V" n="66"/>per peccatum primi parentis nihil sit subtractum 
+            <lb ed="#V" n="67"/>nobis de naturalibus sed solum de supernaturali 
+            <lb ed="#V" n="68"/>bus: Quia subtracta est nobis illa originalis iu¬ 
+            <lb ed="#V" n="69"/>stitia, quomr erat donum supernaturale, nihil debet 
+            <lb ed="#V" n="70"/>infligi naturae humanae, uel personae constitu¬ 
+            <lb ed="#V" n="71"/>te ex tali natura: Sed solum debet subtrahi pro¬ 
+            <lb ed="#V" n="72"/>Paena talis culpae aliquod bonum supernaturale, quod 
+            <lb ed="#V" n="73"/>est superna uisio, ad quam ordinabat illa origina 
+            <lb ed="#V" n="74"/>lis iustitia sed non ita de propinquo ordinaret 
+            <lb ed="#V" n="75"/>ad illam: sicut ordinat gratiam. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e377">
+            <lb ed="#V" n="76"/>Secunda uia ad hoc idem poet summi, prout 
+            <lb ed="#V" n="77"/>pctme originale comparat ad pctaner actuale gene 
+            <lb ed="#V" n="78"/>raliter. Nam in omni peccato actuali, generaliter 
+            <lb ed="#V" n="79"/>loquendo, est auersio ab inconmutabili bono, &amp; 
+            <lb ed="#V" n="80"/>conuersio ad conmutabile: Auersioni ergo randet 
+            <lb ed="#V" n="81"/>paena damni. Conuersioni rfendet poena sensus. nam 
+            <lb ed="#V" n="82"/>quia peccator se auertit a diuino lumine, dignum 
+            <lb ed="#V" n="83"/>est quod careat uisione diuini luminis. Est enim 
+            <lb ed="#V" n="84"/>hoc generaliter, quod quod auertitur a lumine, &amp; pri¬ 
+            <lb ed="#V" n="85"/>uatur visione illius luminis. Sed quia peccator 
+            <lb ed="#V" n="86"/>se conuertit ad conmutabile bonum, &amp; ad crea¬ 
+            <lb ed="#V" n="87"/>turam, quia omnis creatura est materialis, &amp; est 
+            <lb ed="#V" n="88"/>quod sensibile respectu Dei, quod est actus purus, cui¬ 
+            <lb ed="#V" n="89"/>non est aliqud admixtum de potentia; dignum est, quod 
+            <lb ed="#V" n="90"/>ptali conuersione poena materiali, quae est a ma¬ 
+            <lb ed="#V" n="91"/>teriali igne, &amp; poena sensibili, puniat Sed in pec¬ 
+            <lb ed="#V" n="92"/>cato originali est ita auersio ab incommutabili¬ 
+            <lb ed="#V" n="93"/>bono, quia est carentia originalis iustitiae. quae 
+            <lb ed="#V" n="94"/>nos subiiciebat, &amp; ordinabat ad illud bonum, quod 
+            <lb ed="#V" n="95"/>non est ibi conuersio ad commutabile bonum: pel¬ 
+            <lb ed="#V" n="96"/>quod tale peccatum sic meretur poenam damni,qu 
+            <lb ed="#V" n="97"/>non mererr poenam sensus. meretu nm poenam daneni ex 
+            <lb ed="#V" n="98"/>eo, quod est culpa, sed non meretur poenam sensus, quia 
+            <lb ed="#V" n="99"/>non est culpa actualis, &amp; personalis per se: Sed 
+            <lb ed="#V" n="100"/>est culpa naturalis per se. Si autem est culpa perso 
+            <lb ed="#V" n="101"/>nalis: hoc est inquantum natura inficit personam, 
+            <lb ed="#V" n="102"/>sed ista infectio, ut patet per habita, non est per¬ 
+            <lb ed="#V" n="103"/>appositionem alicuius mali, per se loquendo, sed 
+            <lb ed="#V" n="104"/>solum per subtractionem alicuius boniid est origi¬ 
+            <lb ed="#V" n="105"/>nalis iustitiae. &amp; quia poena debet ranedere culpae: 
+            <lb ed="#V" n="106"/>poena debita tali culpae pese, &amp; absolute loque¬ 
+            <lb ed="#V" n="107"/>do non erit per appositionem alicuius mali, sed so¬ 
+            <lb ed="#V" n="108"/>lum persubtractionem alicuius boniid est boni diuini, 
+            <lb ed="#V" n="109"/>cui nos subiiciebat originalis iustitia: priuabun¬ 
+            <lb ed="#V" n="110"/>tur ergo paruuli hoc bono, &amp; carebunt diuina 
+            <lb ed="#V" n="111"/>uisione, &amp; haec est poena competens illi culpae¬ 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e458">
+            <lb ed="#V" n="112"/>Tertia uia ad hoc idem sumitur, prout peccatum 
+            <lb ed="#V" n="113"/>originale comparatur ad actualem culpam Ada¬ 
+            <lb ed="#V" n="114"/>spanliter. Nam ex actuali culpa Adae infecta est na¬ 
+            <lb ed="#V" n="115"/>tura nra, prer cuius infectionem contrahimus pctoe¬ 
+            <lb ed="#V" n="116"/>originale, &amp; quia paruuli non per actum suum, 
+            <lb ed="#V" n="117"/>sed per actum primi parentis contrahunt origi 
+            <lb ed="#V" n="118"/>nale peccatum, quod est carentia boni superna¬ 
+            <lb ed="#V" n="119"/>turalis: ipsi Adae pro actuali suo peccato debe¬ 
+            <lb ed="#V" n="120"/>batur poena sensus: paruulis autem, quos pecca¬ 
+            <lb ed="#V" n="121"/>tum Adae non plus potuit attingere per se, &amp; 
+            <!--490.xml-->
+            <pb ed="#V" n="490"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>directe: nisi quia potuit eos priuare, &amp; priuauit 
+            <lb ed="#V" n="2"/>quodam bono supernaturali. ideo pro tali pri¬ 
+            <lb ed="#V" n="3"/>uatione, sola priuatio, &amp; sola carentia alicuius 
+            <lb ed="#V" n="4"/>boni supernaturalis debet esse competens, &amp; de 
+            <lb ed="#V" n="5"/>bita poena. Hoc autem est carentia diuini boni, 
+            <lb ed="#V" n="6"/>uel carentia uisionis illius boni, quod uidendo 
+            <lb ed="#V" n="7"/>adipiscimur omne bonum: nec dicimus, quod 
+            <lb ed="#V" n="8"/>in uisione diuina sit principaliter beatitudo no¬ 
+            <lb ed="#V" n="9"/>stra, sed dicimus, quod sine uisione diuina non 
+            <lb ed="#V" n="10"/>potest esse beatitudo nostra. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e510">
+            <lb ed="#V" n="11"/>Quarta uia ad hoc idem potest sumi, si consi¬ 
+            <lb ed="#V" n="12"/>deremus specialiter, quare alicui post mortem 
+            <lb ed="#V" n="13"/>debeatur pena sensibilis. Nam quia ratio supe¬ 
+            <lb ed="#V" n="14"/>rior consentit in delectatione operis praui: da¬ 
+            <lb ed="#V" n="15"/>to, quod non consentiat in ipsum opus, sed morose, 
+            <lb ed="#V" n="16"/>&amp; sine fraeno consentit in delectatione, ut supra¬ 
+            <lb ed="#V" n="17"/>patuit per Magistrum, potest ibi esse peccatum 
+            <lb ed="#V" n="18"/>mortale: &amp; ex hoc est ibi auersio, cui debetur pae¬ 
+            <lb ed="#V" n="19"/>na damni, &amp; conuersio, cui debetur poena sen¬ 
+            <lb ed="#V" n="20"/>sus. &amp; quod prauae delectationi circa commutabile¬ 
+            <lb ed="#V" n="21"/>bonum debeatur poena sensus, &amp; debeatur tor¬ 
+            <lb ed="#V" n="22"/>mentum, &amp; luctus, quae sunt poena sensibilis: sa¬ 
+            <lb ed="#V" n="23"/>tis ostendit Ioannes in Apoc. cum ait: Quantum 
+            <lb ed="#V" n="24"/>glorificauit se, &amp; in delitiis fuit, tantum date il¬ 
+            <lb ed="#V" n="25"/>li tormentum, &amp; luctum. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e545">
+            <lb ed="#V" n="26"/>RESP. AD ARG. Ad primum dicendum, 
+            <lb ed="#V" n="27"/>quod ibi supplitium ignis aeterni vocat Aug. ut communiter 
+            <lb ed="#V" n="28"/>ponitur, &amp; bene oenm poenam, eternam, siue sit pae¬ 
+            <lb ed="#V" n="29"/>na damni, siue sensus, &amp; quia originale pctnte 
+            <lb ed="#V" n="30"/>est carentia originalis iustitiae per quam ordinaba¬ 
+            <lb ed="#V" n="31"/>mur ad Deum, &amp; ad uidendum Deum, licet non 
+            <lb ed="#V" n="32"/>ita de propinquo sicut ordinamur per gratiam, 
+            <lb ed="#V" n="33"/>per quam non solum possumus stare, sed etiam 
+            <lb ed="#V" n="34"/>proficere: ergo pro tali carentia originalis iusti¬ 
+            <lb ed="#V" n="35"/>tiae patientur poena diuinae uisionis. Et quia par¬ 
+            <lb ed="#V" n="36"/>uuli decedunt cum tali carentia iustitiae, &amp; cum¬ 
+            <lb ed="#V" n="37"/>debito habendi eam: quia a tali debito non pos¬ 
+            <lb ed="#V" n="38"/>sunt absolui post mortem: ideo in eternum care¬ 
+            <lb ed="#V" n="39"/>bunt tali uisione, &amp; ex hoc poena damni erit eis 
+            <lb ed="#V" n="40"/>eterna. Et quia Aug. loquitur de supplitio ignis 
+            <lb ed="#V" n="41"/>aeterni uocans supplitium omnem poenam eter 
+            <lb ed="#V" n="42"/>nam, siue damni, siue sensus. ideo &amp;c. Quod autem 
+            <lb ed="#V" n="43"/>sic intelligenda sint verba Aug. patet per uerba¬ 
+            <lb ed="#V" n="44"/>eius posita in littera dicentis, quod poena paruulorum 
+            <lb ed="#V" n="45"/>decedentium solo originali est mitissima: non autem 
+            <lb ed="#V" n="46"/>esset mitissima, si esset ibi poena sensibilis. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e593">
+            <lb ed="#V" n="47"/>Ad secundum dicendum, quod pctaaem originale¬ 
+            <lb ed="#V" n="48"/>est maius ueniale quantum ad auersionem, sed non 
+            <lb ed="#V" n="49"/>est maius quantum ad conuersionem: immo si uolu¬ 
+            <lb ed="#V" n="50"/>mus proprie loqui in peccato ueniali, est conuer¬ 
+            <lb ed="#V" n="51"/>sio, sed non proprie est ibi auersio. In peccato 
+            <lb ed="#V" n="52"/>autem originali est econuerso ibi en. est auersio, 
+            <lb ed="#V" n="53"/>non conuersio: ideo peccato originali damni de¬ 
+            <lb ed="#V" n="54"/>betur, non pena sensus. sed peccato ueniali debe¬ 
+            <lb ed="#V" n="55"/>tur aliquo modo poena sensus. ppter quod argm¬ 
+            <lb ed="#V" n="56"/>magis concludit oppositum, quam propositum. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e618">
+            <lb ed="#V" n="57"/>Ad tertium dicendum, quod argm magis arguit 
+            <lb ed="#V" n="58"/>oppositum, quo propositum. Nam in hac uita pae¬ 
+            <lb ed="#V" n="59"/>na consequitur uirtutem naturalis agentis, ut con¬ 
+            <lb ed="#V" n="60"/>muniter ponitur, siue sit agens interius, ut febris. 
+            <lb ed="#V" n="61"/>siue agens exterius, ut gladius, uel ignis. sed post 
+            <lb ed="#V" n="62"/>mortem poena non innititur uirtuti naturalis 
+            <!--490.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>agentis, sed uirtuti diuinae iustitiae. Nam natu¬ 
+            <lb ed="#V" n="64"/>raliter loquendo ignis non posset agere in ani¬ 
+            <lb ed="#V" n="65"/>ma separata, quae punitur preorignem, ut est separa¬ 
+            <lb ed="#V" n="66"/>ta, &amp; ante resurrectionem, &amp; post resurrectionem 
+            <lb ed="#V" n="67"/>secundum hunc ordinem, quem uidemus, ignis 
+            <lb ed="#V" n="68"/>non poterit naturaliter agere, nec in corpus nec 
+            <lb ed="#V" n="69"/>in aniam damenatorum: quia non erit amplius tempus, &amp; 
+            <lb ed="#V" n="70"/>cessabit motus primi mobilis. Solum ergo haec 
+            <lb ed="#V" n="71"/>fient uirtute diuinae iustitiae &amp; quia patet. per ha¬ 
+            <lb ed="#V" n="72"/>bita quod diuina iustitia hoc exigit quod paruuli pu¬ 
+            <lb ed="#V" n="73"/>niantur pena damni: non poena sensus. ideo &amp;c 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e662">
+            <lb ed="#V" n="74"/>Ad quartum dicendum, quod argmne arguit ex insuf¬ 
+            <lb ed="#V" n="75"/>ficienti. supponiteni.m quod corpus sit impassibile, uel¬ 
+            <lb ed="#V" n="76"/>per dotem impassibilitatis, secundum quem modum 
+            <lb ed="#V" n="77"/>sunt impassibiles beati: aut per originalem iusti 
+            <lb ed="#V" n="78"/>tiam, secundum quem modum eratimpassibilis Adam 
+            <lb ed="#V" n="79"/>sed est daretertium modum, qui erit post re¬ 
+            <lb ed="#V" n="80"/>surrectionem, impassibilitas per mutationem na¬ 
+            <lb ed="#V" n="81"/>turae. quia post resurrectionem cessabit motus pri¬ 
+            <lb ed="#V" n="82"/>mi mobilis, &amp; non erit amplius tempus nec me¬ 
+            <lb ed="#V" n="83"/>rendi, nec demerendi, nec poenam sensibilem na¬ 
+            <lb ed="#V" n="84"/>turaliter patiendi. Si ergo post resurrectionem pa¬ 
+            <lb ed="#V" n="85"/>tientur aliqui sensibilem poenam corporalem hoc 
+            <lb ed="#V" n="86"/>non erit propter naturalem actionem, sed pro¬ 
+            <lb ed="#V" n="87"/>pter exigentiam diuinae iustitiae: &amp; quia, ut di¬ 
+            <lb ed="#V" n="88"/>ctum est, diuina iustitia hoc non exigit, quod par¬ 
+            <lb ed="#V" n="89"/>uuli patiantur poenam sensibilem ideo &amp;c. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m144179-Dd1e700">
+          <head xml:id="Gi9qrR-m144179-Hd1e702">Articulus 2</head>
+          <p xml:id="Gi9qrR-m144179-d1e704">
+            <lb ed="#V" n="90"/>ARTIC. II. 
+            <lb ed="#V" n="91"/>An paruuli sine baptismo deceden¬ 
+            <lb ed="#V" n="92"/>tes spiritualem dolorem 
+            <lb ed="#V" n="93"/>sentiant. 
+            <lb ed="#V" n="94"/>Conclusio est negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e717">
+            <lb ed="#V" n="95"/>D. Tho. 2. sent. d. 33. q. 3. artic. 2. Et de Malo q. 3. articu. 3. 
+            <lb ed="#V" n="96"/>D. Bon. d. 33. arti. 3. q. 1. Gad. Quol. 6. q. 21. Ric. d. 33. 
+            <lb ed="#V" n="97"/>q. 5. Biel. d. 33. q. 1. Dur. d. 33. q. 3. Tho. Arg d. 33. q. 
+            <lb ed="#V" n="98"/>arti. 4. Ant And. d. 33. q. 1. Capr. d. 33. q. ult. Vidc alio 
+            <lb ed="#V" n="99"/>Doct. supra citatos 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e730">
+            <lb ed="#V" n="100"/>AD secundum sic proceditur. Videtur 
+            <lb ed="#V" n="101"/>quod paruuli non Baptixati spi¬ 
+            <lb ed="#V" n="102"/>ritualem dolorem, &amp; afflictio¬ 
+            <lb ed="#V" n="103"/>nem in aia sentiant: Quia ut dicitur 
+            <lb ed="#V" n="104"/>Esa. de damnatis, quod uer¬  
+            <lb ed="#V" n="105"/>mis eorum non morietur, &amp; 
+            <lb ed="#V" n="106"/>ignis eorum non extinguetur. &amp; <ref xml:id="Gi9qrR-m144179-Rd1e747">Aug. 10. de Ci.</ref>
+            <lb ed="#V" n="107"/>Ignem refert ad poenam corporalem: quia per 
+            <lb ed="#V" n="108"/>ignem sustinebunt acerbitatem paene corporae 
+            <lb ed="#V" n="109"/>lis. Vermen ad afflictionem conscientiae, quam 
+            <lb ed="#V" n="110"/>habebunt de tanto bono, quod amiserunt: immo¬ 
+            <lb ed="#V" n="111"/>communiter ponitur, quod plus dolebunt dam¬ 
+            <lb ed="#V" n="112"/>nati de poena damni: quia amiserunt tantum bo¬ 
+            <lb ed="#V" n="113"/>num,:quam de poena sensus, qua affliguntur ab 
+            <lb ed="#V" n="114"/>igne materiali. Cum ergo paruuli habeant poenam 
+            <lb ed="#V" n="115"/>damniti uidetur, quod hoc esse non possit, sine 
+            <lb ed="#V" n="116"/>magno dolore, &amp; afflictione mentis. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e772">
+            <lb ed="#V" n="117"/>Praeterea cum quis caret eo, quod delectat: 
+            <lb ed="#V" n="118"/>sine dolore, &amp; afflictione esse non potest. Sed in 
+            <lb ed="#V" n="119"/>uisione diuina est maxima delectatio; caren¬ 
+            <lb ed="#V" n="120"/>tia ergo eius in paruulis non erit sine dolore. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e784">
+            <!--491.xml-->
+            <pb ed="#V" n="491"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeterea si dicatur, quod paruuli non hapepunt 
+            <lb ed="#V" n="2"/>&amp;x hoc dolorem: quia non amiserunt illud per pro¬ 
+            <lb ed="#V" n="3"/>priam culpam; Contra: quia videtur, quod hoc do¬ 
+            <lb ed="#V" n="4"/>lorem augeat, non mmuat quia uidemus hones 
+            <lb ed="#V" n="5"/>magis dolere, cum perdunt aliquid non sua cul¬ 
+            <lb ed="#V" n="6"/>pa, quam si illud perderent sua culpa. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e806">
+            <lb ed="#V" n="7"/>Praeterea sicut pueri Baptizati se habent ad 
+            <lb ed="#V" n="8"/>meritum Vpei, sic non Baptizati se habent ad de 
+            <lb ed="#V" n="9"/>meritum Adae sed pueri Baptizati consequuntur 
+            <lb ed="#V" n="10"/>per meritum Christi non solum diuinam uisio¬ 
+            <lb ed="#V" n="11"/>nem, sed etiam magnum gaudium ex tali uisione. ergo¬ 
+            <lb ed="#V" n="12"/>pueri non baptizati propter demeritum Ade habe¬ 
+            <lb ed="#V" n="13"/>bunt non solum diuinae uisionis carentiam, sed 
+            <lb ed="#V" n="14"/>etiam habebunt magnum dolorem. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e826">
+            <lb ed="#V" n="15"/>IN CONTRARIVM est: quia recta ratio 
+            <lb ed="#V" n="16"/>non patitur, quod aliquis turbetur, uel doleat de 
+            <lb ed="#V" n="17"/>hoc, quod uitare non potuit: sed paruuli non po¬ 
+            <lb ed="#V" n="18"/>tuerunt hoc uitare, quin incurrerent carentiam 
+            <lb ed="#V" n="19"/>talis uisionis, ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e839">
+            <lb ed="#V" n="20"/>Praeterea ponebant Stoici, quod in sapientem uirum 
+            <lb ed="#V" n="21"/>non poterat cadere tristitia, uel perturbatio. Po¬ 
+            <lb ed="#V" n="22"/>nebant n. quod si homo est sapiens, adhibet omnae¬ 
+            <lb ed="#V" n="23"/>remedium, quod potest, ne accidat sibi aliquod ma¬ 
+            <lb ed="#V" n="24"/>lum. solum ergo illud malum accidit sapienti, 
+            <lb ed="#V" n="25"/>quod uitare non potest, quo posito si tale malum 
+            <lb ed="#V" n="26"/>accidat, non tristatur. sed hoc est in paruulis de¬ 
+            <lb ed="#V" n="27"/>cedenuibus sine Baptismo, orgo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e859">
+            <lb ed="#V" n="28"/>RESOLVTIO. 
+            <lb ed="#V" n="29"/>Paruuli spiritualem, &amp; afflictiuam penam in ani¬ 
+            <lb ed="#V" n="30"/>ma sine Baptismo de codentes non sentiunt. Id 
+            <lb ed="#V" n="31"/>quod diuino ordini, diurinae inflitiae, diuinaeque 
+            <lb ed="#V" n="32"/>competit dispositioni: vt patet ex motu vosun¬ 
+            <lb ed="#V" n="33"/>tatis: absentia boni: praesentia mali: eorum slae¬ 
+            <lb ed="#V" n="34"/>tu, ac voluntatis indifformitate, diuinaque iu¬ 
+            <lb ed="#V" n="35"/>ssitia inbente. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e879">
+            <lb ed="#V" n="36"/>RESPONDRO dicendum, quod omnia haec 
+            <lb ed="#V" n="37"/>reducenda sunt ad diuinum ordinem, uel ad di¬ 
+            <lb ed="#V" n="38"/>uinam dispositionem, vel ad diuinam iustitiam 
+            <lb ed="#V" n="39"/>Nam diuina iustitia non patitur, quod paruuli¬ 
+            <lb ed="#V" n="40"/>tristentur, &amp; affligantur interius propter id, quod 
+            <lb ed="#V" n="41"/>perdiderunt, non per actum, &amp; motum pro¬ 
+            <lb ed="#V" n="42"/>prium, non per actuale peccatum proprium, 
+            <lb ed="#V" n="43"/>sed per peccatum Adae. Quia si quaeratur causa, 
+            <lb ed="#V" n="44"/>quare dicatur poena sensibilis; Dici potest non so¬ 
+            <lb ed="#V" n="45"/>lum illas, per quas quis affligitur per agens cor¬ 
+            <lb ed="#V" n="46"/>porale exterius, ut per ignem, sed etiam per tri¬ 
+            <lb ed="#V" n="47"/>stitiam, &amp; afflictionem interius in mente: quia 
+            <lb ed="#V" n="48"/>non est modica pena actu dolere, &amp; tristari inte 
+            <lb ed="#V" n="49"/>rius. sicut ergo culpa paruulorum solum est in 
+            <lb ed="#V" n="50"/>subtractione alicuius boni, non in appositior c 
+            <lb ed="#V" n="51"/>alicuius mali, per se loquendo, ideo poena eorum 
+            <lb ed="#V" n="52"/>solum erit in subtractione boni diuini, &amp; diuinag 
+            <lb ed="#V" n="53"/>uisionis: non in appositione poene exterioris, 
+            <lb ed="#V" n="54"/>uel tristitiae interioris. ideo omnes illas quatuor 
+            <lb ed="#V" n="55"/>rationes, quas adduximus ad probandum, quod 
+            <lb ed="#V" n="56"/>paruuli, exigente hoc diuina iustitia, non affligen 
+            <lb ed="#V" n="57"/>tur per penam exteriorem: possumus adaptare, 
+            <lb ed="#V" n="58"/>quod non affligentur interius per tristitiam in¬ 
+            <lb ed="#V" n="59"/>teriorem. Sic ergo potest solui quaestio prono¬ 
+            <!--491.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>sita per comparationem ad praecedentem. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e941">
+            <lb ed="#V" n="61"/>Sed si uolumus eam soluere in se; Dicemus 
+            <lb ed="#V" n="62"/>quod circa hoc est triplex modus dicendi. Qui¬ 
+            <lb ed="#V" n="63"/>damenim dicunt, quod paruuli non dolebunt 
+            <lb ed="#V" n="64"/>post mortem de poena damni, quam habent. quia 
+            <lb ed="#V" n="65"/>non habebunt cognitionem sui status. Nam si¬ 
+            <lb ed="#V" n="66"/>cut ante mortem non cognoscebant statum suum, 
+            <lb ed="#V" n="67"/>sic post mortem, ut dicunt non cognoscent il¬ 
+            <lb ed="#V" n="68"/>lum. propter quod non dolebunt, quia poena 
+            <lb ed="#V" n="69"/>damni sine cognitione damni non potest dolo. 
+            <lb ed="#V" n="70"/>rem parere, sed hoc communiter improbatur, 
+            <lb ed="#V" n="71"/>&amp; bene: quia irrationale est, quod anima separa 
+            <lb ed="#V" n="72"/>ta cognitionem sui status non habeat, &amp; quod 
+            <lb ed="#V" n="73"/>non cognoscat, quod naturali ratione cognosci¬ 
+            <lb ed="#V" n="74"/>non potest. Est ergo alius modus dicendi, quod 
+            <lb ed="#V" n="75"/>paruuli dolebunt de poena damni, sed mitigabi¬ 
+            <lb ed="#V" n="76"/>tur eorum dolorde damno, quod habent &amp; de 
+            <lb ed="#V" n="77"/>bono, quod perdiderunt: quia hoc non fuit pro¬ 
+            <lb ed="#V" n="78"/>pter eorum actum, uel propter eorum opus. Sed 
+            <lb ed="#V" n="79"/>hoc non est rationale ponere: quia tunc poena eo¬ 
+            <lb ed="#V" n="80"/>rum non esset mitissima: cuius contrarium asse 
+            <lb ed="#V" n="81"/>rit Aug. vt habetur in littera. Adhaereamus ergo¬ 
+            <lb ed="#V" n="82"/>tertio modo dicendi, quod paruuli habebunet pae¬ 
+            <lb ed="#V" n="83"/>nam damni, uidelicet carentia diuinae uisionis. sed 
+            <lb ed="#V" n="84"/>nullam habebunt aliam poenam, nec sensus per¬ 
+            <lb ed="#V" n="85"/>ignem affligentem exterius: nec per tristitiam, 
+            <lb ed="#V" n="86"/>uel dolorem affligentem interius. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1000">
+            <lb ed="#V" n="87"/>Possumus autem 6. vijs declarare, quod par¬ 
+            <lb ed="#V" n="88"/>uuli non dolebunt de damno, quod habebunt. 
+            <lb ed="#V" n="89"/>Nam dolor, uel tristitia mentis, de qua hic loqui¬ 
+            <lb ed="#V" n="90"/>mur, est quidam motus uoluntatis paenosus pro¬ 
+            <lb ed="#V" n="91"/>pter absentiam alicuius boni, uel propter praesen¬ 
+            <lb ed="#V" n="92"/>tiam alicuius mali. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1016">
+            <lb ed="#V" n="93"/>Prima ergo uia sumetur, quodnon potest ibi esse 
+            <lb ed="#V" n="94"/>talis dolor ex ipso uoluntatis motu. 
+            <lb ed="#V" n="95"/>Secunda non potet hoc esse ex absentia boni, 
+            <lb ed="#V" n="96"/>Tertia, quod non ex praesentia mali. 
+            <lb ed="#V" n="97"/>Quarta ex eorum statu. 
+            <lb ed="#V" n="98"/>Quinta quia non possunt habere uoluntatem 
+            <lb ed="#V" n="99"/>difformem a Deo. 
+            <lb ed="#V" n="100"/>Sexta, quod nulla poena erit ibi, secundum exi¬ 
+            <lb ed="#V" n="101"/>gentiam diuinae iustitiae. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1038">
+            <lb ed="#V" n="102"/>Prima uia sic patet: Nam, ut habetur Esa. ub 
+            <lb ed="#V" n="103"/>loquitur de mensura poenae, respectu culpae: quia 
+            <lb ed="#V" n="104"/>hoc erit in mensura contra mensuram. Et ut expo¬ 
+            <lb ed="#V" n="105"/>nit interlinearis, erit in mensura poenae contra 
+            <lb ed="#V" n="106"/>mensuram culpae: cum ergo culpa originalis non 
+            <lb ed="#V" n="107"/>sit per aliquem motum uoluntatis: paruuli ante 
+            <lb ed="#V" n="108"/>mortem si in solo originali decedant, &amp; post 
+            <lb ed="#V" n="109"/>mortem puniantur per aliquem motum uolunta¬ 
+            <lb ed="#V" n="110"/>tis afflictiuum non est mensura penae, sed men¬ 
+            <lb ed="#V" n="111"/>sura culpae. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1062">
+            <lb ed="#V" n="112"/>Secunda uia sic patet: Peccatum origina, 
+            <lb ed="#V" n="113"/>le fuit per subtractionem boni gratuiti, &amp; pe¬ 
+            <lb ed="#V" n="114"/>derelictionem naturae in suis naturalibus. pro¬ 
+            <lb ed="#V" n="115"/>pter quod paruuli post mortem non poterunt 
+            <lb ed="#V" n="116"/>habere appetitum ultra appetitum naturalem 
+            <lb ed="#V" n="117"/>secundum se, &amp; sibi derelictum, sed bonum il¬ 
+            <lb ed="#V" n="118"/>lud, quo carent, est omnino supra naturam. pro¬ 
+            <lb ed="#V" n="119"/>pter quod ad hoc non poterunt habere appeti¬ 
+            <lb ed="#V" n="120"/>tum, nec poterunt de hoc dolere. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1084">
+            <lb ed="#V" n="121"/>Tertia uia ad hoc idem sumitur: quia hoc esse 
+            <!--492.xml-->
+            <pb ed="#V" n="492"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non potest ex praesentia alicuius mali. dictum est 
+            <lb ed="#V" n="2"/>enim, quod quia paruuli decesserunt in mera na¬ 
+            <lb ed="#V" n="3"/>tura sibi derelicta, non poterunt desiderare nisi 
+            <lb ed="#V" n="4"/>mera bona, quae mera natura potest adipisci: nec 
+            <lb ed="#V" n="5"/>poterunt dolere de praesentia alicuius mali: nisi¬ 
+            <lb ed="#V" n="6"/>mere naturalis: sed post mortem nulla talis peni¬ 
+            <lb ed="#V" n="7"/>tentia est, quae sit ex mera natura, ut supra patuit, 
+            <lb ed="#V" n="8"/>sed solum ex diuina iustitia. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1114">
+            <lb ed="#V" n="9"/>Quarta uia ad hoc idem sumitur ex eorum sta¬ 
+            <lb ed="#V" n="10"/>tu. Nam status eorum est in termino, propter 
+            <lb ed="#V" n="11"/>quod appetitus eorum naturalis: quia habet na¬ 
+            <lb ed="#V" n="12"/>turam sibi derelictam, est in termino, ut non pos¬ 
+            <lb ed="#V" n="13"/>sint amplius appetere, quam habeant. Et haec via 
+            <lb ed="#V" n="14"/>confirmat alias, vt quia sunt in termino non pos¬ 
+            <lb ed="#V" n="15"/>sunt ulterius appetere praesentiam alicuius alte¬ 
+            <lb ed="#V" n="16"/>rius boni: nec absentiam alicuius mali. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1134">
+            <lb ed="#V" n="17"/>Quinta uia sumitur: quia non potest ibi esse 
+            <lb ed="#V" n="18"/>difformitas uoluntatis paruulorum post mortem 
+            <lb ed="#V" n="19"/>a uoluntate diuina. nam secundum ea, quae gessi¬ 
+            <lb ed="#V" n="20"/>mus in uita, debemus recipere post mortem: si 
+            <lb ed="#V" n="21"/>ergo paruuli in uita non habuerunt uoluntatem 
+            <lb ed="#V" n="22"/>difformem a uoluntate Dei: quia nullum habue¬ 
+            <lb ed="#V" n="23"/>runt voluntatis motum, nec liberi arbitrii usum: 
+            <lb ed="#V" n="24"/>non potuerunt habere uoluntatem difformem 
+            <lb ed="#V" n="25"/>a uoluntate Dei Secus enim est in damnatis: quia 
+            <lb ed="#V" n="26"/>propter peccata actualia, quae commiserunt in 
+            <lb ed="#V" n="27"/>uita, habuerunt uoluntatem difformem a uolun¬ 
+            <lb ed="#V" n="28"/>tate Dei: consequens est ut habeant eam sic dif¬ 
+            <lb ed="#V" n="29"/>formem post mortem: paruuli uero, quia non ha¬ 
+            <lb ed="#V" n="30"/>buerunt eam difformem in uita: non habent dif¬ 
+            <lb ed="#V" n="31"/>formem post mortem. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1169">
+            <lb ed="#V" n="32"/>Sed dices, quod non habuerunt eam diffor¬ 
+            <lb ed="#V" n="33"/>mem, nec conformem: quia nullum habuerunt 
+            <lb ed="#V" n="34"/>uoluntatis motum, sed hoc confirmat nostrum 
+            <lb ed="#V" n="35"/>dictum. Sufficit enim nobis, quod sicut in uita 
+            <lb ed="#V" n="36"/>non habuerunt uoluntatem conformen, uel dif¬ 
+            <lb ed="#V" n="37"/>formem; ita non habeant post mortem: quia si¬ 
+            <lb ed="#V" n="38"/>haberent uoluntatem conformem, tunc placeret 
+            <lb ed="#V" n="39"/>eis poena damni, &amp; haberent de hoc gaudium, 
+            <lb ed="#V" n="40"/>quod nullus diceret: sed sufficit, quod non ha¬ 
+            <lb ed="#V" n="41"/>beant uoluntatem difformem, &amp; quod eis non 
+            <lb ed="#V" n="42"/>displiceat talis poena: ad hoc, quod de ea non 
+            <lb ed="#V" n="43"/>doleant. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1198">
+            <lb ed="#V" n="44"/>Sexta uia sic patet: Nam ibi non erit poena 
+            <lb ed="#V" n="45"/>nisi secundum exigentiam diuinae iustitiae. quod 
+            <lb ed="#V" n="46"/>ergo paruuli habeant poenam doloris, &amp; tristi¬ 
+            <lb ed="#V" n="47"/>tiae pro sola culpa originali, quam contraxerunt 
+            <lb ed="#V" n="48"/>sine delectatione, &amp; sine laetitia: diuina iustitia 
+            <lb ed="#V" n="49"/>non admittit. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1214">
+            <lb ed="#V" n="50"/>RESPON. AD ARG. Ad primum dicen¬ 
+            <lb ed="#V" n="51"/>dum, quod in damnatis pena damni, &amp; carentia 
+            <lb ed="#V" n="52"/>diuinae uisionis adgenerabit in eis poenam dolo 
+            <lb ed="#V" n="53"/>ris, &amp; tristitiae plus, quam poena sensus: quia plus 
+            <lb ed="#V" n="54"/>dolebunt de tanto bono, quod amisserunt, quam 
+            <lb ed="#V" n="55"/>de omnibus tormentis, quae patiuntur. sed hoc 
+            <lb ed="#V" n="56"/>est quia habent uoluntatem difformem a uolun¬ 
+            <lb ed="#V" n="57"/>tate diuina, sed paruuli licet non habeant uolun¬ 
+            <lb ed="#V" n="58"/>tatem contormem: quia non placet eis poena 
+            <lb ed="#V" n="59"/>damni, tamen quia non habent eam difformem, 
+            <lb ed="#V" n="60"/>&amp; non displicet eis talis poena, &amp; quia tristitia, 
+            <lb ed="#V" n="61"/>&amp; dolor sine displicentia esse non possunt: ideo 
+            <lb ed="#V" n="62"/>de tali pena nec tristantur, nec dolent. quae oia 
+            <!--492.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>consurgunt ex hoc fundamento, quod ibi non est 
+            <lb ed="#V" n="64"/>pena: nisi secundum exigentiam diuinae iustitiae. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1253">
+            <lb ed="#V" n="65"/>Ad secundum dicendum quod uisio diuina uel 
+            <lb ed="#V" n="66"/>quodcunque bonum non delectat nisi, uel habi¬ 
+            <lb ed="#V" n="67"/>tum in spe, uel habitum in re. In re autem tale 
+            <lb ed="#V" n="68"/>bonum non habent: nec possunt ipsum habere 
+            <lb ed="#V" n="69"/>in spe, cum uideant se omnino ineptos ad tale 
+            <lb ed="#V" n="70"/>bonum. quod est sic supra naturam. &amp; etiam quia 
+            <lb ed="#V" n="71"/>nullus potest habere spem de re omnino impos¬ 
+            <lb ed="#V" n="72"/>sibili, &amp; quia hoc est omnino impossibile, cum 
+            <lb ed="#V" n="73"/>sint in termino, &amp; non possint ulterius adipisci, 
+            <lb ed="#V" n="74"/>ideo non est rationale, quod doleant. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1278">
+            <lb ed="#V" n="75"/>Ad tertium dicendum, quod bonum, quo quis amit 
+            <lb ed="#V" n="76"/>tit non per propriam culpam quod magis inde do. 
+            <lb ed="#V" n="77"/>let. Verum est, si illud bonum sit ei debitum. &amp; 
+            <lb ed="#V" n="78"/>quia uisio diuina est supra naturam, &amp; nullo mo¬ 
+            <lb ed="#V" n="79"/>do secundum se est naturae debita. Ideo de carentia 
+            <lb ed="#V" n="80"/>talis boni: si hoc non fuit peeorum actum, uel eorum 
+            <lb ed="#V" n="81"/>opus: nullo modo dolere debent nec posteri, cum 
+            <lb ed="#V" n="82"/>hoc sit contra exigentiam diuinae iustitiae. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1298">
+            <lb ed="#V" n="83"/>Ad quartum dicendum, quod donum excedit pec¬ 
+            <lb ed="#V" n="84"/>catum Adae, ut patet per Apostolum ad Rom. pro¬ 
+            <lb ed="#V" n="85"/>pter quod non ualet si per donum xpiconse¬ 
+            <lb ed="#V" n="86"/>quimur gaudium post mortem, quod propter de¬ 
+            <lb ed="#V" n="87"/>meritum Adae paruuli patiantur aliquem dolo¬ 
+            <lb ed="#V" n="88"/>rem post mortem. Vel possumus dicere, quod non 
+            <lb ed="#V" n="89"/>est simile de gaudio, quantum ad praesentiam bo¬ 
+            <lb ed="#V" n="90"/>ni: &amp; de dolore quantum ad absentiam: quia 
+            <lb ed="#V" n="91"/>omnis praesentia cuiuscunque boni, siue sit natu¬ 
+            <lb ed="#V" n="92"/>rale, siue supra naturam: habet generare gaudium, 
+            <lb ed="#V" n="93"/>sed non absentia cuiuscunque boni habet gene¬ 
+            <lb ed="#V" n="94"/>rare dolorem, &amp; maxime si illud bonum sit su¬ 
+            <lb ed="#V" n="95"/>pra naturam, &amp; quod nec in re haberi possit. quia 
+            <lb ed="#V" n="96"/>spes, quae differtur, affligit animam. paruuli autem 
+            <lb ed="#V" n="97"/>illud bonum non possunt habere in re: cum sit su¬ 
+            <lb ed="#V" n="98"/>pra naturam, &amp; ipsi decedant in mera natura 
+            <lb ed="#V" n="99"/>sibi derelicta. Nec in spe possunt ipsum habere: 
+            <lb ed="#V" n="100"/>cum ipsi sint in termino, &amp; non possint operari 
+            <lb ed="#V" n="101"/>ulterius aliquod bonum, &amp; maxime, quod exce¬ 
+            <lb ed="#V" n="102"/>dit eorum statum, &amp; naturam. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1344">
+            <lb ed="#V" n="103"/>Dubitatio I Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1349">
+            <lb ed="#V" n="104"/>SVPER litteram primo quaeritur su¬ 
+            <lb ed="#V" n="105"/>per illo uerbo, quod possunt intelli¬ 
+            <lb ed="#V" n="106"/>gi plura peccata Adae in una trans¬ 
+            <lb ed="#V" n="107"/>gressione eius. Sed hoc videtur im¬ 
+            <lb ed="#V" n="108"/>possibile: cum non fuerit ibi nisi unus actus, &amp; 
+            <lb ed="#V" n="109"/>una transgressio, quod fuerint ibi plura pecca¬ 
+            <lb ed="#V" n="110"/>ta. Dicendum, quod in vno actu, &amp; in una trans¬ 
+            <lb ed="#V" n="111"/>gressione possunt esse plura peccata, id est plu¬ 
+            <lb ed="#V" n="112"/>re. circunstantiae peccatorum. propter quod in 
+            <lb ed="#V" n="113"/>unoipeccato Adae assignat Aug. in Enchiridion¬t 
+            <lb ed="#V" n="114"/>plura peccata quantum ad circunstantias, qua¬ 
+            <lb ed="#V" n="115"/>rum aliquae sunt sumptae propriae: alique uero, 
+            <lb ed="#V" n="116"/>ut communiter ponitur, secundum quandam si 
+            <lb ed="#V" n="117"/>militudinem, &amp; metaphoram. In peccato uero 
+            <lb ed="#V" n="118"/>Adae fuerunt tria proprie: superbia, inobediem 
+            <lb ed="#V" n="119"/>tia, &amp; gula. Superbia fuit ibi prout Adam com¬ 
+            <lb ed="#V" n="120"/>paratur ad seipsum: quia nimis dilexit propriam 
+            <lb ed="#V" n="121"/>excellentiam, quando uoluit se eleuare ultra quod 
+            <!--493.xml-->
+            <pb ed="#V" n="493"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Deus mandauerat Fuit ibi inobedientia respe¬ 
+            <lb ed="#V" n="2"/>ctu Dei, quia noluit obedire Deo. Fuit ibi gula¬ 
+            <lb ed="#V" n="3"/>respectu cibi; quia gustauit de cibo uetito: Pro¬ 
+            <lb ed="#V" n="4"/>pter quod in uno, &amp; eodem actu secundum diuer¬ 
+            <lb ed="#V" n="5"/>sas, &amp; diuersas circunstantias prtem nominari di¬ 
+            <lb ed="#V" n="6"/>uersa peccata. Notat etiam ibi Aug. ut patet 
+            <lb ed="#V" n="7"/>Enchi. 43. ubi de ista materia loquitur: multa¬ 
+            <lb ed="#V" n="8"/>alia peccata secundum quandam similitudi¬ 
+            <lb ed="#V" n="9"/>nem. quia fuit homicidium inquantum occi¬ 
+            <lb ed="#V" n="10"/>dit seipsum, spiritualiter sacrilegium, quia non 
+            <lb ed="#V" n="11"/>credidit Deo. Est enim sacrilegium quasi sacri¬ 
+            <lb ed="#V" n="12"/>furtum: Legere enim uno modo idem est quod 
+            <lb ed="#V" n="13"/>furari. Si enim non credimus Deo, qui est ipsa 
+            <lb ed="#V" n="14"/>ueritas &amp; qui non potest mentiri, &amp; furamur 
+            <lb ed="#V" n="15"/>ab eo illud sacrum, quod ibi debetur: uidelicet 
+            <lb ed="#V" n="16"/>quod debemus adhibere fidem dictis suis. Fuit 
+            <lb ed="#V" n="17"/>ibi fornicatio inquantum corrumpit integrita¬ 
+            <lb ed="#V" n="18"/>tem mentis sue, &amp; mentem suam, quam desponsa 
+            <lb ed="#V" n="19"/>tam Deo tradidit persuasione diaboli. fuerunt 
+            <lb ed="#V" n="20"/>etiam ibi alia peccata, quae narrant in littera, &amp; 
+            <lb ed="#V" n="21"/>sunt assumpta ab Aug. dicto lib. &amp; cap. Dici¬ 
+            <lb ed="#V" n="22"/>mus autem ista sumpta esse similitudinarie quia 
+            <lb ed="#V" n="23"/>non fuit ibi propria fornicatio, nec homicidium 
+            <lb ed="#V" n="24"/>nec sacrilegium, sed ad modum fornicantis, ho¬ 
+            <lb ed="#V" n="25"/>nicidiae &amp; sacrilegii se habuit 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1451">
+            <lb ed="#V" n="26"/>Dubitatio II. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1456">
+            <lb ed="#V" n="27"/>Vlterius forte dubitaret aliquis de hoc, quod 
+            <lb ed="#V" n="28"/>in littera dicitur quod non est putandum grauius Sed 
+            <lb ed="#V" n="29"/>contra: Quod habet minus incitatiuum ad pec¬ 
+            <lb ed="#V" n="30"/>candum, est reputandum grauius, sed Adam fu¬ 
+            <lb ed="#V" n="31"/>it huiusmodi. Ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1470">
+            <lb ed="#V" n="32"/>Praeterea peccatum quod maius malum in¬ 
+            <lb ed="#V" n="33"/>fert, est grauius, sed huiusmodi fuit peccatum 
+            <lb ed="#V" n="34"/>Ade Ergo &amp;c. Dicendum, quod peccatum de 
+            <lb ed="#V" n="35"/>bet reputari grauius ex ipsa auersione. Illud enim 
+            <lb ed="#V" n="36"/>quod magis auertit a Deo est grauius. Ion idola 
+            <lb ed="#V" n="37"/>tria est grauius pctmuer, quam gula, &amp; agere con¬ 
+            <lb ed="#V" n="38"/>tra legem naturalem in corde scriptam, est gra¬ 
+            <lb ed="#V" n="39"/>uius quod peccare contra legem uoce prolatam: &amp; 
+            <lb ed="#V" n="40"/>facere quod est secundum se malum, quod facere, 
+            <lb ed="#V" n="41"/>quod non est malum nisi quia prohibitum. Ex 
+            <lb ed="#V" n="42"/>his ergo sunt uidenda peccata maiora, uel mi¬ 
+            <lb ed="#V" n="43"/>nora, sed ex eo quod est per accidens, uel ex ali¬ 
+            <lb ed="#V" n="44"/>qua circunstantia aggrauante: non est hoc iudi¬ 
+            <lb ed="#V" n="45"/>candum. Cum ergo dium, quod minus habuit de 
+            <lb ed="#V" n="46"/>incitatiuo: hoc arguitu ex grauitate, &amp; circum¬ 
+            <lb ed="#V" n="47"/>stantia, non ex ipso genere peccati. Cum uero 
+            <lb ed="#V" n="48"/>additur, quod maius malum intulit peccatum 
+            <lb ed="#V" n="49"/>Adae: hoc fuit per accidens, quia inuenit naturam 
+            <lb ed="#V" n="50"/>integram. hoc n fecisset quodcunque aliud pctmete: 
+            <lb ed="#V" n="51"/>non obstante, quod aliqui dicant contrarium. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1516">
+            <lb ed="#V" n="52"/>Dubitatio III. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1521">
+            <lb ed="#V" n="53"/>Vlterius autem dubitatur: Si quodcumque aliud 
+            <lb ed="#V" n="54"/>peccatum commisisset Adam, intulisset poste¬ 
+            <lb ed="#V" n="55"/>ris suis tiane damnum, quantum intulit. Et vrtn qui¬ 
+            <lb ed="#V" n="56"/>busdam, quod non. quia solum esus illius ligni¬ 
+            <lb ed="#V" n="57"/>fuit sibi prohibitus, quod quacunque die co¬ 
+            <lb ed="#V" n="58"/>mederent morte morerentur. si ergo solum fuit 
+            <!--493.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>eis hoc prohibitum, &amp; pro solo hoc Deus com¬ 
+            <lb ed="#V" n="60"/>minatus est eis mortem: non videtur, quod pro alio 
+            <lb ed="#V" n="61"/>peccato mortem incurrissent tam ipse, quam po¬ 
+            <lb ed="#V" n="62"/>steri sui. Dicendum, quod qualecunque pecca¬ 
+            <lb ed="#V" n="63"/>tum fecissent mortem incurrissent: &amp; intulissent 
+            <lb ed="#V" n="64"/>illud damnum posteris suis, quod intulerunt. 
+            <lb ed="#V" n="65"/>Nam non incurrerunt aliud damnum posteri 
+            <lb ed="#V" n="66"/>sui nisi solam carentiam originalis iustitiae, cum 
+            <lb ed="#V" n="67"/>debito habendi eam. sed illa originalis iustitia 
+            <lb ed="#V" n="68"/>non compatiebatur secum aliquod peccatum. 
+            <lb ed="#V" n="69"/>Magis enim erat quantum ad hoc indignantis 
+            <lb ed="#V" n="70"/>naturae, quam sit gratia. Nam gratia compatitur se¬ 
+            <lb ed="#V" n="71"/>cum pctinte ueniale, sed illa nullum. Et ion dici¬ 
+            <lb ed="#V" n="72"/>mus, quod Adam non potuit primo peccare ue¬ 
+            <lb ed="#V" n="73"/>nialiter quod totum erat propter originalem iusti¬ 
+            <lb ed="#V" n="74"/>tiam. Nam quoediu ratio Adae erat subiecta Deo. Adam 
+            <lb ed="#V" n="75"/>peccare non poterat nec uenialiter nec mortali¬ 
+            <lb ed="#V" n="76"/>ter. &amp; quia non poterat rod eius auerti a Deo ni¬ 
+            <lb ed="#V" n="77"/>si per pctime mortale, non poterat Adam peccare 
+            <lb ed="#V" n="78"/>venialiter nisi prius peccaret mortaliter. quod¬ 
+            <lb ed="#V" n="79"/>cumque ergo pctinte fecisset Adam: priuasset ipsum, 
+            <lb ed="#V" n="80"/>&amp; nos originali iustitia, qua priuati incurri¬ 
+            <lb ed="#V" n="81"/>mus necessitatem moriendi, &amp; rebellionem uirium, 
+            <lb ed="#V" n="82"/>&amp; omnia, quae nunc incurrimus ppepctme originale. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1593">
+            <lb ed="#V" n="83"/>Ad argumentum autem in contrarium cum non 
+            <lb ed="#V" n="84"/>fuerit facta prohibitio nisi de esu ligni &amp; pperta¬ 
+            <lb ed="#V" n="85"/>lem prohibitionem facta fuit conminatio mor¬ 
+            <lb ed="#V" n="86"/>tis Dici debet, quod illa conminatio fuit per locum a 
+            <lb ed="#V" n="87"/>simili. Si en. esus ligni non erat malus, nisi quia 
+            <lb ed="#V" n="88"/>prohibitus. quia &amp; ex hoc fuit priuatus Adam 
+            <lb ed="#V" n="89"/>originali iustitia: si aliter peccasset. &amp; conmmisis¬ 
+            <lb ed="#V" n="90"/>set malum: non solum quia prohibitum, sed quod 
+            <lb ed="#V" n="91"/>esset de se malum, multo magis fuisset priuatus 
+            <lb ed="#V" n="92"/>illa iustitia. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1617">
+            <lb ed="#V" n="93"/>Dubitatio TTT Litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1622">
+            <lb ed="#V" n="94"/>Vlterius autem dubitatur de eo, quod in litera, ui¬ 
+            <lb ed="#V" n="95"/>delicet primos parentes per paenitentiam misericor¬ 
+            <lb ed="#V" n="96"/>diam consecutos. Sed contra: Non remittitur pec¬ 
+            <lb ed="#V" n="97"/>catum, nisi restituatu ablatum. sed Adam abstulit a 
+            <lb ed="#V" n="98"/>nobis originalem iustitiam, quo nunquam restituta 
+            <lb ed="#V" n="99"/>est nobis Ergo de huiusmodi peccato nunquam potest¬ 
+            <lb ed="#V" n="100"/>consequi veniam. Dicendum, quod non est dare per¬ 
+            <lb ed="#V" n="101"/>pessitudinem quamdiu sumus in uia. si ergo hon fa¬ 
+            <lb ed="#V" n="102"/>ciat totum, quod in se est, &amp; conuertitur, &amp; poeni¬ 
+            <lb ed="#V" n="103"/>tet, dato, quod non posset restituere ablatum, remit 
+            <lb ed="#V" n="104"/>titur sibi pctimne, ut siquis hetbret de alieno mille li¬ 
+            <lb ed="#V" n="105"/>bras, &amp; in mortem non hebret nisi obolum dando illum 
+            <lb ed="#V" n="106"/>obolum, &amp; dolendo, quod non potet plus restituere esset 
+            <lb ed="#V" n="107"/>absolutus. In sola ergo contritione dimittunt 
+            <lb ed="#V" n="108"/>peccata. Illud ergo dictum, quod non dimittit 
+            <lb ed="#V" n="109"/>peccatum nisi restituatur ablatum, locum habet, 
+            <lb ed="#V" n="110"/>quando est possibilis restitutio. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1662">
+            <lb ed="#V" n="111"/>Dubitatio D. Litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1667">
+            <lb ed="#V" n="112"/>Vlterius autem dubitat de eo, quod in litera do¬ 
+            <lb ed="#V" n="113"/>citur, quod si hon iuste uixerit non ex hoc meretur 
+            <lb ed="#V" n="114"/>mortem non perpeti. Contra mortem incurri¬ 
+            <lb ed="#V" n="115"/>mus propter peccatum Absoluti ergo a peccato, iu¬ 
+            <lb ed="#V" n="116"/>ste uiuendo meremur non perpeti mortem.
+            <!--494.xml-->
+            <pb ed="#V" n="494"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dicendum, quod mortem incurrimus propter 
+            <lb ed="#V" n="2"/>corruptionem naturae. Nam in Adam, ut supra 
+            <lb ed="#V" n="3"/>diffusius tangebatur: persona infecit naturam: 
+            <lb ed="#V" n="4"/>sed in suis posteris natura infecit personam: Re¬ 
+            <lb ed="#V" n="5"/>generatio ergo per Baptismum, per quem ablui¬ 
+            <lb ed="#V" n="6"/>mur a pctoe originali: &amp; confessio per contritio¬ 
+            <lb ed="#V" n="7"/>nem, per quam absoluimur a peccato actuali, non 
+            <lb ed="#V" n="8"/>terminantur ad naturam, sed ad personam. Absol 
+            <lb ed="#V" n="9"/>uitur ergo persona a peccato, uel a peccatis, sed 
+            <lb ed="#V" n="10"/>propter hoc non restituitur persona in statum 
+            <lb ed="#V" n="11"/>pristinum: uel ab soluitur persona secundum se: 
+            <lb ed="#V" n="12"/>sed non absoluitur, ut principium alterius. pro¬ 
+            <lb ed="#V" n="13"/>pter quod persona absoluta a peccatol originali¬ 
+            <lb ed="#V" n="14"/>generat filium cum tali peccato potuit ergo Adam 
+            <lb ed="#V" n="15"/>naturam suam corrumpere, sed non potuit se in 
+            <lb ed="#V" n="16"/>suum statum restituere, quod, &amp; in alijs contin¬ 
+            <lb ed="#V" n="17"/>git. Nam potens proiicere lapidem in puteum: non 
+            <lb ed="#V" n="18"/>oportet, quod possit ipsum inde extrahere: &amp; occi¬ 
+            <lb ed="#V" n="19"/>dens hoiem, non possit ipsum resuscitare, &amp; si¬ 
+            <lb ed="#V" n="20"/>cut n. potest animam corpori iterum reunire, qui po¬ 
+            <lb ed="#V" n="21"/>tuit animam creare, &amp; eam corpori infundere: 
+            <lb ed="#V" n="22"/>sic etiam solus ille potest naturam corruptam 
+            <lb ed="#V" n="23"/>restaurare, qui habet potentiam super totam na¬ 
+            <lb ed="#V" n="24"/>turam, quam non habet ullus purus homo: quan¬ 
+            <lb ed="#V" n="25"/>tum ergo ad ea, quae sunt personae, potest fieri re¬ 
+            <lb ed="#V" n="26"/>stauratio per Baptismum, uel per contritionem, 
+            <lb ed="#V" n="27"/>sed non quantum ad ea, quae sunt naturae. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1745">
+            <lb ed="#V" n="28"/>Dubitatio VI. litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1750">
+            <lb ed="#V" n="29"/>Vlterius autem dubitatur de hoc, quod in lit¬ 
+            <lb ed="#V" n="30"/>tera di, quod primos, &amp; secundos stimulos cogi¬ 
+            <lb ed="#V" n="31"/>tationis Graeci propatheias uocant, quod sonat hoc 
+            <lb ed="#V" n="32"/>es uerbum propatheiase Dicendum, quod hoc uerbum 
+            <lb ed="#V" n="33"/>dictum est per sincopam: debet enim dici protopa¬ 
+            <lb ed="#V" n="34"/>theis &amp; est interpretatio eius a protos, quod est pri¬ 
+            <lb ed="#V" n="35"/>mum, &amp; patheis, quod est passio. unde protopa¬ 
+            <lb ed="#V" n="36"/>theias, id est primas passiones. dicuntur autem 
+            <lb ed="#V" n="37"/>primae passiones quamdiu non est ibi peccatum 
+            <lb ed="#V" n="38"/>mortale: sed ueniale, siue sint primae cogitatio¬ 
+            <lb ed="#V" n="39"/>nes, siue secundae. 
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1776">
+            <lb ed="#V" n="40"/>Dubitatio VII litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m144179-d1e1781">
+            <lb ed="#V" n="41"/>Vlterius autem dubitatur de hoc, quod in li¬ 
+            <lb ed="#V" n="42"/>tera dituet quae n iustitia est, ut pater peccauit, &amp; 
+            <lb ed="#V" n="43"/>filius punitus est. sed subditur pro solutione sed 
+            <lb ed="#V" n="44"/>in mysterio illud dictum est, qualis sit ista solu¬ 
+            <lb ed="#V" n="45"/>tio quaestionis propositae. Dicendum, quod Cham¬ 
+            <lb ed="#V" n="46"/>peccauit quod uidit nuditatem patris, &amp; non coope¬ 
+            <lb ed="#V" n="47"/>ruit, sed suis fratribus annunciauit, &amp; tamen non 
+            <lb ed="#V" n="48"/>fuit punitus, Cham, sed fuit punitus eius filius 
+            <lb ed="#V" n="49"/>Chanaam, qui fuit maledictus, &amp; denunciatus ser¬ 
+            <lb ed="#V" n="50"/>uus: &amp; exponens Hiero. dicit hoc mysterialiter 
+            <lb ed="#V" n="51"/>factum esse. quia primae cogitationes, quae sunt 
+            <lb ed="#V" n="52"/>peccatum ueniale, per se loquendo, non puniun¬ 
+            <lb ed="#V" n="53"/>tur eternaliter: sed aliae cogitationes posterio¬ 
+            <lb ed="#V" n="54"/>res, quae sunt peccatum mortale, &amp; quae oriun¬ 
+            <lb ed="#V" n="55"/>tur ex primis, puniuntur aeternaliter. ad quod in 
+            <lb ed="#V" n="56"/>sinuandum non fuit punitus Cham pater, sed Cha¬ 
+            <lb ed="#V" n="57"/>naam ex eo genitus. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

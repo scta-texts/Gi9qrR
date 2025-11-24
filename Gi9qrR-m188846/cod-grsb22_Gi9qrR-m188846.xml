@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="637"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m188846"><!-- l2d42prae -->
+        <head xml:id="Gi9qrR-m188846-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m188846-d1e103">
+          <lb ed="#V" n="101"/>DIST. LII. 
+          <lb ed="#V" n="102"/>De peccati in communi specia¬ 
+          <lb ed="#V" n="103"/>libus differentiis. 
+        </p>
+        <p xml:id="Gi9qrR-m188846-d1e112">
+          <lb ed="#V" n="104"/>CVM AVTEM VO¬ 
+          <lb ed="#V" n="105"/>LVNTAS. IVt supra 
+          <lb ed="#V" n="106"/>dicebatur, hae autem 
+          <lb ed="#V" n="107"/>quatuor distinctio¬ 
+          <lb ed="#V" n="108"/>nes ultimae sic diui¬ 
+          <lb ed="#V" n="109"/>duntur contra praeceden¬ 
+          <lb ed="#V" n="110"/>tia: quia cum Magister 
+          <lb ed="#V" n="111"/>supra Cterminauerit 
+          <lb ed="#V" n="112"/>de pctoe actuali: i his 
+          <lb ed="#V" n="113"/>quatuor uitimis distinctionibus mouet quaedam 
+          <!--638.xml-->
+          <pb ed="#V" n="638"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>dubia, &amp; quasdam qones circa actuale peccatum, 
+          <lb ed="#V" n="2"/>&amp; quatuor facit iuxta has quatuor distinctio¬ 
+          <lb ed="#V" n="3"/>nes, secundum quod quadrupliciter circa actua¬ 
+          <lb ed="#V" n="4"/>le peccatum quaerit, &amp; dubitat. Nam in. 41. Dist. 
+          <lb ed="#V" n="5"/>dubitat de peccato actuali: prout comparatur 
+          <lb ed="#V" n="6"/>ad fideles. In hac autem. 43. Dist. dubitatur de 
+          <lb ed="#V" n="7"/>tali peccato, prout comparatur ad identitatem, 
+          <lb ed="#V" n="8"/>&amp; diuersitatem. in alijs autem duabus sequenti¬ 
+          <lb ed="#V" n="9"/>bus dubitatur de peccato actuali, prout dictum 
+          <lb ed="#V" n="10"/>est supra, &amp; dicetur infra. Igitur in hac. 42. dist. 
+          <lb ed="#V" n="11"/>Magister intendit dubitare de peccato, prout 
+          <lb ed="#V" n="12"/>comparatur ad identitatem, &amp; diuersitatem. Et 
+          <lb ed="#V" n="13"/>duo facit. Nam primo facit, quod dictum est. 
+          <lb ed="#V" n="14"/>Secundo ex diuersitate peccatorum sumuntur 
+          <lb ed="#V" n="15"/>diuersi modi peccandi, &amp; sumuntur diuersae. dist. 
+          <lb ed="#V" n="16"/>peccatorum: Ideo ass ignat diuersos modos pec¬ 
+          <lb ed="#V" n="17"/>candi, &amp; dat diuersas distinctiones de peccatis. 
+          <lb ed="#V" n="18"/>Secunda ibi: tModi antem peccatorum. 1Circa pri¬ 
+          <lb ed="#V" n="19"/>mum duo facit: quia primo facit, quod dictum 
+          <lb ed="#V" n="20"/>est. Secundo specialiter quaerit de actu in com¬ 
+          <lb ed="#V" n="21"/>paratione ad reatum ibi: t Praeterea quaeri solet. 1 
+          <lb ed="#V" n="22"/>Circa primum tria facit, quia primo quaerit an¬ 
+          <lb ed="#V" n="23"/>actus interior, &amp; exterior sit unum peccatum, 
+          <lb ed="#V" n="24"/>uel plura peccata, &amp; ait secundum quosdam esse 
+          <lb ed="#V" n="25"/>unum peccatum. Et obiicit contra hoc: quia cum 
+          <lb ed="#V" n="26"/>duo sint acus, uel sint duo peccata, uel duo non 
+          <lb ed="#V" n="27"/>peccata. Et soluit, quod sunt duo actus, &amp; duo¬ 
+          <lb ed="#V" n="28"/>non peccata secundum unum peccatum. Secun¬ 
+          <lb ed="#V" n="29"/>do etiam obiicit contra hoc: quia si non sunt ni¬ 
+          <lb ed="#V" n="30"/>si unum peccatum, actus interior, &amp; exterior: er¬ 
+          <lb ed="#V" n="31"/>go actu committens furtum non pro alio puni¬ 
+          <lb ed="#V" n="32"/>tur, nisi pro eo, quod uoluit furari. Et soluit o 
+          <lb ed="#V" n="33"/>licet sint unum peccatum. tamen pro alio puni¬ 
+          <lb ed="#V" n="34"/>tur: quia pro alio est reus: quando actu furatur. 
+          <lb ed="#V" n="35"/>Tertio ad haec obiicit: quod sunt duo peccata, 
+          <lb ed="#V" n="36"/>quia sunt inde data duo mandata: unum de non 
+          <lb ed="#V" n="37"/>concupiscere, &amp; aliud de non furari. Ad quod 
+          <lb ed="#V" n="38"/>respondet, quod duo sunt ibi mandata, sed cum 
+          <lb ed="#V" n="39"/>non obseruantur: illorum duorum mandatorum 
+          <lb ed="#V" n="40"/>est una praeuaricatio, sicut duo sunt praecepta¬ 
+          <lb ed="#V" n="41"/>charitatis de diligendo Deum, &amp; proximum. tai 
+          <lb ed="#V" n="42"/>non est nisi una charitas, qua impletur utrumque. 
+          <lb ed="#V" n="43"/>Secunda ibi: ISed ad baec. 1Tertia ibi: IItem &amp; 
+          <lb ed="#V" n="44"/>ad baec. 1 Tunc sequitur illa pars. [Praeterea quaeri¬ 
+          <lb ed="#V" n="45"/>solet. IIn qua determinat de actu peccati in con¬ 
+          <lb ed="#V" n="46"/>paratione ad reatum. Et tria facit. quia primo 
+          <lb ed="#V" n="47"/>dat differentiam inter utrunque: quia actus pec¬ 
+          <lb ed="#V" n="48"/>cati transit: reatus manet. Secundo ostendit, quod 
+          <lb ed="#V" n="49"/>i Scriptura sacra reatus multipliciter accipitur 
+          <lb ed="#V" n="50"/>Tertio dat differentiam inter peccatum morta¬ 
+          <lb ed="#V" n="51"/>le, &amp; ueniale quantum ad actum, uel quantum 
+          <lb ed="#V" n="52"/>ad poenam, quam merentur. Secunda ibi. IRea¬ 
+          <lb ed="#V" n="53"/>tus autem. 1Tertia ibi:  Duo enim sunt. I Tunc 
+          <lb ed="#V" n="54"/>sequitur illa pars. tModi autem peccatorum. 1In 
+          <lb ed="#V" n="55"/>qua assignat uarios modos peccandi, &amp; dat ua¬ 
+          <lb ed="#V" n="56"/>rias distinctiones de peccatis. Circa quod duo fa¬ 
+          <lb ed="#V" n="57"/>cit, quia primo facit quod dictum est. Scdo specia¬ 
+          <lb ed="#V" n="58"/>liter descendit ad superbiam, &amp; ad cupiditatem 
+          <lb ed="#V" n="59"/>ex quibus uidentur oriri omnia peccata ibi, 1Ex 
+          <lb ed="#V" n="60"/>superbia tamenm. ICirca primum quinque facit, secun¬ 
+          <lb ed="#V" n="61"/>dum quod quinque modis distinguit peccata. Nam 
+          <lb ed="#V" n="62"/>primo distinguit ea quantum ad radices, quia 
+          <!--638.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="63"/>uel peccatur ex amore male inflammante, uel¬ 
+          <lb ed="#V" n="64"/>ex timore male, humiliante. Secundo distinguit 
+          <lb ed="#V" n="65"/>ea quantum ad actus: quia uel peccatur cogita¬ 
+          <lb ed="#V" n="66"/>tione, uel locutione, uel opere. Et addit quartum 
+          <lb ed="#V" n="67"/>membrum, quod potest peccari consuetudine, 
+          <lb ed="#V" n="68"/>quae est reiterare quemcunque istorum actuum. 
+          <lb ed="#V" n="69"/>Tertio distinguit peccata, quantum ad obiecta: 
+          <lb ed="#V" n="70"/>quia quicunque peccat, uel peccat in Deum, uel¬ 
+          <lb ed="#V" n="71"/>in se, uel in proximum. Quarto distinguit pecca¬ 
+          <lb ed="#V" n="72"/>ta quantum ad uocabula, uel quantum ad affir¬ 
+          <lb ed="#V" n="73"/>mationem, uel negationem: quia si facis quod 
+          <lb ed="#V" n="74"/>non debes, dicitur peccatum: si non facis, quod 
+          <lb ed="#V" n="75"/>debes: dicitur delictum. Quinto distinguit pec¬ 
+          <lb ed="#V" n="76"/>cata sedem septem uitia principalia, uel capita¬ 
+          <lb ed="#V" n="77"/>lia. Secunda ibi: [Alibi uero dicitur. ITertia ibi. 
+          <lb ed="#V" n="78"/>IDicitur quoque homo. 1Quarta ibi: iVariam an¬ 
+          <lb ed="#V" n="79"/>tem appellationem. 1Quinta ibi: [De septem uitiis. 
+          <lb ed="#V" n="80"/>Tunc sequitur illa pars. [Ex superbia tamen, 1In 
+          <lb ed="#V" n="81"/>qua specialiter descendit ad superbiam, &amp; cupi¬ 
+          <lb ed="#V" n="82"/>ditatem. Ex quibus possunt oriri omnia alia pec¬ 
+          <lb ed="#V" n="83"/>cata. Circa quod quatuor facit. Nam primo ait, 
+          <lb ed="#V" n="84"/>quod &amp; superbia, &amp; cupiditate ipossunt oriri¬ 
+          <lb ed="#V" n="85"/>omnia peccata. Secundo assignat quatuor spe¬ 
+          <lb ed="#V" n="86"/>cies superbiae. Tertio obiicit contra ea, quae di¬ 
+          <lb ed="#V" n="87"/>cta sunt de superbia. Et non uidetur superbia 
+          <lb ed="#V" n="88"/>esse origo omnium peccatorum. cum cupidi¬ 
+          <lb ed="#V" n="89"/>tas sit radix omnium malorum: ergo est radix 
+          <lb ed="#V" n="90"/>superbiae, &amp; ex cupiditate oritur superbia: non 
+          <lb ed="#V" n="91"/>ergo superbia est origo omnium aliorum pec¬ 
+          <lb ed="#V" n="92"/>catorum. Sed ipsa oritur ex alio peccato, id est 
+          <lb ed="#V" n="93"/>ex cupiditate. Quarto soluit obiectionem fa¬ 
+          <lb ed="#V" n="94"/>ctam. Secunda ibi: Icuius quatuor. 3 Tertia ibit 
+          <lb ed="#V" n="95"/>IHuit autem obuiare. i1Quarta ibi: [Sed utrunquel 
+          <lb ed="#V" n="96"/>Et in hoc continetur sententia praesentis Lectio 
+          <lb ed="#V" n="97"/>nis, &amp; Distinctionis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

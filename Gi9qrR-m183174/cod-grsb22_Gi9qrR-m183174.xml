@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="618"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m183174"><!-- l2d41q1 -->
+        <head xml:id="Gi9qrR-m183174-Hd1e101">Quaestio 1</head>
+        <head xml:id="Gi9qrR-m183174-Hd1e103" type="question-title">
+          De intentione circa fidem: circa opus meritorium: et circa infideles
+        </head>
+        <p xml:id="Gi9qrR-m183174-d1e106">
+          <lb ed="#V" n="104"/>QVAEST. I. 
+          <lb ed="#V" n="105"/>De intentione circa fidem: circa
+          <lb ed="#V" n="106"/>opus meritorium: et circa 
+          <lb ed="#V" n="107"/>infideles. 
+        </p>
+        <p xml:id="Gi9qrR-m183174-d1e117">
+          <lb ed="#V" n="108"/>QVIA Magister in hac Dist. de 
+          <lb ed="#V" n="109"/>duobus agit, videlicet de ipse¬ 
+          <lb ed="#V" n="110"/>intentione, &amp; de ipsa voluntate: 
+          <lb ed="#V" n="111"/>Ideo de his duobus quaeremus 
+          <lb ed="#V" n="112"/>principaliter. Circa primum quae 
+          <lb ed="#V" n="113"/>remus tria, secundum, quod Magi¬ 
+          <lb ed="#V" n="114"/>ster in littera comparat intentionem, videllect 
+          <!--619.xml-->
+          <pb ed="#V" n="619"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ad fidem. Et circa hoc erit quaestio: Vtrum fides 
+          <lb ed="#V" n="2"/>intentionem dirigat, &amp; quomodo eam dirigat. 
+          <lb ed="#V" n="3"/>Secundo potest comparari intentio ad meritum, vel¬ 
+          <lb ed="#V" n="4"/>ad opus meritorium. Et circa hoc erit quaestio: vtrum 
+          <lb ed="#V" n="5"/>ad hoc sper requiratur intentio actualis, vel sufficiat 
+          <lb ed="#V" n="6"/>habitualis. Tertio potest comparari ad ipsos 
+          <lb ed="#V" n="7"/>infideles. Et circa hoc erit quaestio: Vtrum omnis 
+          <lb ed="#V" n="8"/>actio infidelium sit peccatum: cum in eis non 
+          <lb ed="#V" n="9"/>possit esse intentio per fidem directam. 
+        </p>
+        <div xml:id="Gi9qrR-m183174-Dd1e161">
+          <head xml:id="Gi9qrR-m183174-Hd1e163">Articulus 1</head>
+          <p xml:id="Gi9qrR-m183174-d1e165">
+            <lb ed="#V" n="10"/>ARTIC. I. 
+            <lb ed="#V" n="11"/>An fides vniuersaliter dirigat in¬ 
+            <lb ed="#V" n="12"/>tentionem. 
+            <lb ed="#V" n="13"/>Conclusio est affirmatiua. 
+            <lb ed="#V" n="14"/>Drhaontdat q. 1. art4. D non 4. ai Durd. na4t. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e178">
+            <lb ed="#V" n="15"/>AD primum sic proceditur. vide. 
+            <lb ed="#V" n="16"/>tur, quod fides non dirigat vniuer¬ 
+            <lb ed="#V" n="17"/>saliter intentionera: quia men¬ 
+            <lb ed="#V" n="18"/>sura, cuius erit dirigere mensu¬ 
+            <lb ed="#V" n="19"/>ratum: debet esse homogenea 
+            <lb ed="#V" n="20"/>mensurato: sed virtutes sunt 
+            <lb ed="#V" n="21"/>multae, &amp; variae: fides ergo non potet dirigere inten¬ 
+            <lb ed="#V" n="22"/>tionem vnius cuiusque virtutis. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e198">
+            <lb ed="#V" n="23"/>Praeterea rationis est dirigere intentionem. Nam 
+            <lb ed="#V" n="24"/>illa est recta intentio, quae a recta roe dirigitur: 
+            <lb ed="#V" n="25"/>directio ergo intentionis non pertinebit ad fi¬ 
+            <lb ed="#V" n="26"/>dem, sed ad rationem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e209">
+            <lb ed="#V" n="27"/>Praeterea prudentia dicitur auriga virtutum. sed 
+            <lb ed="#V" n="28"/>ad aurigam pertinet dirigere totum currum. Ad 
+            <lb ed="#V" n="29"/>prudentiam ergo spectabit dirigere totum currum 
+            <lb ed="#V" n="30"/>virtutum, &amp; omnem intentionem virtutum: non 
+            <lb ed="#V" n="31"/>ergo spectabit haec ad fidem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e223">
+            <lb ed="#V" n="32"/>Praeterea illud est rectum, quod est conforme legi, 
+            <lb ed="#V" n="33"/>Sed ad iustitiam spectat se conformare legi. Ideo di¬ 
+            <lb ed="#V" n="34"/>cit in 5. Ethicorum, quod ad iustum legalem spectat age¬ 
+            <lb ed="#V" n="35"/>re opera omnium virtutum. Talis ergo directio, 
+            <lb ed="#V" n="36"/>&amp; talis confotmatio non spectabit ad fidem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e236">
+            <lb ed="#V" n="37"/>Praeterea Christus non habuit fidem: quia non 
+            <lb ed="#V" n="38"/>habuit cognitionem enigmaticam: si ergo sine fide 
+            <lb ed="#V" n="39"/>non potest esse intentio recta. Ergo Christus non ha¬ 
+            <lb ed="#V" n="40"/>buit intentionem rectam. quod est inconueniens 
+            <lb ed="#V" n="41"/>dicere. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e249">
+            <lb ed="#V" n="42"/>Praeterea virtus inclinat i modum naturae, ergo 
+            <lb ed="#V" n="43"/>quaelibet virtus est directiua sui actus: quia natu¬ 
+            <lb ed="#V" n="44"/>rae est directe tendere in finem: ergo hoc, scilicet 
+            <lb ed="#V" n="45"/>dirigere intentionem non spectat ad fidem, sed 
+            <lb ed="#V" n="46"/>ad quamlibet virtutem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e262">
+            <lb ed="#V" n="47"/>IN CONTRARIVM est: quia illius est 
+            <lb ed="#V" n="48"/>dirigere in finem, cuius est ostendere viam, per¬ 
+            <lb ed="#V" n="49"/>quam itur in finem, &amp; cuius est ostendere ipsum finem: 
+            <lb ed="#V" n="50"/>sed hoc est ipsius fidei: cum fides dicatr substantia, &amp; 
+            <lb ed="#V" n="51"/>fundamentum, &amp; inchoatio rerum sperandarum. Ip¬ 
+            <lb ed="#V" n="52"/>sae enim res sperandae in quas tendimus tanquo in finenm: 
+            <lb ed="#V" n="53"/>inchoantur in fide, &amp; fundant in fide, &amp; per fidem 
+            <lb ed="#V" n="54"/>dirigimur in eas. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e282">
+            <lb ed="#V" n="55"/>Praeterea a primo est rectitudo in omnibus 
+            <lb ed="#V" n="56"/>aliis: sed fides a prima virtus: quia primo intrat 
+            <lb ed="#V" n="57"/>campum propugnatura fides: ergo sidei est diri¬ 
+            <lb ed="#V" n="58"/>gere omnes alias virtutes, &amp; intentionem omnium 
+            <lb ed="#V" n="59"/>aliarum virtutum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e295">
+            <!--619.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>RESOLVTIO. 
+            <lb ed="#V" n="61"/>Fides nor dirigit in finem, vel in ea, quae vltimo spe¬
+            <lb ed="#V" n="62"/>rare debemus. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e309">
+            <lb ed="#V" n="63"/>RESPONDEO dicendum, quod cum dirigere sit 
+            <lb ed="#V" n="64"/>idem, quod in finem tendere, vt in superioribus est decla¬ 
+            <lb ed="#V" n="65"/>ratum. Si scire volumus, cuius est intentionem dirige¬ 
+            <lb ed="#V" n="66"/>re, &amp; cuius est dirigere nos i finem: primo oportet, 
+            <lb ed="#V" n="67"/>nos distinguere de ipso fine: quia finis sumi potest 
+            <lb ed="#V" n="68"/>multis modis. Secundo oportet nos distingue¬ 
+            <lb ed="#V" n="69"/>re de ipsa directione: quia multis modis potest 
+            <lb ed="#V" n="70"/>sumi directio. Tertio ex his duobus poterimus 
+            <lb ed="#V" n="71"/>respondere ad quaestionem quaesitam, quomodo 
+            <lb ed="#V" n="72"/>ad fidem spectat dirigere intentionem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e333">
+            <lb ed="#V" n="73"/>Propter primum sciendum, quod finis humanus potest¬ 
+            <lb ed="#V" n="74"/>sumi dupliciter, vel secundum naturam: vt dicatur ille fi¬ 
+            <lb ed="#V" n="75"/>nis humanus, ad quem potest homo pertingere per naturam, 
+            <lb ed="#V" n="76"/>secundum quem modum de fine, &amp; felicitate hu¬ 
+            <lb ed="#V" n="77"/>mana locuti sunt Philosophi. vel potest sumi fi¬ 
+            <lb ed="#V" n="78"/>nis humanus supra naturam, vt ille dicatur finls 
+            <lb ed="#V" n="79"/>noster, ad quem non possumus pertingere per na 
+            <lb ed="#V" n="80"/>turam secundum se: sed vt est perfecta per gra¬ 
+            <lb ed="#V" n="81"/>tiam. Et hoc modo finis noster est ipse Deus. Iux 
+            <lb ed="#V" n="82"/>ta illud <ref xml:id="Gi9qrR-m183174-Rd1e356">August. circa princip. Confes.</ref>
+            <quote xml:id="Gi9qrR-m183174-Qd1e359">Ad te nos 
+              <lb ed="#V" n="83"/>fecisti domine, &amp; inquietum est cor nostrum, do 
+              <lb ed="#V" n="84"/>nec requiescat in te</quote>. Et hoc modo de fineloquir 
+            <lb ed="#V" n="85"/>Scriptura sacra, &amp; loquuntur Theologi, secundum 
+            <lb ed="#V" n="86"/>quem modum in visione Dei, vt includit dile¬ 
+            <lb ed="#V" n="87"/>ctionem Dei, consistit vita aeterna, &amp; felicitas no¬ 
+            <lb ed="#V" n="88"/>stra. Quia dato per impossibile, quod videremus Deum, 
+            <lb ed="#V" n="89"/>&amp; non diligeremus ipsum: non essemus felices, 
+            <lb ed="#V" n="90"/>sed potius in felices. Ideo vulgariter dicitur quan¬ 
+            <lb ed="#V" n="91"/>do quis videt aliquem non dilectum, vel non pla¬ 
+            <lb ed="#V" n="92"/>centem, sed displicentem, &amp; ipse odit oculos suos 
+            <lb ed="#V" n="93"/>quando videt eum. Ergo secundum quod multiplici¬ 
+            <lb ed="#V" n="94"/>rer accipit finis, multipliciter loquendum est de &amp; 
+            <lb ed="#V" n="95"/>rectione. Si ergo loquamur de fine, vel de felicita¬ 
+            <lb ed="#V" n="96"/>te nostra, secundum quod de ea locuti sunt Phi¬ 
+            <lb ed="#V" n="97"/>sophi; Dicemus, quod finis, &amp; felicitas nostra, vt pa¬ 
+            <lb ed="#V" n="98"/>tet in 1. &amp; 10. Ethicor. est operatio animae secun¬ 
+            <lb ed="#V" n="99"/>dum virtutem perfectam. Nam in optimo, vel 
+            <lb ed="#V" n="100"/>in operatione optimae virtutis poni debet fe¬ 
+            <lb ed="#V" n="101"/>licitas nostra. Et quia duo sunt genera vir¬ 
+            <lb ed="#V" n="102"/>virtutum: Iuxta illud in principio secundi Ethi¬ 
+            <lb ed="#V" n="103"/>corum duplici quidem virtute existente: hac 
+            <lb ed="#V" n="104"/>quidem intellectuali, hac autem consuetudinali, 
+            <lb ed="#V" n="105"/>id est morali. Ideo oportuit, Philosophos ponere 
+            <lb ed="#V" n="106"/>duo genera felicitatum: videlicet selicitatem po¬ 
+            <lb ed="#V" n="107"/>liticam, quae est actus optimae virtutis moralis, id 
+            <lb ed="#V" n="108"/>est prudentiae: &amp; felicitatem contemplatiuam, 
+            <lb ed="#V" n="109"/>quae est actus optimae virtutis intellectualis. est sa¬ 
+            <lb ed="#V" n="110"/>pientiae, siue Metaphysicae. Dixerunt ergo Philo¬ 
+            <lb ed="#V" n="111"/>iophi illum esse felicem politice, qui sciebat re¬ 
+            <lb ed="#V" n="112"/>gere se, &amp; alios secundum prudentiam: &amp; illum 
+            <lb ed="#V" n="113"/>esse felicem contemplatiue, qui sciebat optime 
+            <lb ed="#V" n="114"/>speculari secundum sapientiam, id est Metaphy¬ 
+            <lb ed="#V" n="115"/>sicam. Et adeo erat hoc commune apud Philoso 
+            <lb ed="#V" n="116"/>phos, vt etiam Poete hanc duplicem felicitatem 
+            <lb ed="#V" n="117"/>describerent, quia quantum ad felicitatem poli¬ 
+            <lb ed="#V" n="118"/>ticam, siue ad prudentiam dicit Poeta: Felix 
+            <lb ed="#V" n="119"/>quem faciunt aliena pericula cautum: quia hoc est 
+            <lb ed="#V" n="120"/>magnae prudentiae extrahere serpentem de forami. 
+            <lb ed="#V" n="121"/>ne cum manu aliena, &amp; scire euitare pericula¬ 
+            <!--620.xml-->
+            <pb ed="#V" n="620"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>propria per perioula aliena. Sed quantum ad fe¬ 
+            <lb ed="#V" n="2"/>licitatem contemplatiuam dictum est per Poetam: 
+            <lb ed="#V" n="3"/>Felix, qui potuit rerum cognoscere causas. Quod 
+            <lb ed="#V" n="4"/>maxime potest sciens speculari secundum Metaphysicam, 
+            <lb ed="#V" n="5"/>quae per Antonomasiam inter scientias humanas 
+            <lb ed="#V" n="6"/>vocata est sapientia, vt patet ex primo Metaphy¬ 
+            <lb ed="#V" n="7"/>Et quia sclentia Metaphysieae considerat causas 
+            <lb ed="#V" n="8"/>rerum, secundum modum humanum: ideo su¬ 
+            <lb ed="#V" n="9"/>mus felices contemplatiue sciendo Metaphysi¬ 
+            <lb ed="#V" n="10"/>cam, quia per eam possumus rerum cognoscere can¬ 
+            <lb ed="#V" n="11"/>sas. Ad talia ergo non dirigimur per fidem, sed p ra¬ 
+            <lb ed="#V" n="12"/>tionem, vel per intellectum. Vt est habitus principio¬ 
+            <lb ed="#V" n="13"/>rum, per quae habemus aditum ad ea, quae possumus 
+            <lb ed="#V" n="14"/>cognoscere per naturam. ideo in Glo. ad Heb. 1. dite 
+            <lb ed="#V" n="15"/>quod Deus inseminauit omni aiae initia intellectus, 
+            <lb ed="#V" n="16"/>&amp; sapientiae. quod quomodo intelligendum sit supra dif¬ 
+            <lb ed="#V" n="17"/>fusius est expressum. Sic ergo dicendum est de fine, 
+            <lb ed="#V" n="18"/>vel de felicitate, vel de intentione in finem, vel in 
+            <lb ed="#V" n="19"/>felicitate: prout de ea loquuti sunt Philosophi: 
+            <lb ed="#V" n="20"/>sed de intentiono in finem, vel in felicitatem, prout de¬ 
+            <lb ed="#V" n="21"/>ea loquitur Scriptura sacra, &amp; loquuntur Theo¬ 
+            <lb ed="#V" n="22"/>logi, oportet aliter pertractare. Nam cum vltimus 
+            <lb ed="#V" n="23"/>finis humanus sit ipse Deus, non vt sumus apti 
+            <lb ed="#V" n="24"/>nati consequi ipsum per naturam, sed per gratiam: 
+            <lb ed="#V" n="25"/>quae non ex meritis, sed ex infusione, &amp; supra na¬ 
+            <lb ed="#V" n="26"/>turam habet esse in nobis, oportet, quod illud, quod diri¬ 
+            <lb ed="#V" n="27"/>git nos in Deum sic sumptum, vt est nostra felicitas 
+            <lb ed="#V" n="28"/>Vltima, &amp; vt dicitur finis vltimus, sit aliquod supra¬ 
+            <lb ed="#V" n="29"/>naturam ex infusione, &amp; huiusmodi est ipsa fides. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e516">
+            <lb ed="#V" n="30"/>Dicemus ergo, quod rationis est nos dirigere in finem 
+            <lb ed="#V" n="31"/>nostrum. sed cum ratio dicat ipsam nudam potentiam 
+            <lb ed="#V" n="32"/>intellectiuam, quia a potentia nuda non potest 
+            <lb ed="#V" n="33"/>exire actus pfectus, oportet, quod rote, vel intellectus 
+            <lb ed="#V" n="34"/>non, vt est nuda potentia, sed vt est perfectus per¬ 
+            <lb ed="#V" n="35"/>habitum dirigat nos in finem. Iuxta ergo triplico¬ 
+            <lb ed="#V" n="36"/>habitum ipsa ratio, vel intellectus tripliciter diri¬ 
+            <lb ed="#V" n="37"/>get nos in finem. nam prout ratio est perfecta per 
+            <lb ed="#V" n="38"/>prudentiam, ditiget nos in finem, qui est felici¬ 
+            <lb ed="#V" n="39"/>tas politica, secundum quam est aliquis aptus ad 
+            <lb ed="#V" n="40"/>regendum se, &amp; alios: &amp; ad regendum villas, &amp; 
+            <lb ed="#V" n="41"/>castra: ciuitates, &amp; regnum. Sed prout est ratio, est 
+            <lb ed="#V" n="42"/>perfecta, id est per Metaphysicam dirigit nos in 
+            <lb ed="#V" n="43"/>finem, quae est felicitas contemplatiua. De hac 
+            <lb ed="#V" n="44"/>autem duplici felicitate locuti sunt Philosophi, 
+            <lb ed="#V" n="45"/>secundum quos felicitas politica est operatio a¬ 
+            <lb ed="#V" n="46"/>nimae, vel operatio rationis perfectae per pruden¬ 
+            <lb ed="#V" n="47"/>tiam. sed felicitas contemplatiua est operatio aiae, 
+            <lb ed="#V" n="48"/>vel operatio rationis perfectae pe Metaphysicam, scudue 
+            <lb ed="#V" n="49"/>quam nobis conuenit modo humano, &amp; naturali re¬ 
+            <lb ed="#V" n="50"/>rum cognoscere causas: quia ad Metaphysicam pti¬ 
+            <lb ed="#V" n="51"/>net considerare de ente in eo, quod ens, &amp; considerare 
+            <lb ed="#V" n="52"/>causas causarum. Sed praeter has duas felicitates, 
+            <lb ed="#V" n="53"/>de quibus locuti sunt Philosophi, est dare tertiam 
+            <lb ed="#V" n="54"/>felicitatem, de qua loquit scriptura sacra, &amp; de qua¬ 
+            <lb ed="#V" n="55"/>loquuntur Theologi. Et ista felicitas est operatio 
+            <lb ed="#V" n="56"/>aiae, vel operatio rationis, vt est perfecta per fidem in 
+            <lb ed="#V" n="57"/>via, non per fidem nudam, sed per fidem, vt est coniuncta 
+            <lb ed="#V" n="58"/>charitati, vel vt est perfecta per fidem, prout fides per 
+            <lb ed="#V" n="59"/>dilectionem operatur. Hoc enim modo sumus felices 
+            <lb ed="#V" n="60"/>in via, prout sumus perfecti per fidem, prout fi¬ 
+            <lb ed="#V" n="61"/>des per dilectionem operatur. Sed in patria erimus 
+            <lb ed="#V" n="62"/>selices per aptam visionom, quae succedet fidei, pro¬ 
+            <!--620.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>ut illi apertae visioni erit coniuncta perfecta sruitio 
+            <lb ed="#V" n="64"/>charitatis, vt semper in dilectione perfectior sit se¬ 
+            <lb ed="#V" n="65"/>licitas, quam in cognitione, vel in visione. Et qa 
+            <lb ed="#V" n="66"/>fides dirigit nos in his, quae pertinent ad finem vltm 
+            <lb ed="#V" n="67"/>mum, &amp; ad felicitatem vltimam: ideo bene dictum est 
+            <lb ed="#V" n="68"/>quod fides dirigit nostram intentionem: loquendo de intem 
+            <lb ed="#V" n="69"/>tione, prout intendimus in finem vltimum, &amp; supernaturalem 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e610">
+            <lb ed="#V" n="70"/>Viso quo multipliciter distinguendum est de fi¬ 
+            <lb ed="#V" n="71"/>ne humano, volumus distinguere de ipsa dire 
+            <lb ed="#V" n="72"/>ctione, vt ex his duobus plene appareat tertium, quao 
+            <lb ed="#V" n="73"/>est solutio quotonis, quomodo fides dirigit intentionem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e621">
+            <lb ed="#V" n="74"/>Dicemus, quod cum intentio semp sit de fine, quoad 
+            <lb ed="#V" n="75"/>hoc est intendere quasi in finem rendere, vel in fine 
+            <lb ed="#V" n="76"/>ire, &amp; moueri; oportet quod triplic iter aliquid dicat 
+            <lb ed="#V" n="77"/>dirigere nostram intentionem, vel diri gere nos in finem. 
+            <lb ed="#V" n="78"/>Nam primo diete dirigere nos in finem i llud, quod finem 
+            <lb ed="#V" n="79"/>ostendit. quia non possumus dirigi in finem, nisi fides 
+            <lb ed="#V" n="80"/>a nobis cognoscat, vel nisi finis nobis ostendatur 
+            <lb ed="#V" n="81"/>eo modo, quo potest melius ostendi. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e641">
+            <lb ed="#V" n="82"/>Secundo dicitur nos dirigere in finem illud, quod in finem in 
+            <lb ed="#V" n="83"/>clinat, quae si volumus applicare ad felicitatem, de 
+            <lb ed="#V" n="84"/>qua loquir scriptura sacra, &amp; de qua principaliter 
+            <lb ed="#V" n="85"/>est nitna locutio; Dicemus, quod fides dirigit nostram in 
+            <lb ed="#V" n="86"/>tentionem, &amp; dirigit nos in finem, &amp; lex diuina, &amp; 
+            <lb ed="#V" n="87"/>charitas dirigit nos in finem. Aliter tameu, &amp; aliter, qua 
+            <lb ed="#V" n="88"/>lex dirigit nos in finem praecipiendo nobis actus, pet 
+            <lb ed="#V" n="89"/>quos in finen tendimus, &amp; mouemur, siue sint illi a¬ 
+            <lb ed="#V" n="90"/>ctus affirmatiui, vt: Honora Patrem tuum: siune ne¬ 
+            <lb ed="#V" n="91"/>gatiui, vt: Non occides, Non furaberis, sed charitas 
+            <lb ed="#V" n="92"/>dirigit nos in finem inclinando nos in huiusmodi finem: Ideo 
+            <lb ed="#V" n="93"/>
+            <ref xml:id="Gi9qrR-m183174-Rd1e669">Aug, 13. Confes.</ref> Charitattm, vel amorem assimilat pote¬ 
+            <lb ed="#V" n="94"/>deri, quia sicut pondus inclinat rem grauem, vt tendat 
+            <lb ed="#V" n="95"/>in suum terminum, sic amor inclinat amantem, vt ten¬ 
+            <lb ed="#V" n="96"/>dat in suum amatum, tanquo in suum terminum, &amp; in 
+            <lb ed="#V" n="97"/>suum finem. Ideo Augustinus in dicto libro, ait: Pon¬ 
+            <lb ed="#V" n="98"/>dus meum, amor meus, eo feror quocumque feror. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e684">
+            <lb ed="#V" n="99"/>Quod si volumus adaptare ad felicitatem politi 
+            <lb ed="#V" n="100"/>cam, &amp; contemplatiuam, de quibus locuti sunt Philoso 
+            <lb ed="#V" n="101"/>phi; Dicemus, quod nostram intentionem, vel in nostrum fi¬ 
+            <lb ed="#V" n="102"/>non dirigit nos prudentia, lex humana, &amp; virtutes 
+            <lb ed="#V" n="103"/>morales acquisitae. sed prudentia nos dirigit, finem 
+            <lb ed="#V" n="104"/>cognoscendo, vel finem cognitum nobis ostendendo, vel 
+            <lb ed="#V" n="105"/>finem illum eliciendo, quia felicitas politica est opa¬ 
+            <lb ed="#V" n="106"/>tio aiae scudm prudentiam. sed lex humana dirigit nos 
+            <lb ed="#V" n="107"/>in talem finem praecipiendo actus perquos itur in huiusmodi 
+            <lb ed="#V" n="108"/>finem, quia praecipit oia opa virtutum, perquae itur in 
+            <lb ed="#V" n="109"/>talem finem, sed virtutes morales acqusite dirigunt nos 
+            <lb ed="#V" n="110"/>in talem finem inclinando nos in huiusmodi finem, quia onio 
+            <lb ed="#V" n="111"/>virtus moralis est quidam amor boni inclinans not 
+            <lb ed="#V" n="112"/>quasi per modum naturae in bonum finem. Tertio si 
+            <lb ed="#V" n="113"/>volumus hoc adaptare ad felicitatem contemplatiuam. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e719">
+            <lb ed="#V" n="114"/>Dicemus, quod ipsa sapientia humana, vel ipsa Me¬ 
+            <lb ed="#V" n="115"/>taphysica dirigit nos in felicitatem contemplatiuam, 
+            <lb ed="#V" n="116"/>vt est finis nite, ipsum finem cognoscendo, vel ipsum 
+            <lb ed="#V" n="117"/>finem eliciendo. quia finis scientiae speculatiuae est 
+            <lb ed="#V" n="118"/>cognitio sui subiecti. Ipsa ergo cognitio entis secundum 
+            <lb ed="#V" n="119"/>Metaphy. est felicitas contemplatiua, de qua locuti¬ 
+            <lb ed="#V" n="120"/>sunm Philosophi. Sed si volumus assignare, quod diri¬ 
+            <lb ed="#V" n="121"/>git nos in felicitatem contemplatiuam praecipiendo actus, 
+            <lb ed="#V" n="122"/>pr quos dirigimur in eam, vel quodem dirigit nos, incli¬ 
+            <lb ed="#V" n="123"/>nando nos ad eam, poterimus illa eadem assigna 
+            <lb ed="#V" n="124"/>re, quor assignauimus in felicitate politica. N Ie 
+            <!--621.xml-->
+            <pb ed="#V" n="621"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>humana praecipit actus, per quos nullus indebite 
+            <lb ed="#V" n="2"/>molestat ab aliquo, quo facto possumus liberius 
+            <lb ed="#V" n="3"/>vacare contemplationi, &amp; scientie. Sic &amp; virtutes mo¬ 
+            <lb ed="#V" n="4"/>rales nos dirigunt inclinando nos in scientiam, &amp; con¬ 
+            <lb ed="#V" n="5"/>templarionem. Et quia virtutes morales retrahunt 
+            <lb ed="#V" n="6"/>nos abillicitis, &amp; reddunm naturam nostram magis ex¬ 
+            <lb ed="#V" n="7"/>peditam, quo facto quia omnes hoies natura scire desi¬ 
+            <lb ed="#V" n="8"/>derant, vt dituin principio Metaphysicae, cum qbus 
+            <lb ed="#V" n="9"/>nisi impediatur perea, quae sunt contra naturam, vel¬ 
+            <lb ed="#V" n="10"/>praeter naturam: Inclinetur in id, quod est secundum no¬ 
+            <lb ed="#V" n="11"/>turam, consequens est, quod sic expediti naturaliter in¬ 
+            <lb ed="#V" n="12"/>clinabimur in his, quae sunt scientiae. Propter quodd 
+            <lb ed="#V" n="13"/>
+            <ref xml:id="Gi9qrR-m183174-Rd1e779">Commen. in fine 7. Physic.</ref> facit quoddam adiunctum, 
+            <lb ed="#V" n="14"/>vel quendam breuem tractatum, in quo virtutes mora¬ 
+            <lb ed="#V" n="15"/>les ordinat ad scientiam, &amp; ad felicitatem contemplatiuam. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e786">
+            <lb ed="#V" n="16"/>Ex his ergo onibus patere potest, quo fides dirigit 
+            <lb ed="#V" n="17"/>nostram intentionem, &amp; dirigit nos in finem, &amp; in felici¬ 
+            <lb ed="#V" n="18"/>tatem vltimam, vel dirigit nos in ea, quae vltimo spe¬ 
+            <lb ed="#V" n="19"/>rare debmus. Ideo ditr ad Hebr. Tides est substantiaid est 
+            <lb ed="#V" n="20"/>sustentamentum, &amp; fundamentum, &amp; quaedam inchoa¬ 
+            <lb ed="#V" n="21"/>tio rerum sperandum id est vitae aeternae, &amp; fruitionis eter 
+            <lb ed="#V" n="22"/>nae, quae tanquam finem vltimum, &amp; supernatura 
+            <lb ed="#V" n="23"/>lem sperare debemus. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e806">
+            <lb ed="#V" n="24"/>RESP. AD ARO. Ad primum dicendum, quod diuer¬ 
+            <lb ed="#V" n="25"/>sorum secundum speciem non potest esse idem dire¬ 
+            <lb ed="#V" n="26"/>ctiuum proprium, sed potet esse idem directiuum cone, &amp; ge¬ 
+            <lb ed="#V" n="27"/>nerale. Et hoc modo fides dirigit intentiones omnium 
+            <lb ed="#V" n="28"/>virtutum ostendo illum finem vltimum conem, &amp; gene¬ 
+            <lb ed="#V" n="29"/>ralem, in quomn omnes virtures debent tendere, &amp; 
+            <lb ed="#V" n="30"/>ad quem omnes virtutes debent ordinari, quod si ali¬ 
+            <lb ed="#V" n="31"/>ter fiant, mentiuntur se esse virtutes. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e826">
+            <lb ed="#V" n="32"/>Ad secundum dicendum, quod ratio pofecte non dirigit no¬ 
+            <lb ed="#V" n="33"/>stram intentionem, nisi, vt est perfecta per aliquem habi¬ 
+            <lb ed="#V" n="34"/>tum. Sicut ergo roneo dirigit nostram intentionem in fi¬ 
+            <lb ed="#V" n="35"/>nem, quae est felicitas politica, vt est perfecta per 
+            <lb ed="#V" n="36"/>prudentiam, &amp; sicut dirigit nos in finem, quae est feli¬ 
+            <lb ed="#V" n="37"/>citas contemplatiua, de qua locuti sunt Philosophi, 
+            <lb ed="#V" n="38"/>vt est pfecta per sapientiam, siue per Metaphysicam, sic ter¬ 
+            <lb ed="#V" n="39"/>tio dirigit nos in finenm, quod est felicitas supernatura¬ 
+            <lb ed="#V" n="40"/>lis, &amp; vltima ipsa eadem ratio, prout est perfecta 
+            <lb ed="#V" n="41"/>per fidem eo modo, quo est per habita declara¬ 
+            <lb ed="#V" n="42"/>tum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e852">
+            <lb ed="#V" n="43"/>Ad tertium dicendum, quod prudentia est auriga¬ 
+            <lb ed="#V" n="44"/>oium virtutum, prout virtutes ordinantur ad finen¬ 
+            <lb ed="#V" n="45"/>naturalem. sed cum prudentia, vt hic de ea loquimur, 
+            <lb ed="#V" n="46"/>sit acquisita ex nostris actibus naturalibus non est 
+            <lb ed="#V" n="47"/>sufficiens ad dirigendum nos in ea, quae sunt supra 
+            <lb ed="#V" n="48"/>naturam. Ideo fit per habitum fidei modo, quo di¬ 
+            <lb ed="#V" n="49"/>ctum est. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e871">
+            <lb ed="#V" n="50"/>Ad quartum dicendum, quo, vt patet per habita, ali¬ 
+            <lb ed="#V" n="51"/>ter dirigit nostram intentionem, vel aliter dirigit nos 
+            <lb ed="#V" n="52"/>in finem fides, &amp; aliter lex, siue accipiatur lex pro¬ 
+            <lb ed="#V" n="53"/>lege humana, prout est naturalis. Iuxta illud ad 
+            <lb ed="#V" n="54"/>Ro. Gens, quae legem non habent, naturaliter ea, qu 
+            <lb ed="#V" n="55"/>legis sunt, faciunt. siue pro lege diuina, quae est pe 
+            <lb ed="#V" n="56"/>reuelationem, &amp; inspirationem, &amp; est supernaturalis. 
+            <lb ed="#V" n="57"/>Nam fides dirigit nostram intentionem finem, in 
+            <lb ed="#V" n="58"/>quem intendimus ostendendo. Sed lex humana, 
+            <lb ed="#V" n="59"/>vel diuina facit hos actus, per quos in finem in¬ 
+            <lb ed="#V" n="60"/>tendimus, praecipiendo. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e897">
+            <lb ed="#V" n="61"/>Ad quintum dicendum, quod fides duo dicit. Nam 
+            <lb ed="#V" n="62"/>dicit cognitionem, &amp; dicit eam aenigmaticam, sed 
+            <!--621.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>fides dirigit intentionem quantum ad id, quod est 
+            <lb ed="#V" n="64"/>ibi cognitionis, quod perfectius, &amp; pramplius fuu 
+            <lb ed="#V" n="65"/>in Christo, non quantum ad id, quod est ibi enig¬ 
+            <lb ed="#V" n="66"/>matis, &amp; obscuritatis, quod negatur a Christo. 
+            <lb ed="#V" n="67"/>Ad sextum dicendum, quod vt patet per habita aliter 
+            <lb ed="#V" n="68"/>dirigit nos virtus, siue accipiatur pro charitate, si 
+            <lb ed="#V" n="69"/>ue pro virtutibus alijs, &amp; aliter fides. Quia fides 
+            <lb ed="#V" n="70"/>nos dirigit, finem nobis ostendendo, sed virtutes 
+            <lb ed="#V" n="71"/>nos dirigunt ad actus, per quos in finen tendimus 
+            <lb ed="#V" n="72"/>inclinando. Et ideo in huiusmodi actus inclina¬ 
+            <lb ed="#V" n="73"/>mur per charitatem, &amp; per virtutes morales, vel in¬ 
+            <lb ed="#V" n="74"/>clinamur per iustitiam; accipiendo iustitiam gene 
+            <lb ed="#V" n="75"/>raliter pro iustitia legali, quae agit actus omnium 
+            <lb ed="#V" n="76"/>virtutum, quia lex praecipit opera omnium virtutum. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m183174-Dd1e941">
+          <head xml:id="Gi9qrR-m183174-Hd1e943">Articulus 2</head>
+          <p xml:id="Gi9qrR-m183174-d1e945">
+            <lb ed="#V" n="77"/>ARICULUS. II 
+            <lb ed="#V" n="78"/>An ad meritorium opus faciendum, 
+            <lb ed="#V" n="79"/>sufficiat intentio habitualis
+            <lb ed="#V" n="80"/>conclusio est negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e956">
+            <lb ed="#V" n="81"/>Ric. d. 41. q. 1. 2. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e961">
+            <lb ed="#V" n="82"/>SECVNDO quaeritur de inten¬ 
+            <lb ed="#V" n="83"/>tione, prout conparatur ad meri¬ 
+            <lb ed="#V" n="84"/>tum, vel ad opus meritorium. 
+            <lb ed="#V" n="85"/>Et est quaestio: Vtrum ad hoc, 
+            <lb ed="#V" n="86"/>quod mereamur, vel faciamus op¬ 
+            <lb ed="#V" n="87"/>meritorium, sufficiat intentio ha¬ 
+            <lb ed="#V" n="88"/>bitualis, vel requiratur ibi actualis. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e979">
+            <lb ed="#V" n="89"/>Et videtur, quod sufficiat habitualis, quia aliter fa¬ 
+            <lb ed="#V" n="90"/>ciens aliquam peregrinationem nihil meretur 
+            <lb ed="#V" n="91"/>in illa parte peregrinationis, in qua actu non co¬ 
+            <lb ed="#V" n="92"/>gitaret de Deo, quod communiter dicitur esse 
+            <lb ed="#V" n="93"/>falsum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e993">
+            <lb ed="#V" n="94"/>Praeterea voluntas volendo finem mouet se ad 
+            <lb ed="#V" n="95"/>ea, quae sunt ad finem. sed non oportet, quod in hu¬ 
+            <lb ed="#V" n="96"/>iusmodi motu semper cogitet de fine, ergo non 
+            <lb ed="#V" n="97"/>oportet semper habere actualem intentionem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1004">
+            <lb ed="#V" n="98"/>Praeterea cum quis dicit horas: dicit horas suas 
+            <lb ed="#V" n="99"/>ad laudem Dei, &amp; propter Deum, non semper co¬ 
+            <lb ed="#V" n="100"/>gitat de Deo: Sed aliquando cogitat alia. Opor 
+            <lb ed="#V" n="101"/>teret ergo ad hoc, quod mereretur dicendo horas, quod 
+            <lb ed="#V" n="102"/>quandocunque cogitat alia, quod ipse repeteret, qua¬ 
+            <lb ed="#V" n="103"/>dixerat, quando alia cogitauit, &amp; sic nunquam ve¬ 
+            <lb ed="#V" n="104"/>niret ad finem de aliqua hora: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1022">
+            <lb ed="#V" n="105"/>Praeterea Religiosus ppter votum habet quod¬ 
+            <lb ed="#V" n="106"/>dam meritum speciale faciendo opera illa, ad quae 
+            <lb ed="#V" n="107"/>astringitur per votum, dato, quod non actu referat 
+            <lb ed="#V" n="108"/>opera illa inillud votum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1033">
+            <lb ed="#V" n="109"/>IN CONTRARIVM est, quia praemium 
+            <lb ed="#V" n="110"/>responder merito, sed praemium nostrum consistit 
+            <lb ed="#V" n="111"/>in aperta Dei visione, &amp; in perfecta eius fruitio¬ 
+            <lb ed="#V" n="112"/>ne. sed haec dicunt quid in actu: ergo in merendo 
+            <lb ed="#V" n="113"/>debet esse intentio in actu. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1046">
+            <lb ed="#V" n="114"/>Praeterea si sufficeret solum habitualis intentio, 
+            <lb ed="#V" n="115"/>cum intentio habitualis, secundum quod huiusmodi non 
+            <lb ed="#V" n="116"/>sit principium boni opis: esset aliquod opus bonum, &amp; 
+            <lb ed="#V" n="117"/>&amp; meritorium, cuius principium, &amp; causa non esset 
+            <lb ed="#V" n="118"/>intentio boni finis, quod est inconueniens. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1059">
+            <!--622.xml-->
+            <pb ed="#V" n="622"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>RESOLVTIO. 
+            <lb ed="#V" n="2"/>opus meritorium esse affirmamus, si ab actuali actio¬
+            <lb ed="#V" n="3"/>ne, &amp; quidem bona inchoetur, &amp; in habituali 
+            <lb ed="#V" n="4"/>finiatur: sed, si in actuali, melius censendum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1078">
+            <lb ed="#V" n="5"/>RESPOMDEO dicendum, quod quaestio propo¬ 
+            <lb ed="#V" n="6"/>sita quaeritur de bono opere, prout per intentionem 
+            <lb ed="#V" n="7"/>boni finis est meritorium: vtrum requiratur, quod illa¬ 
+            <lb ed="#V" n="8"/>intentio sit actualis vel sufficiat quod sit habitualis: 
+            <lb ed="#V" n="9"/>popter quod quaestio duo quaerit: quia primo quaerit 
+            <lb ed="#V" n="10"/>de bono opere, quod est aliquid ad finem, quomodo printen¬ 
+            <lb ed="#V" n="11"/>tionem referat i bonum finem: quia sine hoc non potest 
+            <lb ed="#V" n="12"/>sciri veritas quaestionis. Secundo quaerit de intentione 
+            <lb ed="#V" n="13"/>boni operis in bonum finem: Vtrum oporteat, quod sit 
+            <lb ed="#V" n="14"/>actualis, vel sufficiat habitualis. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1102">
+            <lb ed="#V" n="15"/>Propter primum sciendum, quod si volumus scire quo 
+            <lb ed="#V" n="16"/>modo bonum, quod est ad finem per bonam inten¬ 
+            <lb ed="#V" n="17"/>tionem, referatur in bonum finem: cum hoc non 
+            <lb ed="#V" n="18"/>possit fieri sine motu voluntatis: Ideo oportet sci¬ 
+            <lb ed="#V" n="19"/>re, quomodo voluntas mouetur per bonum, quod est finis: &amp; 
+            <lb ed="#V" n="20"/>quomodo per bonum quod est ad finem. Sciendum ergo, 
+            <lb ed="#V" n="21"/>quod bonum, quod est finis tripliciter pot considerari. 
+            <lb ed="#V" n="22"/>Primo vt est ab intellectu apprehensum. Secun¬ 
+            <lb ed="#V" n="23"/>do vt est a voluntate intentum. Tertio, vt est in re ha¬ 
+            <lb ed="#V" n="24"/>bitum &amp; acquisitum. Primo ergo modo prout bo¬ 
+            <lb ed="#V" n="25"/>num, quod est est finis est ab intellectu apprehensum, 
+            <lb ed="#V" n="26"/>&amp; voluntati ostensum: tale bonum habet mouere 
+            <lb ed="#V" n="27"/>voluntatem motu ad formam. Sed secundo modo, 
+            <lb ed="#V" n="28"/>prout bonum, quod est finis, est a voluntate in¬ 
+            <lb ed="#V" n="29"/>tentum, &amp; est habitum in spe. Et tertio modo, prout 
+            <lb ed="#V" n="30"/>est acquisitum, &amp; est habitum in re, hebet mouere vo¬ 
+            <lb ed="#V" n="31"/>luntatem motu ad finem: quia totus motus vo¬ 
+            <lb ed="#V" n="32"/>luntatis secundum finem sumitur, prout incipit a bo¬ 
+            <lb ed="#V" n="33"/>no, quod est finis, &amp; est habitum in spe, &amp;, vt termi¬ 
+            <lb ed="#V" n="34"/>natur ad bonum, quod est finis, vt est acquisitum, 
+            <lb ed="#V" n="35"/>&amp; est habitum in re. Imaginabimur enim sicut ima¬ 
+            <lb ed="#V" n="36"/>ginatur Augustinus. 13. Confess. &amp; 11. de Ciui. 
+            <lb ed="#V" n="37"/>Dei, quod simile est de motu voluntatis per amorem: 
+            <lb ed="#V" n="38"/>sicut est de motu grauium per pondus: quia non 
+            <lb ed="#V" n="39"/>mouetur aliter nisi per amorem: sicut est de mo¬ 
+            <lb ed="#V" n="40"/>tu grauium per pondus: quia non mouetur gra¬ 
+            <lb ed="#V" n="41"/>ue, nisi per pondus. Sicut ergo amor voluntatis 
+            <lb ed="#V" n="42"/>dicitur quoddam pondus respectu finis: quia per¬ 
+            <lb ed="#V" n="43"/>amorem tendit voluntas in finem quasi per quod 
+            <lb ed="#V" n="44"/>dam pondus: sicut pondus in corpore graui potest 
+            <lb ed="#V" n="45"/>dici quodam amor respectu centri. quia graue per poedus, 
+            <lb ed="#V" n="46"/>tanquam per amorem centri tendit in centrum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1174">
+            <lb ed="#V" n="47"/>Aduertendum autem, quod hoc pondus in corpo¬ 
+            <lb ed="#V" n="48"/>ribus, quod aeqpollet amori in spiritibus, oportet 
+            <lb ed="#V" n="49"/>quod accipiatur large pro omni eo, quod est ra¬ 
+            <lb ed="#V" n="50"/>tio, quare moueantur corpora in suum finalem lo¬ 
+            <lb ed="#V" n="51"/>cum, vel in suum finalem terminum. Sue sit leui¬ 
+            <lb ed="#V" n="52"/>tas, per quam mouetur ignis, &amp; aer: siue sit grauitas, 
+            <lb ed="#V" n="53"/>per quam mouetur aqua, &amp; terra. Ipsa enim le¬ 
+            <lb ed="#V" n="54"/>uitas, perquam mouetur ignis, licet secundum se 
+            <lb ed="#V" n="55"/>sumpta sit leuitas: tamen, vt inclinat ignem, quod 
+            <lb ed="#V" n="56"/>moueatur in talem locum, &amp; non in alium, po¬ 
+            <lb ed="#V" n="57"/>test dici quaedam grauitas, vel quoddam pon¬ 
+            <lb ed="#V" n="58"/>dus. Et sicut accipiendo large pondus pro omni¬ 
+            <lb ed="#V" n="59"/>inclinatione, inuenimus duplicem motum, siue 
+            <lb ed="#V" n="60"/>duplicem inclinationem: quia leuia inclinantur 
+            <lb ed="#V" n="61"/>ad sursum: grauia ad deorsum. Sic &amp; in spiriti¬ 
+            <lb ed="#V" n="62"/>bus inuenimus duplicem amorem: malum, &amp; bonum. 
+            <!--622.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>Quia mali spiritus per malum amorem incli¬ 
+            <lb ed="#V" n="64"/>nantur ad malum finem, qui ratione malitiae po¬ 
+            <lb ed="#V" n="65"/>test dici deorsum. Sed boni spiritus ratione boni¬ 
+            <lb ed="#V" n="66"/>amoris inclinantur in bonum finem, qui potest dic 
+            <lb ed="#V" n="67"/>sursum. Nam secundum Aug. 12. super Gen. No. 
+            <lb ed="#V" n="68"/>mine superi debet intelligi omne bonum: &amp; no¬ 
+            <lb ed="#V" n="69"/>mine inferi omne malum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1231">
+            <lb ed="#V" n="70"/>Reuertamur ergo ad propositum, &amp; dicamus., 
+            <lb ed="#V" n="71"/>quod sit in corporibus, siue leuibus, siuegrauibus 
+            <lb ed="#V" n="72"/>est duplex motus. Vnus ad formam, &amp; alius ad 
+            <lb ed="#V" n="73"/>vbi, tanquam ad terminum. Nam leue primo ac¬ 
+            <lb ed="#V" n="74"/>cipit formam leuitatis, &amp; postea per leuitatem 
+            <lb ed="#V" n="75"/>mouetur in suum locum, vel in suum terminum, 
+            <lb ed="#V" n="76"/>Quare graue prius actiuatur per grauitatem, &amp; 
+            <lb ed="#V" n="77"/>mouetur a generante, vt habeat formam grauis, &amp; 
+            <lb ed="#V" n="78"/>postea per grauitatem mouetur in suum termi¬ 
+            <lb ed="#V" n="79"/>num. Et quod dictum est de corporibus utaetum ad 
+            <lb ed="#V" n="80"/>motum naturalem, veritatem habet in spiritibus, 
+            <lb ed="#V" n="81"/>id est in anima quantum ad motum voluntatis, 
+            <lb ed="#V" n="82"/>Quia anima per voluntatem primo actiuatur, &amp; 
+            <lb ed="#V" n="83"/>mouetur ad formam grauis, id est amorem, &amp; po¬ 
+            <lb ed="#V" n="84"/>stea actiuata, &amp; facta grauis per amorem mo¬ 
+            <lb ed="#V" n="85"/>uetur in suum finem respondentem illi amori: 
+            <lb ed="#V" n="86"/>per finem ergo, vt est bonum apprehensum, mo¬ 
+            <lb ed="#V" n="87"/>uetur voluntas motu ad formam, id est ad a¬ 
+            <lb ed="#V" n="88"/>morem, vt est quaedam actiuatio, &amp; quaedam for¬ 
+            <lb ed="#V" n="89"/>ma, &amp; quaedam perfectio voluntatis: accipien¬ 
+            <lb ed="#V" n="90"/>do perfectionem large pro omni actu potentiae 
+            <lb ed="#V" n="91"/>siue ille actus sit defectiuus, &amp; sit perfectio po¬ 
+            <lb ed="#V" n="92"/>tentiae materialiter: quia omnis defectus, &amp; om¬ 
+            <lb ed="#V" n="93"/>nis priuatio fundatur in aliquo bono, siue non 
+            <lb ed="#V" n="94"/>sit defectiuus, &amp; sit perfectio potentiae formali¬ 
+            <lb ed="#V" n="95"/>ter. Bonum ergo apprehensum, siue sit apparens, 
+            <lb ed="#V" n="96"/>siue sit existens monet voluntatem motu ad for¬ 
+            <lb ed="#V" n="97"/>mam, quia causat in voluntate quendam amo¬ 
+            <lb ed="#V" n="98"/>rem boni, per quem mouetur voluntas ad bo¬ 
+            <lb ed="#V" n="99"/>num, vel existens, vel apparens. Intellectus ergo¬ 
+            <lb ed="#V" n="100"/>apprehendens bonum, &amp; ostendendo illud vo¬ 
+            <lb ed="#V" n="101"/>luntati, &amp; ex hoc generans in voluntate quen¬ 
+            <lb ed="#V" n="102"/>dam amorem, qui est quasi quaedam grauitas, &amp; 
+            <lb ed="#V" n="103"/>quasi quaedam forma grauis: se habet in anima 
+            <lb ed="#V" n="104"/>respectu voluntatis: sicut se habet generans in 
+            <lb ed="#V" n="105"/>corporibus respectu formae grauis, quia sicut ge¬ 
+            <lb ed="#V" n="106"/>nerans in corporibus prius inducit formam gra¬ 
+            <lb ed="#V" n="107"/>uis, &amp; postea per illam grauitatem mouetur gra¬ 
+            <lb ed="#V" n="108"/>ue in centrum tanquam in terminum: sic intel¬ 
+            <lb ed="#V" n="109"/>lectus apprehendens bonum actiuat voluntatem, 
+            <lb ed="#V" n="110"/>&amp; generat in ea quendam amorem boni quasi quan¬ 
+            <lb ed="#V" n="111"/>dam grauitatem, &amp; quandam formam grauem, 
+            <lb ed="#V" n="112"/>per quem amorem, siue grauitatem voluntas mo¬ 
+            <lb ed="#V" n="113"/>uet se ad actum suum, &amp; mouet alias potentias, 
+            <lb ed="#V" n="114"/>&amp; actus eorum, &amp; membra exteriora, &amp; opera eo 
+            <lb ed="#V" n="115"/>rum in ipsum finem. siue accipiatur finis, vt est 
+            <lb ed="#V" n="116"/>bonum intentum, &amp; bonum habitum in spe, vel, 
+            <lb ed="#V" n="117"/>vt est bonum acquisitum, &amp; est habitum in re¬ 
+            <lb ed="#V" n="118"/>Et hoc forte volunt dicere verba communia, 
+            <lb ed="#V" n="119"/>quod intellectus mouet voluntatem motu a¬ 
+            <lb ed="#V" n="120"/>formam: sed voluntas mouet seipsam, &amp; intelle¬ 
+            <lb ed="#V" n="121"/>ctum, &amp; omnia sibi subiecta motu ad finem: 
+            <lb ed="#V" n="122"/>nunquam voluntas actiuatur a se, sed semper actiua¬ 
+            <lb ed="#V" n="123"/>tur a bono apprehenso, &amp; ostenso ab intelle¬ 
+            <lb ed="#V" n="124"/>lectu: quia hoc modo mouetur motu ad for¬ 
+            <!--623.xml-->
+            <pb ed="#V" n="623"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>mam. quia idem est mouetimotu ad formam, quia 
+            <lb ed="#V" n="2"/>actiuari per aliquid, quod se habet, vt perfectio, &amp; 
+            <lb ed="#V" n="3"/>forma, siue sit ista perfectio existens, siue apparens. 
+            <lb ed="#V" n="4"/>sed postquam est actiuata, &amp; facta in actu per for¬ 
+            <lb ed="#V" n="5"/>mam, mouet seipsam sic actiuata in finem. Hunc 
+            <lb ed="#V" n="6"/>autem motum in finem non agit actiuando se, 
+            <lb ed="#V" n="7"/>sed determinando se, vel complacendo sibi in fi¬ 
+            <lb ed="#V" n="8"/>nem. nam bonum apprehensum ab intellectu, vel¬ 
+            <lb ed="#V" n="9"/>apprehenditur sub omni ratione boni, &amp; tunc ne¬ 
+            <lb ed="#V" n="10"/>cessitatur voluntas, vt velit illud, quia quilibet ne¬ 
+            <lb ed="#V" n="11"/>cessitatur, vt velit esse beatus. Vel sub omni ratio¬ 
+            <lb ed="#V" n="12"/>ne mali, &amp; tunc necessitatur, vt nolit illud, quia il¬ 
+            <lb ed="#V" n="13"/>lud necessario miseriam respuit, vel illud bonum 
+            <lb ed="#V" n="14"/>apprehensum ostenditur sub aliqua ratione bo¬ 
+            <lb ed="#V" n="15"/>ni, &amp; sub aliqua mali, &amp; tunc desistendo ab illo¬ 
+            <lb ed="#V" n="16"/>ostenso, vt habet rationem mali, determinat se, vt sequa¬ 
+            <lb ed="#V" n="17"/>tur illud, prout habet rationem boni. Et si econuer¬ 
+            <lb ed="#V" n="18"/>so desistat, econuerso se determinabit. Determina 
+            <lb ed="#V" n="19"/>re ergo se, vt saepe saepius diximus, prout spectat 
+            <lb ed="#V" n="20"/>ad voluntatem, non oportet, quod dicat actum, sed 
+            <lb ed="#V" n="21"/>sufficit, quod dicat desistere ab actu. quia quando ali¬ 
+            <lb ed="#V" n="22"/>quid ostenditur voluntati vno modo sub ratione bo¬ 
+            <lb ed="#V" n="23"/>ni existentis, &amp; alio modo sub ratione maliid est sub ra¬ 
+            <lb ed="#V" n="24"/>tione boni apparentis, in potestate voluntatis est 
+            <lb ed="#V" n="25"/>desistere ab hoc, vel ab illo, a quo desistendo deter¬ 
+            <lb ed="#V" n="26"/>minat se ad hoc, vel ad illud. &amp; sicut, prout vult, 
+            <lb ed="#V" n="27"/>determinat se ad hoc, vel ad illud, sic mouet se 
+            <lb ed="#V" n="28"/>ad hoc, vel ad illud, quod negantes negant volunta¬ 
+            <lb ed="#V" n="29"/>tem habere arbitrii libertatem.
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1422">
+            <lb ed="#V" n="30"/>Resumamus ergo omnia, &amp; dicamus, quod volun¬ 
+            <lb ed="#V" n="31"/>tas potest comparari ad quatuor bona, &amp; secun¬ 
+            <lb ed="#V" n="32"/>dum quodcunque illorum bonorum aliquo modo 
+            <lb ed="#V" n="33"/>comparatur ad motum. Nam vno modo compa¬ 
+            <lb ed="#V" n="34"/>ratur ad bonum, vt est ab intellectu apprehensum, 
+            <lb ed="#V" n="35"/>&amp; hoc modo comparatur voluntas ad bonum tam 
+            <lb ed="#V" n="36"/>quam ad illud, a quo actiuatur, &amp; a quo mouet 
+            <lb ed="#V" n="37"/>motu ad formam. Secundo modo conparatur ad 
+            <lb ed="#V" n="38"/>bonum, non, vt est ab intellectu apprehensum, &amp; 
+            <lb ed="#V" n="39"/>ostensum, sed vt est a voluntate volitum. Quod 
+            <lb ed="#V" n="40"/>tripliciter fieri potest. Primo, vt est illud bonum a 
+            <lb ed="#V" n="41"/>voluntate volitum tanquame finis, &amp; tanquoam habitum in 
+            <lb ed="#V" n="42"/>spe, &amp; sic est ipsum bonum, quod est finis, vt est a vo¬ 
+            <lb ed="#V" n="43"/>luntate intentum, &amp; tale bonum respicit motum 
+            <lb ed="#V" n="44"/>voluntatis tanquae illud, a quo inchoatur morus. 
+            <lb ed="#V" n="45"/>Secundo hoc esse potest, vt illud bonum, quod est a 
+            <lb ed="#V" n="46"/>voluntate volitum non sit volitum tanquae finis, sed 
+            <lb ed="#V" n="47"/>tanquae id, quod est ad finem, &amp; tunc tale bonum non 
+            <lb ed="#V" n="48"/>erit a voluntate intentum, sed erit a voluntate ele¬ 
+            <lb ed="#V" n="49"/>ctum, quia intentio est ipsius finis: electio eorum, 
+            <lb ed="#V" n="50"/>quae sunt ad finem. Tale ergo bonum conmparatur 
+            <lb ed="#V" n="51"/>ad voluntatis motum tanquaead illud, perquod manci 
+            <lb ed="#V" n="52"/>patur effectui talis motus, quia sicut motus vo¬ 
+            <lb ed="#V" n="53"/>luntatis, prout se, &amp; alia mouet in finem, inchoa¬ 
+            <lb ed="#V" n="54"/>tur ab ipso fine, prout est bonum intentum, &amp;, vt 
+            <lb ed="#V" n="55"/>est habitum in spe, sic effectui mancipiatur per ip¬ 
+            <lb ed="#V" n="56"/>sa bona media, &amp; per ea, quae sunt ad finem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1483">
+            <lb ed="#V" n="57"/>Tertio potest accipi bonum, quod est a volun¬ 
+            <lb ed="#V" n="58"/>tate volitum, non, vt est a voluntate intentum, &amp; 
+            <lb ed="#V" n="59"/>habitum in spe, a quo voluntatis motus inchoat, 
+            <lb ed="#V" n="60"/>nec, vt est bonum, quod est ad finem, &amp;, quod est 
+            <lb ed="#V" n="61"/>a voluntate non intentum, sed electum, per cuius¬ 
+            <lb ed="#V" n="62"/>modi bona motus voluntatis essectui mancipia¬ 
+            <!--623.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>tur, sed, vt est a voluntate volitum tanquam finis 
+            <lb ed="#V" n="64"/>non, vt intentum, &amp; habitum solum in spe: sed, 
+            <lb ed="#V" n="65"/>vt est aequisitum tanquam bonum, quod est 
+            <lb ed="#V" n="66"/>finis habitum in re. Et hoc modo tale bo¬ 
+            <lb ed="#V" n="67"/>num est illud, in quo voluntas quiescit, &amp; 
+            <lb ed="#V" n="68"/>motus voluntatis finitur, &amp; terminatur. 
+            <lb ed="#V" n="69"/>Aliter enim non esset bonum finale, &amp; vlti¬ 
+            <lb ed="#V" n="70"/>mum a voluntate quaesitum. Et non esset illud 
+            <lb ed="#V" n="71"/>bonum fruibile, quod voluntas expectat, de quo¬ 
+            <lb ed="#V" n="72"/>bono ait: <ref xml:id="Gi9qrR-m183174-Rd1e1524">Aug. in x. de Tri.</ref> Quod fruimur cogni¬ 
+            <lb ed="#V" n="73"/>tis, in quibus voluntas delectata conquiescit. Pa¬ 
+            <lb ed="#V" n="74"/>tet ergo, quomodo voluntas per intentionem bo¬ 
+            <lb ed="#V" n="75"/>na opera, vel alia, quae sunt ad finem, ordinat in fi¬ 
+            <lb ed="#V" n="76"/>nem: patet etiam quomodo bonum, vt est ab in¬ 
+            <lb ed="#V" n="77"/>tellectu apprehensum, &amp; voluntati ostensum, ha¬ 
+            <lb ed="#V" n="78"/>bet actiuare voluntatem, &amp; mouere eam motu ad 
+            <lb ed="#V" n="79"/>formam: sed bonum, vt est a voluntate volitum 
+            <lb ed="#V" n="80"/>tanquam finis habitum in spe, &amp; tanquam id, quod 
+            <lb ed="#V" n="81"/>est ad finem. Et tertio, quod est bonum tanquam 
+            <lb ed="#V" n="82"/>finis habitum in re: isto triplici modo consideratum 
+            <lb ed="#V" n="83"/>bonum a voluntate volitum tripliciter se habet 
+            <lb ed="#V" n="84"/>ad voluntatis motum tanquam terminus, a quo 
+            <lb ed="#V" n="85"/>tanquam medium, per quod, tanquam terminus 
+            <lb ed="#V" n="86"/>in quem. Quae aliquo modo supra tetigimus, sed 
+            <lb ed="#V" n="87"/>hic clarius, &amp; dissusius declarauimus, &amp; multa 
+            <lb ed="#V" n="88"/>omissa suppleuimus. Esset autem vlterius quae¬ 
+            <lb ed="#V" n="89"/>rendum: quia tacta sunt omnia praeambu¬ 
+            <lb ed="#V" n="90"/>la ad quaestionem, quomodo opus meritorium 
+            <lb ed="#V" n="91"/>comparatur ad intentionem habitualem, &amp; a¬ 
+            <lb ed="#V" n="92"/>ctualem. Sed in proximo vlterius poterit de¬ 
+            <lb ed="#V" n="93"/>clarari. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1573">
+            <lb ed="#V" n="94"/>Dub. I. Lateralis. 
+            <lb ed="#V" n="95"/>An opus per operationem, &amp; inten¬ 
+            <lb ed="#V" n="96"/>tionem sit meritorium, 
+            <lb ed="#V" n="97"/>Conclusio est affirmatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1584">
+            <lb ed="#V" n="98"/>VLTERIVS forte dubitare 
+            <lb ed="#V" n="99"/>aliquis de quaestione principali¬ 
+            <lb ed="#V" n="100"/>ter proposita, quomodo opus 
+            <lb ed="#V" n="101"/>iest bonum, &amp; meritorium, per 
+            <lb ed="#V" n="102"/>icomparationem ad intentio¬ 
+            <lb ed="#V" n="103"/>nem: Vtrum sufficiat intentic 
+            <lb ed="#V" n="104"/>habitualis, vel requiratur actualis.
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1602">
+            <lb ed="#V" n="105"/>Dicendum quod ad soluendum, quod quaeri 
+            <lb ed="#V" n="106"/>tur adhuc: resumemus aliqua de praecedendi¬ 
+            <lb ed="#V" n="107"/>quaestione. nam de motu voluntatis est simile, &amp; 
+            <lb ed="#V" n="108"/>dissimile. Simile quidem est: Nam sicut graut 
+            <lb ed="#V" n="109"/>primo actiuatur per formam grauis, &amp; mouetur 
+            <lb ed="#V" n="110"/>motu ad formam, postea sic actiuatum, &amp; factum 
+            <lb ed="#V" n="111"/>graue per grauitatem illam mouetur in centrum 
+            <lb ed="#V" n="112"/>quasi in suum finem: sic voluntas a bono sibi osten¬ 
+            <lb ed="#V" n="113"/>so per intellectum actiuatur, &amp; aggeneratur in ea 
+            <lb ed="#V" n="114"/>quidam amor ipsius finis, quod est quodd in pondus, &amp; 
+            <lb ed="#V" n="115"/>quaedam grauitas, per quam sic actiuata mouetur 
+            <!--624.xml-->
+            <pb ed="#V" n="624"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in ea, quae sunt ad finem, &amp; in ipsum finem. Amor 
+            <lb ed="#V" n="2"/>ergo in voluntate est quoddam pondus respectu¬ 
+            <lb ed="#V" n="3"/>finis: &amp; grauitas in re graui est quidam amor re¬ 
+            <lb ed="#V" n="4"/>spectu centri. Est ergo in hoc simile de motu volum 
+            <lb ed="#V" n="5"/>tatis respectu finis, &amp; d motu grauis respectucem 
+            <lb ed="#V" n="6"/>tri: sed est ibi magna dissimilitudo. quia graue 
+            <lb ed="#V" n="7"/>sic mouetur per granitatem in centrum, quod 
+            <lb ed="#V" n="8"/>nullo modo mouetur a se, per se loquendo, sed 
+            <lb ed="#V" n="9"/>solum mouetur a generante, vt patet per philo¬ 
+            <lb ed="#V" n="10"/>sophum in Phisicis. Sed voluntas actiuata a bo¬ 
+            <lb ed="#V" n="11"/>no apprehenso, &amp; ostenso ab intellectu, &amp; hoc 
+            <lb ed="#V" n="12"/>modo facta grauis per amorem ipsius finis non 
+            <lb ed="#V" n="13"/>solum mouetur a bono sic per intellectum ap¬ 
+            <lb ed="#V" n="14"/>prehenso, &amp; ostenso: sed etiam mouetur a seipsa, 
+            <lb ed="#V" n="15"/>&amp; sic actiuata, &amp; facta grauis per amorem ipsius 
+            <lb ed="#V" n="16"/>finis, mouet seipsam in ea, quae sunt ad finem, &amp; 
+            <lb ed="#V" n="17"/>in ipsum finem. Est ergo in ea duples motus: si 
+            <lb ed="#V" n="18"/>cut &amp; in graui. Vnus ad actiuationem, &amp; ad gra¬ 
+            <lb ed="#V" n="19"/>uitatam, quae est amor finis. Et alius est motus eius 
+            <lb ed="#V" n="20"/>ad ipsum finem, &amp; ad ea, quae sunt ad finem. 
+            <lb ed="#V" n="21"/>Quantum ergo ad actiuationem non mouet se 
+            <lb ed="#V" n="22"/>voluntas: sicut nec graue mouet se ad grauita¬ 
+            <lb ed="#V" n="23"/>tem: sed voluntas facta grauis per amorem finis 
+            <lb ed="#V" n="24"/>mouet se ad finem, &amp; ad ea, quae sunt ad finem. 
+            <lb ed="#V" n="25"/>sed graue actiuatum per grauitatem, que est qui. 
+            <lb ed="#V" n="26"/>dam amor centri non mouet se, per se loquendo, 
+            <lb ed="#V" n="27"/>nec ad centrum, nec ad ea, per quae pergit in cen¬ 
+            <lb ed="#V" n="28"/>trum: sed hoc modo per se loquendo solum dicitur 
+            <lb ed="#V" n="29"/>moueri a generante. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1698">
+            <lb ed="#V" n="30"/>Dicemus enim, quod voluntas actiuata pet 
+            <lb ed="#V" n="31"/>amorem finis mouet se ad ea, quae sunt ad finem 
+            <lb ed="#V" n="32"/>dupliciter: determinando se, &amp; eligendo ea, quae 
+            <lb ed="#V" n="33"/>sunt ad finem: sed etiam mouet se non solum se 
+            <lb ed="#V" n="34"/>determinando, sed talia eligendo: &amp; etiam talem 
+            <lb ed="#V" n="35"/>motum volendo, vel tali motui consentiendo. 
+            <lb ed="#V" n="36"/>Nam quia voluntas non potest moueri nisi volunta¬ 
+            <lb ed="#V" n="37"/>rie: consequens est, quod non possit moueri nisi motum 
+            <lb ed="#V" n="38"/>volendo, &amp; motui consentiendo. sed in ipsum fi¬ 
+            <lb ed="#V" n="39"/>nem mouetur voluntas non proprie finem eligendo, 
+            <lb ed="#V" n="40"/>&amp; ad illum motum se determinando: quia cum¬ 
+            <lb ed="#V" n="41"/>finis, vel felicitas, quae est vltimus noster finis, ap¬ 
+            <lb ed="#V" n="42"/>prehendatur ab intellectu sub omni ratione bo¬ 
+            <lb ed="#V" n="43"/>ni: sufficienter determinatur voluntas ad talem 
+            <lb ed="#V" n="44"/>motum: sicut deter minatur graue per ipsam gra¬ 
+            <lb ed="#V" n="45"/>uitatem, vt moueatur in centrum. sic ergo volun¬ 
+            <lb ed="#V" n="46"/>tas mouetur ad ea, quae tendit in finem, &amp; in 
+            <lb ed="#V" n="47"/>ipsum finem, sicut graue mouetur ad ea, per quoae 
+            <lb ed="#V" n="48"/>tendit in centrum, &amp; in ipsum centrum. Sed gra¬ 
+            <lb ed="#V" n="49"/>ue secundum quencunque huiusmodi motum 
+            <lb ed="#V" n="50"/>nec mouet se ad motum se determinando: quia 
+            <lb ed="#V" n="51"/>sufficienter determinatur a natura, nec motui con¬ 
+            <lb ed="#V" n="52"/>sentiendo, quia non est agens a proposito: sed 
+            <lb ed="#V" n="53"/>voluntas actiuata, &amp; facta grauis per amorem fi¬ 
+            <lb ed="#V" n="54"/>nis mouet se ad ea, quae sunt ad finem dupliciter 
+            <lb ed="#V" n="55"/>videlicet ad motum illum se determinando, &amp; 
+            <lb ed="#V" n="56"/>motui consentiendo: &amp; in ipsum finem non 
+            <lb ed="#V" n="57"/>mouet se, nisi vno modo: quia non mouet 
+            <lb ed="#V" n="58"/>se ad illum motum se determinando, quia suffi¬ 
+            <lb ed="#V" n="59"/>cienter est ad hoc determinata per amorem finis, 
+            <lb ed="#V" n="60"/>sed mouet se ad ipsum finem, motum illum vo¬ 
+            <lb ed="#V" n="61"/>lendo, vel motui illi consentiendo. Hoc modo, 
+            <lb ed="#V" n="62"/>vt videtur, magis mouet se in finem, quam in ea¬ 
+            <!--624.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>quae sunt ad finem, quia magis consentit, &amp; ma¬ 
+            <lb ed="#V" n="64"/>gis vult fi nem, quam ea, quae sunt ad finem. Et 
+            <lb ed="#V" n="65"/>inde est, quod motus voluntatis in finem dicitur 
+            <lb ed="#V" n="66"/>voluntas: quia per se voluntas mouetur in finem 
+            <lb ed="#V" n="67"/>sed motus in ea, quae sunt ad finem, non dietn volunuas 
+            <lb ed="#V" n="68"/>sed electio. quia illa non vult voluntas proptet 
+            <lb ed="#V" n="69"/>se, sed propter sinem habendum, &amp; acquirendum 
+            <lb ed="#V" n="70"/>voluntas ergo videtur quod moueat se in finem 
+            <lb ed="#V" n="71"/>illum volendo, vel illi motui consentiendo. Ta¬ 
+            <lb ed="#V" n="72"/>men quia velle finem est quid naturale, &amp; consen¬ 
+            <lb ed="#V" n="73"/>tiro motui in finem est magis consensus natura 
+            <lb ed="#V" n="74"/>lis, quam deliberatiuus. quia respectu finis vo¬ 
+            <lb ed="#V" n="75"/>luntas se habet, vt natura secundum Dam. li. 2. c 
+            <lb ed="#V" n="76"/>a2. ideo voluntas hoc modo, &amp; si aliqualiter po¬ 
+            <lb ed="#V" n="77"/>test dici se mouere, proprie tamen non debet di¬ 
+            <lb ed="#V" n="78"/>ci mouens, sed mota, quia naturalia respectu suo¬ 
+            <lb ed="#V" n="79"/>rum motuum proprie non debent dici mouen¬ 
+            <lb ed="#V" n="80"/>tia, sed mota, vt patebit inferius in hac Dist. cum¬ 
+            <lb ed="#V" n="81"/>disputabitur de motu voluntatis naturali, &amp; de 
+            <lb ed="#V" n="82"/>liberatiuo. Concludamus ergo, &amp; dicamus, quod 
+            <lb ed="#V" n="83"/>cum voluntas moueatur duplici motu, videlicet 
+            <lb ed="#V" n="84"/>motu ad actiuationem &amp; ad formam, &amp; motu ad 
+            <lb ed="#V" n="85"/>finem. Primo modo, proprie loquendo, se habet 
+            <lb ed="#V" n="86"/>solum, vt mota ab intellectu, vel a bono appre 
+            <lb ed="#V" n="87"/>henso ab intellectu, sed in motu ad finem, &amp; 
+            <lb ed="#V" n="88"/>ad ea, quae sunt ad finem modo, quo dictum est 
+            <lb ed="#V" n="89"/>voluntas non solum se habet, vt mota, sed etiam, 
+            <lb ed="#V" n="90"/>vt mouens. Erit ergo hic motus hoc modo, quia 
+            <lb ed="#V" n="91"/>talis motus incipiet a fine vt est intentus, vel, vt 
+            <lb ed="#V" n="92"/>vt est in intentione: &amp; fiet, vel mancipabitur ef¬ 
+            <lb ed="#V" n="93"/>fectui per bona, quae sunt ad finem tanquam pet¬ 
+            <lb ed="#V" n="94"/>bona determinate electa, &amp; consumabitur inip¬ 
+            <lb ed="#V" n="95"/>sum finem, vt acquisitum, &amp; habitum per hu¬ 
+            <lb ed="#V" n="96"/>iusmodi executionem. Ex quibus apparet quo¬ 
+            <lb ed="#V" n="97"/>modo omnia praemissa sunt ad declarationem 
+            <lb ed="#V" n="98"/>huius articuli, &amp; multorum aliorum, quia solum 
+            <lb ed="#V" n="99"/>propter propositam quaestionem non multipli¬ 
+            <lb ed="#V" n="100"/>cauissemus tot verba, nisi ad multa essent profi¬ 
+            <lb ed="#V" n="101"/>cua. Cum ergo principalis quaestio nostra sit de¬ 
+            <lb ed="#V" n="102"/>opere nostro, vt est meritorium: &amp; cum omne 
+            <lb ed="#V" n="103"/>opus sit meritorium, prout incipit a fine, vt est in 
+            <lb ed="#V" n="104"/>intentione, &amp; vt est habitus in spe, &amp; de se sit aptum 
+            <lb ed="#V" n="105"/>natum mereri illum cundem finem, vt est habi¬ 
+            <lb ed="#V" n="106"/>tus in re, quia tale opus meritorium ab intontio¬ 
+            <lb ed="#V" n="107"/>ne incipit. merito ergo quoritur, quae intentio suffi¬ 
+            <lb ed="#V" n="108"/>ciat. Vtrum sufficiat habitualis, vel de necessita¬ 
+            <lb ed="#V" n="109"/>te requiratur actualis. Ad quod responderi pot¬ 
+            <lb ed="#V" n="110"/>quod haec possunt quatuor mebra fieri. Nam tempus il¬ 
+            <lb ed="#V" n="111"/>lud, quod mensurat opus meritorium, vel dicetur to¬ 
+            <lb ed="#V" n="112"/>tum esse ab intentione habituali, vel totum ab actua 
+            <lb ed="#V" n="113"/>li, vel partim ab actuali, partim ab habituali. E 
+            <lb ed="#V" n="114"/>hoc dupliciter. Quia, vel fiet inchoatio talis 
+            <lb ed="#V" n="115"/>operis ab intentione habituali, &amp; prosecutio ab 
+            <lb ed="#V" n="116"/>actuali, vel econuerso. Primus modus starae non 
+            <lb ed="#V" n="117"/>potest, quod totum tempus illud, in quo fit o¬ 
+            <lb ed="#V" n="118"/>pus meritorium, sit secundum intentionem ha¬ 
+            <lb ed="#V" n="119"/>bitualem, quia cum opus meritorium compu¬ 
+            <lb ed="#V" n="120"/>tetur inter ea, quae sunt ad finem, quia per ipsun¬ 
+            <lb ed="#V" n="121"/>meremur finem, &amp; nunquam voluntas potes¬ 
+            <lb ed="#V" n="122"/>actu velle ca, quae sunt ad finem, nisi primd 
+            <lb ed="#V" n="123"/>actu intendat in finem, quia ex actuali inten¬ 
+            <lb ed="#V" n="124"/>tione finis causatur, quod actu mancipentur 
+            <!--625.xml-->
+            <pb ed="#V" n="625"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>effectui ea, quae suntad finem, oportet primum 
+            <lb ed="#V" n="2"/>membrum esse omnino inutile. Sic etiam tertium 
+            <lb ed="#V" n="3"/>membrum est inutile, videlicet, quod tetes, in quo fit 
+            <lb ed="#V" n="4"/>opus meritorium: inchoetur scuedum intentionem ha¬ 
+            <lb ed="#V" n="5"/>bitualem, &amp; consummatur secundum actualem. quia 
+            <lb ed="#V" n="6"/>oportet, quod primo sit actualis intentio finis, qua sit a¬ 
+            <lb ed="#V" n="7"/>ctualis inchoatio operis, quod est ad finem. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1932">
+            <lb ed="#V" n="8"/>Secundum ergo membrum, videlicet, quod totum 
+            <lb ed="#V" n="9"/>tpes, in quo fit opus meritorium, sit scudum intentionem 
+            <lb ed="#V" n="10"/>actunlem. Et quartum menbrum videlicet, quod tale toaes 
+            <lb ed="#V" n="11"/>inchoetur scuemum intentionem actualem, &amp; perficiatur 
+            <lb ed="#V" n="12"/>secundum habitualem, possunt esse vtilia ad propositum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e1945">
+            <lb ed="#V" n="13"/>Dicemus enim, quod sufficit ad hoc, quod opus sit 
+            <lb ed="#V" n="14"/>meritorium, quod inchoetur secundum bonam inrentionem actua. 
+            <lb ed="#V" n="15"/>lem, &amp; pficiatur escudu habitualem. nam si quis dicit 
+            <lb ed="#V" n="16"/>horas propter bonam intentionem, &amp; propter bonum finen, 
+            <lb ed="#V" n="17"/>oportet, quod ille bonus finis sit primo actui inten¬ 
+            <lb ed="#V" n="18"/>tus, qua actu incipiat horas: vt si dicat horas pr¬ 
+            <lb ed="#V" n="19"/>laudem Dei, oportet, quod prius cogitet de laude 
+            <lb ed="#V" n="20"/>Dei, quae fit propter horas, quai actu incipiat horas. Nam 
+            <lb ed="#V" n="21"/>ad hoc, quod opus sit meritorium, oportet, quod sit op¬ 
+            <lb ed="#V" n="22"/>bonum, quod fit, &amp; intentio bona propter quam fit. Et 
+            <lb ed="#V" n="23"/>si non esset actu illa bona intentio: non posset esse 
+            <lb ed="#V" n="24"/>in effectu illud bonum opus, sed non oportet ad 
+            <lb ed="#V" n="25"/>hoc, quod opus sit meritorium, quod semper actu consi¬ 
+            <lb ed="#V" n="26"/>deret de tali intentione. Potest ergo esse opus me¬ 
+            <lb ed="#V" n="27"/>ritorium secundum quartum menbrum, videlicet, quod opus 
+            <lb ed="#V" n="28"/>meritorium inchoetur escudmu intentionem bonam, &amp; 
+            <lb ed="#V" n="29"/>actualem, &amp; finiatur secundum habitualem. sed si 
+            <lb ed="#V" n="30"/>fiat bonum opus modo, quo dicebat secundum 
+            <lb ed="#V" n="31"/>menbrum: videlicet, quod bonum opus inchoetur, &amp; 
+            <lb ed="#V" n="32"/>finiatur secundum bonam intentionem actualem, non 
+            <lb ed="#V" n="33"/>solum erit meritorium, sed etiam erit magis merito¬ 
+            <lb ed="#V" n="34"/>rium: ideo cum ahquid boni facimus, semper quao 
+            <lb ed="#V" n="35"/>tum possumus, debemus habere nostram intentio¬ 
+            <lb ed="#V" n="36"/>nem ad Deum, quem debemus intendere quantum 
+            <lb ed="#V" n="37"/>possumus actu in omnibus bonis operibus niidis, 
+            <lb ed="#V" n="38"/>quem quanto magis intendimus actu, caeteris pa¬ 
+            <lb ed="#V" n="39"/>ribus magis erunt mieritoria opera nostra. Et si¬ 
+            <lb ed="#V" n="40"/>propter mobilitatem cogitationum nostrarum non 
+            <lb ed="#V" n="41"/>possumus stare fixi in huiusmodi intentione pr¬ 
+            <lb ed="#V" n="42"/>aliquam cessationem ab huiusmodi intentione, 
+            <lb ed="#V" n="43"/>non propter hoc euacuatur opus nostrum a suo 
+            <lb ed="#V" n="44"/>merito, tamen quantum possumus debemus sta¬ 
+            <lb ed="#V" n="45"/>re fixi in tali intentione, vt sit ibi maius meritum 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2020">
+            <lb ed="#V" n="46"/>RESP. AD ARG. ART. Ad primum dicendum, quod 
+            <lb ed="#V" n="47"/>non propter quamlibet cessationem a bona acti¬ 
+            <lb ed="#V" n="48"/>uatione actuali tollitur a bono opere meritum: 
+            <lb ed="#V" n="49"/>Tamen quantum possumus, debemus esse fixi in 
+            <lb ed="#V" n="50"/>illa intentione de bono fine, &amp; specialiter de bono¬ 
+            <lb ed="#V" n="51"/>fine vltimo, qui est Deus, vt sit ibi maius meritum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2036">
+            <lb ed="#V" n="52"/>Ad secundum dicendum, quod cum intentio bo¬ 
+            <lb ed="#V" n="53"/>na sit causa boni operis, quia aliter non potest esse 
+            <lb ed="#V" n="54"/>opus meritorium nisi sit bonum, &amp; a bona inten¬ 
+            <lb ed="#V" n="55"/>tione causatum: oportet, quod saltem in princi¬ 
+            <lb ed="#V" n="56"/>pio sit talis bona intentio actualis, vt actu manci¬ 
+            <lb ed="#V" n="57"/>petur illud bonum opus, &amp; quod actualis intentio 
+            <lb ed="#V" n="58"/>sit actualis causa illius operis. Nam quod non tan¬ 
+            <lb ed="#V" n="59"/>git, non agit: Cum ergo habitualis intentio non 
+            <lb ed="#V" n="60"/>nctu applicet, &amp; non actu attingat suum effectum, 
+            <lb ed="#V" n="61"/>non poterit illud opus esse in actu, nisi actualis 
+            <lb ed="#V" n="62"/>intentio illius operis saltem quantum ad suum¬ 
+            <!--625.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>principium sit in actu. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2069">
+            <lb ed="#V" n="64"/>Ad tertium dicendum, quod licet dicens horas proe 
+            <lb ed="#V" n="65"/>pter Deum aliquando non cogitet de Deo, &amp; hoc 
+            <lb ed="#V" n="66"/>non obstante est ibi meritum, cum, si semper actu¬ 
+            <lb ed="#V" n="67"/>cogitaret, esset ibi maius meritum. Possumus autem 
+            <lb ed="#V" n="68"/>ponere exemplum de motu pilae, oportet, quod in pri¬ 
+            <lb ed="#V" n="69"/>mo actu impellatur pila ad hoc, vt moueatur, 
+            <lb ed="#V" n="70"/>sed cessante impulsione non propter hoc cessat 
+            <lb ed="#V" n="71"/>motus pilae. Sic a principio est actualis intentio, vt 
+            <lb ed="#V" n="72"/>actu incipiat opus meritorium. Sed cessante illa 
+            <lb ed="#V" n="73"/>actuali intentione non propter hoc cessat opus 
+            <lb ed="#V" n="74"/>meritorium, &amp; continuat ipsum iter ad ecelesiam 
+            <lb ed="#V" n="75"/>cum desinit cogitare de Deo. Quare si non cessat 
+            <lb ed="#V" n="76"/>tale opus meritorium, vel non oportet, quod cesset 
+            <lb ed="#V" n="77"/>eum cogitare de Deo: esset tamen magis merito¬ 
+            <lb ed="#V" n="78"/>rium, si semper cogitaret de Deo, 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2104">
+            <lb ed="#V" n="79"/>Et per hoc patet solutio ad quartum, quia cum 
+            <lb ed="#V" n="80"/>religiosus actu vouit: actu cogitauit de Deo. Et si 
+            <lb ed="#V" n="81"/>propter illud votum meretur, cum aliquid boni¬ 
+            <lb ed="#V" n="82"/>facit, etiam si non actu cogitet de Deo, tamen ma¬ 
+            <lb ed="#V" n="83"/>gis mereretur, si semper actu cogiuaret de Deo. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2117">
+            <lb ed="#V" n="84"/>RRSP. ADTARTENIN CONTRARIVM. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2122">
+            <lb ed="#V" n="85"/>AD primum in contrarium dicendum, quod 
+            <lb ed="#V" n="86"/>in patria non erunt cogitationes volu¬ 
+            <lb ed="#V" n="87"/>biles, vt sunt in via: Ideo in patria sem¬ 
+            <lb ed="#V" n="88"/>per actu videbimus Deum, &amp; fruemur Deo, sed 
+            <lb ed="#V" n="89"/>in via non possumus cogitare de Deo. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2136">
+            <lb ed="#V" n="90"/>Ad secundum dicendum, quod patet solutio per¬ 
+            <lb ed="#V" n="91"/>iam dicta, qua sufficit, quod a principio sit intentio 
+            <lb ed="#V" n="92"/>actualis, sed in prosequendo sufficit, quod sit habi¬ 
+            <lb ed="#V" n="93"/>tualis ad hoc, quod sit ibi meritum, sed si esset actua¬ 
+            <lb ed="#V" n="94"/>lis, esset maius meritum. Nam non solum inten¬ 
+            <lb ed="#V" n="95"/>tio actualis includit finem intentum, &amp; si non ex¬ 
+            <lb ed="#V" n="96"/>plicite, implicite tamen nam quandiu durat opus bonum 
+            <lb ed="#V" n="97"/>&amp; si non actualiter, virtualiter tame durat intentio bo¬ 
+            <lb ed="#V" n="98"/>na, per quam inchoatum est opus bonum, sicut 
+            <lb ed="#V" n="99"/>quandiu durat motus pilae, &amp; si non naturaliter 
+            <lb ed="#V" n="100"/>virtualiter durat impulsio pilae, per quam inchoa¬ 
+            <lb ed="#V" n="101"/>tus est motus pilae. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2165">
+            <lb ed="#V" n="102"/>Dub. II. Lateralis. 
+            <lb ed="#V" n="103"/>An intentio actualis opus merito¬ 
+            <lb ed="#V" n="104"/>rium praecedere debeat. 
+            <lb ed="#V" n="105"/>Conclusio est affirmativa. 
+            <lb ed="#V" n="106"/>
+            <!--line coord error -->
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2180">
+            <lb ed="#V" n="107"/>VLTERIVS autem, quia intellectus 
+            <lb ed="#V" n="108"/>hominis non quiescit, posset ali¬ 
+            <lb ed="#V" n="109"/>quis dubitare quomodo oporteat 
+            <lb ed="#V" n="110"/>intentionem actualem praecedere 
+            <lb ed="#V" n="111"/>ante, quam opus meritorium in 
+            <lb ed="#V" n="112"/>picendum, quod non potest opus esse meritorium¬ 
+            <lb ed="#V" n="113"/>nisi sit in genere morum. Cum ergo semper opus 
+            <lb ed="#V" n="114"/>morale praesupponat actualem intentionem ali¬ 
+            <lb ed="#V" n="115"/>cuius finis, a qua causatur, non poterit esse mora¬ 
+            <lb ed="#V" n="116"/>le opus, nisi ipsum tanquam suum effectum prae¬ 
+            <lb ed="#V" n="117"/>cedat alicuius finis actualis intentio, tanquam 
+            <lb ed="#V" n="118"/>causa. Sunt autem superius dicta tria de morali ope, 
+            <!--626.xml-->
+            <pb ed="#V" n="626"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ex quibus possunt sumi tres rationes, quo oportet 
+            <lb ed="#V" n="2"/>sic esse. Primo quid dictum est de morali opere, quod 
+            <lb ed="#V" n="3"/>sumit speciem a fine. Posset ergo opus aliquod, vel 
+            <lb ed="#V" n="4"/>effectus aliquis habere sinem imaginatum. sicut pone¬ 
+            <lb ed="#V" n="5"/>batur exemplum de fricatione barbe, sed tale opus 
+            <lb ed="#V" n="6"/>vel talis actus non diceret esse in genere moris, nec, 
+            <lb ed="#V" n="7"/>cuimdo quod huiusmodi esset meritorius, vel demerito¬ 
+            <lb ed="#V" n="8"/>rius. Opus ergo morale, quod est meritorium, vel¬ 
+            <lb ed="#V" n="9"/>demeritorium, oportet, quod siat cum deliberatio¬ 
+            <lb ed="#V" n="10"/>ne, &amp; a voluntate deliberariua. Et quia delibera¬ 
+            <lb ed="#V" n="11"/>tio, vel voluntas deliberatiua de necessitate prae¬ 
+            <lb ed="#V" n="12"/>supponit actualem intentionem alicuius finis, quia 
+            <lb ed="#V" n="13"/>actualis intentio finis quantum ad agibilia se hebet 
+            <lb ed="#V" n="14"/>sicut quaedam lucerna in obscuritate noctis: sicut er¬ 
+            <lb ed="#V" n="15"/>go sine lucerna in obscuritate noctis non potest, 
+            <lb ed="#V" n="16"/>quis cognoscere, quid videndum, quid agendum, 
+            <lb ed="#V" n="17"/>vel non agendum: Ita, &amp; multo magis sine actuali¬ 
+            <lb ed="#V" n="18"/>intentione finis non potest: quis de liberare, quid 
+            <lb ed="#V" n="19"/>agendum. Ideo dictum est: Lucerna corporis tui 
+            <lb ed="#V" n="20"/>est oculus tuus. Nam statim cum quis proponit 
+            <lb ed="#V" n="21"/>sibi aliquem finem, &amp; intendit aliquem finem: fit quidam 
+            <lb ed="#V" n="22"/>oculus in aia sua, vt videre possit, quae sint agenda 
+            <lb ed="#V" n="23"/>ad obtinendum illum finem: vel statim fit in eo quae¬ 
+            <lb ed="#V" n="24"/>dam lucerna lucens ad cognoscendum, quae sunt 
+            <lb ed="#V" n="25"/>eligenda, vt finis ille obtineri possit, propter quod in¬ 
+            <lb ed="#V" n="26"/>tentio finis oculus, &amp; lucerna dici potest. Si enim 
+            <lb ed="#V" n="27"/>moralia sumunt speciem a fine, si aliquod opus mo¬ 
+            <lb ed="#V" n="28"/>rale fieret sine actuali intentione alicuius finis; il¬ 
+            <lb ed="#V" n="29"/>lud opus, quod dicitur esse morale, non esset mo¬ 
+            <lb ed="#V" n="30"/>rale, quia non esset in aliqua specie morum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2280">
+            <lb ed="#V" n="31"/>Secundo autem dicitur de opere morali, vt pa¬ 
+            <lb ed="#V" n="32"/>tet ex habitis, quod essentialis differentia eius est bo¬ 
+            <lb ed="#V" n="33"/>nitas, vel malitia moralis. quod non esset, nisi ta¬ 
+            <lb ed="#V" n="34"/>le opus praesupponeret actualem intentionem finis. 
+            <lb ed="#V" n="35"/>nam ideo dicitur malum opus morale, vel quia 
+            <lb ed="#V" n="36"/>non est ordinabile ad bonum finem, sicut est opus, 
+            <lb ed="#V" n="37"/>quod non est bonum ex genere, vel quia ex parte agen¬ 
+            <lb ed="#V" n="38"/>tis non ordinatur ad bonum finem, sicut est opus, 
+            <lb ed="#V" n="39"/>quod non est bonum ex fine, vel ex intentione. 
+            <lb ed="#V" n="40"/>Oportet ergo ad hoc, quod opus sit bonum, quod sit or¬ 
+            <lb ed="#V" n="41"/>dinabile ad bonum finem, quod sine praecedente 
+            <lb ed="#V" n="42"/>actuali intentione esse non potest. Cum ergo no¬ 
+            <lb ed="#V" n="43"/>stra locutio sit de opere bono, &amp; meritorio, opor¬ 
+            <lb ed="#V" n="44"/>tet, quod huiusmodi opus, bona, &amp; actualis intentio¬ 
+            <lb ed="#V" n="45"/>praecedat: Non tamen oportet, quod illa hona actua¬ 
+            <lb ed="#V" n="46"/>lis intentio continuetur essentialiter, sed sufficit, 
+            <lb ed="#V" n="47"/>quod continuetur virtualiter, sicut continuatur virtus 
+            <lb ed="#V" n="48"/>impellentis, quandiu durat motus impulsionis. Si 
+            <lb ed="#V" n="49"/>tamen continuaretur illa bona intentio non solum 
+            <lb ed="#V" n="50"/>virtualiter, &amp; implicite, sed actualiter, &amp; explici¬ 
+            <lb ed="#V" n="51"/>te opus esset magis meritorium. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2328">
+            <lb ed="#V" n="52"/>Dicebatur aurem, &amp; tertio de morali opere, vt 
+            <lb ed="#V" n="53"/>patet ex antedictis. quia licet ex ratione operis 
+            <lb ed="#V" n="54"/>possit opus esse idifferens, sicut est eleuare festucam, 
+            <lb ed="#V" n="55"/>tamen ratione intentionis, quantum ad esse indi¬ 
+            <lb ed="#V" n="56"/>uiduale, nullum est opus morale indifferens. quia 
+            <lb ed="#V" n="57"/>semper fit propter aliquam intentionem actualem 
+            <lb ed="#V" n="58"/>bonam, vel malam, vel aliter non esset opus mo¬ 
+            <lb ed="#V" n="59"/>rale, quia no procederet ex voluntate deliberati¬ 
+            <lb ed="#V" n="60"/>ua. Opus ergo morale bonum, &amp; meritorium sem¬ 
+            <lb ed="#V" n="61"/>per praecedit bona intentio act ualis: licet non o¬ 
+            <lb ed="#V" n="62"/>portcabquod illa bona intentio semper continuetur 
+            <!--626.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>actualiter, sed sufficit, quod continuetur virtualiter, 
+            <lb ed="#V" n="64"/>vel habitualiter, vt possit ibi esse meritum: licet, 
+            <lb ed="#V" n="65"/>si sic continuaretur, esset ibi maius meritum. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m183174-Dd1e2366">
+          <head xml:id="Gi9qrR-m183174-Hd1e2368">Articulus 3</head>
+          <p xml:id="Gi9qrR-m183174-d1e2370">
+            <lb ed="#V" n="66"/>ARTIC. III. 
+            <lb ed="#V" n="67"/>An omnis Infidelium vita sit 
+            <lb ed="#V" n="68"/>peccatum.
+            <lb ed="#V" n="69"/>Conclusio est negatiua.
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2381">
+            <lb ed="#V" n="70"/>D Tho 2. sent. d. 41. q. 1. artic. 3. Tho. Arg. d. 41. q. 1. arti 3. 
+            <lb ed="#V" n="71"/>Capr. d. 41. q. 1. &amp; 2. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2388">
+            <lb ed="#V" n="72"/>TERTIO quaeritur: Vtrum om¬ 
+            <lb ed="#V" n="73"/>nis vita, vel omnis actio Infide¬ 
+            <lb ed="#V" n="74"/>lium sit peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2397">
+            <lb ed="#V" n="75"/>Et videtur, quod sic: quia, vt dicit 
+            <lb ed="#V" n="76"/>ad Ro. Omne, quod non est ex fi¬ 
+            <lb ed="#V" n="77"/>de, peccatum est. vbi vult Clo. 
+            <lb ed="#V" n="78"/>quod omnis vita infidelium est peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2409">
+            <lb ed="#V" n="79"/>Praeterea omnis actus bonus est actus rectus, 
+            <lb ed="#V" n="80"/>sed omnis actus rectus procedit ab intentione se¬ 
+            <lb ed="#V" n="81"/>cta. Cum ergo in distinctione praecedentur &amp; in 
+            <lb ed="#V" n="82"/>hac Dist. dictum sit, quod fides dirigit intentionem 
+            <lb ed="#V" n="83"/>nihil potest esse rectum, vbi non est fides: Omnis 
+            <lb ed="#V" n="84"/>ergo vita, &amp; omnis actio infidelium, quia non est 
+            <lb ed="#V" n="85"/>recta, peccatum est.1 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2427">
+            <lb ed="#V" n="86"/>Praeterea vt dicitur ad Hebr. <quote xml:id="Gi9qrR-m183174-Qd1e2431">Sine fide impossi¬ 
+              <lb ed="#V" n="87"/>bile est placere Deo</quote>. Nulla ergo actio infidelium 
+            <lb ed="#V" n="88"/>est Deo placens ergo videtur, quod sit dilplicens, 
+            <lb ed="#V" n="89"/>&amp; quod sit peccatum., 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2441">
+            <lb ed="#V" n="90"/>Praeterea illud est malum, quod caret aliqua 
+            <lb ed="#V" n="91"/>perfectione, quam drbet habere. sed omnis actus 
+            <lb ed="#V" n="92"/>humanus debet habere perfectionem vltimi finis, 
+            <lb ed="#V" n="93"/>&amp; debet esse ordinatus in. utimum finem cum¬ 
+            <lb ed="#V" n="94"/>omnis actus infidelium xaraat tali persediousi 
+            <lb ed="#V" n="95"/>ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2457">
+            <lb ed="#V" n="96"/>IN CONTRARIVM est: quia non est 
+            <lb ed="#V" n="97"/>consilium, nisi de bono. sed infidelibus consulun¬ 
+            <lb ed="#V" n="98"/>tur aliqua de generatione bonorum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2466">
+            <lb ed="#V" n="99"/>RESOLVTIOI 
+            <lb ed="#V" n="100"/>In fdelis bonum opns facaerae porest, srbon iprontio¬ 
+            <lb ed="#V" n="101"/>ne in infidelitate siut, sed non simpliciter, quid nie¬ 
+            <lb ed="#V" n="102"/>ritorium ossae non potaest, quantum ad viram ater¬ 
+            <lb ed="#V" n="103"/>nam. Si antem ab infidesi opus bonum ad idnlum 
+            <lb ed="#V" n="104"/>rcscratur, peccatimnest. fiinc opus bonumstdno 
+            <lb ed="#V" n="105"/>bentfactum dici uobet. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2484">
+            <lb ed="#V" n="106"/>RESPONDE dicendum, quod adlant 
+            <lb ed="#V" n="107"/>quaestionem respondent scripta communia, q 
+            <lb ed="#V" n="108"/>sicut in naturalibus vna perfectio superadditu¬ 
+            <lb ed="#V" n="109"/>alteri: sic &amp; in moralibus. Et sicut in naturalibus 
+            <lb ed="#V" n="110"/>amota perfectione posteriori, remanet nrior¬ 
+            <lb ed="#V" n="111"/>sic, &amp; in moralibus. In naturalibus enim prin¬ 
+            <lb ed="#V" n="112"/>perfectio est esse Secunda est viuere. Tertia est ser¬ 
+            <lb ed="#V" n="113"/>ute. Quarta estsecuqdumn locum mno gli¬ 
+            <!--627.xml-->
+            <pb ed="#V" n="627"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quinta est ratiocinari, &amp; intelligere. Vndo 
+            <lb ed="#V" n="2"/>Philosophus in 1. de anima assignat quatuor gra¬ 
+            <lb ed="#V" n="3"/>dus aiatorum: vegetatiuum, sensitiuum, secun¬ 
+            <lb ed="#V" n="4"/>dam locum motiuum, &amp; intellectiuum: Qpor¬ 
+            <lb ed="#V" n="5"/>tet ergo, quod sit dare quintum gradum etem in aiatis, 
+            <lb ed="#V" n="6"/>cuiusmodi est esse, vel existere. Et sicut assignaui¬ 
+            <lb ed="#V" n="7"/>mus 3. gradus in naturalibus: Ita possumus assi¬ 
+            <lb ed="#V" n="8"/>gnare st gradus in moralibus, vt primus gradus, 
+            <lb ed="#V" n="9"/>vel Prima per fectio sit ex essentia. Secunda ex ma¬ 
+            <lb ed="#V" n="10"/>teria. Tertia ex citcunstantia. Quarta ex fine. Quin¬ 
+            <lb ed="#V" n="11"/>ta ex perfectione habitus id iest ex charitate. Sicut er¬ 
+            <lb ed="#V" n="12"/>go in naturalibus nisi tollatur intellectiuum po¬ 
+            <lb ed="#V" n="13"/>test remanere scud locum motiuum, quo amoto 
+            <lb ed="#V" n="14"/>potet remanere senfitiuum, &amp; sic de alijs: sic &amp; in 
+            <lb ed="#V" n="15"/>moralibus, vt aiunt. Et licet scripta conia non omnia 
+            <lb ed="#V" n="16"/>haec proponant, quae diximus: Tame simile intro¬ 
+            <lb ed="#V" n="17"/>ductum per talia scripta non est sufficiens, nec suf¬ 
+            <lb ed="#V" n="18"/>ficientet declarat quotonem propositam. Nam ex quoli¬ 
+            <lb ed="#V" n="19"/>bet malo dicitur totum opus malum, vt si sit bonum 
+            <lb ed="#V" n="20"/>opus, &amp; mala intentio, vt si quis dat elemosinam 
+            <lb ed="#V" n="21"/>pronter inanem gloriam: dicitur male agere, &amp; pec¬ 
+            <lb ed="#V" n="22"/>care. Coinquinatur enim bonitas actionis ppe mali¬ 
+            <lb ed="#V" n="23"/>tiam inanis gloriae. Et econuerso, vtputa, qui fu¬ 
+            <lb ed="#V" n="24"/>ratur, vt det eleemosinam: totum dicetur esse ma¬ 
+            <lb ed="#V" n="25"/>lum, quia coinquinatur bonitas intentionis pre¬ 
+            <lb ed="#V" n="26"/>pter malitiam operis: Siuae ergo in talibus opus 
+            <lb ed="#V" n="27"/>dicatur esse prius, &amp; intentio posterior, siue econ 
+            <lb ed="#V" n="28"/>uerso: non remanebit bonitas prioris propter 
+            <lb ed="#V" n="29"/>malitiam posterioris, nec econuerso: Propter quode 
+            <lb ed="#V" n="30"/>similitudo naturalium ad moralia secundum 
+            <lb ed="#V" n="31"/>prius, &amp; posterius non est conueniens morali ne 
+            <lb ed="#V" n="32"/>gocio. Vtrum aunet hoc dictum commune conti¬ 
+            <lb ed="#V" n="33"/>neat aliquam veritatem, in prosequendo patebit. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2583">
+            <lb ed="#V" n="34"/>Dicamus ergo, quod Magister circa hanc quaestio¬ 
+            <lb ed="#V" n="35"/>nem tripliciter se hebre videtur. Nam primo ait 
+            <lb ed="#V" n="36"/>om n vitam infidelium peccatum esse, innixus verbis 
+            <lb ed="#V" n="37"/>Apostoli: quia om quod non est ex fide: peccatum est. 
+            <lb ed="#V" n="38"/>Et innixus expositioni Aug. quod ois vita insi lelium 
+            <lb ed="#V" n="39"/>peccatum est: quia, vt ait, vbi deest conditio aeter 
+            <lb ed="#V" n="40"/>nae salutis: falsa virtus est. Secundo hanc senten¬ 
+            <lb ed="#V" n="41"/>tiam primam contemperat distinguens inter age¬ 
+            <lb ed="#V" n="42"/>re bonum, &amp; bene: volens, quod si infideles possunt 
+            <lb ed="#V" n="43"/>agere bonum: quoa paem facere multa de gane bono 
+            <lb ed="#V" n="44"/>rum: tan non faciunt ea bene. Tertio etiam hanc se 
+            <lb ed="#V" n="45"/>cundam sniam contemperat volens, quod infideles 
+            <lb ed="#V" n="46"/>possunt facere bona, &amp; bene: sed non meritorie. 
+            <lb ed="#V" n="47"/>Nam si quis etiam infidelis naturali pietate ve¬ 
+            <lb ed="#V" n="48"/>stiat nudum: bonum facst, quia bonum est vestire 
+            <lb ed="#V" n="49"/>nudum, &amp; bene facit, quia facit hoc ex naturali¬ 
+            <lb ed="#V" n="50"/>pietate, quia non propter inanem gloriam: ta¬ 
+            <lb ed="#V" n="51"/>men non meritorie facit: quia non habet cha¬ 
+            <lb ed="#V" n="52"/>ritatem, secundum quam est omne opus meritorium 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2627">
+            <lb ed="#V" n="53"/>Dicemus ergo, quod opera infidelium tripliciter 
+            <lb ed="#V" n="54"/>possunt considerari: Primo, vt sunt infidelium, 
+            <lb ed="#V" n="55"/>&amp; secundum se tota. Et ad hunc modum videtur 
+            <lb ed="#V" n="56"/>tendere prima sententia Magistri. Secundo consi¬ 
+            <lb ed="#V" n="57"/>derati possunt opera infidelium, vt sunt infide¬ 
+            <lb ed="#V" n="58"/>lium, sed non secundum se tota: sed, vt sunt per partes di¬ 
+            <lb ed="#V" n="59"/>uersa. Et ad hoc videtur ire secunda sententia. Ma 
+            <lb ed="#V" n="60"/>gistri, quod infideles possunt facere bona, sed non 
+            <lb ed="#V" n="61"/>bene. Tertio considerari possunt opera infidelium 
+            <lb ed="#V" n="62"/>non ut procedunt ex intentione infideli: sed ex 
+            <!--627.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>intentione alia bona, vt puta ex naturali pietate 
+            <lb ed="#V" n="64"/>&amp; in hoc stat tertia sententia Magistri, quod infie¬ 
+            <lb ed="#V" n="65"/>deles possunt facere bona, &amp; bene: sed non meri¬ 
+            <lb ed="#V" n="66"/>torie. Propter primum sciendum aliquos si npli¬ 
+            <lb ed="#V" n="67"/>citer, &amp; absolute sensisse om n actionem infi delium 
+            <lb ed="#V" n="68"/>quocunque modo factim peccatum esse. Expo¬ 
+            <lb ed="#V" n="69"/>nentes hoc modo verba Aug. Oenen vitam infide 
+            <lb ed="#V" n="70"/>lium peccatum esse. Sed ista videtur nimis dura 
+            <lb ed="#V" n="71"/>sententia, quod illud, quod faciunt infideles, &amp; 
+            <lb ed="#V" n="72"/>pagani, vel haeretici, vel iudaei non ex infidelitate 
+            <lb ed="#V" n="73"/>sed ex nat urali pietate: dum tamen illud sit de ge¬ 
+            <lb ed="#V" n="74"/>nere bonorum; sicut est vestire nudum, vel pasce¬ 
+            <lb ed="#V" n="75"/>re esurientem, quod sit peccatum. Verum est enim 
+            <lb ed="#V" n="76"/>tale quid non esse meritorium. Qu a sic agentes, 
+            <lb ed="#V" n="77"/>cuiusmodi sunt infideles carent fi de, &amp; charita¬ 
+            <lb ed="#V" n="78"/>te, sine quibus nullum est meritum. Nam, &amp; ip¬ 
+            <lb ed="#V" n="79"/>si fideles si sunt in peccato mortali carentes chari¬ 
+            <lb ed="#V" n="80"/>tate: nullum bonum opus quandiu sic se haben¬ 
+            <lb ed="#V" n="81"/>potest eis esse meritorium ad vitam aeternam. 
+            <lb ed="#V" n="82"/>sed, quod ipsa bona opera, facta ex naturali pie¬ 
+            <lb ed="#V" n="83"/>tate sint eis damnabilia, &amp; demeritoria: dura es¬ 
+            <lb ed="#V" n="84"/>set sententia. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2703">
+            <lb ed="#V" n="85"/>Possumus ergo hanc sic temperare sententiam, 
+            <lb ed="#V" n="86"/>vt etiam alii temperant: Quia quicquid faciunt 
+            <lb ed="#V" n="87"/>infideles, vt infideles, vel ex infidelitate, vel refe¬ 
+            <lb ed="#V" n="88"/>rendo ad infidelitatem: peccatum est, ut si infidelis 
+            <lb ed="#V" n="89"/>vestiat nudum ex naturali pietate credens ex hoc 
+            <lb ed="#V" n="90"/>placere Deo suod est idolo; quodcunque opus sit 
+            <lb ed="#V" n="91"/>bonum, &amp; factum aliquo modo bona intentione: 
+            <lb ed="#V" n="92"/>quia ex naturali pietate: Tae propter illam malam 
+            <lb ed="#V" n="93"/>credulitatem, vel intentionem: quia credit, &amp; intem 
+            <lb ed="#V" n="94"/>dit ex hoc placere Deo suo, id est idolo: habet ibi¬ 
+            <lb ed="#V" n="95"/>esse peccatum. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2729">
+            <lb ed="#V" n="96"/>Ad hoc ergo uadit prima Magistri sententia. 
+            <lb ed="#V" n="97"/>uidelicet, quod omnis vita infidelium est peccatum 
+            <lb ed="#V" n="98"/>&amp;, quod omne opus eorum est peccatum, quod ue¬ 
+            <lb ed="#V" n="99"/>ritatem hebet de omni opere, quod agunt, ut infide¬ 
+            <lb ed="#V" n="100"/>les, uel, quod referunt ad infidelitatem conside 
+            <lb ed="#V" n="101"/>rando opera secundum se tota: Quia conside¬ 
+            <lb ed="#V" n="102"/>rando ea, uel opera eorum diuisim, uel secundum 
+            <lb ed="#V" n="103"/>partes: esset aliter dicendum, ut in secundo mem¬ 
+            <lb ed="#V" n="104"/>bro patebit. Secundo paeam considerari opera infide¬ 
+            <lb ed="#V" n="105"/>lium, ut sunt infideles, uel ut sunt relata ad ifideli¬ 
+            <lb ed="#V" n="106"/>tatem credentes, &amp; intendentes ex hoc placere idolo, 
+            <lb ed="#V" n="107"/>quod credunt esse Deum. tame si considerentur huiusmodi opo¬ 
+            <lb ed="#V" n="108"/>ra non secundum se tota: sed diuisim, &amp; secundum partes potet¬ 
+            <lb ed="#V" n="109"/>dici, quod bonum est, quod fit, sed non bene. Dicebat 
+            <lb ed="#V" n="110"/>n. supra de bonitate operis, uel de pulchritudine 
+            <lb ed="#V" n="111"/>hois: quia bonum opus constat ex tota sua causas 
+            <lb ed="#V" n="112"/>Malum autem ex particularibus defectibus: Et 
+            <lb ed="#V" n="113"/>pulchritudo hois constat ex pulchritudine om¬ 
+            <lb ed="#V" n="114"/>nium membrorum: Sed turpitudo potet constare 
+            <lb ed="#V" n="115"/>ex turpitudine unius solius membri. ut si homo¬ 
+            <lb ed="#V" n="116"/>habeat pulchros oculos, &amp; pulchrum nasum: 
+            <lb ed="#V" n="117"/>sed habeat os ualde turpe, totus homo dicetur 
+            <lb ed="#V" n="118"/>turpis. Si ergo turpitudo consideretur secun¬ 
+            <lb ed="#V" n="119"/>dum totum hominem: totus homo dicetur tur¬ 
+            <lb ed="#V" n="120"/>pis ex turpitudine unius membri;: Sed si consi¬ 
+            <lb ed="#V" n="121"/>dererpulchritudo diuisim, &amp; sdo partes: turpito¬ 
+            <lb ed="#V" n="122"/>do oris non tollet pulchritudinem nasi secundum se, nec 
+            <lb ed="#V" n="123"/>pulchritudinem oculorum. Ponet enim quis hebnre pul¬ 
+            <lb ed="#V" n="124"/>chrum nasum: non obstante, quod habet turpeos. Sic 
+            <!--628.xml-->
+            <pb ed="#V" n="628"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>&amp; in proposito: si quis induat pauperem mala¬ 
+            <lb ed="#V" n="2"/>credulitate, vel mala intentione, vt placeat ex hoc 
+            <lb ed="#V" n="3"/>idolo: totum istud, scilicet induere pauperem 
+            <lb ed="#V" n="4"/>proptet placere idolo est peccatum. Sed si consi¬ 
+            <lb ed="#V" n="5"/>deretur hoc diuisim, &amp; secundum partes; Dice¬ 
+            <lb ed="#V" n="6"/>mus, quod placere idolo, non facit quin induere 
+            <lb ed="#V" n="7"/>pauperem sit de genere bonorum: Induere ergo 
+            <lb ed="#V" n="8"/>pauperem est bonum in se: Sed non est bonum 
+            <lb ed="#V" n="9"/>huic initio, &amp; est ei malum, qui facit hoc, vt pla¬ 
+            <lb ed="#V" n="10"/>ceat idolo. Ad hoc ergo potest referri secunda 
+            <lb ed="#V" n="11"/>sententia Magistri, quod infideles etiam, vt agunt 
+            <lb ed="#V" n="12"/>ex infidelitate possunt facere bonum: Quia pos¬ 
+            <lb ed="#V" n="13"/>sunt facere aliquid, quod est de genere bono¬ 
+            <lb ed="#V" n="14"/>rum: Non tamen faciunt illud bene, vel pos¬ 
+            <lb ed="#V" n="15"/>sunt facere aliquid, quod est bonum in se: Sed 
+            <lb ed="#V" n="16"/>non est bonum eis: quia non saciunt illud bene. 
+            <lb ed="#V" n="17"/>Ad hoc etiam potest adduci sententia Doctorum 
+            <lb ed="#V" n="18"/>prius posita, quomodo amoto posteriori, rema¬ 
+            <lb ed="#V" n="19"/>net prius, vt si bonum ex genere est prius, quam 
+            <lb ed="#V" n="20"/>bonum ex circunstantia: dato, quod opus sit ma¬ 
+            <lb ed="#V" n="21"/>lum ex circunstantia potest remanere bonum ex 
+            <lb ed="#V" n="22"/>genere. Sed ista bonitas non erst secundum con¬ 
+            <lb ed="#V" n="23"/>siderationem totalem: quia bonitas ex genero 
+            <lb ed="#V" n="24"/>cum malitia ex circunstantia, &amp; maxime si sit ta¬ 
+            <lb ed="#V" n="25"/>lis circunstantia, quae variet speciem, totum dice¬ 
+            <lb ed="#V" n="26"/>tur malum. vt si actus generationis est bonus: 
+            <lb ed="#V" n="27"/>facere tamen hunc actum cum non sua: totum 
+            <lb ed="#V" n="28"/>dicetur malum. Diuisim tamen loquendo po¬ 
+            <lb ed="#V" n="29"/>test amoueri bonitas posterioris, remanente 
+            <lb ed="#V" n="30"/>te bonitate prioris. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2866">
+            <lb ed="#V" n="31"/>Tertio, vt dicebatur, possunt considetari ope¬ 
+            <lb ed="#V" n="32"/>ra infidelium, vt non procedunt ex infidelitate: 
+            <lb ed="#V" n="33"/>sed ex alia bona intentione. Et sic verificatur ter¬ 
+            <lb ed="#V" n="34"/>tia sententia Magistri, quod infideles possunt fa¬ 
+            <lb ed="#V" n="35"/>cere bonum, &amp; quantum ad aliquid bene: Sec 
+            <lb ed="#V" n="36"/>non simpliciter bene: Quia non meritorie, cum 
+            <lb ed="#V" n="37"/>non fiat ex charitate. Possunt enim infideles 
+            <lb ed="#V" n="38"/>facere bonum: Quia possunt facere aliquid de 
+            <lb ed="#V" n="39"/>genere bonorum, vt vestire nudum, quod est de¬ 
+            <lb ed="#V" n="40"/>genere bonorum. Et possunt facere aliquo mo¬ 
+            <lb ed="#V" n="41"/>do bene: Quia possunt hoc facere: non, vt pla¬ 
+            <lb ed="#V" n="42"/>ceant idolo, sed solum naturali pietate: Tamen¬ 
+            <lb ed="#V" n="43"/>non fiet hoc simpliciter bene, quia non fiet meri¬ 
+            <lb ed="#V" n="44"/>torie, cum careant charitate. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2899">
+            <lb ed="#V" n="45"/>RESP. ADARG. Ad primum dicen¬ 
+            <lb ed="#V" n="46"/>dum, quod illud dictum Apostoli potest refer 
+            <lb ed="#V" n="47"/>ri ad conscientiam erroneam, ut dicat, vt dicit Glo. quod 
+            <lb ed="#V" n="48"/>omne, quod non est ex fide, id est omne, quod est 
+            <lb ed="#V" n="49"/>contra conscientiam, siue rectam, siue erroneam, 
+            <lb ed="#V" n="50"/>peccatum est, vt supra patuit. Quod enim fit 
+            <lb ed="#V" n="51"/>contra conscientiam, siue rectam, siue erroneam 
+            <lb ed="#V" n="52"/>dicitur non esse ex fide, vel etiam dicitur esse con 
+            <lb ed="#V" n="53"/>trafidem: quia est contra id, quod conscientia 
+            <lb ed="#V" n="54"/>saluti credit expedire. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2924">
+            <lb ed="#V" n="55"/>Vel si volumus hoc referre ad infideles: dice. 
+            <lb ed="#V" n="56"/>mus, quod omnis vita infidelium est peccatum, 
+            <lb ed="#V" n="57"/>&amp; omnes actiones infidelium sunt peccatum 
+            <lb ed="#V" n="58"/>Verum est de actionibus, quas agunt, vt infide¬ 
+            <lb ed="#V" n="59"/>les, vel quas referunt ad infidelitatem modo, 
+            <lb ed="#V" n="60"/>quo dictum est. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2940">
+            <lb ed="#V" n="61"/>Possumus, &amp; tertio soluere faciendo vim in 
+            <lb ed="#V" n="62"/>hoc, quod dicitur vita, vt dicatunr quod omnis vi¬ 
+            <!--628.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>ra infidelium est peccatum: quia nisi conuertan¬ 
+            <lb ed="#V" n="64"/>tur ab infidelitate: quandiu viuunt, sunt in pec¬ 
+            <lb ed="#V" n="65"/>cato infidelitatis, 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2958">
+            <lb ed="#V" n="66"/>Ad secundum dicendum, quod fides dirigit 
+            <lb ed="#V" n="67"/>intentionem quantum ad finem vltimum, secun¬ 
+            <lb ed="#V" n="68"/>dum quam directionem opera possunt esse me¬ 
+            <lb ed="#V" n="69"/>ritoria, sine qua nunquam sunt meritoria: Quia 
+            <lb ed="#V" n="70"/>sine fide non potest haberi charitas, per quam 
+            <lb ed="#V" n="71"/>sunt opera meritoria. Sed quantum ad finem 
+            <lb ed="#V" n="72"/>proximum potest intentio dirigi per rationem, 
+            <lb ed="#V" n="73"/>vt est perfecta per virtutem, quae est prudentia. 
+            <lb ed="#V" n="74"/>secundum hunc modum actio infidelium, licet 
+            <lb ed="#V" n="75"/>non possit esse meritoria, potest tamen non esse 
+            <lb ed="#V" n="76"/>peccatum, &amp; esse non meritoria. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2984">
+            <lb ed="#V" n="77"/>Ad tertium dicendum, quod licet actio infi¬ 
+            <lb ed="#V" n="78"/>delium non possit esse Deo placens, &amp; merito¬ 
+            <lb ed="#V" n="79"/>ria: quia carentes fide carent charitate: Ta¬ 
+            <lb ed="#V" n="80"/>men non oportet, quod semper sit displicens, &amp; 
+            <lb ed="#V" n="81"/>demeritoria. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e2997">
+            <lb ed="#V" n="82"/>Ad quartum dicendum, quod argumentum 
+            <lb ed="#V" n="83"/>potest habere fulcimentum: Quia nulla actio 
+            <lb ed="#V" n="84"/>est indifferens: Sed, vel est meritoria, vel deme¬ 
+            <lb ed="#V" n="85"/>ritoria. Verum est, supposita charitate. Nam el¬ 
+            <lb ed="#V" n="86"/>uans festucam de terra bona intentione, vt ex¬ 
+            <lb ed="#V" n="87"/>hoc purget Ecclesiam, siue templum: illa actit 
+            <lb ed="#V" n="88"/>est meritoria si fiat in charitate. Sed si desit cha¬ 
+            <lb ed="#V" n="89"/>ritas, secundum quod huiusmodi, non erit demeri¬ 
+            <lb ed="#V" n="90"/>toria: Quia de se non erit mala: nec intentio 
+            <lb ed="#V" n="91"/>mala de se: ergo erit meritoria. Et si non est meri¬ 
+            <lb ed="#V" n="92"/>toria: hoc non est de se, sed quia non fit in cha¬ 
+            <lb ed="#V" n="93"/>ritate: Sic de actione infidelium potest esse de ge¬ 
+            <lb ed="#V" n="94"/>nere bonorum, vel indifferens, &amp; bona intentio¬ 
+            <lb ed="#V" n="95"/>ne esse facta: quia ex naturali pietate, &amp; si fieret 
+            <lb ed="#V" n="96"/>in charitate, esset meritoria: Tamen quia deficit 
+            <lb ed="#V" n="97"/>charitas: deficit esse meritoria. 
+          </p>
+          <p xml:id="Gi9qrR-m183174-d1e3034">
+            <lb ed="#V" n="98"/>Ad formam autem arguendi dici potest, quod 
+            <lb ed="#V" n="99"/>ex illo desectu deficit illa actio esse meritoria: 
+            <lb ed="#V" n="100"/>sed non oportet, quod sit dameritoria. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

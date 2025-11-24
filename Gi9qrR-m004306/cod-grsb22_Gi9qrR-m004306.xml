@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="16"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m004306"><!-- l2d16q2 -->
+        <head xml:id="Gi9qrR-m004306-Hd1e101">Quaestio 2</head>
+        <head xml:id="Gi9qrR-m004306-Hd1e103" type="question-title">De imaginis aequalitate</head>
+        <p xml:id="Gi9qrR-m004306-d1e106">
+          <lb ed="#V" n="20"/>QVAEST. II. 
+          <lb ed="#V" n="21"/>De imaginis aequalitate. 
+        </p>
+        <p xml:id="Gi9qrR-m004306-d1e113">
+          <lb ed="#V" n="22"/>POSTEA quaeritur de secun¬ 
+          <lb ed="#V" n="23"/>do principali. videlicet de 
+          <lb ed="#V" n="24"/>aequalitate imaginis. Circa, 
+          <lb ed="#V" n="25"/>quod quaeruntur tria. Pri¬ 
+          <lb ed="#V" n="26"/>mo de equalitate imaginis re¬ 
+          <lb ed="#V" n="27"/>spectu hominis, &amp; Angeli, 
+          <lb ed="#V" n="28"/>vtrum inueniatur imago ae¬ 
+          <lb ed="#V" n="29"/>qualiter in vtrisque. Secundo de aequalitate im¬ 
+          <lb ed="#V" n="30"/>ginis respectu viri, &amp; mulieris. Tertio quaeritur 
+          <lb ed="#V" n="31"/>de dicha aqualitate respectu potentiae cognitiuae, 
+          <lb ed="#V" n="32"/>&amp; affectiuae. 
+        </p>
+        <div xml:id="Gi9qrR-m004306-Dd1e139">
+          <head xml:id="Gi9qrR-m004306-Hd1e141">Articulus 1</head>
+          <p xml:id="Gi9qrR-m004306-d1e143">
+            <lb ed="#V" n="33"/>ARTIC. I. 
+            <lb ed="#V" n="34"/>An imago Dei in Homine aliquo¬ 
+            <lb ed="#V" n="35"/>modo matts, quam in An¬ 
+            <lb ed="#V" n="36"/>gelo, reperiatur. Con¬ 
+            <lb ed="#V" n="37"/>clusio est affir¬ 
+            <lb ed="#V" n="38"/>matiua. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e159">
+            <lb ed="#V" n="39"/>D. Th. 1 p. q. 93. artic. 3. Et 2. sent. d. 16. art. 3 D. Pon. d. 16. 
+            <lb ed="#V" n="40"/>art. 3. q. 1. Quill. Altis. 2. sent. tract. 10. cap. 4. q 
+            <lb ed="#V" n="41"/>2. &amp; 3. Ric. d. 16. q. 4. 5. Th. Arg. d. I0. 
+            <lb ed="#V" n="42"/>q. 1.ar. 2. Dur. d. 10. q. 2. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e170">
+            <lb ed="#V" n="43"/>AD PRIMVM sic proceditur: vi¬ 
+            <lb ed="#V" n="44"/>detur, quod magis sit in homine 
+            <lb ed="#V" n="45"/>imago Dei, quam in Angelo. 
+            <lb ed="#V" n="46"/>quia specialiter magis dictum 
+            <lb ed="#V" n="47"/>est de homine: Faciamus homi¬ 
+            <lb ed="#V" n="48"/>nem &amp;c. &amp; non de Angelo. 
+            <lb ed="#V" n="49"/>Praeterea Augustinus in sermone de imagine 
+            <lb ed="#V" n="50"/>ait: Deus creauit hominem ad imaginem suam, 
+            <lb ed="#V" n="51"/>quod nulli alii creaturae dedit. ergo non solum in 
+            <lb ed="#V" n="52"/>homine est magis imago, quam in Angelo, sed 
+            <!--16.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="53"/>per hoc dictum August. videtur, quod nullo mo¬ 
+            <lb ed="#V" n="54"/>do sit in Angelo. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e203">
+            <lb ed="#V" n="55"/>Praeterea viderur saltem, quod non magis sit in 
+            <lb ed="#V" n="56"/>Angelo, quam in homine: quia quando aliquod 
+            <lb ed="#V" n="57"/>commune conuenit aliquibus, vt commune: non 
+            <lb ed="#V" n="58"/>videtur, quod magis conueniat vni, quam alte¬ 
+            <lb ed="#V" n="59"/>ri. Sed esse imaginem est commune homini, &amp; 
+            <lb ed="#V" n="60"/>Angelo, &amp; conuenit eis, vt commune. quia con¬ 
+            <lb ed="#V" n="61"/>uenit eis, vt communicant in natura intelle¬ 
+            <lb ed="#V" n="62"/>ctuali. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e224">
+            <lb ed="#V" n="63"/>Praeterea secundum August. 17 vel 14. de Tri To¬ 
+            <lb ed="#V" n="64"/>ni. c. 8. Anima eo quippe ipso imago Dei est: quod 
+            <lb ed="#V" n="65"/>capax eius, &amp; particeps esse potest. Sed quantum 
+            <lb ed="#V" n="66"/>ad capacitatem Dei, &amp; participationem eius, quod 
+            <lb ed="#V" n="67"/>potissime erit, quando in patria fruemur Deo: 
+            <lb ed="#V" n="68"/>homines aequabuntur Angelis: ergo imago Dei 
+            <lb ed="#V" n="69"/>erit aequaliter in vtrisque: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e242">
+            <lb ed="#V" n="70"/>Praeterea secundum August. 11. de Trin c. 5. 
+            <lb ed="#V" n="71"/>Imago Dei quaerenda est in illa sola parte animi, 
+            <lb ed="#V" n="72"/>qua superior solus Deus est: &amp; in ea parte animae, 
+            <lb ed="#V" n="73"/>vbi Deus prorsus exprimitur: &amp; inter quam, &amp; 
+            <lb ed="#V" n="74"/>ipsum nulla interiecta natura est ergo in illa par¬ 
+            <lb ed="#V" n="75"/>te animae quaerenda est imago Dei: inter quam, 
+            <lb ed="#V" n="76"/>&amp; Deum nulla creatura, vel nulla natura est in¬ 
+            <lb ed="#V" n="77"/>teriectaid est intermedia. Sed si Angelus esset magis 
+            <lb ed="#V" n="78"/>imago Dei, quam anima: oporteret, quod secundum 
+            <lb ed="#V" n="79"/>rationem imaginis esset Angelus inter Deum, &amp; 
+            <lb ed="#V" n="80"/>animam. Quod patet filium per August. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e268">
+            <lb ed="#V" n="81"/>IN CONTRARIVM est Exech. 28. c vbi dicitur de  
+            <lb ed="#V" n="82"/>Lucifero. Tu signaculum similitudinis plenus sa¬ 
+            <lb ed="#V" n="83"/>pientia, &amp; perfectus decore. Videtur ergo, quod 
+            <lb ed="#V" n="84"/>expressiori modo sit imago in Angelo, quam in 
+            <lb ed="#V" n="85"/>homine: cum non solum dicatur imago, sed si¬ 
+            <lb ed="#V" n="86"/>gnaculum. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e284">
+            <lb ed="#V" n="87"/>Praeterea ratione intellectualis naturae: homo¬ 
+            <lb ed="#V" n="88"/>factus est ad imaginem. Sed in natura intellectua 
+            <lb ed="#V" n="89"/>li Angelus excedit hominem. quod patet ex ver¬ 
+            <lb ed="#V" n="90"/>bis Exech. describentis Angelum plenum sapien¬ 
+            <lb ed="#V" n="91"/>tia, &amp; perfectum decore, quod non esset, nisi in 
+            <lb ed="#V" n="92"/>itellectu, &amp; sapientia excelleret hominem: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e300">
+            <lb ed="#V" n="93"/>RESOLVTIO. 
+            <lb ed="#V" n="94"/>Imaginis rationem per se, naturaliter, &amp; primo, in 
+            <lb ed="#V" n="95"/>Angelo magis, quam in Homine esse non dubi¬ 
+            <lb ed="#V" n="96"/>tamus: Contra uero, si imaginis ratio ex 
+            <lb ed="#V" n="97"/>accidenti, &amp; secundario considere 
+            <lb ed="#V" n="98"/>tur. Idque originis, recreatio¬ 
+            <lb ed="#V" n="99"/>nis, dominiique ratio¬ 
+            <lb ed="#V" n="100"/>ne affirmamus. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e320">
+            <lb ed="#V" n="101"/>RESPONDEO dicendum, quod Glo. super il¬
+            <lb ed="#V" n="102"/>lo verbo: Signatum est super nos lumen &amp;c. ait 
+            <lb ed="#V" n="103"/>quod triplex est imago: creationis, recreationis, 
+            <lb ed="#V" n="104"/>&amp; glorificationis. Imago creationis, vt ibidem di¬ 
+            <lb ed="#V" n="105"/>citur, in qua creatus est homo. Recreationis, per¬ 
+            <lb ed="#V" n="106"/>quam recreatus est homod est Dei gratia, sed imago¬ 
+            <lb ed="#V" n="107"/>similitudinis est, ad quam factus est homo. Nos autem 
+            <lb ed="#V" n="108"/>accipiendo duo prima menbra: videlicet imaginem 
+            <lb ed="#V" n="109"/>creationis, &amp; recreationis: addemus membrum 
+            <lb ed="#V" n="110"/>tertium scilicet imaginem glorificationis. Imago er¬ 
+            <lb ed="#V" n="111"/>go creadonis est natura, in qua homoetn creatus. 
+            <!--17.xml-->
+            <pb ed="#V" n="17"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Recreationis est Dei gratia, per quam homo est 
+            <lb ed="#V" n="2"/>recreatus. Imago glorificationis erit illa aeter¬ 
+            <lb ed="#V" n="3"/>na visio, &amp; fruitio, per quam homo erit glo¬ 
+            <lb ed="#V" n="4"/>rificatus. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e362">
+            <lb ed="#V" n="5"/>Cum ergo quaeritur, vtrum imago Dei sit aequa¬ 
+            <lb ed="#V" n="6"/>liter in homine, &amp; in Angelo; Aut est quaestio 
+            <lb ed="#V" n="7"/>de imagine creationis, quae respicit naturam, aut 
+            <lb ed="#V" n="8"/>de imagine recreationis, quae respicit gratiam: 
+            <lb ed="#V" n="9"/>aut glorificationis, quae respicit gratiam consum¬ 
+            <lb ed="#V" n="10"/>matam, vel gloriam. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e378">
+            <lb ed="#V" n="11"/>Quantum autem ad imaginem creationis, quae 
+            <lb ed="#V" n="12"/>respicit naturam; Aut erit consideratio quantum 
+            <lb ed="#V" n="13"/>ad id, quod directe, &amp; principaliter respicit ima¬ 
+            <lb ed="#V" n="14"/>go: quia respicit mentem, &amp; naturam intellectua¬ 
+            <lb ed="#V" n="15"/>lems Aut ad id, quod respicit imago secundario, 
+            <lb ed="#V" n="16"/>&amp; ex consequenti. Vel possumus aliter distin¬ 
+            <lb ed="#V" n="17"/>guere, &amp; in idem redit, quia huius consideratio, 
+            <lb ed="#V" n="18"/>vel erit per se, &amp; naturaliter, vel erit secundario, 
+            <lb ed="#V" n="19"/>&amp; quasi <sic>accidentaiterl</sic>.
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e402">
+            <lb ed="#V" n="20"/>Quantum autem ad ea, quae sunt perse, &amp; quasi 
+            <lb ed="#V" n="21"/>essentialia imagini: cuiusmodi est esse naturae in¬ 
+            <lb ed="#V" n="22"/>tellectualis, magis inuenitur imago Dei in Ange¬ 
+            <lb ed="#V" n="23"/>lo, quam in homine: quia natura intellectualis 
+            <lb ed="#V" n="24"/>magis viget in Angelo, quam in homine, si volu¬ 
+            <lb ed="#V" n="25"/>geli mus proprie loqui: Angeli sunt intellectuales. 
+            <lb ed="#V" n="26"/>Homines vero rationales, vt patet per Dio. 6. de 
+            <lb ed="#V" n="27"/>di. No. Nos etiam ipsi in nobis intellectum vo¬ 
+            <lb ed="#V" n="28"/>camus habitum principiorum: quia ad principia¬ 
+            <lb ed="#V" n="29"/>non est ratio, nec intelligimus principia ratioci¬ 
+            <lb ed="#V" n="30"/>nando, &amp; discurrendo, sed simplici intuitu ea¬ 
+            <lb ed="#V" n="31"/>intelligendo. Homo ergo modicum est intelle¬ 
+            <lb ed="#V" n="32"/>ctualis: quia pauca intelligit non ratiocinando, 
+            <lb ed="#V" n="33"/>&amp; discurrendo. Sed, vt plurimum, est rationalis: 
+            <lb ed="#V" n="34"/>quia multa, &amp; quasi omnia intelligit ratiocinan¬ 
+            <lb ed="#V" n="35"/>do, &amp; discurrendo: Angelus autem econuerso: 
+            <lb ed="#V" n="36"/>vt plurimum, est intellectualis: quia omnia intel¬ 
+            <lb ed="#V" n="37"/>ligit simplici intuitu. Discursus autem nullus est 
+            <lb ed="#V" n="38"/>ibi: nisi forte vellemus vocare eum discursum: 
+            <lb ed="#V" n="39"/>quia non omnia, quorum habet species, intelli¬ 
+            <lb ed="#V" n="40"/>git simul: quod non est proprie discurrere: sed 
+            <lb ed="#V" n="41"/>est suam aciem intellectiuam nunc ab vna spe¬ 
+            <lb ed="#V" n="42"/>cie, quae est in memoria Angeli: nunc ab alia in¬ 
+            <lb ed="#V" n="43"/>formari. Homo ergo quia plus viget ratione, 
+            <lb ed="#V" n="44"/>quam intellectus dicendus est rationalis. Ange¬ 
+            <lb ed="#V" n="45"/>lus vero, quia non ratiocinando, sed intelligen¬ 
+            <lb ed="#V" n="46"/>do cognoscit: dicendus est intellectualis. Imo si 
+            <lb ed="#V" n="47"/>bene consideremus intellectum hominis, &amp; 
+            <lb ed="#V" n="48"/>5.Angeli, dicemus cum Commen. in 3. de Ani¬ 
+            <lb ed="#V" n="49"/>ma: quod intellectus, qui dicitur possibilis, se ha¬ 
+            <lb ed="#V" n="50"/>bet in genere intelligibilium: sicut materia pri¬ 
+            <lb ed="#V" n="51"/>ma in genere entium, quia modicum participat 
+            <lb ed="#V" n="52"/>de intellectu respectu Angeli. Philosophi aurem 
+            <lb ed="#V" n="53"/>dixerunt, intellectum nostrum creatum esse in 
+            <lb ed="#V" n="54"/>orixonte aeternitatis: quia loquendo de tem¬ 
+            <lb ed="#V" n="55"/>poralibus, &amp; aeternis modo, quo loquitur Apo¬ 
+            <lb ed="#V" n="56"/>stolus cum air: Quae videntur, temporalia sunt: 
+            <lb ed="#V" n="57"/>quae non videntur aeterna; Dicemus: quod si¬ 
+            <lb ed="#V" n="58"/>. cut Orixon in coelo est circulus diuidens in 
+            <lb ed="#V" n="59"/>ter emisperium superius, &amp; inferius. Sic anima 
+            <lb ed="#V" n="60"/>humana est quasi orixon, &amp; habet creaturas sen¬ 
+            <lb ed="#V" n="61"/>sibiles, quae possunt dici emisperium inferius, 
+            <lb ed="#V" n="62"/>&amp; creaturas aeternas cuiusmodi sunt Angeli, qui¬ 
+            <!--17.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>possunt dici emisperium superius. Propter quod 
+            <lb ed="#V" n="64"/>bene dictumest, quod Commen. ait: Quia ani¬ 
+            <lb ed="#V" n="65"/>ma nostra, siue intellectus noster tenet infimum 
+            <lb ed="#V" n="66"/>gradum in genere separatarum, &amp; supremum 
+            <lb ed="#V" n="67"/>in genere sensibilium. Cum ergo ratio imaginis 
+            <lb ed="#V" n="68"/>prout accipitur imago creationis per se, &amp; es¬ 
+            <lb ed="#V" n="69"/>sentialiter respiciat naturam intellectualem, in 
+            <lb ed="#V" n="70"/>qua Angelus sine comparatione excedit homi¬ 
+            <lb ed="#V" n="71"/>nem; omnino concedendum est, quod quan¬ 
+            <lb ed="#V" n="72"/>tum ad ea, quae respiciunt imaginem sic acce¬ 
+            <lb ed="#V" n="73"/>ptam excellentiori modo reperitur ratio ima¬ 
+            <lb ed="#V" n="74"/>ginis in Angelo, quam in homine. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e528">
+            <lb ed="#V" n="75"/>Sed si consideremus imaginem sic sumptam: 
+            <lb ed="#V" n="76"/>non quantum ad ea, quae respiciunt eam per se, 
+            <lb ed="#V" n="77"/>&amp; essentialiter, sedquantum ad respicientia it¬ 
+            <lb ed="#V" n="78"/>sam secundario, &amp; ex consequenti, &amp; quasi per¬ 
+            <lb ed="#V" n="79"/>accidens: non est inconueniens ratione imagi¬ 
+            <lb ed="#V" n="80"/>nis: prout est in homine, excellere Angelum 
+            <lb ed="#V" n="81"/>Quod multipliciter esse potest. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e546">
+            <lb ed="#V" n="82"/>Primo quantum ad originem personarum. 
+            <lb ed="#V" n="83"/>Nam sicut vna persona diuina oritur ex alia, sic 
+            <lb ed="#V" n="84"/>vna persona humana oritur ex alia. Sed hoc non 
+            <lb ed="#V" n="85"/>est in Angelis, quod vnus Angelus oriatur ex 
+            <lb ed="#V" n="86"/>alio. Sed sic considerare imaginem: non est ire¬ 
+            <lb ed="#V" n="87"/>ad id, quod est essentialiter, &amp; per se. quia per se, 
+            <lb ed="#V" n="88"/>&amp; essentialiter in vna, &amp; eadem persona, siue ho¬ 
+            <lb ed="#V" n="89"/>minis, siue Angeli sumenda est imago Trinita 
+            <lb ed="#V" n="90"/>tis. Considerare ergo originem diuinarum per¬ 
+            <lb ed="#V" n="91"/>sonarum in diuersis personis humanis: est con¬ 
+            <lb ed="#V" n="92"/>siderare rationem imaginis non essentialiter, &amp; 
+            <lb ed="#V" n="93"/>per se. Et ideo secundum diuersas vires, vel secum 
+            <lb ed="#V" n="94"/>dum diuersas potentias, quae sunt in vna, &amp; ca¬ 
+            <lb ed="#V" n="95"/>dem anima, uel in uno, &amp; eodem Angelo, sumi¬ 
+            <lb ed="#V" n="96"/>tur imago Dei, siue imago Trinitatis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e581">
+            <lb ed="#V" n="97"/>Secundo: excellentia poni potest in homine 
+            <lb ed="#V" n="98"/>prout anima regit totum suum corpus, &amp; Deus 
+            <lb ed="#V" n="99"/>regit, &amp; gubernat totum suum vniuersum: quia 
+            <lb ed="#V" n="100"/>sicut Deus est in hoc vniuerso totus in toto, &amp; 
+            <lb ed="#V" n="101"/>totus in qualibet parte: sic anima est tota in 
+            <lb ed="#V" n="102"/>suo toto corpore, &amp; tota in qualibet parte. Sed 
+            <lb ed="#V" n="103"/>ista est consideratio quasi per accidens ad ratio¬ 
+            <lb ed="#V" n="104"/>nem imaginis, quia in anima per se, &amp; essentia¬ 
+            <lb ed="#V" n="105"/>liter non ponitur ratio imaginis prout intendit 
+            <lb ed="#V" n="106"/>administrationi corporis: sed prout intendi¬ 
+            <lb ed="#V" n="107"/>contemplationi Dei. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e608">
+            <lb ed="#V" n="108"/>Tertio: haec excellentia patere potest: pro¬ 
+            <lb ed="#V" n="109"/>ut homo dominatur animantibus omnibus, 
+            <lb ed="#V" n="110"/>quod videtur pertinere aliquo modo ad ima¬ 
+            <lb ed="#V" n="111"/>ginem: quia statim cum dixit Deus: Facia 
+            <lb ed="#V" n="112"/>mus hominem ad imaginem &amp;c. Subdit: Ei 
+            <lb ed="#V" n="113"/>praesit piscibus maris: volatilibus caeli, &amp; be¬ 
+            <lb ed="#V" n="114"/>stijs vniuersae terrae: omnique reptili, quod mo¬ 
+            <lb ed="#V" n="115"/>uetur in terra. Sed licet hoc sit dictum sta¬ 
+            <lb ed="#V" n="116"/>tim post dictum illud: Faciamus hominem 
+            <lb ed="#V" n="117"/>ad imaginem &amp;c. Non tamen hoc per se, &amp; pri¬ 
+            <lb ed="#V" n="118"/>mo, &amp; essentialiter pertinet ad imaginem, quia 
+            <lb ed="#V" n="119"/>sicut in anima non ponitur directe imago 
+            <lb ed="#V" n="120"/>prout intendit administrationi corporis, si¬ 
+            <lb ed="#V" n="121"/>non ponitur hoc in ea: prout intendit regi¬ 
+            <lb ed="#V" n="122"/>men animalium: sed prout ab omnibus his va 
+            <lb ed="#V" n="123"/>cans intendit contemplationi Dei¬ 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e645">
+            <lb ed="#V" n="124"/>Non tamen sunt illa despicienda: nec est dicen¬ 
+            <!--18.xml-->
+            <pb ed="#V" n="18"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dum: quod homo propter ista magis repraesentet 
+            <lb ed="#V" n="2"/>Deumquam Angelus: &amp; supposita in eo intel¬ 
+            <lb ed="#V" n="3"/>lectuali, vel rationali natura, quin sit quantum 
+            <lb ed="#V" n="4"/>ad ista excellentiori modo imago Dei in ipso, 
+            <lb ed="#V" n="5"/>quam in Angelo. Sed quod ista, in quibus exce¬ 
+            <lb ed="#V" n="6"/>dit homo Angelum: si pertinent ad imaginem: 
+            <lb ed="#V" n="7"/>hoc est secundario. Sed esse altiori modo intelle¬ 
+            <lb ed="#V" n="8"/>ctualis naturae: in quo excedit hominem Ange¬ 
+            <lb ed="#V" n="9"/>lus: per se, &amp; directe ad imaginem pertiner. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e676">
+            <lb ed="#V" n="10"/>Viso quomodo se habet excellentiori mo¬ 
+            <lb ed="#V" n="11"/>do ratio imaginis in Angelo, quam in homine, 
+            <lb ed="#V" n="12"/>&amp; quomodo econuerso: loquendo de imagine 
+            <lb ed="#V" n="13"/>creationis: quae respicit naturam; Volumus hoc 
+            <lb ed="#V" n="14"/>declarare in Angelo, &amp; in homine: quantum 
+            <lb ed="#V" n="15"/>ad imaginem recreationis, &amp; glorificationis: 
+            <lb ed="#V" n="16"/>quae respiciunt gratiam, &amp; gloriam: quae est 
+            <lb ed="#V" n="17"/>in gratia consummata. Sed cum homines in 
+            <lb ed="#V" n="18"/>via habeant gratiam initiatam: In patria vero 
+            <lb ed="#V" n="19"/>sunt habituri vna cum Angelis gloriam, siue gra 
+            <lb ed="#V" n="20"/>tiam consummatam, Si vellemus loqui de ima¬ 
+            <lb ed="#V" n="21"/>gine: prout est in Angelis secundum gloriam, 
+            <lb ed="#V" n="22"/>&amp; gratiam consummatam, &amp; prout est in ho¬ 
+            <lb ed="#V" n="23"/>minibus viatoribus secundum initiatam; Di¬ 
+            <lb ed="#V" n="24"/>ceremus de quolibet homine pure viatore, &amp; 
+            <lb ed="#V" n="25"/>etiam multomagis: quod dixit Dominus de 
+            <lb ed="#V" n="26"/>lohanne Baptista, qui cum diceret de eo: In¬ 
+            <lb ed="#V" n="27"/>tet natos mulierum non surrexit maior, Addit: 
+            <lb ed="#V" n="28"/>Qui minor est in regno coelorum maior est il¬ 
+            <lb ed="#V" n="29"/>lo. Gratia enim initiata non potest cogquari 
+            <lb ed="#V" n="30"/>gratiae consummatae. Diximus autem de quolibet 
+            <lb ed="#V" n="31"/>pure viatore verificari illud. Quia qui minor est 
+            <lb ed="#V" n="32"/>in regno caelorumid est quilibet Angelus minor est 
+            <lb ed="#V" n="33"/>illo, praeter Christum, qui adhuc viuens non era¬ 
+            <lb ed="#V" n="34"/>&amp; purus viator: quia in eo erat gratia vnionis, &amp; in 
+            <lb ed="#V" n="35"/>hoc excellebat in gratia omnes Angelos. Si vel¬ 
+            <lb ed="#V" n="36"/>li lemus tamen: etiam de eo verificare possemus, 
+            <lb ed="#V" n="37"/>qui minor est in regno caelorumid est quilibet Ange¬ 
+            <lb ed="#V" n="38"/>lus maior erat: non ratione gratiae: sed ratione 
+            <lb ed="#V" n="39"/>passibilitatis corporis. de quo potest intelligi il¬ 
+            <lb ed="#V" n="40"/>lud Psalmi: Minuisti eum paulominus ab An¬ 
+            <lb ed="#V" n="41"/>gelis. Sic ergo dicendum est de gratia initiata 
+            <lb ed="#V" n="42"/>in viatoribus respectu Angelorum habentium 
+            <lb ed="#V" n="43"/>gratiam consummatam: quia minor Angelus in 
+            <lb ed="#V" n="44"/>hoc est maior quolibet pure viatore. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e754">
+            <lb ed="#V" n="45"/>Sed si volumus loqui de Angelis, &amp; homini¬ 
+            <lb ed="#V" n="46"/>bus secundum imaginem glorificationis: quae con¬ 
+            <lb ed="#V" n="47"/>sistit in gratia consummata; Dicemus quod istam 
+            <lb ed="#V" n="48"/>quaestionem determinat <ref xml:id="Gi9qrR-m004306-Rd1e764">Augustinus in princi¬ 
+              <lb ed="#V" n="49"/>pio. 13. de Ci. Dei</ref>, vbi ait: quod non inconue¬ 
+            <lb ed="#V" n="50"/>niens, nec incongrua dicatur esse hominibus, An¬ 
+            <lb ed="#V" n="51"/>gelisque societas: vt non quatuor ciuitates: duae. s¬ 
+            <lb ed="#V" n="52"/>Angelorum, totidemque hominum: sed duae po¬ 
+            <lb ed="#V" n="53"/>am tius ciuitates: hoc est societates: merito esse dican¬ 
+            <lb ed="#V" n="54"/>atur: vna in bonis: altera in malis: non solum An¬ 
+            <lb ed="#V" n="55"/>gelis, verum etiam hominibus constitutae. Dua 
+            <lb ed="#V" n="56"/>ergo tantum erunt ciuitates numero, &amp; merito: 
+            <lb ed="#V" n="57"/>Vna: Angelorum, &amp; hominum bonorum. Alia 
+            <lb ed="#V" n="58"/>Angelorum, &amp; hominum malorum. Et sicut tunc 
+            <lb ed="#V" n="59"/>erunt duae ciuitates numero: ita erunt duae ciuita 
+            <lb ed="#V" n="60"/>tes merito: quia Angeli, &amp; homines boni faciunt 
+            <lb ed="#V" n="61"/>vnam ciuitatem numero, &amp; merito: quia boni ho¬ 
+            <lb ed="#V" n="62"/>mines secundum sua merita aequabuntur gloriae 
+            <!--18.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>Angelorum, &amp; assumentur ad ordines eorum: 
+            <lb ed="#V" n="64"/>quia aliqui assumentur ad ordinem Seraphin, &amp; 
+            <lb ed="#V" n="65"/>aliqui ad Cherubin, &amp; sic de alijs. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e809">
+            <lb ed="#V" n="66"/>Concludamus ergo, &amp; dicamus, quod quantum 
+            <lb ed="#V" n="67"/>ad imaginem creationis: quae respicit naturam, ho¬ 
+            <lb ed="#V" n="68"/>mo, &amp; Angelus secundum equalitatem imaginis 
+            <lb ed="#V" n="69"/>se habent, vt excedentia, &amp; excessa: quia, vt patuit, 
+            <lb ed="#V" n="70"/>in hoc Angeli excedunt homines, &amp; econuerso: 
+            <lb ed="#V" n="71"/>aliter tamen, &amp; aliter: vt superius dicebatur. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e825">
+            <lb ed="#V" n="72"/>Quantum autem ad gratiam recreationis: An 
+            <lb ed="#V" n="73"/>geli excedunt omnes homines pure viatores: 
+            <lb ed="#V" n="74"/>quia quaelibet gratia consummata excellit quamli¬ 
+            <lb ed="#V" n="75"/>bet gratiam initiatam quantum autem ad imapi¬ 
+            <lb ed="#V" n="76"/>nem glorificationis: erunt homines pares Ange¬ 
+            <lb ed="#V" n="77"/>lis: quia aequabuntur eis in gloria: &amp; habebunt 
+            <lb ed="#V" n="78"/>aequalia merita, &amp; per consequens aequalem glo¬ 
+            <lb ed="#V" n="79"/>riam cum eis, &amp; facient vnam ciuitatem cum ip¬ 
+            <lb ed="#V" n="80"/>sis non solum numero: sed etiam merito, &amp; per¬ 
+            <lb ed="#V" n="81"/>consequens praemio, quia pares existentes in me¬ 
+            <lb ed="#V" n="82"/>rito: erunt pares in gloria, &amp; in praemio. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e852">
+            <lb ed="#V" n="83"/>Sed propter hanc aequalitatem non tollitur 
+            <lb ed="#V" n="84"/>excellentia in ploria, &amp; praemio aliquarum perso¬ 
+            <lb ed="#V" n="85"/>narum: quae sunt acceptae actionis: cuiusmodi est 
+            <lb ed="#V" n="86"/>persona Christi, quae est super omnia collocata, 
+            <lb ed="#V" n="87"/>&amp; sicut persona beatae Virginis, quae est super 
+            <lb ed="#V" n="88"/>choros omnes Angelorum ad caelestia exaltata. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e868">
+            <lb ed="#V" n="89"/>RESP. AD ARO. Ad primum dicendum, 
+            <lb ed="#V" n="90"/>quod Moyses loquebatur populo grosso, &amp; rudi: ion 
+            <lb ed="#V" n="91"/>nullam mentionem fecit de Angelis: quia non po¬ 
+            <lb ed="#V" n="92"/>terat ille populus transcendere corporalia. Pro¬ 
+            <lb ed="#V" n="93"/>pter quod dicere possumus, quod sicut sub figu¬ 
+            <lb ed="#V" n="94"/>ra coeli empyrei tradidit Moyses creationem Ange¬ 
+            <lb ed="#V" n="95"/>lorum, &amp; sicut sub figura productionis lucis tra¬ 
+            <lb ed="#V" n="96"/>didit conuersionem bonorum Angelorum ad 
+            <lb ed="#V" n="97"/>Deum, &amp; sub figura tenebrarum auersionem ma¬ 
+            <lb ed="#V" n="98"/>lorum; Sic sub figura hominis facti ad imaginem, 
+            <lb ed="#V" n="99"/>&amp; similitudinem Dei: dedit intelligere Ange¬ 
+            <lb ed="#V" n="100"/>los, qui etiam ad Dei imaginem &amp; similitudinem 
+            <lb ed="#V" n="101"/>sunt creati. immo multomagis loquendo de ho¬ 
+            <lb ed="#V" n="102"/>mine facto ad imaginem Dei dedit intelligere 
+            <lb ed="#V" n="103"/>Angelos, quia, vr patet ex litera, homo non dici¬ 
+            <lb ed="#V" n="104"/>tur factus ad imaginem: nisi ratione animae intel 
+            <lb ed="#V" n="105"/>lectiuae, in qua, &amp; per quam homo communitat 
+            <lb ed="#V" n="106"/>cum Angelis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e910">
+            <lb ed="#V" n="107"/>Ad secundum dicendum, quod ibi loquitur 
+            <lb ed="#V" n="108"/>Augustinus de creaturis non intellectualibus. 
+            <lb ed="#V" n="109"/>Nam cum ipse ponat hominem secundum men¬ 
+            <lb ed="#V" n="110"/>tem, &amp; intellectum ad imaginem Dei factum: opor¬ 
+            <lb ed="#V" n="111"/>tet sic exponere dictum eius, quod nulli alil creaturae 
+            <lb ed="#V" n="112"/>datum est esse ad imaginem: quia non commu¬ 
+            <lb ed="#V" n="113"/>nicat cum homine in intellectu. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e928">
+            <lb ed="#V" n="114"/>Ad tertium dicendum, quod si aliquibus con¬ 
+            <lb ed="#V" n="115"/>uenit aliquid per aliquod commune, vt commu¬ 
+            <lb ed="#V" n="116"/>ne conuenit eis aequaliter: Verum est: si illud com¬ 
+            <lb ed="#V" n="117"/>mune participant aequaliter. Propter quod natu¬ 
+            <lb ed="#V" n="118"/>ra intellectualis, licet sit communis homini, &amp; 
+            <lb ed="#V" n="119"/>A ngelo, &amp; licet secundum illam naturam conmmu¬ 
+            <lb ed="#V" n="120"/>nem esse ad imaginem communicat homini, &amp; 
+            <lb ed="#V" n="121"/>Angelo; tamen illam naturam communem 
+            <lb ed="#V" n="122"/>non aequaliter participat homo, &amp; Angelus. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e950">
+            <lb ed="#V" n="123"/>Ad quartum dicendum: quod capacitas ani¬ 
+            <lb ed="#V" n="124"/>mae potest considerari dupliciter, vel secundum 
+            <!--19.xml-->
+            <pb ed="#V" n="19"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>naturam: prout est in potentia, vt perficiatur per¬ 
+            <lb ed="#V" n="2"/>gratiam, vel prout est in actu iam perfecto per 
+            <lb ed="#V" n="3"/>gratiam: siue illagratia sit initiata, vt est viatorum: 
+            <lb ed="#V" n="4"/>siue consummata, vt est beatorum. Quantum autem 
+            <lb ed="#V" n="5"/>ad naturam magis viget capacitas Dei in Ange¬ 
+            <lb ed="#V" n="6"/>lis, quam in hominibus, quia sunt magis apti na¬ 
+            <lb ed="#V" n="7"/>ti naturaliter ad capiendum ipsum. Sed si loqui¬ 
+            <lb ed="#V" n="8"/>mur de capacitate naturali: prout est actu perfe¬ 
+            <lb ed="#V" n="9"/>cta per gratiam: &amp; maxime per gratiam consum 
+            <lb ed="#V" n="10"/>matam: secundum quam homines aequabuntur 
+            <lb ed="#V" n="11"/>Angelis, &amp; assumentur ad eorum ordines; Dice¬ 
+            <lb ed="#V" n="12"/>mus, quod cum hoc sit ex gratia, quae non cadit 
+            <lb ed="#V" n="13"/>sub debito: Deus non iniuriatur Angelis: si dat 
+            <lb ed="#V" n="14"/>rantum de illa gratia consummata, siue de illa glo¬ 
+            <lb ed="#V" n="15"/>nge ria hominibus: sicut Angelis: Imo hoc est ratio¬ 
+            <lb ed="#V" n="16"/>nabiliter factum. Quia cum difficilius sit homini 
+            <lb ed="#V" n="17"/>recte viuere, quam Angelo: propter pronitatem 
+            <lb ed="#V" n="18"/>sensuum ad malum: recompensat Deus istam diffi¬ 
+            <lb ed="#V" n="19"/>cultatem: quia cum homines non sint aequales 
+            <lb ed="#V" n="20"/>Angelis in natura, facit eos aequales in gratia con¬ 
+            <lb ed="#V" n="21"/>summata, vel in gloria. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1009">
+            <lb ed="#V" n="22"/>Ad quintum dicendum: quod de interiectio¬ 
+            <lb ed="#V" n="23"/>ne, siue de intermediatione possumus loqui du¬ 
+            <lb ed="#V" n="24"/>pliciter. Prout Deus est obiectum beatitudinis 
+            <lb ed="#V" n="25"/>naturae intellectualis. Et secundum hoc nulla na¬ 
+            <lb ed="#V" n="26"/>tura intellectualis intermediat inter Deum, &amp; 
+            <lb ed="#V" n="27"/>naturam quamcunque aliam intellectualem. Quaeli¬ 
+            <lb ed="#V" n="28"/>bet enim natura intellectualis tendit in Deum: 
+            <lb ed="#V" n="29"/>tanquam in obiectum beatitudinis omnino im¬ 
+            <lb ed="#V" n="30"/>mediate, vt quaelibet talis natura dicere possit 
+            <lb ed="#V" n="31"/>illud August. circa principium confes. Ad te nos 
+            <lb ed="#V" n="32"/>fecisti Domine, &amp; inquietum est cor nostrum: 
+            <lb ed="#V" n="33"/>donec quiescat in te. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1039">
+            <lb ed="#V" n="34"/>Alio autem modo potest considerari natura 
+            <lb ed="#V" n="35"/>intellectualis: prout participat naturaliter diuinam 
+            <lb ed="#V" n="36"/>naturam, quae est intellectualis, &amp; sic Angeli par¬ 
+            <lb ed="#V" n="37"/>ticipant illam naturam intellectualem excellen¬ 
+            <lb ed="#V" n="38"/>tiori modo, quam homines, &amp; Angeli superio¬ 
+            <lb ed="#V" n="39"/>res, quam inferiores, vt imago Dei naturaliter ex¬ 
+            <lb ed="#V" n="40"/>cellentiori modo inueniatur in Angelis, quam 
+            <lb ed="#V" n="41"/>in hominibus, &amp; in Angelis superioribus, 
+            <lb ed="#V" n="42"/>quam inferioribus. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m004306-Dd1e1063">
+          <head xml:id="Gi9qrR-m004306-Hd1e1065">Articulus 2</head>
+          <p xml:id="Gi9qrR-m004306-d1e1067">
+            <lb ed="#V" n="43"/>ARTIC. II. 
+            <lb ed="#V" n="44"/>An imago Dei sit quodammodo in 
+            <lb ed="#V" n="45"/>viro magis, quam in muliere. 
+            <lb ed="#V" n="46"/>Conclusio est affirmatiua.
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1078">
+            <lb ed="#V" n="47"/>D. Th. 1. p. q. 93. Ar. 4. Guill. Altisodorensis 2. sent. tradt. 10¬ 
+            <lb ed="#V" n="48"/>cap. q. 2. &amp; 3. D. Bon. d. 10. ar. 32. q. 2. Alex. de Ales 
+            <lb ed="#V" n="49"/>2. p. q. 85. art. 5. Ric. d. 10. q. 6. Th. Arg. d. 
+            <lb ed="#V" n="50"/>1eq. 1. art. 3. Brulef.d. 16. q. 5. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1089">
+            <lb ed="#V" n="51"/>SECVNDO quaeritur de aequa¬ 
+            <lb ed="#V" n="52"/>litate imaginis respectu viro¬ 
+            <lb ed="#V" n="53"/>rum, &amp; mulierum. Et videtur, 
+            <lb ed="#V" n="54"/>quod magis sit imago in viris, 
+            <lb ed="#V" n="55"/>quam in mulieribus. Dicitur 
+            <lb ed="#V" n="56"/>enim. 1. ad Corint. 11. quod 
+            <!--19.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="57"/>Vir quidem est imago, &amp; gloria Dei. Mulier autem 
+            <lb ed="#V" n="58"/>est gloria viri. Videtur ergo, quod imago, &amp; glo¬ 
+            <lb ed="#V" n="59"/>ria Dei magis viget in viro; quam in muliere. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1115">
+            <lb ed="#V" n="60"/>Praeterea: Glo. ibidem vult, quod ad imaginem 
+            <lb ed="#V" n="61"/>Dei factus est homo vir: non mulier: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1123">
+            <lb ed="#V" n="62"/>Praeterea Apostolus in c. praeassignato ait: Non 
+            <lb ed="#V" n="63"/>enim vir ex muliere est, sed mulier ex viro. Cum er¬ 
+            <lb ed="#V" n="64"/>go vir in hoc imitetur Deum: quia mulier est ex 
+            <lb ed="#V" n="65"/>viro: sicut vir ex Deo. Videtur ergo imago Dei¬ 
+            <lb ed="#V" n="66"/>magis esse in viro, quam in muliere. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1136">
+            <lb ed="#V" n="67"/>Praeterea idem Apostolus ibidem ait, quod non est 
+            <lb ed="#V" n="68"/>creatus vir propter mulierem, sed mulier propter 
+            <lb ed="#V" n="69"/>virum. Cum ergo vir in hoc imitetur Deum: 
+            <lb ed="#V" n="70"/>quia sicut ipse factus est propter Deum: ita mu¬ 
+            <lb ed="#V" n="71"/>lier facta est propter ipsum: ideo &amp;c. 
+            <lb ed="#V" n="72"/>Praeterea sexus vnibilis Christo est sexus viri¬ 
+            <lb ed="#V" n="73"/>lis, quia Dei filius assumpsit hominem virum, 
+            <lb ed="#V" n="74"/>non mulierem. ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1156">
+            <lb ed="#V" n="75"/>IN CORTRARIVM est, quia imago Dei quaerem 
+            <lb ed="#V" n="76"/>da est secundum animam: non secundum cor¬ 
+            <lb ed="#V" n="77"/>pus. sed secundum animam non est distinctio vi¬ 
+            <lb ed="#V" n="78"/>ri, &amp; mulieris: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1167">
+            <lb ed="#V" n="79"/>Praeterea August. I0 de Tri. c. 7. vult, quod in 
+            <lb ed="#V" n="80"/>eo, quod homo est imago Dei: non est ibi distin¬ 
+            <lb ed="#V" n="81"/>ctio maris, &amp; foeminae. Ad quod probandum ad¬ 
+            <lb ed="#V" n="82"/>ducit dictum Apostoli: quia nos sumus imago 
+            <lb ed="#V" n="83"/>Dei: prout sumus filii Dei, &amp; prout induimus 
+            <lb ed="#V" n="84"/>Christum per fidem: in quo non est Iudeus, nec 
+            <lb ed="#V" n="85"/>Graecus, nec seruus, nec liber, neque masculus, 
+            <lb ed="#V" n="86"/>neque femina, sed omnes vnum sumus in Chri¬ 
+            <lb ed="#V" n="87"/>sto, &amp; omnes renouamur secundum imaginem 
+            <lb ed="#V" n="88"/>Dei, vbi nullus sexus factus est. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1191">
+            <lb ed="#V" n="89"/>Praeterea imago accipienda est in his, quae per¬ 
+            <lb ed="#V" n="90"/>tinent ad speciem, vt supra patuit: sed mas, &amp; f¬ 
+            <lb ed="#V" n="91"/>mina non variant speciem: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1200">
+            <lb ed="#V" n="92"/>RESOLVTIO. 
+            <lb ed="#V" n="93"/>rmaginis rationem in Firo magis, quam in fomi¬ 
+            <lb ed="#V" n="94"/>na reperiri dicimus. Idque rationis tantum 
+            <lb ed="#V" n="95"/>actibus non autem quantum ad imagi¬ 
+            <lb ed="#V" n="96"/>nis rationem in se, nec quan¬ 
+            <lb ed="#V" n="97"/>tum ad fidem. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1217">
+            <lb ed="#V" n="98"/>RESPONDEO dicendum, quod sicut lo¬ 
+            <lb ed="#V" n="99"/>quebamur de Angelo, &amp; de homine: ita suo mo¬ 
+            <lb ed="#V" n="100"/>do possumus loqui de viro, &amp; de muliere: quia 
+            <lb ed="#V" n="101"/>sicut natura intell ectualis magis viget in Ange¬ 
+            <lb ed="#V" n="102"/>lo, quam in homine, ira suo modo magis viget 
+            <lb ed="#V" n="103"/>ratio in viro, quam in muliere. Vnde Dhiloso¬ 
+            <lb ed="#V" n="104"/>phus circa finem primi Politi. vult quod causa 
+            <lb ed="#V" n="105"/>dominandi sumitur ex ratione. Ideo dicit esse na¬ 
+            <lb ed="#V" n="106"/>turale, quod masculus dominetur soeminae: vir¬ 
+            <lb ed="#V" n="107"/>puero: dominus seruo. Quod probat ex ipsa ra¬ 
+            <lb ed="#V" n="108"/>tione, quae plus viget in masculo, quam in foemi¬ 
+            <lb ed="#V" n="109"/>na: in viro, quam in puero: in domino, quam in 
+            <lb ed="#V" n="110"/>seruo. Quod probat ibidem dicens, quod foemi¬ 
+            <lb ed="#V" n="111"/>na habet consilium inualidum: puer imperfectum 
+            <lb ed="#V" n="112"/>seruus autem non habet consiliatiuum. Quia si 
+            <lb ed="#V" n="113"/>volumus hoc ad litteram intelligere seruum non 
+            <lb ed="#V" n="114"/>habere consiliatiuum: oportet loqui de seruitu¬ 
+            <lb ed="#V" n="115"/>te naturali. Naturale est enim secundum philoso 
+            <!--20.xml-->
+            <pb ed="#V" n="20"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>phum in 2. de anima, quod molles carne sunt apti 
+            <lb ed="#V" n="2"/>mente Propter, quod duri carne possunt dici du¬ 
+            <lb ed="#V" n="3"/>ri mente. Et si inueniatur aliquando mollities car¬ 
+            <lb ed="#V" n="4"/>nis: cum prauitate ingenii illa mollities carnis erit 
+            <lb ed="#V" n="5"/>ex prauitate complexionis, vt ex abundantia fleu¬ 
+            <lb ed="#V" n="6"/>matis. Propter quod mulieres sunt molles car¬ 
+            <lb ed="#V" n="7"/>ne. Sed bona mollities carnis est ex raritate com¬ 
+            <lb ed="#V" n="8"/>plexionis, secundum quem modum molles car¬ 
+            <lb ed="#V" n="9"/>ne sunt apti mente. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1285">
+            <lb ed="#V" n="10"/>Aduertendum tamen: quod naturalia non pos¬ 
+            <lb ed="#V" n="11"/>sunt omnia aequa lance ponderari, sed sufficit, quod 
+            <lb ed="#V" n="12"/>hoc sit, vt in pluribus. Dato tamen, quod quis ex 
+            <lb ed="#V" n="13"/>bonitate complexionis esset mollis carne: ex ali¬ 
+            <lb ed="#V" n="14"/>quo tamen impedimento, vt puta ex aliqua per¬ 
+            <lb ed="#V" n="15"/>uersione organi phantastici posset ei accidere 
+            <lb ed="#V" n="16"/>imp edimentum in intellectu: sed loquendo, vt 
+            <lb ed="#V" n="17"/>natura patitur, Aliqui sunt serui naturaliter, vt 
+            <lb ed="#V" n="18"/>illi qui non sic vigent intellectu, &amp; ratione, &amp; all¬ 
+            <lb ed="#V" n="19"/>qui Domini naturaliter, vt illi, qui plus vigent ra¬ 
+            <lb ed="#V" n="20"/>tione, &amp; intellectu, &amp; ideo secundum Philoso¬ 
+            <lb ed="#V" n="21"/>phum idem expedit Domino, &amp; seruo. Expedit 
+            <lb ed="#V" n="22"/>enim seruo, quod seruiat Quia nescit se dirigere: cum¬ 
+            <lb ed="#V" n="23"/>non vigeat ratione. Propter quod expedit ei, vt 
+            <lb ed="#V" n="24"/>dirigatur ab alio, &amp; per consequens, vt seruiat 
+            <lb ed="#V" n="25"/>alii. Et sicut seruo expedit, vt seruiat: sic expedit 
+            <lb ed="#V" n="26"/>Domino, vt sibi seruiatur, quia cum vigentes in 
+            <lb ed="#V" n="27"/>tellectu habeant molles carnes: sunt, vt plurimum, 
+            <lb ed="#V" n="28"/>debiles viribus, vt non possint laborem corpora 
+            <lb ed="#V" n="29"/>lem sustinere, nec possint sibi ipsis ad seruiendum 
+            <lb ed="#V" n="30"/>sufficere. Alii autem duri carpe quanto sortiorec 
+            <lb ed="#V" n="31"/>sunt viribus: tanto magis eis expedit, vt dirigan¬ 
+            <lb ed="#V" n="32"/>tur ab alijs. Sicut caeci non videntes, quo peraunt: 
+            <lb ed="#V" n="33"/>quanto fortiores sunt: tanto magis indigent diri¬ 
+            <lb ed="#V" n="34"/>gente: quia fortiores cum maiori impetu moti¬ 
+            <lb ed="#V" n="35"/>obuiantes obstaculo plus leduntur. Plura etiam 
+            <lb ed="#V" n="36"/>alia possunt dici de seruo, &amp; Domino, sed nor¬ 
+            <lb ed="#V" n="37"/>sunt praesentis speculationis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1348">
+            <lb ed="#V" n="38"/>Redeamus ergo ad propositum, &amp; dicamus quod 
+            <lb ed="#V" n="39"/>etiam inter ipsos masculos videmus aliquos plus 
+            <lb ed="#V" n="40"/>vigere ratione, quam alios, &amp; quia communi. 
+            <lb ed="#V" n="41"/>ter masculi plus vigent ratione, quam foemi¬ 
+            <lb ed="#V" n="42"/>nae: vimago Dei, quae secundum rationem in 
+            <lb ed="#V" n="43"/>hominibus est sumenda: potest dici excellentiori 
+            <lb ed="#V" n="44"/>imodo esse in viris, quam in mulieribus. Non ta¬ 
+            <lb ed="#V" n="45"/>men istud sic est tantae efficaciae in viris respectu¬ 
+            <lb ed="#V" n="46"/>Mulierum sicut est in Angelis respectu hominum, 
+            <lb ed="#V" n="47"/>quia quilibet Angelus respectu cuiuslibet homi¬ 
+            <lb ed="#V" n="48"/>nis est naturaliter excellentior secundum intelle¬ 
+            <lb ed="#V" n="49"/>ctum: loquendo de hominibus puris. Si autem 
+            <lb ed="#V" n="50"/>aliquis purus homo quantum ad intellectum ex¬ 
+            <lb ed="#V" n="51"/>cellat Angelos: hoc erit ex reuelatione, vel ex gra¬ 
+            <lb ed="#V" n="52"/>tia: non ex natura. Quod etiam ad ipsum Christum 
+            <lb ed="#V" n="53"/>adaptari posset, quia natura humana naturaliter 
+            <lb ed="#V" n="54"/>est inferior natura Angelica, sed non sic est in om¬ 
+            <lb ed="#V" n="55"/>nibus viris respectu mulierum: quia multae mu¬ 
+            <lb ed="#V" n="56"/>lieres multis viris magis ratione vigent. Sed eo 
+            <lb ed="#V" n="57"/>modo, quo communiter loquendo, magis viget 
+            <lb ed="#V" n="58"/>ratio in viro, quam in muliere, est magis imago 
+            <lb ed="#V" n="59"/>in eo, quam in muliere. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1398">
+            <lb ed="#V" n="60"/>Considerare tamen debemus comparationem, 
+            <lb ed="#V" n="61"/>quam fecimus, Angeli ad hominem, &amp; viri ad mu¬ 
+            <lb ed="#V" n="62"/>lerem, quia in Angelo excellentiori modo viget 
+            <!--20.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>imago, quam in homine: quantum ad actum in¬ 
+            <lb ed="#V" n="64"/>telligendi, sed quantum ad alia magis viget in ho¬ 
+            <lb ed="#V" n="65"/>mine, quam in Angelo: vt superius probatur, sed 
+            <lb ed="#V" n="66"/>in viro respectu mulieris non solum quantum 
+            <lb ed="#V" n="67"/>ad actum intelligendi, siue quantum ad rationem 
+            <lb ed="#V" n="68"/>est magis imago in eo, quam in muliere; sed etiam 
+            <lb ed="#V" n="69"/>quantum ad alia: quia mulier est ex viro: sicut vir 
+            <lb ed="#V" n="70"/>ex Deo: &amp; quia mulier propter virum. sic vir pro¬ 
+            <lb ed="#V" n="71"/>pter Deum, vt per Apostolum patuit. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1431">
+            <lb ed="#V" n="72"/>Est autem &amp; alia ratio, quae specialiter tangit 
+            <lb ed="#V" n="73"/>imaginem: quia hoc est imago, quasi imitago: vel 
+            <lb ed="#V" n="74"/>hoc est imago, quod similitudo ad imitationem fa¬ 
+            <lb ed="#V" n="75"/>cta. Propter quod sic vir est imago Dei: quia fa¬ 
+            <lb ed="#V" n="76"/>ctus est ad imitationem Dei. Sic mulier est ima¬ 
+            <lb ed="#V" n="77"/>go viri: quia facta est ad imitationem viri. 
+            <lb ed="#V" n="78"/>Nam cum non inueniretur Adae simile: dixit 
+            <lb ed="#V" n="79"/>Deus: Non est bonum hominem esse solum: fa¬ 
+            <lb ed="#V" n="80"/>ciamus ei adiutorium simile sibi: ergo ad simili¬ 
+            <lb ed="#V" n="81"/>tudinem, &amp; imitarionem viri facta est mulier: vt 
+            <lb ed="#V" n="82"/>in hoc vir sit imago Dei, quia aliquid factum est 
+            <lb ed="#V" n="83"/>ad imaginem, &amp; similitudinem eius: sicut ipse fa¬ 
+            <lb ed="#V" n="84"/>ctus est ad imaginem, &amp; similitudinem Dei. Ad 
+            <lb ed="#V" n="85"/>similitudinem enim corporis Adae formatum est 
+            <lb ed="#V" n="86"/>corpus Euae. Sed ad similitudinem, &amp; imaginem 
+            <lb ed="#V" n="87"/>Deiformata est anima Adae: secundum quam ani¬ 
+            <lb ed="#V" n="88"/>mam non est distinctio sexus. Quibus considera¬ 
+            <lb ed="#V" n="89"/>tis facile solui possunt omnia argumenta. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1473">
+            <lb ed="#V" n="90"/>RESP. AD ARO. Ad primum dicendum, quod 
+            <lb ed="#V" n="91"/>vir est imago Dei: quia secundum animam for¬ 
+            <lb ed="#V" n="92"/>matus est ad imaginem Dei, &amp; mulier est imago v 
+            <lb ed="#V" n="93"/>viri: quia secundum corpus formata est ad simi¬ 
+            <lb ed="#V" n="94"/>litudinem viri: secundum animam vero non est 
+            <lb ed="#V" n="95"/>distinctio sexus: sed vrraque est imago Dei, &amp; si 
+            <lb ed="#V" n="96"/>est ibi distinctio inter hanc imaginem, &amp; illam hoc 
+            <lb ed="#V" n="97"/>non erit secundum ipsam naturam rationalem se¬ 
+            <lb ed="#V" n="98"/>cundum se: sed secundum actum, vel secundum 
+            <lb ed="#V" n="99"/>vsum rationis: prout magis hoc viget in viro, 
+            <lb ed="#V" n="100"/>quam in muliere. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1500">
+            <lb ed="#V" n="101"/>Ad secundum dicendum, quod homo factus 
+            <lb ed="#V" n="102"/>est ad imaginem Dei, non mulier, quia homo non 
+            <lb ed="#V" n="103"/>fuit factus ad mulierem, vel ad similitudinem mu¬ 
+            <lb ed="#V" n="104"/>lieris, sed econuerso. Et in hoc vir imitatur Deum, 
+            <lb ed="#V" n="105"/>&amp; non mulier: quod habeat aliquid factum ad 
+            <lb ed="#V" n="106"/>similitudinem suam: exponendo hoc eo modo, 
+            <lb ed="#V" n="107"/>quo dictum est, videlicet, quod vnum expona¬ 
+            <lb ed="#V" n="108"/>tur de imitatione animae: &amp; aliud de imitatio¬ 
+            <lb ed="#V" n="109"/>ne corporis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1522">
+            <lb ed="#V" n="110"/>Et per hoc potest patere solutio ad tertium: 
+            <lb ed="#V" n="111"/>quod mulier est ex viro: non econuerso, quia 
+            <lb ed="#V" n="112"/>quantum ad corpus hoc habet veritatem: hon 
+            <lb ed="#V" n="113"/>quantum ad animam. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1533">
+            <lb ed="#V" n="114"/>Et ad quartum: quod mulier creata est propter 
+            <lb ed="#V" n="115"/>virum: quia creata est in adiutorium viri, quod 
+            <lb ed="#V" n="116"/>ad opera corporalia referri potest: quia quantum 
+            <lb ed="#V" n="117"/>ad intelligere, &amp; doctrinam magis mulier indiget 
+            <lb ed="#V" n="118"/>Viro: quam econuerso. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1546">
+            <lb ed="#V" n="119"/>Per hoc etiam potest patere solutio ad quin¬ 
+            <lb ed="#V" n="120"/>tum Nam, quod corpus virile est magis quid vnibi¬ 
+            <lb ed="#V" n="121"/>le, quam muliebre: patet hanc differentiam sum¬ 
+            <lb ed="#V" n="122"/>ptam esse secundum corpus, non secundum 
+            <lb ed="#V" n="123"/>animam. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1559">
+            <lb ed="#V" n="124"/>Argumenta autem in contrarium arguunt 
+            <!--21.xml-->
+            <pb ed="#V" n="21"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>de anima quitum ad fidem. secundum quam non 
+            <lb ed="#V" n="2"/>est distinctio secundum sexum. Non arguunt 
+            <lb ed="#V" n="3"/>quantum ad vsum rationis, qui magis commu¬ 
+            <lb ed="#V" n="4"/>niter viget in homine, quam in muliere. 
+          </p>
+        </div>
+        <div xml:id="Gi9qrR-m004306-Dd1e1580">
+          <head xml:id="Gi9qrR-m004306-Hd1e1582">Articulus 3</head>
+          <p xml:id="Gi9qrR-m004306-d1e1584">
+            <lb ed="#V" n="5"/>ARTIC. III. 
+            <lb ed="#V" n="6"/>An imago Dei aequaliter incornt 
+            <lb ed="#V" n="7"/>tiua, atque affectiua repe¬ 
+            <lb ed="#V" n="8"/>riatur. Conclusio est 
+            <lb ed="#V" n="9"/>negatiua. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1597">
+            <lb ed="#V" n="10"/>D. Bon. d. 16. art. 2. q. 3. Th. Arg. d. 16. q. 1. art. 3 
+            <lb ed="#V" n="11"/>Brulef. d. 16. q. 6
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1604">
+            <lb ed="#V" n="12"/>TERTIO quaeritur de equalita 
+            <lb ed="#V" n="13"/>te imaginis respectu potentiae 
+            <lb ed="#V" n="14"/>cognitiuae, &amp; affectiuae. Et vi. 
+            <lb ed="#V" n="15"/>detur, quod in potentia cogni¬ 
+            <lb ed="#V" n="16"/>tiua reperiatur magis imago 
+            <lb ed="#V" n="17"/>quam in affectiua, quia vt ait 
+            <lb ed="#V" n="18"/>Magister in littera dans differentiam inter imagi¬ 
+            <lb ed="#V" n="19"/>nem, &amp; similitudinem; Imago est in cognitione 
+            <lb ed="#V" n="20"/>veritatis: similitudo in amore virtutis: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1626">
+            <lb ed="#V" n="21"/>Praeterea imago primo, &amp; principaliter conue¬ 
+            <lb ed="#V" n="22"/>nit Verbo aeterno: ergo conuenit ei principalius, 
+            <lb ed="#V" n="23"/>quod magis repraesentat verbum aeternum. Sed 
+            <lb ed="#V" n="24"/>hoc est verbum nostrum: cum ergo verbum se te¬ 
+            <lb ed="#V" n="25"/>neat ex parte potentiae cognitiuae: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1640">
+            <lb ed="#V" n="26"/>Praeterea, vt patet per Magistrum in littera, 
+            <lb ed="#V" n="27"/>nis lmago accipitur secundum memoriam, intelligen¬ 
+            <lb ed="#V" n="28"/>tiam, &amp; dilectionem: ergo duae partes imaginis se 
+            <lb ed="#V" n="29"/>tenent ex parte cognitiuae. memoria videlicet, &amp; 
+            <lb ed="#V" n="30"/>intelligentia. Solum autem vna pars se tenet ex 
+            <lb ed="#V" n="31"/>parteaffectiue: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1656">
+            <lb ed="#V" n="32"/>IN CONTRARIVM est, quia imago reformatio 
+            <lb ed="#V" n="33"/>respondet imaginicreationis: quia illa imago, 
+            <lb ed="#V" n="34"/>quae fuerat creata, &amp; per peccatum deformatass 
+            <lb ed="#V" n="35"/>illa est reformata per gratiam, &amp; charitatem. 
+            <lb ed="#V" n="36"/>Sed ista magis videntur respicere affectiuam: 
+            <lb ed="#V" n="37"/>ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1672">
+            <lb ed="#V" n="38"/>Praeterea, per imaginem Deo conformamur, 
+            <lb ed="#V" n="39"/>&amp; illi coniungimur. In illa ergo potentia princi¬ 
+            <lb ed="#V" n="40"/>palius erit imago, per quam distrahimur: &amp; a 
+            <lb ed="#V" n="41"/>Deo disiungimur. Sed hoc est voluntas, quae so¬ 
+            <lb ed="#V" n="42"/>la meretur, &amp; demeretur. per eam enim peccan¬ 
+            <lb ed="#V" n="43"/>do a Deo diuidimur. luxta illud: Peccata vestra 
+            <lb ed="#V" n="44"/>diuiserunt inter vos, &amp; Deum: ergo &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1690">
+            <lb ed="#V" n="45"/>RESOLVTIO. 
+            <lb ed="#V" n="46"/>Imaginem in parte cognitiua, cius que perstctionem 
+            <lb ed="#V" n="47"/>in volitiua esse affirmamus. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1699">
+            <lb ed="#V" n="48"/>RESPONDEO dicendum, quod, vt patet 
+            <lb ed="#V" n="49"/>&amp; superioribus, similitudo perfecta est perfectio 
+            <lb ed="#V" n="50"/>imaginis: sicut imperfecta est quid perfectibile¬ 
+            <lb ed="#V" n="51"/>per imaginem. Loquendo ergo de imagine perfe¬ 
+            <lb ed="#V" n="52"/>cta: patet, quod imago sic sumpta includit simili¬ 
+            <lb ed="#V" n="53"/>udinem. Sicutenim res perseca dicit ipsum per¬ 
+            <!--21.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="54"/>fectibile, &amp; suam perfeqionem: sicimapo perfe¬ 
+            <lb ed="#V" n="55"/>cta dicit imaginem, &amp; similitudinem, quae est per¬ 
+            <lb ed="#V" n="56"/>fectio imaginis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1725">
+            <lb ed="#V" n="57"/>Cum ergo quaeritur, in quo magis consistit 
+            <lb ed="#V" n="58"/>imago; Dicemus, quod in omnibus tribus poren¬ 
+            <lb ed="#V" n="59"/>tijs: siue in omnibus tribus viribus consistit ima¬ 
+            <lb ed="#V" n="60"/>go, &amp; perfectio imaginis. Vel, quod idem est, con¬ 
+            <lb ed="#V" n="61"/>sistit imago, &amp; similitudo, vt supra declarabatur, 
+            <lb ed="#V" n="62"/>quia homo non est factus ad imaginem, &amp; simili¬ 
+            <lb ed="#V" n="63"/>tudinem vnius personae tantum, vel duarum perso 
+            <lb ed="#V" n="64"/>narum, sed totius Trinitatis: Ideo omnes illas 
+            <lb ed="#V" n="65"/>tres vires animae oportet concurrere tam ad ima¬ 
+            <lb ed="#V" n="66"/>ginem, quam ad similitudinem: vel tam ad ima¬ 
+            <lb ed="#V" n="67"/>ginem, quam ad perfectionem imaginis: aliter 
+            <lb ed="#V" n="68"/>tamen, &amp; aliter. quia ad ipsam imaginem concur¬ 
+            <lb ed="#V" n="69"/>rit cognitiua principaliter, memoria videlicet, &amp; 
+            <lb ed="#V" n="70"/>intelligentia. Sed concurrit ibi affectiua ex conse 
+            <lb ed="#V" n="71"/>quenti: prout ad actum cognitiuae requiritur actus 
+            <lb ed="#V" n="72"/>affectiuae. In similitudine autem econuerso, quia 
+            <lb ed="#V" n="73"/>similitudo principaliter consistit in affectiua. Si 
+            <lb ed="#V" n="74"/>autem requiratur ibsi potentia cognitiua: hoc non 
+            <lb ed="#V" n="75"/>erit ita principaliter, vel hoc non erit ita perse¬ 
+            <lb ed="#V" n="76"/>cte: sed hoc erit propter affectiuam, qua actus af¬ 
+            <lb ed="#V" n="77"/>fectiuae non potest esse sine actu cognitiue: cum bo¬ 
+            <lb ed="#V" n="78"/>num appraehensum sit obiectum voluntatis. Ideo 
+            <lb ed="#V" n="79"/>dicit Magister in litera, quod imago consistit in 
+            <lb ed="#V" n="80"/>cognitione veritatis: similitudo in amore virtu¬ 
+            <lb ed="#V" n="81"/>tis. Et quia cognitio se tenet ex parte cognitiuae 
+            <lb ed="#V" n="82"/>amor ex parte affectiuae: ion, vt supra dicebatur ima¬ 
+            <lb ed="#V" n="83"/>go se tenet magis ex parte cognitiuae: similitudo 
+            <lb ed="#V" n="84"/>ex parte affectiue. Et quia similitudo sic accepta es 
+            <lb ed="#V" n="85"/>perfectio imaginis: Ideo imago simpliciter sum¬ 
+            <lb ed="#V" n="86"/>pta magis se tenet ex parte cognitiuae: sed imago 
+            <lb ed="#V" n="87"/>vt perfecta magis se tenet ex parte affectiuae: cum 
+            <lb ed="#V" n="88"/>similitudo, quae principalius respicit affectiuam, 
+            <lb ed="#V" n="89"/>sit perfectio imaginis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1800">
+            <lb ed="#V" n="90"/>His itaque praelibatis, declarandum est, quomo¬ 
+            <lb ed="#V" n="91"/>do imago se tenet ex parte cognitiue, &amp; perfectio 
+            <lb ed="#V" n="92"/>imaginis ex parte affectiue. Sciendum ergo, quod 
+            <lb ed="#V" n="93"/>Augustinus in assignanda imagine duplici vo¬ 
+            <lb ed="#V" n="94"/>cabulo vtitur, quia ibi gignitur species ex specie, 
+            <lb ed="#V" n="95"/>vt ex specie, quae est in memoria, gignitur species, 
+            <lb ed="#V" n="96"/>quae est in intelligentia, vtitur &amp; alio vocabulo, 
+            <lb ed="#V" n="97"/>quod ibi gignitur notitia ex notitia. vt ex notitia, 
+            <lb ed="#V" n="98"/>quae est in memoria: quae est quasi quaedam noti¬ 
+            <lb ed="#V" n="99"/>tia habitualis: gignitur notitia in intelligentia, 
+            <lb ed="#V" n="100"/>quae est quaedam noritia actualis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1826">
+            <lb ed="#V" n="101"/>Possumus &amp; nos tertium vocabulum adde¬ 
+            <lb ed="#V" n="102"/>re, quod ibi gignitur lumen ex lumine, vt ex 
+            <lb ed="#V" n="103"/>lumine, quod est in memoria, gignitur lumen in 
+            <lb ed="#V" n="104"/>intelligentia. Ad hoc autem tertium dictum pos¬ 
+            <lb ed="#V" n="105"/>sumus adducere verba Apostoli dicentis ad Eph. 
+            <lb ed="#V" n="106"/>5. Omne, quod manifestatur, lumem est: quicquid 
+            <lb ed="#V" n="107"/>est enim in intellectu nostro, siue hoc sit in me¬ 
+            <lb ed="#V" n="108"/>moria, vbi est scientia: etiam quando non consi¬ 
+            <lb ed="#V" n="109"/>deramus de rebus scitis: siue hoc sit in intelligen¬ 
+            <lb ed="#V" n="110"/>tia, quando actu consideramus de rebus scitis: 
+            <lb ed="#V" n="111"/>vel de his, quae sunt in memoria: semper in tali¬ 
+            <lb ed="#V" n="112"/>bus gignitur manifestatio de manisestatione. vt 
+            <lb ed="#V" n="113"/>de manifestatione, quae est in memoria, gignitur 
+            <lb ed="#V" n="114"/>manifestatio, quae est in intelligentia. Et quia illa 
+            <lb ed="#V" n="115"/>manifestatio potest dici quoddam lumen; dici 
+            <!--22.xml-->
+            <pb ed="#V" n="22"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potest, quod ibi gignitur lumen &amp;x lumine. Ad 
+            <lb ed="#V" n="2"/>hoc etiam tertium dictum possunt adaptari ver¬ 
+            <lb ed="#V" n="3"/>ba August. dicentis in 13. de Tri. quod anima vi 
+            <lb ed="#V" n="4"/>det omnia in quadam luce sui generis: sicut ocu¬ 
+            <lb ed="#V" n="5"/>lus carnis omnia videt in quadam luce sui gene¬ 
+            <lb ed="#V" n="6"/>ris Cum enim ex hoc habitu tendat in actum, &amp; 
+            <lb ed="#V" n="7"/>cum ex memoria anima surgat in intelligentiam: 
+            <lb ed="#V" n="8"/>oportet, quod ibi fiat lumen ex lumine, vt ex lu¬ 
+            <lb ed="#V" n="9"/>mine, quod est in memoria, fiat lumen in intelli¬ 
+            <lb ed="#V" n="10"/>gentia: vel ex lumine, in quo anim a scit res habi¬ 
+            <lb ed="#V" n="11"/>tu: fiat lumen, in quo anima de rebus scitis con¬ 
+            <lb ed="#V" n="12"/>siderat actu. Hoc etiam concordat cum verbis Phi¬ 
+            <lb ed="#V" n="13"/>losophorum. Nam, vt patuit per August. Anima 
+            <lb ed="#V" n="14"/>omnia videt in quadam luce sui generis. id est in 
+            <lb ed="#V" n="15"/>quadam luce spirituali. Sicut ocu us carnis om¬ 
+            <lb ed="#V" n="16"/>nia videt in quadam luce corporea, sed quomo¬ 
+            <lb ed="#V" n="17"/>do vocetur illa lux spiritualis, in qua anima no¬ 
+            <lb ed="#V" n="18"/>stra, vel intellectus noster videt omnia: non me¬ 
+            <lb ed="#V" n="19"/>minimus nos inuenisse ab Augustino. Sed Phi¬ 
+            <lb ed="#V" n="20"/>losophi illam lucem vocauerunt intellectum agen¬ 
+            <lb ed="#V" n="21"/>tem. De quo dicitur in 3 de Anima, quod intel¬ 
+            <lb ed="#V" n="22"/>lectus agens se habet ad phantasmata: sicut lux ad 
+            <lb ed="#V" n="23"/>colores. quae verba satis concordant cum Augu¬ 
+            <lb ed="#V" n="24"/>stino, quia sicut oculus camis in luce corporea 
+            <lb ed="#V" n="25"/>videt colores: sic in virture luminis intellectus 
+            <lb ed="#V" n="26"/>agentis a phantasmatibus fiunt species in intel¬ 
+            <lb ed="#V" n="27"/>lectu possibili quibus potest informari acies intel 
+            <lb ed="#V" n="28"/>ligentiae, per quam anima intelligit, &amp; cogno¬ 
+            <lb ed="#V" n="29"/>scit. Quod cum ita sit: a luminein memoria ge¬ 
+            <lb ed="#V" n="30"/>neratur lumen in intelligentia. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e1933">
+            <lb ed="#V" n="31"/>Vt ergo magis intelligamus, quod dicitur: ad¬ 
+            <lb ed="#V" n="32"/>ducamus verba Comen. loquentis de intellectu¬ 
+            <lb ed="#V" n="33"/>possibili qui recibit species intelligibiles: &amp; de in 
+            <lb ed="#V" n="34"/>tellectu agente, qui est quoddam lumen irradians 
+            <lb ed="#V" n="35"/>super phantasmata, a quibus abstrahuntur illae 
+            <lb ed="#V" n="36"/>species intelligibiles, &amp; super ipsas species intel¬ 
+            <lb ed="#V" n="37"/>ligibiles abstractas: super vtrisque enim, vt super¬ 
+            <lb ed="#V" n="38"/>phantasmatibus, &amp; super speciebus intelligibili¬ 
+            <lb ed="#V" n="39"/>bus irradiat intellectus agens, tanquam quod 
+            <lb ed="#V" n="40"/>dam spirituale lumen. Quod autem irradiet su¬ 
+            <lb ed="#V" n="41"/>per phantasmata intellectus agens: patuit per¬ 
+            <lb ed="#V" n="42"/>e Philosophum, qui dicit ipsum se habere ad phan¬ 
+            <lb ed="#V" n="43"/>tasmata: sicut lux ad colores. Quod autem irra¬ 
+            <lb ed="#V" n="44"/>diet super speciebus intelligibilibus: patet per 
+            <lb ed="#V" n="45"/>Commen dicentem, quod sicut aer simul recipit 
+            <lb ed="#V" n="46"/>lumen, &amp; species visibiles: sic intel lectus noster 
+            <lb ed="#V" n="47"/>possibilis simul recipit lumen intellectus agen¬ 
+            <lb ed="#V" n="48"/>tis, &amp; species intelligibiles. Quia ergo anima non 
+            <lb ed="#V" n="49"/>potest simul intelligere omnia, quorum habet 
+            <lb ed="#V" n="50"/>species intelligibiles: cum conuertit se super ali¬ 
+            <lb ed="#V" n="51"/>quam illarum specierum, quod non potest fieri 
+            <lb ed="#V" n="52"/>sine lumine intellectus agentis: oportet quod ab 
+            <lb ed="#V" n="53"/>illa specie prius recepta, &amp; illuminata per lume&amp; 
+            <lb ed="#V" n="54"/>intellectus agentis fiat species in intelligentia 
+            <lb ed="#V" n="55"/>illuminata etiam per tale lumen: &amp; hic ait 
+            <lb ed="#V" n="56"/>Augustinus a specie in memoria generari specien 
+            <lb ed="#V" n="57"/>in intelligentia. Illa ergo generatio potest dici spe¬ 
+            <lb ed="#V" n="58"/>cies ex specieid est forma de forma, &amp; lumen de lu¬ 
+            <lb ed="#V" n="59"/>mine, ratione luminis intellectus agentis recepti¬ 
+            <lb ed="#V" n="60"/>cum vtraque specie, siue cum quacunque torma: 
+            <lb ed="#V" n="61"/>&amp; potest dici actus de actu quia est ibi notitia de 
+            <lb ed="#V" n="62"/>notitia, &amp; quia omnis forma est quidam actus. 
+            <!--22.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="63"/>Nam endelechia, &amp;forma secundum Philoso. 
+            <lb ed="#V" n="64"/>phum in 2. de Anima pro eodem sumuntur. Cum pi 
+            <lb ed="#V" n="65"/>ergo Deus sit potissime forma, qua est omne es¬ 
+            <lb ed="#V" n="66"/>se. vt probat Boe in suo li. de Tri &amp; cum ipse sit 
+            <lb ed="#V" n="67"/>potissime lumen, &amp; cum ipse sit potissime actus: 
+            <lb ed="#V" n="68"/>sicut in illa sancta Trinitate est Deus de Deo; sic 
+            <lb ed="#V" n="69"/>in hac imaginatione est forma de forma. Quod 
+            <lb ed="#V" n="70"/>nomen formae potissime competit Deo, et sicut 
+            <lb ed="#V" n="71"/>in illa sancta Trinitate est lumen de lumine, sic 
+            <lb ed="#V" n="72"/>in hac imagire est lumen de lumine, quia de lu¬ 
+            <lb ed="#V" n="73"/>mine intellectus agentis recepto cum specie in 
+            <lb ed="#V" n="74"/>memoria fit lumen intellectus agentis receptum 
+            <lb ed="#V" n="75"/>cum specie producta in intelligentia: &amp; sicutibi¬ 
+            <lb ed="#V" n="76"/>est Deus verus de Deo vero; ita hic fit actus ve¬ 
+            <lb ed="#V" n="77"/>rus de actu vero, quia fit notitia ex notitia. quia 
+            <lb ed="#V" n="78"/>ex vera notitia in memoria fit vera notitia in in¬ 
+            <lb ed="#V" n="79"/>telligentia. Imago ergo simpliciter sumpta vide¬ 
+            <lb ed="#V" n="80"/>tur respicere potentiam cognitiuam. Si autem re¬ 
+            <lb ed="#V" n="81"/>spicit affectiuam: hoc est propter cognitiuam: in 
+            <lb ed="#V" n="82"/>quantum actus potentiae affectiuae requiritur ad 
+            <lb ed="#V" n="83"/>actum potentiae cognitiuae ad coniungendum pa¬ 
+            <lb ed="#V" n="84"/>rentem proli, vel ad producendam de parente 
+            <lb ed="#V" n="85"/>prolem. quia, nisi homo per voluntatem se con¬ 
+            <lb ed="#V" n="86"/>uerteret super speciem, quae est immemor: non 
+            <lb ed="#V" n="87"/>fieret species in intelligentia. vel si fieret: non pet 
+            <lb ed="#V" n="88"/>sisteret. Oportet ergo, quod adsit ibi voluntascon 
+            <lb ed="#V" n="89"/>seruans, &amp; connectens speciem genitam cum spe¬ 
+            <lb ed="#V" n="90"/>cie gignente. Omnes autem tres potentiae concur¬ 
+            <lb ed="#V" n="91"/>runt ad imaginem: memoria gignens: intelligen¬ 
+            <lb ed="#V" n="92"/>ria genita: &amp; voluntas connectens, &amp; in hoc vo¬ 
+            <lb ed="#V" n="93"/>luntas repraesentat Spiritumiset qui est nexus Pa¬ 
+            <lb ed="#V" n="94"/>tris, &amp; Filii. Et licet omnes illae tres vires requi¬ 
+            <lb ed="#V" n="95"/>rantur: quandam tamen principalitatem vide¬ 
+            <lb ed="#V" n="96"/>tur ibi habere potentia cognitiua: cum actus vo¬ 
+            <lb ed="#V" n="97"/>luntatis ibi requiratur, propter actum cognitio 
+            <lb ed="#V" n="98"/>nis: &amp; vt connectat speciem genitam cum spe¬ 
+            <lb ed="#V" n="99"/>cie gignente: quarum vtraque est in potentia¬ 
+            <lb ed="#V" n="100"/>cognitiua. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2092">
+            <lb ed="#V" n="101"/>Sic videtur ergo ese dicendum loquendo de 
+            <lb ed="#V" n="102"/>imagine simpliciter. Sed loquendo de imagine 
+            <lb ed="#V" n="103"/>perfecta: cum perfectio imaginis sit ex similitudi 
+            <lb ed="#V" n="104"/>ne ad Deum, quod attribuitur pouissime charita¬ 
+            <lb ed="#V" n="105"/>ti, vel amori virtutis, qui respicit affectum: ideo 
+            <lb ed="#V" n="106"/>concedendum est, imaginem perfectam esse mo¬ 
+            <lb ed="#V" n="107"/>do perfectiori, &amp; excellentiori in affectiua, quan¬ 
+            <lb ed="#V" n="108"/>in cognitiua. Vnde, &amp; in patria, vbi erit imago po¬ 
+            <lb ed="#V" n="109"/>tissime perfecta: perfectius erit beatitudo nostma 
+            <lb ed="#V" n="110"/>in affectiua, quam cognitiua. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2116">
+            <lb ed="#V" n="111"/>RESP. AD ARG. Argumenta autem proce¬ 
+            <lb ed="#V" n="112"/>debant viis suis, quia prima tria argumentaar¬ 
+            <lb ed="#V" n="113"/>guunt de imagine simpliciter. Illa vero in contra¬ 
+            <lb ed="#V" n="114"/>rium arguunt de imagine perfecta: siue de perse 
+            <lb ed="#V" n="115"/>ctione imaginis. sed in litteralibus quaestionibus 
+            <lb ed="#V" n="116"/>dicetur aliquid de hoc. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2132">
+            <lb ed="#V" n="117"/>DVD. I. LITTERALIS
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2138">
+            <lb ed="#V" n="118"/>SVPER Littera quaeritur primode 
+            <lb ed="#V" n="119"/>illo verbo quod intendit Magister 
+            <lb ed="#V" n="120"/>tractare: qualis, &amp; quomodo factus 
+            <lb ed="#V" n="121"/>suit homo: &amp; qualiter sir lapsus, &amp; 
+            <lb ed="#V" n="122"/>qualiter sit postea reparatus. Sed de omnibus 
+            <!--23.xml-->
+            <pb ed="#V" n="23"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>istis non tractatur in hoc secundo: ergo &amp;c. 
+            <lb ed="#V" n="2"/>Dicendum, quod ibi Magister continuat dicta di¬ 
+            <lb ed="#V" n="3"/>cendis: non solum quantum ad hunc secundum, 
+            <lb ed="#V" n="4"/>sed etiam quantum ad tertium, &amp; quartum. Nam 
+            <lb ed="#V" n="5"/>ab hac distinctione agetur qualiter, &amp; quomodo 
+            <lb ed="#V" n="6"/>sit factus homo per comparationem ad Deum, 
+            <lb ed="#V" n="7"/>quia factus est ad imaginem, &amp; similitudinem Dei, 
+            <lb ed="#V" n="8"/>&amp; quantum ad suas partes, &amp; quantum ad alia, 
+            <lb ed="#V" n="9"/>quae hic traduntur. Agitur etiam in hoc secundo 
+            <lb ed="#V" n="10"/>de casu hominis, siue quantum ad peccatum pri¬ 
+            <lb ed="#V" n="11"/>morum Parentum, siue quantum ad peccata eorum, 
+            <lb ed="#V" n="12"/>&amp; aliorum. Sed per quae sit reparatus homo, quia 
+            <lb ed="#V" n="13"/>reparatus est per verbum incarnatum: de hoc agec 
+            <lb ed="#V" n="14"/>in tertio. Qualiter autem sit reparatus, &amp; quali¬ 
+            <lb ed="#V" n="15"/>ter continue reparetur, quia reparatur per sacra 
+            <lb ed="#V" n="16"/>menta ecdlesiae. De hocagetur in quarto. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2192">
+            <lb ed="#V" n="17"/>Dubitatio secunda litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2197">
+            <lb ed="#V" n="18"/>Vlterius forte dubitaret aliquis, quod imago po¬ 
+            <lb ed="#V" n="19"/>test accipi pro essentia Triniratis, ad quam factus 
+            <lb ed="#V" n="20"/>est homo: secundum quem modum videretur, 
+            <lb ed="#V" n="21"/>quod Deus esset imago hominis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2208">
+            <lb ed="#V" n="22"/>Dicendum, quod sicut loquimur de exemplo, &amp; 
+            <lb ed="#V" n="23"/>de exemplari: sic loqui possumus de imagine, &amp; 
+            <lb ed="#V" n="24"/>de eo, ad quod facta est imago. Nam proprie lo¬ 
+            <lb ed="#V" n="25"/>quendo: exemplar est illud ad cuius similitudinem 
+            <lb ed="#V" n="26"/>fit aliud. Exemplum est illud, quod fit ad simili¬ 
+            <lb ed="#V" n="27"/>tudinem alrerius. Tamen aliquando exemplum¬ 
+            <lb ed="#V" n="28"/>accipitur pro exemplari, iuxta illud Boetii: Cun¬ 
+            <lb ed="#V" n="29"/>cta superno ducis ab exemplo. Ibi lyexemplo po¬ 
+            <lb ed="#V" n="30"/>test stare pro exemplari, quia Deus a superno exen 
+            <lb ed="#V" n="31"/>plo, &amp; a superno exemplari: hoc est a seipso, qui¬ 
+            <lb ed="#V" n="32"/>est exemplar omnium producit omnia. sicut exen 
+            <lb ed="#V" n="33"/>plum sumitur pro exemplari: sic imago, quae pro¬ 
+            <lb ed="#V" n="34"/>prie est idem, quod imitago &amp; proprie est illud, 
+            <lb ed="#V" n="35"/>quod imitatur, aliud potest sumi pro eo, ad cuius 
+            <lb ed="#V" n="36"/>imitationem fit aliud. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2243">
+            <lb ed="#V" n="37"/>Dubitatio tertia litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2248">
+            <lb ed="#V" n="38"/>Vlterius forte dubitaretaliquis: de eo, quod 
+            <lb ed="#V" n="39"/>in littera dicitur, quod similitudo est in natura: ima¬ 
+            <lb ed="#V" n="40"/>go est in alijs: ergo videt, quod similitudo hominis 
+            <lb ed="#V" n="41"/>ad Deum sit naturalis, &amp; per consequens etiam 
+            <lb ed="#V" n="42"/>imago erit naturalis. Sed contra: Ang. in de de¬ 
+            <lb ed="#V" n="43"/>cem cordis: assimilat imaginem Dei in anima Im¬ 
+            <lb ed="#V" n="44"/>peratoris in nummo. Sed imago Imperatoris in 
+            <lb ed="#V" n="45"/>numo non est naturalis, sed artificialis: ergo, &amp;c. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2269">
+            <lb ed="#V" n="46"/>Dicendum autem, quod &amp; nos assimilamus ima¬ 
+            <lb ed="#V" n="47"/>ginem Dei in anima: imagini homini in idolo fa¬ 
+            <lb ed="#V" n="48"/>cto ex ligno, vel ex lapide. Sed ista similitudo non 
+            <lb ed="#V" n="49"/>est per omnem modum: quia imago hominis, 
+            <lb ed="#V" n="50"/>vel alterius rei in idolo facto ex ligno, vel ex lapi¬ 
+            <lb ed="#V" n="51"/>a de est omnino artificialis: sed imago Dei in ani¬ 
+            <lb ed="#V" n="52"/>ma est aliquo modo naturalis: licet non sit con¬ 
+            <lb ed="#V" n="53"/>naturalis. Est enim imago Dei in anima natura¬ 
+            <lb ed="#V" n="54"/>lis, quia respicit naturam, vel naturalia anime: sed 
+            <lb ed="#V" n="55"/>non est connaturalis, quia non est in eadem na¬ 
+            <lb ed="#V" n="56"/>tura cum patre. Ideo anima est imago Dei natu¬ 
+            <lb ed="#V" n="57"/>ralis, sed non connaturalis, quia non est in eadem 
+            <lb ed="#V" n="58"/>naturacum Deo. Et ideo imago Dei in anima 
+            <!--23.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="59"/>potest assimilari imagini hominis in idolo, vel¬ 
+            <lb ed="#V" n="60"/>imagini hominis in nummo: quia idolum, &amp; 
+            <lb ed="#V" n="61"/>nummus non habent candem naturam cum ho¬ 
+            <lb ed="#V" n="62"/>mine: sicut nec anima habet eandem cum Deo. 
+            <lb ed="#V" n="63"/>propter quod sicut homo, quando facit imagi¬ 
+            <lb ed="#V" n="64"/>nem suam in idolo, vel in nummo: sacit eam in 
+            <lb ed="#V" n="65"/>alia natura: sic Deus, quando secit imaginem in 
+            <lb ed="#V" n="66"/>anima, fecit eam in alia natura. Quantum ergo ad 
+            <lb ed="#V" n="67"/>hoc est simile, sed non oportet, quod sit simile quan¬: 
+            <lb ed="#V" n="68"/>tum ad omnia alia. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2326">
+            <lb ed="#V" n="69"/>Dubitatio quarta litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2331">
+            <lb ed="#V" n="70"/>Vlterius forte dubitaret aliquis: quomodo 
+            <lb ed="#V" n="71"/>imago hominis in nummo, vel in idolo est pure 
+            <lb ed="#V" n="72"/>artificialis, &amp; quomodo estimago Dei in homi
+            <lb ed="#V" n="73"/>ne, quae potest dici naturalis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2342">
+            <lb ed="#V" n="74"/>Dicendum, quod omnes formae artificiales 
+            <lb ed="#V" n="75"/>sunt accidentia, quia omnes tales formae intro. a 
+            <lb ed="#V" n="76"/>ducuntur cum aliquo instrumento corporeo, &amp; i¬ 
+            <lb ed="#V" n="77"/>vt vult Commen. in 12. allegans Themistium. Cor etir 
+            <lb ed="#V" n="78"/>pus nihil facit in corpore: nisi in extremitatibus 
+            <lb ed="#V" n="79"/>eius tantum: Natura vero agit in ipso corpore toto. ir 
+            <lb ed="#V" n="80"/>Formae autem artificiales sunt inductae in extre¬ 
+            <lb ed="#V" n="81"/>mitatibus corporum, &amp; ideo sunt accidentales. si 
+            <lb ed="#V" n="82"/>Si autem aliqua forma naturalis inducitur per o 
+            <lb ed="#V" n="83"/>artem, vt puta sanitas: vel si esset vera ars Alchi¬ A 
+            <lb ed="#V" n="84"/>miae, &amp; per eam fieret verum aurum: ibi non face e¬ 
+            <lb ed="#V" n="85"/>ret plus ars: nisi quod coniungeret agentia natu¬ 
+            <lb ed="#V" n="86"/>ralia suis passiuis naturalibus, &amp; esset ibi artifexe 
+            <lb ed="#V" n="87"/>minister naturae. Vnde Medicus dicitur minister 
+            <lb ed="#V" n="88"/>naturae quia dat illa corpori infirmo: pquae pos¬ 
+            <lb ed="#V" n="89"/>sit se natura iuuare de morbo. sed quanuis sic sit 
+            <lb ed="#V" n="90"/>de intellectu humano. &amp; de his, quae sunt per ar¬ 
+            <lb ed="#V" n="91"/>tem hominis: Non tamen oportet, quod sic sit de 
+            <lb ed="#V" n="92"/>intellectu diuino &amp; de his, quae fiunt per artem 
+            <lb ed="#V" n="93"/>Dei. Iuxta illud quod dixit Salomon Sapientiae. 7. S 
+            <lb ed="#V" n="94"/>Omnium enim artisex docuit me sapientiam. 
+            <lb ed="#V" n="95"/>Deus enim est artisex omnium, &amp; omnia com¬i 
+            <lb ed="#V" n="96"/>parantur ad ipsum, sicut artificialia ad artificem. 
+            <lb ed="#V" n="97"/>Ipsae ergo formae substantiales &amp; ipsae naturae re¬ 
+            <lb ed="#V" n="98"/>rum sunt quaedam artificiata ipsius Dei. &amp; ideo 
+            <lb ed="#V" n="99"/>dictum est quod ars imitatur naturam: quia mere ar¬ 
+            <lb ed="#V" n="100"/>tificialia sunt ab intellectu humano: Ipsa tamen as¬ 
+            <lb ed="#V" n="101"/>naruralia sunt ab intellectu diuino. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2405">
+            <lb ed="#V" n="102"/>Cum ergo intellectus humanus sit aptus na¬ 
+            <lb ed="#V" n="103"/>tus imitari intellectum diuinum: ars quae est ab 
+            <lb ed="#V" n="104"/>
+            <!-- line coord error -->
+            <lb ed="#V" n="105"/>intellectu diuino. Ex hoc autem patere potest, quod 
+            <lb ed="#V" n="106"/>homo in alia natura, vt puta in ligno, vel in lapi¬ 
+            <lb ed="#V" n="107"/>de, vel auro non potest fucer e suam imaginem na¬ 
+            <lb ed="#V" n="108"/>turalem: quia non potest, per artem, vel intel le¬ 
+            <lb ed="#V" n="109"/>ctum suum producere naturam. Et si facit ho¬ 
+            <lb ed="#V" n="110"/>mo imaginem suam naturalem: hoc non erit in 
+            <lb ed="#V" n="111"/>alia natura, sed in sua natura. Et imago non so¬ 
+            <lb ed="#V" n="112"/>lum erit naturalis sed con naturalis. IIta etiam ima¬ 
+            <lb ed="#V" n="113"/>go non erit per opus artis, sed per opus naturae: 
+            <lb ed="#V" n="114"/>quia erit per generationem. De qua dicit Damaisc. 
+            <lb ed="#V" n="115"/>lib. 1. C. 8S. quod generatio est opus naturae, sed 
+            <lb ed="#V" n="116"/>Deus per suum intellectum, vel per suam artem, 
+            <lb ed="#V" n="117"/>per quam producit naturas rerum, alias a n.tu¬ 
+            <lb ed="#V" n="118"/>ra sua. Potest etiam in alia natura producere ima¬ 
+            <!--24.xml-->
+            <pb ed="#V" n="24"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>inem naturalem, quae non erit sibi connatura. 
+            <lb ed="#V" n="2"/>lis. quia non habebit eandem naturam cum ipso, 
+            <lb ed="#V" n="3"/>quod facit producendo animam. quia in ipsa na¬ 
+            <lb ed="#V" n="4"/>tura animae, vel in ipsis potentiis, quae sunt natu¬ 
+            <lb ed="#V" n="5"/>rales animae, inuenitur imago, &amp; similitudo Dei. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2464">
+            <lb ed="#V" n="6"/>Dubitatio quinta litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2470">
+            <lb ed="#V" n="7"/>Vlterius forte dubitaret aliquis: Vtrum imago 
+            <lb ed="#V" n="8"/>in speculo assimiletur imagini Dei in anima, quia 
+            <lb ed="#V" n="9"/>de hoc etiam videtur tangere Aug. in lib de decem cordis. 
+            <lb ed="#V" n="10"/>Dicendum, quod nunquam simile est per om¬ 
+            <lb ed="#V" n="11"/>nem modum simile, quia tunc non esset simile, 
+            <lb ed="#V" n="12"/>sed idem. Imago ergo Dei in anima potest assimi¬ 
+            <lb ed="#V" n="13"/>lari imagini in idolo, vel in nummo, &amp; etiam ima¬ 
+            <lb ed="#V" n="14"/>gini in speculo. Quia sicut homo faciens suam ima¬ 
+            <lb ed="#V" n="15"/>ginem in idolo, vel in nummo; facit illam in alia 
+            <lb ed="#V" n="16"/>natura. Et sicut imago resultans a faciein specu¬ 
+            <lb ed="#V" n="17"/>lo, vel in aere fit in alia natura: quia speculum 
+            <lb ed="#V" n="18"/>siue aer non habent eandem naturam cum ho¬ 
+            <lb ed="#V" n="19"/>mine; sic Deus faciens suam imaginem in ani¬ 
+            <lb ed="#V" n="20"/>ma: facit eam in alia natura. Sed si consideren¬ 
+            <lb ed="#V" n="21"/>tur praefatae similitudines prout sunt quid natu¬ 
+            <lb ed="#V" n="22"/>rale, vel quid artificiale: non concordant cum ima 
+            <lb ed="#V" n="23"/>gine Dei facta in anima. Quia imago faciei in spe¬ 
+            <lb ed="#V" n="24"/>culo est omnino naturalis, quia color, &amp; figura 
+            <lb ed="#V" n="25"/>naturaliter faciunt suam similitudinem in me¬ 
+            <lb ed="#V" n="26"/>dio; ita, quod illa imago non est artificialis. quia 
+            <lb ed="#V" n="27"/>naturaliter ita fit. Et si ibi potest aliquid operari 
+            <lb ed="#V" n="28"/>ars: illa tamen operatio artis reducetur ad ope¬ 
+            <lb ed="#V" n="29"/>rationem naturalem, vt si ars apponit plumbum 
+            <lb ed="#V" n="30"/>in vitro, vt appareat ibi imago: licet appositio 
+            <lb ed="#V" n="31"/>plumbi sit artificialis: apparitio tamen imaginis 
+            <lb ed="#V" n="32"/>erit naturalis. quia naturale est, si non sit aliquid, 
+            <lb ed="#V" n="33"/>quod obstet visui, quod appareat ibi imago. Et 
+            <lb ed="#V" n="34"/>quia vitrum nudum est transparens: in nudo vi¬ 
+            <lb ed="#V" n="35"/>tro non apparebit imago. Sed si apponatur sibi¬ 
+            <lb ed="#V" n="36"/>plumbum, vt obsistat visui: ibi naturaliter appa¬ 
+            <lb ed="#V" n="37"/>parebit imago. Sic etiam si frangatur speculum, ap¬ 
+            <lb ed="#V" n="38"/>parebunt ibi plures imagines propter plures su¬ 
+            <lb ed="#V" n="39"/>2. perficies. Fractio igitur vitri poterit esse quid ar¬ 
+            <lb ed="#V" n="40"/>tificiale: sed apparere plures imagines propter 
+            <lb ed="#V" n="41"/>plures superficies est quid naturale. Fiunt etiam 
+            <lb ed="#V" n="42"/>specula diuersarum formarum, quia aliqua sunt 
+            <lb ed="#V" n="43"/>concaua: aliqua sunt gibbosa, &amp; vtrunque facit 
+            <lb ed="#V" n="44"/>apparere imaginem, vbi non est. quia in speculo¬ 
+            <lb ed="#V" n="45"/>gibboso apparet imago vltra speculum. Constat 
+            <lb ed="#V" n="46"/>autem, quod ibi non est, vbi apparet, quia posset 
+            <lb ed="#V" n="47"/>speculum fieri de ferro, de quo non posset dubi¬ 
+            <lb ed="#V" n="48"/>tari: quin imago posset illud pertransire, &amp; appa¬ 
+            <lb ed="#V" n="49"/>rere Vltra speculum. Factio ergo ipsorum specu¬ 
+            <lb ed="#V" n="50"/>lorum est quid artificiale, sed quod in talibus spe¬ 
+            <lb ed="#V" n="51"/>culis sic factis sic appareat imago: est quid natu¬ 
+            <lb ed="#V" n="52"/>rale. Fiunt etiam specularepraesentantia faciem 
+            <lb ed="#V" n="53"/>cum malo colore: non cum colore proprio, vel¬ 
+            <lb ed="#V" n="54"/>repraesentantia faciem tortuosam: non tamen di¬ 
+            <lb ed="#V" n="55"/>spositio nepropria, quorum speculorum factio 
+            <lb ed="#V" n="56"/>potest esse artificialis, sed repraesentatio imaginis 
+            <lb ed="#V" n="57"/>supposita factione speculi, erit naturalis: sicut ar¬ 
+            <lb ed="#V" n="58"/>tificiale potest esse, quod quis se vertat ad eam par¬ 
+            <lb ed="#V" n="59"/>tem, quam vult: sed naturale erit, quod oculus 
+            <lb ed="#V" n="60"/>apertus informetur similitudinibus ferum existem 
+            <!--24.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="61"/>tium in illa parte, ad quam se vertit ergoreprae. 
+            <lb ed="#V" n="62"/>sentatio imaginis in speculo non concordat cum¬ 
+            <lb ed="#V" n="63"/>repraesentatione imaginis Dei in anima, quia il¬ 
+            <lb ed="#V" n="64"/>lud est quid naturale, quod quale est speculum ta¬ 
+            <lb ed="#V" n="65"/>lem repraesentat faciem: sed imago Dei in anima¬ 
+            <lb ed="#V" n="66"/>est quid artificiale, quia facta est per artem, &amp; per 
+            <lb ed="#V" n="67"/>intellectum diuinum, &amp; per voluntatem eius. Ita, 
+            <lb ed="#V" n="68"/>quod illae idec diuinae nihil producunt, nisi secun¬ 
+            <lb ed="#V" n="69"/>dum voluntarem Dei: sicut ab ipso artifice non 
+            <lb ed="#V" n="70"/>producitur arca in materia ab arca in anima: 
+            <lb ed="#V" n="71"/>nisi secundum voluntatem artificis. Vnde Philo¬ 
+            <lb ed="#V" n="72"/>sophus in 6. Meta. vult, quod in diffinitione arti r¬ 
+            <lb ed="#V" n="73"/>ficiati ponitur voluntas, &amp; quod omne artificia¬ 
+            <lb ed="#V" n="74"/>tum sit voluntarium. imago ergo Dei in anima est 
+            <lb ed="#V" n="75"/>quid artificiale respectu Dei, quia producta est 
+            <lb ed="#V" n="76"/>per artem, &amp; per intellectum diuinum, &amp; per vo 
+            <lb ed="#V" n="77"/>luntatem eius, &amp; est quid naturale, quia per illum 
+            <lb ed="#V" n="78"/>intellectum, &amp; per illam artem diuinam produ¬ 
+            <lb ed="#V" n="79"/>cta est natura, &amp; ea, quae sequuntur naturam ani¬ 
+            <lb ed="#V" n="80"/>mae. Et sicut repraesentatio imaginis in speculo¬ 
+            <lb ed="#V" n="81"/>discordat a repraesentatione imaginis Dei in ani. 
+            <lb ed="#V" n="82"/>ma: quia ipsa apparitio est tota naturalis. sic ima¬ 
+            <lb ed="#V" n="83"/>go hominis in idolo, vel in nummo discordat ab¬ 
+            <lb ed="#V" n="84"/>imagine Dei in anima: quia tota est artificialis, &amp; 
+            <lb ed="#V" n="85"/>nihil est ibi de naturali, quod sit natura: licet possit 
+            <lb ed="#V" n="86"/>ibi esse aliquid naturale secundum repraesentatio 
+            <lb ed="#V" n="87"/>nem, non autem secundum esse, quia potest ibi re¬ 
+            <lb ed="#V" n="88"/>praesentari natura: vbi non est natura. Nam per 
+            <lb ed="#V" n="89"/>intellectum hominis, vel per artem eius directe, 
+            <lb ed="#V" n="90"/>&amp; simpliciter nulla natura produci potest. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2659">
+            <lb ed="#V" n="91"/>Dubitatio sexta litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2664">
+            <lb ed="#V" n="92"/>Vlterius, quia intellectus hominis non quie¬ 
+            <lb ed="#V" n="93"/>scit: dubitaret forte aliquis, quomodo imago sum¬ 
+            <lb ed="#V" n="94"/>pta simpliciter est principaliter in cognitione: &amp; 
+            <lb ed="#V" n="95"/>si requiritur ibi voluntas, vel actus voluntatis;, 
+            <lb ed="#V" n="96"/>hoc erit ratione cognitionis. Constat autem, quod 
+            <lb ed="#V" n="97"/>imago Dei in anima non est imago vnius perso¬ 
+            <lb ed="#V" n="98"/>nae tantum, vel duarum, sed omnium trium per¬ 
+            <lb ed="#V" n="99"/>sonarum. oportet ergo, quod hic concordent om¬ 
+            <lb ed="#V" n="100"/>nes illae tres vires: Memoria: Intelligentia, &amp; Volum 
+            <lb ed="#V" n="101"/>tas, vt sit ibi imago omnium trium personarum 
+            <lb ed="#V" n="102"/>sicut, &amp; in similitudine oportet, quod concurrant 
+            <lb ed="#V" n="103"/>omnes tres: quia aliter, nec esset ibi imago: nec 
+            <lb ed="#V" n="104"/>similitudo Trinitatis. Dicendum, quod hoc satis 
+            <lb ed="#V" n="105"/>potest patere per iam dicta, quia omnes illae tres 
+            <lb ed="#V" n="106"/>potentiae, vel vires concurrunt tam ad imaginem 
+            <lb ed="#V" n="107"/>quam ad similitudinem. sed quantum ad imagi¬ 
+            <lb ed="#V" n="108"/>nem cognitiua habet quandam principalitatem. 
+            <lb ed="#V" n="109"/>Propter quod nullum peccatum tollit ima 
+            <lb ed="#V" n="110"/>nem sumptam simpliciter, vt sicut naturale est 
+            <lb ed="#V" n="111"/>quod ad cognoscere sequatur velle: saltem velle¬ 
+            <lb ed="#V" n="112"/>cognoscere, vel velle cogitare; sic naturale est, quod 
+            <lb ed="#V" n="113"/>in memoria, intelligentia, &amp; voluntate: prout 
+            <lb ed="#V" n="114"/>volumus actu cogitare, sit imago Trinitatis. Vh¬ 
+            <lb ed="#V" n="115"/>manifeste apparet, quod voluntas concurrit ibi¬ 
+            <lb ed="#V" n="116"/>propter illum velle cognoscere, vel velle cogitae 
+            <lb ed="#V" n="117"/>re, vt in hoc sit principalior potentia cognitiua. 
+            <lb ed="#V" n="118"/>Sed si loquimur de imagine perfecta, quae est per¬ 
+            <lb ed="#V" n="119"/>gratiam, vel per charitatem, quae statim tollun¬ 
+            <lb ed="#V" n="120"/>iur per peccaum: eum in metcndo, &amp; dime 
+            <!--25.xml-->
+            <pb ed="#V" n="25"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>rendo voluntas habeat quandam principalita¬ 
+            <lb ed="#V" n="2"/>tem: oportet, quod quantum ad similitudinem, 
+            <lb ed="#V" n="3"/>vel perfectionem imaginis voluntas principali¬ 
+            <lb ed="#V" n="4"/>tatem habeat: cognitiua autem requiratur ibi 
+            <lb ed="#V" n="5"/>propter voluntaris actum. In omnibus autem 
+            <lb ed="#V" n="6"/>his tribus viribus erit tam imago, quam perse 
+            <lb ed="#V" n="7"/>ctio imaginis. Tamen propter hoc non tollitur, 
+            <lb ed="#V" n="8"/>quod in imagine simpliciter habeat quandam prin¬ 
+            <lb ed="#V" n="9"/>cipalitatem cognitiua, &amp; in perfectione imaginis 
+            <lb ed="#V" n="10"/>affectiua. Nam cum cognitiua tendat in obiectum 
+            <lb ed="#V" n="11"/>suum magis naturaliter: affectiua vero tendat in 
+            <lb ed="#V" n="12"/>obiectum: prout sibi est gratum, &amp; placitum: con¬ 
+            <lb ed="#V" n="13"/>sequens ex hoc est, quod quia imago est magis in 
+            <lb ed="#V" n="14"/>naturalibus, vt ex hoc quandam principalitatem ibi 
+            <lb ed="#V" n="15"/>habeat cognitiua, &amp; quia similitudo est perfectio 
+            <lb ed="#V" n="16"/>imaginis, quia magis est in gratuitis: ex hoc 
+            <lb ed="#V" n="17"/>quandam principalitatem ibi habeat affectiua. 
+            <lb ed="#V" n="18"/>Quibus bene consideratis, patenet clarius praelibata. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2775">
+            <lb ed="#V" n="19"/>Dubitatio Septima litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2780">
+            <lb ed="#V" n="20"/>Vlterius forte dubitaret aliquis: quia in litte¬ 
+            <lb ed="#V" n="21"/>&amp;si ra videntur dari quatuor differentiae inter imagi¬ 
+            <lb ed="#V" n="22"/>nem, &amp; similitudinem. Quarum tres superius 
+            <lb ed="#V" n="23"/>sunt expositae, sed superadditur eis quarta. Vide 
+            <lb ed="#V" n="24"/>licet quod imago pertinet ad formam: similitu¬ 
+            <lb ed="#V" n="25"/>do ad naturam; Dicendum, quod ista quarta est 
+            <lb ed="#V" n="26"/>eadem cum rertia, vel potest ad eam reduci. Erat 
+            <lb ed="#V" n="27"/>enim tertia differentia, quia similitudo est in es¬ 
+            <lb ed="#V" n="28"/>sentiatimago in omnibus alijs. Essentia ergo, &amp; 
+            <lb ed="#V" n="29"/>natura pro eodem debent accipi. Forma etiam, 
+            <lb ed="#V" n="30"/>&amp; omnia alia pro eodem accipi possunt. Nam 
+            <lb ed="#V" n="31"/>lorma vno modo potest stare pro forma substan¬ 
+            <lb ed="#V" n="32"/>tiali. Et hoc modo non diuiditur forma contra 
+            <lb ed="#V" n="33"/>essentiam, vel naturam. Alio modo potest accipi¬ 
+            <lb ed="#V" n="34"/>forma pro accidentali. Et sic diuiditur contra es¬ 
+            <lb ed="#V" n="35"/>sentiam, &amp; naturam: &amp; forma sic accepta diffini¬ 
+            <lb ed="#V" n="36"/>tur in principio sex principiorum: cum dicitur, 
+            <lb ed="#V" n="37"/>quod forma est compositioni contingens. Nam 
+            <lb ed="#V" n="38"/>sit. haec est differentia inter formam substantialem, 
+            <lb ed="#V" n="39"/>&amp; accidentalem: quia forma substantialis intelli¬ 
+            <lb ed="#V" n="40"/>gitur fundari in ipsa essentia materiae. Ideo dici¬ 
+            <lb ed="#V" n="41"/>7tur in primo de generatione: Hyle est maxime 
+            <lb ed="#V" n="42"/>subiectum proprium susceptibile generationis. 
+            <lb ed="#V" n="43"/>Sed forma accidentialis intelligitur sundari in 
+            <lb ed="#V" n="44"/>ipso composito, quia materia subiecta cum for¬ 
+            <lb ed="#V" n="45"/>ma est causa omnium accidentium, quae fiunt 
+            <lb ed="#V" n="46"/>in ea. Exponendum est ergo de forma acciden¬ 
+            <lb ed="#V" n="47"/>tali, quae est contingens compositioni, id est rei¬ 
+            <lb ed="#V" n="48"/>compositae. Quarta ergo, &amp; tertia differentia, 
+            <lb ed="#V" n="49"/>quod similitudo est in essentia, imago in omni¬ 
+            <lb ed="#V" n="50"/>bus alijs, &amp; quod similitudo attenditur quan¬ 
+            <lb ed="#V" n="51"/>tum ad naturam: imago quantum ad formam: 
+            <lb ed="#V" n="52"/>ibi forma, quae, vt dictum est, stat pro forma ac¬ 
+            <lb ed="#V" n="53"/>cidentali, importare potest omnia alia acciden¬ 
+            <lb ed="#V" n="54"/>tia superaddita naturae, &amp; essentiae. Cuiusmodi¬ 
+            <lb ed="#V" n="55"/>sunt porentiae, vel habirus, vel quaecunquem aptitu¬ 
+            <lb ed="#V" n="56"/>dines, vel ipsi actus. Propter quod patet, quod tertia, 
+            <lb ed="#V" n="57"/>&amp; quarta differentia, quae ad idem reduci possunt: 
+            <lb ed="#V" n="58"/>imaginem important differre a similitudine: pro¬ 
+            <lb ed="#V" n="59"/>ut imago est perfectio similitudinis, quia poten¬ 
+            <!--25.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>tiae, &amp; habitus, &amp; omnia alia praeassignata, sunt 
+            <lb ed="#V" n="61"/>quaedam perfectiones essentiae, &amp; naturae: sed pri¬ 
+            <lb ed="#V" n="62"/>ma, &amp; secunda differentia loquuntur de imagine, 
+            <lb ed="#V" n="63"/>&amp; similitudine: prout similitudo est perfectio 
+            <lb ed="#V" n="64"/>imaginis, vt in praehabitis plenius est ostensum. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2884">
+            <lb ed="#V" n="65"/>Dubitatio octaua litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2890">
+            <lb ed="#V" n="66"/>Vlterius forte dubitaret aliquis: quomodo ho¬ 
+            <lb ed="#V" n="67"/>mo potest dici imago, vel ad imaginem, sicut tabula, 
+            <lb ed="#V" n="68"/>&amp; pictura; Dicendum, quod homo dicitur imago, &amp; 
+            <lb ed="#V" n="69"/>ad imaginem, sed dicitur imago magis concretiue 
+            <lb ed="#V" n="70"/>&amp; ad imaginem magis abstractiue, quod optime 
+            <lb ed="#V" n="71"/>patet in tabula, &amp; pictura. Nam tabula diur imago¬ 
+            <lb ed="#V" n="72"/>quasi concretiue, quia non est ipsa pictura in ab¬ 
+            <lb ed="#V" n="73"/>stracto, sed denominatur a pictura concretiue, &amp; 
+            <lb ed="#V" n="74"/>diu picta Propter quod bene dicit Magister in lit¬ 
+            <lb ed="#V" n="75"/>tera, quod tabula dicitur imago propter picturam, sic 
+            <lb ed="#V" n="76"/>&amp; homo dicitur imago propter imaginem id est pri¬ 
+            <lb ed="#V" n="77"/>animam, quae est in eo ergo eo modo quasi imagc¬ 
+            <lb ed="#V" n="78"/>praedicatur de homine, quo anima praedicatur de¬ 
+            <lb ed="#V" n="79"/>ipso. Sed anima non praedicatur de eo in abstra 
+            <lb ed="#V" n="80"/>cto, quia homo non est anima, sed in concreto, 
+            <lb ed="#V" n="81"/>quia est animatus. Quare si homo diu imago pro¬ 
+            <lb ed="#V" n="82"/>pter imaginem, que est in ipso: oportet, quod imago¬ 
+            <lb ed="#V" n="83"/>sumatur quasi concretiue. Sed cum dit homo fa¬ 
+            <lb ed="#V" n="84"/>ctus ad imaginem: intelligitur quasi factus ad an¬ 
+            <lb ed="#V" n="85"/>mam, vel factus ad habendam animam, quo habende¬ 
+            <lb ed="#V" n="86"/>habet imaginem. simili modo est: sicut si homo fa¬ 
+            <lb ed="#V" n="87"/>ctus albus posset dici factus ad albedinem, quia 
+            <lb ed="#V" n="88"/>factus est ad habendam albedinem. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2942">
+            <lb ed="#V" n="89"/>Dubitatio Nona litteralis. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e2947">
+            <lb ed="#V" n="90"/>Vlterius forte dubitaret aliquis quomodo he¬ 
+            <lb ed="#V" n="91"/>mo dicitur imago, &amp; ad imaginem, sed Dei filius 
+            <lb ed="#V" n="92"/>dicitur imago, sed non ad imaginem. Ad quod 
+            <lb ed="#V" n="93"/>respondet Magister in littera, quod Dei filius na¬ 
+            <lb ed="#V" n="94"/>tus est a Patre non creatus: est aequalis Patri, &amp; 
+            <lb ed="#V" n="95"/>in nullo dissimilis: sed homo creatus est a Dec 
+            <lb ed="#V" n="96"/>non genitus: non parilitate aequalis Deo, sec 
+            <lb ed="#V" n="97"/>quadam similitudine ascendens ad Deum. Pos¬ 
+            <lb ed="#V" n="98"/>sumus autem nominaliter soluere, &amp; solutio no¬ 
+            <lb ed="#V" n="99"/>stra erit declaratio solutionis Magistri. dicemus 
+            <lb ed="#V" n="100"/>enim, quod quaelibet persona diuina est ita sim¬ 
+            <lb ed="#V" n="101"/>plex, sicut essentia. Et propter hoc nulla perso. 
+            <lb ed="#V" n="102"/>na diuina potest dici producta ad imaginem 
+            <lb ed="#V" n="103"/>quia tunc secundum seipsa non esset imago: sec 
+            <lb ed="#V" n="104"/>esset aliquid in persona illa. Propter quod esse¬ 
+            <lb ed="#V" n="105"/>imago, sicut homo secundum seipsum non est 
+            <lb ed="#V" n="106"/>imago, sed est aliquid in eo: Propter quod dictus 
+            <lb ed="#V" n="107"/>est imago, vt anima. Vropter quod cum anima 
+            <lb ed="#V" n="108"/>faciat compositionem cum homine, quia est com¬ 
+            <lb ed="#V" n="109"/>positus ex anima, &amp; corpore; si aliqua persona 
+            <lb ed="#V" n="110"/>diuina, vt puta Filius diceretur ad imaginem: se¬ 
+            <lb ed="#V" n="111"/>queretur, quod filius esset persona composi¬ 
+            <lb ed="#V" n="112"/>ta, &amp; quod aliquid esset in eo, propter quod 
+            <lb ed="#V" n="113"/>diceretur imago: quod faceret compositionem 
+            <lb ed="#V" n="114"/>in ipso. Nam filius propter hoc est imago Pa¬ 
+            <lb ed="#V" n="115"/>tris, quia naturaliter procedit a patre, &amp; ac 
+            <lb ed="#V" n="116"/>cipit naturam a Tatre: ita quod pater non est po¬ 
+            <!--26.xml-->
+            <pb ed="#V" n="26"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tens gignere nisi natura. Et ideo etiam in diuinis 
+            <lb ed="#V" n="2"/>verificatur illud Dam. lib. 1. c. 8. quod generatio 
+            <lb ed="#V" n="3"/>est opus naturae Non quod natura in diuinis ge¬ 
+            <lb ed="#V" n="4"/>neret, quia nec etiam in humanis natura gene¬ 
+            <lb ed="#V" n="5"/>rat, cum actiones sint suppositorum, sed gene¬ 
+            <lb ed="#V" n="6"/>ratio est opus naturae, quia natura in Patre est 
+            <lb ed="#V" n="7"/>ratio, qua pater generat. Nam illud, in quo 
+            <lb ed="#V" n="8"/>assimilatur productum producenti est ratio pro¬ 
+            <lb ed="#V" n="9"/>ductionis eius. &amp; quia Filius assimilatur Patri 
+            <lb ed="#V" n="10"/>in natura: quia habet similitudinem aequalem, 
+            <lb ed="#V" n="11"/>&amp; ad candem naturam cum Patre, vel eandem spe¬ 
+            <lb ed="#V" n="12"/>cie, vt in Filio carnali: vel eandem simpliciter, 
+            <lb ed="#V" n="13"/>vt in diuinis. Ex hac ergo expositione nostra 
+            <lb ed="#V" n="14"/>potest declarari responsio Magistri. Nam ex sim¬ 
+            <lb ed="#V" n="15"/>plicitate diuinarum personarum est, quod sunt 
+            <lb ed="#V" n="16"/>sic similes, &amp; aquales. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e3049">
+            <lb ed="#V" n="17"/>Dubitatio Decima litteralis.
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e3054">
+            <lb ed="#V" n="18"/>Vlterius forte dubitaret aliquis de eo, quod 
+            <lb ed="#V" n="19"/>supra dicebamus, quod cum ex specie in me¬ 
+            <lb ed="#V" n="20"/>moria gignitur species in intelligentia, quod ibi¬ 
+            <lb ed="#V" n="21"/>gignitur lumen de lumine. Cum ergo non sit 
+            <lb ed="#V" n="22"/>ibi dare aliud lumen creatum, nisi lumen in¬ 
+            <lb ed="#V" n="23"/>tellectus agentis: oportebit nos concedere, 
+            <lb ed="#V" n="24"/>vtuidetur, quad intelectus agens ibi signatur 
+            <lb ed="#V" n="25"/>ex intellectu agente. 
+          </p>
+          <p xml:id="Gi9qrR-m004306-d1e3074">
+            <lb ed="#V" n="26"/>Dicendum, quod non solum fit ex frigido ca¬ 
+            <lb ed="#V" n="27"/>lidum, sed ex calido magis calidum, &amp; non so¬ 
+            <lb ed="#V" n="28"/>lum fit ex tenebroso illuminatum, sed ex illumi 
+            <lb ed="#V" n="29"/>nato magis illuminatum. Non est tamen, nisi¬ 
+            <lb ed="#V" n="30"/>vnus intellectus possibilis, &amp; vnus intellectus 
+            <lb ed="#V" n="31"/>agens. Intellectus enim possibilis est potentia 
+            <lb ed="#V" n="32"/>receptiua speciei, &amp; luminis: &amp; se habet, vt ocu¬ 
+            <lb ed="#V" n="33"/>lus. Intellectus vero agens est potentia illumi¬ 
+            <lb ed="#V" n="34"/>nariua, &amp; irradiatiua tam super specie, quam 
+            <lb ed="#V" n="35"/>super intellectu possibili. Propter quod bene di¬ 
+            <lb ed="#V" n="36"/>cebatur supra, quod sicut aer simul recipit spe¬ 
+            <lb ed="#V" n="37"/>ciem, &amp; lumen istud sensibile: sic intellectus pos¬ 
+            <lb ed="#V" n="38"/>sibilis simul recipit speciem intelligibilem, &amp; 
+            <lb ed="#V" n="39"/>lumen intellectus agentis: &amp; nihil est aliud in¬ 
+            <lb ed="#V" n="40"/>tellectum possibilem recipere lumen intellectus 
+            <lb ed="#V" n="41"/>agentis, nisi se coniungere illi intellectui. quia 
+            <lb ed="#V" n="42"/>quanto magis se coniungit, tanto magis illumi¬ 
+            <lb ed="#V" n="43"/>ratur. Propter quod haec erit differentia inter 
+            <lb ed="#V" n="44"/>scientes, &amp; inscios: quia scientes habent intel¬ 
+            <lb ed="#V" n="45"/>lectum possibilem illuminatum, &amp; pictum. In¬ 
+            <lb ed="#V" n="46"/>scii habent ipsum tenebrosum, &amp; nudlum. Pro. 
+            <lb ed="#V" n="47"/>pter quod dicitur in 3. de Anima de intelle¬ 
+            <lb ed="#V" n="48"/>ctu possibili, quod in sui creatione, vel in sui¬ 
+            <lb ed="#V" n="49"/>primordio se habet quasi tabula nuda, vel sicut 
+            <lb ed="#V" n="50"/>tabula rasa, in qua nihil est pictum, &amp; talem 
+            <lb ed="#V" n="51"/>intellectum habent inscii. Quanto ergo intelle¬ 
+            <lb ed="#V" n="52"/>ctus possibilis plures recipit species: tanto plus 
+            <lb ed="#V" n="53"/>recipit de lumine intellectus agentis, &amp; tanto 
+            <lb ed="#V" n="54"/>plus coniungitur illi. Intellectus ergo sic per¬ 
+            <lb ed="#V" n="55"/>fectus speciebus, &amp; sic illuminatus lumine in¬ 
+            <lb ed="#V" n="56"/>tellectus agentis potest dici intellectus adeptus, 
+            <lb ed="#V" n="57"/>quia est adeptus species intelligibiles, &amp; illud 
+            <lb ed="#V" n="58"/>lumen. gigni ergo lumen de lumine est intelle 
+            <lb ed="#V" n="59"/>ctum possibilem magis illuminari, &amp; magis con¬ 
+            <!--26.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="60"/>iungi lumen intellectus agentis, &amp; quia huiuf¬ 
+            <lb ed="#V" n="61"/>modi intellectus cum habet species in memo¬ 
+            <lb ed="#V" n="62"/>ria, &amp; non cogitat de eis: non est ita illumina¬ 
+            <lb ed="#V" n="63"/>tus, sicut quando actu cogitat de speciebns re¬ 
+            <lb ed="#V" n="64"/>rum sensibilium: ideo ex hoc dicitur fieri ma¬ 
+            <lb ed="#V" n="65"/>gis illuminatus, &amp; dicitur plus adipisci de lu¬ 
+            <lb ed="#V" n="66"/>mine, &amp; magis coniungi intellectui agenti. pro¬ 
+            <lb ed="#V" n="67"/>pter quod de minus illuminato fit magis illumi¬ 
+            <lb ed="#V" n="68"/>natus, quod sine adeptione maioris luminis es¬ 
+            <lb ed="#V" n="69"/>se non potest. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

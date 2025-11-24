@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GilesOfRome">Giles of Rome</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2025-11-24">November 24, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-grsb22">Venice 1581, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="579"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="Gi9qrR-m171397"><!-- l2d39prae -->
+        <head xml:id="Gi9qrR-m171397-Hd1e101">Praeambulum</head>
+        <p xml:id="Gi9qrR-m171397-d1e103">
+          <lb ed="#V" n="73"/>DIST XXXIX. 
+          <lb ed="#V" n="74"/>De voluntate, quae magis in suo 
+          <lb ed="#V" n="75"/>acta, quam alia potentia, 
+          <lb ed="#V" n="76"/>deprauatur. 
+        </p>
+        <p xml:id="Gi9qrR-m171397-d1e114">
+          <lb ed="#V" n="77"/>HIC AVTEM ORI¬ 
+          <lb ed="#V" n="78"/>TVR QVAE¬ 
+          <lb ed="#V" n="79"/>STIO. In ista 
+          <lb ed="#V" n="80"/>Distinctione, vt 
+          <lb ed="#V" n="81"/>supra dicebatur, 
+          <lb ed="#V" n="82"/>specialiter Mag¬ 
+          <lb ed="#V" n="83"/>ster inquirit, cum 
+          <lb ed="#V" n="84"/>voluntas sit poter¬ 
+          <lb ed="#V" n="85"/>tia naturallis ani¬ 
+          <lb ed="#V" n="86"/>mae, sicut Intelle¬ 
+          <lb ed="#V" n="87"/>ctus, &amp; Memo¬ 
+          <lb ed="#V" n="88"/>ria: quare ratio peccati magis attribuitur volun¬ 
+          <lb ed="#V" n="89"/>tati, quam intellectui, vel memoriae. Circa quod 
+          <lb ed="#V" n="90"/>duo facit: quia Primo determinat de quaestione pre¬ 
+          <lb ed="#V" n="91"/>dicta secundum opinionem illam, quod omnia, quae sunt, in¬ 
+          <lb ed="#V" n="92"/>quantum sunt, bona sunt. Secundo determinat de di¬ 
+          <lb ed="#V" n="93"/>cta quaestione acumum opinionem aliam, quod actus volunta 
+          <lb ed="#V" n="94"/>tis malus nullo modo est bonus, ibi: [Qui vero di¬ 
+          <lb ed="#V" n="95"/>cunt. Circa primum duo facit: quia Primo mouet 
+          <lb ed="#V" n="96"/>quaestionem praefatam. Secundo circa quaestionem illam 
+          <lb ed="#V" n="97"/>mouet quaestionem aliam, bi: [e ed odtuc quaeritur. 
+          <lb ed="#V" n="98"/>Circa primum quatuor facit: quia Primo quaeritur 
+          <lb ed="#V" n="99"/>quare ratio peccandi attribuitur voluntati, cum 
+          <lb ed="#V" n="100"/>sit potentia naturalis, sicut &amp; aliae potentiae. Secur¬ 
+          <lb ed="#V" n="101"/>do respondet ad quaestionem praefatam, quod omnia 
+          <lb ed="#V" n="102"/>inquantum sunt, bona sunt. Ipsa ergo voluntas, pro¬ 
+          <lb ed="#V" n="103"/>ut dicit potentiam, vel prout dicit actum inquantum 
+          <lb ed="#V" n="104"/>est, bona est: sed prout dicit actum inordinatum, ha¬ 
+          <lb ed="#V" n="105"/>bet ibi esse peccatum. Tertio aggrauat quaestionem 
+          <lb ed="#V" n="106"/>praefatam, quare non sic habet esse peccatum, sie 
+          <lb ed="#V" n="107"/>sit inordinatio in intellectu, sicut si sit inordina¬ 
+          <lb ed="#V" n="108"/>tio in voluntate. Quarto respondet ad hanc obie¬ 
+          <lb ed="#V" n="109"/>ctionem dicens, quod voluntas potest dicere ipsam 
+          <lb ed="#V" n="110"/>vim, &amp; ipsam potentiam, &amp; sic non est ibi ratio 
+          <lb ed="#V" n="111"/>peccati, sicut nec in intellectu, nec in memoria, 
+          <lb ed="#V" n="112"/>Sed si voluntas non dicat ipsam vim, vel ipsam po¬ 
+          <lb ed="#V" n="113"/>tentiam, sed ipsum actum, tunc ibi inordinatius 
+          <lb ed="#V" n="114"/>est peccatum. Secunda ibi: [Au hoc facise.] [Ter¬ 
+          <lb ed="#V" n="115"/>tia ibi: [Vybi potest ab ersrationahisiter.] IQuarta 
+          <!--580.xml-->
+          <pb ed="#V" n="580"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ibi: TAd quod illi dicunt. ITunc sequitur illa pars: 
+          <lb ed="#V" n="2"/>[5ed ad boc quaeritur. Iin qua mouet aliam quae¬ 
+          <lb ed="#V" n="3"/>stionem, quae non est proprie alia quaestio: sed est 
+          <lb ed="#V" n="4"/>quaedam aggrauatio predictarum difficultatum. 
+          <lb ed="#V" n="5"/>Circa quod tria facit: quia Primo quaerit, si velle¬ 
+          <lb ed="#V" n="6"/>malum est malum, quare intelligere, &amp; memorari¬ 
+          <lb ed="#V" n="7"/>malum, non est malum. Secundo respondet dicens, 
+          <lb ed="#V" n="8"/>quod alterius generis est actus voluntatis, quam me¬ 
+          <lb ed="#V" n="9"/>moriae, &amp; intellectus: quia actus voluntatis est ad 
+          <lb ed="#V" n="10"/>aliquid adipiscendum: vt qui vult adipisci malum, 
+          <lb ed="#V" n="11"/>malus est. sed actus intellectus, &amp; memoriae sunt 
+          <lb ed="#V" n="12"/>ad aliquid cognoscendum, vel sciendum: quia tam¬ 
+          <lb ed="#V" n="13"/>intellectus, quam memoria deseruiunt cognitioni, 
+          <lb ed="#V" n="14"/>&amp; scientiae. Et quia scire malum non est malum: 
+          <lb ed="#V" n="15"/>ergo &amp;c, Addit dictum quorundam, quod dicit esse 
+          <lb ed="#V" n="16"/>improbum, videlicet, quod actus intellectus, &amp; memo¬ 
+          <lb ed="#V" n="17"/>riae sunt mali. Secunda ibi: Tad quod insi ditunt.]I 
+          <lb ed="#V" n="18"/>Tertia ibi: [Quamuis eorum quidam. ITunc sequi¬ 
+          <lb ed="#V" n="19"/>tur illa pars: [Qui vero dicunt. Iin qua determi¬ 
+          <lb ed="#V" n="20"/>nat de quaestione proposita secundum opinionem 
+          <lb ed="#V" n="21"/>aliam, videlicet, quod actus voluntatis malus nullo mo¬ 
+          <lb ed="#V" n="22"/>do potest dici bonus. Circa quod quatuor facit: 
+          <lb ed="#V" n="23"/>quia Primo facit, quod dictum est. Secundo mo¬ 
+          <lb ed="#V" n="24"/>uet quandam difficultatem de verbo Ambr. quod ho¬ 
+          <lb ed="#V" n="25"/>mo naturaliter vult bonum, quomodo hoc esse ha¬ 
+          <lb ed="#V" n="26"/>beat. Tertio huic difficultati annectit aliam difficul¬ 
+          <lb ed="#V" n="27"/>tarem, videlicet, vtrum sit eadem voluntas, vel idem 
+          <lb ed="#V" n="28"/>motus voluntatis, quo quis naturaliter vult bonum, 
+          <lb ed="#V" n="29"/>&amp; quo quis voluntarie subdit se peccato. Quarto 
+          <lb ed="#V" n="30"/>respondet ad hanc quaestionem, vel ad hanc diffi¬ 
+          <lb ed="#V" n="31"/>cultatem secundum varias opiniones. Secunda ibi: 
+          <lb ed="#V" n="32"/>[Praeterea quaerim solet.] ITertia ibi: [An est eadem 
+          <lb ed="#V" n="33"/>voluntas. Quarta ibi: [Proposita est quaestio. ]Cir¬ 
+          <lb ed="#V" n="34"/>ca quod quatuor facit: quia Primo recitat opinio 
+          <lb ed="#V" n="35"/>nem quorundam, quod non est idem motus voluntatis, 
+          <lb ed="#V" n="36"/>quo quis naturaliter vult bonum, &amp; quo vult malum. 
+          <lb ed="#V" n="37"/>Secundo dat causam, quare homo dicitur naturali¬ 
+          <lb ed="#V" n="38"/>ter velle bonum: quia hoc est secundum naturam condi¬ 
+          <lb ed="#V" n="39"/>tam: quia conditus est secundum naturam rectam, per¬ 
+          <lb ed="#V" n="40"/>quam poterat euitare omne malum, &amp; poterat sem¬ 
+          <lb ed="#V" n="41"/>per se praeseruare in bono. Tertio dat aliam causam 
+          <lb ed="#V" n="42"/>quare homo dicitur naturaliter velle bonum: quia 
+          <lb ed="#V" n="43"/>superior scintilla rationis nunquam extinguitur. Quar¬ 
+          <lb ed="#V" n="44"/>to determinat de quaestione proposita secundum 
+          <lb ed="#V" n="45"/>opinionem aliam, videlicet, quod vna est voluntas, 
+          <lb ed="#V" n="46"/>&amp; vnus motus voluntatis, quo homo naturaliter 
+          <lb ed="#V" n="47"/>vult bonum, &amp; ex vitio vult malum. Secunda ibi: 
+          <lb ed="#V" n="48"/>[et quare naturasis dicitur.] ITertia ibi: [Superior 
+          <lb ed="#V" n="49"/>enim scintilla. Quarta ibi: [lii autem dicunt. IEt 
+          <lb ed="#V" n="50"/>in hoc terminatur sententia praesentis Distinct. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
