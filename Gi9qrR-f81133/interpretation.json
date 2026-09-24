@@ -1,0 +1,589 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4b26dfcff79c286f4eac3ecb93776264cbf74832",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-f81133-d1e111": {
+    "summary": "Fragmentary incipit/rubric opening Quaestio 1 (badly garbled by OCR), naming the topic as the place of angels.",
+    "claims": [],
+    "concepts": ["incipit"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-Hd1e108", "Gi9qrR-f81133-d1e122"]
+    }
+  },
+  "Gi9qrR-f81133-d1e122": {
+    "summary": "Divisio introducing Quaestio 1: notes that the Lombard's text treats two topics, the place of angels and their motion, and that the present question will address the place of angels under three articles: (1) whether an angel is in a place, (2) whether an angel can be in several places at once, (3) whether several angels can be in one place at once.",
+    "claims": [
+      "Lombard's present lectio (dist. 37) determines two things about angels: their place and their motion.",
+      "The question of angelic place divides into three articles: existence in place, plurality of places for one angel, and plurality of angels in one place."
+    ],
+    "concepts": ["divisio quaestionis", "locus angeli", "motus angeli"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-Hd1e108"]
+    }
+  },
+  "Gi9qrR-f81133-Dd1e148": {
+    "summary": "Article 1, on whether an angel is in a place at all. States the article's determination that angels are in place through their operation, not through their essence, and are always in some place on account of the connection of the universe. The dialectic runs from an initial rubric and five objections (denying angelic place on grounds that place belongs to quantified/corporeal being, that the container/contained relation cannot hold of the incorporeal, that the operation on which place would depend is itself exercised on the unlocated celestial body, and that operation directed at other spirits is not 'in' any body) through a sed contra (Lombard's authority that the angel is 'defined' by place, reinforced by the argument that nothing which is a part of the universe can be outside it), a compressed resolutio, and a determinatio that first surveys and rejects three received opinions (angel in place through its finite essence; angel in no way determined to place; angel in place through operation but sometimes 'nowhere') before establishing the two theses that angels are in place through operation and that they are always somehow in contact with some body because of the ordered unity of the universe. Concludes with replies to the five objections.",
+    "claims": [
+      "An angel is not in place per essentiam (place does not follow quiddity/essence) but per operationem, mediated by its 'quantity of virtue.'",
+      "Because the created universe must remain one connected whole under one governing principle, every spiritual substance is always in some contact with corporeal reality, so an angel is never simply nowhere.",
+      "The opinion that angels are in place by essence perverts the true order of dependence between corporeal and spiritual being and, if consistent, would deny place to any substance.",
+      "The opinion that angels are never in place at all is rejected because it is refuted by the fact that angels can and do move bodies immediately.",
+      "Angels are said to be contained in place not as bodies are contained (as located things are), but by exercising their operative virtue within the ambit of a body."
+    ],
+    "concepts": ["locus per operationem vs. locus per essentiam", "quantitas virtutis", "continentia loci", "connexio universi", "diffinitive esse in loco"],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f81133-Hd1e150", "Gi9qrR-f81133-d1e153", "Gi9qrR-f81133-d1e160", "Gi9qrR-f81133-d1e199", "Gi9qrR-f81133-d1e238", "Gi9qrR-f81133-d1e263", "Gi9qrR-f81133-d1e294", "Gi9qrR-f81133-d1e307", "Gi9qrR-f81133-d1e364", "Gi9qrR-f81133-d1e406", "Gi9qrR-f81133-d1e549", "Gi9qrR-f81133-d1e743", "Gi9qrR-f81133-d1e865"]
+    }
+  },
+  "Gi9qrR-f81133-d1e153": {
+    "summary": "Rubric heading restating Article 1's question, whether an angel is in a place.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-Hd1e150"]
+    }
+  },
+  "Gi9qrR-f81133-d1e160": {
+    "summary": "First objection (against angelic place): place cannot belong to a substance according to its essence, since the intellect's object is quiddity abstracted from the here-and-now, so being-in-place is not part of any quiddity; wherever a substance is in place this happens per accidens, through quantity (per Avicenna); but an intelligence, being an indivisible substance, has no quantity; therefore no intelligence is in place.",
+    "claims": [
+      "Being in a place is not part of any substance's quiddity, since intellectual abstraction removes the here-and-now.",
+      "A substance is in place only accidentally, mediated by quantity, per Avicenna.",
+      "Intelligences lack quantity because they are indivisible substances (per the Liber de causis); therefore no intelligence can be in a place."
+    ],
+    "concepts": ["quidditas", "locus per accidens", "quantitas", "indivisibilitas substantiae separatae"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e153", "Gi9qrR-f81133-d1e743"]
+    }
+  },
+  "Gi9qrR-f81133-d1e199": {
+    "summary": "Second objection: the relation of place to the located thing is one of container to contained (per Aristotle, Physics 4), but spiritual things cannot be contained by corporeal things, since the intelligible is incomprehensible to the sensible (per Dionysius); and even if spiritual things were said to be in place on account of their operation, Damascene describes the incorporeal nature as being, operating, and being contained 'not corporeally but spiritually' — which still should not be conceded as being properly 'in place.'",
+    "claims": [
+      "Place strictly names a container/contained relation that cannot hold between corporeal place and incorporeal substance.",
+      "Even granting a spiritual mode of 'containment' tied to operation (per Damascene), this should not be conceded as angels' being properly in a corporeal place."
+    ],
+    "concepts": ["continens/contentum", "incomprehensibilitas intelligibilium a sensibilibus", "modus spiritualis vs. corporeus"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e160", "Gi9qrR-f81133-d1e743"]
+    }
+  },
+  "Gi9qrR-f81133-d1e238": {
+    "summary": "Third objection: if spiritual beings are said to be in place because of their operation — not because the operation itself is in place, but because the agent exercising it is where the place belongs — this fails, since angelic operation is most manifest with respect to the celestial body (Aristotle, Metaphysics 12, derives the number of intelligences from the number of orbs), yet the celestial body itself is not 'in a place' (per the Philosopher's hierarchy of elements culminating in the heavens, which are not contained by anything further).",
+    "claims": [
+      "If angelic place depended on operation directed at the celestial body, it would fail, because the celestial body itself is not in a place."
+    ],
+    "concepts": ["locus per operationem (as objected)", "corpus caeleste extra locum"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e199", "Gi9qrR-f81133-d1e743"]
+    }
+  },
+  "Gi9qrR-f81133-d1e263": {
+    "summary": "Fourth objection, followed by the sed contra: an angel sometimes operates upon another intelligence or a soul rather than upon a body, so at least then, not operating on bodies, it would not be in place at all. Against this stands Lombard's own text, which says the angel is 'defined' by place, reinforced by the argument that nothing which is a part of the universe can be outside the universe, and whatever is not outside the universe is in some part of it, i.e., somewhere.",
+    "claims": [
+      "If angelic operation on another spirit (not a body) grounded angelic place, an angel operating solely on another spirit would not be in place at all — an objection against angelic locatedness.",
+      "Sed contra: Lombard holds the angel is defined by place, and since every creature is part of the universe and nothing outside the universe, every angel must be somewhere."
+    ],
+    "concepts": ["operatio circa spiritum vs. circa corpus", "diffiniri loco", "pars universi"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e238", "Gi9qrR-f81133-d1e865"]
+    }
+  },
+  "Gi9qrR-f81133-d1e294": {
+    "summary": "Compressed resolutio anticipating the determinatio: angels are in place through operation, and it always happens that they are somewhere, on account of the interconnection of the universe.",
+    "claims": [
+      "Angels are in place through operation.",
+      "Angels are always somewhere because of the requirement that the universe be interconnected."
+    ],
+    "concepts": ["locus per operationem", "connexio universi"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e549"]
+    }
+  },
+  "Gi9qrR-f81133-d1e307": {
+    "summary": "Opens the determinatio proper (Respondeo dicendum): notes that if one followed the position of those who attribute an intransmutable subtle body to every spiritual substance (as some did even for the rational soul), determining angelic place would be easy, since it would not exceed our imagination. But since it is commonly held that angels have no body naturally united to them, seeing how place belongs to an angel is difficult, because our understanding, bound to the continuous, time, and phantasms, does not directly reach such matters. States that there are, on this question, three received ways of speaking to be surveyed.",
+    "claims": [
+      "Determining angelic place is difficult because human understanding is naturally bound to continuum, time, and imagination (phantasms), which do not directly apply to incorporeal being.",
+      "There are three received opinions about angelic place to be examined before the author's own determination."
+    ],
+    "concepts": ["intransmutabile corpus spirituale (rejected premise)", "intelligere per phantasmata", "triplex modus dicendi"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e364", "Gi9qrR-f81133-d1e406"]
+    }
+  },
+  "Gi9qrR-f81133-d1e364": {
+    "summary": "Presents the first received opinion: some held that an angel is in place according to its essence, because a finite and determinate essence must be determined to some place; begins refuting this opinion as doubly deficient, first because it perverts the true order of dependence (explained in the next paragraph).",
+    "claims": [
+      "Opinion 1 (rejected): an angel is in place by its own essence, because a finite/determinate essence requires determination to a place.",
+      "This position is doubly deficient: it inverts the true metaphysical order, and it attributes to angels a mode of place-relation that in fact belongs to no substance whatsoever."
+    ],
+    "concepts": ["locus per essentiam (opinio reprobata)", "finitudo essentiae"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e307", "Gi9qrR-f81133-d1e406"]
+    }
+  },
+  "Gi9qrR-f81133-d1e406": {
+    "summary": "Continues and completes the refutation of the first opinion: shows (via Aristotle, Physics 2, and the analogy of a boat tied in a flowing river) that a part has the nature of 'place' only by comparison to the whole universe, so saying spiritual things are in place per se and per essentiam would mean their substance is ordered to the celestial body — which is inconvenient, since corporeal things are ordered to spiritual ones, not conversely; and second, per Avicenna, being in place belongs to a thing through quantity, not through essence, so the first opinion equivocates on 'finite.' Then presents the second opinion, directly contrary to the first: some held that an angel is determined to place neither by essence nor by operation, associated with those who denied that intelligences move bodies immediately; this is rejected because (as will be shown in Book II) angels can move bodies immediately. Introduces the third opinion — angels are in place through operation, and since it is not inconvenient for them sometimes not to operate on bodies, they can be sometimes in no place — judged partly good (in place through operation) and partly bad (sometimes nowhere, which undermines the connection of the universe).",
+    "claims": [
+      "The first opinion is refuted: place belongs to a part only by reference to the whole universe (ship-in-river analogy); making spiritual substance depend on place per essentiam would wrongly subordinate spirit to the celestial body.",
+      "The first opinion further equivocates: angelic essence is 'finite' as bounded within its species, not 'finite' in the sense of being determined to a place.",
+      "Opinion 2 (rejected): an angel is in no way determined to place, neither by essence nor operation — tied to denying that angels move bodies immediately, which is false.",
+      "Opinion 3 is partly correct (angels are in place through operation) and partly wrong (that they can therefore sometimes be nowhere), since that would destroy the connection of the universe."
+    ],
+    "concepts": ["locus per quantitatem (Avicenna)", "comparatio partis ad totum universum", "aequivocatio 'finitum'", "movere corpora immediate"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e364", "Gi9qrR-f81133-d1e549"]
+    }
+  },
+  "Gi9qrR-f81133-d1e549": {
+    "summary": "Presents and proves the author's own two theses. First, that an angel is in place through operation: since strictly nothing is in place except through its quantity, and bodies (having dimensive quantity) are in place by commensuration, while spirits lack dimensive quantity but have a 'quantity of virtue,' a spirit's being in place is its exercising that virtue upon an object — so being in place for a spirit just is operating there. Second, that spiritual substances always exercise some operation with respect to some body: since the whole universe, as the one dominion of one Prince, must be optimally and connectedly disposed, and the highest part (spiritual substances) especially so, there must be contact between the spiritual and corporeal parts of creation at every moment; since such contact cannot be by continuity or contiguity (proper to bodies alone), it must be through virtue and operation — hence every spiritual substance always has some operative application to some body (e.g., angels are said to be in the empyrean heaven because they apply their virtue there, without thereby transmuting it).",
+    "claims": [
+      "An angel is in place through the operative application of its 'quantity of virtue' to an object, not through dimensive quantity.",
+      "Because the universe must remain one connected whole under one governing principle, spiritual substances must always maintain some contact — via virtue and operation, not continuity or contiguity — with some corporeal part of the universe.",
+      "Angels are never simply 'nowhere,' because the connection of the universe requires their constant operative contact with some body."
+    ],
+    "concepts": ["quantitas virtutis", "commensuratio", "unitas et connexio universi", "contactus virtualis"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e406", "Gi9qrR-f81133-d1e294"]
+    }
+  },
+  "Gi9qrR-f81133-d1e743": {
+    "summary": "Replies to objections 1–4. Ad 1: an intelligence, though not quantified by mass, is quantified by virtue. Ad 2: Aristotle's properties of place apply to how bodies occupy place as contained things; this does not prove spirits are in no way in place, only that they are not in place the way bodies are (as contained). Ad 3: corporeal and spiritual agents operate differently — corporeal agents, having a determinate site, are not simultaneously present where they act, but spiritual agents' operation and virtue (and hence essence, since 'where virtue is, there essence is') are in the very body acted upon, since an angel is not bound to a fixed site. Ad 4: a body need not itself be in place for the angel operating on it to be said to be in place; alternatively, every body is in some way 'local' by dimensive quantity, so an angel's operation on any supercelestial body still counts as operating on something locable — so angels can be said to be in place through operation in two ways: by being in the bodies they act on, and because their operation itself is in place per accidens (through the locable object it terminates in).",
+    "claims": [
+      "Reply to obj. 1: angelic 'quantity' is a quantity of virtue, not of mass.",
+      "Reply to obj. 2: Aristotelian properties of place describe how bodies are contained in place; they do not exclude spirits from being in place in a different (non-contained) way.",
+      "Reply to obj. 3: unlike bodies, whose operation is elsewhere than their fixed site, an angel's essence (following its virtue) is present in the very body it acts on.",
+      "Reply to obj. 4: an angel counts as 'in place' both because it is present in the body it acts on, and because its operation, though not itself place per se, terminates per accidens in something locable."
+    ],
+    "concepts": ["quantitas virtutis vs. quantitas molis", "locus ut contentum", "ubi virtus ibi essentia", "operatio per se/per accidens in loco"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e160", "Gi9qrR-f81133-d1e199", "Gi9qrR-f81133-d1e238", "Gi9qrR-f81133-d1e263", "Gi9qrR-f81133-d1e549"]
+    }
+  },
+  "Gi9qrR-f81133-d1e865": {
+    "summary": "Reply to objection 4 [numbered 'Ad 5' in the text, continuing the sequence]: when two operations are ordered such that one is subordinate to the other, they can coexist simultaneously; so when an angel operates upon bodies it does not thereby cease to understand, since this extrinsic work is ordered to (indeed is accomplished through) intellection — an angel, acting according to the mode of its intellectual nature, acts through intellect and will, and since it never ceases to understand even while applying its virtue to bodies, it can simultaneously exercise operations upon another intelligence (purging, perfecting, illuminating it) through the same intellectual act by which it also applies its virtue to a body.",
+    "claims": [
+      "Subordinated operations (one ordered to another) can be exercised simultaneously by the same agent.",
+      "An angel's operation on bodies does not interrupt its intellection, since the former is ordered to and effected through the latter, allowing an angel to act simultaneously on another intelligence and on a body."
+    ],
+    "concepts": ["subordinatio operationum", "intelligere et operari simul", "illuminatio angelica"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e263", "Gi9qrR-f81133-d1e549"]
+    }
+  },
+  "Gi9qrR-f81133-Dd1e905": {
+    "summary": "Article 2, on whether an angel can be in several places at once. States the resolutio's five-point determination: an angel cannot be in an indivisible/punctal place; cannot be in so small a place that it could not be in a smaller one; can be in so great a place that it cannot be in a greater one; can exist in several places insofar as they are ordered to one thing (effectively counting as one place); but cannot be in several places taken precisely as several. The dialectic runs from four objections (that operation in many places at once would put an angel in many places, by analogy with the sun's diffuse causal reach; that operating on a spirit does not preclude also operating on a body; that an agent whose power exceeds its object can act on a further object; and that Christ's body, though more place-determined than spirit, is in several places at once, a fortiori an angel could be) through a sed contra (Lombard: what is defined by place is not in several places at once) to a determinatio that reviews and rejects three received opinions (angel naturally in many places, as a mean between God's ubiquity and body's single-place limitation; angel always in a single point because its essence is indivisible; angel in place through operation and hence able to be in any size of place including a point) before establishing, through five demonstrations, that an angel occupies a finite, extended (non-punctal) place proportioned to and bounded by its finite operative virtue, is wholly present in the whole and in each part of that place (as the soul is wholly in the whole body and in each part), and — because its essence and consequent operation are strictly finite — cannot be wholly in several places taken as genuinely plural (a privilege reserved to God alone, whose operation is unlimited). Concludes with replies to the objections.",
+    "claims": [
+      "An angel cannot be in an indivisible (punctal) place, since operation (the ground of angelic place) requires an extended receptive term capable of action and passion.",
+      "An angel is bounded below only by the minimum size a determinate operation can terminate in given its mode of causation (free, intellective, not sense-bound or nature-necessitated), and bounded above by the finitude of its power.",
+      "An angel is wholly present in the whole of its place and wholly in each part of it, by analogy with how the soul is wholly in the whole body and in each part.",
+      "An angel can be in several places only insofar as they are effectively unified (contiguous, ordered to one term of operation); it cannot be in several places taken precisely as many, since its essence and operation are finite — a mode of presence unique to God, whose operation is unlimited."
+    ],
+    "concepts": ["locus punctalis (reprobatus)", "quantitas virtutis operativae", "totus in toto et totus in qualibet parte", "operatio finita/infinita", "pluralitas locorum ut unum vs. ut plura"],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f81133-Hd1e907", "Gi9qrR-f81133-d1e910", "Gi9qrR-f81133-d1e919", "Gi9qrR-f81133-d1e956", "Gi9qrR-f81133-d1e974", "Gi9qrR-f81133-d1e995", "Gi9qrR-f81133-d1e1008", "Gi9qrR-f81133-d1e1021", "Gi9qrR-f81133-d1e1047", "Gi9qrR-f81133-d1e1063", "Gi9qrR-f81133-d1e1100", "Gi9qrR-f81133-d1e1145", "Gi9qrR-f81133-d1e1501", "Gi9qrR-f81133-d1e1534", "Gi9qrR-f81133-d1e1788", "Gi9qrR-f81133-d1e1804"]
+    }
+  },
+  "Gi9qrR-f81133-d1e910": {
+    "summary": "Rubric heading restating Article 2's question, whether an angel can be in several places at once.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-Hd1e907"]
+    }
+  },
+  "Gi9qrR-f81133-d1e919": {
+    "summary": "First objection: since spiritual beings are in place through operation, if an angel could operate in several places at once it would be in several places at once; and it can, since the more formal something is, the more potent it is in acting, and any spirit is more formal than any body (lacking matter as part of itself); so since the sun, by its virtue, operates on many diverse inferior things at once, an angel — much more formal — should be able to operate in many places at once, a fortiori.",
+    "claims": [
+      "If spirit's locatedness is grounded in operation, an angel able to operate simultaneously in many places would be in many places at once.",
+      "Greater formality implies greater active potency; since spirits are more formal than bodies, and the sun (a body) operates on many things at once, angels should be able to do so a fortiori."
+    ],
+    "concepts": ["locus per operationem", "formalitas et potentia agendi", "analogia solis"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e910", "Gi9qrR-f81133-d1e1534"]
+    }
+  },
+  "Gi9qrR-f81133-d1e956": {
+    "summary": "Second objection: the spiritual and corporeal differ more from each other than one corporeal thing differs from another; yet when an angel operates on some spirit, it does not thereby cease operating on a body; therefore, while operating on one body, it should equally be able to operate on another body, and so be in several places at once.",
+    "claims": [
+      "Since an angel can operate simultaneously on a spirit and a body, by parity of reasoning it should be able to operate simultaneously on two bodies, hence be in two places at once."
+    ],
+    "concepts": ["disparitas spirituale/corporale", "operatio simultanea circa spiritum et corpus"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e919", "Gi9qrR-f81133-d1e1534"]
+    }
+  },
+  "Gi9qrR-f81133-d1e974": {
+    "summary": "Third objection: every agent whose power exceeds the object it acts on can act on a further object as well; since an angel's power exceeds the body it operates on, when it operates on one body it should be able to operate on another too, and so be in several places at once.",
+    "claims": [
+      "An angel's power exceeding a single body implies it could act on an additional body simultaneously, hence be in several places at once."
+    ],
+    "concepts": ["excessus virtutis super obiectum"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e956", "Gi9qrR-f81133-d1e1788"]
+    }
+  },
+  "Gi9qrR-f81133-d1e995": {
+    "summary": "Fourth objection: a body is more determined to place than a spirit is, yet we see the same body (Christ's, in the Eucharist) existing in several places at once; therefore an angel, a fortiori, should be able to be in several places at once.",
+    "claims": [
+      "If a body (Christ's, sacramentally) can be in several places at once despite bodies being more place-bound than spirits, an angel should a fortiori be able to be in several places at once."
+    ],
+    "concepts": ["corpus Christi in pluribus locis (eucharistic multilocation)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e974", "Gi9qrR-f81133-d1e1804"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1008": {
+    "summary": "Sed contra: Lombard's text proves, through many authorities of the saints, that the angel is defined by place; but what is defined by place is not in several places at once.",
+    "claims": [
+      "Sed contra: because the angel is 'defined' by place (per Lombard and patristic authority), it cannot be in several places at once."
+    ],
+    "concepts": ["diffiniri loco"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e995", "Gi9qrR-f81133-d1e1021"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1021": {
+    "summary": "Compressed resolutio previewing the determinatio's five-fold conclusion: an angel cannot be in an indivisible place, since it could neither be contained within nor conserve such a place's boundary; it cannot be in so small a place that it could not be in a smaller one; it can be in so great a place that it cannot be in a greater one; it can exist in several places insofar as they are ordered to one thing; but it cannot be in several places taken precisely as several.",
+    "claims": [
+      "An angel cannot occupy an indivisible place.",
+      "An angel's minimal place is not fixed at some smallest size (it could always be in something smaller), but its maximal place is capped by its finite power.",
+      "An angel can occupy several places only insofar as they are unified toward one term; it cannot occupy several places taken as genuinely plural."
+    ],
+    "concepts": ["locus indivisibilis", "pluralitas locorum ut unum vs. ut plura"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1008", "Gi9qrR-f81133-d1e1145", "Gi9qrR-f81133-d1e1534"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1047": {
+    "summary": "Opens the determinatio by surveying received opinions: begins presenting the first opinion, that an angel is in several places at once, on grounds that since a body is in one place only while God is everywhere, [a spiritual substance occupies some intermediate mode] — argument completed in the following paragraph.",
+    "claims": [
+      "Opinion 1 (to be rejected): an angel can be in several places at once, reasoned from the poles of body (one place only) and God (everywhere)."
+    ],
+    "concepts": ["triplex modus dicendi", "medium inter Deum et corpus"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1063"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1063": {
+    "summary": "Completes and refutes the first opinion: since spiritual substance is a mean between God and body, it was argued it would be in several places at once in a 'medial' way; but this is commonly held erroneous, since then an angel would be neither definitively nor circumscriptively in a place — those who say this misunderstand the force of the term, for just as two bodies being in one place would, by parity, allow many or infinitely many bodies there (per Physics 4), so if something could be in several places at once, by parity it could be in indefinitely many, making it not something finite and limited — an assertion erroneous of any creature.",
+    "claims": [
+      "Opinion 1 is erroneous: it would leave the angel neither definitively nor circumscriptively in place, and by the same reasoning that forbids two bodies in one place, it would entail an angel could be in infinitely many places — incompatible with being a finite, limited creature."
+    ],
+    "concepts": ["diffinitive/circunscriptive esse in loco", "argumentum a paritate (duo corpora in uno loco)", "finitudo creaturae"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1047", "Gi9qrR-f81133-d1e1100"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1100": {
+    "summary": "Presents and refutes the second opinion: some hold an angel is in place according to its essence, and since its essence is indivisible, it is always in a 'punctal' place. This is rejected because, since an angel is in place through virtue and operation, it must be given some quantified place receptive of operation — for action and passion cannot occur with respect to a mere point; the error of this opinion stems from being unable to transcend imagination, picturing an indivisible intelligence on the model of a geometric point and so attributing to it a punctal place.",
+    "claims": [
+      "Opinion 2 is rejected: since angelic place depends on operation, and operation requires a quantified, extended recipient, an angel cannot be confined to a punctal (point-sized) place.",
+      "The error of Opinion 2 traces to an imagination-bound conception that models the angel's indivisibility on a geometric point."
+    ],
+    "concepts": ["locus punctalis", "actio et passio circa punctum (impossibile)", "imaginatio vs. intellectus"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1063", "Gi9qrR-f81133-d1e1145"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1145": {
+    "summary": "Presents the third opinion — angels are in place through operation, and so can be in a place great or small, even indivisible, according to their varied mode of operating — and begins refuting it as worse and self-contradictory than the others, since if an angel is in place through operation it cannot be anywhere incapable of receiving operation, and nothing incapable of virtual contact (which requires magnitude, per Aristotle, De generatione) can receive operation; hence an angel cannot be in an indivisible place. Announces that five points must be shown to make the truth of the question fully clear (angel cannot be in a punctal place; cannot be in so small a place that it could not be in a smaller; can be in so great a place that it cannot be in a greater; can be in several places ordered to one thing; cannot be in several places taken as many), and begins proving the first point at length: since an angel is in place through operation, and a point cannot receive operation (virtual contact as action/passion cannot terminate at a point), even granting that angelic virtue could apply to a point, it would not follow that the angel is thereby 'in' that point — because 'being in something' can be understood in two ways, either (1) as existing within the ambit of a magnitude (which applies only to extended, quantified things) or (2) as being in the very essence of a thing and conserving its being (a mode belonging, among efficient causes, to God alone) — so an angel cannot be in an indivisible place by either sense, and therefore no indivisible thing can be an angel's place, just as an angel operating on another (indivisible) angel is not said to be 'in' that angel, since nothing can be 'in' an indivisible thing except what conserves its being, a mode uniform across all indivisibles despite differences in the kind of indivisibility.",
+    "claims": [
+      "Opinion 3 (angel in place through operation, able to be in any size of place including indivisible) is self-contradictory: operation requires a magnitude capable of virtual contact, so an angel cannot be in an indivisible place.",
+      "'Being in something' has two senses: being within the ambit of an extended magnitude, or being in the essence of a thing as its conserving cause (proper to God alone among efficient causes); an angel's presence fits neither sense with respect to an indivisible.",
+      "Therefore no indivisible (point, or another indivisible angel) can serve as an angel's 'place'; an angel operating on another angel is not thereby 'in' that angel."
+    ],
+    "concepts": ["locus punctalis (reiectus)", "contactus virtualis requirit magnitudinem", "duplex modus 'esse in aliquo'", "Deus solus conservat esse rei", "uniformitas indivisibilium"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1100", "Gi9qrR-f81133-d1e1021", "Gi9qrR-f81133-d1e1501"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1501": {
+    "summary": "Proves the third of the five points: an angel can be in so great a place that it cannot be in a greater one. Since angelic virtue is finite, and acting on a greater object requires a proportionately greater virtue (per Physics 7), an angel can act on (and so, properly speaking, be in) only so great an object, and no greater.",
+    "claims": [
+      "Because angelic power is finite and acting on a larger object requires proportionately more power, an angel is limited to a maximal-sized place beyond which it cannot extend its presence."
+    ],
+    "concepts": ["finitudo virtutis angelicae", "proportio virtutis ad obiectum"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1145", "Gi9qrR-f81133-d1e1534"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1534": {
+    "summary": "Proves the fourth point and states the fifth: since an angel is always in a quantified, extended place, it must be either wholly in the whole and wholly in every part, or wholly in the whole and only partly in each part; the latter is impossible because an angel, being an indivisible substance, has no parts, so it must be wholly present in each part of its place — illustrated by the soul's being wholly in the whole body and wholly in each member (a fortiori true of the angel, which, unlike the soul, does not even depend on the body according to being, only according to virtue and operation, so its essence in no way follows the extension of the body/place). Notes, however (the fifth point), that although an angel can be in several places insofar as they are ordered to one thing, it cannot be in several places taken as genuinely plural, since its essence and consequently its operation are finite; being in several as-many places would entail not being definitively in place and having unlimited operation — a mode reserved to God alone, whose operation, though effecting many things, is itself one, because his being is unparticipated, pure esse. Then begins the replies to the article's objections: Ad 1, no creature (not even the sun) has truly unlimited operation — the sun's many effects count as 'one' relative to its action only because they are continuous/contiguous, and analogously an angel could operate at once on earth, water, and air if these were contiguous, but this would not be operating in several places as many, but in what amounts to one place; alternatively, the sun's essence is not where it acts, whereas the angel's essence is wherever it immediately operates, and one finite essence cannot be in several places as many. Ad 2: an angel operates differently on spirit than on body — operating on a spirit, it is not 'in' that spirit, but operating on a body, it is 'in' that body; so operating simultaneously on a spirit and a body does not put it in 'several' places, whereas operating on several bodies as many would, which is unacceptable.",
+    "claims": [
+      "An angel is wholly present in the whole of its place and wholly in each part of it, since it is an indivisible substance without parts (unlike a body), and its essence does not depend on the body's extension at all (more radically than the soul's case).",
+      "An angel cannot be wholly in several places taken as genuinely plural, because its essence and operation are strictly finite; only God, whose operation is not limited because his esse is pure and unparticipated, can be wholly present in many places as many.",
+      "Reply to obj. 1: the sun's operation on many things counts as operating in one place, since its objects are continuous/contiguous, or alternatively because the sun's essence (unlike the angel's) is not present where it acts.",
+      "Reply to obj. 2: an angel operating on a spirit is not thereby 'in' that spirit (unlike operating on a body), so simultaneous operation on a spirit and a body does not constitute being in 'several' places."
+    ],
+    "concepts": ["totus in toto et totus in qualibet parte", "indivisibilitas sine partibus", "operatio finita/infinita", "esse purum et non finitum (Deus)", "unitas operationis divinae"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1145", "Gi9qrR-f81133-d1e1501", "Gi9qrR-f81133-d1e919", "Gi9qrR-f81133-d1e956"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1788": {
+    "summary": "Reply to objection 3: although an angel's power exceeds the body it operates on, so that it could operate on a greater body, it cannot operate on several bodies taken as many, since this would conflict with the finitude of its essence.",
+    "claims": [
+      "Reply to obj. 3: an angel's excess of power over one body permits operating on a larger body, but not on several bodies as many, given its essence's finitude."
+    ],
+    "concepts": ["excessus virtutis", "finitudo essentiae"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e974", "Gi9qrR-f81133-d1e1534"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1804": {
+    "summary": "Reply to objection 4: no body is naturally in several places at once; Christ's body is in several places sacramentally and through conversion of another substance into it, not locally.",
+    "claims": [
+      "Reply to obj. 4: Christ's eucharistic multi-presence is sacramental/by conversion, not local, so it does not constitute a genuine counterexample of a body naturally in several places at once."
+    ],
+    "concepts": ["praesentia sacramentalis vs. localis", "conversio (transubstantiation)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e995", "Gi9qrR-f81133-d1e1534"]
+    }
+  },
+  "Gi9qrR-f81133-Dd1e1817": {
+    "summary": "Article 3, on whether several angels can be in one place at once. Establishes that they cannot, because all angels — however much they may differ in species or in the degree of their power — compare to place in the same, uniform way (all being in place through virtue and operation), and things of the same nature/mode cannot be plural in the same subject at once. The dialectic runs from five objections (angel-and-soul coexistence in the same body suggests two angels similarly could coexist; the container/'repletive' account of exclusion does not apply to non-repletive spirits; Damascene's account of spirit as uncircumscribed by physical barriers suggests two spirits, a fortiori, could coexist since even body and spirit can; if God and angel, more distinct than angel and angel, can coexist without confusion, so should two angels; and the soul-in-body analogy, where one soul cannot be in two bodies nor two in one, suggests likewise for angels) through a sed contra (two bodies cannot be commensurate to one place, so neither can two spirits be defined in one), a compressed resolutio, and a determinatio that first surveys and refutes a received explanation (plurality of agents on one patient is impossible only when each agent's causality would be redundant/superfluous, as in men towing a ship — rejected because an angel, acting freely rather than by natural necessity, need not act to the full extent of its power, so this cannot be the true reason two angels cannot share one place) before establishing the true principle: things related to a subject 'in the same way' (eiusdem rationis) cannot be plural in that subject at once (as two whitenesses, or two colors, cannot coexist in the same surface), whereas things related to a subject in different ways (like soul and body, angel and body, angel and soul, God and creature) can coexist without confusion; since all angels relate to place uniformly (via virtue and operation, regardless of differences in species or power), two angels cannot occupy the same place — exactly as two bodies, however different in species or quantity, cannot naturally occupy the same place, because both are commensurated to place uniformly through quantity. Concludes with replies to the objections.",
+    "claims": [
+      "Two things that relate to a given subject 'in the same way' (eiusdem rationis) cannot be simultaneously plural in that subject; things that relate to it in different ways can coexist without confusion.",
+      "Because every angel relates to place uniformly, through virtue and operation, regardless of differences in species or degree of power, two angels cannot be in the same place at once.",
+      "Soul and body, angel and body, angel and soul, and God and any creature can coexist in/at the same subject because each pair relates to that subject in a different way (e.g., soul unites to body immediately per essence, while angel unites via virtue, so its essence is present because its virtue is).",
+      "The explanation that plural causation is barred only when it would be causally redundant (as in men towing a ship) is rejected as the true reason, since an angel, acting by free will rather than natural necessity, need not exhaust its power in acting and so redundancy alone cannot explain the impossibility."
+    ],
+    "concepts": ["eiusdem rationis vs. diversimode comparari", "uniformis comparatio ad locum", "repletio loci (rejected as sole cause)", "commensuratio corporis ad locum", "libertas arbitrii vs. necessitas naturae"],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f81133-Hd1e1819", "Gi9qrR-f81133-d1e1822", "Gi9qrR-f81133-d1e1831", "Gi9qrR-f81133-d1e1882", "Gi9qrR-f81133-d1e1913", "Gi9qrR-f81133-d1e1951", "Gi9qrR-f81133-d1e1971", "Gi9qrR-f81133-d1e1997", "Gi9qrR-f81133-d1e2086", "Gi9qrR-f81133-d1e2164", "Gi9qrR-f81133-d1e2234", "Gi9qrR-f81133-d1e2253", "Gi9qrR-f81133-d1e2262"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1822": {
+    "summary": "Rubric heading restating Article 3's question, whether several angels can be in one place at once.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-Hd1e1819"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1831": {
+    "summary": "Opens the article and presents objections 1–2. Obj. 1: since an angel and a soul can be in the same [part of a body], by the same reasoning two angels should be able to be in the same place too; that angel and soul must coexist is shown because the soul is wholly in every part of the body (per Augustine, De sermone de imagine and De Trinitate 6.7), yet demons and angels, though unable to enter the soul, can enter our bodies, so angel/demon and soul must occupy the same part of the body. Obj. 2: the reason plural things cannot be in the same place is that they are 'repletive' of place (fill it) — since a non-filling body would allow another body to coexist with it in the same place — but spiritual things do not fill place, so [multiple spirits should be able to coexist there].",
+    "claims": [
+      "Obj. 1: since an angel/demon can enter a body while the soul (wholly present in every part of that body, per Augustine) remains there too, angel-and-soul coexistence in the same place is unavoidable, suggesting two angels could likewise coexist.",
+      "Obj. 2: place-exclusion is explained by a thing's 'filling' (repletive of) place; since spiritual things do not fill place, this ground for exclusion would not apply to two spirits."
+    ],
+    "concepts": ["repletivum loci", "anima tota in qualibet parte corporis", "illabi corpori (angels/demons entering bodies)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-Hd1e1819", "Gi9qrR-f81133-d1e2234", "Gi9qrR-f81133-d1e2253"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1882": {
+    "summary": "Objection 3: body and spirit can coexist simultaneously, since per Damascene (Bk. 2, ch. 3) a spirit is circumscribed by no walls, doors, bolts, or seals — which would not hold unless it could be simultaneously present with such things without their yielding to it; but a body is more 'repletive' of place than a spirit is; therefore, if body and spirit can coexist, a fortiori two spirits should be able to coexist.",
+    "claims": [
+      "Obj. 3: since a body (more repletive of place than a spirit) can coexist with a spirit (per Damascene's account of spirit as uncircumscribed), two spirits should a fortiori be able to coexist in the same place."
+    ],
+    "concepts": ["incircumscriptibilitas spiritus (Damascene)", "repletivum loci (comparative)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1831", "Gi9qrR-f81133-d1e2262"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1913": {
+    "summary": "Objection 4, followed by the sed contra. Obj. 4: if there is any cause preventing two angels from being simultaneously in the same place, it is that confusion between them would follow; but the distinction between God and an angel is greater than that between one angel and another, so if God and an angel can coexist while preserving their distinction, two angels should likewise be able to coexist without confusion. Sed contra: just as a body relates to place through commensuration, so an angel relates to place through 'definition'; but two bodies cannot be commensurate to one place, so neither can two spirits be defined in one place.",
+    "claims": [
+      "Obj. 4: since God and angel (more distinct than angel and angel) can coexist without confusion, two angels should likewise be able to, if confusion is the only bar.",
+      "Sed contra: just as two bodies cannot be commensurate to (fit) one place, two angels cannot be defined in one place, given the analogous commensuration/definition relations."
+    ],
+    "concepts": ["confusio (as ground of exclusion, objected)", "distinctio Dei et Angeli", "commensuratio vs. diffinitio"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1882", "Gi9qrR-f81133-d1e2262"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1951": {
+    "summary": "Objection 5: an angel is in place somewhat as a soul is in a body, except the soul is united to the body by essence while the angel is united by virtue; but one soul cannot be in two bodies, nor can two souls be in one body; therefore neither can one angel be in several places, nor several angels in one place.",
+    "claims": [
+      "Obj. 5: by analogy with the soul-body relation (one soul per body, one body per soul), neither can one angel occupy several places nor several angels occupy one place."
+    ],
+    "concepts": ["anima unita corpori per essentiam vs. Angelus per virtutem", "analogia animae"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1831", "Gi9qrR-f81133-d1e2164"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1971": {
+    "summary": "Compressed resolutio previewing the determinatio's conclusion: however much angels may differ in species, and however much one may exceed another in power, since all compare to place in the same way (all being in place through virtue and operation), they cannot exist simultaneously in the same place, because things of the same nature/mode cannot be plural in the same subject at once (final clause garbled by OCR).",
+    "claims": [
+      "Angels cannot coexist in the same place because, whatever their differences in species or power, all relate to place uniformly through virtue and operation, and things of the same 'ratio' cannot be plural in the same subject at once."
+    ],
+    "concepts": ["eiusdem rationis", "uniformis comparatio ad locum"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1913", "Gi9qrR-f81133-d1e2164"]
+    }
+  },
+  "Gi9qrR-f81133-d1e1997": {
+    "summary": "Opens the determinatio by presenting and then refuting a received explanation: some say it is impossible for the same patient to be acted on and moved by diverse agents simultaneously if each has perfect power sufficient to produce the effect, whereas plural movers each of imperfect power moving in virtue of one mover can (as with men towing a ship) — a perfect agent brings the patient fully into act, leaving no further potency to receive; since one angel, acting in virtue of the divine command, has power sufficient to bring about fully whatever is to be done by divine virtue, a second angel's operation on the same object would be superfluous, hence two angels cannot be in the same place. This reasoning is rejected: since an angel acts not from natural necessity but from free will, it need not act on its object to the full extent it could, either extensively or intensively; so just as an angel's not acting on the whole extensive object it could leaves room in the untouched part for another spirit, likewise its not acting at full intensity in the same part could leave room, by intensive remission, for another spirit there.",
+    "claims": [
+      "The 'redundancy' account (two agents redundant on one patient only when both would be individually sufficient, as with perfect agents) is presented as an explanation for why two angels cannot share a place, but rejected.",
+      "Because an angel acts by free will, not natural necessity, it need not act to the fullest extent of its power (extensively or intensively), so the redundancy argument does not by itself preclude another spirit's coexisting presence."
+    ],
+    "concepts": ["agens perfectum/imperfectum", "superfluitas causandi", "libertas arbitrii vs. necessitas naturae", "remissio et intensio actus"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1971", "Gi9qrR-f81133-d1e2086"]
+    }
+  },
+  "Gi9qrR-f81133-d1e2086": {
+    "summary": "Having rejected the redundancy account, states the true principle: things that are 'of the same ratio' (relate to a subject in the same mode) cannot be plural in that same subject at once, though things of different modes can coexist there — illustrated by a single apple's surface bearing both color and flavor together (different modes) but not two whitenesses, nor two distinct colors, at once (same mode, both mediated by the surface in the same way); applies this to bodies, which, however much they differ in species, all relate to place uniformly through dimensive quantity, so no two bodies (regardless of size or species) can naturally occupy the same place; similarly, since any soul relates to its body in the same way (immediate essential union as form), no two souls can ever be in the same body. By contrast, things related to a subject in genuinely different ways can coexist without conflict, as soul and body do, since they are not present 'there' according to one and the same ratio — leading into Aristotle's critique (De Anima 1) of those who identified soul with body.",
+    "claims": [
+      "Things of the same 'ratio' relative to a subject cannot be plural in that subject at once (e.g., two whitenesses on one surface); things of different ratio can coexist there (e.g., color and flavor).",
+      "Because all bodies relate to place uniformly via dimensive quantity, no two bodies, whatever their species or size, can naturally occupy the same place.",
+      "Because every soul unites to its body in the same way (immediately, per essence, as form), no two souls can ever inform the same body.",
+      "Soul and body can coexist because they do not relate to 'where they are' according to one and the same ratio."
+    ],
+    "concepts": ["eiusdem rationis vs. diversimode comparari", "quantitas dimensiva", "forma et corpus", "exemplum coloris et saporis"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1997", "Gi9qrR-f81133-d1e2164"]
+    }
+  },
+  "Gi9qrR-f81133-d1e2164": {
+    "summary": "Continues and completes the determinatio: cites Aristotle (De Anima 1) arguing against those who identified soul with body that this would amount to positing two bodies in the same place; extends the same-ratio/different-ratio principle to angel and body (which can coexist because they do not relate to place in the same way), and to angel and soul within the same body (which can coexist because the soul unites to the body immediately by essence, while the angel unites via virtue — so that where the angel's virtue is, there is its essence, the reverse order from the soul, whose virtue is present in the body mediated by its essence); notes God likewise coexists with any creature because they do not relate to the same subject according to one ratio. Concludes the main argument: since all angels, however much they differ in species or power, relate to place uniformly (all being in place through virtue and operation), they cannot be simultaneously in the same place — exactly as no two bodies, however different in species or quantity, can be in the same place, since bodies too are commensurated to place uniformly, through quantity.",
+    "claims": [
+      "Aristotle's argument (De Anima 1) against equating soul with body turns on the absurdity of thereby positing two bodies in one place.",
+      "Angel and body, and angel and soul, can coexist in/with the same body because each pair relates to it by a different ratio (mode of union) — the angel via virtue (with essence following virtue), the soul via essence immediately (with virtue following essence).",
+      "God coexists with every creature because they do not share the same ratio of relation to a common subject.",
+      "Because all angels relate to place uniformly (via virtue and operation) regardless of specific or power differences, two angels cannot occupy the same place, exactly as two bodies commensurated uniformly to place by quantity cannot."
+    ],
+    "concepts": ["Aristoteles contra animam=corpus", "diversus ordo essentiae et virtutis (anima vs. Angelus)", "Deus et creatura non eodem modo", "uniformis comparatio ad locum"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e2086", "Gi9qrR-f81133-d1e1951", "Gi9qrR-f81133-d1e1971"]
+    }
+  },
+  "Gi9qrR-f81133-d1e2234": {
+    "summary": "Reply to objection 1: the case of angel/soul in the same body is not parallel to that of two angels, because an angel and a soul do not relate uniformly to the body in which they exist (different ratio of union), whereas two angels relate to their places in a somewhat uniform way.",
+    "claims": [
+      "Reply to obj. 1: angel-soul coexistence in a body is disanalogous to angel-angel coexistence, because angel and soul relate to the body non-uniformly, while two angels relate to place uniformly."
+    ],
+    "concepts": ["non-uniformis vs. uniformis comparatio"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1831", "Gi9qrR-f81133-d1e2164"]
+    }
+  },
+  "Gi9qrR-f81133-d1e2253": {
+    "summary": "Reply to objection 2: the whole cause of place-exclusion is not merely a thing's 'filling' (repletive) of place, but also its uniform mode of comparison to place, as already explained.",
+    "claims": [
+      "Reply to obj. 2: repletion of place is not the sole cause of exclusion from shared place; uniform comparison to place is also required (and is the operative cause for angels, which do not literally 'fill' place)."
+    ],
+    "concepts": ["repletio loci (partial cause only)", "uniformis comparatio"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1831", "Gi9qrR-f81133-d1e2086"]
+    }
+  },
+  "Gi9qrR-f81133-d1e2262": {
+    "summary": "Reply to objections 3 and 4: the solution follows from what has already been established — God and angel, and body and angel, do not relate to that in which they exist in the same way, so they can coexist together without confusion; angel and angel, by contrast, do relate uniformly to their place, so they cannot, as is clear from what has been said.",
+    "claims": [
+      "Reply to objs. 3–4: God-angel and body-angel coexist without confusion because each pair relates non-uniformly to their common locus; angel-angel cannot, since two angels relate to place uniformly."
+    ],
+    "concepts": ["non-uniformis comparatio (God/angel, body/angel) vs. uniformis (angel/angel)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f81133-d1e1882", "Gi9qrR-f81133-d1e1913", "Gi9qrR-f81133-d1e2164"]
+    }
+  },
+  "Gi9qrR-f81133": {
+    "summary": "The top-level Quaestio 1 (on distinction 37, dealing with the place of angels) sets out, in a brief divisio, that Lombard's text here treats two matters — the place and the motion of angels — and confines this question to the first, dividing it into three articles. Article 1 establishes the foundational thesis that governs the whole question: an angel is in place not through its essence (as bodies are through dimensive quantity) but through the operative application of its finite 'quantity of virtue' to a body, and is never simply nowhere because the ordered unity of the universe requires constant spiritual-corporeal contact. Article 2 draws out the consequences of this thesis for the size and multiplicity of an angel's own place: an angel cannot occupy an indivisible point (operation requires an extended receptive term), is bounded above by the finite extent of its power, is wholly present in the whole and in every part of its place, and — because its essence and operation are strictly finite, a limitation shared by every creature and overcome only in God — cannot be simultaneously in several places taken as genuinely many, only in several unified toward one term. Article 3 extends the same operation-based account to the question of multiple angels sharing one place: because every angel, whatever its species or power, relates to place uniformly (through virtue and operation), and things related to a subject 'in the same way' cannot be plural in that subject, two angels can no more coexist in one place than two bodies (uniformly commensurate to place through quantity) can — whereas pairs that relate to a common locus in different ways (soul and body, angel and body, angel and soul, God and creature) can coexist without confusion. Across all three articles the same single principle — operation, not essence, situates an angel in place, according to a uniform relation shared by all angels — generates the whole account of angelic presence, its limits, and its exclusivity.",
+    "claims": [
+      "The place of angels (as opposed to their motion) is treated across three articles: whether an angel is in place; whether one angel can be in several places at once; whether several angels can be in one place at once.",
+      "The single governing principle across all three articles is that an angel is in place through the operative exercise of its finite virtue on a body, not through its essence, and that all angels relate to place in this same uniform way.",
+      "This principle explains simultaneously why angels are always somewhere (universe's required connectedness), why an angel's place is bounded (finite virtue, non-punctal), and why no two angels can share one place (uniform relation to place, unlike the non-uniform relations that let soul/body, angel/body, angel/soul, or God/creature coexist)."
+    ],
+    "concepts": ["locus per operationem", "quantitas virtutis", "connexio universi", "finitudo creaturae", "uniformis/diversimode comparari ad locum"],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f81133-d1e111", "Gi9qrR-f81133-d1e122", "Gi9qrR-f81133-Dd1e148", "Gi9qrR-f81133-Dd1e905", "Gi9qrR-f81133-Dd1e1817"]
+    }
+  }
+}

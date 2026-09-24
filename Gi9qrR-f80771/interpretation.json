@@ -1,0 +1,77 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T12:10:30Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4b26dfcff79c286f4eac3ecb93776264cbf74832",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-f80771-d1e111": {
+    "summary": "Rubric heading marking the start of the expositio litterae, the lemma-by-lemma gloss on Lombard's text that follows the prooemium's divisio textus.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f80771-Hd1e108"]
+    }
+  },
+  "Gi9qrR-f80771-d1e116": {
+    "summary": "Glosses two lemmas of Lombard's text in sequence. On 'Ita et Deus cum sit in omnibus...': explains that the wicked are said to be where God is but not to exist with him, while the good are said both to be where God is and to exist with him; the cause of this difference lies in the word 'cum' ('with'), which implies an association, and association requires concord of will and life (one can be where stones are without being their associate, since stones cannot concord with one in will and life); since the wicked do not concord with the divine will but are its enemies in will (citing Augustine, De civitate Dei 12.4), God is not said to be 'with' the wicked even though he is present wherever they are, since he is everywhere. On 'sicut multa de Deo intelligimus...': explains the gap between what is understood and what can be put into words as arising from two directions - sometimes words originate from what is already grasped by intellect (as in things known by discovery), so intellect suffices and words fall short; sometimes what is in the intellect is caused by what is heard in words (as in things known by teaching and hearing), so one asserts many things without fully understanding them, which is why matters of faith, being from hearing (fides ex auditu), are often asserted without being intellectually grasped.",
+    "claims": [
+      "The wicked are where God is but not 'with' God, because 'cum' implies an association requiring concord of will and life, which sinners lack",
+      "God is present to the wicked (since he is everywhere) without being 'with' them in the associative sense",
+      "The gap between speech and understanding has two distinct causes: words falling short of an intellect that grasps more (as in discovery), and assertions exceeding an intellect informed only by hearing (as in teaching, and paradigmatically in matters of faith)",
+      "Matters of faith are often asserted without being fully understood, because faith comes from hearing"
+    ],
+    "concepts": [
+      "associatio (concord of will and life) vs. mere spatial co-presence",
+      "fides ex auditu",
+      "priority of intellect vs. priority of verbal expression in the origin of knowledge",
+      "adequation of effect to cause (effect need not equal cause in every respect)"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f80771-d1e111"]
+    }
+  },
+  "Gi9qrR-f80771-d1e224": {
+    "summary": "Glosses the lemma 'Deus esse ubique per essentiam dicitur', tracing the mistaken opinion of those who, speaking of being-in-place as bodies are in place, denied that God is in place by essence, holding instead that every essence existing in some place merely 'has its being' through God rather than God's essence itself being there. Against this, reaffirms the correct position already established: God's own essence exists everywhere, precisely insofar as his operation and power are everywhere.",
+    "claims": [
+      "An opinion existed that limited divine presence to causal dependence (things existing in a place 'have being' through God) rather than God's essence itself being locally present",
+      "This opinion arose from illicitly modeling divine being-in-place on corporeal being-in-place",
+      "The correct position is that God's essence itself exists everywhere, precisely because his operation and power are everywhere"
+    ],
+    "concepts": ["essential vs. operative presence", "being-in-place (esse in loco) applied analogically to God"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": []
+    }
+  },
+  "Gi9qrR-f80771-d1e257": {
+    "summary": "Glosses the lemma 'Solet etiam ab eisdem quaeri', judging the underlying question to be crude (rudem). Resolves it by invoking the Aristotelian distinction (attributed to 'the Philosopher,' cap. de tactu) that not everything that touches is thereby touched: only things that suffer together as they act are properly said to be touched. On this basis, the divine essence need not be contaminated when it exercises its causal action upon impure things, since God's touching them (as agent) does not entail his being acted upon by them.",
+    "claims": [
+      "Not everything that touches is thereby touched; only what is co-affected while acting is touched",
+      "Because God acts on impure things without being co-affected by them, his essence is not contaminated by exercising action on the impure"
+    ],
+    "concepts": ["Aristotelian theory of touch (tangere/tangi)", "agent action without reciprocal passion", "divine impassibility in causal contact with impurity"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": []
+    }
+  },
+  "Gi9qrR-f80771": {
+    "summary": "The expositio litterae for Distinction 37, Part One: a sequence of lemma-by-lemma glosses on Lombard's text following the prooemium's divisio. It clarifies why the wicked are said to be where God is without being 'with' God (via the notion of associative concord), explains the two distinct sources of the mismatch between speech and understanding (culminating in an account of why matters of faith are affirmed without full comprehension), corrects an opinion that reduced God's presence in place to mere causal dependence rather than essential presence, and resolves the objection that God's essence would be contaminated by contact with impurity by invoking the Aristotelian principle that acting on something does not entail being acted upon by it.",
+    "claims": [],
+    "concepts": ["expositio litterae as genre", "lemma-based commentary"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f80771-d1e111", "Gi9qrR-f80771-d1e116", "Gi9qrR-f80771-d1e224", "Gi9qrR-f80771-d1e257"]
+    }
+  }
+}

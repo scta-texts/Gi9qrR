@@ -1,0 +1,488 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T18:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4b26dfcff79c286f4eac3ecb93776264cbf74832",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-m201351-d1e106": {
+    "summary": "Rubric heading transcribing the question number and title: Question 1, De potestate peccandi (On the power to sin). Labels the section rather than arguing anything.",
+    "claims": [],
+    "concepts": ["potestas peccandi"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-Hd1e101", "Gi9qrR-m201351-Hd1e103"]}
+  },
+  "Gi9qrR-m201351-d1e113": {
+    "summary": "Introduces Question 1 as a whole, explaining that because the Master (Lombard) treats principally of two things -- the power to sin and obedience -- the question will investigate these two. It first notes that 'power' in Scripture is taken not only as the power to sin/harm but also as the power to govern or rule, and on this basis divides the question into three articles: (1) whether the power to sin is from God, (2) whether the power to govern/rule is from God, (3) whether such power would have existed in the state of innocence.",
+    "claims": ["Scriptural 'potestas' has two senses: power to sin/harm and power to govern/rule", "The question divides into three articles corresponding to the origin of the power to sin, the origin of the power to govern, and whether governing power existed before the Fall"],
+    "concepts": ["potestas peccandi", "potestas principandi", "status innocentiae"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e106", "Gi9qrR-m201351-Dd1e150", "Gi9qrR-m201351-Dd1e1021", "Gi9qrR-m201351-Dd1e1589"]}
+  },
+  "Gi9qrR-m201351-d1e157": {
+    "summary": "Rubric opening Article 1, stating its title question -- whether the power to sin is from God -- and immediately announcing the conclusion to be defended: an affirmative answer (potestas peccandi is from God).",
+    "claims": ["The power to sin is from God (affirmative conclusion of Article 1)"],
+    "concepts": ["potestas peccandi"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-Hd1e154"]}
+  },
+  "Gi9qrR-m201351-d1e166": {
+    "summary": "A parallel-sources apparatus listing where other Sentences commentators (Aquinas, Bonaventure, Richard of Mediavilla, Scotus, Gabriel Biel, Thomas of Argentina, Andreas, Durand, and others) treat the corresponding distinction/question, functioning as a cross-reference note rather than argumentative content.",
+    "claims": [],
+    "concepts": ["comparative sentences commentary tradition"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157"]}
+  },
+  "Gi9qrR-m201351-d1e175": {
+    "summary": "First objection (ad primum) against the article's conclusion: if there were a power to sin, it would be the free will (liberum arbitrium); but per Anselm's De libero arbitrio, the ability to sin is neither freedom nor part of freedom; therefore the power to sin is not from God (i.e., is not identified with the good gift of free will).",
+    "claims": ["Objection: per Anselm, posse peccare is neither liberty nor part of liberty, so the power to sin cannot simply be identified with (God-given) free will"],
+    "concepts": ["liberum arbitrium", "libertas", "posse peccare"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e863"]}
+  },
+  "Gi9qrR-m201351-d1e198": {
+    "summary": "Second objection: God's works are perfect (Deut. 32); an act is more perfect than a mere potency; so if the potency to sin were from God, sin itself (the act) would be even more so from God -- but this is false, hence the potency to sin is not from God either.",
+    "claims": ["Objection: since act is more perfect than potency, and God's works are perfect, granting that potentia peccandi is from God would entail (per impossibile) that the sinful act itself is from God"],
+    "concepts": ["actus/potentia", "perfectio operum Dei"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e906"]}
+  },
+  "Gi9qrR-m201351-d1e211": {
+    "summary": "Third objection: just as for a good work God gives both the ability and the will, so for sin there would have to be both an ability and a will; but the will to sin is not from God, therefore neither is the ability to sin.",
+    "claims": ["Objection: posse and velle are correlative gifts; since velle peccare is not from God, neither is posse peccare"],
+    "concepts": ["posse/velle", "voluntas peccandi"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e926"]}
+  },
+  "Gi9qrR-m201351-d1e222": {
+    "summary": "Fourth objection: effects are always reduced to a likeness of their cause; if the ability to sin were from God, it would have its likeness in God, meaning the ability to sin would exist in God -- an unacceptable consequence.",
+    "claims": ["Objection: the causal-likeness principle would place a likeness of posse peccare in God himself if posse peccare were from God"],
+    "concepts": ["principle of causal likeness (effectus similitudinem causae)"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e933"]}
+  },
+  "Gi9qrR-m201351-d1e233": {
+    "summary": "Fifth objection: whatever has a bad use is itself bad; the use of the power to sin is the act of sinning itself, which is bad; hence the power to sin is bad; but nothing bad is from God; therefore the power to sin is not from God.",
+    "claims": ["Objection: bad use implies a bad faculty, and since the exercise of potentia peccandi just is sinning, the faculty itself must be evil and hence not from God"],
+    "concepts": ["usus/abusus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e944"]}
+  },
+  "Gi9qrR-m201351-d1e246": {
+    "summary": "Sed contra (first argument for the affirmative side): rational potencies are potencies for opposites, so the power to sin and the power to act well are the same single potency; since the potency to act well is good and from God, so too must be the potency to sin, since they are the same underlying reality.",
+    "claims": ["Rational potencies extend to opposites, so potentia peccandi and potentia bene operandi are numerically the same potency, and since the latter is from God, so is the former"],
+    "concepts": ["potentia rationalis ad opposita"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e267"]}
+  },
+  "Gi9qrR-m201351-d1e259": {
+    "summary": "Second sed contra argument: every being is from God; the power to sin is some thing and some being; therefore it too is from God.",
+    "claims": ["Since potentia peccandi is an ens, and every ens is from God, potentia peccandi is from God"],
+    "concepts": ["ens ab Deo"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e246"]}
+  },
+  "Gi9qrR-m201351-d1e267": {
+    "summary": "Resolutio: states the settled answer that the power to sin in us, being a certain kind of being (ens), is from God; clarifies that we affirm this of the act of sin only insofar as it is an act, not insofar as it is deformed and defective.",
+    "claims": ["The power to sin is from God insofar as it is an ens; even the act of sin is from God only under its aspect as act, not under its aspect of deformity/defect"],
+    "concepts": ["ens/defectus distinction", "actus qua actus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e246", "Gi9qrR-m201351-d1e259", "Gi9qrR-m201351-d1e280"]}
+  },
+  "Gi9qrR-m201351-d1e280": {
+    "summary": "Opens the determinatio/respondeo proper by laying out Augustine's threefold classification of goods (De libero arbitrio II, and Retractationes I): great goods (virtues, without which one cannot live rightly and which no one misuses), least goods (sensible/corporeal goods, usable well or badly), and middling goods (the powers of the soul), which share the indispensability of great goods but, like least goods, are capable of being misused.",
+    "claims": ["Augustine distinguishes great goods (virtues), least goods (corporeal goods), and middling goods (powers of the soul, including free will)", "Middling goods share properties of both extremes: necessary for right living like the great goods, yet liable to misuse like the least goods"],
+    "concepts": ["magna/minima/media bona (Augustinian threefold division of goods)", "potentiae animae"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e343"]}
+  },
+  "Gi9qrR-m201351-d1e343": {
+    "summary": "Draws the conclusion from the Augustinian threefold division: since Augustine holds that no goods, great or small, can exist without God, and the powers of the soul are 'middling goods,' they too must be from God; and since the power to sin is a power of the soul (identified with free will/will), it necessarily follows that the power to sin is in us from God. Also explains, following Augustine's Retractationes, why all three kinds of goods come from God: so that God is praised according to every mode/genus of goodness.",
+    "claims": ["All genera of goods (great, middling, least) are in us from God", "Since the power to sin is classed among the soul's middling goods, it necessarily follows that it is from God"],
+    "concepts": ["magna/minima/media bona", "laus Dei per omnia genera bonorum"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e280"]}
+  },
+  "Gi9qrR-m201351-d1e445": {
+    "summary": "Offers two further, independent proofs of the same conclusion. A special proof: since the will is from God and the will is the very potency by which one lives rightly and sins, the same potency serves both, and that potency is from God because free will/will is from God. A third proof by analogy with nature: limping is a defective kind of walking, yet the walking-power (potentia gressiva) underlying it is natural and from God/nature; a fortiori, the power to sin, though it issues in a defective act, is still from God, and more directly so than the walking-power, since the will's power is grounded not in a bodily organ but in the very essence of the soul, created immediately by God.",
+    "claims": ["The will, being from God, is the same potency by which one both acts rightly and sins, so potentia peccandi is from God", "By analogy with the natural power of walking (which remains natural and God-given even when it issues defectively in limping), the power to sin remains from God despite issuing in a defective act -- indeed more directly, since it is rooted in the soul's essence rather than in a bodily organ"],
+    "concepts": ["potentia gressiva analogy", "defectus privativus vs. negativus", "essentia animae"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e343"]}
+  },
+  "Gi9qrR-m201351-d1e556": {
+    "summary": "Transitional paragraph announcing that, having settled the main question, the author will resolve three further doubts (dubia) directly touching the matter, and states the first: if free will is the power to sin, it seems that the ability to sin (posse peccare) would itself be liberty or part of liberty -- the opposite of which is held by Anselm at the start of De libero arbitrio.",
+    "claims": ["Dubium 1: if liberum arbitrium is potentia peccandi, posse peccare would seem to be liberty or part of liberty, contrary to Anselm"],
+    "concepts": ["dubia", "liberum arbitrium", "libertas"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e445", "Gi9qrR-m201351-d1e606"]}
+  },
+  "Gi9qrR-m201351-d1e572": {
+    "summary": "States the second dubium: if free will is the power to sin and this power is from God (since free will is the same power as the will), it would seem to follow that the will to sin (voluntas peccandi) is itself from God -- yet the opposite can be gathered from the letter of the text.",
+    "claims": ["Dubium 2: identifying liberum arbitrium with potentia peccandi and holding it to be from God seems to entail, unacceptably, that voluntas peccandi is also from God"],
+    "concepts": ["voluntas peccandi", "liberum arbitrium"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e556", "Gi9qrR-m201351-d1e749"]}
+  },
+  "Gi9qrR-m201351-d1e595": {
+    "summary": "States the third dubium: the ability to sin does not seem to be a genuine 'ability' (posse) but rather a 'not-being-able' (non posse), just as the ability to die is not really an ability but an inability.",
+    "claims": ["Dubium 3: posse peccare, like posse mori, appears on analysis to be a deficiency (non posse) rather than a positive capacity"],
+    "concepts": ["posse/non posse"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e556", "Gi9qrR-m201351-d1e808"]}
+  },
+  "Gi9qrR-m201351-d1e606": {
+    "summary": "Resolves the first dubium at length: posse peccare is indeed neither liberty nor part of liberty -- confirmed since free will confirmed by grace so that it cannot sin is more free than free will able to sin, because sin is a disordered motion contrary to nature, and freedom belongs more to what cannot deviate from what is according to nature (as with the celestial bodies) than to what can. Freedom properly is opposed to coercion, not only to natural defect; something can act freely (whether rightly or wrongly) yet still be more or less free depending on its liability to defect. Free will as the power to sin remains from God in us notwithstanding that it is defectible and created from nothing, because it would be more free if it could not sin (since then it could merit more), yet posse peccare is still correctly denied to be liberty or part of liberty in the strict causal-of-merit sense.",
+    "claims": ["Posse peccare is not liberty nor part of liberty, because a will confirmed against sinning (by grace) is more free than one still able to sin", "Freedom is opposed both to coercion and to natural defect; created free will, though defectible and from nothing, remains from God as to its being"],
+    "concepts": ["libertas vs. coactio", "defectus naturalis", "confirmatio per gratiam", "liberum arbitrium ex nihilo"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e556"]}
+  },
+  "Gi9qrR-m201351-d1e749": {
+    "summary": "Resolves the second dubium: 'will' (voluntas) is equivocal between naming the potency and naming the act; when it is denied that 'the will to sin' is from God, 'will' there stands for the act (equivalent to velle peccare, i.e. the sin itself), not the potency. So one can concede that potentia peccandi is from God while denying that voluntas peccandi (=velle peccare, the actual sinful willing) is from God; only if 'voluntas peccandi' were taken to mean the bare unexercised potency would it be unproblematic to call it God-given, but ordinary usage does not support that reading without this distinction.",
+    "claims": ["'Voluntas' is equivocal between potency and act; potentia peccandi (potency) is from God, but voluntas peccandi taken as the act of willing to sin (=the sin itself) is not from God"],
+    "concepts": ["equivocation of voluntas (potency vs. act)"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e572", "Gi9qrR-m201351-d1e606"]}
+  },
+  "Gi9qrR-m201351-d1e808": {
+    "summary": "Resolves the third dubium: dying and sinning are not analogous, since one can die by mere passivity (suffering, doing nothing), but one cannot properly be said to sin by mere passivity -- sin is always voluntary, requiring either voluntarily doing something undue or voluntarily omitting a due action. Addresses the underlying form of the argument (that 'ability to fail' is not really an ability) by noting that the very same potency (the will) by which we act rightly is that by which we fail from right reason; since that single potency is from God, we can do both the right and the failing act by it -- though 'acting rightly' is attributable to God without qualification while 'acting wrongly' is attributable to God only insofar as it involves an act at all (since every act, as act, is from the first agent).",
+    "claims": ["Posse peccare is not analogous to posse mori, because sinning is essentially voluntary while dying can be purely passive", "The same single potency underlies both right action and failure; hence the potency is from God even though the defective act is attributable to God only under its aspect as act"],
+    "concepts": ["voluntarium", "actus qua actus a primo agente"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e595"]}
+  },
+  "Gi9qrR-m201351-d1e863": {
+    "summary": "Reply to the first initial objection (d1e175, on Anselm): the solution is already given by what has been said -- notwithstanding that posse peccare is neither liberty nor part of liberty, the power to sin is nonetheless from God in us.",
+    "claims": ["Reply to obj. 1: potentia peccandi is from God even though posse peccare is not itself liberty or part of liberty"],
+    "concepts": ["liberum arbitrium", "libertas"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e175", "Gi9qrR-m201351-d1e606"]}
+  },
+  "Gi9qrR-m201351-d1e883": {
+    "summary": "Reply to the second objection (d1e198, on the perfection of God's works): the principle 'God's works are perfect' applies to what God does immediately, as in the six days of creation, where all was made perfectly without any monstrosity; but in what God does through a mediating creature, or what free will does through the mediation of its own action, defect and even sin can occur. This blocks the objection's inference that potentia peccandi being from God would entail sin itself being from God in the same immediate sense.",
+    "claims": ["The perfection of divine works applies strictly to God's immediate action, not to what occurs through the mediation of creatures or of free choice, where defect is possible"],
+    "concepts": ["immediate vs. mediate divine causation"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e198"]}
+  },
+  "Gi9qrR-m201351-d1e906": {
+    "summary": "Continues the reply to the second objection, addressing its specific inferential form (that act is more perfect than potency): true among goods (being actually healthy is better than being merely able to be healed), but reversed among evils, where being actually sick is worse than merely being able to become sick -- since the actual is more evil, more imperfect, and less good the more actual it is. This blocks the inference that potentia peccandi from God would imply the sinful act is even more from God.",
+    "claims": ["The principle 'act is more perfect than potency' holds for goods but inverts for evils, where the actualized evil is worse than the mere capacity for it"],
+    "concepts": ["actus/potentia in bonis vs. in malis"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e198", "Gi9qrR-m201351-d1e883"]}
+  },
+  "Gi9qrR-m201351-d1e926": {
+    "summary": "Reply to the third objection (d1e211, on posse/velle parallel for sin): the solution is already given, because willing (velle) and being-able (posse) are not on a par in this respect.",
+    "claims": ["Reply to obj. 3: velle and posse are not parallel/analogous as the objection assumed"],
+    "concepts": ["posse/velle"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e211"]}
+  },
+  "Gi9qrR-m201351-d1e933": {
+    "summary": "Reply to the fourth objection (d1e222, on causal likeness): things that are from God do have an idea/likeness in God insofar as they are beings and are from God, but they need not have a likeness in God insofar as they are 'nothing' and 'of themselves' -- i.e., insofar as they involve defect/privation, which has no exemplar in God.",
+    "claims": ["The causal-likeness principle applies to a creature's positive being (ens), not to its privative or defective aspect ('nihil', 'a se'), which need have no likeness in God"],
+    "concepts": ["idea/similitudo in Deo", "ens vs. nihil/a se"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e222"]}
+  },
+  "Gi9qrR-m201351-d1e944": {
+    "summary": "Reply to the fifth objection (d1e233, on bad use implying a bad power): even good things can be misused, but a bad use is properly not a 'use' but an 'abuse' (abusus); use of a thing is always oriented toward good, so the same potency (free will) is used well in acting rightly and abused in sinning. The power to sin, i.e. free will, is thus itself good and its use good, while its abuse is evil/sinful. Alternatively, notes that some simple predications are true while their reduplicated ('qua') form is false: since it is the same potency by which one lives rightly and by which one sins, that potency, simply speaking, must be called good; as a potency it implies no actual defect but is merely defectible, and being defectible does not make it evil, only not supremely good.",
+    "claims": ["Use vs. abuse: the same potency (free will), used well, is good; misused (abused), it results in sin, but the potency itself remains good", "Being defectible entails not being the highest good, but does not entail being evil or not-from-God"],
+    "concepts": ["usus/abusus", "simplex vs. reduplicative predication", "defectibilitas"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e233"]}
+  },
+  "Gi9qrR-m201351-d1e1001": {
+    "summary": "Closing clarification for Article 1: such a potency is a being (ens) from God, yet of itself is nothing, in the manner of every creature, which left to itself would collapse into nothingness. So the power to sin, as ens, is from God, but under the reduplication of its being defective and 'nothing' (i.e., considered precisely as privative/creaturely lack), it can be said not to be from God but from itself.",
+    "claims": ["The power to sin, as being, is from God; considered precisely as defective/nihil (its creaturely lack), it is 'from itself,' not from God"],
+    "concepts": ["creatura ex nihilo", "ens vs. nihil reduplication"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e267", "Gi9qrR-m201351-d1e933"]}
+  },
+  "Gi9qrR-m201351-d1e1028": {
+    "summary": "Rubric opening Article 2, stating its title question -- whether every dominion/rulership (principatus) is from God -- and announcing the affirmative conclusion.",
+    "claims": ["All rulership/dominion is from God (affirmative conclusion of Article 2)"],
+    "concepts": ["principatus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-Hd1e1025"]}
+  },
+  "Gi9qrR-m201351-d1e1037": {
+    "summary": "Parallel-sources apparatus citing where Aquinas, Bonaventure, Richard of Mediavilla, Thomas of Argentina, and Durand treat the corresponding distinction/article -- a cross-reference note, not argument.",
+    "claims": [],
+    "concepts": ["comparative sentences commentary tradition"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1028"]}
+  },
+  "Gi9qrR-m201351-d1e1048": {
+    "summary": "Introduces the second question -- whether all dominion/rulership (principatus, praelatio) is from God -- and gives the first objection against an affirmative answer, citing Hosea 8:4 ('They reigned, but not by me; they set up princes, and I knew it not') as scriptural evidence that some rule is not from God.",
+    "claims": ["Objection 1: Hosea 8:4 suggests some rulership arises without God's sanction"],
+    "concepts": ["principatus", "praelatio"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1028", "Gi9qrR-m201351-d1e1504"]}
+  },
+  "Gi9qrR-m201351-d1e1069": {
+    "summary": "Second objection: what comes about perversely is not from God; but some positions of rule come about, or are acquired, perversely; therefore not all rulership is from God.",
+    "claims": ["Objection 2: perversely-acquired rulership cannot be from God, yet some rulership is perversely acquired"],
+    "concepts": ["praelatio peruersa"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1048", "Gi9qrR-m201351-d1e1504"]}
+  },
+  "Gi9qrR-m201351-d1e1078": {
+    "summary": "Third objection: what comes from the highest King (God) is not usurped; but some positions of rule are said to be usurped; therefore not all rulership is from God.",
+    "claims": ["Objection 3: usurped rule cannot be from God, yet some rule is usurped"],
+    "concepts": ["usurpatio"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1048", "Gi9qrR-m201351-d1e1528"]}
+  },
+  "Gi9qrR-m201351-d1e1087": {
+    "summary": "Fourth objection: just as what God joins man ought not separate, so what God gives man ought not take away; but the just rule of some is taken from them by others, so not all rulership is (perpetually sustained as) from God.",
+    "claims": ["Objection 4: since just positions of rule are sometimes forcibly removed by men, this tells against all rulership being simply from God"],
+    "concepts": ["translatio principatus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1048", "Gi9qrR-m201351-d1e1544"]}
+  },
+  "Gi9qrR-m201351-d1e1098": {
+    "summary": "Fifth objection: everything that exists is ordained by God (Rom 13:1, 'the powers that be are ordained of God'); but in many positions of rule we observe many disorders; therefore not all rulership is from God.",
+    "claims": ["Objection 5: the manifest disorder found in many rulerships seems inconsistent with Romans 13:1's claim that existing powers are ordained by God"],
+    "concepts": ["ordinatio", "disorder in praelatio"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1048", "Gi9qrR-m201351-d1e1570"]}
+  },
+  "Gi9qrR-m201351-d1e1109": {
+    "summary": "Sed contra (first argument for the affirmative): the rule of the good should be called from God even more readily than that of the wicked, yet the rule of the wicked is also from God, per Job 34:30 ('who makes a hypocrite to reign'); therefore all rulership, good or bad, is from God.",
+    "claims": ["Since even the rule of wicked rulers is attributed to God in Job 34:30, a fortiori all rulership generally is from God"],
+    "concepts": ["principatus malorum"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1048", "Gi9qrR-m201351-d1e1134"]}
+  },
+  "Gi9qrR-m201351-d1e1122": {
+    "summary": "Second sed contra argument: whatever is ordained is from God; in every position of rule there is found a certain ordination and order of superior to inferior; therefore all rulership is from God.",
+    "claims": ["Every rulership involves an ordering of superior to inferior, and all ordering is from God, so all rulership is from God"],
+    "concepts": ["ordo superioris et inferioris"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1109", "Gi9qrR-m201351-d1e1134"]}
+  },
+  "Gi9qrR-m201351-d1e1134": {
+    "summary": "Resolutio: states the settled conclusion that all rulership is from God as from the First Agent and the Last End.",
+    "claims": ["All rulership is from God, considered both as first efficient cause and as final end"],
+    "concepts": ["primum agens", "ultimus finis"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1109", "Gi9qrR-m201351-d1e1122", "Gi9qrR-m201351-d1e1143"]}
+  },
+  "Gi9qrR-m201351-d1e1143": {
+    "summary": "Lays out the three-part plan of the determinatio: first, to show that all rulership is from God insofar as God is the first agent from whom all things come; second, to show the same insofar as God is the last end to which all things are reduced; third, to add points resolving the difficulties raised (and raisable) by the objections.",
+    "claims": [],
+    "concepts": ["primum agens", "ultimus finis"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1134"]}
+  },
+  "Gi9qrR-m201351-d1e1167": {
+    "summary": "Develops the first proof: every position of rule consists in a kind of action (ruling, directing subjects); since God is the first agent from whom all acting derives, every rulership, as a form of acting, must be reduced to God as its cause. Reinforces this with a metaphysical principle (Metaphysics II: the first is always the cause of all others in a genus): God is the first being, so all beings are from him; first substance, so all substances are from him; and, by the same reasoning, first ruler (princeps), so all who rule are from him.",
+    "claims": ["All rulership, being a kind of act, derives causally from God as first agent, by the same logic that makes God the cause of all being and all substance"],
+    "concepts": ["primum agens", "primum in genere est causa aliorum"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1143"]}
+  },
+  "Gi9qrR-m201351-d1e1211": {
+    "summary": "Develops the second proof, from final causality: God is the last end to which all things, and especially we ourselves, are ordered (citing Augustine's Confessions, 'thou hast made us for thyself'). All positions of rule exist for the sake of the elect, to bring them to God. Because man is by nature a social animal (drawing on Aristotelian political theory of household, village, and self-sufficient city), and any society requires one member to rule (as form rules matter, soul rules body, one element predominates in a mixture), human community cannot sufficiently exist without a ruler. Since our pilgrim life is ordered toward reaching God as its term, all rulership exists ultimately for the sake of reaching God -- and will therefore be abolished once the elect attain God, citing 1 Cor 15:24 ('when he shall have delivered up the kingdom... when he shall have put down all rule and all authority and power'), with the Gloss explaining this refers to the cessation of all hierarchical rule (angelic, demonic, human) at the end of the world. Because the good of order is itself a great good reducible to a single ruling principle (per the Philosopher), the whole order of rulers, reduced to one supreme ruler, is specially from God for the purpose of leading all things back to him; once that end is reached, motion (and rule) ceases.",
+    "claims": ["All rulership exists teleologically for the sake of leading the elect to God as final end, and will be abolished when that end is achieved (1 Cor 15:24)", "Human society necessarily requires a ruling principle, by natural-philosophical analogy (form/matter, soul/body, dominant element in a mixture) and by man's nature as a social/political animal", "The order of all rulers converges on one supreme ruler, and this whole ordered hierarchy is specially from God"],
+    "concepts": ["ultimus finis", "animal sociale/politicum", "bonum ordinis", "self-sufficiency of the civitas (Aristotelian)"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1167", "Gi9qrR-m201351-d1e1143"]}
+  },
+  "Gi9qrR-m201351-d1e1370": {
+    "summary": "Begins the third part of the determinatio (resolving the objections' difficulties) by distinguishing three things to consider in rulership: the reality/order itself (principatus in se, the order of inferior to superior), and, to be treated next, its acquisition.",
+    "claims": ["Three aspects of rulership must be distinguished: the order itself, its acquisition, and its exercise/use"],
+    "concepts": ["principatus in se / adeptio / usus (threefold distinction)"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1211", "Gi9qrR-m201351-d1e1383"]}
+  },
+  "Gi9qrR-m201351-d1e1383": {
+    "summary": "Completes the threefold distinction with the third element, the execution or use of rulership. Argues that rulership as an order is always good, since even evils well-ordered in their place are praiseworthy and set off the good more eminently; good always arises from order, and some good comes to the elect from rulership whether the ruler is good or bad (the humble are exalted, and persecution by rulers purifies). Illustrates with Augustine's City of God comparison of the good and the wicked, the elect and others, to gold vs. straw, grain vs. chaff, oil vs. dregs -- the same fire/threshing/press that refines gold, grain, and oil also produces smoke, chaff-waste, and foul dregs from the corresponding base matter. So rulership/rule-order itself, whether the ruler is good or bad, is from God and works toward the good of the elect (who are refined like gold under either kind of ruler) and toward the (final) ill of others (who smoke like straw); this holds with respect to final justice, since the elect were chosen by God before the foundation of the world to end well by grace, and the reprobate foreknown to end badly by their own fault.",
+    "claims": ["Rulership as an ordered structure is always good and always from God, regardless of whether the individual ruler is morally good or bad, because order itself is a good that God turns to the benefit of the elect and, ultimately, to the just condemnation of the reprobate", "The good/bad-ruler outcome for individuals is explained by predestination: God elected some before the world's foundation to end well by grace, and foreknew the reprobate would end badly by their own fault"],
+    "concepts": ["bonum ordinis", "principatus in se semper bonus", "praedestinatio/praescientia (elect vs. reprobate)", "Augustine's gold/straw, grain/chaff, oil/dregs analogy"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1370"]}
+  },
+  "Gi9qrR-m201351-d1e1462": {
+    "summary": "Concludes the threefold distinction: rulership as an order is always good and always from God; but as to its acquisition or its use, it can be either good or bad, since one can acquire a good thing (like gold) rightly (by labor) or wrongly (by theft), and, once acquired, can use it well or badly -- excepting the virtues, which cannot be misused, all other goods (including rulership) admit of both good and bad use (per Augustine, Retractationes I). States that this threefold distinction resolves all the objections.",
+    "claims": ["Rulership itself (as order) is always good and from God; its acquisition and its use, however, can be good or bad", "This distinction (order vs. acquisition vs. use) provides the master-key resolving all five objections"],
+    "concepts": ["adeptio/usus boni vel mali", "virtues as goods that cannot be misused"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1370", "Gi9qrR-m201351-d1e1383"]}
+  },
+  "Gi9qrR-m201351-d1e1504": {
+    "summary": "Reply to objections 1 and 2 (d1e1048 on Hosea 8:4, and d1e1069 on perverse acquisition): rulership itself is always from God, but its acquisition and use can be bad; this is how the prophetic saying is verified -- 'they reigned, and not by me' means they acquired rule badly (e.g. by simony or other wrongdoing) and used it badly, not that the rulership-order itself is not from God.",
+    "claims": ["Reply to obj. 1-2: Hosea 8:4 and cases of perverse acquisition concern the mode of acquisition/use of rule, not the rulership-order itself, which remains from God"],
+    "concepts": ["adeptio mala", "simonia"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1048", "Gi9qrR-m201351-d1e1069", "Gi9qrR-m201351-d1e1462"]}
+  },
+  "Gi9qrR-m201351-d1e1528": {
+    "summary": "Reply to objection 3 (d1e1078, on usurpation): something can be from God mediately, through a creature; as it is from God it is not usurped, but as it comes about through the mediation of a creature it can be usurped -- since if God withdrew his sustaining operation, the creature's operation would cease entirely.",
+    "claims": ["Reply to obj. 3: usurpation pertains to the creaturely, mediate mode of rule's coming-to-be, not to its ultimate dependence on God's sustaining causality"],
+    "concepts": ["mediate divine causation", "divine conservation"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1078"]}
+  },
+  "Gi9qrR-m201351-d1e1544": {
+    "summary": "Reply to objection 4 (d1e1087, on removal of just rule): one can be justly deprived of a benefit through its abuse; however justly someone holds rulership, they can justly be deprived of it by God through abuse of that rulership -- as one who abuses marriage can be deprived of it (separated from bed, if not from the marital bond), which is why the Lord specially excepted fornication as grounds for a husband to put away his wife (as to bed, not as to the bond).",
+    "claims": ["Reply to obj. 4: just rulership can justly be forfeited through its own abuse, analogous to the loss of marital privileges (though not the bond) through abuse of marriage via fornication"],
+    "concepts": ["privatio per abusum", "analogy to marriage/fornication"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1087"]}
+  },
+  "Gi9qrR-m201351-d1e1570": {
+    "summary": "Begins the reply to objection 5 (d1e1098, on disordered rule): rule is disordered when the unworthy are raised to rulership, which God can permit/bring about as a punishment upon their subjects (continues into the next paragraph).",
+    "claims": ["Reply to obj. 5 (part 1): disordered rulership occurs when unworthy persons are raised to rule, which can happen by God's doing as punishment of the subjects"],
+    "concepts": ["praelatio inordinata", "poena subditorum"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1098", "Gi9qrR-m201351-d1e1579"]}
+  },
+  "Gi9qrR-m201351-d1e1579": {
+    "summary": "Completes the reply to objection 5: God permits unworthy rulers to be raised up as punishment for their subjects, as shown by the authority of Job (cited earlier at d1e1109) and by Hosea 13:11, 'I will give thee a king in my wrath.'",
+    "claims": ["Reply to obj. 5 (part 2): scriptural authority (Job, Hosea 13:11) confirms that God can raise unworthy rulers as punishment for a sinful people"],
+    "concepts": ["poena subditorum", "divine permission of disordered rule"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1570"]}
+  },
+  "Gi9qrR-m201351-d1e1596": {
+    "summary": "Rubric opening Article 3, stating its title question -- whether rulership would have existed in the state of innocence -- and announcing an affirmative conclusion.",
+    "claims": ["Rulership would have existed in the state of innocence (affirmative conclusion of Article 3)"],
+    "concepts": ["status innocentiae", "principatus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-Hd1e1593"]}
+  },
+  "Gi9qrR-m201351-d1e1607": {
+    "summary": "Parallel-sources apparatus citing where Aquinas, Bonaventure, and Richard of Mediavilla treat the corresponding distinction/article -- a cross-reference note, not argument.",
+    "claims": [],
+    "concepts": ["comparative sentences commentary tradition"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1596"]}
+  },
+  "Gi9qrR-m201351-d1e1614": {
+    "summary": "States the third question of the quaestio: whether the power to rule, or rulership/prelacy, would have existed in the state of integral nature, i.e. the state of innocence (before the Fall).",
+    "claims": [],
+    "concepts": ["status naturae integrae", "status innocentiae"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1596"]}
+  },
+  "Gi9qrR-m201351-d1e1628": {
+    "summary": "First objection against rulership existing in innocence: inequality among people arises from merits or demerits, since apart from these all are equal; but in the state of innocence, so long as that state lasted, there would have been no demerit; therefore no inequality, and hence no rulership.",
+    "claims": ["Objection 1: without demerit (absent in the state of innocence), there would be no basis for the inequality that rulership presupposes"],
+    "concepts": ["meritum/demeritum", "aequalitas"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1614", "Gi9qrR-m201351-d1e2238"]}
+  },
+  "Gi9qrR-m201351-d1e1641": {
+    "summary": "Second objection: in the state of innocence dominion was given to man only over irrational creatures (Gen. 1:28, 'have dominion over the fishes...'), not over other men.",
+    "claims": ["Objection 2: scriptural dominion granted at creation was only over irrational creatures, not over fellow humans"],
+    "concepts": ["dominium super irrationalia"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1614", "Gi9qrR-m201351-d1e2254"]}
+  },
+  "Gi9qrR-m201351-d1e1650": {
+    "summary": "Continues the objection begun in the previous paragraph and adds a third: man becomes 'irrational' (i.e. subject to being ruled like a beast) only through sin (Ps. 48:21, 'when he was in honour he did not understand'), so in the state of innocence, where there was no sin, there would have been no dominion or rulership over men at all. Adds a further objection: law is not laid down for the just (1 Tim. 1, and Ethics X: laws with coercive force exist because of the wicked and unjust); therefore in the sinless state of innocence there would have been neither law nor rulership.",
+    "claims": ["Objection (cont.): since men become subject to being ruled 'irrationally' only through sin, sinless innocence would exclude human dominion over other humans", "Objection 3: coercive law and hence rulership exist only on account of the wicked (per 1 Tim. and Aristotle's Ethics X), so a sinless state of innocence would have neither law nor rulership"],
+    "concepts": ["lex coactiva", "dominium per peccatum"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1641", "Gi9qrR-m201351-d1e2254", "Gi9qrR-m201351-d1e2277"]}
+  },
+  "Gi9qrR-m201351-d1e1681": {
+    "summary": "Fourth objection: whatever follows integral nature will remain in the heavenly homeland (patria); but rulership will not exist in the patria; therefore it would not have existed in the state of integral nature either.",
+    "claims": ["Objection 4: since rulership will not persist in the beatific patria, and what belongs to integral nature persists there, rulership was not part of integral nature"],
+    "concepts": ["status viae vs. status patriae"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1614", "Gi9qrR-m201351-d1e2299"]}
+  },
+  "Gi9qrR-m201351-d1e1692": {
+    "summary": "Fifth objection (opening): there is no dominion without servitude; but servitude was introduced on account of sin (continues in next paragraph).",
+    "claims": ["Objection 5 (part 1): dominion presupposes servitude, and servitude only entered through sin"],
+    "concepts": ["dominium/servitus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1701"]}
+  },
+  "Gi9qrR-m201351-d1e1701": {
+    "summary": "Completes the fifth objection: since in the state of innocence there would have been no sin, there would have been no servitude there, and consequently no dominion either.",
+    "claims": ["Objection 5 (part 2): the sinless state of innocence, lacking servitude, would therefore also lack dominion"],
+    "concepts": ["dominium/servitus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1692", "Gi9qrR-m201351-d1e2319"]}
+  },
+  "Gi9qrR-m201351-d1e1709": {
+    "summary": "Sed contra (first argument for the affirmative): rulership/prelacy is a kind of dignity; but what pertains to dignity should be posited in integral (unfallen) nature; therefore rulership would have existed in the state of innocence.",
+    "claims": ["Since prelacy is a dignity, and dignities belong to unfallen nature, rulership belonged to the state of innocence"],
+    "concepts": ["dignitas"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1614", "Gi9qrR-m201351-d1e1727"]}
+  },
+  "Gi9qrR-m201351-d1e1718": {
+    "summary": "Second sed contra argument: dominations (dominationes) are posited among the angels; what is posited among the angels can be posited in integral human nature; therefore rulership would have existed in the state of innocence.",
+    "claims": ["Since angelic 'dominations' exist and integral human nature can share what belongs to angelic nature, rulership belonged to the state of innocence"],
+    "concepts": ["dominationes angelicae"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1709", "Gi9qrR-m201351-d1e1727"]}
+  },
+  "Gi9qrR-m201351-d1e1727": {
+    "summary": "Resolutio: states the settled conclusion that rulership would have existed in the state of innocence, as becomes evident when rulership is compared to its parts, its cause, and its effect.",
+    "claims": ["Rulership would have existed in the state of innocence, demonstrable by considering its parts, cause, and effects"],
+    "concepts": ["principatus: partes/causa/effectus (threefold analytic framework)"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1709", "Gi9qrR-m201351-d1e1718", "Gi9qrR-m201351-d1e1738"]}
+  },
+  "Gi9qrR-m201351-d1e1738": {
+    "summary": "Announces that the determinatio will compare rulership/prelacy to three things (continues into next paragraph, which names them: parts, cause, effects).",
+    "claims": [],
+    "concepts": ["principatus: partes/causa/effectus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1727", "Gi9qrR-m201351-d1e1745"]}
+  },
+  "Gi9qrR-m201351-d1e1745": {
+    "summary": "Names the three points of comparison -- parts, cause, effects -- through all of which rulership in the state of integral nature can be vindicated. Distinguishes three parts/kinds of rulership: despotic (servile, as man over slaves and beasts), political (rule according to fixed laws and pacts, as a city's prince over citizens), to be completed with a third kind in the next paragraph.",
+    "claims": ["Rulership divides into (at least) despotic and political kinds, distinguished by whether rule is exercised over slaves/beasts or according to law and mutual pact"],
+    "concepts": ["principatus despoticus", "principatus politicus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1738", "Gi9qrR-m201351-d1e1776"]}
+  },
+  "Gi9qrR-m201351-d1e1776": {
+    "summary": "Completes the typology with a third kind, royal rule (ruling others according to one's own judgment/arbitrium), and addresses a possible fourth, tyrannical rule, distinguishing it from royal rule by its end (a king rules for the subjects' good, a tyrant for his own), noting tyranny thus assimilates to despotic rule (also for the ruler's own good); acknowledges other possible Aristotelian classifications but sets them aside as unnecessary here. Argues that all three kinds (despotic, political, royal) are found within a single household: the father rules children by royal rule (according to his judgment), the husband rules the wife by political rule (according to the conditions proper to marriage), and the master rules slaves and beasts by despotic rule.",
+    "claims": ["Royal rule is distinguished from tyranny by its end (common good of subjects vs. ruler's private good); tyranny thereby assimilates to despotic rule", "All three types of rule (despotic, political, royal) coexist within a single household, exercised by the same man in different relations (father/child, husband/wife, master/servant-beast)"],
+    "concepts": ["principatus regius", "principatus tyrannicus", "household as microcosm of rule-types"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1745"]}
+  },
+  "Gi9qrR-m201351-d1e1864": {
+    "summary": "Raises and answers an internal objection: doesn't paternal rule also require certain conditions (a father should not rule/use children as slaves), making it more like political than royal rule? Answers that paternal rule, unlike conjugal rule, is founded on love (citing a proverbial saying about the dearness of offspring) rather than fixed pact, and since to love is to will the good, paternal rule remains properly assimilated to royal rule (ruled by will/judgment), as Aristotle does in Politics I. Confirms that despotic rule too would have existed, but only over irrational creatures, not man over man, since despotic rule between humans was introduced by sin (citing Augustine, City of God XIX: the order of nature requires man to rule beasts, but ruling a man belongs not to the order of nature but to the desert of sin -- what Augustine there calls 'dominating,' ruling slaves, a servitude introduced by sin). Notes in passing that the three good types of rule (kingship, aristocracy, polity/lordship) and three corresponding corrupt types (tyranny, oligarchy, democracy) were discussed earlier and do not directly apply to the present question of prelacy in integral nature.",
+    "claims": ["Paternal rule, though exercising judgment like royal rule, is grounded in love (willing the good) rather than pact, and Aristotle assimilates it to kingship", "Despotic rule of man over man (as opposed to man over beast) originated with sin, per Augustine (City of God XIX): nature's order gives man dominion over beasts, but dominion over fellow men is a consequence of sin, not of nature"],
+    "concepts": ["principatus paternus", "amor/voluntas as basis of paternal rule", "Augustinian origin of servitude in sin", "Aristotle's six-fold regime typology (kingship/aristocracy/polity vs. tyranny/oligarchy/democracy)"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1776"]}
+  },
+  "Gi9qrR-m201351-d1e1951": {
+    "summary": "Summarizes the results for rulership's 'parts': in integral nature two of the three kinds would have obtained between man and man (royal, father to son; political, husband to wife), while despotic rule would not have been between man and man but between man and irrational creatures (Gen. 1:28). Clarifies the term 'dominari': taken broadly it can mean any kind of ruling/preeminence, but properly speaking 'lord' (dominus) correlates to 'slave' (servus), and 'to dominate' in the proper sense denotes rule over slaves, which is naturally not over men but over irrational creatures.",
+    "claims": ["In integral nature, royal and political rule would have held between human persons; despotic rule (dominium properly so-called) would have held only between man and irrational creatures"],
+    "concepts": ["dominari large vs. proprie", "dominus/servus correlativity"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1776", "Gi9qrR-m201351-d1e1864"]}
+  },
+  "Gi9qrR-m201351-d1e1986": {
+    "summary": "Turns to the second point of comparison, rulership's cause, arguing at length that the reason someone rules is intellect or reason: men rule boys, males rule females, humans rule beasts, all on account of superior reason/intellect. In the state of integral nature, one person would have excelled another in intellect, either by special revelation (as the Master's Historia relates of Adam's ecstatic sleep, during which he attended the heavenly court and received revelations) or by natural complexion (males having a drier complexion more apt for understanding than females, and this natural variation would have existed among males too, even absent the disease-driven variability of the fallen state, since celestial influence on the formation of semen would still have varied). Concludes that since intellect is the ground of a right to govern others (Prov. 1, 'a man of understanding shall possess governments'), rulership/prelacy would have existed in integral nature on the side of its cause, i.e. intellect -- with the qualification that what grounds action (the reason/form) need not itself be the agent (the composite acts, not the form alone).",
+    "claims": ["The proximate cause/ground of rule in every observed case (man/boy, male/female, human/beast) is superior intellect or reason", "In the unfallen state, differential intellectual excellence among persons -- grounding a basis for rule -- would still have obtained, whether through special revelation (as with Adam) or through natural bodily complexion", "Reason/intellect grounds a right to govern (Prov. 1:1), so rulership would have had a basis even in integral nature"],
+    "concepts": ["intellectus as causa principandi", "complexio naturalis", "revelatio (Adam's sopor)", "form vs. composite as agent"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1951", "Gi9qrR-m201351-d1e1745"]}
+  },
+  "Gi9qrR-m201351-d1e2186": {
+    "summary": "Transitions to the third point of comparison, rulership's effects, having covered parts and cause. Identifies three effects of rulership: (1) directing and teaching subjects how to act rightly, (2) defending subjects from oppression by others, (3) punishing subjects to correct their faults. Argues that in the state of integral nature, only the first effect (direction/teaching) would have applied, since one person would have excelled another intellectually (by revelation, as Adam over Eve, or by natural complexion); the other two effects (defense against oppressors, punitive correction) would not have applied, since there would have been no oppressor and no sinner during that state of integrity.",
+    "claims": ["Rulership has three effects: directive teaching, protective defense, and corrective punishment", "In the state of innocence, only the directive/teaching effect of rulership would have obtained, since the absence of sin excluded any need for defense against oppressors or punitive correction"],
+    "concepts": ["effects of rulership: directio, defensio, punitio"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1986", "Gi9qrR-m201351-d1e1727"]}
+  },
+  "Gi9qrR-m201351-d1e2238": {
+    "summary": "Reply to objection 1 (d1e1628, on merit/equality): in the state of integral nature some would have been more eminent than others in intellect, which grounds prelacy in the manner already explained, though only with respect to some effect (direction/teaching), not every effect.",
+    "claims": ["Reply to obj. 1: inequality sufficient to ground rulership need not stem from merit/demerit but can stem from natural or revelation-based intellectual eminence"],
+    "concepts": ["eminentia intellectus"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1628", "Gi9qrR-m201351-d1e1986"]}
+  },
+  "Gi9qrR-m201351-d1e2254": {
+    "summary": "Reply to objection 2 (d1e1641, on dominion granted only over irrational creatures): speaking of dominion properly, as correlative to slavery, there would have been no such dominion in integral nature except over irrational creatures; but speaking of dominion broadly, as any kind of preeminence, there would have been some 'dominion' in integral nature (i.e. the directive rule already established), since there would have been rule/preeminence in the manner already explained.",
+    "claims": ["Reply to obj. 2: distinguishing broad and proper senses of 'dominion' resolves the objection -- proper dominion (over slaves) was confined to irrational creatures, but broad dominion (any preeminence) did obtain among humans"],
+    "concepts": ["dominium proprie vs. large"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1641", "Gi9qrR-m201351-d1e1951"]}
+  },
+  "Gi9qrR-m201351-d1e2277": {
+    "summary": "Reply to objection 3 (d1e1650, on law existing only for the wicked): the argument proves only that rulership would not have existed with respect to every effect -- specifically not the effect of correcting transgressors -- but it would have existed with respect to directing and teaching the less discerning, since although all would have been discerning, one would still have been more discerning than another, whether through revelation or natural complexion.",
+    "claims": ["Reply to obj. 3: the objection only rules out the corrective/punitive effect of rulership in innocence, not its directive/teaching effect, which remains grounded in differential intellectual acuity"],
+    "concepts": ["effects of rulership: directio vs. correctio"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1650", "Gi9qrR-m201351-d1e2186"]}
+  },
+  "Gi9qrR-m201351-d1e2299": {
+    "summary": "Reply to objection 4 (d1e1681, on the state of the heavenly patria): what will not remain in the patria are precisely those features that distinguish the wayfaring state (via) from the homeland (patria) -- otherwise the two states would not differ. The relevant difference is that the state of the way requires direction (since we have not yet reached our end), whereas in the patria, having reached the end/term, the need for direction ceases; this explains why rulership (a feature of the directive kind) will not persist there, without implying it did not belong to integral (pre-lapsarian, still-wayfaring) nature.",
+    "claims": ["Reply to obj. 4: rulership's absence from the beatific patria is explained by the patria's attainment of the final end (removing the need for direction), not by rulership's absence from integral, still-wayfaring nature"],
+    "concepts": ["status viae vs. status patriae", "cessation of directio at the attainment of the end"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1681"]}
+  },
+  "Gi9qrR-m201351-d1e2319": {
+    "summary": "Reply to objection 5 (d1e1692/d1e1701, on dominion requiring servitude): with respect to human beings, servitude was introduced on account of sin, since man is not naturally a slave; but with respect to irrational creatures, servitude should be called natural, since beasts and irrational things generally are naturally slaves. So the objection proves only that there would have been no servitude among humans in the state of innocence, which is granted -- not that there would have been no dominion at all (dominion over irrational creatures remains, per the earlier distinction).",
+    "claims": ["Reply to obj. 5: servitude among humans is a post-lapsarian institution, but servitude of irrational creatures to man is natural; the objection's conclusion (no human servitude in innocence) is conceded without undermining the article's broader thesis"],
+    "concepts": ["servitus naturalis (irrationalia) vs. servitus per peccatum (homines)"],
+    "_metadata": {"level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-m201351-d1e1692", "Gi9qrR-m201351-d1e1701"]}
+  },
+  "Gi9qrR-m201351-Dd1e150": {
+    "summary": "Article 1 of Question 1: in standard disputed-question form (title/conclusion, parallel sources, five objections, two sed contra arguments, a resolutio, an extended determinatio, three subsidiary dubia with their resolutions, and replies to each of the five objections), argues that the power to sin (potentia peccandi), identified with free will, is from God. The determinatio proceeds via Augustine's threefold division of goods (great/middling/least), placing the soul's powers among the middling goods that, like all goods, derive from God; reinforces this with proofs from the unity of the will as the single potency underlying both right action and sin, and from a natural analogy to defective natural powers (e.g. the power of walking, defective in limping, yet still natural). It carefully distinguishes the potency to sin (from God, as ens) from the act/will of sinning (not from God, as privation/defect), and from the abuse of a good potency (blameworthy) as opposed to its mere defectibility (not blameworthy, only short of supreme goodness).",
+    "claims": ["The power to sin is from God, considered as a being (ens) and as identical with the God-given faculty of free will/will; the sinful act or willing, and the privative/defective aspect of the potency, are not from God"],
+    "concepts": ["potentia peccandi", "Augustinian threefold division of goods", "actus/potentia", "usus/abusus", "ens vs. defectus/nihil"],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-m201351-d1e157", "Gi9qrR-m201351-d1e166", "Gi9qrR-m201351-d1e175", "Gi9qrR-m201351-d1e198", "Gi9qrR-m201351-d1e211", "Gi9qrR-m201351-d1e222", "Gi9qrR-m201351-d1e233", "Gi9qrR-m201351-d1e246", "Gi9qrR-m201351-d1e259", "Gi9qrR-m201351-d1e267", "Gi9qrR-m201351-d1e280", "Gi9qrR-m201351-d1e343", "Gi9qrR-m201351-d1e445", "Gi9qrR-m201351-d1e556", "Gi9qrR-m201351-d1e572", "Gi9qrR-m201351-d1e595", "Gi9qrR-m201351-d1e606", "Gi9qrR-m201351-d1e749", "Gi9qrR-m201351-d1e808", "Gi9qrR-m201351-d1e863", "Gi9qrR-m201351-d1e883", "Gi9qrR-m201351-d1e906", "Gi9qrR-m201351-d1e926", "Gi9qrR-m201351-d1e933", "Gi9qrR-m201351-d1e944", "Gi9qrR-m201351-d1e1001"]
+    }
+  },
+  "Gi9qrR-m201351-Dd1e1021": {
+    "summary": "Article 2 of Question 1: in disputed-question form (title/conclusion, sources, five objections, two sed contra, resolutio, a tripartite determinatio, and replies to the objections), argues that all rulership (principatus) is from God, both as first efficient cause (since God is the first agent/first being/first substance from whom all acting, being, and substance derive) and as final cause (since all rulership is ordained, per Augustinian and Aristotelian political theory of man as a social animal, toward leading the elect to God, and will be abolished once that end is reached, per 1 Cor. 15:24). The key analytic move, resolving all five objections, distinguishes rulership as an order (always good and from God) from its acquisition and use (which can be good or bad, as with any misusable good save the virtues) -- illustrated by Augustine's gold/straw, grain/chaff, oil/dregs analogy for how the same rule benefits the elect and condemns the reprobate.",
+    "claims": ["All rulership is from God as both efficient and final cause", "Rulership as an ordered structure is always good and from God; only its acquisition or use can be evil, which resolves the apparent counterexamples of usurped, perverse, or disordered rule"],
+    "concepts": ["primum agens", "ultimus finis", "bonum ordinis", "principatus in se/adeptio/usus", "praedestinatio/praescientia"],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-m201351-d1e1028", "Gi9qrR-m201351-d1e1037", "Gi9qrR-m201351-d1e1048", "Gi9qrR-m201351-d1e1069", "Gi9qrR-m201351-d1e1078", "Gi9qrR-m201351-d1e1087", "Gi9qrR-m201351-d1e1098", "Gi9qrR-m201351-d1e1109", "Gi9qrR-m201351-d1e1122", "Gi9qrR-m201351-d1e1134", "Gi9qrR-m201351-d1e1143", "Gi9qrR-m201351-d1e1167", "Gi9qrR-m201351-d1e1211", "Gi9qrR-m201351-d1e1370", "Gi9qrR-m201351-d1e1383", "Gi9qrR-m201351-d1e1462", "Gi9qrR-m201351-d1e1504", "Gi9qrR-m201351-d1e1528", "Gi9qrR-m201351-d1e1544", "Gi9qrR-m201351-d1e1570", "Gi9qrR-m201351-d1e1579"]
+    }
+  },
+  "Gi9qrR-m201351-Dd1e1589": {
+    "summary": "Article 3 of Question 1: in disputed-question form (title/conclusion, sources, five objections, two sed contra, resolutio, a tripartite determinatio analyzing rulership by parts/cause/effect, and replies to the objections), argues that rulership would have existed in the prelapsarian state of innocence. By parts: despotic, political, and royal rule are distinguished, and within a household all three coexist; despotic rule (properly 'dominion') over fellow humans is a post-Fall institution (per Augustine, City of God XIX), but political rule (husband/wife) and royal/paternal rule (father/child), plus despotic rule over irrational creatures, would have obtained in innocence. By cause: rule is grounded in superior intellect/reason, which would have differed between persons even in innocence (through revelation, as with Adam, or natural complexion). By effect: of rulership's three effects (directing/teaching, defending from oppression, correcting faults), only the first would have applied, since innocence excluded oppressors and sinners.",
+    "claims": ["Rulership would have existed in the state of innocence with respect to its ordered structure, its intellectual cause, and its directive/teaching effect, though not with respect to despotic rule of man over man, nor to the defensive or corrective effects, all three being consequences of sin"],
+    "concepts": ["status innocentiae", "principatus despoticus/politicus/regius", "intellectus as causa principandi", "effects of rulership: directio/defensio/punitio"],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-m201351-d1e1596", "Gi9qrR-m201351-d1e1607", "Gi9qrR-m201351-d1e1614", "Gi9qrR-m201351-d1e1628", "Gi9qrR-m201351-d1e1641", "Gi9qrR-m201351-d1e1650", "Gi9qrR-m201351-d1e1681", "Gi9qrR-m201351-d1e1692", "Gi9qrR-m201351-d1e1701", "Gi9qrR-m201351-d1e1709", "Gi9qrR-m201351-d1e1718", "Gi9qrR-m201351-d1e1727", "Gi9qrR-m201351-d1e1738", "Gi9qrR-m201351-d1e1745", "Gi9qrR-m201351-d1e1776", "Gi9qrR-m201351-d1e1864", "Gi9qrR-m201351-d1e1951", "Gi9qrR-m201351-d1e1986", "Gi9qrR-m201351-d1e2186", "Gi9qrR-m201351-d1e2238", "Gi9qrR-m201351-d1e2254", "Gi9qrR-m201351-d1e2277", "Gi9qrR-m201351-d1e2299", "Gi9qrR-m201351-d1e2319"]
+    }
+  },
+  "Gi9qrR-m201351": {
+    "summary": "Giles of Rome's Question 1 on Distinction 54 of Book II, 'De potestate peccandi' (On the power to sin), a scholastic disputed question in three articles that systematically works through the sense of 'potestas' the Master (Lombard) raises. Article 1 establishes that the power to sin, as a being and as identical with free will, is from God, while carefully distinguishing this from the sinful act or will (not from God) and from the abuse (versus mere defectibility) of that power. Article 2 extends the same God-derivation to all rulership/dominion whatsoever, grounded in God as both first efficient cause and final end, with a key distinction between rulership-as-order (always good) and its acquisition/use (which can be corrupted) that resolves apparent scriptural counterexamples of wicked or usurped rule. Article 3 asks whether such rulership would have existed absent the Fall, concluding affirmatively but with careful qualification: political and paternal rule between persons, and despotic rule over animals, would have existed, grounded in differential intellectual excellence and serving only a directive/teaching function, whereas properly despotic rule of man over man and the defensive/corrective functions of rulership are consequences of sin. Across all three articles the governing strategy is the same: affirm that a power or structure is from God under one formal aspect (as being, as order, as cause) while denying or qualifying this under another aspect (as defect, as abuse, as consequence of sin) -- a distinction inherited chiefly from Augustine (De libero arbitrio, Retractationes, City of God).",
+    "claims": ["The power to sin is from God as being, though not as defect or sinful act", "All rulership is from God as efficient and final cause, though its abuse and corrupt acquisition are not", "Rulership in a qualified (directive, non-despotic, non-corrective) form would have existed even without the Fall"],
+    "concepts": ["potestas peccandi", "potestas principandi", "status innocentiae", "ens vs. defectus", "Augustinian derivation of all goods from God"],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-m201351-d1e106", "Gi9qrR-m201351-d1e113", "Gi9qrR-m201351-Dd1e150", "Gi9qrR-m201351-Dd1e1021", "Gi9qrR-m201351-Dd1e1589"]
+    }
+  }
+}

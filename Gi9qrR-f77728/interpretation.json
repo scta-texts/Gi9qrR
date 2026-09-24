@@ -1,0 +1,72 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T12:10:30Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4b26dfcff79c286f4eac3ecb93776264cbf74832",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-f77728-d1e111": {
+    "summary": "Rubric-style opening lines naming the distinction, part, and topic under discussion: Distinction 37, Part One, on the ways in which God is said to be in things.",
+    "claims": [],
+    "concepts": ["divine omnipresence", "modes of divine presence"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f77728-Hd1e108"]
+    }
+  },
+  "Gi9qrR-f77728-d1e124": {
+    "summary": "Opens the divisio textus for the prooemium, mapping the structure of Peter Lombard's text on how God is in things, as it will be commented on across the lection. Explains that having shown how things are in God, the Magister now inquires how God is in things, dividing his treatment into: (1) establishing that God is everywhere immovably, distinguishing God's mode of being from every creature's mobile, local mode of being; and (2) drawing out further distinctions. Within the first branch, it further subdivides Lombard's text down to the level of individual clauses (marked by incipits such as 'In sanctis vocatur', 'Ne autem ista', 'Si autem quaeris'), tracing the argument that God is in all things generally by essence, presence, and power, but specially in the saints by grace, in Christ by the grace of union, and in others by the grace of adoption; that the good are in God and with God as in a temple while the wicked are merely God's footstool; and that this difference stems from the presence or absence of divine grace. It further traces a raised quaestio asking where God dwelt before there were saints (answered: in himself), the point that nothing created impedes God's being wholly present in a whole body (as the soul is in the whole body), and a threefold comparison of human beings to God: some know God without being indwelt by him (knowing sinners), some are indwelt without knowing (baptized infants), and the most blessed both know and are indwelt.",
+    "claims": [
+      "God is in all things generally by essence, presence, and power",
+      "God is in the saints specially by grace, in Christ by the grace of union, and in others by the grace of adoption",
+      "The difference between how God is present to the good and to the wicked stems from the presence or absence of divine grace, not from any variation in God himself",
+      "Nothing created impedes God from being wholly present in a whole body, just as the soul is wholly present in the whole body",
+      "The whole Trinity is everywhere because the whole Trinity operates everywhere"
+    ],
+    "concepts": [
+      "essentia, praesentia, potentia (three general modes of divine presence)",
+      "gratia unionis",
+      "gratia adoptionis",
+      "divine indwelling (inhabitatio)",
+      "soul's presence in the whole body as analogy for divine presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f77728-d1e111", "Gi9qrR-f77728-d1e259"]
+    }
+  },
+  "Gi9qrR-f77728-d1e259": {
+    "summary": "Continues the divisio textus, taking up Lombard's text beginning 'Ex praedictis', where, after treating the special mode by which God indwells the saints, the general modes by which God is in each thing are determined. Traces three moves: (1) showing that it is inexplicable how God is wholly everywhere by essence, since much about God surpasses what can be articulated in speech even though it is understood; (2) showing the insufficiency of those who tried to demonstrate God's ubiquity by essence, presence, and power through reason alone; and (3) raising and resolving a further quaestio, subdivided at 'Quaedam tamen' and 'Solet etiam', asking why God does not contract impurity despite being present in impure things (resolved by the analogy of a sunbeam passing through filth without being defiled), and giving a disjunctive argument for divine ubiquity: God is either nowhere, somewhere only, or everywhere; not nowhere, since he conserves all things; not somewhere only, since his power is unlimited; therefore everywhere.",
+    "claims": [
+      "It is inexplicable, though true, that God is wholly present everywhere by essence",
+      "Rational demonstrations alone are insufficient to prove God's presence everywhere by essence, presence, and power",
+      "God does not contract impurity from impure things in which he is present, just as a sunbeam is not defiled by passing through filth",
+      "By elimination (not nowhere, not somewhere only) God must be everywhere"
+    ],
+    "concepts": [
+      "divine ubiquity",
+      "limits of rational demonstration regarding divine attributes",
+      "sunbeam analogy for divine immunity from contamination",
+      "disjunctive argument by elimination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f77728-d1e124"]
+    }
+  },
+  "Gi9qrR-f77728": {
+    "summary": "The prooemium to Distinction 37, Part One, consisting entirely of a divisio textus in which Giles maps the argumentative structure of Peter Lombard's text on the ways God is in things, down to the level of individual incipits, before any disputational articles begin. It establishes the topic (God's omnipresence, as distinguished from creatures' mobile, local presence), the taxonomy of general modes (essence, presence, power) and special modes (grace, grace of union, grace of adoption), the comparison of saints and sinners, and the concluding quaestiones on where God dwelt before creation and on divine immunity from contamination, culminating in a disjunctive proof of divine ubiquity.",
+    "claims": [],
+    "concepts": ["divisio textus", "structure of the Lombardian lectio"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f77728-d1e111", "Gi9qrR-f77728-d1e124", "Gi9qrR-f77728-d1e259"]
+    }
+  }
+}

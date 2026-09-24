@@ -1,0 +1,298 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4b26dfcff79c286f4eac3ecb93776264cbf74832",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-f77941-d1e111": {
+    "summary": "Rubric/incipit paragraph giving the title of the question, 'De existentia Dei in rebus'; carries no argumentative content.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-Hd1e108"] }
+  },
+  "Gi9qrR-f77941-d1e124": {
+    "summary": "Divisio paragraph: notes that in the present lection the Master (Peter Lombard) does two things — asserts that God is in all things and shows that he is everywhere — and divides the treatment of the first point into three articles: (1) whether God is in all created things, (2) the modes of his being in them, (3) whether it must be granted that God exists in himself.",
+    "claims": ["Lombard's text treats two topics: God's being in all things and God's being everywhere.", "The discussion of the first topic is organized into three articles (existence in creatures; modes of that being; God's being in himself)."],
+    "concepts": ["divisio textus", "modus essendi in"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": [] }
+  },
+  "Gi9qrR-f77941-Dd1e150": {
+    "summary": "Article 1 establishes, against five objections that no standard 'mode of being in' (genus/species, whole/part, form/matter, kingdom/king, end, place) can apply to God, that God is really and necessarily in created things by reason of his causality of esse (not merely fieri), his spirituality, his immensity, and his identity with his own power; the determinatio unfolds these four grounds in turn (with support from Damascene, Augustine, John 1:3/Origen, Dionysius, Anselm, and Hilary), and the replies show the king/kingdom mode of 'in' is the true analogue, distinguish two senses of 'extrinsic' to explain why God is 'more intimate to a thing than the thing is to itself,' and defend God's immediacy and nobility as a cause of esse.",
+    "claims": ["God is in creatures by reason of his causality, spirituality, immensity, and power.", "God causes the esse of things, not merely their fieri, and causes of esse are intrinsically necessary to their effects.", "God is more intimately present to a thing than the thing is to itself."],
+    "concepts": ["causa essendi vs. causa fiendi", "divine immensity", "exemplar causality", "modus essendi in", "spiritual presence via operation"],
+    "_metadata": { "level": "article", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-f77941-d1e155","Gi9qrR-f77941-d1e162","Gi9qrR-f77941-d1e215","Gi9qrR-f77941-d1e223","Gi9qrR-f77941-d1e260","Gi9qrR-f77941-d1e26X","Gi9qrR-f77941-d1e300","Gi9qrR-f77941-d1e312","Gi9qrR-f77941-d1e323","Gi9qrR-f77941-d1e414","Gi9qrR-f77941-d1e477","Gi9qrR-f77941-d1e528","Gi9qrR-f77941-d1e566","Gi9qrR-f77941-d1e515","Gi9qrR-f77941-d1e594","Gi9qrR-f77941-d1e660","Gi9qrR-f77941-d1e673","Gi9qrR-f77941-d1e715"] }
+  },
+  "Gi9qrR-f77941-d1e155": {
+    "summary": "Rubric heading paragraph, 'Articulus I. Utrum Deus sit in rebus creatis?', restating the article's title as running text.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-Hd1e152"] }
+  },
+  "Gi9qrR-f77941-d1e162": {
+    "summary": "First objection: argues by exhaustive division through the recognized modes of 'being in' (genus in species, whole in part, form in matter, kingdom in king, end, place) that none can be predicated of God's relation to creatures, so God cannot properly be said to be in created things.",
+    "claims": ["None of the standard modes of 'being in' (genus/species, whole/part, form/matter, kingdom/king, end, place) apply to God's relation to creatures."],
+    "concepts": ["modus essendi in", "division of causal/predicamental relations"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e155"] }
+  },
+  "Gi9qrR-f77941-d1e215": {
+    "summary": "Second objection: argues that an agent acting without needing to be present (like a king who acts by word alone) is nobler than one that must be present to act; since God is the noblest agent, he need not be present in the things he causes, so it is unnecessary that God be in creatures.",
+    "claims": ["Acting without presence is nobler than acting only when present.", "As the noblest agent, God need not be present in what he causes."],
+    "concepts": ["nobility of the agent", "presence vs. causal efficacy"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e162"] }
+  },
+  "Gi9qrR-f77941-d1e223": {
+    "summary": "Third objection: reasons that the nobler the cause, the nobler (and more self-sufficient) its effect, and an effect that can persist without its cause is nobler than one that cannot; hence God, the noblest cause, need not remain in creatures to conserve them in being, undermining the rationale for positing God's being 'in' them.",
+    "claims": ["A nobler cause produces an effect capable of persisting without ongoing conservation by that cause.", "It is therefore unnecessary that God be in creatures merely to conserve them in being."],
+    "concepts": ["nobility of cause and effect", "conservation in esse"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e215"] }
+  },
+  "Gi9qrR-f77941-d1e260": {
+    "summary": "Fourth objection: God's being in things is posited on the basis of operation, but secondary causes also operate, and since one thing does not seem susceptible of diverse operations at once, God cannot be immediately in all things.",
+    "claims": ["One and the same effect cannot be the immediate subject of two distinct causal operations at once.", "Since secondary causes also operate on things, God is not immediately in all things."],
+    "concepts": ["secondary causality", "immediacy of operation"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e223"] }
+  },
+  "Gi9qrR-f77941-d1e26X": {
+    "summary": "Fifth objection: dividing causality into efficient, final, and formal genera, argues God is not 'in' things under any of them — not as efficient cause, since (per Aristotle, Metaphysics 11) the efficient cause of a thing's motion is extrinsic to it; not as final cause, since an 'internal' end would have to be an inherent form, which cannot apply to God; and not as formal cause, since God is an exemplar cause, not a form inhering in what it exemplifies.",
+    "claims": ["God cannot be an efficient, final, or formal-inherent cause of things in the sense that would place him 'in' them.", "God is an exemplar cause, and an exemplar form need not exist in that of which it is the form."],
+    "concepts": ["efficient vs. final vs. formal causality", "exemplar causality", "extrinsic vs. inherent cause"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e260"] }
+  },
+  "Gi9qrR-f77941-d1e300": {
+    "summary": "Sed contra: appeals to the authority of the received text (glosses attributed to Gregory the Great, Ambrose, Augustine, and Hilary of Poitiers) as holding the contrary position, that God is in things.",
+    "claims": ["Authoritative tradition (Gregory, Ambrose, Augustine, Hilary) holds that God is in things."],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e26X"] }
+  },
+  "Gi9qrR-f77941-d1e312": {
+    "summary": "Resolutio: states in summary form the article's conclusion, that God is in things by reason of his causality, spirituality, immensity, and power.",
+    "claims": ["God is in things by reason of his causality, spirituality, immensity, and power."],
+    "concepts": ["causa essendi", "spirituality", "divine immensity", "divine power"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": [] }
+  },
+  "Gi9qrR-f77941-d1e323": {
+    "summary": "Opens the determinatio by setting out four respects in which God differs from all created things, grounding the four proofs that follow: God is a cause of esse, not merely of fieri (unlike other causes); every creature is 'gross and material' relative to God, who alone is simple and incorporeal (Damascene); every creature is circumscribed by limits, while God alone is bounded by none; and no creature is identical with its own perfections and power, whereas God is (Augustine, De Trin. 5.10, quoted on divine simplicity: God is not great by participation but is his own magnitude, power, and wisdom).",
+    "claims": ["God is a cause of esse (not merely of fieri) for creatures, unlike other causes.", "God alone is simple and incorporeal; every creature is comparatively material.", "God alone is unbounded by any limit.", "God is identical with his own perfection and power, unlike any creature."],
+    "concepts": ["causa essendi vs. causa fiendi", "divine simplicity", "divine immensity", "identity of God with his attributes"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e312"] }
+  },
+  "Gi9qrR-f77941-d1e414": {
+    "summary": "Elaborates the first of the four grounds (causality of esse): because causes of fieri are extrinsic while causes of esse are of necessity intrinsic to their effects, and God causes the very esse of things, he exists in them of necessity; supports this with John 1:3 (via the Greek reading 'foris ipsum factum est nihil'), Origen's gloss that nothing comes to be outside God because things need God as conserver as well as author, and Dionysius (De Div. Nom. 5), who calls God king and conserver of the ages, sustaining all esse from within.",
+    "claims": ["Causes of esse are intrinsically necessary to their effects, unlike causes of fieri, which are extrinsic.", "Because God causes the esse of things, he exists in them of necessity.", "All things are conserved in being by God remaining present in them."],
+    "concepts": ["causa essendi vs. causa fiendi", "divine conservation", "God as substantificator"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e323"] }
+  },
+  "Gi9qrR-f77941-d1e477": {
+    "summary": "Second ground: elaborates that every creature is comparatively material relative to God, and material things, however near what they act on, do not exist in the things on which they operate (being fixed by their quantity to a place), whereas for spiritual substances to be 'in' something just is to operate there (Damascene); since God is supremely spiritual and operates immediately in all things as their proper universal cause, he is of necessity in all things (again citing Damascene for God's omnipresence).",
+    "claims": ["Material agents act on things without existing in them, being confined by quantity to place.", "For a spiritual substance, to be somewhere is to operate there.", "Because God, as supremely spiritual universal cause, operates immediately in all things, he is necessarily in all things."],
+    "concepts": ["material vs. spiritual presence", "operatio as locus of spiritual being", "universal causality"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e414"] }
+  },
+  "Gi9qrR-f77941-d1e528": {
+    "summary": "Third ground: argues from divine immensity — since God is unbounded by any limit, he must of necessity be in all things, for if there were any creature in which he was not, he would not be wholly immense and infinite, since he would not fill all things; cites Anselm, Monologion 13, that where the divine essence is absent, nothing is, and hence it is everywhere and in all things, since it is absurd that anything created could escape the immensity of its creator and sustainer.",
+    "claims": ["If God were absent from any creature, he would not be truly immense and infinite.", "Because God is immense, he is of necessity present in every created thing."],
+    "concepts": ["divine immensity", "infinity"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e477"] }
+  },
+  "Gi9qrR-f77941-d1e566": {
+    "summary": "Fourth ground: since God is identical with his own power and virtue, wherever his power and virtue are operative, God himself must of necessity exist there, because his power just is himself; cites Hilary (De Trin. 9) and the Sentences text itself (dist. 34 and the present distinction) for the principle that wherever what is God's is, there God himself is understood to be.",
+    "claims": ["God is identical with his own power/virtue.", "Wherever God's power operates, God himself is necessarily present there."],
+    "concepts": ["identity of God with his power", "divine omnipotence as ground of omnipresence"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e528"] }
+  },
+  "Gi9qrR-f77941-d1e515": {
+    "summary": "Reply to the first objection: distinguishes that not every mode of 'being in' falls directly under the eight standard modes enumerated in the objection; the king is not only in the kingdom but the kingdom is also in the king, by a mode of presiding over and conserving, which — while not directly one of the enumerated modes — reduces to the kingdom-in-king mode (since governing/being governed, conserving/being conserved differ only as a road differs by direction of travel); on this analysis God's being in things is assigned to precisely this reducible mode, as a king governs and conserves his kingdom.",
+    "claims": ["The 'king is in the kingdom' mode of being-in is reciprocal with 'kingdom is in king,' reducible to a single underlying relation of governing/conserving.", "God is in creatures according to this governing-and-conserving mode, analogous to a king in his kingdom."],
+    "concepts": ["modus essendi in", "governance and conservation as a mode of presence"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e162","Gi9qrR-f77941-d1e312"] }
+  },
+  "Gi9qrR-f77941-d1e594": {
+    "summary": "Reply to the fifth objection: distinguishes two senses of 'extrinsic' — (1) whatever is not numbered among a thing's constituent principles (in which sense God is indeed an extrinsic cause, not a part of the thing, and in this sense the objection's arguments proceeded validly) and (2) whatever is outside a thing and does not conserve it or cause its esse (in which sense a builder is 'extrinsic' to a house, but God cannot be called extrinsic to a thing, since whatever gives a thing its esse gives it through the power of the first cause, and the power of a prior cause is more immediate to the effect than that of any intermediate cause); concludes that God, as the most immediate cause, is more intimately present to a thing than the thing is to itself.",
+    "claims": ["God is extrinsic to a thing only in the sense of not being a constituent principle, not in the sense of failing to conserve or cause its esse.", "The prior a cause is, the more immediate its causal power; the first cause is thus the most immediate of all.", "God is more intimate to a thing than the thing is to itself."],
+    "concepts": ["senses of 'extrinsic'", "immediacy of first causality", "causa essendi"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e26X","Gi9qrR-f77941-d1e414"] }
+  },
+  "Gi9qrR-f77941-d1e660": {
+    "summary": "Reply to the second objection: denies that acting by presence makes an agent less noble or more mediate; agents that act through presence rather than at a distance are not ignoble for that reason — God, as the immediate and first cause, is in fact nobler precisely because he causes more directly.",
+    "claims": ["Acting through presence does not diminish an agent's nobility.", "God's causal presence, as the immediate first cause, makes him more (not less) noble."],
+    "concepts": ["immediacy of causation", "nobility of the agent"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e215"] }
+  },
+  "Gi9qrR-f77941-d1e673": {
+    "summary": "Reply to the third objection: distinguishes a cause without which an effect cannot exist at all (a cause of esse) from a cause without which the effect can nonetheless continue to exist (a mere cause of fieri), and concludes God's causal nobility as cause of esse exceeds all others precisely in this respect; addresses the form of the argument by noting that it does not pertain to an agent's nobility to make an effect subsist by itself without a conserving cause, since this would involve a contradiction, and what exceeds the very notion of power (like simultaneously true contradictories) cannot pertain to power's nobility, since nobility of power presupposes power itself.",
+    "claims": ["A cause of esse (without which the effect cannot exist) is more excellent than a mere cause of fieri (without which the effect can still exist).", "It is not a mark of nobility for an agent to produce an effect capable of self-subsistence without conserving causation, since this is contradictory and so outside the scope of power altogether."],
+    "concepts": ["causa essendi vs. causa fiendi", "nobility of power", "contradiction as limit of potentia"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e223"] }
+  },
+  "Gi9qrR-f77941-d1e715": {
+    "summary": "Reply to the fourth objection: grants that one thing does not perfectly receive diverse operations immediately in the same genus of causality and in the same manner, but notes that although both creature and God act immediately on an effect, they do not do so in the same manner; defers full treatment of how divine and creaturely immediate causation differ to the discussion of the production of things in Book 2.",
+    "claims": ["Creature and God can both act immediately on the same effect without contradiction, because they do not act in the same manner or genus of causality."],
+    "concepts": ["immediacy of operation", "modes of concurrent causality"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e260"] }
+  },
+  "Gi9qrR-f77941-Dd1e734": {
+    "summary": "Article 2 answers 'in how many modes is God said to be in things?' with a fivefold division — three general modes shared with all creatures (presence, power, essence, correlated respectively with operation, virtue, and substance, the triad found in any agent) and two special modes restricted to rational/graced creatures (grace of union, proper to Christ; grace of adoption, proper to the sanctified) — grounding the general modes in the universal work of creation and the special modes in the work of re-creation, against four objections (the first cause's uniformity per the Liber de Causis; the creation/re-creation duality seeming to yield only two modes; the seemingly irreducible presence of God in the Sacraments; and the Holy Spirit's presence in the form of a dove), resolved by distinguishing God's uniform relation to creatures from creatures' diverse relations to God, and by explaining the dove/sacrament cases as presence 'as in a sign' or 'as in a cause' rather than a sixth numbered mode.",
+    "claims": ["God is in things in five distinct modes: presence, power, and essence (general, grounded in creation) and grace of union and grace of adoption (special, grounded in re-creation).", "The plurality of modes arises from creatures' diverse relations to God, not from any lack of uniformity in God himself.", "God's presence in the Sacraments and in the dove at Christ's baptism is not a further distinct mode, but presence as in a sign or as in a cause."],
+    "concepts": ["general vs. special modes of divine presence", "gratia unionis", "gratia adoptionis", "creation vs. recreation", "substance-virtue-operation triad"],
+    "_metadata": { "level": "article", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-f77941-d1e739","Gi9qrR-f77941-d1e746","Gi9qrR-f77941-d1e872","Gi9qrR-f77941-d1e899","Gi9qrR-f77941-d1e783","Gi9qrR-f77941-d1e814","Gi9qrR-f77941-d1e851","Gi9qrR-f77941-d1e860","Gi9qrR-f77941-d1e873","Gi9qrR-f77941-d1e1084","Gi9qrR-f77941-d1e1172","Gi9qrR-f77941-d1e1191"] }
+  },
+  "Gi9qrR-f77941-d1e739": {
+    "summary": "Rubric heading paragraph, 'Articulus II. Quibus modis dicitur Deus esse in rebus?', restating the article's title as running text.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-Hd1e736"] }
+  },
+  "Gi9qrR-f77941-d1e746": {
+    "summary": "States the question to be pursued: by which modes of being is God said to be in things.",
+    "claims": [],
+    "concepts": ["modus essendi in"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e739"] }
+  },
+  "Gi9qrR-f77941-d1e872": {
+    "summary": "First objection: cites the Liber de causis ('the first cause exists in all things according to one single disposition') to argue that it is inappropriate to assign several diverse modes of divine presence, since the first cause's presence is uniform.",
+    "claims": ["The first cause's presence in things is uniform (per the Liber de causis), so assigning multiple diverse modes is inappropriate."],
+    "concepts": ["uniformity of the first cause", "Liber de causis doctrine"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e746"] }
+  },
+  "Gi9qrR-f77941-d1e899": {
+    "summary": "Second objection: since God is in things by virtue of operating in them, and divine works divide into the work of creation and the work of re-creation, God should be in things in only two modes, not the customary five.",
+    "claims": ["Since divine operation divides into creation and re-creation, only two modes of divine presence should be assigned, not five."],
+    "concepts": ["opus creationis", "opus recreationis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e872"] }
+  },
+  "Gi9qrR-f77941-d1e783": {
+    "summary": "Third objection: argues there are more modes than commonly assigned, since God/divine power is said to be in the Sacraments in a way that cannot be reduced to presence, essence, or power (which apply to all things generally), nor to grace of adoption (proper to rational creatures alone) nor grace of union (the Sacraments not being assumed into hypostatic union with a divine person); a sixth special mode is therefore required.",
+    "claims": ["God's mode of being in the Sacraments cannot be reduced to presence, power, essence, grace of adoption, or grace of union.", "A sixth mode of divine presence is needed to account for the Sacraments."],
+    "concepts": ["divine presence in the Sacraments", "gratia unionis", "gratia adoptionis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e899"] }
+  },
+  "Gi9qrR-f77941-d1e814": {
+    "summary": "Fourth objection: the Holy Spirit is said to have descended 'in the form of a dove,' hence was in that dove, yet not by grace of adoption (the dove having no rational soul, unlike holy men) nor by grace of union (the dove not assumed into the unity of a divine supposit, per Augustine, De Trin. 2.6); since it was also not merely by power, presence, and essence, another mode must be posited.",
+    "claims": ["The Holy Spirit's presence in the baptismal dove fits none of the recognized modes (power/presence/essence, grace of adoption, grace of union).", "A further mode of divine presence must therefore be posited to explain the dove case."],
+    "concepts": ["gratia unionis", "gratia adoptionis", "hypostatic union"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e783"] }
+  },
+  "Gi9qrR-f77941-d1e851": {
+    "summary": "Sed contra: appeals to the commonly held view and to what is found in the text itself as holding the contrary.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e814"] }
+  },
+  "Gi9qrR-f77941-d1e860": {
+    "summary": "Resolutio: states the fivefold division to be defended — three general modes by which God is in all things (presence, power, essence) and two special modes (grace of union, grace of adoption).",
+    "claims": ["There are three general modes of divine presence (presence, power, essence) and two special modes (grace of union, grace of adoption)."],
+    "concepts": ["general modes of divine presence", "special modes of divine presence", "gratia unionis", "gratia adoptionis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": [] }
+  },
+  "Gi9qrR-f77941-d1e873": {
+    "summary": "Opens the determinatio: explains that although God relates uniformly to all things, things do not relate uniformly to God (citing Ps.-Dionysius, De Div. Nom. 4: the Trinity is present to all, but not all are equally present to it), so the diversity of modes arises from the mode of understanding creatures' varying relations (respectus) to God rather than from any variation in God; derives the three general modes from the triad substance/virtue/operation present in any agent (per the Liber de Caelo et Mundo: 'nature, being apt by nature, thus acts'), correlating presence with operation, power with virtue, and essence with substance, since God, acting immediately in all things, is thereby present in them, and since operation presupposes virtue and virtue presupposes substance, God is likewise in all things by power and by essence.",
+    "claims": ["God relates uniformly to all creatures, but creatures relate diversely to God, and this diversity of relation grounds the plurality of modes.", "The three general modes (presence, power, essence) correspond to the triad operation, virtue, and substance found in any agent."],
+    "concepts": ["uniformity of God vs. diversity of creaturely relation", "substance-virtue-operation triad", "general modes of divine presence"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e860"] }
+  },
+  "Gi9qrR-f77941-d1e1084": {
+    "summary": "Continues the determinatio by deriving the two special modes from the distinction between the general work of creation (extending to all things) and the special work of re-creation (restricted to rational creatures): since God as first agent must act by conserving things in esse, ordering them, and directing them to their ends, he acts through intellect and free choice (not natural necessity) — hence he is in all things by essence (conserving their esse), by presence (seeing all things through cognition), and by power (governing individual things through free choice, unlike brutes, which per Damascene do not dominate their own acts); the paragraph then continues, in the same textual unit, with the reply to the first objection, explaining that although God's relation to creatures is uniform, creatures' relations to God are not, and this diversity — following the mode of understanding — is what grounds the assignment of diverse modes, as already shown.",
+    "claims": ["God acts as first agent by conserving esse, ordering all things through intellect, and directing them through free choice rather than natural necessity.", "The three general modes correlate with essence (conserving), presence (cognition), and power (free governance).", "The plurality of modes answers objection 1 because it arises from the diversity of creatures' relations to God, not from disunity in God himself."],
+    "concepts": ["divine freedom vs. natural necessity", "divine governance", "general modes of divine presence", "uniformity of God vs. diversity of creaturely relation"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e873","Gi9qrR-f77941-d1e872"] }
+  },
+  "Gi9qrR-f77941-d1e1172": {
+    "summary": "Reply to the second objection: the three general modes are drawn from the work of creation and the two special modes from the work of re-creation, so God is in things in five modes, as shown, not merely two.",
+    "claims": ["The fivefold, not twofold, division stands because three modes derive from creation and two from re-creation."],
+    "concepts": ["opus creationis", "opus recreationis", "general and special modes of divine presence"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e899","Gi9qrR-f77941-d1e873"] }
+  },
+  "Gi9qrR-f77941-d1e1191": {
+    "summary": "Combined reply to the third and fourth objections: God can be said to have been in the dove, and to be in the Sacraments, in a certain way through grace, not because grace inheres in the dove or in the Sacraments as in a subject, but because God was present in them either as in something signified or as in a cause — a distinction drawn earlier in the treatment of the visible mission; hence this mode of presence does not add a further numbered mode alongside the five already established.",
+    "claims": ["God's presence in the dove and in the Sacraments is presence as in a sign or as in a cause, not presence of grace inhering in a subject.", "This mode of presence does not constitute a sixth mode beyond the five general/special modes."],
+    "concepts": ["presence as in a sign (in signato)", "presence as in a cause (in causa)", "visible mission of the Holy Spirit"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e783","Gi9qrR-f77941-d1e814"] }
+  },
+  "Gi9qrR-f77941-Dd1e1219": {
+    "summary": "Article 3 establishes, against four objections drawn from Aristotle (Physics 4) that nothing can be 'in itself' except as part-in-part, that God is in himself in a fourfold sense unparalleled by any creature — by reason of esse (his esse is unparticipated and self-subsistent, needing no conserver), operation (he acts for his own sake, not an external end), substance (he is immutable, unlike creatures made from nothing and reducible to nothing), and virtue (his power is the first power, the ultimate point of 'rest')— correlating these with Dionysius's (De Div. Nom. 9) fourfold description of God as fixed, singular, immutable, and the cause of all standing; the replies resolve the Aristotelian objections by showing that Phys.4's modes of 'in' are equivocal when applied to God and do not properly extend to him.",
+    "claims": ["God is in himself in four ways: by reason of esse, operation, substance, and virtue.", "No creature can properly be said to be 'in itself' in these four respects, since creatures depend on God, act for external ends, are mutable in substance, and lack ultimate/first power.", "Aristotle's Physics 4 account of 'being in itself' via parts is equivocal when applied to God and does not rule out God's being in himself."],
+    "concepts": ["divine self-subsistence", "immutability", "God as final cause of himself", "prima virtus/status"],
+    "_metadata": { "level": "article", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-f77941-d1e1224","Gi9qrR-f77941-d1e1231","Gi9qrR-f77941-d1e1238","Gi9qrR-f77941-d1e1271","Gi9qrR-f77941-d1e1288","Gi9qrR-f77941-d1e1299","Gi9qrR-f77941-d1e1310","Gi9qrR-f77941-d1e1331","Gi9qrR-f77941-d1e1338","Gi9qrR-f77941-d1e1419","Gi9qrR-f77941-d1e1626","Gi9qrR-f77941-d1e1646"] }
+  },
+  "Gi9qrR-f77941-d1e1224": {
+    "summary": "Rubric heading paragraph, 'Articulus III. Utrum Deus dicatur esse in seipso?', restating the article's title as running text.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-Hd1e1221"] }
+  },
+  "Gi9qrR-f77941-d1e1231": {
+    "summary": "States the third question: whether God can be said to be in himself.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1224"] }
+  },
+  "Gi9qrR-f77941-d1e1238": {
+    "summary": "First objection: cites Aristotle (Physics 4) that a thing is said to be 'in itself' only insofar as one part is in another part (as with wine in an amphora, or an animal moving itself because soul moves body); since God, being utterly simple, has no parts, he cannot be said to be in himself.",
+    "claims": ["Per Aristotle, being 'in itself' presupposes a part-whole structure (one part in another).", "Since God is wholly simple and lacks parts, he cannot be in himself under this account."],
+    "concepts": ["part-whole relation", "divine simplicity"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1231"] }
+  },
+  "Gi9qrR-f77941-d1e1271": {
+    "summary": "Second objection: again per Aristotle (Physics 4), running through all the modes of 'being in,' none supports something existing in itself per se apart from a part-in-part relation, so God cannot be in himself.",
+    "claims": ["None of the Aristotelian modes of 'being in' support a thing being 'in itself' except by parts, so God is not in himself."],
+    "concepts": ["modus essendi in"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1238"] }
+  },
+  "Gi9qrR-f77941-d1e1288": {
+    "summary": "Third objection: whatever belongs to a thing belongs either per se or per accidens; but per Aristotle (Physics 4), nothing is in itself either per se or per accidens; therefore God is not in himself.",
+    "claims": ["Nothing is in itself either per se or per accidens (per Aristotle), so God cannot be in himself."],
+    "concepts": ["per se vs. per accidens predication"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1271"] }
+  },
+  "Gi9qrR-f77941-d1e1299": {
+    "summary": "Fourth objection: if God is in himself because he is identical with himself, then, since every thing is identical with itself, every thing would be in itself — which is not conceded.",
+    "claims": ["If self-identity sufficed for being 'in itself,' every thing would be in itself, which is absurd/not granted."],
+    "concepts": ["self-identity"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1288"] }
+  },
+  "Gi9qrR-f77941-d1e1310": {
+    "summary": "Sed contra: cites Augustine (Contra Maximinum) and the text itself, that God, before he made heaven and earth, dwelt in himself and dwells with himself.",
+    "claims": ["Augustine holds that God dwelt in himself before creation."],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1299"] }
+  },
+  "Gi9qrR-f77941-d1e1331": {
+    "summary": "Resolutio: states the conclusion, that God is in himself in four ways.",
+    "claims": ["God is in himself in four ways."],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": [] }
+  },
+  "Gi9qrR-f77941-d1e1338": {
+    "summary": "Opens the determinatio, following Dionysius (De Div. Nom. 9), by establishing the first two of four respects in which God differs from every creature and thereby can be said to be in himself: regarding esse, every creature's esse is dependent, requiring a conserver, whereas God's esse is unparticipated — he is esse itself — and needs nothing to conserve it, since pure unparticipated esse (unlike participated esse, which depends on something else) is not intelligible as capable of not-being; regarding operation, every creature acts for the sake of some good other than itself, whereas God, who is goodness itself, acts for his own sake (Prov. 16).",
+    "claims": ["Creaturely esse is dependent/participated and requires a conserving cause; divine esse is unparticipated, self-subsistent esse itself.", "Every creature operates for an end other than itself; God operates for his own sake alone."],
+    "concepts": ["participated vs. unparticipated esse", "God as ipsum esse", "God as his own final end"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1331"] }
+  },
+  "Gi9qrR-f77941-d1e1419": {
+    "summary": "Completes the determinatio with the third and fourth respects: regarding substance, every creature, being made from nothing, can recede from its own substance and be reduced to nothing, whereas God is wholly immutable and cannot cease to be what he is; regarding virtue, no creature's power is the first power in which there is ultimate 'rest' (status), whereas God's power is that first power by which all else subsists; concludes that God, unlike any creature, 'stands' in himself in all four respects (esse, operation, substance, virtue), correlating this with Dionysius's fourfold description of God as fixed, singularly established, immovable in substance, and the cause of all standing/rest, since he is not really distinct from his own esse.",
+    "claims": ["Every creature can recede from its own substance (being made from nothing); God's substance is wholly immutable.", "No creature's power is the ultimate/first power; God's power alone is that first power, the terminus of all causal dependence.", "God alone, in all four respects, 'stands' or subsists in himself; no creature does so properly."],
+    "concepts": ["immutability of substance", "prima virtus", "status/quies as terminus of a causal order", "identity of God with his esse"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1338"] }
+  },
+  "Gi9qrR-f77941-d1e1626": {
+    "summary": "Combined reply to the first, second, and third objections: explains that the modes according to which God is said to be in himself are not properly contained under the modes of 'being in' treated by Aristotle in Physics 4, so the arguments drawn from that authority equivocate between the creaturely, part-based sense of 'in' and the unique sense proper to God; this same equivocation resolves the second and third objections as well.",
+    "claims": ["The Aristotelian (Physics 4) modes of 'being in' are equivocal when applied to God's being in himself, so objections drawn from that source do not hold."],
+    "concepts": ["equivocation", "modus essendi in"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1238","Gi9qrR-f77941-d1e1271","Gi9qrR-f77941-d1e1288"] }
+  },
+  "Gi9qrR-f77941-d1e1646": {
+    "summary": "Reply to the fourth objection: God is in himself not merely because he is self-identical (which would trivially apply to any thing), but because he has independent, unparticipated esse, operates having himself alone as end, cannot be transmuted from his substance, and is the first power in which there is ultimate rest — properties no creature possesses, so the objection's inference to universal self-inherence does not follow.",
+    "claims": ["God's being 'in himself' rests on independent esse, self-directed operation, immutable substance, and status as first power — not merely on self-identity, which all things share but which does not by itself entail being 'in oneself.'"],
+    "concepts": ["independent esse", "immutability", "prima virtus", "self-identity vs. self-subsistence"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-f77941-d1e1299","Gi9qrR-f77941-d1e1338","Gi9qrR-f77941-d1e1419"] }
+  },
+  "Gi9qrR-f77941": {
+    "summary": "Question 1, 'De existentia Dei in rebus,' establishes across its three articles that God is really present in created things (Art. 1: by reason of his causality of esse, spirituality, immensity, and identity with his power, against objections that no standard mode of 'being in' applies to him), that this presence is specified into five distinct modes (Art. 2: three general — presence, power, essence, grounded in creation — and two special — grace of union, grace of adoption, grounded in re-creation), and that, beyond his presence in creatures, God is additionally 'in himself' in a further, fourfold and wholly unparalleled sense (Art. 3: by reason of esse, operation, substance, and virtue), grounded throughout in his absolute simplicity, immutability, and self-sufficiency as first cause.",
+    "claims": ["God is really present in all created things by reason of his causality, spirituality, immensity, and power.", "God's presence in things divides into three general modes (presence, power, essence) and two special modes (grace of union, grace of adoption).", "God alone, and no creature, is additionally 'in himself' in a fourfold sense grounded in his esse, operation, substance, and virtue."],
+    "concepts": ["divine omnipresence", "causa essendi vs. causa fiendi", "modus essendi in", "gratia unionis", "gratia adoptionis", "divine self-subsistence"],
+    "_metadata": { "level": "question", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-f77941-d1e111","Gi9qrR-f77941-d1e124","Gi9qrR-f77941-Dd1e150","Gi9qrR-f77941-Dd1e734","Gi9qrR-f77941-Dd1e1219"] }
+  }
+}

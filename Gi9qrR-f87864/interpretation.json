@@ -1,0 +1,63 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T12:10:30Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4b26dfcff79c286f4eac3ecb93776264cbf74832",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-f87864-d1e111": {
+    "summary": "Rubric heading marking the start of the expositio litterae for Part Two, the lemma-by-lemma gloss following that part's divisio textus.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f87864-Hd1e108"]
+    }
+  },
+  "Gi9qrR-f87864-d1e116": {
+    "summary": "Glosses the lemma 'Non quasi spatiosa magnitudine', explaining that Augustine's words, as cited by Lombard, aim to remove from God every form of extension and dimensive quantity. Distinguishes two ways a thing can be extended - per se, as a body is extended, or per accidens, as things are extended through the extension of a body (e.g., corporeal quantities) - and shows that the lemma denies both to God: the statement that God is not extended 'like earth' denies per se dimensive quantity, while the statement that God is not extended 'like corporeal light,' which multiplies and diffuses through every part of a medium, denies per-accidens dimensive quantity.",
+    "claims": [
+      "God possesses no per se dimensive quantity (unlike a body, such as earth)",
+      "God possesses no per-accidens dimensive quantity either (unlike corporeal light, which is extended by diffusing through a medium)",
+      "Everything extended is extended either per se, as bodies are, or per accidens, through the extension of a body"
+    ],
+    "concepts": ["dimensive quantity (per se vs. per accidens)", "extension (extensio)", "divine simplicity/non-extension"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f87864-d1e111"]
+    }
+  },
+  "Gi9qrR-f87864-d1e161": {
+    "summary": "Glosses the lemma 'Sed potius sicut in duobus sapientibus', developing the analogy that God is in things as wisdom is in two wise men: just as wisdom is not greater in a larger body nor lesser in a smaller one, God is not divided by the division of things but exists wholly in each thing. Draws a distinction to prevent misapplying the analogy: 'greater' and 'lesser' can be understood either (1) according to quantity of mass/bulk (molis), in which sense wisdom is indeed not greater or lesser according to bodily size - this is the sense Augustine's words deny - or (2) according to quantity of power (virtus), which admits of both extensive degree (knowing more things) and intensive degree (knowing things more clearly); in this second sense one wisdom, and by analogy one instance of a thing's participation in God, genuinely can be greater than another.",
+    "claims": [
+      "God, like wisdom present whole in each wise person, is not divided by the division of things but exists wholly in each thing",
+      "Wisdom (and by analogy God's presence) is not greater or lesser according to quantity of mass/bulk - this is what Augustine's words deny",
+      "Wisdom (and analogous participations) can be greater or lesser according to quantity of power, either extensively (knowing more things) or intensively (knowing more clearly) - a sense the lemma does not deny"
+    ],
+    "concepts": [
+      "totus in qualibet re (wholly present in each thing)",
+      "quantitas molis vs. quantitas virtutis",
+      "extensive vs. intensive degree",
+      "wisdom-in-two-wise-men analogy for divine indwelling"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f87864-d1e116"]
+    }
+  },
+  "Gi9qrR-f87864": {
+    "summary": "The expositio litterae for Distinction 37, Part Two: two lemma glosses continuing the literal commentary on Lombard's text concerning divine immensity. The first clarifies that Augustine's denial that God is extended 'like earth' or 'like corporeal light' removes from God both per se and per-accidens dimensive quantity. The second develops the analogy of wisdom present wholly in each of two wise men to explain that God exists wholly, undivided, in each thing, while carefully distinguishing the sense of 'greater/lesser' that this analogy rules out (quantity of mass) from the sense it leaves open (quantity of power, extensive or intensive).",
+    "claims": [],
+    "concepts": ["expositio litterae as genre", "lemma-based commentary", "divine immensity without quantity"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f87864-d1e111", "Gi9qrR-f87864-d1e116", "Gi9qrR-f87864-d1e161"]
+    }
+  }
+}

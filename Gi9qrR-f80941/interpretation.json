@@ -1,0 +1,53 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T12:10:30Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4b26dfcff79c286f4eac3ecb93776264cbf74832",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-f80941-d1e111": {
+    "summary": "Rubric-style opening lines naming Distinction 37, Part Two, and stating its topic: that God is everywhere and at every time, yet is not local, not circumscribable, and not moved by place or time.",
+    "claims": [],
+    "concepts": ["divine immensity", "divine immutability", "circumscription (circunscriptibilitas)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f80941-Hd1e108"]
+    }
+  },
+  "Gi9qrR-f80941-d1e127": {
+    "summary": "The divisio textus for Part Two, mapping the structure of Lombard's text beginning 'Cumque Divina natura'. Having shown that God is everywhere and therefore neither defined by place nor changed through places, Lombard here shows that every creature - not only corporeal but also spiritual - is defined by place and undergoes variation. The division traces: (1) that spiritual creatures, like corporeal ones, are defined by place and changed through time, since being somewhere entails not being everywhere, and every creature is in some way determined by place though not all move alike (corporeal creatures move through both time and place; spiritual creatures, per Augustine, move through time but not through place), with 'moving through time' explained as undergoing variation of interior or exterior qualities; (2) a specific inquiry, at 'De mutatione vero loci', into whether spirit is changed through places at all - narrating first an opinion that spiritual substance is in no way changed through place (since only what has dimensioned/extended being is properly 'in place'), then showing that spirit is nonetheless in some sense 'local' because it is defined by place even though not commensurate with it (clarifying that Augustine's denial that spirit is moved through places concerns only the bodily mode of local motion), and concluding that created spirits are local because place-defined, while God alone is uncircumscribed (proved by the authority of Ambrose). It further reinforces, via Augustine, that God alone is wholly immobile and uncircumscribable, then raises and resolves an objection: since new creatures continually come to be in which God begins to be present where he was not before, God seems to undergo some change - resolved by locating the novelty in the change of the creature, not in any change of God. The paragraph closes with an epilogue in which Giles notes that Lombard, having digressed from his intended topic of the cognition of God into the existence of God in things and of things in God, returns to that proper topic in the following distinction, and the lection and the distinction are thereby concluded.",
+    "claims": [
+      "Every creature, corporeal or spiritual, is defined by place, since to be somewhere is not to be everywhere",
+      "Corporeal creatures move through both time and place; spiritual creatures move only through time, not through place, in the strict sense",
+      "To move through time is to undergo variation of interior or exterior qualities",
+      "Spirits are 'local' in the sense of being place-defined even though they are not commensurate with place as bodies are",
+      "Augustine's statement that spirit is not moved through places concerns only the bodily mode of local motion, not place-definition as such",
+      "God alone is wholly immobile and uncircumscribed; created spirits, though not commensurately local, are nonetheless circumscribable and place-defined",
+      "God's beginning to be present in a newly-created thing does not entail change in God, but only change in the creature"
+    ],
+    "concepts": [
+      "esse loco diffiniri (being defined by place) vs. esse loco commensurari (being commensurate with place)",
+      "motion through time (per tempora) vs. motion through place (per loca)",
+      "circumscriptibility",
+      "divine immutability in relation to new creation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["Gi9qrR-f80941-d1e111"]
+    }
+  },
+  "Gi9qrR-f80941": {
+    "summary": "The prooemium to Distinction 37, Part Two, consisting of its rubric title and a divisio textus mapping Lombard's argument that, in contrast to God who is everywhere and neither place-defined nor mobile, every creature - including spiritual creatures - is place-defined and undergoes variation. It traces the distinction between motion through time and motion through place, establishes a qualified sense in which spirits are 'local' (place-defined without being commensurate with place), reaffirms that God alone is uncircumscribed and immobile, resolves an objection concerning apparent divine change at new creation, and closes with Giles noting Lombard's digression from the cognition of God to the existence of God in things, to be resumed in the next distinction.",
+    "claims": [],
+    "concepts": ["divisio textus", "structure of the Lombardian lectio"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": ["Gi9qrR-f80941-d1e111", "Gi9qrR-f80941-d1e127"]
+    }
+  }
+}
