@@ -1,0 +1,500 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "14a3b68bf9d0958dcf2d6bdacca28266c1b527dd",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-d1e901-d1e114": {
+    "summary": "Rubric paragraph giving the title of the first question of the Prologue, 'De causis theologiae'; carries no argumentative content.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-Hd1e108", "Gi9qrR-d1e901-Hd1e111"] }
+  },
+  "Gi9qrR-d1e901-d1e123": {
+    "summary": "Divisio paragraph: because the Lombard's prologue has touched on the causes of his work, Giles organizes his own prologue as an inquiry into the four causes of theology (material, formal, efficient, final), beginning with the material cause, which he subdivides into the subject considered in itself and what the science derives from its subject; since the question of theology's subject presupposes knowing whether theology is a special or common science, and that in turn presupposes distinguishing 'being the subject' of a science from 'being considered' in it, he announces three articles in that order.",
+    "claims": [
+      "Theology (divine science) can be examined according to its four causes: material, formal, efficient, and final.",
+      "Determining the subject of theology presupposes determining whether theology is a common or special science.",
+      "Whether theology is common or special presupposes clarifying the difference between being the subject of a science and being considered within it."
+    ],
+    "concepts": ["four causes of theology", "subiectum scientiae", "scientia communis vs. specialis", "divisio quaestionis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-Dd1e182", "Gi9qrR-d1e901-Dd1e750", "Gi9qrR-d1e901-Dd1e1544"] }
+  },
+  "Gi9qrR-d1e901-d1e187": {
+    "summary": "Rubric giving the title of Article 1: whether everything that is considered in a science is its subject.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-Hd1e184"] }
+  },
+  "Gi9qrR-d1e901-d1e196": {
+    "summary": "Opening two arguments for identifying the subject of a science with whatever is considered in it: (1) the subject is not that in which a science exists but that about which it is, and what a science is about is what it considers; (2) the subject is called the matter of a science, and the matter of a science, like the matter of a virtue, is that with which it is concerned, i.e. what it considers.",
+    "claims": [
+      "The subject of a science is that about which (de quo) the science is, not that in which (in quo) it exists.",
+      "If the subject is the matter of a science and the matter is whatever the science deals with, then subject and object-of-consideration coincide."
+    ],
+    "concepts": ["subiectum scientiae", "materia scientiae", "de quo vs. in quo"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e187"] }
+  },
+  "Gi9qrR-d1e901-d1e231": {
+    "summary": "Third opening argument: sciences are divided as things are (De anima 3); the things by which sciences are divided are the things they consider; but sciences are divided by their subjects; therefore being a subject and being considered in a science are the same.",
+    "claims": ["Since sciences are distinguished both by their subjects and by the things they consider, subject and object-of-consideration appear identical."],
+    "concepts": ["distinction of sciences", "subiectum scientiae"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e196"] }
+  },
+  "Gi9qrR-d1e901-d1e247": {
+    "summary": "Sed contra from Avicenna's Metaphysics: cause is not the subject of metaphysics, yet according to Aristotle it falls under the metaphysician's consideration because cause and caused (like act and potency) are differences of being; hence something can be considered in a science without being its subject.",
+    "claims": ["Cause is considered in metaphysics but is not its subject, so being considered and being the subject differ."],
+    "concepts": ["subject of metaphysics", "differentiae entis", "cause and caused"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e196"] }
+  },
+  "Gi9qrR-d1e901-d1e277": {
+    "summary": "Second sed contra: some things are considered in a science per accidens, and nothing takes its species from what is per accidens; but a science takes its species from its subject; so being considered and being the subject are not the same.",
+    "claims": ["A science takes its species from its subject, not from what it considers per accidens."],
+    "concepts": ["per accidens consideration", "specification of a science"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e247"] }
+  },
+  "Gi9qrR-d1e901-d1e293": {
+    "summary": "Editorial 'Resolutio' summarizing the article's answer: not everything considered in a science is its subject, though the subject is always among the things considered.",
+    "claims": ["Not everything considered by a science is its subject, although the subject is considered by it."],
+    "concepts": ["subiectum scientiae"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e308"] }
+  },
+  "Gi9qrR-d1e901-d1e308": {
+    "summary": "Opening of the determinatio: the subject of a science is that about which it is, not the intellect in which it exists (otherwise all sciences would share one subject and be confused); since every habit takes its species from its principal and formal object, the subject of a science is its principal and formal object; such an object is always considered by the science, but not everything considered is the subject, so the two relate as particular to universal.",
+    "claims": [
+      "The subject of a science is its principal and formal object, not the intellect in which the science inheres.",
+      "A science, being a habit, is specified by its principal object.",
+      "Every subject of a science is considered in it, but not everything considered is its subject; they differ as particular and universal."
+    ],
+    "concepts": ["subiectum as obiectum principale et formale", "habitus specified by object", "distinction of sciences"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e196", "Gi9qrR-d1e901-d1e293"] }
+  },
+  "Gi9qrR-d1e901-d1e373": {
+    "summary": "Argues that subject and object-of-consideration differ by listing five things a science derives from its subject — unity, distinction, dignity, order (subalternation, e.g. perspective under geometry), and necessity (non-superfluity) — and showing that if whatever is considered were a subject, one thing considered by several sciences would be the subject of many, and one science considering many things would have many subjects, destroying all five; it then begins a fourfold division of the ways something is considered in a science (per se, primo, principaliter et per omnem modum; per se et primo but not per omnem modum; ...), which continues into the next paragraph.",
+    "claims": [
+      "A science derives from its subject five features: unity, distinction, dignity, order, and necessity.",
+      "Identifying subject with whatever is considered would destroy the unity, distinction, dignity, order, and necessity of the sciences.",
+      "Things are considered in a science in four graded ways."
+    ],
+    "concepts": ["unity of science", "distinction of sciences", "dignity of a science", "subalternation", "necessity of a science", "modes of consideration"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e308", "Gi9qrR-d1e901-d1e508"] }
+  },
+  "Gi9qrR-d1e901-d1e508": {
+    "summary": "Continuation (a mid-sentence paragraph break) completing the fourfold division of modes of consideration: the second is per se and primo but not in every way, the third per se but not primo, and the fourth neither per se nor primo but per accidens and through another; the modes are to be illustrated from metaphysics.",
+    "claims": ["The four modes of consideration are: (1) per se, primo, principaliter, per omnem modum; (2) per se and primo but not per omnem modum; (3) per se but not primo; (4) per accidens and per aliud."],
+    "concepts": ["modes of consideration", "per se vs. per accidens"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e373", "Gi9qrR-d1e901-d1e521"] }
+  },
+  "Gi9qrR-d1e901-d1e521": {
+    "summary": "Illustrates the four modes of consideration in metaphysics: being is considered in the first mode and is the subject simpliciter; substance, in which the ratio of being is preserved more than in accidents, is considered in the second mode and can be called the subject in some way (as the 'health' to which all healthy things are attributed, Metaph. 4); by the same reasoning God, in whom the ratio of entity is most preserved, can be called the subject of metaphysics in some way, whence it is called divine science; accidents are considered in the third mode as parts of the subject; examples in the fourth mode, only per accidens. Hence 'considered in a science' is wider than 'subject': it may be the subject simply, in a way, or only a part of or something directly pertaining to the subject.",
+    "claims": [
+      "Being qua being is the subject of metaphysics simpliciter.",
+      "Substance, and in a further way God, can be called the subject of metaphysics aliquo modo because the ratio of being is more preserved in them.",
+      "Accidents are considered by the metaphysician per se but not primo, as parts of being.",
+      "Examples are considered only per accidens.",
+      "'Being considered in a science' extends more widely than 'being its subject'."
+    ],
+    "concepts": ["ens inquantum ens", "analogy of being (attributio)", "substance", "metaphysics as divine science", "modes of consideration"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e508", "Gi9qrR-d1e901-d1e676"] }
+  },
+  "Gi9qrR-d1e901-d1e676": {
+    "summary": "Completes the preceding sentence (things considered may pertain directly to the subject as its cause, property, or parts, or be introduced only per accidens) and then replies to the opening arguments: (1) a science is 'about' its subject only as what it is principally about; (2) 'matter' and 'subject' coincide only on a loose sense of subject, not the strict sense at issue; (3) sciences are distinguished not by what they consider simpliciter but by the formal rationes under which they consider it, which derive from their subjects.",
+    "claims": [
+      "Causes, properties, and parts of the subject pertain directly to the subject without being the subject.",
+      "A science is principally about its subject; other things it considers are related to it as particular to universal.",
+      "Different sciences can consider the same thing under different rationes, and that ratio derives from the subject.",
+      "Sciences are directly distinguished by their subjects, not by whatever they consider."
+    ],
+    "concepts": ["ratio formalis", "distinction of sciences", "materia vs. subiectum", "passio subiecti"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e521", "Gi9qrR-d1e901-d1e196", "Gi9qrR-d1e901-d1e231"] }
+  },
+  "Gi9qrR-d1e901-d1e755": {
+    "summary": "Rubric giving the title of Article 2: whether theology is a common or a special science.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-Hd1e752"] }
+  },
+  "Gi9qrR-d1e901-d1e768": {
+    "summary": "First argument that theology is a common science: a common science determines about all things; the Lombard says Scripture treats of things and signs, and Augustine (De doctrina christiana 1) says every teaching concerns either things or signs; so theology concerns everything.",
+    "claims": ["Since theology treats of res and signa, and all doctrine concerns res or signa, theology concerns everything and is therefore common."],
+    "concepts": ["res et signa", "scientia communis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e755"] }
+  },
+  "Gi9qrR-d1e901-d1e804": {
+    "summary": "Second argument for commonness: among human sciences the most abstract is the most common; theology is the most abstract; hence it is the most common.",
+    "claims": ["The most abstract science is the most common, and theology is most abstract."],
+    "concepts": ["abstraction", "scientia communis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e768"] }
+  },
+  "Gi9qrR-d1e901-d1e815": {
+    "summary": "Third argument for commonness: the wise man knows all things as far as possible (Metaph. 1), so wisdom is a common science; theology is wisdom par excellence (Ecclesiasticus 6); hence it is most common.",
+    "claims": ["Wisdom knows all things and so is a common science; theology is supremely wisdom."],
+    "concepts": ["sapientia", "scientia communis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e804"] }
+  },
+  "Gi9qrR-d1e901-d1e834": {
+    "summary": "Fourth argument for commonness: Scripture adapts itself to all, even little ones, using words from every kind of thing (Augustine, De Trinitate 1); what suits everyone must treat what is known to all — the 'door of the house' (Averroes, Metaph. 2) — and treating such common things belongs to a common science.",
+    "claims": ["Because Scripture accommodates itself to everyone, using what is commonly known, it belongs to a common science."],
+    "concepts": ["accommodation of Scripture", "communia known to all", "scientia communis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e815"] }
+  },
+  "Gi9qrR-d1e901-d1e864": {
+    "summary": "Sed contra: there cannot be two common sciences, for either both would consider being qua being (and so not be distinct), or only one would (and only it would be common), or neither (and neither would be common); since metaphysics is the common science, theology is not.",
+    "claims": ["There cannot be two common sciences, since the common science is defined by considering being qua being."],
+    "concepts": ["scientia communis", "ens inquantum ens", "uniqueness of metaphysics"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e755"] }
+  },
+  "Gi9qrR-d1e901-d1e888": {
+    "summary": "Second sed contra: it belongs to the common science to prove the principles of other sciences, as Aristotle, assuming the metaphysician's role, disputed with Parmenides and Melissus over the principles of natural philosophy (Physics 1); theology does not prove the principles of other sciences; so it is not common.",
+    "claims": ["The common science defends the principles of other sciences, which theology does not do."],
+    "concepts": ["defense of principles", "scientia communis", "metaphysics"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e864"] }
+  },
+  "Gi9qrR-d1e901-d1e908": {
+    "summary": "Editorial 'Resolutio' stating the article's conclusion: theology is a special science.",
+    "claims": ["Theology is a special science."],
+    "concepts": ["scientia specialis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1381"] }
+  },
+  "Gi9qrR-d1e901-d1e915": {
+    "summary": "Sets out the plan of the determinatio: four points must be seen — that a science's commonness and abstraction derive from its subject; whether being more abstract is the same as being more common; what it means for a science to be common; and (continued in the next paragraph) how Scripture differs from other sciences.",
+    "claims": ["The answer requires four preliminary clarifications about abstraction, commonness, and the distinctiveness of Scripture."],
+    "concepts": ["abstraction", "scientia communis", "divisio responsionis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e937"] }
+  },
+  "Gi9qrR-d1e901-d1e937": {
+    "summary": "Names the fourth preliminary (the differences between Scripture and other sciences) and begins proving the first: whatever gives a thing its being and species also gives it what diversifies its species, since things differ in specific being by the same principles that constitute them, as the differentia expresses the whole species and substance of the defined; the sentence continues into the next paragraph.",
+    "claims": ["That from which a thing has its being and species is also that by which it is distinguished from others."],
+    "concepts": ["differentia specifica", "constitution and distinction"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e915", "Gi9qrR-d1e901-d1e964"] }
+  },
+  "Gi9qrR-d1e901-d1e964": {
+    "summary": "Concludes the first point: since a science takes its being and species from its subject, it takes its commonness and abstraction from the subject too, because commonness and abstraction constitute essential differences among sciences — as shown by Aristotle's threefold abstraction in Metaph. 6 (natural science, mathematics, metaphysics/theology) and by his distinction in Metaph. 4 between the science of being qua being and the particular sciences.",
+    "claims": [
+      "A science derives its commonness and abstraction from its subject.",
+      "Degree of abstraction and degree of commonness each constitute essential differences among sciences.",
+      "Natural science abstracts from individual sensible matter, mathematics from sensible matter simply, metaphysics from all matter."
+    ],
+    "concepts": ["three degrees of abstraction", "scientia communis vs. particularis", "speculative sciences"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e937"] }
+  },
+  "Gi9qrR-d1e901-d1e1049": {
+    "summary": "Establishes the second and third points: greater abstraction and greater commonness both arise from the subject but are not the same, since (Metaph. 6) if there were no separate substance physics would be first and most common science while a remaining metaphysics would still be more abstract but not more common; and to call a science common is precisely to say it has for subject something common taken as common, not that it is more abstract.",
+    "claims": [
+      "Greater abstraction does not entail greater commonness.",
+      "A common science is one whose subject is something common considered precisely as common.",
+      "A special science has a special subject considered precisely as special."
+    ],
+    "concepts": ["abstraction vs. commonness", "scientia communis", "per se et proprie"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e964", "Gi9qrR-d1e901-d1e804"] }
+  },
+  "Gi9qrR-d1e901-d1e1151": {
+    "summary": "Gives the first two of four differences between Scripture and other sciences: (1) other sciences are acquired by human invention, Scripture by divine inspiration — an essential difference regarding the sciences in themselves, since sacred doctrine by its nature exceeds reason (Pseudo-Dionysius, De divinis nominibus 1); (2) consequently Scripture is not principally about sensibles, about what is in sensibles, nor does it include sensibles as part of its subject, because human sciences follow the human mode of knowing that begins from sense, whereas divine wisdom follows the divine mode, in which God knows himself principally and all else through himself — so Scripture principally intends knowledge of God alone and other things for the sake of it.",
+    "claims": [
+      "Sacred doctrine is by nature apt to be had by inspiration, not by rational investigation.",
+      "All humanly invented sciences have an essential relation to sensibles because human knowledge begins in sense.",
+      "Scripture follows the mode of divine wisdom, principally intending the knowledge of God and other things only for the sake of it."
+    ],
+    "concepts": ["divine inspiration", "theology vs. philosophical sciences", "modus humanus vs. modus divinus", "God as principal object of theology"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e915", "Gi9qrR-d1e901-d1e964"] }
+  },
+  "Gi9qrR-d1e901-d1e1293": {
+    "summary": "Third difference between Scripture and other sciences: the others have some universal as principal object, because their relation to sensibles requires it and there is no science of sensible particulars (Metaph. 7); theology, strictly speaking, has as principal object neither a universal nor a particular. The sentence runs into the next paragraph.",
+    "claims": ["Every human science has a universal as its principal object, whereas theology's principal object is neither universal nor particular."],
+    "concepts": ["universal as object of science", "no science of particulars"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1151", "Gi9qrR-d1e901-d1e1324"] }
+  },
+  "Gi9qrR-d1e901-d1e1324": {
+    "summary": "Completes the third difference (theology's principal object is God, neither universal nor particular) and gives the fourth: no science can know as many things in their proper form as theology, since other sciences know particulars only as they instantiate a universal, whereas divine science, following the mode of God's wisdom, can know all things in their proper form; that theologians fail to do so is due to our imperfect possession of the science, not to the science itself.",
+    "claims": [
+      "God, the principal object of theology, is neither universal nor particular.",
+      "Theology is in principle able to know more things in their proper form than any other science.",
+      "Theologians' limited knowledge reflects their imperfect possession of theology, not a limit in theology itself."
+    ],
+    "concepts": ["cognitio in propria forma", "theology as participation in divine knowledge", "imperfect possession of theology"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1293"] }
+  },
+  "Gi9qrR-d1e901-d1e1381": {
+    "summary": "Applies the preliminaries to solve the question: considered in its first and principal object, theology is the most special of sciences, intending knowledge of one single thing really (other sciences' universal objects being one only in reason, per Averroes on De anima 1); considered in what it treats secondarily, it extends to more things in proper form than any science and can be called most common. The thought continues into the next paragraph.",
+    "claims": [
+      "In its principal object theology is the most special of sciences, since it intends one thing that is really one.",
+      "The unity of a universal object is a unity of reason, not of reality.",
+      "With respect to its secondary objects theology could be called most common."
+    ],
+    "concepts": ["scientia specialis", "unity of reason vs. real unity", "principal vs. secondary object"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1324", "Gi9qrR-d1e901-d1e1430"] }
+  },
+  "Gi9qrR-d1e901-d1e1430": {
+    "summary": "Completes the solution: since in all matters one must attend to what is per se and principal rather than to what is per accidens (Ethics; art takes no care of the per accidens), theology must be granted simpliciter to be a special science.",
+    "claims": ["Because judgment follows what is per se and principal, theology is simpliciter a special science."],
+    "concepts": ["per se vs. per accidens", "scientia specialis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1381"] }
+  },
+  "Gi9qrR-d1e901-d1e1443": {
+    "summary": "Begins the replies: to the first argument, considering all things is not sufficient for a common science; it must consider all things principally as united in some common universal or analogous notion, as metaphysics does under being — which theology does not, since it considers per se and primo (continued in the next paragraph) God alone.",
+    "claims": ["A common science considers all things principally insofar as they are united in a common universal or analogous notion, which theology does not do."],
+    "concepts": ["scientia communis", "analogy", "ens as unifying notion"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e768", "Gi9qrR-d1e901-d1e1465"] }
+  },
+  "Gi9qrR-d1e901-d1e1465": {
+    "summary": "Completes the first reply and answers the rest: (2) the more abstract is not universally the more common, as the case of natural philosophy and mathematics shows; (3) the theologian knows all things in a way and is supremely wise, yet is not a common artisan, since his knowledge is per se of God alone; (4) Scripture adapts itself to all by using common examples to lead the simple to God, not because the science itself needs them but because our nature requires being led upward through a variety of sacred veils, as Pseudo-Dionysius says (Celestial Hierarchy 1).",
+    "claims": [
+      "Greater abstraction does not universally entail greater commonness.",
+      "The theologian is maximally wise without being a 'common artisan', since his science is per se of God alone.",
+      "Scripture's use of common, accessible things is a providential accommodation to human nature, not a need of the science itself."
+    ],
+    "concepts": ["sapientia", "anagogy", "accommodation of Scripture", "sacred veils"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1443", "Gi9qrR-d1e901-d1e804", "Gi9qrR-d1e901-d1e815", "Gi9qrR-d1e901-d1e834"] }
+  },
+  "Gi9qrR-d1e901-d1e1552": {
+    "summary": "Rubric giving the title of Article 3: what is the subject of Sacred Scripture (Sacra Pagina).",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-Hd1e1546", "Gi9qrR-d1e901-Hd1e1549"] }
+  },
+  "Gi9qrR-d1e901-d1e1559": {
+    "summary": "Statement of the third question: what is the subject of Sacra Pagina.",
+    "claims": [],
+    "concepts": ["subiectum theologiae"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1552"] }
+  },
+  "Gi9qrR-d1e901-d1e1566": {
+    "summary": "Opening arguments that God is the subject of Scripture: (1) a science is named after what is chiefly its subject, and Scripture is named from God ('divine'); (2) the subject is that under whose ratio all else is introduced, and everything in Scripture is introduced under the ratio of God, since whatever is determined there is called divine.",
+    "claims": [
+      "Theology is named from God and so has God as its subject.",
+      "Everything in Scripture is treated under the ratio of God."
+    ],
+    "concepts": ["subiectum theologiae", "sub ratione Dei"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1559"] }
+  },
+  "Gi9qrR-d1e901-d1e1589": {
+    "summary": "Third argument: Aristotle argues in three ways (Metaph. 6) that metaphysics is most of all about God — as most abstract, most noble, and first; the same three ways apply even more to theology, which is most abstract (not about sensibles at all, per Art. 2), most noble (resting on uncreated light), and prior to the other sciences (divine light being prior to the light of reason); hence God is the subject of theology.",
+    "claims": [
+      "Theology is most abstract, most noble, and first among the sciences.",
+      "Theology's nobility and priority derive from the uncreated divine light on which it rests.",
+      "That about which a science chiefly is, is its subject."
+    ],
+    "concepts": ["lumen increatum", "nobility of theology", "abstraction", "theology vs. metaphysics"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1566", "Gi9qrR-d1e901-d1e1151"] }
+  },
+  "Gi9qrR-d1e901-d1e1646": {
+    "summary": "Sed contra arguments against God's being the subject: (1) a science considers the parts and properties of one subject-genus, but God has neither; (2) no science proves the existence of its subject (Metaph. 6), yet the Lombard proves God exists (Sent. 1 d. 3); (3) every science presupposes the quid est of its subject, but what God is in essence is wholly unknown (John Damascene).",
+    "claims": [
+      "God lacks the parts and properties a subject of science must have.",
+      "A science does not prove its subject exists, yet theology proves God exists.",
+      "The essence of God is incomprehensible, so his quid est cannot be presupposed."
+    ],
+    "concepts": ["partes et passiones subiecti", "proof of God's existence", "quid est", "divine incomprehensibility"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1566"] }
+  },
+  "Gi9qrR-d1e901-d1e1688": {
+    "summary": "Editorial 'Resolutio' summarizing the article: after distinguishing subject from matter and theology from metaphysics, it is established that God as principle of our restoration and consummation of our glorification is the subject of theology.",
+    "claims": ["God, as the principle of our restoration and consummation of our glorification, is the subject of theology."],
+    "concepts": ["subiectum theologiae", "Deus restaurator et glorificator"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1704", "Gi9qrR-d1e901-d1e2176"] }
+  },
+  "Gi9qrR-d1e901-d1e1704": {
+    "summary": "Opening of the determinatio, which will clarify the difference between subject and matter and between theology and metaphysics. Since art imitates nature, the subject/matter distinction in science is modeled on nature: matter is pure potency to substantial form, whereas subject is a being in act receiving accidental form (Averroes, Metaph. 8); three differences follow — matter bears on substantial form, subject on accidental; matter is potency in every way, subject only in some way; and the subject's potentiality is contained in matter but not vice versa.",
+    "claims": [
+      "The distinction between subject and matter in a science is modeled on that between subject and matter in nature.",
+      "Matter is in pure potency to substantial form; a subject is something in act in potency to accidental form.",
+      "Matter and subject differ in three ways: in the form they receive, in the degree of potentiality, and in the scope of their potentiality."
+    ],
+    "concepts": ["materia vs. subiectum", "ars imitatur naturam", "potency and act", "substantial vs. accidental form"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1688"] }
+  },
+  "Gi9qrR-d1e901-d1e1826": {
+    "summary": "Maps the natural distinction onto science: to the two receptacles in nature correspond a principal and a secondary object in science; the principal object is not pure potency, since the science receives species and actuality from it, but is also in some way in potency, since whatever we know we know in the light of the agent intellect or some other light from which the object receives actuality.",
+    "claims": [
+      "A science has a principal object and a secondary object, corresponding to subject and matter in nature.",
+      "The principal object is in act relative to the science but in potency relative to the light in which it is known."
+    ],
+    "concepts": ["obiectum principale vs. secundarium", "lumen intellectus agentis", "potency and act"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1704"] }
+  },
+  "Gi9qrR-d1e901-d1e1855": {
+    "summary": "Develops the twofold actuality of a science — from its object (which gives unity and distinction and is more per se) and from its light — and shows that the secondary object is doubly in potency (receiving actuality both from the principal object, under whose ratio it is introduced, and from the light) while the principal object is in potency only to the light; this yields three differences paralleling those of subject and matter in nature, so the principal object is properly called the subject of a science and the secondary object its matter — an analogy taken from nature rather than from sense.",
+    "claims": [
+      "A science receives actuality from its object and from its light, the former being more essential to it.",
+      "The secondary object is introduced into a science only under the ratio of the principal object.",
+      "The principal object of a science is its subject and the secondary object its matter."
+    ],
+    "concepts": ["obiectum principale vs. secundarium", "lumen scientiae", "materia vs. subiectum scientiae", "ratio sub qua"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1826", "Gi9qrR-d1e901-d1e1704"] }
+  },
+  "Gi9qrR-d1e901-d1e1989": {
+    "summary": "Transition to the second preliminary: having seen how matter differs from subject in a science, Giles turns to how theology differs from metaphysics, announcing (in a sentence completed in the next paragraph) a threefold difference.",
+    "claims": [],
+    "concepts": ["theology vs. metaphysics"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1855", "Gi9qrR-d1e901-d1e2000"] }
+  },
+  "Gi9qrR-d1e901-d1e2000": {
+    "summary": "First difference between theology and metaphysics: metaphysics is a common science of being qua being, whereas theology, as Art. 2 showed, is not common per se — only consequently (treating more things than any human science) or by likeness (because God, as cause and container of all, resembles a common universal).",
+    "claims": [
+      "Metaphysics is a common science; theology is properly and principally not common.",
+      "Theology can be called common only consequentially or by similitude, because God is the cause of all."
+    ],
+    "concepts": ["scientia communis vs. specialis", "theology vs. metaphysics", "God as universal cause"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1989", "Gi9qrR-d1e901-Dd1e750"] }
+  },
+  "Gi9qrR-d1e901-d1e2033": {
+    "summary": "Applies the first difference critically: three positions on theology's subject take 'subject' improperly, naming its matter instead; the first, that 'things and signs' (res et signa, the Lombard's division) is the subject, fails because a special science cannot have something common as its subject, and all things fall under res or signa.",
+    "claims": ["'Things and signs' cannot be the subject of theology because they are common and theology is special; they designate its matter."],
+    "concepts": ["res et signa", "subject vs. matter", "scientia specialis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2000", "Gi9qrR-d1e901-d1e768"] }
+  },
+  "Gi9qrR-d1e901-d1e2057": {
+    "summary": "Second rejected position: 'divine being' (ens divinum) is not the subject of Scripture, because as its proponents take it — divine by essence, participation, union, and signification — everything falls under it, making it common.",
+    "claims": ["'Divine being' taken in the fourfold sense of essence, participation, union, and signification is too common to be theology's subject."],
+    "concepts": ["ens divinum", "participation", "subject vs. matter"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2033"] }
+  },
+  "Gi9qrR-d1e901-d1e2079": {
+    "summary": "Third rejected position: 'the knowable by inspiration' is not properly the subject, since anything could be known by inspiration and much in Scripture is neither the subject nor part of it; these three positions are not false but speak broadly, taking subject for matter. Giles then introduces the second difference between theology and metaphysics: because metaphysics is common, it determines in some way about everything any science treats, so if theology is about God, metaphysics must be too (continued in the next paragraph).",
+    "claims": [
+      "'Scibile per inspirationem' names theology's matter rather than its subject.",
+      "The positions rejected so far are not false but use 'subject' loosely for matter.",
+      "Because metaphysics is common, it treats in some way of whatever any other science treats, including God."
+    ],
+    "concepts": ["scibile per inspirationem", "subject vs. matter", "theology vs. metaphysics"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2057", "Gi9qrR-d1e901-d1e2127"] }
+  },
+  "Gi9qrR-d1e901-d1e2127": {
+    "summary": "Continues the second difference: metaphysics and theology cannot treat God under the same ratio, or they would be one science; metaphysics, as common, treats God in a common mode — as being and universal cause of beings — whereas theology, as special, treats its objects in a special mode (sentence continues).",
+    "claims": [
+      "Metaphysics and theology both treat God, but under different rationes.",
+      "Metaphysics treats God as being and universal cause of beings."
+    ],
+    "concepts": ["ratio formalis", "theology vs. metaphysics", "God as causa universalis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2079", "Gi9qrR-d1e901-d1e2154"] }
+  },
+  "Gi9qrR-d1e901-d1e2154": {
+    "summary": "Sentence fragment continuing the argument: theology determines in a special mode, so just as the subject of a common science is something common qua common, the subject of a special science must be (continued) something special qua special.",
+    "claims": ["The subject of a special science must be correspondingly special."],
+    "concepts": ["scientia specialis", "subiectum"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2127", "Gi9qrR-d1e901-d1e2165"] }
+  },
+  "Gi9qrR-d1e901-d1e2165": {
+    "summary": "Completes the inference: the subject of a special science must be special qua special, and therefore God, whom theology principally intends, must be its subject under some special ratio.",
+    "claims": ["God is the subject of theology only under some special ratio."],
+    "concepts": ["ratio specialis", "subiectum theologiae"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2154", "Gi9qrR-d1e901-d1e2176"] }
+  },
+  "Gi9qrR-d1e901-d1e2176": {
+    "summary": "Identifies the special ratio — God as principle of our restoration and consummation of our glorification (to be justified by the third difference) — and uses the second difference to reject four further positions that do not name God under a special ratio, beginning with the first: 'salutary good' (bonum salutare) fails because good is common to every being, and adding 'salutary' only yields a common thing under a special condition rather than a special thing under a special ratio.",
+    "claims": [
+      "The special ratio under which God is theology's subject is as principle of our restoration and consummation of our glorification.",
+      "'Bonum salutare' is not the proper subject of theology because 'good' is common to all beings."
+    ],
+    "concepts": ["Deus restaurator et glorificator", "bonum salutare", "convertibility of good and being"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2165", "Gi9qrR-d1e901-d1e2316"] }
+  },
+  "Gi9qrR-d1e901-d1e2228": {
+    "summary": "Second rejected position, attributed to Cassiodorus: the whole Christ, head and members, is the subject of theology; this takes 'subject' improperly, since it includes us, whereas the subject must be a being distinct from all others, namely God under a special ratio.",
+    "claims": ["'Christus integer' cannot be theology's proper subject because it includes the faithful, while the subject must be God under a special ratio."],
+    "concepts": ["Christus integer caput et membra", "subiectum theologiae"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2176"] }
+  },
+  "Gi9qrR-d1e901-d1e2248": {
+    "summary": "Third rejected position, attributed to Hugh of St. Victor on the Celestial Hierarchy: the works of restoration are theology's subject; this fails because restoration is a superadded condition, not the subject itself.",
+    "claims": ["The opera restaurationis are a condition added to the subject, not the subject of theology."],
+    "concepts": ["opera restaurationis", "subiectum theologiae"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2228"] }
+  },
+  "Gi9qrR-d1e901-d1e2264": {
+    "summary": "Fourth position: God (simpliciter) is the subject of theology; this comes closest to the proper notion but is insufficient, because a subject is never assigned to a science except under some ratio, otherwise sciences would be confused (sentence continues).",
+    "claims": ["'God' without qualification is closest to, but not a sufficient designation of, theology's subject."],
+    "concepts": ["subiectum theologiae", "ratio sub qua", "distinction of sciences"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2248", "Gi9qrR-d1e901-d1e2283"] }
+  },
+  "Gi9qrR-d1e901-d1e2283": {
+    "summary": "Completes the critique of the fourth position: since several sciences treat the same thing, it does not suffice to say God is the subject of Scripture, even though he is principally intended and all else is introduced under his ratio, unless a special condition is added — principle of our restoration and consummation of our glorification; all the reviewed positions thus speak of the subject broadly.",
+    "claims": [
+      "Even though God is principally intended in Scripture, 'God' must be qualified by a special condition to be its proper subject.",
+      "All the positions reviewed speak loosely of the subject."
+    ],
+    "concepts": ["Deus restaurator et glorificator", "ratio specialis", "subiectum theologiae"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2264"] }
+  },
+  "Gi9qrR-d1e901-d1e2309": {
+    "summary": "Introduces the third difference between theology and metaphysics: metaphysics does not consider God principally in every way (sentence continues into the next paragraph).",
+    "claims": [],
+    "concepts": ["theology vs. metaphysics"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2316"] }
+  },
+  "Gi9qrR-d1e901-d1e2316": {
+    "summary": "Completes the third difference: metaphysics considers God principally only in some way (per Art. 1), whereas theology considers God principally in every way; hence God is not the subject simpliciter in metaphysics but is the subject of theology under a special ratio, which is determined by the ratio under which knowledge of him is principally sought — and in theology we principally seek to know God as our restorer and glorifier.",
+    "claims": [
+      "Metaphysics considers God principally only in a certain respect; theology in every respect.",
+      "God is not the subject simpliciter of metaphysics but is the subject of theology.",
+      "The ratio under which a subject is considered is that under which its knowledge is principally intended; in theology that is God as restorer and glorifier."
+    ],
+    "concepts": ["Deus restaurator et glorificator", "theology vs. metaphysics", "practical-soteriological orientation of theology"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e2309", "Gi9qrR-d1e901-d1e521"] }
+  },
+  "Gi9qrR-d1e901-d1e2355": {
+    "summary": "Reply to the opening arguments that God is the subject: they speak truly but not the whole truth, since God is the subject only under a special ratio.",
+    "claims": ["The arguments for God as subject are true but incomplete, lacking the special ratio."],
+    "concepts": ["subiectum theologiae", "ratio specialis"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1566", "Gi9qrR-d1e901-d1e1589"] }
+  },
+  "Gi9qrR-d1e901-d1e2371": {
+    "summary": "Replies to the sed contra: (1) though God has no parts or properties, some things in theology function as parts and properties, or else an inspired science need not be judged like acquired ones; (2) no science directly proves its subject or principles, but they can be shown through signs and effects, and so theology proves God's existence by effects, not by cause (Averroes, Metaph. 12); (3) in via God's essence is unknown, but the nominal quid est can be known, which is what a science presupposes; alternatively, divine effects serve as the quid est in demonstration, though Giles judges this solution somewhat improper since it fails to distinguish demonstration propter quid from demonstration quia.",
+    "claims": [
+      "Some things in theology function analogously as parts and properties of its subject.",
+      "Theology proves God's existence through effects, as any science can indirectly establish its subject.",
+      "What a science presupposes about its subject is the nominal definition (quid nominis), which is knowable of God.",
+      "Treating divine effects as the quid est conflates demonstration quia with demonstration propter quid."
+    ],
+    "concepts": ["demonstratio quia vs. propter quid", "quid nominis", "proof of God's existence from effects", "inspired vs. acquired science"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-d1e901-d1e1646"] }
+  },
+  "Gi9qrR-d1e901-Dd1e182": {
+    "summary": "Article 1 establishes the distinction between being the subject of a science and merely being considered in it: the subject is the science's principal and formal object, from which it derives species, unity, distinction, dignity, order, and necessity, so not everything considered is the subject. Using metaphysics as the model, Giles grades four modes of consideration — being qua being (subject simpliciter), substance and God (subject in a certain way, by attribution), accidents (parts of the subject), and examples (per accidens) — and answers the opening arguments by showing that sciences are distinguished not by what they consider but by the ratio, derived from the subject, under which they consider it.",
+    "claims": [
+      "The subject of a science is its principal and formal object, not whatever it considers.",
+      "A science derives unity, distinction, dignity, order, and necessity from its subject.",
+      "Things are considered in a science in four graded modes, of which only the first yields the subject simpliciter.",
+      "Sciences are distinguished by the rationes under which they consider things, derived from their subjects."
+    ],
+    "concepts": ["subiectum scientiae", "modes of consideration", "distinction of sciences", "ens inquantum ens", "analogy of attribution"],
+    "_metadata": { "level": "article", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-d1e901-d1e187", "Gi9qrR-d1e901-d1e196", "Gi9qrR-d1e901-d1e231", "Gi9qrR-d1e901-d1e247", "Gi9qrR-d1e901-d1e277", "Gi9qrR-d1e901-d1e293", "Gi9qrR-d1e901-d1e308", "Gi9qrR-d1e901-d1e373", "Gi9qrR-d1e901-d1e508", "Gi9qrR-d1e901-d1e521", "Gi9qrR-d1e901-d1e676"] }
+  },
+  "Gi9qrR-d1e901-Dd1e750": {
+    "summary": "Article 2 concludes that theology is simpliciter a special science, against arguments that it is common because it treats things and signs, is most abstract, is supreme wisdom, and accommodates itself to all. Giles shows that commonness and abstraction both derive from a science's subject but are distinct; that a common science is one whose subject is something common qua common; and that Scripture differs from human sciences in four ways — it is inspired rather than invented, is not about sensibles because it follows the divine rather than human mode of knowing, has as principal object God, who is neither universal nor particular, and can in principle know more things in their proper form than any other science. Theology is thus most special in its principal object (one thing really one) though it could be called most common in its secondary objects; since judgment follows the per se, it is special.",
+    "claims": [
+      "Theology is simpliciter a special science.",
+      "Abstraction and commonness are distinct essential differences among sciences, both deriving from the subject.",
+      "Theology is inspired, not about sensibles, has God (neither universal nor particular) as principal object, and can know all things in proper form.",
+      "Scripture's accommodation to human capacity is providential pedagogy, not evidence of its being a common science."
+    ],
+    "concepts": ["scientia communis vs. specialis", "abstraction", "divine inspiration", "modus divinus", "cognitio in propria forma", "accommodation of Scripture"],
+    "_metadata": { "level": "article", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-d1e901-d1e755", "Gi9qrR-d1e901-d1e768", "Gi9qrR-d1e901-d1e804", "Gi9qrR-d1e901-d1e815", "Gi9qrR-d1e901-d1e834", "Gi9qrR-d1e901-d1e864", "Gi9qrR-d1e901-d1e888", "Gi9qrR-d1e901-d1e908", "Gi9qrR-d1e901-d1e915", "Gi9qrR-d1e901-d1e937", "Gi9qrR-d1e901-d1e964", "Gi9qrR-d1e901-d1e1049", "Gi9qrR-d1e901-d1e1151", "Gi9qrR-d1e901-d1e1293", "Gi9qrR-d1e901-d1e1324", "Gi9qrR-d1e901-d1e1381", "Gi9qrR-d1e901-d1e1430", "Gi9qrR-d1e901-d1e1443", "Gi9qrR-d1e901-d1e1465"] }
+  },
+  "Gi9qrR-d1e901-Dd1e1544": {
+    "summary": "Article 3 determines that the subject of theology is God under the special ratio of principle of our restoration and consummation of our glorification. Modeling science on nature, Giles distinguishes a science's principal object (its subject, in act relative to the science) from its secondary object (its matter, doubly in potency, introduced under the ratio of the principal object). He then gives three differences between theology and metaphysics — metaphysics is common, theology special; both treat God but under different rationes; metaphysics treats God principally only in some way, theology in every way — and uses them to reclassify rival accounts: 'things and signs', 'divine being', and 'the knowable by inspiration' name theology's matter, while 'salutary good', Cassiodorus's 'whole Christ', Hugh of St. Victor's 'works of restoration', and 'God' simpliciter lack the requisite special ratio. The replies explain how theology has quasi-parts and properties, proves God's existence through effects, and presupposes only God's nominal definition.",
+    "claims": [
+      "God, as principle of our restoration and consummation of our glorification, is the subject of theology.",
+      "The principal object of a science is its subject and the secondary object its matter.",
+      "Metaphysics and theology both treat God but under different rationes: metaphysics as being and universal cause, theology as restorer and glorifier.",
+      "Rival accounts of theology's subject either designate its matter or fail to specify a special ratio.",
+      "Theology proves God's existence by effects and presupposes only his quid nominis."
+    ],
+    "concepts": ["subiectum theologiae", "Deus restaurator et glorificator", "materia vs. subiectum", "obiectum principale vs. secundarium", "theology vs. metaphysics", "quid nominis"],
+    "_metadata": { "level": "article", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-d1e901-d1e1552", "Gi9qrR-d1e901-d1e1559", "Gi9qrR-d1e901-d1e1566", "Gi9qrR-d1e901-d1e1589", "Gi9qrR-d1e901-d1e1646", "Gi9qrR-d1e901-d1e1688", "Gi9qrR-d1e901-d1e1704", "Gi9qrR-d1e901-d1e1826", "Gi9qrR-d1e901-d1e1855", "Gi9qrR-d1e901-d1e1989", "Gi9qrR-d1e901-d1e2000", "Gi9qrR-d1e901-d1e2033", "Gi9qrR-d1e901-d1e2057", "Gi9qrR-d1e901-d1e2079", "Gi9qrR-d1e901-d1e2127", "Gi9qrR-d1e901-d1e2154", "Gi9qrR-d1e901-d1e2165", "Gi9qrR-d1e901-d1e2176", "Gi9qrR-d1e901-d1e2228", "Gi9qrR-d1e901-d1e2248", "Gi9qrR-d1e901-d1e2264", "Gi9qrR-d1e901-d1e2283", "Gi9qrR-d1e901-d1e2309", "Gi9qrR-d1e901-d1e2316", "Gi9qrR-d1e901-d1e2355", "Gi9qrR-d1e901-d1e2371"] }
+  },
+  "Gi9qrR-d1e901": {
+    "summary": "Prologue, Question 1, 'De causis theologiae', opens Giles's inquiry into theology through its four causes by treating the first aspect of its material cause, the subject considered in itself. In three cumulative articles it establishes that the subject of a science is its principal and formal object, distinct from the wider range of things it considers (Art. 1); that theology, being inspired, independent of sensibles, and principally about God alone, is simpliciter a special rather than a common science, despite extending to all things secondarily (Art. 2); and that its subject is therefore God under a special ratio — as principle of our restoration and consummation of our glorification — distinguishing theology from metaphysics, which treats God only under the common ratio of being and universal cause, and reclassifying rival accounts (res et signa, ens divinum, scibile per inspirationem, bonum salutare, Christus integer, opera restaurationis, Deus simpliciter) as naming theology's matter or lacking the needed special ratio (Art. 3).",
+    "claims": [
+      "The subject of a science is its principal and formal object, not everything it considers.",
+      "Theology is simpliciter a special science.",
+      "The subject of theology is God as principle of our restoration and consummation of our glorification.",
+      "Theology and metaphysics both treat God but under different rationes."
+    ],
+    "concepts": ["four causes of theology", "subiectum scientiae", "scientia communis vs. specialis", "theology vs. metaphysics", "Deus restaurator et glorificator", "divine inspiration"],
+    "_metadata": { "level": "question", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-d1e901-d1e114", "Gi9qrR-d1e901-d1e123", "Gi9qrR-d1e901-Dd1e182", "Gi9qrR-d1e901-Dd1e750", "Gi9qrR-d1e901-Dd1e1544"] }
+  }
+}

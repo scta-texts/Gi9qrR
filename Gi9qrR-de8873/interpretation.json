@@ -1,0 +1,63 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-30T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "14a3b68bf9d0958dcf2d6bdacca28266c1b527dd",
+    "generation_method": "hierarchical"
+  },
+  "Gi9qrR-de8873-d1e111": {
+    "summary": "Rubric introducing the literal doubts (dubitationes litterales) on the text of the Lombard's prologue; carries no argumentative content.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-de8873-Hd1e108"] }
+  },
+  "Gi9qrR-de8873-d1e116": {
+    "summary": "Resolves two literal doubts about the Lombard's prologue: (1) 'scaling the arduous' seems to violate Ecclesiasticus 3 ('seek not things higher than you'), but the prohibition concerns one relying on one's own strength, not on divine help, as the Lombard did; (2) his admitting 'presumption' seems to confess a sin, but the presumption was relative to his own powers, not to divine aid — or 'praesumptio' means 'prae-sumptio', taking up more than others, since he said more than they.",
+    "claims": [
+      "Seeking lofty things is forbidden only to one relying on his own strength, not on God's help.",
+      "The Lombard's 'presumption' is not sinful, being relative to his own powers or meaning that he undertook more than others."
+    ],
+    "concepts": ["dubitationes litterales", "praesumptio", "divine auxilium", "altiora te ne quaesieris"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-de8873-d1e111"] }
+  },
+  "Gi9qrR-de8873-d1e136": {
+    "summary": "Two further doubts: (1) the Lombard's claim to supererogate and add seems to contradict John Damascene's statement that we seek nothing beyond what the Law, Prophets, Apostles, and Evangelists have handed down — answered that nothing contrary may be added, but expository and declarative additions, such as the Lombard's, are permitted; (2) his saying the charity of God drove him seems to contradict that no one knows whether he is worthy of love or hatred — answered that 'charity' there means intense love, not gratuitous (infused) charity.",
+    "claims": [
+      "Expository and declarative additions to Scripture are legitimate; contrary additions are not.",
+      "One cannot know with certainty that one has gratuitous charity; the Lombard's 'charity' means intense love."
+    ],
+    "concepts": ["supererogation", "sufficiency of Scripture", "uncertainty of grace", "caritas gratuita vs. amor intensus"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-de8873-d1e116"] }
+  },
+  "Gi9qrR-de8873-d1e160": {
+    "summary": "Two further doubts: (1) the Lombard seems to order his three deterrents and incentives inconsistently, putting the incentive first in the first and third pairs but the deterrent first in the second — answered that the first and third deterrents have no aspect of good or desirability and so in no way move the appetite, whereas the second (the arduous) has the aspect of good and desirability, which accounts for the different order; (2) his saying truth offends and is hated seems impossible, since truth has no aspect of evil — answered that truth is hated not in itself but in its effects, insofar as it exposes some people's malice.",
+    "claims": [
+      "The arduousness of divine matters has the aspect of a desirable good, unlike the other deterrents.",
+      "Truth is not hated in itself but in its effects, when it exposes malice."
+    ],
+    "concepts": ["retractivum vs. incitativum", "ratio boni et desiderabilis", "hatred of truth"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-de8873-d1e136"] }
+  },
+  "Gi9qrR-de8873-d1e194": {
+    "summary": "Final doubt: the Lombard says heretics render their feigned piety impious by every lie of words, implying no truth in their sayings, which is impossible since every doctrine puts forward some truths — answered that their words, though true in themselves, were false relative to their intention, imitating their father the devil, who even when saying true things always intends to deceive (Augustine, De Trinitate 4).",
+    "claims": [
+      "Every doctrine, even heretical, contains some truths.",
+      "Words true in themselves can be false relative to a deceptive intention."
+    ],
+    "concepts": ["heresy", "truth and intention", "intentio fallendi", "devil as father of lies"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["Gi9qrR-de8873-d1e160"] }
+  },
+  "Gi9qrR-de8873": {
+    "summary": "The literal doubts on the Lombard's prologue resolve apparent difficulties in its wording: that 'scaling the arduous' and 'presumption' are licit when relying on divine help; that the Lombard's additions to Scripture are permissible as expository rather than contrary, and his 'charity' denotes intense love rather than an assured state of grace; that the varying order of deterrents and incentives reflects whether a deterrent has the aspect of desirable good; that truth is hated only in its effects, by exposing malice; and that heretics' words can be true in themselves yet false relative to their deceptive intention.",
+    "claims": [
+      "Inquiry into lofty things is licit when it relies on divine aid.",
+      "Expository additions to Scripture are legitimate.",
+      "Truth is hated only in its effects, not in itself.",
+      "True words can be false relative to a deceptive intention."
+    ],
+    "concepts": ["dubitationes litterales", "divine auxilium", "sufficiency of Scripture", "uncertainty of grace", "hatred of truth", "truth and intention"],
+    "_metadata": { "level": "div", "generation_method": "descendant_summaries", "input_ids": ["Gi9qrR-de8873-d1e111", "Gi9qrR-de8873-d1e116", "Gi9qrR-de8873-d1e136", "Gi9qrR-de8873-d1e160", "Gi9qrR-de8873-d1e194"] }
+  }
+}
